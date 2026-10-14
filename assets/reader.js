@@ -1,6 +1,6 @@
 (() => {
   const $=id=>document.getElementById(id);
-  const {t}=window.BABEL_I18N;
+  const t=window.BABEL_I18N?.t||((key,params={})=>key.replace(/\{(\w+)\}/g,(_,name)=>String(params[name]??'{'+name+'}')));
   const controls=['prev','next','font-down','font-up','chapter-select'];
   let book=null,rendition=null,fontSize=18,storageKey='',theme='light',generation=0,resizeReady=false;
   let currentTitle='阅览室',messageKey='可调字号 · 支持章节导航',messageParams={};

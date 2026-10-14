@@ -2,7 +2,7 @@
   const grid=document.getElementById('book-grid');
   const search=document.getElementById('search');
   const status=document.getElementById('result-status');
-  const {t}=window.BABEL_I18N;
+  const t=window.BABEL_I18N?.t||((key,params={})=>key.replace(/\{(\w+)\}/g,(_,name)=>String(params[name]??'{'+name+'}')));
   let category='全部';
   const node=(tag,cls,text)=>{const n=document.createElement(tag);n.className=cls;if(text!==undefined)n.textContent=text;return n;};
   const books=window.BABEL_BOOKS||[];

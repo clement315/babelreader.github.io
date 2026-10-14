@@ -126,7 +126,7 @@
   const stored = readStored();
   let language = valid(query) ? query : valid(stored) ? stored : 'zh';
   const t = (key,params={}) => (messages[key]?.[language] ?? key).replace(/\{(\w+)\}/g,(_,name)=>String(params[name] ?? '{'+name+'}'));
-  const ignored = '#book-grid,#book-detail,#reader-title,#reader-status,#placeholder-title,#placeholder-description,#chapter-select,#theme-toggle,script,style';
+  const ignored = '.language-switch,#book-grid,#book-detail,#reader-title,#reader-status,#placeholder-title,#placeholder-description,#chapter-select,#theme-toggle,script,style';
   const texts=[], attributes=[];
   const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
   while(walker.nextNode()) {
@@ -146,11 +146,10 @@
   const controls=[];
   const host=document.querySelector('.site-header nav,.reader-header');
   if(host) {
-    const label=document.createElement('label');label.className='language-switch';
-    const caption=document.createElement('span');
-    const select=document.createElement('select');select.id='site-language';label.htmlFor=select.id;
-    [['zh','中文'],['de','Deutsch'],['la','Latina']].forEach(([value,text])=>select.add(new Option(text,value)));
-    label.append(caption,select);host.append(label);controls.push({caption,select});
+    const select=document.getElementById('site-language');
+    const caption=host.querySelector('.language-switch span');
+    controls.push({caption,select});
+    select.disabled=false;
     select.addEventListener('change',()=>setLanguage(select.value));
   }
   const apply=()=>{

@@ -1,6 +1,7 @@
-// 巴别塔图书馆：25 本实际 EPUB。UTF-8 编码。
-// file 使用原文件名；请将这些 EPUB 上传到仓库的 books 文件夹。
-// 译者、底本及修订日期可在各条记录中继续补充；coverTitle 是封面短标题。
+// 巴别塔图书馆：27 本实际 EPUB。UTF-8 编码。
+// 新增古希腊、拉丁格律学习笔记；塞尔维乌斯评注归入“古典修辞学”。
+// file 保留原文件名；请将这些 EPUB 上传到仓库的 books 文件夹。
+// coverTitle 为封面短标题；“馆主”署名可替换为你的笔名。
 window.BABEL_BOOKS = [
   {
     "id": "jerome-genesis",
@@ -260,10 +261,10 @@ window.BABEL_BOOKS = [
     "coverTitle": "埃涅阿斯纪评注",
     "originalTitle": "In Vergilii Aeneidem",
     "author": "塞尔维乌斯",
-    "category": "古代注疏",
+    "category": "古典修辞学",
     "language": "拉丁文 · 中文",
-    "color": "wine",
-    "mark": "Σ",
+    "color": "slate",
+    "mark": "R",
     "description": "全十二卷，拉丁诗句、拉丁注释及中文译文对照；书内附修辞与语法术语表。",
     "translator": "EPUB 未注明；待补充",
     "edition": "全十二卷对照本；具体底本待补充。",
@@ -451,6 +452,45 @@ window.BABEL_BOOKS = [
     "file": "books/俄耳甫斯颂歌.epub",
     "demo": false,
     "sourceTitle": "俄耳甫斯颂歌"
+  },
+  {
+    "id": "greek-metrics-notes",
+    "title": "古希腊格律概要（学习笔记）",
+    "coverTitle": "古希腊格律概要",
+    "originalTitle": "Griechische Metrik",
+    "author": "馆主（笔记整理）",
+    "category": "古典修辞学",
+    "language": "中文笔记 · 希腊文诗例 · 德语术语",
+    "color": "slate",
+    "mark": "R",
+    "description": "据 Bruno Snell《希腊格律学》整理的学习笔记，涵盖格律符号、说白诗行、歌唱诗行、古代格律理论与韵律，并配有希腊诗例。",
+    "translator": "馆主（笔记整理）",
+    "edition": "扉页注明所据教材为 Bruno Snell《希腊格律学》；具体版次待补充。笔记按原书页码与 A—E 部分组织。",
+    "updated": "2026-10-14",
+    "file": "books/古希腊格律概要Griechscher Metrik.epub",
+    "demo": false,
+    "sourceTitle": "古希腊格律概要 Griechscher Metrik",
+    "type": "notes",
+    "sourceAuthor": "Bruno Snell（所据教材）"
+  },
+  {
+    "id": "latin-metrics-notes",
+    "title": "拉丁格律学（学习笔记）",
+    "coverTitle": "拉丁格律学笔记",
+    "originalTitle": "Römische Metrik",
+    "author": "馆主（笔记整理）",
+    "category": "古典修辞学",
+    "language": "中文笔记 · 拉丁文诗例 · 德语术语",
+    "color": "slate",
+    "mark": "R",
+    "description": "按教材第 1—189 条规则整理的拉丁格律学习笔记，涵盖音节长短、音步、诗尺、诗节、重音节奏与散文收束，附诗例和格律解读。",
+    "translator": "馆主（笔记整理）",
+    "edition": "依据 Römische Metrik 整理的第 1—189 条学习笔记；教材作者及版次未在 EPUB 中明确注明，待补充。",
+    "updated": "2026-10-14",
+    "file": "books/Römische_Metrik 拉丁格律学.epub",
+    "demo": false,
+    "sourceTitle": "Römische Metrik 拉丁格律学",
+    "type": "notes"
   }
 ];
 

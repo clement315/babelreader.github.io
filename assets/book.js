@@ -1,7 +1,7 @@
 (() => {
   const book=(window.BABEL_BOOKS||[]).find(b=>b.id===new URLSearchParams(location.search).get('id'));
   const main=document.getElementById('book-detail');
-  const {t}=window.BABEL_I18N;
+  const t=window.BABEL_I18N?.t||((key,params={})=>key.replace(/\{(\w+)\}/g,(_,name)=>String(params[name]??'{'+name+'}')));
   const el=(tag,cls,text)=>{const n=document.createElement(tag);n.className=cls;if(text!==undefined)n.textContent=text;return n;};
   const render=()=>{
   main.replaceChildren();
