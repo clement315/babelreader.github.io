@@ -26,7 +26,7 @@ window.BABEL_BOOKS = [
     "coverTitle": "伊利亚特注疏",
     "originalTitle": "Commentarii ad Homeri Iliadem",
     "author": "帖撒罗尼迦的欧斯塔修斯",
-    "category": "伊利亚特",
+    "category": "荷马学",
     "language": "希腊文 · 中文",
     "color": "ochre",
     "mark": "Ι",
