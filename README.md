@@ -5,9 +5,9 @@ Bibliotheca Turris Babel
 
 > Et idcirco vocatum est nomen eius Babel, quia ibi confusum est labium universae terrae…
 >
-> 因此，这城被称为巴别，因为全地的语言在那里被混淆了……
+> 因此这城名叫巴别，因为在那里变乱了天下人的言语
 >
-> ——[《创世记》11:9](https://vulgate.net/gn11-9)，武加大译本节选；中文为据拉丁文所译。
+> ——[《创世记》11:9](https://vulgate.net/gn11-9)
 
 巴别塔图书馆是一项个人翻译与阅读计划。它借用巴别塔的名字，希望通过翻译与注释，使散落在不同语言和时代中的文字，在中文中获得新的读者。
 
