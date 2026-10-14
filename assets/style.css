@@ -996,3 +996,31 @@ h2 {
     transition:none
   }
 }
+
+/* 三语切换与较长的德文、拉丁文排版。 */
+.language-switch {display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:11px;color:var(--muted)}
+.language-switch select {border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:6px 8px;font-size:12px;cursor:pointer}
+.site-header nav {flex-wrap:wrap;justify-content:flex-end;gap:18px}
+html:not([lang="zh-CN"]) {--serif:Georgia,'Noto Serif SC','Songti SC','SimSun',serif}
+html:not([lang="zh-CN"]) .brand {letter-spacing:.4px;font-size:21px}
+html:not([lang="zh-CN"]) .hero h1 {font-size:clamp(32px,3.6vw,47px);line-height:1.25;letter-spacing:-.5px;overflow-wrap:break-word}
+html:not([lang="zh-CN"]) .hero-description {max-width:470px}
+html:not([lang="zh-CN"]) .desktop-break {display:none}
+html:not([lang="zh-CN"]) .catalog-tools {align-items:flex-start}
+html:not([lang="zh-CN"]) .collection-strip .wrap {letter-spacing:.5px;flex-wrap:wrap}
+.book-meta {flex-wrap:wrap}
+.book-facts {grid-template-columns:minmax(90px,145px) minmax(0,1fr)}
+.reader-header .language-switch {flex-shrink:0}
+.reader-tools>div {flex-wrap:wrap}
+@media(max-width:1000px) {.site-header {flex-wrap:wrap;padding-block:20px}.site-header nav {gap:14px}}
+@media(max-width:760px) {
+  .site-header nav {justify-content:flex-start;gap:12px 18px}
+  .site-header .language-switch {margin-left:auto}
+  html:not([lang="zh-CN"]) .hero h1 {font-size:34px}
+  .reader-title {order:4}
+  .reader-header .language-switch {margin-left:auto}
+  .reader-tools>div {max-width:100%}
+  .reader-footer {flex-wrap:wrap}
+  .reader-message {order:3;flex-basis:100%}
+  .book-facts {grid-template-columns:minmax(75px,120px) minmax(0,1fr)}
+}
