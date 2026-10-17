@@ -1,7 +1,7 @@
 (() => {
  'use strict';
  const $=id=>document.getElementById(id), layout=document.querySelector('.close-layout');
- const release='20261017-classics-3';
+ const release='20261018-classics-4';
  let catalog,meta,pageData,lexicon,currentWord,activeButton,generation=0,lookupGeneration=0,font=25;
  const cache=new Map();
  const readStore=k=>{try{return localStorage.getItem(k);}catch{return null;}};

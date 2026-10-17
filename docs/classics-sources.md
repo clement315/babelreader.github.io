@@ -10,6 +10,8 @@
 | Philebus《斐勒布篇》 | 11a–67b | 1373 |
 | Sophist《智者篇》 | 216a–242b | 664 |
 | Parmenides《巴门尼德篇》 | 126a–166c | 1369 |
+| Alcibiades 1《阿尔西比亚德斯 1》 | 103a–135e | 1103 |
+| Apology《申辩篇》 | 17a–42a | 345 |
 
 前三部作品的希腊文及中文译文取自馆主指定的三份材料。结构分析保留理解句子所需的主干、从句、支配关系和省略说明，删去逐项词形清单及泛泛的风格评论，并改写冗长、夸饰的讲解。原 TXT 文件未改动。
 
@@ -21,23 +23,33 @@
 - [Philebus · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg010/)
 - [Sophist · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg007/)
 - [Parmenides · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg009/)
+- [Alcibiades 1 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg013/)
+- [Apology · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg002/)
 
 《巴门尼德篇》依 Perseus 的 Burnet 1910 电子本全文导入，收录 126a–166c。原 XML 保存在 `tools/parmenides-source.xml`；保留正文次序及用字，编辑标作删除的 `del` 内容不列入连续阅读正文。馆主提供的 `Parmenides.txt` 含前 1235 个句读单元，最后一句跨至 163a；中文及结构说明以此为参考，后续 134 个单元补充至全篇结束。来源摘要及校验值见 `docs/parmenides-import-report.json`。
+
+《阿尔西比亚德斯 1》及《申辩篇》分别按 Perseus `tlg013.perseus-grc2`、`tlg002.perseus-grc2` 全文核对；原始 XML 保存在 `tools/alcibiades1-source.xml` 和 `tools/apology-source.xml`。中文及结构说明参考馆主上传的 `Acibiades 1.txt`、`Apology.txt`。前者的第577、578条各重复粘贴了一次，导入时各保留一次。中文保留材料原有措辞，少量对应错位及结构说明的修订另存 `tools/additional-classics-edits.json`，仍可由馆主在网页自行修改；本次导入不等于全篇译注已完成语文学终校。
+
+电子正文作三处最小整理：去除《阿尔西比亚德斯 1》105d、《申辩篇》18b混入的 `>`；《申辩篇》36b–c游离的 `τ` 从 `τ τί ἄξιός` 移回 `ἐμαυτὸν ῷ ὄντι`，还原为 `τί ἄξιός`、`ἐμαυτὸν τῷ ὄντι`。后一处对照[希腊语中心所收原文36b–c](https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?page=14&text_id=104)；XML原件未改。导入校验将这几项明确整理计入比较，其余连续正文与指定电子本一致。
 
 Perseus原始电子文本许可：[CC BY-SA 3.0 US](https://creativecommons.org/licenses/by-sa/3.0/us/)。具体编辑说明保留于原稿。
 
 ## 德文原译：只摘录，不翻译
 
-采用馆主提供的《Gesammelte Werke》EPUB，书内署名译者 **Friedrich Daniel Ernst Schleiermacher**，前三部作品相关部分标注 **Akademie Verlag Berlin 1986**，《巴门尼德篇》标注 **1985**。此处书目信息据EPUB自身记录，未另行核对纸本。保留旧拼写、用词与标点，不以新德文替换。
+采用馆主提供的《Gesammelte Werke》EPUB，书内署名译者 **Friedrich Daniel Ernst Schleiermacher**，前三部作品相关部分标注 **Akademie Verlag Berlin 1986**，《巴门尼德篇》及《申辩篇》标注 **1985**，《阿尔西比亚德斯 1》标注 **1987**。此处书目信息据EPUB自身记录，未另行核对纸本。保留旧拼写、用词与标点，不以新德文替换。
 
 提取位置：
 
 - Symposium：`OEBPS/Text/part0017.xhtml`，正文172–223页；不收录该篇导言。
 - Philebus：`OEBPS/Text/part0019.xhtml`，11–67页。
 - Sophist：`OEBPS/Text/part0015.xhtml`，216–242页；不收录该篇导言。
+- Alcibiades 1：`OEBPS/Text/part0020.xhtml` 中正文标题“Alkibiades”之后，103–135页；排除前置导言。
+- Apology：`OEBPS/Text/part0006.xhtml` 中“Des Sokrates Verteidigung”标题之后，续至 `part0007.xhtml`，止于下一篇之前。整数页码为17–41，42a的结尾德文仍在EPUB所标41页中，保留实际来源页号。
 - Parmenides：标题位于 `OEBPS/Text/part0005.xhtml` 末尾，正文在 `part0006.xhtml`，126–166页；不收录前后相邻作品及导言。
 
 该 EPUB 只有 Stephanus 整数页标记，没有 a–e 小节或逐句编号。句读笔记采用原译中的对应句段：按页码、内容顺序与说话人匹配，并允许一句跨越整数页。德译把数个希腊短句合写时，相关单元共用完整原译句。所摘文字保留原文；匹配采用程序辅助并作抽查，不表示每一处已完成独立的语文学复核。《智者篇》最后一个摘录止于本栏目 242b 的对应句，不把该整数页的后续论述一并显示。
+
+《阿尔西比亚德斯 1》133c中本底本收录的四个句读单元（1001–1004）不见于所供施莱尔马赫译本；另有115d–e的答语及一组问答（391、407–408）、128a–b的衣物类比及答语（792–793）未单独译出。希腊文照收，德文栏明确说明缺少对应译文，数据以 `deStatus: not-in-source` 标记，不以相邻句冒充。德译把相邻提问合写时，只在相应单元共用原译句。
 
 **没有使用机器翻译生成、改写或补齐德文句译。此前材料中的德文句译与词汇德译不作为本栏目显示的译文。**
 
@@ -53,7 +65,7 @@ Perseus原始电子文本许可：[CC BY-SA 3.0 US](https://creativecommons.org/
 
 使用 **Alessandro Vatri & Barbara McGillivray (2018), The Diorisis Ancient Greek Corpus** 的自动标注，按Stephanus整页与词序逐词对齐，同时补充Morpheus词形候选，避免语料自身误选同形词时漏掉正确词条。原精读稿明确列出的动词词条与形态优先用于筛选候选；这不代表原稿已全部校订。正文仍以用户指定精读稿为准，语料不用于替换正文。同一词形可以有多个词条及多个形态。
 
-- [Diorisis 数据集与引用](https://doi.org/10.6084/m9.figshare.6187256.v1)，[CC BY-SA 3.0 US](https://creativecommons.org/licenses/by-sa/3.0/us/)。使用三个柏拉图XML文件，不附带分发整个语料库。
+- [Diorisis 数据集与引用](https://doi.org/10.6084/m9.figshare.6187256.v1)，[CC BY-SA 3.0 US](https://creativecommons.org/licenses/by-sa/3.0/us/)。使用本栏目对应的柏拉图XML文件，不附带分发整个语料库。
 - Morpheus/Diogenes词形资料经[Lyceum Archeion](https://github.com/lyceum-quest/archeion)的`v2026.04.09`版`morph.db`分发。下载文件已对照该版本公布的SHA-256校验。
 - [Diogenes](https://github.com/pjheslin/diogenes)由P. J. Heslin维护，词形分析源自[Perseus Morpheus](https://github.com/PerseusDL/morpheus)。[Lyceum数据来源说明](https://github.com/lyceum-quest/archeion/releases/download/v2026.04.09/DATA_PROVENANCE.md)。
 
@@ -69,6 +81,8 @@ Diorisis对应不等于人工确认；保留语料中的候选，不把自动选
 - `data/classics/pape.json`：本栏目实际用到的Pape词条，独立载入并缓存。
 - `tools/import_classics.py`：可重复运行的导入器，无翻译模型依赖。
 - `tools/import_parmenides.py`、`tools/parmenides-notes.json`：全篇《巴门尼德篇》的导入器及三栏笔记。另有词汇补充表与少量明确标明来源的词形补注。
+- `tools/import_additional_classics.py`、`tools/{alcibiades1,apology}-notes.json`：新增两篇的可复现导入及三栏笔记；对应的 `*-morphology.json`、`additional-classics-zh.json` 保存词形补注及中文短释。
+- `docs/{alcibiades1,apology}-import-report.json`：材料校验值、去重记录、德译匹配组与缺译单元、覆盖率。
 - `tools/classics-reading-notes.json`：三部作品的句读内容与摘录对应信息。
 - `tools/classics-structure-edits.json`：逐条改写的结构说明。
 - `tools/simplify_classics.py`：从原译检索对应句段、整理结构说明并写回网页资料；运行 `--apply` 应用结果。
@@ -79,7 +93,7 @@ Diorisis对应不等于人工确认；保留语料中的候选，不把自动选
 
 ## 馆主自行修改
 
-四部作品均提供网页编辑、浏览器本机保存、ZIP 导出与 JSON/ZIP 备份导入。导出的 ZIP 含有修改的完整页资料及可重新导入的备份；上传 GitHub 后才会影响公开网站。本机草稿按作品独立保存，导入时核对句读编号、页码及希腊原文，拒绝错配的备份。具体操作见 [自己修改精读笔记](../classics-help.html)。
+所有作品均提供网页编辑、浏览器本机保存、ZIP 导出与 JSON/ZIP 备份导入。导出的 ZIP 含有修改的完整页资料及可重新导入的备份；上传 GitHub 后才会影响公开网站。本机草稿按作品独立保存，导入时核对句读编号、页码及希腊原文，拒绝错配的备份。具体操作见 [自己修改精读笔记](../classics-help.html)。
 
 网页导出的页面在 `reading.ownerEdited` 中保留馆主修改标记。再次运行导入器时，`tools/owner_notes.py` 会在句读编号、页码和原文均一致时保留这些修改；不会用生成内容覆盖馆主已上传的笔记。
 

@@ -22,7 +22,7 @@ class ClassicsData(unittest.TestCase):
  def test_exact_source_greek_and_chinese(self):
   expected={'symposium':('Symposium_172a-223d_逐句精读_合订稿_原稿待校.txt',698),'philebus':('Philebus_11a-67b_逐句精读.txt',1373),'sophist':('Sophist_216a-242b_逐句精读_阶段稿.txt',664)}
   for w in self.catalog['works']:
-   if w['id']=='parmenides':continue # Checked against the complete TEI below.
+   if w['id'] not in expected:continue # Later additions are checked against complete TEI below.
    filename,count=expected[w['id']];source=(PROJECT/'output'/w['id']/filename).read_text(encoding='utf-8-sig')
    normalized_source=re.sub(r'\s+',' ',source)
    for old,new in {'οὕτωawi':'οὕτως','θαυμαστὴruk':'θαυμαστή','ταῦταวั':'ταῦτα'}.items():normalized_source=normalized_source.replace(old,new)
@@ -41,7 +41,7 @@ class ClassicsData(unittest.TestCase):
      for i,key in u['analyses'].items():
       self.assertTrue(u['tokens'][int(i)])
       self.assertTrue(page['analyses'][key]);count+=1
-  self.assertEqual(count,57994)
+  self.assertEqual(count,76997)
  def test_noun_case_gender_number_and_gloss(self):
   a=self.analyses('philebus','λόγον')
   self.assertTrue(any(x['lemma']=='λόγος' and x['pos']=='noun' and x['case']=='accusative' and x['gender']=='masculine' and x['number']=='singular' for x in a))
@@ -70,6 +70,8 @@ class ClassicsData(unittest.TestCase):
      for paragraph in page['german']:self.assertTrue(re.sub(r'\s+','',paragraph) in text,f'{w["id"]} German page {page["page"]}: {paragraph[:100]}')
      for u in page['units']:
       quote=u['reading']['de']
+      if u['reading'].get('deStatus')=='not-in-source':
+       self.assertEqual(w['id'],'alcibiades1');self.assertIn(u['id'],[391,407,408,792,793,1001,1002,1003,1004]);self.assertEqual(quote,'');continue
       self.assertTrue(re.search(r'[A-Za-zÄÖÜäöüß]',quote))
       self.assertTrue(re.sub(r'\s+','',quote) in text,f'{w["id"]} German unit {u["id"]}: {quote[:100]}')
      for aa in page['analyses'].values():
@@ -98,7 +100,9 @@ class ClassicsData(unittest.TestCase):
    for page in pages:
     for u in page['units']:
      self.assertEqual(set(u['notes']),{'中','结构'})
-     for key in ['zh','de','structure']:self.assertTrue(u['reading'][key].strip(),(work,u['id'],key))
+     for key in ['zh','de','structure']:
+      if key=='de' and u['reading'].get('deStatus')=='not-in-source':self.assertTrue(u['reading']['deNote']);continue
+      self.assertTrue(u['reading'][key].strip(),(work,u['id'],key))
      self.assertEqual(u['reading']['zh'],u['notes']['中'])
      self.assertEqual(u['reading']['structure'],u['notes']['结构'])
      self.assertNotRegex(u['reading']['structure'],r'主语为.*；谓语：|锁死|精妙|经典预提|句法与风格')
@@ -139,6 +143,56 @@ class ClassicsData(unittest.TestCase):
   self.assertTrue(any(a['lemma']=='ἀφικνέομαι' and a['tense']=='aorist' and a['person']=='1st' and a['number']=='plural' for a in self.analyses('parmenides','ἀφικόμεθα')))
   self.assertEqual([(a['lemma'],a['pos'],a['case']) for a in self.analyses('parmenides','Ἰβυκείου')],[('Ἰβύκειος','adjective','genitive')])
   self.assertTrue(all(a['lemma']=='ἔνειμι' and a['mood']=='optative' for a in self.analyses('parmenides','ἐνείη')))
+ def test_complete_additions_match_requested_canonical_editions(self):
+  import xml.etree.ElementTree as ET
+  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a')]:
+   source=ROOT/f'tools/{slug}-source.xml';tree=ET.parse(source);body=tree.find('.//{http://www.tei-c.org/ns/1.0}body')
+   for parent in list(body.iter()):
+    for child in list(parent):
+     if child.tag.rsplit('}',1)[-1] in ('del','note','head','label','bibl'):
+      child.text='';child[:]=[]
+   original=re.sub(r'\s+','',''.join(body.itertext())).replace('>','')
+   if slug=='apology':original=original.replace('ττίἄξιός','τίἄξιός').replace('ἐμαυτὸνῷὄντι','ἐμαυτὸντῷὄντι')
+   units=[u for p in self.pages[slug] for u in p['units']]
+   self.assertEqual(len(units),count);self.assertEqual([u['id'] for u in units],list(range(1,count+1)))
+   self.assertEqual(units[0]['ref'],first);self.assertEqual(units[-1]['ref'],last)
+   self.assertEqual(re.sub(r'\s+','',''.join(u['greek'] for u in units)),original)
+   self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),next(w for w in self.catalog['works'] if w['id']==slug)['greekSourceSha256'])
+   for u in units:self.assertEqual(''.join(u['tokens']),u['greek'])
+ def test_additions_use_uploaded_chinese_and_documented_edits(self):
+  edits=load(ROOT/'tools/additional-classics-edits.json')
+  for slug,filename in [('alcibiades1','Acibiades 1.txt'),('apology','Apology.txt')]:
+   path=Path(r'C:\Users\Haowen_wei\Desktop')/filename
+   if not path.exists():continue
+   source=re.sub(r'\s+',' ',path.read_text(encoding='utf-8-sig'))
+   for page in self.pages[slug]:
+    for u in page['units']:
+     expected=edits.get(f'{slug}:{u["id"]}',{}).get('zh')
+     if expected:self.assertEqual(u['reading']['zh'],expected)
+     else:self.assertIn(re.sub(r'\s+',' ',u['reading']['zh']),source)
+ def test_additions_german_boundaries_and_explicit_omissions(self):
+  units={u['id']:u for p in self.pages['alcibiades1'] for u in p['units']}
+  self.assertTrue(units[1]['reading']['de'].startswith('Sokrates: O Sohn des Kleinias'))
+  self.assertIn('Gutes.',units[389]['reading']['de'])
+  self.assertIn('Welches von beiden',units[388]['reading']['de'])
+  self.assertIn('Stärke der Stadt',units[1103]['reading']['de'])
+  missing=[u['id'] for u in units.values() if u['reading'].get('deStatus')=='not-in-source']
+  self.assertEqual(missing,[391,407,408,792,793,1001,1002,1003,1004])
+  apology={u['id']:u for p in self.pages['apology'] for u in p['units']}
+  self.assertTrue(apology[342]['reading']['de'].endswith('Das verdient an ihnen getadelt zu werden.'))
+  self.assertTrue(apology[343]['reading']['de'].startswith('Soviel jedoch bitte ich'))
+  self.assertIn('außer nur Gott.',apology[345]['reading']['de'])
+  self.assertEqual(self.pages['apology'][-1]['germanSource']['page'],'41')
+ def test_added_word_morphology_and_chinese(self):
+  for work,word,lemma,case,gender in [('alcibiades1','Ἀλκιβιάδη','Ἀλκιβιάδης','vocative','masculine'),('alcibiades1','Ζωροάστρου','Ζωροάστρης','genitive','masculine'),('alcibiades1','Λαμπιδώ','Λαμπιδώ','accusative','feminine'),('apology','Θεοζοτίδου','Θεοζοτίδης','genitive','masculine')]:
+   aa=self.analyses(work,word);self.assertTrue(any(a['lemma']==lemma and a['case']==case and a['gender']==gender and a['number']=='singular' for a in aa))
+  self.assertTrue(any(a['lemma']=='ἐπιλανθάνομαι' and a['tense']=='aorist' and a['person']=='1st' for a in self.analyses('apology','ἐπελαθόμην')))
+  self.assertTrue(any(a['lemma']=='πάσχω' and a['tense']=='perfect' and a['number']=='plural' for a in self.analyses('apology','πεπόνθατε')))
+  a=self.analyses('alcibiades1','Ἐρχίασιν');self.assertEqual(a[0]['pos'],'adverb');self.assertFalse(a[0].get('case'))
+  for slug in ['alcibiades1','apology']:
+   for page in self.pages[slug]:
+    for u in page['units']:
+     for key in u['analyses'].values():self.assertTrue(any(a['zh'] for a in page['analyses'][key]),(slug,u['id']))
  def test_owner_edits_survive_rebuilding_and_do_not_cross_greek(self):
   import tempfile
   spec=importlib.util.spec_from_file_location('owner_notes',ROOT/'tools/owner_notes.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)

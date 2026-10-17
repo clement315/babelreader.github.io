@@ -30,7 +30,7 @@ def german_segments(pages):
  text='';spans=[];speaker=''
  for page in pages:
   for para in page['german']:
-   match=re.match(r'^(Sokrates|Protarchos|Philebos|Theodoros|Theaitetos|Fremder|Apollodoros|Freund):',para)
+   match=re.match(r'^(Sokrates|Alkibiades|Protarchos|Philebos|Theodoros|Theaitetos|Fremder|Apollodoros|Freund):',para)
    if match:speaker=match[1]
    start=len(text);text+=para+'\n\n';spans.append((start,len(text),page['page'],speaker))
  # Abbreviations must not break a sentence. Retain source character offsets.
@@ -47,11 +47,11 @@ def german_segments(pages):
   page,speaker=next(((p,sp) for s,e,p,sp in spans if s<=char_start<e),spans[-1][2:])
   result.append({'text':quote,'page':page,'start':start,'end':end,'speaker':speaker})
  return text,result
-def align_units(units,segments,searches):
+def align_units(units,segments,searches,max_b=7,strict_speakers=False):
  """Monotone alignment with a one-page band for sentences crossing page marks."""
  n,m=len(units),len(segments)
  anchors_by_id={u['id']:searches[u['id']-1] for u in units}
- speaker_map={'苏格拉底':'Sokrates','普罗塔尔科斯':'Protarchos','斐勒布':'Philebos','忒奥多罗斯':'Theodoros','泰阿泰德':'Theaitetos','爱利亚客人':'Fremder','客人':'Fremder'}
+ speaker_map={'苏格拉底':'Sokrates','阿尔喀比亚德':'Alkibiades','阿尔西比亚德斯':'Alkibiades','普罗塔尔科斯':'Protarchos','斐勒布':'Philebos','忒奥多罗斯':'Theodoros','泰阿泰德':'Theaitetos','爱利亚客人':'Fremder','客人':'Fremder'}
  def greek_speakers(us):return [speaker_map.get(u['speaker'].split('（')[0],'') for u in us]
  def sequence(xs):return [x for i,x in enumerate(xs) if x and (i==0 or x!=xs[i-1])]
  tokenized=[set(words(s)) for s in [*anchors_by_id.values(),*(s['text'] for s in segments)]]
@@ -65,12 +65,12 @@ def align_units(units,segments,searches):
   for size in range(1,min(5,n-i)+1):
    atexts[i,size]=' '.join(anchors_by_id[u['id']] for u in units[i:i+size]);asets[i,size]=set(words(atexts[i,size]))
  for j in range(m):
-  for size in range(1,min(7,m-j)+1):
+  for size in range(1,min(max_b,m-j)+1):
    btexts[j,size]=' '.join(s['text'] for s in segments[j:j+size]);bsets[j,size]=set(words(btexts[j,size]))
  apages=[int(re.match(r'\d+',u['ref'])[0]) for u in units]
  bpages=[int(s['page']) for s in segments]
  bounds={p:(next(j for j,x in enumerate(bpages) if x>=p-1),next((j for j,x in enumerate(bpages) if x>p+1),m)) for p in set(apages)}
- speaker_sensitive=any(s['speaker'] in ('Protarchos','Theaitetos') for s in segments)
+ speaker_sensitive=any(s['speaker'] in ('Protarchos','Theaitetos','Alkibiades') for s in segments)
  aspeakers={(i,k):sequence(greek_speakers(units[i:i+k])) for i,k in atexts}
  bspeakers={(j,k):sequence([s['speaker'] for s in segments[j:j+k]]) for j,k in btexts}
  atotal={k:sum(weight.get(t,1) for t in v) for k,v in asets.items()};btotal={k:sum(weight.get(t,1) for t in v) for k,v in bsets.items()}
@@ -80,7 +80,7 @@ def align_units(units,segments,searches):
   for j in range(lo,hi+1):
    if (i,j) not in dp:continue
    cost=dp[i,j][0]
-   for na,nb in [(1,k) for k in range(1,8)]+[(k,1) for k in range(2,6)]+[(2,2),(2,3),(3,2)]:
+   for na,nb in [(1,k) for k in range(1,max_b+1)]+[(k,1) for k in range(2,6)]+[(2,2),(2,3),(3,2)]:
     if i+na>n or j+nb>m:continue
     a=atexts[i,na];b=btexts[j,nb]
     aa=asets[i,na];bb=bsets[j,nb]
@@ -90,6 +90,7 @@ def align_units(units,segments,searches):
     penalty=abs(math.log(max(8,length_a)/max(8,length_b)))
     asp=aspeakers[i,na];bsp=bspeakers[j,nb]
     speaker_penalty=4 if speaker_sensitive and asp and bsp and asp!=bsp else 0
+    if strict_speakers and speaker_penalty:speaker_penalty=10 if na==1 else .5
     page_penalty=.35*abs(apages[i]-bpages[j])
     step=(1-similarity)*na+min(2.5,penalty)*.28+.55*(na-1)+.08*(nb-1)+speaker_penalty+page_penalty
     target=(i+na,j+nb)

@@ -65,7 +65,7 @@
      const area=el('textarea','note-input');area.id=id;area.lang=lang;area.rows=field==='structure'?4:3;area.value=value[field];area.spellcheck=false;
      area.addEventListener('input',()=>{const next={...reading(u),[field]:area.value};pending.set(u.id,next);message('有尚未保存的修改。');});
      section.append(labelNode,area);
-    }else{const p=el('p','',value[field]);p.lang=lang;section.append(el('h3','note-label',label),p);}
+    }else{const p=el('p','',value[field]||(field==='de'?u.reading.deNote||'':''));p.lang=field==='de'&&!value[field]?'zh-CN':lang;section.append(el('h3','note-label',label),p);}
     host.append(section);
    }
   }
