@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "name": "Loads catalog and current question only",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "Corrected Chinese quotation and title marks render from question JSON",
+      "passed": true
+    },
+    {
+      "name": "Bilingual Grid rows align; long-cell stress does not overlap",
+      "passed": true,
+      "detail": 108
+    },
+    {
+      "name": "Three reading modes and URL persistence",
+      "passed": true
+    },
+    {
+      "name": "Article navigation, cache and browser history",
+      "passed": true
+    },
+    {
+      "name": "Aquinas.cc Latin question and article titles render in the left column",
+      "passed": true
+    },
+    {
+      "name": "Previous/next crosses question boundary",
+      "passed": true
+    },
+    {
+      "name": "Next crosses part boundary",
+      "passed": true
+    },
+    {
+      "name": "All five parts and both appendices navigate with correct boundaries",
+      "passed": true
+    },
+    {
+      "name": "PDF-corrected I Q71 and Q72 Chinese rows are aligned",
+      "passed": true
+    },
+    {
+      "name": "Source PDF page gap is marked and surviving Article 2 text is in the correct article",
+      "passed": true
+    },
+    {
+      "name": "Missing Chinese article is explicit, not fabricated",
+      "passed": true
+    },
+    {
+      "name": "Dark theme persists and restores",
+      "passed": true
+    },
+    {
+      "name": "Latin word lookup integration hook",
+      "passed": true
+    },
+    {
+      "name": "Stale requests cannot overwrite later navigation",
+      "passed": true
+    },
+    {
+      "name": "Missing question has a recoverable error, not stale text",
+      "passed": true
+    },
+    {
+      "name": "Invalid routes rejected",
+      "passed": true
+    },
+    {
+      "name": "Catalog failure falls back honestly to embedded Q1",
+      "passed": true
+    },
+    {
+      "name": "Direct file:// opening uses genuine Q1 without CORS fetch",
+      "passed": true
+    },
+    {
+      "name": "390px mobile has alternating cells and no horizontal overflow",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "ordered": true,
+        "grid": "348px"
+      }
+    },
+    {
+      "name": "Mobile tree navigation closes overlay and updates active question",
+      "passed": true
+    },
+    {
+      "name": "320px small-screen layout has no overflow",
+      "passed": true
+    },
+    {
+      "name": "Unified bookshelf opens JSON reader",
+      "passed": true
+    },
+    {
+      "name": "Book detail routes to JSON reader without fake EPUB download",
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row in all 613 reading units equals the corrected data",
+      "passed": true,
+      "detail": {
+        "questions": 613,
+        "articles": 3125,
+        "rows": 39507
+      }
+    }
+  ],
+  "errors": []
+}

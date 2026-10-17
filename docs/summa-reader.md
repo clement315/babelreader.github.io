@@ -2,7 +2,7 @@
 
 網站入口為 `summa.html?part=I&q=1&art=1`。書架封面、書名與閱讀按鈕均進入專用 JSON 閱讀器；原有 EPUB 書籍沿用既有入口。
 
-資料涵蓋 I、I_II、II_II、III、SUPPL 五部共611問、3115節，另含補編兩篇附錄共10節。全書前言、部序和補編導覽亦可從目錄開啟。正文與校對初修HTML的資料逐問比對完全相同；沒有再次轉換中文或改動拉丁文。
+資料涵蓋 I、I_II、II_II、III、SUPPL 五部共611問、3115節，另含補編兩篇附錄共10節。全書前言、部序和補編導覽亦可從目錄開啟。最初匯入時與校對初修HTML逐問相同；2026-10-17另完成中文引號與書名號OCR專項修復，拉丁文及資料結構保留。
 
 ## 載入方式
 
@@ -21,6 +21,9 @@
 - [逐項修訂記錄](summa/revisions.txt)
 - [待校說明與漏字線索](summa/pending-review.txt)
 - [結構化修訂記錄](summa/corrections.json)
+- [中文引號與書名號專項修復](summa/punctuation-repairs.md)
+- [本次規則及各檔案統計](summa/punctuation-repairs.json)
+- [標點待人工複核線索](summa/punctuation-pending.json)
 
 ## 更新資料
 
@@ -31,6 +34,8 @@ python tools/import_proofread_summa.py /path/to/proofread/summa.html
 ```
 
 此工具保留所有中拉正文，輸出逐問JSON、目錄、版本及第一問fallback。原始掃描本與OCR頁面快取不需要上傳。
+
+重新匯入舊版初修HTML後，須另執行 `python tools/repair_summa_punctuation.py --write`，套用標點修復並更新快取版本；不加 `--write` 則只檢查，不寫入資料。原有 `import-validation.json` 是初次匯入的歷史記錄，本次修復的統計另存於 `punctuation-repairs.json`。
 
 ## 查詞與主題接口
 

@@ -22,10 +22,16 @@ const ok = (name, detail) => report.checks.push({ name, passed: true, ...(detail
   await page.goto(base+'/summa.html?part=I&q=1&art=1');await ready(page,'ST.I.Q1.A1');
   assert.equal(await page.locator('.article').count(),10);
   assert.equal(await page.locator('.sidebar').getAttribute('inert'),null);
-  assert.deepEqual(requests.map(u=>new URL(u).pathname),[new URL(base).pathname+'/data/summa/catalog.json',new URL(base).pathname+'/data/summa/I/q1.json']);
+  const basePath = new URL(base).pathname.replace(/\/$/,'');
+  assert.deepEqual(requests.map(u=>new URL(u).pathname),[basePath+'/data/summa/catalog.json',basePath+'/data/summa/I/q1.json']);
   assert(requests.every(u=>new URL(u).searchParams.get('v')===catalog.release));
   assert.equal(await page.locator('.question-node').count(),613);assert.equal(await page.locator('a.article-link[href]').count(),3125);
   ok('Loads catalog and current question only',requests.length);
+  const chineseText = (await page.locator('#question-content [lang="zh-Hant"]').allTextContents()).join('\n');
+  assert(chineseText.includes('「地球是圓的」'));
+  assert(chineseText.includes('《教會階級論》'));
+  assert(!chineseText.includes('《基本教理手冊))'));
+  ok('Corrected Chinese quotation and title marks render from question JSON');
   const geometry=await page.evaluate(()=>[...document.querySelectorAll('.bilingual-row:not(.column-heads)')].map(row=>{const cells=[...row.children].filter(n=>n.classList.contains('cell'));return cells.length===2?{kind:row.dataset.kind,topDelta:Math.abs(cells[0].getBoundingClientRect().top-cells[1].getBoundingClientRect().top),columns:getComputedStyle(row).gridTemplateColumns,gap:getComputedStyle(row).columnGap}:null;}).filter(Boolean));
   assert(geometry.every(r=>r.topDelta<.6&&r.gap==='40px'));
   const stress=await page.evaluate(()=>{const row=document.querySelector('[data-kind="objection"]');const chinese=row.querySelector('[lang="zh-Hant"]');chinese.style.minHeight='650px';const next=row.nextElementSibling;const good=next.getBoundingClientRect().top>=Math.max(...[...row.children].map(c=>c.getBoundingClientRect().bottom));chinese.style.minHeight='';return good;});
