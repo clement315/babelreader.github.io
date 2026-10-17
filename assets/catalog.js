@@ -4,6 +4,25 @@
 // coverTitle 为封面短标题；“馆主”署名可替换为你的笔名。
 window.BABEL_BOOKS = [
   {
+    "id": "summa-theologiae",
+    "title": "神学大全",
+    "coverTitle": "神学大全",
+    "originalTitle": "Summa Theologiae",
+    "author": "圣多玛斯・阿奎那",
+    "category": "神学著作",
+    "language": "拉丁文 · 繁体中文",
+    "color": "green",
+    "mark": "ST",
+    "description": "五部611问及补编两篇附录的中拉双语平行阅读。逐段对照质疑、反之、正解与释疑；中文为原PDF校对初修。",
+    "translator": "中文扫描本；译者及版本信息待补充",
+    "edition": "拉丁文据 Corpus Thomisticum / Aquinas.cc；中文据原扫描本，已完成202笔原页核对修订，尚未全书逐字校毕。",
+    "updated": "2026-10-17",
+    "reader": "summa",
+    "readUrl": "summa.html?part=I&q=1&art=1",
+    "file": "",
+    "demo": false
+  },
+  {
     "id": "jerome-genesis",
     "title": "创世纪希伯来问题",
     "coverTitle": "创世纪希伯来问题",
