@@ -27,6 +27,7 @@
     ['古代注疏','Antike Kommentare','Commentarii antiqui'],
     ['古典修辞学','Antike Rhetorik','Rhetorica antiqua'],
     ['古典作品','Antike Werke','Opera antiqua'],
+    ['古典作品精读','Antike Texte genau lesen','Lectio accurata operum antiquorum'],
     ['神学著作','Theologische Werke','Opera theologica'],
     ['THE COLLECTION','DIE SAMMLUNG','LIBRI COLLECTI'],
     ['沿着一部作品，开启一段阅读。','Mit einem Werk beginnt eine neue Lektüre.','Ab uno opere nova lectio incipit.'],

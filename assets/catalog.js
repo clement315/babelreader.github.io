@@ -515,3 +515,10 @@ window.BABEL_BOOKS = [
 
 // 内置试读样本独立保留在阅览室。
 window.BABEL_READING_SAMPLE = {id:'reading-demo',title:'巴别塔阅读样本',file:'books/reading-demo.epub'};
+
+// 原文逐词阅读器；精读稿范围与校订状态按馆主提供的文件保留。
+window.BABEL_BOOKS.push(
+ {id:'plato-symposium-close',title:'会饮篇 · 逐词精读',coverTitle:'会饮篇',originalTitle:'Συμπόσιον · Symposium',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'ochre',mark:'Σ',description:'172a–223d合订稿。希腊原文逐词点击，查看形态候选与中德释义；172a–185e原稿待校。',edition:'希腊文据原精读稿；德文据Schleiermacher译本；词典Pape。',translator:'中文据馆主提供的精读稿；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=symposium',demo:false},
+ {id:'plato-philebus-close',title:'斐勒布篇 · 逐词精读',coverTitle:'斐勒布篇',originalTitle:'Φίληβος · Philebus',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'green',mark:'Φ',description:'11a–67b全篇精读稿。正文默认只显示希腊文，点击词语查看语法、中德释义及原译参照。',edition:'Perseus希腊文；Schleiermacher德译；Pape词典。',translator:'中文据馆主提供的精读稿；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=philebus',demo:false},
+ {id:'plato-sophist-close',title:'智者篇 · 逐词精读（阶段稿）',coverTitle:'智者篇',originalTitle:'Σοφιστής · Sophist',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'wine',mark:'Σ',description:'精读已收录216a–242b。点击希腊词语查看形态候选、词典与句法笔记；242b之后尚未收录。',edition:'Perseus希腊文；Schleiermacher德译；Pape词典。',translator:'中文据馆主提供的精读稿；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=sophist',demo:false}
+);

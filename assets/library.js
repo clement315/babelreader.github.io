@@ -11,9 +11,9 @@
     const matches=books.filter(b=>(category==='全部'||b.category===category)&&[b.title,b.originalTitle,b.author,b.description,t(b.category)].join(' ').toLocaleLowerCase().includes(q));
     grid.replaceChildren();
     matches.forEach((b,i)=>{
-      const readable=Boolean(b.file||b.reader==='summa');
+      const readable=Boolean(b.file||b.readUrl);
       const card=node('article','book-card');
-      const cover=node('a','book-cover '+b.color);cover.href=b.reader==='summa'?b.readUrl:'book.html?id='+encodeURIComponent(b.id);cover.setAttribute('aria-label',t('查看《{title}》介绍',{title:b.title}));
+      const cover=node('a','book-cover '+b.color);cover.href=b.readUrl||'book.html?id='+encodeURIComponent(b.id);cover.setAttribute('aria-label',t('查看《{title}》介绍',{title:b.title}));
       cover.append(node('span','cover-series','BIBLIOTHECA · '+String(books.indexOf(b)+1).padStart(2,'0')),node('span','cover-symbol',b.mark),node('span','cover-title',b.coverTitle||b.title),node('span','cover-original',b.originalTitle),node('span','cover-author',b.author));
       const meta=node('div','book-meta');meta.append(node('span','category',t(b.category)),node('span',readable?'availability ready':'availability',t(readable?'可在线阅读':(b.demo?'示范书目':'仅书目'))));
       const h=node('h3','');const a=node('a','',b.title);a.href=cover.href;h.append(a);
