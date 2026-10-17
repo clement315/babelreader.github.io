@@ -63,9 +63,14 @@ class ClassicsData(unittest.TestCase):
    for w in self.catalog['works']:
     text=z.read('OEBPS/Text/'+w['germanFile']).decode('utf-8')
     text=re.sub(r'\s+','',html.unescape(re.sub('<[^>]+>','',text)))
+    text=re.sub(r'\(\d{1,3}\)','',text) # Editorial page markers may split a sentence.
     for page in self.pages[w['id']]:
      self.assertTrue(page['german'],page['page'])
      for paragraph in page['german']:self.assertTrue(re.sub(r'\s+','',paragraph) in text,f'{w["id"]} German page {page["page"]}: {paragraph[:100]}')
+     for u in page['units']:
+      quote=u['reading']['de']
+      self.assertTrue(re.search(r'[A-Za-zÄÖÜäöüß]',quote))
+      self.assertTrue(re.sub(r'\s+','',quote) in text,f'{w["id"]} German unit {u["id"]}: {quote[:100]}')
      for aa in page['analyses'].values():
       for a in aa:
        if a.get('deName'):self.assertIn(a['deName'],' '.join(page['german']))
@@ -83,5 +88,28 @@ class ClassicsData(unittest.TestCase):
  def test_partial_sophist_boundary(self):
   w=next(w for w in self.catalog['works'] if w['id']=='sophist')
   self.assertEqual(w['pages'][-1],'242');self.assertEqual(self.pages['sophist'][-1]['units'][-1]['ref'],'242b')
-  self.assertIn('阶段稿',w['status'])
+  self.assertEqual(w['range'],'216a–242b')
+  self.assertNotIn('status',w)
+  self.assertIn('deshalb also gehe nur dreist zu.',self.pages['sophist'][-1]['units'][-1]['reading']['de'])
+  self.assertNotIn('Jeder scheint',self.pages['sophist'][-1]['units'][-1]['reading']['de'])
+ def test_reading_notes_have_only_three_display_fields(self):
+  for work,pages in self.pages.items():
+   for page in pages:
+    for u in page['units']:
+     self.assertEqual(set(u['notes']),{'中','结构'})
+     for key in ['zh','de','structure']:self.assertTrue(u['reading'][key].strip(),(work,u['id'],key))
+     self.assertEqual(u['reading']['zh'],u['notes']['中'])
+     self.assertEqual(u['reading']['structure'],u['notes']['结构'])
+     self.assertNotRegex(u['reading']['structure'],r'主语为.*；谓语：|锁死|精妙|经典预提|句法与风格')
+ def test_first_philebus_german_sentences_are_distinct(self):
+  a,b,c=self.pages['philebus'][0]['units'][:3]
+  self.assertTrue(a['reading']['de'].endswith('gesprochen sein.'))
+  self.assertEqual(b['reading']['de'],'Wollen wir sie uns beide noch einmal wiederholen?')
+  self.assertEqual(c['reading']['de'],'Protarchos: Allerdings.')
+ def test_word_panel_has_no_repeated_sentence_notes(self):
+  script=(ROOT/'assets/classics.js').read_text(encoding='utf-8')
+  self.assertNotIn('showContext',script)
+  self.assertNotIn('panel-context',script)
+  self.assertNotIn('原精读稿',script)
+  for label in ['中文译文','施莱尔马赫译文','结构分析']:self.assertIn(label,script)
 if __name__=='__main__':unittest.main()

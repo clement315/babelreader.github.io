@@ -1,7 +1,7 @@
 (() => {
  'use strict';
  const $=id=>document.getElementById(id), layout=document.querySelector('.close-layout');
- const release='20261017-classics-1';
+ const release='20261017-classics-2';
  let catalog,meta,pageData,lexicon,currentWord,activeButton,generation=0,lookupGeneration=0,font=25;
  const cache=new Map();
  const readStore=k=>{try{return localStorage.getItem(k);}catch{return null;}};
@@ -21,23 +21,13 @@
   if(activeButton){activeButton.setAttribute('aria-pressed','false');if(focus)activeButton.focus();}
   currentWord=null;
  };
- const showContext=u=>{
-  const d=el('div','panel-context');d.append(el('h3','','中文句译 · 原精读稿'),el('p','',u.notes['中']||'原稿此处未列中文译文。'));
-  const notes=el('details');notes.append(el('summary','','语法与风格笔记'));
-  for(const key of ['导入校记','原稿附注','代词','名词','形容词','动词','小品词','连接词','结构','句法与风格','生词'])if(u.notes[key])notes.append(el('p','',key+'：'+u.notes[key]));
-  d.append(notes);
-  const de=el('details');de.append(el('summary','',`施莱尔马赫原译 · ${pageData.page}页参照`),el('p','source-caption','所给EPUB仅标整页号；以下保留原译，未声称与本句逐句对应。'));
-  for(const p of pageData.german){const paragraph=el('p','',p);paragraph.lang='de';de.append(paragraph);}
-  if(!pageData.german.length)de.append(el('p','','此页原译暂缺。'));
-  d.append(de);return d;
- };
  const inspect=async(button,u,word,index)=>{
   const lookup=++lookupGeneration;
   if(activeButton)activeButton.setAttribute('aria-pressed','false');activeButton=button;button.setAttribute('aria-pressed','true');currentWord=word;
   $('word-panel').hidden=false;layout.classList.add('has-panel');
   const host=$('word-content');host.replaceChildren(el('h2','selected-form',word),el('p','selected-context',`${meta.title} · ${u.label}`));
   const analyses=pageData.analyses[u.analyses[index]]||[];
-  host.append(el('p','analysis-notice',analyses.length?`列出 ${analyses.length} 个形态候选。原稿明确列出的动词形态优先参照；其他候选由语料和词形工具提供，须结合语境判断。`:'此词暂未取得可靠形态分析。可参看句法笔记与本页德文原译。'));
+  host.append(el('p','analysis-notice',analyses.length>1?`${analyses.length} 种可能的分析，请结合上下文判断。`:analyses.length?'':'暂无词形分析。'));
   try{if(!lexicon)lexicon=await get('pape.json');}catch{host.append(el('p','analysis-notice','Pape词典暂时未能载入。重新点击词语可重试。'));}
   if(currentWord!==word||lookup!==lookupGeneration)return;
   for(const [i,a] of analyses.entries()){
@@ -47,19 +37,19 @@
     if(a[key])dl.append(el('dt','',title),el('dd','',translate(a[key])));
    }
    if(dl.children.length)card.append(dl);
-   card.append(el('span','gloss-label','中文释义'),el('p','zh-gloss',a.zh||'此词条的中文释义待补；请参看下方中文句译。'));
+   card.append(el('span','gloss-label','中文释义'),el('p','zh-gloss',a.zh||'暂无中文释义。'));
    card.append(el('span','gloss-label','DEUTSCH · PAPE 原词条'));
    const entries=lexicon?.[a.de]||[];
    if(a.deName){const name=el('p','pape-entry',a.deName+' · Schleiermacher 本页译名');name.lang='de';card.append(name);}
-   if(!entries.length&&!a.deName)card.append(el('p','zh-gloss','Pape暂未匹配到此词条；请参看译本上下文。'));
+   if(!entries.length&&!a.deName)card.append(el('p','zh-gloss','暂无 Pape 词条。'));
    for(const entry of entries){
     const snippet=el('p','pape-entry',entry.text.slice(0,220)+(entry.text.length>220?'…':''));snippet.lang='de';card.append(snippet);
     const d=el('details','pape-entry');d.append(el('summary','',entry.lemma+' · 展开完整词条'));const full=el('div','pape-full',entry.text);full.lang='de';d.append(full);card.append(d);
    }
-   const raw=el('details','raw-morph');raw.append(el('summary','','查看形态来源与原始标签'),el('p','',a.raw),el('p','',a.lookup==='notes'?'参照原精读稿的动词形态说明筛选；仍需留意原稿的待校状态。':a.lookup==='diorisis'?'Diorisis语料，按所在页词序对应；自动标注。':a.lookup==='editorial'?'编辑补注的词形。':a.lookup==='accent'?'Morpheus词形工具，以重音形式匹配。':'Morpheus词形工具，按去重音形式匹配；可能包含额外候选。'));card.append(raw);
+   const raw=el('details','raw-morph');raw.append(el('summary','','词形标签'),el('p','',a.raw));card.append(raw);
    const source=el('a','source-link','Pape · PTA电子本 ↗');source.href='https://github.com/PatristicTextArchive/pta_lexika';source.target='_blank';source.rel='noopener';card.append(source);host.append(card);
   }
-  host.append(showContext(u));$('word-panel').scrollTop=0;
+  $('word-panel').scrollTop=0;
  };
  const renderUnits=()=>{
   const fragment=document.createDocumentFragment();
@@ -73,18 +63,21 @@
     const word=el('button','greek-word',token);word.type='button';word.setAttribute('aria-label',token+'：查看形态与释义');word.setAttribute('aria-pressed','false');word.addEventListener('click',()=>inspect(word,u,token,index));p.append(word);
    }
    const details=el('div','unit-translation');details.id='note-'+u.id;details.hidden=true;
-   for(const key of ['导入校记','原稿附注','中','拉丁转写','代词','名词','形容词','动词','小品词','连接词','结构','句法与风格','生词'])if(u.notes[key]){const line=el('p');line.append(el('span','note-label',key+'　'),document.createTextNode(u.notes[key]));details.append(line);}
+   const reading=u.reading||{zh:u.notes['中'],de:'',structure:u.notes['结构']};
+   for(const [key,label,lang] of [['zh','中文译文','zh-CN'],['de','施莱尔马赫译文','de'],['structure','结构分析','zh-CN']]){
+    const field=el('section','note-field');const paragraph=el('p','',reading[key]||'');paragraph.lang=lang;
+    field.append(el('h3','note-label',label),paragraph);details.append(field);
+   }
    note.addEventListener('click',()=>{details.hidden=!details.hidden;note.setAttribute('aria-expanded',String(!details.hidden));});
    section.append(head,p,details);fragment.append(section);
   }
   $('reading-content').replaceChildren(fragment);
-  $('german-page').replaceChildren(...pageData.german.map(p=>el('p','',p)));
  };
  const error=(message,work,page)=>{
   $('reading-content').replaceChildren();const box=el('div','close-error');box.append(el('p','',message));const retry=el('button','retry-button','重新载入');retry.addEventListener('click',()=>navigate(work,page,false));box.append(retry);$('reading-content').append(box);
  };
  const navigate=async(work,page,push=true,ref='')=>{
-  const token=++generation;closePanel();$('reading-content').setAttribute('aria-busy','true');$('reader-status').textContent='正在载入…';$('reading-content').replaceChildren();$('german-page').replaceChildren();$('german-reference').open=false;
+  const token=++generation;closePanel();$('reading-content').setAttribute('aria-busy','true');$('reader-status').textContent='正在载入…';$('reading-content').replaceChildren();
   try{
    const nextMeta=await get(`${work}/catalog.json`);if(token!==generation)return;
    const nextPage=String(page||nextMeta.pages[0]);
@@ -93,11 +86,9 @@
    meta=nextMeta;pageData=data;
    $('work-select').value=work;$('page-select').replaceChildren(...meta.pages.map(p=>new Option(p,p)));$('page-select').value=nextPage;$('page-select').disabled=false;
    $('work-title').textContent=meta.title;$('work-subtitle').textContent=meta.greekTitle+' · '+meta.latin;
-   $('work-range').textContent='收录范围 '+meta.range;$('work-state').textContent=meta.status;
-   $('source-state').textContent=meta.status;$('greek-source').href=meta.source;
+   $('work-range').textContent='收录范围 '+meta.range;$('greek-source').href=meta.source;
    $('page-label').textContent='STEPHANUS '+nextPage;
    const index=meta.pages.indexOf(nextPage);$('prev-page').disabled=index===0;$('next-page').disabled=index===meta.pages.length-1;
-   $('german-reference').querySelector('summary').textContent=`第${nextPage}页德文原译 · Schleiermacher`;
    renderUnits();$('reader-status').textContent=`第 ${index+1} / ${meta.pages.length} 页 · 点击词语查阅`;
    const url=new URL(location.href);url.searchParams.set('work',work);url.searchParams.set('page',nextPage);if(ref)url.searchParams.set('ref',ref);else url.searchParams.delete('ref');
    if(push)history.pushState(null,'',url);else history.replaceState(null,'',url);

@@ -8,9 +8,9 @@ from html.parser import HTMLParser
 
 REPO = Path(__file__).resolve().parents[1]
 WORKS = [
- ('symposium','会饮篇','Symposium','Συμπόσιον','tlg011','172a–223d','全篇合订；172a–185e原稿待校','Symposium_172a-223d_逐句精读_合订稿_原稿待校.txt','part0017.xhtml',172,223),
- ('philebus','斐勒布篇','Philebus','Φίληβος','tlg010','11a–67b','全篇精读稿','Philebus_11a-67b_逐句精读.txt','part0019.xhtml',11,67),
- ('sophist','智者篇','Sophist','Σοφιστής','tlg007','216a–242b','阶段稿；精读尚未覆盖242b之后','Sophist_216a-242b_逐句精读_阶段稿.txt','part0015.xhtml',216,242),
+ ('symposium','会饮篇','Symposium','Συμπόσιον','tlg011','172a–223d','','Symposium_172a-223d_逐句精读_合订稿_原稿待校.txt','part0017.xhtml',172,223),
+ ('philebus','斐勒布篇','Philebus','Φίληβος','tlg010','11a–67b','','Philebus_11a-67b_逐句精读.txt','part0019.xhtml',11,67),
+ ('sophist','智者篇','Sophist','Σοφιστής','tlg007','216a–242b','','Sophist_216a-242b_逐句精读_阶段稿.txt','part0015.xhtml',216,242),
 ]
 FIELDS = ['拉丁转写','代词','名词','形容词','动词','小品词','连接词','结构','句法与风格','生词','德','中']
 def norm(s):
@@ -180,6 +180,7 @@ def german_pages(z,file,start,end):
    if page is not None and page<=end and pieces[i+1].strip():pages[page].append(pieces[i+1].strip())
  return {str(k):v for k,v in pages.items() if start<=k<=end}
 def main():
+ reading_notes=json.loads((REPO/'tools/classics-reading-notes.json').read_text(encoding='utf-8'))
  ap=argparse.ArgumentParser();ap.add_argument('--project',type=Path,default=REPO.parent);ap.add_argument('--resources',type=Path,default=REPO.parent/'tmp/classics-source');ap.add_argument('--german-epub',type=Path,required=True);args=ap.parse_args()
  out=REPO/'data/classics';resources=args.resources
  c=sqlite3.connect(f'file:{(resources/"morph.db").as_posix()}?mode=ro',uri=True);c.row_factory=sqlite3.Row
@@ -292,11 +293,14 @@ def main():
      if not analyses:unknown.add(w)
      used.update(a['de'] for a in analyses if a['de'])
     ws={w:form_cache[w] for u in us for w in u['tokens'] if isgreek(w)}
-    dump(out/slug/(page+'.json'),{'work':slug,'page':page,'units':us,'analyses':pool,'german':de.get(page,[]),'germanSource':{'file':de_file,'page':page,'alignment':'Stephanus整页；并非逐句对齐'}})
-   meta={'id':slug,'title':title,'latin':latin,'greekTitle':grc,'range':scope,'status':status,'pages':list(pages),'units':len(units),'words':wordcount,'source':f'https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.{tlg}/','germanTranslator':'Friedrich Daniel Ernst Schleiermacher','germanTitle':'Gesammelte Werke','germanEdition':'用户提供的EPUB；书内标注Akademie Verlag Berlin 1986','germanFile':de_file,'notesSha256':sha,'morphologyCoverage':known/wordcount,'germanLexiconCoverage':de_count/wordcount,'chineseGlossCoverage':zh_count/wordcount,'corpusAlignmentCoverage':context_count/wordcount}
+    for u in us:
+     u['reading']=reading_notes[f'{slug}:{u["id"]}']
+     u['notes']={'中':u['reading']['zh'],'结构':u['reading']['structure']}
+    dump(out/slug/(page+'.json'),{'work':slug,'page':page,'units':us,'analyses':pool,'german':de.get(page,[]),'germanSource':{'file':de_file,'page':page,'alignment':'句段摘录见units.reading；整数页文本保留作来源索引'}})
+   meta={'id':slug,'title':title,'latin':latin,'greekTitle':grc,'range':scope,'pages':list(pages),'units':len(units),'words':wordcount,'source':f'https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.{tlg}/','germanTranslator':'Friedrich Daniel Ernst Schleiermacher','germanTitle':'Gesammelte Werke','germanEdition':'用户提供的EPUB；书内标注Akademie Verlag Berlin 1986','germanFile':de_file,'notesSha256':sha,'morphologyCoverage':known/wordcount,'germanLexiconCoverage':de_count/wordcount,'chineseGlossCoverage':zh_count/wordcount,'corpusAlignmentCoverage':context_count/wordcount}
    dump(out/slug/'catalog.json',meta);catalog.append(meta);all_report[slug]={**meta,'unknownForms':sorted(unknown)}
  dump(out/'pape.json',{k:pape[k] for k in used})
- dump(out/'catalog.json',{'release':'20261017-classics-1','works':catalog,'dictionary':'Wilhelm Pape, Handwörterbuch der griechischen Sprache · PTA电子本','germanPolicy':'德文原译直接摘自用户提供的EPUB；德文词典条目直接摘自Pape；未使用机器翻译。'})
+ dump(out/'catalog.json',{'release':'20261017-classics-2','works':catalog,'dictionary':'Wilhelm Pape, Handwörterbuch der griechischen Sprache · PTA电子本','germanPolicy':'德文原译直接摘自用户提供的EPUB；德文词典条目直接摘自Pape；未使用机器翻译。'})
  dump(REPO/'docs/classics-import-report.json',all_report)
  print(json.dumps({k:{x:v[x] for x in ['units','words','morphologyCoverage','germanLexiconCoverage','chineseGlossCoverage']} for k,v in all_report.items()},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

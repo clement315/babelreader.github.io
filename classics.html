@@ -4,9 +4,9 @@
  <title>古典作品精读 · 巴别塔图书馆</title>
  <meta name="description" content="柏拉图对话原文精读：点击古希腊词语，查阅形态候选、中文释义、Pape德语词典与施莱尔马赫原译。">
  <link rel="icon" href="assets/tower.svg" type="image/svg+xml">
- <link rel="stylesheet" href="assets/style.css?v=20261017-classics-1">
- <link rel="stylesheet" href="assets/classics.css?v=20261017-classics-1">
- <script src="assets/classics.js?v=20261017-classics-1" defer></script>
+ <link rel="stylesheet" href="assets/style.css?v=20261017-classics-2">
+ <link rel="stylesheet" href="assets/classics.css?v=20261017-classics-2">
+ <script src="assets/classics.js?v=20261017-classics-2" defer></script>
 </head><body class="classics-body">
  <a class="skip" href="#greek-text">跳到希腊文正文</a>
  <header class="close-header"><a class="close-brand" href="index.html">巴别塔图书馆<small>BIBLIOTHECA TURRIS BABEL</small></a><a class="close-home" href="index.html#catalog">← 返回馆藏</a><span class="close-category">古典作品精读</span></header>
@@ -16,17 +16,16 @@
    <label for="work-select">选择对话</label><select id="work-select" disabled><option>正在载入…</option></select>
    <div class="sidebar-divider"></div><label for="page-select">Stephanus 页码</label><select id="page-select" disabled><option>—</option></select>
    <form id="jump-form"><label class="sr-only" for="jump-ref">跳转至页码或小节</label><input id="jump-ref" placeholder="例如 172a" aria-label="跳转至页码或小节"><button type="submit">跳转</button></form>
-   <p id="work-range" class="sidebar-small"></p><p id="work-state" class="edition-state"></p>
+   <p id="work-range" class="sidebar-small"></p>
    <div class="sidebar-divider"></div><p class="sidebar-small">点击词语，查看形态与释义。<br>使用 Tab 选择词语，Enter 打开。</p>
    <div class="reading-options"><button id="font-down" aria-label="减小希腊文字号">A−</button><button id="font-up" aria-label="增大希腊文字号">A＋</button><button id="theme-toggle" aria-label="切换深浅色阅读" aria-pressed="false">☾</button></div>
-   <details class="source-details"><summary>底本与资料来源</summary><p id="source-state"></p><a id="greek-source" target="_blank" rel="noopener">Perseus 希腊文底本 ↗</a><p>德文：F. D. E. Schleiermacher，《Gesammelte Werke》，据馆主提供的 EPUB 原文。只按整页参照，未经逐句对齐。</p><p>德语词典：Wilhelm Pape，《Handwörterbuch der griechischen Sprache》，PTA 电子本。德文未使用机器翻译。</p><p>形态：Morpheus / Diogenes，经 Lyceum Archeion 数据库整理。自动候选尚需结合语境判别。</p><a href="docs/classics-sources.md">完整来源与整理说明 ↗</a></details>
+   <details class="source-details"><summary>底本与资料来源</summary><a id="greek-source" target="_blank" rel="noopener">Perseus 希腊文底本 ↗</a><p>德文：F. D. E. Schleiermacher，《Gesammelte Werke》，据馆主提供的 EPUB。</p><p>德语词典：Wilhelm Pape，《Handwörterbuch der griechischen Sprache》，PTA 电子本。</p><p>形态：Morpheus / Diogenes 与 Diorisis。</p><a href="docs/classics-sources.md">资料说明 ↗</a></details>
   </aside>
   <main class="close-main" id="greek-text" tabindex="-1">
    <div class="reading-heading"><p class="close-kicker">ΠΛΑΤΩΝ · 原文精读</p><h2 id="work-title">柏拉图对话集</h2><p id="work-subtitle" class="work-subtitle"></p></div>
    <nav class="page-nav" aria-label="精读页码导航"><button id="prev-page" disabled>← 上一页</button><span id="page-label"></span><button id="next-page" disabled>下一页 →</button></nav>
    <p id="reader-status" class="close-status" role="status" aria-live="polite">正在载入作品…</p>
    <section id="reading-content" aria-label="古希腊文" aria-busy="true"></section>
-   <details id="german-reference" class="german-reference"><summary>本页德文原译 · Schleiermacher</summary><p class="source-caption">直接摘自所提供的 EPUB，保留原书用词与拼写；按 Stephanus 整页参照。</p><div id="german-page" lang="de"></div></details>
    <div class="reading-end"><span aria-hidden="true">✧</span><span>逐字读，缓缓行。</span></div>
   </main>
   <aside id="word-panel" class="word-panel" aria-label="词语解析" hidden>
