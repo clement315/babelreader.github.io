@@ -5,6 +5,7 @@ No translation model or remote translation service is used. Run with --help.
 import argparse, collections, difflib, hashlib, html, json, re, shutil, sqlite3, unicodedata, zipfile, xml.etree.ElementTree as ET
 from pathlib import Path
 from html.parser import HTMLParser
+from owner_notes import read_owner_notes,restore_owner_notes
 
 REPO = Path(__file__).resolve().parents[1]
 WORKS = [
@@ -255,6 +256,7 @@ def main():
  used=set()
  with zipfile.ZipFile(args.german_epub) as z:
   for slug,title,latin,grc,tlg,scope,status,filename,de_file,start,end in WORKS:
+   owner=read_owner_notes(out/slug)
    units,sha=input_units[slug];de=german_pages(z,de_file,start,end);pages=collections.defaultdict(list);wordcount=known=de_count=zh_count=context_count=0;unknown=set()
    for u in units:
     ts=tokens(u['greek']);assert ''.join(ts)==u['greek'],u['id']
@@ -295,6 +297,7 @@ def main():
     ws={w:form_cache[w] for u in us for w in u['tokens'] if isgreek(w)}
     for u in us:
      u['reading']=reading_notes[f'{slug}:{u["id"]}']
+     restore_owner_notes(u,owner)
      u['notes']={'中':u['reading']['zh'],'结构':u['reading']['structure']}
     dump(out/slug/(page+'.json'),{'work':slug,'page':page,'units':us,'analyses':pool,'german':de.get(page,[]),'germanSource':{'file':de_file,'page':page,'alignment':'句段摘录见units.reading；整数页文本保留作来源索引'}})
    meta={'id':slug,'title':title,'latin':latin,'greekTitle':grc,'range':scope,'pages':list(pages),'units':len(units),'words':wordcount,'source':f'https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.{tlg}/','germanTranslator':'Friedrich Daniel Ernst Schleiermacher','germanTitle':'Gesammelte Werke','germanEdition':'用户提供的EPUB；书内标注Akademie Verlag Berlin 1986','germanFile':de_file,'notesSha256':sha,'morphologyCoverage':known/wordcount,'germanLexiconCoverage':de_count/wordcount,'chineseGlossCoverage':zh_count/wordcount,'corpusAlignmentCoverage':context_count/wordcount}
@@ -302,5 +305,8 @@ def main():
  dump(out/'pape.json',{k:pape[k] for k in used})
  dump(out/'catalog.json',{'release':'20261017-classics-2','works':catalog,'dictionary':'Wilhelm Pape, Handwörterbuch der griechischen Sprache · PTA电子本','germanPolicy':'德文原译直接摘自用户提供的EPUB；德文词典条目直接摘自Pape；未使用机器翻译。'})
  dump(REPO/'docs/classics-import-report.json',all_report)
+ if (REPO/'tools/parmenides-notes.json').exists():
+  from import_parmenides import import_work
+  import_work(resources,args.german_epub)
  print(json.dumps({k:{x:v[x] for x in ['units','words','morphologyCoverage','germanLexiconCoverage','chineseGlossCoverage']} for k,v in all_report.items()},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

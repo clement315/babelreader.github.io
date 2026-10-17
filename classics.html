@@ -4,9 +4,11 @@
  <title>古典作品精读 · 巴别塔图书馆</title>
  <meta name="description" content="柏拉图对话原文精读：点击古希腊词语，查阅形态候选、中文释义、Pape德语词典与施莱尔马赫原译。">
  <link rel="icon" href="assets/tower.svg" type="image/svg+xml">
- <link rel="stylesheet" href="assets/style.css?v=20261017-classics-2">
- <link rel="stylesheet" href="assets/classics.css?v=20261017-classics-2">
- <script src="assets/classics.js?v=20261017-classics-2" defer></script>
+ <link rel="stylesheet" href="assets/style.css?v=20261017-classics-3">
+ <link rel="stylesheet" href="assets/classics.css?v=20261017-classics-3">
+ <script src="vendor/jszip.min.js?v=20261017-classics-3" defer></script>
+ <script src="assets/classics-editor.js?v=20261017-classics-3" defer></script>
+ <script src="assets/classics.js?v=20261017-classics-3" defer></script>
 </head><body class="classics-body">
  <a class="skip" href="#greek-text">跳到希腊文正文</a>
  <header class="close-header"><a class="close-brand" href="index.html">巴别塔图书馆<small>BIBLIOTHECA TURRIS BABEL</small></a><a class="close-home" href="index.html#catalog">← 返回馆藏</a><span class="close-category">古典作品精读</span></header>
@@ -25,6 +27,12 @@
    <div class="reading-heading"><p class="close-kicker">ΠΛΑΤΩΝ · 原文精读</p><h2 id="work-title">柏拉图对话集</h2><p id="work-subtitle" class="work-subtitle"></p></div>
    <nav class="page-nav" aria-label="精读页码导航"><button id="prev-page" disabled>← 上一页</button><span id="page-label"></span><button id="next-page" disabled>下一页 →</button></nav>
    <p id="reader-status" class="close-status" role="status" aria-live="polite">正在载入作品…</p>
+   <div class="editor-tools" aria-label="我的笔记">
+    <div class="editor-actions"><button id="edit-toggle" type="button" aria-pressed="false" disabled>编辑笔记</button><button id="edit-save" type="button" hidden>保存本页</button><button id="edit-export" type="button" disabled>导出本作品修改</button><button id="edit-import" type="button" disabled>导入备份</button><span id="edit-count"></span></div>
+    <input id="edit-file" type="file" accept=".json,.zip" hidden>
+    <p id="edit-help" hidden>修改保存在这台设备的浏览器中。点击“导出本作品修改”可备份，并取得自行上传 GitHub 的文件。<a href="classics-help.html" target="_blank" rel="noopener">操作说明 ↗</a></p>
+    <p id="edit-status" role="status" aria-live="polite"></p>
+   </div>
    <section id="reading-content" aria-label="古希腊文" aria-busy="true"></section>
    <div class="reading-end"><span aria-hidden="true">✧</span><span>逐字读，缓缓行。</span></div>
   </main>

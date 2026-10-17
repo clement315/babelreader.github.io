@@ -146,6 +146,7 @@ def main():
     if path.name=='catalog.json':continue
     data=json.loads(path.read_text(encoding='utf-8'))
     for u in data['units']:
+     if u.get('reading',{}).get('ownerEdited'):continue
      u['reading']=all_overrides[f'{work}:{u["id"]}'];u['notes']={'中':u['reading']['zh'],'结构':u['reading']['structure']}
     data['germanSource']['alignment']='句段摘录见units.reading；整数页文本保留作来源索引'
     dump(path,data)

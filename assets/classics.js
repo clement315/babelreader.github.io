@@ -1,7 +1,7 @@
 (() => {
  'use strict';
  const $=id=>document.getElementById(id), layout=document.querySelector('.close-layout');
- const release='20261017-classics-2';
+ const release='20261017-classics-3';
  let catalog,meta,pageData,lexicon,currentWord,activeButton,generation=0,lookupGeneration=0,font=25;
  const cache=new Map();
  const readStore=k=>{try{return localStorage.getItem(k);}catch{return null;}};
@@ -12,6 +12,7 @@
   if(!cache.has(url))cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('资料未能载入（'+r.status+'）');return r.json();}).catch(e=>{cache.delete(url);throw e;}));
   return cache.get(url);
  };
+ const editor=window.BABEL_CLASSICS_EDITOR.create({get,onRender:()=>renderUnits(),onStatus:()=>{}});
  const labels={noun:'名词 · Substantiv',verb:'动词 · Verb',adjective:'形容词 · Adjektiv',adverb:'副词 · Adverb',pronoun:'代词 · Pronomen',article:'冠词 · Artikel',particle:'小品词 · Partikel',preposition:'介词 · Präposition',conjunction:'连词 · Konjunktion',interjection:'感叹词 · Interjektion',participle:'分词 · Partizip',numeral:'数词 · Numerale',proper_noun:'专有名词 · Eigenname',nominative:'主格 · Nominativ',genitive:'属格 · Genitiv',dative:'与格 · Dativ',accusative:'宾格 · Akkusativ',vocative:'呼格 · Vokativ',masculine:'阳性 · Maskulinum',feminine:'阴性 · Femininum',neuter:'中性 · Neutrum',singular:'单数 · Singular',plural:'复数 · Plural',dual:'双数 · Dual',present:'现在时 · Präsens',imperfect:'未完成过去时 · Imperfekt',aorist:'不定过去时 · Aorist',perfect:'完成时 · Perfekt',pluperfect:'过去完成时 · Plusquamperfekt',future:'将来时 · Futur',future_perfect:'将来完成时 · Futur II',active:'主动 · Aktiv',middle:'中动 · Medium',passive:'被动 · Passiv',mediopassive:'中被动 · Mediopassiv',indicative:'直陈式 · Indikativ',subjunctive:'虚拟式 · Konjunktiv',optative:'祈愿式 · Optativ',imperative:'命令式 · Imperativ',infinitive:'不定式 · Infinitiv','1st':'第一人称 · 1. Person','2nd':'第二人称 · 2. Person','3rd':'第三人称 · 3. Person',comparative:'比较级 · Komparativ',superlative:'最高级 · Superlativ',positive:'原级 · Positiv'};
  const translate=v=>v?v.split('/').map(x=>labels[x]||x).join(' / '):'未标注';
  const greek=s=>/[\u0370-\u03ff\u1f00-\u1fff]/u.test(s)&&/\p{Letter}/u.test(s);
@@ -52,6 +53,7 @@
   $('word-panel').scrollTop=0;
  };
  const renderUnits=()=>{
+  const open=new Set([...document.querySelectorAll('.unit-translation:not([hidden])')].map(n=>n.id));
   const fragment=document.createDocumentFragment();
   for(const u of pageData.units){
    const section=el('article','greek-unit');section.id='unit-'+u.id;section.dataset.ref=u.ref;
@@ -62,12 +64,10 @@
     if(!greek(token)){p.append(document.createTextNode(token));continue;}
     const word=el('button','greek-word',token);word.type='button';word.setAttribute('aria-label',token+'：查看形态与释义');word.setAttribute('aria-pressed','false');word.addEventListener('click',()=>inspect(word,u,token,index));p.append(word);
    }
-   const details=el('div','unit-translation');details.id='note-'+u.id;details.hidden=true;
-   const reading=u.reading||{zh:u.notes['中'],de:'',structure:u.notes['结构']};
-   for(const [key,label,lang] of [['zh','中文译文','zh-CN'],['de','施莱尔马赫译文','de'],['structure','结构分析','zh-CN']]){
-    const field=el('section','note-field');const paragraph=el('p','',reading[key]||'');paragraph.lang=lang;
-    field.append(el('h3','note-label',label),paragraph);details.append(field);
-   }
+   const details=el('div','unit-translation');details.id='note-'+u.id;
+   details.hidden=!(open.has(details.id)||(editor.editing&&!open.size&&u===pageData.units[0]));
+   note.setAttribute('aria-expanded',String(!details.hidden));
+   editor.renderFields(u,details,el);
    note.addEventListener('click',()=>{details.hidden=!details.hidden;note.setAttribute('aria-expanded',String(!details.hidden));});
    section.append(head,p,details);fragment.append(section);
   }
@@ -77,6 +77,7 @@
   $('reading-content').replaceChildren();const box=el('div','close-error');box.append(el('p','',message));const retry=el('button','retry-button','重新载入');retry.addEventListener('click',()=>navigate(work,page,false));box.append(retry);$('reading-content').append(box);
  };
  const navigate=async(work,page,push=true,ref='')=>{
+  if(!editor.beforeNavigate()){if(meta&&pageData){$('work-select').value=meta.id;$('page-select').value=pageData.page;}return;}
   const token=++generation;closePanel();$('reading-content').setAttribute('aria-busy','true');$('reader-status').textContent='正在载入…';$('reading-content').replaceChildren();
   try{
    const nextMeta=await get(`${work}/catalog.json`);if(token!==generation)return;
@@ -89,7 +90,7 @@
    $('work-range').textContent='收录范围 '+meta.range;$('greek-source').href=meta.source;
    $('page-label').textContent='STEPHANUS '+nextPage;
    const index=meta.pages.indexOf(nextPage);$('prev-page').disabled=index===0;$('next-page').disabled=index===meta.pages.length-1;
-   renderUnits();$('reader-status').textContent=`第 ${index+1} / ${meta.pages.length} 页 · 点击词语查阅`;
+   editor.setPage(meta,pageData);renderUnits();$('reader-status').textContent=`第 ${index+1} / ${meta.pages.length} 页 · 点击词语查阅`;
    const url=new URL(location.href);url.searchParams.set('work',work);url.searchParams.set('page',nextPage);if(ref)url.searchParams.set('ref',ref);else url.searchParams.delete('ref');
    if(push)history.pushState(null,'',url);else history.replaceState(null,'',url);
    save('babel-classics:'+work,nextPage);document.title=meta.title+' '+nextPage+' · 古典作品精读';

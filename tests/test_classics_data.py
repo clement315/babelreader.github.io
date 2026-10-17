@@ -22,6 +22,7 @@ class ClassicsData(unittest.TestCase):
  def test_exact_source_greek_and_chinese(self):
   expected={'symposium':('Symposium_172a-223d_逐句精读_合订稿_原稿待校.txt',698),'philebus':('Philebus_11a-67b_逐句精读.txt',1373),'sophist':('Sophist_216a-242b_逐句精读_阶段稿.txt',664)}
   for w in self.catalog['works']:
+   if w['id']=='parmenides':continue # Checked against the complete TEI below.
    filename,count=expected[w['id']];source=(PROJECT/'output'/w['id']/filename).read_text(encoding='utf-8-sig')
    normalized_source=re.sub(r'\s+',' ',source)
    for old,new in {'οὕτωawi':'οὕτως','θαυμαστὴruk':'θαυμαστή','ταῦταวั':'ταῦτα'}.items():normalized_source=normalized_source.replace(old,new)
@@ -40,7 +41,7 @@ class ClassicsData(unittest.TestCase):
      for i,key in u['analyses'].items():
       self.assertTrue(u['tokens'][int(i)])
       self.assertTrue(page['analyses'][key]);count+=1
-  self.assertEqual(count,42750)
+  self.assertEqual(count,57994)
  def test_noun_case_gender_number_and_gloss(self):
   a=self.analyses('philebus','λόγον')
   self.assertTrue(any(x['lemma']=='λόγος' and x['pos']=='noun' and x['case']=='accusative' and x['gender']=='masculine' and x['number']=='singular' for x in a))
@@ -61,7 +62,7 @@ class ClassicsData(unittest.TestCase):
   if not EPUB.exists():self.skipTest('Source EPUB is local to the library owner')
   with zipfile.ZipFile(EPUB) as z:
    for w in self.catalog['works']:
-    text=z.read('OEBPS/Text/'+w['germanFile']).decode('utf-8')
+    text=' '.join(z.read('OEBPS/Text/'+name).decode('utf-8') for name in w.get('germanFiles',[w['germanFile']]))
     text=re.sub(r'\s+','',html.unescape(re.sub('<[^>]+>','',text)))
     text=re.sub(r'\(\d{1,3}\)','',text) # Editorial page markers may split a sentence.
     for page in self.pages[w['id']]:
@@ -111,5 +112,43 @@ class ClassicsData(unittest.TestCase):
   self.assertNotIn('showContext',script)
   self.assertNotIn('panel-context',script)
   self.assertNotIn('原精读稿',script)
-  for label in ['中文译文','施莱尔马赫译文','结构分析']:self.assertIn(label,script)
+  editor=(ROOT/'assets/classics-editor.js').read_text(encoding='utf-8')
+  for label in ['中文译文','施莱尔马赫译文','结构分析']:self.assertIn(label,editor)
+ def test_complete_parmenides_matches_canonical_greek(self):
+  import xml.etree.ElementTree as ET
+  tree=ET.parse(ROOT/'tools/parmenides-source.xml');ns={'t':'http://www.tei-c.org/ns/1.0'}
+  def text(e):
+   out=[e.text or '']
+   for child in e:
+    if child.tag.rsplit('}',1)[-1] not in ('del','note'):out.append(text(child))
+    out.append(child.tail or '')
+   return ''.join(out)
+  units=[u for p in self.pages['parmenides'] for u in p['units']]
+  self.assertEqual(len(units),1369);self.assertEqual([u['id'] for u in units],list(range(1,1370)))
+  self.assertEqual(units[0]['ref'],'126a');self.assertEqual(units[-1]['ref'],'166c')
+  self.assertEqual(re.sub(r'\s+','',''.join(u['greek'] for u in units)),re.sub(r'\s+','',text(tree.find('.//t:body',ns))))
+  self.assertEqual(units[-1]['reading']['de'],'Vollkommen wahr.')
+  for u in units:self.assertEqual(''.join(u['tokens']),u['greek'])
+ def test_parmenides_uses_supplied_chinese_notes(self):
+  source=Path(r'C:\Users\Haowen_wei\Desktop\Parmenides.txt')
+  if not source.exists():self.skipTest('Reference TXT belongs to the library owner')
+  text=re.sub(r'\s+',' ',source.read_text(encoding='utf-8-sig'))
+  units=[u for p in self.pages['parmenides'] for u in p['units']]
+  for u in units[:1235]:self.assertIn(re.sub(r'\s+',' ',u['reading']['zh']),text)
+ def test_parmenides_inflected_forms_and_corrections(self):
+  self.assertTrue(any(a['lemma']=='ἀφικνέομαι' and a['tense']=='aorist' and a['person']=='1st' and a['number']=='plural' for a in self.analyses('parmenides','ἀφικόμεθα')))
+  self.assertEqual([(a['lemma'],a['pos'],a['case']) for a in self.analyses('parmenides','Ἰβυκείου')],[('Ἰβύκειος','adjective','genitive')])
+  self.assertTrue(all(a['lemma']=='ἔνειμι' and a['mood']=='optative' for a in self.analyses('parmenides','ἐνείη')))
+ def test_owner_edits_survive_rebuilding_and_do_not_cross_greek(self):
+  import tempfile
+  spec=importlib.util.spec_from_file_location('owner_notes',ROOT/'tools/owner_notes.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+  u=json.loads(json.dumps(self.pages['parmenides'][0]['units'][0]));u['reading'].update(zh='馆主保存的译文',structure='馆主保存的说明',ownerEdited=True)
+  with tempfile.TemporaryDirectory(prefix='classics-owner-',dir=PROJECT/'tmp') as folder:
+   self.assertTrue(Path(folder).resolve().is_relative_to((PROJECT/'tmp').resolve()))
+   Path(folder,'126.json').write_text(json.dumps({'units':[u]}),encoding='utf-8')
+   saved=module.read_owner_notes(Path(folder))
+   rebuilt=json.loads(json.dumps(self.pages['parmenides'][0]['units'][0]));module.restore_owner_notes(rebuilt,saved)
+   self.assertEqual(rebuilt['reading']['zh'],'馆主保存的译文');self.assertTrue(rebuilt['reading']['ownerEdited'])
+   changed=json.loads(json.dumps(self.pages['parmenides'][0]['units'][0]));changed['greek']+='ἕν';module.restore_owner_notes(changed,saved)
+   self.assertNotIn('ownerEdited',changed['reading'])
 if __name__=='__main__':unittest.main()
