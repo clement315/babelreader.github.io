@@ -167,7 +167,7 @@ window.BABEL_BOOKS = [
   },
   {
     "id": "proclus-republic",
-    "title": "柏拉图《理想国》注疏（第一至第六卷，第六卷未竟）",
+    "title": "柏拉图理想国注疏，一到十二卷",
     "coverTitle": "理想国注疏",
     "originalTitle": "In Rem Publicam",
     "author": "普罗克洛",
@@ -175,7 +175,7 @@ window.BABEL_BOOKS = [
     "language": "希腊文 · 中文",
     "color": "wine",
     "mark": "Σ",
-    "description": "根据 EPUB 题名，这一版本收录第一至第六卷，第六卷未竟。保留不完整范围说明，便于引用时核对。",
+    "description": "普罗克洛对柏拉图《理想国》的注疏，希腊文与中文对照。",
     "translator": "EPUB 未注明；待补充",
     "edition": "EPUB 描述提及 Kroll 1899 年 Teubner 本第一卷 pp. 5–27；该描述与题名所示范围需进一步核对。",
     "updated": "",
