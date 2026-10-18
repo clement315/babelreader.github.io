@@ -100,8 +100,9 @@ def import_work(resources,epub,spec=None):
    aa=note_candidates({'notes':{'动词':records[u['id']-1].get('verbHints','')}},w,aa)
    editorial={'Ἰβυκείου':('Ἰβύκειος','adjective','masc gen sg'),'ἐνείη':('ἔνειμι','verb','pres opt act 3rd sg'),'ἐνεῖναι':('ἔνειμι','verb','pres inf act'),'ἐνῇ':('ἔνειμι','verb','pres subj act 3rd sg'),'ἔκλεψε':('κλέπτω','verb','aor ind act 3rd sg'),'ὑποθησόμεθα':('ὑποτίθημι','verb','fut ind mid 1st pl'),'μεταθεῖς':('μετατίθημι','participle','aor part act masc nom sg'),'ἡσυχάζον':('ἡσυχάζω','participle','pres part act neut nom/voc/acc sg')}
    editorial.update(spec.get('morphology',{}))
-   if w in editorial:
-    lemma,pos,raw=editorial[w];aa=[morph_entry(lemma,pos,raw,'editorial',glosses,lexicon)]
+   editorial_key=f'{u["id"]}:{w}' if f'{u["id"]}:{w}' in editorial else w
+   if editorial_key in editorial:
+    lemma,pos,raw=editorial[editorial_key];aa=[morph_entry(lemma,pos,raw,'editorial',glosses,lexicon)]
    for a in aa:
     if a['lemma'] in proper:a['pos']='proper_noun'
     elif a['pos'] not in ('verb','participle'):a['pos']=posmap.get(a['lemma'],a['pos'])

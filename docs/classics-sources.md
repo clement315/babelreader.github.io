@@ -12,6 +12,7 @@
 | Parmenides《巴门尼德篇》 | 126a–166c | 1369 |
 | Alcibiades 1《阿尔西比亚德斯 1》 | 103a–135e | 1103 |
 | Apology《申辩篇》 | 17a–42a | 345 |
+| Alcibiades 2《阿尔西比亚德斯 2》 | 138a–151c | 257 |
 
 前三部作品的希腊文及中文译文取自馆主指定的三份材料。结构分析保留理解句子所需的主干、从句、支配关系和省略说明，删去逐项词形清单及泛泛的风格评论，并改写冗长、夸饰的讲解。原 TXT 文件未改动。
 
@@ -25,6 +26,7 @@
 - [Parmenides · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg009/)
 - [Alcibiades 1 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg013/)
 - [Apology · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg002/)
+- [Alcibiades 2 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg014/)
 
 《巴门尼德篇》依 Perseus 的 Burnet 1910 电子本全文导入，收录 126a–166c。原 XML 保存在 `tools/parmenides-source.xml`；保留正文次序及用字，编辑标作删除的 `del` 内容不列入连续阅读正文。馆主提供的 `Parmenides.txt` 含前 1235 个句读单元，最后一句跨至 163a；中文及结构说明以此为参考，后续 134 个单元补充至全篇结束。来源摘要及校验值见 `docs/parmenides-import-report.json`。
 
@@ -32,17 +34,20 @@
 
 电子正文作三处最小整理：去除《阿尔西比亚德斯 1》105d、《申辩篇》18b混入的 `>`；《申辩篇》36b–c游离的 `τ` 从 `τ τί ἄξιός` 移回 `ἐμαυτὸν ῷ ὄντι`，还原为 `τί ἄξιός`、`ἐμαυτὸν τῷ ὄντι`。后一处对照[希腊语中心所收原文36b–c](https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?page=14&text_id=104)；XML原件未改。导入校验将这几项明确整理计入比较，其余连续正文与指定电子本一致。
 
+《阿尔西比亚德斯 2》按 Perseus `tlg014.perseus-grc2` 收录138a–151c全文，共257个句读单元。馆主上传的 `Alcibiades 2.txt` 首行写138a–150d，但实际材料已至151c，导入不按首行截断。中文以该材料为主，少数明显误词已另存修订；结构说明保留有效解释并改写机械清单。连续希腊文逐字核对底本：第171条补回底本的破折号，第184条把单个省略号恢复为底本的三个点；两者仅是标点呈现，原始TXT及XML均不改动。来源及覆盖统计见 `docs/alcibiades2-import-report.json`，词形补注明确保存于 `tools/alcibiades2-morphology.json`；带句读编号的键仅适用于该句，避免把同形的限定动词与分词混为一谈。
+
 Perseus原始电子文本许可：[CC BY-SA 3.0 US](https://creativecommons.org/licenses/by-sa/3.0/us/)。具体编辑说明保留于原稿。
 
 ## 德文原译：只摘录，不翻译
 
-采用馆主提供的《Gesammelte Werke》EPUB，书内署名译者 **Friedrich Daniel Ernst Schleiermacher**，前三部作品相关部分标注 **Akademie Verlag Berlin 1986**，《巴门尼德篇》及《申辩篇》标注 **1985**，《阿尔西比亚德斯 1》标注 **1987**。此处书目信息据EPUB自身记录，未另行核对纸本。保留旧拼写、用词与标点，不以新德文替换。
+采用馆主提供的《Gesammelte Werke》EPUB，书内署名译者 **Friedrich Daniel Ernst Schleiermacher**，前三部作品相关部分标注 **Akademie Verlag Berlin 1986**，《巴门尼德篇》、《申辩篇》及《阿尔西比亚德斯 2》标注 **1985**，《阿尔西比亚德斯 1》标注 **1987**。此处书目信息据EPUB自身记录，未另行核对纸本。保留旧拼写、用词与标点，不以新德文替换。
 
 提取位置：
 
 - Symposium：`OEBPS/Text/part0017.xhtml`，正文172–223页；不收录该篇导言。
 - Philebus：`OEBPS/Text/part0019.xhtml`，11–67页。
 - Sophist：`OEBPS/Text/part0015.xhtml`，216–242页；不收录该篇导言。
+- Alcibiades 2：`OEBPS/Text/part0008.xhtml` 中“Der sogenannte Zweite”部分的正文标题“Alkibiades”之后，138–151页；不收录导言、前篇《弥诺斯》及下一部分。EPUB漏标整数页147，对应德文仍在所标146页中连续保留，来源索引不凭空补造页码。
 - Alcibiades 1：`OEBPS/Text/part0020.xhtml` 中正文标题“Alkibiades”之后，103–135页；排除前置导言。
 - Apology：`OEBPS/Text/part0006.xhtml` 中“Des Sokrates Verteidigung”标题之后，续至 `part0007.xhtml`，止于下一篇之前。整数页码为17–41，42a的结尾德文仍在EPUB所标41页中，保留实际来源页号。
 - Parmenides：标题位于 `OEBPS/Text/part0005.xhtml` 末尾，正文在 `part0006.xhtml`，126–166页；不收录前后相邻作品及导言。
@@ -81,8 +86,8 @@ Diorisis对应不等于人工确认；保留语料中的候选，不把自动选
 - `data/classics/pape.json`：本栏目实际用到的Pape词条，独立载入并缓存。
 - `tools/import_classics.py`：可重复运行的导入器，无翻译模型依赖。
 - `tools/import_parmenides.py`、`tools/parmenides-notes.json`：全篇《巴门尼德篇》的导入器及三栏笔记。另有词汇补充表与少量明确标明来源的词形补注。
-- `tools/import_additional_classics.py`、`tools/{alcibiades1,apology}-notes.json`：新增两篇的可复现导入及三栏笔记；对应的 `*-morphology.json`、`additional-classics-zh.json` 保存词形补注及中文短释。
-- `docs/{alcibiades1,apology}-import-report.json`：材料校验值、去重记录、德译匹配组与缺译单元、覆盖率。
+- `tools/import_additional_classics.py`、`tools/{alcibiades1,apology,alcibiades2}-notes.json`：新增各篇的可复现导入及三栏笔记；对应的 `*-morphology.json`、`additional-classics-zh.json` 保存词形补注及中文短释。
+- `docs/{alcibiades1,apology,alcibiades2}-import-report.json`：材料校验值、去重记录、德译匹配组与缺译单元、覆盖率。
 - `tools/classics-reading-notes.json`：三部作品的句读内容与摘录对应信息。
 - `tools/classics-structure-edits.json`：逐条改写的结构说明。
 - `tools/simplify_classics.py`：从原译检索对应句段、整理结构说明并写回网页资料；运行 `--apply` 应用结果。

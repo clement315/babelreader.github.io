@@ -41,7 +41,7 @@ class ClassicsData(unittest.TestCase):
      for i,key in u['analyses'].items():
       self.assertTrue(u['tokens'][int(i)])
       self.assertTrue(page['analyses'][key]);count+=1
-  self.assertEqual(count,76997)
+  self.assertEqual(count,81172)
  def test_noun_case_gender_number_and_gloss(self):
   a=self.analyses('philebus','λόγον')
   self.assertTrue(any(x['lemma']=='λόγος' and x['pos']=='noun' and x['case']=='accusative' and x['gender']=='masculine' and x['number']=='singular' for x in a))
@@ -145,7 +145,7 @@ class ClassicsData(unittest.TestCase):
   self.assertTrue(all(a['lemma']=='ἔνειμι' and a['mood']=='optative' for a in self.analyses('parmenides','ἐνείη')))
  def test_complete_additions_match_requested_canonical_editions(self):
   import xml.etree.ElementTree as ET
-  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a')]:
+  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a'),('alcibiades2',257,'138a','151c')]:
    source=ROOT/f'tools/{slug}-source.xml';tree=ET.parse(source);body=tree.find('.//{http://www.tei-c.org/ns/1.0}body')
    for parent in list(body.iter()):
     for child in list(parent):
@@ -161,7 +161,7 @@ class ClassicsData(unittest.TestCase):
    for u in units:self.assertEqual(''.join(u['tokens']),u['greek'])
  def test_additions_use_uploaded_chinese_and_documented_edits(self):
   edits=load(ROOT/'tools/additional-classics-edits.json')
-  for slug,filename in [('alcibiades1','Acibiades 1.txt'),('apology','Apology.txt')]:
+  for slug,filename in [('alcibiades1','Acibiades 1.txt'),('apology','Apology.txt'),('alcibiades2','Alcibiades 2.txt')]:
    path=Path(r'C:\Users\Haowen_wei\Desktop')/filename
    if not path.exists():continue
    source=re.sub(r'\s+',' ',path.read_text(encoding='utf-8-sig'))
@@ -189,7 +189,7 @@ class ClassicsData(unittest.TestCase):
   self.assertTrue(any(a['lemma']=='ἐπιλανθάνομαι' and a['tense']=='aorist' and a['person']=='1st' for a in self.analyses('apology','ἐπελαθόμην')))
   self.assertTrue(any(a['lemma']=='πάσχω' and a['tense']=='perfect' and a['number']=='plural' for a in self.analyses('apology','πεπόνθατε')))
   a=self.analyses('alcibiades1','Ἐρχίασιν');self.assertEqual(a[0]['pos'],'adverb');self.assertFalse(a[0].get('case'))
-  for slug in ['alcibiades1','apology']:
+  for slug in ['alcibiades1','apology','alcibiades2']:
    for page in self.pages[slug]:
     for u in page['units']:
      for key in u['analyses'].values():self.assertTrue(any(a['zh'] for a in page['analyses'][key]),(slug,u['id']))
@@ -205,4 +205,22 @@ class ClassicsData(unittest.TestCase):
    self.assertEqual(rebuilt['reading']['zh'],'馆主保存的译文');self.assertTrue(rebuilt['reading']['ownerEdited'])
    changed=json.loads(json.dumps(self.pages['parmenides'][0]['units'][0]));changed['greek']+='ἕν';module.restore_owner_notes(changed,saved)
    self.assertNotIn('ownerEdited',changed['reading'])
+ def test_alcibiades2_german_limits_and_unmarked_page(self):
+  pages=self.pages['alcibiades2'];units=[u for p in pages for u in p['units']]
+  self.assertEqual(units[0]['reading']['de'],'Sokrates: Gehst du etwa zu dem Gotte um zu beten, o Alkibiades?')
+  self.assertEqual(units[1]['reading']['de'],'Alkibiades: Allerdings, Sokrates.')
+  self.assertTrue(units[-1]['reading']['de'].endswith('unter deinen Liebhabern.'))
+  self.assertEqual(next(p for p in pages if p['page']=='147')['germanSource']['page'],'146')
+  self.assertTrue(units[170]['greek'].startswith('—ναί.'))
+  self.assertIn('...',units[183]['greek'])
+ def test_alcibiades2_contextual_participles_and_verbs(self):
+  page=next(p for p in self.pages['alcibiades2'] if p['page']=='144')
+  unit=next(u for u in page['units'] if u['id']==143)
+  index=unit['tokens'].index('ἔχουσιν');aa=page['analyses'][unit['analyses'][str(index)]]
+  self.assertTrue(all(a['pos']=='participle' and a['case']=='dative' and a['number']=='plural' for a in aa))
+  a=self.analyses('alcibiades2','φρονήσει')
+  self.assertTrue(all(x['lemma']=='φρόνησις' and x['pos']=='noun' and x['case']=='dative' for x in a))
+  a=self.analyses('alcibiades2','περιθήσω')
+  self.assertTrue(all(x['lemma']=='περιτίθημι' and x['tense']=='future' and x['person']=='1st' for x in a))
+  self.assertTrue(all(a['pos']=='conjunction' for a in self.analyses('alcibiades2','ἤπερ')))
 if __name__=='__main__':unittest.main()

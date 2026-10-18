@@ -308,7 +308,7 @@ def main():
  if (REPO/'tools/parmenides-notes.json').exists():
   from import_parmenides import import_work
   import_work(resources,args.german_epub)
- if any((REPO/f'tools/{slug}-notes.json').exists() for slug in ('alcibiades1','apology')):
+ if any((REPO/f'tools/{slug}-notes.json').exists() for slug in ('alcibiades1','apology','alcibiades2')):
   from import_additional_classics import import_added
   import_added(resources,args.german_epub)
  print(json.dumps({k:{x:v[x] for x in ['units','words','morphologyCoverage','germanLexiconCoverage','chineseGlossCoverage']} for k,v in all_report.items()},ensure_ascii=False,indent=2))
