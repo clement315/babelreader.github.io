@@ -41,7 +41,7 @@ class ClassicsData(unittest.TestCase):
      for i,key in u['analyses'].items():
       self.assertTrue(u['tokens'][int(i)])
       self.assertTrue(page['analyses'][key]);count+=1
-  self.assertEqual(count,81172)
+  self.assertEqual(count,107419)
  def test_noun_case_gender_number_and_gloss(self):
   a=self.analyses('philebus','λόγον')
   self.assertTrue(any(x['lemma']=='λόγος' and x['pos']=='noun' and x['case']=='accusative' and x['gender']=='masculine' and x['number']=='singular' for x in a))
@@ -145,7 +145,7 @@ class ClassicsData(unittest.TestCase):
   self.assertTrue(all(a['lemma']=='ἔνειμι' and a['mood']=='optative' for a in self.analyses('parmenides','ἐνείη')))
  def test_complete_additions_match_requested_canonical_editions(self):
   import xml.etree.ElementTree as ET
-  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a'),('alcibiades2',257,'138a','151c')]:
+  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a'),('alcibiades2',257,'138a','151c'),('gorgias',1720,'447a','527e')]:
    source=ROOT/f'tools/{slug}-source.xml';tree=ET.parse(source);body=tree.find('.//{http://www.tei-c.org/ns/1.0}body')
    for parent in list(body.iter()):
     for child in list(parent):
@@ -223,4 +223,38 @@ class ClassicsData(unittest.TestCase):
   a=self.analyses('alcibiades2','περιθήσω')
   self.assertTrue(all(x['lemma']=='περιτίθημι' and x['tense']=='future' and x['person']=='1st' for x in a))
   self.assertTrue(all(a['pos']=='conjunction' for a in self.analyses('alcibiades2','ἤπερ')))
+ def test_gorgias_full_range_and_uploaded_chinese(self):
+  units=[u for p in self.pages['gorgias'] for u in p['units']]
+  self.assertEqual(len(self.pages['gorgias']),81)
+  source=PROJECT/'output/gorgias/Gorgias_447a-461b_逐句精读_阶段稿.txt'
+  if source.exists():
+   text=re.sub(r'\s+',' ',source.read_text(encoding='utf-8-sig'))
+   for u in units[:334]:self.assertIn(re.sub(r'\s+',' ',u['reading']['zh']),text)
+  self.assertEqual(units[334]['ref'],'461b')
+  self.assertTrue(units[-1]['reading']['zh'].endswith('卡利克勒斯，那条路毫无价值。'))
+  meta=next(w for w in self.catalog['works'] if w['id']=='gorgias')
+  self.assertTrue(meta['source'].endswith('tlg023/'))
+  self.assertEqual(meta['words'],26247)
+  for p in self.pages['gorgias']:
+   for u in p['units']:
+    for key in u['analyses'].values():self.assertTrue(any(a['zh'] for a in p['analyses'][key]),u['id'])
+ def test_gorgias_original_german_boundaries_and_shared_compound_sentences(self):
+  units={u['id']:u for p in self.pages['gorgias'] for u in p['units']}
+  self.assertEqual(units[1]['reading']['de'],'Kallikles: Zum Kriege und zur Schlacht, heißt es, o Sokrates, muß man so zurecht kommen.')
+  self.assertTrue(units[2]['reading']['de'].startswith('Sokrates: Also sind wir wohl'))
+  self.assertTrue(units[890]['reading']['de'].startswith('Entweder also,'))
+  self.assertTrue(units[1678]['reading']['de'].startswith('Wie also Homeros'))
+  self.assertEqual(units[1716]['reading']['de'],units[1717]['reading']['de'])
+  self.assertIn('alle Schmeichelei',units[1715]['reading']['de'])
+  self.assertTrue(units[1720]['reading']['de'].endswith('nichts wert, o Kallikles.'))
+  self.assertIn('Seligen',units[1679]['reading']['de'])
+  self.assertIn('必正义、虔敬',units[1437]['reading']['zh'])
+ def test_gorgias_morphology_and_poetry_word_separators(self):
+  self.assertTrue(any(a['lemma']=='Ἡρακλῆς' and a['case']=='genitive' for a in self.analyses('gorgias','Ἡρακλέος')))
+  self.assertTrue(all(a['lemma']=='σκεῦος' and a['pos']=='noun' and a['gender']=='neuter' for a in self.analyses('gorgias','σκεύους')))
+  self.assertTrue(all(a['lemma']=='σιδήρεος' and a['pos']=='adjective' for a in self.analyses('gorgias','σιδηροῖς')))
+  units={u['id']:u for p in self.pages['gorgias'] for u in p['units']}
+  self.assertIn('βασιλεὺς θνατῶν',units[910]['greek'])
+  self.assertEqual(units[1433]['speaker'],'苏格拉底')
+  self.assertEqual(units[1434]['speaker'],'苏格拉底')
 if __name__=='__main__':unittest.main()

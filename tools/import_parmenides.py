@@ -96,7 +96,8 @@ def import_work(resources,epub,spec=None):
    for offset in range(size):matched[left+offset]=words[right+offset][1]
   pool={};signatures={}
   for offset,(u,i,w) in enumerate(positions):
-   aa=(matched.get(offset) or [])+lookup(w)
+   # Page-specific quotations/names must not leak through the form cache.
+   aa=[dict(a) for a in (matched.get(offset) or [])+lookup(w)]
    aa=note_candidates({'notes':{'动词':records[u['id']-1].get('verbHints','')}},w,aa)
    editorial={'Ἰβυκείου':('Ἰβύκειος','adjective','masc gen sg'),'ἐνείη':('ἔνειμι','verb','pres opt act 3rd sg'),'ἐνεῖναι':('ἔνειμι','verb','pres inf act'),'ἐνῇ':('ἔνειμι','verb','pres subj act 3rd sg'),'ἔκλεψε':('κλέπτω','verb','aor ind act 3rd sg'),'ὑποθησόμεθα':('ὑποτίθημι','verb','fut ind mid 1st pl'),'μεταθεῖς':('μετατίθημι','participle','aor part act masc nom sg'),'ἡσυχάζον':('ἡσυχάζω','participle','pres part act neut nom/voc/acc sg')}
    editorial.update(spec.get('morphology',{}))

@@ -13,6 +13,7 @@
 | Alcibiades 1《阿尔西比亚德斯 1》 | 103a–135e | 1103 |
 | Apology《申辩篇》 | 17a–42a | 345 |
 | Alcibiades 2《阿尔西比亚德斯 2》 | 138a–151c | 257 |
+| Gorgias《高尔吉亚篇》 | 447a–527e | 1720 |
 
 前三部作品的希腊文及中文译文取自馆主指定的三份材料。结构分析保留理解句子所需的主干、从句、支配关系和省略说明，删去逐项词形清单及泛泛的风格评论，并改写冗长、夸饰的讲解。原 TXT 文件未改动。
 
@@ -27,6 +28,11 @@
 - [Alcibiades 1 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg013/)
 - [Apology · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg002/)
 - [Alcibiades 2 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg014/)
+- [Gorgias · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg023/)
+
+《高尔吉亚篇》使用该作品URN对应的Perseus官方 `canonical-greekLit` 仓库 `tlg0059.tlg023.perseus-grc2.xml`，SHA-256为 `c0d1fc4fd562d2ed3c3378a04c1965c4883b28d50a745320f9ea91be9b601f9f`。用户本次所贴 `tlg013` 链接实际为《阿尔西比亚德斯 1》，已按明确的作品名称及原精读稿中记载的底本改用 `tlg023`。完整保存447a–527e，沿用材料的1720个句读编号；排除现代标签、书目、注释及编辑拟删文字，保留正文补入文字。引诗的行与行之间补空格，以免词语粘连；不补造原XML空缺处的文字。
+
+本篇前334单元的中文句译取自馆主指定的447a–461b精读稿，结构说明作简化整理；335–1720单元的中文句译与结构说明按馆主明确要求续写，分别保存于 `tools/gorgias-reading/` 和 `tools/gorgias-responses.json`。简短同形答语可复用同一解释，长句另行说明具体的从句、支配、省略与论证转折。原阶段稿保持不变。全篇笔记均可由馆主在网页中修改。
 
 《巴门尼德篇》依 Perseus 的 Burnet 1910 电子本全文导入，收录 126a–166c。原 XML 保存在 `tools/parmenides-source.xml`；保留正文次序及用字，编辑标作删除的 `del` 内容不列入连续阅读正文。馆主提供的 `Parmenides.txt` 含前 1235 个句读单元，最后一句跨至 163a；中文及结构说明以此为参考，后续 134 个单元补充至全篇结束。来源摘要及校验值见 `docs/parmenides-import-report.json`。
 
@@ -51,6 +57,7 @@ Perseus原始电子文本许可：[CC BY-SA 3.0 US](https://creativecommons.org/
 - Alcibiades 1：`OEBPS/Text/part0020.xhtml` 中正文标题“Alkibiades”之后，103–135页；排除前置导言。
 - Apology：`OEBPS/Text/part0006.xhtml` 中“Des Sokrates Verteidigung”标题之后，续至 `part0007.xhtml`，止于下一篇之前。整数页码为17–41，42a的结尾德文仍在EPUB所标41页中，保留实际来源页号。
 - Parmenides：标题位于 `OEBPS/Text/part0005.xhtml` 末尾，正文在 `part0006.xhtml`，126–166页；不收录前后相邻作品及导言。
+- Gorgias：标题位于 `OEBPS/Text/part0009.xhtml`，正文在 `part0010.xhtml`，447–527页；止于下一篇《泰阿泰德篇》之前。本篇标注Akademie Verlag Berlin 1985。全篇1081次发言转换与希腊文逐一核对一致后，再在各自发言内匹配句段。849–850、1660–1661、1716–1717等处保留跨越希腊句读边界的完整德文原句；889–890与1677–1678处另核对句界。未使用原阶段稿的自译德文作为显示译文。
 
 该 EPUB 只有 Stephanus 整数页标记，没有 a–e 小节或逐句编号。句读笔记采用原译中的对应句段：按页码、内容顺序与说话人匹配，并允许一句跨越整数页。德译把数个希腊短句合写时，相关单元共用完整原译句。所摘文字保留原文；匹配采用程序辅助并作抽查，不表示每一处已完成独立的语文学复核。《智者篇》最后一个摘录止于本栏目 242b 的对应句，不把该整数页的后续论述一并显示。
 
@@ -85,6 +92,7 @@ Diorisis对应不等于人工确认；保留语料中的候选，不把自动选
 - `data/classics/{work}/{page}.json`：该页希腊文、逐词候选索引和 `units.reading` 中的三项句读内容；整数页德文只作来源索引，不显示为另一栏笔记。
 - `data/classics/pape.json`：本栏目实际用到的Pape词条，独立载入并缓存。
 - `tools/import_classics.py`：可重复运行的导入器，无翻译模型依赖。
+- `tools/import_gorgias.py`：全篇《高尔吉亚篇》的导入器；`gorgias-source.xml` 保存原TEI，`gorgias-units.json` 保存完整句读索引，`gorgias-notes.json` 保存三栏笔记；`gorgias-zh-supplement.json` 和 `gorgias-morphology.json` 保存中文词汇及少见词形补注。`docs/gorgias-import-report.json`、`docs/gorgias-alignment-review.json` 记录覆盖与德译对应。Diorisis语料仍按同一数据集署名。
 - `tools/import_parmenides.py`、`tools/parmenides-notes.json`：全篇《巴门尼德篇》的导入器及三栏笔记。另有词汇补充表与少量明确标明来源的词形补注。
 - `tools/import_additional_classics.py`、`tools/{alcibiades1,apology,alcibiades2}-notes.json`：新增各篇的可复现导入及三栏笔记；对应的 `*-morphology.json`、`additional-classics-zh.json` 保存词形补注及中文短释。
 - `docs/{alcibiades1,apology,alcibiades2}-import-report.json`：材料校验值、去重记录、德译匹配组与缺译单元、覆盖率。
