@@ -1,0 +1,1912 @@
+{
+  "schema_version": 1,
+  "batch": "I-q005",
+  "date": "2026-10-20",
+  "baseline_git_commit": "7d60bf6461c6417d8fc755a94f33e468b9091037",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q005",
+    "title": "概論善",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288
+    ],
+    "printed_pages": [
+      59,
+      72
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 80,
+    "changed_review_units": 59,
+    "checked_unchanged_review_units": 21,
+    "source_absent_review_units": 1
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q5.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q5.json": "46a028708868080f119836a1740e6c5e0762c6c4694d5053e58c3ee10b2f288d"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q005.a001.ad3",
+      "pdf_file_page": 277,
+      "text": "說善可多可少",
+      "status": "原书疑似印误／缺文",
+      "action": "原页第275页仅列质疑1、2，接反之；第277页却列释疑1、2、3。现有 arg3.zh 为空，与所给 PDF 无该段的状况一致，保留空串和原编号，不依拉丁文或其他版本补译。"
+    },
+    {
+      "id": "I.q005.a002.ad1",
+      "pdf_file_page": 279,
+      "text": "第一質料卻不分有有或物(而是有或物)",
+      "status": "原书疑似印误",
+      "action": "放大原页确认括注为「而是有或物」，与前面的「不分有」有张力，疑漏「非」；按底本保留，供人工定夺。「第一質料亦欲求自己」也确实如此印刷，未改写。"
+    },
+    {
+      "id": "I.q005.a005.ad4",
+      "pdf_file_page": 286,
+      "text": "因為它們是屬於異物的和不適當的。",
+      "status": "原书疑似印误／标点",
+      "action": "原页「所謂惡的模式」开头的引号在段末没有对应的右引号；网页同样如此。按底本保留未闭合状态，不静默补引号。"
+    }
+  ],
+  "notes": [
+    "PDF page images, not the defective embedded OCR layer, determine every reading.",
+    "The source has two objections but three replies in article 1; the existing empty third Chinese objection remains empty.",
+    "Original ordinary-language readings 普通, 欲求自己, and 而是有或物, printed references including 第一節釋疑3., and source line-end Latin hyphens secun-dum and uni-vocum are retained.",
+    "The print-only division line 分為六節 is represented by six existing article objects; no key, structure or newline escape was added."
+  ],
+  "readings": [
+    {
+      "id": "I.q005.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "然後要討論的是善。首先討論胡一般的善;然後討論天主的善(第六題)。\n關於第一點，可以提出六個問題:\n一、善與有或物，實質上是不是同一的。\n二、假設它們只是在理解或觀念上有區別，在觀念上何者為先，是善抑或是有或物。\n三、假設有或物在先，是否每一個有或物都是善的。\n四、善之理或本質應歸原於什麼原因。\n五、善之理或本質是否在於模式、物種和秩序。\n六、善如何分為高貴或正直之善、可用之善，和可樂之善。",
+      "after": "然後要討論的是善。首先討論一般的善；然後討論天主的善(第六題)。\n關於第一點，可以提出六個問題：\n一、善與有或物，實質上是不是同一的。\n二、假設它們只是在理解或觀念上有區別，在觀念上何者為先，是善抑或是有或物。\n三、假設有或物在先，是否每一個有或物都是善的。\n四、善之理或本質應歸原於什麼原因。\n五、善之理或本質是否在於模式、物種和秩序。\n六、善如何分為高貴或正直之善、可用之善，和可樂之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "討論胡一般",
+          "after": "討論一般",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "善與有或物在實質上是否有區別",
+      "after": "善與有或物在實質上是否有區別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "善(bonum)與有或物(ens)'在實質上似乎有區別。因為:",
+      "after": "善(bonum)與有或物(ens)，在實質上似乎有區別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "(ens)'在",
+          "after": "(ens)，在",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "波其武在《論七天創造工程》中說:「我在萬物中看出，物是善的是一回事，有物、或物存在是另一回事。」所以，善與有或物在實質上有區別。",
+      "after": "波其武在《論七天創造工程》中說：「我在萬物中看出，物是善的是一回事，有物、或物存在是另一回事。」所以，善與有或物在實質上有區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        275
+      ],
+      "before": "此外，沒有物是自己的形式。而在《論原因》的註釋中卻說，善是有或物的形式。所以，善與有或物在實質上有區別。",
+      "after": "此外，沒有物是自己的形式。而在《論原因》的註釋中卻說，善是有或物的形式。所以，善與有或物在實質上有區別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        275,
+        276
+      ],
+      "before": "",
+      "after": "",
+      "status": "source_absent",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        275,
+        276
+      ],
+      "before": "奧斯定在《論基督聖道》(De doctrina christiana)卷一第三十二章卻說: 「單就『有我們或我們存在』而言，我們便是善的。」",
+      "after": "奧斯定在《論基督聖道》(De doctrina christiana)卷一第三十二章卻說：「單就『有我們或我們存在』而言，我們便是善的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        276
+      ],
+      "before": "我解答如下:善與有或物在實質上是同一的，只是在理解或觀念上有區別。這一點可以如此來證明。善之理或本質(ratio)在於一物是值得欲求的;是以，哲學家在《倫理學》卷一第一章說: 「所謂善者，就是大家所欲求者。」很明顯地，物之所以是值得欲求的，是根據該物之圓滿完成或完美;因為一切物都欲求本身的完美。而物之為完美，即在於物之為現實。因此，很明顯地，物之所以是善的，是因為它是實有或貫際存在之物;因為，如第三題第四節、第四題第一節釋疑3所論，實有或實際存在就是所有或一切物的現實。所以，很明顯地，善與有或物在實質上是同一的;但是善所表達的是值得欲求之理或性質，而有或物對此卻無所表達。",
+      "after": "我解答如下：善與有或物在實質上是同一的，只是在理解或觀念上有區別。這一點可以如此來證明。善之理或本質(ratio)在於一物是值得欲求的；是以，哲學家在《倫理學》卷一第一章說：「所謂善者，就是大家所欲求者。」很明顯地，物之所以是值得欲求的，是根據該物之圓滿完成或完美；因為一切物都欲求本身的完美。而物之為完美，即在於物之為現實。因此，很明顯地，物之所以是善的，是因為它是實有或實際存在之物；因為，如第三題第四節、第四題第一節釋疑3.所論，實有或實際存在就是所有或一切物的現實。所以，很明顯地，善與有或物在實質上是同一的；但是善所表達的是值得欲求之理或性質，而有或物對此卻無所表達。",
+      "status": "corrected",
+      "error_types": [
+        "引文标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貫際存在",
+          "after": "實際存在",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "釋疑3所論",
+          "after": "釋疑3.所論",
+          "type": "引文标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        276,
+        277
+      ],
+      "before": "雖然善與有或物在實質上是同一的，但由於在觀念上彼此有區別，所以稱一個東西為「絕對的或十足的有或物(ens simpliciter)」'和稱一個東西為「絕對的或十足的善(bonum simpliciter)」'其意義不完全相同。因為所謂有或物，原本是說一個東西處於現實中，而現實原本是針對潛能而言;準此，一個東西根據什麼基本上有別於那隻處於潛能中者，也就根據它，絕對地說這個東西是有或物。而這就是每個東西的「本體的或自立體的有或存在(esse substantiale)」;因此，每個東西因自己的本體的有或存在，而稱為絕對的或十足的有或物。基於附加的現賞'貝間則1]說一個東西為「相對的有或存在(esse記secωu仔n. dωum一方面的有或存在。因為「有白色」不是以絕對的或全面的潛能為前提，而是附加給先已存在於現實中的東西。但善所表示的，卻是值得欲求的完美性，因此是針對最終完美或成全而言的。因此，具有最終完美性的，即稱之為「絕對的或十足的善」。因此，一個東西，雖然因其存在於現實中而有某種完美，但若它沒有它應有的最終完羹，則不能稱之為絕對的或十足的完美，因此亦不能說是絕對的或十足的善，而只能說是相對的或某一方面的善。所以，根據其基本的或最初的有或存在，即本體的有或存在，稱一個東西為絕對的有或物，和相對的善，即依其為有或物方面的善;但是，根據其最終的現實，買Ij稱一個東西為相對的有或物，和絕對的善。(按:如小馬一出生，便是十足的或不折不扣的「馬」;但直至牠最後充分長成，纔是十足的「好」馬。)\n所以，波其武所說的「物是善的是一回事，有物或物存在是另一回事」'應係指絕對意義的善，和絕對意義的有或物而言;因為一個東西、依其基本的或最初的現實而言，是絕對意義的有或物;依其最終的現實而言，則是絕對意義的善。但是，依其基本的或最初的現實而言，它也是某種相對意義的善;依其最終的現實而言，它也是某種相對意義的有或物。",
+      "after": "雖然善與有或物在實質上是同一的，但由於在觀念上彼此有區別，所以稱一個東西為「絕對的或十足的有或物(ens simpliciter)」，和稱一個東西為「絕對的或十足的善(bonum simpliciter)」，其意義不完全相同。因為所謂有或物，原本是說一個東西處於現實中，而現實原本是針對潛能而言；準此，一個東西根據什麼基本上有別於那只處於潛能中者，也就根據它，絕對地說這個東西是有或物。而這就是每個東西的「本體的或自立體的有或存在(esse substantiale)」；因此，每個東西因自己的本體的有或存在，而稱為絕對的或十足的有或物。基於附加的現實，則說一個東西為「相對的有或存在(esse secun-dum quid)」，比如「是白色的或有白色」是指一種相對的或某一方面的有或存在。因為「有白色」不是以絕對的或全面的潛能為前提，而是附加給先已存在於現實中的東西。但善所表示的，卻是值得欲求的完美性，因此是針對最終完美或成全而言的。因此，具有最終完美性的，即稱之為「絕對的或十足的善」。因此，一個東西，雖然因其存在於現實中而有某種完美，但若它沒有它應有的最終完美，則不能稱之為絕對的或十足的完美，因此亦不能說是絕對的或十足的善，而只能說是相對的或某一方面的善。所以，根據其基本的或最初的有或存在，即本體的有或存在，稱一個東西為絕對的有或物，和相對的善，即依其為有或物方面的善；但是，根據其最終的現實，則稱一個東西為相對的有或物，和絕對的善。(按：如小馬一出生，便是十足的或不折不扣的「馬」；但直至牠最後充分長成，才是十足的「好」馬。)\n所以，波其武所說的「物是善的是一回事，有物或物存在是另一回事」，應係指絕對意義的善，和絕對意義的有或物而言；因為一個東西、依其基本的或最初的現實而言，是絕對意義的有或物；依其最終的現實而言，則是絕對意義的善。但是，依其基本的或最初的現實而言，它也是某種相對意義的善；依其最終的現實而言，它也是某種相對意義的有或物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "simpliciter)」'",
+          "after": "simpliciter)」，",
+          "type": "标点",
+          "occurrences": 2
+        },
+        {
+          "before": "那隻處於潛能",
+          "after": "那只處於潛能",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "基於附加的現賞'貝間則1]說一個東西為「相對的有或存在(esse記secωu仔n. dωum一方面的有或存在。",
+          "after": "基於附加的現實，則說一個東西為「相對的有或存在(esse secun-dum quid)」，比如「是白色的或有白色」是指一種相對的或某一方面的有或存在。",
+          "type": "乱码／漏字／标点",
+          "occurrences": 1
+        },
+        {
+          "before": "最終完羹",
+          "after": "最終完美",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "買Ij稱",
+          "after": "則稱",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "充分長成，纔是",
+          "after": "充分長成，才是",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "另一回事」'應係",
+          "after": "另一回事」，應係",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "說善是形式，係指依最終之現實而論的絕對意義的善。",
+      "after": "說善是形式，係指依最終之現實而論的絕對意義的善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "說善可多可少，是依附加之現實而言，例如:知識或德性。",
+      "after": "說善可多可少，是依附加之現實而言，例如：知識或德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "在觀念上善是否先於有或物",
+      "after": "在觀念上善是否先於有或物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "在觀念上，善似乎是先於有或物。因為:",
+      "after": "在觀念上，善似乎是先於有或物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        277
+      ],
+      "before": "名稱的次序，是依照名稱所代表之物的次序而來的。而狄奧尼修在天主的許多名稱中，卻把善放在有或物之先，如《神名論》第三章所明示的。所以，在觀念上，善先於有或物。",
+      "after": "名稱的次序，是依照名稱所代表之物的次序而來的。而狄奧尼修在天主的許多名稱中，卻把善放在有或物之先，如《神名論》第三章所明示的。所以，在觀念上，善先於有或物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        277,
+        278
+      ],
+      "before": "此外，在觀念上，其範圍較廣的在先。而善的範圈比有或物的範圈較廣，因為如狄奧尼修在《神名論》第五章所說的，善擴延到存在的東西及不存在的東西，而有或物則僅及於存在的東西。所以，在觀念上，善先於有或物。",
+      "after": "此外，在觀念上，其範圍較廣的在先。而善的範圍比有或物的範圍較廣，因為如狄奧尼修在《神名論》第五章所說的，善擴延到存在的東西及不存在的東西，而有或物則僅及於存在的東西。所以，在觀念上，善先於有或物。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "type": "错字",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        278
+      ],
+      "before": "此外，在觀念上，較為普遍的在先。而善似乎比有或物更為普遍，因為善有值得欲求的意義;而為有些人來說，「沒有或不存在」卻是值得欲求的;因為《瑪竇福音》第二十六章24節論及猶達斯: 「那人若沒有生，為他更好」等等。所以，在觀念上，善先於有或物。",
+      "after": "此外，在觀念上，較為普通的在先。而善似乎比有或物更為普通，因為善有值得欲求的意義；而為有些人來說，「沒有或不存在」卻是值得欲求的；因為《瑪竇福音》第二十六章24節論及猶達斯：「那人若沒有生，為他更好」等等。所以，在觀念上，善先於有或物。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "普遍",
+          "after": "普通",
+          "type": "错字",
+          "occurrences": 2
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        278
+      ],
+      "before": "此外，不僅有或存在是值得欲求的，而且還有生命、智慧等許許多多諸如此類的東西;由此看來，有或存在只是值得欲求的特殊東西而己，而善卻是普遍的。所以，在觀念上，善絕對先於有或物。",
+      "after": "此外，不僅有或存在是值得欲求的，而且還有生命、智慧等許許多多諸如此類的東西；由此看來，有或存在只是值得欲求的特殊東西而已，而善卻是普通的。所以，在觀念上，善絕對先於有或物。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而己",
+          "after": "而已",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "普遍",
+          "after": "普通",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        278
+      ],
+      "before": "《論原因》中卻說: 「受造萬有或萬物中之為首者，是有或存在」。",
+      "after": "《論原因》中卻說：「受造萬有或萬物中之為首者，是有或存在」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        278
+      ],
+      "before": "我解答如下:在觀念上，有或物先於善。因為一個名稱所表示的意義，就是理智對一個東西所領悟者，並用聲音把它表達出來。所以，那首先進入理智之領悟的，就是在觀念上先有的。而首先進入理智之領悟的是有或物;因為一個東西之可能被認知，係根據它存在於現實中，如《形上學》卷九第九章所說的。是以，有或物是理智的固有對象，因此是首先可以理解或領悟者，就如聲音是首先可以聽到者一樣。所以，在觀念上，有或物先於善。",
+      "after": "我解答如下：在觀念上，有或物先於善。因為一個名稱所表示的意義，就是理智對一個東西所領悟者，並用聲音把它表達出來。所以，那首先進入理智之領悟的，就是在觀念上先有的。而首先進入理智之領悟的是有或物；因為一個東西之可能被認知，係根據它存在於現實中，如《形上學》卷九第九章所說的。是以，有或物是理智的固有對象，因此是首先可以理解或領悟者，就如聲音是首先可以聽到者一樣。所以，在觀念上，有或物先於善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        278,
+        279
+      ],
+      "before": "狄奧尼修排列天主的名稱，是依照這些名稱所含的視天主為原因的內容情形。因為，像他自己所說的(《神名論》第一章)，我們是由受造物出發給天主取名稱，就如由效果出發給原因取名稱一樣。由於善有值得欲求的意義，所以具有目的原因的內涵，而目的原因的因果作用是第一個，因為一個動作者或主動者除非有一個目的，是不會動作的;而質料也是被動作者所動而有其形式。所以，目的被稱為原因的原因。這樣，在發生因果作用或創作方面，則善先於有或物，就像目的先於形式一樣。所以，在表示天主之為原因的名稱中，善被排列在有或物之先。\n此外，柏拉圖學派不能分辨質料與缺乏或沒有，說質料就是非有或非物，所以依照他們，善之被分有的範間，比有或物之被分有的範圍較廣。因為第一質料亦欲求自己(因為一切都欲求與自己類似者)，所以也分有善(而是善);可是，第一質料卻不分有有或物(而是有或物)，因為第一質料被認為是非有或非物。因此狄奧尼修才說，善也擴延到不存在的東西(參看質疑2.)。",
+      "after": "狄奧尼修排列天主的名稱，是依照這些名稱所含的視天主為原因的內容情形。因為，像他自己所說的(《神名論》第一章)，我們是由受造物出發給天主取名稱，就如由效果出發給原因取名稱一樣。由於善有值得欲求的意義，所以具有目的原因的內涵，而目的原因的因果作用是第一個，因為一個動作者或主動者除非有一個目的，是不會動作的；而質料也是被動作者所動而有其形式。所以，目的被稱為原因的原因。這樣，在發生因果作用或創作方面，則善先於有或物，就像目的先於形式一樣。所以，在表示天主之為原因的名稱中，善被排列在有或物之先。\n此外，柏拉圖學派不能分辨質料與缺乏或沒有，說質料就是非有或非物，所以依照他們，善之被分有的範圍，比有或物之被分有的範圍較廣。因為第一質料亦欲求自己(因為一切都欲求與自己類似者)，所以也分有善(而是善)；可是，第一質料卻不分有有或物(而是有或物)，因為第一質料被認為是非有或非物。因此狄奧尼修才說，善也擴延到不存在的東西(參看質疑2.)。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範間",
+          "after": "範圍",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        279
+      ],
+      "before": "由此釋疑1.亦可知質疑2.之解答。或者也可以說，善之擴及存在的東西和不存在的東西，不是依照(靜的)稱述的方式(說它們)都是善的，而是根據(動的)因果作用或關係。這就是說，我們所謂非存在的東西，不是指完全不存在的東西，而是指那些處於潛能中而不處於現實中的東西;因為善有目的的意義，不僅那些已經處於現實中的東西在善中獲得息止，而且連那些尚未獲得現實而仍然只處於潛能中的東西，也朝著善而被推動。而另一方面，有或物卻僅僅具有內在的或模型的形式原因的意義;而這種原因的因果作用或關係卻只擴及那些已存在於現實中的東西。",
+      "after": "由此釋疑1.亦可知質疑2.之解答。或者也可以說，善之擴及存在的東西和不存在的東西，不是依照(靜的)稱述的方式(說它們)都是善的，而是根據(動的)因果作用或關係。這就是說，我們所謂非存在的東西，不是指完全不存在的東西，而是指那些處於潛能中而不處於現實中的東西；因為善有目的的意義，不僅那些已經處於現實中的東西在善中獲得息止，而且連那些尚未獲得現實而仍然只處於潛能中的東西，也朝著善而被推動。而另一方面，有或物卻僅僅具有內在的或模型的形式原因的意義；而這種原因的因果作用或關係卻只擴及那些已存在於現實中的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        279,
+        280
+      ],
+      "before": "「沒有或不存在屍不是本身值得欲求的，而只是偶然地，即是說，因為「沒有或不存在」消除一種蔥，而消除惡是值得欲求的。可是，消除惡並不值得欲求，除非是這個惡剝奪某一種有或存在。所以，那本身值得欲求的是有或存在，而「沒有或不存在」之值得欲求只是偶然的;就是說，因為人在欲求某種有或存在，而不能忍受它受到剝奪(按:例如為欲求挽救生命而願截肢)。因此，「沒有或不存在」也偶然地或間接地稱為善。",
+      "after": "「沒有或不存在」，不是本身值得欲求的，而只是偶然地，即是說，因為「沒有或不存在」消除一種惡，而消除惡是值得欲求的。可是，消除惡並不值得欲求，除非是這個惡剝奪某一種有或存在。所以，那本身值得欲求的是有或存在，而「沒有或不存在」之值得欲求只是偶然的；就是說，因為人在欲求某種有或存在，而不能忍受它受到剝奪(按：例如為欲求挽救生命而願截肢)。因此，「沒有或不存在」也偶然地或間接地稱為善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「沒有或不存在屍",
+          "after": "「沒有或不存在」，",
+          "type": "乱码／标点",
+          "occurrences": 1
+        },
+        {
+          "before": "消除一種蔥",
+          "after": "消除一種惡",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "生命、知識等這類東西之所以被欲求，是以它們存在於現實中而言，或為享有它們。所以，在這些東西中所欲求的仍是一種有或存在。這樣，凡是值得欲求的，無非都是有或物;所以，凡是善的，也無非都是有或物。",
+      "after": "生命、知識等這類東西之所以被欲求，是以它們存在於現實中而言，或為享有它們。所以，在這些東西中所欲求的仍是一種有或存在。這樣，凡是值得欲求的，無非都是有或物；所以，凡是善的，也無非都是有或物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "是否一切有或物都是善的",
+      "after": "是否一切有或物都是善的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "似乎不是一切有或物(仙om鵬H",
+      "after": "似乎不是一切有或物(omne ens)都是善的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字"
+      ],
+      "changes": [
+        {
+          "before": "似乎不是一切有或物(仙om鵬H",
+          "after": "似乎不是一切有或物(omne ens)都是善的。因為：",
+          "type": "乱码／漏字／标点",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "由前面第一節所說的可知，善是附加在有或物之上的。可是，凡是給有或物附加一點什麼的，也就對有或物加以限制或減縮，比如自立體、暈、質等等都是如此(按:例如並非凡有或物皆是自立體)。所以，善限制有或物。所以，不是所有的有或物都是善的。",
+      "after": "由前面第一節所說的可知，善是附加在有或物之上的。可是，凡是給有或物附加一點什麼的，也就對有或物加以限制或減縮，比如自立體、量、質等等都是如此(按：例如並非凡有或物皆是自立體)。所以，善限制有或物。所以，不是所有的有或物都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自立體、暈、質",
+          "after": "自立體、量、質",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "此外，沒有什麼惡是善的，如《依撒意亞》第五章20節所說的:「禍哉，那些稱惡為善，稱善為惡的人。」可是，是某種有或物被稱為惡的。所以，不是所有的有或物都是善的。",
+      "after": "此外，沒有什麼惡是善的，如《依撒意亞》第五章20節所說的：「禍哉，那些稱惡為善，稱善為惡的人。」可是，是某種有或物被稱為惡的。所以，不是所有的有或物都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "此外，善有值得欲求的性質。可是，第一質料沒有值得欲求的性質，而只有欲求的性質。所以，第一質料不含有「善」之性質。所以，不是所有的有或物都是善的。",
+      "after": "此外，善有值得欲求的性質。可是，第一質料沒有值得欲求的性質，而只有欲求的性質。所以，第一質料不含有「善」之性質。所以，不是所有的有或物都是善的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        280
+      ],
+      "before": "此外，哲學家在《形上學》卷三第二章說，在數學中無所謂善。可是，屬於數學的或數字卻是某種有或物;否則，就不會有關於它們的學問。所以，不是所有的有或物都是善的。",
+      "after": "此外，哲學家在《形上學》卷三第二章說，在數學中無所謂善。可是，屬於數學的或數字卻是某種有或物；否則，就不會有關於它們的學問。所以，不是所有的有或物都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        281
+      ],
+      "before": "凡不是天主的有或物，都是天主的受造物。可是，如《弟茂德前書》第四章4節所說的:「天主所造的樣樣都好」;而天主是至善的。所以，一切的有或物或萬有、萬物都是善的。",
+      "after": "凡不是天主的有或物，都是天主的受造物。可是，如《弟茂德前書》第四章4節所說的：「天主所造的樣樣都好」；而天主是至善的。所以，一切的有或物或萬有、萬物都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        281
+      ],
+      "before": "我解答如下:一切的有或物，以其為有或物而言，都是善的。因為一切的有或物，以其為有或物而言，都是處於現實中的，都有某種程度的完美;I!I為凡是現實，都是某種完美。而凡是完美的，如第一節的討論所指明的，都含有值得欲求的和善的性質。所以，一切的有或物，以其為有或物而言，都是善的。",
+      "after": "我解答如下：一切的有或物，以其為有或物而言，都是善的。因為一切的有或物，以其為有或物而言，都是處於現實中的，都有某種程度的完美；因為凡是現實，都是某種完美。而凡是完美的，如第一節的討論所指明的，都含有值得欲求的和善的性質。所以，一切的有或物，以其為有或物而言，都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "I!I為",
+          "after": "因為",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        281
+      ],
+      "before": "自立體、量、質，以及包含在它們內的東西，因把有或物貼附在某種本質或本性上(使之成為這樣的或那樣的物),而限制或減縮有或物。但善卻並不是如此加給有或物什麼東西，它所加給有或物的，只是「值得欲求的」和「完美」的觀念而己，而這是在任何本性中的「有或存在」本身原就有的。所以，善並不限制有或物。",
+      "after": "自立體、量、質，以及包含在它們內的東西，因把有或物貼附在某種本質或本性上(使之成為這樣的或那樣的物)，而限制或減縮有或物。但善卻並不是如此加給有或物什麼東西，它所加給有或物的，只是「值得欲求的」和「完美」的觀念而已，而這是在任何本性中的「有或存在」本身原就有的。所以，善並不限制有或物。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "物),而",
+          "after": "物)，而",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "而己",
+          "after": "而已",
+          "type": "错字",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        281
+      ],
+      "before": "一切有或物，以其為有或物而言，都不能說是惡的，而是以其缺少某種有或存在而言，才能說是惡的。比如人可以因為缺少擁有德性而稱為惡人;眼睛因缺少具有敏銳視力而稱為惡或不好。",
+      "after": "一切有或物，以其為有或物而言，都不能說是惡的，而是以其缺少某種有或存在而言，才能說是惡的。比如人可以因為缺少擁有德性而稱為惡人；眼睛因缺少具有敏銳視力而稱為惡或不好。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        281
+      ],
+      "before": "第一質料，正如它只是潛能中的有或物，同樣也只是潛能中的善而已。雖然依柏拉圖學派，可以說第一質料因其本身之缺乏而稱為非有或非物;可是，第一質料因其與善的關係或指向善的適合性，仍然分有一些善。所以，第一質料的性質，不是值得欲求，而是欲求。",
+      "after": "第一質料，正如它只是潛能中的有或物，同樣也只是潛能中的善而已。雖然依柏拉圖學派，可以說第一質料因其本身之缺乏而稱為非有或非物；可是，第一質料因其與善的關係或指向善的適合性，仍然分有一些善。所以，第一質料的性質，不是值得欲求，而是欲求。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        281,
+        282
+      ],
+      "before": "屬於數學的或數字不是自己獨立存在的或自立的，因為如果是的話，在它們內就會有善，也就是它們所有的有或存在。數字是由變動與物質中抽出來的，只在觀念上獨立存在;所以它們也沒有目的的性質，而目的有推動者的性質。在某一有或物內，僅在觀念上沒有善或善的性質，這並沒有什麼不對。因為有或物的觀念先於善的觀念，如前面第二節所說的。",
+      "after": "屬於數學的或數字不是自己獨立存在的或自立的，因為如果是的話，在它們內就會有善，也就是它們所有的有或存在。數字是由變動與物質中抽出來的，只在觀念上獨立存在；所以它們也沒有目的的性質，而目的有推動者的性質。在某一有或物內，僅在觀念上沒有善或善的性質，這並沒有什麼不對。因為有或物的觀念先於善的觀念，如前面第二節所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "善是否有目的原因的性質",
+      "after": "善是否有目的原因的性質",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "善似乎沒有目的原因(目的因)的性質，反而較有其他原因的性質。因為:",
+      "after": "善似乎沒有目的原因(目的因)的性質，反而較有其他原因的性質。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "如狄奧尼修在《神名論》第四章所說的: 「善被讚頌為美。」而美則有形式原因(形式因)之性質。所以，善有形式原因之性質。",
+      "after": "如狄奧尼修在《神名論》第四章所說的：「善被讚頌為美。」而美則有形式原因(形式因)之性質。所以，善有形式原因之性質。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "此外，善散發自己的有或存在，如狄奧尼修的話所指出的。他說，「善就是萬物賴以自立存在和存在者」 U(《神名論》第四章)。而散發有或存在含有形成原因(成因)的性質。所以，善有形成原因的性質。",
+      "after": "此外，善散發自己的有或存在，如狄奧尼修的話所指出的。他說，「善就是萬物賴以自立存在和存在者」(《神名論》第四章)。而散發有或存在含有形成原因(成因)的性質。所以，善有形成原因的性質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "空格"
+      ],
+      "changes": [
+        {
+          "before": "者」 U(",
+          "after": "者」(",
+          "type": "乱码／空格",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "此外，奧斯定在《論基督聖道》卷一第三十二章說，「因為天主是善的，所以纔有我們」。而我們的有或存在來自天主，有如是來自形成原因。所以，善含有形成原因的性質。",
+      "after": "此外，奧斯定在《論基督聖道》卷一第三十二章說，「因為天主是善的，所以才有我們」。而我們的有或存在來自天主，有如是來自形成原因。所以，善含有形成原因的性質。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有我們",
+          "after": "才有我們",
+          "type": "错字",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        282
+      ],
+      "before": "哲學家在《物理學》(Physica)卷二第三章說: 「為了某一物的原因或原故而有其他東西，這一物就有如是其他東西的目的和善。」所以，善有目的原因的性質。",
+      "after": "哲學家在《物理學》(Physica)卷二第三章說：「為了某一物的原因或原故而有其他東西，這一物就有如是其他東西的目的和善。」所以，善有目的原因的性質。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        282,
+        283
+      ],
+      "before": "我解答如下:善既是萬物所欲求的，而這就是有目的的性質;所以，善含有目的的性質，是很明顯的。可是，善的觀念卻預先設定形成原因的觀念，不日形式原因的觀念。因為我們看到，在形成過程上那是最先的，在被形成的東西內卻是最後的。因為火先燒熱(可燃物)，然後才(在可燃物內)引入火的形式(使之著火)，熱力卻是隨(火的)本體形式而來的。在形成過程中，是先有善和目的來推動動作者或形成原因去動作;然後有動作者的動作，(把質料)推向形式。最後纔有形式出現。所以，在被形成的東西內，卻應該是反過來:首先有的是形式本身，因為藉形式纔有物存在;然後注意到形式內的形成能力，它使物有完美的存在《因為如哲學家在吐氣眾論》(Meteor.)卷四第三章所說的，只有能夠製造與自己相似者的物纔是完美的。參看《靈魂論》(De anima)卷二第四章);最後隨之而來的纔是善的觀念，它表達出建基於物的完美。",
+      "after": "我解答如下：善既是萬物所欲求的，而這就是有目的的性質；所以，善含有目的的性質，是很明顯的。可是，善的觀念卻預先設定形成原因的觀念，和形式原因的觀念。因為我們看到，在形成過程上那是最先的，在被形成的東西內卻是最後的。因為火先燒熱(可燃物)，然後才(在可燃物內)引入火的形式(使之著火)，熱力卻是隨(火的)本體形式而來的。在形成過程中，是先有善和目的來推動動作者或形成原因去動作；然後有動作者的動作，(把質料)推向形式。最後才有形式出現。所以，在被形成的東西內，卻應該是反過來：首先有的是形式本身，因為藉形式才有物存在；然後注意到形式內的形成能力，它使物有完美的存在(因為如哲學家在《氣象論》(Meteor.)卷四第三章所說的，只有能夠製造與自己相似者的物才是完美的。參看《靈魂論》(De anima)卷二第四章)；最後隨之而來的才是善的觀念，它表達出建基於物的完美。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日形式原因",
+          "after": "和形式原因",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "type": "错字",
+          "occurrences": 4
+        },
+        {
+          "before": "存在《因為",
+          "after": "存在(因為",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "吐氣眾論》",
+          "after": "《氣象論》",
+          "type": "书名／乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        283
+      ],
+      "before": "在主體身上，善與美確是同一的，因為他們共同建立在同一東西上，即同一形式上;正因如此，善才被讚頌為美。不過，在觀念上他們卻有區別。因為善原本與嗜慾能力有關;因為善就是萬物所欲求者。因此善有目的的性質。因為嗜慾好像一種朝著一件東西或目標的運動。美卻是與認知能力有闕，因為美的東西就是看到就喜歡的東西。所以，美在於適當的調合，因為感官喜歡適當調合的東西，就如喜歡與自己相似的東西一樣;這是由於感官，以及每一種認知能力也都是一種理性。認知是藉形成各種形象或象(如心象、理象)而完成，而形象與形式有關;所以，美原本是屬於形式原因方面的。",
+      "after": "在主體身上，善與美確是同一的，因為他們共同建立在同一東西上，即同一形式上；正因如此，善才被讚頌為美。不過，在觀念上他們卻有區別。因為善原本與嗜慾能力有關；因為善就是萬物所欲求者。因此善有目的的性質。因為嗜慾好像一種朝著一件東西或目標的運動。美卻是與認知能力有關，因為美的東西就是看到就喜歡的東西。所以，美在於適當的調合，因為感官喜歡適當調合的東西，就如喜歡與自己相似的東西一樣；這是由於感官，以及每一種認知能力也都是一種理性。認知是藉形成各種形象或象(如心象、理象)而完成，而形象與形式有關；所以，美原本是屬於形式原因方面的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有闕",
+          "after": "有關",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        283
+      ],
+      "before": "說善散發自己的有或存在，與說目的推動(別的東西)，說法一樣。",
+      "after": "說善散發自己的有或存在，與說目的推動(別的東西)，說法一樣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        283
+      ],
+      "before": "稱任何一個有意志者為善的，係以其有善的意志而言，因為我們是藉著意志使用在我們內的一切能力。因此，不是有好智力的人，而是有好意志的人，才稱為好人、善人。而意志視目的，有如是自己的固有對象。準此，所謂「因天主是善的，所以纔有我們」，是針對目的原因而言的。",
+      "after": "稱任何一個有意志者為善的，係以其有善的意志而言，因為我們是藉著意志使用在我們內的一切能力。因此，不是有好智力的人，而是有好意志的人，才稱為好人、善人。而意志視目的，有如是自己的固有對象。準此，所謂「因天主是善的，所以才有我們」，是針對目的原因而言的。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有我們",
+          "after": "才有我們",
+          "type": "错字",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "善之理或本質是否在於模式、物種和秩序",
+      "after": "善之理或本質是否在於模式、物種和秩序",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "善之理或本質(ratio)，似乎不在於模式(modus形態、格式卜物種(species物之種類或別類)和秩序(ordo)。因為:",
+      "after": "善之理或本質(ratio)，似乎不在於模式(modus形態、格式)、物種(species物之種類或別類)和秩序(ordo)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "格式卜物種",
+          "after": "格式)、物種",
+          "type": "乱码／标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "善與有或物在觀念上有區別，如前面第一節所說的。而模式、物種及秩序，似乎是屬於有或物的觀念或理的。因為如《智慧篇》第十一章21節說的:「你(天主)處置一切，原有一定的數白、分量和尺度」'而物種、模式及秩序可歸納為這三項;因為如奧斯定在《創世紀字義新探》(Sup叫en. ad 1伽am)卷四第三章所說的:「尺度預定一切東西的模式，數目提供物種給一切東西，而分量引致萬物至靜止和穩定。」所以，善之理或本質似乎並不是在於模式、物種和秩序。",
+      "after": "善與有或物在觀念上有區別，如前面第一節所說的。而模式、物種及秩序，似乎是屬於有或物的觀念或理的。因為如《智慧篇》第十一章21節說的：「你(天主)處置一切，原有一定的數目、分量和尺度」，而物種、模式及秩序可歸納為這三項；因為如奧斯定在《創世紀字義新探》(Super Gen. ad litteram)卷四第三章所說的：「尺度預定一切東西的模式，數目提供物種給一切東西，而分量引致萬物至靜止和穩定。」所以，善之理或本質似乎並不是在於模式、物種和秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "數白",
+          "after": "數目",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "尺度」'而",
+          "after": "尺度」，而",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Sup叫en. ad 1伽am",
+          "after": "Super Gen. ad litteram",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "此外，模式、物種和秩序，本身就是一些善。是以，如果善之理或本質在於模式、物種和秩序，模式亦必有模式、物種和秩序;物種和秩序也是一樣。依此類推，就永無止境了。",
+      "after": "此外，模式、物種和秩序，本身就是一些善。是以，如果善之理或本質在於模式、物種和秩序，模式亦必有模式、物種和秩序；物種和秩序也是一樣。依此類推，就永無止境了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "此外，惡即在於欠缺模式、物種和秩序，而惡卻不完全i吏善喪失。所以，善之理或本質並不在於模式、物種和秩序。",
+      "after": "此外，惡即在於欠缺模式、物種和秩序，而惡卻不完全使善喪失。所以，善之理或本質並不在於模式、物種和秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码"
+      ],
+      "changes": [
+        {
+          "before": "不完全i吏",
+          "after": "不完全使",
+          "type": "乱码",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "此外，善之理或本質之所在，不能說是惡或不好。而我們卻說模式惡或不好、物種惡或不好，以及秩序惡或不好。所以，善之理或本質並不在於模式、物種和秩序。",
+      "after": "此外，善之理或本質之所在，不能說是惡或不好。而我們卻說模式惡或不好、物種惡或不好，以及秩序惡或不好。所以，善之理或本質並不在於模式、物種和秩序。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a005.arg5",
+      "article": 5,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        284
+      ],
+      "before": "此外，模式、物種和秩序，是由分暈、數目和尺度所形成，這由上面所引證的奧斯定的話可以證明。可是，並不是所有的善都有分暈、數目和尺度;因為盎博羅修在《六天創世註疏》(Hexaemeron)卷一第九章說:「光之本性不是按數目、分量和尺度而造成的。」所以，善之理或本質並不是在於模式、物種和秩序。",
+      "after": "此外，模式、物種和秩序，是由分量、數目和尺度所形成，這由上面所引證的奧斯定的話可以證明。可是，並不是所有的善都有分量、數目和尺度；因為盎博羅修在《六天創世註疏》(Hexaemeron)卷一第九章說：「光之本性不是按數目、分量和尺度而造成的。」所以，善之理或本質並不是在於模式、物種和秩序。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分暈",
+          "after": "分量",
+          "type": "错字",
+          "occurrences": 2
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        285
+      ],
+      "before": "奧斯定在《論善之性質》(De natura boni)第三章說:「此三者，即模式、物種和秩序，有如是存在於天主所造的萬物中的一般性的善。是以，此三者在哪裡大，那裡就有大善;在哪裡小，那裡就有小善;在哪裡沒有此三者，那裡就沒有善。」如果善之理或本質不是在於此三者，就不會這樣了。所以，善之理或本質是在於模式、物種和秩序。",
+      "after": "奧斯定在《論善之性質》(De natura boni)第三章說：「此三者，即模式、物種和秩序，有如是存在於天主所造的萬物中的一般性的善。是以，此三者在哪裡大，那裡就有大善；在哪裡小，那裡就有小善；在哪裡沒有此三者，那裡就沒有善。」如果善之理或本質不是在於此三者，就不會這樣了。所以，善之理或本質是在於模式、物種和秩序。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        285
+      ],
+      "before": "我解答如下:任何一物之所以稱為善，是就其圓滿完成或完美而言，因為如此它纔是值得欲求的，如前面第一節釋疑3.所說的。而所謂圓滿完成或完美，是說一物依其完美的模式，什麼都不欠缺。可是，任何一物都是依照自己的形式而為該物;而形式又設定有某些東西為其前提，並必然有一些東西隨之而來或為其後果。是以，一物必須有一個形式、須先形式而有的前提，以及隨形式而來的後果，才能是完美的和善的。須先形式而有的，是基本要素的限定或度量，無論是質料方面的基本要素，或者是形成形式本身的基本要素;而這是由模式所表達的，所以說「尺度預定模式」 0而形式卻是藉「物種」來表示，因為每一物都是藉形式而確定它所屬的物種。因此才說「數目提供物種」;因為，依哲學家在《形上學》卷八第三章所說的，表示物種的定義就像數目一樣，因為如同加一或減一就會改變數目的種類，在定義中加一差異和減一差異，也是一樣。隨形式而來的，是趨於目的的傾向，或是趨於行動，或是趨於類似行動者;因為每一物，以其處於現實中而言，而有動作，並動向那根據自己之形式而宜於自己者。而這是屬於分量及秩序的(按:物各自因其分量或重量趨於及止於宜於自己的位置，並相互構成秩序一一參看:奧斯定，(《懺悔錄》卷十三第九章)。因此，基於善之理或本質是在於完美，所以它亦是在於模式、物種及秩序。",
+      "after": "我解答如下：任何一物之所以稱為善，是就其圓滿完成或完美而言，因為如此它才是值得欲求的，如前面第一節釋疑3.所說的。而所謂圓滿完成或完美，是說一物依其完美的模式，什麼都不欠缺。可是，任何一物都是依照自己的形式而為該物；而形式又設定有某些東西為其前提，並必然有一些東西隨之而來或為其後果。是以，一物必須有一個形式、須先形式而有的前提，以及隨形式而來的後果，才能是完美的和善的。須先形式而有的，是基本要素的限定或度量，無論是質料方面的基本要素，或者是形成形式本身的基本要素；而這是由模式所表達的，所以說「尺度預定模式」。而形式卻是藉「物種」來表示，因為每一物都是藉形式而確定它所屬的物種。因此才說「數目提供物種」；因為，依哲學家在《形上學》卷八第三章所說的，表示物種的定義就像數目一樣，因為如同加一或減一就會改變數目的種類，在定義中加一差異和減一差異，也是一樣。隨形式而來的，是趨於目的的傾向，或是趨於行動，或是趨於類似行動者；因為每一物，以其處於現實中而言，而有動作，並動向那根據自己之形式而宜於自己者。而這是屬於分量及秩序的(按：物各自因其分量或重量趨於及止於宜於自己的位置，並相互構成秩序——參看：奧斯定，《懺悔錄》卷十三第九章)。因此，基於善之理或本質是在於完美，所以它亦是在於模式、物種及秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔是",
+          "after": "才是",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "「尺度預定模式」 0而",
+          "after": "「尺度預定模式」。而",
+          "type": "乱码／标点",
+          "occurrences": 1
+        },
+        {
+          "before": "秩序一一參看",
+          "after": "秩序——參看",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "奧斯定，(《懺悔錄》",
+          "after": "奧斯定，《懺悔錄》",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        286
+      ],
+      "before": "此三者之間才從有或物，係以有或物是完美的而言，依此觀點，有或物即是善。",
+      "after": "此三者之附從有或物，係以有或物是完美的而言，依此觀點，有或物即是善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码"
+      ],
+      "changes": [
+        {
+          "before": "此三者之間才從有或物",
+          "after": "此三者之附從有或物",
+          "type": "乱码",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        286
+      ],
+      "before": "模式、物種及秩序被稱為是善的，正如它們也被稱為是有或物一樣;這並不是因為它們是獨立存在的東西，而是因為藉著它們，別的東西成為有或物和善。所以，它們不需要有本身以外的東西來使它們成為善的。說它們是善的，不是說它們藉著別的東西在形式上成為善的，而是說別的東西藉著它們在形式上成為善的。就如說白色是有或物，不是說藉著別的東西白色成為白色，而是說別的東西藉著白色相對地或在有色這一方面成為白的。",
+      "after": "模式、物種及秩序被稱為是善的，正如它們也被稱為是有或物一樣；這並不是因為它們是獨立存在的東西，而是因為藉著它們，別的東西成為有或物和善。所以，它們不需要有本身以外的東西來使它們成為善的。說它們是善的，不是說它們藉著別的東西在形式上成為善的，而是說別的東西藉著它們在形式上成為善的。就如說白色是有或物，不是說藉著別的東西白色成為白色，而是說別的東西藉著白色相對地或在有色這一方面成為白的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        286
+      ],
+      "before": "凡是有或物都是依照某一形式。因此，任何一物的有或存在，都有隨其形式而來的模式、物種和秩序;正如人，以其是人而言，有其作為人的模式、物種和秩序;同樣，以其是白色的而言，則另有其是白色的模式、物種和秩序;以其有德性、有學間，以及其他各方面而言，也是如此。而惡則是剝奪某一種有或存在，比如目盲是剝奪視覺的有或存在;所以自盲並不剝奪所有的模式、物種和秩序，而僅僅剝奪隨視覺而來的模式、物種和秩序而已。",
+      "after": "凡是有或物都是依照某一形式。因此，任何一物的有或存在，都有隨其形式而來的模式、物種和秩序；正如人，以其是人而言，有其作為人的模式、物種和秩序；同樣，以其是白色的而言，則另有其是白色的模式、物種和秩序；以其有德性、有學問，以及其他各方面而言，也是如此。而惡則是剝奪某一種有或存在，比如目盲是剝奪視覺的有或存在；所以目盲並不剝奪所有的模式、物種和秩序，而僅僅剝奪隨視覺而來的模式、物種和秩序而已。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有學間",
+          "after": "有學問",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "所以自盲",
+          "after": "所以目盲",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        286
+      ],
+      "before": "就如奧斯定在《論善之性質》第二十二章所說的:「凡是模式，以其為模式而言，都是善的。」(關於物種和秩序也可以這樣說)「所謂惡的模式、惡的物種或惡的秩序，或者是因為它們不及它們所應該有的程度(不夠好);或者是因為它們所配合或依附的東西，不是它們所應配合或依附的東西，因此而使它們被稱為是惡的，因為它們是屬於異物的和不適當的。",
+      "after": "就如奧斯定在《論善之性質》第二十二章所說的：「凡是模式，以其為模式而言，都是善的。」(關於物種和秩序也可以這樣說)「所謂惡的模式、惡的物種或惡的秩序，或者是因為它們不及它們所應該有的程度(不夠好)；或者是因為它們所配合或依附的東西，不是它們所應配合或依附的東西，因此而使它們被稱為是惡的，因為它們是屬於異物的和不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a005.ad5",
+      "article": 5,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        286
+      ],
+      "before": "說光之本性沒有數目、分量和尺度，並不是絕對的說法，而是相對地與有形物體做比較的說法;因為光的能力，作為第一個形成變化的物體一一即天體的動態性質，普及所有有形物體。",
+      "after": "說光之本性沒有數目、分量和尺度，並不是絕對的說法，而是相對地與有形物體做比較的說法；因為光的能力，作為第一個形成變化的物體——即天體的動態性質，普及所有有形物體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "物體一一即",
+          "after": "物體——即",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "把善分為高貴或正直之善、可用之善和可樂之善，是否適當",
+      "after": "把善分為高貴或正直之善、可用之善和可樂之善，是否適當",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "把善分為高貴或正直之善(honestum)、可用之苦(utile)和可樂之善(delectabile)，似乎不適當。因為:",
+      "after": "把善分為高貴或正直之善(honestum)、可用之善(utile)和可樂之善(delectabile)，似乎不適當。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可用之苦",
+          "after": "可用之善",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "如哲學家在《倫理學》卷一第六章所說的，善分為十個範疇。可是，高貴或正直之善、可用之善、和可樂之善，可以包括在一個範疇之內。所以，這種分法不適當。",
+      "after": "如哲學家在《倫理學》卷一第六章所說的，善分為十個範疇。可是，高貴或正直之善、可用之善、和可樂之善，可以包括在一個範疇之內。所以，這種分法不適當。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "此外，凡是分類都是依照或根據彼此對立的東西。可是，此三者似乎不是彼此對立的;因為高貴或正直的也是使人快樂的或可樂的，也沒有什麼不高貴或不正直的是有用的或可用的;而如果分類是依照彼此對立的東西，它們卻應該如此，即高貴或正直的與可用的應該彼此對立，連西塞祿(Tullius Cicero)在《論職務》(De officiis)卷二第三章也曾如此說。所以，上述分法並不適當。",
+      "after": "此外，凡是分類都是依照或根據彼此對立的東西。可是，此三者似乎不是彼此對立的；因為高貴或正直的也是使人快樂的或可樂的，也沒有什麼不高貴或不正直的是有用的或可用的；而如果分類是依照彼此對立的東西，它們卻應該如此，即高貴或正直的與可用的應該彼此對立，連西塞祿(Tullius Cicero)在《論職務》(De officiis)卷二第三章也曾如此說。所以，上述分法並不適當。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "此外，如果一物為了另一個而存在，那麼就只有一物。而可用之物之所以是善的﹒是因為它是為了可樂之物或高貴正直之物。所以，不應該把可用的與高貴正直的和可樂的對立起來而加以區分。",
+      "after": "此外，如果一物為了另一個而存在，那麼就只有一物。而可用之物之所以是善的，是因為它是為了可樂之物或高貴正直之物。所以，不應該把可用的與高貴正直的和可樂的對立起來而加以區分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "是善的﹒是因為",
+          "after": "是善的，是因為",
+          "type": "标点",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        287
+      ],
+      "before": "盎博羅修在《論神職職務》(De officiis)卷一第九章使用了善的此一分法。",
+      "after": "盎博羅修在《論神職職務》(De officiis)卷一第九章使用了善的此一分法。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        287,
+        288
+      ],
+      "before": "我解答如下:這種分法似乎原本是人類之善的分法。但是，如果我們由更深一層、更普遍的觀點來看善，我們發現對於善，以其為善而言，這種分法也恰當適用。因為一件東西之所以是善的，正是因為它是值得欲求的，是欲求或嗜慾運動的終點。欲求運動的終點，可以由研究自然物體的運動來加以研究。而自然物體之運動，絕對地是結束或終止於最後的終點;但是相對地也結束於中闊的終點，是經過這中間終點或中點而達到完全結束連動的最後終點，稱之為終點，是因為它使運動中的某一部分結束。那作為運動的最後終點，可以由兩方面來看:或者是運動所趨向的那件東西本身，比如:地方或形式;或者是在那件東西上的止息或安息。所以，在欲求或嗜慾運動中，那值得欲求的東西，如果是相對地結束欲求的運動，有如是經由它而進一步追求另一東西的中間終點或中點，就稱之為可用的或有用的。如果一件東西作為最後終點而被欲求，完全結束欲求或嗜慾的運動，是欲求本然所趨向的，那麼，就稱之為高貴正直的，因為所謂高貴正直的，就是本身被慾望的東西。但是如果一件東西之結束欲求的運動，有如是在所慾望的東西中獲得了安息或安逸，那麼，就稱之為快樂。",
+      "after": "我解答如下：這種分法似乎原本是人類之善的分法。但是，如果我們由更深一層、更普遍的觀點來看善，我們發現對於善，以其為善而言，這種分法也恰當適用。因為一件東西之所以是善的，正是因為它是值得欲求的，是欲求或嗜慾運動的終點。欲求運動的終點，可以由研究自然物體的運動來加以研究。而自然物體之運動，絕對地是結束或終止於最後的終點；但是相對地也結束於中間的終點，是經過這中間終點或中點而達到完全結束運動的最後終點，稱之為終點，是因為它使運動中的某一部分結束。那作為運動的最後終點，可以由兩方面來看：或者是運動所趨向的那件東西本身，比如：地方或形式；或者是在那件東西上的止息或安息。所以，在欲求或嗜慾運動中，那值得欲求的東西，如果是相對地結束欲求的運動，有如是經由它而進一步追求另一東西的中間終點或中點，就稱之為可用的或有用的。如果一件東西作為最後終點而被欲求，完全結束欲求或嗜慾的運動，是欲求本然所趨向的，那麼，就稱之為高貴正直的，因為所謂高貴正直的，就是本身被慾望的東西。但是如果一件東西之結束欲求的運動，有如是在所慾望的東西中獲得了安息或安逸，那麼，就稱之為快樂。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中闊",
+          "after": "中間",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "結束連動",
+          "after": "結束運動",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        288
+      ],
+      "before": "以其與有或物是同一主體而言，善分為十個範疇;但是以善之本有特性而言，這種分法適用於善。",
+      "after": "以其與有或物是同一主體而言，善分為十個範疇；但是以善之本有特性而言，這種分法適用於善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q005.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        288
+      ],
+      "before": "這種分法不是依照或根據彼此對立的東西，而是依照彼此對立的觀念。嚴格說來，所謂可樂的東西，就是那些除了快樂之外，沒有其他理由值得欲求的東西，因為它們有時是有害的和是不高貴正直的。而所謂可用的或有用的東西，則是這些東西本身沒有被慾望的原由，它們之被慾望，僅僅是因為它們能導引至別的東西，例如服用苦藥。所謂高貴正直的東西，卻是那些本身就有被慾望之原由的東西。",
+      "after": "這種分法不是依照或根據彼此對立的東西，而是依照彼此對立的觀念。嚴格說來，所謂可樂的東西，就是那些除了快樂之外，沒有其他理由值得欲求的東西，因為它們有時是有害的和是不高貴正直的。而所謂可用的或有用的東西，則是這些東西本身沒有被慾望的原由，它們之被慾望，僅僅是因為它們能導引至別的東西，例如服用苦藥。所謂高貴正直的東西，卻是那些本身就有被慾望之原由的東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q005.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        288
+      ],
+      "before": "善之分為此三者，不是依單一的或同樣的意義(uni-vocum)，毫無差別地稱述或貼用到它們身上;而是依類比的意義(analogum)，即是說:其稱述或貼用有先後之分。因為「善」首先是意指高貴正直之善，其次是意指可樂之善，最後纔是意指可用之善。",
+      "after": "善之分為此三者，不是依單一的或同樣的意義(uni-vocum)，毫無差別地稱述或貼用到它們身上；而是依類比的意義(analogum)，即是說：其稱述或貼用有先後之分。因為「善」首先是意指高貴正直之善，其次是意指可樂之善，最後才是意指可用之善。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "最後纔是",
+          "after": "最後才是",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
