@@ -1,0 +1,973 @@
+{
+  "schema_version": 1,
+  "batch": "I-q004",
+  "date": "2026-10-20",
+  "baseline_git_commit": "92fa8ed056c111eb1ff272e23309fe6864871a63",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q004",
+    "title": "論天主的完美",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274
+    ],
+    "printed_pages": [
+      51,
+      58
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 38,
+    "changed_review_units": 28,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q4.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q4.json": "dc9311e1be091fa0a5169c272fd7fdb9b6934cdce075073f926641cb40fcff8f"
+    }
+  },
+  "suspected_print_errors": [],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q004.prologue",
+      "pdf_file_page": 267,
+      "status": "受换行转义保留规则约束的排版差异",
+      "description": "原书题引言第二、三项各起一行；原 JSON 把「三、」接在第二项后，本批移除其前的乱入字「美」，但不新增或移动换行转义。",
+      "possible_followup": "如以后解除保持换行转义的约束，可在「三、是否能說受造物相似天主。」之前增加一个换行。"
+    }
+  ],
+  "notes": [
+    "The printed words 普通 (prologue), 普遍 (respondeo), 言不盡義, and the reference 依撒意亞第四十章8節 are retained; no modern terminology or external Bible edition substituted.",
+    "The print-only line 分為三節 is represented by the existing three article objects.",
+    "Original con-venientia printed across a line boundary is retained."
+  ],
+  "readings": [
+    {
+      "id": "I.q004.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "討論完了天主的單純性之後，現在應該討論天主本身的完美性或完美(perfectio'完善、成全)。因為任何一個東西，基於它是完美的或成全的，而說它是美善的或善的;所以，先應該討論天主的完美，然後再討論祂的美善或善(第五題)。\n關於第一點，可以提出三個問題:\n一、天主是不是完美的。\n二、天主是不是普通完美的，在自己內擁有萬物的一切完美。美三、是否能說受造物相似天主。",
+      "after": "討論完了天主的單純性之後，現在應該討論天主本身的完美性或完美(perfectio，完善、成全)。因為任何一個東西，基於它是完美的或成全的，而說它是美善的或善的；所以，先應該討論天主的完美，然後再討論祂的美善或善(第五題)。\n關於第一點，可以提出三個問題：\n一、天主是不是完美的。\n二、天主是不是普通完美的，在自己內擁有萬物的一切完美。三、是否能說受造物相似天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "perfectio'完善",
+          "after": "perfectio，完善",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "。美三、",
+          "after": "。三、",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "天主是不是完美的",
+      "after": "天主是不是完美的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "似乎不宜說天主是完美的。因為:",
+      "after": "似乎不宜說天主是完美的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "說一件東西是完美的或成全的，就是說那件東西全部完成了。但是不可說天主完成了。所以，也不可說天主是完美的。",
+      "after": "說一件東西是完美的或成全的，就是說那件東西全部完成了。但是不可說天主完成了。所以，也不可說天主是完美的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "此外‘天主是萬物的第一根源(primum principium)。而萬物的根源似乎是不完美的，因為精子、種子是動物和植物的根源。所以，天主是不完美的。",
+      "after": "此外，天主是萬物的第一根源(primum principium)。而萬物的根源似乎是不完美的，因為精子、種子是動物和植物的根源。所以，天主是不完美的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "此外‘",
+          "after": "此外，",
+          "type": "标点",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        267
+      ],
+      "before": "此外，第三題第四節已經證明過了，天主的本質就是有或存在本身。而有或存在本身似乎是最不完美的，囡為它是最普遍的或籠統的，可承受一切事物的附加或限定。所以，天主是不完美的。",
+      "after": "此外，第三題第四節已經證明過了，天主的本質就是有或存在本身。而有或存在本身似乎是最不完美的，因為它是最普遍的或籠統的，可承受一切事物的附加或限定。所以，天主是不完美的。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "囡為",
+          "after": "因為",
+          "type": "错字",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        268
+      ],
+      "before": "《瑪竇福音》第五章48節說: 「你們應當是成全的(完美的)，如同你們的天父是成全的。」",
+      "after": "《瑪竇福音》第五章48節說：「你們應當是成全的(完美的)，如同你們的天父是成全的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        268
+      ],
+      "before": "我解答如下:如哲學家在《形上學》卷十二第三章所記述的，有些古代哲學家，即畢達哥拉斯派及司波西布斯(Speusippus)，不認為第一根源是最好的及最完美的。其原因是古代哲學家僅僅考慮到物質或質料根源，而第一質料根源確是最不完美的。由於質料以其為質料而言，是處於潛能狀態，所以第一質料根源必然是處於最廣泛的潛能狀態;如此則是最不完美的。\n天主被舉為第一根源，不是質料方面的第一根源，而是成因之系列中的第一根源;而此一根源應該是最完美的。因為正如質料以其為質料而言，是處於潛能中;同樣，一個動作者或主動者(agens)，以其為主動者而言，是處於現實中。因此，第一個主動根源應是處於最大的現實中，因而應是最完美的。因為說一件東西是完美的，係根據它是處於現實中，因為所謂「完美的」'就是說一件東西針對它應有的完美一無所缺。",
+      "after": "我解答如下：如哲學家在《形上學》卷十二第三章所記述的，有些古代哲學家，即畢達哥拉斯派及司波西布斯(Speusippus)，不認為第一根源是最好的及最完美的。其原因是古代哲學家僅僅考慮到物質或質料根源，而第一質料根源確是最不完美的。由於質料以其為質料而言，是處於潛能狀態，所以第一質料根源必然是處於最廣泛的潛能狀態；如此則是最不完美的。\n天主被舉為第一根源，不是質料方面的第一根源，而是成因之系列中的第一根源；而此一根源應該是最完美的。因為正如質料以其為質料而言，是處於潛能中；同樣，一個動作者或主動者(agens)，以其為主動者而言，是處於現實中。因此，第一個主動根源應是處於最大的現實中，因而應是最完美的。因為說一件東西是完美的，係根據它是處於現實中，因為所謂「完美的」，就是說一件東西針對它應有的完美一無所缺。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「完美的」'就是",
+          "after": "「完美的」，就是",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        268
+      ],
+      "before": "如教宗額我略一世所說的: 「我們傳頌天主的崇高事物，即使盡力而為，仍是言不盡義;因為一件東西除非已經形成或完成，就不能真正稱為是成全的或完美的。」 U(《倫理叢談》卷五第三十六章)可是，在被形成的或完成的東西中，幾時一件東西由潛能被引入現實，即稱為是完美的。「完美的」一詞，遂被借用來表示一切「在(相關)現實中」無所欠缺的東西，不論這「在現實中」是不是來自形成或完成。",
+      "after": "如教宗額我略一世所說的：「我們傳頌天主的崇高事物，即使盡力而為，仍是言不盡義；因為一件東西除非已經形成或完成，就不能真正稱為是成全的或完美的。」(《倫理叢談》卷五第三十六章)可是，在被形成的或完成的東西中，幾時一件東西由潛能被引入現實，即稱為是完美的。「完美的」一詞，遂被借用來表示一切「在(相關)現實中」無所欠缺的東西，不論這「在現實中」是不是來自形成或完成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "空格"
+      ],
+      "changes": [
+        {
+          "before": "。」 U(《倫理叢談》",
+          "after": "。」(《倫理叢談》",
+          "type": "乱码／空格",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        268,
+        269
+      ],
+      "before": "我們所發見的不完美的第一質料根源，不可能是絕對的第一根源，其前必定有另一個完美者先它而存在。因為精子、種子固然是生於這精子、種子之動植物的根源，但在自己之前也有動植物作為自己的根源。因為在那處於潛能中的東西之前，必須先有一個處於現實中的東西，因為在潛能中的東西或物，只有藉助於在現實中的東西或物，才能進入現實。",
+      "after": "我們所發見的不完美的第一質料根源，不可能是絕對的第一根源，其前必定有另一個完美者先它而存在。因為精子、種子固然是生於這精子、種子之動植物的根源，但在自己之前也有動植物作為自己的根源。因為在那處於潛能中的東西之前，必須先有一個處於現實中的東西，因為在潛能中的東西或物，只有借助於在現實中的東西或物，才能進入現實。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "藉助於",
+          "after": "借助於",
+          "type": "错字",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "有或存在本身是萬物中最完美的，因為對萬物來說，它有如是現實。因為沒有一件東西有現實，除非是有它或它存在;是以，有或存在本身就是萬物的現實，而且也是一切形式的現實。所以，有或存在本身與其他事物之關係，不是有如接受者與被接受者的關係，而是有如被接受者與接受者的關係。所以，當我說一個人、一匹馬、或任何一其它東西有或存在時，還有或存在本身係指形式根源及被接受者，而不是指那有或存在所歸屬的主體或東西。",
+      "after": "有或存在本身是萬物中最完美的，因為對萬物來說，它有如是現實。因為沒有一件東西有現實，除非是有它或它存在；是以，有或存在本身就是萬物的現實，而且也是一切形式的現實。所以，有或存在本身與其他事物之關係，不是有如接受者與被接受者的關係，而是有如被接受者與接受者的關係。所以，當我說一個人、一匹馬、或任何一其它東西有或存在時，這有或存在本身係指形式根源及被接受者，而不是指那有或存在所歸屬的主體或東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還有或存在本身",
+          "after": "這有或存在本身",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "在天主內是否有萬物的一切完美",
+      "after": "在天主內是否有萬物的一切完美",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "賈擺在天主內似乎沒有萬物的一切完美。因為:",
+      "after": "在天主內似乎沒有萬物的一切完美。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱入板块标签",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "賈擺在天主",
+          "after": "在天主",
+          "type": "乱入板块标签",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "天主是單純的，這在前面第三題第七節已經證明過了。而萬物的完美既多，而且各有不同。所以，在天主內沒有萬物的一切完美。",
+      "after": "天主是單純的，這在前面第三題第七節已經證明過了。而萬物的完美既多，而且各有不同。所以，在天主內沒有萬物的一切完美。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        269
+      ],
+      "before": "此外，對立的東西不可能同時存在於同一主體內。而萬物的完美是對立的;因為每一別類或種(species)由其種差而完成或臻於完美，而把共類或類(genus)區分成不同別類或種的種差，彼此是對立的(按:例如區分「動物」為「人」和「禽獸」的「理性」和「非理性」)。既然對立的東西不可能同時存在於同一主體內，所以萬物的一切完美似乎並不共同存在於天主內。",
+      "after": "此外，對立的東西不可能同時存在於同一主體內。而萬物的完美是對立的；因為每一別類或種(species)由其種差而完成或臻於完美，而把共類或類(genus)區分成不同別類或種的種差，彼此是對立的(按：例如區分「動物」為「人」和「禽獸」的「理性」和「非理性」)。既然對立的東西不可能同時存在於同一主體內，所以萬物的一切完美似乎並不共同存在於天主內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        269,
+        270
+      ],
+      "before": "此外，有生命者比有存在者或物(ens)更為完美，有智慧者比有生命者更為完美;所以，生命比存在更為完美，智慧比生命更為完美。而天主之本質就是存在本身。所以，天主在自己內沒有生命和智慧的完美，以及其它諸如此類的完美。",
+      "after": "此外，有生命者比有存在者或物(ens)更為完美，有智慧者比有生命者更為完美；所以，生命比存在更為完美，智慧比生命更為完美。而天主之本質就是存在本身。所以，天主在自己內沒有生命和智慧的完美，以及其它諸如此類的完美。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        270
+      ],
+      "before": "狄奧尼修在《神名論》第五章說，天主「在單一存在者內(按:即在自己內)，先己統括了一切存在者」。",
+      "after": "狄奧尼修在《神名論》第五章說，天主「在單一存在者內(按：即在自己內)，先已統括了一切存在者」。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先己統括",
+          "after": "先已統括",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        270,
+        271
+      ],
+      "before": "我解答如下:在天主內有萬物的一切完美。因此，天主被稱為普遍或完全完美的，因為在任何一類事物內能找到的高貴或完美，在天主內都不缺少，如註釋家在《形上學註疏》卷五注21所說的。而這可以由兩方面來討論。\n第一，凡是在效果內所有的任何完美，在成因內都應該有:而且這或者是依相同的方式，如果成因或主動者(與效果)是同義的或同質的，比如人生人;或者是照更為優越的方式，如果主動者不是同義的或同質的，比如因太陽之能力而生長的東西，在太陽內有其相似點。因為很明顯地，效果已預先潛存在主動原因(成因)之能力內。這種預先潛存在主動原因的能力內，並不是較不完美地預先存在，而是較為完美地預先存在;雖然預先存在於質料原因的潛能內是較不完美地預先存在;這是因為質料以其是質料而言，是不完美的，而主動者以其為主動者而言，是完美的。所以，天主既是萬物的第一成因，(受造)萬物的一切完美，必然是以更為優越的方式預先存在於天主內。狄奧尼修在《神名論》第五章曾觸及此一論點。他說:關於天主，「不可以說祂是這個，不是那個;祂就是一切，因為祂是一切的原因」。\n第二，如前面第三題第四節已經證明過的，天主是本然或因自己而自立存在的(per se subsistens)存在本身。因此，祂必然在自己內具有存在的全部完美。因為很明顯地，如果一個熱的東西沒有熱的全部完美，這是因為熱沒有圓滿地或完美地為它所分有;如果熱是本然自立存在的，它就不會缺少任何熱的能力。因此，天主既是自立的存在本身，那麼祂就不會缺少任何存在的完美。而萬物的一切完美都是屬於存在的完美，因為物之所以是完美的，正是因為它們有某種方式的存在。所以，天主不缺少任何一物的完美。狄奧尼修在《神名論》第五章也觸及了這一論點，他說: 「天主不是以某種方式存在，而是在自己內絕對地、無限地、不變地統括完整的存在。」然後他又說: 「祂是所有自立存在者的存在。」",
+      "after": "我解答如下：在天主內有萬物的一切完美。因此，天主被稱為普遍或完全完美的，因為在任何一類事物內能找到的高貴或完美，在天主內都不缺少，如註釋家在《形上學註疏》卷五注21所說的。而這可以由兩方面來討論。\n第一，凡是在效果內所有的任何完美，在成因內都應該有；而且這或者是依相同的方式，如果成因或主動者(與效果)是同義的或同質的，比如人生人；或者是照更為優越的方式，如果主動者不是同義的或同質的，比如因太陽之能力而生長的東西，在太陽內有其相似點。因為很明顯地，效果已預先潛存在主動原因(成因)之能力內。這種預先潛存在主動原因的能力內，並不是較不完美地預先存在，而是較為完美地預先存在；雖然預先存在於質料原因的潛能內是較不完美地預先存在；這是因為質料以其是質料而言，是不完美的，而主動者以其為主動者而言，是完美的。所以，天主既是萬物的第一成因，(受造)萬物的一切完美，必然是以更為優越的方式預先存在於天主內。狄奧尼修在《神名論》第五章曾觸及此一論點。他說：關於天主，「不可以說祂是這個，不是那個；祂就是一切，因為祂是一切的原因」。\n第二，如前面第三題第四節已經證明過的，天主是本然或因自己而自立存在的(per se subsistens)存在本身。因此，祂必然在自己內具有存在的全部完美。因為很明顯地，如果一個熱的東西沒有熱的全部完美，這是因為熱沒有圓滿地或完美地為它所分有；如果熱是本然自立存在的，它就不會缺少任何熱的能力。因此，天主既是自立的存在本身，那麼祂就不會缺少任何存在的完美。而萬物的一切完美都是屬於存在的完美，因為物之所以是完美的，正是因為它們有某種方式的存在。所以，天主不缺少任何一物的完美。狄奧尼修在《神名論》第五章也觸及了這一論點，他說：「天主不是以某種方式存在，而是在自己內絕對地、無限地、不變地統括完整的存在。」然後他又說：「祂是所有自立存在者的存在。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "都應該有:而且",
+          "after": "都應該有；而且",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        271
+      ],
+      "before": "像狄奧尼修在《神名論》第五章所說的，如太陽一樣「雖然只有一個，但藉一律而無變化地發光照耀，在自己內先己統括感覺界之自立體和多種不同的品質;同樣，在萬物之原因內，更應以自然統合的方式預先存在著萬物」。準此，本來本身不同的和對立的諸物，卻像一物一樣預先存在於天主內，而無損於天主的單純性。",
+      "after": "像狄奧尼修在《神名論》第五章所說的，如太陽一樣「雖然只有一個，但藉一律而無變化地發光照耀，在自己內先已統括感覺界之自立體和多種不同的品質；同樣，在萬物之原因內，更應以自然統合的方式預先存在著萬物」。準此，本來本身不同的和對立的諸物，卻像一物一樣預先存在於天主內，而無損於天主的單純性。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先己統括",
+          "after": "先已統括",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        271
+      ],
+      "before": "藉此也可以清楚知道質疑2.的解答了。",
+      "after": "藉此也可以清楚知道質疑2.的解答了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        271,
+        272
+      ],
+      "before": "正如同一狄奧尼修在同一章內所說的，如果我們根據存在、生命、智慧彼此在思想方面的或抽象的區別來討論，固然存在本身比生命更為完美，生命本身也比智慧更為完美(按抽象地看其定義，存在本身常意謂現實、實際有或存在，生命和智慧則否。其次，生命可承受存在的現實而無智慧，智慧卻不能承受存在的現實而無生命);可是，一個具體或實際有生命之物卻比一個只有存在之物更為完美，因為有生命之物也是有存在之物;一個有智慧之物，既是有存在之物，又是有生命之物。所以，雖然有存在之物在自己內並不但括有生命之物和有智慧之物，因為那分有存在之物，不必一定分有存在的一切方式;可是，天主的存在本身卻在自己內包括生命與智慧，因為天主是自立的存在本身，祂不可能缺少任何存在的完美。\n(按:此節所論，可藉陸海空各級軍官與三軍統帥的關係來比擬說明:每一軍官都是局部地分享三軍統帥的軍權，只有三軍統帥的軍權是圓滿的或完美的，統括所有軍官的軍權。換言之，一切軍官的軍權，都以一種更為優越的統合方式，存在於唯一的三軍統帥內。)",
+      "after": "正如同一狄奧尼修在同一章內所說的，如果我們根據存在、生命、智慧彼此在思想方面的或抽象的區別來討論，固然存在本身比生命更為完美，生命本身也比智慧更為完美(按抽象地看其定義，存在本身常意謂現實、實際有或存在，生命和智慧則否。其次，生命可承受存在的現實而無智慧，智慧卻不能承受存在的現實而無生命)；可是，一個具體或實際有生命之物卻比一個只有存在之物更為完美，因為有生命之物也是有存在之物；一個有智慧之物，既是有存在之物，又是有生命之物。所以，雖然有存在之物在自己內並不包括有生命之物和有智慧之物，因為那分有存在之物，不必一定分有存在的一切方式；可是，天主的存在本身卻在自己內包括生命與智慧，因為天主是自立的存在本身，祂不可能缺少任何存在的完美。\n(按：此節所論，可藉陸海空各級軍官與三軍統帥的關係來比擬說明：每一軍官都是局部地分享三軍統帥的軍權，只有三軍統帥的軍權是圓滿的或完美的，統括所有軍官的軍權。換言之，一切軍官的軍權，都以一種更為優越的統合方式，存在於唯一的三軍統帥內。)",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並不但括",
+          "after": "並不包括",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "是否有受造物可能相似天主",
+      "after": "是否有受造物可能相似天主",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "似乎沒有受造物可能相似天主。因為:",
+      "after": "似乎沒有受造物可能相似天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "《聖詠》第八十五篇8節說: 「上主，沒有任何一個神能與你相似。」而在所有受造物之中，要算那些基於分有而被稱為神的是最尊高的了。所以，其他的受造物就更不可能與天主相似了。",
+      "after": "《聖詠》第八十五篇8節說：「上主，沒有任何一個神能與你相似。」而在所有受造物之中，要算那些基於分有而被稱為神的是最尊高的了。所以，其他的受造物就更不可能與天主相似了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "此外，相似是一種比較。不同共類或類(genus)的東西，彼此之間沒有比較，所以也沒有相似:因為我們並不說「甜」與「白」相似。可是，沒有受造物與天主同屬於一共類或類，因為第三題第五節已經證明過了，天主不屬於任何類。所以，沒有任何受造物相似天主。",
+      "after": "此外，相似是一種比較。不同共類或類(genus)的東西，彼此之間沒有比較，所以也沒有相似：因為我們並不說「甜」與「白」相似。可是，沒有受造物與天主同屬於一共類或類，因為第三題第五節已經證明過了，天主不屬於任何類。所以，沒有任何受造物相似天主。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "此外，所謂相似的東西，就是在形式上相合的東西。可是，沒有東西在形式上與天主相合，因為沒有任何東西的本質就是存在本身，只有天主的本質是如此。所以，沒有任何受造物能與天主相似。",
+      "after": "此外，所謂相似的東西，就是在形式上相合的東西。可是，沒有東西在形式上與天主相合，因為沒有任何東西的本質就是存在本身，只有天主的本質是如此。所以，沒有任何受造物能與天主相似。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        272
+      ],
+      "before": "此外，在相似的東西之悶，相似是相互的，因為相似的東西是與相似的東西相似。所以，如果有受造物與天主相似的話，那麼，就是天主與某種受造物相似了。而這相反《依撒意亞》第四十章8節所說的: 「你們要把天主同誰相比擬呢?」",
+      "after": "此外，在相似的東西之間，相似是相互的，因為相似的東西是與相似的東西相似。所以，如果有受造物與天主相似的話，那麼，就是天主與某種受造物相似了。而這相反《依撒意亞》第四十章8節所說的：「你們要把天主同誰相比擬呢？」",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西之悶",
+          "after": "東西之間",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "?",
+          "after": "？",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        272,
+        273
+      ],
+      "before": "《創世紀》第一章26節卻說: 「讓我們照我們的高像，按我們的模樣造人。」《若望宣書》第三章2節也說: 「一顯明瞭，我們必要相似祂o 」",
+      "after": "《創世紀》第一章26節卻說：「讓我們照我們的肖像，按我們的模樣造人。」《若望壹書》第三章2節也說：「一顯明了，我們必要相似祂。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "圣经卷名",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "高像",
+          "after": "肖像",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "若望宣書",
+          "after": "若望壹書",
+          "type": "圣经卷名",
+          "occurrences": 1
+        },
+        {
+          "before": "顯明瞭",
+          "after": "顯明了",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "祂o 」",
+          "after": "祂。」",
+          "type": "乱码／标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        273,
+        274
+      ],
+      "before": "我解答如下:由於相似是著眼於在形式上的相合(con-venientia)或相連(communicatio)，所以，依在形式上的多種相通方式而有多種相似。有的東西被稱為相似，因為他們在同一形式上，依同樣的理或本質和同樣的方式彼此相通;如此他們不只是被稱為相似，而且是在相似點上相同或相等，就如兩個問等白的東西，是在白色這一點上相似。這種相似是最完美的相似。另一種被說成相似的東西，他們在形式上固然依同樣的理或本質彼此相遇，但不是依同樣的方式，而是有大小或多少(不等)的差別;比如說，不甚白的東西與更白的東西相似。這是不完美的相似。第三種被說成相似的東西，他們在同一形式上相通，但不是依同樣的理或本質，這在不同義或不同質的主動者(主動原因或成因)身上可以清楚看到。因為每一個主動者以其為主動者而言，都做出與自己相似的東西;既然每一個主動者都是依照自己的形式而動作，所以在(動作的)效果裡，必定有相似主動者之形式的地方。所以，如果主動者和他的效果都屬於同一個別頹或(物)種(species)，那麼，在作者和作品或做的效果之間，一定有在形式上的相似，而且是依照同樣的別類或(~勿)種之理或本質，如人之生人(或「做」人)。但是如果主動者不屬於同一月IJ類或o勿)種，仍會有相似，但不是依照同樣的別領或(物)種之理或本質，比如由太陽能力所產生的東西，固然仍然可以說與太陽有某種相似，但不是說他們依照(物)種的相似承受了太陽的形式，而只是依照共類或(物)類(genus)的相似。\n所以，如果有一個主動者不屬於任何共類或類，他的效果與主動者之形式的相似就更為疏遠，而且其分有主動者之形式的相似，不是依照同樣的類或種之理或本質，僅是依照某種類比(analogia)，就像「存在」為一切東西所共有一樣。凡是由天主而來的東西，都以這種方式相似天主，他們是以「存在之物」的身分，相似那整個或全部存在的第一和普遍根源。",
+      "after": "我解答如下：由於相似是著眼於在形式上的相合(con-venientia)或相通(communicatio)，所以，依在形式上的多種相通方式而有多種相似。有的東西被稱為相似，因為他們在同一形式上，依同樣的理或本質和同樣的方式彼此相通；如此他們不只是被稱為相似，而且是在相似點上相同或相等，就如兩個同等白的東西，是在白色這一點上相似。這種相似是最完美的相似。另一種被說成相似的東西，他們在形式上固然依同樣的理或本質彼此相通，但不是依同樣的方式，而是有大小或多少(不等)的差別；比如說，不甚白的東西與更白的東西相似。這是不完美的相似。第三種被說成相似的東西，他們在同一形式上相通，但不是依同樣的理或本質，這在不同義或不同質的主動者(主動原因或成因)身上可以清楚看到。因為每一個主動者以其為主動者而言，都做出與自己相似的東西；既然每一個主動者都是依照自己的形式而動作，所以在(動作的)效果裡，必定有相似主動者之形式的地方。所以，如果主動者和他的效果都屬於同一個別類或(物)種(species)，那麼，在作者和作品或做的效果之間，一定有在形式上的相似，而且是依照同樣的別類或(物)種之理或本質，如人之生人(或「做」人)。但是如果主動者不屬於同一別類或(物)種，仍會有相似，但不是依照同樣的別類或(物)種之理或本質，比如由太陽能力所產生的東西，固然仍然可以說與太陽有某種相似，但不是說他們依照(物)種的相似承受了太陽的形式，而只是依照共類或(物)類(genus)的相似。\n所以，如果有一個主動者不屬於任何共類或類，他的效果與主動者之形式的相似就更為疏遠，而且其分有主動者之形式的相似，不是依照同樣的類或種之理或本質，僅是依照某種類比(analogia)，就像「存在」為一切東西所共有一樣。凡是由天主而來的東西，都以這種方式相似天主，他們是以「存在之物」的身分，相似那整個或全部存在的第一和普遍根源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相連(communicatio)",
+          "after": "相通(communicatio)",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "問等白",
+          "after": "同等白",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "彼此相遇",
+          "after": "彼此相通",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "個別頹",
+          "after": "個別類",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "(~勿)種",
+          "after": "(物)種",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "同一月IJ類或o勿)種",
+          "after": "同一別類或(物)種",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "別領",
+          "after": "別類",
+          "type": "错字",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        274
+      ],
+      "before": "如狄奧尼修在《神名論》第九章所說的，幾時聖經說沒有東西相似天主，「其意義不是推翻與天主的相似。因為同樣的東西，與天主既相似而又不相似:與天主相似，係指這些東西依照可能仿效的幅度，仿效不可能完全被仿效的天主;與天主不相似，係指他們不及自己的原因」'不僅是在程度方面，如不甚白的東西不及較白的東西，而是因為在種(別類)和類(共類)方面根本沒有什麼相合。",
+      "after": "如狄奧尼修在《神名論》第九章所說的，幾時聖經說沒有東西相似天主，「其意義不是推翻與天主的相似。因為同樣的東西，與天主既相似而又不相似：與天主相似，係指這些東西依照可能仿效的幅度，仿效不可能完全被仿效的天主；與天主不相似，係指他們不及自己的原因」，不僅是在程度方面，如不甚白的東西不及較白的東西，而是因為在種(別類)和類(共類)方面根本沒有什麼相合。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "原因」'不僅",
+          "after": "原因」，不僅",
+          "type": "标点",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        274
+      ],
+      "before": "天主與受造物的關{系，不是有如與其他(與自己)不同共類之物的關係;而是祂自己有如是超越所有共類，並為一切共類之根源者。",
+      "after": "天主與受造物的關係，不是有如與其他(與自己)不同共類之物的關係；而是祂自己有如是超越所有共類，並為一切共類之根源者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "type": "乱码",
+          "occurrences": 1
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q004.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        274
+      ],
+      "before": "說受造物因在形式上相通而相似天主，不是依照同樣的類和種之理或本質，而只是依照類比，這是說天主因自己的本質而為物或存在者(自有物)，而其他物卻是因分有而為物或存在者。",
+      "after": "說受造物因在形式上相通而相似天主，不是依照同樣的類和種之理或本質，而只是依照類比，這是說天主因自己的本質而為物或存在者(自有物)，而其他物卻是因分有而為物或存在者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q004.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        274
+      ],
+      "before": "雖然，或多或少地可以承認受造物相似天主，但絕不應該說天主相似受造物。因為，如狄奧尼修在《神名論》第九章所說的: 「在屬於同一階層的東西之間，固然有相互的相似，但不是在原因與效果之間」;因為我們可以說(人的)雕像相似人，卻不可以反過來說(人相似雕像)。同樣，我們可以說受造物多少相似天主，卻不可以說天主相似受造物。",
+      "after": "雖然，或多或少地可以承認受造物相似天主，但絕不應該說天主相似受造物。因為，如狄奧尼修在《神名論》第九章所說的：「在屬於同一階層的東西之間，固然有相互的相似，但不是在原因與效果之間」；因為我們可以說(人的)雕像相似人，卻不可以反過來說(人相似雕像)。同樣，我們可以說受造物多少相似天主，卻不可以說天主相似受造物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
