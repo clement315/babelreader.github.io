@@ -59,6 +59,17 @@
       ],
       "articles": 6,
       "source_defects_flagged": 3
+    },
+    {
+      "id": "I-q006",
+      "status": "source_image_review_complete",
+      "report": "I-q006.md",
+      "manifest": "I-q006.json",
+      "pdf_file_pages": [
+        289,
+        296
+      ],
+      "articles": 4
     }
   ],
   "reviewed_question_ids": [
@@ -66,12 +77,13 @@
     "I.q002",
     "I.q003",
     "I.q004",
-    "I.q005"
+    "I.q005",
+    "I.q006"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 30,
+  "reviewed_articles": 34,
   "total_catalog_articles": 3125,
-  "next_question": "I.q006",
+  "next_question": "I.q007",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions"

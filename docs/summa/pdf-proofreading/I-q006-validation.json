@@ -1,0 +1,47 @@
+{
+  "batch": "I-q006",
+  "date": "2026-10-20",
+  "checks": [
+    {
+      "name": "Every row and question prologue renders the corrected bilingual data",
+      "passed": true,
+      "detail": 43
+    },
+    {
+      "name": "Question and navigation titles, nested quotes, Latin within Chinese and the final full stop render correctly",
+      "passed": true
+    },
+    {
+      "name": "Every separately flagged suspected print error is preserved in the rendered text",
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode remains functional",
+      "passed": true
+    },
+    {
+      "name": "Corrected chapter has no horizontal overflow on a 390px phone",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope_note": "Only the question IDs listed in progress.json have been compared against source page images. Browser checks confirm displayed data, not source accuracy elsewhere.",
+  "data_protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q6.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q6.json": "ae4fb4ee69fb7ed54a761768a30a1d453d93e959e2299b516ef0ed09a1b01241",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "existing_regression_tests": {
+    "tests": 3,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  }
+}
