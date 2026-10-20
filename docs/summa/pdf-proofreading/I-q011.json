@@ -1,0 +1,1291 @@
+{
+  "schema_version": 1,
+  "batch": "I-q011",
+  "date": "2026-10-20",
+  "author": "element",
+  "baseline_git_commit": "e0d8336221cfc6e2719cd9defc928db84ee81c76",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q011",
+    "title": "論天主的唯一性",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349
+    ],
+    "printed_pages": [
+      124,
+      133
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 48,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 14
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q11.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q11.json": "043197f8807f9e518cc9ed2c4fe32a5233db9ec188590ef029937d883e92227f",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q011.a001.ad1",
+      "pdf_file_page": 341,
+      "text": "分裂而己",
+      "status": "suspected_source_print_error",
+      "action": "原页此处是「己」字形，疑应为「已」；按底本保留。"
+    },
+    {
+      "id": "I.q011.a002.arg3",
+      "pdf_file_page": 343,
+      "text": "一是與一對立的",
+      "status": "suspected_source_print_error",
+      "action": "原页确为「一是與一對立的」，疑有印误；不凭哲学常识替换其中一字。"
+    },
+    {
+      "id": "I.q011.a002.ad2",
+      "pdf_file_page": 345,
+      "text": "所以「多」的由多個",
+      "status": "suspected_source_print_error",
+      "action": "原页确有「的由」，疑有衍字；未擅自删去「的」。"
+    },
+    {
+      "id": "I.q011.a003.ad1",
+      "pdf_file_page": 347,
+      "text": "在下面第六節接著說",
+      "status": "suspected_source_reference_error",
+      "action": "原页如此，疑指所引经文的节号而非本题节号；保留底本「第六節」。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q011.a003.arg1",
+      "description": "第三节质疑一原有一个换行转义及移到下一行的 OCR 数字 0。已据原页恢复完整引号与句号、清除 0；按用户要求保留该换行转义，因此此字段末尾仍有换行，原页引文则连贯排印。"
+    }
+  ],
+  "notes": [
+    "All ten source images were reviewed, with enlarged checks of the Avicenna spelling, source 己 glyph, nested quotation, missing final 一 and Bernard date, book title and chapter.",
+    "The only existing reader fields changed are zh strings; all Latin text, keys, row order and newline escapes are protected.",
+    "The first article Chinese title is synchronized in its title metadata and the catalog.",
+    "Printed choices 數字的或根本或元始、撤消、De con-sider. and the source suspects are retained without modernization."
+  ],
+  "readings": [
+    {
+      "id": "I.q011.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "在上述諸問題之後，現在應該討論天主的唯一性。關於這一點，可以提出四個問題:\n一、「一」對「物」是否有所附加。\n二、一與多是否相互對立。\n三、天主是不是唯一的。\n四、天主是不是至一的。",
+      "after": "在上述諸問題之後，現在應該討論天主的唯一性。關於這一點，可以提出四個問題：\n一、「一」對「物」是否有所附加。\n二、一與多是否相互對立。\n三、天主是不是唯一的。\n四、天主是不是至一的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "「-」對「物」是否有所附加",
+      "after": "「一」對「物」是否有所附加",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "「一」(unum)對「物」(ens'存在者、存在物)似乎有所附加或增添。因為:",
+      "after": "「一」(unum)對「物」(ens，存在者、存在物)似乎有所附加或增添。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "ens'",
+          "after": "ens，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "凡是屬於某一固定物類(而為某類物)的，都對物有所附加，因為「物」是一切物類所共有的(按:任何物類基本上都是物)，而「一」是屬於一個固定物類的。因為「一」是數字的或根本或元始，而數字是一種量或屬於量的一個種別。所以，「一」對「物」有所附加。",
+      "after": "凡是屬於某一固定物類(而為某類物)的，都對物有所附加，因為「物」是一切物類所共有的(按：任何物類基本上都是物)，而「一」是屬於一個固定物類的。因為「一」是數字的或根本或元始，而數字是一種量或屬於量的一個種別。所以，「一」對「物」有所附加。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "此外，凡是對一共同體加以分割或分類的，都對那共同體有所附加。可是，「物」分為「一(物)」和「多(物)」。所以，「一」對「物」有所附加。",
+      "after": "此外，凡是對一共同體加以分割或分類的，都對那共同體有所附加。可是，「物」分為「一(物)」和「多(物)」。所以，「一」對「物」有所附加。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        340
+      ],
+      "before": "此外，如果「一」對「物」無所附加，那麼說「一」和說「物」就完全一樣了。可是，(把「一物」之「一」改為「物」而)說「物物」'是毫無意義的。所以，說「一物」也是沒有意義的，而這顯然不對。所以，「一」對「物」有所附加。",
+      "after": "此外，如果「一」對「物」無所附加，那麼說「一」和說「物」就完全一樣了。可是，(把「一物」之「一」改為「物」而)說「物物」，是毫無意義的。所以，說「一物」也是沒有意義的，而這顯然不對。所以，「一」對「物」有所附加。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点"
+      ],
+      "changes": [
+        {
+          "before": "「物物」'",
+          "after": "「物物」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        341
+      ],
+      "before": "狄奧尼修在《神名論》末章卻說:「一切存在物，無不分有一(按:即任何物都是一物)0 」如果「-」對「物」有所附加，從而縮小「物」的外延或範圍，就不會是這樣了。所以，「-」對「物」沒有附加什麼。",
+      "after": "狄奧尼修在《神名論》末章卻說：「一切存在物，無不分有一(按：即任何物都是一物)。」如果「一」對「物」有所附加，從而縮小「物」的外延或範圍，就不會是這樣了。所以，「一」對「物」沒有附加什麼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": ")0 」",
+          "after": ")。」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        },
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        341
+      ],
+      "before": "我解答如下:「一」對「物」並不附加任何東西，其所附加者，只不過是分割或分裂、分開的否定而已。因為「一」的意義，只不過是未被分割或分裂的物而已。從這一點可以看出，「一」與「物」是可以互換對調的(一是物或物是一)。因為所有的物，或者是單純的，或者是組合的。單純的物，在現實和潛能方面都是未被分割的(實際未被分割，也不可能被分割)。至於組合的物，在他的部分還是分開的時候，根本就還沒有他，只有在這些部分組合在一起而構成他之後，他才存在。因此，很明顯地，任何一物的有或存在，都在於未被分割或分裂。是以，每一物，都維持他的「一」或統一性，就像他維持自己的有或存在一樣。",
+      "after": "我解答如下：「一」對「物」並不附加任何東西，其所附加者，只不過是分割或分裂、分開的否定而已。因為「一」的意義，只不過是未被分割或分裂的物而已。從這一點可以看出，「一」與「物」是可以互換對調的(一是物或物是一)。因為所有的物，或者是單純的，或者是組合的。單純的物，在現實和潛能方面都是未被分割的(實際未被分割，也不可能被分割)。至於組合的物，在他的部分還是分開的時候，根本就還沒有他，只有在這些部分組合在一起而構成他之後，他才存在。因此，很明顯地，任何一物的有或存在，都在於未被分割或分裂。是以，每一物，都維持他的「一」或統一性，就像他維持自己的有或存在一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        341,
+        342
+      ],
+      "before": "有些人以為:與「物」可以互換的「-」'和作為數字之根本或元始的「-」'是二而一的;可是他們的意見卻也不一致。因為畢達哥拉斯和柏拉圖，鑑於與物可以互換的「一」'並不附加給物任何東西，而只是表示物的本體未被分割或分裂而己，因此他們以為作為數字之根本或元始的「一」'也是如此。由於數字是由「單一」所組合而成的，所以他們相信數字就是一切東西的本體(參看:亞里斯多德，《形上學》卷一第八章)。相反地，亞維採那卻囡為鑑於作為數字之根本或元始的「-」'確實加給「物」的本體一點東西(否則由「單一」所組合而成的數字就不是屬於量的一個種別了)。所以，f也相信與物可以互換的「一」'也加給物的本體一點東西，就如白色之於人一樣。但這(後一)種說法顯然是錯誤的;因為每一個東西都是因自己的本體而為「一」物，如果每一個東西都是因另外一個東西而為「一」物，這個另外的東西又必須因第三個東西而為「一」物，這樣推衍下去，就要推衍至無限了。所以，應該接受第一種意見。所以，應該說，與物可以互換的「一」'不給物加任何東西;而作為數字之根本或元始的「一」'則加給物一點東西，即屬於量這一類的東西。",
+      "after": "有些人以為：與「物」可以互換的「一」，和作為數字之根本或元始的「一」，是二而一的；可是他們的意見卻也不一致。因為畢達哥拉斯和柏拉圖，鑑於與物可以互換的「一」，並不附加給物任何東西，而只是表示物的本體未被分割或分裂而己，因此他們以為作為數字之根本或元始的「一」，也是如此。由於數字是由「單一」所組合而成的，所以他們相信數字就是一切東西的本體(參看：亞里斯多德，《形上學》卷一第八章)。相反地，亞維采那卻因為鑑於作為數字之根本或元始的「一」，確實加給「物」的本體一點東西(否則由「單一」所組合而成的數字就不是屬於量的一個種別了)。所以，他相信與物可以互換的「一」，也加給物的本體一點東西，就如白色之於人一樣。但這(後一)種說法顯然是錯誤的；因為每一個東西都是因自己的本體而為「一」物，如果每一個東西都是因另外一個東西而為「一」物，這個另外的東西又必須因第三個東西而為「一」物，這樣推衍下去，就要推衍至無限了。所以，應該接受第一種意見。所以，應該說，與物可以互換的「一」，不給物加任何東西；而作為數字之根本或元始的「一」，則加給物一點東西，即屬於量這一類的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "人名",
+        "引号后标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 8,
+          "type": "引号后标点"
+        },
+        {
+          "before": "亞維採那",
+          "after": "亞維采那",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "囡為",
+          "after": "因為",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "f也相信",
+          "after": "他相信",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        342,
+        343
+      ],
+      "before": "同一物在某方面是分開的或可分的，在另一方面又是未分闊的或不可分的，這並無不可。例如:那在數目(或個體)方面是分闊的或可分的，在(物之)種別方面卻是不分闊的或不可分的(按:例如「人」區分為許多個人，但人性或人之種另IJ卻是同一的或不可分的);所以可能有物在某方面是一個，而在另一方面卻是多個。可是，如果一物是絕對的不分開的，這或者是因為他在那屬於其本質、本體者方面是不分闋的，雖然在那不屬於其本質、本體者方面是分闊的，例如:一物只有一個主體，卻有許多依附體;或者是因為他在現實中或實際上是不分闊的，但在潛能中是分開的或可能分開的，例如:一物只有一個整體，卻有許多部分。這樣(絕對的不分開)的物，是絕對的「一」物和相對的「多」物。反過來說，如果一物是相對的不分闊的和絕對的分闊的，這是因為以其本質、本體而言是分闊的，而在觀念或根本或原因方面是不分闊的。這樣的物就是絕對的「多」物和相對的「一」物，就如那按數目或個體是多個，按種別或根本則是一個者(按:如同「一」人類的「許多」個「人」'和同「一」人之家族的「許多」個「族人」)。所以，「物」好像是如此藉由絕對的一和相對的多，而被區分為「一」物和「多」物。因為就是「多或眾多」'除非是多少被包括在「一」內，就不會被包括在「物」內。因為狄奧尼修在《神名論》末章說:「沒有不分有一的眾多。那以部分而言是多個的，以整體而言卻是一個;以依附體而言是多個的，以主體而言卻是一個;以數目或個體而言是多個的，以種別而言卻是一個;以種另'」或別類(species)而言是多個的，以類別或共類(genus)而言卻是一個;以產生或效果而言是多個的，以根本或原因而言卻是一個。」",
+      "after": "同一物在某方面是分開的或可分的，在另一方面又是未分開的或不可分的，這並無不可。例如：那在數目(或個體)方面是分開的或可分的，在(物之)種別方面卻是不分開的或不可分的(按：例如「人」區分為許多個人，但人性或人之種別卻是同一的或不可分的)；所以可能有物在某方面是一個，而在另一方面卻是多個。可是，如果一物是絕對的不分開的，這或者是因為他在那屬於其本質、本體者方面是不分開的，雖然在那不屬於其本質、本體者方面是分開的，例如：一物只有一個主體，卻有許多依附體；或者是因為他在現實中或實際上是不分開的，但在潛能中是分開的或可能分開的，例如：一物只有一個整體，卻有許多部分。這樣(絕對的不分開)的物，是絕對的「一」物和相對的「多」物。反過來說，如果一物是相對的不分開的和絕對的分開的，這是因為以其本質、本體而言是分開的，而在觀念或根本或原因方面是不分開的。這樣的物就是絕對的「多」物和相對的「一」物，就如那按數目或個體是多個，按種別或根本則是一個者(按：如同「一」人類的「許多」個「人」，和同「一」人之家族的「許多」個「族人」)。所以，「物」好像是如此藉由絕對的一和相對的多，而被區分為「一」物和「多」物。因為就是「多或眾多」，除非是多少被包括在「一」內，就不會被包括在「物」內。因為狄奧尼修在《神名論》末章說：「沒有不分有一的眾多。那以部分而言是多個的，以整體而言卻是一個；以依附體而言是多個的，以主體而言卻是一個；以數目或個體而言是多個的，以種別而言卻是一個；以種別或別類(species)而言是多個的，以類別或共類(genus)而言卻是一個；以產生或效果而言是多個的，以根本或原因而言卻是一個。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号后标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 9,
+          "type": "错字"
+        },
+        {
+          "before": "分闋",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "種另IJ",
+          "after": "種別",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "種另'」",
+          "after": "種別",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "「人」'",
+          "after": "「人」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "「多或眾多」'",
+          "after": "「多或眾多」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "說「一物」之所以不是毫無意義的，因為「一」在觀念或理解方面確加給「物」一點東西。",
+      "after": "說「一物」之所以不是毫無意義的，因為「一」在觀念或理解方面確加給「物」一點東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "一與多是否相互對立",
+      "after": "一與多是否相互對立",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "一與多似乎並不相互對立。因為:",
+      "after": "一與多似乎並不相互對立。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "沒有任何對立者可以用來稱述其對立者(而說其對立者就是它)。可是，由前面第一節釋疑2.所說，很明顯地所有「眾多或多」'在某方面都是i-J。所以，一不與多對立。",
+      "after": "沒有任何對立者可以用來稱述其對立者(而說其對立者就是它)。可是，由前面第一節釋疑2.所說，很明顯地所有「眾多或多」，在某方面都是「一」。所以，一不與多對立。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "引号后标点"
+      ],
+      "changes": [
+        {
+          "before": "「眾多或多」'",
+          "after": "「眾多或多」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "i-J",
+          "after": "「一」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "此外，沒有任何對立者是由其對立者所構成的。而「一」卻構成「多」。所以，一不與多對立。",
+      "after": "此外，沒有任何對立者是由其對立者所構成的。而「一」卻構成「多」。所以，一不與多對立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "此外，一是與一對立的。而多是與少對立的。所以，一不與多對立。",
+      "after": "此外，一是與一對立的。而多是與少對立的。所以，一不與多對立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "此外，如果一與多對立，其對立就如沒有分割者與(有)分割者對立一樣;如此則一-與多之對立，就如「缺少(否定)」與「具有(肯定)」之對立。這似乎是不對的，因為這樣的話，結論將是:一後於多，並由多取得定義;可是，相反地，是多應該由一來界定。因此，會產生定義的循環論證，這是不合理的。所以，一與多不是對立的。",
+      "after": "此外，如果一與多對立，其對立就如沒有分割者與(有)分割者對立一樣；如此則一與多之對立，就如「缺少(否定)」與「具有(肯定)」之對立。這似乎是不對的，因為這樣的話，結論將是：一後於多，並由多取得定義；可是，相反地，是多應該由一來界定。因此，會產生定義的循環論證，這是不合理的。所以，一與多不是對立的。",
+      "status": "corrected",
+      "error_types": [
+        "乱字符",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "一-與多",
+          "after": "一與多",
+          "occurrences": 1,
+          "type": "乱字符"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        343
+      ],
+      "before": "其理或觀念相互對立者，它們自己也是對立的。可是，「一」的觀念在於不可分割性，而「多」之觀念卻包括分割。所以，一與多是對立的。",
+      "after": "其理或觀念相互對立者，它們自己也是對立的。可是，「一」的觀念在於不可分割性，而「多」之觀念卻包括分割。所以，一與多是對立的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        344
+      ],
+      "before": "我解答如下:「一」是與「多」對立的，可是方式不一。因為作為數字之根本或元始的「一」'與作為數字的「多」'其對立有如是度量與被度量者的對立，因為「一」有最初或基本度量的性質，數字就是用「一」所度量的「多」'如《形上學》卷十第一章所清楚說明的。至於與「物」可以互換的「一」'則是以沒有或否定的方式與「多」對立，有如是沒有分割者與(有)分割者的對立。",
+      "after": "我解答如下：「一」是與「多」對立的，可是方式不一。因為作為數字之根本或元始的「一」，與作為數字的「多」，其對立有如是度量與被度量者的對立，因為「一」有最初或基本度量的性質，數字就是用「一」所度量的「多」，如《形上學》卷十第一章所清楚說明的。至於與「物」可以互換的「一」，則是以沒有或否定的方式與「多」對立，有如是沒有分割者與(有)分割者的對立。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 2,
+          "type": "引号后标点"
+        },
+        {
+          "before": "「多」'",
+          "after": "「多」，",
+          "occurrences": 2,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        344
+      ],
+      "before": "沒有任何缺少或剝奪(privatio)會完全除掉有或存在，因為如哲學家所說，缺少或剝奪是針對或在一個(存在者)主體內的否定(《形上學》卷三第二章)。可是，凡是缺少或剝奪都除掉某一方面的有或存在(按:即在某一方面使相關主體沒有)。因此，在物或存在物來說，由於它的普遍性(按:即凡存在者皆是物)，便會出現這樣的情形，即物之(某方面的)缺少或剝奪卻又奠基於物(存在者主體);這種情形不會發生在缺少或剝奪某些特殊的形式上，如視覺、白色等等。至論與「物」可以互換的「一」和「善」'也有與論「物」相同的情形;因為缺少或剝奪善是奠基於某種善，而撤消「一」也奠基於某種一。因此，纔有這樣的情形，即「多」就是某一種「一」'惡就是某一種善，「非物」就是某一種物。可是，這並不是用對立者來稱述其對立者，因為上述各組之二者之中，一是絕對的，一是相對的(二者不是真正的對立)。那相對地是「物」的，有如是在潛能中的或可能的物，並是絕對的「非物」'即在現實中的或實際的非物。或者，在實體或自立體這一類(物)中，那是絕對的「物」的，在某種依附體的有或存在方面，則是相對的「非物」。同樣，那是相對的善的，則是絕對的惡;反之亦然。以及那是絕對的「一」的，也照樣是相對的「多」;反之亦然。",
+      "after": "沒有任何缺少或剝奪(privatio)會完全除掉有或存在，因為如哲學家所說，缺少或剝奪是針對或在一個(存在者)主體內的否定(《形上學》卷三第二章)。可是，凡是缺少或剝奪都除掉某一方面的有或存在(按：即在某一方面使相關主體沒有)。因此，在物或存在物來說，由於它的普遍性(按：即凡存在者皆是物)，便會出現這樣的情形，即物之(某方面的)缺少或剝奪卻又奠基於物(存在者主體)；這種情形不會發生在缺少或剝奪某些特殊的形式上，如視覺、白色等等。至論與「物」可以互換的「一」和「善」，也有與論「物」相同的情形；因為缺少或剝奪善是奠基於某種善，而撤消「一」也奠基於某種一。因此，才有這樣的情形，即「多」就是某一種「一」，惡就是某一種善，「非物」就是某一種物。可是，這並不是用對立者來稱述其對立者，因為上述各組之二者之中，一是絕對的，一是相對的(二者不是真正的對立)。那相對地是「物」的，有如是在潛能中的或可能的物，並是絕對的「非物」，即在現實中的或實際的非物。或者，在實體或自立體這一類(物)中，那是絕對的「物」的，在某種依附體的有或存在方面，則是相對的「非物」。同樣，那是相對的善的，則是絕對的惡；反之亦然。以及那是絕對的「一」的，也照樣是相對的「多」；反之亦然。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「善」'",
+          "after": "「善」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "「非物」'",
+          "after": "「非物」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        345
+      ],
+      "before": "整體有兩種:一種是同質的，是由相似的部分所組合成的;還有一種是異質的，是由不相似的部分所組合成的。在每一同質的整體內，組成整體的部分都有整體的(本質本體)形式，比如水的每一部分都是水;由部分所組成的連續體就是這樣構成的。而在異質的整體內，任何一部分都沒有整體的形式，因為房屋的任何一部分都不是房屋，人的一部分也不是人。「眾多或多」就是這樣的整體。由於「多」的部分沒有「多」的(本質)形式，所以「多」的由多個「一或單一」所組合而成，就像房屋由多個不是房屋的部分所組合而成一樣;而且多個一之組成多，不是基於「一」有與「多」對立而不可分割的理或本質，而是基於它是物;正如房屋的部分之組成房屋，是因為這些部分是物體或有形體之物，而不是因為它們不是房屋。",
+      "after": "整體有兩種：一種是同質的，是由相似的部分所組合成的；還有一種是異質的，是由不相似的部分所組合成的。在每一同質的整體內，組成整體的部分都有整體的(本質本體)形式，比如水的每一部分都是水；由部分所組成的連續體就是這樣構成的。而在異質的整體內，任何一部分都沒有整體的形式，因為房屋的任何一部分都不是房屋，人的一部分也不是人。「眾多或多」就是這樣的整體。由於「多」的部分沒有「多」的(本質)形式，所以「多」的由多個「一或單一」所組合而成，就像房屋由多個不是房屋的部分所組合而成一樣；而且多個一之組成多，不是基於「一」有與「多」對立而不可分割的理或本質，而是基於它是物；正如房屋的部分之組成房屋，是因為這些部分是物體或有形體之物，而不是因為它們不是房屋。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        345
+      ],
+      "before": "「多」有兩種意義:一是絕對的，如此則與「一」對立。另一意義是指超量或大量，而如此則與「少」對立。在第一種意義下，「二」就是「多」;而在第二種意義下則否。",
+      "after": "「多」有兩種意義：一是絕對的，如此則與「一」對立。另一意義是指超量或大量，而如此則與「少」對立。在第一種意義下，「二」就是「多」；而在第二種意義下則否。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        345
+      ],
+      "before": "「一」是以缺少或沒有的方式與「多」對立，因為「多」的觀念裡含有分割或區分(而「一」則不含有或沒有分割或區分)。因此，分割或區分應先於「一」'但不是絕對的，而只是在我們認知方面如此。因為我們是藉由組合物去認知單純物，從而我們給「點」的定義是「沒有部分者」或「線的元始」。可是，即使依觀念或理解來說，「多」也是隨「一」之後而有的;因為除非我們先肯定分割物(或「多」物)中的每個物都是「一」個物，我們就不會理解它們是「多」個物或有「多」的特性。所以，「一」被納入了「多」的定義中，而不把「多」納入「一」的定義中。可是，對「分割」或「區分」的理解是來自針對物的否定。所以，我們首先理解的是物;然後是這物不是那物(否定這物是那物)，因此，第二步我們所認知的是分割或區分;第三是「一」;第四是「多」。",
+      "after": "「一」是以缺少或沒有的方式與「多」對立，因為「多」的觀念裡含有分割或區分(而「一」則不含有或沒有分割或區分)。因此，分割或區分應先於「一」，但不是絕對的，而只是在我們認知方面如此。因為我們是藉由組合物去認知單純物，從而我們給「點」的定義是「沒有部分者」或「線的元始」。可是，即使依觀念或理解來說，「多」也是隨「一」之後而有的；因為除非我們先肯定分割物(或「多」物)中的每個物都是「一」個物，我們就不會理解它們是「多」個物或有「多」的特性。所以，「一」被納入了「多」的定義中，而不把「多」納入「一」的定義中。可是，對「分割」或「區分」的理解是來自針對物的否定。所以，我們首先理解的是物；然後是這物不是那物(否定這物是那物)，因此，第二步我們所認知的是分割或區分；第三是「一」；第四是「多」。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "天主是不是唯一的",
+      "after": "天主是不是唯一的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "天主似乎不是唯一的。因為:",
+      "after": "天主似乎不是唯一的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "《格林多前書》第八章5節說: 「就如那許多『神』和許多『主~』\n0",
+      "after": "《格林多前書》第八章5節說：「就如那許多『神』和許多『主』」。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "『主~』\n0",
+          "after": "『主』」。\n",
+          "occurrences": 1,
+          "type": "乱码／引号／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "此外，作為數字之根本或元始的「-」'是不能被用來稱述天主的，因為不能用量來稱述天主。同樣，與物可以互換的「-」'也不能被用來稱述天主，因為它含有欠缺的意思，而凡是欠缺都是不完美，是不適用於天主的。所以，不應該說天主是唯一的。",
+      "after": "此外，作為數字之根本或元始的「一」，是不能被用來稱述天主的，因為不能用量來稱述天主。同樣，與物可以互換的「一」，也不能被用來稱述天主，因為它含有欠缺的意思，而凡是欠缺都是不完美，是不適用於天主的。所以，不應該說天主是唯一的。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 2,
+          "type": "引号后标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        346
+      ],
+      "before": "《申命紀》第六章4節卻說: 「以色列!你要聽:你的上主天主是唯一的。」",
+      "after": "《申命紀》第六章4節卻說：「以色列！你要聽：你的上主天主是唯一的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "以色列!",
+          "after": "以色列！",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        346,
+        347
+      ],
+      "before": "我解答如下:天主是唯一的，可以由三方面來證明。\n1.是由祂的單純性。因為很明顯地，那使某物賴以是「這一個別物或這個物」的，不可能通傳給許多物，或為許多物所共享。因為那使蘇格拉底賴以是人的，能夠通傳給許多人;可是，那使他賴以是這個人的，卻只能由他這一個人所獨享。所以，如果是那使蘇格拉底賴以是「這個」人的，使他也賴以是「人」'那麼，正如不能有許多蘇格拉底(這個人)，同樣也不能有許多人。這正是應該歸於天主的，因為天主本身就是自己的本性本質(沒有其他個體與天主共享這本性本質)，這在前面第三題第三節已證明過了。所以，那使天主據以是天主的，和那使天主據以是這個天主的，是相同的。所以，不可能有許多天主。\n2.是由天主的無限完美性來證明。因為前面第四題第二節已經證明過了，天主在自己內統括有或存在的全部完美。所以，如果有許多天主，他們之間一定有區別。從而有的東西是一個天主有的，而是另一個天主所沒有的。如果這個東西代表一種欠缺，則二者中之前一個天主就不是絕對完美的;如果這個東西代表一種完美，那麼後一個天主就欠缺這種完美。所以，不可能有許多天主。因此，古代的哲學家們，好像是為此一真理所迫，當他們認為有無限的本原時，而主張只有一個這樣的本原。\n3.是由世界的一致性(unitas'和諧、合一)來證明。所有的存在物，彼此有一種相互關係之次序，因為某些東西是為另一些東西服務的。而不間的東西，除非是受同一個東西所安排，不會自己來共同形成一個次序。許多東西受一個東西指揮，比受許多東西指揮，更易形成一個次序，因為一是一的本然原因，而多隻是一的偶然原因，也就是說如果多是某種方式的一。所以，既然那為首的或為第一的，應該是最完美的，而且是本然地，不是偶然地，所以那使萬物形成一個次序的為首的或為第一的，應該只有一個。而他就是天主。",
+      "after": "我解答如下：天主是唯一的，可以由三方面來證明。\n1.是由祂的單純性。因為很明顯地，那使某物賴以是「這一個別物或這個物」的，不可能通傳給許多物，或為許多物所共享。因為那使蘇格拉底賴以是人的，能夠通傳給許多人；可是，那使他賴以是這個人的，卻只能由他這一個人所獨享。所以，如果是那使蘇格拉底賴以是「這個」人的，使他也賴以是「人」，那麼，正如不能有許多蘇格拉底(這個人)，同樣也不能有許多人。這正是應該歸於天主的，因為天主本身就是自己的本性本質(沒有其他個體與天主共享這本性本質)，這在前面第三題第三節已證明過了。所以，那使天主據以是天主的，和那使天主據以是這個天主的，是相同的。所以，不可能有許多天主。\n2.是由天主的無限完美性來證明。因為前面第四題第二節已經證明過了，天主在自己內統括有或存在的全部完美。所以，如果有許多天主，他們之間一定有區別。從而有的東西是一個天主有的，而是另一個天主所沒有的。如果這個東西代表一種欠缺，則二者中之前一個天主就不是絕對完美的；如果這個東西代表一種完美，那麼後一個天主就欠缺這種完美。所以，不可能有許多天主。因此，古代的哲學家們，好像是為此一真理所迫，當他們認為有無限的本原時，而主張只有一個這樣的本原。\n3.是由世界的一致性(unitas，和諧、合一)來證明。所有的存在物，彼此有一種相互關係之次序，因為某些東西是為另一些東西服務的。而不同的東西，除非是受同一個東西所安排，不會自己來共同形成一個次序。許多東西受一個東西指揮，比受許多東西指揮，更易形成一個次序，因為一是一的本然原因，而多只是一的偶然原因，也就是說如果多是某種方式的一。所以，既然那為首的或為第一的，應該是最完美的，而且是本然地，不是偶然地，所以那使萬物形成一個次序的為首的或為第一的，應該只有一個。而他就是天主。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「人」'",
+          "after": "「人」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "unitas'",
+          "after": "unitas，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "不間的",
+          "after": "不同的",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "多隻是",
+          "after": "多只是",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        347
+      ],
+      "before": "該處說有許多神，是引述某些人的錯誤，因為這一些人崇拜許多神，以為行星和別的星辰，甚至世界的每一個別部分都是神。所以，在下面第六節接著說: 「可是為我們只有一個天主」等等。",
+      "after": "該處說有許多神，是引述某些人的錯誤，因為這一些人崇拜許多神，以為行星和別的星辰，甚至世界的每一個別部分都是神。所以，在下面第六節接著說：「可是為我們只有一個天主」等等。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        347,
+        348
+      ],
+      "before": "就「一」為數字之根本或元始而言，並不用它來稱述天主，只用它來稱述存在於物質內的東西。因為作為數字之根本或元始的「-」'歸於屬於數學者這一類，而屬於數學者，原本存在於物質內，但在思想或觀念上，卻從物質中被抽象出來。而與物互換的一，卻是一種形上的東西，其存在並不依賴物質。雖然在天主內沒有任何欠缺，可是依我們的認知方式，我們只能藉由欠缺和排除的(消極)說法來認識天主。所以，用含有欠缺意義的(消極)用語來稱述天主，並非不妥，例如說:天主是非形體的(欠缺或沒有形體的卜是無限的(沒有極限的)。同樣，關於天主，也是如此說祂是唯一的。",
+      "after": "就「一」為數字之根本或元始而言，並不用它來稱述天主，只用它來稱述存在於物質內的東西。因為作為數字之根本或元始的「一」，歸於屬於數學者這一類，而屬於數學者，原本存在於物質內，但在思想或觀念上，卻從物質中被抽象出來。而與物互換的一，卻是一種形上的東西，其存在並不依賴物質。雖然在天主內沒有任何欠缺，可是依我們的認知方式，我們只能藉由欠缺和排除的(消極)說法來認識天主。所以，用含有欠缺意義的(消極)用語來稱述天主，並非不妥，例如說：天主是非形體的(欠缺或沒有形體的)、是無限的(沒有極限的)。同樣，關於天主，也是如此說祂是唯一的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号后标点",
+        "括号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "形體的卜是無限",
+          "after": "形體的)、是無限",
+          "occurrences": 1,
+          "type": "乱码／括号／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "天主是不是至一的",
+      "after": "天主是不是至一的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "天主似乎不是至一的。因為:",
+      "after": "天主似乎不是至一的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "所謂「一」是依缺少或否定分割而言的。而缺少或否定沒有什麼更甚或較甚(magis)和更微或較微(minus)。所以，不可以說天主比其他是「一」的東西更是「一」或是更甚「一」。",
+      "after": "所謂「一」是依缺少或否定分割而言的。而缺少或否定沒有什麼更甚或較甚(magis)和更微或較微(minus)。所以，不可以說天主比其他是「一」的東西更是「一」或是更甚的「一」。",
+      "status": "corrected",
+      "error_types": [
+        "漏字"
+      ],
+      "changes": [
+        {
+          "before": "或是更甚「一」",
+          "after": "或是更甚的「一」",
+          "occurrences": 1,
+          "type": "漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "此外，似乎沒有什麼，比那在現實和潛能方面都是不可分割者，更為不可分割的;點與「單一」(unitas)就是這樣的。可是，一個東西越是不可分割，就越被說為一。所以，天主並不比單一和點更是一。",
+      "after": "此外，似乎沒有什麼，比那在現實和潛能方面都是不可分割者，更為不可分割的；點與「單一」(unitas)就是這樣的。可是，一個東西越是不可分割，就越被說為一。所以，天主並不比單一和點更是一。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "此外，那因自己的本質、本體就是善的，就是至極的善或至善。所以，那因自己的本質、本體就是一的，就是至極的一或至一。可是，凡是物，都是因自己的本質、本體而是一，如哲學家在《形上學》卷四第二章所證明的。所以，所有的物，都是至極的一或至一。所以，天主並不比其他的物更是",
+      "after": "此外，那因自己的本質、本體就是善的，就是至極的善或至善。所以，那因自己的本質、本體就是一的，就是至極的一或至一。可是，凡是物，都是因自己的本質、本體而是一，如哲學家在《形上學》卷四第二章所證明的。所以，所有的物，都是至極的一或至一。所以，天主並不比其他的物更是一。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "漏字"
+      ],
+      "changes": [
+        {
+          "before": "更是",
+          "after": "更是一。",
+          "occurrences": 1,
+          "type": "漏字／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        348
+      ],
+      "before": "伯爾納鐸(Bernardo'1090-1153年)卻說:「在一切稱為一者中，天主三位一體的一是極峯。」(《論審察》(De con-sider.)卷五第八車)",
+      "after": "伯爾納鐸(Bernardo，1090~1153年)卻說：「在一切稱為一者中，天主三位一體的一是極峰。」(《論審察》(De con-sider.)卷五第八章)",
+      "status": "corrected",
+      "error_types": [
+        "人名年代",
+        "引文",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Bernardo'1090-1153",
+          "after": "Bernardo，1090~1153",
+          "occurrences": 1,
+          "type": "人名年代／标点"
+        },
+        {
+          "before": "極峯",
+          "after": "極峰",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "第八車",
+          "after": "第八章",
+          "occurrences": 1,
+          "type": "引文／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        348,
+        349
+      ],
+      "before": "我解答如下:「一」就是未被分割的物;因此，為使某物成為至極的一或至一，它應該是至極的物和至極的未被分割者。這兩項都應視之為天主所固有。因為天主是至極的(存在)物，因為祂不是由他處領有為某種本性或性體所限定的存在，祂就是自立的存在本身，完全沒有任何極限。天主也是至極的未被分割者，因為不拘是就現實(實際〉或潛能(可能)而言，無論是依任何分割的方式，天主都未被分害iJ。因為如同前面第三題第七節所證明過的，天主在任何方面都是單純的。因此，天主是至極的一或至一，甚為明顯。",
+      "after": "我解答如下：「一」就是未被分割的物；因此，為使某物成為至極的一或至一，它應該是至極的物和至極的未被分割者。這兩項都應視之為天主所固有。因為天主是至極的(存在)物，因為祂不是由他處領有為某種本性或性體所限定的存在，祂就是自立的存在本身，完全沒有任何極限。天主也是至極的未被分割者，因為不拘是就現實(實際)或潛能(可能)而言，無論是依任何分割的方式，天主都未被分割。因為如同前面第三題第七節所證明過的，天主在任何方面都是單純的。因此，天主是至極的一或至一，甚為明顯。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "括号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "實際〉",
+          "after": "實際)",
+          "occurrences": 1,
+          "type": "括号"
+        },
+        {
+          "before": "分害iJ",
+          "after": "分割",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q011.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        349
+      ],
+      "before": "雖然缺少或否定本身沒有什麼更甚和更微，但它(所否定)的對立者卻有更甚和更微，所以缺少或否定本身也據以說有更甚和更微。所以，是根據一物之更甚或更微，或全不被分割或可被分割，而說它是更微的或更甚的，或至極的一。",
+      "after": "雖然缺少或否定本身沒有什麼更甚和更微，但它(所否定)的對立者卻有更甚和更微，所以缺少或否定本身也據以說有更甚和更微。所以，是根據一物之更甚或更微，或全不被分割或可被分割，而說它是更微的或更甚的，或至極的一。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        349
+      ],
+      "before": "「點」和作為數字之根本的單一或一，不是至極的(存在)物，因為除非是在一個主體之內，它們就沒有存在(它們只有依附於主體的存在)。因此，二者都不是至極的一或至一。因為，就如由於依附體與主體的不同或區分，主體不是至極的一，同樣依附體也不是。",
+      "after": "「點」和作為數字之根本的單一或一，不是至極的(存在)物，因為除非是在一個主體之內，它們就沒有存在(它們只有依附於主體的存在)。因此，二者都不是至極的一或至一。因為，就如由於依附體與主體的不同或區分，主體不是至極的一，同樣依附體也不是。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q011.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        349
+      ],
+      "before": "雖然每一物都是因自己的本體而是一，但各物之本體形成「-」的程度，卻不相等，因為有些物的本體是由許多部分組合而成的，而另一些物的本體卻不是。",
+      "after": "雖然每一物都是因自己的本體而是一，但各物之本體形成「一」的程度，卻不相等，因為有些物的本體是由許多部分組合而成的，而另一些物的本體卻不是。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    }
+  ]
+}
