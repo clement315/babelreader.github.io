@@ -1,0 +1,1449 @@
+{
+  "schema_version": 1,
+  "batch": "I-q008",
+  "date": "2026-10-20",
+  "author": "element",
+  "baseline_git_commit": "5056274968619f43862e7240ac6efee72c61efdc",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q008",
+    "title": "論天主臨在於萬物內",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "printed_pages": [
+      91,
+      101
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 58,
+    "changed_review_units": 39,
+    "checked_unchanged_review_units": 20
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q8.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q8.json": "1b3c25f07f4cc4f87a0e90bcb29731f4556f10930a8cb98c00501842aacb5425"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q008.a003.respondeo",
+      "pdf_file_page": 314,
+      "text": "如前面第一節己說過的",
+      "status": "原书疑似印误／字形存疑",
+      "action": "原页该字形近「己」，保留现有「己」；文义疑为「已」，供人工复核，不凭语义静默改字。"
+    },
+    {
+      "id": "I.q008.a003.ad1",
+      "pdf_file_page": 314,
+      "text": "如前面第一節己說過的",
+      "status": "原书疑似印误／字形存疑",
+      "action": "同页此处也有近「己」字形，保留现有「己」；文义疑为「已」，单列供人工复核。"
+    },
+    {
+      "id": "I.q008.a004.arg6",
+      "pdf_file_page": 315,
+      "text": "Ad Volusia num",
+      "status": "原书疑似印误／排字",
+      "action": "原页在 Volusia 与 num 之间确有空格，照录；词内空格疑为排字问题，不擅自合并为其他版本写法。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "All eleven original page images were inspected. Enlarged crops resolved 大、the two 己 glyphs and the printed Ad Volusia num.",
+    "Printed cross-line Latin praesen-tia, source title De Spiritu Santo and the spacing in Ad Volusia num are retained.",
+    "Only zh string tokens changed; standalone Latin fields and every newline escape are preserved."
+  ],
+  "readings": [
+    {
+      "id": "I.q008.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "由於無限者似乎應該是在所有的地方和所有的東西之內，所以繼而要討論天主是不是如此。\n關於這一點，可以提出四個問題:\n一、天主是不是在萬物內。\n二、天主是不是處處都在。\n三、天主是不是藉其本質、能力及鑒臨而處處都在。\n四、處處都在是不是天主獨有的。",
+      "after": "由於無限者似乎應該是在所有的地方和所有的東西之內，所以繼而要討論天主是不是如此。\n關於這一點，可以提出四個問題：\n一、天主是不是在萬物內。\n二、天主是不是處處都在。\n三、天主是不是藉其本質、能力及鑒臨而處處都在。\n四、處處都在是不是天主獨有的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "天主是不是在萬物內",
+      "after": "天主是不是在萬物內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "天主似乎不是在萬物內。因為:",
+      "after": "天主似乎不是在萬物內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "凡是超越萬物的，就不在萬物之內。而依《聖詠》第一一二篇4節所說: 「土主超越列國萬邦。」所以，天主不在萬物之內。",
+      "after": "凡是超越萬物的，就不在萬物之內。而依《聖詠》第一一二篇4節所說：「上主超越列國萬邦。」所以，天主不在萬物之內。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "土主",
+          "after": "上主",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "此外，凡在一物之內者，就為那物所包容。可是，天主並不為萬物所包容，而是祂包容萬物。所以，不是天主在萬物內，而是萬物在天主內。因此，奧斯定在《雜題八十三》(Octoginta trium quaest.)第二十題說: 「更好說是萬物在祂(天主)內，而不是祂在某處。」",
+      "after": "此外，凡在一物之內者，就為那物所包容。可是，天主並不為萬物所包容，而是祂包容萬物。所以，不是天主在萬物內，而是萬物在天主內。因此，奧斯定在《雜題八十三》(Octoginta trium quaest.)第二十題說：「更好說是萬物在祂(天主)內，而不是祂在某處。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        307
+      ],
+      "before": "此外，一個行動者能力越大，他的行動所及就越遠。而天主是最有能力的行動者。所以，祂的行動能夠達到與祂有距離之物;所以，祂不必在萬物之內。",
+      "after": "此外，一個行動者能力越大，他的行動所及就越遠。而天主是最有能力的行動者。所以，祂的行動能夠達到與祂有距離之物；所以，祂不必在萬物之內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        307,
+        308
+      ],
+      "before": "此外，魔鬼也是一些物。可是天主並不在魔鬼內，因為如《格林多後書》第六章14節所說:「光明之於黑暗，那能有什麼聯繫?」所以，天主不是在所有萬物之內。",
+      "after": "此外，魔鬼也是一些物。可是天主並不在魔鬼內，因為如《格林多後書》第六章14節所說：「光明之於黑暗，那能有什麼聯繫？」所以，天主不是在所有萬物之內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        308
+      ],
+      "before": "工作者無論在哪裡工作，他就都在那裡。而天主在一切事物內工作，照《依撒意亞》第二十六章12節所說的:「上主!凡是我們所做的，都是你為我們成就的。」所以，天主是在萬物之內。",
+      "after": "工作者無論在哪裡工作，他就都在那裡。而天主在一切事物內工作，照《依撒意亞》第二十六章12節所說的：「上主！凡是我們所做的，都是你為我們成就的。」所以，天主是在萬物之內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "上主!",
+          "after": "上主！",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        308
+      ],
+      "before": "我解答如下:天主是在萬物之內，但不是有如物之本質或本體的一部分，或有如物的依附體，而是有如行動者或工作者臨止於其所做之物。因為凡是工作者，都應該與他工作直接所及之物有所相連，並以自己的能力及於該物;因此，《物理學》卷七第二章曾證明，被推動者與推動者必在一起。可是，由於天主因自己的本質而就是有或存在本身，所以受造的有或存在應該是祂特有的效果，就如燃燒是火特有的效果一樣。天主之在(受造)萬物中形成這種效果(使它們存在)，不僅是在它們開始存在之初，而且也是在它們繼續保持其存在的時段中;就像為太陽所光照的空氣或天空，只要天空繼續有光，就是太陽在形成這光c所以，一物多久持有其存在，天主就多久依照該物存在的方式臨止於它或在它那裡。有或存在，對每一物而言都是最內在者，它{立於萬物的最深處;因為，如第四題第一節釋疑3.、第七題第一節已經證明過的，與一物內其他一切比較起來，有互支存在有如形式根源。所以，天主必定是在萬物內，而且是很密切地在萬物內。",
+      "after": "我解答如下：天主是在萬物之內，但不是有如物之本質或本體的一部分，或有如物的依附體，而是有如行動者或工作者臨止於其所做之物。因為凡是工作者，都應該與他工作直接所及之物有所相連，並以自己的能力及於該物；因此，《物理學》卷七第二章曾證明，被推動者與推動者必在一起。可是，由於天主因自己的本質而就是有或存在本身，所以受造的有或存在應該是祂特有的效果，就如燃燒是火特有的效果一樣。天主之在(受造)萬物中形成這種效果(使它們存在)，不僅是在它們開始存在之初，而且也是在它們繼續保持其存在的時段中；就像為太陽所光照的空氣或天空，只要天空繼續有光，就是太陽在形成這光。所以，一物多久持有其存在，天主就多久依照該物存在的方式臨止於它或在它那裡。有或存在，對每一物而言都是最內在者，它位於萬物的最深處；因為，如第四題第一節釋疑3.、第七題第一節已經證明過的，與一物內其他一切比較起來，有或存在有如形式根源。所以，天主必定是在萬物內，而且是很密切地在萬物內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "形成這光c所以",
+          "after": "形成這光。所以",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "它{立",
+          "after": "它位",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "有互支存在",
+          "after": "有或存在",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        308
+      ],
+      "before": "天主超越萬物，是因其天主性的卓越;而其在萬物之內，貝1]因其為萬物之存在的形成者，如上面正解所說的。",
+      "after": "天主超越萬物，是因其天主性的卓越；而其在萬物之內，則因其為萬物之存在的形成者，如上面正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "貝1]因",
+          "after": "則因",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        308,
+        309
+      ],
+      "before": "雖然形體物或形體在一物內，就被那物所包容;可是，精神體卻包容或統括其所在之物，例如:靈魂包容或統括肉體。因此，天主之在萬物內，有如是包容或統括萬物者。但是以一種比擬形體物的方式，也說萬物是在天主內，因為他們被天主所包容或統括。",
+      "after": "雖然形體物或形體在一物內，就被那物所包容；可是，精神體卻包容或統括其所在之物，例如：靈魂包容或統括肉體。因此，天主之在萬物內，有如是包容或統括萬物者。但是以一種比擬形體物的方式，也說萬物是在天主內，因為他們被天主所包容或統括。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "一個行動者，不拘能力有多大，除非(問接地)藉助於中間物行動，他的行動就不會進而及於與他有距離之物。可是，直接在萬物內行動，這屬於天主的至大能力。因此，沒有什麼物與天主有距離，好像該物在本身內沒有天主。說(受造)物與天主有距離，係指本性或本質或恩寵方面的不相似;就如說天主因其本性(天主性)的卓越而超越萬物一樣。",
+      "after": "一個行動者，不拘能力有多大，除非(間接地)藉助於中間物行動，他的行動就不會進而及於與他有距離之物。可是，直接在萬物內行動，這屬於天主的至大能力。因此，沒有什麼物與天主有距離，好像該物在本身內沒有天主。說(受造)物與天主有距離，係指本性或本質或恩寵方面的不相似；就如說天主因其本性(天主性)的卓越而超越萬物一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "問接地",
+          "after": "間接地",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "在魔鬼內，有來白天主的(屬於魔鬼的)本性或性體，末日不是來白天主的罪過所造成的畸形或醜悶。因此，不應絕對地說，天主在魔鬼內，而應附加這一條件，即就魔鬼是某些物來說。至於那些其名稱係指本性或性體，而非指畸形或醜陋之物，貝IJ應該絕對地說天主在他們內。",
+      "after": "在魔鬼內，有來自天主的(屬於魔鬼的)本性或性體，和不是來自天主的罪過所造成的畸形或醜陋。因此，不應絕對地說，天主在魔鬼內，而應附加這一條件，即就魔鬼是某些物來說。至於那些其名稱係指本性或性體，而非指畸形或醜陋之物，則應該絕對地說天主在他們內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白天主",
+          "after": "來自天主",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "末日不是",
+          "after": "和不是",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "醜悶",
+          "after": "醜陋",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "貝IJ應該",
+          "after": "則應該",
+          "occurrences": 1,
+          "type": "乱码"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "天主是不是處處都在",
+      "after": "天主是不是處處都在",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "天主似乎不是處處都在。因為:",
+      "after": "天主似乎不是處處都在。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        309
+      ],
+      "before": "i.處處都在的意思就是在每一個地方。而在每一個地方並不適用於天主，因為根本不宜說天主在什麼地方;因為如波其武在《論七天創造工程》中所說的，非形體物不在任何地方。所以，天主不是處處都在。",
+      "after": "處處都在的意思就是在每一個地方。而在每一個地方並不適用於天主，因為根本不宜說天主在什麼地方；因為如波其武在《論七天創造工程》中所說的，非形體物不在任何地方。所以，天主不是處處都在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "重复编号"
+      ],
+      "changes": [
+        {
+          "before": "i.處處",
+          "after": "處處",
+          "occurrences": 1,
+          "type": "重复编号／乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        309,
+        310
+      ],
+      "before": "此外，時問是關於相繼性的東西，同樣地1]是關於固定性的東西。行動或運動的一個不可分割的單元，不可能是在不同的時間內。所以，一個屬於固定性東西之類的不可分割的單元，也不可能在所有的一切地方。天主的有或存在，不是相繼性的，而是固定性的。所以，天主不是在許多地方。如此則祂也不是處處都在。",
+      "after": "此外，時間是關於相繼性的東西，同樣地方是關於固定性的東西。行動或運動的一個不可分割的單元，不可能是在不同的時間內。所以，一個屬於固定性東西之類的不可分割的單元，也不可能在所有的一切地方。天主的有或存在，不是相繼性的，而是固定性的。所以，天主不是在許多地方。如此則祂也不是處處都在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "同樣地1]是",
+          "after": "同樣地方是",
+          "occurrences": 1,
+          "type": "乱码"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        310
+      ],
+      "before": "此外，那全部或整體都在某一個地方者，那麼他就沒有什麼是在那個地方之外。如果天主是在某一個地方，祂就是整體都在那個地方，因為祂沒有部分。如此則天主沒有什麼是在那個地方之外。所以，天主不是處處都在。",
+      "after": "此外，那全部或整體都在某一個地方者，那麼他就沒有什麼是在那個地方之外。如果天主是在某一個地方，祂就是整體都在那個地方，因為祂沒有部分。如此則天主沒有什麼是在那個地方之外。所以，天主不是處處都在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        310
+      ],
+      "before": "《耶肋米亞》第二十三章24節卻說: 「我(天主)充滿天與地。」",
+      "after": "《耶肋米亞》第二十三章24節卻說：「我(天主)充滿天與地。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        310
+      ],
+      "before": "我解答如下:由於地方是一種東西，說某個東西在一個地方，可以有兩種意義:一種意義是針對別的東西而言，即如同說一件東西在其他東西內，而不管是以何種方式，例如依附於「地方」或所在之處者或「地方」之依附體，是在地方或所在之處內(按:例如，綠樹葉之綠色是依附在樹葉上或在樹葉內)。而另一種意義是以「地方」之特有方式，如同地方內的東西在地方內(按:即佔有或充滿該地方或空間)。兼在這兩種意義下，天主都是相對地在一切的地方，也就是處處都在。首先，正如天主臨在於萬物之中，給予他們存在、能力和功用;同樣，祂也是如此在每個地方，給予地方存在和承載的能力。其次，地方內的東西在地方內，是以其充滿地方而言;而天主亦充滿每個地方。i旦天主之充滿地方異於形體物之充滿地方，因為說形體物充滿地方，是說它不容其他形體物與己共存;而天主之在某-個地方，卻不因此而排除其他東西在同一地方;相反地，天主是藉給予充滿所有地方的位於地方之內的一切東西存在，而充滿所有的地方。",
+      "after": "我解答如下：由於地方是一種東西，說某個東西在一個地方，可以有兩種意義：一種意義是針對別的東西而言，即如同說一件東西在其他東西內，而不管是以何種方式，例如依附於「地方」或所在之處者或「地方」之依附體，是在地方或所在之處內(按：例如，綠樹葉之綠色是依附在樹葉上或在樹葉內)。而另一種意義是以「地方」之特有方式，如同地方內的東西在地方內(按：即佔有或充滿該地方或空間)。兼在這兩種意義下，天主都是相對地在一切的地方，也就是處處都在。首先，正如天主臨在於萬物之中，給予他們存在、能力和功用；同樣，祂也是如此在每個地方，給予地方存在和承載的能力。其次，地方內的東西在地方內，是以其充滿地方而言；而天主亦充滿每個地方。但天主之充滿地方異於形體物之充滿地方，因為說形體物充滿地方，是說它不容其他形體物與己共存；而天主之在某一個地方，卻不因此而排除其他東西在同一地方；相反地，天主是藉給予充滿所有地方的位於地方之內的一切東西存在，而充滿所有的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "。i旦天主",
+          "after": "。但天主",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "某-個",
+          "after": "某一個",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        310
+      ],
+      "before": "非形體物之臨在於地方，不是像形體物一樣，藉空問之量或體積的接觸，而是藉能力之接觸。",
+      "after": "非形體物之臨在於地方，不是像形體物一樣，藉空間之量或體積的接觸，而是藉能力之接觸。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "空問",
+          "after": "空間",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        311
+      ],
+      "before": "所謂不可分割者，有兩種:一種是連續者或連續體的最後或基本單元，如固定性東西之點，和相繼性東西之剎那。這種固定性東西之不可分割者，因為有一個固定的位置，所以不可能在一個地方的多個部分，或在多個不同的地方;同樣，行動或運動的不可分割者，亦因在運動或行動中有一個固定的先後次序，所以也不可能在時間的多個部分。而另一種不可分割者，是超乎所有連續體之類以上(按:即無時空的連續)，非形體的實體或自立體，像天主、天使及靈魂，是依這種意義稱為不可分割的。這種不可分割者與連續體接觸，不是有如其某一成分，而只是以自己的能力接觸到它。因此，根據他的能力能夠及於一個或多個地方，能夠及於犬的或小的地方，而說他臨在於一個或多個地方，大的或小的地方。",
+      "after": "所謂不可分割者，有兩種：一種是連續者或連續體的最後或基本單元，如固定性東西之點，和相繼性東西之剎那。這種固定性東西之不可分割者，因為有一個固定的位置，所以不可能在一個地方的多個部分，或在多個不同的地方；同樣，行動或運動的不可分割者，亦因在運動或行動中有一個固定的先後次序，所以也不可能在時間的多個部分。而另一種不可分割者，是超乎所有連續體之類以上(按：即無時空的連續)，非形體的實體或自立體，像天主、天使及靈魂，是依這種意義稱為不可分割的。這種不可分割者與連續體接觸，不是有如其某一成分，而只是以自己的能力接觸到它。因此，根據他的能力能夠及於一個或多個地方，能夠及於大的或小的地方，而說他臨在於一個或多個地方，大的或小的地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "及於犬的",
+          "after": "及於大的",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        311,
+        312
+      ],
+      "before": "整體是針對部分說的。所謂部分卻有兩種。一種是「本質」的部分，如形式與質料是組合物之部分，類(共類)與種差是「種」(別類、物種)的部分;而另一種是「量」的部分，即一個量可以分割成的部分。所以，如果一物以其全部的量整體或整個存在於某一個地方，那麼它就不可能存在於這個地方以外的地方，因為佔有地方(空問)之物的量或體積，與其所佔地方的量或空間，是相互一致的，所以如果不佔有全部地方空問，那就不是全部的量。可是，「本質」的全部，卻不與地方的全部相互一致。所以，那以全部本質在一物之內的，不必然因此就絕對不在該物以外。像在附帶有「量」的依附體形式中，就可看到這種情形;因為白色，以其本質的全部而言，它是全部在表面的每一部分，因為在表面的每一部分，都可以找到「白色」這A種(顏色)的完備本質或理;但如依白色附帶所有的量(或面積)來說，白色並不全部存在於表面的每一部分(按:部分表面只有部分白色面積，而非全部)。而在非形體的實體或自立體方面，買IJ無所謂全部，無論是本然的(自己內部的)或偶然的(外來的)，除非是根據其完備的本質或理來說。因此，正如靈魂是全部或整體在身體的每一部分，同樣天主也是全部或整體在一切以及每一物內。",
+      "after": "整體是針對部分說的。所謂部分卻有兩種。一種是「本質」的部分，如形式與質料是組合物之部分，類(共類)與種差是「種」(別類、物種)的部分；而另一種是「量」的部分，即一個量可以分割成的部分。所以，如果一物以其全部的量整體或整個存在於某一個地方，那麼它就不可能存在於這個地方以外的地方，因為佔有地方(空間)之物的量或體積，與其所佔地方的量或空間，是相互一致的，所以如果不佔有全部地方空間，那就不是全部的量。可是，「本質」的全部，卻不與地方的全部相互一致。所以，那以全部本質在一物之內的，不必然因此就絕對不在該物以外。像在附帶有「量」的依附體形式中，就可看到這種情形；因為白色，以其本質的全部而言，它是全部在表面的每一部分，因為在表面的每一部分，都可以找到「白色」這一種(顏色)的完備本質或理；但如依白色附帶所有的量(或面積)來說，白色並不全部存在於表面的每一部分(按：部分表面只有部分白色面積，而非全部)。而在非形體的實體或自立體方面，則無所謂全部，無論是本然的(自己內部的)或偶然的(外來的)，除非是根據其完備的本質或理來說。因此，正如靈魂是全部或整體在身體的每一部分，同樣天主也是全部或整體在一切以及每一物內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "空問",
+          "after": "空間",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "這A種",
+          "after": "這一種",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "買IJ無所謂",
+          "after": "則無所謂",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "天主是不是藉本質或本體、鑒臨及能力處處都在",
+      "after": "天主是不是藉本質或本體、鑒臨及能力處處都在",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "說天主藉本質或本體(廿仙ss叫a叫)、能力及鑒臨(悼p悶m臼s帥凹叫在萬物內，似乎未正確劃定天主存在於萬物內的方式。因為:",
+      "after": "說天主藉本質或本體(essentia)、能力及鑒臨(praesen-tia)在萬物內，似乎未正確劃定天主存在於萬物內的方式。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "括号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "(廿仙ss叫a叫)",
+          "after": "(essentia)",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "(悼p悶m臼s帥凹叫在",
+          "after": "(praesen-tia)在",
+          "occurrences": 1,
+          "type": "乱码／括号"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "藉本質或本體存在於某一物內的，就是以本質的資格存在於該物內。可是，天主並不以本質或本體的資格存在於萬物內，因為天主不屬於任何一物的本質或本體。所以，不應該說天主藉本質或本體、鑒臨和能力存在於萬物內。",
+      "after": "藉本質或本體存在於某一物內的，就是以本質的資格存在於該物內。可是，天主並不以本質或本體的資格存在於萬物內，因為天主不屬於任何一物的本質或本體。所以，不應該說天主藉本質或本體、鑒臨和能力存在於萬物內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "此外，所謂臨在某一物，就是說不離開那物。說天主藉本質或本體在萬物內，就等於說天主不離開任何物。所以，天主藉本質或本體在萬物內，和天主藉臨在或鑒臨在萬物內，兩者的意義是一樣的。所以，說天主藉本質或本體、鑒臨和能力在萬物內，是多餘的。",
+      "after": "此外，所謂臨在某一物，就是說不離開那物。說天主藉本質或本體在萬物內，就等於說天主不離開任何物。所以，天主藉本質或本體在萬物內，和天主藉臨在或鑒臨在萬物內，兩者的意義是一樣的。所以，說天主藉本質或本體、鑒臨和能力在萬物內，是多餘的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "此外，正如天主藉其能力而是萬物的本源，同樣，天主也藉其知識和意志而是萬物的本源。可是﹒並不說天主藉其知識和意志在萬物內。所以，也不應該說天主藉其能力在萬物內。",
+      "after": "此外，正如天主藉其能力而是萬物的本源，同樣，天主也藉其知識和意志而是萬物的本源。可是，並不說天主藉其知識和意志在萬物內。所以，也不應該說天主藉其能力在萬物內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "可是﹒並不",
+          "after": "可是，並不",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        312
+      ],
+      "before": "此外，正如恩寵是附加給實體或自立體的一種成就或完美，同樣還有很多其他附加的完美。所以，如果說天主藉恩寵而以一種特別方式在某些物內，那麼，根據任何一種完美，似乎都應指定一種天主在萬物內的特別方式。",
+      "after": "此外，正如恩寵是附加給實體或自立體的一種成就或完美，同樣還有很多其他附加的完美。所以，如果說天主藉恩寵而以一種特別方式在某些物內，那麼，根據任何一種完美，似乎都應指定一種天主在萬物內的特別方式。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        312,
+        313
+      ],
+      "before": "教宗額我略一世註釋《雅歌》說:「天主以鑒臨、能力及本體，用一種普通的方式存在於萬物內;可是卻藉恩寵，用一種親密的方式存在於某些物內。」(拉T通行本註解(Vulgata)，關於《雅歌》第五章7豈有)",
+      "after": "教宗額我略一世註釋《雅歌》說：「天主以鑒臨、能力及本體，用一種普通的方式存在於萬物內；可是卻藉恩寵，用一種親密的方式存在於某些物內。」(拉丁通行本註解(Vulgata)，關於《雅歌》第五章7節)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引文编号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "拉T通行本",
+          "after": "拉丁通行本",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "7豈有",
+          "after": "7節",
+          "occurrences": 1,
+          "type": "引文编号／乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        313,
+        314
+      ],
+      "before": "我解答如下:說天主存在於某一物內，有兩種方式。一種是以主動或形成原因的方式;天主是以這種方式存在於祂所造的萬物內。另一種方式，像似活動之對象在活動者內的方式，而這種方式是靈魂之活動的特點，如被認知的東西存在於認知者內，及被希求的東西存在於希求者內。在這第二種方式下，天主特別地存在於有理性的受造物內，因為這樣的受造物以現有行為或習性認識並愛天主。而如以下第四十三題第三節所證明的，有理性的受造物是藉恩寵而具有此一特點，所以說天主藉恩寵而以此一方式存在於聖者內。\n至於天主如何存在於祂所造的其他物內，應該依人世間某些事物的說法來研討。一個國王雖然不是處處都在，但仍然說他藉自己的權能或能力而在整個國境內。凡是在一物之眼前或其臨視範閻之內者，就說該物是藉鑒臨而在他們內，例如:一座房屋裡的一切都可以說在某人眼前或面前，雖然該人本體或本身並不在這座房屋內的每一部分。最後，說一物藉本體或本質在某地方，如果他的實體或自立體是在那個地方c\n曾經有些人，即摩尼教派人士，主張精神體和非形體物屬於天主的能力之下，而有形可見的形體物卻屬於一個(與天主)對立的本源或根元的能力之下。為反駁這些人，應該說天主藉其能力存在於一切物內。男有一些人雖然相信所有的一切都屬於天主的能力之下，但他們認為天主的垂顧卻不擴及那些較低級的形體物。《約伯傳》第二十二章14節曾以這些人的名義說:「祂(天主)只在天邊周圍遊行，不理我們人間事物。」為反駁這些人，應該說天主藉鑒臨存在於萬物內。此外，還有些人，因然說萬物都受天主的照顧，但他們卻主張不是所有的萬物都是由天主所直接創造的，而是天主直接創造了第一批受造物，而第一批受造物又創造了其他的受造物。為反駁這些人，應該說天主藉本質或本體(有如形成原因)存在於萬物內。\n所以，天主藉能力存在於萬物內，因為萬物都屬於祂的能力之下。天主藉鑒臨存在於萬物內，因為一切都完全暴露在其目前。天主藉本質或本體存在於萬物內，因為祂臨於萬物，有如是其有或存在的原因，如前面第一節己說過的。",
+      "after": "我解答如下：說天主存在於某一物內，有兩種方式。一種是以主動或形成原因的方式；天主是以這種方式存在於祂所造的萬物內。另一種方式，像似活動之對象在活動者內的方式，而這種方式是靈魂之活動的特點，如被認知的東西存在於認知者內，及被希求的東西存在於希求者內。在這第二種方式下，天主特別地存在於有理性的受造物內，因為這樣的受造物以現有行為或習性認識並愛天主。而如以下第四十三題第三節所證明的，有理性的受造物是藉恩寵而具有此一特點，所以說天主藉恩寵而以此一方式存在於聖者內。\n至於天主如何存在於祂所造的其他物內，應該依人世間某些事物的說法來研討。一個國王雖然不是處處都在，但仍然說他藉自己的權能或能力而在整個國境內。凡是在一物之眼前或其臨視範圍之內者，就說該物是藉鑒臨而在他們內，例如：一座房屋裡的一切都可以說在某人眼前或面前，雖然該人本體或本身並不在這座房屋內的每一部分。最後，說一物藉本體或本質在某地方，如果他的實體或自立體是在那個地方。\n曾經有些人，即摩尼教派人士，主張精神體和非形體物屬於天主的能力之下，而有形可見的形體物卻屬於一個(與天主)對立的本源或根元的能力之下。為反駁這些人，應該說天主藉其能力存在於一切物內。另有一些人雖然相信所有的一切都屬於天主的能力之下，但他們認為天主的垂顧卻不擴及那些較低級的形體物。《約伯傳》第二十二章14節曾以這些人的名義說：「祂(天主)只在天邊周圍遊行，不理我們人間事物。」為反駁這些人，應該說天主藉鑒臨存在於萬物內。此外，還有些人，固然說萬物都受天主的照顧，但他們卻主張不是所有的萬物都是由天主所直接創造的，而是天主直接創造了第一批受造物，而第一批受造物又創造了其他的受造物。為反駁這些人，應該說天主藉本質或本體(有如形成原因)存在於萬物內。\n所以，天主藉能力存在於萬物內，因為萬物都屬於祂的能力之下。天主藉鑒臨存在於萬物內，因為一切都完全暴露在其目前。天主藉本質或本體存在於萬物內，因為祂臨於萬物，有如是其有或存在的原因，如前面第一節己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範閻",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "那個地方c",
+          "after": "那個地方。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "男有一些人",
+          "after": "另有一些人",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "因然說",
+          "after": "固然說",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        314
+      ],
+      "before": "說天主藉本質或本體存在於萬物內，不是說藉萬物的本質或本體，好像屬於萬物的本質或本體，而是說藉天主自己的本質或本體，因為祂的本體臨於萬物，有如萬物存在的原因，如前面第一節己說過的。",
+      "after": "說天主藉本質或本體存在於萬物內，不是說藉萬物的本質或本體，好像屬於萬物的本質或本體，而是說藉天主自己的本質或本體，因為祂的本體臨於萬物，有如萬物存在的原因，如前面第一節己說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        314
+      ],
+      "before": "如上文正解所說的，一物即使他的本體與另一物有距離，只要他是在另一物的視線範圍之內，仍然可以說是在另一物的面前或眼前。所以，應該劃定兩種方式，即藉本質或本體，以及藉鑒臨。",
+      "after": "如上文正解所說的，一物即使他的本體與另一物有距離，只要他是在另一物的視線範圍之內，仍然可以說是在另一物的面前或眼前。所以，應該劃定兩種方式，即藉本質或本體，以及藉鑒臨。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        314
+      ],
+      "before": "至於知識與意志，其特性是被知者在知者內，所願意者在願意者內。所以，依(天主的)知識與意志來說，不是天主在萬物內，而是萬物在天主內。可是能力，其特性卻是行動及於他物的行動本源。因此，依能力來說，是行動者與外在的物發生關係，並與之相連。如此則可以說行動者藉能力而在他物內。",
+      "after": "至於知識與意志，其特性是被知者在知者內，所願意者在願意者內。所以，依(天主的)知識與意志來說，不是天主在萬物內，而是萬物在天主內。可是能力，其特性卻是行動及於他物的行動本源。因此，依能力來說，是行動者與外在的物發生關係，並與之相連。如此則可以說行動者藉能力而在他物內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        314
+      ],
+      "before": "除了恩寵之外，沒有任何其他附加給實體或自立體的完美，使天主有如被認識和被愛的對象而存在於一物內。所以，只有恩寵構成天主存在於受造物內的一種獨特方式。此外，還有一種天主藉(與人性)合一而存在於人內的獨特方式;關於此一方式，將另行(在第三集內)討論。",
+      "after": "除了恩寵之外，沒有任何其他附加給實體或自立體的完美，使天主有如被認識和被愛的對象而存在於一物內。所以，只有恩寵構成天主存在於受造物內的一種獨特方式。此外，還有一種天主藉(與人性)合一而存在於人內的獨特方式；關於此一方式，將另行(在第三集內)討論。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "處處都在是不是天主獨有的",
+      "after": "處處都在是不是天主獨有的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "處處都在似乎不是天主獨有的。因為:",
+      "after": "處處都在似乎不是天主獨有的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "依哲學家的意見，普遍者處處都在和常常都在(《分析後論》卷一第三十一章);而第一質料由於存在於→切的形體物內，也是處處都在。但此二者都不是天主，如第三題第五及第八節已經證明過的。所以，處處都在不是天主獨有的。",
+      "after": "依哲學家的意見，普通者處處都在和常常都在(《分析後論》卷一第三十一章)；而第一質料由於存在於一切的形體物內，也是處處都在。但此二者都不是天主，如第三題第五及第八節已經證明過的。所以，處處都在不是天主獨有的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "普遍者",
+          "after": "普通者",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "→切",
+          "after": "一切",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "此外，數字存在於被數的東西內。而整個宇宙，如《智慧篇》第十一章21節所說，都是建築在數字上的。所以，有一個數字是存在於整個宇宙內的，因而是處處都在的。",
+      "after": "此外，數字存在於被數的東西內。而整個宇宙，如《智慧篇》第十一章21節所說，都是建築在數字上的。所以，有一個數字是存在於整個宇宙內的，因而是處處都在的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "此外，如亞里斯多德《天地論》(Cae1i et mundi)卷一第一章所說，整個宇宙是一個圓滿完整的形體物。而整個宇宙是處處都在的，因為在它之外就再也沒有地方了。所以，不是唯獨天主是處處都在的。",
+      "after": "此外，如亞里斯多德《天地論》(Caeli et mundi)卷一第一章所說，整個宇宙是一個圓滿完整的形體物。而整個宇宙是處處都在的，因為在它之外就再也沒有地方了。所以，不是唯獨天主是處處都在的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码"
+      ],
+      "changes": [
+        {
+          "before": "Cae1i",
+          "after": "Caeli",
+          "occurrences": 1,
+          "type": "乱码"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "此外，如果有一個形體物是無限的，那麼在這個形體物之外就不會有地方了。因此這個形體物必是處處都在的。所以，處處都在似乎並不是天主獨有的。",
+      "after": "此外，如果有一個形體物是無限的，那麼在這個形體物之外就不會有地方了。因此這個形體物必是處處都在的。所以，處處都在似乎並不是天主獨有的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.arg5",
+      "article": 4,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "此外，如奧斯定在《論天主聖三》卷六第六章所說的，靈魂「是整個靈魂在整個身體內，而且也是整個靈魂在身體的每一部分內。」所以，假設在這個世界上只有一個動物(按:即假設沒有別的形體物存在)，那麼祂的魂就會處處都在。所以，處處都在不是天主獨有的。",
+      "after": "此外，如奧斯定在《論天主聖三》卷六第六章所說的，靈魂「是整個靈魂在整個身體內，而且也是整個靈魂在身體的每一部分內。」所以，假設在這個世界上只有一個動物(按：即假設沒有別的形體物存在)，那麼牠的魂就會處處都在。所以，處處都在不是天主獨有的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂的魂",
+          "after": "牠的魂",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.arg6",
+      "article": 4,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        315
+      ],
+      "before": "此外，如奧斯定在《致握祿西安書》(Ad Vo1usia num)中所說的:「靈魂看到那裡，就察覺到那裡;察覺到那裡，就生活在那裡;生活在那裡，也就在那裡。」(《書信集》第一三七篇第二章)而靈魂幾乎看得到所有的地方，因為可以相繼看到整個的天體。所以，靈魂是處處都在的。",
+      "after": "此外，如奧斯定在《致渥祿西安書》(Ad Volusia num)中所說的：「靈魂看到那裡，就察覺到那裡；察覺到那裡，就生活在那裡；生活在那裡，也就在那裡。」(《書信集》第一三七篇第二章)而靈魂幾乎看得到所有的地方，因為可以相繼看到整個的天體。所以，靈魂是處處都在的。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "致握祿",
+          "after": "致渥祿",
+          "occurrences": 1,
+          "type": "书名／错字"
+        },
+        {
+          "before": "Vo1usia num",
+          "after": "Volusia num",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        316
+      ],
+      "before": "盎博羅修在《論天主聖神》(D巴SpirωSanto)卷一第七章卻說:「誰敢說存在於萬物中、處處都在、時時都在的聖神是受造物?因為存在於萬物中、處處都在、時時都在，這是天主性所獨有的。」",
+      "after": "盎博羅修在《論天主聖神》(De Spiritu Santo)卷一第七章卻說：「誰敢說存在於萬物中、處處都在、時時都在的聖神是受造物？因為存在於萬物中、處處都在、時時都在，這是天主性所獨有的。」",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "D巴SpirωSanto",
+          "after": "De Spiritu Santo",
+          "occurrences": 1,
+          "type": "书名／乱码"
+        },
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        316
+      ],
+      "before": "我解答如下:首要地(primo)並本然地(p…)處處都在，是天主獨有的。所謂首要地處處都在，是指一物就自己的整體而言處處都在。如果一物之處處都在，是因他的不同的部分存在於不同的地方，那麼這一物就不是首要地處處都在;因為那基於或經由部分而歸屬於一物的，不是首要地歸屬於他，例如:一個人有自牙，白色不是首要地歸屬於人，而是首要地歸屬於牙。所謂本然地處處都在，是說一物之處處都在不是偶然的，也就是說不是在設定某種條件或情形下才處處都在;因為照這種(偶然的)說法，連一粒栗也可以說是處處都在，假設沒有別的形體物存在。所以，如果一物作為該物，無論在什麼條件或情形下都是處處都在，這時才把本然地處處都在歸於他。\n而這正是天主所獨有的。因為不拘假定有多少地方，即使除了現有的地方之外還有無數的地方，天主也必定存在於所有的地方;因為除了藉著祂之外，沒有什麼能夠存在。所以，首要地並本然地處處都在，是如此歸屬於天主，並是天主所獨有的，因為不拘有多少地方，天主也必定存在於每一個地方，而且不是根據部分(按:在天主內沒有部分)，而是就天主自己本身而言。",
+      "after": "我解答如下：首要地(primo)並本然地(per se)處處都在，是天主獨有的。所謂首要地處處都在，是指一物就自己的整體而言處處都在。如果一物之處處都在，是因他的不同的部分存在於不同的地方，那麼這一物就不是首要地處處都在；因為那基於或經由部分而歸屬於一物的，不是首要地歸屬於他，例如：一個人有白牙，白色不是首要地歸屬於人，而是首要地歸屬於牙。所謂本然地處處都在，是說一物之處處都在不是偶然的，也就是說不是在設定某種條件或情形下才處處都在；因為照這種(偶然的)說法，連一粒粟也可以說是處處都在，假設沒有別的形體物存在。所以，如果一物作為該物，無論在什麼條件或情形下都是處處都在，這時才把本然地處處都在歸於他。\n而這正是天主所獨有的。因為不拘假定有多少地方，即使除了現有的地方之外還有無數的地方，天主也必定存在於所有的地方；因為除了藉著祂之外，沒有什麼能夠存在。所以，首要地並本然地處處都在，是如此歸屬於天主，並是天主所獨有的，因為不拘有多少地方，天主也必定存在於每一個地方，而且不是根據部分(按：在天主內沒有部分)，而是就天主自己本身而言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(p…)",
+          "after": "(per se)",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "有自牙",
+          "after": "有白牙",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "一粒栗",
+          "after": "一粒粟",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        316
+      ],
+      "before": "普遍者和第一質料固然處處都在，但不是依照同樣的存在。",
+      "after": "普通者和第一質料固然處處都在，但不是依照同樣的存在。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "普遍者",
+          "after": "普通者",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        316,
+        317
+      ],
+      "before": "數字由於是依附體，所以不是本然地(靠自己本身)存在於地方，而只是偶然地(靠依附他物)。而且也不是整體或‘全部數字都存在於每一個被數的東西內，而只是其中某部分。如此則無從證明，數字是首要地和本然地處處都在。",
+      "after": "數字由於是依附體，所以不是本然地(靠自己本身)存在於地方，而只是偶然地(靠依附他物)。而且也不是整體或全部數字都存在於每一個被數的東西內，而只是其中某部分。如此則無從證明，數字是首要地和本然地處處都在。",
+      "status": "corrected",
+      "error_types": [
+        "多余标点"
+      ],
+      "changes": [
+        {
+          "before": "或‘全部",
+          "after": "或全部",
+          "occurrences": 1,
+          "type": "多余标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q008.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        317
+      ],
+      "before": "宇宙整體是處處都在，但不是首要地處處都在，因為不是整體在任何一個地方，而是基於或經由其部分。宇宙整體也不是本然地處處都在，因為假設還有其他的地方的話，宇宙就不存在於那些地方。",
+      "after": "宇宙整體是處處都在，但不是首要地處處都在，因為不是整體在任何一個地方，而是基於或經由其部分。宇宙整體也不是本然地處處都在，因為假設還有其他的地方的話，宇宙就不存在於那些地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        317
+      ],
+      "before": "假設有一個無限的形體物，他會是處處都在的，但只是基於或經由他的部分。",
+      "after": "假設有一個無限的形體物，他會是處處都在的，但只是基於或經由他的部分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.ad5",
+      "article": 4,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        317
+      ],
+      "before": "如果只有一個動物的話，牠的魂固然是首要地處處都在，但那只是偶然地。",
+      "after": "如果只有一個動物的話，牠的魂固然是首要地處處都在，但那只是偶然地。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q008.a004.ad6",
+      "article": 4,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        317
+      ],
+      "before": "所謂靈魂看到那裡，能有兩種意義:一種是，「那裡」這個副詞是由對象方面來界定看的行為(按:即著眼於行為所及之物的地方)。如此而說幾時看天就是在天上看，這是不錯的;同理，也可以說就是在天上察覺。但不是因此就說靈魂生活在天上，或存在於天上，因為「生活」與「存在」本身不是及於外在對象的行為。依另一種意義，這個副詞「那裡」'是根據看的行為，由看者所發出的觀點來界定看者的行為(按:即著眼於行為主體的所在地)。依這種說法，確實是靈魂在那裡看、在那裡察覺，也就存在於那裡'並生活在那裡。因此不能結論說‘靈魂是處處都在。",
+      "after": "所謂靈魂看到那裡，能有兩種意義：一種是，「那裡」這個副詞是由對象方面來界定看的行為(按：即著眼於行為所及之物的地方)。如此而說幾時看天就是在天上看，這是不錯的；同理，也可以說就是在天上察覺。但不是因此就說靈魂生活在天上，或存在於天上，因為「生活」與「存在」本身不是及於外在對象的行為。依另一種意義，這個副詞「那裡」，是根據看的行為，由看者所發出的觀點來界定看者的行為(按：即著眼於行為主體的所在地)。依這種說法，確實是靈魂在那裡看、在那裡察覺，也就存在於那裡，並生活在那裡。因此不能結論說，靈魂是處處都在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「那裡」'是根據",
+          "after": "「那裡」，是根據",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "那裡'並生活",
+          "after": "那裡，並生活",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "結論說‘靈魂",
+          "after": "結論說，靈魂",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
