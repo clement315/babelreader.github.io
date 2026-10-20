@@ -1,0 +1,2084 @@
+{
+  "schema_version": 1,
+  "batch": "I-q010",
+  "date": "2026-10-20",
+  "author": "element",
+  "baseline_git_commit": "3519a0720ea70c35503a6a21d9ec371dc320dfce",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q010",
+    "title": "論天主的永恆性",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339
+    ],
+    "printed_pages": [
+      108,
+      123
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 83,
+    "changed_review_units": 61,
+    "checked_unchanged_review_units": 23
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q10.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q10.json": "8f78396e35236cd3cfad0171897054bc100e9a3da61476f88dff6921df212269",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q010.a001.arg4",
+      "pdf_file_page": 325,
+      "text": "互古",
+      "status": "suspected_source_print_error",
+      "action": "原页字形为「互古」，疑当作「亙古」；不依习惯替换。"
+    },
+    {
+      "id": "I.q010.a001.arg5",
+      "pdf_file_page": 325,
+      "text": "既己說是",
+      "status": "suspected_source_print_error",
+      "action": "原页为「己」字形，疑当为「已」；按底本保留。"
+    },
+    {
+      "id": "I.q010.a002.arg2",
+      "pdf_file_page": 327,
+      "text": "上主為主以至永恆",
+      "status": "suspected_source_print_error",
+      "action": "原页引文为「為主」，与下一页释疑二的「為王」不一致；两处分别按原页保留。"
+    },
+    {
+      "id": "I.q010.a002.ad2",
+      "pdf_file_page": 328,
+      "text": "由釋疑1.己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页为「己」字形；网页的「已」按唯一底本恢复为「己」，疑点单列供人工定夺。"
+    },
+    {
+      "id": "I.q010.a003.respondeo",
+      "pdf_file_page": 329,
+      "text": "真正而確實的的永恆性",
+      "status": "suspected_source_print_error",
+      "action": "原页确有两个连续「的」字，未擅自去重。"
+    },
+    {
+      "id": "I.q010.a006.respondeo",
+      "pdf_file_page": 339,
+      "text": "第二十七題第二節",
+      "status": "suspected_source_cross_reference_error",
+      "action": "原页明确印作此题节号；疑似题号误印，未按别的版本或推测更改。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q010.a005.intro",
+      "description": "第五节译者按语和「有關第五節」节引言在原页分段，原 JSON 对应 intro 空串不含换行。已将错置于标题、质疑中的按语完整移回现有 intro 字符串，与节引言依原次序相接；按用户要求不新增换行转义，故这一处空行差异保留。"
+    }
+  ],
+  "notes": [
+    "All sixteen source images and enlarged ambiguous glyphs were reviewed; OCR was not used to determine readings.",
+    "Article 1 has no separately printed sed contra; no JSON row was invented.",
+    "Article 5 note, intro and objection were restored in existing zh fields without changing row structure or newline escapes.",
+    "The prologue uses 永世 in item 6 while article 6 uses 永常; both source readings are retained.",
+    "Source title and text use 據有, not a modernized 擁有."
+  ],
+  "readings": [
+    {
+      "id": "I.q010.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "然後要探討的是永恆性或永恆(aeternitas)。關於這一點，可以提出六個問題:\n一、什麼是永恆性。\n二、天主是不是永恆的。\n三、永恆性是不是天主獨有的。\n四、永恆性與時聞是否有分別。\n五、論永常與時間的分別。\n六、是否只有唯一的永世，就像只有唯一的時間和唯一的永恆一樣。",
+      "after": "然後要探討的是永恆性或永恆(aeternitas)。關於這一點，可以提出六個問題：\n一、什麼是永恆性。\n二、天主是不是永恆的。\n三、永恆性是不是天主獨有的。\n四、永恆性與時間是否有分別。\n五、論永常與時間的分別。\n六、是否只有唯一的永世，就像只有唯一的時間和唯一的永恆一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時聞",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "把永恆性界定為「對無極限的生命之完整而同時的，和完美的據有.」'是否適當",
+      "after": "把永恆性界定為「對無極限的生命之完整而同時的，和完美的據有」，是否適當",
+      "status": "corrected",
+      "error_types": [
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "據有.」'",
+          "after": "據有」，",
+          "occurrences": 1,
+          "type": "引号／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "波其武在《哲學的慰藉》(De consolatione)卷五第六章給永恆性所下的定義，似乎不適當。他說: 「永恆性是對無極限的生命之完整而同時的，和完美的據有(完整而同時地，和完美地據有無極限的生命)0 」因為:",
+      "after": "波其武在《哲學的慰藉》(De consolatione)卷五第六章給永恆性所下的定義，似乎不適當。他說：「永恆性是對無極限的生命之完整而同時的，和完美的據有(完整而同時地，和完美地據有無極限的生命)。」因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": ")0 」",
+          "after": ")。」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        324
+      ],
+      "before": "「無極限的」一詞是否定的說法。可是，否定的說法，只使用在具有缺欠之事物的理或定義裡，而永恆性不屬於這樣的事物。所以，在永恆性的定義中，不應置入「無極限的」一詞。",
+      "after": "「無極限的」一詞是否定的說法。可是，否定的說法，只使用在具有缺欠之事物的理或定義裡，而永恆性不屬於這樣的事物。所以，在永恆性的定義中，不應置入「無極限的」一詞。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        324,
+        325
+      ],
+      "before": "此外，永恆性表示一種持續，而持續主要所涉及的，是存在，而非生命。所以，在永恆性的定義中，不應使用「生命」'而應使用「存在」。",
+      "after": "此外，永恆性表示一種持續，而持續主要所涉及的，是存在，而非生命。所以，在永恆性的定義中，不應使用「生命」，而應使用「存在」。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点"
+      ],
+      "changes": [
+        {
+          "before": "「生命」'",
+          "after": "「生命」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        325
+      ],
+      "before": "此外，所謂完整或整體是指具有部分者。而這並不適用於永恆性，因為永1世|生是單純的。所以，不宜說「完整的」。",
+      "after": "此外，所謂完整或整體是指具有部分者。而這並不適用於永恆性，因為永恆性是單純的。所以，不宜說「完整的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "永1世|生",
+          "after": "永恆性",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        325
+      ],
+      "before": "此外，許多時日(dies)不可能是同時，許多時期或時代也不可能是同時。可是在永恆裡，卻用複數指稱(永恆的許多)時日和時代。因為《米該亞》第五章1節說:「他的來歷源於互古，遠自永恆的時日(波數)0 」又《羅馬書》第十六章25節說:「並合乎所啟示的奧祕，這個奧祕從永恆的時代(複數)以來，就是祕而不宣的。」所以，永恆性不是完整而同時的。",
+      "after": "此外，許多時日(dies)不可能是同時，許多時期或時代也不可能是同時。可是在永恆裡，卻用複數指稱(永恆的許多)時日和時代。因為《米該亞》第五章1節說：「他的來歷源於互古，遠自永恆的時日(複數)。」又《羅馬書》第十六章25節說：「並合乎所啟示的奧秘，這個奧秘從永恆的時代(複數)以來，就是秘而不宣的。」所以，永恆性不是完整而同時的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(波數)0 」",
+          "after": "(複數)。」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        },
+        {
+          "before": "祕",
+          "after": "秘",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        325
+      ],
+      "before": "此外，「完整的」和「完美的」是一樣的。既己說是「完整的」'再加上「完美的」一詞，末免畫蛇添足。",
+      "after": "此外，「完整的」和「完美的」是一樣的。既己說是「完整的」，再加上「完美的」一詞，未免畫蛇添足。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「完整的」'",
+          "after": "「完整的」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "末免",
+          "after": "未免",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.arg6",
+      "article": 1,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        325
+      ],
+      "before": "此外，「據有」與持續無閥，而永恆性卻是一種持續。所以，永恆性不是據有。",
+      "after": "此外，「據有」與持續無關，而永恆性卻是一種持續。所以，永恆性不是據有。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "無閥",
+          "after": "無關",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        325,
+        326
+      ],
+      "before": "我解答如下:正如我們必須藉由組合的東西來認知單純的東西，同樣，我們也必須藉由時問去認知永恆，而時間無非就是「依照先後(來度量)變動或運動的數字」 U(《物理學》卷四第十一章)。由於在每一變動或運動中，都有一種接績，一部分之後另有一部分繼之;所以我們是以計算或數算變動或運動中的先後來察覺時間，而這無非就是變動或運動之先後數字。可是，在一個沒有變動或運動而經常如一的東西內，就沒有所謂先後。所以，正如時間之理或本質在於數算變動或運動中的先後，同樣地，永恆之理或本質在於察覺一個完全超出變動或運動者的一致性。\n此外，所謂用時間來度量的東西，就是那些在時間中有開始和有終了的東西，如《物理學》卷四第十二章所說的;因為凡是被動的東西，在其內都有一個開始，和一個終了。而絕對不可改變的東西，既不可能有接續，亦不可能有開始和終了。\n因此，可知永恆有兩特點:第一，凡是在永恆中者，都是無極限的，也就是說沒有開始和終了(這是就極限兼涉及此二極而言);第二，永恆性沒有接績，是完整而同時地存在。",
+      "after": "我解答如下：正如我們必須藉由組合的東西來認知單純的東西，同樣，我們也必須藉由時間去認知永恆，而時間無非就是「依照先後(來度量)變動或運動的數字」(《物理學》卷四第十一章)。由於在每一變動或運動中，都有一種接續，一部分之後另有一部分繼之；所以我們是以計算或數算變動或運動中的先後來察覺時間，而這無非就是變動或運動之先後數字。可是，在一個沒有變動或運動而經常如一的東西內，就沒有所謂先後。所以，正如時間之理或本質在於數算變動或運動中的先後，同樣地，永恆之理或本質在於察覺一個完全超出變動或運動者的一致性。\n此外，所謂用時間來度量的東西，就是那些在時間中有開始和有終了的東西，如《物理學》卷四第十二章所說的；因為凡是被動的東西，在其內都有一個開始，和一個終了。而絕對不可改變的東西，既不可能有接續，亦不可能有開始和終了。\n因此，可知永恆有兩特點：第一，凡是在永恆中者，都是無極限的，也就是說沒有開始和終了(這是就極限兼涉及此二極而言)；第二，永恆性沒有接續，是完整而同時地存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "」 U(",
+          "after": "」(",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "接績",
+          "after": "接續",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "一般都是用否定的說法，來給單純的東西下定義，例直日「點」定義為「沒有部分者」。這並不是說否定是屬於單純物的本質，而是因為我們的理智先察覺組合物，然後才能以排除組合的方法來認知單純物。",
+      "after": "一般都是用否定的說法，來給單純的東西下定義，例如「點」定義為「沒有部分者」。這並不是說否定是屬於單純物的本質，而是因為我們的理智先察覺組合物，然後才能以排除組合的方法來認知單純物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "例直日",
+          "after": "例如",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "真正永恆的東西，不僅是存在物，而且也是其有生命的東西或生物;生活本身擴及或包括活動，而存在卻不然。持績的展延似乎是著眼於活動方面，而不是著眼於存在方面。所以說時間是運動或變動的數字。",
+      "after": "真正永恆的東西，不僅是存在物，而且也是具有生命的東西或生物；生活本身擴及或包括活動，而存在卻不然。持續的展延似乎是著眼於活動方面，而不是著眼於存在方面。所以說時間是運動或變動的數字。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也是其有",
+          "after": "也是具有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "持績",
+          "after": "持續",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "永恆性之所以被稱為完整的，不是因為它含有部分，而是因為它什麼都不欠缺。",
+      "after": "永恆性之所以被稱為完整的，不是因為它含有部分，而是因為它什麼都不欠缺。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "正如天主雖然沒有形體，在聖經上卻以隱喻的方式用一些形體物的名稱來稱呼祂;同樣，永恆雖然是完整而同時的，卻也用一些含有時間上接續性的名稱來表達它。",
+      "after": "正如天主雖然沒有形體，在聖經上卻以隱喻的方式用一些形體物的名稱來稱呼祂；同樣，永恆雖然是完整而同時的，卻也用一些含有時間上接續性的名稱來表達它。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "對於時間，有兩點需要注意:一是時間本身是接續性的;一是時間中的「現今或此刻」這一剎那，而這是不完美的或未完成的。說「完整而同時的」'是為排除(接續性的)時間; 「完美的」﹒是為排除時間中的「現今或此刻」。",
+      "after": "對於時間，有兩點需要注意：一是時間本身是接續性的；一是時間中的「現今或此刻」這一剎那，而這是不完美的或未完成的。說「完整而同時的」，是為排除(接續性的)時間；「完美的」，是為排除時間中的「現今或此刻」。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「完整而同時的」'",
+          "after": "「完整而同時的」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": " 「完美的」﹒",
+          "after": "「完美的」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a001.ad6",
+      "article": 1,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        326
+      ],
+      "before": "「據有」一物，是指堅實而穩妥的享有它。為表示永恆性之不可改變性和穩妥無失，而採用了「據有」這個名詞。",
+      "after": "「據有」一物，是指堅實而穩妥的享有它。為表示永恆性之不可改變性和穩妥無失，而採用了「據有」這個名詞。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "天主是不是永恆的",
+      "after": "天主是不是永恆的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "天主似乎不是永恆的。因為;",
+      "after": "天主似乎不是永恆的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "凡是被形成的，都不能用以稱謂天主。而永恆性是被形成的，因為波其武說: 「流動的現今或此刻形成時間，立定不動的現今或此刻形成永恆。」(《論天主聖三》'卷一第四章)奧斯定在《雜題八十三》第二十三題亦說: 「天主是永恆的創作者。」所以，天主不是永恆的。",
+      "after": "凡是被形成的，都不能用以稱謂天主。而永恆性是被形成的，因為波其武說：「流動的現今或此刻形成時間，立定不動的現今或此刻形成永恆。」(《論天主聖三》卷一第四章)奧斯定在《雜題八十三》第二十三題亦說：「天主是永恆的創作者。」所以，天主不是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "书名后乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "《論天主聖三》'卷",
+          "after": "《論天主聖三》卷",
+          "occurrences": 1,
+          "type": "书名后乱码"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "此外，那在永恆之前的，和在永恆之後的，都不是用永恆來度量。可是，天主是在永恆之前，如《論原因》所說的;而祂也是在永恆之後，因為《出谷紀》第十五章18節說:「上主為主以至永恆，並超越永恆。」所以，「是永恆的」不適用於天主。",
+      "after": "此外，那在永恆之前的，和在永恆之後的，都不是用永恆來度量。可是，天主是在永恆之前，如《論原因》所說的；而祂也是在永恆之後，因為《出谷紀》第十五章18節說：「上主為主以至永恆，並超越永恆。」所以，「是永恆的」不適用於天主。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "此外，永恆是一種度量或尺度。而針對天主來說，沒有什麼度量或尺度。所以，「是永恆的」不適用於天主。",
+      "after": "此外，永恆是一種度量或尺度。而針對天主來說，沒有什麼度量或尺度。所以，「是永恆的」不適用於天主。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "此外，在永恆內沒有現在、過去和未來，因為永恆是完整而同時的，自日前面第一節所說的。可是，聖經上卻用屬於現在時、過去時和未來時的動詞，來論述天主。所以，天主不是永恆的。",
+      "after": "此外，在永恆內沒有現在、過去和未來，因為永恆是完整而同時的，如前面第一節所說的。可是，聖經上卻用屬於現在時、過去時和未來時的動詞，來論述天主。所以，天主不是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自日前面",
+          "after": "如前面",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        327
+      ],
+      "before": "亞達納修(在其所編信經中)卻說:「父是永恆的，子是永恆的，聖神是永恆的。」",
+      "after": "亞達納修(在其所編信經中)卻說：「父是永恆的，子是永恆的，聖神是永恆的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        327,
+        328
+      ],
+      "before": "我解答如下:從前面第一節所說可以知道，「永恆」之理或本質是隨不變性而來的，正如「時間」之理或本質是隨變動或運動而來的一樣。所以，由於天主是最不可改變的，所以祂最應該是永恆的。祂不僅是永恆的，而且祂就是自己的永恆性;沒有其他任何東西是自己的持續或續存，因為他們都不是自己的存在。而天主卻是始終如一地就是自己的存在;因此，正如天主是自己的本質，同樣祂也是自己的永恆性。",
+      "after": "我解答如下：從前面第一節所說可以知道，「永恆」之理或本質是隨不變性而來的，正如「時間」之理或本質是隨變動或運動而來的一樣。所以，由於天主是最不可改變的，所以祂最應該是永恆的。祂不僅是永恆的，而且祂就是自己的永恆性；沒有其他任何東西是自己的持續或續存，因為他們都不是自己的存在。而天主卻是始終如一地就是自己的存在；因此，正如天主是自己的本質，同樣祂也是自己的永恆性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        328
+      ],
+      "before": "說「立定不動的現今」形成永恆，是依我們的察覺或認知方式。就如我們對「時間」的認知，是藉由我們對「現今」流動的認知而形成;同樣，我們對「永恆」的認知，是藉由我們對立定不動之現今的認知而形成。至於奧斯定所說的「天主是永恆的創作者」'應懂作(為受造物所)分有的永恆;因為就如天主把自己的不變性通傳給某些(受造)物，祂也以同樣的方式通傳給他們自己的永恆性。",
+      "after": "說「立定不動的現今」形成永恆，是依我們的察覺或認知方式。就如我們對「時間」的認知，是藉由我們對「現今」流動的認知而形成；同樣，我們對「永恆」的認知，是藉由我們對立定不動之現今的認知而形成。至於奧斯定所說的「天主是永恆的創作者」，應懂作(為受造物所)分有的永恆；因為就如天主把自己的不變性通傳給某些(受造)物，祂也以同樣的方式通傳給他們自己的永恆性。",
+      "status": "corrected",
+      "error_types": [
+        "引号后标点",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "創作者」'",
+          "after": "創作者」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        328
+      ],
+      "before": "由釋疑1.已可知質疑2.之解答。因為說天主在永恆之前，是針對非物質的實體或自立體所分有的永恆而說的。因此，在同處又說: 「智性與永恆同等。」至於《出谷紀》所說的「上主為玉以至永恆，並超越永恆」'當知那裡所說的永恆是指「世紀」'就如別的譯本所譯的一樣。因此，所謂上主為王超越永恆，就是說天主為玉的延續超過所有的世紀，也就是說超過所有的時期，因為如亞里斯多德的《天界論》卷一第九章所說的，所謂世紀就是任何一件事物的延續時期而已。或者說，所謂為王超越永恆，是說即使另有其他任何東西常常(或永恆)存在(例如:有些哲學家認為天體的運動或運行是常常存在)，天主為王仍然予以超越，因為天主的為玉是完整而同時的。",
+      "after": "由釋疑1.己可知質疑2.之解答。因為說天主在永恆之前，是針對非物質的實體或自立體所分有的永恆而說的。因此，在同處又說：「智性與永恆同等。」至於《出谷紀》所說的「上主為王以至永恆，並超越永恆」，當知那裡所說的永恆是指「世紀」，就如別的譯本所譯的一樣。因此，所謂上主為王超越永恆，就是說天主為王的延續超過所有的世紀，也就是說超過所有的時期，因為如亞里斯多德的《天界論》卷一第九章所說的，所謂世紀就是任何一件事物的延續時期而已。或者說，所謂為王超越永恆，是說即使另有其他任何東西常常(或永恆)存在(例如：有些哲學家認為天體的運動或運行是常常存在)，天主為王仍然予以超越，因為天主的為王是完整而同時的。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形恢复",
+        "引号后标点",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1.已可知",
+          "after": "1.己可知",
+          "occurrences": 1,
+          "type": "原书字形恢复"
+        },
+        {
+          "before": "為玉",
+          "after": "為王",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "永恆」'",
+          "after": "永恆」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "「世紀」'",
+          "after": "「世紀」，",
+          "occurrences": 1,
+          "type": "引号后标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        328
+      ],
+      "before": "永恆性不是別的，就是天主本身。因此說天主是永恆的，並不是好像用某種方式去度量天主;這裡只是依照我們的認知方式來論及度量或尺度之理或本質。",
+      "after": "永恆性不是別的，就是天主本身。因此說天主是永恆的，並不是好像用某種方式去度量天主；這裡只是依照我們的認知方式來論及度量或尺度之理或本質。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        328
+      ],
+      "before": "把屬於各種不同時的動詞用於天主，是因為天主的永恆性包括了所有的時間，而不是因為天主有現在、過去和未來的變化。",
+      "after": "把屬於各種不同時的動詞用於天主，是因為天主的永恆性包括了所有的時間，而不是因為天主有現在、過去和未來的變化。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "永恆性是不是天主獨有的",
+      "after": "永恆性是不是天主獨有的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "永恆性似乎不是天主獨有的。因為:",
+      "after": "永恆性似乎不是天主獨有的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "《達尼爾》第十二章3節說:「那些引導多人歸於正義的人，要各自永恆不斷地發光如同星辰。」如果只有天主是永恆的，就不會有這麼多的永恆了。所以，不是唯獨天主是永恆的。",
+      "after": "《達尼爾》第十二章3節說：「那些引導多人歸於正義的人，要各自永恆不斷地發光如同星辰。」如果只有天主是永恆的，就不會有這麼多的永恆了。所以，不是唯獨天主是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "此外，《瑪費褔音》第二十五章41節說:「可咒罵的，你們到永(恆的)火裡去罷!」所以，不是唯獨天主是永恆的。",
+      "after": "此外，《瑪竇福音》第二十五章41節說：「可咒罵的，你們到永(恆的)火裡去罷！」所以，不是唯獨天主是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《瑪費褔音》",
+          "after": "《瑪竇福音》",
+          "occurrences": 1,
+          "type": "书名／错字"
+        },
+        {
+          "before": "罷!",
+          "after": "罷！",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "此外，凡是必然的東西，都是永恆的。可是，有許多必然的東西，例如:所有的論證原理和所有的指證命題等。所以，不是唯獨天主是永恆的。",
+      "after": "此外，凡是必然的東西，都是永恆的。可是，有許多必然的東西，例如：所有的論證原理和所有的指證命題等。所以，不是唯獨天主是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        329
+      ],
+      "before": "熱羅尼莫在《致瑪塞拉書》(Ad Marcellam)中說:「唯獨天主是無始的。」(參看《致達馬蘇書》(Ad Damasum)，書信第十五篇)可是凡是有始的，就不是永恆的。所以，唯獨天主是永恆的。",
+      "after": "熱羅尼莫在《致瑪塞拉書》(Ad Marcellam)中說：「唯獨天主是無始的。」(參看《致達馬蘇書》(Ad Damasum)，書信第十五篇)可是凡是有始的，就不是永恆的。所以，唯獨天主是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        329,
+        330
+      ],
+      "before": "我解答如下:真正而確實的的永恆性，只有在天主內纔有。由以上第一節所述可知，永恆性是隨不變性而來的，而只有天主纔是完全不變的，還在前面第九題第二節已證明過了。一些東西由於由天主接受了不變性，所以也據以分有天主的永恆性。\n所以，有些東西是在這一方面由天主接受了不變性，即自己總不會終止存在;《訓道篇》第一章4節就是依此而說:大地「喫立直至永恆」。此外，有些東西雖然是會朽腐的，聖經上卻為了其持久的延續而稱之為永恆的;例如《聖詠》第七十六篇5節稱「永恆的山陵」;又如《申命紀》第三十三章的節提到「永恆丘陵的呆實」。另外有些東西更進一步分有永恆性，即他們在存在方面，甚至於在活動方面，不會有所轉變或轉移，例如:享見聖言的天使和聖人。因為如奧斯定在《論天主聖三》卷十五第十六章所說的，在享見聖言方面，聖者沒有「飄搖不定的思想」。因此，享見天主者也被稱為享有永生(永恆的生命)，如《若望褔音》第十七章3節所說: 「永生就是認識你」等等。",
+      "after": "我解答如下：真正而確實的的永恆性，只有在天主內才有。由以上第一節所述可知，永恆性是隨不變性而來的，而只有天主才是完全不變的，這在前面第九題第二節已證明過了。一些東西由於由天主接受了不變性，所以也據以分有天主的永恆性。\n所以，有些東西是在這一方面由天主接受了不變性，即自己總不會終止存在；《訓道篇》第一章4節就是依此而說：大地「屹立直至永恆」。此外，有些東西雖然是會朽腐的，聖經上卻為了其持久的延續而稱之為永恆的；例如《聖詠》第七十六篇5節稱「永恆的山陵」；又如《申命紀》第三十三章15節提到「永恆丘陵的果實」。另外有些東西更進一步分有永恆性，即他們在存在方面，甚至於在活動方面，不會有所轉變或轉移，例如：享見聖言的天使和聖人。因為如奧斯定在《論天主聖三》卷十五第十六章所說的，在享見聖言方面，聖者沒有「飄搖不定的思想」。因此，享見天主者也被稱為享有永生(永恆的生命)，如《若望福音》第十七章3節所說：「永生就是認識你」等等。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "引文数字",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "還在前面",
+          "after": "這在前面",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "喫立",
+          "after": "屹立",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "第三十三章的節",
+          "after": "第三十三章15節",
+          "occurrences": 1,
+          "type": "引文数字"
+        },
+        {
+          "before": "呆實",
+          "after": "果實",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "《若望褔音》",
+          "after": "《若望福音》",
+          "occurrences": 1,
+          "type": "书名／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "所謂許多永恆，係指由於享見天主而有許多分有永恆者。",
+      "after": "所謂許多永恆，係指由於享見天主而有許多分有永恆者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "地獄之火所以稱為永恆的，係因為它沒有極限或終止。可是，地獄中惡人的懲罰卻有轉變，如《約伯傳》第二十四章的節所說的: 「他們由雪水而轉移到劇熱中。」所以，在地獄中沒有真正的永恆，而更好說是有時間，如《聖詠》第八十篇16節所說的: 「他們的時間世世常存。」",
+      "after": "地獄之火所以稱為永恆的，係因為它沒有極限或終止。可是，地獄中惡人的懲罰卻有轉變，如《約伯傳》第二十四章19節所說的：「他們由雪水而轉移到劇熱中。」所以，在地獄中沒有真正的永恆，而更好說是有時間，如《聖詠》第八十篇16節所說的：「他們的時間世世常存。」",
+      "status": "corrected",
+      "error_types": [
+        "引文数字",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "第二十四章的節",
+          "after": "第二十四章19節",
+          "occurrences": 1,
+          "type": "引文数字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "「必然的」所表達的是真理的一種形態。依哲學家在《形上學》卷六第四章所說的，「真」是在理智內。依此，真的和必然的都是永恆的，因為它們是在永恆的理智內，而唯獨天主的理智是永恆的。因此，不能結論說在天主之外，還有別的東西是永恆的。",
+      "after": "「必然的」所表達的是真理的一種形態。依哲學家在《形上學》卷六第四章所說的，「真」是在理智內。依此，真的和必然的都是永恆的，因為它們是在永恆的理智內，而唯獨天主的理智是永恆的。因此，不能結論說在天主之外，還有別的東西是永恆的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "永恆性與時間是否有分別",
+      "after": "永恆性與時間是否有分別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        330
+      ],
+      "before": "永恆性或永恆與時間似乎沒有分別。因為:",
+      "after": "永恆性或永恆與時間似乎沒有分別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        330,
+        331
+      ],
+      "before": "不可能同時有兩種持續的度量，除非一種度量是另一種的一部分;因為兩天(按:如今天和明天)或兩個時辰(按:如這一時辰與那一時辰)不是同時存在。可是，天和時辰卻同時存在，因為時辰是天的一部分。永恆和時間卻同時存在，其中每一個都含有持續的一種度量。既然永恆不是時間的一部分，因為永恆超出時間並包括時間;所以，時間似乎是永恆的一部分，與永恆並沒有分別。",
+      "after": "不可能同時有兩種持續的度量，除非一種度量是另一種的一部分；因為兩天(按：如今天和明天)或兩個時辰(按：如這一時辰與那一時辰)不是同時存在。可是，天和時辰卻同時存在，因為時辰是天的一部分。永恆和時間卻同時存在，其中每一個都含有持續的一種度量。既然永恆不是時間的一部分，因為永恆超出時間並包括時間；所以，時間似乎是永恆的一部分，與永恆並沒有分別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        331
+      ],
+      "before": "此外，依哲學家在《物理學》卷四第十一及第十三章所說，時間的「現在或現今」在整個時間過程中都是一樣的。而這似乎構成永恆性之理或本質，因為永恆性在時間的整個過程中都始終如一地保持自己的不可分性。所以永恆性就是時間的「現在或現今」。而時間的「現在或現今」在實質上與時間沒有分別。",
+      "after": "此外，依哲學家在《物理學》卷四第十一及第十三章所說，時間的「現在或現今」在整個時間過程中都是一樣的。而這似乎構成永恆性之理或本質，因為永恆性在時間的整個過程中都始終如一地保持自己的不可分性。所以永恆性就是時間的「現在或現今」。而時間的「現在或現今」在實質上與時間沒有分別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        331
+      ],
+      "before": "此外，就像第一個變動或運動的度量或尺度，是所有變動或運動的度量或尺度，如哲學家在《物理學》卷四第十四章所說的;同樣，第一個存在的度量或尺度似乎也是所有存在的度量或尺度。而永恆性是第一個存在的，即天主之存在的度量或尺度。所以，永恆性是一切存在的度量或尺度。而可腐朽的東西的存在是以時間來度量的。所以，時間或者就是永恆性，或者是永恆性的一部分。",
+      "after": "此外，就像第一個變動或運動的度量或尺度，是所有變動或運動的度量或尺度，如哲學家在《物理學》卷四第十四章所說的；同樣，第一個存在的度量或尺度似乎也是所有存在的度量或尺度。而永恆性是第一個存在的，即天主之存在的度量或尺度。所以，永恆性是一切存在的度量或尺度。而可腐朽的東西的存在是以時間來度量的。所以，時間或者就是永恆性，或者是永恆性的一部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        331
+      ],
+      "before": "永恆性是完整而同時的，而時間卻有先後。所以，時間與永恆性並不相同。",
+      "after": "永恆性是完整而同時的，而時間卻有先後。所以，時間與永恆性並不相同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        331,
+        332
+      ],
+      "before": "我解答如下:很明顯地，時間和永恆性並不相同。有人以為時間和永恆性或永恆的區別，在於永恆無始無終，而時間卻有始有終。不過，這種區別是偶然的，不是本然的(或屬於本質、本體方面的)，因為如波其武在《哲學的慰藉》卷五第六章所說的，即使依主張天體的運動或運行是永久的人的意見，假定時間以前就常有和以後也常有，時間與永恆之間仍然是有區別的，因為永恆是完整而同時的，而時間卻不是，因為永恆是恆常或固定存在的度量，而時間卻是變動或運動的度量。\n如果由被度量的東西方面，而不由度量本身來看上述的區別，那麼這種區別不無道理。因為，如哲學家在《物理學》卷四第十二章所說的，只有在時間內有始也有絡的東西，才以時間來度量。因此，如果天體的運動或運行是經常持續的話，那麼時間就不會度量天體的整個或全部持續，因為無限的東西是無法(以時間)度量的;但時間度量(天體的)任何一個在時間內有始有終的循環或依環形軌道的繞行。\n如果把終止和開始視為處於潛能狀態中的或可能有的終止和開始，這種區別在度量本身方面也能男有根據。因為即使假設時間經常持續，仍然可能截取時間的一部分，而指出它的開始和終止，例如:一天或一年的開始和終了;而永恆卻沒有這種情形。\n不過，這些區別都是基於那首要的不日本然的區別，即永恆是完整而同時的，而時間卻不是。",
+      "after": "我解答如下：很明顯地，時間和永恆性並不相同。有人以為時間和永恆性或永恆的區別，在於永恆無始無終，而時間卻有始有終。不過，這種區別是偶然的，不是本然的(或屬於本質、本體方面的)，因為如波其武在《哲學的慰藉》卷五第六章所說的，即使依主張天體的運動或運行是永久的人的意見，假定時間以前就常有和以後也常有，時間與永恆之間仍然是有區別的，因為永恆是完整而同時的，而時間卻不是，因為永恆是恆常或固定存在的度量，而時間卻是變動或運動的度量。\n如果由被度量的東西方面，而不由度量本身來看上述的區別，那麼這種區別不無道理。因為，如哲學家在《物理學》卷四第十二章所說的，只有在時間內有始也有終的東西，才以時間來度量。因此，如果天體的運動或運行是經常持續的話，那麼時間就不會度量天體的整個或全部持續，因為無限的東西是無法(以時間)度量的；但時間度量(天體的)任何一個在時間內有始有終的循環或依環形軌道的繞行。\n如果把終止和開始視為處於潛能狀態中的或可能有的終止和開始，這種區別在度量本身方面也能另有根據。因為即使假設時間經常持續，仍然可能截取時間的一部分，而指出它的開始和終止，例如：一天或一年的開始和終了；而永恆卻沒有這種情形。\n不過，這些區別都是基於那首要的和本然的區別，即永恆是完整而同時的，而時間卻不是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有始也有絡",
+          "after": "有始也有終",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "也能男有",
+          "after": "也能另有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "首要的不日本然",
+          "after": "首要的和本然",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        332
+      ],
+      "before": "如果時間與永恆是屬於同一類的度量，這種推理纔有效;可是，從時間和永恆所度量的東西立刻可以看出，實際上並不是如此。",
+      "after": "如果時間與永恆是屬於同一類的度量，這種推理才有效；可是，從時間和永恆所度量的東西立刻可以看出，實際上並不是如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        332,
+        333
+      ],
+      "before": "以主體而論，時悶的「現在或現今」'的確在整個時間的過程中都是一樣的，但在相關理解方面卻仍有不同。因為，就如時間是針對變動或運動的;同樣，時間的「現在或現今」是針對變動者或運動者的。以主體而論，在整個時間的過程中，變動者或運動者是一樣的，但在相關理解方面卻仍有不悶，就是說他(一時)在這裡，(一時)在那裡;而這種轉換就是變動或運動。同樣，「現在或現令」的川流，以其在相關理解方面有轉換而論，就是時間;而永恆，不拘以主體而言，或以相關理解而言，都常是一樣的。因此，永恆與時間的現在或現今並不相同。",
+      "after": "以主體而論，時間的「現在或現今」的確在整個時間的過程中都是一樣的，但在相關理解方面卻仍有不同。因為，就如時間是針對變動或運動的；同樣，時間的「現在或現今」是針對變動者或運動者的。以主體而論，在整個時間的過程中，變動者或運動者是一樣的，但在相關理解方面卻仍有不同，就是說他(一時)在這裡，(一時)在那裡；而這種轉換就是變動或運動。同樣，「現在或現今」的川流，以其在相關理解方面有轉換而論，就是時間；而永恆，不拘以主體而言，或以相關理解而言，都常是一樣的。因此，永恆與時間的現在或現今並不相同。",
+      "status": "corrected",
+      "error_types": [
+        "引号后乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時悶",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「現在或現今」'",
+          "after": "「現在或現今」",
+          "occurrences": 1,
+          "type": "引号后乱码"
+        },
+        {
+          "before": "不悶",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "現令",
+          "after": "現今",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "就如永恆是存在本身的固有度量;同樣，時間是變動或運動的固有度量。因此，某一東西之脫離永恆而隸屬於時間，是根據它脫離存在的恆常固定性而隸屬於轉變。可腐朽的東西的存在，由於是可轉變的，所以不是以永恆來度量，而是以時間。因為時間不僅度量現實轉變的東西，而且也度量那些可轉變的東西。因此，時間不僅度量變動或運動，而且也度量靜止;所謂靜止，是指那依其本性可以變動而現實沒有變動的東西而說的。",
+      "after": "就如永恆是存在本身的固有度量；同樣，時間是變動或運動的固有度量。因此，某一東西之脫離永恆而隸屬於時間，是根據它脫離存在的恆常固定性而隸屬於轉變。可腐朽的東西的存在，由於是可轉變的，所以不是以永恆來度量，而是以時間。因為時間不僅度量現實轉變的東西，而且也度量那些可轉變的東西。因此，時間不僅度量變動或運動，而且也度量靜止；所謂靜止，是指那依其本性可以變動而現實沒有變動的東西而說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "論永常興時間的分別(按: aevum主要是用來度量天使之持續存在的。從多瑪斯在本節內的解說，可以清晰看出aevum與時間之首要區分，是常與變之分，而非久與暫之分，或有無終結之分。所以，把",
+      "after": "論永常與時間的分別",
+      "status": "corrected",
+      "error_types": [
+        "段落错位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論永常興時間的分別(按: aevum主要是用來度量天使之持續存在的。從多瑪斯在本節內的解說，可以清晰看出aevum與時間之首要區分，是常與變之分，而非久與暫之分，或有無終結之分。所以，把",
+          "after": "論永常與時間的分別",
+          "occurrences": 1,
+          "type": "错字／段落错位"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "",
+      "after": "(按：aevum主要是用來度量天使之持續存在的。從多瑪斯在本節內的解說，可以清晰看出：aevum與時間之首要區分，是常與變之分，而非久與暫之分，或有無終結之分。所以，把aevum譯為「永常」比譯為「永久」或「永世」，似乎較為恰當。)有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "引号",
+        "标点",
+        "段落错位",
+        "漏字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "(按：aevum主要是用來度量天使之持續存在的。從多瑪斯在本節內的解說，可以清晰看出：aevum與時間之首要區分，是常與變之分，而非久與暫之分，或有無終結之分。所以，把aevum譯為「永常」比譯為「永久」或「永世」，似乎較為恰當。)有關第五節，我們討論如下：",
+          "occurrences": 1,
+          "type": "段落错位／引号／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "aevum譯為「永常」比譯為「永久」或「永世」'似乎較為恰當。)有關第五節，我們討論如下:質提永常(aevum aevitemitas)與時間似乎沒有分別。因為:",
+      "after": "永常(aevum aeviternitas)與時間似乎沒有分別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "段落错位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "aevum譯為「永常」比譯為「永久」或「永世」'似乎較為恰當。)有關第五節，我們討論如下:質提永常(aevum aevitemitas)與時間似乎沒有分別。因為:",
+          "after": "永常(aevum aeviternitas)與時間似乎沒有分別。因為：",
+          "occurrences": 1,
+          "type": "段落错位／乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷八第二十章說:「天主藉時間來推動精神體的受造物。」而永常被稱為是精神實體或自立體的度量。所以，時間與永常並沒有分別。",
+      "after": "奧斯定在《創世紀字義新探》卷八第二十章說：「天主藉時間來推動精神體的受造物。」而永常被稱為是精神實體或自立體的度量。所以，時間與永常並沒有分別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        333
+      ],
+      "before": "此外，「時問」的本質是有先後的，而「永恆」的本質卻是完整而同時的，如前面第一節已經說過的。可是，永常不是永恆，因為《德訓篇》第一章l節說，永恆的智慧是在永常之前就有的。所以，永常不是完整而同時的，而是有先後的。而時間也是如此。",
+      "after": "此外，「時間」的本質是有先後的，而「永恆」的本質卻是完整而同時的，如前面第一節已經說過的。可是，永常不是永恆，因為《德訓篇》第一章1節說，永恆的智慧是在永常之前就有的。所以，永常不是完整而同時的，而是有先後的。而時間也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "引文数字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "第一章l節",
+          "after": "第一章1節",
+          "occurrences": 1,
+          "type": "引文数字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        333,
+        334
+      ],
+      "before": "此外，假如在永常中沒有先後的話，那麼在永常的東西裡，(現在)存在、過去曾先存在和後來將要存在，彼此就沒有分別了。對永常的東西來說，既然「未曾先存在」已屬不可能(按:因他們實際曾先存在，這是不可改變的事實)，所以他們也不可能「後來將不存在」。可是，這是不對的，因為天主能夠使他們歸於虛無而不復存在(所以，永常有先後，如同時間一樣)。",
+      "after": "此外，假如在永常中沒有先後的話，那麼在永常的東西裡，(現在)存在、過去曾先存在和後來將要存在，彼此就沒有分別了。對永常的東西來說，既然「未曾先存在」已屬不可能(按：因他們實際曾先存在，這是不可改變的事實)，所以他們也不可能「後來將不存在」。可是，這是不對的，因為天主能夠使他們歸於虛無而不復存在(所以，永常有先後，如同時間一樣)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        334
+      ],
+      "before": "此外，由往後或未來方面看，永常的東西的延續既是無限的，如果永常是完整而同時的，那麼就有受造物是現實或實際無限的了;而這卻是不可能的。所以，永常與時間是沒有分別的t",
+      "after": "此外，由往後或未來方面看，永常的東西的延續既是無限的，如果永常是完整而同時的，那麼就有受造物是現實或實際無限的了；而這卻是不可能的。所以，永常與時間是沒有分別的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "分別的t",
+          "after": "分別的。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        334
+      ],
+      "before": "波其武卻說: 「你(天主)命令時間由永常出發前進。」(《哲學的慰藉》卷三第九章)",
+      "after": "波其武卻說：「你(天主)命令時間由永常出發前進。」(《哲學的慰藉》卷三第九章)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        334,
+        335
+      ],
+      "before": "我解答如下:永常與時間和永恆都有分別，而有如是兩者之間的居中者。有些人把三者之間的區別定為:永恆既無始，亦無終;永常有始，而無終;而時間既有始，亦有終。可是，上面第四節已經說過了，這種區別是偶然的，因為即使像某些人所主張的，永常的東西過去曾經常存在，將來也常存在;或者是有時候他們將不復存在，這是天主(針對他們)可以做到的;永常仍然與永恆和時間有分別。\n另有一些人以為此三者之間的區別是:永恆沒有先和後;而時間卻有先和後，並伴有變新和變舊;永常有先後，卻沒有變新和變舊。但這種主張隱含有矛盾。如果所謂變新和變舊是針對度量本身而說的，矛盾是很明顯的。因為，既然延續中的先後不可能同時存在，所以如果永常有先後，那麼當然應該是永常的先前部分退去，後來的或新進的部分纔出現;如此則在永常內有變新或更新，就像在時間內一樣。如果是針對被度量的東西而說的，仍然有不對的地方。因為存在於時間內的東西之所以隨時間而變舊，是因為他有可轉變的存在;而由於被度量之東西的這一可轉變性，在度量中就有了先後，如《物理學》卷四第十二章所說的。所以，如果永常的東西本身不會變舊或變新，這是因為他的存在是不可轉變的。所以，他的度量將沒有先後。\n所以，應該說:由於永恆是恆常固定存在的度量，所以根據一物之距離或不及存在的恆常固定不變，來衡量他的距離或不及永恆。有些東西之不及存在的恆常固定不變是這樣的，即他們的存在隸屬於轉變，或者本身就在於轉變;這樣的東西都是由時間來度量的，例如:一切的變動或運動，以及所有可腐朽的東西的存在。有些東西不及存在的恆常固定不變的程度較少，因為他們的存在既不是在於轉變，亦不隸屬於轉變;但他們有附屬的轉變，或者是現實有的，或者是可能有的。就如天體，他們的實體或本體的存在是不可轉變的，可是他們之具有不可轉變的存在，卻也附帶有地方或空間方面的可轉變性。天使明顯地也有同樣的情形，他們在本性或性體方面有不可轉變的存在，但也附帶有選擇方面的可轉變性;此外，也附帶有悟解、情感，以及依照白己特殊方式的地方的可轉變性。所以，這些都是由永恆和時間兩者之間的永常來度量的。至於永恆所度量的存在，既不是可轉變的，亦不與可轉變性有任何牽連。\n所以，時間有先後，永常在自己內沒有先後，可是，先後卻可能依附於永常;而永恆卻是既無先後，亦不容許先後與己有所接觸或完全排斥先後。",
+      "after": "我解答如下：永常與時間和永恆都有分別，而有如是兩者之間的居中者。有些人把三者之間的區別定為：永恆既無始，亦無終；永常有始，而無終；而時間既有始，亦有終。可是，上面第四節已經說過了，這種區別是偶然的，因為即使像某些人所主張的，永常的東西過去曾經常存在，將來也常存在；或者是有時候他們將不復存在，這是天主(針對他們)可以做到的；永常仍然與永恆和時間有分別。\n另有一些人以為此三者之間的區別是：永恆沒有先和後；而時間卻有先和後，並伴有變新和變舊；永常有先後，卻沒有變新和變舊。但這種主張隱含有矛盾。如果所謂變新和變舊是針對度量本身而說的，矛盾是很明顯的。因為，既然延續中的先後不可能同時存在，所以如果永常有先後，那麼當然應該是永常的先前部分退去，後來的或新進的部分才出現；如此則在永常內有變新或更新，就像在時間內一樣。如果是針對被度量的東西而說的，仍然有不對的地方。因為存在於時間內的東西之所以隨時間而變舊，是因為他有可轉變的存在；而由於被度量之東西的這一可轉變性，在度量中就有了先後，如《物理學》卷四第十二章所說的。所以，如果永常的東西本身不會變舊或變新，這是因為他的存在是不可轉變的。所以，他的度量將沒有先後。\n所以，應該說：由於永恆是恆常固定存在的度量，所以根據一物之距離或不及存在的恆常固定不變，來衡量他的距離或不及永恆。有些東西之不及存在的恆常固定不變是這樣的，即他們的存在隸屬於轉變，或者本身就在於轉變；這樣的東西都是由時間來度量的，例如：一切的變動或運動，以及所有可腐朽的東西的存在。有些東西不及存在的恆常固定不變的程度較少，因為他們的存在既不是在於轉變，亦不隸屬於轉變；但他們有附屬的轉變，或者是現實有的，或者是可能有的。就如天體，他們的實體或本體的存在是不可轉變的，可是他們之具有不可轉變的存在，卻也附帶有地方或空間方面的可轉變性。天使明顯地也有同樣的情形，他們在本性或性體方面有不可轉變的存在，但也附帶有選擇方面的可轉變性；此外，也附帶有悟解、情感，以及依照自己特殊方式的地方的可轉變性。所以，這些都是由永恆和時間兩者之間的永常來度量的。至於永恆所度量的存在，既不是可轉變的，亦不與可轉變性有任何牽連。\n所以，時間有先後，永常在自己內沒有先後，可是，先後卻可能依附於永常；而永恆卻是既無先後，亦不容許先後與己有所接觸或完全排斥先後。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "白己",
+          "after": "自己",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        335,
+        336
+      ],
+      "before": "精神體的受造物，在悟解和情感方面因有相繼性，是由時間來度量的。因此，奧斯定在那裡也說，藉時問而被推動，就是藉情感而被推動。就他們本性或性體的存在而言，他們卻是由永常來度量的;而在享見榮褔方面，他們是分有永恆性。",
+      "after": "精神體的受造物，在悟解和情感方面因有相繼性，是由時間來度量的。因此，奧斯定在那裡也說，藉時間而被推動，就是藉情感而被推動。就他們本性或性體的存在而言，他們卻是由永常來度量的；而在享見榮福方面，他們是分有永恆性。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "永常是完整而同時的，但仍不是永恆，因為它能夠與先後共存。",
+      "after": "永常是完整而同時的，但仍不是永恆，因為它能夠與先後共存。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "在天使的存在本身內，針對存在本身而言，過去與未來是沒有分別的，只有從附屬的改變方面看纔有區別。至於我們說天使現在存在、過去存在和未來存在，這種分別是根據我們理智的認知方式，因為我們的理智是比擬時間的各部分來認知天使的存在。幾時說天使現在存在和過去存在，這種說法隱然肯定一點，而這一點的反面並不隸屬於天主的能力之下;可是，幾時說天使將要存在，卻沒有這樣的肯定。因此，由於天使的存在和不存在屬於天主的能力之下，所以，絕對地講來，天主可以使天使將來不存在或將來沒有天使存在，但不能使現在正在存在的天使(同時)不存在，或在天使已經存在之後，使他未曾存在(按:即天主不能改變天使現在存在和曾經存在的既成事實)。",
+      "after": "在天使的存在本身內，針對存在本身而言，過去與未來是沒有分別的，只有從附屬的改變方面看才有區別。至於我們說天使現在存在、過去存在和未來存在，這種分別是根據我們理智的認知方式，因為我們的理智是比擬時間的各部分來認知天使的存在。幾時說天使現在存在和過去存在，這種說法隱然肯定一點，而這一點的反面並不隸屬於天主的能力之下；可是，幾時說天使將要存在，卻沒有這樣的肯定。因此，由於天使的存在和不存在屬於天主的能力之下，所以，絕對地講來，天主可以使天使將來不存在或將來沒有天使存在，但不能使現在正在存在的天使(同時)不存在，或在天使已經存在之後，使他未曾存在(按：即天主不能改變天使現在存在和曾經存在的既成事實)。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "永常的持續是無限的，因為它不受時間的限定，有如此不受限於其他受造物的無限受造物，並沒有什麼不對。",
+      "after": "永常的持續是無限的，因為它不受時間的限定，有如此不受限於其他受造物的無限受造物，並沒有什麼不對。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "是否只有一個永常",
+      "after": "是否只有一個永常",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "似乎不是隻有一個永常。因為:",
+      "after": "似乎不是只有一個永常。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "在偽經《厄斯德拉》卷三第四章四十節上說:「主，眾多永常的威嚴和權力都是你的。」",
+      "after": "在偽經《厄斯德拉》卷三第四章四十節上說：「主，眾多永常的威嚴和權力都是你的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        336
+      ],
+      "before": "此外，不同的類就有不同的度量。可是，有些永常的東西是屬於形體物之類，即天體;而另有些永常的東西是精神的實體或自立體，即天使。所以，不是隻有一個永常。",
+      "after": "此外，不同的類就有不同的度量。可是，有些永常的東西是屬於形體物之類，即天體；而另有些永常的東西是精神的實體或自立體，即天使。所以，不是只有一個永常。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        337
+      ],
+      "before": "此外，由於永常是持續(存在)的名稱，所以凡是共有同一永常的，就是共有同一持續。可是，並不是所有的永常的東西都共有同一持續，因為有些東西是在另一些東西之後才開始存在的，像人的靈魂就是很明顯的例子。所以，不是隻有一個永常。",
+      "after": "此外，由於永常是持續(存在)的名稱，所以凡是共有同一永常的，就是共有同一持續。可是，並不是所有的永常的東西都共有同一持續，因為有些東西是在另一些東西之後才開始存在的，像人的靈魂就是很明顯的例子。所以，不是只有一個永常。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.arg4",
+      "article": 6,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        337
+      ],
+      "before": "此外，凡是彼此不相互依賴的東西，似乎不是共有同一持續的度量;因為一切有時間性的東西之所以只有一個時間，是因為最初用時間來度量的第一個變動或運動(按:即至高天體的運動)，直接或間接地是一切運動的原因。而永常的東西彼此卻不相互依賴。因為一個天使不是另一個天使的原因。所以，永常不只是一個。",
+      "after": "此外，凡是彼此不相互依賴的東西，似乎不是共有同一持續的度量；因為一切有時間性的東西之所以只有一個時間，是因為最初用時間來度量的第一個變動或運動(按：即至高天體的運動)，直接或間接地是一切運動的原因。而永常的東西彼此卻不相互依賴。因為一個天使不是另一個天使的原因。所以，永常不只是一個。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        337
+      ],
+      "before": "永常比時間更為單純，而且也更近似永恆。可是，時問只有一個。所以，永常遠更如此。",
+      "after": "永常比時間更為單純，而且也更近似永恆。可是，時間只有一個。所以，永常遠更如此。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        337,
+        338,
+        339
+      ],
+      "before": "我解答如下:關於這一點，有兩種意見:有些人說永常只有一個;而另一些人卻說有許多個。至於二者之間那一種意見比較接近真理，應該由時間只有一個的原因去研究，因為我們是經由形體物來認真日精神體。\n有些人說，為所有的有時間性的東西只有一個時間，因為所有的被數的東西，只有同一的數字;而依哲學家在《物理學》卷四第十一章所說，時間就是數字。但是這一理由並不充足;因為時間並不是由被數的東西中抽出來的抽象數字，而是存在於被數的東西內的;否則，時間就不是連續的了，因為十肘布之所以是連續的，不是由於數字，而是由於被數的布是連續的。存在於被數的東西內的數字，不是為一切的東西都是同一的，而是不同的東西有不同的數字。\n因此，另有些人從永恆的唯一性來奠定時間的唯一性，因為永恆是一切(存在之)持續的本源。準此，從其本源一方面看，一切的持續都是一個;可是，如果從那些自第一本源之源流而接受其持續(存在)者的不同或差別一方面看，則有許多個持續(按:似可比擬於族人的族譜)。另外還有些人以為時間之唯一性的原因來自第一質料，因為第一質料是變動或運動的第一個主體，而變動或運動是由時間來度量的。兩種解說似乎都不充實，因為那些由於本源或由於主體而是同一的，尤其是如果本源和主體是相去甚遠的，他們之是同一的，不是絕對的或全面的，而是相對的或某一方面的。\n所以，時間之唯一或是一個的真正理由，是因為第一個變動或運動是一個，因為第一個變動或運動是最單純的，其他的一切變動或運動都是依照他來度量的，正如《形上學》卷十第一章所說的。所以，時間與第一個變動或運動的關係，不僅是有如度量與被度量者的關係，而且也有如是依附體與主體的關係;時間就是如此由第一個變動或運動取得自己的唯一性。時間與其他的變動或運動的關係，貝IJ僅是有如度量與被度量者的關係。所以時間並不因被度量者之眾多而增多，因為許多分立的東西能夠用一個度量來度量。\n所以，確定了這一點之後，應該知道，關於精神的實體或自立體﹒也曾有兩種意見。有些人，如奧利振(Origenes'185-254年)在《原則論》(Peri Archon)卷一第八章所引述的，聲稱所有的精神自立體都以某種程度的平等發白天主;或者至少其中的許多是如此，如某些人所主張的。而另外一些人卻說，一切的精神自立體是按一定的等次和品級發自天主。狄奧尼修似乎就有同感，他在《上天(天使)階級論》第十章說，在精神自立體之間，甚且在同一品級的天使之間，都有為首的、中間的和最末的之分。依第一種意見，必須說有訐多永常，因為有很多為首而又平等的永常的東西存在。而依第二種意見，應該說只有一個永常;因為如《形上學》卷十第一章所說的，由於每一件東西都是用他同類中之最單純者來度量的，所以一切永常的東西之存在，應該用第一個永常的東西的存在來度量，而這第一個永常的東西，越是為首或領先，就越單純。由於第二種意見較為接近真理，如在下面第二十七題第二節和第五十題第四節將要證明的，所以現在我們暫且承認只有一個水常。",
+      "after": "我解答如下：關於這一點，有兩種意見：有些人說永常只有一個；而另一些人卻說有許多個。至於二者之間那一種意見比較接近真理，應該由時間只有一個的原因去研究，因為我們是經由形體物來認知精神體。\n有些人說，為所有的有時間性的東西只有一個時間，因為所有的被數的東西，只有同一的數字；而依哲學家在《物理學》卷四第十一章所說，時間就是數字。但是這一理由並不充足；因為時間並不是由被數的東西中抽出來的抽象數字，而是存在於被數的東西內的；否則，時間就不是連續的了，因為十肘布之所以是連續的，不是由於數字，而是由於被數的布是連續的。存在於被數的東西內的數字，不是為一切的東西都是同一的，而是不同的東西有不同的數字。\n因此，另有些人從永恆的唯一性來奠定時間的唯一性，因為永恆是一切(存在之)持續的本源。準此，從其本源一方面看，一切的持續都是一個；可是，如果從那些自第一本源之源流而接受其持續(存在)者的不同或差別一方面看，則有許多個持續(按：似可比擬於族人的族譜)。另外還有些人以為時間之唯一性的原因來自第一質料，因為第一質料是變動或運動的第一個主體，而變動或運動是由時間來度量的。兩種解說似乎都不充實，因為那些由於本源或由於主體而是同一的，尤其是如果本源和主體是相去甚遠的，他們之是同一的，不是絕對的或全面的，而是相對的或某一方面的。\n所以，時間之唯一或是一個的真正理由，是因為第一個變動或運動是一個，因為第一個變動或運動是最單純的，其他的一切變動或運動都是依照他來度量的，正如《形上學》卷十第一章所說的。所以，時間與第一個變動或運動的關係，不僅是有如度量與被度量者的關係，而且也有如是依附體與主體的關係；時間就是如此由第一個變動或運動取得自己的唯一性。時間與其他的變動或運動的關係，則僅是有如度量與被度量者的關係。所以時間並不因被度量者之眾多而增多，因為許多分立的東西能夠用一個度量來度量。\n所以，確定了這一點之後，應該知道，關於精神的實體或自立體，也曾有兩種意見。有些人，如奧利振(Origenes，185~254年)在《原則論》(Peri Archon)卷一第八章所引述的，聲稱所有的精神自立體都以某種程度的平等發自天主；或者至少其中的許多是如此，如某些人所主張的。而另外一些人卻說，一切的精神自立體是按一定的等次和品級發自天主。狄奧尼修似乎就有同感，他在《上天(天使)階級論》第十章說，在精神自立體之間，甚且在同一品級的天使之間，都有為首的、中間的和最末的之分。依第一種意見，必須說有許多永常，因為有很多為首而又平等的永常的東西存在。而依第二種意見，應該說只有一個永常；因為如《形上學》卷十第一章所說的，由於每一件東西都是用他同類中之最單純者來度量的，所以一切永常的東西之存在，應該用第一個永常的東西的存在來度量，而這第一個永常的東西，越是為首或領先，就越單純。由於第二種意見較為接近真理，如在下面第二十七題第二節和第五十題第四節將要證明的，所以現在我們暫且承認只有一個永常。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "人名年代",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "自立體﹒",
+          "after": "自立體，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Origenes'185-254",
+          "after": "Origenes，185~254",
+          "occurrences": 1,
+          "type": "人名年代／标点"
+        },
+        {
+          "before": "發白天主",
+          "after": "發自天主",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "水常",
+          "after": "永常",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        339
+      ],
+      "before": "永常有時作世紀解;世紀是一件事物持續存在的時段;如此則所謂許多永常就是許多世紀的意思。",
+      "after": "永常有時作世紀解；世紀是一件事物持續存在的時段；如此則所謂許多永常就是許多世紀的意思。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        339
+      ],
+      "before": "天體與精神自立體雖然在本性或性體方面不同類，但他們有這一個共同點，就是他們都有不可轉變的存在。所以他們都用永常來度量。",
+      "after": "天體與精神自立體雖然在本性或性體方面不同類，但他們有這一個共同點，就是他們都有不可轉變的存在。所以他們都用永常來度量。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q010.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        339
+      ],
+      "before": "雖然不是所有的有時間性的東西都是同時開始的，可是他們卻只有一個時間，這是基於那第一個為時間所度量者(第一個變動或運動)的緣故。同樣，永常的東西即使不是同時或一起開始的，但是基於其中的第一個的緣故，他們也是隻有一個永常。",
+      "after": "雖然不是所有的有時間性的東西都是同時開始的，可是他們卻只有一個時間，這是基於那第一個為時間所度量者(第一個變動或運動)的緣故。同樣，永常的東西即使不是同時或一起開始的，但是基於其中的第一個的緣故，他們也是只有一個永常。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q010.a006.ad4",
+      "article": 6,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        339
+      ],
+      "before": "為用一件東西去度量別的一些東西，並不需要這件東西是其他那些東西的原因，只需要它是較為單純的。",
+      "after": "為用一件東西去度量別的一些東西，並不需要這件東西是其他那些東西的原因，只需要它是較為單純的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
