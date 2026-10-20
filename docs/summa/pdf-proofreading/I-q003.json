@@ -1,0 +1,2248 @@
+{
+  "schema_version": 1,
+  "batch": "I-q003",
+  "date": "2026-10-20",
+  "baseline_git_commit": "e326bb00645fb2cb3bbe0683d7fa7d9185ff8897",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q003",
+    "title": "論天主的單純性",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266
+    ],
+    "printed_pages": [
+      32,
+      50
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "rows_including_headings": 90,
+    "changed_review_units": 61,
+    "checked_unchanged_review_units": 30
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q3.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q3.json": "9088dcf96ef22858da46d2bb5c162d324bb1d432f14e07ecf031d8fe0c23f176",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q003.a004.respondeo",
+      "pdf_file_page": 257,
+      "text": "這種論說顯然是荒膠的",
+      "status": "原书疑似印误",
+      "action": "放大原页确认印作「荒膠」；疑为「荒謬」，正文保留「荒膠」，供人工定夺。"
+    },
+    {
+      "id": "I.q003.a006.respondeo",
+      "pdf_file_page": 261,
+      "text": "天主是自己的存在(第三節)",
+      "status": "原书疑似印误",
+      "action": "原页确为「第三節」。本题第四节讨论本质与存在，故疑为题内节号印误；保留原书节号，不擅改。"
+    }
+  ],
+  "notes": [
+    "Printed-only division line 分為八節 is represented by the existing eight article objects; no JSON key or newline escape was added.",
+    "Original terminology and printed wording such as 本性而彼此不同、貼用、subsis-tens、prin-cipium and bicubi-ta are retained rather than modernized.",
+    "Chapter and verse numbers were compared to the printed edition; no external Bible edition was used."
+  ],
+  "readings": [
+    {
+      "id": "I.q003.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        248
+      ],
+      "before": "當一物的存在確定之後，下一個問題就是此物如何存在，以進而知道它是怎樣的物或是什麼。可是，對於天主，我們不可能知道祂是什麼，而只能知道祂不是什麼;所以，我們沒有辦法討論天主如何存在，而只能討論祂如何不存在。所以，第一，應該討論天主如何不存在;第二，祂如何被我們認識(第十二題);第三，祂如何稱謂(第十三題)。\n由天主剔除不適合天主的一切，比如組合、變動之類，就可以指出天主不是如何存在。是以，第一，應該探討天主的單純性，藉此單純性而把組合性由祂剔除。由於在有形體的東西中，凡是單純的，是不完美的，是(整體或組合體)的部分，所以其次要討論天主的完美性或完美(第四題)。第三，要討論祂的無限性(第七題)。第四、要討論祂的不變性(第九題)。第五，要討論祂的唯一性(第十一題)。\n關於第一點(天主的單純性，simplicitas)，可以提出八個問題:\n一、天主是不是形體。\n二、在祐內是否有形式與質料的組合。\n三、在祂內是否有「是什麼~」(quidditas)或本質(essentia)\n或本性(natura)與主體或基體(subjectum)的組合。\n四、在祂內是否有本質與存在的組合。\n五、在祂內是否有類與種差的組合。\n六、在祂內是否有主體或基體與依附體的組合。\n七、在天主內是否有任何一種樣式的組合，或者祂是完全單純的。\n八、天主是否與(自己以外的)其他物組合。",
+      "after": "當一物的存在確定之後，下一個問題就是此物如何存在，以進而知道它是怎樣的物或是什麼。可是，對於天主，我們不可能知道祂是什麼，而只能知道祂不是什麼；所以，我們沒有辦法討論天主如何存在，而只能討論祂如何不存在。所以，第一，應該討論天主如何不存在；第二，祂如何被我們認識(第十二題)；第三，祂如何稱謂(第十三題)。\n由天主剔除不適合天主的一切，比如組合、變動之類，就可以指出天主不是如何存在。是以，第一，應該探討天主的單純性，藉此單純性而把組合性由祂剔除。由於在有形體的東西中，凡是單純的，是不完美的，是(整體或組合體)的部分，所以其次要討論天主的完美性或完美(第四題)。第三，要討論祂的無限性(第七題)。第四，要討論祂的不變性(第九題)。第五，要討論祂的唯一性(第十一題)。\n關於第一點(天主的單純性，simplicitas)，可以提出八個問題：\n一、天主是不是形體。\n二、在祂內是否有形式與質料的組合。\n三、在祂內是否有「是什麼」(quidditas)或本質(essentia)\n或本性(natura)與主體或基體(subjectum)的組合。\n四、在祂內是否有本質與存在的組合。\n五、在祂內是否有類與種差的組合。\n六、在祂內是否有主體或基體與依附體的組合。\n七、在天主內是否有任何一種樣式的組合，或者祂是完全單純的。\n八、天主是否與(自己以外的)其他物組合。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四、",
+          "after": "第四，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "在祐內",
+          "after": "在祂內",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「是什麼~」",
+          "after": "「是什麼」",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "天主是不是形體",
+      "after": "天主是不是形體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "天主似乎是形體或形體物(c。中的)。因為:",
+      "after": "天主似乎是形體或形體物(corpus)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "c。中的",
+          "after": "corpus",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "所謂形體就是那具有(長度、寬度、高度或深度)三種幅度或向度(dimensio)者。可是，聖經卻把這三種幅度歸諸天主。因為《約伯傳》第十一章8節說: 「(天主)完美高於諸天，你能做什麼?深於地府，你能知道什麼?其量長過夫地，闊於海洋。」所以天主是形體。",
+      "after": "所謂形體就是那具有(長度、寬度、高度或深度)三種幅度或向度(dimensio)者。可是，聖經卻把這三種幅度歸諸天主。因為《約伯傳》第十一章8節說：「(天主)完美高於諸天，你能做什麼？深於地府，你能知道什麼？其量長過大地，闊於海洋。」所以天主是形體。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夫地",
+          "after": "大地",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 2,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "此外，凡是有形狀的都是形體，因為形狀是關於量的性質。而天主好像有形狀，因為《創世紀》第一章26節記載(天主說): 「讓我們照我們的肖像，按我們的模樣造人。」而形狀亦稱為肖像，照《希伯來書》第一章3節所說的: 「祂(天主子)是天主光榮的反映，是天主本體的真像」'即肖像。所以，天主是形體。",
+      "after": "此外，凡是有形狀的都是形體，因為形狀是關於量的性質。而天主好像有形狀，因為《創世紀》第一章26節記載(天主說)：「讓我們照我們的肖像，按我們的模樣造人。」而形狀亦稱為肖像，照《希伯來書》第一章3節所說的：「祂(天主子)是天主光榮的反映，是天主本體的真像」，即肖像。所以，天主是形體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "真像」'即",
+          "after": "真像」，即",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "此外，凡是具有形體部分的，都是形體。而聖經卻以為天主有形體部分。因為《約伯傅》第四十章4節說: 「你的手臂豈能同天主的相比?」《聖詠》第三十三篇16節說「上主的眼睛常關注敬畏祂的人。」第一一七篇16節也說: 「上主的右手大顯成能。」所以，天主是形體。",
+      "after": "此外，凡是具有形體部分的，都是形體。而聖經卻以為天主有形體部分。因為《約伯傳》第四十章4節說：「你的手臂豈能同天主的相比？」《聖詠》第三十三篇16節說：「上主的眼睛常關注敬畏祂的人。」第一一七篇16節也說：「上主的右手大顯威能。」所以，天主是形體。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "漏标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《約伯傅》",
+          "after": "《約伯傳》",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "16節說「",
+          "after": "16節說：「",
+          "occurrences": 1,
+          "type": "漏标点"
+        },
+        {
+          "before": "大顯成能",
+          "after": "大顯威能",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        249
+      ],
+      "before": "此外，唯有形體纔有姿態。而聖經談到天主所說的話有時包含著姿態。因為《依撒意亞》第六章1節說: 「我看吾主坐(在崇高的御座上)0 」第三章13節說: 「上主要站起來審判。」所以，天主是形體。",
+      "after": "此外，唯有形體才有姿態。而聖經談到天主所說的話有時包含著姿態。因為《依撒意亞》第六章1節說：「我看吾主坐(在崇高的御座上)。」第三章13節說：「上主要站起來審判。」所以，天主是形體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "唯有形體纔有",
+          "after": "唯有形體才有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "上)0 」",
+          "after": "上)。」",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        249,
+        250
+      ],
+      "before": "此外，只有形體或有形體的東西，才能是空間行動的起點或終點。而聖經上卻說天主是空間行動的終點，如《聖詠》第三十三篇6節所說的: 「你們要到天主那程，你們就被光照。」天主也是空間行動的起點，照《耶肋米亞》第十七章的節所說的: 「凡遠離你(天主)的，必被記錄在地上。」所以，天主是形體。",
+      "after": "此外，只有形體或有形體的東西，才能是空間行動的起點或終點。而聖經上卻說天主是空間行動的終點，如《聖詠》第三十三篇6節所說的：「你們要到天主那裡，你們就被光照。」天主也是空間行動的起點，照《耶肋米亞》第十七章13節所說的：「凡遠離你(天主)的，必被記錄在地上。」所以，天主是形體。",
+      "status": "corrected",
+      "error_types": [
+        "引文章节号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那程",
+          "after": "那裡",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "第十七章的節",
+          "after": "第十七章13節",
+          "occurrences": 1,
+          "type": "引文章节号"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        250
+      ],
+      "before": "《若望褔音》第四章24節卻說:「天主是(神體)0 」",
+      "after": "《若望福音》第四章24節卻說：「天主是(神體)。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "若望褔音",
+          "after": "若望福音",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "神體)0 」",
+          "after": "神體)。」",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        250
+      ],
+      "before": "我解答如下:天主絕對不是形體。這可以由三方面證明。第一，一切形體物，除非自己也被推動，便無法推動(他物)，這可藉歸納個別事例清楚看出。可是，前面已經證明瞭，天主是不變的(不再能被推動的)第一個推動者(第二題第三節)。所以，很明顯地天主不是形體或形體物。\n第二，第一個存有或存在物(e的)，必然是處於現實中(in actu)，絕不能是處於潛能中(in potentia)。雖然，針對同一個由潛能進入現實的個別物來說，在時間上潛能先於現實;但全面或絕對地來說，現實是先於潛能的，因為任何在潛能中的物，唯有藉助已經存在於現實中的物，才能被引入現實。而天主卻是第一個存在物，第二題第三節業經證明過了。所以，在天主內有任何處於潛能中者，那是不可能的。但凡是形體都是處於潛能中的，因為凡是連續體(continuum)，就因其連續性，都可做無限制的區分。所以，天主不可能是形體。\n第三，由前面第二題第三節所說的，可以知道，天主是所有(存在)物中之最高貴的。而一個形體物卻不可能是一切物中最高貴的。因為一個形體物或是有生命的，或是無生命的。有生命的形體物，顯然比沒有生命的形體物更為高貴。可是一個有生命的形體物之所以生活或有生命，並不是因為他是形體;否則的話，所有的形體就都會生活或有生命了。所以，形體物之生活或有生命，係依賴形體本身以外的另一物，比如說，我們的身體之生活或有生命，係依賴靈魂。可是，那形體賴以生活或有生命者，要比形體物更為高貴c所以，天主不可能是形體。",
+      "after": "我解答如下：天主絕對不是形體。這可以由三方面證明。第一，一切形體物，除非自己也被推動，便無法推動(他物)，這可藉歸納個別事例清楚看出。可是，前面已經證明了，天主是不變的(不可能被推動的)第一個推動者(第二題第三節)。所以，很明顯地天主不是形體或形體物。\n第二，第一個存有或存在物(ens)，必然是處於現實中(in actu)，絕不能是處於潛能中(in potentia)。雖然，針對同一個由潛能進入現實的個別物來說，在時間上潛能先於現實；但全面或絕對地來說，現實是先於潛能的，因為任何在潛能中的物，唯有藉助已經存在於現實中的物，才能被引入現實。而天主卻是第一個存在物，第二題第三節業經證明過了。所以，在天主內有任何處於潛能中者，那是不可能的。但凡是形體都是處於潛能中的，因為凡是連續體(continuum)，就因其連續性，都可做無限制的區分。所以，天主不可能是形體。\n第三，由前面第二題第三節所說的，可以知道，天主是所有(存在)物中之最高貴的。而一個形體物卻不可能是一切物中最高貴的。因為一個形體物或是有生命的，或是無生命的。有生命的形體物，顯然比沒有生命的形體物更為高貴。可是一個有生命的形體物之所以生活或有生命，並不是因為他是形體；否則的話，所有的形體就都會生活或有生命了。所以，形體物之生活或有生命，係依賴形體本身以外的另一物，比如說，我們的身體之生活或有生命，係依賴靈魂。可是，那形體賴以生活或有生命者，要比形體物更為高貴。所以，天主不可能是形體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "證明瞭",
+          "after": "證明了",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "不再能被推動的",
+          "after": "不可能被推動的",
+          "occurrences": 1,
+          "type": "错字／漏字"
+        },
+        {
+          "before": "(e的)",
+          "after": "(ens)",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "高貴c所以",
+          "after": "高貴。所以",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        251
+      ],
+      "before": "前面第一題第九節已經說過了，聖經一向是用有形體的比喻傳授給我們有關天主和神性的事物。是以，當聖經把(長、寬、高或深)三種幅度或向度歸於天主的時候，是借形體的量來表示祂的能力的量:即「深度」表示祂知道隱密事物的能力;「高度」表示祂超越一切的卓越能力;「長度」表示祂存在的持續或久遠;「闊度」表示祂對一切的愛心。或者，如狄奧尼修在《神名論》第九章所說的，天主的「深度」係指祂本質的莫測高深，「長度」係指祂滲透萬物之能力的展延;「闊度」係指祂包容或統括萬物，即萬物皆在祂的保護之下。",
+      "after": "前面第一題第九節已經說過了，聖經一向是用有形體的比喻傳授給我們有關天主和神性的事物。是以，當聖經把(長、寬、高或深)三種幅度或向度歸於天主的時候，是借形體的量來表示祂的能力的量：即「深度」表示祂知道隱密事物的能力；「高度」表示祂超越一切的卓越能力；「長度」表示祂存在的持續或久遠；「闊度」表示祂對一切的愛心。或者，如狄奧尼修在《神名論》第九章所說的，天主的「深度」係指祂本質的莫測高深，「長度」係指祂滲透萬物之能力的展延；「闊度」係指祂包容或統括萬物，即萬物皆在祂的保護之下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        251
+      ],
+      "before": "說人是依照天主的肖像，並非根據人的形體，而係根據那人藉以超越其他動物者。所以，《創世紀》第一章26節在說完「讓我們照我們的肖像，按我們的模樣造人」之後，接著又說:「叫他管理海中的魚」等等。而人之超越一切動物，是就他有理智和理性而言。所以，人是依照天主的肖像，是根據理智和理性，而二者都不是形體物。",
+      "after": "說人是依照天主的肖像，並非根據人的形體，而係根據那人藉以超越其他動物者。所以，《創世紀》第一章26節在說完「讓我們照我們的肖像，按我們的模樣造人」之後，接著又說：「叫他管理海中的魚」等等。而人之超越一切動物，是就他有理智和理性而言。所以，人是依照天主的肖像，是根據理智和理性，而二者都不是形體物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        251
+      ],
+      "before": "聖經中指稱天主具有形體部分，是以一種比擬的說法來形容天主的行動。比如說，眼睛的行動是看，說天主有眼睛，就是表示天主有看的能力，不是用感官看，而是用理智。關於其他部分也是如此。",
+      "after": "聖經中指稱天主具有形體部分，是以一種比擬的說法來形容天主的行動。比如說，眼睛的行動是看，說天主有眼睛，就是表示天主有看的能力，不是用感官看，而是用理智。關於其他部分也是如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        251
+      ],
+      "before": "同樣，把各種姿態歸諸天主，也是一種比擬的說法。例如說天主坐，是為了天主的不變性及權威;說祂站立，是為了祂克服任何反對者的能力。",
+      "after": "同樣，把各種姿態歸諸天主，也是一種比擬的說法。例如說天主坐，是為了天主的不變性及權威；說祂站立，是為了祂克服任何反對者的能力。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        251
+      ],
+      "before": "所謂趨前接近天主，不是用身體的腳步，因為祂處處都在，而是用心靈的情感。關於遠離天主，也是如此。是以，接近或遠離只不過是用空間行動來比擬精神的情感而已。",
+      "after": "所謂趨前接近天主，不是用身體的腳步，因為祂處處都在，而是用心靈的情感。關於遠離天主，也是如此。是以，接近或遠離只不過是用空間行動來比擬精神的情感而已。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "在天主內是否有形式與質料的組合",
+      "after": "在天主內是否有形式與質料的組合",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "在天主內似乎有形式(forma)與質料(materia)的組合。因為:",
+      "after": "在天主內似乎有形式(forma)與質料(materia)的組合。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "凡是有靈魂的，都是由形式和質料組合而成的，因為靈魂是身體的形式。而聖經卻指天主有靈魂;因為《希伯來書》第十章38節以天主的名義說: 「我的義人靠信德而生活，假使他退縮，他必不會中悅我的靈魂。」所以，天主是由質料和形、式組合而成的。",
+      "after": "凡是有靈魂的，都是由形式和質料組合而成的，因為靈魂是身體的形式。而聖經卻指天主有靈魂；因為《希伯來書》第十章38節以天主的名義說：「我的義人靠信德而生活，假使他退縮，他必不會中悅我的靈魂。」所以，天主是由質料和形式組合而成的。",
+      "status": "corrected",
+      "error_types": [
+        "多余标点",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "形、式",
+          "after": "形式",
+          "occurrences": 1,
+          "type": "多余标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "此外，忿怒、喜樂等係組合物的情，如《靈魂論》卷一第一章所說的。而聖經上卻說天主具有這樣的情;因為《聖詠》第一0五篇40節說: 「上主向百姓大發憤怒。」所以，天主是由質料和形式組合而成的。",
+      "after": "此外，忿怒、喜樂等係組合物的情，如《靈魂論》卷一第一章所說的。而聖經上卻說天主具有這樣的情；因為《聖詠》第一○五篇40節說：「上主向百姓大發憤怒。」所以，天主是由質料和形式組合而成的。",
+      "status": "corrected",
+      "error_types": [
+        "数字字形",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "第一0五篇",
+          "after": "第一○五篇",
+          "occurrences": 1,
+          "type": "数字字形"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "此外，質料是個體化的本源。而天主似乎是一個個體，因為「天主」並不指稱許多個體(只有一個)。所以，天主是由質料和形式組合而成的。",
+      "after": "此外，質料是個體化的本源。而天主似乎是一個個體，因為「天主」並不指稱許多個體(只有一個)。所以，天主是由質料和形式組合而成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        252
+      ],
+      "before": "凡是由質料和形式組合而成的，都是形體;因為有幅度的或伸展性的量是質料的第一個屬性。而天主卻不是形體，第一節業經證明過了。所以，天主不是由質料和形式組合而成的。",
+      "after": "凡是由質料和形式組合而成的，都是形體；因為有幅度的或伸展性的量是質料的第一個屬性。而天主卻不是形體，第一節業經證明過了。所以，天主不是由質料和形式組合而成的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        252,
+        253
+      ],
+      "before": "我解答如下:在天主內有質料是不可能的。第一，因為質料是處於潛能中者。而天主卻是純粹的或全面的現實，沒有任何潛能，第一節已經證明過了。是以，天主不可能是由質料和形式組合而成的。\n第二，因為凡是由質料和形式組合而成的物，其完美和善皆來自形式;是以，這個組合物之為善，必然是分有的善，這是由於其質料分有形式。而第一個善及至善者，即天主，並不是分有的善，因為基於本質的善先於分有的善。所以，天主不可能是由質料和形式組合而成的。\n第三，因為每一個主動者或動作者(agens)都是藉其形式而動作。基此，一動作與其動作者或主動者的關係，就如它與其形式的關係(按:此指動作者與形式彼此相似)。所以，那為第一個或最先的動作者的，而且是本然地(p訂閱，因其本質)而為動作者的，應該也是首先f日本然地為形式。可是，天主卻是第一個動作者，因為祂是第一個成因，第二題第三節己證明過了。所以，天主因自己的本質而為形式;並不是由質料和形式組合而成的。",
+      "after": "我解答如下：在天主內有質料是不可能的。第一，因為質料是處於潛能中者。而天主卻是純粹的或全面的現實，沒有任何潛能，第一節已經證明過了。是以，天主不可能是由質料和形式組合而成的。\n第二，因為凡是由質料和形式組合而成的物，其完美和善皆來自形式；是以，這個組合物之為善，必然是分有的善，這是由於其質料分有形式。而第一個善及至善者，即天主，並不是分有的善，因為基於本質的善先於分有的善。所以，天主不可能是由質料和形式組合而成的。\n第三，因為每一個主動者或動作者(agens)都是藉其形式而動作。基此，一動作與其動作者或主動者的關係，就如它與其形式的關係(按：此指動作者與形式彼此相似)。所以，那為第一個或最先的動作者的，而且是本然地(per se，因其本質)而為動作者的，應該也是首先和本然地為形式。可是，天主卻是第一個動作者，因為祂是第一個成因，第二題第三節已證明過了。所以，天主因自己的本質而為形式；並不是由質料和形式組合而成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "p訂閱",
+          "after": "per se",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "首先f日本然地",
+          "after": "首先和本然地",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "第三節己證明",
+          "after": "第三節已證明",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        253
+      ],
+      "before": "說天主其有靈魂是基於行動方面的比擬。因為我們願意什麼，是屬於靈魂的動作。是以，中悅天主意志的事，就說是中悅祂的靈魂。",
+      "after": "說天主具有靈魂是基於行動方面的比擬。因為我們願意什麼，是屬於靈魂的動作。是以，中悅天主意志的事，就說是中悅祂的靈魂。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主其有",
+          "after": "天主具有",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        253
+      ],
+      "before": "把忿怒等歸於天主，是基於效果方面的比擬。因為，由於懲罰是一個忿怒者的行動，所以，把天主的懲罰以比喻的說法稱作忿怒。",
+      "after": "把忿怒等歸於天主，是基於效果方面的比擬。因為，由於懲罰是一個忿怒者的行動，所以，把天主的懲罰以比喻的說法稱作忿怒。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        253
+      ],
+      "before": "那些可以由質料所接受的形式，是因質料而個體化，而質料既是基本的支撐主體(subjectum substans)或基體，就不可能再存在於另一個質料或基體內。但是形式，就其本身而論，除非另有他物阻止，可以由多數質料所接受。可是，那個不能白質料所接受，而是本然或因本質自立存在(per se subsis-tens)的形式，就因為它不可能被接受在一個主體內，而個體化;而這樣的形式正是天主。所以，不能因此(因為天主是個體)而說天主有質料。",
+      "after": "那些可以由質料所接受的形式，是因質料而個體化，而質料既是基本的支撐主體(subjectum substans)或基體，就不可能再存在於另一個質料或基體內。但是形式，就其本身而論，除非另有他物阻止，可以由多數質料所接受。可是，那個不能由質料所接受，而是本然或因本質自立存在(per se subsis-tens)的形式，就因為它不可能被接受在一個主體內，而個體化；而這樣的形式正是天主。所以，不能因此(因為天主是個體)而說天主有質料。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不能白質料",
+          "after": "不能由質料",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "天主與祂的本質或本性是不是同一的",
+      "after": "天主與祂的本質或本性是不是同一的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "天主與祂的本質(essentia)或本性(natura)似乎並不是同一的或相同的。因為:",
+      "after": "天主與祂的本質(essentia)或本性(natura)似乎並不是同一的或相同的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "沒有什麼物是在自己內。可是，卻說天主的本質或本性，即天主性，是在天主內。所以，天主與祂的本質或本性似乎不是同一物或同一的。",
+      "after": "沒有什麼物是在自己內。可是，卻說天主的本質或本性，即天主性，是在天主內。所以，天主與祂的本質或本性似乎不是同一物或同一的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "此外，效果摹仿或仿效自己的原因;因為每一個主動者或動作者都做成與自己相似者。而在受造物中，個別的主體或基體(suppositum，又譯:獨立個體)與自己的本性並不相等或相同，因為，一個人與自己的本性(人性)並不相等或相同。所以，天主與自己的天主性也不相等或相同。",
+      "after": "此外，效果摹仿或仿效自己的原因；因為每一個主動者或動作者都做成與自己相似者。而在受造物中，個別的主體或基體(suppositum，又譯：獨立個體)與自己的本性並不相等或相同，因為，一個人與自己的本性(人性)並不相等或相同。所以，天主與自己的天主性也不相等或相同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        254
+      ],
+      "before": "聖經卻說，天主就是生命，而不僅是有生命者或生活者，如《若望福音》第十四章6節清楚所指明的: 「我是道路、真理、生命」。而天主性與天主的關係，就如生命與有生命者或生活者的關係。所以天主就是自己的天主性。",
+      "after": "聖經卻說，天主就是生命，而不僅是有生命者或生活者，如《若望福音》第十四章6節清楚所指明的：「我是道路、真理、生命」。而天主性與天主的關係，就如生命與有生命者或生活者的關係。所以天主就是自己的天主性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        254,
+        255
+      ],
+      "before": "我解答如下:天主與祂的本質或本性是同一的。為暸解這一點，應該知道，在由質料和形式所組合而成的物中，本質或本性必然與(其個別自立的)主體或基體(獨立個體)不同。因為本質或本性所包括的，只是屬於「物種或別類(species)」之定義的一切;比如，人性(人之本性)包括那些屬於人之定義的因素;因為，是基於這些因素人才是人;人性所指的就是人之所以為人者。可是，個體質料，以及一切使它個體化的依附體，並不包括在物種或別類之定義內;因為這些肉、這些骨頭、黑色或白色等等，並不包括在人的定義內。是以，這些肉、這些骨頭，以及標明這個質料的依附體，都不包括在人性之內。但它們卻但括在個別的人中;是以，個別的人所有的，有些是人性所沒有的。為此，(個別的)人與人性並不完全同一或相等;人性所指的有如是一個人的形式部分，因為針對(使物)個體化的質料而言，那些給物下定義或界定物的基本因素(principia definientia)，則有如是(物的)形式。\n但在那些不是由形式和質料所組合而成的物中，他們的個體化不是來自個體質料，即不是來自「這個」質料，而是(來自形式本身，即)形式本身原本已是個體。所以，在他們中，形式應該是自立存在的主體或基體(supposita subsistentia)。是以在他們中，基體(個別的物)與本性並無不同。準此，既然天主不是由質料和形式所組合而成的，如第二節已證明的，那麼，祂必定就是祂自己的天主性、祂自己的生命，以及一切以這種方式歸諸天主的其他稱謂。",
+      "after": "我解答如下：天主與祂的本質或本性是同一的。為瞭解這一點，應該知道，在由質料和形式所組合而成的物中，本質或本性必然與(其個別自立的)主體或基體(獨立個體)不同。因為本質或本性所包括的，只是屬於「物種或別類(species)」之定義的一切；比如，人性(人之本性)包括那些屬於人之定義的因素；因為，是基於這些因素人才是人；人性所指的就是人之所以為人者。可是，個體質料，以及一切使它個體化的依附體，並不包括在物種或別類之定義內；因為這些肉、這些骨頭、黑色或白色等等，並不包括在人的定義內。是以，這些肉、這些骨頭，以及標明這個質料的依附體，都不包括在人性之內。但它們卻包括在個別的人中；是以，個別的人所有的，有些是人性所沒有的。為此，(個別的)人與人性並不完全同一或相等；人性所指的有如是一個人的形式部分，因為針對(使物)個體化的質料而言，那些給物下定義或界定物的基本因素(principia definientia)，則有如是(物的)形式。\n但在那些不是由形式和質料所組合而成的物中，他們的個體化不是來自個體質料，即不是來自「這個」質料，而是(來自形式本身，即)形式本身原本已是個體。所以，在他們中，形式應該是自立存在的主體或基體(supposita subsistentia)。是以在他們中，基體(個別的物)與本性並無不同。準此，既然天主不是由質料和形式所組合而成的，如第二節已證明的，那麼，祂必定就是祂自己的天主性、祂自己的生命，以及一切以這種方式歸諸天主的其他稱謂。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為暸解",
+          "after": "為瞭解",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "卻但括",
+          "after": "卻包括",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        255
+      ],
+      "before": "我們談論單純物的時候，不能不像談論組合物一樣，因為我們的認知是由組合物得來的。所以，我們談論天主時，使用具體的名詞來表示祂的自立存在(subsistentia)，因為在我們周圍只有組合物自立存在;我們也使用柚象名詞來表示天主的單純性。所以，說天主性、生命等是在天主內，這只應該表示我們的理智關於這些事物在領會或認知方面的不同，而非表示祂們本身有什麼不同。",
+      "after": "我們談論單純物的時候，不能不像談論組合物一樣，因為我們的認知是由組合物得來的。所以，我們談論天主時，使用具體的名詞來表示祂的自立存在(subsistentia)，因為在我們周圍只有組合物自立存在；我們也使用抽象名詞來表示天主的單純性。所以，說天主性、生命等是在天主內，這只應該表示我們的理智關於這些事物在領會或認知方面的不同，而非表示他們本身有什麼不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "柚象",
+          "after": "抽象",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "非表示祂們",
+          "after": "非表示他們",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        255
+      ],
+      "before": "天主的效果摹仿或仿效天主，但不是完美地，而只是各按自己的能力。那本來是單純的、唯一的，卻僅能分別在許多方面一一被表現出來，這正是摹仿或仿故本身的缺欠或不完美之處。而在天主的效果中的組合也是由此而來;基於這組合，在他們之內的基體與本性而彼此不同。",
+      "after": "天主的效果摹仿或仿效天主，但不是完美地，而只是各按自己的能力。那本來是單純的、唯一的，卻僅能分別在許多方面一一被表現出來，這正是摹仿或仿效本身的缺欠或不完美之處。而在天主的效果中的組合也是由此而來；基於這組合，在他們之內的基體與本性而彼此不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "仿故本身",
+          "after": "仿效本身",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "在天主內本質與存在是不是同一的",
+      "after": "在天主內本質與存在是不是同一的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "在天主內，本質與存在似乎不是同一的。因為:",
+      "after": "在天主內，本質與存在似乎不是同一的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "果真如此(按:即在天主內本質與存在是同一的或本質等於存在)，則對天主的「存在」沒有增添什麼(按:即沒有進一步指出存在的是什麼)。可是，沒有增添什麼或沒有什麼限定的存在，是一般的或籠統的、空洞的存在，可用以稱述一切物(按:如某某物存在)。如此貝l民主成為可用以稱述一切物的一般的或籠統的、空洞的「物」了(按:凡存在的都是物)。但這是錯誤的。因為《智慧篇》第十四章21節說:「他們將那『不可通傳的(天主的)名字~，加給了木石。」所以，天主的存在並非就是祂的本質。",
+      "after": "果真如此(按：即在天主內本質與存在是同一的或本質等於存在)，則對天主的「存在」沒有增添什麼(按：即沒有進一步指出存在的是什麼)。可是，沒有增添什麼或沒有什麼限定的存在，是一般的或籠統的、空洞的存在，可用以稱述一切物(按：如某某物存在)。如此則天主成為可用以稱述一切物的一般的或籠統的、空洞的「物」了(按：凡存在的都是物)。但這是錯誤的。因為《智慧篇》第十四章21節說：「他們將那『不可通傳的(天主的)名字』，加給了木石。」所以，天主的存在並非就是祂的本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "漏字"
+      ],
+      "changes": [
+        {
+          "before": "如此貝l民主",
+          "after": "如此則天主",
+          "occurrences": 1,
+          "type": "乱码／漏字"
+        },
+        {
+          "before": "名字~，",
+          "after": "名字』，",
+          "occurrences": 1,
+          "type": "引号"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "此外，前面第二題第二節己說過了，我們能夠知道天主是否存在，但我們卻不能知道天主「是什麼」。所以，天主的存在與天主的「是什麼」'即祂的本質或本性，不是同一的。",
+      "after": "此外，前面第二題第二節已說過了，我們能夠知道天主是否存在，但我們卻不能知道天主「是什麼」。所以，天主的存在與天主的「是什麼」，即祂的本質或本性，不是同一的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二節己說",
+          "after": "第二節已說",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「是什麼」'即",
+          "after": "「是什麼」，即",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        256
+      ],
+      "before": "希拉利(Hilarius de Poitier, 315-367年)在《論天主聖三》卷七第十一章卻說: 「在天主內，存在不是依附體，而是自立的真理(subsistens veritas)」。所以，那在天主內自立的，就是袖的存在。",
+      "after": "希拉利(Hilarius de Poitier, 315~367年)在《論天主聖三》卷七第十一章卻說：「在天主內，存在不是依附體，而是自立的真理(subsistens veritas)」。所以，那在天主內自立的，就是祂的存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "315-367年",
+          "after": "315~367年",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "袖的存在",
+          "after": "祂的存在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        256,
+        257
+      ],
+      "before": "我解答如下:天主不僅是祂自己的本質，如第三節已經證明過的，而且也是祂自己的存在。這可以由多方面來證明。第一，一物在自己內所有的不同於自己的本質的一切，都應該是有原因的或被形成的(causatum)，或者是由本質的原素或因素所形成，有如是隨物之種類或別類而來的固有依附體，就像「能笑」或笑的能力是隨人(或人性)而來，為人之種類或別類的本質因素所形成;或者是由外在的原因所形成，例如水的熱是由火所形成。所以，如果一物的存在與他的本質有別，那麼，他的存在或者是由外在的原因所形成，或者是由那物本身的本質因素所形成。而一物的存在不可能完全由其本身之本質因素所形成;因為，如果物的存在是被形成的，那!要無一物足以是自己存在的原因。所以，其存在不同於其本質的物，他的存在必然是由另一原因所形成。可是，關於天主卻不能這樣說，因為我們說天主是第一個或為首的成因c所以，在天主內，祂的存在不可能與祂的本質有別。\n第二，存在就是一切形式或(物之)本性的實現;因為善性或人性如不存在，就不是在現實中之物或實有之物。是以，存在與不同於自己的本質的關係，就如現實與潛能的關係。所以，在天主內，如前面第一節所示﹒既沒有任何潛能，那麼，在祂內本質與存在就沒有區別。為此，祂的本質就是祂的存在。\n第三，就如一物有火而本身卻不是火，他之被火焚燒是分有火或承受火;同樣，一物有存在而本身卻不是存在，他是分有或承受存在的物。但如第三節所述，天主是祂自己的本質。是以，如果祂不是祂自己的存在，祂便是分有或承受存在之物，而不是因本質而存在之物。如此則祂就不是第一個存在之物了;這種論說顯然是荒膠的。所以，天主不僅是祂自己的本質，而且也是祂自己的存在。",
+      "after": "我解答如下：天主不僅是祂自己的本質，如第三節已經證明過的，而且也是祂自己的存在。這可以由多方面來證明。第一，一物在自己內所有的不同於自己的本質的一切，都應該是有原因的或被形成的(causatum)，或者是由本質的原素或因素所形成，有如是隨物之種類或別類而來的固有依附體，就像「能笑」或笑的能力是隨人(或人性)而來，為人之種類或別類的本質因素所形成；或者是由外在的原因所形成，例如水的熱是由火所形成。所以，如果一物的存在與他的本質有別，那麼，他的存在或者是由外在的原因所形成，或者是由那物本身的本質因素所形成。而一物的存在不可能完全由其本身之本質因素所形成；因為，如果物的存在是被形成的，那麼無一物足以是自己存在的原因。所以，其存在不同於其本質的物，他的存在必然是由另一原因所形成。可是，關於天主卻不能這樣說，因為我們說天主是第一個或為首的成因。所以，在天主內，祂的存在不可能與祂的本質有別。\n第二，存在就是一切形式或(物之)本性的實現；因為善性或人性如不存在，就不是在現實中之物或實有之物。是以，存在與不同於自己的本質的關係，就如現實與潛能的關係。所以，在天主內，如前面第一節所示，既沒有任何潛能，那麼，在祂內本質與存在就沒有區別。為此，祂的本質就是祂的存在。\n第三，就如一物有火而本身卻不是火，他之被火焚燒是分有火或承受火；同樣，一物有存在而本身卻不是存在，他是分有或承受存在的物。但如第三節所述，天主是祂自己的本質。是以，如果祂不是祂自己的存在，祂便是分有或承受存在之物，而不是因本質而存在之物。如此則祂就不是第一個存在之物了；這種論說顯然是荒膠的。所以，天主不僅是祂自己的本質，而且也是祂自己的存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "那!要無",
+          "after": "那麼無",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "成因c所以",
+          "after": "成因。所以",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "所示﹒既",
+          "after": "所示，既",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        257,
+        258
+      ],
+      "before": "所謂「不為自己增添什麼之物」'可以有兩種解釋。一種是，一物的理或本質(ratio)積極排斥增添，比如「無理性的動物」'依其理或本質，是不具理性的(所以排斥增添理性)。另一種是，一物只消極地不為自己增添什麼(但並不積極排斥);例如一般的「動物」沒有理性，因為「具有理性」並不屬於一般動物之理或本質，但「不具或缺少理性」也不屬於牠的理或本質(因此牠可以增添理性而成為有理性的動物)。所以，天主的存在是第一種「沒有增添什麼的存在」(無限美善的天主之理或本質排斥任何增添);一般的存在則是第二種「沒有增添什麼的存在」(它可以藉增添進而成為這樣的或那樣的存在或物)。",
+      "after": "所謂「不為自己增添什麼之物」，可以有兩種解釋。一種是，一物的理或本質(ratio)積極排斥增添，比如「無理性的動物」，依其理或本質，是不具理性的(所以排斥增添理性)。另一種是，一物只消極地不為自己增添什麼(但並不積極排斥)；例如一般的「動物」沒有理性，因為「具有理性」並不屬於一般動物之理或本質，但「不具或缺少理性」也不屬於牠的理或本質(因此牠可以增添理性而成為有理性的動物)。所以，天主的存在是第一種「沒有增添什麼的存在」(無限美善的天主之理或本質排斥任何增添)；一般的存在則是第二種「沒有增添什麼的存在」(它可以藉增添進而成為這樣的或那樣的存在或物)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「不為自己增添什麼之物」'",
+          "after": "「不為自己增添什麼之物」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "「無理性的動物」'",
+          "after": "「無理性的動物」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "拉丁文的esse一字(按:此字的基本意義是「有」'它一方面指實際有或存在，一方面指所有的是什麼，兼有「存在」和「是」二種意義)，有兩種說法:一種是指有或存在的現實(actum essendi)，另一種是指命題的連結詞一一是，人在思想上用它把(命題的)述詞或謂詞與主詞連結在一起。按照第一種說法，我們不能知道天主的esse(天主的有或存在本身)，就如我們也不能知道祂的本質;只能是按照第二種說法。因為當我們說[\"\"Deus estJ(有天主或天主是存在的)的時候，我們知道自己所形成的這個命題是真的。而且我們是從天主的效果知道這一點，如第二題第二節已說過的。",
+      "after": "拉丁文的esse一字(按：此字的基本意義是「有」，它一方面指實際有或存在，一方面指所有的是什麼，兼有「存在」和「是」二種意義)，有兩種說法：一種是指有或存在的現實(actum essendi)，另一種是指命題的連結詞——是，人在思想上用它把(命題的)述詞或謂詞與主詞連結在一起。按照第一種說法，我們不能知道天主的esse(天主的有或存在本身)，就如我們也不能知道祂的本質；只能是按照第二種說法。因為當我們說「Deus est」(有天主或天主是存在的)的時候，我們知道自己所形成的這個命題是真的。而且我們是從天主的效果知道這一點，如第二題第二節已說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "「有」'它",
+          "after": "「有」，它",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "連結詞一一是",
+          "after": "連結詞——是",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "[\"\"Deus estJ",
+          "after": "「Deus est」",
+          "occurrences": 1,
+          "type": "引号／乱码"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "天主是否被包括在某一類或共類內",
+      "after": "天主是否被包括在某一類或共類內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "天主似乎是被包括在某一類或共類(genus)內。因為:",
+      "after": "天主似乎是被包括在某一類或共類(genus)內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "自立體(subst組tia)就是一個藉自己而自立存在的物。可是，這尤其是適用於天主。所以，天主是屬於自立體這一類。",
+      "after": "自立體(substantia)就是一個藉自己而自立存在的物。可是，這尤其是適用於天主。所以，天主是屬於自立體這一類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码"
+      ],
+      "changes": [
+        {
+          "before": "subst組tia",
+          "after": "substantia",
+          "occurrences": 1,
+          "type": "乱码"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        258
+      ],
+      "before": "此外，任何東西都是用它本類的東西來衡量，比如長度用長度、數目用數目來衡量。而天主，如註釋家(亞威洛哀，Averroes'1120'\"\"\"'-'1198年)在《形上學註疏》(Metaphysics)卷十註七所指明的，是一切自立體的衡量標準。所以，天主是屬於自立體一類的。",
+      "after": "此外，任何東西都是用它本類的東西來衡量，比如長度用長度、數目用數目來衡量。而天主，如註釋家(亞威洛哀，Averroes，1120~1198年)在《形上學註疏》(Metaphysics)卷十註七所指明的，是一切自立體的衡量標準。所以，天主是屬於自立體一類的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Averroes'1120'\"\"\"'-'1198年",
+          "after": "Averroes，1120~1198年",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        258,
+        259
+      ],
+      "before": "照我們的理解，「類」先於那被包括在該類之內者。可是沒有什麼先於天主，無論是就物本身而言，或者照我們的理解。所以，天主不屬於任何類。",
+      "after": "照我們的理解，「類」先於那被包括在該類之內者。可是沒有什麼先於天主，無論是就物本身而言，或者照我們的理解。所以，天主不屬於任何類。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        259,
+        260
+      ],
+      "before": "我解答如下:一物之屬於某一類，有兩種方式。一種是絕對地、狹義地或本義地;如種(species'別類)之包括在類(genus'共類)內。男一種是以回溯或歸原(reductio)的方式，有如是類的原素和缺陷:像「累的和「單一」歸原於「量」這一類，有如是量的原素;而盲目和一切缺陷買IJ歸原於相關的習性或習能之類。無論是以那一種方式，天主都不屬於任何類。\n天主不可能是屬於某一類的種，這可由三方面來證明。第一，種是由類和種差(類藉以進而成為種的差別)而構成的。而那「構成種的差別」或「種差」之所從出者，與那「類」之所從出者，二者之間的關係'相當於現實與潛能的關係。因為動物是藉具體化而來自有知覺的本性或本質，那其備有知覺的本性或本質者，就叫作動物。另一方面，「有理性的」是來自有理智的本性或本質。因為所謂「有理性的」'就是那具備有理智的本性或本質者。而有理智者與有知覺者之關係，就像現實與潛能之關係一樣。其他物方面顯然亦如此。所以，既然在天主內現實不慘雜任何潛能，天主不可能屬於任何類，有如是(被包括在它內的)種。\n第二，天主的存在就是祂的本質，這在前面第四節已經證明過了。既然如此，如果天主屬於某一類，祂所屬的這「類」應該是「有」或「物」(ens)，因為類表示物的本質，說出它是什麼。可是，哲學家在《形上學》卷三第三章已證明瞭，「有」或「物」不能成為一物之類。因為每一個類都有在其本質以外的種差，而不可能有什麼不是「有」或「物」的種差存在，因為「無有」或「不是物」(non ens)不可能成為種差。因此，唯一的結論是:天主不屬於任何類。\n第三，凡是共同屬於某一類的，都共同享有該類的本質，因為說出了關於他們的「是什麼」這一點。但在存在方面卻又各不相同，因為人的存在與馬的存在不同，這人的存在與那人的存在也不同。是以，凡共同屬於某一類者，在他們內，存在與「是什麼」或本質必然不同。在天主內，存在與本質卻並非不同，如第四節已證明過的。所以，很明顯地，天主並不被包括在類內，有如是屬於該類的種。\n由此，也很明顯地看出，天主沒有類，也沒有種差;沒有關於祂的定義，而且除了藉助效果之外，也沒有關於祂的證明;因為定義是由類與種差而來，而證明的中詞或媒詞是定義。\n至於天主不以歸原的方式屬於某一類，有如該類的原素，亦甚明顯，因為以歸原方式而為某一類的原素或根源，不會超出那個類之外，例如，「點」只是連績的量的原素或根源，「單一」是不連續的量的原素或根源。而天主，如之後第四十四題第一節所示，卻是所有「有」或「物」的根源。所以，天主不是被包括在某一類內，有如是該類的原素或(內在)根源。",
+      "after": "我解答如下：一物之屬於某一類，有兩種方式。一種是絕對地、狹義地或本義地；如種(species，別類)之包括在類(genus，共類)內。另一種是以回溯或歸原(reductio)的方式，有如是類的原素和缺陷：像「點」和「單一」歸原於「量」這一類，有如是量的原素；而盲目和一切缺陷則歸原於相關的習性或習能之類。無論是以那一種方式，天主都不屬於任何類。\n天主不可能是屬於某一類的種，這可由三方面來證明。第一，種是由類和種差(類藉以進而成為種的差別)而構成的。而那「構成種的差別」或「種差」之所從出者，與那「類」之所從出者，二者之間的關係，相當於現實與潛能的關係。因為動物是藉具體化而來自有知覺的本性或本質，那具備有知覺的本性或本質者，就叫作動物。另一方面，「有理性的」是來自有理智的本性或本質。因為所謂「有理性的」，就是那具備有理智的本性或本質者。而有理智者與有知覺者之關係，就像現實與潛能之關係一樣。其他物方面顯然亦如此。所以，既然在天主內現實不摻雜任何潛能，天主不可能屬於任何類，有如是(被包括在它內的)種。\n第二，天主的存在就是祂的本質，這在前面第四節已經證明過了。既然如此，如果天主屬於某一類，祂所屬的這「類」應該是「有」或「物」(ens)，因為類表示物的本質，說出它是什麼。可是，哲學家在《形上學》卷三第三章已證明了，「有」或「物」不能成為一物之類。因為每一個類都有在其本質以外的種差，而不可能有什麼不是「有」或「物」的種差存在，因為「無有」或「不是物」(non ens)不可能成為種差。因此，唯一的結論是：天主不屬於任何類。\n第三，凡是共同屬於某一類的，都共同享有該類的本質，因為說出了關於他們的「是什麼」這一點。但在存在方面卻又各不相同，因為人的存在與馬的存在不同，這人的存在與那人的存在也不同。是以，凡共同屬於某一類者，在他們內，存在與「是什麼」或本質必然不同。在天主內，存在與本質卻並非不同，如第四節已證明過的。所以，很明顯地，天主並不被包括在類內，有如是屬於該類的種。\n由此，也很明顯地看出，天主沒有類，也沒有種差；沒有關於祂的定義，而且除了藉助效果之外，也沒有關於祂的證明；因為定義是由類與種差而來，而證明的中詞或媒詞是定義。\n至於天主不以歸原的方式屬於某一類，有如該類的原素，亦甚明顯，因為以歸原方式而為某一類的原素或根源，不會超出那個類之外，例如，「點」只是連續的量的原素或根源，「單一」是不連續的量的原素或根源。而天主，如之後第四十四題第一節所示，卻是所有「有」或「物」的根源。所以，天主不是被包括在某一類內，有如是該類的原素或(內在)根源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "species'別類",
+          "after": "species，別類",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "genus'共類",
+          "after": "genus，共類",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「累的和",
+          "after": "「點」和",
+          "occurrences": 1,
+          "type": "错字／引号"
+        },
+        {
+          "before": "缺陷買IJ",
+          "after": "缺陷則",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "關係'相當",
+          "after": "關係，相當",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "那其備有知覺",
+          "after": "那具備有知覺",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「有理性的」'就是",
+          "after": "「有理性的」，就是",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "不慘雜",
+          "after": "不摻雜",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "已證明瞭",
+          "after": "已證明了",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "連績的量",
+          "after": "連續的量",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        260
+      ],
+      "before": "「自立體」一詞，不僅指「藉自己而存在」這一點，因為「存在」或「有」不能自成一類，如已證明過的(正解);而且還指那使他如此存在，即藉自己而存在的本質，但這存在並不即是他的本質。因此，(其存在即其本質的)天主顯然不屬於自立體這一類。",
+      "after": "「自立體」一詞，不僅指「藉自己而存在」這一點，因為「存在」或「有」不能自成一類，如已證明過的(正解)；而且還指那使他如此存在，即藉自己而存在的本質，但這存在並不即是他的本質。因此，(其存在即其本質的)天主顯然不屬於自立體這一類。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        260
+      ],
+      "before": "此一質疑係以比例適當的或相稱的標準為出發點，即標準應與被衡量者為同類或同質。可是，天主不是衡量任何東西的比例適當的或同類的標準。祂之所以被稱為衡量一切的標準，是因為每件東西係依其接近天主之程度而有其存在。",
+      "after": "此一質疑係以比例適當的或相稱的標準為出發點，即標準應與被衡量者為同類或同質。可是，天主不是衡量任何東西的比例適當的或同類的標準。祂之所以被稱為衡量一切的標準，是因為每件東西係依其接近天主之程度而有其存在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "在天主肉是否有依附體",
+      "after": "在天主內是否有依附體",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在天主肉",
+          "after": "在天主內",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "在天主內似乎有依附體(accidentia)。因為:",
+      "after": "在天主內似乎有依附體(accidentia)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "如《物理學》卷一第三章所說的，自立體不可能是任何一物的依附體。是以，在一物內是依附體的，在另一物內就不可能是自立體。比如，根據熱在別的物內是依附體，而證明熱不是火的自立體形式。可是，智慧和德能等，在我們內是依附體，卻也歸屬於天主。所以，在天主內也有依附體。",
+      "after": "如《物理學》卷一第三章所說的，自立體不可能是任何一物的依附體。是以，在一物內是依附體的，在另一物內就不可能是自立體。比如，根據熱在別的物內是依附體，而證明熱不是火的自立體形式。可是，智慧和德能等，在我們內是依附體，卻也歸屬於天主。所以，在天主內也有依附體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "此外，在每a個類內，都有一個原始或最先者(prin-cipium)。而依附體有很多類。如果這些類的原始或最先者不是在天主內，那麼就有許多在天主之外的原始或最先者;還是不合理的。",
+      "after": "此外，在每一個類內，都有一個原始或最先者(prin-cipium)。而依附體有很多類。如果這些類的原始或最先者不是在天主內，那麼就有許多在天主之外的原始或最先者；這是不合理的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "每a個",
+          "after": "每一個",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "還是不合理",
+          "after": "這是不合理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        261
+      ],
+      "before": "每一個依附體都是在主體內。而天主卻不可能是主體，因為，如波其武在《論天主聖三》(De Trinit)第二章所說的，i單純的形式不可能是主體」。所以，在天主內不可能有依附體。",
+      "after": "每一個依附體都是在主體內。而天主卻不可能是主體，因為，如波其武在《論天主聖三》(De Trinit)第二章所說的，「單純的形式不可能是主體」。所以，在天主內不可能有依附體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号"
+      ],
+      "changes": [
+        {
+          "before": "，i單純",
+          "after": "，「單純",
+          "occurrences": 1,
+          "type": "引号／乱码"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        261,
+        262
+      ],
+      "before": "我解答如下:依前面所說的，在天主內不可能有依附體，至為明顯。第一，因為主體與依附體的關係，就如潛能與現實的關係。因為主體因依附體而獲得某種程度的現實。而任何潛能狀態，都應該由天主排除，這由前面第一節所說的可以看出。\n第二，因為天主是自己的存在(第三節)。可是，如波其武在《論七天創造工程》中所說的，i存在者固然可能有其他的附加物，但存在本身卻不可能有任何附加物J'比如熱的東西可能有熱以外的其他東西，比如說白色;可是，熱本身除了熱之外，卻不可能有其他任何東西。\n第三，因為凡是本然而存在者或屬於本質者(est per se)，先於那偶然而存在者或屬於依附體者(est per accidens)。天主既然是絕對的第一個或最先的存在者(第二題第三節)，在祂內不可能有什麼屬於依附體者。即使本然的或由本質引伸出來的依附體，如笑的能力或能笑是人的本然的依附體，也不可能出現在天主內。因為這樣的必然的依附體是由主體之構成原素(p叫pia)所形成的;而在天主內，卻不可能有什麼是被形成的，因為祂是第一原因。所以，不得不結論說，在天主內絕無依附體。",
+      "after": "我解答如下：依前面所說的，在天主內不可能有依附體，至為明顯。第一，因為主體與依附體的關係，就如潛能與現實的關係。因為主體因依附體而獲得某種程度的現實。而任何潛能狀態，都應該由天主排除，這由前面第一節所說的可以看出。\n第二，因為天主是自己的存在(第三節)。可是，如波其武在《論七天創造工程》中所說的，「存在者固然可能有其他的附加物，但存在本身卻不可能有任何附加物」，比如熱的東西可能有熱以外的其他東西，比如說白色；可是，熱本身除了熱之外，卻不可能有其他任何東西。\n第三，因為凡是本然而存在者或屬於本質者(est per se)，先於那偶然而存在者或屬於依附體者(est per accidens)。天主既然是絕對的第一個或最先的存在者(第二題第三節)，在祂內不可能有什麼屬於依附體者。即使本然的或由本質引伸出來的依附體，如笑的能力或能笑是人的本然的依附體，也不可能出現在天主內。因為這樣的必然的依附體是由主體之構成原素(principia)所形成的；而在天主內，卻不可能有什麼是被形成的，因為祂是第一原因。所以，不得不結論說，在天主內絕無依附體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "，i存在者",
+          "after": "，「存在者",
+          "occurrences": 1,
+          "type": "引号／乱码"
+        },
+        {
+          "before": "附加物J'比如",
+          "after": "附加物」，比如",
+          "occurrences": 1,
+          "type": "引号／标点"
+        },
+        {
+          "before": "p叫pia",
+          "after": "principia",
+          "occurrences": 1,
+          "type": "乱码"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "德能與智慧，並非單義地(univoce)或照完全相同的方式，貼用於天主和我們，如以後第十三題第五節要講明的。所以，不能說在天主內有依附體，就像在我們內有依附體一樣。",
+      "after": "德能與智慧，並非單義地(univoce)或照完全相同的方式，貼用於天主和我們，如以後第十三題第五節要講明的。所以，不能說在天主內有依附體，就像在我們內有依附體一樣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "既然自立體先於依附體，所以依附體之原始歸原於自立體之原始，有如是較自己在先者。雖然天主並非是自立體這一類之第一個或最先者，然而針對整個存在或萬有而言，祂卻是超越一切類的第一個或最先者。",
+      "after": "既然自立體先於依附體，所以依附體之原始歸原於自立體之原始，有如是較自己在先者。雖然天主並非是自立體這一類之第一個或最先者，然而針對整個存在或萬有而言，祂卻是超越一切類的第一個或最先者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "天主是不是完全單純的",
+      "after": "天主是不是完全單純的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "天主似乎不是完全單純的。因為:",
+      "after": "天主似乎不是完全單純的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "一切來白天主的都仿效天主。因此，一切的「物」都是來自第一個「物」;一切的「善」都是來自第一個「善」。可是，在來自天主的物中，卻沒有任何物是完全單純的。所以，天主也不是完全單純的。",
+      "after": "一切來自天主的都仿效天主。因此，一切的「物」都是來自第一個「物」；一切的「善」都是來自第一個「善」。可是，在來自天主的物中，卻沒有任何物是完全單純的。所以，天主也不是完全單純的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白天主",
+          "after": "來自天主",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        262
+      ],
+      "before": "此外，凡是更好的，都應該歸於天主。在我們中間組合物比單純物好，例如混合物體比組成它的元素好，元素比它本身具有的成分好。所以不應該說天主是完全單純的。",
+      "after": "此外，凡是更好的，都應該歸於天主。在我們中間組合物比單純物好，例如混合物體比組成它的元素好，元素比它本身具有的成分好。所以不應該說天主是完全單純的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        262,
+        263
+      ],
+      "before": "奧斯定在《論天主聖三》卷六第六章卻說，天主確實是極度單純的。",
+      "after": "奧斯定在《論天主聖三》卷六第六章卻說，天主確實是極度單純的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        263,
+        264
+      ],
+      "before": "我解答如下:天主是完全單純的，這可由多方面來證明。第一，是由(本題)前面所說的。這是由於在天主內，既無量或大小部分的組合，因為祂不是形體;亦無形式與質料的組合;在祂內既無本性或本質與基體(suppositum)之區別，亦無本質與存在之區別;在祂內既無類與種差之組合，亦無主體與依附體之組合;因此，天主顯然絕對不是組合而成的，而是完全單純的。\n第二，凡是組合物必後於他的組合成分，並依賴這些成分而存在。可是，第二題第三節已經證明過了，天主是第一個(無所依賴的)存在者。\n第三，凡是組合物必有原因，因為本身各自不同的物，不會自己聚合在一起，除非藉由把他們加以組合的原因。而天主卻沒有原因，因為祂是第一個成因，如第二題第三節已經證明過的。\n第四，因為在所有組合物內都應該有潛能和現實;或者部分之一是另一部分的現實，或者至少針對整體而言，一切部分都是處於潛能狀態。而在天主內卻沒有這種情形。第五，因為凡是組合物，都有不盡同於其部分的地方。這在由不同類部分所組合的整體方面，至為明顯;因為人的任何部分都不等於人，腳的任何部分也不等於腳。在由同類部分所組合的整體裡，固然關於整體所說的，有的也適用於部分，例如部分空氣亦是空氣，部分水亦是水;但也有的適用於整體，卻不適用於部分，因為並非如果水的總量是二立方腕尺(bicubi-ta)，其部分也都是二立方腕尺。是以，在一切組合物中，都有一點什麼不是組合物本身。雖然關於具有形式的物，可以這樣說，即他總會有點什麼，不等於這物本身(比如，在一件白的物內，總會有點不屬於白色之理或本質者);但在形式本身內，卻沒有什麼不屬於形式者。因此，天主既然是形式本身，或更好說天主是有或存在本身，祂絕不可能是組合而成的。希拉利在《論天主聖三》卷七第二十七章曾觸及到這一點。他說:「天主既是德能，就不是為脆弱者所包圍;天主既是光明，就不是由黑暗者所組合。」",
+      "after": "我解答如下：天主是完全單純的，這可由多方面來證明。第一，是由(本題)前面所說的。這是由於在天主內，既無量或大小部分的組合，因為祂不是形體；亦無形式與質料的組合；在祂內既無本性或本質與基體(suppositum)之區別，亦無本質與存在之區別；在祂內既無類與種差之組合，亦無主體與依附體之組合；因此，天主顯然絕對不是組合而成的，而是完全單純的。\n第二，凡是組合物必後於他的組合成分，並依賴這些成分而存在。可是，第二題第三節已經證明過了，天主是第一個(無所依賴的)存在者。\n第三，凡是組合物必有原因，因為本身各自不同的物，不會自己聚合在一起，除非藉由把他們加以組合的原因。而天主卻沒有原因，因為祂是第一個成因，如第二題第三節已經證明過的。\n第四，因為在所有組合物內都應該有潛能和現實；或者部分之一是另一部分的現實，或者至少針對整體而言，一切部分都是處於潛能狀態。而在天主內卻沒有這種情形。第五，因為凡是組合物，都有不盡同於其部分的地方。這在由不同類部分所組合的整體方面，至為明顯；因為人的任何部分都不等於人，腳的任何部分也不等於腳。在由同類部分所組合的整體裡，固然關於整體所說的，有的也適用於部分，例如部分空氣亦是空氣，部分水亦是水；但也有的適用於整體，卻不適用於部分，因為並非如果水的總量是二立方腕尺(bicubi-ta)，其部分也都是二立方腕尺。是以，在一切組合物中，都有一點什麼不是組合物本身。雖然關於具有形式的物，可以這樣說，即他總會有點什麼，不等於這物本身(比如，在一件白的物內，總會有點不屬於白色之理或本質者)；但在形式本身內，卻沒有什麼不屬於形式者。因此，天主既然是形式本身，或更好說天主是有或存在本身，祂絕不可能是組合而成的。希拉利在《論天主聖三》卷七第二十七章曾觸及到這一點。他說：「天主既是德能，就不是為脆弱者所包圍；天主既是光明，就不是由黑暗者所組合。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "凡是由天主而來的都仿效天主，如同被形成的效果仿效第一原因。可是，被形成的效果，依其理或本質，必定是某種程度的組合物;因為至少其存在不同於其「是什麼」或本質，如下面第五十題第二節釋疑3.要講明的。",
+      "after": "凡是由天主而來的都仿效天主，如同被形成的效果仿效第一原因。可是，被形成的效果，依其理或本質，必定是某種程度的組合物；因為至少其存在不同於其「是什麼」或本質，如下面第五十題第二節釋疑3.要講明的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "在我們中間，組合物比單純物好，因為受造物之完美，不是在一個單純物內，而是在多樣物內。但是天主的完美，卻是在同一個單純物內，如以後第四題第二節釋疑1.要證明的。",
+      "after": "在我們中間，組合物比單純物好，因為受造物之完美，不是在一個單純物內，而是在多樣物內。但是天主的完美，卻是在同一個單純物內，如以後第四題第二節釋疑1.要證明的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "天主是否加入其他物的組合",
+      "after": "天主是否加入其他物的組合",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "天主似乎加入其他物的組合。因為:",
+      "after": "天主似乎加入其他物的組合。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "狄奧尼修在《上天(天使)階級論》第四章說:「萬物或萬有的有或存在，就是那超越有或存在的天主性。」可是，萬物的有或存在加入每一物的組合。所以天主加入其他物的組合。",
+      "after": "狄奧尼修在《上天(天使)階級論》第四章說：「萬物或萬有的有或存在，就是那超越有或存在的天主性。」可是，萬物的有或存在加入每一物的組合。所以天主加入其他物的組合。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        264
+      ],
+      "before": "此外，天主是形式，因為奧斯定在《論天主的話》(De verbis Domini)中說:「天主的聖言(也就是天主)，是非為他物所形成的或非受造的形式」(《證道集》第一一七篇第二章)。可是，形式是組合物的部分。所以，天主是組合物的部分。",
+      "after": "此外，天主是形式，因為奧斯定在《論天主的話》(De verbis Domini)中說：「天主的聖言(也就是天主)，是非為他物所形成的或非受造的形式」(《證道集》第一一七篇第二章)。可是，形式是組合物的部分。所以，天主是組合物的部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        264,
+        265
+      ],
+      "before": "此外，凡是存在而彼此之問又沒有不同者，就是同一物。而天主與第一質料存在，且彼此之間又毫無不同。所以，二者完全是同一物。可是，第一質料加入萬物的組合。所以，天主也是如此。中詞或小前題的證明:凡彼此之間有所不同之物，是由於其他某些不同(部分)而有不同，如此則他們應該是組合物。而天主與第一質料卻都是絕對單純的。所以，天主與第一質料毫無不同。",
+      "after": "此外，凡是存在而彼此之間又沒有不同者，就是同一物。而天主與第一質料存在，且彼此之間又毫無不同。所以，二者完全是同一物。可是，第一質料加入萬物的組合。所以，天主也是如此。中詞或小前題的證明：凡彼此之間有所不同之物，是由於其他某些不同(部分)而有不同，如此則他們應該是組合物。而天主與第一質料卻都是絕對單純的。所以，天主與第一質料毫無不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之問又",
+          "after": "之間又",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        265
+      ],
+      "before": "狄奧尼修在《神名論》第二章卻說;「既不能觸及祂(即天主)，亦不能有來自部分之混合的共融。」此外，《論原因》(De causis)第三十章說;「第一原因統制萬物，但不與它們混合。」",
+      "after": "狄奧尼修在《神名論》第二章卻說：「既不能觸及祂(即天主)，亦不能有來自部分之混合的共融。」此外，《論原因》(De causis)第三十章說：「第一原因統制萬物，但不與它們混合。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "卻說;",
+          "after": "卻說：",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "第三十章說;",
+          "after": "第三十章說：",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        265,
+        266
+      ],
+      "before": "我解答如下:關於這個問題，曾有過三種錯誤。由奧斯定在《天主之城》(De Civitate Dei)卷七第六章所說可以看出。曾有人主張天主是世界的靈魂;至於有人說天主是第一層天之靈魂，亦可納入這個主張之內。另有人說，天主是萬物的形式原素。據說這是亞馬利古派(Almariani，第十二世紀巴黎神學家Almaricus之門徒)之意見。而第三種錯誤來自狄南度的達味(David de Dinando'第十三世紀初巴黎教授)，他非常愚蠢地主張天主是第一質料。但這一切主張都含有非常明顯的錯誤;因為天主絕不可能加入任何物的組合，作為它的形式原素或質料原素。\n第一，因為前面第二題第三節我們已說過了，天主是第一成因。而成因與被形成的物之形式，以數目論不是同一個東西，只在物種或別類方面是相同的，因為人生人。至於質料與成因，以數目論不是同一個，在物種方面也不是相同的，因為前者是處於潛能中，而後者卻是處於現實中。\n第二，由於天主是第一成因，所以祂是首先並靠自己動作(agere)。可是，加入組合物者，卻不是首先並靠自己動作者，組合物纔是這樣的動作者;因為不是手動作，而是人用手動作;同樣是火用熱去發生熱化作用。所以，天主不可能是一個組合物的部分。\n第三，組合物的任何部分，都不可能是絕對地第一個或為首的物;連組合物的第一或基本部分，即質料和形式，亦不可能如此。因為質料是處於潛能中的，而絕對地來說，潛能後於現實，這一點前面第一節已經說得很清楚。作為組合物之部分的形式，是分有形式(forma participata)。正如分有者後於那因本質而有者，同樣，那被分有的東西亦是如此。例如燃燒物所具有的火，後於火本身或基於本質的火。而前面第二題第三節已經證明過了，天主是絕對的第一個或為首的物。",
+      "after": "我解答如下：關於這個問題，曾有過三種錯誤。由奧斯定在《天主之城》(De Civitate Dei)卷七第六章所說可以看出。曾有人主張天主是世界的靈魂；至於有人說天主是第一層天之靈魂，亦可納入這個主張之內。另有人說，天主是萬物的形式原素。據說這是亞馬利古派(Almariani，第十二世紀巴黎神學家Almaricus之門徒)之意見。而第三種錯誤來自狄南度的達味(David de Dinando，第十三世紀初巴黎教授)，他非常愚蠢地主張天主是第一質料。但這一切主張都含有非常明顯的錯誤；因為天主絕不可能加入任何物的組合，作為它的形式原素或質料原素。\n第一，因為前面第二題第三節我們已說過了，天主是第一成因。而成因與被形成的物之形式，以數目論不是同一個東西，只在物種或別類方面是相同的，因為人生人。至於質料與成因，以數目論不是同一個，在物種方面也不是相同的，因為前者是處於潛能中，而後者卻是處於現實中。\n第二，由於天主是第一成因，所以祂是首先並靠自己動作(agere)。可是，加入組合物者，卻不是首先並靠自己動作者，組合物才是這樣的動作者；因為不是手動作，而是人用手動作；同樣是火用熱去發生熱化作用。所以，天主不可能是一個組合物的部分。\n第三，組合物的任何部分，都不可能是絕對地第一個或為首的物；連組合物的第一或基本部分，即質料和形式，亦不可能如此。因為質料是處於潛能中的，而絕對地來說，潛能後於現實，這一點前面第一節已經說得很清楚。作為組合物之部分的形式，是分有形式(forma participata)。正如分有者後於那因本質而有者，同樣，那被分有的東西亦是如此。例如燃燒物所具有的火，後於火本身或基於本質的火。而前面第二題第三節已經證明過了，天主是絕對的第一個或為首的物。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "David de Dinando'第",
+          "after": "David de Dinando，第",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "組合物纔是",
+          "after": "組合物才是",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q003.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        266
+      ],
+      "before": "說天主性是萬物的有或存在，是說天主性是萬物的成因和模型因，並不是說天主性是萬物的本質。",
+      "after": "說天主性是萬物的有或存在，是說天主性是萬物的成因和模型因，並不是說天主性是萬物的本質。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        266
+      ],
+      "before": "聖言是模型形式(forma exemplaris)，但不是作為組合物之部分的形式。",
+      "after": "聖言是模型形式(forma exemplaris)，但不是作為組合物之部分的形式。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q003.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        266
+      ],
+      "before": "單純物間之不同(是基於自己本身，而)不是來自其他某些不同(部分)，組合物纔是這樣。因為人與馬之不悶，在於「理性」和「非理性」的不同，而這兩種不同卻不再因其他某些不同(部分)而另有不同(它們是基於自己本身而不同)。所以，如果把重點放在「不同」這一詞上，嚴格地不應該說它們(理性、非理性)彼此有所不同(differre)，而應該說它們是完全不同的物(diversa)。因為照哲學家在《形上學》卷十第三章所說的，r.完全不同的物」是絕對地(針對整個物)而說的;而一切「有所不同者」則只在某方面不同。所以，就「不同」而言，第一質料與天主，不是彼此「有所不同」'而是「本身是完全不同的物」。是以，不能說他們是同一物。",
+      "after": "單純物間之不同(是基於自己本身，而)不是來自其他某些不同(部分)，組合物才是這樣。因為人與馬之不同，在於「理性」和「非理性」的不同，而這兩種不同卻不再因其他某些不同(部分)而另有不同(它們是基於自己本身而不同)。所以，如果把重點放在「不同」這一詞上，嚴格地不應該說它們(理性、非理性)彼此有所不同(differre)，而應該說它們是完全不同的物(diversa)。因為照哲學家在《形上學》卷十第三章所說的，「完全不同的物」是絕對地(針對整個物)而說的；而一切「有所不同者」則只在某方面不同。所以，就「不同」而言，第一質料與天主，不是彼此「有所不同」，而是「本身是完全不同的物」。是以，不能說他們是同一物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "組合物纔是",
+          "after": "組合物才是",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "不悶",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "r.完全不同的物」",
+          "after": "「完全不同的物」",
+          "occurrences": 1,
+          "type": "引号／乱码"
+        },
+        {
+          "before": "「有所不同」'而",
+          "after": "「有所不同」，而",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese-clause ASCII colon/semicolon and OCR space after colon",
+          "after": "Original Chinese ：／； without OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
