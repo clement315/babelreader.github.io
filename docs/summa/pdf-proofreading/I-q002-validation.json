@@ -1,0 +1,41 @@
+{
+  "batch": "I-q002",
+  "date": "2026-10-20",
+  "checks": [
+    {
+      "name": "Every I Q2 row and prologue renders the exact corrected bilingual data",
+      "passed": true,
+      "detail": 34
+    },
+    {
+      "name": "Recovered scripture reference, ellipsis, Latin term and OCR artifacts render correctly",
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode remains functional",
+      "passed": true
+    },
+    {
+      "name": "Corrected Q2 has no horizontal overflow on a 390px phone",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope_note": "Source proofreading covers I Q1 and I Q2 only. Browser checks confirm displayed data, not source accuracy in other questions.",
+  "data_protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q2.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q2.json": "5b4c0b39395b91ebd5afaa89bc58fcdbc2aa7064a18344deaccdd615c8418dbc"
+    }
+  },
+  "existing_regression_tests": {
+    "tests": 3,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  }
+}
