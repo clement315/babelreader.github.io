@@ -1,0 +1,4308 @@
+{
+  "schema_version": 1,
+  "batch": "SUPPL-article-titles-20261022",
+  "date": "2026-10-22",
+  "author": "element",
+  "baseline_git_commit": "28a501c517d61f8747bcf1912b34e5408498440e",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "newly_reviewed_article_titles": 446,
+    "corrected_article_titles": 39,
+    "title_only_not_body_proofreading": true,
+    "available_source_titles_verified": 443,
+    "source_unavailable_titles": 3
+  },
+  "changed_reader_files": [
+    "data/summa/SUPPL/q8.json",
+    "data/summa/SUPPL/q11.json",
+    "data/summa/SUPPL/q15.json",
+    "data/summa/SUPPL/q19.json",
+    "data/summa/SUPPL/q21.json",
+    "data/summa/SUPPL/q31.json",
+    "data/summa/SUPPL/q32.json",
+    "data/summa/SUPPL/q33.json",
+    "data/summa/SUPPL/q38.json",
+    "data/summa/SUPPL/q41.json",
+    "data/summa/SUPPL/q42.json",
+    "data/summa/SUPPL/q43.json",
+    "data/summa/SUPPL/q46.json",
+    "data/summa/SUPPL/q54.json",
+    "data/summa/SUPPL/q55.json",
+    "data/summa/SUPPL/q61.json",
+    "data/summa/SUPPL/q62.json",
+    "data/summa/SUPPL/q71.json",
+    "data/summa/SUPPL/q73.json",
+    "data/summa/SUPPL/q75.json",
+    "data/summa/SUPPL/q78.json",
+    "data/summa/SUPPL/q79.json",
+    "data/summa/SUPPL/q88.json",
+    "data/summa/SUPPL/q89.json",
+    "data/summa/SUPPL/q93.json",
+    "data/summa/SUPPL/q95.json",
+    "data/summa/SUPPL/q96.json",
+    "data/summa/SUPPL/q97.json",
+    "data/summa/SUPPL/q99.json",
+    "data/summa/catalog.json"
+  ],
+  "protected_files": [
+    {
+      "path": "data/summa/SUPPL/q8.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "8c2aed3af2e0e2e335bd69c422f27d870e997cfc596ccfff0b7a8635b47419c6"
+    },
+    {
+      "path": "data/summa/SUPPL/q11.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "a6746c57dfcca0f8421fd6c50b30aa92fc0cca5d6cbcfaf6d4b2e8d3fb789826"
+    },
+    {
+      "path": "data/summa/SUPPL/q15.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "74ce13a55809368409217f52832a91039aa5da203825855b42edeb068226af1a"
+    },
+    {
+      "path": "data/summa/SUPPL/q19.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "f928eeb7e2690a65d3929f7271b151c982377b10d4c852d2a03c6d50bf4d399c"
+    },
+    {
+      "path": "data/summa/SUPPL/q21.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "5e1f0c1c9fbc6b2c39c4f2ce330c2205fd6d8ea054c346033d08922b99cdb24f"
+    },
+    {
+      "path": "data/summa/SUPPL/q31.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "653982e982a9f5925f35b5169454c7188a86ae905f46aee94311953b445194d2"
+    },
+    {
+      "path": "data/summa/SUPPL/q32.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "6abbd7ea599ee03bf8d63d0c219c0fc674aa6ceb47aedc13f20a7cdf71a26a7f"
+    },
+    {
+      "path": "data/summa/SUPPL/q33.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "b75b66ac2e0b137d93237991f1024d8293d73acbeabe612dd408aa1cf7c5f711"
+    },
+    {
+      "path": "data/summa/SUPPL/q38.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "e537d497ba266b1f7dfe07483744fd9a8c7b8ab3f405bbb7449b0f39cc75732f"
+    },
+    {
+      "path": "data/summa/SUPPL/q41.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "4d02fb0b6b78b5bd49a2b243b8309da2b0a51dd78829c2dc692646723bcc6d56"
+    },
+    {
+      "path": "data/summa/SUPPL/q42.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "cb3daa4ac31ce78996a50ce8968af6615d1646273abfcb08361a9a883c048584"
+    },
+    {
+      "path": "data/summa/SUPPL/q43.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "f302e363eaced1898918a394698bc281a74f2f2d92f66f7f1f5db07d3706ede3"
+    },
+    {
+      "path": "data/summa/SUPPL/q46.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "f4a97b5528a0e5c990d144b02e1344a0864659fbcd93f831c8304c9447bbb665"
+    },
+    {
+      "path": "data/summa/SUPPL/q54.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "564a36f78cda10abe3ee5d5fda2607b35b5aa5a8f48d9e58e5fa16582c841faa"
+    },
+    {
+      "path": "data/summa/SUPPL/q55.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "1f24af55718e293e24c80f0a9b6aa4ebe3313d595cce1a24bbf6ebdf33473a6c"
+    },
+    {
+      "path": "data/summa/SUPPL/q61.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "5fcb6e248afeeec7cfc9072f7fa1b93a5a0f7144311f2f7d9b6cffef7536268b"
+    },
+    {
+      "path": "data/summa/SUPPL/q62.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "2d2091b38af893931967dded9362df5392635ecf4807eefeaa3bb1b8ec3eb1d5"
+    },
+    {
+      "path": "data/summa/SUPPL/q71.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "d4e04559653725430a7210ecc3ebfc894cd71ac01177cce0a029bf9364c23cdb"
+    },
+    {
+      "path": "data/summa/SUPPL/q73.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "0bca1267706f901ca7b57557ddf131fb8a998273e256680526965041539b32cf"
+    },
+    {
+      "path": "data/summa/SUPPL/q75.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "c74e2a3cb82aee4d054479875245539b6701bf81beb1aa89ba08c435b0e9f694"
+    },
+    {
+      "path": "data/summa/SUPPL/q78.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "c6e75d57a43e812daa11844dbc86f97253aaa6b7e0cee4b9e5d0c3e8e352a11b"
+    },
+    {
+      "path": "data/summa/SUPPL/q79.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "52c9f6c8d94add789ec006f7ed5cd4a76e81f37671b50e73bcb4d459d96c8363"
+    },
+    {
+      "path": "data/summa/SUPPL/q88.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "e2a74e3b0b850ade4072fde6fc165708be6e0946e851b7b1789573622273bb14"
+    },
+    {
+      "path": "data/summa/SUPPL/q89.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "1b2cc1d650f8d33adb24cd31dbbaa28590a6d3fde8d02a484e888706273e1873"
+    },
+    {
+      "path": "data/summa/SUPPL/q93.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "6716a468429b7051228c7a0ae71ab1ebe674c91385422f9dfb6e66a0f259e23c"
+    },
+    {
+      "path": "data/summa/SUPPL/q95.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "e28f5baeeed00a79f8e98601e5649dd7cad7aafa1a4ebeedde9aeb8cc969a83f"
+    },
+    {
+      "path": "data/summa/SUPPL/q96.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "0c2d0efad4d9c3c4c126df67151440c43dbe8c92817df655219a05820d7b7339"
+    },
+    {
+      "path": "data/summa/SUPPL/q97.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "2df174d948bd4c44b8c598c0fd28fae1e6eec6c600c75d290abb010674741e5b"
+    },
+    {
+      "path": "data/summa/SUPPL/q99.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "73ed61cc4edcc0c29f8091841952dce8cd8592f194933305baee6449f81e3f23"
+    }
+  ],
+  "suspected_print_errors": [],
+  "readings": [
+    {
+      "id": "SUPPL.q001.a001",
+      "question": "SUPPL.q001",
+      "pdf_file_page": 7009,
+      "before": "痛悔是不是「因罪惡而自受的附帶告明及補贖之志願的痛苦」",
+      "after": "痛悔是不是「因罪惡而自受的附帶告明及補贖之志願的痛苦」",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q001.a002",
+      "question": "SUPPL.q001",
+      "pdf_file_page": 7012,
+      "before": "痛悔是不是德性的行為",
+      "after": "痛悔是不是德性的行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q001.a003",
+      "question": "SUPPL.q001",
+      "pdf_file_page": 7014,
+      "before": "下等痛悔是否能成為上等痛悔",
+      "after": "下等痛悔是否能成為上等痛悔",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a001",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7016,
+      "before": "人是否也應該痛悔罪罰，不只痛悔罪過",
+      "after": "人是否也應該痛悔罪罰，不只痛悔罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a002",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7018,
+      "before": "痛悔是否應該及於原罪",
+      "after": "痛悔是否應該及於原罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a003",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7019,
+      "before": "我們是否應該痛悔自己所犯的一切罪行或本罪",
+      "after": "我們是否應該痛悔自己所犯的一切罪行或本罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a004",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7021,
+      "before": "人是否也應該痛悔將來的罪",
+      "after": "人是否也應該痛悔將來的罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a005",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7023,
+      "before": "人是否應該痛悔他人的罪",
+      "after": "人是否應該痛悔他人的罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q002.a006",
+      "question": "SUPPL.q002",
+      "pdf_file_page": 7024,
+      "before": "是否應該分別痛悔每一死罪",
+      "after": "是否應該分別痛悔每一死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-001.png"
+    },
+    {
+      "id": "SUPPL.q003.a001",
+      "question": "SUPPL.q003",
+      "pdf_file_page": 7027,
+      "before": "痛悔是不是自然或本性界所能有的最大痛苦",
+      "after": "痛悔是不是自然或本性界所能有的最大痛苦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q003.a002",
+      "question": "SUPPL.q003",
+      "pdf_file_page": 7031,
+      "before": "痛悔的痛苦是否能逾分或過大",
+      "after": "痛悔的痛苦是否能逾分或過大",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q003.a003",
+      "question": "SUPPL.q003",
+      "pdf_file_page": 7033,
+      "before": "針對一罪的痛苦，是否能夠大於針對另一罪的痛苦",
+      "after": "針對一罪的痛苦，是否能夠大於針對另一罪的痛苦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q004.a001",
+      "question": "SUPPL.q004",
+      "pdf_file_page": 7036,
+      "before": "是否今生全部都是痛悔時期",
+      "after": "是否今生全部都是痛悔時期",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q004.a002",
+      "question": "SUPPL.q004",
+      "pdf_file_page": 7038,
+      "before": "是否宜於連續不斷地因罪而痛苦",
+      "after": "是否宜於連續不斷地因罪而痛苦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q004.a003",
+      "question": "SUPPL.q004",
+      "pdf_file_page": 7040,
+      "before": "靈魂在今生之後是否仍然痛悔罪過",
+      "after": "靈魂在今生之後是否仍然痛悔罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q005.a001",
+      "question": "SUPPL.q005",
+      "pdf_file_page": 7042,
+      "before": "赦免罪過是不是痛悔的效果",
+      "after": "赦免罪過是不是痛悔的效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q005.a002",
+      "question": "SUPPL.q005",
+      "pdf_file_page": 7044,
+      "before": "痛悔是否能完全除免罪罰",
+      "after": "痛悔是否能完全除免罪罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q005.a003",
+      "question": "SUPPL.q005",
+      "pdf_file_page": 7045,
+      "before": "小痛悔是否足以消滅大罪",
+      "after": "小痛悔是否足以消滅大罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q006.a001",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7047,
+      "before": "告明為得救是不是必要的",
+      "after": "告明為得救是不是必要的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q006.a002",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7051,
+      "before": "告明是不是源於自然法律",
+      "after": "告明是不是源於自然法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q006.a003",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7053,
+      "before": "是否所有的人都有義務告明",
+      "after": "是否所有的人都有義務告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-002.png"
+    },
+    {
+      "id": "SUPPL.q006.a004",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7055,
+      "before": "人是否可以告明自己所沒有的罪",
+      "after": "人是否可以告明自己所沒有的罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q006.a005",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7057,
+      "before": "是否有義務立即告明",
+      "after": "是否有義務立即告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q006.a006",
+      "question": "SUPPL.q006",
+      "pdf_file_page": 7060,
+      "before": "是否能寬免人不向人告明",
+      "after": "是否能寬免人不向人告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q007.a001",
+      "question": "SUPPL.q007",
+      "pdf_file_page": 7062,
+      "before": "奧斯定為告明所下的定義是否適當",
+      "after": "奧斯定為告明所下的定義是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q007.a002",
+      "question": "SUPPL.q007",
+      "pdf_file_page": 7064,
+      "before": "告明是不是德性的行為",
+      "after": "告明是不是德性的行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q007.a003",
+      "question": "SUPPL.q007",
+      "pdf_file_page": 7066,
+      "before": "告明是不是懺悔的德性行為",
+      "after": "告明是不是懺悔的德性行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q008.a001",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7070,
+      "before": "是否必須向司鐸告明",
+      "after": "是否必須向司鐸告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q008.a002",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7072,
+      "before": "是否許可在某種情況下，向司鐸以外的其他人告明",
+      "after": "是否許可在某種情況下，向司鐸以外的其他人告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-003.png"
+    },
+    {
+      "id": "SUPPL.q008.a003",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7074,
+      "before": "在非緊急情況下，不是司鐸者是否能聽人告明小罪",
+      "after": "在非緊急情況下，不是司鐸者是否能聽人告明小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q008.a004",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7075,
+      "before": "是否必須向本人所屬司鐸告明",
+      "after": "是否必須向本人所屬司鐸告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q008.a005",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7078,
+      "before": "基於特許或上司的命令，人是否能向本人所屬司鐸之外的其他司鐸告明",
+      "after": "基於特許或上司的命令，人是否能向本人所屬司鐸之外的其他司鐸告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q008.a006",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7082,
+      "before": "懺悔者在生命的最後時刻，是否能由任何司鐸獲得赦罪",
+      "after": "懺悔者在生命的最後時刻，是否能由任何司鐸獲得赦罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q008.a007",
+      "question": "SUPPL.q008",
+      "pdf_file_page": 7085,
+      "before": "是否應該根據罪過的量或大小'來評定告解之後仍需承受的暫罰",
+      "after": "是否應該根據罪過的量或大小，來評定告解之後仍需承受的暫罰",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q009.a001",
+      "question": "SUPPL.q009",
+      "pdf_file_page": 7088,
+      "before": "告明能否是未成形的",
+      "after": "告明能否是未成形的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q009.a002",
+      "question": "SUPPL.q009",
+      "pdf_file_page": 7089,
+      "before": "告明是否應該是完整的",
+      "after": "告明是否應該是完整的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q009.a003",
+      "question": "SUPPL.q009",
+      "pdf_file_page": 7092,
+      "before": "是否能藉由另一人或書面告明",
+      "after": "是否能藉由另一人或書面告明",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-004.png"
+    },
+    {
+      "id": "SUPPL.q009.a004",
+      "question": "SUPPL.q009",
+      "pdf_file_page": 7093,
+      "before": "告明是否需要滿全教師們所提出的十六條件",
+      "after": "告明是否需要滿全教師們所提出的十六條件",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q010.a001",
+      "question": "SUPPL.q010",
+      "pdf_file_page": 7096,
+      "before": "告明是否解除罪的死亡",
+      "after": "告明是否解除罪的死亡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q010.a002",
+      "question": "SUPPL.q010",
+      "pdf_file_page": 7098,
+      "before": "告明是否以某種方式或程度解除懲罰",
+      "after": "告明是否以某種方式或程度解除懲罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q010.a003",
+      "question": "SUPPL.q010",
+      "pdf_file_page": 7099,
+      "before": "告明是否開啟樂園或天堂",
+      "after": "告明是否開啟樂園或天堂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q010.a004",
+      "question": "SUPPL.q010",
+      "pdf_file_page": 7100,
+      "before": "是否應該把「賜予得救的希望」列為告明的效果",
+      "after": "是否應該把「賜予得救的希望」列為告明的效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q010.a005",
+      "question": "SUPPL.q010",
+      "pdf_file_page": 7101,
+      "before": "一般告明是否足以消滅被遺忘的死罪",
+      "after": "一般告明是否足以消滅被遺忘的死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q011.a001",
+      "question": "SUPPL.q011",
+      "pdf_file_page": 7104,
+      "before": "告解司釋是不是在任何情況下，都不應該洩露從告解的祕密中得知的罪過",
+      "after": "告解司釋是不是在任何情況下，都不應該洩露從告解的祕密中得知的罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q011.a002",
+      "question": "SUPPL.q011",
+      "pdf_file_page": 7107,
+      "before": "告解祕密的封存，是否涵蓋告明以外的消息",
+      "after": "告解祕密的封存，是否涵蓋告明以外的消息",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-005.png"
+    },
+    {
+      "id": "SUPPL.q011.a003",
+      "question": "SUPPL.q011",
+      "pdf_file_page": 7108,
+      "before": "是否唯有告解司鐸該保守告解的祕密",
+      "after": "是否唯有告解司鐸該保守告解的祕密",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q011.a004",
+      "question": "SUPPL.q011",
+      "pdf_file_page": 7109,
+      "before": "告解司鐸因告解人的同意，是否能洩漏從告解他密中得知的罪過",
+      "after": "告解司鐸因告解人的同意，是否能洩漏從告解秘密中得知的罪過",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q011.a005",
+      "question": "SUPPL.q011",
+      "pdf_file_page": 7111,
+      "before": "告解司鐸藉著告解同時，又以其它方法知道的同一罪過，是否能洩露於人",
+      "after": "告解司鐸藉著告解同時，又以其它方法知道的同一罪過，是否能洩露於人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q012.a001",
+      "question": "SUPPL.q012",
+      "pdf_file_page": 7114,
+      "before": "補贖是不是德性或德性的行為",
+      "after": "補贖是不是德性或德性的行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q012.a002",
+      "question": "SUPPL.q012",
+      "pdf_file_page": 7116,
+      "before": "補贖是否是正義的行為",
+      "after": "補贖是否是正義的行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q012.a003",
+      "question": "SUPPL.q012",
+      "pdf_file_page": 7118,
+      "before": "奧斯定《證道集》是否提出補贖的適宜定義",
+      "after": "奧斯定《證道集》是否提出補贖的適宜定義",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q013.a001",
+      "question": "SUPPL.q013",
+      "pdf_file_page": 7122,
+      "before": "人是否可能補償天主",
+      "after": "人是否可能補償天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q013.a002",
+      "question": "SUPPL.q013",
+      "pdf_file_page": 7125,
+      "before": "是否可能為他人做補贖",
+      "after": "是否可能為他人做補贖",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q014.a001",
+      "question": "SUPPL.q014",
+      "pdf_file_page": 7129,
+      "before": "人是否可能補贖這個罪而不補贖那個罪",
+      "after": "人是否可能補贖這個罪而不補贖那個罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q014.a002",
+      "question": "SUPPL.q014",
+      "pdf_file_page": 7131,
+      "before": "無愛德的人是否可能補贖先前因痛悔已赦免的罪過",
+      "after": "無愛德的人是否可能補贖先前因痛悔已赦免的罪過",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q014.a003",
+      "question": "SUPPL.q014",
+      "pdf_file_page": 7133,
+      "before": "人之後有了愛德，先前的補贖是否開始生效",
+      "after": "人之後有了愛德，先前的補贖是否開始生效",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q014.a004",
+      "question": "SUPPL.q014",
+      "pdf_file_page": 7135,
+      "before": "凡無愛德之人所行的善工，是否至少有些暫時性的功績",
+      "after": "凡無愛德之人所行的善工，是否至少有些暫時性的功績",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q014.a005",
+      "question": "SUPPL.q014",
+      "pdf_file_page": 7137,
+      "before": "上述的善工是否有益於減輕地獄的罪罰",
+      "after": "上述的善工是否有益於減輕地獄的罪罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-006.png"
+    },
+    {
+      "id": "SUPPL.q015.a001",
+      "question": "SUPPL.q015",
+      "pdf_file_page": 7139,
+      "before": "補贖是否必須是告解司鐸所罰的善工",
+      "after": "補贖是否必須是告解司鐸所罰的善工",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q015.a002",
+      "question": "SUPPL.q015",
+      "pdf_file_page": 7141,
+      "before": "我們在現世受天主的懲罰，是否可能贖罪",
+      "after": "我們在現世受天主的懲罰，是否可能贖罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q015.a003",
+      "question": "SUPPL.q015",
+      "pdf_file_page": 7142,
+      "before": "補贖善工是否適宜地列為三種:哀矜、守齋與祈禱",
+      "after": "補贖善工是否適宜地列為三種：哀矜、守齋與祈禱",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q016.a001",
+      "question": "SUPPL.q016",
+      "pdf_file_page": 7146,
+      "before": "無辜者是否可能有懺悔",
+      "after": "無辜者是否可能有懺悔",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q016.a002",
+      "question": "SUPPL.q016",
+      "pdf_file_page": 7148,
+      "before": "那些在光榮中的聖人是否有懺悔",
+      "after": "那些在光榮中的聖人是否有懺悔",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q016.a003",
+      "question": "SUPPL.q016",
+      "pdf_file_page": 7149,
+      "before": "天使或魔鬼是否可能有懺悔",
+      "after": "天使或魔鬼是否可能有懺悔",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q017.a001",
+      "question": "SUPPL.q017",
+      "pdf_file_page": 7152,
+      "before": "教會是不是應該有鑰匙",
+      "after": "教會是不是應該有鑰匙",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q017.a002",
+      "question": "SUPPL.q017",
+      "pdf_file_page": 7154,
+      "before": "鑰匙是否是束縛和釋放的權柄",
+      "after": "鑰匙是否是束縛和釋放的權柄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-007.png"
+    },
+    {
+      "id": "SUPPL.q017.a003",
+      "question": "SUPPL.q017",
+      "pdf_file_page": 7157,
+      "before": "鑰匙是否有兩把，或只是一把",
+      "after": "鑰匙是否有兩把，或只是一把",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q018.a001",
+      "question": "SUPPL.q018",
+      "pdf_file_page": 7160,
+      "before": "鑰匙的權柄是否包括罪過的赦免",
+      "after": "鑰匙的權柄是否包括罪過的赦免",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q018.a002",
+      "question": "SUPPL.q018",
+      "pdf_file_page": 7163,
+      "before": "司鐸是否能赦免罪罰",
+      "after": "司鐸是否能赦免罪罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q018.a003",
+      "question": "SUPPL.q018",
+      "pdf_file_page": 7166,
+      "before": "司鐸是否能藉著鑰匙的權柄而束縛",
+      "after": "司鐸是否能藉著鑰匙的權柄而束縛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q018.a004",
+      "question": "SUPPL.q018",
+      "pdf_file_page": 7168,
+      "before": "司鐸是否能自由地束縛和釋放",
+      "after": "司鐸是否能自由地束縛和釋放",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a001",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7170,
+      "before": "舊約的司祭是不是有鑰匙",
+      "after": "舊約的司祭是不是有鑰匙",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a002",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7172,
+      "before": "基督是否有鑰匙",
+      "after": "基督是否有鑰匙",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a003",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7173,
+      "before": "是否唯有司鋒纔有鑰匙",
+      "after": "是否唯有司鐸才有鑰匙",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a004",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7175,
+      "before": "非司鐸的聖人們是否也有論匙",
+      "after": "非司鐸的聖人們是否也有論匙",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a005",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7176,
+      "before": "惡司鐸是否能使用鑰匙",
+      "after": "惡司鐸是否能使用鑰匙",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-008.png"
+    },
+    {
+      "id": "SUPPL.q019.a006",
+      "question": "SUPPL.q019",
+      "pdf_file_page": 7178,
+      "before": "裂教的、異端教的、受絕罰的、停職的和被撤職的司鐸'是否能運用鑰匙",
+      "after": "裂教的、異端教的、受絕罰的、停職的和被撤職的司鐸，是否能運用鑰匙",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q020.a001",
+      "question": "SUPPL.q020",
+      "pdf_file_page": 7181,
+      "before": "司鐸是不是能對任何人行使鑰匙的權柄",
+      "after": "司鐸是不是能對任何人行使鑰匙的權柄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q020.a002",
+      "question": "SUPPL.q020",
+      "pdf_file_page": 7183,
+      "before": "司祭是否總是能赦免自己屬下的罪過",
+      "after": "司祭是否總是能赦免自己屬下的罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q020.a003",
+      "question": "SUPPL.q020",
+      "pdf_file_page": 7185,
+      "before": "司鐸是否能對自己的上司行使鑰匙的權柄",
+      "after": "司鐸是否能對自己的上司行使鑰匙的權柄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q021.a001",
+      "question": "SUPPL.q021",
+      "pdf_file_page": 7187,
+      "before": "將「絕罰」定義成「與教會共融的果實和普遍救助的隔離」'是否適當",
+      "after": "將「絕罰」定義成「與教會共融的果實和普遍救助的隔離」，是否適當",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q021.a002",
+      "question": "SUPPL.q021",
+      "pdf_file_page": 7189,
+      "before": "教會是否應該絕罰人",
+      "after": "教會是否應該絕罰人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q021.a003",
+      "question": "SUPPL.q021",
+      "pdf_file_page": 7191,
+      "before": "人是否應該因現世傷害而受絕罰",
+      "after": "人是否應該因現世傷害而受絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q021.a004",
+      "question": "SUPPL.q021",
+      "pdf_file_page": 7192,
+      "before": "宣判不公正的絕罰是否也產生效力",
+      "after": "宣判不公正的絕罰是否也產生效力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q022.a001",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7194,
+      "before": "每位司鐸是否都能絕罰人",
+      "after": "每位司鐸是否都能絕罰人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-009.png"
+    },
+    {
+      "id": "SUPPL.q022.a002",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7196,
+      "before": "非司鐸是否能絕罰人",
+      "after": "非司鐸是否能絕罰人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q022.a003",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7196,
+      "before": "受絕罰者或停職者是否能絕罰人",
+      "after": "受絕罰者或停職者是否能絕罰人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q022.a004",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7198,
+      "before": "司鐸是否能絕罰自己或自己的平費或長輩",
+      "after": "司鐸是否能絕罰自己或自己的平費或長輩",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q022.a005",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7199,
+      "before": "團體是否能被宣判受絕罰",
+      "after": "團體是否能被宣判受絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q022.a006",
+      "question": "SUPPL.q022",
+      "pdf_file_page": 7200,
+      "before": "那已受絕罰的人是否能再受絕罰",
+      "after": "那已受絕罰的人是否能再受絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q023.a001",
+      "question": "SUPPL.q023",
+      "pdf_file_page": 7202,
+      "before": "人與受絕罰者在純粹肉身方面事務的交往是否合法",
+      "after": "人與受絕罰者在純粹肉身方面事務的交往是否合法",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q023.a002",
+      "question": "SUPPL.q023",
+      "pdf_file_page": 7204,
+      "before": "與受絕罰者交往是否受絕罰",
+      "after": "與受絕罰者交往是否受絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q023.a003",
+      "question": "SUPPL.q023",
+      "pdf_file_page": 7205,
+      "before": "與受絕罰者交往是否總是犯大罪",
+      "after": "與受絕罰者交往是否總是犯大罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-010.png"
+    },
+    {
+      "id": "SUPPL.q024.a001",
+      "question": "SUPPL.q024",
+      "pdf_file_page": 7207,
+      "before": "任何司鐸是否都能赦免自己屬下的絕罰",
+      "after": "任何司鐸是否都能赦免自己屬下的絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q024.a002",
+      "question": "SUPPL.q024",
+      "pdf_file_page": 7209,
+      "before": "司鐸是否能赦免不願意絕罰得赦的人",
+      "after": "司鐸是否能赦免不願意絕罰得赦的人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q024.a003",
+      "question": "SUPPL.q024",
+      "pdf_file_page": 7210,
+      "before": "人是否能得赦一種絕罰而不得赦一切絕罰",
+      "after": "人是否能得赦一種絕罰而不得赦一切絕罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q025.a001",
+      "question": "SUPPL.q025",
+      "pdf_file_page": 7212,
+      "before": "大赦是不是能赦免部分的罪罰",
+      "after": "大赦是不是能赦免部分的罪罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q025.a002",
+      "question": "SUPPL.q025",
+      "pdf_file_page": 7215,
+      "before": "大赦的效果是否與所宣告者相同",
+      "after": "大赦的效果是否與所宣告者相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q025.a003",
+      "question": "SUPPL.q025",
+      "pdf_file_page": 7220,
+      "before": "為現世的救助是否該放大赦",
+      "after": "為現世的救助是否該放大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q026.a001",
+      "question": "SUPPL.q026",
+      "pdf_file_page": 7221,
+      "before": "每位堂區的主任司鐸是否都能頒布大赦",
+      "after": "每位堂區的主任司鐸是否都能頒布大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q026.a002",
+      "question": "SUPPL.q026",
+      "pdf_file_page": 7223,
+      "before": "六品或其他非司鐸是否能頒布大赦",
+      "after": "六品或其他非司鐸是否能頒布大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-011.png"
+    },
+    {
+      "id": "SUPPL.q026.a003",
+      "question": "SUPPL.q026",
+      "pdf_file_page": 7224,
+      "before": "主教是否能頒布大赦",
+      "after": "主教是否能頒布大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q026.a004",
+      "question": "SUPPL.q026",
+      "pdf_file_page": 7225,
+      "before": "有大罪的人是否能頒布大赦",
+      "after": "有大罪的人是否能頒布大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q027.a001",
+      "question": "SUPPL.q027",
+      "pdf_file_page": 7226,
+      "before": "大赦是否有益於有大罪的人",
+      "after": "大赦是否有益於有大罪的人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q027.a002",
+      "question": "SUPPL.q027",
+      "pdf_file_page": 7227,
+      "before": "大赦是否有益於會士",
+      "after": "大赦是否有益於會士",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q027.a003",
+      "question": "SUPPL.q027",
+      "pdf_file_page": 7228,
+      "before": "那未履行得大赦所需要的條件者，是否有時能得大赦",
+      "after": "那未履行得大赦所需要的條件者，是否有時能得大赦",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q027.a004",
+      "question": "SUPPL.q027",
+      "pdf_file_page": 7229,
+      "before": "大赦是否有益於頒發大赦者",
+      "after": "大赦是否有益於頒發大赦者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q028.a001",
+      "question": "SUPPL.q028",
+      "pdf_file_page": 7231,
+      "before": "補贖是否應該公開或舉行隆重禮儀",
+      "after": "補贖是否應該公開或舉行隆重禮儀",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q028.a002",
+      "question": "SUPPL.q028",
+      "pdf_file_page": 7233,
+      "before": "隆重的補贖是否可以重複",
+      "after": "隆重的補贖是否可以重複",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-012.png"
+    },
+    {
+      "id": "SUPPL.q028.a003",
+      "question": "SUPPL.q028",
+      "pdf_file_page": 7234,
+      "before": "隆重補贖的禮儀是否合適",
+      "after": "隆重補贖的禮儀是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a001",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7237,
+      "before": "終傅是不是聖事",
+      "after": "終傅是不是聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a002",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7238,
+      "before": "終傅是否是一件聖事",
+      "after": "終傅是否是一件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a003",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7241,
+      "before": "這件聖事是否是基督親立的",
+      "after": "這件聖事是否是基督親立的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a004",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7242,
+      "before": "橄欖油是否是這件聖事的質料",
+      "after": "橄欖油是否是這件聖事的質料",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a005",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7244,
+      "before": "終傅聖油是否必須被祝聖",
+      "after": "終傅聖油是否必須被祝聖",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a006",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7245,
+      "before": "這件聖事的質料是否必須是主教祝聖的",
+      "after": "這件聖事的質料是否必須是主教祝聖的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a007",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7247,
+      "before": "這件聖事是否有形式",
+      "after": "這件聖事是否有形式",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-013.png"
+    },
+    {
+      "id": "SUPPL.q029.a008",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7248,
+      "before": "這件聖事的形式是否應該是敘述性，而不是祈求性的經文",
+      "after": "這件聖事的形式是否應該是敘述性，而不是祈求性的經文",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q029.a009",
+      "question": "SUPPL.q029",
+      "pdf_file_page": 7250,
+      "before": "上述的經文是否是這件聖事的適當形式",
+      "after": "上述的經文是否是這件聖事的適當形式",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q030.a001",
+      "question": "SUPPL.q030",
+      "pdf_file_page": 7252,
+      "before": "終傅聖事是否有益於罪過的赦免",
+      "after": "終傅聖事是否有益於罪過的赦免",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q030.a002",
+      "question": "SUPPL.q030",
+      "pdf_file_page": 7255,
+      "before": "身體的健康是否是這件聖事的效果",
+      "after": "身體的健康是否是這件聖事的效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q030.a003",
+      "question": "SUPPL.q030",
+      "pdf_file_page": 7256,
+      "before": "這件聖事是否賦予神印",
+      "after": "這件聖事是否賦予神印",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q031.a001",
+      "question": "SUPPL.q031",
+      "pdf_file_page": 7258,
+      "before": "教友是否也能施行這件聖事關於第一節，我們討論如下:",
+      "after": "教友是否也能施行這件聖事",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-014.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q031.a001.intro",
+        "restored_source_intro": "關於第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q031.a002",
+      "question": "SUPPL.q031",
+      "pdf_file_page": 7259,
+      "before": "六品是否能施行這件聖事",
+      "after": "六品是否能施行這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q031.a003",
+      "question": "SUPPL.q031",
+      "pdf_file_page": 7260,
+      "before": "是否唯有主教才能施行這件聖事",
+      "after": "是否唯有主教才能施行這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-014.png"
+    },
+    {
+      "id": "SUPPL.q032.a001",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7262,
+      "before": "身體健康的人是否也應該領受這件聖事",
+      "after": "身體健康的人是否也應該領受這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a002",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7263,
+      "before": "患任何病症的人是否都應該領受這件聖事",
+      "after": "患任何病症的人是否都應該領受這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a003",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7264,
+      "before": "喪失心智與智能不足者，是否應該領受這件聖事",
+      "after": "喪失心智與智能不足者，是否應該領受這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a004",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7265,
+      "before": "兒童是否應該領受這件聖事",
+      "after": "兒童是否應該領受這件聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a005",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7266,
+      "before": "整個身體是否都應該傅油",
+      "after": "整個身體是否都應該傅油",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a006",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7267,
+      "before": "是否適宜地規定應受傅泊的肢體",
+      "after": "是否適宜地規定應受傅油的肢體",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q032.a007",
+      "question": "SUPPL.q032",
+      "pdf_file_page": 7269,
+      "before": "身體傷殘的人們是否應在規定的肢體上傅油",
+      "after": "身體傷殘的人們是否應在規定的肢體上傅油",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q033.a001",
+      "question": "SUPPL.q033",
+      "pdf_file_page": 7270,
+      "before": "這件聖事是否應該重複施行",
+      "after": "這件聖事是否應該重複施行",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-015.png"
+    },
+    {
+      "id": "SUPPL.q033.a002",
+      "question": "SUPPL.q033",
+      "pdf_file_page": 7271,
+      "before": "同一個病是否應該重複施行絡傳聖事",
+      "after": "同一個病是否應該重複施行終傅聖事",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q034.a001",
+      "question": "SUPPL.q034",
+      "pdf_file_page": 7273,
+      "before": "教會是否應該有神品聖事",
+      "after": "教會是否應該有神品聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q034.a002",
+      "question": "SUPPL.q034",
+      "pdf_file_page": 7275,
+      "before": "大師〈語錄〉對神品聖事所下的定義是否適宜",
+      "after": "大師〈語錄〉對神品聖事所下的定義是否適宜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q034.a003",
+      "question": "SUPPL.q034",
+      "pdf_file_page": 7277,
+      "before": "神品是否是聖事",
+      "after": "神品是否是聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q034.a004",
+      "question": "SUPPL.q034",
+      "pdf_file_page": 7278,
+      "before": "大師〈語錄〉是否適宜地說明這件聖事的形式",
+      "after": "大師〈語錄〉是否適宜地說明這件聖事的形式",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q034.a005",
+      "question": "SUPPL.q034",
+      "pdf_file_page": 7280,
+      "before": "這件聖事是否有質料",
+      "after": "這件聖事是否有質料",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q035.a001",
+      "question": "SUPPL.q035",
+      "pdf_file_page": 7282,
+      "before": "神品聖事是不是賦予寵愛",
+      "after": "神品聖事是不是賦予寵愛",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q035.a002",
+      "question": "SUPPL.q035",
+      "pdf_file_page": 7284,
+      "before": "神品中的一切品級是否都有神印",
+      "after": "神品中的一切品級是否都有神印",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-016.png"
+    },
+    {
+      "id": "SUPPL.q035.a003",
+      "question": "SUPPL.q035",
+      "pdf_file_page": 7285,
+      "before": "神品聖事的神印是否必須先有聖洗聖事的神印",
+      "after": "神品聖事的神印是否必須先有聖洗聖事的神印",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-001.png"
+    },
+    {
+      "id": "SUPPL.q035.a004",
+      "question": "SUPPL.q035",
+      "pdf_file_page": 7286,
+      "before": "神品聖事的神印是否必須先有堅振聖事的神印",
+      "after": "神品聖事的神印是否必須先有堅振聖事的神印",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q035.a005",
+      "question": "SUPPL.q035",
+      "pdf_file_page": 7287,
+      "before": "這一品級的神印是否必須先有那一品級的神印",
+      "after": "這一品級的神印是否必須先有那一品級的神印",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-002.png"
+    },
+    {
+      "id": "SUPPL.q036.a001",
+      "question": "SUPPL.q036",
+      "pdf_file_page": 7289,
+      "before": "領受神品聖事的人，是否需要聖善的生活",
+      "after": "領受神品聖事的人，是否需要聖善的生活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q036.a002",
+      "question": "SUPPL.q036",
+      "pdf_file_page": 7291,
+      "before": "領受神品聖事的人，是否需要全部聖經的知識",
+      "after": "領受神品聖事的人，是否需要全部聖經的知識",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q036.a003",
+      "question": "SUPPL.q036",
+      "pdf_file_page": 7293,
+      "before": "人是否因修德立功的生活而獲得品級",
+      "after": "人是否因修德立功的生活而獲得品級",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q036.a004",
+      "question": "SUPPL.q036",
+      "pdf_file_page": 7294,
+      "before": "授予不合格者神品的人是否犯罪",
+      "after": "授予不合格者神品的人是否犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q036.a005",
+      "question": "SUPPL.q036",
+      "pdf_file_page": 7296,
+      "before": "有罪的人行使他所領受的神品是否能無罪",
+      "after": "有罪的人行使他所領受的神品是否能無罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q037.a001",
+      "question": "SUPPL.q037",
+      "pdf_file_page": 7299,
+      "before": "是否應該分為許多神品",
+      "after": "是否應該分為許多神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q037.a002",
+      "question": "SUPPL.q037",
+      "pdf_file_page": 7301,
+      "before": "神品是否有七種品級",
+      "after": "神品是否有七種品級",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-017.png"
+    },
+    {
+      "id": "SUPPL.q037.a003",
+      "question": "SUPPL.q037",
+      "pdf_file_page": 7306,
+      "before": "神品是否應該分為神品與非神品",
+      "after": "神品是否應該分為神品與非神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q037.a004",
+      "question": "SUPPL.q037",
+      "pdf_file_page": 7307,
+      "before": "大師的〈語錄〉對神品行為的區分是否適當",
+      "after": "大師的〈語錄〉對神品行為的區分是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q037.a005",
+      "question": "SUPPL.q037",
+      "pdf_file_page": 7310,
+      "before": "神品神印是否是在主教授予聖爵時賦予",
+      "after": "神品神印是否是在主教授予聖爵時賦予",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q038.a001",
+      "question": "SUPPL.q038",
+      "pdf_file_page": 7314,
+      "before": "是否唯有主教才能施行神品聖事關於第一節，我們討論如下:",
+      "after": "是否唯有主教才能施行神品聖事",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-018.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q038.a001.intro",
+        "restored_source_intro": "關於第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q038.a002",
+      "question": "SUPPL.q038",
+      "pdf_file_page": 7316,
+      "before": "異端和脫離教會的主教是否能授予神品",
+      "after": "異端和脫離教會的主教是否能授予神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q039.a001",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7320,
+      "before": "女性是否有領受神品的限制",
+      "after": "女性是否有領受神品的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q039.a002",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7322,
+      "before": "兒童和無識別能力者，是否能領受神品",
+      "after": "兒童和無識別能力者，是否能領受神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q039.a003",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7324,
+      "before": "奴隸的身份是否是領受神品的限制",
+      "after": "奴隸的身份是否是領受神品的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-018.png"
+    },
+    {
+      "id": "SUPPL.q039.a004",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7326,
+      "before": "人是否因殺人而應該被禁止領受神品",
+      "after": "人是否因殺人而應該被禁止領受神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q039.a005",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7327,
+      "before": "非婚生的兒子是否應該被禁止領受神品",
+      "after": "非婚生的兒子是否應該被禁止領受神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q039.a006",
+      "question": "SUPPL.q039",
+      "pdf_file_page": 7328,
+      "before": "人是否應該因肢體不全而被禁止領受神品",
+      "after": "人是否應該因肢體不全而被禁止領受神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a001",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7330,
+      "before": "領受神品者是否應該行剪髮禮",
+      "after": "領受神品者是否應該行剪髮禮",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a002",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7332,
+      "before": "剪髮禮是否是一種聖秩品位",
+      "after": "剪髮禮是否是一種聖秩品位",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a003",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7333,
+      "before": "領受剪髮禮者，是否應該棄絕現世的財富",
+      "after": "領受剪髮禮者，是否應該棄絕現世的財富",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a004",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7335,
+      "before": "在教會肉，鐸品之上是否還應該有主教的權柄",
+      "after": "在教會肉，鐸品之上是否還應該有主教的權柄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a005",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7337,
+      "before": "主教品是否是神品",
+      "after": "主教品是否是神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-019.png"
+    },
+    {
+      "id": "SUPPL.q040.a006",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7339,
+      "before": "教會是否能有主教之上的權柄",
+      "after": "教會是否能有主教之上的權柄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q040.a007",
+      "question": "SUPPL.q040",
+      "pdf_file_page": 7341,
+      "before": "教會是否適宜地規定神職人員的服裝",
+      "after": "教會是否適宜地規定神職人員的服裝",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q041.a001",
+      "question": "SUPPL.q041",
+      "pdf_file_page": 7345,
+      "before": "婚姻是否屬於自然律",
+      "after": "婚姻是否屬於自然律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q041.a002",
+      "question": "SUPPL.q041",
+      "pdf_file_page": 7348,
+      "before": "婚姻是否屬於法令範固",
+      "after": "婚姻是否屬於法令範圍",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q041.a003",
+      "question": "SUPPL.q041",
+      "pdf_file_page": 7350,
+      "before": "房事是否總有罪過",
+      "after": "房事是否總有罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q041.a004",
+      "question": "SUPPL.q041",
+      "pdf_file_page": 7352,
+      "before": "房事是否有功勞",
+      "after": "房事是否有功勞",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q042.a001",
+      "question": "SUPPL.q042",
+      "pdf_file_page": 7355,
+      "before": "婚姻是不是聖事",
+      "after": "婚姻是不是聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-020.png"
+    },
+    {
+      "id": "SUPPL.q042.a002",
+      "question": "SUPPL.q042",
+      "pdf_file_page": 7357,
+      "before": "婚姻聖事是否應該在原祖犯罪以前建立關於第二節，我們討論如下:",
+      "after": "婚姻聖事是否應該在原祖犯罪以前建立",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-020.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q042.a002.intro",
+        "restored_source_intro": "關於第二節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q042.a003",
+      "question": "SUPPL.q042",
+      "pdf_file_page": 7359,
+      "before": "婚姻聖事是否賦予恩寵",
+      "after": "婚姻聖事是否賦予恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q042.a004",
+      "question": "SUPPL.q042",
+      "pdf_file_page": 7362,
+      "before": "性交是否屬於婚姻聖事的完整",
+      "after": "性交是否屬於婚姻聖事的完整",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q043.a001",
+      "question": "SUPPL.q043",
+      "pdf_file_page": 7364,
+      "before": "將訂婚定義為「對未來婚姻的諾言」'是否適宜",
+      "after": "將訂婚定義為「對未來婚姻的諾言」，是否適宜",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q043.a002",
+      "question": "SUPPL.q043",
+      "pdf_file_page": 7367,
+      "before": "訂婚者的最低法定年齡是七歲，是否適宜",
+      "after": "訂婚者的最低法定年齡是七歲，是否適宜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q043.a003",
+      "question": "SUPPL.q043",
+      "pdf_file_page": 7370,
+      "before": "訂婚的婚約是否能被解除",
+      "after": "訂婚的婚約是否能被解除",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q044.a001",
+      "question": "SUPPL.q044",
+      "pdf_file_page": 7374,
+      "before": "婚姻是不是一種結合",
+      "after": "婚姻是不是一種結合",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q044.a002",
+      "question": "SUPPL.q044",
+      "pdf_file_page": 7376,
+      "before": "稱為婚姻是否適宜",
+      "after": "稱為婚姻是否適宜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q044.a003",
+      "question": "SUPPL.q044",
+      "pdf_file_page": 7378,
+      "before": "〈語錄〉是否適宜地為婚姻下定義",
+      "after": "〈語錄〉是否適宜地為婚姻下定義",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-021.png"
+    },
+    {
+      "id": "SUPPL.q045.a001",
+      "question": "SUPPL.q045",
+      "pdf_file_page": 7380,
+      "before": "合意是否是構成婚姻的成因",
+      "after": "合意是否是構成婚姻的成因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q045.a002",
+      "question": "SUPPL.q045",
+      "pdf_file_page": 7382,
+      "before": "合意是否必須以言語來表達",
+      "after": "合意是否必須以言語來表達",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q045.a003",
+      "question": "SUPPL.q045",
+      "pdf_file_page": 7383,
+      "before": "許諾未來之事的合意是否構成結婚",
+      "after": "許諾未來之事的合意是否構成結婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q045.a004",
+      "question": "SUPPL.q045",
+      "pdf_file_page": 7385,
+      "before": "無內心贊成的口頭合意是否也構成婚姻",
+      "after": "無內心贊成的口頭合意是否也構成婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q045.a005",
+      "question": "SUPPL.q045",
+      "pdf_file_page": 7387,
+      "before": "對現在之事祕密的合意，是否構成結婚",
+      "after": "對現在之事祕密的合意，是否構成結婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q046.a001",
+      "question": "SUPPL.q046",
+      "pdf_file_page": 7389,
+      "before": "在婚約的許諾之後加上誓願'是否構成婚姻",
+      "after": "在婚約的許諾之後加上誓願，是否構成婚姻",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q046.a002",
+      "question": "SUPPL.q046",
+      "pdf_file_page": 7391,
+      "before": "合意之後的性行為是否構成婚姻",
+      "after": "合意之後的性行為是否構成婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q047.a001",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7393,
+      "before": "合意是否可能是被迫的",
+      "after": "合意是否可能是被迫的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-022.png"
+    },
+    {
+      "id": "SUPPL.q047.a002",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7395,
+      "before": "恐懼的威脅是否能夠強迫堅強的男人",
+      "after": "恐懼的威脅是否能夠強迫堅強的男人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q047.a003",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7397,
+      "before": "被迫的合意是否使婚姻無效",
+      "after": "被迫的合意是否使婚姻無效",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q047.a004",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7399,
+      "before": "被迫的合意是否為施迫者構成婚姻",
+      "after": "被迫的合意是否為施迫者構成婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q047.a005",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7400,
+      "before": "有條件的合意是否構成婚姻",
+      "after": "有條件的合意是否構成婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q047.a006",
+      "question": "SUPPL.q047",
+      "pdf_file_page": 7401,
+      "before": "兒子是否能因父親的命令而被迫結婚",
+      "after": "兒子是否能因父親的命令而被迫結婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q048.a001",
+      "question": "SUPPL.q048",
+      "pdf_file_page": 7403,
+      "before": "構成結婚的合意是否指向肉身的結合",
+      "after": "構成結婚的合意是否指向肉身的結合",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q048.a002",
+      "question": "SUPPL.q048",
+      "pdf_file_page": 7405,
+      "before": "為了不正當的理由所做的合意，是否構成婚姻",
+      "after": "為了不正當的理由所做的合意，是否構成婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q049.a001",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7408,
+      "before": "婚姻是不是該有些利益纔可容忍",
+      "after": "婚姻是不是該有些利益纔可容忍",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-023.png"
+    },
+    {
+      "id": "SUPPL.q049.a002",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7411,
+      "before": "大師〈語錄〉所列舉的婚姻利益是否充足",
+      "after": "大師〈語錄〉所列舉的婚姻利益是否充足",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q049.a003",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7413,
+      "before": "聖事是否是婚姻的主要利益",
+      "after": "聖事是否是婚姻的主要利益",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q049.a004",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7416,
+      "before": "上述的利益是否能使房事毫無罪過",
+      "after": "上述的利益是否能使房事毫無罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q049.a005",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7418,
+      "before": "房事若無婚姻的利益，是否能夠被諒解",
+      "after": "房事若無婚姻的利益，是否能夠被諒解",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q049.a006",
+      "question": "SUPPL.q049",
+      "pdf_file_page": 7421,
+      "before": "那不為婚姻利益但只為快樂而同妻子性交，是否犯大罪",
+      "after": "那不為婚姻利益但只為快樂而同妻子性交，是否犯大罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q050.a001",
+      "question": "SUPPL.q050",
+      "pdf_file_page": 7423,
+      "before": "婚姻是否適宜地規定限制",
+      "after": "婚姻是否適宜地規定限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q051.a001",
+      "question": "SUPPL.q051",
+      "pdf_file_page": 7428,
+      "before": "錯誤是不是應該被列為婚姻的本來限制",
+      "after": "錯誤是不是應該被列為婚姻的本來限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q051.a002",
+      "question": "SUPPL.q051",
+      "pdf_file_page": 7430,
+      "before": "一切的錯誤是否都是婚姻的限制",
+      "after": "一切的錯誤是否都是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-024.png"
+    },
+    {
+      "id": "SUPPL.q052.a001",
+      "question": "SUPPL.q052",
+      "pdf_file_page": 7434,
+      "before": "奴役的身份是不是婚姻的限制",
+      "after": "奴役的身份是不是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q052.a002",
+      "question": "SUPPL.q052",
+      "pdf_file_page": 7438,
+      "before": "奴隸沒有主人的同意，是否能結婚",
+      "after": "奴隸沒有主人的同意，是否能結婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q052.a003",
+      "question": "SUPPL.q052",
+      "pdf_file_page": 7440,
+      "before": "在婚後，丈夫是否能賣身為奴",
+      "after": "在婚後，丈夫是否能賣身為奴",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q052.a004",
+      "question": "SUPPL.q052",
+      "pdf_file_page": 7442,
+      "before": "兒女是否應該承襲父親的身份",
+      "after": "兒女是否應該承襲父親的身份",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q053.a001",
+      "question": "SUPPL.q053",
+      "pdf_file_page": 7445,
+      "before": "婚姻是否因普通聖願的義務而應該被拆散",
+      "after": "婚姻是否因普通聖願的義務而應該被拆散",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q053.a002",
+      "question": "SUPPL.q053",
+      "pdf_file_page": 7448,
+      "before": "特級聖願是否拆散已締結的婚姻",
+      "after": "特級聖願是否拆散已締結的婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q053.a003",
+      "question": "SUPPL.q053",
+      "pdf_file_page": 7450,
+      "before": "神品是否是婚姻的限制",
+      "after": "神品是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q053.a004",
+      "question": "SUPPL.q053",
+      "pdf_file_page": 7452,
+      "before": "婚後能否領受神品",
+      "after": "婚後能否領受神品",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-025.png"
+    },
+    {
+      "id": "SUPPL.q054.a001",
+      "question": "SUPPL.q054",
+      "pdf_file_page": 7455,
+      "before": "血親關{系的定義是否適當",
+      "after": "血親關係的定義是否適當",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q054.a002",
+      "question": "SUPPL.q054",
+      "pdf_file_page": 7458,
+      "before": "血親關係是否適宜地分為血統與親等",
+      "after": "血親關係是否適宜地分為血統與親等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q054.a003",
+      "question": "SUPPL.q054",
+      "pdf_file_page": 7462,
+      "before": "按自然律，血親關係是否是婚姻的限制",
+      "after": "按自然律，血親關係是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q054.a004",
+      "question": "SUPPL.q054",
+      "pdf_file_page": 7465,
+      "before": "限制婚姻的血親關{系，教會能否規定為四等",
+      "after": "限制婚姻的血親關係，教會能否規定為四等",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q055.a001",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7470,
+      "before": "血親的婚姻是不是產生姻親關係",
+      "after": "血親的婚姻是不是產生姻親關係",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q055.a002",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7473,
+      "before": "丈夫死後，他的血親與妻子之間的姻親關係是否存在",
+      "after": "丈夫死後，他的血親與妻子之間的姻親關係是否存在",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q055.a003",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7474,
+      "before": "違法的性交是否產生姻親閱(系",
+      "after": "違法的性交是否產生姻親關係",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q055.a004",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7476,
+      "before": "婚約是否能產生姻親關係",
+      "after": "婚約是否能產生姻親關係",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-026.png"
+    },
+    {
+      "id": "SUPPL.q055.a005",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7478,
+      "before": "姻親關{系是否是另一姻親關{系的原因",
+      "after": "姻親關係是否是另一姻親關係的原因",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a006",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7481,
+      "before": "姻親關{系是否是婚姻的限制",
+      "after": "姻親關{系是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a007",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7482,
+      "before": "姻親闊係本身是否也有親等",
+      "after": "姻親闊係本身是否也有親等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a008",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7483,
+      "before": "姻親關{系的親等與血親關l系的親等是否相同",
+      "after": "姻親關係的親等與血親關係的親等是否相同",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a009",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7484,
+      "before": "姻親或血親的婚姻是否總是應該離婚",
+      "after": "姻親或血親的婚姻是否總是應該離婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a010",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7486,
+      "before": "姻親與血親的離婚是否應該經過控訴",
+      "after": "姻親與血親的離婚是否應該經過控訴",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q055.a011",
+      "question": "SUPPL.q055",
+      "pdf_file_page": 7488,
+      "before": "這種案件是否像其它案件該有證人",
+      "after": "這種案件是否像其它案件該有證人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q056.a001",
+      "question": "SUPPL.q056",
+      "pdf_file_page": 7490,
+      "before": "神親是不是婚姻的限制",
+      "after": "神親是不是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-027.png"
+    },
+    {
+      "id": "SUPPL.q056.a002",
+      "question": "SUPPL.q056",
+      "pdf_file_page": 7492,
+      "before": "是否唯有聖洗聖事才結神親",
+      "after": "是否唯有聖洗聖事才結神親",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q056.a003",
+      "question": "SUPPL.q056",
+      "pdf_file_page": 7495,
+      "before": "受洗的人與那由聖水池中將他提起來的人之間，是否結神親",
+      "after": "受洗的人與那由聖水池中將他提起來的人之間，是否結神親",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q056.a004",
+      "question": "SUPPL.q056",
+      "pdf_file_page": 7497,
+      "before": "神親是否由丈夫傳給妻子",
+      "after": "神親是否由丈夫傳給妻子",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q056.a005",
+      "question": "SUPPL.q056",
+      "pdf_file_page": 7498,
+      "before": "神親是否傳給代父的親生兒子",
+      "after": "神親是否傳給代父的親生兒子",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q057.a001",
+      "question": "SUPPL.q057",
+      "pdf_file_page": 7500,
+      "before": "收養闊係的定義是否適當",
+      "after": "收養闊係的定義是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q057.a002",
+      "question": "SUPPL.q057",
+      "pdf_file_page": 7503,
+      "before": "收養關係是否產生婚姻限制",
+      "after": "收養關係是否產生婚姻限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q057.a003",
+      "question": "SUPPL.q057",
+      "pdf_file_page": 7505,
+      "before": "是否只有養父與養子之間有法親",
+      "after": "是否只有養父與養子之間有法親",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q058.a001",
+      "question": "SUPPL.q058",
+      "pdf_file_page": 7507,
+      "before": "性冷感是不是婚姻的限制",
+      "after": "性冷感是不是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-028.png"
+    },
+    {
+      "id": "SUPPL.q058.a002",
+      "question": "SUPPL.q058",
+      "pdf_file_page": 7511,
+      "before": "魔法是否能成為婚姻的限制",
+      "after": "魔法是否能成為婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q058.a003",
+      "question": "SUPPL.q058",
+      "pdf_file_page": 7514,
+      "before": "瘋顛是否是婚姻的限制",
+      "after": "瘋顛是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q058.a004",
+      "question": "SUPPL.q058",
+      "pdf_file_page": 7515,
+      "before": "丈夫同自己妻於的妹妹犯親姦罪，是否使婚姻無效",
+      "after": "丈夫同自己妻於的妹妹犯親姦罪，是否使婚姻無效",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q058.a005",
+      "question": "SUPPL.q058",
+      "pdf_file_page": 7516,
+      "before": "年齡不足是否是婚姻的限制",
+      "after": "年齡不足是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q059.a001",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7519,
+      "before": "信徒是否能同非信徒結婚",
+      "after": "信徒是否能同非信徒結婚",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q059.a002",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7522,
+      "before": "非信徒是否能有婚姻",
+      "after": "非信徒是否能有婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q059.a003",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7524,
+      "before": "皈依信德的丈夫是否能與不願皈依信德的妻子同居共處",
+      "after": "皈依信德的丈夫是否能與不願皈依信德的妻子同居共處",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q059.a004",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7527,
+      "before": "皈依信徒的丈夫是否能休退願意同居共處，而毫不侮辱造物主的非信徒妻子",
+      "after": "皈依信徒的丈夫是否能休退願意同居共處，而毫不侮辱造物主的非信徒妻子",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-002.png"
+    },
+    {
+      "id": "SUPPL.q059.a005",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7530,
+      "before": "離開非信徒妻子的信徒丈夫，是否能娶其他女人為妻",
+      "after": "離開非信徒妻子的信徒丈夫，是否能娶其他女人為妻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-029.png"
+    },
+    {
+      "id": "SUPPL.q059.a006",
+      "question": "SUPPL.q059",
+      "pdf_file_page": 7532,
+      "before": "其它罪過是否像無信德一樣拆散婚姻",
+      "after": "其它罪過是否像無信德一樣拆散婚姻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q060.a001",
+      "question": "SUPPL.q060",
+      "pdf_file_page": 7535,
+      "before": "丈夫殺害正在通姦的妻子，是不是合法的",
+      "after": "丈夫殺害正在通姦的妻子，是不是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q060.a002",
+      "question": "SUPPL.q060",
+      "pdf_file_page": 7537,
+      "before": "殺妻是否是婚姻的限制",
+      "after": "殺妻是否是婚姻的限制",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q061.a001",
+      "question": "SUPPL.q061",
+      "pdf_file_page": 7540,
+      "before": "夫妻間房之後，沒有對方的同意，是否能夠進修會",
+      "after": "夫妻間房之後，沒有對方的同意，是否能夠進修會",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q061.a002",
+      "question": "SUPPL.q061",
+      "pdf_file_page": 7542,
+      "before": "夫妻圓房以前，沒有對方的岡意，是否能夠進修會",
+      "after": "夫妻圓房以前，沒有對方的岡意，是否能夠進修會",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q061.a003",
+      "question": "SUPPL.q061",
+      "pdf_file_page": 7543,
+      "before": "夫妻國房之前，丈夫進了修會，妻子是否能改嫁他人",
+      "after": "夫妻圓房之前，丈夫進了修會，妻子是否能改嫁他人",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q062.a001",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7545,
+      "before": "丈夫因妻子犯姦淫罪而休妻，是不是合法的",
+      "after": "丈夫因妻子犯姦淫罪而休妻，是不是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q062.a002",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7547,
+      "before": "丈夫是否由於命令而該休退犯姦淫罪的妻於",
+      "after": "丈夫是否由於命令而該休退犯姦淫罪的妻子",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-030.png"
+    },
+    {
+      "id": "SUPPL.q062.a003",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7549,
+      "before": "丈夫是否能隨意地休退犯姦淫罪的妻於",
+      "after": "丈夫是否能隨意地休退犯姦淫罪的妻子",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q062.a004",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7552,
+      "before": "夫妻的離婚案件是否應該受同等的審判",
+      "after": "夫妻的離婚案件是否應該受同等的審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q062.a005",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7554,
+      "before": "丈夫在離婚以後是否能再娶妻",
+      "after": "丈夫在離婚以後是否能再娶妻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q062.a006",
+      "question": "SUPPL.q062",
+      "pdf_file_page": 7556,
+      "before": "夫妻在離婚以後是否能和好",
+      "after": "夫妻在離婚以後是否能和好",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q063.a001",
+      "question": "SUPPL.q063",
+      "pdf_file_page": 7559,
+      "before": "再婚是否合法",
+      "after": "再婚是否合法",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q063.a002",
+      "question": "SUPPL.q063",
+      "pdf_file_page": 7560,
+      "before": "再婚是否是準聖事",
+      "after": "再婚是否是準聖事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q064.a001",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7563,
+      "before": "夫妻彼此是否由於法令而應該盡婚姻義務",
+      "after": "夫妻彼此是否由於法令而應該盡婚姻義務",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q064.a002",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7566,
+      "before": "丈夫無妻子的要求，是否應該盡婚姻義務",
+      "after": "丈夫無妻子的要求，是否應該盡婚姻義務",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-031.png"
+    },
+    {
+      "id": "SUPPL.q064.a003",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7563,
+      "before": "",
+      "after": "",
+      "status": "source_unavailable",
+      "source_note": "本PDF中译本第六十四题只列七节，文件页7563题首明列七项，末节在7574页结束；无对应网站拉丁第3节的中译标题与正文。现有空串保留，不从别本补译。"
+    },
+    {
+      "id": "SUPPL.q064.a004",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7563,
+      "before": "",
+      "after": "",
+      "status": "source_unavailable",
+      "source_note": "本PDF中译本第六十四题只列七节；无对应网站拉丁第4节的中译标题与正文。原书第3至7节依内容对应网站第5至9节；保留既有中拉配对和编号。此位置保留空串，不补译。"
+    },
+    {
+      "id": "SUPPL.q064.a005",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7567,
+      "before": "夫妻的房事是否平等",
+      "after": "夫妻的房事是否平等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png",
+      "source_note": "本译本第六十四题只列七节（文件页7563明列七项）；PDF印作第3节，对应网站保留的拉丁编号第5节。依内容对应，不改网站编号或现有中拉配对。"
+    },
+    {
+      "id": "SUPPL.q064.a006",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7569,
+      "before": "夫妻彼此沒有婚姻的合意，是否能發相反婚姻義務的聖願",
+      "after": "夫妻彼此沒有婚姻的合意，是否能發相反婚姻義務的聖願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png",
+      "source_note": "本译本第六十四题只列七节（文件页7563明列七项）；PDF印作第4节，对应网站保留的拉丁编号第6节。依内容对应，不改网站编号或现有中拉配对。"
+    },
+    {
+      "id": "SUPPL.q064.a007",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7571,
+      "before": "在聖日是否應該禁止夫妻要求盡婚姻義務",
+      "after": "在聖日是否應該禁止夫妻要求盡婚姻義務",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png",
+      "source_note": "本译本第六十四题只列七节（文件页7563明列七项）；PDF印作第5节，对应网站保留的拉丁编号第7节。依内容对应，不改网站编号或现有中拉配对。"
+    },
+    {
+      "id": "SUPPL.q064.a008",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7572,
+      "before": "夫妻在聖日要求盡婚姻義務，是否犯大罪",
+      "after": "夫妻在聖日要求盡婚姻義務，是否犯大罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png",
+      "source_note": "本译本第六十四题只列七节（文件页7563明列七项）；PDF印作第6节，对应网站保留的拉丁编号第8节。依内容对应，不改网站编号或现有中拉配对。"
+    },
+    {
+      "id": "SUPPL.q064.a009",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7573,
+      "before": "夫妻在教會慶節時，是否應該盡婚姻義務",
+      "after": "夫妻在教會慶節時，是否應該盡婚姻義務",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png",
+      "source_note": "本译本第六十四题只列七节（文件页7563明列七项）；PDF印作第7节，对应网站保留的拉丁编号第9节。依内容对应，不改网站编号或现有中拉配对。"
+    },
+    {
+      "id": "SUPPL.q064.a010",
+      "question": "SUPPL.q064",
+      "pdf_file_page": 7574,
+      "before": "",
+      "after": "",
+      "status": "source_unavailable",
+      "source_note": "本PDF中译本第六十四题第七节在文件页7574结束，随后为第六十五题；没有对应网站拉丁第10节的中译标题。现有空串保留，不从其他版本补译。"
+    },
+    {
+      "id": "SUPPL.q065.a001",
+      "question": "SUPPL.q065",
+      "pdf_file_page": 7575,
+      "before": "男人有許多的妻子是否違反自然律",
+      "after": "男人有許多的妻子是否違反自然律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png"
+    },
+    {
+      "id": "SUPPL.q065.a002",
+      "question": "SUPPL.q065",
+      "pdf_file_page": 7581,
+      "before": "丈夫有許多的妻子是否曾經是合法的",
+      "after": "丈夫有許多的妻子是否曾經是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png"
+    },
+    {
+      "id": "SUPPL.q065.a003",
+      "question": "SUPPL.q065",
+      "pdf_file_page": 7585,
+      "before": "丈夫納妾是否違反自然律",
+      "after": "丈夫納妾是否違反自然律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-032.png"
+    },
+    {
+      "id": "SUPPL.q065.a004",
+      "question": "SUPPL.q065",
+      "pdf_file_page": 7587,
+      "before": "丈夫同妾性交是否是大罪",
+      "after": "丈夫同妾性交是否是大罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q065.a005",
+      "question": "SUPPL.q065",
+      "pdf_file_page": 7589,
+      "before": "丈夫納妾是否曾經合法",
+      "after": "丈夫納妾是否曾經合法",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q066.a001",
+      "question": "SUPPL.q066",
+      "pdf_file_page": 7592,
+      "before": "虧格是否與人曾連續地娶兩個妻子之重婚有關",
+      "after": "虧格是否與人曾連續地娶兩個妻子之重婚有關",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-002.png"
+    },
+    {
+      "id": "SUPPL.q066.a002",
+      "question": "SUPPL.q066",
+      "pdf_file_page": 7594,
+      "before": "虧格是否與人同時或連續地娶法律的和實際的妻子之重婚有關",
+      "after": "虧格是否與人同時或連續地娶法律的和實際的妻子之重婚有關",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q066.a003",
+      "question": "SUPPL.q066",
+      "pdf_file_page": 7595,
+      "before": "人娶非處女為妻是否產生虧格",
+      "after": "人娶非處女為妻是否產生虧格",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q066.a004",
+      "question": "SUPPL.q066",
+      "pdf_file_page": 7598,
+      "before": "重婚是否因聖洗聖事而得解除",
+      "after": "重婚是否因聖洗聖事而得解除",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q066.a005",
+      "question": "SUPPL.q066",
+      "pdf_file_page": 7600,
+      "before": "赦免重婚是否合法",
+      "after": "赦免重婚是否合法",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q067.a001",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7602,
+      "before": "婚姻的不可拆散性是不是屬於自然律",
+      "after": "婚姻的不可拆散性是不是屬於自然律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q067.a002",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7604,
+      "before": "寬免休妻是否曾經是合法的",
+      "after": "寬免休妻是否曾經是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-033.png"
+    },
+    {
+      "id": "SUPPL.q067.a003",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7606,
+      "before": "在梅瑟法律時代休妻是否合法",
+      "after": "在梅瑟法律時代休妻是否合法",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q067.a004",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7609,
+      "before": "被休的妻於改嫁是否曾經是合法的",
+      "after": "被休的妻於改嫁是否曾經是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q067.a005",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7611,
+      "before": "丈夫再娶自己休退的妻子是否曾經是合法的",
+      "after": "丈夫再娶自己休退的妻子是否曾經是合法的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q067.a006",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7612,
+      "before": "休妻的原因是否能是憎恨妻子",
+      "after": "休妻的原因是否能是憎恨妻子",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q067.a007",
+      "question": "SUPPL.q067",
+      "pdf_file_page": 7614,
+      "before": "休妻的原因是否應該寫在休書上",
+      "after": "休妻的原因是否應該寫在休書上",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q068.a001",
+      "question": "SUPPL.q068",
+      "pdf_file_page": 7616,
+      "before": "非婚生子女是否是私生的",
+      "after": "非婚生子女是否是私生的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q068.a002",
+      "question": "SUPPL.q068",
+      "pdf_file_page": 7617,
+      "before": "私生子女是否應該受損失",
+      "after": "私生子女是否應該受損失",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q068.a003",
+      "question": "SUPPL.q068",
+      "pdf_file_page": 7619,
+      "before": "私生子女是否能合法化",
+      "after": "私生子女是否能合法化",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-034.png"
+    },
+    {
+      "id": "SUPPL.q069.a001",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7640,
+      "before": "人死後靈魂是否有居所",
+      "after": "人死後靈魂是否有居所",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a002",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7642,
+      "before": "人在死後靈魂是否立即昇天堂或下地獄",
+      "after": "人在死後靈魂是否立即昇天堂或下地獄",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a003",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7645,
+      "before": "住在天堂上或者地獄裡的靈魂，是否能從那裡出來",
+      "after": "住在天堂上或者地獄裡的靈魂，是否能從那裡出來",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a004",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7648,
+      "before": "靈薄獄與亞巴郎的懷抱是否相同",
+      "after": "靈薄獄與亞巴郎的懷抱是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a005",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7651,
+      "before": "靈薄獄與惡人所處的地獄是否相同",
+      "after": "靈薄獄與惡人所處的地獄是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a006",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7653,
+      "before": "兒童所處的靈薄獄與古聖祖所處的靈薄獄是否相同",
+      "after": "兒童所處的靈薄獄與古聖祖所處的靈薄獄是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q069.a007",
+      "question": "SUPPL.q069",
+      "pdf_file_page": 7654,
+      "before": "是否有許多居所",
+      "after": "是否有許多居所",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q070.a001",
+      "question": "SUPPL.q070",
+      "pdf_file_page": 7659,
+      "before": "離開肉身後的靈魂，是否仍然有感覺能力",
+      "after": "離開肉身後的靈魂，是否仍然有感覺能力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-035.png"
+    },
+    {
+      "id": "SUPPL.q070.a002",
+      "question": "SUPPL.q070",
+      "pdf_file_page": 7664,
+      "before": "離開肉身後的靈魂，是否仍然有感覺能力的行為",
+      "after": "離開肉身後的靈魂，是否仍然有感覺能力的行為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q070.a003",
+      "question": "SUPPL.q070",
+      "pdf_file_page": 7668,
+      "before": "離開肉身後的靈魂，是否可能受有形的火刑",
+      "after": "離開肉身後的靈魂，是否可能受有形的火刑",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a001",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7677,
+      "before": "一人所奉獻的救助是否有益於另一人",
+      "after": "一人所奉獻的救助是否有益於另一人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a002",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7679,
+      "before": "生者的善工是否可能救助亡者",
+      "after": "生者的善工是否可能救助亡者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a003",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7682,
+      "before": "罪人所奉獻的救助是否有益於亡者",
+      "after": "罪人所奉獻的救助是否有益於亡者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a004",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7685,
+      "before": "生者為亡者奉獻的救助，是否有益於活人",
+      "after": "生者為亡者奉獻的救助，是否有益於活人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a005",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7686,
+      "before": "生者為亡者奉獻的救助，是否有錢於地獄的惡人",
+      "after": "生者為亡者奉獻的救助，是否有益於地獄的惡人",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a006",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7692,
+      "before": "生者為亡者奉獻的救助，是否有益於煉獄靈魂",
+      "after": "生者為亡者奉獻的救助，是否有益於煉獄靈魂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-036.png"
+    },
+    {
+      "id": "SUPPL.q071.a007",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7694,
+      "before": "生者為亡者奉獻的救助，是否有益於璽薄獄的兒童",
+      "after": "生者為亡者奉獻的救助，是否有益於璽薄獄的兒童",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a008",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7695,
+      "before": "生者為亡者奉獻的救助，是否有益於天堂的聖人",
+      "after": "生者為亡者奉獻的救助，是否有益於天堂的聖人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a009",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7698,
+      "before": "是否唯有聖教會的祈禱、彌撒聖祭和哀矜，纔可能、或者特殊地救助亡者靈魂",
+      "after": "是否唯有聖教會的祈禱、彌撒聖祭和哀矜，才可能、或者特殊地救助亡者靈魂",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a010",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7700,
+      "before": "聖教會所頒的大赦是否有益於亡者",
+      "after": "聖教會所頒的大赦是否有益於亡者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a011",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7702,
+      "before": "葬禮是否有位於亡者有關第十-節，我們討論如下:",
+      "after": "葬禮是否有益於亡者",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-037.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q071.a011.intro",
+        "restored_source_intro": "有關第十一節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q071.a012",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7705,
+      "before": "生者為一位亡者奉獻的救助，是否也有益於其他亡者",
+      "after": "生者為一位亡者奉獻的救助，是否也有益於其他亡者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a013",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7708,
+      "before": "生者為許多亡者奉獻的救助，是否像專為一人般地有效",
+      "after": "生者為許多亡者奉獻的救助，是否像專為一人般地有效",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q071.a014",
+      "question": "SUPPL.q071",
+      "pdf_file_page": 7710,
+      "before": "生者只為亡者奉獻公共救助，與同時奉獻公共救助及特殊救助，效力是否相同",
+      "after": "生者只為亡者奉獻公共救助，與同時奉獻公共救助及特殊救助，效力是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-037.png"
+    },
+    {
+      "id": "SUPPL.q072.a001",
+      "question": "SUPPL.q072",
+      "pdf_file_page": 7712,
+      "before": "天堂的聖人是否知道我們的祈禱",
+      "after": "天堂的聖人是否知道我們的祈禱",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q072.a002",
+      "question": "SUPPL.q072",
+      "pdf_file_page": 7716,
+      "before": "是否應該祈求天堂的聖人為我們轉求天主",
+      "after": "是否應該祈求天堂的聖人為我們轉求天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q072.a003",
+      "question": "SUPPL.q072",
+      "pdf_file_page": 7719,
+      "before": "天堂聖人的轉求是否常蒙天主的允",
+      "after": "天堂聖人的轉求是否常蒙天主的允",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q073.a001",
+      "question": "SUPPL.q073",
+      "pdf_file_page": 7723,
+      "before": "主的公審判來臨前，是否將有異兆出現",
+      "after": "主的公審判來臨前，是否將有異兆出現",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q073.a002",
+      "question": "SUPPL.q073",
+      "pdf_file_page": 7726,
+      "before": "H丹在公審判時，是否將真正失光",
+      "after": "日月在公審判時，是否將真正失光",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q073.a003",
+      "question": "SUPPL.q073",
+      "pdf_file_page": 7727,
+      "before": "當主再來時，天上的德、能者是否會動搖",
+      "after": "當主再來時，天上的德能者是否會動搖",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q074.a001",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7730,
+      "before": "世界是否將有淨化",
+      "after": "世界是否將有淨化",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q074.a002",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7733,
+      "before": "未來的淨化是否用火",
+      "after": "未來的淨化是否用火",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-038.png"
+    },
+    {
+      "id": "SUPPL.q074.a003",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7735,
+      "before": "這種烈火是否與元素之火同類",
+      "after": "這種烈火是否與元素之火同類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a004",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7738,
+      "before": "這種烈火是否也將淨化高天",
+      "after": "這種烈火是否也將淨化高天",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a005",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7740,
+      "before": "這種烈火是否將焚毀其它元素",
+      "after": "這種烈火是否將焚毀其它元素",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a006",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7743,
+      "before": "這種烈火是否應該淨化一切元素",
+      "after": "這種烈火是否應該淨化一切元素",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a007",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7745,
+      "before": "最後焚毀世界的烈火是否應該在公審判之後",
+      "after": "最後焚毀世界的烈火是否應該在公審判之後",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a008",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7747,
+      "before": "這種烈火是否將對人類產生所敘述的效果",
+      "after": "這種烈火是否將對人類產生所敘述的效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q074.a009",
+      "question": "SUPPL.q074",
+      "pdf_file_page": 7750,
+      "before": "這種烈火是否將席捲一切惡人",
+      "after": "這種烈火是否將席捲一切惡人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q075.a001",
+      "question": "SUPPL.q075",
+      "pdf_file_page": 7753,
+      "before": "是否將有肉身復活",
+      "after": "是否將有肉身復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-039.png"
+    },
+    {
+      "id": "SUPPL.q075.a002",
+      "question": "SUPPL.q075",
+      "pdf_file_page": 7757,
+      "before": "全人類的肉身是否都將復活",
+      "after": "全人類的肉身是否都將復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q075.a003",
+      "question": "SUPPL.q075",
+      "pdf_file_page": 7759,
+      "before": "肉身復活是否是自然的有關第三郎，我們討論如下:",
+      "after": "肉身復活是否是自然的",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-missing-002.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q075.a003.intro",
+        "restored_source_intro": "有關第三節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q076.a001",
+      "question": "SUPPL.q076",
+      "pdf_file_page": 7764,
+      "before": "基督的復活是否是我們肉身復活的原因",
+      "after": "基督的復活是否是我們肉身復活的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q076.a002",
+      "question": "SUPPL.q076",
+      "pdf_file_page": 7767,
+      "before": "天主的號角聲是否是我們肉身復活的原因",
+      "after": "天主的號角聲是否是我們肉身復活的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q076.a003",
+      "question": "SUPPL.q076",
+      "pdf_file_page": 7770,
+      "before": "天使為肉身復活是否也將有所作為",
+      "after": "天使為肉身復活是否也將有所作為",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q077.a001",
+      "question": "SUPPL.q077",
+      "pdf_file_page": 7772,
+      "before": "肉身復活的時間是否應該延至世界末日",
+      "after": "肉身復活的時間是否應該延至世界末日",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q077.a002",
+      "question": "SUPPL.q077",
+      "pdf_file_page": 7776,
+      "before": "肉身復活的時間是否祕而不宣",
+      "after": "肉身復活的時間是否祕而不宣",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q077.a003",
+      "question": "SUPPL.q077",
+      "pdf_file_page": 7779,
+      "before": "未來的肉身復活是否在夜間",
+      "after": "未來的肉身復活是否在夜間",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q077.a004",
+      "question": "SUPPL.q077",
+      "pdf_file_page": 7781,
+      "before": "未來的肉身復活是否是立即的，或者是逐漸的",
+      "after": "未來的肉身復活是否是立即的，或者是逐漸的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-040.png"
+    },
+    {
+      "id": "SUPPL.q078.a001",
+      "question": "SUPPL.q078",
+      "pdf_file_page": 7783,
+      "before": "死亡是否是所有人肉身復活的起點",
+      "after": "死亡是否是所有人肉身復活的起點",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q078.a002",
+      "question": "SUPPL.q078",
+      "pdf_file_page": 7786,
+      "before": "全人類是否都將從灰燼中復活",
+      "after": "全人類是否都將從灰燼中復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q078.a003",
+      "question": "SUPPL.q078",
+      "pdf_file_page": 7789,
+      "before": "重塑人類身體的灰燼'是否自然地傾向使它們凝聚的靈魂有關第三郎，我們討論如下:",
+      "after": "重塑人類身體的灰燼，是否自然地傾向使它們凝聚的靈魂",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-missing-002.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q078.a003.intro",
+        "restored_source_intro": "有關第三節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q079.a001",
+      "question": "SUPPL.q079",
+      "pdf_file_page": 7791,
+      "before": "復活者的軍魂是否將與同一肉身重新合一",
+      "after": "復活者的靈魂是否將與同一肉身重新合一",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q079.a002",
+      "question": "SUPPL.q079",
+      "pdf_file_page": 7796,
+      "before": "未來復活的是否是同一個人",
+      "after": "未來復活的是否是同一個人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q079.a003",
+      "question": "SUPPL.q079",
+      "pdf_file_page": 7800,
+      "before": "在肉身復活時，已化為灰燼的人類身體，是否必須再回復成原先的肢體部位",
+      "after": "在肉身復活時，已化為灰燼的人類身體，是否必須再回復成原先的肢體部位",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q080.a001",
+      "question": "SUPPL.q080",
+      "pdf_file_page": 7803,
+      "before": "人類身體的一切肢體是否都將復活",
+      "after": "人類身體的一切肢體是否都將復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q080.a002",
+      "question": "SUPPL.q080",
+      "pdf_file_page": 7805,
+      "before": "人的頭髮與指甲是否將復活",
+      "after": "人的頭髮與指甲是否將復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q080.a003",
+      "question": "SUPPL.q080",
+      "pdf_file_page": 7807,
+      "before": "人的體液是否復活",
+      "after": "人的體液是否復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-041.png"
+    },
+    {
+      "id": "SUPPL.q080.a004",
+      "question": "SUPPL.q080",
+      "pdf_file_page": 7810,
+      "before": "凡真實屬於人性的一切，是否都將隨著肉身而復活",
+      "after": "凡真實屬於人性的一切，是否都將隨著肉身而復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q080.a005",
+      "question": "SUPPL.q080",
+      "pdf_file_page": 7816,
+      "before": "所有人類肢體的物質成份，是否都將復活",
+      "after": "所有人類肢體的物質成份，是否都將復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q081.a001",
+      "question": "SUPPL.q081",
+      "pdf_file_page": 7820,
+      "before": "所有的人是否都復活成同樣的青春年紀",
+      "after": "所有的人是否都復活成同樣的青春年紀",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q081.a002",
+      "question": "SUPPL.q081",
+      "pdf_file_page": 7822,
+      "before": "復活者是否都成為同等身材",
+      "after": "復活者是否都成為同等身材",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q081.a003",
+      "question": "SUPPL.q081",
+      "pdf_file_page": 7824,
+      "before": "復活者是否都成為同一性別，即男性",
+      "after": "復活者是否都成為同一性別，即男性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q081.a004",
+      "question": "SUPPL.q081",
+      "pdf_file_page": 7825,
+      "before": "復活者是否都度生養的動物性生活",
+      "after": "復活者是否都度生養的動物性生活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q082.a001",
+      "question": "SUPPL.q082",
+      "pdf_file_page": 7828,
+      "before": "未來聖人們復活後的身體是不是神健的",
+      "after": "未來聖人們復活後的身體是不是神健的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q082.a002",
+      "question": "SUPPL.q082",
+      "pdf_file_page": 7834,
+      "before": "一切聖人們的神健是否相等",
+      "after": "一切聖人們的神健是否相等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-042.png"
+    },
+    {
+      "id": "SUPPL.q082.a003",
+      "question": "SUPPL.q082",
+      "pdf_file_page": 7835,
+      "before": "光榮身體的神健是否排除現實的感覺",
+      "after": "光榮身體的神健是否排除現實的感覺",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q082.a004",
+      "question": "SUPPL.q082",
+      "pdf_file_page": 7839,
+      "before": "未來聖人們在天堂上的感覺是否都是現實的",
+      "after": "未來聖人們在天堂上的感覺是否都是現實的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a001",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7844,
+      "before": "神透是不是光榮身體的特性",
+      "after": "神透是不是光榮身體的特性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a002",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7848,
+      "before": "光榮的身體因神透，是否能與非光榮的身體同時存在於同一個地方",
+      "after": "光榮的身體因神透，是否能與非光榮的身體同時存在於同一個地方",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a003",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7853,
+      "before": "兩個物體藉著奇蹟，是否能同時存在於同一個地方",
+      "after": "兩個物體藉著奇蹟，是否能同時存在於同一個地方",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a004",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7857,
+      "before": "光榮的身體是否能與其它的光榮身體，同時存在於同一個地方",
+      "after": "光榮的身體是否能與其它的光榮身體，同時存在於同一個地方",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a005",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7859,
+      "before": "光榮的身體困神透，是否不必存在於相等的地方",
+      "after": "光榮的身體困神透，是否不必存在於相等的地方",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q083.a006",
+      "question": "SUPPL.q083",
+      "pdf_file_page": 7861,
+      "before": "光榮的身體因神透，是否不可捉摸",
+      "after": "光榮的身體因神透，是否不可捉摸",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-043.png"
+    },
+    {
+      "id": "SUPPL.q084.a001",
+      "question": "SUPPL.q084",
+      "pdf_file_page": 7864,
+      "before": "光榮身體是不是神速的",
+      "after": "光榮身體是不是神速的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q084.a002",
+      "question": "SUPPL.q084",
+      "pdf_file_page": 7866,
+      "before": "聖人的神速是否用於運動",
+      "after": "聖人的神速是否用於運動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q084.a003",
+      "question": "SUPPL.q084",
+      "pdf_file_page": 7869,
+      "before": "聖人的運動是否是立即的",
+      "after": "聖人的運動是否是立即的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q085.a001",
+      "question": "SUPPL.q085",
+      "pdf_file_page": 7877,
+      "before": "神光是否屬於光榮的身體",
+      "after": "神光是否屬於光榮的身體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q085.a002",
+      "question": "SUPPL.q085",
+      "pdf_file_page": 7880,
+      "before": "非光榮身體的眼睛是否能看見光榮身體的神光",
+      "after": "非光榮身體的眼睛是否能看見光榮身體的神光",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q085.a003",
+      "question": "SUPPL.q085",
+      "pdf_file_page": 7882,
+      "before": "非光榮的身體是否必然地看見光漿的身體",
+      "after": "非光榮的身體是否必然地看見光漿的身體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q086.a001",
+      "question": "SUPPL.q086",
+      "pdf_file_page": 7884,
+      "before": "未來惡人的身體是否將帶著自己的畸形一起復活",
+      "after": "未來惡人的身體是否將帶著自己的畸形一起復活",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q086.a002",
+      "question": "SUPPL.q086",
+      "pdf_file_page": 7887,
+      "before": "未來惡人的身體是否是不朽的",
+      "after": "未來惡人的身體是否是不朽的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-044.png"
+    },
+    {
+      "id": "SUPPL.q086.a003",
+      "question": "SUPPL.q086",
+      "pdf_file_page": 7889,
+      "before": "未來惡人的身體是否是神健的",
+      "after": "未來惡人的身體是否是神健的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q087.a001",
+      "question": "SUPPL.q087",
+      "pdf_file_page": 7893,
+      "before": "復活後的人是否將知道自己所犯的一切罪過",
+      "after": "復活後的人是否將知道自己所犯的一切罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q087.a002",
+      "question": "SUPPL.q087",
+      "pdf_file_page": 7896,
+      "before": "復活後的人是否能知道他人良心所有的一切",
+      "after": "復活後的人是否能知道他人良心所有的一切",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q087.a003",
+      "question": "SUPPL.q087",
+      "pdf_file_page": 7899,
+      "before": "復活後的人是否都因唯一的直觀而知道功過",
+      "after": "復活後的人是否都因唯一的直觀而知道功過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q088.a001",
+      "question": "SUPPL.q088",
+      "pdf_file_page": 7901,
+      "before": "是否將有公審判",
+      "after": "是否將有公審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q088.a002",
+      "question": "SUPPL.q088",
+      "pdf_file_page": 7903,
+      "before": "公審判的宣判是否該月1言語",
+      "after": "公審判的宣判是否該用言語",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q088.a003",
+      "question": "SUPPL.q088",
+      "pdf_file_page": 7906,
+      "before": "公審判的時間是否無人得知",
+      "after": "公審判的時間是否無人得知",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q088.a004",
+      "question": "SUPPL.q088",
+      "pdf_file_page": 7909,
+      "before": "公審判是否應該在約沙法特山谷或其周圍的地方舉行",
+      "after": "公審判是否應該在約沙法特山谷或其周圍的地方舉行",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-045.png"
+    },
+    {
+      "id": "SUPPL.q089.a001",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7911,
+      "before": "是否有些人將向基督一起審判全人類",
+      "after": "是否有些人將同基督一起審判全人類",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a002",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7914,
+      "before": "審判權是否與神貧相符合",
+      "after": "審判權是否與神貧相符合",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a003",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7917,
+      "before": "天使是否應該審判全人類",
+      "after": "天使是否應該審判全人類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a004",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7919,
+      "before": "魔鬼在公審判後，是否將執行審判官對惑人的判決",
+      "after": "魔鬼在公審判後，是否將執行審判官對惑人的判決",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a005",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7921,
+      "before": "全人類在公審判時，是否都將出庭受審判",
+      "after": "全人類在公審判時，是否都將出庭受審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a006",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7922,
+      "before": "善人在公審判時是否將受審判",
+      "after": "善人在公審判時是否將受審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a007",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7924,
+      "before": "惡人在公審判時是否將受審判",
+      "after": "惡人在公審判時是否將受審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q089.a008",
+      "question": "SUPPL.q089",
+      "pdf_file_page": 7926,
+      "before": "天使在公審判時是否將受審判",
+      "after": "天使在公審判時是否將受審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-046.png"
+    },
+    {
+      "id": "SUPPL.q090.a001",
+      "question": "SUPPL.q090",
+      "pdf_file_page": 7928,
+      "before": "基督是否將以奴僕的形體降來而審判",
+      "after": "基督是否將以奴僕的形體降來而審判",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q090.a002",
+      "question": "SUPPL.q090",
+      "pdf_file_page": 7931,
+      "before": "基督在公審判時，是否將以光榮的人類形體顯現",
+      "after": "基督在公審判時，是否將以光榮的人類形體顯現",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q090.a003",
+      "question": "SUPPL.q090",
+      "pdf_file_page": 7934,
+      "before": "惡人是否可能享見基督的天主性而不感到快樂",
+      "after": "惡人是否可能享見基督的天主性而不感到快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q091.a001",
+      "question": "SUPPL.q091",
+      "pdf_file_page": 7938,
+      "before": "世界是否將煥然一新",
+      "after": "世界是否將煥然一新",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q091.a002",
+      "question": "SUPPL.q091",
+      "pdf_file_page": 7941,
+      "before": "天體的運行在煥然一新的世界上，是否將停止",
+      "after": "天體的運行在煥然一新的世界上，是否將停止",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-missing-002.png"
+    },
+    {
+      "id": "SUPPL.q091.a003",
+      "question": "SUPPL.q091",
+      "pdf_file_page": 7948,
+      "before": "天體的光輝在煥然一新的世界上，是否將增加",
+      "after": "天體的光輝在煥然一新的世界上，是否將增加",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q091.a004",
+      "question": "SUPPL.q091",
+      "pdf_file_page": 7952,
+      "before": "元素是否因增加光輝而將煥然一新",
+      "after": "元素是否因增加光輝而將煥然一新",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q091.a005",
+      "question": "SUPPL.q091",
+      "pdf_file_page": 7955,
+      "before": "動植物在煥然一新的世界上，是否仍將存在",
+      "after": "動植物在煥然一新的世界上，是否仍將存在",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q092.a001",
+      "question": "SUPPL.q092",
+      "pdf_file_page": 7959,
+      "before": "人類的理智是否可能享見天主的本體",
+      "after": "人類的理智是否可能享見天主的本體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-047.png"
+    },
+    {
+      "id": "SUPPL.q092.a002",
+      "question": "SUPPL.q092",
+      "pdf_file_page": 7974,
+      "before": "聖人復活後的肉眼是否將享見天主",
+      "after": "聖人復活後的肉眼是否將享見天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q092.a003",
+      "question": "SUPPL.q092",
+      "pdf_file_page": 7979,
+      "before": "享見天主的聖人，是否都享見天主所見的萬物",
+      "after": "享見天主的聖人，是否都享見天主所見的萬物",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q093.a001",
+      "question": "SUPPL.q093",
+      "pdf_file_page": 7987,
+      "before": "聖人在公審判後的未來真福。是否大於在公審判前的真褔",
+      "after": "聖人在公審判後的未來真福，是否大於在公審判前的真福",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q093.a002",
+      "question": "SUPPL.q093",
+      "pdf_file_page": 7990,
+      "before": "真褔的等級是否應該稱為住處",
+      "after": "真褔的等級是否應該稱為住處",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q093.a003",
+      "question": "SUPPL.q093",
+      "pdf_file_page": 7992,
+      "before": "不同的住處是否按愛德等級區分",
+      "after": "不同的住處是否按愛德等級區分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q094.a001",
+      "question": "SUPPL.q094",
+      "pdf_file_page": 7994,
+      "before": "天堂的聖人是否將看見惡人受的刑罰",
+      "after": "天堂的聖人是否將看見惡人受的刑罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q094.a002",
+      "question": "SUPPL.q094",
+      "pdf_file_page": 7995,
+      "before": "天堂的聖人是否同情惡人的不幸",
+      "after": "天堂的聖人是否同情惡人的不幸",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q094.a003",
+      "question": "SUPPL.q094",
+      "pdf_file_page": 7997,
+      "before": "天堂的聖人是否喜樂於惡人的刑罰",
+      "after": "天堂的聖人是否喜樂於惡人的刑罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-048.png"
+    },
+    {
+      "id": "SUPPL.q095.a001",
+      "question": "SUPPL.q095",
+      "pdf_file_page": 7999,
+      "before": "聖人是否得到一些作為贈禮的奇恩",
+      "after": "聖人是否得到一些作為贈禮的奇恩",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q095.a002",
+      "question": "SUPPL.q095",
+      "pdf_file_page": 8003,
+      "before": "作為妝宮的奇恩是否與真福相同",
+      "after": "作為妝宮的奇恩是否與真福相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q095.a003",
+      "question": "SUPPL.q095",
+      "pdf_file_page": 8005,
+      "before": "基督是否適宜有一些作為妝盔的奇恩",
+      "after": "基督是否適宜有一些作為妝奩的奇恩",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q095.a004",
+      "question": "SUPPL.q095",
+      "pdf_file_page": 8008,
+      "before": "天使是否有一些作為妝富的奇恩",
+      "after": "天使是否有一些作為妝奩的奇恩",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q095.a005",
+      "question": "SUPPL.q095",
+      "pdf_file_page": 8011,
+      "before": "靈魂是否適宜有三種作為妝富的奇恩，即是:享見、愛慕和享有天主",
+      "after": "靈魂是否適宜有三種作為妝奩的奇恩，即是：享見、愛慕和享有天主",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q096.a001",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8016,
+      "before": "大光圈與所講的小光圈之基本賞報是否相同",
+      "after": "大光圈與所講的小光圈之基本賞報是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q096.a002",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8020,
+      "before": "大光國與果實是否有別",
+      "after": "大光國與果實是否有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q096.a003",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8023,
+      "before": "果實是否只應該歸於節慾之德",
+      "after": "果實是否只應該歸於節慾之德",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-049.png"
+    },
+    {
+      "id": "SUPPL.q096.a004",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8025,
+      "before": "三種效果是否適宜歸於節慾之德的三部分",
+      "after": "三種效果是否適宜歸於節慾之德的三部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a005",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8028,
+      "before": "大光圈是否應該歸於貞操",
+      "after": "大光圈是否應該歸於貞操",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a006",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8033,
+      "before": "大光圈是否應該歸於殉道烈士有關這一節，我們討論如下:",
+      "after": "大光圈是否應該歸於殉道烈士",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-050.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "SUPPL.q096.a006.intro",
+        "restored_source_intro": "有關這一節，我們討論如下："
+      }
+    },
+    {
+      "id": "SUPPL.q096.a007",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8040,
+      "before": "大光園是否應該歸於聖師",
+      "after": "大光園是否應該歸於聖師",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a008",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8041,
+      "before": "大光圈是否應該歸於基督",
+      "after": "大光圈是否應該歸於基督",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a009",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8043,
+      "before": "大光圈是否應該歸於天使",
+      "after": "大光圈是否應該歸於天使",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a010",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8045,
+      "before": "大光圈是否也應該歸於肉身",
+      "after": "大光圈是否也應該歸於肉身",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a011",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8046,
+      "before": "大光園是否適宜分為貞女、殉道烈士和聖師三項",
+      "after": "大光園是否適宜分為貞女、殉道烈士和聖師三項",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-050.png"
+    },
+    {
+      "id": "SUPPL.q096.a012",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8048,
+      "before": "貞女的大光圈是否是大光圈中最大者",
+      "after": "貞女的大光圈是否是大光圈中最大者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q096.a013",
+      "question": "SUPPL.q096",
+      "pdf_file_page": 8050,
+      "before": "某位貞女、殉道烈士或者聖師的大光圈，是否優於其他人的大光圈",
+      "after": "某位貞女、殉道烈士或者聖師的大光圈，是否優於其他人的大光圈",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a001",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8052,
+      "before": "地獄的惡人是否只受火刑",
+      "after": "地獄的惡人是否只受火刑",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a002",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8054,
+      "before": "使惡人受苦的晶子是否是肉身的",
+      "after": "使惡人受苦的蟲子是否是肉身的",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a003",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8055,
+      "before": "未來惡人的哀號是否是肉身的",
+      "after": "未來惡人的哀號是否是肉身的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a004",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8056,
+      "before": "未來惡人是否住在有形的黑暗中",
+      "after": "未來惡人是否住在有形的黑暗中",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a005",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8058,
+      "before": "地獄懲罰惡人身體的烈火是否是有形的",
+      "after": "地獄懲罰惡人身體的烈火是否是有形的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a006",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8061,
+      "before": "地獄的烈火與人所看見的有形烈火，種類是否相同",
+      "after": "地獄的烈火與人所看見的有形烈火，種類是否相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-051.png"
+    },
+    {
+      "id": "SUPPL.q097.a007",
+      "question": "SUPPL.q097",
+      "pdf_file_page": 8064,
+      "before": "地獄的烈火是否是在地下",
+      "after": "地獄的烈火是否是在地下",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a001",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8068,
+      "before": "惡人的整個意志是否都是邪惡的",
+      "after": "惡人的整個意志是否都是邪惡的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a002",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8070,
+      "before": "惡人是否懊悔自己所犯的罪過",
+      "after": "惡人是否懊悔自己所犯的罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a003",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8072,
+      "before": "惡人是否能因正當與慎重的理由而渴望不存在",
+      "after": "惡人是否能因正當與慎重的理由而渴望不存在",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a004",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8073,
+      "before": "地獄中的惡人是否渴望那些沒有受罰的人們受罰",
+      "after": "地獄中的惡人是否渴望那些沒有受罰的人們受罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a005",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8075,
+      "before": "惡人是否惱恨天主",
+      "after": "惡人是否惱恨天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a006",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8076,
+      "before": "受永罰的惡人是否繼續犯罪",
+      "after": "受永罰的惡人是否繼續犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a007",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8078,
+      "before": "惡人是否能運用自己在現世所求得的知識",
+      "after": "惡人是否能運用自己在現世所求得的知識",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-052.png"
+    },
+    {
+      "id": "SUPPL.q098.a008",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8079,
+      "before": "惡人是否將想起天主",
+      "after": "惡人是否將想起天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q098.a009",
+      "question": "SUPPL.q098",
+      "pdf_file_page": 8080,
+      "before": "惡人是否看到聖人的光榮",
+      "after": "惡人是否看到聖人的光榮",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q099.a001",
+      "question": "SUPPL.q099",
+      "pdf_file_page": 8082,
+      "before": "罪人是否因天主的正義而受永罰",
+      "after": "罪人是否因天主的正義而受永罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q099.a002",
+      "question": "SUPPL.q099",
+      "pdf_file_page": 8087,
+      "before": "惡人與魔鬼的一切刑罰，是否因天主的仁慈而結束",
+      "after": "惡人與魔鬼的一切刑罰，是否因天主的仁慈而結束",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q099.a003",
+      "question": "SUPPL.q099",
+      "pdf_file_page": 8089,
+      "before": "天主的仁慈是否容許世人受永罰",
+      "after": "天主的仁慈是否容許世人受永罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q099.a004",
+      "question": "SUPPL.q099",
+      "pdf_file_page": 8092,
+      "before": "至少基督徒的刑罰，是否因天主的仁慈而結束",
+      "after": "至少基督徒的刑罰，是否因天主的仁慈而結束",
+      "status": "checked_unchanged",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    },
+    {
+      "id": "SUPPL.q099.a005",
+      "question": "SUPPL.q099",
+      "pdf_file_page": 8094,
+      "before": "行仁愛善工者，是否將受永罰;或者唯有輕視仁愛善工者，才將受永罰",
+      "after": "行仁愛善工者，是否將受永罰；或者唯有輕視仁愛善工者，才將受永罰",
+      "status": "corrected",
+      "source_image_sheet": "SUPPL-articles-053.png"
+    }
+  ]
+}
