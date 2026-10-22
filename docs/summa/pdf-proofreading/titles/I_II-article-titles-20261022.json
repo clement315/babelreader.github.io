@@ -1,0 +1,5841 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-article-titles-20261022",
+  "date": "2026-10-22",
+  "author": "element",
+  "baseline_git_commit": "0862aed74a7e22f563ee8160bec36998841201b6",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "newly_reviewed_article_titles": 619,
+    "corrected_article_titles": 41,
+    "title_only_not_body_proofreading": true
+  },
+  "changed_reader_files": [
+    "data/summa/I_II/q8.json",
+    "data/summa/I_II/q10.json",
+    "data/summa/I_II/q14.json",
+    "data/summa/I_II/q18.json",
+    "data/summa/I_II/q20.json",
+    "data/summa/I_II/q32.json",
+    "data/summa/I_II/q57.json",
+    "data/summa/I_II/q58.json",
+    "data/summa/I_II/q59.json",
+    "data/summa/I_II/q60.json",
+    "data/summa/I_II/q61.json",
+    "data/summa/I_II/q63.json",
+    "data/summa/I_II/q65.json",
+    "data/summa/I_II/q66.json",
+    "data/summa/I_II/q67.json",
+    "data/summa/I_II/q71.json",
+    "data/summa/I_II/q77.json",
+    "data/summa/I_II/q86.json",
+    "data/summa/I_II/q91.json",
+    "data/summa/I_II/q99.json",
+    "data/summa/I_II/q100.json",
+    "data/summa/I_II/q101.json",
+    "data/summa/I_II/q102.json",
+    "data/summa/I_II/q108.json",
+    "data/summa/I_II/q112.json",
+    "data/summa/I_II/q113.json",
+    "data/summa/catalog.json"
+  ],
+  "protected_files": [
+    {
+      "path": "data/summa/I_II/q8.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "8a39bd76b364cdd200a3b164290e7a4f2e7eb4cfecab0476a3fab5299caaf4c6"
+    },
+    {
+      "path": "data/summa/I_II/q10.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "17b3c80d6456e6617fc9f65808a18e49ed768d66344e0fbcbd4c306910ca300f"
+    },
+    {
+      "path": "data/summa/I_II/q14.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "704c72244dde8ac0c40b98c4091b00b1c79852d7603f11c9058c8941581b8d50"
+    },
+    {
+      "path": "data/summa/I_II/q18.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "1aef860c9d361b928733fd3d06d95e370e8ce4add3cd1eb735d263714e5fee34"
+    },
+    {
+      "path": "data/summa/I_II/q20.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "602309bde98c55df92866b9550af655090200f138620a09b23be04fdf9c96bc3"
+    },
+    {
+      "path": "data/summa/I_II/q32.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "f868b25acaf0a924e2543931b9d6e259c346f4641f704d40040dc8d164e265b7"
+    },
+    {
+      "path": "data/summa/I_II/q57.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "0d0e9b44abb65a05c51b82c3e10cffe03303908599d495ae7db9b3880c57239d"
+    },
+    {
+      "path": "data/summa/I_II/q58.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "5d4d5b7c2b95d51a8e20cf1721d832c19f335ef2d46b76d6abfde086fae97276"
+    },
+    {
+      "path": "data/summa/I_II/q59.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "20b5ffd4662069b3658ad082d934934d86284db882d6a8bbe4de75856aa083ab"
+    },
+    {
+      "path": "data/summa/I_II/q60.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "3c19966f71565907156c0266b5f0d61dd35021b09affb974609a5b77eb552440"
+    },
+    {
+      "path": "data/summa/I_II/q61.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "7c45afd35dea8900bd0d77e3da58fc155c08a3b8b526b850b5420c81354b8f5a"
+    },
+    {
+      "path": "data/summa/I_II/q63.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "d35643460461f616611bd22d2c273c25499b68ba76334e70abf719af06b4d335"
+    },
+    {
+      "path": "data/summa/I_II/q65.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "602d2da64a466264a7f4e40636a82117970a4ed27ce774516d347ea51fb9d8b7"
+    },
+    {
+      "path": "data/summa/I_II/q66.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "4d7ac953c0e3116381669829fa57874f3cfb91f5f13e0f5ce14a65031623ec00"
+    },
+    {
+      "path": "data/summa/I_II/q67.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "e4dae709f76d8b22cce66f7934f094224d33557098968b01ee4e7ca3438f0e67"
+    },
+    {
+      "path": "data/summa/I_II/q71.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "8ddb89f623f766e0ff896bf76c8daa9eee505ba446aaf25481849bc459aca695"
+    },
+    {
+      "path": "data/summa/I_II/q77.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "de6b44ca216edc923ad80688a8b7323f98e36b9f1eb37d4f100102a6aa6ca4f0"
+    },
+    {
+      "path": "data/summa/I_II/q86.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "98f11e58fea57fe2b8edcb80acd3ec15c67ce790787a94498d0a266920311257"
+    },
+    {
+      "path": "data/summa/I_II/q91.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "9113bf8fbeb896f33eb61c11b5c01982e608cf65ff32a74705d6c6485f62df84"
+    },
+    {
+      "path": "data/summa/I_II/q99.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "b444805a8940713fc48d28be0c089536e2bfee59e32b3f0f92be1e0a88d9f9f8"
+    },
+    {
+      "path": "data/summa/I_II/q100.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "dcd6cd58fcc89e6e7cb8337732c25b78461141d05e91f91c9ce7cc7289e5c14d"
+    },
+    {
+      "path": "data/summa/I_II/q101.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "e613262cadb15524bdbae9f375e5c19412b04266f68a68ffed9bab84e101cea6"
+    },
+    {
+      "path": "data/summa/I_II/q102.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "f84cf782ba18ed9fecdada2b9809b79f8a3a2454f4625694a1acfb0422bfaccc"
+    },
+    {
+      "path": "data/summa/I_II/q108.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "19fcdd9b49c09b604ecb7108e2f803a0b843704707a26a3a3ec922764b577913"
+    },
+    {
+      "path": "data/summa/I_II/q112.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "57bd0e7358be7701f3cc186a6e0929e08c1bd43bc0f9f76cce019c7e27033790"
+    },
+    {
+      "path": "data/summa/I_II/q113.json",
+      "non_zh_raw_bytes_identical": true,
+      "newline_escapes_preserved": true,
+      "only_titles_and_documented_intro_relocations_changed": true,
+      "sha256": "813b1c9291ced2d9c606c8c31819135b668bd87747575d327ace3abffda651e4"
+    }
+  ],
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q036.a003",
+      "page": 2147,
+      "text": "合一之嗜慾是否為傷痛之原因;",
+      "note": "原页节标题末尾确有分号，疑为原书标点印误，保留原有分号。"
+    },
+    {
+      "id": "I_II.q086.a002",
+      "page": 2672,
+      "text": "犯罪行為過後污點是否仍然在留在靈魂上",
+      "note": "放大原页确为「在留在」，疑第一個「在」应作「存」；本批按唯一底本记录并恢复原字，疑点单列供人工定夺。"
+    }
+  ],
+  "readings": [
+    {
+      "id": "I_II.q001.a001",
+      "question": "I_II.q001",
+      "pdf_file_page": 1773,
+      "before": "人是否為目的而行動",
+      "after": "人是否為目的而行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a002",
+      "question": "I_II.q001",
+      "pdf_file_page": 1775,
+      "before": "為目的而行動是否為有理性者的專有現象",
+      "after": "為目的而行動是否為有理性者的專有現象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a003",
+      "question": "I_II.q001",
+      "pdf_file_page": 1777,
+      "before": "人的行為是否由目的區分類別",
+      "after": "人的行為是否由目的區分類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a004",
+      "question": "I_II.q001",
+      "pdf_file_page": 1779,
+      "before": "人生是否有個最後目的",
+      "after": "人生是否有個最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a005",
+      "question": "I_II.q001",
+      "pdf_file_page": 1781,
+      "before": "一人能否有許多最後目的",
+      "after": "一人能否有許多最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a006",
+      "question": "I_II.q001",
+      "pdf_file_page": 1783,
+      "before": "人之所欲是否皆為了最後目的",
+      "after": "人之所欲是否皆為了最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a007",
+      "question": "I_II.q001",
+      "pdf_file_page": 1784,
+      "before": "所有的人是否有同一個最後目的",
+      "after": "所有的人是否有同一個最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q001.a008",
+      "question": "I_II.q001",
+      "pdf_file_page": 1785,
+      "before": "其他東西的最後目的是否也與人相同",
+      "after": "其他東西的最後目的是否也與人相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-001.png"
+    },
+    {
+      "id": "I_II.q002.a001",
+      "question": "I_II.q002",
+      "pdf_file_page": 1787,
+      "before": "人的幸福是否在於財物",
+      "after": "人的幸福是否在於財物",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a002",
+      "question": "I_II.q002",
+      "pdf_file_page": 1789,
+      "before": "人的幸福是否在於榮譽",
+      "after": "人的幸福是否在於榮譽",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a003",
+      "question": "I_II.q002",
+      "pdf_file_page": 1790,
+      "before": "人的幸福是否在於聲望或光榮",
+      "after": "人的幸福是否在於聲望或光榮",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a004",
+      "question": "I_II.q002",
+      "pdf_file_page": 1792,
+      "before": "人的幸福是否在於權勢",
+      "after": "人的幸福是否在於權勢",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a005",
+      "question": "I_II.q002",
+      "pdf_file_page": 1794,
+      "before": "人的幸福是否在於身體上的利益",
+      "after": "人的幸福是否在於身體上的利益",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a006",
+      "question": "I_II.q002",
+      "pdf_file_page": 1796,
+      "before": "人的幸福是否在於肉體快樂",
+      "after": "人的幸福是否在於肉體快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a007",
+      "question": "I_II.q002",
+      "pdf_file_page": 1798,
+      "before": "人的幸福是否在於靈魂上的利益",
+      "after": "人的幸福是否在於靈魂上的利益",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q002.a008",
+      "question": "I_II.q002",
+      "pdf_file_page": 1800,
+      "before": "人的幸福是否在於某受造物",
+      "after": "人的幸福是否在於某受造物",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-002.png"
+    },
+    {
+      "id": "I_II.q003.a001",
+      "question": "I_II.q003",
+      "pdf_file_page": 1802,
+      "before": "幸福是否為一種非受造物",
+      "after": "幸福是否為一種非受造物",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a002",
+      "question": "I_II.q003",
+      "pdf_file_page": 1803,
+      "before": "幸福是否為一種動作",
+      "after": "幸福是否為一種動作",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a003",
+      "question": "I_II.q003",
+      "pdf_file_page": 1806,
+      "before": "幸福是感官部分之動作，抑或智性部分之動作",
+      "after": "幸福是感官部分之動作，抑或智性部分之動作",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a004",
+      "question": "I_II.q003",
+      "pdf_file_page": 1808,
+      "before": "若幸福屬於智性，那是智能之動作，抑或意志之動作",
+      "after": "若幸福屬於智性，那是智能之動作，抑或意志之動作",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a005",
+      "question": "I_II.q003",
+      "pdf_file_page": 1810,
+      "before": "幸福是鑑賞理性之動作，抑為實踐理性之動作",
+      "after": "幸福是鑑賞理性之動作，抑為實踐理性之動作",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a006",
+      "question": "I_II.q003",
+      "pdf_file_page": 1812,
+      "before": "幸福是否在於鑑賞性知識之探討",
+      "after": "幸福是否在於鑑賞性知識之探討",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a007",
+      "question": "I_II.q003",
+      "pdf_file_page": 1814,
+      "before": "幸福是否在於認識單純體或天使",
+      "after": "幸福是否在於認識單純體或天使",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q003.a008",
+      "question": "I_II.q003",
+      "pdf_file_page": 1815,
+      "before": "人的幸福是否在於觀賞天主的本質",
+      "after": "人的幸福是否在於觀賞天主的本質",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-003.png"
+    },
+    {
+      "id": "I_II.q004.a001",
+      "question": "I_II.q004",
+      "pdf_file_page": 1817,
+      "before": "幸福是否需要快感",
+      "after": "幸福是否需要快感",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a002",
+      "question": "I_II.q004",
+      "pdf_file_page": 1818,
+      "before": "對於幸福，是否神視比快感更重要",
+      "after": "對於幸福，是否神視比快感更重要",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a003",
+      "question": "I_II.q004",
+      "pdf_file_page": 1820,
+      "before": "幸福是否需要瞭解",
+      "after": "幸福是否需要瞭解",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a004",
+      "question": "I_II.q004",
+      "pdf_file_page": 1822,
+      "before": "幸福是否需要意志正直",
+      "after": "幸福是否需要意志正直",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a005",
+      "question": "I_II.q004",
+      "pdf_file_page": 1823,
+      "before": "人的幸福是否需要身體",
+      "after": "人的幸福是否需要身體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a006",
+      "question": "I_II.q004",
+      "pdf_file_page": 1826,
+      "before": "幸福是否需要身體健全",
+      "after": "幸福是否需要身體健全",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a007",
+      "question": "I_II.q004",
+      "pdf_file_page": 1828,
+      "before": "幸福是否需要身外物",
+      "after": "幸福是否需要身外物",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q004.a008",
+      "question": "I_II.q004",
+      "pdf_file_page": 1830,
+      "before": "幸福是否需要友伴",
+      "after": "幸福是否需要友伴",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-004.png"
+    },
+    {
+      "id": "I_II.q005.a001",
+      "question": "I_II.q005",
+      "pdf_file_page": 1832,
+      "before": "人是否能獲得幸福",
+      "after": "人是否能獲得幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a002",
+      "question": "I_II.q005",
+      "pdf_file_page": 1834,
+      "before": "一人是否能比他人更幸福",
+      "after": "一人是否能比他人更幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a003",
+      "question": "I_II.q005",
+      "pdf_file_page": 1835,
+      "before": "人在現世是否能幸福",
+      "after": "人在現世是否能幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a004",
+      "question": "I_II.q005",
+      "pdf_file_page": 1837,
+      "before": "得到的幸福是否能再失落",
+      "after": "得到的幸福是否能再失落",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a005",
+      "question": "I_II.q005",
+      "pdf_file_page": 1839,
+      "before": "人憑己力是否能獲致幸福",
+      "after": "人憑己力是否能獲致幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a006",
+      "question": "I_II.q005",
+      "pdf_file_page": 1841,
+      "before": "人是否靠高級受造物之行動獲得幸福",
+      "after": "人是否靠高級受造物之行動獲得幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a007",
+      "question": "I_II.q005",
+      "pdf_file_page": 1843,
+      "before": "人為得幸福，是否需要有善行",
+      "after": "人為得幸福，是否需要有善行",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q005.a008",
+      "question": "I_II.q005",
+      "pdf_file_page": 1844,
+      "before": "是否每人皆追求幸福",
+      "after": "是否每人皆追求幸福",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-005.png"
+    },
+    {
+      "id": "I_II.q006.a001",
+      "question": "I_II.q006",
+      "pdf_file_page": 1848,
+      "before": "在人性行動中是否有情願之行動",
+      "after": "在人性行動中是否有情願之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a002",
+      "question": "I_II.q006",
+      "pdf_file_page": 1850,
+      "before": "禽獸是否有情願行動",
+      "after": "禽獸是否有情願行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a003",
+      "question": "I_II.q006",
+      "pdf_file_page": 1852,
+      "before": "沒有行動是否可有情願",
+      "after": "沒有行動是否可有情願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a004",
+      "question": "I_II.q006",
+      "pdf_file_page": 1853,
+      "before": "對意志可否施以強暴",
+      "after": "對意志可否施以強暴",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a005",
+      "question": "I_II.q006",
+      "pdf_file_page": 1855,
+      "before": "強暴是否造成不情願",
+      "after": "強暴是否造成不情願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a006",
+      "question": "I_II.q006",
+      "pdf_file_page": 1856,
+      "before": "畏懼是否造成單純的不情願",
+      "after": "畏懼是否造成單純的不情願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a007",
+      "question": "I_II.q006",
+      "pdf_file_page": 1858,
+      "before": "慾情是否造成不情願",
+      "after": "慾情是否造成不情願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q006.a008",
+      "question": "I_II.q006",
+      "pdf_file_page": 1860,
+      "before": "愚昧是否造成不情願",
+      "after": "愚昧是否造成不情願",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-006.png"
+    },
+    {
+      "id": "I_II.q007.a001",
+      "question": "I_II.q007",
+      "pdf_file_page": 1862,
+      "before": "情況是否為人性行動之附性",
+      "after": "情況是否為人性行動之附性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q007.a002",
+      "question": "I_II.q007",
+      "pdf_file_page": 1864,
+      "before": "神學家是否須討論人性行動之情況",
+      "after": "神學家是否須討論人性行動之情況",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q007.a003",
+      "question": "I_II.q007",
+      "pdf_file_page": 1866,
+      "before": "〈倫理學〉卷三所列之情況是否合適",
+      "after": "〈倫理學〉卷三所列之情況是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q007.a004",
+      "question": "I_II.q007",
+      "pdf_file_page": 1867,
+      "before": "「為何」與「動作之所在」是否為最主要情況",
+      "after": "「為何」與「動作之所在」是否為最主要情況",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q008.a001",
+      "question": "I_II.q008",
+      "pdf_file_page": 1869,
+      "before": "意志是否只指向善有關第一節，我們討論如下:",
+      "after": "意志是否只指向善有",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-001.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q008.a001.intro",
+        "restored_source_intro": "關第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q008.a002",
+      "question": "I_II.q008",
+      "pdf_file_page": 1871,
+      "before": "意志是否只要目的，或也要導向目的者",
+      "after": "意志是否只要目的，或也要導向目的者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q008.a003",
+      "question": "I_II.q008",
+      "pdf_file_page": 1873,
+      "before": "意志是否由同一個動作動向目的及導致目的者",
+      "after": "意志是否由同一個動作動向目的及導致目的者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q009.a001",
+      "question": "I_II.q009",
+      "pdf_file_page": 1875,
+      "before": "意志是否受智性推動",
+      "after": "意志是否受智性推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q009.a002",
+      "question": "I_II.q009",
+      "pdf_file_page": 1877,
+      "before": "意志是否受感官性之嗜慾推動",
+      "after": "意志是否受感官性之嗜慾推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-007.png"
+    },
+    {
+      "id": "I_II.q009.a003",
+      "question": "I_II.q009",
+      "pdf_file_page": 1878,
+      "before": "意志是否推動自己",
+      "after": "意志是否推動自己",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q009.a004",
+      "question": "I_II.q009",
+      "pdf_file_page": 1880,
+      "before": "意志是否受外在之根本推動",
+      "after": "意志是否受外在之根本推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q009.a005",
+      "question": "I_II.q009",
+      "pdf_file_page": 1881,
+      "before": "意志是否受天體推動",
+      "after": "意志是否受天體推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q009.a006",
+      "question": "I_II.q009",
+      "pdf_file_page": 1883,
+      "before": "意志是否只受作為外在原理的天主推動",
+      "after": "意志是否只受作為外在原理的天主推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q010.a001",
+      "question": "I_II.q010",
+      "pdf_file_page": 1885,
+      "before": "意志是否自然動向什麼東西有關第-節，我們討論如下:",
+      "after": "意志是否自然動向什麼東西",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-008.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q010.a001.intro",
+        "restored_source_intro": "有關第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q010.a002",
+      "question": "I_II.q010",
+      "pdf_file_page": 1887,
+      "before": "意志是否必然受其對象推動",
+      "after": "意志是否必然受其對象推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q010.a003",
+      "question": "I_II.q010",
+      "pdf_file_page": 1889,
+      "before": "意志是否必然受低級嗜慾之推動",
+      "after": "意志是否必然受低級嗜慾之推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q010.a004",
+      "question": "I_II.q010",
+      "pdf_file_page": 1891,
+      "before": "意志是否必然受天主自外推動",
+      "after": "意志是否必然受天主自外推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-008.png"
+    },
+    {
+      "id": "I_II.q011.a001",
+      "question": "I_II.q011",
+      "pdf_file_page": 1893,
+      "before": "享受是否為嗜慾機能之行動",
+      "after": "享受是否為嗜慾機能之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q011.a002",
+      "question": "I_II.q011",
+      "pdf_file_page": 1894,
+      "before": "享受只屬於有靈物或亦屬於禽獸",
+      "after": "享受只屬於有靈物或亦屬於禽獸",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q011.a003",
+      "question": "I_II.q011",
+      "pdf_file_page": 1896,
+      "before": "享受是否只限於最後目的",
+      "after": "享受是否只限於最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q011.a004",
+      "question": "I_II.q011",
+      "pdf_file_page": 1898,
+      "before": "享受是否只限於已達到之目的",
+      "after": "享受是否只限於已達到之目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q012.a001",
+      "question": "I_II.q012",
+      "pdf_file_page": 1900,
+      "before": "志向是智性之行動，抑或意志之行動",
+      "after": "志向是智性之行動，抑或意志之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q012.a002",
+      "question": "I_II.q012",
+      "pdf_file_page": 1902,
+      "before": "志向是否只限於最後目的",
+      "after": "志向是否只限於最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q012.a003",
+      "question": "I_II.q012",
+      "pdf_file_page": 1903,
+      "before": "一人能否同時有二志",
+      "after": "一人能否同時有二志",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q012.a004",
+      "question": "I_II.q012",
+      "pdf_file_page": 1904,
+      "before": "志於目的與志於導致目的者，是否為同一個意志行動",
+      "after": "志於目的與志於導致目的者，是否為同一個意志行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-missing-001.png"
+    },
+    {
+      "id": "I_II.q012.a005",
+      "question": "I_II.q012",
+      "pdf_file_page": 1906,
+      "before": "禽獸有無志向",
+      "after": "禽獸有無志向",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-009.png"
+    },
+    {
+      "id": "I_II.q013.a001",
+      "question": "I_II.q013",
+      "pdf_file_page": 1908,
+      "before": "選擇是意志行動，抑或理性行動",
+      "after": "選擇是意志行動，抑或理性行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q013.a002",
+      "question": "I_II.q013",
+      "pdf_file_page": 1910,
+      "before": "禽獸有無選擇",
+      "after": "禽獸有無選擇",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q013.a003",
+      "question": "I_II.q013",
+      "pdf_file_page": 1911,
+      "before": "選擇只限於導致目的者，或有時亦關於目的",
+      "after": "選擇只限於導致目的者，或有時亦關於目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q013.a004",
+      "question": "I_II.q013",
+      "pdf_file_page": 1913,
+      "before": "選擇是否只限於由我們所做者",
+      "after": "選擇是否只限於由我們所做者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q013.a005",
+      "question": "I_II.q013",
+      "pdf_file_page": 1914,
+      "before": "選擇是否只限於可能範閻者",
+      "after": "選擇是否只限於可能範閻者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q013.a006",
+      "question": "I_II.q013",
+      "pdf_file_page": 1915,
+      "before": "人是必然地，抑或自由地選擇",
+      "after": "人是必然地，抑或自由地選擇",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q014.a001",
+      "question": "I_II.q014",
+      "pdf_file_page": 1918,
+      "before": "考慮是否等於探究",
+      "after": "考慮是否等於探究",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q014.a002",
+      "question": "I_II.q014",
+      "pdf_file_page": 1920,
+      "before": "考慮是關於目的，抑只限於導致目的者",
+      "after": "考慮是關於目的，抑只限於導致目的者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-010.png"
+    },
+    {
+      "id": "I_II.q014.a003",
+      "question": "I_II.q014",
+      "pdf_file_page": 1921,
+      "before": "考慮是否隻眼於由我們所做者",
+      "after": "考慮是否只限於由我們所做者",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q014.a004",
+      "question": "I_II.q014",
+      "pdf_file_page": 1922,
+      "before": "考慮是否用於我們所做的一切",
+      "after": "考慮是否用於我們所做的一切",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q014.a005",
+      "question": "I_II.q014",
+      "pdf_file_page": 1924,
+      "before": "考慮是否以分析方式進行",
+      "after": "考慮是否以分析方式進行",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q014.a006",
+      "question": "I_II.q014",
+      "pdf_file_page": 1925,
+      "before": "考慮是否推衍到無限",
+      "after": "考慮是否推衍到無限",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q015.a001",
+      "question": "I_II.q015",
+      "pdf_file_page": 1927,
+      "before": "同意是嗜慾機能，抑或知覺機能之行動",
+      "after": "同意是嗜慾機能，抑或知覺機能之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q015.a002",
+      "question": "I_II.q015",
+      "pdf_file_page": 1928,
+      "before": "禽獸有無同意",
+      "after": "禽獸有無同意",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q015.a003",
+      "question": "I_II.q015",
+      "pdf_file_page": 1930,
+      "before": "同意是關於目的，抑或是關於導致目的者",
+      "after": "同意是關於目的，抑或是關於導致目的者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q015.a004",
+      "question": "I_II.q015",
+      "pdf_file_page": 1931,
+      "before": "同意於行動是否只屬於靈魂之高級部分",
+      "after": "同意於行動是否只屬於靈魂之高級部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-011.png"
+    },
+    {
+      "id": "I_II.q016.a001",
+      "question": "I_II.q016",
+      "pdf_file_page": 1933,
+      "before": "運用是否為意志之行動",
+      "after": "運用是否為意志之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q016.a002",
+      "question": "I_II.q016",
+      "pdf_file_page": 1934,
+      "before": "禽獸有無運用",
+      "after": "禽獸有無運用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q016.a003",
+      "question": "I_II.q016",
+      "pdf_file_page": 1935,
+      "before": "是否能運用最後目的",
+      "after": "是否能運用最後目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q016.a004",
+      "question": "I_II.q016",
+      "pdf_file_page": 1937,
+      "before": "運用是否先於選擇",
+      "after": "運用是否先於選擇",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q017.a001",
+      "question": "I_II.q017",
+      "pdf_file_page": 1939,
+      "before": "命令是意志之行動，抑或理性之行動",
+      "after": "命令是意志之行動，抑或理性之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q017.a002",
+      "question": "I_II.q017",
+      "pdf_file_page": 1941,
+      "before": "禽獸能否命令",
+      "after": "禽獸能否命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q017.a003",
+      "question": "I_II.q017",
+      "pdf_file_page": 1942,
+      "before": "運用是否先於命令",
+      "after": "運用是否先於命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q017.a004",
+      "question": "I_II.q017",
+      "pdf_file_page": 1943,
+      "before": "命令與所命之行動是否為同一個行動",
+      "after": "命令與所命之行動是否為同一個行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-012.png"
+    },
+    {
+      "id": "I_II.q017.a005",
+      "question": "I_II.q017",
+      "pdf_file_page": 1945,
+      "before": "意志之行動是否受命令",
+      "after": "意志之行動是否受命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q017.a006",
+      "question": "I_II.q017",
+      "pdf_file_page": 1946,
+      "before": "理性之行動是否受命令",
+      "after": "理性之行動是否受命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q017.a007",
+      "question": "I_II.q017",
+      "pdf_file_page": 1948,
+      "before": "感官性嗜慾之行動是否受命令",
+      "after": "感官性嗜慾之行動是否受命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q017.a008",
+      "question": "I_II.q017",
+      "pdf_file_page": 1950,
+      "before": "生魂之行動是否受命令",
+      "after": "生魂之行動是否受命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q017.a009",
+      "question": "I_II.q017",
+      "pdf_file_page": 1951,
+      "before": "外肢之行動是否受命令",
+      "after": "外肢之行動是否受命令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q018.a001",
+      "question": "I_II.q018",
+      "pdf_file_page": 1955,
+      "before": "是否凡人性行為皆善，或亦有惡行",
+      "after": "是否凡人性行為皆善，或亦有惡行",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q018.a002",
+      "question": "I_II.q018",
+      "pdf_file_page": 1956,
+      "before": "人的行為之善惡是否在於對象",
+      "after": "人的行為之善惡是否在於對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q018.a003",
+      "question": "I_II.q018",
+      "pdf_file_page": 1958,
+      "before": "人的行為之善惡是否在於情況",
+      "after": "人的行為之善惡是否在於情況",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-013.png"
+    },
+    {
+      "id": "I_II.q018.a004",
+      "question": "I_II.q018",
+      "pdf_file_page": 1959,
+      "before": "人性行為之善惡是否在於目的",
+      "after": "人性行為之善惡是否在於目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a005",
+      "question": "I_II.q018",
+      "pdf_file_page": 1961,
+      "before": "是否有些行為按其別類(species)，即善或惡，來分類",
+      "after": "是否有些行為按其別類(species)，即善或惡，來分類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a006",
+      "question": "I_II.q018",
+      "pdf_file_page": 1963,
+      "before": "行動善惡之類別是否在於目的",
+      "after": "行動善惡之類別是否在於目的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a007",
+      "question": "I_II.q018",
+      "pdf_file_page": 1964,
+      "before": "由目的而來之類別，是否歸屬於由對象而來之類51IJ如其總類，抑或正相反",
+      "after": "由目的而來之類別，是否歸屬於由對象而來之類別如其總類，抑或正相反",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-001.png"
+    },
+    {
+      "id": "I_II.q018.a008",
+      "question": "I_II.q018",
+      "pdf_file_page": 1966,
+      "before": "是否有些行動按其本類是中性的",
+      "after": "是否有些行動按其本類是中性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a009",
+      "question": "I_II.q018",
+      "pdf_file_page": 1968,
+      "before": "是否有些行動按個體為中性者",
+      "after": "是否有些行動按個體為中性者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a010",
+      "question": "I_II.q018",
+      "pdf_file_page": 1969,
+      "before": "是否有的情況使人性行動構成善或惡之類別",
+      "after": "是否有的情況使人性行動構成善或惡之類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q018.a011",
+      "question": "I_II.q018",
+      "pdf_file_page": 1971,
+      "before": "增加善惡程度之情況，是否皆使道德行動構成善惡之類別",
+      "after": "增加善惡程度之情況，是否皆使道德行動構成善惡之類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q019.a001",
+      "question": "I_II.q019",
+      "pdf_file_page": 1973,
+      "before": "意志之善是否繫於對象",
+      "after": "意志之善是否繫於對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-014.png"
+    },
+    {
+      "id": "I_II.q019.a002",
+      "question": "I_II.q019",
+      "pdf_file_page": 1975,
+      "before": "意志之善是否只繫於對象",
+      "after": "意志之善是否只繫於對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a003",
+      "question": "I_II.q019",
+      "pdf_file_page": 1976,
+      "before": "意志之善是否繫於理性",
+      "after": "意志之善是否繫於理性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a004",
+      "question": "I_II.q019",
+      "pdf_file_page": 1977,
+      "before": "意志之善是否繫於永恆法律",
+      "after": "意志之善是否繫於永恆法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a005",
+      "question": "I_II.q019",
+      "pdf_file_page": 1979,
+      "before": "意志不隨從錯謬之理性是否為惡",
+      "after": "意志不隨從錯謬之理性是否為惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a006",
+      "question": "I_II.q019",
+      "pdf_file_page": 1981,
+      "before": "隨從錯謬理性之意志是否為善",
+      "after": "隨從錯謬理性之意志是否為善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a007",
+      "question": "I_II.q019",
+      "pdf_file_page": 1983,
+      "before": "在導致目的者方面，意志之善是否繫於目的之志向",
+      "after": "在導致目的者方面，意志之善是否繫於目的之志向",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a008",
+      "question": "I_II.q019",
+      "pdf_file_page": 1985,
+      "before": "意志之善惡程度是否隨志向之善惡程度",
+      "after": "意志之善惡程度是否隨志向之善惡程度",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a009",
+      "question": "I_II.q019",
+      "pdf_file_page": 1987,
+      "before": "意志之善是否繫於與天主之意志的符合",
+      "after": "意志之善是否繫於與天主之意志的符合",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-015.png"
+    },
+    {
+      "id": "I_II.q019.a010",
+      "question": "I_II.q019",
+      "pdf_file_page": 1988,
+      "before": "在所欲者方面，人的意志是否須與天主之意志一致，始得為善",
+      "after": "在所欲者方面，人的意志是否須與天主之意志一致，始得為善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q020.a001",
+      "question": "I_II.q020",
+      "pdf_file_page": 1992,
+      "before": "善惡首先在於意志之行動，抑或在於外在行動有關第一前，我們討論如下:",
+      "after": "善惡首先在於意志之行動，抑或在於外在行動",
+      "status": "corrected",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q020.a001.intro",
+        "restored_source_intro": "有關第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q020.a002",
+      "question": "I_II.q020",
+      "pdf_file_page": 1994,
+      "before": "外在行動之善惡是否全部繫於意志之善惡",
+      "after": "外在行動之善惡是否全部繫於意志之善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q020.a003",
+      "question": "I_II.q020",
+      "pdf_file_page": 1995,
+      "before": "內在與外在行動之善惡是否為同一善惡",
+      "after": "內在與外在行動之善惡是否為同一善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q020.a004",
+      "question": "I_II.q020",
+      "pdf_file_page": 1997,
+      "before": "外在行動是否增加內在行動之善惡",
+      "after": "外在行動是否增加內在行動之善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q020.a005",
+      "question": "I_II.q020",
+      "pdf_file_page": 1999,
+      "before": "後果是否增加外在行動之善惡",
+      "after": "後果是否增加外在行動之善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q020.a006",
+      "question": "I_II.q020",
+      "pdf_file_page": 2001,
+      "before": "同一個外在行動能否又善又惡",
+      "after": "同一個外在行動能否又善又惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q021.a001",
+      "question": "I_II.q021",
+      "pdf_file_page": 2003,
+      "before": "人性行為是否由於善惡而是正當的、或有罪的",
+      "after": "人性行為是否由於善惡而是正當的、或有罪的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q021.a002",
+      "question": "I_II.q021",
+      "pdf_file_page": 2005,
+      "before": "人性行為是否由於善惡而是可讚美的、或可講責的",
+      "after": "人性行為是否由於善惡而是可讚美的、或可講責的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-016.png"
+    },
+    {
+      "id": "I_II.q021.a003",
+      "question": "I_II.q021",
+      "pdf_file_page": 2007,
+      "before": "人性行動是否由於善惡而有功、或有過",
+      "after": "人性行動是否由於善惡而有功、或有過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q021.a004",
+      "question": "I_II.q021",
+      "pdf_file_page": 2008,
+      "before": "人性行動的善惡是否在天主前有功或有過",
+      "after": "人性行動的善惡是否在天主前有功或有過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-missing-001.png"
+    },
+    {
+      "id": "I_II.q022.a001",
+      "question": "I_II.q022",
+      "pdf_file_page": 2011,
+      "before": "靈魂是否有情",
+      "after": "靈魂是否有情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q022.a002",
+      "question": "I_II.q022",
+      "pdf_file_page": 2013,
+      "before": "情主要是在嚐慾部分，抑或在知覺部分",
+      "after": "情主要是在嚐慾部分，抑或在知覺部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q022.a003",
+      "question": "I_II.q022",
+      "pdf_file_page": 2015,
+      "before": "情是否主要在感官嗜慾，而非在智性嗜慾或意志",
+      "after": "情是否主要在感官嗜慾，而非在智性嗜慾或意志",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q023.a001",
+      "question": "I_II.q023",
+      "pdf_file_page": 2017,
+      "before": "憤情(irascibilis)與慾情(concupiscibilis)是否有別",
+      "after": "憤情(irascibilis)與慾情(concupiscibilis)是否有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q023.a002",
+      "question": "I_II.q023",
+      "pdf_file_page": 2019,
+      "before": "憤情部分之惰的對立是否按善與惡之對立",
+      "after": "憤情部分之惰的對立是否按善與惡之對立",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q023.a003",
+      "question": "I_II.q023",
+      "pdf_file_page": 2021,
+      "before": "靈魂之情是否有不對立者",
+      "after": "靈魂之情是否有不對立者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q023.a004",
+      "question": "I_II.q023",
+      "pdf_file_page": 2022,
+      "before": "同一機能不同類別之惰，能否互不對立",
+      "after": "同一機能不同類別之惰，能否互不對立",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-017.png"
+    },
+    {
+      "id": "I_II.q024.a001",
+      "question": "I_II.q024",
+      "pdf_file_page": 2024,
+      "before": "靈魂之情是否能有道德性的善惡",
+      "after": "靈魂之情是否能有道德性的善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q024.a002",
+      "question": "I_II.q024",
+      "pdf_file_page": 2025,
+      "before": "按道德觀點是否靈魂之情皆惡",
+      "after": "按道德觀點是否靈魂之情皆惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q024.a003",
+      "question": "I_II.q024",
+      "pdf_file_page": 2027,
+      "before": "情是否增減行動之善惡",
+      "after": "情是否增減行動之善惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q024.a004",
+      "question": "I_II.q024",
+      "pdf_file_page": 2029,
+      "before": "是否有情按本類即是善的、或惡的",
+      "after": "是否有情按本類即是善的、或惡的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q025.a001",
+      "question": "I_II.q025",
+      "pdf_file_page": 2031,
+      "before": "憤情部分之情是否先於慾情部分之惰，抑或相反",
+      "after": "憤情部分之情是否先於慾情部分之惰，抑或相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q025.a002",
+      "question": "I_II.q025",
+      "pdf_file_page": 2033,
+      "before": "愛是否為慾情方面的第一個情",
+      "after": "愛是否為慾情方面的第一個情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q025.a003",
+      "question": "I_II.q025",
+      "pdf_file_page": 2035,
+      "before": "企望是否為憤情中的第一個情",
+      "after": "企望是否為憤情中的第一個情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q025.a004",
+      "question": "I_II.q025",
+      "pdf_file_page": 2037,
+      "before": "四個主要的情是否為喜樂、哀愁、企望及畏懼",
+      "after": "四個主要的情是否為喜樂、哀愁、企望及畏懼",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-018.png"
+    },
+    {
+      "id": "I_II.q026.a001",
+      "question": "I_II.q026",
+      "pdf_file_page": 2039,
+      "before": "愛是否在慾情部分",
+      "after": "愛是否在慾情部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q026.a002",
+      "question": "I_II.q026",
+      "pdf_file_page": 2041,
+      "before": "愛是否為情",
+      "after": "愛是否為情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q026.a003",
+      "question": "I_II.q026",
+      "pdf_file_page": 2042,
+      "before": "愛與鐘愛(dilectio)是否為一事",
+      "after": "愛與鐘愛(dilectio)是否為一事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q026.a004",
+      "question": "I_II.q026",
+      "pdf_file_page": 2044,
+      "before": "愛分為友愛與慾愛是否合適",
+      "after": "愛分為友愛與慾愛是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q027.a001",
+      "question": "I_II.q027",
+      "pdf_file_page": 2046,
+      "before": "善是否為愛之唯一原因",
+      "after": "善是否為愛之唯一原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q027.a002",
+      "question": "I_II.q027",
+      "pdf_file_page": 2047,
+      "before": "認知是否為愛之原因",
+      "after": "認知是否為愛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q027.a003",
+      "question": "I_II.q027",
+      "pdf_file_page": 2049,
+      "before": "相似點是否為愛之原因",
+      "after": "相似點是否為愛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q027.a004",
+      "question": "I_II.q027",
+      "pdf_file_page": 2051,
+      "before": "靈魂之其他情是否為愛之原因",
+      "after": "靈魂之其他情是否為愛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-019.png"
+    },
+    {
+      "id": "I_II.q028.a001",
+      "question": "I_II.q028",
+      "pdf_file_page": 2053,
+      "before": "結合是否為愛之效果",
+      "after": "結合是否為愛之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q028.a002",
+      "question": "I_II.q028",
+      "pdf_file_page": 2055,
+      "before": "彼此容納是否為愛之效果",
+      "after": "彼此容納是否為愛之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q028.a003",
+      "question": "I_II.q028",
+      "pdf_file_page": 2057,
+      "before": "神魂超拔是否為愛之效果",
+      "after": "神魂超拔是否為愛之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q028.a004",
+      "question": "I_II.q028",
+      "pdf_file_page": 2058,
+      "before": "嫉妒是否為愛之效果",
+      "after": "嫉妒是否為愛之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q028.a005",
+      "question": "I_II.q028",
+      "pdf_file_page": 2060,
+      "before": "愛是否為對愛者有害之情",
+      "after": "愛是否為對愛者有害之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q028.a006",
+      "question": "I_II.q028",
+      "pdf_file_page": 2062,
+      "before": "愛是否為愛者所做之一切的原因",
+      "after": "愛是否為愛者所做之一切的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q029.a001",
+      "question": "I_II.q029",
+      "pdf_file_page": 2064,
+      "before": "惡是否為怨恨之原因和對象",
+      "after": "惡是否為怨恨之原因和對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q029.a002",
+      "question": "I_II.q029",
+      "pdf_file_page": 2066,
+      "before": "怨恨是否生於愛",
+      "after": "怨恨是否生於愛",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q029.a003",
+      "question": "I_II.q029",
+      "pdf_file_page": 2067,
+      "before": "怨恨是否比愛力量大",
+      "after": "怨恨是否比愛力量大",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-020.png"
+    },
+    {
+      "id": "I_II.q029.a004",
+      "question": "I_II.q029",
+      "pdf_file_page": 2069,
+      "before": "人能否怨恨自己",
+      "after": "人能否怨恨自己",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q029.a005",
+      "question": "I_II.q029",
+      "pdf_file_page": 2070,
+      "before": "人能否怨恨真理",
+      "after": "人能否怨恨真理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q029.a006",
+      "question": "I_II.q029",
+      "pdf_file_page": 2071,
+      "before": "是否有東西普遍地可恨",
+      "after": "是否有東西普遍地可恨",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q030.a001",
+      "question": "I_II.q030",
+      "pdf_file_page": 2074,
+      "before": "慾望是否只在感官嗜慾部分",
+      "after": "慾望是否只在感官嗜慾部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q030.a002",
+      "question": "I_II.q030",
+      "pdf_file_page": 2076,
+      "before": "慾望是否為個別之情",
+      "after": "慾望是否為個別之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q030.a003",
+      "question": "I_II.q030",
+      "pdf_file_page": 2077,
+      "before": "慾望是否有自然與不自然之別",
+      "after": "慾望是否有自然與不自然之別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q030.a004",
+      "question": "I_II.q030",
+      "pdf_file_page": 2079,
+      "before": "慾望是否無限",
+      "after": "慾望是否無限",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q031.a001",
+      "question": "I_II.q031",
+      "pdf_file_page": 2082,
+      "before": "快樂是否為情",
+      "after": "快樂是否為情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-021.png"
+    },
+    {
+      "id": "I_II.q031.a002",
+      "question": "I_II.q031",
+      "pdf_file_page": 2084,
+      "before": "快樂是否有時間性",
+      "after": "快樂是否有時間性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q031.a003",
+      "question": "I_II.q031",
+      "pdf_file_page": 2086,
+      "before": "快樂是否與喜樂有別",
+      "after": "快樂是否與喜樂有別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q031.a004",
+      "question": "I_II.q031",
+      "pdf_file_page": 2087,
+      "before": "快樂是否在智性嗜慾部分",
+      "after": "快樂是否在智性嗜慾部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q031.a005",
+      "question": "I_II.q031",
+      "pdf_file_page": 2089,
+      "before": "身體及感官性的快樂是否強於精神及智性的快樂",
+      "after": "身體及感官性的快樂是否強於精神及智性的快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q031.a006",
+      "question": "I_II.q031",
+      "pdf_file_page": 2091,
+      "before": "觸覺性的快樂是否比其他感宮的快樂大",
+      "after": "觸覺性的快樂是否比其他感宮的快樂大",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q031.a007",
+      "question": "I_II.q031",
+      "pdf_file_page": 2093,
+      "before": "是否有不自然之快樂",
+      "after": "是否有不自然之快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q031.a008",
+      "question": "I_II.q031",
+      "pdf_file_page": 2094,
+      "before": "快漿是否能與快樂相反",
+      "after": "快漿是否能與快樂相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q032.a001",
+      "question": "I_II.q032",
+      "pdf_file_page": 2096,
+      "before": "動作是否為快樂之真正原因有關第J節，我們討論如下:",
+      "after": "動作是否為快樂之真正原因",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-001.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q032.a001.intro",
+        "restored_source_intro": "有關第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q032.a002",
+      "question": "I_II.q032",
+      "pdf_file_page": 2098,
+      "before": "動態是否為快樂之原因",
+      "after": "動能是否為快樂之原因",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q032.a003",
+      "question": "I_II.q032",
+      "pdf_file_page": 2100,
+      "before": "希望與記憶是否為快樂之原因",
+      "after": "希望與記憶是否為快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q032.a004",
+      "question": "I_II.q032",
+      "pdf_file_page": 2101,
+      "before": "哀傷是否為快樂之原因",
+      "after": "哀傷是否為快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-022.png"
+    },
+    {
+      "id": "I_II.q032.a005",
+      "question": "I_II.q032",
+      "pdf_file_page": 2102,
+      "before": "他人之行為能否是我們快樂之原因",
+      "after": "他人之行為能否是我們快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q032.a006",
+      "question": "I_II.q032",
+      "pdf_file_page": 2104,
+      "before": "對人行善是否為快樂之原因",
+      "after": "對人行善是否為快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q032.a007",
+      "question": "I_II.q032",
+      "pdf_file_page": 2106,
+      "before": "相似點是否為快樂之原因",
+      "after": "相似點是否為快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q032.a008",
+      "question": "I_II.q032",
+      "pdf_file_page": 2107,
+      "before": "驚奇是否為快樂之原因",
+      "after": "驚奇是否為快樂之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q033.a001",
+      "question": "I_II.q033",
+      "pdf_file_page": 2110,
+      "before": "快樂是否有舒展作用",
+      "after": "快樂是否有舒展作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q033.a002",
+      "question": "I_II.q033",
+      "pdf_file_page": 2111,
+      "before": "快樂是否產生對快樂之渴望或願望",
+      "after": "快樂是否產生對快樂之渴望或願望",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q033.a003",
+      "question": "I_II.q033",
+      "pdf_file_page": 2113,
+      "before": "快樂是否妨礙理性作用",
+      "after": "快樂是否妨礙理性作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q033.a004",
+      "question": "I_II.q033",
+      "pdf_file_page": 2115,
+      "before": "快樂是否成全動作",
+      "after": "快樂是否成全動作",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-023.png"
+    },
+    {
+      "id": "I_II.q034.a001",
+      "question": "I_II.q034",
+      "pdf_file_page": 2117,
+      "before": "快樂是否皆惡",
+      "after": "快樂是否皆惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q034.a002",
+      "question": "I_II.q034",
+      "pdf_file_page": 2120,
+      "before": "快樂是否皆善",
+      "after": "快樂是否皆善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q034.a003",
+      "question": "I_II.q034",
+      "pdf_file_page": 2121,
+      "before": "有無快樂是完全的善",
+      "after": "有無快樂是完全的善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q034.a004",
+      "question": "I_II.q034",
+      "pdf_file_page": 2123,
+      "before": "快樂是否為判別道德性善惡之尺度或標準",
+      "after": "快樂是否為判別道德性善惡之尺度或標準",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q035.a001",
+      "question": "I_II.q035",
+      "pdf_file_page": 2125,
+      "before": "傷痛是否為靈魂之情",
+      "after": "傷痛是否為靈魂之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q035.a002",
+      "question": "I_II.q035",
+      "pdf_file_page": 2127,
+      "before": "哀愁與傷痛是否為一事",
+      "after": "哀愁與傷痛是否為一事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q035.a003",
+      "question": "I_II.q035",
+      "pdf_file_page": 2129,
+      "before": "哀愁或傷痛是否與快樂相反",
+      "after": "哀愁或傷痛是否與快樂相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q035.a004",
+      "question": "I_II.q035",
+      "pdf_file_page": 2130,
+      "before": "是否所有哀愁皆與所有快樂相反",
+      "after": "是否所有哀愁皆與所有快樂相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-024.png"
+    },
+    {
+      "id": "I_II.q035.a005",
+      "question": "I_II.q035",
+      "pdf_file_page": 2133,
+      "before": "是否有與鑑賞之樂相反的哀愁",
+      "after": "是否有與鑑賞之樂相反的哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q035.a006",
+      "question": "I_II.q035",
+      "pdf_file_page": 2136,
+      "before": "是否應逃避哀愁甚於追求快樂",
+      "after": "是否應逃避哀愁甚於追求快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q035.a007",
+      "question": "I_II.q035",
+      "pdf_file_page": 2138,
+      "before": "外表的傷痛是否大於內心的傷痛",
+      "after": "外表的傷痛是否大於內心的傷痛",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q035.a008",
+      "question": "I_II.q035",
+      "pdf_file_page": 2140,
+      "before": "哀愁是否只有四種",
+      "after": "哀愁是否只有四種",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q036.a001",
+      "question": "I_II.q036",
+      "pdf_file_page": 2143,
+      "before": "傷痛之原因是所失之善，抑或所受之惡",
+      "after": "傷痛之原因是所失之善，抑或所受之惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q036.a002",
+      "question": "I_II.q036",
+      "pdf_file_page": 2145,
+      "before": "慾望是否為傷痛之原因",
+      "after": "慾望是否為傷痛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q036.a003",
+      "question": "I_II.q036",
+      "pdf_file_page": 2147,
+      "before": "合一之嗜慾是否為傷痛之原因;",
+      "after": "合一之嗜慾是否為傷痛之原因;",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q036.a004",
+      "question": "I_II.q036",
+      "pdf_file_page": 2148,
+      "before": "不可抗拒之力量是否為傷痛之原因",
+      "after": "不可抗拒之力量是否為傷痛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-025.png"
+    },
+    {
+      "id": "I_II.q037.a001",
+      "question": "I_II.q037",
+      "pdf_file_page": 2150,
+      "before": "傷痛是否消除學習能力",
+      "after": "傷痛是否消除學習能力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q037.a002",
+      "question": "I_II.q037",
+      "pdf_file_page": 2152,
+      "before": "精神萎靡是否為哀愁或傷痛之效果",
+      "after": "精神萎靡是否為哀愁或傷痛之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q037.a003",
+      "question": "I_II.q037",
+      "pdf_file_page": 2154,
+      "before": "哀愁或傷痛是否消弱一切活動",
+      "after": "哀愁或傷痛是否消弱一切活動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q037.a004",
+      "question": "I_II.q037",
+      "pdf_file_page": 2155,
+      "before": "哀愁是否比靈魂其他諸情對身體更為有害",
+      "after": "哀愁是否比靈魂其他諸情對身體更為有害",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q038.a001",
+      "question": "I_II.q038",
+      "pdf_file_page": 2157,
+      "before": "是否任何快樂皆能減輕傷痛或哀愁",
+      "after": "是否任何快樂皆能減輕傷痛或哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q038.a002",
+      "question": "I_II.q038",
+      "pdf_file_page": 2159,
+      "before": "哭泣是否能減輕傷痛或哀愁",
+      "after": "哭泣是否能減輕傷痛或哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q038.a003",
+      "question": "I_II.q038",
+      "pdf_file_page": 2160,
+      "before": "朋友之同情是否能減輕傷痛或哀愁",
+      "after": "朋友之同情是否能減輕傷痛或哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q038.a004",
+      "question": "I_II.q038",
+      "pdf_file_page": 2161,
+      "before": "鑑賞真理是否能減輕傷痛或哀愁",
+      "after": "鑑賞真理是否能減輕傷痛或哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-026.png"
+    },
+    {
+      "id": "I_II.q038.a005",
+      "question": "I_II.q038",
+      "pdf_file_page": 2163,
+      "before": "睡眠及沐浴是否能減輕傷痛或哀愁",
+      "after": "睡眠及沐浴是否能減輕傷痛或哀愁",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q039.a001",
+      "question": "I_II.q039",
+      "pdf_file_page": 2165,
+      "before": "是否凡哀愁皆惡",
+      "after": "是否凡哀愁皆惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q039.a002",
+      "question": "I_II.q039",
+      "pdf_file_page": 2167,
+      "before": "哀愁能否為正當的善",
+      "after": "哀愁能否為正當的善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q039.a003",
+      "question": "I_II.q039",
+      "pdf_file_page": 2168,
+      "before": "哀愁能否為有用的善",
+      "after": "哀愁能否為有用的善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q039.a004",
+      "question": "I_II.q039",
+      "pdf_file_page": 2170,
+      "before": "身體上的傷痛是否為最大的惡",
+      "after": "身體上的傷痛是否為最大的惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q040.a001",
+      "question": "I_II.q040",
+      "pdf_file_page": 2172,
+      "before": "企望與願望或慾望是否為一事",
+      "after": "企望與願望或慾望是否為一事",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q040.a002",
+      "question": "I_II.q040",
+      "pdf_file_page": 2174,
+      "before": "企望是在知覺能力或在嗜慾能力",
+      "after": "企望是在知覺能力或在嗜慾能力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q040.a003",
+      "question": "I_II.q040",
+      "pdf_file_page": 2176,
+      "before": "禽獸是否有企望",
+      "after": "禽獸是否有企望",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-027.png"
+    },
+    {
+      "id": "I_II.q040.a004",
+      "question": "I_II.q040",
+      "pdf_file_page": 2177,
+      "before": "失望與企望是否相反",
+      "after": "失望與企望是否相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q040.a005",
+      "question": "I_II.q040",
+      "pdf_file_page": 2178,
+      "before": "企望之原因是否為經驗",
+      "after": "企望之原因是否為經驗",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q040.a006",
+      "question": "I_II.q040",
+      "pdf_file_page": 2180,
+      "before": "青年與蝴酒者是否富於企望",
+      "after": "青年與蝴酒者是否富於企望",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q040.a007",
+      "question": "I_II.q040",
+      "pdf_file_page": 2181,
+      "before": "企望是否為愛之原因",
+      "after": "企望是否為愛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q040.a008",
+      "question": "I_II.q040",
+      "pdf_file_page": 2182,
+      "before": "企望有助或有礙於行動",
+      "after": "企望有助或有礙於行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q041.a001",
+      "question": "I_II.q041",
+      "pdf_file_page": 2184,
+      "before": "畏懼是否為靈魂之情",
+      "after": "畏懼是否為靈魂之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q041.a002",
+      "question": "I_II.q041",
+      "pdf_file_page": 2186,
+      "before": "畏懼是否為個別之情",
+      "after": "畏懼是否為個別之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q041.a003",
+      "question": "I_II.q041",
+      "pdf_file_page": 2187,
+      "before": "是否有自然的畏懼",
+      "after": "是否有自然的畏懼",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-028.png"
+    },
+    {
+      "id": "I_II.q041.a004",
+      "question": "I_II.q041",
+      "pdf_file_page": 2189,
+      "before": "論畏懼之種類",
+      "after": "論畏懼之種類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a001",
+      "question": "I_II.q042",
+      "pdf_file_page": 2192,
+      "before": "畏懼之對象是善，抑或是惡",
+      "after": "畏懼之對象是善，抑或是惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a002",
+      "question": "I_II.q042",
+      "pdf_file_page": 2193,
+      "before": "自然的惡是否為畏懼之對象",
+      "after": "自然的惡是否為畏懼之對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a003",
+      "question": "I_II.q042",
+      "pdf_file_page": 2195,
+      "before": "罪惡是否為畏懼之對象",
+      "after": "罪惡是否為畏懼之對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a004",
+      "question": "I_II.q042",
+      "pdf_file_page": 2197,
+      "before": "畏懼本身是否能為畏懼之對象",
+      "after": "畏懼本身是否能為畏懼之對象",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a005",
+      "question": "I_II.q042",
+      "pdf_file_page": 2198,
+      "before": "突然的事是否更為可怕",
+      "after": "突然的事是否更為可怕",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q042.a006",
+      "question": "I_II.q042",
+      "pdf_file_page": 2199,
+      "before": "無法補救的事是否更為可怕",
+      "after": "無法補救的事是否更為可怕",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q043.a001",
+      "question": "I_II.q043",
+      "pdf_file_page": 2201,
+      "before": "畏懼之原因是否為愛",
+      "after": "畏懼之原因是否為愛",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-029.png"
+    },
+    {
+      "id": "I_II.q043.a002",
+      "question": "I_II.q043",
+      "pdf_file_page": 2203,
+      "before": "畏懼之原因是否為匿乏",
+      "after": "畏懼之原因是否為匿乏",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q044.a001",
+      "question": "I_II.q044",
+      "pdf_file_page": 2205,
+      "before": "畏懼是否有收縮作用",
+      "after": "畏懼是否有收縮作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q044.a002",
+      "question": "I_II.q044",
+      "pdf_file_page": 2207,
+      "before": "畏懼是否使人宜於考慮",
+      "after": "畏懼是否使人宜於考慮",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q044.a003",
+      "question": "I_II.q044",
+      "pdf_file_page": 2209,
+      "before": "畏懼是否使人顫抖",
+      "after": "畏懼是否使人顫抖",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q044.a004",
+      "question": "I_II.q044",
+      "pdf_file_page": 2210,
+      "before": "畏懼是否妨礙行動",
+      "after": "畏懼是否妨礙行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q045.a001",
+      "question": "I_II.q045",
+      "pdf_file_page": 2212,
+      "before": "勇猛是否與畏懼相反",
+      "after": "勇猛是否與畏懼相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q045.a002",
+      "question": "I_II.q045",
+      "pdf_file_page": 2213,
+      "before": "勇猛是否隨希望而來",
+      "after": "勇猛是否隨希望而來",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q045.a003",
+      "question": "I_II.q045",
+      "pdf_file_page": 2215,
+      "before": "虧缺是否為勇猛之原因",
+      "after": "虧缺是否為勇猛之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-030.png"
+    },
+    {
+      "id": "I_II.q045.a004",
+      "question": "I_II.q045",
+      "pdf_file_page": 2217,
+      "before": "勇猛者是否在起初比在危險中堅決",
+      "after": "勇猛者是否在起初比在危險中堅決",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a001",
+      "question": "I_II.q046",
+      "pdf_file_page": 2219,
+      "before": "忿怒是否為個別之情",
+      "after": "忿怒是否為個別之情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a002",
+      "question": "I_II.q046",
+      "pdf_file_page": 2221,
+      "before": "忿怒之對象是善，抑或是惡",
+      "after": "忿怒之對象是善，抑或是惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a003",
+      "question": "I_II.q046",
+      "pdf_file_page": 2223,
+      "before": "忿怒是否在慾情部分",
+      "after": "忿怒是否在慾情部分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a004",
+      "question": "I_II.q046",
+      "pdf_file_page": 2224,
+      "before": "忿怒是否含有理性",
+      "after": "忿怒是否含有理性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a005",
+      "question": "I_II.q046",
+      "pdf_file_page": 2225,
+      "before": "忿怒是否比慾望更自然",
+      "after": "忿怒是否比慾望更自然",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a006",
+      "question": "I_II.q046",
+      "pdf_file_page": 2227,
+      "before": "忿怒是否比怨恨嚴重",
+      "after": "忿怒是否比怨恨嚴重",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a007",
+      "question": "I_II.q046",
+      "pdf_file_page": 2229,
+      "before": "忿怒是否只針對與正義有關者",
+      "after": "忿怒是否只針對與正義有關者",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-031.png"
+    },
+    {
+      "id": "I_II.q046.a008",
+      "question": "I_II.q046",
+      "pdf_file_page": 2231,
+      "before": "忿怒之分類是否合適",
+      "after": "忿怒之分類是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q047.a001",
+      "question": "I_II.q047",
+      "pdf_file_page": 2233,
+      "before": "忿怒之原因是否常是對發怒者不利的事情",
+      "after": "忿怒之原因是否常是對發怒者不利的事情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q047.a002",
+      "question": "I_II.q047",
+      "pdf_file_page": 2235,
+      "before": "是否只有輕視或輕慢為忿怒之原因",
+      "after": "是否只有輕視或輕慢為忿怒之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q047.a003",
+      "question": "I_II.q047",
+      "pdf_file_page": 2237,
+      "before": "發怒者之優越是否為忿怒之原因",
+      "after": "發怒者之優越是否為忿怒之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q047.a004",
+      "question": "I_II.q047",
+      "pdf_file_page": 2238,
+      "before": "一人之缺點是否為我們易於向他發怒的原因",
+      "after": "一人之缺點是否為我們易於向他發怒的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q048.a001",
+      "question": "I_II.q048",
+      "pdf_file_page": 2240,
+      "before": "忿怒是否產生快樂",
+      "after": "忿怒是否產生快樂",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q048.a002",
+      "question": "I_II.q048",
+      "pdf_file_page": 2241,
+      "before": "忿怒是否在心中產生熱火",
+      "after": "忿怒是否在心中產生熱火",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q048.a003",
+      "question": "I_II.q048",
+      "pdf_file_page": 2244,
+      "before": "忿怒是否最妨礙理性作用",
+      "after": "忿怒是否最妨礙理性作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-032.png"
+    },
+    {
+      "id": "I_II.q048.a004",
+      "question": "I_II.q048",
+      "pdf_file_page": 2245,
+      "before": "忿怒是否使人絨默",
+      "after": "忿怒是否使人絨默",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q049.a001",
+      "question": "I_II.q049",
+      "pdf_file_page": 2267,
+      "before": "習性是否為品質",
+      "after": "習性是否為品質",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q049.a002",
+      "question": "I_II.q049",
+      "pdf_file_page": 2269,
+      "before": "習性是否為一種個別的品質",
+      "after": "習性是否為一種個別的品質",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q049.a003",
+      "question": "I_II.q049",
+      "pdf_file_page": 2273,
+      "before": "習性是否指向行動",
+      "after": "習性是否指向行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q049.a004",
+      "question": "I_II.q049",
+      "pdf_file_page": 2275,
+      "before": "習性是否必要",
+      "after": "習性是否必要",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q050.a001",
+      "question": "I_II.q050",
+      "pdf_file_page": 2277,
+      "before": "在身體上是否有習性",
+      "after": "在身體上是否有習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q050.a002",
+      "question": "I_II.q050",
+      "pdf_file_page": 2280,
+      "before": "靈魂之為習性之主體是按其本質，抑或按其機能",
+      "after": "靈魂之為習性之主體是按其本質，抑或按其機能",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q050.a003",
+      "question": "I_II.q050",
+      "pdf_file_page": 2281,
+      "before": "在感官部分之機能中是否能有習性",
+      "after": "在感官部分之機能中是否能有習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-033.png"
+    },
+    {
+      "id": "I_II.q050.a004",
+      "question": "I_II.q050",
+      "pdf_file_page": 2283,
+      "before": "在智能中是否有習性",
+      "after": "在智能中是否有習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q050.a005",
+      "question": "I_II.q050",
+      "pdf_file_page": 2286,
+      "before": "在意志中是否有習性",
+      "after": "在意志中是否有習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q050.a006",
+      "question": "I_II.q050",
+      "pdf_file_page": 2287,
+      "before": "天便是否有習性",
+      "after": "天便是否有習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q051.a001",
+      "question": "I_II.q051",
+      "pdf_file_page": 2290,
+      "before": "是否有習性是來白天性",
+      "after": "是否有習性是來白天性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q051.a002",
+      "question": "I_II.q051",
+      "pdf_file_page": 2293,
+      "before": "是否有習性是生於行動",
+      "after": "是否有習性是生於行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q051.a003",
+      "question": "I_II.q051",
+      "pdf_file_page": 2294,
+      "before": "由一個行動是否能產生習性",
+      "after": "由一個行動是否能產生習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q051.a004",
+      "question": "I_II.q051",
+      "pdf_file_page": 2296,
+      "before": "是否有習性是天主灌輸給人的",
+      "after": "是否有習性是天主灌輸給人的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q052.a001",
+      "question": "I_II.q052",
+      "pdf_file_page": 2298,
+      "before": "習性是否能增長",
+      "after": "習性是否能增長",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-034.png"
+    },
+    {
+      "id": "I_II.q052.a002",
+      "question": "I_II.q052",
+      "pdf_file_page": 2302,
+      "before": "習性是否以相加之方式增長",
+      "after": "習性是否以相加之方式增長",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q052.a003",
+      "question": "I_II.q052",
+      "pdf_file_page": 2304,
+      "before": "是否任何行動皆使習性增長",
+      "after": "是否任何行動皆使習性增長",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q053.a001",
+      "question": "I_II.q053",
+      "pdf_file_page": 2306,
+      "before": "習性是否能消失",
+      "after": "習性是否能消失",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q053.a002",
+      "question": "I_II.q053",
+      "pdf_file_page": 2309,
+      "before": "習性是否能減退",
+      "after": "習性是否能減退",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q053.a003",
+      "question": "I_II.q053",
+      "pdf_file_page": 2311,
+      "before": "習性是否單因不用而消失或減退",
+      "after": "習性是否單因不用而消失或減退",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q054.a001",
+      "question": "I_II.q054",
+      "pdf_file_page": 2313,
+      "before": "一個機能是否能有許多習性",
+      "after": "一個機能是否能有許多習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q054.a002",
+      "question": "I_II.q054",
+      "pdf_file_page": 2315,
+      "before": "習性是否按對象以定區分",
+      "after": "習性是否按對象以定區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q054.a003",
+      "question": "I_II.q054",
+      "pdf_file_page": 2317,
+      "before": "習性是否按善惡以定區分",
+      "after": "習性是否按善惡以定區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q054.a004",
+      "question": "I_II.q054",
+      "pdf_file_page": 2318,
+      "before": "一個習性是否由許多習性構成的",
+      "after": "一個習性是否由許多習性構成的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q055.a001",
+      "question": "I_II.q055",
+      "pdf_file_page": 2322,
+      "before": "人的德性是否為習性",
+      "after": "人的德性是否為習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-035.png"
+    },
+    {
+      "id": "I_II.q055.a002",
+      "question": "I_II.q055",
+      "pdf_file_page": 2324,
+      "before": "人的德性是否為行動方面之習性",
+      "after": "人的德性是否為行動方面之習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q055.a003",
+      "question": "I_II.q055",
+      "pdf_file_page": 2325,
+      "before": "人的德性是否為善的習性",
+      "after": "人的德性是否為善的習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q055.a004",
+      "question": "I_II.q055",
+      "pdf_file_page": 2327,
+      "before": "德性之定義是否適當",
+      "after": "德性之定義是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a001",
+      "question": "I_II.q056",
+      "pdf_file_page": 2330,
+      "before": "靈魂之機能是否為德性之主體",
+      "after": "靈魂之機能是否為德性之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a002",
+      "question": "I_II.q056",
+      "pdf_file_page": 2332,
+      "before": "一個德性是否能在許多機能上",
+      "after": "一個德性是否能在許多機能上",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a003",
+      "question": "I_II.q056",
+      "pdf_file_page": 2333,
+      "before": "智性是否能為德性之主體",
+      "after": "智性是否能為德性之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a004",
+      "question": "I_II.q056",
+      "pdf_file_page": 2336,
+      "before": "憤情及慾情是否為德性之主體",
+      "after": "憤情及慾情是否為德性之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a005",
+      "question": "I_II.q056",
+      "pdf_file_page": 2338,
+      "before": "感官知覺能力是否為德性之主體",
+      "after": "感官知覺能力是否為德性之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-036.png"
+    },
+    {
+      "id": "I_II.q056.a006",
+      "question": "I_II.q056",
+      "pdf_file_page": 2340,
+      "before": "意志是否能為德性之主體",
+      "after": "意志是否能為德性之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q057.a001",
+      "question": "I_II.q057",
+      "pdf_file_page": 2342,
+      "before": "鑑賞性智力之習性是否為德性",
+      "after": "鑑賞性智力之習性是否為德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q057.a002",
+      "question": "I_II.q057",
+      "pdf_file_page": 2344,
+      "before": "是否只有三種鑑賞性的智力習性:智慧、知識、悟性",
+      "after": "是否只有三種鑑賞性的智力習性：智慧、知識、悟性",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-001.png"
+    },
+    {
+      "id": "I_II.q057.a003",
+      "question": "I_II.q057",
+      "pdf_file_page": 2346,
+      "before": "稱為技術的智力習性是否為德性",
+      "after": "稱為技術的智力習性是否為德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q057.a004",
+      "question": "I_II.q057",
+      "pdf_file_page": 2348,
+      "before": "機智是否為與技術有別之德Jl生",
+      "after": "機智是否為與技術有別之德性",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q057.a005",
+      "question": "I_II.q057",
+      "pdf_file_page": 2350,
+      "before": "機智是否為人必要的德性",
+      "after": "機智是否為人必要的德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q057.a006",
+      "question": "I_II.q057",
+      "pdf_file_page": 2352,
+      "before": "謀略、正常審斷，和特殊審斷是否為機智之附帶德性",
+      "after": "謀略、正常審斷，和特殊審斷是否為機智之附帶德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-missing-001.png"
+    },
+    {
+      "id": "I_II.q058.a001",
+      "question": "I_II.q058",
+      "pdf_file_page": 2355,
+      "before": "是否凡德性皆是道德涵養性的",
+      "after": "是否凡德性皆是道德涵養性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q058.a002",
+      "question": "I_II.q058",
+      "pdf_file_page": 2357,
+      "before": "道德涵養性德性與智性德、性是否有別",
+      "after": "道德涵養性德性與智性德性是否有別",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q058.a003",
+      "question": "I_II.q058",
+      "pdf_file_page": 2359,
+      "before": "將德J性分為道德灑養性的及智性的是否合適",
+      "after": "將德J性分為道德灑養性的及智性的是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-037.png"
+    },
+    {
+      "id": "I_II.q058.a004",
+      "question": "I_II.q058",
+      "pdf_file_page": 2361,
+      "before": "沒有智性德性能否有道德涵養性德性",
+      "after": "沒有智性德性能否有道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q058.a005",
+      "question": "I_II.q058",
+      "pdf_file_page": 2363,
+      "before": "沒有道德涵養性德性能否有智性德、性",
+      "after": "沒有道德涵養性德性能否有智性德性",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q059.a001",
+      "question": "I_II.q059",
+      "pdf_file_page": 2365,
+      "before": "道德涵養性德性是否為情",
+      "after": "道德涵養性德性是否為情",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q059.a002",
+      "question": "I_II.q059",
+      "pdf_file_page": 2367,
+      "before": "道德涵養性德、性是否能與情並存",
+      "after": "道德涵養性德性是否能與情並存",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q059.a003",
+      "question": "I_II.q059",
+      "pdf_file_page": 2369,
+      "before": "道德、涵養性德性是否能與哀愁並存",
+      "after": "道德涵養性德性是否能與哀愁並存",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q059.a004",
+      "question": "I_II.q059",
+      "pdf_file_page": 2371,
+      "before": "是否凡道德灑養性德性皆是關於情的",
+      "after": "是否凡道德灑養性德性皆是關於情的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q059.a005",
+      "question": "I_II.q059",
+      "pdf_file_page": 2372,
+      "before": "沒有情是否能有某種道德涵養性德性",
+      "after": "沒有情是否能有某種道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q060.a001",
+      "question": "I_II.q060",
+      "pdf_file_page": 2375,
+      "before": "是否只有一個道德涵養性德性",
+      "after": "是否只有一個道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-038.png"
+    },
+    {
+      "id": "I_II.q060.a002",
+      "question": "I_II.q060",
+      "pdf_file_page": 2377,
+      "before": "關於行動的道德涵養性德性與關於情者是否有別",
+      "after": "關於行動的道德涵養性德性與關於情者是否有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q060.a003",
+      "question": "I_II.q060",
+      "pdf_file_page": 2378,
+      "before": "關於行動是否只有一個道德涵養性德性",
+      "after": "關於行動是否只有一個道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q060.a004",
+      "question": "I_II.q060",
+      "pdf_file_page": 2380,
+      "before": "關於不同的情是否有不同的道德涵養性德性",
+      "after": "關於不同的情是否有不同的道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q060.a005",
+      "question": "I_II.q060",
+      "pdf_file_page": 2382,
+      "before": "道德涵養性德性是否根據惰的不岡對象以相區別",
+      "after": "道德涵養性德性是否根據情的不同對象以相區別",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q061.a001",
+      "question": "I_II.q061",
+      "pdf_file_page": 2386,
+      "before": "道德涵養性德性是否應稱為達德或主德",
+      "after": "道德涵養性德性是否應稱為達德或主德",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q061.a002",
+      "question": "I_II.q061",
+      "pdf_file_page": 2388,
+      "before": "達德是否有四個",
+      "after": "達德是否有四個",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q061.a003",
+      "question": "I_II.q061",
+      "pdf_file_page": 2389,
+      "before": "其他德性是否應比這些更為主要",
+      "after": "其他德性是否應比這些更為主要",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q061.a004",
+      "question": "I_II.q061",
+      "pdf_file_page": 2391,
+      "before": "四達德、彼此有無區別",
+      "after": "四達德彼此有無區別",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-039.png"
+    },
+    {
+      "id": "I_II.q061.a005",
+      "question": "I_II.q061",
+      "pdf_file_page": 2393,
+      "before": "達德是否宜分為(社會及)政治性的，淨化性的，純淨心靈的，及典鈍性的",
+      "after": "達德是否宜分為(社會及)政治性的，淨化性的，純淨心靈的，及典鈍性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q062.a001",
+      "question": "I_II.q062",
+      "pdf_file_page": 2397,
+      "before": "是否有「向天主之德」",
+      "after": "是否有「向天主之德」",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q062.a002",
+      "question": "I_II.q062",
+      "pdf_file_page": 2399,
+      "before": "向天主之德與智性及道德涵養性德性是否有別",
+      "after": "向天主之德與智性及道德涵養性德性是否有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q062.a003",
+      "question": "I_II.q062",
+      "pdf_file_page": 2400,
+      "before": "以信德、望德及愛德為向天主之德，是否合適",
+      "after": "以信德、望德及愛德為向天主之德，是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q062.a004",
+      "question": "I_II.q062",
+      "pdf_file_page": 2402,
+      "before": "是否信德先於望德，望德先於愛德",
+      "after": "是否信德先於望德，望德先於愛德",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q063.a001",
+      "question": "I_II.q063",
+      "pdf_file_page": 2404,
+      "before": "我們的德性是否來自天性",
+      "after": "我們的德性是否來自天性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q063.a002",
+      "question": "I_II.q063",
+      "pdf_file_page": 2406,
+      "before": "是否有德性來自行為習慣",
+      "after": "是否有德性來自行為習慣",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q063.a003",
+      "question": "I_II.q063",
+      "pdf_file_page": 2408,
+      "before": "是否有些道德、涵養性德性是灌輸的",
+      "after": "是否有些道德涵養性德性是灌輸的",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-040.png"
+    },
+    {
+      "id": "I_II.q063.a004",
+      "question": "I_II.q063",
+      "pdf_file_page": 2410,
+      "before": "由行為之習慣產生的德，性與灌輸的德性是否同類",
+      "after": "由行為之習慣產生的德性與灌輸的德性是否同類",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q064.a001",
+      "question": "I_II.q064",
+      "pdf_file_page": 2412,
+      "before": "道德涵養性德性是否在於執中",
+      "after": "道德涵養性德性是否在於執中",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q064.a002",
+      "question": "I_II.q064",
+      "pdf_file_page": 2414,
+      "before": "道德涵養性德性之中點是事物之中點，抑或理性之中點",
+      "after": "道德涵養性德性之中點是事物之中點，抑或理性之中點",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q064.a003",
+      "question": "I_II.q064",
+      "pdf_file_page": 2416,
+      "before": "智性德性是否在於執中",
+      "after": "智性德性是否在於執中",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q064.a004",
+      "question": "I_II.q064",
+      "pdf_file_page": 2418,
+      "before": "向天主之德是否在於執中",
+      "after": "向天主之德是否在於執中",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q065.a001",
+      "question": "I_II.q065",
+      "pdf_file_page": 2420,
+      "before": "道德涵養性德性是否彼此有聯繫",
+      "after": "道德涵養性德性是否彼此有聯繫",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q065.a002",
+      "question": "I_II.q065",
+      "pdf_file_page": 2424,
+      "before": "沒有愛德是否能有道德涵養性德性",
+      "after": "沒有愛德是否能有道德涵養性德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q065.a003",
+      "question": "I_II.q065",
+      "pdf_file_page": 2425,
+      "before": "沒有道德涵養性德性是否能有愛德",
+      "after": "沒有道德涵養性德性是否能有愛德",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-041.png"
+    },
+    {
+      "id": "I_II.q065.a004",
+      "question": "I_II.q065",
+      "pdf_file_page": 2427,
+      "before": "沒有愛德是否能有信德及望德",
+      "after": "沒有愛德是否能有信德及望德",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q065.a005",
+      "question": "I_II.q065",
+      "pdf_file_page": 2429,
+      "before": "沒有信德及望德、是否能有愛德",
+      "after": "沒有信德及望德是否能有愛德",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a001",
+      "question": "I_II.q066",
+      "pdf_file_page": 2431,
+      "before": "德性是否有大小",
+      "after": "德性是否有大小",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a002",
+      "question": "I_II.q066",
+      "pdf_file_page": 2433,
+      "before": "同一主體的一切德J性是否都是何等的",
+      "after": "同一主體的一切德性是否都是同等的",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a003",
+      "question": "I_II.q066",
+      "pdf_file_page": 2435,
+      "before": "道德涵養性德性是否高於智性德、性",
+      "after": "道德涵養性德性是否高於智性德性",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a004",
+      "question": "I_II.q066",
+      "pdf_file_page": 2437,
+      "before": "在道德涵養性德性中是否以正義最重要",
+      "after": "在道德涵養性德性中是否以正義最重要",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a005",
+      "question": "I_II.q066",
+      "pdf_file_page": 2439,
+      "before": "智性德性中是否以智慧為最大",
+      "after": "智性德性中是否以智慧為最大",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q066.a006",
+      "question": "I_II.q066",
+      "pdf_file_page": 2442,
+      "before": "向天主之德是否以愛德、最大",
+      "after": "向天主之德是否以愛德最大",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-042.png"
+    },
+    {
+      "id": "I_II.q067.a001",
+      "question": "I_II.q067",
+      "pdf_file_page": 2444,
+      "before": "道德涵養性德性在來世是否留存",
+      "after": "道德涵養性德性在來世是否留存",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q067.a002",
+      "question": "I_II.q067",
+      "pdf_file_page": 2446,
+      "before": "智性德性在來世是否留存",
+      "after": "智性德性在來世是否留存",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q067.a003",
+      "question": "I_II.q067",
+      "pdf_file_page": 2448,
+      "before": "信德、在來世是否留存",
+      "after": "信德在來世是否留存",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q067.a004",
+      "question": "I_II.q067",
+      "pdf_file_page": 2451,
+      "before": "望德在來世之榮福中是否留存",
+      "after": "望德在來世之榮福中是否留存",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q067.a005",
+      "question": "I_II.q067",
+      "pdf_file_page": 2453,
+      "before": "在榮福中是否有屬於信德、和望德的東西留存",
+      "after": "在榮福中是否有屬於信德和望德的東西留存",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q067.a006",
+      "question": "I_II.q067",
+      "pdf_file_page": 2455,
+      "before": "愛德在來世之榮福中是否留存",
+      "after": "愛德在來世之榮福中是否留存",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q068.a001",
+      "question": "I_II.q068",
+      "pdf_file_page": 2457,
+      "before": "恩賜與德性是否有別",
+      "after": "恩賜與德性是否有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q068.a002",
+      "question": "I_II.q068",
+      "pdf_file_page": 2461,
+      "before": "恩賜為人之得救是否必要",
+      "after": "恩賜為人之得救是否必要",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-043.png"
+    },
+    {
+      "id": "I_II.q068.a003",
+      "question": "I_II.q068",
+      "pdf_file_page": 2463,
+      "before": "聖神之恩賜是否為習性",
+      "after": "聖神之恩賜是否為習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q068.a004",
+      "question": "I_II.q068",
+      "pdf_file_page": 2465,
+      "before": "七種聖神恩賜之數目是否正確",
+      "after": "七種聖神恩賜之數目是否正確",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q068.a005",
+      "question": "I_II.q068",
+      "pdf_file_page": 2467,
+      "before": "聖神之恩賜彼此是否有聯繫",
+      "after": "聖神之恩賜彼此是否有聯繫",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q068.a006",
+      "question": "I_II.q068",
+      "pdf_file_page": 2469,
+      "before": "在天鄉是否留存聖神的恩賜",
+      "after": "在天鄉是否留存聖神的恩賜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q068.a007",
+      "question": "I_II.q068",
+      "pdf_file_page": 2471,
+      "before": "恩賜之等級是否按〈依撒意亞〉的排列",
+      "after": "恩賜之等級是否按〈依撒意亞〉的排列",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q068.a008",
+      "question": "I_II.q068",
+      "pdf_file_page": 2473,
+      "before": "德性是否優於恩賜",
+      "after": "德性是否優於恩賜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q069.a001",
+      "question": "I_II.q069",
+      "pdf_file_page": 2476,
+      "before": "真褔與德性及恩賜是否有區別",
+      "after": "真褔與德性及恩賜是否有區別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q069.a002",
+      "question": "I_II.q069",
+      "pdf_file_page": 2478,
+      "before": "真褔所指之賞報是否屬於現世",
+      "after": "真褔所指之賞報是否屬於現世",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-044.png"
+    },
+    {
+      "id": "I_II.q069.a003",
+      "question": "I_II.q069",
+      "pdf_file_page": 2480,
+      "before": "真福之數目是否正確",
+      "after": "真福之數目是否正確",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q069.a004",
+      "question": "I_II.q069",
+      "pdf_file_page": 2484,
+      "before": "各真福之賞報是否適當",
+      "after": "各真福之賞報是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q070.a001",
+      "question": "I_II.q070",
+      "pdf_file_page": 2487,
+      "before": "聖神之果實是否為行動",
+      "after": "聖神之果實是否為行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q070.a002",
+      "question": "I_II.q070",
+      "pdf_file_page": 2489,
+      "before": "聖神的果實與真福有無區別",
+      "after": "聖神的果實與真福有無區別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q070.a003",
+      "question": "I_II.q070",
+      "pdf_file_page": 2490,
+      "before": "宗徒所列之果實是否正確",
+      "after": "宗徒所列之果實是否正確",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q070.a004",
+      "question": "I_II.q070",
+      "pdf_file_page": 2494,
+      "before": "聖神之果實是否與肉軀之私慾的作用相反",
+      "after": "聖神之果實是否與肉軀之私慾的作用相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q071.a001",
+      "question": "I_II.q071",
+      "pdf_file_page": 2496,
+      "before": "惡習是否與德性相反",
+      "after": "惡習是否與德性相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q071.a002",
+      "question": "I_II.q071",
+      "pdf_file_page": 2498,
+      "before": "惡習是否與天性相反",
+      "after": "惡習是否與天性相反",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-045.png"
+    },
+    {
+      "id": "I_II.q071.a003",
+      "question": "I_II.q071",
+      "pdf_file_page": 2500,
+      "before": "惡習是否比惡行更壞",
+      "after": "惡習是否比惡行更壞",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q071.a004",
+      "question": "I_II.q071",
+      "pdf_file_page": 2502,
+      "before": "罪過能否與德、性並存",
+      "after": "罪過能否與德性並存",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q071.a005",
+      "question": "I_II.q071",
+      "pdf_file_page": 2504,
+      "before": "罪過是否必有行動",
+      "after": "罪過是否必有行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q071.a006",
+      "question": "I_II.q071",
+      "pdf_file_page": 2506,
+      "before": "將罪過定義為「這反永恆法律的慾念及言行」'是否合適",
+      "after": "將罪過定義為「違反永恆法律的慾念及言行」，是否合適",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q072.a001",
+      "question": "I_II.q072",
+      "pdf_file_page": 2509,
+      "before": "罪過是否按對象分類",
+      "after": "罪過是否按對象分類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q072.a002",
+      "question": "I_II.q072",
+      "pdf_file_page": 2511,
+      "before": "將罪過分為精神性的和肉慾性的是否適當",
+      "after": "將罪過分為精神性的和肉慾性的是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q072.a003",
+      "question": "I_II.q072",
+      "pdf_file_page": 2513,
+      "before": "罪過是否按原因分類",
+      "after": "罪過是否按原因分類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q072.a004",
+      "question": "I_II.q072",
+      "pdf_file_page": 2515,
+      "before": "將罪過分為對天主的、對自己的和對他人的，是否合理",
+      "after": "將罪過分為對天主的、對自己的和對他人的，是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-046.png"
+    },
+    {
+      "id": "I_II.q072.a005",
+      "question": "I_II.q072",
+      "pdf_file_page": 2517,
+      "before": "罪過按處罰的區分是否構成不同的類別",
+      "after": "罪過按處罰的區分是否構成不同的類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q072.a006",
+      "question": "I_II.q072",
+      "pdf_file_page": 2519,
+      "before": "妄動與曠職之罪是否不同類別",
+      "after": "妄動與曠職之罪是否不同類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q072.a007",
+      "question": "I_II.q072",
+      "pdf_file_page": 2521,
+      "before": "將罪過分為心思的、口舌的和行為的，是否合適",
+      "after": "將罪過分為心思的、口舌的和行為的，是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q072.a008",
+      "question": "I_II.q072",
+      "pdf_file_page": 2523,
+      "before": "過與不及是否構成罪過之不同的類別",
+      "after": "過與不及是否構成罪過之不同的類別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q072.a009",
+      "question": "I_II.q072",
+      "pdf_file_page": 2524,
+      "before": "罪過是否因情況不同而分類",
+      "after": "罪過是否因情況不同而分類",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q073.a001",
+      "question": "I_II.q073",
+      "pdf_file_page": 2526,
+      "before": "罪過是否皆相牽連",
+      "after": "罪過是否皆相牽連",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q073.a002",
+      "question": "I_II.q073",
+      "pdf_file_page": 2529,
+      "before": "罪過是否皆相等",
+      "after": "罪過是否皆相等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q073.a003",
+      "question": "I_II.q073",
+      "pdf_file_page": 2530,
+      "before": "罪過之輕重是否因對象而異",
+      "after": "罪過之輕重是否因對象而異",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-047.png"
+    },
+    {
+      "id": "I_II.q073.a004",
+      "question": "I_II.q073",
+      "pdf_file_page": 2532,
+      "before": "罪過之輕重是否因其所反對之德性的高低而異",
+      "after": "罪過之輕重是否因其所反對之德性的高低而異",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a005",
+      "question": "I_II.q073",
+      "pdf_file_page": 2534,
+      "before": "肉慾方面的罪過是否比精神方面的罪過輕",
+      "after": "肉慾方面的罪過是否比精神方面的罪過輕",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a006",
+      "question": "I_II.q073",
+      "pdf_file_page": 2535,
+      "before": "罪過之輕重是否看罪過之原因",
+      "after": "罪過之輕重是否看罪過之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a007",
+      "question": "I_II.q073",
+      "pdf_file_page": 2537,
+      "before": "情況是否加重罪過",
+      "after": "情況是否加重罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a008",
+      "question": "I_II.q073",
+      "pdf_file_page": 2539,
+      "before": "罪過是否囡害處大而加重",
+      "after": "罪過是否囡害處大而加重",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a009",
+      "question": "I_II.q073",
+      "pdf_file_page": 2541,
+      "before": "罪過是否因所冒犯者之身分而加重",
+      "after": "罪過是否因所冒犯者之身分而加重",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q073.a010",
+      "question": "I_II.q073",
+      "pdf_file_page": 2544,
+      "before": "犯罪者的優異是否加重罪過",
+      "after": "犯罪者的優異是否加重罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q074.a001",
+      "question": "I_II.q074",
+      "pdf_file_page": 2546,
+      "before": "意志是否為罪過之主體",
+      "after": "意志是否為罪過之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-048.png"
+    },
+    {
+      "id": "I_II.q074.a002",
+      "question": "I_II.q074",
+      "pdf_file_page": 2548,
+      "before": "是否只有意志為罪過之主體",
+      "after": "是否只有意志為罪過之主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a003",
+      "question": "I_II.q074",
+      "pdf_file_page": 2549,
+      "before": "感官嗜慾是否能有罪",
+      "after": "感官嗜慾是否能有罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a004",
+      "question": "I_II.q074",
+      "pdf_file_page": 2551,
+      "before": "在感官嗜慾上是否能有死罪",
+      "after": "在感官嗜慾上是否能有死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a005",
+      "question": "I_II.q074",
+      "pdf_file_page": 2552,
+      "before": "理性上是否能有罪過",
+      "after": "理性上是否能有罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a006",
+      "question": "I_II.q074",
+      "pdf_file_page": 2554,
+      "before": "理性上是否有姑息性快樂之罪過",
+      "after": "理性上是否有姑息性快樂之罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a007",
+      "question": "I_II.q074",
+      "pdf_file_page": 2555,
+      "before": "同意行動之罪過是否在高級理性",
+      "after": "同意行動之罪過是否在高級理性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a008",
+      "question": "I_II.q074",
+      "pdf_file_page": 2557,
+      "before": "同意於快樂是否為死罪",
+      "after": "同意於快樂是否為死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q074.a009",
+      "question": "I_II.q074",
+      "pdf_file_page": 2560,
+      "before": "就其指導低級能力而言，高級理性是否能有小罪",
+      "after": "就其指導低級能力而言，高級理性是否能有小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-missing-002.png"
+    },
+    {
+      "id": "I_II.q074.a010",
+      "question": "I_II.q074",
+      "pdf_file_page": 2562,
+      "before": "高級理性在本身方面是否能有小罪",
+      "after": "高級理性在本身方面是否能有小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-049.png"
+    },
+    {
+      "id": "I_II.q075.a001",
+      "question": "I_II.q075",
+      "pdf_file_page": 2564,
+      "before": "罪過是否有原因",
+      "after": "罪過是否有原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q075.a002",
+      "question": "I_II.q075",
+      "pdf_file_page": 2566,
+      "before": "罪過是否有內在之原因",
+      "after": "罪過是否有內在之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q075.a003",
+      "question": "I_II.q075",
+      "pdf_file_page": 2568,
+      "before": "罪過是否有外在之原因",
+      "after": "罪過是否有外在之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q075.a004",
+      "question": "I_II.q075",
+      "pdf_file_page": 2569,
+      "before": "罪過是否為罪過之原因",
+      "after": "罪過是否為罪過之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q076.a001",
+      "question": "I_II.q076",
+      "pdf_file_page": 2572,
+      "before": "愚昧是否能為罪過之原因",
+      "after": "愚昧是否能為罪過之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q076.a002",
+      "question": "I_II.q076",
+      "pdf_file_page": 2574,
+      "before": "愚昧是否為罪過",
+      "after": "愚昧是否為罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q076.a003",
+      "question": "I_II.q076",
+      "pdf_file_page": 2576,
+      "before": "愚昧是否完全免除罪過",
+      "after": "愚昧是否完全免除罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q076.a004",
+      "question": "I_II.q076",
+      "pdf_file_page": 2578,
+      "before": "愚昧是否減輕罪過",
+      "after": "愚昧是否減輕罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-050.png"
+    },
+    {
+      "id": "I_II.q077.a001",
+      "question": "I_II.q077",
+      "pdf_file_page": 2581,
+      "before": "意志是否受感官嗜慾之惰的推動",
+      "after": "意志是否受感官嗜慾之惰的推動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a002",
+      "question": "I_II.q077",
+      "pdf_file_page": 2583,
+      "before": "理性能否為情所勝而背叛其知識",
+      "after": "理性能否為情所勝而背叛其知識",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a003",
+      "question": "I_II.q077",
+      "pdf_file_page": 2586,
+      "before": "由情而來之罪過是否應稱為由軟弱而來之罪過",
+      "after": "由情而來之罪過是否應稱為由軟弱而來之罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a004",
+      "question": "I_II.q077",
+      "pdf_file_page": 2588,
+      "before": "愛己之情是否為一切罪過之根源",
+      "after": "愛己之情是否為一切罪過之根源",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a005",
+      "question": "I_II.q077",
+      "pdf_file_page": 2589,
+      "before": "是否可以說「肉身的貪慾~UN目的貪慾，以及人生的驕奢」是罪過之原因",
+      "after": "是否可以說「肉身的貪慾，眼目的貪慾，以及人生的驕奢」是罪過之原因",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a006",
+      "question": "I_II.q077",
+      "pdf_file_page": 2591,
+      "before": "情是否減輕罪過",
+      "after": "情是否減輕罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a007",
+      "question": "I_II.q077",
+      "pdf_file_page": 2593,
+      "before": "情是否完全脫除罪過",
+      "after": "情是否完全脫除罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q077.a008",
+      "question": "I_II.q077",
+      "pdf_file_page": 2595,
+      "before": "由情而來之罪過是否能為死罪",
+      "after": "由情而來之罪過是否能為死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-051.png"
+    },
+    {
+      "id": "I_II.q078.a001",
+      "question": "I_II.q078",
+      "pdf_file_page": 2597,
+      "before": "是否有人由於惡意而犯罪",
+      "after": "是否有人由於惡意而犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q078.a002",
+      "question": "I_II.q078",
+      "pdf_file_page": 2599,
+      "before": "由於習性而犯罪者，是否是由於惡意而犯罪",
+      "after": "由於習性而犯罪者，是否是由於惡意而犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q078.a003",
+      "question": "I_II.q078",
+      "pdf_file_page": 2601,
+      "before": "由於惡意而犯罪者，是否是由於習性而犯罪",
+      "after": "由於惡意而犯罪者，是否是由於習性而犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q078.a004",
+      "question": "I_II.q078",
+      "pdf_file_page": 2603,
+      "before": "由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+      "after": "由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q079.a001",
+      "question": "I_II.q079",
+      "pdf_file_page": 2605,
+      "before": "天主是否為罪過之原因",
+      "after": "天主是否為罪過之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q079.a002",
+      "question": "I_II.q079",
+      "pdf_file_page": 2608,
+      "before": "罪過之行動是否來白天主",
+      "after": "罪過之行動是否來白天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q079.a003",
+      "question": "I_II.q079",
+      "pdf_file_page": 2609,
+      "before": "天主是否為昏昧及心硬之原因",
+      "after": "天主是否為昏昧及心硬之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q079.a004",
+      "question": "I_II.q079",
+      "pdf_file_page": 2611,
+      "before": "昏昧與心硬是否常有益於本人之得救",
+      "after": "昏昧與心硬是否常有益於本人之得救",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q080.a001",
+      "question": "I_II.q080",
+      "pdf_file_page": 2614,
+      "before": "魔鬼是否直接為人犯罪的原因",
+      "after": "魔鬼是否直接為人犯罪的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-052.png"
+    },
+    {
+      "id": "I_II.q080.a002",
+      "question": "I_II.q080",
+      "pdf_file_page": 2616,
+      "before": "魔鬼是否能在內部挑動人犯罪",
+      "after": "魔鬼是否能在內部挑動人犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q080.a003",
+      "question": "I_II.q080",
+      "pdf_file_page": 2618,
+      "before": "魔鬼是否能強迫人犯罪",
+      "after": "魔鬼是否能強迫人犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q080.a004",
+      "question": "I_II.q080",
+      "pdf_file_page": 2620,
+      "before": "是否所有罪過皆來自魔鬼的挑動",
+      "after": "是否所有罪過皆來自魔鬼的挑動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q081.a001",
+      "question": "I_II.q081",
+      "pdf_file_page": 2622,
+      "before": "原祖之第一個罪是否以出生關係流傳給後代",
+      "after": "原祖之第一個罪是否以出生關係流傳給後代",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q081.a002",
+      "question": "I_II.q081",
+      "pdf_file_page": 2625,
+      "before": "原祖或別的祖先的其他罪過，是否傳給後代子孫",
+      "after": "原祖或別的祖先的其他罪過，是否傳給後代子孫",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q081.a003",
+      "question": "I_II.q081",
+      "pdf_file_page": 2627,
+      "before": "原祖的罪是否因血統關係傳給所有的人",
+      "after": "原祖的罪是否因血統關係傳給所有的人",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q081.a004",
+      "question": "I_II.q081",
+      "pdf_file_page": 2629,
+      "before": "若以奇蹟用人之肉身形成人，是否也染有原罪",
+      "after": "若以奇蹟用人之肉身形成人，是否也染有原罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q081.a005",
+      "question": "I_II.q081",
+      "pdf_file_page": 2630,
+      "before": "若厄娃犯罪而亞當不犯罪，後代子孫是否會染原罪",
+      "after": "若厄娃犯罪而亞當不犯罪，後代子孫是否會染原罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-missing-002.png"
+    },
+    {
+      "id": "I_II.q082.a001",
+      "question": "I_II.q082",
+      "pdf_file_page": 2633,
+      "before": "原罪是否為習性",
+      "after": "原罪是否為習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-053.png"
+    },
+    {
+      "id": "I_II.q082.a002",
+      "question": "I_II.q082",
+      "pdf_file_page": 2635,
+      "before": "在一人身上是否有許多原罪",
+      "after": "在一人身上是否有許多原罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q082.a003",
+      "question": "I_II.q082",
+      "pdf_file_page": 2636,
+      "before": "原罪是否為不當慾望或貪慾",
+      "after": "原罪是否為不當慾望或貪慾",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q082.a004",
+      "question": "I_II.q082",
+      "pdf_file_page": 2638,
+      "before": "是否每人的原罪皆相等",
+      "after": "是否每人的原罪皆相等",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q083.a001",
+      "question": "I_II.q083",
+      "pdf_file_page": 2640,
+      "before": "原罪是否主要是在肉身上，而不是在靈魂上",
+      "after": "原罪是否主要是在肉身上，而不是在靈魂上",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q083.a002",
+      "question": "I_II.q083",
+      "pdf_file_page": 2643,
+      "before": "原罪是否首先在靈魂之本體上，而非在其機能上",
+      "after": "原罪是否首先在靈魂之本體上，而非在其機能上",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q083.a003",
+      "question": "I_II.q083",
+      "pdf_file_page": 2644,
+      "before": "原罪是否污染意志先於其他機能",
+      "after": "原罪是否污染意志先於其他機能",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q083.a004",
+      "question": "I_II.q083",
+      "pdf_file_page": 2645,
+      "before": "上述機能是否比其他機能受的污染更重",
+      "after": "上述機能是否比其他機能受的污染更重",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q084.a001",
+      "question": "I_II.q084",
+      "pdf_file_page": 2648,
+      "before": "貪婪是否為一切罪過之根源",
+      "after": "貪婪是否為一切罪過之根源",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-054.png"
+    },
+    {
+      "id": "I_II.q084.a002",
+      "question": "I_II.q084",
+      "pdf_file_page": 2650,
+      "before": "驕傲是否為一切罪過之開端",
+      "after": "驕傲是否為一切罪過之開端",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q084.a003",
+      "question": "I_II.q084",
+      "pdf_file_page": 2652,
+      "before": "除了驕傲和吝窗外，是否有其他個別罪惡應被視為罪宗",
+      "after": "除了驕傲和吝窗外，是否有其他個別罪惡應被視為罪宗",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q084.a004",
+      "question": "I_II.q084",
+      "pdf_file_page": 2653,
+      "before": "罪宗列為七個是否合理",
+      "after": "罪宗列為七個是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a001",
+      "question": "I_II.q085",
+      "pdf_file_page": 2657,
+      "before": "罪過是否減少天性之善",
+      "after": "罪過是否減少天性之善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a002",
+      "question": "I_II.q085",
+      "pdf_file_page": 2659,
+      "before": "人性之善是否能全部被罪過消滅",
+      "after": "人性之善是否能全部被罪過消滅",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a003",
+      "question": "I_II.q085",
+      "pdf_file_page": 2661,
+      "before": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，是否合宜",
+      "after": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，是否合宜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a004",
+      "question": "I_II.q085",
+      "pdf_file_page": 2663,
+      "before": "狀態、美麗及次序之缺欠，是否為罪過之效果",
+      "after": "狀態、美麗及次序之缺欠，是否為罪過之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a005",
+      "question": "I_II.q085",
+      "pdf_file_page": 2665,
+      "before": "死亡及身體上的其他缺點是否為罪過之效果",
+      "after": "死亡及身體上的其他缺點是否為罪過之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-055.png"
+    },
+    {
+      "id": "I_II.q085.a006",
+      "question": "I_II.q085",
+      "pdf_file_page": 2667,
+      "before": "死亡及其他缺點對人是否為自然的",
+      "after": "死亡及其他缺點對人是否為自然的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q086.a001",
+      "question": "I_II.q086",
+      "pdf_file_page": 2670,
+      "before": "罪過是否在靈魂上產生污點",
+      "after": "罪過是否在靈魂上產生污點",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q086.a002",
+      "question": "I_II.q086",
+      "pdf_file_page": 2672,
+      "before": "犯罪行為過後污點是否仍然存留在靈魂上",
+      "after": "犯罪行為過後污點是否仍然在留在靈魂上",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a001",
+      "question": "I_II.q087",
+      "pdf_file_page": 2674,
+      "before": "應受之處罰是否為罪過之效果",
+      "after": "應受之處罰是否為罪過之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a002",
+      "question": "I_II.q087",
+      "pdf_file_page": 2676,
+      "before": "罪過是否能為罪過之處罰",
+      "after": "罪過是否能為罪過之處罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a003",
+      "question": "I_II.q087",
+      "pdf_file_page": 2678,
+      "before": "是否有的罪過應受永罰",
+      "after": "是否有的罪過應受永罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a004",
+      "question": "I_II.q087",
+      "pdf_file_page": 2680,
+      "before": "是否有的罪過應受無限量的處罰",
+      "after": "是否有的罪過應受無限量的處罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a005",
+      "question": "I_II.q087",
+      "pdf_file_page": 2681,
+      "before": "罪過是否皆應受永遠之處罰",
+      "after": "罪過是否皆應受永遠之處罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-056.png"
+    },
+    {
+      "id": "I_II.q087.a006",
+      "question": "I_II.q087",
+      "pdf_file_page": 2683,
+      "before": "解除罪過後是否仍留有處罰",
+      "after": "解除罪過後是否仍留有處罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q087.a007",
+      "question": "I_II.q087",
+      "pdf_file_page": 2684,
+      "before": "處罰是否皆是因了罪過",
+      "after": "處罰是否皆是因了罪過",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q087.a008",
+      "question": "I_II.q087",
+      "pdf_file_page": 2687,
+      "before": "人是否能因了他人的罪過受罰",
+      "after": "人是否能因了他人的罪過受罰",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a001",
+      "question": "I_II.q088",
+      "pdf_file_page": 2690,
+      "before": "區分小罪與死罪是否相宜",
+      "after": "區分小罪與死罪是否相宜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a002",
+      "question": "I_II.q088",
+      "pdf_file_page": 2693,
+      "before": "死罪與小罪是否有本類上的差別",
+      "after": "死罪與小罪是否有本類上的差別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a003",
+      "question": "I_II.q088",
+      "pdf_file_page": 2695,
+      "before": "小罪是否為死罪之準備",
+      "after": "小罪是否為死罪之準備",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a004",
+      "question": "I_II.q088",
+      "pdf_file_page": 2697,
+      "before": "小罪是否能變成死罪",
+      "after": "小罪是否能變成死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a005",
+      "question": "I_II.q088",
+      "pdf_file_page": 2698,
+      "before": "情況是否能使小罪變為死罪",
+      "after": "情況是否能使小罪變為死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-057.png"
+    },
+    {
+      "id": "I_II.q088.a006",
+      "question": "I_II.q088",
+      "pdf_file_page": 2701,
+      "before": "死罪是否能變成小罪",
+      "after": "死罪是否能變成小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a001",
+      "question": "I_II.q089",
+      "pdf_file_page": 2703,
+      "before": "小罪是否使靈魂有污點",
+      "after": "小罪是否使靈魂有污點",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a002",
+      "question": "I_II.q089",
+      "pdf_file_page": 2705,
+      "before": "用木、草、禾稽來指小罪是否合理",
+      "after": "用木、草、禾稽來指小罪是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a003",
+      "question": "I_II.q089",
+      "pdf_file_page": 2707,
+      "before": "人在純真狀態時是否能犯小罪",
+      "after": "人在純真狀態時是否能犯小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a004",
+      "question": "I_II.q089",
+      "pdf_file_page": 2709,
+      "before": "善的或惡的天使是否能犯小罪",
+      "after": "善的或惡的天使是否能犯小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a005",
+      "question": "I_II.q089",
+      "pdf_file_page": 2711,
+      "before": "教外人感官嗜慾的原始衝動是否為死罪",
+      "after": "教外人感官嗜慾的原始衝動是否為死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q089.a006",
+      "question": "I_II.q089",
+      "pdf_file_page": 2712,
+      "before": "是否有人只有原罪和小罪",
+      "after": "是否有人只有原罪和小罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q090.a001",
+      "question": "I_II.q090",
+      "pdf_file_page": 2730,
+      "before": "法律是否屬於理性",
+      "after": "法律是否屬於理性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-058.png"
+    },
+    {
+      "id": "I_II.q090.a002",
+      "question": "I_II.q090",
+      "pdf_file_page": 2732,
+      "before": "法律是否常指向公益",
+      "after": "法律是否常指向公益",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q090.a003",
+      "question": "I_II.q090",
+      "pdf_file_page": 2734,
+      "before": "私人之理性是否能構成法律",
+      "after": "私人之理性是否能構成法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q090.a004",
+      "question": "I_II.q090",
+      "pdf_file_page": 2735,
+      "before": "頒布是否為法律之要素",
+      "after": "頒布是否為法律之要素",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a001",
+      "question": "I_II.q091",
+      "pdf_file_page": 2737,
+      "before": "是否有永恆，之法律",
+      "after": "是否有永恆之法律",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a002",
+      "question": "I_II.q091",
+      "pdf_file_page": 2739,
+      "before": "在我們內是否有自然法律",
+      "after": "在我們內是否有自然法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a003",
+      "question": "I_II.q091",
+      "pdf_file_page": 2741,
+      "before": "是否有人為之法律",
+      "after": "是否有人為之法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a004",
+      "question": "I_II.q091",
+      "pdf_file_page": 2742,
+      "before": "是否必該有天主的法律",
+      "after": "是否必該有天主的法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a005",
+      "question": "I_II.q091",
+      "pdf_file_page": 2744,
+      "before": "天主的法律是否只有一種",
+      "after": "天主的法律是否只有一種",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-059.png"
+    },
+    {
+      "id": "I_II.q091.a006",
+      "question": "I_II.q091",
+      "pdf_file_page": 2747,
+      "before": "是否有慾火之法律",
+      "after": "是否有慾火之法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q092.a001",
+      "question": "I_II.q092",
+      "pdf_file_page": 2749,
+      "before": "使人成為善人是否為法律之效果",
+      "after": "使人成為善人是否為法律之效果",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q092.a002",
+      "question": "I_II.q092",
+      "pdf_file_page": 2751,
+      "before": "所列之法律作用是否合適",
+      "after": "所列之法律作用是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a001",
+      "question": "I_II.q093",
+      "pdf_file_page": 2754,
+      "before": "永恆的法律是否為天主內的最高之理",
+      "after": "永恆的法律是否為天主內的最高之理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a002",
+      "question": "I_II.q093",
+      "pdf_file_page": 2756,
+      "before": "永恆的法律是否為人所共知",
+      "after": "永恆的法律是否為人所共知",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a003",
+      "question": "I_II.q093",
+      "pdf_file_page": 2758,
+      "before": "是否凡法律皆由永恆之法律而來",
+      "after": "是否凡法律皆由永恆之法律而來",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a004",
+      "question": "I_II.q093",
+      "pdf_file_page": 2760,
+      "before": "必然和永恆的事物是否屬於永恆的法律之下",
+      "after": "必然和永恆的事物是否屬於永恆的法律之下",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a005",
+      "question": "I_II.q093",
+      "pdf_file_page": 2762,
+      "before": "自然界的偶然事物是否屬於永恆的法律之下",
+      "after": "自然界的偶然事物是否屬於永恆的法律之下",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-060.png"
+    },
+    {
+      "id": "I_II.q093.a006",
+      "question": "I_II.q093",
+      "pdf_file_page": 2763,
+      "before": "一切人間事情是否皆屬於永恆的法律之下",
+      "after": "一切人間事情是否皆屬於永恆的法律之下",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a001",
+      "question": "I_II.q094",
+      "pdf_file_page": 2767,
+      "before": "自然法律是否為習性",
+      "after": "自然法律是否為習性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a002",
+      "question": "I_II.q094",
+      "pdf_file_page": 2769,
+      "before": "自然法律含有許多指令或僅一條指令",
+      "after": "自然法律含有許多指令或僅一條指令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a003",
+      "question": "I_II.q094",
+      "pdf_file_page": 2771,
+      "before": "德性之行動是否皆屬於自然法律",
+      "after": "德性之行動是否皆屬於自然法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a004",
+      "question": "I_II.q094",
+      "pdf_file_page": 2773,
+      "before": "人是否共有同一自然法律",
+      "after": "人是否共有同一自然法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a005",
+      "question": "I_II.q094",
+      "pdf_file_page": 2775,
+      "before": "自然法律是否能夠改變",
+      "after": "自然法律是否能夠改變",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q094.a006",
+      "question": "I_II.q094",
+      "pdf_file_page": 2777,
+      "before": "自然法律是否能從人心中消滅",
+      "after": "自然法律是否能從人心中消滅",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q095.a001",
+      "question": "I_II.q095",
+      "pdf_file_page": 2779,
+      "before": "訂立人為法律是否有用",
+      "after": "訂立人為法律是否有用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-061.png"
+    },
+    {
+      "id": "I_II.q095.a002",
+      "question": "I_II.q095",
+      "pdf_file_page": 2781,
+      "before": "人為法律是否皆源於自然法律",
+      "after": "人為法律是否皆源於自然法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q095.a003",
+      "question": "I_II.q095",
+      "pdf_file_page": 2783,
+      "before": "依希道對成文法律性質之描述是否合適",
+      "after": "依希道對成文法律性質之描述是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q095.a004",
+      "question": "I_II.q095",
+      "pdf_file_page": 2785,
+      "before": "依希道的人為法律分類是否適當",
+      "after": "依希道的人為法律分類是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a001",
+      "question": "I_II.q096",
+      "pdf_file_page": 2788,
+      "before": "人為法律是否該是廣泛性的，而不該是個別性的",
+      "after": "人為法律是否該是廣泛性的，而不該是個別性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a002",
+      "question": "I_II.q096",
+      "pdf_file_page": 2790,
+      "before": "人為法律是否該禁絕一切惡習",
+      "after": "人為法律是否該禁絕一切惡習",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a003",
+      "question": "I_II.q096",
+      "pdf_file_page": 2792,
+      "before": "人為法律是否責成一切德性",
+      "after": "人為法律是否責成一切德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a004",
+      "question": "I_II.q096",
+      "pdf_file_page": 2793,
+      "before": "人為法律是否約束人的良心",
+      "after": "人為法律是否約束人的良心",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a005",
+      "question": "I_II.q096",
+      "pdf_file_page": 2795,
+      "before": "是否凡人皆屬於法律權下",
+      "after": "是否凡人皆屬於法律權下",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-062.png"
+    },
+    {
+      "id": "I_II.q096.a006",
+      "question": "I_II.q096",
+      "pdf_file_page": 2798,
+      "before": "屬於法律權下者，是否可以不守法律的字面意義",
+      "after": "屬於法律權下者，是否可以不守法律的字面意義",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q097.a001",
+      "question": "I_II.q097",
+      "pdf_file_page": 2800,
+      "before": "人為的法律是否該有某種改變",
+      "after": "人為的法律是否該有某種改變",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q097.a002",
+      "question": "I_II.q097",
+      "pdf_file_page": 2802,
+      "before": "若發現有更好的，入為法律是否常該改善",
+      "after": "若發現有更好的，入為法律是否常該改善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q097.a003",
+      "question": "I_II.q097",
+      "pdf_file_page": 2803,
+      "before": "習慣是否能取得法律的效力",
+      "after": "習慣是否能取得法律的效力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q097.a004",
+      "question": "I_II.q097",
+      "pdf_file_page": 2805,
+      "before": "管理羣眾之長官是否能豁免人為的法律",
+      "after": "管理羣眾之長官是否能豁免人為的法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q098.a001",
+      "question": "I_II.q098",
+      "pdf_file_page": 2807,
+      "before": "舊約之法律是否優良",
+      "after": "舊約之法律是否優良",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q098.a002",
+      "question": "I_II.q098",
+      "pdf_file_page": 2810,
+      "before": "舊約的法律是否來自天主",
+      "after": "舊約的法律是否來自天主",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q098.a003",
+      "question": "I_II.q098",
+      "pdf_file_page": 2812,
+      "before": "舊約的法律是否為通過天使而來的",
+      "after": "舊約的法律是否為通過天使而來的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-063.png"
+    },
+    {
+      "id": "I_II.q098.a004",
+      "question": "I_II.q098",
+      "pdf_file_page": 2814,
+      "before": "舊約的法律是否該只給猶太民族",
+      "after": "舊約的法律是否該只給猶太民族",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q098.a005",
+      "question": "I_II.q098",
+      "pdf_file_page": 2817,
+      "before": "人是否皆應奉守舊約的法律",
+      "after": "人是否皆應奉守舊約的法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q098.a006",
+      "question": "I_II.q098",
+      "pdf_file_page": 2818,
+      "before": "在梅瑟時代頒訂舊約的法律是否合適",
+      "after": "在梅瑟時代頒訂舊約的法律是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a001",
+      "question": "I_II.q099",
+      "pdf_file_page": 2821,
+      "before": "舊約的法律是否只有一個訓令",
+      "after": "舊約的法律是否只有一個訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a002",
+      "question": "I_II.q099",
+      "pdf_file_page": 2823,
+      "before": "舊約的法律是否含有道德性的訓令",
+      "after": "舊約的法律是否含有道德性的訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a003",
+      "question": "I_II.q099",
+      "pdf_file_page": 2825,
+      "before": "道德性訓令之外，舊約的法律是否含有禮儀性的訓令",
+      "after": "道德性訓令之外，舊約的法律是否含有禮儀性的訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a004",
+      "question": "I_II.q099",
+      "pdf_file_page": 2827,
+      "before": "道德性和禮儀性訓令之外，舊約的法律是否合有司法性的訓令",
+      "after": "道德性和禮儀性訓令之外，舊約的法律是否合有司法性的訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a005",
+      "question": "I_II.q099",
+      "pdf_file_page": 2829,
+      "before": "道德、司法、禮儀訓令之外，舊約的法律是否還含有別的訓令",
+      "after": "道德、司法、禮儀訓令之外，舊約的法律是否還含有別的訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-064.png"
+    },
+    {
+      "id": "I_II.q099.a006",
+      "question": "I_II.q099",
+      "pdf_file_page": 2831,
+      "before": "舊約是否該用現世的賞罰許諾，促人遵守古11令",
+      "after": "舊約是否該用現世的賞罰許諾，促人遵守訓令",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a001",
+      "question": "I_II.q100",
+      "pdf_file_page": 2834,
+      "before": "舊約法律之道德哥11令是否皆屬於自然法律",
+      "after": "舊約法律之道德訓令是否皆屬於自然法律",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a002",
+      "question": "I_II.q100",
+      "pdf_file_page": 2836,
+      "before": "舊約法律之道德訓令是否為關於一切德性的",
+      "after": "舊約法律之道德訓令是否為關於一切德性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a003",
+      "question": "I_II.q100",
+      "pdf_file_page": 2838,
+      "before": "舊約法律之一切道德育11令是否皆歸宗於十誡",
+      "after": "舊約法律之一切道德訓令是否皆歸宗於十誡",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a004",
+      "question": "I_II.q100",
+      "pdf_file_page": 2840,
+      "before": "十誠之訓令的區分是否適當",
+      "after": "十誠之訓令的區分是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a005",
+      "question": "I_II.q100",
+      "pdf_file_page": 2842,
+      "before": "十誠之訓令的數目是否適當",
+      "after": "十誠之訓令的數目是否適當",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a006",
+      "question": "I_II.q100",
+      "pdf_file_page": 2847,
+      "before": "十誠之十條訓令的次序是否合適",
+      "after": "十誠之十條訓令的次序是否合適",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a007",
+      "question": "I_II.q100",
+      "pdf_file_page": 2849,
+      "before": "十誠之首n令編寫的是否得體",
+      "after": "十誡之訓令編寫的是否得體",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-065.png"
+    },
+    {
+      "id": "I_II.q100.a008",
+      "question": "I_II.q100",
+      "pdf_file_page": 2851,
+      "before": "十誠之首11令是否可以豁免",
+      "after": "十誡之訓令是否可以豁免",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q100.a009",
+      "question": "I_II.q100",
+      "pdf_file_page": 2854,
+      "before": "秉持德性之心態或精神，是否屬於法律之訓令範閻",
+      "after": "秉持德性之心態或精神，是否屬於法律之訓令範閻",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q100.a010",
+      "question": "I_II.q100",
+      "pdf_file_page": 2857,
+      "before": "秉持愛德之心態、或精神，是否屬於天主之法律的訓令範閻",
+      "after": "秉持愛德之心態或精神，是否屬於天主之法律的訓令範圍",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q100.a011",
+      "question": "I_II.q100",
+      "pdf_file_page": 2859,
+      "before": "十誠之外，是否尚宜區分法律之其他道德、訓令",
+      "after": "十誡之外，是否尚宜區分法律之其他道德訓令",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q100.a012",
+      "question": "I_II.q100",
+      "pdf_file_page": 2862,
+      "before": "舊約法律的道德訓令是否使人成義",
+      "after": "舊約法律的道德訓令是否使人成義",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q101.a001",
+      "question": "I_II.q101",
+      "pdf_file_page": 2865,
+      "before": "禮儀訓令之理是否在於與敬禮天主有關",
+      "after": "禮儀訓令之理是否在於與敬禮天主有關",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q101.a002",
+      "question": "I_II.q101",
+      "pdf_file_page": 2867,
+      "before": "禮儀訓令是否為象徵性的",
+      "after": "禮儀訓令是否為象徵性的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q101.a003",
+      "question": "I_II.q101",
+      "pdf_file_page": 2870,
+      "before": "是否該有許多禮儀訊l令",
+      "after": "是否該有許多禮儀訓令",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-066.png"
+    },
+    {
+      "id": "I_II.q101.a004",
+      "question": "I_II.q101",
+      "pdf_file_page": 2872,
+      "before": "舊約法律的禮儀是否宜分為祭品巴、聖物、聖事和守則四部分",
+      "after": "舊約法律的禮儀是否宜分為祭祀、聖物、聖事和守則四部分",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a001",
+      "question": "I_II.q102",
+      "pdf_file_page": 2875,
+      "before": "禮儀訓令是否有原因",
+      "after": "禮儀訓令是否有原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a002",
+      "question": "I_II.q102",
+      "pdf_file_page": 2877,
+      "before": "禮儀訓令是否兼有字面上的原因，抑或只有象徵的原因",
+      "after": "禮儀訓令是否兼有字面上的原因，抑或只有象徵的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a003",
+      "question": "I_II.q102",
+      "pdf_file_page": 2879,
+      "before": "祭紀的禮儀是否有適當的理由",
+      "after": "祭祀的禮儀是否有適當的理由",
+      "status": "corrected",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a004",
+      "question": "I_II.q102",
+      "pdf_file_page": 2887,
+      "before": "關於聖物的禮儀是否有適當理由",
+      "after": "關於聖物的禮儀是否有適當理由",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a005",
+      "question": "I_II.q102",
+      "pdf_file_page": 2899,
+      "before": "舊約法律的聖事是否有合理的原因",
+      "after": "舊約法律的聖事是否有合理的原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q102.a006",
+      "question": "I_II.q102",
+      "pdf_file_page": 2915,
+      "before": "禮儀守則是否有正當原因",
+      "after": "禮儀守則是否有正當原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q103.a001",
+      "question": "I_II.q103",
+      "pdf_file_page": 2926,
+      "before": "在頒布法律以前是否已有禮儀訓令",
+      "after": "在頒布法律以前是否已有禮儀訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-067.png"
+    },
+    {
+      "id": "I_II.q103.a002",
+      "question": "I_II.q103",
+      "pdf_file_page": 2928,
+      "before": "舊約法律的禮儀在法律有效期間，是否有成義的作用",
+      "after": "舊約法律的禮儀在法律有效期間，是否有成義的作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q103.a003",
+      "question": "I_II.q103",
+      "pdf_file_page": 2931,
+      "before": "是否基督來了後，舊約法律的禮儀便行廢止",
+      "after": "是否基督來了後，舊約法律的禮儀便行廢止",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q103.a004",
+      "question": "I_II.q103",
+      "pdf_file_page": 2934,
+      "before": "在基督受難後，是否可遵守法訂禮儀而沒有死罪",
+      "after": "在基督受難後，是否可遵守法訂禮儀而沒有死罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q104.a001",
+      "question": "I_II.q104",
+      "pdf_file_page": 2939,
+      "before": "司法訓令之理是否在於是關係他人的",
+      "after": "司法訓令之理是否在於是關係他人的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q104.a002",
+      "question": "I_II.q104",
+      "pdf_file_page": 2941,
+      "before": "司法訓令是否有象徵意義",
+      "after": "司法訓令是否有象徵意義",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q104.a003",
+      "question": "I_II.q104",
+      "pdf_file_page": 2943,
+      "before": "舊約法律的司法訓令是否具有永恆的約束力",
+      "after": "舊約法律的司法訓令是否具有永恆的約束力",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q104.a004",
+      "question": "I_II.q104",
+      "pdf_file_page": 2945,
+      "before": "司法訓令是否能有明確的區分",
+      "after": "司法訓令是否能有明確的區分",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q105.a001",
+      "question": "I_II.q105",
+      "pdf_file_page": 2947,
+      "before": "舊約法律關於長官之規定是否合理",
+      "after": "舊約法律關於長官之規定是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-068.png"
+    },
+    {
+      "id": "I_II.q105.a002",
+      "question": "I_II.q105",
+      "pdf_file_page": 2951,
+      "before": "關於人民彼此之關係的司法訓令是否合理",
+      "after": "關於人民彼此之關係的司法訓令是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q105.a003",
+      "question": "I_II.q105",
+      "pdf_file_page": 2963,
+      "before": "關於外方人的司法訓令是否合理",
+      "after": "關於外方人的司法訓令是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q105.a004",
+      "question": "I_II.q105",
+      "pdf_file_page": 2967,
+      "before": "舊約法律關於家屬的訓令是否合理",
+      "after": "舊約法律關於家屬的訓令是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q106.a001",
+      "question": "I_II.q106",
+      "pdf_file_page": 2972,
+      "before": "新法律是否為成文法律",
+      "after": "新法律是否為成文法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q106.a002",
+      "question": "I_II.q106",
+      "pdf_file_page": 2974,
+      "before": "新法律是否有成義作用",
+      "after": "新法律是否有成義作用",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q106.a003",
+      "question": "I_II.q106",
+      "pdf_file_page": 2976,
+      "before": "新法律是否該在世界創始時頒賜",
+      "after": "新法律是否該在世界創始時頒賜",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q106.a004",
+      "question": "I_II.q106",
+      "pdf_file_page": 2978,
+      "before": "新法律是否要保存到世界末日",
+      "after": "新法律是否要保存到世界末日",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q107.a001",
+      "question": "I_II.q107",
+      "pdf_file_page": 2982,
+      "before": "新法律是否與舊法律有別",
+      "after": "新法律是否與舊法律有別",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-069.png"
+    },
+    {
+      "id": "I_II.q107.a002",
+      "question": "I_II.q107",
+      "pdf_file_page": 2986,
+      "before": "新法律是否成全舊法律",
+      "after": "新法律是否成全舊法律",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q107.a003",
+      "question": "I_II.q107",
+      "pdf_file_page": 2989,
+      "before": "新法律是否包括在舊法律內",
+      "after": "新法律是否包括在舊法律內",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q107.a004",
+      "question": "I_II.q107",
+      "pdf_file_page": 2991,
+      "before": "新法律是否比舊法律沉重",
+      "after": "新法律是否比舊法律沉重",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q108.a001",
+      "question": "I_II.q108",
+      "pdf_file_page": 2994,
+      "before": "新法律是否該命令或禁止外表行動",
+      "after": "新法律是否該命令或禁止外表行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q108.a002",
+      "question": "I_II.q108",
+      "pdf_file_page": 2997,
+      "before": "新法律關於外表行動之規定是否完備",
+      "after": "新法律關於外表行動之規定是否完備",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q108.a003",
+      "question": "I_II.q108",
+      "pdf_file_page": 3000,
+      "before": "釋疑2.便要講到。第三節新法律關於人內心活動的規定是否完備",
+      "after": "新法律關於人內心活動的規定是否完備",
+      "status": "corrected",
+      "source_note": "标题前夹入的「釋疑2.便要講到。第三節」不属本节标题；此处已去除，前一节正文的跨页衔接另待正文轮次校核。"
+    },
+    {
+      "id": "I_II.q108.a004",
+      "question": "I_II.q108",
+      "pdf_file_page": 3004,
+      "before": "在新法律中，是否該提出某些固定的勸論",
+      "after": "在新法律中，是否該提出某些固定的勸論",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q109.a001",
+      "question": "I_II.q109",
+      "pdf_file_page": 3007,
+      "before": "沒有恩寵，人是否能認識真理",
+      "after": "沒有恩寵，人是否能認識真理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q109.a002",
+      "question": "I_II.q109",
+      "pdf_file_page": 3010,
+      "before": "沒有恩寵，人是否能願善及行善",
+      "after": "沒有恩寵，人是否能願善及行善",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-070.png"
+    },
+    {
+      "id": "I_II.q109.a003",
+      "question": "I_II.q109",
+      "pdf_file_page": 3012,
+      "before": "人沒有恩寵，單憑自然能力是否能愛天主在萬有之上",
+      "after": "人沒有恩寵，單憑自然能力是否能愛天主在萬有之上",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a004",
+      "question": "I_II.q109",
+      "pdf_file_page": 3014,
+      "before": "人沒有恩寵，單憑自然能力是否能滿全法律之訓令",
+      "after": "人沒有恩寵，單憑自然能力是否能滿全法律之訓令",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a005",
+      "question": "I_II.q109",
+      "pdf_file_page": 3016,
+      "before": "沒有恩寵，人是否能立功掙得永生",
+      "after": "沒有恩寵，人是否能立功掙得永生",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a006",
+      "question": "I_II.q109",
+      "pdf_file_page": 3018,
+      "before": "沒有恩寵外來的幫助，人是否能自力準備自己獲取恩寵",
+      "after": "沒有恩寵外來的幫助，人是否能自力準備自己獲取恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a007",
+      "question": "I_II.q109",
+      "pdf_file_page": 3020,
+      "before": "人沒有恩寵幫助，是否能改過自新",
+      "after": "人沒有恩寵幫助，是否能改過自新",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a008",
+      "question": "I_II.q109",
+      "pdf_file_page": 3022,
+      "before": "沒有恩寵，人是否能不犯罪",
+      "after": "沒有恩寵，人是否能不犯罪",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a009",
+      "question": "I_II.q109",
+      "pdf_file_page": 3025,
+      "before": "若非另有恩寵幫助，已有恩寵的人，是否能憑自己行善避惡",
+      "after": "若非另有恩寵幫助，已有恩寵的人，是否能憑自己行善避惡",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q109.a010",
+      "question": "I_II.q109",
+      "pdf_file_page": 3027,
+      "before": "已有恩寵的人，是否仍需恩寵的幫助以保持恆心",
+      "after": "已有恩寵的人，是否仍需恩寵的幫助以保持恆心",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-071.png"
+    },
+    {
+      "id": "I_II.q110.a001",
+      "question": "I_II.q110",
+      "pdf_file_page": 3029,
+      "before": "恩寵是否在靈魂上產生什麼東西",
+      "after": "恩寵是否在靈魂上產生什麼東西",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q110.a002",
+      "question": "I_II.q110",
+      "pdf_file_page": 3032,
+      "before": "恩寵是否為靈魂的品質",
+      "after": "恩寵是否為靈魂的品質",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q110.a003",
+      "question": "I_II.q110",
+      "pdf_file_page": 3034,
+      "before": "恩寵是否與德J性相同",
+      "after": "恩寵是否與德J性相同",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q110.a004",
+      "question": "I_II.q110",
+      "pdf_file_page": 3036,
+      "before": "恩寵是以靈魂之本體，抑或以其某機能為主體",
+      "after": "恩寵是以靈魂之本體，抑或以其某機能為主體",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q111.a001",
+      "question": "I_II.q111",
+      "pdf_file_page": 3039,
+      "before": "恩寵是否可分為白白施予的恩寵，及使中快天主的恩寵",
+      "after": "恩寵是否可分為白白施予的恩寵，及使中快天主的恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q111.a002",
+      "question": "I_II.q111",
+      "pdf_file_page": 3041,
+      "before": "恩寵是否可分為主導作用恩寵，與配合作用恩寵",
+      "after": "恩寵是否可分為主導作用恩寵，與配合作用恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q111.a003",
+      "question": "I_II.q111",
+      "pdf_file_page": 3044,
+      "before": "恩寵是否可以分為先施的與後施的",
+      "after": "恩寵是否可以分為先施的與後施的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q111.a004",
+      "question": "I_II.q111",
+      "pdf_file_page": 3045,
+      "before": "宗徒對白白施予的恩寵所做的區分，是否合理",
+      "after": "宗徒對白白施予的恩寵所做的區分，是否合理",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-072.png"
+    },
+    {
+      "id": "I_II.q111.a005",
+      "question": "I_II.q111",
+      "pdf_file_page": 3048,
+      "before": "白白施予的恩寵是否比使中悅天主的恩寵高貴",
+      "after": "白白施予的恩寵是否比使中悅天主的恩寵高貴",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q112.a001",
+      "question": "I_II.q112",
+      "pdf_file_page": 3051,
+      "before": "是否只有天主是恩寵之原因",
+      "after": "是否只有天主是恩寵之原因",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q112.a002",
+      "question": "I_II.q112",
+      "pdf_file_page": 3052,
+      "before": "人是否須有針對恩寵的準備或配合",
+      "after": "人是否須有針對恩寵的準備或配合",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q112.a003",
+      "question": "I_II.q112",
+      "pdf_file_page": 3054,
+      "before": "對恩寵有準備的、或盡力而為的，是否必然獲得恩寵",
+      "after": "對恩寵有準備的、或盡力而為的，是否必然獲得恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q112.a004",
+      "question": "I_II.q112",
+      "pdf_file_page": 3056,
+      "before": "一人的恩寵是否大於另一人的恩寵有闇第四節，我們討論如下:",
+      "after": "一人的恩寵是否大於另一人的恩寵",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-002.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q112.a004.intro",
+        "restored_source_intro": "有關第四節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q112.a005",
+      "question": "I_II.q112",
+      "pdf_file_page": 3058,
+      "before": "人是否能知道自己有恩寵",
+      "after": "人是否能知道自己有恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q113.a001",
+      "question": "I_II.q113",
+      "pdf_file_page": 3061,
+      "before": "罪人之成義是否為罪過之赦免有關第一前，我們討論如下:",
+      "after": "罪人之成義是否為罪過之赦免",
+      "status": "corrected",
+      "source_image_sheet": "I_II-missing-002.png",
+      "relocation": {
+        "kind": "article_intro",
+        "destination": "I_II.q113.a001.intro",
+        "restored_source_intro": "有關第一節，我們討論如下："
+      }
+    },
+    {
+      "id": "I_II.q113.a002",
+      "question": "I_II.q113",
+      "pdf_file_page": 3063,
+      "before": "罪過之赦免或罪人之成義，是否需要恩寵之灌輸",
+      "after": "罪過之赦免或罪人之成義，是否需要恩寵之灌輸",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q113.a003",
+      "question": "I_II.q113",
+      "pdf_file_page": 3065,
+      "before": "罪人之成義是否需要自由意志之行動",
+      "after": "罪人之成義是否需要自由意志之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q113.a004",
+      "question": "I_II.q113",
+      "pdf_file_page": 3067,
+      "before": "罪人之成義是否需要信德之行動",
+      "after": "罪人之成義是否需要信德之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-073.png"
+    },
+    {
+      "id": "I_II.q113.a005",
+      "question": "I_II.q113",
+      "pdf_file_page": 3069,
+      "before": "罪人之成義是否需要針對罪惡的自由意志之行動",
+      "after": "罪人之成義是否需要針對罪惡的自由意志之行動",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q113.a006",
+      "question": "I_II.q113",
+      "pdf_file_page": 3070,
+      "before": "罪過之赦免是否應算為罪人成義所必要者之一",
+      "after": "罪過之赦免是否應算為罪人成義所必要者之一",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q113.a007",
+      "question": "I_II.q113",
+      "pdf_file_page": 3072,
+      "before": "罪人之成義是突發的，抑或漸進的",
+      "after": "罪人之成義是突發的，抑或漸進的",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q113.a008",
+      "question": "I_II.q113",
+      "pdf_file_page": 3075,
+      "before": "罪人之成義的要件中，恩寵之灌輸是否按自然次序最先",
+      "after": "罪人之成義的要件中，恩寵之灌輸是否按自然次序最先",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q113.a009",
+      "question": "I_II.q113",
+      "pdf_file_page": 3077,
+      "before": "罪人之成義是否為天主之最大成就",
+      "after": "罪人之成義是否為天主之最大成就",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q113.a010",
+      "question": "I_II.q113",
+      "pdf_file_page": 3079,
+      "before": "罪人之成義是否為奇蹟",
+      "after": "罪人之成義是否為奇蹟",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q114.a001",
+      "question": "I_II.q114",
+      "pdf_file_page": 3082,
+      "before": "人是否能由天主掙得什麼",
+      "after": "人是否能由天主掙得什麼",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q114.a002",
+      "question": "I_II.q114",
+      "pdf_file_page": 3084,
+      "before": "人沒有恩寵是否能掙得永生",
+      "after": "人沒有恩寵是否能掙得永生",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-074.png"
+    },
+    {
+      "id": "I_II.q114.a003",
+      "question": "I_II.q114",
+      "pdf_file_page": 3086,
+      "before": "有恩寵的人是否能相當地掙得永生",
+      "after": "有恩寵的人是否能相當地掙得永生",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a004",
+      "question": "I_II.q114",
+      "pdf_file_page": 3088,
+      "before": "恩寵之為功績之根本，是否主要靠愛德勝過靠其他德性",
+      "after": "恩寵之為功績之根本，是否主要靠愛德勝過靠其他德性",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a005",
+      "question": "I_II.q114",
+      "pdf_file_page": 3090,
+      "before": "人是否能為自己掙得第一個恩寵",
+      "after": "人是否能為自己掙得第一個恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a006",
+      "question": "I_II.q114",
+      "pdf_file_page": 3091,
+      "before": "人是否能替他人掙得第一個恩寵",
+      "after": "人是否能替他人掙得第一個恩寵",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a007",
+      "question": "I_II.q114",
+      "pdf_file_page": 3093,
+      "before": "人是否能為自己掙得墮落後之補救",
+      "after": "人是否能為自己掙得墮落後之補救",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a008",
+      "question": "I_II.q114",
+      "pdf_file_page": 3095,
+      "before": "人是否能掙得恩寵或愛德之增加",
+      "after": "人是否能掙得恩寵或愛德之增加",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a009",
+      "question": "I_II.q114",
+      "pdf_file_page": 3096,
+      "before": "人是否能掙得至終不渝",
+      "after": "人是否能掙得至終不渝",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    },
+    {
+      "id": "I_II.q114.a010",
+      "question": "I_II.q114",
+      "pdf_file_page": 3098,
+      "before": "現世之善是否屬於功績範圍",
+      "after": "現世之善是否屬於功績範圍",
+      "status": "checked_unchanged",
+      "source_image_sheet": "I_II-articles-075.png"
+    }
+  ]
+}
