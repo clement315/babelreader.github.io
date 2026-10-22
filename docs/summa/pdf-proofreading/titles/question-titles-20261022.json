@@ -1,0 +1,4352 @@
+{
+  "schema_version": 1,
+  "batch": "question-titles-20261022",
+  "date": "2026-10-22",
+  "author": "element",
+  "baseline_git_commit": "173912bb109a62c5e99588fb174c2aa3b54a8a42",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question_titles_reviewed": 613,
+    "article_titles_newly_reviewed": 0,
+    "all_original_question_title_images_viewed": true,
+    "changed_question_titles": 23
+  },
+  "changed_reader_files": [
+    "data/summa/I/q50.json",
+    "data/summa/I/q105.json",
+    "data/summa/I/q107.json",
+    "data/summa/I_II/q6.json",
+    "data/summa/I_II/q22.json",
+    "data/summa/I_II/q78.json",
+    "data/summa/I_II/q107.json",
+    "data/summa/II_II/q74.json",
+    "data/summa/II_II/q96.json",
+    "data/summa/II_II/q120.json",
+    "data/summa/II_II/q168.json",
+    "data/summa/III/q2.json",
+    "data/summa/III/q16.json",
+    "data/summa/III/q23.json",
+    "data/summa/III/q27.json",
+    "data/summa/III/q31.json",
+    "data/summa/III/q46.json",
+    "data/summa/III/q47.json",
+    "data/summa/SUPPL/q32.json",
+    "data/summa/SUPPL/q57.json",
+    "data/summa/SUPPL/q58.json",
+    "data/summa/SUPPL/q74.json",
+    "data/summa/SUPPL/q91.json",
+    "data/summa/catalog.json"
+  ],
+  "protection": {
+    "only_question_title_zh_values_changed": true,
+    "question_bodies_and_article_titles_unchanged": true,
+    "non_zh_raw_bytes_identical": true,
+    "newline_escapes_preserved": true
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q050",
+      "pdf_file_page": 944,
+      "text": "論天使的性體本體",
+      "action": "原页标题确为「性體本體」，疑漏「或」；按原页补回网页所漏「性體」，不增补底本未有的「或」。"
+    }
+  ],
+  "readings": [
+    {
+      "id": "I.q001",
+      "pdf_file_page": 218,
+      "before": "論聖道的性質和範圍",
+      "after": "論聖道的性質和範圍",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q002",
+      "pdf_file_page": 238,
+      "before": "論天主——天主是否存在",
+      "after": "論天主——天主是否存在",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q003",
+      "pdf_file_page": 248,
+      "before": "論天主的單純性",
+      "after": "論天主的單純性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q004",
+      "pdf_file_page": 267,
+      "before": "論天主的完美",
+      "after": "論天主的完美",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q005",
+      "pdf_file_page": 275,
+      "before": "概論善",
+      "after": "概論善",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q006",
+      "pdf_file_page": 289,
+      "before": "論天主之善或善性",
+      "after": "論天主之善或善性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q007",
+      "pdf_file_page": 297,
+      "before": "論天主的無限性",
+      "after": "論天主的無限性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q008",
+      "pdf_file_page": 307,
+      "before": "論天主臨在於萬物內",
+      "after": "論天主臨在於萬物內",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q009",
+      "pdf_file_page": 318,
+      "before": "論天主的不變性",
+      "after": "論天主的不變性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q010",
+      "pdf_file_page": 324,
+      "before": "論天主的永恆性",
+      "after": "論天主的永恆性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q011",
+      "pdf_file_page": 340,
+      "before": "論天主的唯一性",
+      "after": "論天主的唯一性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q012",
+      "pdf_file_page": 350,
+      "before": "論我們怎樣認知天主",
+      "after": "論我們怎樣認知天主",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q013",
+      "pdf_file_page": 382,
+      "before": "論天主的名稱",
+      "after": "論天主的名稱",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q014",
+      "pdf_file_page": 420,
+      "before": "論天主的知識",
+      "after": "論天主的知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q015",
+      "pdf_file_page": 461,
+      "before": "論理念",
+      "after": "論理念",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q016",
+      "pdf_file_page": 469,
+      "before": "論真理",
+      "after": "論真理",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q017",
+      "pdf_file_page": 486,
+      "before": "論虛假",
+      "after": "論虛假",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q018",
+      "pdf_file_page": 496,
+      "before": "論天主的生命",
+      "after": "論天主的生命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q019",
+      "pdf_file_page": 507,
+      "before": "論天主的意志",
+      "after": "論天主的意志",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q020",
+      "pdf_file_page": 536,
+      "before": "論天主之愛",
+      "after": "論天主之愛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q021",
+      "pdf_file_page": 547,
+      "before": "論天主的正義和仁慈",
+      "after": "論天主的正義和仁慈",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q022",
+      "pdf_file_page": 557,
+      "before": "論天主的照顧",
+      "after": "論天主的照顧",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q023",
+      "pdf_file_page": 568,
+      "before": "論預定",
+      "after": "論預定",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q024",
+      "pdf_file_page": 590,
+      "before": "論生命冊",
+      "after": "論生命冊",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q025",
+      "pdf_file_page": 596,
+      "before": "論天主的能力",
+      "after": "論天主的能力",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q026",
+      "pdf_file_page": 613,
+      "before": "論天主的真福",
+      "after": "論天主的真福",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q027",
+      "pdf_file_page": 619,
+      "before": "論天主位格之出發",
+      "after": "論天主位格之出發",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q028",
+      "pdf_file_page": 631,
+      "before": "論天主內之關係",
+      "after": "論天主內之關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q029",
+      "pdf_file_page": 643,
+      "before": "論天主之位或位格",
+      "after": "論天主之位或位格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q030",
+      "pdf_file_page": 659,
+      "before": "論天主位格之多數性",
+      "after": "論天主位格之多數性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q031",
+      "pdf_file_page": 672,
+      "before": "論在天主內那些與唯一性或多數性有關者",
+      "after": "論在天主內那些與唯一性或多數性有關者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q032",
+      "pdf_file_page": 686,
+      "before": "論對天主位格之認知",
+      "after": "論對天主位格之認知",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q033",
+      "pdf_file_page": 699,
+      "before": "論聖父之位格",
+      "after": "論聖父之位格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q034",
+      "pdf_file_page": 711,
+      "before": "論聖子之位格",
+      "after": "論聖子之位格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q035",
+      "pdf_file_page": 722,
+      "before": "論肖像",
+      "after": "論肖像",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q036",
+      "pdf_file_page": 727,
+      "before": "論聖神之位格",
+      "after": "論聖神之位格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q037",
+      "pdf_file_page": 743,
+      "before": "論聖神之另一名稱——愛",
+      "after": "論聖神之另一名稱——愛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q038",
+      "pdf_file_page": 752,
+      "before": "論聖神的第三名稱——恩惠",
+      "after": "論聖神的第三名稱——恩惠",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q039",
+      "pdf_file_page": 757,
+      "before": "論天主三位與本質或本體的關係",
+      "after": "論天主三位與本質或本體的關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q040",
+      "pdf_file_page": 789,
+      "before": "論位格與關係或特徵之比較",
+      "after": "論位格與關係或特徵之比較",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q041",
+      "pdf_file_page": 801,
+      "before": "論位格與表記行動的關係",
+      "after": "論位格與表記行動的關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q042",
+      "pdf_file_page": 818,
+      "before": "論天主位格間的相同與相似",
+      "after": "論天主位格間的相同與相似",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q043",
+      "pdf_file_page": 834,
+      "before": "論天主位格的派遣",
+      "after": "論天主位格的派遣",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q044",
+      "pdf_file_page": 869,
+      "before": "論受造物的出資天主與論萬物的第一原因",
+      "after": "論受造物的出資天主與論萬物的第一原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q045",
+      "pdf_file_page": 878,
+      "before": "論受造物源出第一原因的方式",
+      "after": "論受造物源出第一原因的方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q046",
+      "pdf_file_page": 898,
+      "before": "論受造物持續存在的起始",
+      "after": "論受造物持續存在的起始",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q047",
+      "pdf_file_page": 912,
+      "before": "總論受造物的區別",
+      "after": "總論受造物的區別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q048",
+      "pdf_file_page": 920,
+      "before": "分論受造物的區別",
+      "after": "分論受造物的區別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q049",
+      "pdf_file_page": 935,
+      "before": "論惡的原因",
+      "after": "論惡的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q050",
+      "pdf_file_page": 944,
+      "before": "論天使的本體",
+      "after": "論天使的性體本體",
+      "status": "corrected"
+    },
+    {
+      "id": "I.q051",
+      "pdf_file_page": 958,
+      "before": "論天使與形體物的關係",
+      "after": "論天使與形體物的關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q052",
+      "pdf_file_page": 967,
+      "before": "論天使與地方的關係",
+      "after": "論天使與地方的關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q053",
+      "pdf_file_page": 972,
+      "before": "論天使的地方運動",
+      "after": "論天使的地方運動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q054",
+      "pdf_file_page": 982,
+      "before": "論天使的認識",
+      "after": "論天使的認識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q055",
+      "pdf_file_page": 992,
+      "before": "論天使的認識方法",
+      "after": "論天使的認識方法",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q056",
+      "pdf_file_page": 1000,
+      "before": "論天使對非物質物的知識",
+      "after": "論天使對非物質物的知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q057",
+      "pdf_file_page": 1008,
+      "before": "論天使對物質物的知識",
+      "after": "論天使對物質物的知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q058",
+      "pdf_file_page": 1021,
+      "before": "論天使認識的方式",
+      "after": "論天使認識的方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q059",
+      "pdf_file_page": 1036,
+      "before": "論天使的意志",
+      "after": "論天使的意志",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q060",
+      "pdf_file_page": 1045,
+      "before": "論天使的愛或愛慕",
+      "after": "論天使的愛或愛慕",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q061",
+      "pdf_file_page": 1057,
+      "before": "論天使之本性存在的產生",
+      "after": "論天使之本性存在的產生",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q062",
+      "pdf_file_page": 1064,
+      "before": "論天使存在於恩寵與光榮中的完美",
+      "after": "論天使存在於恩寵與光榮中的完美",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q063",
+      "pdf_file_page": 1083,
+      "before": "論天使的罪惡",
+      "after": "論天使的罪惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q064",
+      "pdf_file_page": 1104,
+      "before": "論魔鬼的罪罰",
+      "after": "論魔鬼的罪罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q065",
+      "pdf_file_page": 1116,
+      "before": "論形體受造物的創造工程",
+      "after": "論形體受造物的創造工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q066",
+      "pdf_file_page": 1127,
+      "before": "論創造到分開的進展",
+      "after": "論創造到分開的進展",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q067",
+      "pdf_file_page": 1142,
+      "before": "論分開工程本身",
+      "after": "論分開工程本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q068",
+      "pdf_file_page": 1152,
+      "before": "論第二天的工程",
+      "after": "論第二天的工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q069",
+      "pdf_file_page": 1164,
+      "before": "論第三天的工程",
+      "after": "論第三天的工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q070",
+      "pdf_file_page": 1171,
+      "before": "論第四天的點綴工程",
+      "after": "論第四天的點綴工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q071",
+      "pdf_file_page": 1182,
+      "before": "論第五天的工程",
+      "after": "論第五天的工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q072",
+      "pdf_file_page": 1185,
+      "before": "論第六天的工程",
+      "after": "論第六天的工程",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q073",
+      "pdf_file_page": 1189,
+      "before": "論那些屬於第七天者",
+      "after": "論那些屬於第七天者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q074",
+      "pdf_file_page": 1196,
+      "before": "綜論整個七天",
+      "after": "綜論整個七天",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q075",
+      "pdf_file_page": 1228,
+      "before": "論由精神和形體本體結合而成的人：先論靈魂的本質",
+      "after": "論由精神和形體本體結合而成的人：先論靈魂的本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q076",
+      "pdf_file_page": 1245,
+      "before": "論靈魂與身體之結合",
+      "after": "論靈魂與身體之結合",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q077",
+      "pdf_file_page": 1273,
+      "before": "綜論靈魂之機能",
+      "after": "綜論靈魂之機能",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q078",
+      "pdf_file_page": 1291,
+      "before": "分論靈魂之機能",
+      "after": "分論靈魂之機能",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q079",
+      "pdf_file_page": 1305,
+      "before": "論智性機能",
+      "after": "論智性機能",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q080",
+      "pdf_file_page": 1335,
+      "before": "綜論嗜慾機能",
+      "after": "綜論嗜慾機能",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q081",
+      "pdf_file_page": 1339,
+      "before": "論肉情或肉慾",
+      "after": "論肉情或肉慾",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q082",
+      "pdf_file_page": 1346,
+      "before": "論意志",
+      "after": "論意志",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q083",
+      "pdf_file_page": 1357,
+      "before": "論自由抉擇",
+      "after": "論自由抉擇",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q084",
+      "pdf_file_page": 1366,
+      "before": "論與身體結合之靈魂如何領悟低於己之形體物",
+      "after": "論與身體結合之靈魂如何領悟低於己之形體物",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q085",
+      "pdf_file_page": 1389,
+      "before": "論領悟之方式及程序",
+      "after": "論領悟之方式及程序",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q086",
+      "pdf_file_page": 1411,
+      "before": "我們的理智對物質物知道什麼",
+      "after": "我們的理智對物質物知道什麼",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q087",
+      "pdf_file_page": 1419,
+      "before": "靈魂如何認知自己及在自己內者",
+      "after": "靈魂如何認知自己及在自己內者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q088",
+      "pdf_file_page": 1429,
+      "before": "論人靈怎樣認知高於自己者",
+      "after": "論人靈怎樣認知高於自己者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q089",
+      "pdf_file_page": 1439,
+      "before": "論分離之靈魂的認知",
+      "after": "論分離之靈魂的認知",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q090",
+      "pdf_file_page": 1456,
+      "before": "論人在靈魂方面的最初產生",
+      "after": "論人在靈魂方面的最初產生",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q091",
+      "pdf_file_page": 1464,
+      "before": "論第一個人之身體的產生",
+      "after": "論第一個人之身體的產生",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q092",
+      "pdf_file_page": 1474,
+      "before": "論女人之產生",
+      "after": "論女人之產生",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q093",
+      "pdf_file_page": 1482,
+      "before": "論人之產生的目標或終局",
+      "after": "論人之產生的目標或終局",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q094",
+      "pdf_file_page": 1504,
+      "before": "論第一個人在理智方面的境界或情況",
+      "after": "論第一個人在理智方面的境界或情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q095",
+      "pdf_file_page": 1514,
+      "before": "論有關第一個人之意志者，即恩寵與正義",
+      "after": "論有關第一個人之意志者，即恩寵與正義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q096",
+      "pdf_file_page": 1523,
+      "before": "論人在純真狀態的統治權力",
+      "after": "論人在純真狀態的統治權力",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q097",
+      "pdf_file_page": 1531,
+      "before": "論第一個人在（純真）狀態中的個體保存",
+      "after": "論第一個人在（純真）狀態中的個體保存",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q098",
+      "pdf_file_page": 1539,
+      "before": "論有關種類之保存者",
+      "after": "論有關種類之保存者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q099",
+      "pdf_file_page": 1544,
+      "before": "論要生之子女身體上的情況",
+      "after": "論要生之子女身體上的情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q100",
+      "pdf_file_page": 1548,
+      "before": "論要生之子女的正義情況",
+      "after": "論要生之子女的正義情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q101",
+      "pdf_file_page": 1552,
+      "before": "論要生之子女的知識情況",
+      "after": "論要生之子女的知識情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q102",
+      "pdf_file_page": 1555,
+      "before": "論人之居處——地堂",
+      "after": "論人之居處——地堂",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q103",
+      "pdf_file_page": 1563,
+      "before": "泛論萬物之治理",
+      "after": "泛論萬物之治理",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q104",
+      "pdf_file_page": 1577,
+      "before": "分論天主治理之效果",
+      "after": "分論天主治理之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q105",
+      "pdf_file_page": 1587,
+      "before": "論受造物受天主之改變",
+      "after": "論受造物受自天主之改變",
+      "status": "corrected"
+    },
+    {
+      "id": "I.q106",
+      "pdf_file_page": 1603,
+      "before": "一受造物怎樣推動另一受造物",
+      "after": "一受造物怎樣推動另一受造物",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q107",
+      "pdf_file_page": 1612,
+      "before": "論天使之語言",
+      "after": "論天使之言語",
+      "status": "corrected"
+    },
+    {
+      "id": "I.q108",
+      "pdf_file_page": 1620,
+      "before": "論天使按等級和品級之排列",
+      "after": "論天使按等級和品級之排列",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q109",
+      "pdf_file_page": 1641,
+      "before": "論惡天使之排列或次序",
+      "after": "論惡天使之排列或次序",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q110",
+      "pdf_file_page": 1647,
+      "before": "論天使對形體物之管轄",
+      "after": "論天使對形體物之管轄",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q111",
+      "pdf_file_page": 1656,
+      "before": "論天使對人之作用",
+      "after": "論天使對人之作用",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q112",
+      "pdf_file_page": 1664,
+      "before": "論天使之接受派遣",
+      "after": "論天使之接受派遣",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q113",
+      "pdf_file_page": 1674,
+      "before": "論善天使之守護",
+      "after": "論善天使之守護",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q114",
+      "pdf_file_page": 1688,
+      "before": "論魔鬼之謀害",
+      "after": "論魔鬼之謀害",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q115",
+      "pdf_file_page": 1697,
+      "before": "論形體受造物之作用",
+      "after": "論形體受造物之作用",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q116",
+      "pdf_file_page": 1713,
+      "before": "論定數",
+      "after": "論定數",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q117",
+      "pdf_file_page": 1721,
+      "before": "論屬於人之作用範圍者",
+      "after": "論屬於人之作用範圍者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q118",
+      "pdf_file_page": 1731,
+      "before": "論人關於靈魂方面根於人的傳殖",
+      "after": "論人關於靈魂方面根於人的傳殖",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I.q119",
+      "pdf_file_page": 1741,
+      "before": "論人關於身體方面的傳殖",
+      "after": "論人關於身體方面的傳殖",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q001",
+      "pdf_file_page": 1773,
+      "before": "論人之最後目的",
+      "after": "論人之最後目的",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q002",
+      "pdf_file_page": 1787,
+      "before": "論人的幸福之所在",
+      "after": "論人的幸福之所在",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q003",
+      "pdf_file_page": 1802,
+      "before": "論何謂幸福",
+      "after": "論何謂幸福",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q004",
+      "pdf_file_page": 1817,
+      "before": "論幸福所需要者",
+      "after": "論幸福所需要者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q005",
+      "pdf_file_page": 1832,
+      "before": "論幸福之獲取",
+      "after": "論幸福之獲取",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q006",
+      "pdf_file_page": 1847,
+      "before": "論有意行爲無意行爲",
+      "after": "論有意行為及無意行為",
+      "status": "corrected"
+    },
+    {
+      "id": "I_II.q007",
+      "pdf_file_page": 1862,
+      "before": "論人性行動之情況",
+      "after": "論人性行動之情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q008",
+      "pdf_file_page": 1869,
+      "before": "論意志與其所欲",
+      "after": "論意志與其所欲",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q009",
+      "pdf_file_page": 1875,
+      "before": "論意志之動因",
+      "after": "論意志之動因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q010",
+      "pdf_file_page": 1885,
+      "before": "論意志之行動方式",
+      "after": "論意志之行動方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q011",
+      "pdf_file_page": 1893,
+      "before": "論意志之享受行動",
+      "after": "論意志之享受行動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q012",
+      "pdf_file_page": 1900,
+      "before": "論志向",
+      "after": "論志向",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q013",
+      "pdf_file_page": 1908,
+      "before": "論選擇——意志關於導致目的者之行動",
+      "after": "論選擇——意志關於導致目的者之行動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q014",
+      "pdf_file_page": 1918,
+      "before": "論選擇之前的考慮",
+      "after": "論選擇之前的考慮",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q015",
+      "pdf_file_page": 1927,
+      "before": "論同意——意志對導致目的者之行動",
+      "after": "論同意——意志對導致目的者之行動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q016",
+      "pdf_file_page": 1933,
+      "before": "論運用——意志對導致目的者之行動",
+      "after": "論運用——意志對導致目的者之行動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q017",
+      "pdf_file_page": 1939,
+      "before": "論受意志之命令的行動",
+      "after": "論受意志之命令的行動",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q018",
+      "pdf_file_page": 1954,
+      "before": "泛論人性行動之善惡",
+      "after": "泛論人性行動之善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q019",
+      "pdf_file_page": 1973,
+      "before": "論意志之內在行動的善惡",
+      "after": "論意志之內在行動的善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q020",
+      "pdf_file_page": 1992,
+      "before": "論外在之人性行動的善惡",
+      "after": "論外在之人性行動的善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q021",
+      "pdf_file_page": 2003,
+      "before": "論人性行動善惡所生之後果",
+      "after": "論人性行動善惡所生之後果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q022",
+      "pdf_file_page": 2011,
+      "before": "論靈魂之情的主題",
+      "after": "論靈魂之情的主體",
+      "status": "corrected"
+    },
+    {
+      "id": "I_II.q023",
+      "pdf_file_page": 2017,
+      "before": "論情彼此之區別",
+      "after": "論情彼此之區別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q024",
+      "pdf_file_page": 2024,
+      "before": "論靈魂之情的善惡",
+      "after": "論靈魂之情的善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q025",
+      "pdf_file_page": 2031,
+      "before": "論情彼此之關係",
+      "after": "論情彼此之關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q026",
+      "pdf_file_page": 2039,
+      "before": "分論諸情：首先論愛",
+      "after": "分論諸情：首先論愛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q027",
+      "pdf_file_page": 2046,
+      "before": "論愛之原因",
+      "after": "論愛之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q028",
+      "pdf_file_page": 2053,
+      "before": "論愛之效果",
+      "after": "論愛之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q029",
+      "pdf_file_page": 2064,
+      "before": "論怨恨",
+      "after": "論怨恨",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q030",
+      "pdf_file_page": 2074,
+      "before": "論慾望",
+      "after": "論慾望",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q031",
+      "pdf_file_page": 2082,
+      "before": "論快樂本身",
+      "after": "論快樂本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q032",
+      "pdf_file_page": 2096,
+      "before": "論快樂之原因",
+      "after": "論快樂之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q033",
+      "pdf_file_page": 2110,
+      "before": "論快樂之效果",
+      "after": "論快樂之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q034",
+      "pdf_file_page": 2117,
+      "before": "論快樂之善惡",
+      "after": "論快樂之善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q035",
+      "pdf_file_page": 2125,
+      "before": "論傷痛或哀愁本身",
+      "after": "論傷痛或哀愁本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q036",
+      "pdf_file_page": 2143,
+      "before": "論哀愁或傷痛之原因",
+      "after": "論哀愁或傷痛之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q037",
+      "pdf_file_page": 2150,
+      "before": "論傷痛或哀愁之效果",
+      "after": "論傷痛或哀愁之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q038",
+      "pdf_file_page": 2157,
+      "before": "論哀愁或傷痛之補救方法",
+      "after": "論哀愁或傷痛之補救方法",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q039",
+      "pdf_file_page": 2165,
+      "before": "論哀愁或傷痛之善惡",
+      "after": "論哀愁或傷痛之善惡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q040",
+      "pdf_file_page": 2172,
+      "before": "論憤情：首論企望和失望",
+      "after": "論憤情：首論企望和失望",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q041",
+      "pdf_file_page": 2184,
+      "before": "論畏懼本身",
+      "after": "論畏懼本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q042",
+      "pdf_file_page": 2192,
+      "before": "論畏懼之對象",
+      "after": "論畏懼之對象",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q043",
+      "pdf_file_page": 2201,
+      "before": "論畏懼之原因",
+      "after": "論畏懼之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q044",
+      "pdf_file_page": 2205,
+      "before": "論畏懼之效果",
+      "after": "論畏懼之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q045",
+      "pdf_file_page": 2212,
+      "before": "論勇猛",
+      "after": "論勇猛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q046",
+      "pdf_file_page": 2219,
+      "before": "論忿怒本身",
+      "after": "論忿怒本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q047",
+      "pdf_file_page": 2233,
+      "before": "論忿怒之原因及其補救方法",
+      "after": "論忿怒之原因及其補救方法",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q048",
+      "pdf_file_page": 2240,
+      "before": "論忿怒之效果",
+      "after": "論忿怒之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q049",
+      "pdf_file_page": 2267,
+      "before": "泛論習性之本質",
+      "after": "泛論習性之本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q050",
+      "pdf_file_page": 2277,
+      "before": "論習性之主體",
+      "after": "論習性之主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q051",
+      "pdf_file_page": 2290,
+      "before": "論產生習性之原因",
+      "after": "論產生習性之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q052",
+      "pdf_file_page": 2298,
+      "before": "論習性之增長",
+      "after": "論習性之增長",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q053",
+      "pdf_file_page": 2306,
+      "before": "論習性之消失與減退",
+      "after": "論習性之消失與減退",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q054",
+      "pdf_file_page": 2313,
+      "before": "論習性之區分",
+      "after": "論習性之區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q055",
+      "pdf_file_page": 2321,
+      "before": "論德性之本質",
+      "after": "論德性之本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q056",
+      "pdf_file_page": 2330,
+      "before": "論德性之主體",
+      "after": "論德性之主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q057",
+      "pdf_file_page": 2342,
+      "before": "論智力德性之區分",
+      "after": "論智力德性之區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q058",
+      "pdf_file_page": 2355,
+      "before": "論道德涵養性與智性德性之區分",
+      "after": "論道德涵養性與智性德性之區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q059",
+      "pdf_file_page": 2365,
+      "before": "論道德涵養性德性與情之關係",
+      "after": "論道德涵養性德性與情之關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q060",
+      "pdf_file_page": 2375,
+      "before": "論道德涵養性德性彼此之區別",
+      "after": "論道德涵養性德性彼此之區別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q061",
+      "pdf_file_page": 2386,
+      "before": "論樞德或達德",
+      "after": "論樞德或達德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q062",
+      "pdf_file_page": 2397,
+      "before": "論向天主之德",
+      "after": "論向天主之德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q063",
+      "pdf_file_page": 2404,
+      "before": "論德性之原因",
+      "after": "論德性之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q064",
+      "pdf_file_page": 2412,
+      "before": "論德性之中點",
+      "after": "論德性之中點",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q065",
+      "pdf_file_page": 2420,
+      "before": "論德性之聯繫",
+      "after": "論德性之聯繫",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q066",
+      "pdf_file_page": 2431,
+      "before": "論德性之等級",
+      "after": "論德性之等級",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q067",
+      "pdf_file_page": 2444,
+      "before": "論德性在來世之持續",
+      "after": "論德性在來世之持續",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q068",
+      "pdf_file_page": 2457,
+      "before": "論恩賜",
+      "after": "論恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q069",
+      "pdf_file_page": 2476,
+      "before": "論真福",
+      "after": "論真福",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q070",
+      "pdf_file_page": 2487,
+      "before": "論聖神之果實",
+      "after": "論聖神之果實",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q071",
+      "pdf_file_page": 2496,
+      "before": "論惡習及罪過本身",
+      "after": "論惡習及罪過本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q072",
+      "pdf_file_page": 2509,
+      "before": "論罪惡之分類",
+      "after": "論罪惡之分類",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q073",
+      "pdf_file_page": 2526,
+      "before": "論罪過彼此之比較",
+      "after": "論罪過彼此之比較",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q074",
+      "pdf_file_page": 2546,
+      "before": "論罪過之主體",
+      "after": "論罪過之主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q075",
+      "pdf_file_page": 2564,
+      "before": "泛論罪過之原因",
+      "after": "泛論罪過之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q076",
+      "pdf_file_page": 2572,
+      "before": "論罪過之個別原因",
+      "after": "論罪過之個別原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q077",
+      "pdf_file_page": 2581,
+      "before": "論罪過在感官嗜慾方面的原因",
+      "after": "論罪過在感官嗜慾方面的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q078",
+      "pdf_file_page": 2597,
+      "before": "論惡意位罪過之原因",
+      "after": "論惡意為罪過之原因",
+      "status": "corrected"
+    },
+    {
+      "id": "I_II.q079",
+      "pdf_file_page": 2605,
+      "before": "論罪過之外在原因：首論天主方面的原因",
+      "after": "論罪過之外在原因：首論天主方面的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q080",
+      "pdf_file_page": 2614,
+      "before": "論魔鬼方面的罪過之原因",
+      "after": "論魔鬼方面的罪過之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q081",
+      "pdf_file_page": 2622,
+      "before": "論在人方面的罪過之原因",
+      "after": "論在人方面的罪過之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q082",
+      "pdf_file_page": 2633,
+      "before": "論原罪之本質",
+      "after": "論原罪之本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q083",
+      "pdf_file_page": 2640,
+      "before": "論原罪之主體",
+      "after": "論原罪之主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q084",
+      "pdf_file_page": 2648,
+      "before": "就一罪爲另一罪之原因論罪過之原因",
+      "after": "就一罪爲另一罪之原因論罪過之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q085",
+      "pdf_file_page": 2657,
+      "before": "論罪過之效果：首論對天性之善的破壞",
+      "after": "論罪過之效果：首論對天性之善的破壞",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q086",
+      "pdf_file_page": 2670,
+      "before": "論罪過之污染",
+      "after": "論罪過之污染",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q087",
+      "pdf_file_page": 2674,
+      "before": "論應受之處罰",
+      "after": "論應受之處罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q088",
+      "pdf_file_page": 2690,
+      "before": "論小罪和死罪",
+      "after": "論小罪和死罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q089",
+      "pdf_file_page": 2703,
+      "before": "論小罪本身",
+      "after": "論小罪本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q090",
+      "pdf_file_page": 2730,
+      "before": "論法律之本質",
+      "after": "論法律之本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q091",
+      "pdf_file_page": 2737,
+      "before": "論法律之區分",
+      "after": "論法律之區分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q092",
+      "pdf_file_page": 2749,
+      "before": "論法律之效果",
+      "after": "論法律之效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q093",
+      "pdf_file_page": 2754,
+      "before": "論永恆的法律",
+      "after": "論永恆的法律",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q094",
+      "pdf_file_page": 2767,
+      "before": "論自然法律",
+      "after": "論自然法律",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q095",
+      "pdf_file_page": 2779,
+      "before": "論人爲法律",
+      "after": "論人爲法律",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q096",
+      "pdf_file_page": 2788,
+      "before": "論人爲法律之權力",
+      "after": "論人爲法律之權力",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q097",
+      "pdf_file_page": 2800,
+      "before": "論法律之改變",
+      "after": "論法律之改變",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q098",
+      "pdf_file_page": 2807,
+      "before": "論舊約之法律",
+      "after": "論舊約之法律",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q099",
+      "pdf_file_page": 2821,
+      "before": "論舊約法律之訓令",
+      "after": "論舊約法律之訓令",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q100",
+      "pdf_file_page": 2834,
+      "before": "論舊約法律之道德訓令",
+      "after": "論舊約法律之道德訓令",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q101",
+      "pdf_file_page": 2865,
+      "before": "論禮儀訓令",
+      "after": "論禮儀訓令",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q102",
+      "pdf_file_page": 2875,
+      "before": "論禮儀訓令之原因",
+      "after": "論禮儀訓令之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q103",
+      "pdf_file_page": 2926,
+      "before": "論禮儀訓令之期限",
+      "after": "論禮儀訓令之期限",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q104",
+      "pdf_file_page": 2939,
+      "before": "論司法訓令",
+      "after": "論司法訓令",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q105",
+      "pdf_file_page": 2947,
+      "before": "論司法訓令之理由",
+      "after": "論司法訓令之理由",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q106",
+      "pdf_file_page": 2972,
+      "before": "論稱爲新法律的福音法律本身",
+      "after": "論稱爲新法律的福音法律本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q107",
+      "pdf_file_page": 2982,
+      "before": "論新法律之關係",
+      "after": "論新法律與舊法律之關係",
+      "status": "corrected"
+    },
+    {
+      "id": "I_II.q108",
+      "pdf_file_page": 2994,
+      "before": "論新法律之內容",
+      "after": "論新法律之內容",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q109",
+      "pdf_file_page": 3007,
+      "before": "論恩寵之必要",
+      "after": "論恩寵之必要",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q110",
+      "pdf_file_page": 3029,
+      "before": "論天主之恩寵本質",
+      "after": "論天主之恩寵本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q111",
+      "pdf_file_page": 3039,
+      "before": "論恩寵之分類",
+      "after": "論恩寵之分類",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q112",
+      "pdf_file_page": 3051,
+      "before": "論恩寵之原因",
+      "after": "論恩寵之原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q113",
+      "pdf_file_page": 3061,
+      "before": "論恩寵之效果：首論罪人之成義",
+      "after": "論恩寵之效果：首論罪人之成義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "I_II.q114",
+      "pdf_file_page": 3082,
+      "before": "論功績",
+      "after": "論功績",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q001",
+      "pdf_file_page": 3140,
+      "before": "論信德的對象",
+      "after": "論信德的對象",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q002",
+      "pdf_file_page": 3165,
+      "before": "論信德的內心行爲",
+      "after": "論信德的內心行爲",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q003",
+      "pdf_file_page": 3189,
+      "before": "論信德的外表行爲",
+      "after": "論信德的外表行爲",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q004",
+      "pdf_file_page": 3193,
+      "before": "論信德的德性",
+      "after": "論信德的德性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q005",
+      "pdf_file_page": 3213,
+      "before": "論有信德者",
+      "after": "論有信德者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q006",
+      "pdf_file_page": 3223,
+      "before": "論信德的原因",
+      "after": "論信德的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q007",
+      "pdf_file_page": 3228,
+      "before": "論信德的效果",
+      "after": "論信德的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q008",
+      "pdf_file_page": 3232,
+      "before": "論聰敏之恩賜",
+      "after": "論聰敏之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q009",
+      "pdf_file_page": 3249,
+      "before": "論明達之恩賜",
+      "after": "論明達之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q010",
+      "pdf_file_page": 3258,
+      "before": "總論不信",
+      "after": "總論不信",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q011",
+      "pdf_file_page": 3286,
+      "before": "論異端",
+      "after": "論異端",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q012",
+      "pdf_file_page": 3297,
+      "before": "論背棄信德",
+      "after": "論背棄信德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q013",
+      "pdf_file_page": 3302,
+      "before": "總論褻瀆之罪",
+      "after": "總論褻瀆之罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q014",
+      "pdf_file_page": 3310,
+      "before": "論褻瀆聖神",
+      "after": "論褻瀆聖神",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q015",
+      "pdf_file_page": 3321,
+      "before": "論心智的盲瞽與感覺的遲鈍",
+      "after": "論心智的盲瞽與感覺的遲鈍",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q016",
+      "pdf_file_page": 3328,
+      "before": "論有關信德、明達和聰敏的誡命",
+      "after": "論有關信德、明達和聰敏的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q017",
+      "pdf_file_page": 3334,
+      "before": "論望德",
+      "after": "論望德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q018",
+      "pdf_file_page": 3348,
+      "before": "論望德的主體",
+      "after": "論望德的主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q019",
+      "pdf_file_page": 3356,
+      "before": "論敬畏之恩賜",
+      "after": "論敬畏之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q020",
+      "pdf_file_page": 3382,
+      "before": "論失望",
+      "after": "論失望",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q021",
+      "pdf_file_page": 3391,
+      "before": "論妄望",
+      "after": "論妄望",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q022",
+      "pdf_file_page": 3398,
+      "before": "論關於望德和敬畏的誡命",
+      "after": "論關於望德和敬畏的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q023",
+      "pdf_file_page": 3419,
+      "before": "論愛德",
+      "after": "論愛德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q024",
+      "pdf_file_page": 3437,
+      "before": "論愛德的主體",
+      "after": "論愛德的主體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q025",
+      "pdf_file_page": 3466,
+      "before": "論愛德的對象",
+      "after": "論愛德的對象",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q026",
+      "pdf_file_page": 3490,
+      "before": "論愛德的次序",
+      "after": "論愛德的次序",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q027",
+      "pdf_file_page": 3517,
+      "before": "論愛德的主要行爲：愛",
+      "after": "論愛德的主要行爲：愛",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q028",
+      "pdf_file_page": 3534,
+      "before": "論喜樂",
+      "after": "論喜樂",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q029",
+      "pdf_file_page": 3542,
+      "before": "論平安",
+      "after": "論平安",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q030",
+      "pdf_file_page": 3551,
+      "before": "論憐憫",
+      "after": "論憐憫",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q031",
+      "pdf_file_page": 3561,
+      "before": "論施惠",
+      "after": "論施惠",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q032",
+      "pdf_file_page": 3570,
+      "before": "論施捨",
+      "after": "論施捨",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q033",
+      "pdf_file_page": 3595,
+      "before": "論兄弟規勸",
+      "after": "論兄弟規勸",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q034",
+      "pdf_file_page": 3616,
+      "before": "論恨",
+      "after": "論恨",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q035",
+      "pdf_file_page": 3627,
+      "before": "論沮喪",
+      "after": "論沮喪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q036",
+      "pdf_file_page": 3637,
+      "before": "論嫉妒",
+      "after": "論嫉妒",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q037",
+      "pdf_file_page": 3647,
+      "before": "論相反平安的不睦",
+      "after": "論相反平安的不睦",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q038",
+      "pdf_file_page": 3652,
+      "before": "論爭論",
+      "after": "論爭論",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q039",
+      "pdf_file_page": 3657,
+      "before": "論分裂",
+      "after": "論分裂",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q040",
+      "pdf_file_page": 3666,
+      "before": "論戰爭",
+      "after": "論戰爭",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q041",
+      "pdf_file_page": 3676,
+      "before": "論爭鬥",
+      "after": "論爭鬥",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q042",
+      "pdf_file_page": 3681,
+      "before": "論叛亂",
+      "after": "論叛亂",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q043",
+      "pdf_file_page": 3685,
+      "before": "論惡表",
+      "after": "論惡表",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q044",
+      "pdf_file_page": 3705,
+      "before": "論愛德的誡命",
+      "after": "論愛德的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q045",
+      "pdf_file_page": 3720,
+      "before": "論智慧之恩賜",
+      "after": "論智慧之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q046",
+      "pdf_file_page": 3733,
+      "before": "論愚笨",
+      "after": "論愚笨",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q047",
+      "pdf_file_page": 3756,
+      "before": "論智德本身",
+      "after": "論智德本身",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q048",
+      "pdf_file_page": 3786,
+      "before": "論智德的部分",
+      "after": "論智德的部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q049",
+      "pdf_file_page": 3790,
+      "before": "論智德的各個構成部分",
+      "after": "論智德的各個構成部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q050",
+      "pdf_file_page": 3805,
+      "before": "論智德的隸屬部分",
+      "after": "論智德的隸屬部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q051",
+      "pdf_file_page": 3812,
+      "before": "論智德的功能部分",
+      "after": "論智德的功能部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q052",
+      "pdf_file_page": 3821,
+      "before": "論超見之恩賜",
+      "after": "論超見之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q053",
+      "pdf_file_page": 3830,
+      "before": "論不智",
+      "after": "論不智",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q054",
+      "pdf_file_page": 3842,
+      "before": "論疏忽",
+      "after": "論疏忽",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q055",
+      "pdf_file_page": 3848,
+      "before": "論貌似而實相反智德的惡習",
+      "after": "論貌似而實相反智德的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q056",
+      "pdf_file_page": 3863,
+      "before": "論與智德有關的誡命",
+      "after": "論與智德有關的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q057",
+      "pdf_file_page": 3867,
+      "before": "論法",
+      "after": "論法",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q058",
+      "pdf_file_page": 3877,
+      "before": "論義德",
+      "after": "論義德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q059",
+      "pdf_file_page": 3901,
+      "before": "論不義",
+      "after": "論不義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q060",
+      "pdf_file_page": 3909,
+      "before": "論判斷",
+      "after": "論判斷",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q061",
+      "pdf_file_page": 3923,
+      "before": "論義德的部分",
+      "after": "論義德的部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q062",
+      "pdf_file_page": 3934,
+      "before": "論償還",
+      "after": "論償還",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q063",
+      "pdf_file_page": 3951,
+      "before": "論看情面或對人偏袒",
+      "after": "論看情面或對人偏袒",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q064",
+      "pdf_file_page": 3960,
+      "before": "論殺人",
+      "after": "論殺人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q065",
+      "pdf_file_page": 3978,
+      "before": "論其他侵犯人身的傷害",
+      "after": "論其他侵犯人身的傷害",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q066",
+      "pdf_file_page": 3986,
+      "before": "論偷竊與搶劫",
+      "after": "論偷竊與搶劫",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q067",
+      "pdf_file_page": 4003,
+      "before": "論法官在審判時所犯的不義",
+      "after": "論法官在審判時所犯的不義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q068",
+      "pdf_file_page": 4012,
+      "before": "論有關不義的控告的事",
+      "after": "論有關不義的控告的事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q069",
+      "pdf_file_page": 4020,
+      "before": "論被告方面相反義德的罪",
+      "after": "論被告方面相反義德的罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q070",
+      "pdf_file_page": 4029,
+      "before": "論關於證人所犯的不義",
+      "after": "論關於證人所犯的不義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q071",
+      "pdf_file_page": 4039,
+      "before": "論審判時律師方面所犯的不義",
+      "after": "論審判時律師方面所犯的不義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q072",
+      "pdf_file_page": 4048,
+      "before": "論侮辱",
+      "after": "論侮辱",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q073",
+      "pdf_file_page": 4057,
+      "before": "論誹謗",
+      "after": "論誹謗",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q074",
+      "pdf_file_page": 4067,
+      "before": "論私議",
+      "after": "論私議(或搬弄是非)",
+      "status": "corrected"
+    },
+    {
+      "id": "II_II.q075",
+      "pdf_file_page": 4071,
+      "before": "論譏笑",
+      "after": "論譏笑",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q076",
+      "pdf_file_page": 4076,
+      "before": "論詛咒",
+      "after": "論詛咒",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q077",
+      "pdf_file_page": 4084,
+      "before": "論買賣時的欺騙",
+      "after": "論買賣時的欺騙",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q078",
+      "pdf_file_page": 4096,
+      "before": "論放債之罪",
+      "after": "論放債之罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q079",
+      "pdf_file_page": 4110,
+      "before": "論義德的近似構成部分",
+      "after": "論義德的近似構成部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q080",
+      "pdf_file_page": 4139,
+      "before": "論義德的功能部分",
+      "after": "論義德的功能部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q081",
+      "pdf_file_page": 4145,
+      "before": "論宗教",
+      "after": "論宗教",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q082",
+      "pdf_file_page": 4162,
+      "before": "論虔誠",
+      "after": "論虔誠",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q083",
+      "pdf_file_page": 4170,
+      "before": "論祈禱",
+      "after": "論祈禱",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q084",
+      "pdf_file_page": 4211,
+      "before": "論朝拜",
+      "after": "論朝拜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q085",
+      "pdf_file_page": 4217,
+      "before": "論祭祀",
+      "after": "論祭祀",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q086",
+      "pdf_file_page": 4226,
+      "before": "論獻儀及初果",
+      "after": "論獻儀及初果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q087",
+      "pdf_file_page": 4235,
+      "before": "論什一",
+      "after": "論什一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q088",
+      "pdf_file_page": 4248,
+      "before": "論誓願",
+      "after": "論誓願",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q089",
+      "pdf_file_page": 4278,
+      "before": "論發誓",
+      "after": "論發誓",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q090",
+      "pdf_file_page": 4301,
+      "before": "論以誓告方式使用天主聖名",
+      "after": "論以誓告方式使用天主聖名",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q091",
+      "pdf_file_page": 4307,
+      "before": "論爲讚美高呼而使用天主聖名",
+      "after": "論爲讚美高呼而使用天主聖名",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q092",
+      "pdf_file_page": 4313,
+      "before": "論迷信",
+      "after": "論迷信",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q093",
+      "pdf_file_page": 4318,
+      "before": "論不適當敬禮真天主的迷信",
+      "after": "論不適當敬禮真天主的迷信",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q094",
+      "pdf_file_page": 4323,
+      "before": "論崇拜偶像",
+      "after": "論崇拜偶像",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q095",
+      "pdf_file_page": 4336,
+      "before": "論占卜的迷信",
+      "after": "論占卜的迷信",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q096",
+      "pdf_file_page": 4358,
+      "before": "論遵行的迷信",
+      "after": "論遵行(民間宗教習俗)的迷信",
+      "status": "corrected"
+    },
+    {
+      "id": "II_II.q097",
+      "pdf_file_page": 4368,
+      "before": "論試探天主",
+      "after": "論試探天主",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q098",
+      "pdf_file_page": 4378,
+      "before": "論假誓",
+      "after": "論假誓",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q099",
+      "pdf_file_page": 4388,
+      "before": "論褻聖",
+      "after": "論褻聖",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q100",
+      "pdf_file_page": 4396,
+      "before": "論褻聖交易",
+      "after": "論褻聖交易",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q101",
+      "pdf_file_page": 4418,
+      "before": "論孝敬",
+      "after": "論孝敬",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q102",
+      "pdf_file_page": 4427,
+      "before": "論尊敬",
+      "after": "論尊敬",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q103",
+      "pdf_file_page": 4433,
+      "before": "論恭順",
+      "after": "論恭順",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q104",
+      "pdf_file_page": 4442,
+      "before": "論服從",
+      "after": "論服從",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q105",
+      "pdf_file_page": 4458,
+      "before": "論抗命或不服從",
+      "after": "論抗命或不服從",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q106",
+      "pdf_file_page": 4463,
+      "before": "論感恩或謝恩",
+      "after": "論感恩或謝恩",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q107",
+      "pdf_file_page": 4475,
+      "before": "論忘恩",
+      "after": "論忘恩",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q108",
+      "pdf_file_page": 4482,
+      "before": "論報復",
+      "after": "論報復",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q109",
+      "pdf_file_page": 4494,
+      "before": "論真理或真實",
+      "after": "論真理或真實",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q110",
+      "pdf_file_page": 4503,
+      "before": "論相反真實的惡習",
+      "after": "論相反真實的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q111",
+      "pdf_file_page": 4518,
+      "before": "論假裝和虛僞",
+      "after": "論假裝和虛僞",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q112",
+      "pdf_file_page": 4528,
+      "before": "論誇張",
+      "after": "論誇張",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q113",
+      "pdf_file_page": 4533,
+      "before": "論譏諷",
+      "after": "論譏諷",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q114",
+      "pdf_file_page": 4537,
+      "before": "論友善或和氣",
+      "after": "論友善或和氣",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q115",
+      "pdf_file_page": 4542,
+      "before": "論諂媚",
+      "after": "論諂媚",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q116",
+      "pdf_file_page": 4547,
+      "before": "論爭吵",
+      "after": "論爭吵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q117",
+      "pdf_file_page": 4551,
+      "before": "論慷慨",
+      "after": "論慷慨",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q118",
+      "pdf_file_page": 4564,
+      "before": "論貪婪",
+      "after": "論貪婪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q119",
+      "pdf_file_page": 4581,
+      "before": "論揮霍",
+      "after": "論揮霍",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q120",
+      "pdf_file_page": 4588,
+      "before": "亂權宜公平或正義",
+      "after": "論權宜公平或正義",
+      "status": "corrected"
+    },
+    {
+      "id": "II_II.q121",
+      "pdf_file_page": 4593,
+      "before": "論孝愛之恩賜",
+      "after": "論孝愛之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q122",
+      "pdf_file_page": 4597,
+      "before": "論義德的誡命",
+      "after": "論義德的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q123",
+      "pdf_file_page": 4635,
+      "before": "論勇德",
+      "after": "論勇德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q124",
+      "pdf_file_page": 4659,
+      "before": "論殉道",
+      "after": "論殉道",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q125",
+      "pdf_file_page": 4671,
+      "before": "論畏懼",
+      "after": "論畏懼",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q126",
+      "pdf_file_page": 4679,
+      "before": "論無所畏懼的惡習",
+      "after": "論無所畏懼的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q127",
+      "pdf_file_page": 4683,
+      "before": "論大膽",
+      "after": "論大膽",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q128",
+      "pdf_file_page": 4687,
+      "before": "論勇德的部分",
+      "after": "論勇德的部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q129",
+      "pdf_file_page": 4693,
+      "before": "論胸懷大志或壯心",
+      "after": "論胸懷大志或壯心",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q130",
+      "pdf_file_page": 4713,
+      "before": "論妄想",
+      "after": "論妄想",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q131",
+      "pdf_file_page": 4718,
+      "before": "論熱衷榮譽",
+      "after": "論熱衷榮譽",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q132",
+      "pdf_file_page": 4722,
+      "before": "論貪圖虛榮",
+      "after": "論貪圖虛榮",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q133",
+      "pdf_file_page": 4734,
+      "before": "論懦怯",
+      "after": "論懦怯",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q134",
+      "pdf_file_page": 4739,
+      "before": "論宏度",
+      "after": "論宏度",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q135",
+      "pdf_file_page": 4748,
+      "before": "論相反宏度的惡習",
+      "after": "論相反宏度的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q136",
+      "pdf_file_page": 4753,
+      "before": "論忍耐",
+      "after": "論忍耐",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q137",
+      "pdf_file_page": 4764,
+      "before": "論恆心",
+      "after": "論恆心",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q138",
+      "pdf_file_page": 4773,
+      "before": "論相反恆心的惡習",
+      "after": "論相反恆心的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q139",
+      "pdf_file_page": 4778,
+      "before": "論勇敢或剛毅之恩賜",
+      "after": "論勇敢或剛毅之恩賜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q140",
+      "pdf_file_page": 4782,
+      "before": "論勇德的誡命",
+      "after": "論勇德的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q141",
+      "pdf_file_page": 4787,
+      "before": "論節德",
+      "after": "論節德",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q142",
+      "pdf_file_page": 4804,
+      "before": "論相反節德的惡習",
+      "after": "論相反節德的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q143",
+      "pdf_file_page": 4814,
+      "before": "總論節德之部分",
+      "after": "總論節德之部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q144",
+      "pdf_file_page": 4818,
+      "before": "論知恥",
+      "after": "論知恥",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q145",
+      "pdf_file_page": 4829,
+      "before": "論高貴",
+      "after": "論高貴",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q146",
+      "pdf_file_page": 4838,
+      "before": "論節食",
+      "after": "論節食",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q147",
+      "pdf_file_page": 4843,
+      "before": "論守齋",
+      "after": "論守齋",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q148",
+      "pdf_file_page": 4862,
+      "before": "論貪饕",
+      "after": "論貪饕",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q149",
+      "pdf_file_page": 4874,
+      "before": "論節飲",
+      "after": "論節飲",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q150",
+      "pdf_file_page": 4881,
+      "before": "論醉酒",
+      "after": "論醉酒",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q151",
+      "pdf_file_page": 4889,
+      "before": "論節慾或貞操貞潔",
+      "after": "論節慾或貞操貞潔",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q152",
+      "pdf_file_page": 4897,
+      "before": "論童貞",
+      "after": "論童貞",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q153",
+      "pdf_file_page": 4911,
+      "before": "論淫佚的惡習",
+      "after": "論淫佚的惡習",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q154",
+      "pdf_file_page": 4922,
+      "before": "論淫佚的種類",
+      "after": "論淫佚的種類",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q155",
+      "pdf_file_page": 4954,
+      "before": "論克己或寡慾",
+      "after": "論克己或寡慾",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q156",
+      "pdf_file_page": 4964,
+      "before": "論溺己或縱慾",
+      "after": "論溺己或縱慾",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q157",
+      "pdf_file_page": 4974,
+      "before": "論寬仁和溫良",
+      "after": "論寬仁和溫良",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q158",
+      "pdf_file_page": 4983,
+      "before": "論忿怒",
+      "after": "論忿怒",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q159",
+      "pdf_file_page": 5000,
+      "before": "論殘暴",
+      "after": "論殘暴",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q160",
+      "pdf_file_page": 5004,
+      "before": "論檢制",
+      "after": "論檢制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q161",
+      "pdf_file_page": 5008,
+      "before": "論謙遜",
+      "after": "論謙遜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q162",
+      "pdf_file_page": 5026,
+      "before": "論驕傲",
+      "after": "論驕傲",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q163",
+      "pdf_file_page": 5048,
+      "before": "論人類原祖的罪",
+      "after": "論人類原祖的罪",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q164",
+      "pdf_file_page": 5058,
+      "before": "論原罪之罰",
+      "after": "論原罪之罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q165",
+      "pdf_file_page": 5069,
+      "before": "論原祖父母的受誘惑",
+      "after": "論原祖父母的受誘惑",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q166",
+      "pdf_file_page": 5075,
+      "before": "論好學",
+      "after": "論好學",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q167",
+      "pdf_file_page": 5080,
+      "before": "論好奇",
+      "after": "論好奇",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q168",
+      "pdf_file_page": 5087,
+      "before": "論身體外表行爲的檢制",
+      "after": "論身體外表行動的檢制",
+      "status": "corrected"
+    },
+    {
+      "id": "II_II.q169",
+      "pdf_file_page": 5099,
+      "before": "論外面修飾的檢制",
+      "after": "論外面修飾的檢制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q170",
+      "pdf_file_page": 5107,
+      "before": "論節德的誡命",
+      "after": "論節德的誡命",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q171",
+      "pdf_file_page": 5124,
+      "before": "論預言",
+      "after": "論預言",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q172",
+      "pdf_file_page": 5142,
+      "before": "論預言的原因",
+      "after": "論預言的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q173",
+      "pdf_file_page": 5157,
+      "before": "論先知認識的方式",
+      "after": "論先知認識的方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q174",
+      "pdf_file_page": 5168,
+      "before": "論預言的分類",
+      "after": "論預言的分類",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q175",
+      "pdf_file_page": 5186,
+      "before": "論神魂超拔",
+      "after": "論神魂超拔",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q176",
+      "pdf_file_page": 5204,
+      "before": "論會說語言的恩寵",
+      "after": "論會說語言的恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q177",
+      "pdf_file_page": 5211,
+      "before": "論在於言語的白白施予的恩寵",
+      "after": "論在於言語的白白施予的恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q178",
+      "pdf_file_page": 5216,
+      "before": "論行奇蹟之恩寵",
+      "after": "論行奇蹟之恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q179",
+      "pdf_file_page": 5223,
+      "before": "論生活之分爲行動生活與靜思生活",
+      "after": "論生活之分爲行動生活與靜思生活",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q180",
+      "pdf_file_page": 5227,
+      "before": "論靜思的生活",
+      "after": "論靜思的生活",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q181",
+      "pdf_file_page": 5250,
+      "before": "論行動的生活",
+      "after": "論行動的生活",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q182",
+      "pdf_file_page": 5259,
+      "before": "論行動生活與靜思生活的比較",
+      "after": "論行動生活與靜思生活的比較",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q183",
+      "pdf_file_page": 5270,
+      "before": "總論人的職務和身份",
+      "after": "總論人的職務和身份",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q184",
+      "pdf_file_page": 5280,
+      "before": "總論完善的身分",
+      "after": "總論完善的身分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q185",
+      "pdf_file_page": 5307,
+      "before": "論有關主教身分之爭",
+      "after": "論有關主教身分之爭",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q186",
+      "pdf_file_page": 5333,
+      "before": "論修會身分的主要所在",
+      "after": "論修會身分的主要所在",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q187",
+      "pdf_file_page": 5364,
+      "before": "論適合於會士的事",
+      "after": "論適合於會士的事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q188",
+      "pdf_file_page": 5390,
+      "before": "論修會的區別",
+      "after": "論修會的區別",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "II_II.q189",
+      "pdf_file_page": 5420,
+      "before": "論進修會",
+      "after": "論進修會",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q001",
+      "pdf_file_page": 5470,
+      "before": "論降生成人的適宜性",
+      "after": "論降生成人的適宜性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q002",
+      "pdf_file_page": 5489,
+      "before": "論降生成人的聖言之合而爲一的方式",
+      "after": "論降生成人的聖言之合而為一的方式：先論合而為一本身",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q003",
+      "pdf_file_page": 5524,
+      "before": "從攝取者位格方面論合而爲一",
+      "after": "從攝取者位格方面論合而爲一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q004",
+      "pdf_file_page": 5543,
+      "before": "從被攝取者方面論合而爲一",
+      "after": "從被攝取者方面論合而爲一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q005",
+      "pdf_file_page": 5556,
+      "before": "論攝取人之性體的部分",
+      "after": "論攝取人之性體的部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q006",
+      "pdf_file_page": 5568,
+      "before": "論攝取的次序",
+      "after": "論攝取的次序",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q007",
+      "pdf_file_page": 5582,
+      "before": "論基督作爲個人的恩寵",
+      "after": "論基督作爲個人的恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q008",
+      "pdf_file_page": 5611,
+      "before": "論基督作爲教會之首的恩寵",
+      "after": "論基督作爲教會之首的恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q009",
+      "pdf_file_page": 5630,
+      "before": "概論基督的知識",
+      "after": "概論基督的知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q010",
+      "pdf_file_page": 5641,
+      "before": "論基督靈魂的真福知識",
+      "after": "論基督靈魂的真福知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q011",
+      "pdf_file_page": 5654,
+      "before": "論基督靈魂的灌輸知識",
+      "after": "論基督靈魂的灌輸知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q012",
+      "pdf_file_page": 5666,
+      "before": "論基督靈魂的求得或經驗知識",
+      "after": "論基督靈魂的求得或經驗知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q013",
+      "pdf_file_page": 5675,
+      "before": "論基督靈魂的能力",
+      "after": "論基督靈魂的能力",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q014",
+      "pdf_file_page": 5686,
+      "before": "論基督在人性內所攝取的身體的缺點",
+      "after": "論基督在人性內所攝取的身體的缺點",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q015",
+      "pdf_file_page": 5696,
+      "before": "論基督在人性內所攝取的屬於靈魂的缺點",
+      "after": "論基督在人性內所攝取的屬於靈魂的缺點",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q016",
+      "pdf_file_page": 5720,
+      "before": "論關於基督之“存在名分”及“成爲”者",
+      "after": "論關於基督之「存在名分」及「成為」者",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q017",
+      "pdf_file_page": 5752,
+      "before": "論基督在存在方面的唯一性或唯一",
+      "after": "論基督在存在方面的唯一性或唯一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q018",
+      "pdf_file_page": 5763,
+      "before": "論基督在意志方面的唯一性或唯一",
+      "after": "論基督在意志方面的唯一性或唯一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q019",
+      "pdf_file_page": 5780,
+      "before": "論基督工作的唯一性或唯一",
+      "after": "論基督工作的唯一性或唯一",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q020",
+      "pdf_file_page": 5794,
+      "before": "論基督之屈服於聖父",
+      "after": "論基督之屈服於聖父",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q021",
+      "pdf_file_page": 5801,
+      "before": "論基督的祈禱",
+      "after": "論基督的祈禱",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q022",
+      "pdf_file_page": 5811,
+      "before": "論基督的司祭職",
+      "after": "論基督的司祭職",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q023",
+      "pdf_file_page": 5825,
+      "before": "論基督是否適於被收爲義子",
+      "after": "論基督是否適於被收為(天主)義子",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q024",
+      "pdf_file_page": 5834,
+      "before": "論基督的預定",
+      "after": "論基督的預定",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q025",
+      "pdf_file_page": 5843,
+      "before": "論對基督的欽崇",
+      "after": "論對基督的欽崇",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q026",
+      "pdf_file_page": 5858,
+      "before": "論基督之稱爲天主與人之間的中保",
+      "after": "論基督之稱爲天主與人之間的中保",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q027",
+      "pdf_file_page": 5881,
+      "before": "論真福童貞的聖化",
+      "after": "論真福童貞(瑪利亞)的聖化",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q028",
+      "pdf_file_page": 5904,
+      "before": "論天主之母的童貞",
+      "after": "論天主之母的童貞",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q029",
+      "pdf_file_page": 5918,
+      "before": "論天主之母的訂婚",
+      "after": "論天主之母的訂婚",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q030",
+      "pdf_file_page": 5927,
+      "before": "論真福童貞的領報喜訊或接受天使報喜",
+      "after": "論真福童貞的領報喜訊或接受天使報喜",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q031",
+      "pdf_file_page": 5938,
+      "before": "論救主身體成孕所取的質料",
+      "after": "論救主身體成孕所取用的質料",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q032",
+      "pdf_file_page": 5964,
+      "before": "論基督成孕的主動原因或根本",
+      "after": "論基督成孕的主動原因或根本",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q033",
+      "pdf_file_page": 5976,
+      "before": "論基督成孕的方式和次序",
+      "after": "論基督成孕的方式和次序",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q034",
+      "pdf_file_page": 5985,
+      "before": "論成孕胎兒的成全",
+      "after": "論成孕胎兒的成全",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q035",
+      "pdf_file_page": 5994,
+      "before": "論基督的誕生",
+      "after": "論基督的誕生",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q036",
+      "pdf_file_page": 6014,
+      "before": "論基督出生後的彰顯",
+      "after": "論基督出生後的彰顯",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q037",
+      "pdf_file_page": 6036,
+      "before": "論基督的割損禮及其它關於嬰孩基督所遵行的法律義務",
+      "after": "論基督的割損禮及其它關於嬰孩基督所遵行的法律義務",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q038",
+      "pdf_file_page": 6047,
+      "before": "論若翰的洗禮",
+      "after": "論若翰的洗禮",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q039",
+      "pdf_file_page": 6061,
+      "before": "論基督的受洗",
+      "after": "論基督的受洗",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q040",
+      "pdf_file_page": 6081,
+      "before": "論基督的生活方式",
+      "after": "論基督的生活方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q041",
+      "pdf_file_page": 6093,
+      "before": "論基督的受試探",
+      "after": "論基督的受試探",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q042",
+      "pdf_file_page": 6106,
+      "before": "論基督的教導",
+      "after": "論基督的教導",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q043",
+      "pdf_file_page": 6118,
+      "before": "概論基督所行的奇蹟",
+      "after": "概論基督所行的奇蹟",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q044",
+      "pdf_file_page": 6129,
+      "before": "分論基督所行的奇蹟",
+      "after": "分論基督所行的奇蹟",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q045",
+      "pdf_file_page": 6147,
+      "before": "論基督顯聖容",
+      "after": "論基督顯聖容",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q046",
+      "pdf_file_page": 6159,
+      "before": "論基督的受苦難",
+      "after": "論基督的受苦受難",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q047",
+      "pdf_file_page": 6196,
+      "before": "論基督受苦難的成因",
+      "after": "論基督受苦受難的成因",
+      "status": "corrected"
+    },
+    {
+      "id": "III.q048",
+      "pdf_file_page": 6211,
+      "before": "論基督苦難產生效果的方式",
+      "after": "論基督苦難產生效果的方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q049",
+      "pdf_file_page": 6224,
+      "before": "論基督苦難的效果",
+      "after": "論基督苦難的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q050",
+      "pdf_file_page": 6239,
+      "before": "論基督的死亡",
+      "after": "論基督的死亡",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q051",
+      "pdf_file_page": 6254,
+      "before": "論基督的安葬",
+      "after": "論基督的安葬",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q052",
+      "pdf_file_page": 6264,
+      "before": "論基督下降陰府",
+      "after": "論基督下降陰府",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q053",
+      "pdf_file_page": 6284,
+      "before": "論基督的復活",
+      "after": "論基督的復活",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q054",
+      "pdf_file_page": 6296,
+      "before": "論基督復活後的情況",
+      "after": "論基督復活後的情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q055",
+      "pdf_file_page": 6308,
+      "before": "論復活的顯彰",
+      "after": "論復活的顯彰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q056",
+      "pdf_file_page": 6328,
+      "before": "論基督復活的因果作用",
+      "after": "論基督復活的因果作用",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q057",
+      "pdf_file_page": 6335,
+      "before": "論基督的昇天",
+      "after": "論基督的昇天",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q058",
+      "pdf_file_page": 6351,
+      "before": "論基督坐在聖父右邊",
+      "after": "論基督坐在聖父右邊",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q059",
+      "pdf_file_page": 6361,
+      "before": "論基督的審判權柄",
+      "after": "論基督的審判權柄",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q060",
+      "pdf_file_page": 6399,
+      "before": "論何謂聖事",
+      "after": "論何謂聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q061",
+      "pdf_file_page": 6418,
+      "before": "論聖事的必要性",
+      "after": "論聖事的必要性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q062",
+      "pdf_file_page": 6427,
+      "before": "論聖事的主要效果——恩寵",
+      "after": "論聖事的主要效果——恩寵",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q063",
+      "pdf_file_page": 6443,
+      "before": "論聖事的另一效果——印記",
+      "after": "論聖事的另一效果——印記",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q064",
+      "pdf_file_page": 6457,
+      "before": "論聖事的原因",
+      "after": "論聖事的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q065",
+      "pdf_file_page": 6479,
+      "before": "論聖事的數目",
+      "after": "論聖事的數目",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q066",
+      "pdf_file_page": 6490,
+      "before": "論聖洗聖事",
+      "after": "論聖洗聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q067",
+      "pdf_file_page": 6523,
+      "before": "論授予聖洗聖事的施行人",
+      "after": "論授予聖洗聖事的施行人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q068",
+      "pdf_file_page": 6540,
+      "before": "論領受洗禮者",
+      "after": "論領受洗禮者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q069",
+      "pdf_file_page": 6567,
+      "before": "論聖洗的效果",
+      "after": "論聖洗的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q070",
+      "pdf_file_page": 6588,
+      "before": "論割損禮",
+      "after": "論割損禮",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q071",
+      "pdf_file_page": 6599,
+      "before": "論教理講授及驅魔",
+      "after": "論教理講授及驅魔",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q072",
+      "pdf_file_page": 6608,
+      "before": "論堅振聖事",
+      "after": "論堅振聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q073",
+      "pdf_file_page": 6635,
+      "before": "論聖體聖事",
+      "after": "論聖體聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q074",
+      "pdf_file_page": 6649,
+      "before": "論聖體聖事的質料",
+      "after": "論聖體聖事的質料",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q075",
+      "pdf_file_page": 6666,
+      "before": "論餅與酒之轉變爲基督的體與血",
+      "after": "論餅與酒之轉變爲基督的體與血",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q076",
+      "pdf_file_page": 6693,
+      "before": "論基督存在於此聖事內的方式",
+      "after": "論基督存在於此聖事內的方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q077",
+      "pdf_file_page": 6714,
+      "before": "論存留於此聖事內的依附體",
+      "after": "論存留於此聖事內的依附體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q078",
+      "pdf_file_page": 6736,
+      "before": "論此聖事的形式",
+      "after": "論此聖事的形式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q079",
+      "pdf_file_page": 6757,
+      "before": "論此聖事的效果",
+      "after": "論此聖事的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q080",
+      "pdf_file_page": 6775,
+      "before": "論此聖事的使用或領受",
+      "after": "論此聖事的使用或領受",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q081",
+      "pdf_file_page": 6813,
+      "before": "論基督初建此聖事時對它的使用",
+      "after": "論基督初建此聖事時對它的使用",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q082",
+      "pdf_file_page": 6823,
+      "before": "論此聖事的施行人",
+      "after": "論此聖事的施行人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q083",
+      "pdf_file_page": 6845,
+      "before": "論此聖事的禮儀",
+      "after": "論此聖事的禮儀",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q084",
+      "pdf_file_page": 6881,
+      "before": "論告解聖事",
+      "after": "論告解聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q085",
+      "pdf_file_page": 6909,
+      "before": "論懺悔之作爲德性",
+      "after": "論懺悔之作爲德性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q086",
+      "pdf_file_page": 6923,
+      "before": "論告解在赦免死罪方面的效果",
+      "after": "論告解在赦免死罪方面的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q087",
+      "pdf_file_page": 6938,
+      "before": "論小罪的赦免",
+      "after": "論小罪的赦免",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q088",
+      "pdf_file_page": 6946,
+      "before": "論在告解後獲得赦免之罪的重返",
+      "after": "論在告解後獲得赦免之罪的重返",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q089",
+      "pdf_file_page": 6958,
+      "before": "論德性藉告解而恢復",
+      "after": "論德性藉告解而恢復",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "III.q090",
+      "pdf_file_page": 6974,
+      "before": "概論告解的部分",
+      "after": "概論告解的部分",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q001",
+      "pdf_file_page": 7008,
+      "before": "論痛悔",
+      "after": "論痛悔",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q002",
+      "pdf_file_page": 7016,
+      "before": "論痛悔的對象",
+      "after": "論痛悔的對象",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q003",
+      "pdf_file_page": 7027,
+      "before": "論痛悔的量或大小",
+      "after": "論痛悔的量或大小",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q004",
+      "pdf_file_page": 7036,
+      "before": "論痛悔的時期",
+      "after": "論痛悔的時期",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q005",
+      "pdf_file_page": 7042,
+      "before": "論痛悔的效果",
+      "after": "論痛悔的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q006",
+      "pdf_file_page": 7047,
+      "before": "論告明的必要",
+      "after": "論告明的必要",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q007",
+      "pdf_file_page": 7062,
+      "before": "論告明的本質",
+      "after": "論告明的本質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q008",
+      "pdf_file_page": 7069,
+      "before": "論爲告明服務的聖職人員或施行人",
+      "after": "論爲告明服務的聖職人員或施行人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q009",
+      "pdf_file_page": 7088,
+      "before": "論告明的性質",
+      "after": "論告明的性質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q010",
+      "pdf_file_page": 7096,
+      "before": "論告明的效果",
+      "after": "論告明的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q011",
+      "pdf_file_page": 7104,
+      "before": "論告解的祕密",
+      "after": "論告解的祕密",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q012",
+      "pdf_file_page": 7114,
+      "before": "論補贖",
+      "after": "論補贖",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q013",
+      "pdf_file_page": 7122,
+      "before": "論補贖的可能性",
+      "after": "論補贖的可能性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q014",
+      "pdf_file_page": 7129,
+      "before": "論補贖的品質",
+      "after": "論補贖的品質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q015",
+      "pdf_file_page": 7139,
+      "before": "論補贖的方法",
+      "after": "論補贖的方法",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q016",
+      "pdf_file_page": 7146,
+      "before": "論告解聖事的領受人",
+      "after": "論告解聖事的領受人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q017",
+      "pdf_file_page": 7152,
+      "before": "論教會的鑰匙",
+      "after": "論教會的鑰匙",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q018",
+      "pdf_file_page": 7160,
+      "before": "論鑰匙的效果",
+      "after": "論鑰匙的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q019",
+      "pdf_file_page": 7170,
+      "before": "論鑰匙的管理者及運用",
+      "after": "論鑰匙的管理者及運用",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q020",
+      "pdf_file_page": 7181,
+      "before": "論鑰匙權用於何人",
+      "after": "論鑰匙權用於何人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q021",
+      "pdf_file_page": 7187,
+      "before": "論絕罰",
+      "after": "論絕罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q022",
+      "pdf_file_page": 7194,
+      "before": "論施絕罰者與受絕罰者",
+      "after": "論施絕罰者與受絕罰者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q023",
+      "pdf_file_page": 7202,
+      "before": "論人與受絕罰者的交往",
+      "after": "論人與受絕罰者的交往",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q024",
+      "pdf_file_page": 7207,
+      "before": "論赦免絕罰",
+      "after": "論赦免絕罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q025",
+      "pdf_file_page": 7212,
+      "before": "論大赦",
+      "after": "論大赦",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q026",
+      "pdf_file_page": 7221,
+      "before": "論頒佈大赦者",
+      "after": "論頒佈大赦者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q027",
+      "pdf_file_page": 7226,
+      "before": "論得大赦者",
+      "after": "論得大赦者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q028",
+      "pdf_file_page": 7231,
+      "before": "論告解聖事的隆重補贖禮儀",
+      "after": "論告解聖事的隆重補贖禮儀",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q029",
+      "pdf_file_page": 7236,
+      "before": "論終傅聖事",
+      "after": "論終傅聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q030",
+      "pdf_file_page": 7252,
+      "before": "論終傅聖事的效果",
+      "after": "論終傅聖事的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q031",
+      "pdf_file_page": 7258,
+      "before": "論終傅聖事的施行人",
+      "after": "論終傅聖事的施行人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q032",
+      "pdf_file_page": 7262,
+      "before": "論終傅聖事的領受人與英國受傅的肢體",
+      "after": "論終傅聖事的領受人與應該受傅油的肢體",
+      "status": "corrected"
+    },
+    {
+      "id": "SUPPL.q033",
+      "pdf_file_page": 7270,
+      "before": "論終傅聖事的重複",
+      "after": "論終傅聖事的重複",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q034",
+      "pdf_file_page": 7273,
+      "before": "論神品聖事",
+      "after": "論神品聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q035",
+      "pdf_file_page": 7282,
+      "before": "論神品聖事的效果",
+      "after": "論神品聖事的效果",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q036",
+      "pdf_file_page": 7289,
+      "before": "論領受神品聖事者的資格",
+      "after": "論領受神品聖事者的資格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q037",
+      "pdf_file_page": 7299,
+      "before": "論神品的區分、行爲與神印",
+      "after": "論神品的區分、行爲與神印",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q038",
+      "pdf_file_page": 7314,
+      "before": "論神品聖事的施行人",
+      "after": "論神品聖事的施行人",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q039",
+      "pdf_file_page": 7320,
+      "before": "論神品聖事的限制",
+      "after": "論神品聖事的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q040",
+      "pdf_file_page": 7330,
+      "before": "論與神品聖事有關的問題",
+      "after": "論與神品聖事有關的問題",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q041",
+      "pdf_file_page": 7345,
+      "before": "論婚姻的自然功能",
+      "after": "論婚姻的自然功能",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q042",
+      "pdf_file_page": 7355,
+      "before": "論婚姻聖事",
+      "after": "論婚姻聖事",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q043",
+      "pdf_file_page": 7364,
+      "before": "論婚約",
+      "after": "論婚約",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q044",
+      "pdf_file_page": 7374,
+      "before": "論婚姻的定義",
+      "after": "論婚姻的定義",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q045",
+      "pdf_file_page": 7380,
+      "before": "論婚姻的合意",
+      "after": "論婚姻的合意",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q046",
+      "pdf_file_page": 7389,
+      "before": "論誓願或性行爲所增加的合意",
+      "after": "論誓願或性行爲所增加的合意",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q047",
+      "pdf_file_page": 7393,
+      "before": "論被迫及有條件的合意",
+      "after": "論被迫及有條件的合意",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q048",
+      "pdf_file_page": 7403,
+      "before": "論合意的對象",
+      "after": "論合意的對象",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q049",
+      "pdf_file_page": 7408,
+      "before": "論婚姻的利益",
+      "after": "論婚姻的利益",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q050",
+      "pdf_file_page": 7423,
+      "before": "泛論婚姻的限制",
+      "after": "泛論婚姻的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q051",
+      "pdf_file_page": 7428,
+      "before": "論錯誤的限制",
+      "after": "論錯誤的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q052",
+      "pdf_file_page": 7434,
+      "before": "論奴役身份的限制",
+      "after": "論奴役身份的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q053",
+      "pdf_file_page": 7445,
+      "before": "論聖願與神品的限制",
+      "after": "論聖願與神品的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q054",
+      "pdf_file_page": 7455,
+      "before": "論血親關係的限制",
+      "after": "論血親關係的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q055",
+      "pdf_file_page": 7470,
+      "before": "論姻親關係的限制",
+      "after": "論姻親關係的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q056",
+      "pdf_file_page": 7490,
+      "before": "論神親的限制",
+      "after": "論神親的限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q057",
+      "pdf_file_page": 7500,
+      "before": "論收養關係的法規",
+      "after": "論收養關係的法親",
+      "status": "corrected"
+    },
+    {
+      "id": "SUPPL.q058",
+      "pdf_file_page": 7507,
+      "before": "論性冷感、魔術、瘋癲、親奸和年齡不足的限制",
+      "after": "論性冷感、魔術、瘋癲、親姦和年齡不足的限制",
+      "status": "corrected"
+    },
+    {
+      "id": "SUPPL.q059",
+      "pdf_file_page": 7519,
+      "before": "論信仰不同的婚姻限制",
+      "after": "論信仰不同的婚姻限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q060",
+      "pdf_file_page": 7535,
+      "before": "論殺妻",
+      "after": "論殺妻",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q061",
+      "pdf_file_page": 7540,
+      "before": "論特級聖願的婚姻限制",
+      "after": "論特級聖願的婚姻限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q062",
+      "pdf_file_page": 7545,
+      "before": "論已遂婚姻之後的姦淫限制",
+      "after": "論已遂婚姻之後的姦淫限制",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q063",
+      "pdf_file_page": 7559,
+      "before": "論再婚",
+      "after": "論再婚",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q064",
+      "pdf_file_page": 7563,
+      "before": "論與婚姻有關的問題",
+      "after": "論與婚姻有關的問題",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q065",
+      "pdf_file_page": 7575,
+      "before": "論一夫多妻",
+      "after": "論一夫多妻",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q066",
+      "pdf_file_page": 7592,
+      "before": "論重婚與虧格",
+      "after": "論重婚與虧格",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q067",
+      "pdf_file_page": 7602,
+      "before": "論休書",
+      "after": "論休書",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q068",
+      "pdf_file_page": 7616,
+      "before": "論私生子女",
+      "after": "論私生子女",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q069",
+      "pdf_file_page": 7639,
+      "before": "論肉身復活的問題：先論人死後靈魂何在",
+      "after": "論肉身復活的問題：先論人死後靈魂何在",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q070",
+      "pdf_file_page": 7659,
+      "before": "論靈魂離開肉身後的性質及其所受的有形火刑",
+      "after": "論靈魂離開肉身後的性質及其所受的有形火刑",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q071",
+      "pdf_file_page": 7676,
+      "before": "論生者對亡者靈魂的救助",
+      "after": "論生者對亡者靈魂的救助",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q072",
+      "pdf_file_page": 7712,
+      "before": "論天堂聖人的祈禱",
+      "after": "論天堂聖人的祈禱",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q073",
+      "pdf_file_page": 7723,
+      "before": "論公審判前的異兆",
+      "after": "論公審判前的異兆",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q074",
+      "pdf_file_page": 7730,
+      "before": "論最後焚燬世界的烈火",
+      "after": "論最後焚毀世界的烈火",
+      "status": "corrected"
+    },
+    {
+      "id": "SUPPL.q075",
+      "pdf_file_page": 7753,
+      "before": "論肉身復活",
+      "after": "論肉身復活",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q076",
+      "pdf_file_page": 7764,
+      "before": "論肉身復活的原因",
+      "after": "論肉身復活的原因",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q077",
+      "pdf_file_page": 7772,
+      "before": "論肉身復活的時間與方式",
+      "after": "論肉身復活的時間與方式",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q078",
+      "pdf_file_page": 7783,
+      "before": "論肉身復活的起點",
+      "after": "論肉身復活的起點",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q079",
+      "pdf_file_page": 7791,
+      "before": "論死人復活後的同一性",
+      "after": "論死人復活後的同一性",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q080",
+      "pdf_file_page": 7803,
+      "before": "論復活身體的完整",
+      "after": "論復活身體的完整",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q081",
+      "pdf_file_page": 7820,
+      "before": "論復活者之身體的性質",
+      "after": "論復活者之身體的性質",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q082",
+      "pdf_file_page": 7828,
+      "before": "論聖人們復活後的情況",
+      "after": "論聖人們復活後的情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q083",
+      "pdf_file_page": 7844,
+      "before": "論聖人肉身復活後的神透",
+      "after": "論聖人肉身復活後的神透",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q084",
+      "pdf_file_page": 7864,
+      "before": "論聖人身體復活後的神速",
+      "after": "論聖人身體復活後的神速",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q085",
+      "pdf_file_page": 7877,
+      "before": "論聖人身體復活後的神光",
+      "after": "論聖人身體復活後的神光",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q086",
+      "pdf_file_page": 7884,
+      "before": "論惡人的身體復活後所有的情況",
+      "after": "論惡人的身體復活後所有的情況",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q087",
+      "pdf_file_page": 7893,
+      "before": "論復活者在公審判時對功過所有的知識",
+      "after": "論復活者在公審判時對功過所有的知識",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q088",
+      "pdf_file_page": 7901,
+      "before": "論公審判的時間與地方",
+      "after": "論公審判的時間與地方",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q089",
+      "pdf_file_page": 7911,
+      "before": "論公審判的審判者與受審判者",
+      "after": "論公審判的審判者與受審判者",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q090",
+      "pdf_file_page": 7928,
+      "before": "論審判官降來審判時的形體",
+      "after": "論審判官降來審判時的形體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q091",
+      "pdf_file_page": 7938,
+      "before": "論神界復活者在公審判後的情況",
+      "after": "論世界與復活者在公審判後的情況",
+      "status": "corrected"
+    },
+    {
+      "id": "SUPPL.q092",
+      "pdf_file_page": 7959,
+      "before": "論聖人享見天主的本體",
+      "after": "論聖人享見天主的本體",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q093",
+      "pdf_file_page": 7987,
+      "before": "論聖人的真福與住處",
+      "after": "論聖人的真福與住處",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q094",
+      "pdf_file_page": 7994,
+      "before": "論聖人與惡人的關係",
+      "after": "論聖人與惡人的關係",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q095",
+      "pdf_file_page": 7999,
+      "before": "論聖人的奇恩",
+      "after": "論聖人的奇恩",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q096",
+      "pdf_file_page": 8015,
+      "before": "論聖人的大光圈",
+      "after": "論聖人的大光圈",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q097",
+      "pdf_file_page": 8052,
+      "before": "論惡人在公審判後所受的刑罰",
+      "after": "論惡人在公審判後所受的刑罰",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q098",
+      "pdf_file_page": 8068,
+      "before": "論惡人的意志與理智",
+      "after": "論惡人的意志與理智",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "SUPPL.q099",
+      "pdf_file_page": 8082,
+      "before": "天主對惡人的正義與仁慈",
+      "after": "天主對惡人的正義與仁慈",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "APPENDICES.q001",
+      "pdf_file_page": 8097,
+      "before": "論煉獄",
+      "after": "論煉獄",
+      "status": "checked_unchanged"
+    },
+    {
+      "id": "APPENDICES.q002",
+      "pdf_file_page": 8113,
+      "before": "論原罪的刑罰",
+      "after": "論原罪的刑罰",
+      "status": "checked_unchanged"
+    }
+  ]
+}

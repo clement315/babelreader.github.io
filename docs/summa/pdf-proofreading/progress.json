@@ -191,5 +191,11 @@
   "next_question": "I.q014",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
-  "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions"
+  "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
+  "workflow": {
+    "active_phase": "all_book_titles_first",
+    "title_progress": "titles-progress.json",
+    "body_resume_at": "I.q014",
+    "resume_body_only_after_all_titles_reviewed": true
+  }
 }
