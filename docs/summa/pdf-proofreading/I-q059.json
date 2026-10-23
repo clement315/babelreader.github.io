@@ -1,0 +1,1272 @@
+{
+  "schema_version": 1,
+  "batch": "I-q059",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "468a95a94ef720b49fba762d27bb4babe523d830",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q059",
+    "title": "論天使的意志",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044
+    ],
+    "printed_pages": [
+      168,
+      176
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q59.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q59.json": "2beb14447f059153212374d484bf2275c7b5c5fb294c0c12e1ee0df0419808f6"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q059.a001.arg3",
+      "pdf_file_page": 1036,
+      "text": "天志是非形體的",
+      "status": "suspected_source_print_error",
+      "action": "原页印作「天志」，疑为「天使」；按底本恢复并保留，不静默订正。"
+    },
+    {
+      "id": "I.q059.a002.respondeo",
+      "pdf_file_page": 1040,
+      "text": "藉己本質",
+      "status": "suspected_source_print_error",
+      "action": "原书措辞疑省「自」，依原页保留。"
+    },
+    {
+      "id": "I.q059.a004.respondeo",
+      "pdf_file_page": 1043,
+      "text": "嗜慾而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q059.prologue",
+      "description": "删除题引言前的「昕／分为」及混入正文的杂符，保留原字段换行转义数量，多余分行留作末尾空行。"
+    }
+  ],
+  "notes": [
+    "全部9页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q059.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "昕\n分為\n然後要討論的是，那一些屬於天使呵的意志者(參看第五十題引言)。第一，討論意志本身;第二，討「訶論它的行動，E!D愛(amorì或愛慕(dilectio;第六十題)。\n關於第一點，可以提出四個問題:\n一、天使是否有意志。\n二、天使的意志是否就是他們的本性本身，甚或就是他們的理智本身。\n三、天使是否有自由抉擇或自由意志。\n四、天使是否有憤情與慾情。",
+      "after": "然後要討論的是，那些屬於天使的意志者(參看第五十題引言)。第一，討論意志本身；第二，討論它的行動，即愛(amor)或愛慕(dilectio；第六十題)。\n關於第一點，可以提出四個問題：\n一、天使是否有意志。\n二、天使的意志是否就是他們的本性本身，甚或就是他們的理智本身。\n三、天使是否有自由抉擇或自由意志。\n四、天使是否有憤情與慾情。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昕\n分為\n然後要討論的是，那一些屬於天使呵的意志者(參看第五十題引言)。第一，討論意志本身;第二，討「訶論它的行動，E!D愛(amorì或愛慕(dilectio;第六十題)。\n關於第一點，可以提出四個問題:\n一、天使是否有意志。\n二、天使的意志是否就是他們的本性本身，甚或就是他們的理智本身。\n三、天使是否有自由抉擇或自由意志。\n四、天使是否有憤情與慾情。",
+          "after": "然後要討論的是，那些屬於天使的意志者(參看第五十題引言)。第一，討論意志本身；第二，討論它的行動，即愛(amor)或愛慕(dilectio；第六十題)。\n關於第一點，可以提出四個問題：\n一、天使是否有意志。\n二、天使的意志是否就是他們的本性本身，甚或就是他們的理智本身。\n三、天使是否有自由抉擇或自由意志。\n四、天使是否有憤情與慾情。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "天使是否有意志",
+      "after": "天使是否有意志",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "天使似乎沒有意志(voluntas)。因為:",
+      "after": "天使似乎沒有意志(voluntas)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "正如哲學家在《靈魂論》卷三第九章所說的:「意志是在理性(ratio)內。」可是天使卻沒有理性，而有高於理性者。所以，天使並沒有意志，而有高於意志者。",
+      "after": "正如哲學家在《靈魂論》卷三第九章所說的：「意志是在理性(ratio)內。」可是天使卻沒有理性，而有高於理性者。所以，天使並沒有意志，而有高於意志者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1036
+      ],
+      "before": "此外，意志屬於嗜慾(appetitus)，正如哲學家在《靈魂論》卷三第九及十章所指明的。可是嗜慾卻屬於不完美者，因為嗜慾是針對那尚未獲得者。既然在天使內，尤其是在已享真褔的天使內，毫無不完美之處，所以，他們似乎沒有意志。",
+      "after": "此外，意志屬於嗜慾(appetitus)，正如哲學家在《靈魂論》卷三第九及十章所指明的。可是嗜慾卻屬於不完美者，因為嗜慾是針對那尚未獲得者。既然在天使內，尤其是在已享真福的天使內，毫無不完美之處，所以，他們似乎沒有意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1036,
+        1037
+      ],
+      "before": "此外，哲學家在《靈魂論》卷三第十章說，意志是被推動的推動者(movens motum);因為它為被理解的可欲者所推動。可是天使卻是不動的;因為天安是非形體的。所以，天使並沒有意志。",
+      "after": "此外，哲學家在《靈魂論》卷三第十章說，意志是被推動的推動者(movens motum)；因為它為被理解的可欲者所推動。可是天使卻是不動的；因為天志是非形體的。所以，天使並沒有意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天安",
+          "after": "天志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1037
+      ],
+      "before": "奧斯定在《論天主聖三》卷十第十二章說:基於記憶、理智與意志，靈性(mens)有天主聖三的肖像。可是不僅人類的靈性，而且天使的靈性，也有天主的肖像;因為天{吏的靈性也是能容納天主。所以，天使有意志。",
+      "after": "奧斯定在《論天主聖三》卷十第十二章說：基於記憶、理智與意志，靈性(mens)有天主聖三的肖像。可是不僅人類的靈性，而且天使的靈性，也有天主的肖像；因為天使的靈性也是能容納天主。所以，天使有意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天{吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1037
+      ],
+      "before": "我解答如下:應該承認天使有意志。為說明此點，必須注意:由於萬物出白天主的意志，萬物都以自己的方式，藉著嗜慾而傾向於善，只是方式彼此不一。有些物，例如:植物和無生命的形體物，只藉著自己的自然動態，沒有什麼認知而傾向於善，這種傾向於善稱為「自然嗜慾」(appetitus naturalis)。可是有些物之傾向於善，有某種認知，但並不是知道善的真正性質，而只是知道某些局部的或個別的善，例如:覺官知道甜和白色等類似的東西。隨從這種知識的傾向，稱為「感覺嗜慾」(appctitus sensitivus)。可是有些物之傾向於善，卻有認識善的真正性質的知識;而這是屬於理智所固有的。這些物最完美地傾向於善。他們不是隻被別物導引至善，像那些不其知識之物一樣;也不是隻傾向於局部的或個別的善，像那些只有感覺知識的物一樣;而是傾向於「普遍的善本身」(ipsum bonum uni-versalc)。這種傾向稱為意志。由於天使藉著理智，而認識善的真正性質。所以，顯然地，他們有意志。",
+      "after": "我解答如下：應該承認天使有意志。為說明此點，必須注意：由於萬物出自天主的意志，萬物都以自己的方式，藉著嗜慾而傾向於善，只是方式彼此不一。有些物，例如：植物和無生命的形體物，只藉著自己的自然動態，沒有什麼認知而傾向於善，這種傾向於善稱為「自然嗜慾」(appetitus naturalis)。可是有些物之傾向於善，有某種認知，但並不是知道善的真正性質，而只是知道某些局部的或個別的善，例如：覺官知道甜和白色等類似的東西。隨從這種知識的傾向，稱為「感覺嗜慾」(appetitus sensitivus)。可是有些物之傾向於善，卻有認識善的真正性質的知識；而這是屬於理智所固有的。這些物最完美地傾向於善。他們不是只被別物導引至善，像那些不具知識之物一樣；也不是只傾向於局部的或個別的善，像那些只有感覺知識的物一樣；而是傾向於「普遍的善本身」(ipsum bonum uni-versale)。這種傾向稱為意志。由於天使藉著理智，而認識善的真正性質。所以，顯然地，他們有意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "appctitus",
+          "after": "appetitus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不是隻",
+          "after": "不是只",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不其知識",
+          "after": "不具知識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "uni-versalc",
+          "after": "uni-versale",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1037,
+        1038
+      ],
+      "before": "理性(ratio)之超越感覺，與理智或悟性(intellectus)之超越理性，並不相同。因為理性之超越感覺，是基於不同的對象或所知之物;因為感覺知道特殊或個別物，而理性知道普遍物。所以，應該有一種傾向於普遍善的嗜慾'歸屬於理性;以及另有一種傾向於特殊善的嗜慾，歸屬於感覺。可是理智或悟性之異於理性，是關於認識的方式:即是說，理智以「單純的直觀」(intuitus simpiex)而認識，可是理性卻是藉著由這一物到那一物的推論。可是理性藉著推論，也認識那理智不用推論而認識之物，即是普遍物。因此，從理性方面和理智方面，呈現給嗜慾的對象是相同的。所以，那只有理智或悟性的天使，並沒有高於意志的嗜慾﹒。",
+      "after": "理性(ratio)之超越感覺，與理智或悟性(intellectus)之超越理性，並不相同。因為理性之超越感覺，是基於不同的對象或所知之物；因為感覺知道特殊或個別物，而理性知道普遍物。所以，應該有一種傾向於普遍善的嗜慾，歸屬於理性；以及另有一種傾向於特殊善的嗜慾，歸屬於感覺。可是理智或悟性之異於理性，是關於認識的方式：即是說，理智以「單純的直觀」(intuitus simplex)而認識，可是理性卻是藉著由這一物到那一物的推論。可是理性藉著推論，也認識那理智不用推論而認識之物，即是普遍物。因此，從理性方面和理智方面，呈現給嗜慾的對象是相同的。所以，那只有理智或悟性的天使，並沒有高於意志的嗜慾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嗜慾'",
+          "after": "嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "simpiex",
+          "after": "simplex",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗜慾﹒。",
+          "after": "嗜慾。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "雖然「嗜慾部分」一詞，出自慾望那尚未獲得之物，可是嗜慾的範圓並非侷限於此，它還擴及其它許多物。正如「石頭一詞」(nomen lapidis)出自傷害腳部(laesio pedis)，可是它的內涵卻不僅有這一點。同樣地，憤情能力(potentia iras-cibilis)一詞，也是出自忿怒(ira)，雖然憤情能力中尚有其它的許多惰，例如:企望和勇猛等等。",
+      "after": "雖然「嗜慾部分」一詞，出自慾望那尚未獲得之物，可是嗜慾的範圍並非侷限於此，它還擴及其它許多物。正如「石頭一詞」(nomen lapidis)出自傷害腳部(laesio pedis)，可是它的內涵卻不僅有這一點。同樣地，憤情能力(potentia iras-cibilis)一詞，也是出自忿怒(ira)，雖然憤情能力中尚有其它的許多情，例如：企望和勇猛等等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圓",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "許多惰",
+          "after": "許多情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "意志稱為被推動的推動者，因為願意是一種行動，正如理解是一種行動一樣。天使並非不可有這種行動，因為這種行動是「完美或已成就者的行為或現實」'正如《靈魂論》卷三第七章所說的。",
+      "after": "意志稱為被推動的推動者，因為願意是一種行動，正如理解是一種行動一樣。天使並非不可有這種行動，因為這種行動是「完美或已成就者的行為或現實」，正如《靈魂論》卷三第七章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "現實」'",
+          "after": "現實」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "天使的意志是否不同於理智和本性",
+      "after": "天使的意志是否不同於理智和本性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "天使的意志，似乎與理智和本性並無不同。因為:",
+      "after": "天使的意志，似乎與理智和本性並無不同。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1038
+      ],
+      "before": "天使比自然的形體物(corpus naturale)更單純。可是自然的形體物，卻藉著自己的形式，而傾向於自己的目的，而這目的即是它的善。所以，天使遠更是如此。可是天(吏的形式，或者是他自立於其內的本性，或者是在他理智內的像。所以，天使是藉著自己的本性和可理解的像，而傾向於善。可是這種傾向於苦卻屬於意志。所以，天使的意志與他的本性或理智，並無不同。",
+      "after": "天使比自然的形體物(corpus naturale)更單純。可是自然的形體物，卻藉著自己的形式，而傾向於自己的目的，而這目的即是它的善。所以，天使遠更是如此。可是天使的形式，或者是他自立於其內的本性，或者是在他理智內的像。所以，天使是藉著自己的本性和可理解的像，而傾向於善。可是這種傾向於善卻屬於意志。所以，天使的意志與他的本性或理智，並無不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傾向於苦",
+          "after": "傾向於善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1038,
+        1039
+      ],
+      "before": "此外，理智的對象是真理，而意志的對象卻是善。可是善與真理實際上相同，只不過理念上不同而已。所以，理智與意志實際上並無不同。",
+      "after": "此外，理智的對象是真理，而意志的對象卻是善。可是善與真理實際上相同，只不過理念上不同而已。所以，理智與意志實際上並無不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1039
+      ],
+      "before": "此外，「普遍的」與「特殊的」之悶的區別，並不區分能力;因為相同的視力，普遍地看顏色以及看白色。可是善與真的關係，卻如同「普遍的」與「特殊的」之間的關係一樣;因為「真」是一種(特殊的)善‘即是理智的善。所以，以善為對象的意志，與以真為對象的理智，並無不同。",
+      "after": "此外，「普遍的」與「特殊的」之間的區別，並不區分能力；因為相同的視力，普遍地看顏色以及看白色。可是善與真的關係，卻如同「普遍的」與「特殊的」之間的關係一樣；因為「真」是一種(特殊的)善，即是理智的善。所以，以善為對象的意志，與以真為對象的理智，並無不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之悶",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善‘",
+          "after": "善，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1039
+      ],
+      "before": "天使的意志只與善有闕，可是他們的理智卻兼與善和惡有闕，因為他們兼認識二者。所以，天使的意志不同於其理智。",
+      "after": "天使的意志只與善有關，可是他們的理智卻兼與善和惡有關，因為他們兼認識二者。所以，天使的意志不同於其理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有闕",
+          "after": "有關",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1039,
+        1040
+      ],
+      "before": "我解答如下:天使的意志是一種德能或能力，它既不是他們的本性本身，也不是他們的理智。它不是他們的本性，可由此看出，即一物的本性或本質完全包括在該物內;所以，凡是伸展自己至該物以外之物者，都不屬於該物的本質。因此，我們在自然的形體物上看到，趨向於物的存在的傾向，不是藉著外加於本質者，而是藉由物質或質料。此一物質在獲得存在以前，慾望存在;以及藉由形式，此一形式，在物存在以後，支持物的存在。可是趨向於外在物的傾向，卻是藉由外加於本質者;例如，趨向於地方的傾向，是藉由重或髓，而趨向於製造與自己相似者的傾向，是藉由「主動性質」(qualitas activa)。可是意志卻自然就傾向於善。因此，唯有那裡全部的善都完全包括在願意者的本質裡﹒那裡才會有本質與意志相同的情形;在天主內就是如此，因為天主不願意任何在自己以外之物，除非是基於自己的美善。關於任何受造物，都不能這樣說，因為無限的善存在於每一受造物的本質之外。因此，天使的意志，以及任何其它受造物的意志，都不可能與自己的本質相同。\n同樣地，意志與天使的或人的理智，也不能是相同的。因為知識是藉被認識者在認識者內而形成。因此，其理智之伸展自己至自己以外之物，是根據那藉己本質而存在於理智以外之物，自然宜於以某種方式存在於理智內。可是意志之伸展自己至自己以外之物，是根據意志以某種傾向趨於外在之物。在自己內握有在自己以外之物，與自己趨於外在之物，分屬於不同的能力。因此，在每一受造物內，理智與意志都不相同。可是在天主內卻非如此。因為祂在自己內，有統括一切的存在和統括一切的善。所以，理智和意志，都就是祂的本質。",
+      "after": "我解答如下：天使的意志是一種德能或能力，它既不是他們的本性本身，也不是他們的理智。它不是他們的本性，可由此看出，即一物的本性或本質完全包括在該物內；所以，凡是伸展自己至該物以外之物者，都不屬於該物的本質。因此，我們在自然的形體物上看到，趨向於物的存在的傾向，不是藉著外加於本質者，而是藉由物質或質料。此一物質在獲得存在以前，慾望存在；以及藉由形式，此一形式，在物存在以後，支持物的存在。可是趨向於外在物的傾向，卻是藉由外加於本質者；例如，趨向於地方的傾向，是藉由重或輕，而趨向於製造與自己相似者的傾向，是藉由「主動性質」(qualitas activa)。可是意志卻自然就傾向於善。因此，唯有那裡全部的善都完全包括在願意者的本質裡，那裡才會有本質與意志相同的情形；在天主內就是如此，因為天主不願意任何在自己以外之物，除非是基於自己的美善。關於任何受造物，都不能這樣說，因為無限的善存在於每一受造物的本質之外。因此，天使的意志，以及任何其它受造物的意志，都不可能與自己的本質相同。\n同樣地，意志與天使的或人的理智，也不能是相同的。因為知識是藉被認識者在認識者內而形成。因此，其理智之伸展自己至自己以外之物，是根據那藉己本質而存在於理智以外之物，自然宜於以某種方式存在於理智內。可是意志之伸展自己至自己以外之物，是根據意志以某種傾向趨於外在之物。在自己內握有在自己以外之物，與自己趨於外在之物，分屬於不同的能力。因此，在每一受造物內，理智與意志都不相同。可是在天主內卻非如此。因為祂在自己內，有統括一切的存在和統括一切的善。所以，理智和意志，都就是祂的本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "重或髓",
+          "after": "重或輕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本質裡﹒",
+          "after": "本質裡，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "自然的形體物，藉著「本體的形式」(forma substan-tialis)而傾向於自己的存在;可是其傾向於外在之物，卻是藉著某種外加之物，正如正解所說的。",
+      "after": "自然的形體物，藉著「本體的形式」(forma substan-tialis)而傾向於自己的存在；可是其傾向於外在之物，卻是藉著某種外加之物，正如正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "能力的區別，並不是根據對象的物質或質料方面的區別(d叫inctio materialis)，而是根據形式方面的區別(distinctio formalis)，後者所注意的是對象的理或理念。因此，「善」與「真」之理的不相間，足以使理智與意志也不相同。",
+      "after": "能力的區別，並不是根據對象的物質或質料方面的區別(distinctio materialis)，而是根據形式方面的區別(distinctio formalis)，後者所注意的是對象的理或理念。因此，「善」與「真」之理的不相同，足以使理智與意志也不相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "d叫inctio",
+          "after": "distinctio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不相間",
+          "after": "不相同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "由於善與真實際上可以互換，因此，理智是在「真」的理或觀點下來理解「善」;而意志則是在「善」的理或觀點下來慾望「真」。可是「理」的不同，卻足以使能力也不同，正如上文釋疑2.所說的。",
+      "after": "由於善與真實際上可以互換，因此，理智是在「真」的理或觀點下來理解「善」；而意志則是在「善」的理或觀點下來慾望「真」。可是「理」的不同，卻足以使能力也不同，正如上文釋疑2.所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "天使是否有自由意志",
+      "after": "天使是否有自由意志",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1040
+      ],
+      "before": "天使似乎沒有自由意志(自由定奪、抉擇能力，liberum arbitrium)。因為:",
+      "after": "天使似乎沒有自由意志(自由定奪、抉擇能力，liberum arbitrium)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1040,
+        1041
+      ],
+      "before": "自由意志的行為是選擇。可是天使卻不可能有選擇;因為選擇是「事先經過考慮的嗜慾」'而考慮卻是「一種技究」'正如《倫理學》卷三第二章所說的。可是天使卻並非經過探究而認識，因為探究屬於理性的推論。所以，天使似乎沒有自由意志。",
+      "after": "自由意志的行為是選擇。可是天使卻不可能有選擇；因為選擇是「事先經過考慮的嗜慾」，而考慮卻是「一種探究」，正如《倫理學》卷三第二章所說的。可是天使卻並非經過探究而認識，因為探究屬於理性的推論。所以，天使似乎沒有自由意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嗜慾」'",
+          "after": "嗜慾」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "技究",
+          "after": "探究",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "探究」'",
+          "after": "探究」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1041
+      ],
+      "before": "此外，自由意志兼與二者有關(抉擇是二者中取其一)。可是從理智方面，在天使內卻沒有什麼兼與二者有關;因為他們的理智在自然可理解之物方面不會差錯，正如上面第五十八題第五節所說的。所以，從嗜慾方面，天使也不可能有自由意志。",
+      "after": "此外，自由意志兼與二者有關(抉擇是二者中取其一)。可是從理智方面，在天使內卻沒有什麼兼與二者有關；因為他們的理智在自然可理解之物方面不會差錯，正如上面第五十八題第五節所說的。所以，從嗜慾方面，天使也不可能有自由意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1041
+      ],
+      "before": "此外，天使自然所有的，在他們內有多少之分;因為高級天使的理智本性(natura intellectualis)比低級天使的理智本性更完美。可是自由意志卻無多少之分。所以，天使並沒有自由意志。",
+      "after": "此外，天使自然所有的，在他們內有多少之分；因為高級天使的理智本性(natura intellectualis)比低級天使的理智本性更完美。可是自由意志卻無多少之分。所以，天使並沒有自由意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1041
+      ],
+      "before": "自由意志屬於人的尊貴。可是天使卻比人更尊貴。所以，既然人有選擇的自由(能力)，天使更是應該有。",
+      "after": "自由意志屬於人的尊貴。可是天使卻比人更尊貴。所以，既然人有選擇的自由(能力)，天使更是應該有。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1041
+      ],
+      "before": "我解答如下:有些東西，不是基於某種(自己的)抉擇而行動，而類似接受別物的驅使和推動，例如:箭由射箭者而射向目標。可是有些東西之行動，是基於某種抉擇或定奪，但不是自由的抉擇或定奪，例如:無靈的動物;因為羊是基於認定狼有害於己的判斷而逃避狼;可是這種判斷卻不是自由的，而是天生的。可是唯有那有理智之物，能藉著自由的判斷而行動，因為他知道善的普遍之理，由此而能判斷此物或彼物是善。因此，那裡有理智，那裡也就有自由意志。由此可見，天使有自由意志，而且超越人的有自由意志，正如天使有理智一樣。",
+      "after": "我解答如下：有些東西，不是基於某種(自己的)抉擇而行動，而類似接受別物的驅使和推動，例如：箭由射箭者而射向目標。可是有些東西之行動，是基於某種抉擇或定奪，但不是自由的抉擇或定奪，例如：無靈的動物；因為羊是基於認定狼有害於己的判斷而逃避狼；可是這種判斷卻不是自由的，而是天生的。可是唯有那有理智之物，能藉著自由的判斷而行動，因為他知道善的普遍之理，由此而能判斷此物或彼物是善。因此，那裡有理智，那裡也就有自由意志。由此可見，天使有自由意志，而且超越人的有自由意志，正如天使有理智一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1041,
+        1042
+      ],
+      "before": "哲學家在那裡是根據人的選擇而討論選擇。可是正如在思辨或理論方面，人的評判不同於天使的評判，即其中一個、是沒有探究，另一個則經過探究;同樣地，在行動或實踐方面也是如此。因此，天使有選擇，卻不需要探究式的深思熟慮，而立即直接地承認真理。",
+      "after": "哲學家在那裡是根據人的選擇而討論選擇。可是正如在思辨或理論方面，人的評判不同於天使的評判，即其中一個是沒有探究，另一個則經過探究；同樣地，在行動或實踐方面也是如此。因此，天使有選擇，卻不需要探究式的深思熟慮，而立即直接地承認真理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一個、是",
+          "after": "一個是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "正如上面第二節、第十二題第四節所說的，知識是藉著被認識者在認識者內而形成。可是一物生來或自然應有者，卻實際沒有，這就屬於它的不完美。因此，如果天使的理智，不固定於其自然所能知道的一切真理，那麼，天使在自己的本性方面就不是完美的。可是嗜慾能力的行為，卻是藉著嗜慾傾向於外在之物。可是物的完美，並不繫於所傾向的一切物，而只繫於所傾向的更高的物。所以，如果針對那些在自己以下之物，天使沒有固定的意志，這並不屬於天使的不完美。可是，針對那在自己以上之物，天使如果不是堅定不移，這就屬於天使的不完美。",
+      "after": "正如上面第二節、第十二題第四節所說的，知識是藉著被認識者在認識者內而形成。可是一物生來或自然應有者，卻實際沒有，這就屬於它的不完美。因此，如果天使的理智，不固定於其自然所能知道的一切真理，那麼，天使在自己的本性方面就不是完美的。可是嗜慾能力的行為，卻是藉著嗜慾傾向於外在之物。可是物的完美，並不繫於所傾向的一切物，而只繫於所傾向的更高的物。所以，如果針對那些在自己以下之物，天使沒有固定的意志，這並不屬於天使的不完美。可是，針對那在自己以上之物，天使如果不是堅定不移，這就屬於天使的不完美。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "高級天使的自由意志比低級天使的自由意志更高貴，正如理智的判斷一樣。可是這倒是真的，即自由本身，從它不含有逼迫來看，沒有多少之分，因為缺欠(privatio)與否定(negatio)本身無所謂增強或減弱，它們只是藉著自己的原因，或基於某種相連的肯定，增強和減弱。",
+      "after": "高級天使的自由意志比低級天使的自由意志更高貴，正如理智的判斷一樣。可是這倒是真的，即自由本身，從它不含有逼迫來看，沒有多少之分，因為缺欠(privatio)與否定(negatio)本身無所謂增強或減弱，它們只是藉著自己的原因，或基於某種相連的肯定，增強和減弱。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "天使是否有憤情和慾情",
+      "after": "天使是否有憤情和慾情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "天使似乎有憤情(irascibilis)和慾情(concupiscibilis)。因為:",
+      "after": "天使似乎有憤情(irascibilis)和慾情(concupiscibilis)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "狄奧尼修在《神名論》第四章說:「魔鬼有不合理的忿怒和瘋狂的慾望。」可是魔鬼與天使卻都有相同的本性;因為罪惡並沒有改變他們的本性。所以，天使有憤情和慾惰。",
+      "after": "狄奧尼修在《神名論》第四章說：「魔鬼有不合理的忿怒和瘋狂的慾望。」可是魔鬼與天使卻都有相同的本性；因為罪惡並沒有改變他們的本性。所以，天使有憤情和慾情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾惰",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1042
+      ],
+      "before": "此外，愛與喜樂屬於慾惰，可是忿怒、企望和畏懼卻屬於憤情。然而在聖經上，卻把這一切都歸於善的天使與惡的天便。所以，天使有憤情和慾情。",
+      "after": "此外，愛與喜樂屬於慾情，可是忿怒、企望和畏懼卻屬於憤情。然而在聖經上，卻把這一切都歸於善的天使與惡的天使。所以，天使有憤情和慾情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾惰",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1043
+      ],
+      "before": "此外，人稱在憤情與慾情上有某些德行，例如:愛德與節德似乎屬於慾情，可是望德與勇德卻屬於憤情。可是天使卻有這些德行。所以，天使有慾情與憤情。",
+      "after": "此外，人稱在憤情與慾情上有某些德行，例如：愛德與節德似乎屬於慾情，可是望德與勇德卻屬於憤情。可是天使卻有這些德行。所以，天使有慾情與憤情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1043
+      ],
+      "before": "哲學家在《靈魂論》卷三第九章說，憤情與慾情屬於感覺部分，而天使並沒有感覺部分。所以，天使沒有價情與慾惰。",
+      "after": "哲學家在《靈魂論》卷三第九章說，憤情與慾情屬於感覺部分，而天使並沒有感覺部分。所以，天使沒有憤情與慾情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "價情",
+          "after": "憤情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慾惰",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1043
+      ],
+      "before": "我解答如下:理智的嗜慾(忱a仰pp仰阱μe叫酬t山i泣t肘uS lf叫e叩C叫叫t仙分憤情與慾情，只有感覺的嗜慾(appctitus scnsitivus)才分為憤情與慾惰。理由是，因為能力的區分‘不是根據眾多對象的質料方面的區別(distinctio matcrialis)，而是根據對象的形式之理或理念(ratio formalis)。如果一對象是根據其公共之理或理念，而與某一能力配合，貝IJ能力的區分，不是根據包括在此公共之理或理念下的各別部分的不同。例如，如果視力(potentia visiva)的固有對象，是根據顏色之理的顏色(一般的顏色),那麼就不會根據黑色與白色的不同，而區分為幾個不同的視力。可是假設某一能力的固有對象，是白色之為白色，那麼針對白色的視力與針對黑色的視力，就可彼此加以區分了。\n由上文第一節所說的，可知那稱為意志的理智嗜慾的對象，是根據善之公共之理或理念的善(一般的善)，而且不可能有非止於善的嗜慾。因此，在理智部分的嗜慾，不是根據某些特殊或個別的善的不同來區分;像感覺嗜慾的區分那樣，它所注意的，不是根據善之公共之理的善，而是某種特殊的或個別的善。所以，既然天使只不過有理智的嗜慾而己，他們的嗜慾並不分為憤情與慾情，它是持久不分的，且稱為意志。",
+      "after": "我解答如下：理智的嗜慾(appetitus intellectivus)並不分憤情與慾情，只有感覺的嗜慾(appetitus sensitivus)才分為憤情與慾情。理由是，因為能力的區分，不是根據眾多對象的質料方面的區別(distinctio materialis)，而是根據對象的形式之理或理念(ratio formalis)。如果一對象是根據其公共之理或理念，而與某一能力配合，則能力的區分，不是根據包括在此公共之理或理念下的各別部分的不同。例如，如果視力(potentia visiva)的固有對象，是根據顏色之理的顏色(一般的顏色)，那麼就不會根據黑色與白色的不同，而區分為幾個不同的視力。可是假設某一能力的固有對象，是白色之為白色，那麼針對白色的視力與針對黑色的視力，就可彼此加以區分了。\n由上文第一節所說的，可知那稱為意志的理智嗜慾的對象，是根據善之公共之理或理念的善(一般的善)，而且不可能有非止於善的嗜慾。因此，在理智部分的嗜慾，不是根據某些特殊或個別的善的不同來區分；像感覺嗜慾的區分那樣，它所注意的，不是根據善之公共之理的善，而是某種特殊的或個別的善。所以，既然天使只不過有理智的嗜慾而己，他們的嗜慾並不分為憤情與慾情，它是持久不分的，且稱為意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(忱a仰pp仰阱μe叫酬t山i泣t肘uS lf叫e叩C叫叫t仙分",
+          "after": "(appetitus intellectivus)並不分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "appctitus scnsitivus",
+          "after": "appetitus sensitivus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慾惰",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "區分‘",
+          "after": "區分，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "matcrialis",
+          "after": "materialis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "顏色),",
+          "after": "顏色)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1043
+      ],
+      "before": "說魔鬼有忿怒和慾望，是一種比喻或借意的說法，正如有時把忿怒也歸於天主，這是由於效果相似的緣故。",
+      "after": "說魔鬼有忿怒和慾望，是一種比喻或借意的說法，正如有時把忿怒也歸於天主，這是由於效果相似的緣故。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q059.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1044
+      ],
+      "before": "愛與喜樂，以其是情來說，屬於慾情;可是以其是意志的單純行為來說，則是屬於理智部分;這是因為愛是願意人得到善，而喜樂則是意志安息或止於已得之善。所以，普遍地說，說天使有它們，都不是根據它們是情來說，正如奧斯定在《天主之城》卷九第五章所說的。",
+      "after": "愛與喜樂，以其是情來說，屬於慾情；可是以其是意志的單純行為來說，則是屬於理智部分；這是因為愛是願意人得到善，而喜樂則是意志安息或止於已得之善。所以，普遍地說，說天使有它們，都不是根據它們是情來說，正如奧斯定在《天主之城》卷九第五章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q059.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1044
+      ],
+      "before": "愛德以其為德行來說，並不屬於慾惰，而屬於意志。因為慾惰的對象是覺官所喜愛的善，而為愛德之對象的天主的善，不是這樣的善。根據同理也應該說，望德並不屬於憤情，因為憤情的對象是屬於感覺方面的難事(arduum);可是作為德行的企望或希望，不是關於這樣的事，而是關於天主方面的難事。至於節德，以其為人的德行來說，是關於對感覺所喜愛之事的慾望，這種慾望屬於慾情能力。同樣地，勇德是關於那屬於憤情的勇猛與畏懼。所以，以其為人的德行來說，節德與慾情有關，而勇德與憤情有關。可是在天使內，它們卻不是如此。因為天使並沒有慾惰的情、或畏懼和勇猛(等憤情)的情，這些情都應該接受節德與勇德的規範。可是，所謂天使有節德，是指他們適度地按照天主意志的規範，而表現自己的意志。所謂天使有勇德'是指.他們堅定於承行天主的旨意。這一切，都是藉著意志來完成，並不是藉著憤情和慾情。",
+      "after": "愛德以其為德行來說，並不屬於慾情，而屬於意志。因為慾情的對象是覺官所喜愛的善，而為愛德之對象的天主的善，不是這樣的善。根據同理也應該說，望德並不屬於憤情，因為憤情的對象是屬於感覺方面的難事(arduum)；可是作為德行的企望或希望，不是關於這樣的事，而是關於天主方面的難事。至於節德，以其為人的德行來說，是關於對感覺所喜愛之事的慾望，這種慾望屬於慾情能力。同樣地，勇德是關於那屬於憤情的勇猛與畏懼。所以，以其為人的德行來說，節德與慾情有關，而勇德與憤情有關。可是在天使內，它們卻不是如此。因為天使並沒有慾情的情、或畏懼和勇猛(等憤情)的情，這些情都應該接受節德與勇德的規範。可是，所謂天使有節德，是指他們適度地按照天主意志的規範，而表現自己的意志。所謂天使有勇德，是指他們堅定於承行天主的旨意。這一切，都是藉著意志來完成，並不是藉著憤情和慾情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾惰",
+          "after": "慾情",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "勇德'是指.",
+          "after": "勇德，是指",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
