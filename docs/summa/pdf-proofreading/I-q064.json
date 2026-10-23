@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "batch": "I-q064",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "e7ceb7a32d732dcedfaca640f5342ce4fe259910",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q064",
+    "title": "論魔鬼的罪罰",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109,
+      1110,
+      1111,
+      1112,
+      1113,
+      1114,
+      1115
+    ],
+    "printed_pages": [
+      236,
+      247
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 56,
+    "changed_review_units": 41,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q64.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q64.json": "96a5f6342a0a14fe139ead09a131de1c6efb47e9ca0aeeeed342cc7dfaa4ee43",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q064.a001.arg5",
+      "pdf_file_page": 1105,
+      "text": "《格林多前書》第六章14節",
+      "status": "suspected_source_print_error",
+      "action": "原书引文卷名疑误，依底本保留「前书」，不据通行经文改成「后书」。"
+    },
+    {
+      "id": "I.q064.a001.sed_contra",
+      "pdf_file_page": 1105,
+      "text": "原己賦予",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q064.a002.respondeo",
+      "pdf_file_page": 1109,
+      "text": "《瑪竇福音》第二十五章26節",
+      "status": "suspected_source_print_error",
+      "action": "原书引文节号疑误，依底本保留26，不擅改为46。"
+    },
+    {
+      "id": "I.q064.a004.intro",
+      "pdf_file_page": 1113,
+      "text": "有關第一節",
+      "status": "suspected_source_print_error",
+      "action": "第四节的原书节引言印作「第一节」，依底本保留并单列。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q064.a004.ad2",
+      "description": "释疑2末尾OCR孤立拉丁字母及U已清除；保留原字段的一个换行转义为空行，未改变JSON结构。"
+    }
+  ],
+  "notes": [
+    "全部12页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q064.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "隨後要探討的是魔鬼的罪罰(參看第六十三題引言)。\n關於這一點，可以提出四個問題:\n一、論理智的昏蜻。\n二、論意志的固執。\n三、論魔鬼的痛苦。\n四、論魔鬼受罰的地方。",
+      "after": "隨後要探討的是魔鬼的罪罰(參看第六十三題引言)。\n關於這一點，可以提出四個問題：\n一、論理智的昏瞶。\n二、論意志的固執。\n三、論魔鬼的痛苦。\n四、論魔鬼受罰的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏蜻",
+          "after": "昏瞶",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "魔鬼的理智是否因喪失一切真理的知識而昏蹟",
+      "after": "魔鬼的理智是否因喪失一切真理的知識而昏瞶",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏蹟",
+          "after": "昏瞶",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "魔鬼的理智似乎因喪失一切真理的知識而昏瞋。因為:",
+      "after": "魔鬼的理智似乎因喪失一切真理的知識而昏瞶。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏瞋",
+          "after": "昏瞶",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "如果他們向認識某種真理，那麼最可能是認識自己，亦即是認識分離實體(substantia separata，脫離物質而自立的實體)。可是，這卻不適於他們的不幸;因為這似乎屬於偉大的真褔，因為，有些人視認識分離實體為人的最後真褔。所以，魔鬼喪失了一切真理的知識。",
+      "after": "如果他們尚認識某種真理，那麼最可能是認識自己，亦即是認識分離實體(substantia separata，脫離物質而自立的實體)。可是，這卻不適於他們的不幸；因為這似乎屬於偉大的真福，因為，有些人視認識分離實體為人的最後真福。所以，魔鬼喪失了一切真理的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "他們向認識",
+          "after": "他們尚認識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1104
+      ],
+      "before": "此外，在性體中最顯明者，對天使來說，無論是善天使或惡天使，似乎最為顯明。其對我們不是最為顯明，是由於我們憑藉心象(phantasmata)來領會的理智不健全，就像貓頭鷹由於眼睛的不健全，而無法看見日光一樣。可是，魔鬼卻不能認知那困在真理之顛峯而本身是最顯明的天主;因為他們並沒有純潔的心，而只有用純潔的心才會看見天主。所以，他們也不能認知其他種種。",
+      "after": "此外，在性體中最顯明者，對天使來說，無論是善天使或惡天使，似乎最為顯明。其對我們不是最為顯明，是由於我們憑藉心象(phantasmata)來領會的理智不健全，就像貓頭鷹由於眼睛的不健全，而無法看見日光一樣。可是，魔鬼卻不能認知那固在真理之顛峯而本身是最顯明的天主；因為他們並沒有純潔的心，而只有用純潔的心才會看見天主。所以，他們也不能認知其他種種。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "困在真理",
+          "after": "固在真理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1104,
+        1105
+      ],
+      "before": "此外，按照奧斯定(《創世紀字義新探》卷四第二十二章)，天使主於有的萬物知識，分為兩種:即是早上的或清晨的與晚上的或傍晚的(cognitio matutina et vespertina)。可是早上的知識卻不適於魔鬼，因為他們不是在天主聖言內看見萬物;晚上的知識也不過於魔鬼，因為晚上的知識將已知之物歸結於讚頌造物主(因此，在「晚上」之後，出現「早晨」'正如《創世紀》第一章所說的)。所以，魔鬼不能有萬物的知識。",
+      "after": "此外，按照奧斯定(《創世紀字義新探》卷四第二十二章)，天使宜於有的萬物知識，分為兩種：即是早上的或清晨的與晚上的或傍晚的(cognitio matutina et vespertina)。可是早上的知識卻不適於魔鬼，因為他們不是在天主聖言內看見萬物；晚上的知識也不適於魔鬼，因為晚上的知識將已知之物歸結於讚頌造物主(因此，在「晚上」之後，出現「早晨」，正如《創世紀》第一章所說的)。所以，魔鬼不能有萬物的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天使主於有",
+          "after": "天使宜於有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不過於魔鬼",
+          "after": "不適於魔鬼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "早晨」'",
+          "after": "早晨」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1105
+      ],
+      "before": "此外，天使在自己的光景中認識了天圓的奧蹟，正如奧斯定在總胞紀字義新探》卷五第十九章所說的。可是魔鬼卻喪失了這種知識: 「因為如果他們認識了，絕不至於將光榮的主釘在十字架上」'正如《格林多前書》第二章8節所說的。所以，他們同樣也喪失7真理的其它知識。",
+      "after": "此外，天使在自己的光景中認識了天國的奧蹟，正如奧斯定在《創世紀字義新探》卷五第十九章所說的。可是魔鬼卻喪失了這種知識：「因為如果他們認識了，絕不至於將光榮的主釘在十字架上」，正如《格林多前書》第二章8節所說的。所以，他們同樣也喪失了真理的其它知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天圓",
+          "after": "天國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "總胞紀字義新探》",
+          "after": "《創世紀字義新探》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "十字架上」'",
+          "after": "十字架上」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喪失7",
+          "after": "喪失了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1105
+      ],
+      "before": "此外，無論誰認識真理，或是自然地或藉著本性認識它，如同我們認識第一原理一樣;或是由其他一位而認識，如同我們由向人學習而知道事物一樣;或是藉著長時期的經驗，如同我們由研究發見而知道事物一樣。可是，魔鬼卻不能藉著自己的本性而認識真理;因為善天使與惡天使並不相同，如同光明與黑暗並不相同一樣，正如奧斯定所說的(《天主之城》卷十一第十九及三十三章);可是一切卻藉由光而顯露出來，正如《厄弗所書》第五章13節所說的。同樣地，魔鬼既不能藉著天主的啟示，也不能藉著向善天使學習，而認識真理;因為「光明之於黑暗，哪能有什麼聯繫」'正如《格林多前書》第六章14節所說的。魔鬼也不能藉著長時期的經驗而認識真理，因為經驗出自感覺。所以，魔鬼毫無真理的知識可言。",
+      "after": "此外，無論誰認識真理，或是自然地或藉著本性認識它，如同我們認識第一原理一樣；或是由其他一位而認識，如同我們由向人學習而知道事物一樣；或是藉著長時期的經驗，如同我們由研究發見而知道事物一樣。可是，魔鬼卻不能藉著自己的本性而認識真理；因為善天使與惡天使並不相同，如同光明與黑暗並不相同一樣，正如奧斯定所說的(《天主之城》卷十一第十九及三十三章)；可是一切卻藉由光而顯露出來，正如《厄弗所書》第五章13節所說的。同樣地，魔鬼既不能藉著天主的啟示，也不能藉著向善天使學習，而認識真理；因為「光明之於黑暗，哪能有什麼聯繫」，正如《格林多前書》第六章14節所說的。魔鬼也不能藉著長時期的經驗而認識真理，因為經驗出自感覺。所以，魔鬼毫無真理的知識可言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聯繫」'",
+          "after": "聯繫」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1105
+      ],
+      "before": "狄奧尼修在《神名論》第四章說: 「我們說，原已賦予魔鬼的天使的恩惠，絲毫沒有改變，它們仍是完整的和極為貴顯的。」可是在這些本性恩惠中卻有真理的知識。所以，他們也還有某種真理的知識。",
+      "after": "狄奧尼修在《神名論》第四章說：「我們說，原己賦予魔鬼的天使的恩惠，絲毫沒有改變，它們仍是完整的和極為貴顯的。」可是在這些本性恩惠中卻有真理的知識。所以，他們也還有某種真理的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原已賦予",
+          "after": "原己賦予",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1106
+      ],
+      "before": "我解答如下:真理的知識共分兩種:一種是藉著本性而獲得的;另一種是藉著恩寵而獲得的。那藉著恩寵而獲得的真理知識，共分兩種:一是「純鑑賞性的知識」(cognitio specula-tiva)，例如:幾時將天主的一些奧說:啟示給某人或天使;二是那產生愛天主之情的「愛情知識」\\cognitio a伽iva)，這(最後一種知識)才真正屬於「智慧的恩賜」(donum Sapientiae)。\n魔鬼並沒有喪失，也沒有減少上述這三種知識中的第一種知識。因為這直接來白天使的本性，天使按照這種本性而是理智或靈智(mens);由於其實體的單純性(substantiae sim-plicitas)，不能從其本性剝奪什麼，使他們藉著喪失自然之資而受罰，如同人藉著截手或腳或其它此類肢體而受罰一樣。所以，狄奧尼修說天使的本性恩惠，仍然完整無缺。因此，魔鬼並沒有減少所有的本性知識。可是那藉著恩寵而在於鑑賞的第二種知識，並沒有完全喪失，卻有所減少。因為天主的這些奧祕，或藉著天使，或「藉著天主的德能所產生的現世事物」'只按照需要而啟示給他們，正如奧斯定在《天主之城》卷九第二十一章所說的。可是不像啟示給聖天使一樣，因為在天主聖言本身內啟示給他們的比較多，也更為明晰。可是魔鬼卻完全喪失了第三種知識，就像完全喪失7愛德一樣。",
+      "after": "我解答如下：真理的知識共分兩種：一種是藉著本性而獲得的；另一種是藉著恩寵而獲得的。那藉著恩寵而獲得的真理知識，共分兩種：一是「純鑑賞性的知識」(cognitio specula-tiva)，例如：幾時將天主的一些奧祕啟示給某人或天使；二是那產生愛天主之情的「愛情知識」(cognitio affectiva)，這(最後一種知識)才真正屬於「智慧的恩賜」(donum Sapientiae)。\n魔鬼並沒有喪失，也沒有減少上述這三種知識中的第一種知識。因為這直接來自天使的本性，天使按照這種本性而是理智或靈智(mens)；由於其實體的單純性(substantiae sim-plicitas)，不能從其本性剝奪什麼，使他們藉著喪失自然之資而受罰，如同人藉著截手或腳或其它此類肢體而受罰一樣。所以，狄奧尼修說天使的本性恩惠，仍然完整無缺。因此，魔鬼並沒有減少所有的本性知識。可是那藉著恩寵而在於鑑賞的第二種知識，並沒有完全喪失，卻有所減少。因為天主的這些奧祕，或藉著天使，或「藉著天主的德能所產生的現世事物」，只按照需要而啟示給他們，正如奧斯定在《天主之城》卷九第二十一章所說的。可是不像啟示給聖天使一樣，因為在天主聖言本身內啟示給他們的比較多，也更為明晰。可是魔鬼卻完全喪失了第三種知識，就像完全喪失了愛德一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧說:",
+          "after": "奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「愛情知識」\\cognitio a伽iva)",
+          "after": "「愛情知識」(cognitio affectiva)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現世事物」'",
+          "after": "現世事物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喪失7",
+          "after": "喪失了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1106
+      ],
+      "before": "幸福在於攀附那更高尚之物。可是分離實體按照自然或本性的秩序卻是在我們之上。因此，如果人認識分離實體，這多少能成為人的幸福;雖然他的完美幸福在於認識第一實體，即天主。可是分離實體之認識分離實體，卻是自然的或合於本性的，如向我們認識可感覺的性體一樣。因此，正如人的幸福並不在於認識可感覺的性體;同樣地，天使的幸福也不在於認識分離實體。",
+      "after": "幸福在於攀附那更高尚之物。可是分離實體按照自然或本性的秩序卻是在我們之上。因此，如果人認識分離實體，這多少能成為人的幸福；雖然他的完美幸福在於認識第一實體，即天主。可是分離實體之認識分離實體，卻是自然的或合於本性的，如同我們認識可感覺的性體一樣。因此，正如人的幸福並不在於認識可感覺的性體；同樣地，天使的幸福也不在於認識分離實體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如向",
+          "after": "如同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1106,
+        1107
+      ],
+      "before": "性體中最為顯明者，對我們卻是隱晦的，這也是因為它不成比例地超越我們的理智，不僅是因為我們的理智藉著心象來領會。可是，天主的實體不僅不成比例地超越人的理智，而且也超越天使的理智。因此，天使按照自己的本性，也不能認識天主的實體。可是他卻能藉著自己的本性，而比人獲得對天主更高深的知識，這是由於其理智的完美。魔鬼仍然有對天主的這種知識。因為雖然魔鬼芷沒有藉著恩寵的純潔，卻有本性的純潔，而後者足以使他們用本;生所宜於有的知識，去認識天主。",
+      "after": "性體中最為顯明者，對我們卻是隱晦的，這也是因為它不成比例地超越我們的理智，不僅是因為我們的理智藉著心象來領會。可是，天主的實體不僅不成比例地超越人的理智，而且也超越天使的理智。因此，天使按照自己的本性，也不能認識天主的實體。可是他卻能藉著自己的本性，而比人獲得對天主更高深的知識，這是由於其理智的完美。魔鬼仍然有對天主的這種知識。因為雖然魔鬼並沒有藉著恩寵的純潔，卻有本性的純潔，而後者足以使他們用本性所宜於有的知識，去認識天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "魔鬼芷沒有",
+          "after": "魔鬼並沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本;生",
+          "after": "本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1107
+      ],
+      "before": "受造物與天主之光的卓絕相比較，有如是黑暗。所以，受造物在自己的本性內所有的知識，稱為「晚上的或黃昏的」。因為傍晚或黃昏，臣近黑暗，卻也有微光;幾時完全沒有光，是為黑夜。準此，萬物在自己的本性內所有的知識，幾時歸結為讚頌造物主，像在吾天使內一樣，便多少分有天主的微光，可以稱為晚上的或黃昏的;可是，如果不歸向天主，像在魔鬼內一樣，那麼就不稱為晚上的或黃昏的，而稱為「黑夜的」。因此，《創世紀》第一章5節也說，天主將光明與黑暗分闊，並稱之為「黑夜」。",
+      "after": "受造物與天主之光的卓絕相比較，有如是黑暗。所以，受造物在自己的本性內所有的知識，稱為「晚上的或黃昏的」。因為傍晚或黃昏，臨近黑暗，卻也有微光；幾時完全沒有光，是為黑夜。準此，萬物在自己的本性內所有的知識，幾時歸結為讚頌造物主，像在善天使內一樣，便多少分有天主的微光，可以稱為晚上的或黃昏的；可是，如果不歸向天主，像在魔鬼內一樣，那麼就不稱為晚上的或黃昏的，而稱為「黑夜的」。因此，《創世紀》第一章5節也說，天主將光明與黑暗分開，並稱之為「黑夜」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "臣近黑暗",
+          "after": "臨近黑暗",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吾天使",
+          "after": "善天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1107
+      ],
+      "before": "藉著基督而實現的天圓的奧蹟，一切的天使從起初都多少有所知悉。此後，其中大多數進而因享見天主聖言成為真福，而魔鬼從未有此享見。可是並不是一切的天使都完善地認知，也不是都相等地認知。因此，當基督還生活在世的時候，魔鬼遠更不能完善地認知天主降生成人的奧蹟。「因為天主並沒有告知他們，如同告知分有並榮享天主聖言之永恆的聖天使一樣，而好像是應該藉著一些所產生的現世事物，隱示他們，以使他們驚懼」'正如奧斯定所說的(《天主之城》卷九第二十一章)。如果魔鬼清楚而確實地認出祂何問恥是天主聖子，以及祂受苦受難的功效，那麼，他們絕不至於處心積慮地將光榮的主釘在十字架上。",
+      "after": "藉著基督而實現的天國的奧蹟，一切的天使從起初都多少有所知悉。此後，其中大多數進而因享見天主聖言成為真福，而魔鬼從未有此享見。可是並不是一切的天使都完善地認知，也不是都相等地認知。因此，當基督還生活在世的時候，魔鬼遠更不能完善地認知天主降生成人的奧蹟。「因為天主並沒有告知他們，如同告知分有並榮享天主聖言之永恆的聖天使一樣，而好像是應該藉著一些所產生的現世事物，隱示他們，以使他們驚懼」，正如奧斯定所說的(《天主之城》卷九第二十一章)。如果魔鬼清楚而確實地認出祂(耶穌)是天主聖子，以及祂受苦受難的功效，那麼，他們絕不至於處心積慮地將光榮的主釘在十字架上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天圓",
+          "after": "天國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "驚懼」'",
+          "after": "驚懼」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祂何問恥是",
+          "after": "祂(耶穌)是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1107,
+        1108
+      ],
+      "before": "魔鬼以三種方式認識真理。一種方式，藉著自己的精微本性。因為雖然魔鬼因喪失恩寵的光而成為黑暗，卻因理智本性的光而為光明。第二種方式，藉著來自聖天f吏的啟示。魔鬼與聖天使雖然缺少相同的意志，可是共有相似的理智本性，就這一方面來說，魔鬼能領會其他天使所顯示的。第三種方式，藉著長時期的經驗而認識。並不是有如由感覺而獲得知識，而是這樣，即幾時藉著許多個別的事物，構成魔鬼自然具備的理象(可理解之像)的肖像或近似，他們就藉此認識一些事物如同現在的事物，而他們過去並沒有預知這些事物如同未來的事物，正如第五十七題第三節釋疑3.論天使的知識所說的。",
+      "after": "魔鬼以三種方式認識真理。一種方式，藉著自己的精微本性。因為雖然魔鬼因喪失恩寵的光而成為黑暗，卻因理智本性的光而為光明。第二種方式，藉著來自聖天使的啟示。魔鬼與聖天使雖然缺少相同的意志，可是共有相似的理智本性，就這一方面來說，魔鬼能領會其他天使所顯示的。第三種方式，藉著長時期的經驗而認識。並不是有如由感覺而獲得知識，而是這樣，即幾時藉著許多個別的事物，構成魔鬼自然具備的理象(可理解之像)的肖像或近似，他們就藉此認識一些事物如同現在的事物，而他們過去並沒有預知這些事物如同未來的事物，正如第五十七題第三節釋疑3.論天使的知識所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聖天f吏",
+          "after": "聖天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "魔鬼的意志是否固執於惡",
+      "after": "魔鬼的意志是否固執於惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "有關第二節，我們討論如下;",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下;",
+          "after": "如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "魔鬼的意志似乎並不固執於惡。因為:",
+      "after": "魔鬼的意志似乎並不固執於惡。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "自由意志屬於理智性體的本性，而魔鬼仍然有這種本性，正如上文第一節所說的。可是自由意志卻本來而首要地指向善，而非指向惡。所以，魔鬼的意志並不如此固執於惡，以致再不能回頭向善。",
+      "after": "自由意志屬於理智性體的本性，而魔鬼仍然有這種本性，正如上文第一節所說的。可是自由意志卻本來而首要地指向善，而非指向惡。所以，魔鬼的意志並不如此固執於惡，以致再不能回頭向善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "此外，天主的無限仁慈大於魔鬼的有限邪惡。可是，除非因天主的仁慈，沒有誰由罪過之惡而回歸正義之善。所以，魔鬼也能由罪惡的狀態回歸到正義的狀態。",
+      "after": "此外，天主的無限仁慈大於魔鬼的有限邪惡。可是，除非因天主的仁慈，沒有誰由罪過之惡而回歸正義之善。所以，魔鬼也能由罪惡的狀態回歸到正義的狀態。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1108
+      ],
+      "before": "此外，如果魔鬼有固執於惡的意志，那麼最可能是有固執於其所犯之罪的意志。可是他們現在不再持有那罪，即驕傲。因為動機，即是貪圖高位，現在不復存在了。所以，魔鬼並非固執於惡。",
+      "after": "此外，如果魔鬼有固執於惡的意志，那麼最可能是有固執於其所犯之罪的意志。可是他們現在不再持有那罪，即驕傲。因為動機，即是貪圖高位，現在不復存在了。所以，魔鬼並非固執於惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1108,
+        1109
+      ],
+      "before": "此外，教宗額我略一世《倫理叢談》卷四第三章說，人能藉著另外一人而贖罪，因為他藉著另外一人而墮落。可是低級魔鬼卻藉著為首的魔鬼而墮落，正如先前第六十三題第八節所說的。所以，他們的墮落能藉著另外一位前贖罪。所以，他們並非固執於惡=",
+      "after": "此外，教宗額我略一世《倫理叢談》卷四第三章說，人能藉著另外一人而贖罪，因為他藉著另外一人而墮落。可是低級魔鬼卻藉著為首的魔鬼而墮落，正如先前第六十三題第八節所說的。所以，他們的墮落能藉著另外一位而贖罪。所以，他們並非固執於惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另外一位前贖罪",
+          "after": "另外一位而贖罪",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "於惡=",
+          "after": "於惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.arg5",
+      "article": 2,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1109
+      ],
+      "before": "此外，幾主孰於惡者，絕不會行善工。可是魔鬼卻行了一些善工，因為有鬼承認真理而對基督說: 「我知道，你是天主的聖者」(《馬爾谷福音》第一章24節); 「連魔鬼也信，且怕得打顫」'正主口《雅各伯書》第二章19節所說的;狄奧尼修在《神名論》第四章也說，「他們慾望善與至善，即存在、生活與理解」。所以，他們並非固執於惡。",
+      "after": "此外，凡固執於惡者，絕不會行善工。可是魔鬼卻行了一些善工，因為有鬼承認真理而對基督說：「我知道，你是天主的聖者」(《馬爾谷福音》第一章24節)； 「連魔鬼也信，且怕得打顫」，正如《雅各伯書》第二章19節所說的；狄奧尼修在《神名論》第四章也說，「他們慾望善與至善，即存在、生活與理解」。所以，他們並非固執於惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幾主孰於惡者",
+          "after": "凡固執於惡者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "打顫」'",
+          "after": "打顫」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正主口",
+          "after": "正如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1109
+      ],
+      "before": "《聖詠》第七十三篇23節說: 「那些憎恨你者的驕傲，經常不斷地上升。」這句意指魔鬼。所以，他們堅定固執於惡。魔",
+      "after": "《聖詠》第七十三篇23節說：「那些憎恨你者的驕傲，經常不斷地上升。」這句意指魔鬼。所以，他們堅定固執於惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "於惡。魔",
+          "after": "於惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1109,
+        1110
+      ],
+      "before": "我解答如下:奧幸IJí晨的立場是:受造物的一切意志，由於有選擇能力的自主或自由，都能轉向善或轉向惡，只有基督的靈魂例外，這是由於其與天主聖言的結合(《原則論》卷一第六章)。可是這種主張卻從聖天使和聖人們身上，除去真福的真理或真實性，因為永恆的固定不變屬於真實真福的本質。因此，稱為永生(vita aeterna)。此外，也相反聖經的權威，因為聖經宣稱魔鬼和惡人「要進入水罰」'而義人卻「要進入永生」(《瑪竇福音》第二十五章26節)。因此，這種主張應該視為錯誤的而予措棄。而應該按照公教信德，堅持善天使的意志堅定於善，魔鬼的意志則固執於惡。\n可是這種固執於惡的原因，不應該取之於罪的重大，而應該取之於本性境界的情況。因為「墮落之於天使，有如死亡之於人」'正如大馬士革的若望《論正統信仰》卷二第四章所說的。可是顯然地，人的一切死罪，無論是大是小，在死亡以前，都是.可以得赦免的;可是在死亡以後，卻不得赦兔，而永恆地存在著。\n所以，為探究這種固執於惡的原因，應該注意:一切物的嗜慾能力，都與認知的能力相稱，前者為後者所推動，有如可動者為推動者所推動。因為感覺嗜慾是針對特殊的或個別的善，可是意志卻是針對普遍的善，正如第五十九題第一節所說的;就像認知的覺官是針對特殊或個別物，而理智是針對普遍物一樣。可是天使的認知與人的認知，卻有此一分別，即天使是藉著理智堅定不搖地認知，如同我們堅定不搖地認知第一原理一樣，悟性就是針對這些原理;可是人卻是藉著理性不確定的或可動搖地認知，由這一物而推論到那一物，兼有進行至IJ二對立者的道路。因此，人的意志也是不確定地或可動搖地依附某一物，好像是也可再離開它，而去依附相反之物;可是天使之意志的依附，卻是穩固而堅定不搖的。所以，如果所注意的是依附之前的意志，那麼意志就能自由地依附這一個，也能依附那與其相反者(這是針對那些非自然或生來就願意者);可是在已經依附以後，就會堅定不搖地依附。因此，習慣說:人的自由意志之可屈向於相反的兩方，「既是在選擇之前，也是在選擇之後」;可是天使的自由意志之可屈向於相反的兩方，「是在選擇之前，而非在選擇之後」。所以，那些常常依附正義的善天使，堅定於正義;可是那些犯罪的惡天使卻固執於罪。關於接受永罰之人的固執於惡，下面將予討論(參看:補編第九十八題第一及第二節)。",
+      "after": "我解答如下：奧利振的立場是：受造物的一切意志，由於有選擇能力的自主或自由，都能轉向善或轉向惡，只有基督的靈魂例外，這是由於其與天主聖言的結合(《原則論》卷一第六章)。可是這種主張卻從聖天使和聖人們身上，除去真福的真理或真實性，因為永恆的固定不變屬於真實真福的本質。因此，稱為永生(vita aeterna)。此外，也相反聖經的權威，因為聖經宣稱魔鬼和惡人「要進入永罰」，而義人卻「要進入永生」(《瑪竇福音》第二十五章26節)。因此，這種主張應該視為錯誤的而予摒棄。而應該按照公教信德，堅持善天使的意志堅定於善，魔鬼的意志則固執於惡。\n可是這種固執於惡的原因，不應該取之於罪的重大，而應該取之於本性境界的情況。因為「墮落之於天使，有如死亡之於人」，正如大馬士革的若望《論正統信仰》卷二第四章所說的。可是顯然地，人的一切死罪，無論是大是小，在死亡以前，都是可以得赦免的；可是在死亡以後，卻不得赦免，而永恆地存在著。\n所以，為探究這種固執於惡的原因，應該注意：一切物的嗜慾能力，都與認知的能力相稱，前者為後者所推動，有如可動者為推動者所推動。因為感覺嗜慾是針對特殊的或個別的善，可是意志卻是針對普遍的善，正如第五十九題第一節所說的；就像認知的覺官是針對特殊或個別物，而理智是針對普遍物一樣。可是天使的認知與人的認知，卻有此一分別，即天使是藉著理智堅定不搖地認知，如同我們堅定不搖地認知第一原理一樣，悟性就是針對這些原理；可是人卻是藉著理性不確定的或可動搖地認知，由這一物而推論到那一物，兼有進行到二對立者的道路。因此，人的意志也是不確定地或可動搖地依附某一物，好像是也可再離開它，而去依附相反之物；可是天使之意志的依附，卻是穩固而堅定不搖的。所以，如果所注意的是依附之前的意志，那麼意志就能自由地依附這一個，也能依附那與其相反者(這是針對那些非自然或生來就願意者)；可是在已經依附以後，就會堅定不搖地依附。因此，習慣說：人的自由意志之可屈向於相反的兩方，「既是在選擇之前，也是在選擇之後」；可是天使的自由意志之可屈向於相反的兩方，「是在選擇之前，而非在選擇之後」。所以，那些常常依附正義的善天使，堅定於正義；可是那些犯罪的惡天使卻固執於罪。關於接受永罰之人的固執於惡，下面將予討論(參看：補編第九十八題第一及第二節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧幸IJí晨",
+          "after": "奧利振",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "水罰",
+          "after": "永罰",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "永罰」'",
+          "after": "永罰」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "措棄",
+          "after": "摒棄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之於人」'",
+          "after": "之於人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "都是.可以",
+          "after": "都是可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "赦兔",
+          "after": "赦免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至IJ二",
+          "after": "到二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1110
+      ],
+      "before": "善天使與惡天使都有自由意志，卻各按照自己性體質方式與情況，正如上文正解所說的。",
+      "after": "善天使與惡天使都有自由意志，卻各按照自己性體的方式與情況，正如上文正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "性體質方式",
+          "after": "性體的方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1110
+      ],
+      "before": "天主的仁慈拯救悔罪者。可是那些不能悔罪者，卻巨堅定不搖地依附於惡，而未藉著天主的仁慈獲得拯救。",
+      "after": "天主的仁慈拯救悔罪者。可是那些不能悔罪者，卻因堅定不搖地依附於惡，而未藉著天主的仁慈獲得拯救。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卻巨堅定",
+          "after": "卻因堅定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1110,
+        1111
+      ],
+      "before": "魔鬼最初所犯的罪，在嗜慾方面，仍然存在魔鬼身上，雖然他們不再相信自己可以得逞。就如一人相信自己有能力殺人，也願意這樣做，後來他喪失了殺人的能力;雖然如此，他卻仍然能有殺人的意願，假設他有能力做，那麼他就會願意殺人，無論是過去或現在。",
+      "after": "魔鬼最初所犯的罪，在嗜慾方面，仍然存在魔鬼身上，雖然他們不再相信自己可以得逞。就如一人相信自己有能力殺人，也願意這樣做，後來他喪失了殺人的能力；雖然如此，他卻仍然能有殺人的意願，假設他有能力做，那麼他就會願意殺人，無論是過去或現在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "因為人受別人引誘而犯罪，並不是他的罪過可得赦免的整個原因。因此，這種論證不能成立。",
+      "after": "因為人受別人引誘而犯罪，並不是他的罪過可得赦免的整個原因。因此，這種論證不能成立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a002.ad5",
+      "article": 2,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "魔鬼的行為共分為兩種。有些行為出自他們的審思意志，它們纔可以稱為魔鬼的真正行為。魔鬼的這些行為常常是惡的，因為雖然魔鬼有時行善(事)，卻行得或做得不善;例如，幾時他說實話以欺騙人，以及幾時他們不是甘心情願地相信和明認，而是迫於明顯的事實，不得不如此。魔鬼的另一種行為是本性的或自然的，這種行為可能是善的，並證明其本性之善。可是他們為了行惡，也妄用這種善行。",
+      "after": "魔鬼的行為共分為兩種。有些行為出自他們的審思意志，它們纔可以稱為魔鬼的真正行為。魔鬼的這些行為常常是惡的，因為雖然魔鬼有時行善(事)，卻行得或做得不善；例如，幾時他說實話以欺騙人，以及幾時他們不是甘心情願地相信和明認，而是迫於明顯的事實，不得不如此。魔鬼的另一種行為是本性的或自然的，這種行為可能是善的，並證明其本性之善。可是他們為了行惡，也妄用這種善行。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "魔鬼是否有痛苦",
+      "after": "魔鬼是否有痛苦",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "魔鬼似乎沒有痛苦。因為:",
+      "after": "魔鬼似乎沒有痛苦。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "i.由於痛苦與喜樂是相反的，它們不可能同時屬於相同的主體。可是魔鬼卻有喜樂;因為奧斯定在《創世紀釋義一兼駁摩尼教派》卷二第十七章說:「魔鬼有權管制那些輕視天主誠命的人們，並因如此不祥的權力而感到喜樂。」所以，魔鬼並沒有痛苦。",
+      "after": "由於痛苦與喜樂是相反的，它們不可能同時屬於相同的主體。可是魔鬼卻有喜樂；因為奧斯定在《創世紀釋義——兼駁摩尼教派》卷二第十七章說：「魔鬼有權管制那些輕視天主誡命的人們，並因如此不祥的權力而感到喜樂。」所以，魔鬼並沒有痛苦。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.由於",
+          "after": "由於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋義一兼",
+          "after": "釋義——兼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "誠命",
+          "after": "誡命",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "此外，痛苦是畏懼的原因。因為我們所畏懼的是未來的事，及至這些事成為目前的，我們就感到痛苦。可是魔鬼卻沒有畏懼，按照《約伯傳》第四十一章24節所說的:「他受造而一無所懼。」所以，魔鬼並沒有痛苦。",
+      "after": "此外，痛苦是畏懼的原因。因為我們所畏懼的是未來的事，及至這些事成為目前的，我們就感到痛苦。可是魔鬼卻沒有畏懼，按照《約伯傳》第四十一章24節所說的：「他受造而一無所懼。」所以，魔鬼並沒有痛苦。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1111
+      ],
+      "before": "此外，因惡而感到痛苦是善。可是魔鬼卻不可能有善行。所以，魔鬼不可能感到痛苦，至少不可能因罪惡而感到痛苦，因為這屬於良心的蛀蝕或歉疚。",
+      "after": "此外，因惡而感到痛苦是善。可是魔鬼卻不可能有善行。所以，魔鬼不可能感到痛苦，至少不可能因罪惡而感到痛苦，因為這屬於良心的蛀蝕或歉疚。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1112
+      ],
+      "before": "魔鬼的罪大於人的罪。可是人卻為了喜歡罪而被罰受苦，按照《默示錄》第十八章7節所說的:「他以前怎樣自誇自耀，奢侈享樂，你們也就怎樣加給他痛苦與哀傷。」所以，那最自誇自躍的魔鬼，更應該受罰而感到痛苦的哀傷。",
+      "after": "魔鬼的罪大於人的罪。可是人卻為了喜歡罪而被罰受苦，按照《默示錄》第十八章7節所說的：「他以前怎樣自誇自耀，奢侈享樂，你們也就怎樣加給他痛苦與哀傷。」所以，那最自誇自耀的魔鬼，更應該受罰而感到痛苦的哀傷。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自誇自躍",
+          "after": "自誇自耀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1112
+      ],
+      "before": "我解答如下:畏懼、痛苦和喜樂等諸如此類之物，就其為情(passio)來說，魔鬼不可能擁有它們;因為這些情都是感覺嗜慾所固有的，而感覺嗜慾是身體器官的能力。可是就它們指稱意志的單純行為來說，魔鬼可能擁有它們。並且應該說，魔鬼有痛苦。因為痛苦，就它意指意志的單純行為來說，無非就是意志對存在者或不存在者的反抗。可是顯然地，魔鬼寧願許多存在者不存在，以及不存在者存在;因為他們由於嫉妒，而寧願那些得救者受永罰。因此，應該說，他們有痛苦，尤其因為違背意願屬於懲罰的本質。他們也被剝奪了本性所欲求的真褔;以及他們的邪惡意志，也在許多方面受到了抑制。",
+      "after": "我解答如下：畏懼、痛苦和喜樂等諸如此類之物，就其為情(passio)來說，魔鬼不可能擁有它們；因為這些情都是感覺嗜慾所固有的，而感覺嗜慾是身體器官的能力。可是就它們指稱意志的單純行為來說，魔鬼可能擁有它們。並且應該說，魔鬼有痛苦。因為痛苦，就它意指意志的單純行為來說，無非就是意志對存在者或不存在者的反抗。可是顯然地，魔鬼寧願許多存在者不存在，以及不存在者存在；因為他們由於嫉妒，而寧願那些得救者受永罰。因此，應該說，他們有痛苦，尤其因為違背意願屬於懲罰的本質。他們也被剝奪了本性所欲求的真福；以及他們的邪惡意志，也在許多方面受到了抑制。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1112
+      ],
+      "before": "關於同一事物的痛苦和喜樂，彼此是相反的;關於不同的事物則彼此不相反。因此，沒有什麼阻止一個人在一事物上痛苦，而在另一事物上喜樂，尤其就痛苦與喜樂意指意志的單純行為來說，更是如此。因為不僅在不相同的事物上，而且在唯一而相同的事物上，也可能有的是我們所願意的，有的是我們所不願意的。",
+      "after": "關於同一事物的痛苦和喜樂，彼此是相反的；關於不同的事物則彼此不相反。因此，沒有什麼阻止一個人在一事物上痛苦，而在另一事物上喜樂，尤其就痛苦與喜樂意指意志的單純行為來說，更是如此。因為不僅在不相同的事物上，而且在唯一而相同的事物上，也可能有的是我們所願意的，有的是我們所不願意的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1112
+      ],
+      "before": "正如魔鬼對現在的事有痛苦;同樣地，魔鬼對未來的事也有畏懼。至於說「他一無畏懼」'這意指抑制犯罪的對天主的畏懼。因為另一處記載說，「連魔鬼也信，且怕得打顫」(《雅各伯書》第二章19節)。",
+      "after": "正如魔鬼對現在的事有痛苦；同樣地，魔鬼對未來的事也有畏懼。至於說「他一無畏懼」，這意指抑制犯罪的對天主的畏懼。因為另一處記載說，「連魔鬼也信，且怕得打顫」(《雅各伯書》第二章19節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "他一無畏懼」'",
+          "after": "他一無畏懼」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1112,
+        1113
+      ],
+      "before": "因罪之惡，而且為了罪之惡的緣故而感到痛苦，這證明意志之善，與此善相反的是罪之惡。可是因受罰或罰之惡，或因罪之惡，卻是為了(因罪)受罰的緣故而感到痛苦，這證明本性之苦，與此善相反的是罰之惡。因此，奧斯定在《天主之城》卷十九第十三章說:「因在受刑中所喪失的善而痛苦，這是善良本性的佐詣。」",
+      "after": "因罪之惡，而且為了罪之惡的緣故而感到痛苦，這證明意志之善，與此善相反的是罪之惡。可是因受罰或罰之惡，或因罪之惡，卻是為了(因罪)受罰的緣故而感到痛苦，這證明本性之善，與此善相反的是罰之惡。因此，奧斯定在《天主之城》卷十九第十三章說：「因在受刑中所喪失的善而痛苦，這是善良本性的佐證。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本性之苦",
+          "after": "本性之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "佐詣",
+          "after": "佐證",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "此一天空是否是魔鬼受罰的地方",
+      "after": "此一天空是否是魔鬼受罰的地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "我們的此一天空，似乎不是魔鬼受罰的地方。因為:",
+      "after": "我們的此一天空，似乎不是魔鬼受罰的地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "魔鬼是精神的性體。可是精神的性體卻不受地方的影響。所以，無所謂魔鬼受罰的地方。",
+      "after": "魔鬼是精神的性體。可是精神的性體卻不受地方的影響。所以，無所謂魔鬼受罰的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "此外，人的罪過並不大於魔鬼的罪過。可是人受罰的地方卻是地獄。所以，魔鬼遠更應該如此。所以，魔鬼受罰的地方，並不是昏暗的天空。",
+      "after": "此外，人的罪過並不大於魔鬼的罪過。可是人受罰的地方卻是地獄。所以，魔鬼遠更應該如此。所以，魔鬼受罰的地方，並不是昏暗的天空。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "此外，魔鬼受火刑之罰。可是昏暗的天空中卻沒有火。所以，昏暗的天空並不是魔鬼受罰的地方。",
+      "after": "此外，魔鬼受火刑之罰。可是昏暗的天空中卻沒有火。所以，昏暗的天空並不是魔鬼受罰的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1113
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷三第十章說:「直到公審判之日，昏暗的天空有如是魔鬼的監獄。」",
+      "after": "奧斯定在《創世紀字義新探》卷三第十章說：「直到公審判之日，昏暗的天空有如是魔鬼的監獄。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1113,
+        1114
+      ],
+      "before": "我解答如下:天使按照本性處於天主與人的中間。可是天主的上智卻如此安排，使高級物照顧低級物的利益。可是天主的上智照顧人的利益，卻分為兩種方式:一種方式是直接地，即是引人行善，也引人戒惡，適合由善天使來完成這種任務。另一種方式是間接地，即是使人藉著遭受敵對者的攻擊，而接受考驗或磨練。惡天使則宜於協助照顧人的這種利益，以免他們在犯罪以後，完全喪失自然秩序方面的用處。所以，魔鬼受罰的地方應該有兩處:一是鑑於自己的罪過，這一地方是地獄;二是鑑於對人的考驗或試探，如此則昏暗的天空應該歸於魔鬼。\n可是，天主照顧人類的得救是直到公審判之白，因此，直到那時，天{吏的協助和魔鬼的試探將繼續不斷。因此，直到那時，有善天使被派遣到我們這裡來，也有魔鬼在昏暗的天空中試探我們。雖然有些魔鬼現在也在地獄中，磨難那些他們所引誘作惡的人們一如同時善天使同聖人一起住在天上一樣;可是在公審判以後，所有的作惡者，人以及天使，都將在地獄中一可是行善者卻都將在天上。",
+      "after": "我解答如下：天使按照本性處於天主與人的中間。可是天主的上智卻如此安排，使高級物照顧低級物的利益。可是天主的上智照顧人的利益，卻分為兩種方式：一種方式是直接地，即是引人行善，也引人戒惡，適合由善天使來完成這種任務。另一種方式是間接地，即是使人藉著遭受敵對者的攻擊，而接受考驗或磨練。惡天使則宜於協助照顧人的這種利益，以免他們在犯罪以後，完全喪失自然秩序方面的用處。所以，魔鬼受罰的地方應該有兩處：一是鑑於自己的罪過，這一地方是地獄；二是鑑於對人的考驗或試探，如此則昏暗的天空應該歸於魔鬼。\n可是，天主照顧人類的得救是直到公審判之日，因此，直到那時，天使的協助和魔鬼的試探將繼續不斷。因此，直到那時，有善天使被派遣到我們這裡來，也有魔鬼在昏暗的天空中試探我們。雖然有些魔鬼現在也在地獄中，磨難那些他們所引誘作惡的人們——如同有些善天使同聖人一起住在天上一樣；可是在公審判以後，所有的作惡者，人以及天使，都將在地獄中——可是行善者卻都將在天上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "公審判之白",
+          "after": "公審判之日",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天{吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人們一如同時善天使",
+          "after": "人們——如同有些善天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地獄中一可是",
+          "after": "地獄中——可是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1114
+      ],
+      "before": "地方對天使或靈魂成為刑罰，並不是有如藉著改變本性而予以影響，而是有如藉著帶給他們憂傷而予以影響。因為天使或靈魂體察到自己住在不合自己意志的地方。",
+      "after": "地方對天使或靈魂成為刑罰，並不是有如藉著改變本性而予以影響，而是有如藉著帶給他們憂傷而予以影響。因為天使或靈魂體察到自己住在不合自己意志的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q064.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1114
+      ],
+      "before": "按照自然的秩序，一個靈魂並不在另一個靈魂之上，如同按照自然的秩序，魔鬼在人之上一樣。因此，不能相提並主A iiflll\nU",
+      "after": "按照自然的秩序，一個靈魂並不在另一個靈魂之上，如同按照自然的秩序，魔鬼在人之上一樣。因此，不能相提並論。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相提並主A iiflll\nU",
+          "after": "相提並論。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q064.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1114,
+        1115
+      ],
+      "before": "有些人說，魔鬼和人的覺苦(poena sensibilis)將延緩至公審判之日;同樣地﹒聖人們的真褔也將延緩至公審判之日一這是錯誤的，也相反宗徒在《格林多後書》第五章1節所說的道理: 「如果我們這地上帳棚式的寓所拆毀了，我們必由天主獲得一所房舍。」另有些人，雖然關於靈魂不承認此說，但關於魔鬼卻予以接納。可是更好應該說，關於惡的靈魂與惡的天使，應該有相同的審斷，正如關於善的靈魂和苦的天使，有相同的審斷一樣。\n因此，應該說，正如天上的地方屬於天使的光榮，可是當他們來到我們這裡時，他們的光榮並沒有減少，因為他們知道那個地方是屬於自己的(這正好像我們說，當主教並末實際坐在自己的寶座上時，他的光榮並沒有減少);同樣地，也應該說，雖然當魔鬼留在這昏暗的天空中時，並沒有實際為地獄的火所束縛，可是由於他們自知那束縛是屬於自己的，他們的刑罰並沒有減少。因此，關於《雅各伯書》第三章6節，有一「註解」(拉T通行本註解)說: 「魔鬼不論走向何處，都隨身帶著地獄的火。」這也不相反此一點，即「魔鬼求耶穌，不要命令他們到深淵中去」'正如《路加福音》第八章31節所說的;因為他們視被趕出可能為害於人的地方為自己是懲罰，而懇求這一件事。因此，《馬爾谷福音》第五章10節說: 「他再三懇求耶穌，不要驅逐他們離開此地。」",
+      "after": "有些人說，魔鬼和人的覺苦(poena sensibilis)將延緩至公審判之日；同樣地，聖人們的真福也將延緩至公審判之日——這是錯誤的，也相反宗徒在《格林多後書》第五章1節所說的道理：「如果我們這地上帳棚式的寓所拆毀了，我們必由天主獲得一所房舍。」另有些人，雖然關於靈魂不承認此說，但關於魔鬼卻予以接納。可是更好應該說，關於惡的靈魂與惡的天使，應該有相同的審斷，正如關於善的靈魂和善的天使，有相同的審斷一樣。\n因此，應該說，正如天上的地方屬於天使的光榮，可是當他們來到我們這裡時，他們的光榮並沒有減少，因為他們知道那個地方是屬於自己的(這正好像我們說，當主教並未實際坐在自己的寶座上時，他的光榮並沒有減少)；同樣地，也應該說，雖然當魔鬼留在這昏暗的天空中時，並沒有實際為地獄的火所束縛，可是由於他們自知那束縛是屬於自己的，他們的刑罰並沒有減少。因此，關於《雅各伯書》第三章6節，有一「註解」(拉丁通行本註解)說：「魔鬼不論走向何處，都隨身帶著地獄的火。」這也不相反此一點，即「魔鬼求耶穌，不要命令他們到深淵中去」，正如《路加福音》第八章31節所說的；因為他們視被趕出可能為害於人的地方為自己是懲罰，而懇求這一件事。因此，《馬爾谷福音》第五章10節說：「他再三懇求耶穌，不要驅逐他們離開此地。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同樣地﹒",
+          "after": "同樣地，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "公審判之日一這",
+          "after": "公審判之日——這",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "苦的天使",
+          "after": "善的天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並末",
+          "after": "並未",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉T",
+          "after": "拉丁",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "深淵中去」'",
+          "after": "深淵中去」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
