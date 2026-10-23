@@ -1,0 +1,1353 @@
+{
+  "schema_version": 1,
+  "batch": "I-q026",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "9702fca76adf32effc7694d3406b4f9544be4074",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q026",
+    "title": "論天主的真福",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      613,
+      614,
+      615,
+      616,
+      617,
+      618
+    ],
+    "printed_pages": [
+      397,
+      402
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 40,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 7
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q26.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q26.json": "e868f4fd87d9eff7d69bf86de1aadf5290e3af2166583da673d7e9517d969070",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q026.a003.arg1",
+      "pdf_file_page": 615,
+      "text": "第二節己證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q026.a004.sed_contra",
+      "pdf_file_page": 617,
+      "text": "第二節己證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q026.a004.ad2",
+      "pdf_file_page": 618,
+      "text": "諒己足夠",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q026.a002.sed_contra",
+      "pdf_file_page": 615,
+      "text": "酬勞」《聖詠講述》第九十篇第二講)",
+      "status": "suspected_source_print_error",
+      "action": "原书引文后的书目信息缺少左括号而有右括号，保留底本并列为疑点，未自行补配。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q026.prologue",
+      "description": "题引言开头混入的题号识别残片及孤立「呵」删除；其所在行的原换行转义保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部6页逐段对照；真福字形、第二节标题、圣经引文「万王之王」及《伦理丛说》书名依原页恢复，标题变动同步目录。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q026.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "第\n~大題\n箭\n一J眼搞\nH呵凹一\n討論了有關天主本質本體呵之唯一或一體的種種之後，最終要討論的是天主的真褔(beatitudo)。\n呵\n關於這一點，可以提出四個問題:\n一、是否應該把真福歸於天主。\n二、稱天主為真福係根據什麼，是不是根據理智的行動。\n三、天主是不是每一有真福者之真福本身或本體。\n四、在天主的真福內是否統括所有的真福或幸福。",
+      "after": "\n\n\n\n\n討論了有關天主本質本體之唯一或一體的種種之後，最終要討論的是天主的真福(beatitudo)。\n\n關於這一點，可以提出四個問題：\n一、是否應該把真福歸於天主。\n二、稱天主為真福係根據什麼，是不是根據理智的行動。\n三、天主是不是每一有真福者之真福本身或本體。\n四、在天主的真福內是否統括所有的真福或幸福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第\n~大題\n箭\n一J眼搞\nH呵凹一\n",
+          "after": "\n\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本體呵之",
+          "after": "本體之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\n呵\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "是否應該把真褔歸於天主",
+      "after": "是否應該把真福歸於天主",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "貫褔似乎不適宜於天主。因為:",
+      "after": "真福似乎不適宜於天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貫褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "按波其武在《哲學的慰藉》卷三第二章所說的，真褔「是聚集一切的書而形成的完美境界」。而在天主內卻不可能有聚集，就如不能有組合一樣。所以，真福不適宜於天主。",
+      "after": "按波其武在《哲學的慰藉》卷三第二章所說的，真福「是聚集一切的善而形成的完美境界」。而在天主內卻不可能有聚集，就如不能有組合一樣。所以，真福不適宜於天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一切的書",
+          "after": "一切的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "此外，按哲學家在《倫理學》卷一第九章所說的，員褔或幸褔是「德行的報酬」 0而報酬就如功勞一樣，並不適宜用於天主。所以﹒真福也不適宜用於天主。",
+      "after": "此外，按哲學家在《倫理學》卷一第九章所說的，真福或幸福是「德行的報酬」。而報酬就如功勞一樣，並不適宜用於天主。所以，真福也不適宜用於天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "報酬」 0",
+          "after": "報酬」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        613
+      ],
+      "before": "宗徒在《弟茂德前書》第六章的節卻說:「在預定的時期使人看見這顯現(耶穌基督的顯現)的，是那真福，唯一全能者，萬主之主﹒萬主之主。」",
+      "after": "宗徒在《弟茂德前書》第六章15節卻說：「在預定的時期使人看見這顯現(耶穌基督的顯現)的，是那真福，唯一全能者，萬王之王，萬主之主。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第六章的節",
+          "after": "第六章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "萬主之主﹒萬主之主",
+          "after": "萬王之王，萬主之主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        613,
+        614
+      ],
+      "before": "我解答如下:最應該把真褔歸於天主。因為真褔一名的意義，無非就是有理智之性體的完善或完美的善;這性體體認在自己所有之善上的自足，能控制自己遭遇的順或逆，而且是自己活動的主宰。這兩項一一即完善與有理智，均極度地屬於天主。所以，真褔最適宜用於天王。",
+      "after": "我解答如下：最應該把真福歸於天主。因為真福一名的意義，無非就是有理智之性體的完善或完美的善；這性體體認在自己所有之善上的自足，能控制自己遭遇的順或逆，而且是自己活動的主宰。這兩項——即完善與有理智，均極度地屬於天主。所以，真福最適宜用於天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天王",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "善之聚集，在天主內不是以組合的方式，而是以單純的方式;因為如第四題第二節釋疑1及第十三題第四節所說過的，在受造物內是眾多者，卻是單附卜統地預先存在於天主內。",
+      "after": "善之聚集，在天主內不是以組合的方式，而是以單純的方式；因為如第四題第二節釋疑1.及第十三題第四節所說過的，在受造物內是眾多者，卻是單純和一統地預先存在於天主內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋疑1及",
+          "after": "釋疑1.及",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "單附卜統地",
+          "after": "單純和一統地",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "真福或幸福之偶然是德行的報酬，是因為一個人獲取真褔(而非本然或依其本質就有真褔);就如存在物之偶然為產生的終點，是因為由潛能(能存在)而進入現實或實際存在。所以，就如天主雖然不經產生而有存在，同樣天主也雖然不是立功掙得而有真福。",
+      "after": "真福或幸福之偶然是德行的報酬，是因為一個人獲取真福(而非本然或依其本質就有真福)；就如存在物之偶然為產生的終點，是因為由潛能(能存在)而進入現實或實際存在。所以，就如天主雖然不經產生而有存在，同樣天主也雖然不是立功掙得而有真福。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "天主是否係根擴理智而稱為真福",
+      "after": "天主是否係根據理智而稱為真福",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "根擴",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "天主似乎不是根據理智而稱為真福。因為:",
+      "after": "天主似乎不是根據理智而稱為真福。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "真褔是至大的善。而在天主內，善之稱謂係根據本質;因為善涉及存在，而存在係依照本質，或以本質為準，按波其武在《論七天自1]造工程》中所說的。所以，在天主內，真褔之稱謂係根據本質，而非根據理智c",
+      "after": "真福是至大的善。而在天主內，善之稱謂係根據本質；因為善涉及存在，而存在係依照本質，或以本質為準，按波其武在《論七天創造工程》中所說的。所以，在天主內，真福之稱謂係根據本質，而非根據理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天自1]造",
+          "after": "天創造",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理智c",
+          "after": "理智。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        614
+      ],
+      "before": "此外，真福有目的之性質。而目的與善一樣，是意志的對象。所以，在天主內，真福之稱謂係根據意志，而非根據理智。",
+      "after": "此外，真福有目的之性質。而目的與善一樣，是意志的對象。所以，在天主內，真福之稱謂係根據意志，而非根據理智。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        614,
+        615
+      ],
+      "before": "教宗額我略一世在日i自理叢說卷三十二第六章卻說:「那享有自己而不需要外來讀美者﹒是有光榮的。」而「有光榮」的意思就是「有真褔」 0所以，既然我們之事有天主是根據理智，因為如奧斯定所說的，「草見(天主)就是全部酬勞」《聖詠講述》第九十篇第二講);那!墊在天主內，貫褔之稱謂似乎是根據理智。",
+      "after": "教宗額我略一世在《倫理叢說》卷三十二第六章卻說：「那享有自己而不需要外來讚美者，是有光榮的。」而「有光榮」的意思就是「有真福」。所以，既然我們之享有天主是根據理智，因為如奧斯定所說的，「享見(天主)就是全部酬勞」《聖詠講述》第九十篇第二講)；那麼在天主內，真福之稱謂似乎是根據理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "日i自理叢說",
+          "after": "《倫理叢說》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "讀美",
+          "after": "讚美",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者﹒",
+          "after": "者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有真褔」 0",
+          "after": "有真福」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之事有",
+          "after": "之享有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "草見",
+          "after": "享見",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那!墊",
+          "after": "那麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貫褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "我解答如下:如第一節說過的，貫褔意指有理智之性體的完善或完美的善。因此，就如每一抑鬱欲求回己的五美;同樣地，有理智之性體也自然地欲求賢福。而在每一個有理智之性體中，其最完美者則是理智的動作，性體是據這種動作而或多或少地把握或領悟一切。因此，所有受造之理智性體的真褔，均在於(理智的)領悟或理解。而在天主內，存在與領悟或理解之間沒有實質上的區別，而只有思想或觀念t的區別。所以‘應該根據理智把真褔歸於天主，就如歸於其他有真褔者一樣，後者是因仿效天主的真褔而被稱為真褔。",
+      "after": "我解答如下：如第一節說過的，真福意指有理智之性體的完善或完美的善。因此，就如每一物都欲求自己的完美；同樣地，有理智之性體也自然地欲求真福。而在每一個有理智之性體中，其最完美者則是理智的動作，性體是據這種動作而或多或少地把握或領悟一切。因此，所有受造之理智性體的真福，均在於(理智的)領悟或理解。而在天主內，存在與領悟或理解之間沒有實質上的區別，而只有思想或觀念上的區別。所以，應該根據理智把真福歸於天主，就如歸於其他有真福者一樣，後者是因仿效天主的真福而被稱為真福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貫褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "每一抑鬱欲求回己的五美",
+          "after": "每一物都欲求自己的完美",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "賢福",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "觀念t",
+          "after": "觀念上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 5,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "那一論據，證明天主依照自己的本質而有真褔;不過並不證明，員褔之歸於天主，是根據本質或基於本質之理由;此乃更是根據理智或某於理智之理由。",
+      "after": "那一論據，證明天主依照自己的本質而有真福；不過並不證明，真福之歸於天主，是根據本質或基於本質之理由；此乃更是根據理智或基於理智之理由。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "某於",
+          "after": "基於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "真褔既是善，所以是意志的對象。而就理解的次序來說，對象是先於(相關的)能力之行動的。因此，按照理解的方式，是先有天主的質褔，然後纔有安息於真褔之意志的行動。而這(真褔)只能是理智的行動。因此，是在理智的行動內察看到真褔。",
+      "after": "真福既是善，所以是意志的對象。而就理解的次序來說，對象是先於(相關的)能力之行動的。因此，按照理解的方式，是先有天主的真福，然後才有安息於真福之意志的行動。而這(真福)只能是理智的行動。因此，是在理智的行動內察看到真福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "質褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 4,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "天主是不是每一有真褔者的真褔",
+      "after": "天主是不是每一有真福者的真福",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        615
+      ],
+      "before": "天主似乎是每一有真褔者的真福。因為:",
+      "after": "天主似乎是每一有真福者的真福。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        615,
+        616
+      ],
+      "before": "天主是至善，如在前面第六題第二節已證明過的。而不可能有許多至善，這從前面第十一題第三節所說的也可以知道。所以，真福是至善既屬於真福的本質，那麼真褔似乎無非就是天主。",
+      "after": "天主是至善，如在前面第六題第二節己證明過的。而不可能有許多至善，這從前面第十一題第三節所說的也可以知道。所以，真福是至善既屬於真福的本質，那麼真福似乎無非就是天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已證明",
+          "after": "己證明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        616
+      ],
+      "before": "此外，真福是有理智之性體的最終目的。而只有天主適宜作有理智之性體的最終目的。所以，每一有真福者之真福只是天主而已。",
+      "after": "此外，真福是有理智之性體的最終目的。而只有天主適宜作有理智之性體的最終目的。所以，每一有真福者之真福只是天主而已。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        616
+      ],
+      "before": "根據《格林多前書》第十五章41節所說的: 「星辰與星辰的光輝有區別」'一獲有真褔者，能夠大於另一獲有真褔者。可是，不可能會有什麼比天主更大。所以，真福不是天主，而是有別於天主之物。",
+      "after": "根據《格林多前書》第十五章41節所說的：「星辰與星辰的光輝有區別」，一獲有真福者，能夠大於另一獲有真福者。可是，不可能會有什麼比天主更大。所以，真福不是天主，而是有別於天主之物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "區別」'",
+          "after": "區別」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        616
+      ],
+      "before": "我解答如下:有理智之性體的真福在於理智的行動。對此，可以考慮到兩點:即行動之對象，也就是那可理解者;和行動本身，也就是理解。所以，如果由對象本身方面來看真福，貝'1只有天主纔是真褔;因為一個人之有真福的唯一原故，就是由於他理解天主，如奧斯定在《懺悔錄》卷五第四章所說的: 「那個認識你(天主)，即使不認識其他一切的人，是有真福的。」可是，由理解者的行動方面來看，真褔卻是有真福的受造物內之一種受造的東西;可是，在天主內，真褔即使在這方面也是非受造的。",
+      "after": "我解答如下：有理智之性體的真福在於理智的行動。對此，可以考慮到兩點：即行動之對象，也就是那可理解者；和行動本身，也就是理解。所以，如果由對象本身方面來看真福，則只有天主才是真福；因為一個人之有真福的唯一原故，就是由於他理解天主，如奧斯定在《懺悔錄》卷五第四章所說的：「那個認識你(天主)，即使不認識其他一切的人，是有真福的。」可是，由理解者的行動方面來看，真福卻是有真福的受造物內之一種受造的東西；可是，在天主內，真福即使在這方面也是非受造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝'1",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        616
+      ],
+      "before": "由對象方面來說，真福是絕對的至善;而由行動方面來看，在有真褔的受造物內，真福不是絕對的至善，而是由受造物可分有之善這一類中的至善c",
+      "after": "由對象方面來說，真福是絕對的至善；而由行動方面來看，在有真福的受造物內，真福不是絕對的至善，而是由受造物可分有之善這一類中的至善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "至善c",
+          "after": "至善。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        616,
+        617
+      ],
+      "before": "如哲學家在《靈魂論》卷二第四章所說的，目的有兩種，即客觀的和主觀的，也就是事物或對象本身和獲草或享用該事物;比如:對一個愛財如命者有說，錢財和享有錢財就是臣的。所以，天主固然是有理智受造物之作為物或對象的最終目的;但受造的真褔卻是作為草用，或更好說作為車有的目的。",
+      "after": "如哲學家在《靈魂論》卷二第四章所說的，目的有兩種，即客觀的和主觀的，也就是事物或對象本身和獲享或享用該事物；比如：對一個愛財如命者來說，錢財和享有錢財就是目的。所以，天主固然是有理智受造物之作為物或對象的最終目的；但受造的真福卻是作為享用，或更好說作為享有的目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "獲草",
+          "after": "獲享",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者有說",
+          "after": "者來說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "臣的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "草用",
+          "after": "享用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "車有",
+          "after": "享有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "在天主的真褔內，是否統括所有的真褔或幸福",
+      "after": "在天主的真福內，是否統括所有的真福或幸福",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "天主的真褔似乎並不統括所有的真福或幸福。因為:",
+      "after": "天主的真福似乎並不統括所有的真福或幸福。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "有些幸福是假的。而在天主內卻不能有什麼是假的。所以，天主的真福不統括所有的幸福。",
+      "after": "有些幸福是假的。而在天主內卻不能有什麼是假的。所以，天主的真福不統括所有的幸福。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q026.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "此外，在某些人看來，有的幸福在於有形體的事物，比如慾樂，財富等;而這些都是不可能歸於天主的句因為祂是沒有形體的。所以，天主的真褔不統括一切的幸福。",
+      "after": "此外，在某些人看來，有的幸福在於有形體的事物，比如慾樂，財富等；而這些都是不可能歸於天主的，因為祂是沒有形體的。所以，天主的真福不統括一切的幸福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主的句",
+          "after": "天主的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "貫福或幸福是一種完美。而天主的完美統括一切的完美，如第四題第二節已證明過的。所以，天主的真褔統括一切的幸福。",
+      "after": "真福或幸福是一種完美。而天主的完美統括一切的完美，如第四題第二節己證明過的。所以，天主的真福統括一切的幸福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貫福",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已證明",
+          "after": "己證明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        617
+      ],
+      "before": "我解答如下:在幸福中，不拘是畏的或假的幸福，凡是值得希求者，全都以更卓越的方式預先存在於天主的真褔內。因為在靜觀的幸福方面，天主對自己和其他一切物有連續不斷的和最確定的靜觀;在行動的幸福方面，祂掌管整個宇宙。至於在塵世的幸福方面，按波其武在《哲學的慰藉》卷三第二章所說的，這種幸福在於慾樂、財富、權能、高位和榮譽，買IJ天主享有對自己及其他一切物的喜樂，以代替歡樂或慾樂;中也有財富所預許的完全自足，以代替財富;祂有全能，以代替權能;祂治理萬物，以代替高位; t也有全體受造物之敬仰，以代替榮譽。",
+      "after": "我解答如下：在幸福中，不拘是真的或假的幸福，凡是值得希求者，全都以更卓越的方式預先存在於天主的真福內。因為在靜觀的幸福方面，天主對自己和其他一切物有連續不斷的和最確定的靜觀；在行動的幸福方面，祂掌管整個宇宙。至於在塵世的幸福方面，按波其武在《哲學的慰藉》卷三第二章所說的，這種幸福在於慾樂、財富、權能、高位和榮譽，則天主享有對自己及其他一切物的喜樂，以代替歡樂或慾樂；祂有財富所預許的完全自足，以代替財富；祂有全能，以代替權能；祂治理萬物，以代替高位；祂有全體受造物之敬仰，以代替榮譽。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "畏的",
+          "after": "真的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中也有",
+          "after": "祂有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " t也有",
+          "after": "祂有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        618
+      ],
+      "before": "有的幸福之所以是假的，是因為它欠缺真實幸福之性質:依此觀點來說，它不存在於天主內。不過，其所有的一切相似幸福者，不拘是多麼細微的相似，全都預先存在於天主的真褔內。",
+      "after": "有的幸福之所以是假的，是因為它欠缺真實幸福之性質：依此觀點來說，它不存在於天主內。不過，其所有的一切相似幸福者，不拘是多麼細微的相似，全都預先存在於天主的真福內。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q026.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        618
+      ],
+      "before": "在形體物內以形體形態存在之善，卻是按天主之方式，以精神形態存在於天主內。\n關於天主本質本體之唯一或一體的種種問題，以上這些討論諒已足夠(參看第二題引言)。",
+      "after": "在形體物內以形體形態存在之善，卻是按天主之方式，以精神形態存在於天主內。\n關於天主本質本體之唯一或一體的種種問題，以上這些討論諒己足夠(參看第二題引言)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "諒已",
+          "after": "諒己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
