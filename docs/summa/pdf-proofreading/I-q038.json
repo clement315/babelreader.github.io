@@ -1,0 +1,757 @@
+{
+  "schema_version": 1,
+  "batch": "I-q038",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "23bceb9f83006fc303d2684346cf72e672857695",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q038",
+    "title": "論聖神的第三名稱——恩惠",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      752,
+      753,
+      754,
+      755,
+      756
+    ],
+    "printed_pages": [
+      536,
+      540
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 26,
+    "changed_review_units": 20,
+    "checked_unchanged_review_units": 7
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q38.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q38.json": "59099a58216f09c1ef6022fdf9ff09c71deaba48b76a0dedadd6c366d5848e56"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q038.a001.respondeo",
+      "pdf_file_page": 753,
+      "text": "己達到如此程度",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q038.a001.ad3",
+      "pdf_file_page": 754,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q038.a002.respondeo",
+      "pdf_file_page": 756,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部5页逐页核对，题引言序号、恩惠、独生子及第二节反之的内引号按原页修复。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q038.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "隨後要探究的是「恩惠」這一名稱(參看第三十六題引言)。\n關於這一點，可以提出兩個問題:\n一、恩惠能否是位格名稱。\n鬥、息息是不是聖神的特有名稱。",
+      "after": "隨後要探究的是「恩惠」這一名稱(參看第三十六題引言)。\n關於這一點，可以提出兩個問題：\n一、恩惠能否是位格名稱。\n二、恩惠是不是聖神的特有名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "鬥、息息",
+          "after": "二、恩惠",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "恩惠是不是位格名稱",
+      "after": "恩惠是不是位格名稱",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "「恩惠」(Donum)似乎不是位格名稱。因為:",
+      "after": "「恩惠」(Donum)似乎不是位格名稱。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "在天主內，一切位格名稱都含有某種區別。可是，在天主內，「恩惠」這一名稱並不含有什麼區別;因為奧斯定在《論天主聖三》卷十五第十九車說:聖神「作為天主的恩惠被賜予，就如祂作為天主把自己賜出。」所以，恩惠並不是位格名稱。",
+      "after": "在天主內，一切位格名稱都含有某種區別。可是，在天主內，「恩惠」這一名稱並不含有什麼區別；因為奧斯定在《論天主聖三》卷十五第十九章說：聖神「作為天主的恩惠被賜予，就如祂作為天主把自己賜出。」所以，恩惠並不是位格名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十九車",
+          "after": "第十九章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "此外，沒有任何位格名稱適用於天主的本體。可是，天主的本體卻是聖父賜給聖子的恩惠，正如希拉利在《論天主聖三》卷九第五十四節所指明的。所以，恩惠並不是位格名稱。",
+      "after": "此外，沒有任何位格名稱適用於天主的本體。可是，天主的本體卻是聖父賜給聖子的恩惠，正如希拉利在《論天主聖三》卷九第五十四節所指明的。所以，恩惠並不是位格名稱。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        752
+      ],
+      "before": "此外，按照大馬士革的若望《論正統信仰》卷三第二十一章所說，在天主三位或位格間，沒有什麼從屬或服役。可是，恩惠中卻含有某種從屬，無論是針對獲賜恩惠者，或是針對賜予恩惠者。所以，恩惠並不是位格名稱。",
+      "after": "此外，按照大馬士革的若望《論正統信仰》卷三第二十一章所說，在天主三位或位格間，沒有什麼從屬或服役。可是，恩惠中卻含有某種從屬，無論是針對獲賜恩惠者，或是針對賜予恩惠者。所以，恩惠並不是位格名稱。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        752,
+        753
+      ],
+      "before": "此外，恩惠含有與受造物的關連;如此則「恩惠」之用於天主，似乎是時間性的或在時間內。可是，「位格」卻是從永恆就用於天主，例如;「聖父」和「聖子」。所以，恩惠並不是位格名稱。",
+      "after": "此外，恩惠含有與受造物的關連；如此則「恩惠」之用於天主，似乎是時間性的或在時間內。可是，「位格」卻是從永恆就用於天主，例如：「聖父」和「聖子」。所以，恩惠並不是位格名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "例如;",
+          "after": "例如：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        753
+      ],
+      "before": "奧斯定在《論天主聖三》卷十五第十九章說:「正如肉身之形體無非就是肉身;同樣地，聖神的恩惠也無非就是聖神。」可是，聖神是位格名稱。所以，恩惠亦然。",
+      "after": "奧斯定在《論天主聖三》卷十五第十九章說：「正如肉身之形體無非就是肉身；同樣地，聖神的恩惠也無非就是聖神。」可是，聖神是位格名稱。所以，恩惠亦然。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        753
+      ],
+      "before": "我解答如下:在「恩惠」之名稱內，含有被賜予的適合性(aptitudo)。及至被賜予，則兼與那賜予者和獲賜者產生關係:因為假使它不是為那賜予者所有，就不會被賜予;而被賜予某某，也是為使他擁有。說天主的位格(或某-位)是某某的，或者是按照起源，例如:聖子是聖父的，或者是因為為其所擁有。說我們擁有一物，是說我們可按照我們所願意的，運用它或享有它。以此方式，天主的位格(或某一位)只能為與天主相結合的理性受造物所擁有。至於其他的受造物，自能為天主的位格所推動，但還沒有達到如此境界，即自己有能力享有天主的位格和運用祂的奴果。理性受造物有時會達到這種境界，例如:他分享天主聖言和出發的「愛」(聖神)已達到如此程度，使他可以真正自由地認識天主和正確地愛慕天主。因此，唯有理性受造物纔可能擁有天主的位格(或某一位)。可是，理性受造物單憑自己的能力，還不能達到擁有天主的位格(或某一位)的地步;因此，這應該由上賜給他;因為我們由他處所獲得的，就說是賜給我們的。天主的位格(或某一位)就是以此方式能被賜予和能是「恩惠」。",
+      "after": "我解答如下：在「恩惠」之名稱內，含有被賜予的適合性(aptitudo)。及至被賜予，則兼與那賜予者和獲賜者產生關係：因為假使它不是為那賜予者所有，就不會被賜予；而被賜予某某，也是為使他擁有。說天主的位格(或某一位)是某某的，或者是按照起源，例如：聖子是聖父的，或者是因為為其所擁有。說我們擁有一物，是說我們可按照我們所願意的，運用它或享有它。以此方式，天主的位格(或某一位)只能為與天主相結合的理性受造物所擁有。至於其他的受造物，固能為天主的位格所推動，但還沒有達到如此境界，即自己有能力享有天主的位格和運用祂的效果。理性受造物有時會達到這種境界，例如：他分享天主聖言和出發的「愛」(聖神)己達到如此程度，使他可以真正自由地認識天主和正確地愛慕天主。因此，唯有理性受造物才可能擁有天主的位格(或某一位)。可是，理性受造物單憑自己的能力，還不能達到擁有天主的位格(或某一位)的地步；因此，這應該由上賜給他；因為我們由他處所獲得的，就說是賜給我們的。天主的位格(或某一位)就是以此方式能被賜予和能是「恩惠」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "某-位",
+          "after": "某一位",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自能為",
+          "after": "固能為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奴果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已達到",
+          "after": "己達到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        753,
+        754
+      ],
+      "before": "「恩惠」這一名稱，含有位格的區別，因為恩惠是以起源的方式歸於(天主的)某一位。至於聖神賜出自己，這是因為祂是屬於自己的，可以運用自己，或更好說享有自己;就如同說自由人是屬於自己的一樣。這就是奧斯定在《若望福音釋義》第二十九講所說的:「還有什麼比你更屬於你自己呢?」或者更好應該說，恩惠應該是或多或少屬於賜予者的。可是說「這屬於某某」'能有多種方式。一種方式是以(與恩惠賜予者)同一或相同的方式，正如奧斯定在《若望福音釋義》(同上)所說的;如此則恩惠與賜予者沒有區別，而與獲賜者有區別一是按這方式說聖神賜出自己。另一方式說某物屬於某某，是說有如是他的所有物或奴僕;如此則恩惠在本體方面應與賜予者有區別。按這方式，天主的恩惠是某種受造之物。第三方式說「這屬於某某」'只是按起源來說一是按這方式，聖子屬於聖父，聖神兼屬於二者。所以，如果是按這方式說恩惠屬於賜予者，貝IJ恩惠在位格方面與賜予者有區別，而且是位格名稱。",
+      "after": "「恩惠」這一名稱，含有位格的區別，因為恩惠是以起源的方式歸於(天主的)某一位。至於聖神賜出自己，這是因為祂是屬於自己的，可以運用自己，或更好說享有自己；就如同說自由人是屬於自己的一樣。這就是奧斯定在《若望福音釋義》第二十九講所說的：「還有什麼比你更屬於你自己呢?」或者更好應該說，恩惠應該是或多或少屬於賜予者的。可是說「這屬於某某」，能有多種方式。一種方式是以(與恩惠賜予者)同一或相同的方式，正如奧斯定在《若望福音釋義》(同上)所說的；如此則恩惠與賜予者沒有區別，而與獲賜者有區別——是按這方式說聖神賜出自己。另一方式說某物屬於某某，是說有如是他的所有物或奴僕；如此則恩惠在本體方面應與賜予者有區別。按這方式，天主的恩惠是某種受造之物。第三方式說「這屬於某某」，只是按起源來說——是按這方式，聖子屬於聖父，聖神兼屬於二者。所以，如果是按這方式說恩惠屬於賜予者，則恩惠在位格方面與賜予者有區別，而且是位格名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「這屬於某某」'",
+          "after": "「這屬於某某」，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有區別一是",
+          "after": "有區別——是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "起源來說一是",
+          "after": "起源來說——是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        754
+      ],
+      "before": "說本體是聖父的恩惠，是按第一種方式;因為本體之屬於聖父，是以同一或相同的方式(參看釋疑1.)。",
+      "after": "說本體是聖父的恩惠，是按第一種方式；因為本體之屬於聖父，是以同一或相同的方式(參看釋疑1.)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        754
+      ],
+      "before": "就恩惠在天主內是位格名稱而言，並不合有從屬關{系，而只含有針對賜予者的起源關係。至於針對l那獲賜者，貝IJ恩惠含有自由運用或享有，正如正解己說過的。",
+      "after": "就恩惠在天主內是位格名稱而言，並不含有從屬關係，而只含有針對賜予者的起源關係。至於針對那獲賜者，則恩惠含有自由運用或享有，正如正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並不合有",
+          "after": "並不含有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "針對l那",
+          "after": "針對那",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        754
+      ],
+      "before": "「恩惠」這一名稱或稱呼，不是基於它現實地或實際被賜予，而是基於它有能被賜予的適合性。因此，天主的位格從永恆就被稱為恩惠，雖然是在時間內實際被賜予。而且，並非由於恩惠含有與受造物的關連，就應該是屬於本體的;只需要在自己的意義或概念內有某點是屬於本體的，就像在「位格」的意義或概念裡包括有本體一樣，正如前面第三十四題第三節釋疑1.所說的。",
+      "after": "「恩惠」這一名稱或稱呼，不是基於它現實地或實際被賜予，而是基於它有能被賜予的適合性。因此，天主的位格從永恆就被稱為恩惠，雖然是在時間內實際被賜予。而且，並非由於恩惠含有與受造物的關連，就應該是屬於本體的；只需要在自己的意義或概念內有某點是屬於本體的，就像在「位格」的意義或概念裡包括有本體一樣，正如前面第三十四題第三節釋疑1.所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "恩惠是不是聖神的特有名稱",
+      "after": "恩惠是不是聖神的特有名稱",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "恩惠似乎不是聖神的特有名稱。因為:",
+      "after": "恩惠似乎不是聖神的特有名稱。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "稱為恩惠，是基於被賜予。可是，正如依撒意亞第九章六節所說的: 「有一個兒子賜給了我們o 」所以. 「恩惠」這一名稱也適用於聖子，如同適用於聖神一樣。",
+      "after": "稱為恩惠，是基於被賜予。可是，正如依撒意亞第九章六節所說的：「有一個兒子賜給了我們。 」所以，「恩惠」這一名稱也適用於聖子，如同適用於聖神一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我們o",
+          "after": "我們。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以. ",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "此外，一切屬於天主某一位格的特有名稱，都意指其某種特徵。可是，「恩惠」這一名稱，卻不意指聖神的什麼特j毀。所以，恩惠並不是聖神的特有名稱。",
+      "after": "此外，一切屬於天主某一位格的特有名稱，都意指其某種特徵。可是，「恩惠」這一名稱，卻不意指聖神的什麼特徵。所以，恩惠並不是聖神的特有名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "特j毀",
+          "after": "特徵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "此外，可以稱聖神為某人的神，正如前面第三十六題第一節釋疑3所說的。可是，卻不能稱聖神為某人的恩惠;而只能稱之為天主的恩惠。所以，恩惠並不是聖神的特有名稱。",
+      "after": "此外，可以稱聖神為某人的神，正如前面第三十六題第一節釋疑3.所說的。可是，卻不能稱聖神為某人的恩惠；而只能稱之為天主的恩惠。所以，恩惠並不是聖神的特有名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋疑3所",
+          "after": "釋疑3.所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        755
+      ],
+      "before": "奧斯定在《論天主聖三》卷四第二十章說: 「正如對於聖子來說，出生就是出於聖父;同樣地，對於聖神來說，11是天主的恩惠」就是發於聖父和聖子。」可是，聖神是根據發於聖父和聖子，而獲得特有的名稱。所以，「恩惠」也是聖神的特有名稱。",
+      "after": "奧斯定在《論天主聖三》卷四第二十章說：「正如對於聖子來說，出生就是出於聖父；同樣地，對於聖神來說，『是天主的恩惠』就是發於聖父和聖子。」可是，聖神是根據發於聖父和聖子，而獲得特有的名稱。所以，「恩惠」也是聖神的特有名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "11是天主的恩惠」",
+          "after": "『是天主的恩惠』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        755,
+        756
+      ],
+      "before": "我解答如下:就「恩惠」在天主內是取其位格意義或指位格而言，它是聖神的特有名稱。為明示此點，應該知道:按照哲學家在《辯證論》卷四第四章所說，恩惠本來是不具償還性質的賜予或施恩，即是無意希望回報而被賜予的;如此它是指無償的施恩。可是，無償施恩的理由卻是愛;因為我們之所以無償的賜予某人某物，是因為我們願欲他有善。所以，我們最先賜予他的，是那我們願欲他有善的愛。因此，顯然地﹒愛有為首或第一恩惠的性質，一切無償的恩惠都是藉它而施予的。因此，既然聖神(由聖父聖子)出發而為愛，正如第二十七題第四節、第三十七題第一節己說過的，所以9聖神出發而有第一恩惠的性質。因此，奧斯定在《論天主聖三》卷十五第十九章說:「是藉恩惠，即藉聖神，許多因人而殊的恩惠被分施給基督的肢體。」",
+      "after": "我解答如下：就「恩惠」在天主內是取其位格意義或指位格而言，它是聖神的特有名稱。為明示此點，應該知道：按照哲學家在《辯證論》卷四第四章所說，恩惠本來是不具償還性質的賜予或施恩，即是無意希望回報而被賜予的；如此它是指無償的施恩。可是，無償施恩的理由卻是愛；因為我們之所以無償的賜予某人某物，是因為我們願欲他有善。所以，我們最先賜予他的，是那我們願欲他有善的愛。因此，顯然地，愛有為首或第一恩惠的性質，一切無償的恩惠都是藉它而施予的。因此，既然聖神(由聖父聖子)出發而為愛，正如第二十七題第四節、第三十七題第一節己說過的，所以，聖神出發而有第一恩惠的性質。因此，奧斯定在《論天主聖三》卷十五第十九章說：「是藉恩惠，即藉聖神，許多因人而殊的恩惠被分施給基督的肢體。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "顯然地﹒",
+          "after": "顯然地，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以9",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        756
+      ],
+      "before": "正如由於聖子是以「言」的方式發於(聖父)，以及「言」具有相似自己之本源的性質，所以特別稱聖子為肖像，雖然聖神也相似聖父;同樣地，由於聖神發於(聖父聖子)而為愛，也特別稱之為恩惠，雖然聖子也被賜給了我們。因為這「聖子被賜給了我們」'也是出自聖父的愛，按照《若望福音》第三章16節所說的:「天主竟這樣愛了世界，甚至賜下了自己的獨主子。」",
+      "after": "正如由於聖子是以「言」的方式發於(聖父)，以及「言」具有相似自己之本源的性質，所以特別稱聖子為肖像，雖然聖神也相似聖父；同樣地，由於聖神發於(聖父聖子)而為愛，也特別稱之為恩惠，雖然聖子也被賜給了我們。因為這「聖子被賜給了我們」，也是出自聖父的愛，按照《若望福音》第三章16節所說的：「天主竟這樣愛了世界，甚至賜下了自己的獨生子。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「聖子被賜給了我們」'",
+          "after": "「聖子被賜給了我們」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "獨主子",
+          "after": "獨生子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q038.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        756
+      ],
+      "before": "在「恩惠」之名稱內，含有這一意義，即按起源它是屬於那賜予者的。如此則「恩惠」含有聖神之起源的特徵，即聖神的出發。",
+      "after": "在「恩惠」之名稱內，含有這一意義，即按起源它是屬於那賜予者的。如此則「恩惠」含有聖神之起源的特徵，即聖神的出發。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q038.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        756
+      ],
+      "before": "恩惠在被賜予之前，只屬於賜予者;可是在被賜予之後，就屬於那獲賜者。所以，由於(聖神之為)「恩惠」並不意指現實的或實際的賜予，所以，不能稱「恩惠」(聖神)為人的恩惠，而只能稱之為賜予者天主的恩惠。可是，當祂被賜予之後，那時便或是人的神，或是人(所獲得)的恩賜(datum)。",
+      "after": "恩惠在被賜予之前，只屬於賜予者；可是在被賜予之後，就屬於那獲賜者。所以，由於(聖神之為)「恩惠」並不意指現實的或實際的賜予，所以，不能稱「恩惠」(聖神)為人的恩惠，而只能稱之為賜予者天主的恩惠。可是，當祂被賜予之後，那時便或是人的神，或是人(所獲得)的恩賜(datum)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
