@@ -1,0 +1,2703 @@
+{
+  "schema_version": 1,
+  "batch": "I-q016",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "1e8919df7c98989050b71e65a8dee074d0cc09d2",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q016",
+    "title": "論真理",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485
+    ],
+    "printed_pages": [
+      253,
+      269
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 95,
+    "changed_review_units": 73,
+    "checked_unchanged_review_units": 23
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q16.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q16.json": "220b93af2f06e852a133a1b0b28fb24f710dac882f2bf99eb70fce3f527355c8"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q016.a001.respondeo",
+      "pdf_file_page": 471,
+      "text": "De veritas",
+      "status": "suspected_source_print_error",
+      "action": "原书拉丁书名形态可疑，按原页保留，不用其他版本书名替换。"
+    },
+    {
+      "id": "I.q016.a003.ad1",
+      "pdf_file_page": 474,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」；按底本保留。"
+    },
+    {
+      "id": "I.q016.a006.sed_contra",
+      "pdf_file_page": 479,
+      "text": "第十一篇2節",
+      "status": "suspected_source_print_error",
+      "action": "本节反之印「第十一篇2節」，同节正解印「第十二篇2節」，前后不一；两处均按原页保留，供人工核定。"
+    },
+    {
+      "id": "I.q016.a006.respondeo",
+      "pdf_file_page": 479,
+      "text": "第十二篇2節",
+      "status": "suspected_source_print_error",
+      "action": "与本节反之的「第十一篇2節」不一；保留原书各处编号，不静默统一。"
+    },
+    {
+      "id": "I.q016.a007.sed_contra",
+      "pdf_file_page": 481,
+      "text": "己討論過的",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」；按底本保留。"
+    },
+    {
+      "id": "I.q016.a008.arg3",
+      "pdf_file_page": 483,
+      "text": "並不不改變",
+      "status": "suspected_source_print_error",
+      "action": "原页重复「不」；保留原书重字，疑似印误供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部17页逐页与中文字段对齐，另放大核对跨行字符、人名、年代、拉丁书名和经文编号。",
+    "原书人名 Anselmus de Laon、1050~1117年及中文安瑟謨／安瑟爾莫等均依各处影像，不统一成另一译名；De veritas、己／已、引文编号及重字疑点另列。",
+    "题标题及8个节标题经核对保持不变，无须改动目录。"
+  ],
+  "readings": [
+    {
+      "id": "I.q016.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "知識的對象是真的事物，所以在討論過天主的知識之後，現在應該來探究真理(參看第十四題引言)。\n關於真理，可以提出八個問題:\n一、真理是在事物內﹒抑或僅僅是在理智內。\n二、真理是否只在綜合和分析的理智內。\n三、論真與物的比較。\n四、論真與善的比較。\n五、天主是否即是真理。\n六、萬物之為真，是依一個真理還是依許多真理。\n七、論真理的永恆性。\n八、論真理之不變性。",
+      "after": "知識的對象是真的事物，所以在討論過天主的知識之後，現在應該來探究真理(參看第十四題引言)。\n關於真理，可以提出八個問題：\n一、真理是在事物內，抑或僅僅是在理智內。\n二、真理是否只在綜合和分析的理智內。\n三、論真與物的比較。\n四、論真與善的比較。\n五、天主是否即是真理。\n六、萬物之為真，是依一個真理還是依許多真理。\n七、論真理的永恆性。\n八、論真理之不變性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "事物內﹒",
+          "after": "事物內，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "真理是否只在理智內",
+      "after": "真理是否只在理智內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "真理似乎不是隻在理智內，而且更在事物內。因為:",
+      "after": "真理似乎不是只在理智內，而且更在事物內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        469
+      ],
+      "before": "奧斯定在《獨語》卷二第五章曾經駁斥「貴的就是看得見的」這一定義。因為按這個定義，藏在地下深處的石頭，既然是看不見的，所以就不是真的石頭了。他也較斥了男一主張，即「真的就是那把自己顯示給一個願意而且能夠認知的認知者之前的」。因為按這種主張，如果沒有任何認知者，也就沒有什麼是真的了。而他給「員」或「真的」所下的定義是:「真的就是那存在的。」由此看來，真理是在事物內，而不是在理智內。",
+      "after": "奧斯定在《獨語》卷二第五章曾經駁斥「真的就是看得見的」這一定義。因為按這個定義，藏在地下深處的石頭，既然是看不見的，所以就不是真的石頭了。他也駁斥了另一主張，即「真的就是那把自己顯示給一個願意而且能夠認知的認知者之前的」。因為按這種主張，如果沒有任何認知者，也就沒有什麼是真的了。而他給「真」或「真的」所下的定義是：「真的就是那存在的。」由此看來，真理是在事物內，而不是在理智內。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貴的",
+          "after": "真的",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "較斥",
+          "after": "駁斥",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「員」",
+          "after": "「真」",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        469,
+        470
+      ],
+      "before": "此外，凡是真的，都是因真理而是真的。因此，如果真理只是在理智內，那麼除非是被領悟或理解，就不會有什麼是真的了。而這正是古代哲學家們的錯誤，因為他們認為:凡是看來是真的，就是真的(參看:《形上學》卷四第五章及卷十一第六章)。其結果是彼此矛盾的也都同時是真的，因為彼此矛盾的同時被不同的人視為真的。",
+      "after": "此外，凡是真的，都是因真理而是真的。因此，如果真理只是在理智內，那麼除非是被領悟或理解，就不會有什麼是真的了。而這正是古代哲學家們的錯誤，因為他們認為：凡是看來是真的，就是真的(參看：《形上學》卷四第五章及卷十一第六章)。其結果是彼此矛盾的也都同時是真的，因為彼此矛盾的同時被不同的人視為真的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        470
+      ],
+      "before": "此外，「那為他物之根據者或所繫者，勝於或先於他物」'如《分析後論》卷一第二章所指明的。可是，依哲學家在《範疇論》第三章所說:「一意見或命題是真或是假，係根據或繫於事物是如此存在或不是如此存在心所以，真理是更在於事物，而非在於理智。",
+      "after": "此外，「那為他物之根據者或所繫者，勝於或先於他物」，如《分析後論》卷一第二章所指明的。可是，依哲學家在《範疇論》第三章所說：「一意見或命題是真或是假，係根據或繫於事物是如此存在或不是如此存在。」所以，真理是更在於事物，而非在於理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "他物」'",
+          "after": "他物」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "存在心",
+          "after": "存在。」",
+          "occurrences": 1,
+          "type": "乱码／引号／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        470
+      ],
+      "before": "哲學家在《形上學》卷六第四章卻說:「真與假不在於事物，而在於理智。」",
+      "after": "哲學家在《形上學》卷六第四章卻說：「真與假不在於事物，而在於理智。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        470,
+        471
+      ],
+      "before": "我解答如下:就如「善」指的是嗜慾之所向者，同樣「真」指的是理智之所向者。而嗜慾與理智或任何認真日之間，有這一區別，即認知是根據被認知者存在於認知者內，而嗜慾則是根據欲求者傾向於被欲求者。因此，嗜慾的終點，即善，是在被欲求之事物內;而認知的終點，即真，則是在理智內。\n就如善之在事物內，是著眼於事物與嗜慾有關;因而使善之理或性質由被欲求的事物而延伸至嗜慾，使嗜慾因欲求善的事物而稱為善的;同樣，由於真之在理智內，是因為理智與被理解的事物相符合，所以真之理或性質必然是由理智而延伸至被理解的事物，f吏被理解的事物也因為與理智有某種關連而稱為真的。\n被理解的事物之與理智有關連，能是本然地(per se依其一本質如此)或偶然地(非基於本質)。對事物本身之存在所繫於的理智，事物是本然地有關連;對那可按其認知的理智，則是偶然地有關連。比如說，房屋與建築盯叮理智是本然地有關連，與其所不依賴的理智則是偶然地有關連。判斷事物的標準，不是取自它偶然所具有的，而是取自它本然所具有的。因此9說一個事物是絕對真的，是根據它與其所依賴的理智之關連。因此，人為的技藝作品或事物，是依與我們的理智的關連而稱為真的÷就如說相似或合於建築師理智內之形式或設計的房屋是真的，和稱表達理智或思想真實情形的言詞是貴的。同樣地，自然物之稱為貴的，係因為它們相似或合於天主之理智對各另fJ物種或各種物的設計;比如說石頭是真的，就是說它具有天主理智預先所設計的石頭的特有性質。所以，依此應該說:真理主要地是在理智內;次要地纔是在事物內，這是根據事物與其原理或根本，即理智的關係。\n因為如此，所以貫理纔有了各種不同的解釋。比如奧斯定在《論員宗教》第三十六章說:「真理就是那用來顯示存在物者。」希拉利在《論天主聖三》卷五也說:「真即是那說明或彰顯有或存在者。」這屬於那存在於理智內的真理。而屬於與理智有關的事物之真理，則有奧斯走在《論員宗教》(向上1的另一定義:「真理是與原理或根本的毫無不相似的最高相似。」安瑟誤(Anselmus de Laon'1050-1日7年)也有一個定義:「貫理是隻有理智才能領會的正確無誤性。」(《論真理》(De veritas)第十一章)因為正確無誤的，就是那與原理或根本相符合的。還有亞維採那的這一定義:「每一物的真理，就是那回定加於它的自己存在的特質。」(《形上學》第八篇第六章)至於所謂的「真理即是事物與理智之間的相符或相等」'可以兼屬於或適用於兩種真理。",
+      "after": "我解答如下：就如「善」指的是嗜慾之所向者，同樣「真」指的是理智之所向者。而嗜慾與理智或任何認知之間，有這一區別，即認知是根據被認知者存在於認知者內，而嗜慾則是根據欲求者傾向於被欲求者。因此，嗜慾的終點，即善，是在被欲求之事物內；而認知的終點，即真，則是在理智內。\n就如善之在事物內，是著眼於事物與嗜慾有關；因而使善之理或性質由被欲求的事物而延伸至嗜慾，使嗜慾因欲求善的事物而稱為善的；同樣，由於真之在理智內，是因為理智與被理解的事物相符合，所以真之理或性質必然是由理智而延伸至被理解的事物，使被理解的事物也因為與理智有某種關連而稱為真的。\n被理解的事物之與理智有關連，能是本然地(per se依其本質如此)或偶然地(非基於本質)。對事物本身之存在所繫於的理智，事物是本然地有關連；對那可被其認知的理智，則是偶然地有關連。比如說，房屋與建築師的理智是本然地有關連，與其所不依賴的理智則是偶然地有關連。判斷事物的標準，不是取自它偶然所具有的，而是取自它本然所具有的。因此，說一個事物是絕對真的，是根據它與其所依賴的理智之關連。因此，人為的技藝作品或事物，是依與我們的理智的關連而稱為真的；就如說相似或合於建築師理智內之形式或設計的房屋是真的，和稱表達理智或思想真實情形的言詞是真的。同樣地，自然物之稱為真的，係因為它們相似或合於天主之理智對各別物種或各種物的設計；比如說石頭是真的，就是說它具有天主理智預先所設計的石頭的特有性質。所以，依此應該說：真理主要地是在理智內；次要地才是在事物內，這是根據事物與其原理或根本，即理智的關係。\n因為如此，所以真理才有了各種不同的解釋。比如奧斯定在《論真宗教》第三十六章說：「真理就是那用來顯示存在物者。」希拉利在《論天主聖三》卷五也說：「真即是那說明或彰顯有或存在者。」這屬於那存在於理智內的真理。而屬於與理智有關的事物之真理，則有奧斯定在《論真宗教》(同上)的另一定義：「真理是與原理或根本的毫無不相似的最高相似。」安瑟謨(Anselmus de Laon，1050~1117年)也有一個定義：「真理是只有理智才能領會的正確無誤性。」(《論真理》(De veritas)第十一章)因為正確無誤的，就是那與原理或根本相符合的。還有亞維采那的這一定義：「每一物的真理，就是那固定加於它的自己存在的特質。」(《形上學》第八篇第六章)至於所謂的「真理即是事物與理智之間的相符或相等」，可以兼屬於或適用於兩種真理。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "乱码",
+        "人名",
+        "原书字形",
+        "多余字符",
+        "年代",
+        "括号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "f吏",
+          "after": "使",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "建築盯叮",
+          "after": "建築師的",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "因此9",
+          "after": "因此，",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "真的÷",
+          "after": "真的；",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "貴的",
+          "after": "真的",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "各另fJ",
+          "after": "各別",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "《論員宗教》",
+          "after": "《論真宗教》",
+          "occurrences": 2,
+          "type": "书名／错字"
+        },
+        {
+          "before": "奧斯走",
+          "after": "奧斯定",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "(向上1",
+          "after": "(同上)",
+          "occurrences": 1,
+          "type": "乱码／括号"
+        },
+        {
+          "before": "安瑟誤",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "Laon'1050-1日7年",
+          "after": "Laon，1050~1117年",
+          "occurrences": 1,
+          "type": "人名／年代／标点"
+        },
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "亞維採那",
+          "after": "亞維采那",
+          "occurrences": 1,
+          "type": "人名／原书字形"
+        },
+        {
+          "before": "回定",
+          "after": "固定",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "相符或相等」'",
+          "after": "相符或相等」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "依其一本質",
+          "after": "依其本質",
+          "occurrences": 1,
+          "type": "多余字符"
+        },
+        {
+          "before": "可按其認知",
+          "after": "可被其認知",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        471
+      ],
+      "before": "奧斯定所談的是事物的真理，而且把與我們理智的關係排除在真理的性質或理之外。因為任何定義之內都不包括那偶然而有的。",
+      "after": "奧斯定所談的是事物的真理，而且把與我們理智的關係排除在真理的性質或理之外。因為任何定義之內都不包括那偶然而有的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "古代哲學家們，認為自然物的種別或物種不是來自任何理智，而是來自偶然;而且因為他們看到真與理智有闕，所以不得不把物的真理建立在與我們理智的關係上。由此而產生了那些矛盾，哲學家在《形上學》卷四第五章裡對此曾做進一步的討論。不過，如果我們把物的真理建立在與天主理智的關係上，就不會產生這些矛盾了。",
+      "after": "古代哲學家們，認為自然物的種別或物種不是來自任何理智，而是來自偶然；而且因為他們看到真與理智有關，所以不得不把物的真理建立在與我們理智的關係上。由此而產生了那些矛盾，哲學家在《形上學》卷四第五章裡對此曾做進一步的討論。不過，如果我們把物的真理建立在與天主理智的關係上，就不會產生這些矛盾了。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有闕",
+          "after": "有關",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "雖然，我們理智內的真理是由事物所形成，但真理之理或性質並不必然首先在於事物;就如健康之理或性質也不是首先在於藥品，而後在於動物;因為是藥品的效力，而不是藥品的健康，形成(動物之)健康，因為藥品不是同質的主動原因。同樣地，是事物的有或存在，不是事物的真理，形成理智的真理。因此，哲學家說:一意見和命題是真的，「是因為事物存在，而不是因為事物是真的」。",
+      "after": "雖然，我們理智內的真理是由事物所形成，但真理之理或性質並不必然首先在於事物；就如健康之理或性質也不是首先在於藥品，而後在於動物；因為是藥品的效力，而不是藥品的健康，形成(動物之)健康，因為藥品不是同質的主動原因。同樣地，是事物的有或存在，不是事物的真理，形成理智的真理。因此，哲學家說：一意見和命題是真的，「是因為事物存在，而不是因為事物是真的」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "真理是否(只)在綜合和分析的理智內",
+      "after": "真理是否(只)在綜合和分析的理智內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "真理似乎不是隻在綜合和分析的理智內。因為:",
+      "after": "真理似乎不是只在綜合和分析的理智內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "哲學家在《靈魂論》卷三第六章說:就如感宮對其特有的可感覺對象的感覺常是真的;同樣地，理智對於「一物是什-麼」的認知也常是真的。可是，不拘是感官，或者是認知「一物是什麼」的理智，都不用綜合和分析。所以，真理不是隻在理智的綜合和分析內。",
+      "after": "哲學家在《靈魂論》卷三第六章說：就如感官對其特有的可感覺對象的感覺常是真的；同樣地，理智對於「一物是什麼」的認知也常是真的。可是，不拘是感官，或者是認知「一物是什麼」的理智，都不用綜合和分析。所以，真理不是只在理智的綜合和分析內。",
+      "status": "corrected",
+      "error_types": [
+        "多余字符",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "什-麼",
+          "after": "什麼",
+          "occurrences": 1,
+          "type": "多余字符"
+        },
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        472
+      ],
+      "before": "此外，依撒格(Isaac)在《論定義》(De definitionibus)中說:真理即是事物與理智之問的相符或相等(參看:亞維採那，《形上學》第一篇第九章)。可是，正如理解複雜事物的理智能與事物相符，同樣，理解非複雜事物的理智亦能與事物相符，而且連感官也感覺到事物的實在情形。所以，真理不是隻在理智的綜合和分析內。",
+      "after": "此外，依撒格(Isaac)在《論定義》(De definitionibus)中說：真理即是事物與理智之間的相符或相等(參看：亞維采那，《形上學》第一篇第九章)。可是，正如理解複雜事物的理智能與事物相符，同樣，理解非複雜事物的理智亦能與事物相符，而且連感官也感覺到事物的實在情形。所以，真理不是只在理智的綜合和分析內。",
+      "status": "corrected",
+      "error_types": [
+        "人名",
+        "原书字形",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之問",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "亞維採那",
+          "after": "亞維采那",
+          "occurrences": 1,
+          "type": "人名／原书字形"
+        },
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        473
+      ],
+      "before": "哲學家在《形上學》卷六第四章卻說:有關單純的東西和一個東西是什麼，沒有真理，既沒有在理智內的真理，也沒有在事物內的真理。",
+      "after": "哲學家在《形上學》卷六第四章卻說：有關單純的東西和一個東西是什麼，沒有真理，既沒有在理智內的真理，也沒有在事物內的真理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        473
+      ],
+      "before": "我解答如下:如第一節所說，「真」依其首要性質或理是在理智內。由於一切物之為真，是根據具有自己自然本性的固有形式，所以理智作為認知者之為真，必須具有被認知之物的像或酬，這像或相似就是理智作為認真日者的形式。也就是為了這一點，才用理智與事物之間的相符來給真理下定義。因此，認知這種酬，也就是認知真理。而認知這種相符，卻是感官絕對無法做到的，因為視覺雖然有被看到之物的像或相似，卻無法認知被看到之物(本身)和自己對該物所察覺者之間的關係。而理智卻能夠認知其本身與被理解之物的相符;然而理智之察覺這種相待，不是在自己認知一物「是什麼」時，而是在判斷物之實情如同自己對該物所察覺之形式時，那時理智才開始認知並道出「貫」。而理智是藉綜合和分析做到此點;因為在每一個命題中，理智吧述詞或謂詞所表示的形式，或者加給主詞所表示的物，或者從該物除去。因此，誠然可以說，感覺某一物的感官，或認知一物「是什麼」的理智是真的，但這還不是認知或道出「真」 0關於複雜的話語或不複雜的話語，也是如此。所以，貫理的確可能存在於感官和認知一物「是什麼」的理智中，有如是在某一真的物中，但不是有如被認知者在認真日者中，而這正是「真」一字所含有的意義;因為理智的完美或成就，即是作為被認真日者的「真」或被認知的真。所以，嚴格說來，真理是在綜合和分析的理智內，而不在感官內，亦不在認知物「是什麼」的理智內。",
+      "after": "我解答如下：如第一節所說，「真」依其首要性質或理是在理智內。由於一切物之為真，是根據具有自己自然本性的固有形式，所以理智作為認知者之為真，必須具有被認知之物的像或相似，這像或相似就是理智作為認知者的形式。也就是為了這一點，才用理智與事物之間的相符來給真理下定義。因此，認知這種相符，也就是認知真理。而認知這種相符，卻是感官絕對無法做到的，因為視覺雖然有被看到之物的像或相似，卻無法認知被看到之物(本身)和自己對該物所察覺者之間的關係。而理智卻能夠認知其本身與被理解之物的相符；然而理智之察覺這種相符，不是在自己認知一物「是什麼」時，而是在判斷物之實情如同自己對該物所察覺之形式時，那時理智才開始認知並道出「真」。而理智是藉綜合和分析做到此點；因為在每一個命題中，理智把述詞或謂詞所表示的形式，或者加給主詞所表示的物，或者從該物除去。因此，誠然可以說，感覺某一物的感官，或認知一物「是什麼」的理智是真的，但這還不是認知或道出「真」。關於複雜的話語或不複雜的話語，也是如此。所以，真理的確可能存在於感官和認知一物「是什麼」的理智中，有如是在某一真的物中，但不是有如被認知者在認知者中，而這正是「真」一字所含有的意義；因為理智的完美或成就，即是作為被認知者的「真」或被認知的真。所以，嚴格說來，真理是在綜合和分析的理智內，而不在感官內，亦不在認知物「是什麼」的理智內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "像或酬",
+          "after": "像或相似",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "認知這種酬",
+          "after": "認知這種相符",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 3,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "這種相待",
+          "after": "這種相符",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「貫」",
+          "after": "「真」",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "吧述詞",
+          "after": "把述詞",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "「真」 0",
+          "after": "「真」。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a002.general",
+      "article": 2,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        473
+      ],
+      "before": "藉此亦可知各質疑之解答。",
+      "after": "藉此亦可知各質疑之解答。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "真與物是否可以互換",
+      "after": "真與物是否可以互換",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "真(verum)與物(e肘，存在者、存在物、萬物之「物」或萬有之「有」)似乎不可以互換(二者並非相同或並非真即物和物即真)。因為:",
+      "after": "真(verum)與物(ens，存在者、存在物、萬物之「物」或萬有之「有」)似乎不可以互換(二者並非相同或並非真即物和物即真)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "拉丁文",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "e肘",
+          "after": "ens",
+          "occurrences": 1,
+          "type": "乱码／拉丁文"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "如第一節所說，「真」原本是在理智內。而存在或有則原本是在物內。所以，三者不可以互換。",
+      "after": "如第一節所說，「真」原本是在理智內。而存在或有則原本是在物內。所以，二者不可以互換。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "三者",
+          "after": "二者",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "此外，凡是擴及物和非物(non ens)者，不可與物互換。而真就擴及物和非物;因為存在者(物)存在，和非存在者(非物)不存在，同是真的。所以，真與物不可互換。",
+      "after": "此外，凡是擴及物和非物(non ens)者，不可與物互換。而真就擴及物和非物；因為存在者(物)存在，和非存在者(非物)不存在，同是真的。所以，真與物不可互換。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "此外，那些彼此有先後之分者，似乎不可以互換。而真似乎先於物;因為只有在真的觀念下，物才被理解或領悟。所以，真與物似乎不是可以互換的。",
+      "after": "此外，那些彼此有先後之分者，似乎不可以互換。而真似乎先於物；因為只有在真的觀念下，物才被理解或領悟。所以，真與物似乎不是可以互換的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "哲學家在《形上學》卷二第五章卻說，物在存在和真理方面的性質是一樣的。",
+      "after": "哲學家在《形上學》卷二第五章卻說，物在存在和真理方面的性質是一樣的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        474
+      ],
+      "before": "我解答如下:就如善有值得欲求的特點(與嗜慾有關),同樣真也與認知有關。無論什麼物，有多大範園或程度的存在，便有多大的可能性被認知。因此，《靈魂論》卷三第八章說:依其感官和理智，「靈魂在某種程度上是一切」 0因此，就如善可以與物互換，真同樣也是如此。可是，就如善給物加上一種值得欲求的特點，同樣真也給物力日上一種與理智的關係。",
+      "after": "我解答如下：就如善有值得欲求的特點(與嗜慾有關)，同樣真也與認知有關。無論什麼物，有多大範圍或程度的存在，便有多大的可能性被認知。因此，《靈魂論》卷三第八章說：依其感官和理智，「靈魂在某種程度上是一切」。因此，就如善可以與物互換，真同樣也是如此。可是，就如善給物加上一種值得欲求的特點，同樣真也給物加上一種與理智的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有關),",
+          "after": "有關)，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "一切」 0",
+          "after": "一切」。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "力日上",
+          "after": "加上",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        474,
+        475
+      ],
+      "before": "如第一節所說‘真既是在物內，也是在理智內。在物內的真，是依(物之)本質或本體與物互換。而在理智內的真之與物互換，則是有如顯示者之與被顯示者的互換。因為這屬於真的性質，如第一節己說過的。雖然叩此，但也可以說，物也和真一樣，既是在物內，也是在理智內，只不過買主要地是在理智內，而物則主要地是在物內c所以如此之理由，是因為真與物在觀念上有區別。",
+      "after": "如第一節所說，真既是在物內，也是在理智內。在物內的真，是依(物之)本質或本體與物互換。而在理智內的真之與物互換，則是有如顯示者之與被顯示者的互換。因為這屬於真的性質，如第一節己說過的。雖然如此，但也可以說，物也和真一樣，既是在物內，也是在理智內，只不過真主要地是在理智內，而物則主要地是在物內。所以如此之理由，是因為真與物在觀念上有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所說‘",
+          "after": "所說，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "雖然叩此",
+          "after": "雖然如此",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "買主要地",
+          "after": "真主要地",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "物內c",
+          "after": "物內。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "非物本身根本沒有被認知的基礎;非物之被認知，是因為理智使它成為可被認知的。所以，真是建基於物之上;而就非物為理性所認知，是理性或思想之物而言，員也擴及於非物。第",
+      "after": "非物本身根本沒有被認知的基礎；非物之被認知，是因為理智使它成為可被認知的。所以，真是建基於物之上；而就非物為理性所認知，是理性或思想之物而言，真也擴及於非物。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "混入字符",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員也",
+          "after": "真也",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "非物。第",
+          "after": "非物。",
+          "occurrences": 1,
+          "type": "混入字符"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "所謂沒有真的觀念，就不可能領悟物，能有兩種解讀。一種是，除非真的觀念也隨著對物的領悟而來，就不能領悟物，這種說法是貴的。男一種可能的解讀是，除非領悟了貴的觀念，就不可能領悟物，這是錯的。可是，除非領悟了物的觀念，就不可能領悟簣，因為在真的觀念內含有物。如果我們比較一下「可領悟的」和物，其情形也是一樣;因為除非物是可領悟的，就不可能領悟物。然而，卻可能領悟物而不領悟物的可領悟性。同樣，被領悟的物是真的，但領悟物並不等於領悟真。",
+      "after": "所謂沒有真的觀念，就不可能領悟物，能有兩種解讀。一種是，除非真的觀念也隨著對物的領悟而來，就不能領悟物，這種說法是真的。另一種可能的解讀是，除非領悟了真的觀念，就不可能領悟物，這是錯的。可是，除非領悟了物的觀念，就不可能領悟真，因為在真的觀念內含有物。如果我們比較一下「可領悟的」和物，其情形也是一樣；因為除非物是可領悟的，就不可能領悟物。然而，卻可能領悟物而不領悟物的可領悟性。同樣，被領悟的物是真的，但領悟物並不等於領悟真。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貴",
+          "after": "真",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "簣",
+          "after": "真",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "在觀念上善是否先於真",
+      "after": "在觀念上善是否先於真",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "在觀念上，善似乎先於賞。因為:",
+      "after": "在觀念上，善似乎先於真。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "賞",
+          "after": "真",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "凡是較為普遍的，在觀念上就是較先有的，如《物理學》卷一第一章所證明的。而善比真較為普遍;因為真是一種善，即理智的善。所以，在觀念上，善先於真。",
+      "after": "凡是較為普遍的，在觀念上就是較先有的，如《物理學》卷一第一章所證明的。而善比真較為普遍；因為真是一種善，即理智的善。所以，在觀念上，善先於真。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        475
+      ],
+      "before": "此外，善是在物內;而真，如第二節所說，卻是在理智的綜合和分析內。可是，那些在物內者，先於那些在理智內者。所以，在觀念上，善先於賞。",
+      "after": "此外，善是在物內；而真，如第二節所說，卻是在理智的綜合和分析內。可是，那些在物內者，先於那些在理智內者。所以，在觀念上，善先於真。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "賞",
+          "after": "真",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        475,
+        476
+      ],
+      "before": "此外，依《倫理學》卷四第七章所指明的，員理(真實)是德行的一種。而德行被包含在善之內;因為如奧斯定在《論自由意志》卷二第十九章所說的，德行是心靈的優良品質。所以，善先於真。",
+      "after": "此外，依《倫理學》卷四第七章所指明的，真理(真實)是德行的一種。而德行被包含在善之內；因為如奧斯定在《論自由意志》卷二第十九章所說的，德行是心靈的優良品質。所以，善先於真。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        476
+      ],
+      "before": "凡存在於更多物內者，在觀念上是較先的。而「真」存在於一些沒有善的物內，比如屬於數學範圓的。所以，真先於主。=",
+      "after": "凡存在於更多物內者，在觀念上是較先的。而「真」存在於一些沒有善的物內，比如屬於數學範圍的。所以，真先於善。",
+      "status": "corrected",
+      "error_types": [
+        "多余字符",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圓",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "主。=",
+          "after": "善。",
+          "occurrences": 1,
+          "type": "错字／多余字符"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        476
+      ],
+      "before": "我解答如F:雖然善與真在其主體上可以與物互換，但在觀念上是有區別的。依此，絕對講來，真是先於善的。這由兩方面可以看得出來。第一，物或存在者最先，而真比善更接近物或存在者。因為真是絕對地直接地注視或針對(物之)存在本身;而苦的性質或理則是隨存在而來的，即根據存在具有某種成就或完美。基於這一點，存在纔是值得欲求的。第二，認知自然地是先於欲求。因此，既然真是針對認知的，而善是針對欲求的，那麼在觀念上真是先於苦的。",
+      "after": "我解答如下：雖然善與真在其主體上可以與物互換，但在觀念上是有區別的。依此，絕對講來，真是先於善的。這由兩方面可以看得出來。第一，物或存在者最先，而真比善更接近物或存在者。因為真是絕對地直接地注視或針對(物之)存在本身；而善的性質或理則是隨存在而來的，即根據存在具有某種成就或完美。基於這一點，存在才是值得欲求的。第二，認知自然地是先於欲求。因此，既然真是針對認知的，而善是針對欲求的，那麼在觀念上真是先於善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "答如F",
+          "after": "答如下",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "苦",
+          "after": "善",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        476
+      ],
+      "before": "意志和理智是相互包括的;因為理智理解意志，而意志願意理智理解。因此，在歸於意志之對象的事物內，也包括著那些屬於理智者;反過來也是一樣。因此，在可欲求的事物次序中，善是普遍的，真是特殊的;而在可理解的事物次序中，則恰恰相反。因此，(相對地)從真是某種善這方面來看，可欲求的事物次序中，善在先;但不是絕對地在先。",
+      "after": "意志和理智是相互包括的；因為理智理解意志，而意志願意理智理解。因此，在歸於意志之對象的事物內，也包括著那些屬於理智者；反過來也是一樣。因此，在可欲求的事物次序中，善是普遍的，真是特殊的；而在可理解的事物次序中，則恰恰相反。因此，(相對地)從真是某種善這方面來看，可欲求的事物次序中，善在先；但不是絕對地在先。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        476
+      ],
+      "before": "一物之所以在觀念上在先，是因為它首先出現在理智內。而理智首先察覺到存在者或物本身;然後察覺到自己領悟物;最後才察覺到自己欲求物。所以，先有物的觀念，然後有真的觀念，最後纔有善的觀念，雖然善是在物內。",
+      "after": "一物之所以在觀念上在先，是因為它首先出現在理智內。而理智首先察覺到存在者或物本身；然後察覺到自己領悟物；最後才察覺到自己欲求物。所以，先有物的觀念，然後有真的觀念，最後才有善的觀念，雖然善是在物內。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        476,
+        477
+      ],
+      "before": "稱為德性的真理(真實)，不是普通的或一般的真理，而是一個人在言行上藉以表現自己實在怎樣的一種真理(真實)。所謂「生活的真理」'是以一種特殊的方式，指人在生活中完成了天主理智所安排的目標，就如第一節所說的，在其他的物中也都有貫理。而「正義的員理」則指人依法律秩序盡到了他對別人的責任。所以，不應該由這些特殊的貫理出發，來討論普通的真理。",
+      "after": "稱為德性的真理(真實)，不是普通的或一般的真理，而是一個人在言行上藉以表現自己實在怎樣的一種真理(真實)。所謂「生活的真理」，是以一種特殊的方式，指人在生活中完成了天主理智所安排的目標，就如第一節所說的，在其他的物中也都有真理。而「正義的真理」則指人依法律秩序盡到了他對別人的責任。所以，不應該由這些特殊的真理出發，來討論普通的真理。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生活的真理」'",
+          "after": "生活的真理」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "員理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "天主是否即是真理",
+      "after": "天主是否即是真理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "似乎天主並非即是真理。因為:",
+      "after": "似乎天主並非即是真理。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "真理在於理智的綜合和分析。而在天主內沒有綜合和分析。所以，在天主內沒有真理。",
+      "after": "真理在於理智的綜合和分析。而在天主內沒有綜合和分析。所以，在天主內沒有真理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "此外，按奧斯定在《論真宗教》第三十六章所說，真理是「與本原或根本的相似或相符」 0而對天主無所謂相似本原。所以，在天主內沒有真理。",
+      "after": "此外，按奧斯定在《論真宗教》第三十六章所說，真理是「與本原或根本的相似或相符」。而對天主無所謂相似本原。所以，在天主內沒有真理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "相符」 0",
+          "after": "相符」。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "此外，凡是關於天主所說的，都是說祂為一切的第一原因，比如天主的存在是一切存在的原因，天主的美善是一切美善的原因。所以，如果在天主內有真理，那麼一切貴的或凡是貴的一切，都是來白天主。可是，某人犯罪是真的。所以，這也是來白天主。這顯然是錯誤的。",
+      "after": "此外，凡是關於天主所說的，都是說祂為一切的第一原因，比如天主的存在是一切存在的原因，天主的美善是一切美善的原因。所以，如果在天主內有真理，那麼一切真的或凡是真的一切，都是來自天主。可是，某人犯罪是真的。所以，這也是來自天主。這顯然是錯誤的。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貴",
+          "after": "真",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 2,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        477
+      ],
+      "before": "主在《若望福音》第十四章6節卻說: 「我是道路、真理和生命。」",
+      "after": "主在《若望福音》第十四章6節卻說：「我是道路、真理和生命。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        477,
+        478
+      ],
+      "before": "我解答如下:如第一節所說，真理在理智內，是根據理智領悟物一如其實際存在，而真理在物內，買IJ根據物具有符合理智的存在。而這是以最高方式在天主內。因為天主的存在不僅符合自己的理智，而且就是自己的理解;而天主的理解就是其他一切存在及理智的尺度和原因;而且祂自己就是自己的存在和理解。因此應作結說，在天主內不僅有真理，而且天主就是至高的和第一真理本身。",
+      "after": "我解答如下：如第一節所說，真理在理智內，是根據理智領悟物一如其實際存在，而真理在物內，則根據物具有符合理智的存在。而這是以最高方式在天主內。因為天主的存在不僅符合自己的理智，而且就是自己的理解；而天主的理解就是其他一切存在及理智的尺度和原因；而且祂自己就是自己的存在和理解。因此應作結說，在天主內不僅有真理，而且天主就是至高的和第一真理本身。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "雖然，在天主的理智內沒有綜合和分析，但天主依其單純的理解判斷一切，並認知一切複雜的東西。囡此，在天主的理智內有真理。",
+      "after": "雖然，在天主的理智內沒有綜合和分析，但天主依其單純的理解判斷一切，並認知一切複雜的東西。因此，在天主的理智內有真理。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "囡此",
+          "after": "因此",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "我們理智內的真，是根據理智與自己本原或根本的相符，即與其認知所由來之物的相符。至於物內的真理，也是根據與其本原或根本的相符，即與天主理智的相符。嚴格說來，關於天主內的真理卻不能這樣說，除非是把真理以歸名的方式歸於(appropriare)有(聖父為)本原或根本的聖子。如果我們著重談論真理的本質，也只能如此理解，即把肯定轉變為否定，比如說，「聖父來自自己，因為袖不是來自另一個」。同樣，天主的真理也可以稱為「與本原相似或相符」'即祂的存在並非與祂的理智不相似或不相符。",
+      "after": "我們理智內的真，是根據理智與自己本原或根本的相符，即與其認知所由來之物的相符。至於物內的真理，也是根據與其本原或根本的相符，即與天主理智的相符。嚴格說來，關於天主內的真理卻不能這樣說，除非是把真理以歸名的方式歸於(appropriare)有(聖父為)本原或根本的聖子。如果我們著重談論真理的本質，也只能如此理解，即把肯定轉變為否定，比如說，「聖父來自自己，因為祂不是來自另一個」。同樣，天主的真理也可以稱為「與本原相似或相符」，即祂的存在並非與祂的理智不相似或不相符。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "袖不是",
+          "after": "祂不是",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "相符」'",
+          "after": "相符」，",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "非物和缺欠沒有來自自己本身的真理，而僅有來自理智之領悟的真理。理智的一切領悟均來白天主;因此，在我說的「這個人犯姦」這句話內凡是屬於真理的，全部都是來白天主。不過，如果辯稱「所以這個人犯姦，是來白天主」'則是錯誤的結論。",
+      "after": "非物和缺欠沒有來自自己本身的真理，而僅有來自理智之領悟的真理。理智的一切領悟均來自天主；因此，在我說的「這個人犯姦」這句話內凡是屬於真理的，全部都是來自天主。不過，如果辯稱「所以這個人犯姦，是來自天主」，則是錯誤的結論。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 3,
+          "type": "错字"
+        },
+        {
+          "before": "來自天主」'",
+          "after": "來自天主」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "是否只有一個萬物據以為真的真理",
+      "after": "是否只有一個萬物據以為真的真理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        478
+      ],
+      "before": "似乎只有一個萬物據以為真的真理。因為:",
+      "after": "似乎只有一個萬物據以為真的真理。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        478,
+        479
+      ],
+      "before": "按奧斯定在《論天主聖三》卷十五第一章所說的，除了天主之外，再沒有什麼比人的心靈更大。而真理卻比人的心靈更大，否則人的心靈就是真理的裁判了;但實際上，人的心靈不是按照自己，而是按照真理判斷一切。所以，只有天主纔是真理。所以，除天主外，月IJ無實理。",
+      "after": "按奧斯定在《論天主聖三》卷十五第一章所說的，除了天主之外，再沒有什麼比人的心靈更大。而真理卻比人的心靈更大，否則人的心靈就是真理的裁判了；但實際上，人的心靈不是按照自己，而是按照真理判斷一切。所以，只有天主才是真理。所以，除天主外，別無真理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "月IJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "實理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        479
+      ],
+      "before": "此外，安瑟讓在《論真理》第十四章說:真理與真物的關係，就如時間與有時間性之物的關係。而一切有時間性之物卻只有一個時間。所以，萬物藉以為貴的真理，也只有一個。",
+      "after": "此外，安瑟謨在《論真理》第十四章說：真理與真物的關係，就如時間與有時間性之物的關係。而一切有時間性之物卻只有一個時間。所以，萬物藉以為真的真理，也只有一個。",
+      "status": "corrected",
+      "error_types": [
+        "人名",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟讓",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "貴",
+          "after": "真",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        479
+      ],
+      "before": "《聖詠》第十一篇2節卻說:「諸真理(veritates複數)已被眾人子消滅殆盡。」",
+      "after": "《聖詠》第十一篇2節卻說：「諸真理(veritates複數)已被眾人子消滅殆盡。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        479,
+        480
+      ],
+      "before": "我解答如下:萬物藉以為真的真理，在某方面來說是一個，在另一方面來說不是一個。為明示這一點，必須知道:當我們用一個名稱或物依其同一意義或單義(univoce)稱述許多物時，這個名稱或物依其自有的意義或性質，是在其中的任何一物內，比如「動物」是在任何一種動物內。可是，當我們用一個名稱或物依類比的意義(analogice)來稱述許多物時‘這個名稱或物依其固有意義或性質，卻是隻在其中的-物內，其他的物都是基於這一物而獲得相闊的稱謂。比如我們說:「健康的」動物、「健康的」尿液及「健康的」藥品，而「健康」卻僅僅是在動物內，並且是基於這動物的健康，稱藥品是健康的，因為藥品有產生動物健康的效力，和稱尿液是健康的，因為尿液是表示健康的徵兆，雖然，健康不是在藥品及尿液內，但在藥品及尿液內均有一點什麼，分別使藥品藉以產生健康，使尿液藉以表示健康。\n前面第一節已經說過，真理首先在理智內，然後才依照物與天主理智的關係，在物內。如果我們所談的是存在於理智內的真理，那麼，依其特有性質而言，在許多受造的理智內就有許多真理;而且即使在同一個理智內，依其許多被認知者，也會有許多貫理。因此，關於《聖詠》第十二篇2節的「諸真理已被眾人子消滅殆盡」'「註解」上說，就如由一個人的臉面在鏡中產生許多肖像，同樣由一個天主真理產生許多真理(奧斯定，《聖詠講述》(Enarrationes in Psalmos))。可是，如果我們所談的是存在於物內的真理，那麼一切物都是因同一個第一真理而是真的，每一物都各依自己的存在仿效這第一真理。因此，雖然物的本質或形式有訐多，但天主之理智的真理卻是一個，萬物都是根據這一真理而被稱為真的。",
+      "after": "我解答如下：萬物藉以為真的真理，在某方面來說是一個，在另一方面來說不是一個。為明示這一點，必須知道：當我們用一個名稱或物依其同一意義或單義(univoce)稱述許多物時，這個名稱或物依其固有的意義或性質，是在其中的任何一物內，比如「動物」是在任何一種動物內。可是，當我們用一個名稱或物依類比的意義(analogice)來稱述許多物時，這個名稱或物依其固有意義或性質，卻是只在其中的一物內，其他的物都是基於這一物而獲得相關的稱謂。比如我們說：「健康的」動物、「健康的」尿液及「健康的」藥品，而「健康」卻僅僅是在動物內，並且是基於這動物的健康，稱藥品是健康的，因為藥品有產生動物健康的效力，和稱尿液是健康的，因為尿液是表示健康的徵兆，雖然，健康不是在藥品及尿液內，但在藥品及尿液內均有一點什麼，分別使藥品藉以產生健康，使尿液藉以表示健康。\n前面第一節已經說過，真理首先在理智內，然後才依照物與天主理智的關係，在物內。如果我們所談的是存在於理智內的真理，那麼，依其特有性質而言，在許多受造的理智內就有許多真理；而且即使在同一個理智內，依其許多被認知者，也會有許多真理。因此，關於《聖詠》第十二篇2節的「諸真理已被眾人子消滅殆盡」，「註解」上說，就如由一個人的臉面在鏡中產生許多肖像，同樣由一個天主真理產生許多真理(奧斯定，《聖詠講述》(Enarrationes in Psalmos))。可是，如果我們所談的是存在於物內的真理，那麼一切物都是因同一個第一真理而是真的，每一物都各依自己的存在仿效這第一真理。因此，雖然物的本質或形式有許多，但天主之理智的真理卻是一個，萬物都是根據這一真理而被稱為真的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自有的意義",
+          "after": "固有的意義",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "許多物時‘",
+          "after": "許多物時，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "其中的-物",
+          "after": "其中的一物",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "相闊",
+          "after": "相關",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "消滅殆盡」'",
+          "after": "消滅殆盡」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "靈魂之判斷一切，並不是依據任何一個真理，而是依據第一真理，靈魂就像鏡子一樣，依據諸第一原理，在自己內把第一真理反映出來。所以，第一真理是大於靈魂的。而且連我們理智內的受造的真理也大於靈魂，這不是絕對地，而是相對地，即是以真理是理智之完美或成就而言;就如學問也可以說大於靈魂一樣。不過，除了天主之外，沒有什麼自立者大於有理性的心靈或靈智，卻也是真的。",
+      "after": "靈魂之判斷一切，並不是依據任何一個真理，而是依據第一真理，靈魂就像鏡子一樣，依據諸第一原理，在自己內把第一真理反映出來。所以，第一真理是大於靈魂的。而且連我們理智內的受造的真理也大於靈魂，這不是絕對地，而是相對地，即是以真理是理智之完美或成就而言；就如學問也可以說大於靈魂一樣。不過，除了天主之外，沒有什麼自立者大於有理性的心靈或靈智，卻也是真的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "就物依照與天主理智的關係而稱為真的這方面而言，安瑟誨的話有道理。",
+      "after": "就物依照與天主理智的關係而稱為真的這方面而言，安瑟謨的話有道理。",
+      "status": "corrected",
+      "error_types": [
+        "人名",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟誨",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "人名／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "受造的真理是不是永恆的",
+      "after": "受造的真理是不是永恆的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "受造的真理似乎是永恆的。因為:",
+      "after": "受造的真理似乎是永恆的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "奧斯定在《論自由意志》(De libero arbitrio)卷二第八章說:沒有什麼比圓之理或性質及二加三等於五是更為永恆的。而以上所舉之例的真理，是受造的真理。所以，受造的真理是永恆的。",
+      "after": "奧斯定在《論自由意志》(De libero arbitrio)卷二第八章說：沒有什麼比圓之理或性質及二加三等於五是更為永恆的。而以上所舉之例的真理，是受造的真理。所以，受造的真理是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        480
+      ],
+      "before": "此外，凡是常常存在的，就是永恆的，而普遍者處處時時都存在，所以是永恆的。因此司「真」既是最普遍者，所以也是永恆的。",
+      "after": "此外，凡是常常存在的，就是永恆的，而普遍者處處時時都存在，所以是永恆的。因此，「真」既是最普遍者，所以也是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "因此司",
+          "after": "因此，",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        481
+      ],
+      "before": "此外，一物現在是真的(按:這隱含它現在存在)，那麼，(回歸到過去來看現在)I這物將要存在J'在過去便常常是真的。而正如有關現在存在之物的命題的真理是受造的真理，同樣地，有關將來存在之物的命題的貫理也是受造的真理。所以，有些受造真理是永恆的。",
+      "after": "此外，一物現在是真的(按：這隱含它現在存在)，那麼，(回歸到過去來看現在)「這物將要存在」，在過去便常常是真的。而正如有關現在存在之物的命題的真理是受造的真理，同樣地，有關將來存在之物的命題的真理也是受造的真理。所以，有些受造真理是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "I這物將要存在J'",
+          "after": "「這物將要存在」，",
+          "occurrences": 1,
+          "type": "乱码／引号／标点"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.arg4",
+      "article": 7,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        481
+      ],
+      "before": "此外，凡是沒有開始和終結的，就是永恆的。而可陳述之事物(enuntiabilia)的真理，或我們對事物所做之陳述的真理，沒有開始和終結。因為，如果說真理有開始，那麼，既然(在真理開始以前)沒有真理，買IJ那時說「沒有真理」就是真的了;而且必定是因某種質理是真的，如此則在(所謂)真理開始之前就已經是有真理了。同樣，如果假定真理有終結，那麼在真理終止了之後仍然是有真理，因為那時說「沒有責理」也將是真的。所以，真理是永恆的。",
+      "after": "此外，凡是沒有開始和終結的，就是永恆的。而可陳述之事物(enuntiabilia)的真理，或我們對事物所做之陳述的真理，沒有開始和終結。因為，如果說真理有開始，那麼，既然(在真理開始以前)沒有真理，則那時說「沒有真理」就是真的了；而且必定是因某種真理是真的，如此則在(所謂)真理開始之前就已經是有真理了。同樣，如果假定真理有終結，那麼在真理終止了之後仍然是有真理，因為那時說「沒有真理」也將是真的。所以，真理是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "質理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "責理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        481
+      ],
+      "before": "唯獨天主纔是永恆的，如前面第十題第三節己討論過的。",
+      "after": "唯獨天主才是永恆的，如前面第十題第三節己討論過的。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        481
+      ],
+      "before": "我解答如下:可陳述之事物或我們所陳述之內容的真理，不是別的，而是理智的真理。因為所陳述者，既在理智內，也在語言內。以其在理智內而言，是本然地或本身有真理;以其在語言中而言，~IJ其稱為真的，是因為它表示理智的某種真理，而不是因為在陳述所用的語言內，就像在主體內一樣，存在著買理。就如說尿液健康，不是由於在尿液內存在著健康，而是因為尿液表示動物的健康。同樣，前面第一節也說過了，事物是因理智的真理而被稱為貴的。因此，如果沒有任何理智是永恆的，也就沒有任何真理是永恆的。不過，由於只有天主的理智是永恆的，所以只有在天主的理智內，真理纔有永恆性。但不可因此而說，除了天主之外，還有其他什麼是永恆的『因為如前面第五節所證明的，天主理智的價理就是天主本身。",
+      "after": "我解答如下：可陳述之事物或我們所陳述之內容的真理，不是別的，而是理智的真理。因為所陳述者，既在理智內，也在語言內。以其在理智內而言，是本然地或本身有真理；以其在語言中而言，則其稱為真的，是因為它表示理智的某種真理，而不是因為在陳述所用的語言內，就像在主體內一樣，存在著真理。就如說尿液健康，不是由於在尿液內存在著健康，而是因為尿液表示動物的健康。同樣，前面第一節也說過了，事物是因理智的真理而被稱為真的。因此，如果沒有任何理智是永恆的，也就沒有任何真理是永恆的。不過，由於只有天主的理智是永恆的，所以只有在天主的理智內，真理才有永恆性。但不可因此而說，除了天主之外，還有其他什麼是永恆的，因為如前面第五節所證明的，天主理智的真理就是天主本身。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "買理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "貴的",
+          "after": "真的",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "永恆的『",
+          "after": "永恆的，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "價理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        482
+      ],
+      "before": "圓的性質或理，和二加三等於五，是在天主的理智內有其永恆性。",
+      "after": "圓的性質或理，和二加三等於五，是在天主的理智內有其永恆性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        482
+      ],
+      "before": "一物時時和處處都存在，能有兩種意義:一種是，因為物本身有藉以伸張至一切時間和一切地方者，就如天主本身是時時處處都存在。另一種是，因為物本身沒有藉以被限定於某一地方或時間者;比如說:第一質料是一個，並不是因為它有一個形式，像人因其形式的單一性而是一個人一樣，而是因為它缺少一切有分別作用的形式。在這第二種意義下，說任何普遍者是時時處處都存在，因為，普遍者脫離此時此地或不受此時此地的限定，但不可因此而說它們是永恆的，除非是在永恆的理智內，如果有理智是永恆的。",
+      "after": "一物時時和處處都存在，能有兩種意義：一種是，因為物本身有藉以伸張至一切時間和一切地方者，就如天主本身是時時處處都存在。另一種是，因為物本身沒有藉以被限定於某一地方或時間者；比如說：第一質料是一個，並不是因為它有一個形式，像人因其形式的單一性而是一個人一樣，而是因為它缺少一切有分別作用的形式。在這第二種意義下，說任何普遍者是時時處處都存在，因為，普遍者脫離此時此地或不受此時此地的限定，但不可因此而說它們是永恆的，除非是在永恆的理智內，如果有理智是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        482
+      ],
+      "before": "一物現在存在，在它存在之前，曾經是將要存在，這是因為那時它存在於其原因內，等待原因使它存在。因此，如果去掉了原因，就不會有這將來的物形成。然而，只有第一原因是永恆的。所以，不可因此而說，現在存在的，在過去說它們將要存在，常是真的，除非它們過去是存在於永恆的原因內，等待這永恆的原因使它們將來存在，而只有天主是這永恆的原因。",
+      "after": "一物現在存在，在它存在之前，曾經是將要存在，這是因為那時它存在於其原因內，等待原因使它存在。因此，如果去掉了原因，就不會有這將來的物形成。然而，只有第一原因是永恆的。所以，不可因此而說，現在存在的，在過去說它們將要存在，常是真的，除非它們過去是存在於永恆的原因內，等待這永恆的原因使它們將來存在，而只有天主是這永恆的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a007.ad4",
+      "article": 7,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        482
+      ],
+      "before": "我們的理智不是永恆的，我們對事物所形成的陳述的真理也不是永恆的，而是在某一個時間內開始的。在這種真理存在之前，那時說沒有這種真理，不是真的，除非是天主的理智說的，因為只有在天主的理智內，真理纔是永恆的。可是，現在說那時沒有真理，卻是真的。而這所以是真的，只是因現在存在於我們理智內的真理，而不是因來自事物方面的真理。因為這是關於月間勿」的真理;而非物在自己內沒有什麼使自己藉以成為真的，非物只是藉領悟它的理智才成為真的。因此，說真理(過去)不會存在，說的是真的，是根據我們領悟到真理(過去的)不存在先於它(現今的}存在。",
+      "after": "我們的理智不是永恆的，我們對事物所形成的陳述的真理也不是永恆的，而是在某一個時間內開始的。在這種真理存在之前，那時說沒有這種真理，不是真的，除非是天主的理智說的，因為只有在天主的理智內，真理才是永恆的。可是，現在說那時沒有真理，卻是真的。而這所以是真的，只是因現在存在於我們理智內的真理，而不是因來自事物方面的真理。因為這是關於「非物」的真理；而非物在自己內沒有什麼使自己藉以成為真的，非物只是藉領悟它的理智才成為真的。因此，說真理(過去)不會存在，說的是真的，是根據我們領悟到真理(過去的)不存在先於它(現今的)存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "括号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "月間勿」",
+          "after": "「非物」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        },
+        {
+          "before": "現今的}",
+          "after": "現今的)",
+          "occurrences": 1,
+          "type": "括号"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "真理是不是不變的",
+      "after": "真理是不是不變的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "真理似乎是不變的。因為:",
+      "after": "真理似乎是不變的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "奧斯定在《論自由意志》卷二第十二章說:賢理不與心靈相等，因為如果相等，那就將像心靈一樣，是可變的了。",
+      "after": "奧斯定在《論自由意志》卷二第十二章說：真理不與心靈相等，因為如果相等，那就將像心靈一樣，是可變的了。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "賢理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "此外，凡是經過一切變化之後仍然存在的，就是不變的;比如第一質料是不生不滅的，因為在一切生、滅之後仍然存在。而真理就是在一切變化之後仍然存在;因為在一切變化之後，說一個東西存在或不存在，仍然是真的。所以，廣理是不變的。",
+      "after": "此外，凡是經過一切變化之後仍然存在的，就是不變的；比如第一質料是不生不滅的，因為在一切生、滅之後仍然存在。而真理就是在一切變化之後仍然存在；因為在一切變化之後，說一個東西存在或不存在，仍然是真的。所以，真理是不變的。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "廣理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "此外，如果陳述(enuntiatio，語句、命題)的真理改變，主要是因(所陳述之)事物的改變而改變，然而，如此則真理並不不改變。因為照安瑟爾莫所說的，真理是一種正確無誤，即一物符合那在天主理智內之有關該物者(《論真理》第七章)。然而「蘇格拉底坐著」這個命題，是由天主理智獲得這意義，使它表示蘇格拉底是在坐著;即使蘇格拉底不再是坐著，這個命題仍是表示同樣的意義已所以，命題的真理絕不改變。",
+      "after": "此外，如果陳述(enuntiatio，語句、命題)的真理改變，主要是因(所陳述之)事物的改變而改變，然而，如此則真理並不不改變。因為照安瑟爾莫所說的，真理是一種正確無誤，即一物符合那在天主理智內之有關該物者(《論真理》第七章)。然而「蘇格拉底坐著」這個命題，是由天主理智獲得這意義，使它表示蘇格拉底是在坐著；即使蘇格拉底不再是坐著，這個命題仍是表示同樣的意義。所以，命題的真理絕不改變。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "意義已",
+          "after": "意義。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.arg4",
+      "article": 8,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "此外，有相同的原因，就有相同的妓果。可是，「蘇格拉底現在坐」、「蘇格拉底將要坐」及「蘇格拉底曾經坐」'這三個命題的真理之原因，是同一個事物。所以，這三個命題的真理也是同一的。不過，這三個命題中常有一個應該是真的。所以，這三個命題的真理是不變的。其他任何一個命題也都是如此。",
+      "after": "此外，有相同的原因，就有相同的效果。可是，「蘇格拉底現在坐」、「蘇格拉底將要坐」及「蘇格拉底曾經坐」，這三個命題的真理之原因，是同一個事物。所以，這三個命題的真理也是同一的。不過，這三個命題中常有一個應該是真的。所以，這三個命題的真理是不變的。其他任何一個命題也都是如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "曾經坐」'",
+          "after": "曾經坐」，",
+          "occurrences": 1,
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        483
+      ],
+      "before": "《聖詠》第十一篇2節卻說: 「諸真理已被眾人子消滅4殆盡。」",
+      "after": "《聖詠》第十一篇2節卻說：「諸真理已被眾人子消滅殆盡。」",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "混入数字"
+      ],
+      "changes": [
+        {
+          "before": "消滅4殆盡",
+          "after": "消滅殆盡",
+          "occurrences": 1,
+          "type": "混入数字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        483,
+        484
+      ],
+      "before": "我解答如下:如前面第一節已經說過的，真理本來僅僅存在於理智內，說事物是真的，是由於存在於某一理智內之真理。因此，應該由理智方面來討論真理的不變性。理智的真理在於與被理解之事物相符。而這種相符，就像任何其他相似或相符一樣，可依相關雙方的改變，而有兩種方式的改變。因此，一種方式，真理是由理智方面而有改變，即理智對於一個沒有改變的事物有了不同的意見;另一種方式，在保持原有意見的情形下，事物有了改變。在這兩種情形中的任何一種情形下，都有由真變為假的改變。\n所以，如果有某一個理智，在其內不可能有意見的改變，或者沒有任{哺物能逃過他的認知，那麼在這個理智內就有不變的真理。由前面第十四題第十五節所說，可知天主的理智就是這樣的。因此，天主理智的真理是不變的。而我們理智的真理卻是可蠻的。不是說真理本身是變化的主體，而是說因為我們的理智由真理改變到虛假或錯誤;因為依照這一說法，也可以說形式是有改變的。可是，天主理智的真理，是自然事物據以稱為真的真理，這真理卻是完全不蠻的。",
+      "after": "我解答如下：如前面第一節已經說過的，真理本來僅僅存在於理智內，說事物是真的，是由於存在於某一理智內之真理。因此，應該由理智方面來討論真理的不變性。理智的真理在於與被理解之事物相符。而這種相符，就像任何其他相似或相符一樣，可依相關雙方的改變，而有兩種方式的改變。因此，一種方式，真理是由理智方面而有改變，即理智對於一個沒有改變的事物有了不同的意見；另一種方式，在保持原有意見的情形下，事物有了改變。在這兩種情形中的任何一種情形下，都有由真變為假的改變。\n所以，如果有某一個理智，在其內不可能有意見的改變，或者沒有任何事物能逃過他的認知，那麼在這個理智內就有不變的真理。由前面第十四題第十五節所說，可知天主的理智就是這樣的。因此，天主理智的真理是不變的。而我們理智的真理卻是可變的。不是說真理本身是變化的主體，而是說因為我們的理智由真理改變到虛假或錯誤；因為依照這一說法，也可以說形式是有改變的。可是，天主理智的真理，是自然事物據以稱為真的真理，這真理卻是完全不變的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "任{哺物",
+          "after": "任何事物",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "蠻",
+          "after": "變",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        484
+      ],
+      "before": "奧斯定所談的是天主的真理。",
+      "after": "奧斯定所談的是天主的真理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q016.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        484
+      ],
+      "before": "真和物是可以互換的。因此，就如物本身或本然地(作為物)既不生亦不滅，而只是偶然地有生有滅，即這一個或那一個物有生有滅，如《物理學》卷一第八章所說的;同樣，真理之改變，不是說再也沒有真理了，而是說前有之真理已不復存在了。",
+      "after": "真和物是可以互換的。因此，就如物本身或本然地(作為物)既不生亦不滅，而只是偶然地有生有滅，即這一個或那一個物有生有滅，如《物理學》卷一第八章所說的；同樣，真理之改變，不是說再也沒有真理了，而是說前有之真理已不復存在了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        484,
+        485
+      ],
+      "before": "命題之有真理，不僅僅是說像別的事物之有真理那樣，因為滿全了天主理智關於它們所預先欽定的;說命題有真理，也另有其特殊的意義，即它表示理智的真理。而理智的真理則在於理智與事物之間的相等或相符。如果失去了這種相符，意見的真理就改變了，命題的真理也就隨著改變了。因此，「蘇格拉底坐著」這個命題，當蘇氏坐著時，既因事物的真理而是真的，因為它是本身有所表達或有其含義的語句(vox significativa);也因(對外)有所表明(significatio)的真理而是真的，因為它顯示(理智的)一個真的意見或判斷。然而當蘇氏起立之後，這個命題的第一種真理仍然存在，而第二種真理卻變了。",
+      "after": "命題之有真理，不僅僅是說像別的事物之有真理那樣，因為滿全了天主理智關於它們所預先欽定的；說命題有真理，也另有其特殊的意義，即它表示理智的真理。而理智的真理則在於理智與事物之間的相等或相符。如果失去了這種相符，意見的真理就改變了，命題的真理也就隨著改變了。因此，「蘇格拉底坐著」這個命題，當蘇氏坐著時，既因事物的真理而是真的，因為它是本身有所表達或有其含義的語句(vox significativa)；也因(對外)有所表明(significatio)的真理而是真的，因為它顯示(理智的)一個真的意見或判斷。然而當蘇氏起立之後，這個命題的第一種真理仍然存在，而第二種真理卻變了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q016.a008.ad4",
+      "article": 8,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        485
+      ],
+      "before": "蘇格拉底的「坐」是「蘇格拉底坐」這個命題之真理的原因，但這「坐」'在蘇氏現在坐、坐之後早日坐之前，有著不同的情形。由此而產生的貫理因而也不同，而且是依不同的方式用現在式、過去式和未來式的命題分別表達出來的。所以，雖然這三個命題中常有一個(分別)是貴的，卻不能因此而結論說:是同一個真理恆存不變。",
+      "after": "蘇格拉底的「坐」是「蘇格拉底坐」這個命題之真理的原因，但這「坐」，在蘇氏現在坐、坐之後和坐之前，有著不同的情形。由此而產生的真理因而也不同，而且是依不同的方式用現在式、過去式和未來式的命題分別表達出來的。所以，雖然這三個命題中常有一個(分別)是真的，卻不能因此而結論說：是同一個真理恆存不變。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這「坐」'",
+          "after": "這「坐」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "早日坐之前",
+          "after": "和坐之前",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "貫理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "貴的",
+          "after": "真的",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
