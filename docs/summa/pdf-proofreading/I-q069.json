@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "batch": "I-q069",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "0594119c526c78306889911be4317d1fe58cd785",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q069",
+    "title": "論第三天的工程",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1164,
+      1165,
+      1166,
+      1167,
+      1168,
+      1169,
+      1170
+    ],
+    "printed_pages": [
+      296,
+      302
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 28,
+    "changed_review_units": 20,
+    "checked_unchanged_review_units": 9
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q69.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q69.json": "70fc14cb890bb43af269952ed8309ccb67397762f3b6306a3015d32679e23285"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q069.a001.sed_contra",
+      "pdf_file_page": 1165,
+      "text": "權威己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q069.a001.ad5",
+      "pdf_file_page": 1168,
+      "text": "因此。不論在那裡",
+      "status": "suspected_source_print_error",
+      "action": "原书此处「因此」之后印作句号，疑为逗号，依底本保留，不静默改标点。"
+    },
+    {
+      "id": "I.q069.a001.respondeo",
+      "pdf_file_page": 1166,
+      "text": "己有了天",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q069.a002.respondeo",
+      "pdf_file_page": 1169,
+      "text": "它們己在地內",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q069.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "然後要討論的是第三天的工程(參看第六十七題引言)。\n關於這一點，可以提出兩個問題:\n一、論水的匯合。\n二、論植物的產生。",
+      "after": "然後要討論的是第三天的工程(參看第六十七題引言)。\n關於這一點，可以提出兩個問題：\n一、論水的匯合。\n二、論植物的產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "說水的匯合是在第三天完成是否適宜",
+      "after": "說水的匯合是在第三天完成是否適宜",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "說水的匯合是在第三天完成，似乎不適宜。因為:",
+      "after": "說水的匯合是在第三天完成，似乎不適宜。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "第一天和第二天所造成的一切，是用「有或成就」(factio)這字來表達的，因為《創世紀》說: 「天主說:(要)有(成就，fiat)光」和i(要)有(成就)穹蒼」。可是，第三天是與前兩天並列。所以，第三天的工程也應該用「有或成就」來表達，而不僅用「匯合」。",
+      "after": "第一天和第二天所造成的一切，是用「有或成就」(factio)這字來表達的，因為《創世紀》說：「天主說：(要)有(成就，fiat)光」和「(要)有(成就)穹蒼」。可是，第三天是與前兩天並列。所以，第三天的工程也應該用「有或成就」來表達，而不僅用「匯合」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "和i(要)",
+          "after": "和「(要)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "此外，遍地先都淹水，因此而稱為「看不見的」。所以，地面之上並沒有什麼可以供水匯合的地方。",
+      "after": "此外，遍地先都淹水，因此而稱為「看不見的」。所以，地面之上並沒有什麼可以供水匯合的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "此外，凡彼此並不是連續之物者，就沒有相同的地方。可是，並不是一切的水都彼此相連。所以，並不是一切的水都匯合在相同的地方。",
+      "after": "此外，凡彼此並不是連續之物者，就沒有相同的地方。可是，並不是一切的水都彼此相連。所以，並不是一切的水都匯合在相同的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1164
+      ],
+      "before": "此外，匯合屬於地方或空間運動(motus localis)。可是水卻似乎天性流動，並流向海洋。所以，水的匯合並不需要天主的命令。",
+      "after": "此外，匯合屬於地方或空間運動(motus localis)。可是水卻似乎天性流動，並流向海洋。所以，水的匯合並不需要天主的命令。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1164,
+        1165
+      ],
+      "before": "此外，「地」在自己受造之初，就得此名，因為《窩IJ世紀》說: 「在起初，天主創造了天地。」所以，說在第三天才命名為í\\~主)地J'是不適宜的。",
+      "after": "此外，「地」在自己受造之初，就得此名，因為《創世紀》說：「在起初，天主創造了天地。」所以，說在第三天才命名為「(陸)地」，是不適宜的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《窩IJ世紀》",
+          "after": "《創世紀》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "í\\~主)地J'",
+          "after": "「(陸)地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1165
+      ],
+      "before": "聖經《創世紀》第一章第9等節的權威已足。",
+      "after": "聖經《創世紀》第一章第9等節的權威己足。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "權威已足",
+          "after": "權威己足",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1165,
+        1166
+      ],
+      "before": "我解答如下:於此，按照奧斯定和其他聖人們的詮釋，應該有不同的評說。因為在這一切的工程中，奧斯定並沒有提出時間或存績的秩序，而只提出起源與本性的秩序。因為他說(《創世紀字義新探》卷一第一、第三、第四章)，最初受造的是「未成形的精神體本性」(natura spirit山lis informis)和毫無任何形式的形體本性一一他認為後者即「地」和「水」之名起初所指(同上，卷一第十五章)，並不是因為這種未成形或無形式在時間上先於成形或有形式，而只是在起源上。按照他(同上，卷四第三十四章)，一種成形或有形式也不是在存續上先於另一種成形或有形式，而只是在本性的秩序上。按照這種秩序，首先，應該有至高的，t!~精神體的本性的成形，因此而說在第一天形成了光。可是正如精神體的本性超越形體的本性，同樣地，「高級的形體」(corpus superius)也超越低級的形體。因此其次提及了高級形體的成形，即所謂的「有穹蒼」;這是指將「天上的形式」(forma caelestis)印入「未成形的物質」(materia informis)，此一未成形物質的先存或先在，不是在時間上，而只是在起源上。可是再其次，提及將元素的形式印入不是在時間上，而只是在起源上，先有的未成形的物質。因此，所說的: 「天下的水應聚在一處，使旱地出現」，是指將水的本體形式印入形體的物質，使水藉以宜於有這樣的變動;並也印入地的本體形式，使地藉以宜於如此出現(同上，卷二第十一章)。\n可是按照其他聖人們(參看第六十六題)，在這些工程上也注意到存續或時間的秩序。他們主張，物質的未成形在時間上先於成形，以及一種成形先於另一種成形。可是按照他們，物質的未成形，卻不是指毫無任何形式，因為已有了天、水和地(這三種物的稱謂，有如是顯然可用感官所感覺到者);物質的未成形，是指缺少應該有的區別和某種美麗的成就。按照這三種名稱，聖經列出三種「未成形」。因為「黑暗」的未成形，屬於高級的天;因為光的起源來白天。可是那居中之í7幻的未成形，卻是用「深淵」來表達;因為這一名稱意指水的漫無邊際，正如奧斯定在《駁摩尼教徒褔斯德》卷二十二第十一章所說的。可是地的未成形，卻涉及所說的地是「看不見的和空虛的」'因為地為水所淹沒。\n所以，至高形體的成形是在第一天完成的。因為時間隨天的運行而來，可是時間卻是度量至高形體的運行的數字;藉著這種成形完成了時間的區分，即是畫和夜的區別。可是在第二天形成了中間的形體，即是水，因為穹蒼意指區分與秩序(因此，水的名稱也包括其它物，正如上面第六十八題第三節所說的)。可是在第三天，形成了最後的形體，即是地，使它不再為水所淹沒，而完成了最低的區分，即所謂(陸)地與海洋。因此，正如說地是看不見的和空虛的﹒說明地的未成形;同樣地，它的成形藉著說「使旱地出現」來表達，這是頗為適宜的。",
+      "after": "我解答如下：於此，按照奧斯定和其他聖人們的詮釋，應該有不同的解說。因為在這一切的工程中，奧斯定並沒有提出時間或存續的秩序，而只提出起源與本性的秩序。因為他說(《創世紀字義新探》卷一第一、第三、第四章)，最初受造的是「未成形的精神體本性」(natura spiritualis informis)和毫無任何形式的形體本性——他認為後者即「地」和「水」之名起初所指(同上，卷一第十五章)，並不是因為這種未成形或無形式在時間上先於成形或有形式，而只是在起源上。按照他(同上，卷四第三十四章)，一種成形或有形式也不是在存續上先於另一種成形或有形式，而只是在本性的秩序上。按照這種秩序，首先，應該有至高的，即精神體的本性的成形，因此而說在第一天形成了光。可是正如精神體的本性超越形體的本性，同樣地，「高級的形體」(corpus superius)也超越低級的形體。因此其次提及了高級形體的成形，即所謂的「有穹蒼」；這是指將「天上的形式」(forma caelestis)印入「未成形的物質」(materia informis)，此一未成形物質的先存或先在，不是在時間上，而只是在起源上。可是再其次，提及將元素的形式印入不是在時間上，而只是在起源上，先有的未成形的物質。因此，所說的：「天下的水應聚在一處，使旱地出現」，是指將水的本體形式印入形體的物質，使水藉以宜於有這樣的變動；並也印入地的本體形式，使地藉以宜於如此出現(同上，卷二第十一章)。\n可是按照其他聖人們(參看第六十六題)，在這些工程上也注意到存續或時間的秩序。他們主張，物質的未成形在時間上先於成形，以及一種成形先於另一種成形。可是按照他們，物質的未成形，卻不是指毫無任何形式，因為己有了天、水和地(這三種物的稱謂，有如是顯然可用感官所感覺到者)；物質的未成形，是指缺少應該有的區別和某種美麗的成就。按照這三種名稱，聖經列出三種「未成形」。因為「黑暗」的未成形，屬於高級的天；因為光的起源來自天。可是那居中之「水」的未成形，卻是用「深淵」來表達；因為這一名稱意指水的漫無邊際，正如奧斯定在《駁摩尼教徒福斯德》卷二十二第十一章所說的。可是地的未成形，卻涉及所說的地是「看不見的和空虛的」，因為地為水所淹沒。\n所以，至高形體的成形是在第一天完成的。因為時間隨天的運行而來，可是時間卻是度量至高形體的運行的數字；藉著這種成形完成了時間的區分，即是晝和夜的區別。可是在第二天形成了中間的形體，即是水，因為穹蒼意指區分與秩序(因此，水的名稱也包括其它物，正如上面第六十八題第三節所說的)。可是在第三天，形成了最後的形體，即是地，使它不再為水所淹沒，而完成了最低的區分，即所謂(陸)地與海洋。因此，正如說地是看不見的和空虛的，說明地的未成形；同樣地，它的成形藉著說「使旱地出現」來表達，這是頗為適宜的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不同的評說",
+          "after": "不同的解說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "存績",
+          "after": "存續",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "spirit山lis",
+          "after": "spiritualis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至高的，t!~",
+          "after": "至高的，即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "í7幻",
+          "after": "「水」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔斯德",
+          "after": "福斯德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "空虛的」'",
+          "after": "空虛的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "畫",
+          "after": "晝",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "空虛的﹒",
+          "after": "空虛的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因為已有了天",
+          "after": "因為己有了天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1166,
+        1167
+      ],
+      "before": "按照奧斯定《創世紀字義新探》卷二第十一章，在第三天的工程中，聖經並沒有用「有」或「成就」這字，如同在前面的工程中吋菜，是為顯示高級的形式，即是天使的精神體形式和天上形體的形式，都是完美的存在和固定的;可是低級形體的形式卻是不完美的和變動的。因此，藉著水的匯合和旱地的出現，來表示印入這些形式:「因為水是不穩固而流動的，地卻是穩固而堅定的」'正如奧斯定在《創世紀字義新探》卷二第十一章所說的。可是按照其他聖人，卻應該說，第三天的工程只是按照地方或空問運動是完美的。因此，聖經並不應該用「成就」這字。",
+      "after": "按照奧斯定《創世紀字義新探》卷二第十一章，在第三天的工程中，聖經並沒有用「有」或「成就」這字，如同在前面的工程中一樣，是為顯示高級的形式，即是天使的精神體形式和天上形體的形式，都是完美的存在和固定的；可是低級形體的形式卻是不完美的和變動的。因此，藉著水的匯合和旱地的出現，來表示印入這些形式：「因為水是不穩固而流動的，地卻是穩固而堅定的」，正如奧斯定在《創世紀字義新探》卷二第十一章所說的。可是按照其他聖人，卻應該說，第三天的工程只是按照地方或空間運動是完美的。因此，聖經並不應該用「成就」這字。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "工程中吋菜",
+          "after": "工程中一樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "堅定的」'",
+          "after": "堅定的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "空問",
+          "after": "空間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1167
+      ],
+      "before": "按照奧斯定《自1]世紀釋義一兼駁摩尼教派》卷一第十二章，不應該說地先是為水所淹沒，後來纔有水匯合;而應該說水是在這種匯閤中受造的。\n可是按照其他聖人，解答分為三方面‘正如奧斯定在《創世紀字義新探》卷一第十二章所說的:第一方面，水上升到很高的地方，而匯合在那裡。因為海高於地，這是紅海所證賞的，正如巴西略(《六天創世論贊》第四篇)所說的。第二方面，可以說: 「稀薄的水彷彿是遮蓋著大地的一片雲霧，並因匯合而凝結」。第三方面，可以說: 「地可能是有一些凹的部分，足以容納流入的水」。在這些解答中，第一種似乎是比較可靠的。",
+      "after": "按照奧斯定《創世紀釋義——兼駁摩尼教派》卷一第十二章，不應該說地先是為水所淹沒，後來纔有水匯合；而應該說水是在這種匯合中受造的。\n可是按照其他聖人，解答分為三方面，正如奧斯定在《創世紀字義新探》卷一第十二章所說的：第一方面，水上升到很高的地方，而匯合在那裡。因為海高於地，這是紅海所證實的，正如巴西略(《六天創世論贊》第四篇)所說的。第二方面，可以說：「稀薄的水彷彿是遮蓋著大地的一片雲霧，並因匯合而凝結」。第三方面，可以說：「地可能是有一些凹的部分，足以容納流入的水」。在這些解答中，第一種似乎是比較可靠的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《自1]世紀釋義一兼",
+          "after": "《創世紀釋義——兼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "匯閤",
+          "after": "匯合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三方面‘",
+          "after": "三方面，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "證賞",
+          "after": "證實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1167
+      ],
+      "before": "一切的水都有一個界限，即是海洋，因為水或明或暗都匯流入海洋。因此而稱「水聚在一處」。或說所謂一個地方不是絕對地，而是相對地與旱地相比較;其意義是「水應聚在一處」'即是「與旱地分開」。因為為了表示出水的地方有許多處，後來又說: 「稱水(多數)匯合處為海洋(多數)0 」",
+      "after": "一切的水都有一個界限，即是海洋，因為水或明或暗都匯流入海洋。因此而稱「水聚在一處」。或說所謂一個地方不是絕對地，而是相對地與旱地相比較；其意義是「水應聚在一處」，即是「與旱地分開」。因為為了表示出水的地方有許多處，後來又說：「稱水(多數)匯合處為海洋(多數)。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一處」'",
+          "after": "一處」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "海洋(多數)0 ",
+          "after": "海洋(多數)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1167
+      ],
+      "before": "天主的命令賦予形體本性或自然的運動(motus na凹，ralis)。因此，《聖詠》第一四八篇8節說，它們以自己的本性運動，而「進行祂的話」。或可以說，水依本性處處環繞大地，如同空氣處處籠罩大地和水一樣;可是為了目的的需要，即是為使大地上有動植物，有些地方應該不為水淹沒。有些哲學家把這歸於太陽的功能，即藉著使蒸氣上升而使大地乾燥。可是聖經，不僅《創世紀》，而且《約伯傳》第三十八章10節，卻把這歸於天主的德能。後者以天主的名義說，「是我給海劃定了界jlRJ;《耶肋米亞》第五章22節也說: 「你們不敬畏我嗎?上主的斷語，是我堆積了沙石作海的界限。」",
+      "after": "天主的命令賦予形體本性或自然的運動(motus natu-ralis)。因此，《聖詠》第一四八篇8節說，它們以自己的本性運動，而「進行祂的話」。或可以說，水依本性處處環繞大地，如同空氣處處籠罩大地和水一樣；可是為了目的的需要，即是為使大地上有動植物，有些地方應該不為水淹沒。有些哲學家把這歸於太陽的功能，即藉著使蒸氣上升而使大地乾燥。可是聖經，不僅《創世紀》，而且《約伯傳》第三十八章10節，卻把這歸於天主的德能。後者以天主的名義說，「是我給海劃定了界限」；《耶肋米亞》第五章22節也說：「你們不敬畏我嗎?上主的斷語，是我堆積了沙石作海的界限。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "na凹，ralis",
+          "after": "natu-ralis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "界jlRJ;",
+          "after": "界限」；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "按照奧斯定《創世紀釋義一一兼駁摩尼教派》卷一第十三章，首次提到的「地」'意指「第一物質」或「質料」(materia prima'又譯元質);可是現在「地」卻意指地的元素本身。或可以說，按照巴西略《六天創世論贊》第四篇，首次稱之為地，是按照它的本性;可是現在稱之為地，卻是根據其主要屬性，即是乾旱。因此，《創世紀》說，「稱旱地」為「陸地」。或可以說，按照梅瑟教師《疑問指南》卷二第三十章，不論何處說「祂稱(之)為」'此意指名稱的「雙關」或「雙重意義」(aequivocatio nominis)。因此，《創世紀》先說「祂稱光為主或(白)天」;因為天也意指二十四小時的時間，按照《創世紀》同處又說的:「過了晚上，過了早晨，這是第一夭。」同樣地，說祂稱穹蒼，即是空氣為天，因為天也意指那首先受造者。同樣地，說祂稱旱地，即是地的未被水淹沒的部分為[\"(陸)地J'是根據它與海洋分開而說的。雖然地不論是被水淹沒的，或是未被水淹沒的，一般都命名為地。因此。不論在那裡，「祂稱(之)為」的說法，都是意指「祂賦予(有關之受造物)可以這樣稱呼的本性或屬性」 0",
+      "after": "按照奧斯定《創世紀釋義——兼駁摩尼教派》卷一第十三章，首次提到的「地」，意指「第一物質」或「質料」(materia prima，又譯元質)；可是現在「地」卻意指地的元素本身。或可以說，按照巴西略《六天創世論贊》第四篇，首次稱之為地，是按照它的本性；可是現在稱之為地，卻是根據其主要屬性，即是乾旱。因此，《創世紀》說，「稱旱地」為「陸地」。或可以說，按照梅瑟教師《疑問指南》卷二第三十章，不論何處說「祂稱(之)為」，此意指名稱的「雙關」或「雙重意義」(aequivocatio nominis)。因此，《創世紀》先說「祂稱光為晝或(白)天」；因為天也意指二十四小時的時間，按照《創世紀》同處又說的：「過了晚上，過了早晨，這是第一天。」同樣地，說祂稱穹蒼，即是空氣為天，因為天也意指那首先受造者。同樣地，說祂稱旱地，即是地的未被水淹沒的部分為「(陸)地」，是根據它與海洋分開而說的。雖然地不論是被水淹沒的，或是未被水淹沒的，一般都命名為地。因此。不論在那裡，「祂稱(之)為」的說法，都是意指「祂賦予(有關之受造物)可以這樣稱呼的本性或屬性」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「地」'",
+          "after": "「地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "materia prima'",
+          "after": "materia prima，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祂稱(之)為」'",
+          "after": "祂稱(之)為」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為主或",
+          "after": "為晝或",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一夭",
+          "after": "第一天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "[\"(陸)地J'",
+          "after": "「(陸)地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "說植物的產生是在第三天完成是否適宜",
+      "after": "說植物的產生是在第三天完成是否適宜",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "說植物的產生是在第三天完成，似乎不過宜。因為:",
+      "after": "說植物的產生是在第三天完成，似乎不適宜。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不過宜",
+          "after": "不適宜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1168
+      ],
+      "before": "植物有生命，如同動物有生命一樣。可是動物的產生，卻不是列在分閉的工程之中，而是屬於點綴的工程。所以，也不應該在第三天提及植物的產生，因為第三天屬於分闊的工程。",
+      "after": "植物有生命，如同動物有生命一樣。可是動物的產生，卻不是列在分開的工程之中，而是屬於點綴的工程。所以，也不應該在第三天提及植物的產生，因為第三天屬於分開的工程。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分閉",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1168,
+        1169
+      ],
+      "before": "此外，那屬於對大地的咒罵者，不應該同大地的成形或形成一起被提及。可是不論任何植物的產生，卻都屬於對大地的咒罵。按照《創世紀》第三章17'\"'-'18節所說的:「為了你的緣故，地成了可咒罵的。地要給你生出荊揀和接黎。」所以，不應該在第三天提及植物的普遍產生，因為第三天屬於地的成形或形成。",
+      "after": "此外，那屬於對大地的咒罵者，不應該同大地的成形或形成一起被提及。可是不論任何植物的產生，卻都屬於對大地的咒罵。按照《創世紀》第三章17～18節所說的：「為了你的緣故，地成了可咒罵的。地要給你生出荊棘和蒺藜。」所以，不應該在第三天提及植物的普遍產生，因為第三天屬於地的成形或形成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "17'\"'-'18",
+          "after": "17～18",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "荊揀",
+          "after": "荊棘",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接黎",
+          "after": "蒺藜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1169
+      ],
+      "before": "此外，正如植物依附土地，同樣地，石頭和礦物也依附土地;可是在地的形成中，卻沒有提及它們。所以，也不應該在第三天提及植物。",
+      "after": "此外，正如植物依附土地，同樣地，石頭和礦物也依附土地；可是在地的形成中，卻沒有提及它們。所以，也不應該在第三天提及植物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1169
+      ],
+      "before": "《創世紀》第一章12節說: 「地上要生出青草」'後來又說: 「過了晚上，過了早晨，這是第三天」。",
+      "after": "《創世紀》第一章12節說：「地上要生出青草」，後來又說：「過了晚上，過了早晨，這是第三天」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "青草」'",
+          "after": "青草」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1169,
+        1170
+      ],
+      "before": "我解答如下:正如上文第一節所說的，在第三天，地結束了未成形(informitas)。可是地的未成形，描述的卻有兩種:一是看不見的和空虛的，因為地為水所淹沒;二是無組合的和混沌的，即是沒有應該有的光采或美觀，此乃由為地著衣的植物而獲得。所以，在這第三天，這兩種未成形都被撤除了;因為第一種未成形的撤除，是藉著水聚在一處，使旱地出現。第二種未成形的撤除，卻是藉著地生出了青草。\n可是關於植物的產生，奧斯定與其他人的意見卻不相同。因為其他的詮釋者主張，在這第三天，按照其種類實際生出7各式各樣的植物，這是按照字面所出示的意義。可是奧斯定在《創世紀字義新探》卷五第凹章卻說: 「聖經說，地生出了植物與樹木，是著眼於其原因，即是地獲得了生出植物和樹木的能力C 」聖經的權威也證實此點。因為《創世紀》第二章4\"\"\"-'5節說: 「這是創造天地的來歷:在上主天主創造天地時，地上還沒有灌木，田間也沒有生出蔬菜。_」所以，在地還沒有生出它們以前，它們已在地內在其原因中受造。理智也可以證明這一點。因為在最初的幾天，天主以「起源」或「原因的方式」(origina1iter vel causaliter)，創造了受造物，遂即停止了這一工程;可是祂後來卻管理受造之物，藉著「繁殖的工程」(opus propagationis)'「到現在一直玉作」(《若望福音》第五章17節)。可是由地中生出植物，卻屬於繁殖的工程。所以，在第三天，並沒有實際或現實地生出植物，而只在其原因內(或只生出其原因)。\n雖然如此，按照其他的人，仍然可以說，種類的最初建立屬於六天的工程;可是從最初建立的種類而生出種類相同者，這卻屬於萬物的管理。這也是聖經所說的:「地上還沒有」'或「田間也沒有生出」。即是從種類相同之物還沒有生出種類相同者，如同我們現在所看見的經由種子的本性或自然生成一樣。所以，《創世紀》強調說:「地上要生出青草，都含有種子」'即是因為生出7植物的完美種類，由這些種類，而生出其它的種子。至於在那裡有結種或生殖的能力，在根上、或在幹上、或在果實上，這都無關重要。",
+      "after": "我解答如下：正如上文第一節所說的，在第三天，地結束了未成形(informitas)。可是地的未成形，描述的卻有兩種：一是看不見的和空虛的，因為地為水所淹沒；二是無組合的和混沌的，即是沒有應該有的光采或美觀，此乃由為地著衣的植物而獲得。所以，在這第三天，這兩種未成形都被撤除了；因為第一種未成形的撤除，是藉著水聚在一處，使旱地出現。第二種未成形的撤除，卻是藉著地生出了青草。\n可是關於植物的產生，奧斯定與其他人的意見卻不相同。因為其他的詮釋者主張，在這第三天，按照其種類實際生出了各式各樣的植物，這是按照字面所出示的意義。可是奧斯定在《創世紀字義新探》卷五第四章卻說：「聖經說，地生出了植物與樹木，是著眼於其原因，即是地獲得了生出植物和樹木的能力。」聖經的權威也證實此點。因為《創世紀》第二章4～5節說：「這是創造天地的來歷：在上主天主創造天地時，地上還沒有灌木，田間也沒有生出蔬菜。」所以，在地還沒有生出它們以前，它們己在地內在其原因中受造。理智也可以證明這一點。因為在最初的幾天，天主以「起源」或「原因的方式」(originaliter vel causaliter)，創造了受造物，遂即停止了這一工程；可是祂後來卻管理受造之物，藉著「繁殖的工程」(opus propagationis)，「到現在一直工作」(《若望福音》第五章17節)。可是由地中生出植物，卻屬於繁殖的工程。所以，在第三天，並沒有實際或現實地生出植物，而只在其原因內(或只生出其原因)。\n雖然如此，按照其他的人，仍然可以說，種類的最初建立屬於六天的工程；可是從最初建立的種類而生出種類相同者，這卻屬於萬物的管理。這也是聖經所說的：「地上還沒有」，或「田間也沒有生出」。即是從種類相同之物還沒有生出種類相同者，如同我們現在所看見的經由種子的本性或自然生成一樣。所以，《創世紀》強調說：「地上要生出青草，都含有種子」，即是因為生出了植物的完美種類，由這些種類，而生出其它的種子。至於在那裡有結種或生殖的能力，在根上、或在幹上、或在果實上，這都無關重要。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生出7",
+          "after": "生出了",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹章",
+          "after": "第四章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力C ",
+          "after": "能力。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "4\"\"\"-'5",
+          "after": "4～5",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蔬菜。_",
+          "after": "蔬菜。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "origina1iter",
+          "after": "originaliter",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "propagationis)'",
+          "after": "propagationis)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "玉作",
+          "after": "工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地上還沒有」'",
+          "after": "地上還沒有」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "種子」'",
+          "after": "種子」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "它們已在地內",
+          "after": "它們己在地內",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1170
+      ],
+      "before": "植物的生命是隱而不顯的，因為植物並沒有地方或空間運動與感覺，而這些是有動物生命者與無動物生命者的最大區別。所以，由於植物固定地依附於土地，所以，將它們的產生列為有如是土地的某種成形或形成。",
+      "after": "植物的生命是隱而不顯的，因為植物並沒有地方或空間運動與感覺，而這些是有動物生命者與無動物生命者的最大區別。所以，由於植物固定地依附於土地，所以，將它們的產生列為有如是土地的某種成形或形成。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q069.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1170
+      ],
+      "before": "縱使在那咒罵之前，也已有荊棘與葔黎產生，或是現實地，或是在其產生能力中，可是它們的產生卻不算是懲罰人;即是人為了食物而耕耘的土地，會生出無果實和有害之物。因此，《創世紀》第三章18節說:「地要給你生出荊棘與英蓉，你要喫田間的蔬菜」。",
+      "after": "縱使在那咒罵之前，也已有荊棘與蒺藜產生，或是現實地，或是在其產生能力中，可是它們的產生卻不算是懲罰人；即是人為了食物而耕耘的土地，會生出無果實和有害之物。因此，《創世紀》第三章18節說：「地要給你生出荊棘與蒺藜，你要喫田間的蔬菜」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "葔黎",
+          "after": "蒺藜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "英蓉",
+          "after": "蒺藜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q069.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1170
+      ],
+      "before": "梅瑟只提出了顯而易見的事物，正如上面第六十八題第三節所說的。可是礦物的產生，卻是在地層中，是隱而不露的。再者，它們與地並沒有顯著的區別，卻看來好像是地的一種。因此，並沒有提及它們。",
+      "after": "梅瑟只提出了顯而易見的事物，正如上面第六十八題第三節所說的。可是礦物的產生，卻是在地層中，是隱而不露的。再者，它們與地並沒有顯著的區別，卻看來好像是地的一種。因此，並沒有提及它們。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
