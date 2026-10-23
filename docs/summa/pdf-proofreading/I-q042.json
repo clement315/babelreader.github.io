@@ -1,0 +1,2094 @@
+{
+  "schema_version": 1,
+  "batch": "I-q042",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "697909623cb0a1cccabf4e45ef154a7f3dc5bd2e",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q042",
+    "title": "論天主位格間的相同與相似",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      818,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833
+    ],
+    "printed_pages": [
+      602,
+      617
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 78,
+    "changed_review_units": 58,
+    "checked_unchanged_review_units": 21
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q42.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q42.json": "3277f1964d1810cd53fa7d65b3c778fe665e6e011ec3d58a3f9792f8154c3ef7"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q042.a001.arg3",
+      "pdf_file_page": 819,
+      "text": "但不是那物與肖像相等。可是",
+      "status": "suspected_source_print_error",
+      "action": "原页引文在「相等」后缺闭引号，保留原书。"
+    },
+    {
+      "id": "I.q042.a001.respondeo",
+      "pdf_file_page": 819,
+      "text": "不相同或相等之物",
+      "status": "suspected_source_print_error",
+      "action": "原书此处疑漏第二个否定，按底本保留。"
+    },
+    {
+      "id": "I.q042.a003.respondeo",
+      "pdf_file_page": 826,
+      "text": "按照奧斯定《駁馬西米諾》卷二第十四章)",
+      "status": "suspected_source_print_error",
+      "action": "原页只印右括号而无对应左括号，保留原书。"
+    },
+    {
+      "id": "I.q042.a004.arg1",
+      "pdf_file_page": 827,
+      "text": "第十四章二28節",
+      "status": "suspected_source_print_error",
+      "action": "原页节数前多印「二」，按原书保留。"
+    },
+    {
+      "id": "I.q042.a006.arg2",
+      "pdf_file_page": 831,
+      "text": "第五章20所說的",
+      "status": "suspected_source_print_error",
+      "action": "原书缺「节」，保留原书不补。"
+    },
+    {
+      "id": "I.q042.a004.ad2",
+      "pdf_file_page": 829,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q042.a005.ad3",
+      "pdf_file_page": 831,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q042.a006.respondeo",
+      "pdf_file_page": 832,
+      "text": "第四節己指明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部16页逐页核对，引文与拉丁附注、大小及相同相似等术语按原页修复。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q042.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "然後要討論的是，天主位格間的比較關係(參看第三十九題引言)。首先討論相同與相似;其次討論差遣或派遣(第四十三題)。\n關於第一點，可以提出六個問題:\n一、在天主的位格間是否容許有相同ω\n二、出發的位格與其所tt出的位格，是否有永恆性方面的相同。\n三、在天主的位格間是否有某種秩序。\n四、天主的位格在大小方面是否相同。\n五、一位格是否在另一位格內。\n六、天主的位格在能力方面是否相同。",
+      "after": "然後要討論的是，天主位格間的比較關係(參看第三十九題引言)。首先討論相同與相似；其次討論差遣或派遣(第四十三題)。\n關於第一點，可以提出六個問題：\n一、在天主的位格間是否容許有相同。\n二、出發的位格與其所從出的位格，是否有永恆性方面的相同。\n三、在天主的位格間是否有某種秩序。\n四、天主的位格在大小方面是否相同。\n五、一位格是否在另一位格內。\n六、天主的位格在能力方面是否相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相同ω",
+          "after": "相同。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所tt出",
+          "after": "所從出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "在天主(位格)間是否容許有相同",
+      "after": "在天主(位格)間是否容許有相同",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "似乎不適於把相同(aequalitas‘同樣、同等、平等、相等)歸於天主的(三)位格。因為:",
+      "after": "似乎不適於把相同(aequalitas，同樣、同等、平等、相等)歸於天主的(三)位格。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "aequalitas‘",
+          "after": "aequalitas，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        818
+      ],
+      "before": "相同意指同一的分量，正如哲學家在《形上學》卷五第十五章所指明的。可是在天主的位格內，既沒有稱為大小的內在連續分量，也沒有稱為地方與時間的外在連續分量;而且按照非連續的分量，在祂們內也沒有相同，因為二個位格多於一個位格。所以，相同不通於天主的(三)位格或天主三位。",
+      "after": "相同意指同一的分量，正如哲學家在《形上學》卷五第十五章所指明的。可是在天主的位格內，既沒有稱為大小的內在連續分量，也沒有稱為地方與時間的外在連續分量；而且按照非連續的分量，在祂們內也沒有相同，因為二個位格多於一個位格。所以，相同不適於天主的(三)位格或天主三位。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相同不通於",
+          "after": "相同不適於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        818,
+        819
+      ],
+      "before": "此外，天主三位屬於一個本體，正如第三十九題第二節所說的。可是本體是以形式的方式來表示。而在形式方面的共有或相合，並不構成相同，只構成相似。所以，應該說在天主三位間有相似，而不應該說有相同。",
+      "after": "此外，天主三位屬於一個本體，正如第三十九題第二節所說的。可是本體是以形式的方式來表示。而在形式方面的共有或相合，並不構成相同，只構成相似。所以，應該說在天主三位間有相似，而不應該說有相同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        819
+      ],
+      "before": "此外，凡是在其內有相同或相等的一切，彼此都是相同的或相等的;因為所謂相同或相等者，是指與中目問者相同或與相等者相等。可是天主三位卻不可能稱為彼此相同或相等。因為正如奧斯定在《論天主聖三》卷六第十章所說的: 「如果肖像完美地或圓滿地合於肖像所表示之物，那麼肖像就與它所表示之物相等，但不是那物與肖像相等。可是聖父的肖像卻是聖子;如此則聖父就不是與聖子相等。所以，在天主三位問並沒有相同或相等。",
+      "after": "此外，凡是在其內有相同或相等的一切，彼此都是相同的或相等的；因為所謂相同或相等者，是指與相同者相同或與相等者相等。可是天主三位卻不可能稱為彼此相同或相等。因為正如奧斯定在《論天主聖三》卷六第十章所說的：「如果肖像完美地或圓滿地合於肖像所表示之物，那麼肖像就與它所表示之物相等，但不是那物與肖像相等。可是聖父的肖像卻是聖子；如此則聖父就不是與聖子相等。所以，在天主三位間並沒有相同或相等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中目問者",
+          "after": "相同者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三位問",
+          "after": "三位間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        819
+      ],
+      "before": "此外，相同或相等是一種關係。可是無一關係是天主三位共有的;因為天主三位是根據關係而相互區別。所以，相同或相等並不適於天主三位。",
+      "after": "此外，相同或相等是一種關係。可是無一關係是天主三位共有的；因為天主三位是根據關係而相互區別。所以，相同或相等並不適於天主三位。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        819
+      ],
+      "before": "《亞達納修信經「不拘誰」》中說: 「天主三位彼此都是同為永恆的和同等的。」",
+      "after": "《亞達納修信經「不拘誰」》中說：「天主三位彼此都是同為永恆的和同等的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        819,
+        820
+      ],
+      "before": "我解答如下:必須肯定在天主三位間有相同或相等。因為按照哲學家在《形上學》卷十第五章所說，所謂相等，有如是說否定有犬有小。可是我們卻不能說在天主三位內有什麼犬小或更大更小;因為正如波其武在《論天主聖三》第一章所說的: 「他們念念不忘差異」'即天主性的差異，「他們或增或滅，就像亞略派人士一樣，後者藉不同的卓越等級，使天主三位一體形成多樣化並分解了祂，同時也使祂降為多樣多體。」\n個中理由是，因為不相同或相等之物，不可能是同一個分量。可是在天主內，分量卻只不過是天主的本體而已。所以，如果在天主三位間有任何不相同或不相等，那麼在祂們內便不是同一個本體;如此則天主三位不是同一個天主，而這是不可能的。所以，應該肯定在天主三位間有相同或相等。",
+      "after": "我解答如下：必須肯定在天主三位間有相同或相等。因為按照哲學家在《形上學》卷十第五章所說，所謂相等，有如是說否定有大有小。可是我們卻不能說在天主三位內有什麼大小或更大更小；因為正如波其武在《論天主聖三》第一章所說的：「他們念念不忘差異」，即天主性的差異，「他們或增或減，就像亞略派人士一樣，後者藉不同的卓越等級，使天主三位一體形成多樣化並分解了祂，同時也使祂降為多樣多體。」\n個中理由是，因為不相同或相等之物，不可能是同一個分量。可是在天主內，分量卻只不過是天主的本體而已。所以，如果在天主三位間有任何不相同或不相等，那麼在祂們內便不是同一個本體；如此則天主三位不是同一個天主，而這是不可能的。所以，應該肯定在天主三位間有相同或相等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有犬有小",
+          "after": "有大有小",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "犬小",
+          "after": "大小",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「他們念念不忘差異」'",
+          "after": "「他們念念不忘差異」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "或增或滅",
+          "after": "或增或減",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        820
+      ],
+      "before": "分量有兩種:一種是體積的分量或有(高、長、寬等)向度的(dimensiva)分量，它只存在於形體物內;因此，在天主三位內並沒有這種分量。另一種是根據某種本叫形式的完美而考量的能力的分量(quantitas virtutis);標明這種分量的根據，就像說一物有較大的熱量(較熱)或有較小的熱量(比較不熱)，這是根據它在熱方面較更完美或較不完美。考量這種能力的分量，首先要注意其根本，即其形式或本性的完美本身;如此則稱為非形體的大小，例如:由於熱的強烈和完美而說它是大熱。因此，奧斯定在《論天主聖三》卷六第八章說:「在那些非因體積而稱為大的物內，凡是較好的，也就是較大的」;因為凡是較完美的，也就是較好的。關於能力的分量，其次要注意的是形式的效果。而形式的第一種效果是存在;因為萬物都循自己的形式而存在。形式的第二種效果是動作或行動;因為一切的主動者或行動者都藉自己的形式而行動。所以，考量能力的分章，既要根據存在，也要根據行動;要根據存在，因為那些有更完美本性者，其存在也持續更久或有更大分量的持續;至於要根據行動，因為那些有更完美本性者，也有更大的行動能力。所以，正如奧斯定在《致伯多祿執事論信德》第一章中所說: 「所謂在天主聖父、聖子和聖神內的相等或相同」'意思是說: 「其中沒有任何-位，或在永恆性方面領先，或在大小方面超出，或在能力方面取勝。」",
+      "after": "分量有兩種：一種是體積的分量或有(高、長、寬等)向度的(dimensiva)分量，它只存在於形體物內；因此，在天主三位內並沒有這種分量。另一種是根據某種本性或形式的完美而考量的能力的分量(quantitas virtutis)；標明這種分量的根據，就像說一物有較大的熱量(較熱)或有較小的熱量(比較不熱)，這是根據它在熱方面較更完美或較不完美。考量這種能力的分量，首先要注意其根本，即其形式或本性的完美本身；如此則稱為非形體的大小，例如：由於熱的強烈和完美而說它是大熱。因此，奧斯定在《論天主聖三》卷六第八章說：「在那些非因體積而稱為大的物內，凡是較好的，也就是較大的」；因為凡是較完美的，也就是較好的。關於能力的分量，其次要注意的是形式的效果。而形式的第一種效果是存在；因為萬物都循自己的形式而存在。形式的第二種效果是動作或行動；因為一切的主動者或行動者都藉自己的形式而行動。所以，考量能力的分量，既要根據存在，也要根據行動；要根據存在，因為那些有更完美本性者，其存在也持續更久或有更大分量的持續；至於要根據行動，因為那些有更完美本性者，也有更大的行動能力。所以，正如奧斯定在《致伯多祿執事論信德》第一章中所說：「所謂在天主聖父、聖子和聖神內的相等或相同」，意思是說：「其中沒有任何一位，或在永恆性方面領先，或在大小方面超出，或在能力方面取勝。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本叫形式",
+          "after": "本性或形式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力的分章",
+          "after": "能力的分量",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相等或相同」'",
+          "after": "相等或相同」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "任何-位",
+          "after": "任何一位",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        820,
+        821
+      ],
+      "before": "如果是根據能力的分量來考量相同或同等，那麼它在自己內就包括有相似，以及甚於相似者;因為它排除超出或偏離。因為凡共有同一形式之物，都能稱為相似，縱然並不是同等地分享那形式，例如:說在熱的方面空氣相似火;可是如果一物比另一物更完美地分享那形式，那麼它們就不能稱為相同或同等。由於在天主聖父和聖子內的本性，不僅是同一本性，而且也是以同等的完美方式在二者內，所以我們不僅說「聖子相似聖父」'以排除優腦米伍(Eunomius)的錯誤;而且我們也說「聖子與聖父相同或同等」'以排除亞略的錯誤。",
+      "after": "如果是根據能力的分量來考量相同或同等，那麼它在自己內就包括有相似，以及甚於相似者；因為它排除超出或偏離。因為凡共有同一形式之物，都能稱為相似，縱然並不是同等地分享那形式，例如：說在熱的方面空氣相似火；可是如果一物比另一物更完美地分享那形式，那麼它們就不能稱為相同或同等。由於在天主聖父和聖子內的本性，不僅是同一本性，而且也是以同等的完美方式在二者內，所以我們不僅說「聖子相似聖父」，以排除優瑙米伍(Eunomius)的錯誤；而且我們也說「聖子與聖父相同或同等」，以排除亞略的錯誤。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「聖子相似聖父」'",
+          "after": "「聖子相似聖父」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "優腦米伍",
+          "after": "優瑙米伍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「聖子與聖父相同或同等」'",
+          "after": "「聖子與聖父相同或同等」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        821
+      ],
+      "before": "在天主內，相等或相似可用兩種方式來表示，即是用名詞和用動詞。就其用名詞來表示而言，貝IJ說在天主三位內彼此有相等和相似;因為聖子與聖父相等和相似，反過來聖父與聖子亦然。這是因為聖父的天主本體並不大於聖子的天主本體;所以，正如聖子有聖父的「大小」'亦即聖子與聖父相等，同樣地，聖父也有聖子的「大/的，亦即聖父與聖子相等。可是關於受造物，正如狄奧尼修在《神名論》第九章所說的，「頁。(在受造物與造物主天主之問)沒有相互的相等和相似」。因為說效果相似原因，是因為效果有原因的形式;可是卻不能反過來說(原因相似效果和有效果的形式)，因為形式是主要地在原因內，次要地在效果內。至於動詞則是用變動來表示相等。雖然在天主內並沒有變動，但有受或得(accipere)。由於聖子之與聖父桐等是得之於聖父，而反過來則不然，所以我們說「聖子相等於聖父」'卻不能反過來說(聖父相等於聖子)0(按:人間父子關係亦有類似情形。例如張家父子，由於子生於父，所以:一、我們說兒子姓張，是因為父親姓張，卻不反過來說父親姓張，是因為兒子姓張;二、我們說兒子面貌相似父親，甚至一模一樣，卻不反過來說父親相似兒子，甚至一模一樣)",
+      "after": "在天主內，相等或相似可用兩種方式來表示，即是用名詞和用動詞。就其用名詞來表示而言，則說在天主三位內彼此有相等和相似；因為聖子與聖父相等和相似，反過來聖父與聖子亦然。這是因為聖父的天主本體並不大於聖子的天主本體；所以，正如聖子有聖父的「大小」，亦即聖子與聖父相等，同樣地，聖父也有聖子的「大小」，，亦即聖父與聖子相等。可是關於受造物，正如狄奧尼修在《神名論》第九章所說的，「則(在受造物與造物主天主之間)沒有相互的相等和相似」。因為說效果相似原因，是因為效果有原因的形式；可是卻不能反過來說(原因相似效果和有效果的形式)，因為形式是主要地在原因內，次要地在效果內。至於動詞則是用變動來表示相等。雖然在天主內並沒有變動，但有受或得(accipere)。由於聖子之與聖父相等是得之於聖父，而反過來則不然，所以我們說「聖子相等於聖父」，卻不能反過來說(聖父相等於聖子)。(按：人間父子關係亦有類似情形。例如張家父子，由於子生於父，所以：一、我們說兒子姓張，是因為父親姓張，卻不反過來說父親姓張，是因為兒子姓張；二、我們說兒子面貌相似父親，甚至一模一樣，卻不反過來說父親相似兒子，甚至一模一樣)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「大小」'",
+          "after": "「大小」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「大/的",
+          "after": "「大小」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「頁。(",
+          "after": "「則(",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之問",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "桐等",
+          "after": "相等",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「聖子相等於聖父」'",
+          "after": "「聖子相等於聖父」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聖子)0",
+          "after": "聖子)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        821,
+        822
+      ],
+      "before": "在天主的位格或三位內所討論的，無非是三位所共有的本體，和三位藉以相互區別的關係。可是相等兼含有二者:即(一方面)含有三位的區別，因為並不說任何一物與自己相等(按:即常是針對另一物);(另一方面)也含有本體的唯一或一體，因為三位之彼此相等，是由於屬於相同的「大小」和本體。可是顯然地，同一物之與自己之相比或相對，不是基於什麼實在的關係。而關係之與另一關係之相比或相對，也不是藉由其他或第三關係;因為當我們說父性與子性對立或相對時，這對立或相對並不是介於父性和子性間的中間關係。因為(否則的話)，按照上述兩種情形，關係將會無限地增加。所以，在天主三位內，相等與相似並不是在專屬於每一位之關係以外的另一實在關係;而是在自己的觀念中包括有區別三位的關係，以及本體的唯一。因此，大師在《語錄》卷一第三十一題說:於此，「名稱只意指關係」 0",
+      "after": "在天主的位格或三位內所討論的，無非是三位所共有的本體，和三位藉以相互區別的關係。可是相等兼含有二者：即(一方面)含有三位的區別，因為並不說任何一物與自己相等(按：即常是針對另一物)；(另一方面)也含有本體的唯一或一體，因為三位之彼此相等，是由於屬於相同的「大小」和本體。可是顯然地，同一物之與自己之相比或相對，不是基於什麼實在的關係。而關係之與另一關係之相比或相對，也不是藉由其他或第三關係；因為當我們說父性與子性對立或相對時，這對立或相對並不是介於父性和子性間的中間關係。因為(否則的話)，按照上述兩種情形，關係將會無限地增加。所以，在天主三位內，相等與相似並不是在專屬於每一位之關係以外的另一實在關係；而是在自己的觀念中包括有區別三位的關係，以及本體的唯一。因此，大師在《語錄》卷一第三十一題說：於此，「名稱只意指關係」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「名稱只意指關係」 0",
+          "after": "「名稱只意指關係」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        822
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        822
+      ],
+      "before": "出發的位格與自己的本源，就如聖子與聖父，是不是同為永恆的",
+      "after": "出發的位格與自己的本源，就如聖子與聖父，是不是同為永恆的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        822
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        822
+      ],
+      "before": "出發的位格與自己的本源，就如聖子與聖父，似乎不是同為永恆的(coaetema'在永恆性方面是相同的)。因為:",
+      "after": "出發的位格與自己的本源，就如聖子與聖父，似乎不是同為永恆的(coaeterna，在永恆性方面是相同的)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "coaetema'",
+          "after": "coaeterna，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        822,
+        823
+      ],
+      "before": "亞略提出了生或產生的十二種方式:第一種方式是比照線之出於點;它缺少單純性的相等或相同。第二種方式是比照光芒之出於太陽;它缺少本性的相同。第三種方式是比照印記之出於印信;它缺少同性同體和主動功能Q第四種方式是比照由天主釋出善意;它缺少同性同體。第五種方式是比照依附體之出於實體;而依附體缺少自立。第六種方式是比照由物質中抽出形式或形象，如同感官由可感覺之物接受形式或形象;它缺少非物質單純性的相同。第七種方式是比照意願為思想所激發;這種激發只是時間性的。第八種方式是比照變形，例如由銅變成物像;這是物質的變形。第九種方式是被推動或變動出自推動者;於此也出現原因與效果。第卡種方式是比照由物類或類別中引伸出物種或種別;而這方式不適於天主，因為關於聖父與聖子的稱述，並非像稱述物類和物種一樣。第十一種方式是比照技藝創作，就像外在的櫥櫃來自內心的設計一樣。第十二種方式是比照誕生，例如:人生於父親;於此有時間的先後。所以，由此可見，在一物出自另一物的一切方式內，或者缺少本性的相同，或者缺少持續的相同。所以，如果聖子是出自聖父句那麼就應該說聖子或者是小於聖父，或者是後於聖父，或者二者兼是。",
+      "after": "亞略提出了生或產生的十二種方式：第一種方式是比照線之出於點；它缺少單純性的相等或相同。第二種方式是比照光芒之出於太陽；它缺少本性的相同。第三種方式是比照印記之出於印信；它缺少同性同體和主動功能。第四種方式是比照由天主釋出善意；它缺少同性同體。第五種方式是比照依附體之出於實體；而依附體缺少自立。第六種方式是比照由物質中抽出形式或形象，如同感官由可感覺之物接受形式或形象；它缺少非物質單純性的相同。第七種方式是比照意願為思想所激發；這種激發只是時間性的。第八種方式是比照變形，例如由銅變成物像；這是物質的變形。第九種方式是被推動或變動出自推動者；於此也出現原因與效果。第十種方式是比照由物類或類別中引伸出物種或種別；而這方式不適於天主，因為關於聖父與聖子的稱述，並非像稱述物類和物種一樣。第十一種方式是比照技藝創作，就像外在的櫥櫃來自內心的設計一樣。第十二種方式是比照誕生，例如：人生於父親；於此有時間的先後。所以，由此可見，在一物出自另一物的一切方式內，或者缺少本性的相同，或者缺少持續的相同。所以，如果聖子是出自聖父，那麼就應該說聖子或者是小於聖父，或者是後於聖父，或者二者兼是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "功能Q",
+          "after": "功能。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第卡種",
+          "after": "第十種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聖父句那麼",
+          "after": "聖父，那麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        823
+      ],
+      "before": "此外，凡出自其它物的一切，都有本源或原始(prin-cipium)。可是無一永促物有原始或開始。所以，(出自聖父的)聖子並不是永恆的，聖神也不是永恆的。",
+      "after": "此外，凡出自其它物的一切，都有本源或原始(prin-cipium)。可是無一永恆物有原始或開始。所以，(出自聖父的)聖子並不是永恆的，聖神也不是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "永促物",
+          "after": "永恆物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        823
+      ],
+      "before": "此外，凡是朽腐或腐化者，都停止存在。所以，凡是受生者，都開始存在;因為受生的目的就是存在。可是聖子卻是受生於聖父的。所以，祂開始存在，而不是與聖父同為永恆的。",
+      "after": "此外，凡是朽腐或腐化者，都停止存在。所以，凡是受生者，都開始存在；因為受生的目的就是存在。可是聖子卻是受生於聖父的。所以，祂開始存在，而不是與聖父同為永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        823
+      ],
+      "before": "此外，如果聖於是受生於聖父的，那麼聖子或常常是在受生，或有受生的某一時刻。如果祂常常是在受生，由於當一物是在受生的過程中時，就是不完美的，正如像時間和變動等常在形成過程中之連續物所指明的，那麼，聖子就常常是不完美的;而這是不相宜的，所以，有聖子受生的某一時刻。所以，在這時刻以前，聖子還不存在。",
+      "after": "此外，如果聖子是受生於聖父的，那麼聖子或常常是在受生，或有受生的某一時刻。如果祂常常是在受生，由於當一物是在受生的過程中時，就是不完美的，正如像時間和變動等常在形成過程中之連續物所指明的，那麼，聖子就常常是不完美的；而這是不相宜的，所以，有聖子受生的某一時刻。所以，在這時刻以前，聖子還不存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聖於",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        823
+      ],
+      "before": "亞達納修在《信經「不拘誰」》中卻說: 「整個天主三位彼此都是同為永恆的。」",
+      "after": "亞達納修在《信經「不拘誰」》中卻說：「整個天主三位彼此都是同為永恆的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        823,
+        824
+      ],
+      "before": "我解答如下:必須說聖子與聖父是同為永恆的。為明示此點，應該注意，一齣自本源的存在物，其後於自己的本源，能有兩種方式:一種方式是來自主動者或行動者方面，另一種方式是來自主動或行動方面。從行動者方面，運用意志的行動者，與依據本性的行動者，又有不同。因為在運用意志的行動者方面(出於本源者之後於其本源)，是由於時間的選擇;因為正如運用意志的行動者有權能選擇賦予效果的形式，正如前面第四十一題第二節所說的;同樣地，他也有權能選擇那產生效果的時間。可是在依據本性的行動者方面，這一現象的發生，卻是由於行動者並非從起初就有完美的依據本性而行動的能力，而是經過一段時間以後，才獲得它，例如人並不是從起初就能生育。可是從主動或行動方面，那出自本源者之所以受阻而不能與其本源同時存在，是因為行動是連續的或逐漸完成的(suc-cessiva)。因此，假設有一行動者，在自己獲得存在的那一時刻，就立即開始有這樣的行動，仍然不是立即在同一時刻就有效果，而是在(連續)行動終止的那一時刻。\n可是顯然地，按照前面第四十一題第二節所說的，聖父之生聖子，不是以意志，而是以本性。其次，聖父的本性也是從永恆就是完美的。復次，聖父生聖子的行動，並不是連續的;因為如果是連續的，貝lJ天主聖子就是連續地或逐漸地受生，祂的受生也就是物質的和伴有變動的，而這是不可能的。所以，何時有聖父，也就何時有聖子。如此則聖子與聖父是同為永恆的;同樣地，聖神與聖父和聖子也是同為永恆的。",
+      "after": "我解答如下：必須說聖子與聖父是同為永恆的。為明示此點，應該注意，一出自本源的存在物，其後於自己的本源，能有兩種方式：一種方式是來自主動者或行動者方面，另一種方式是來自主動或行動方面。從行動者方面，運用意志的行動者，與依據本性的行動者，又有不同。因為在運用意志的行動者方面(出於本源者之後於其本源)，是由於時間的選擇；因為正如運用意志的行動者有權能選擇賦予效果的形式，正如前面第四十一題第二節所說的；同樣地，他也有權能選擇那產生效果的時間。可是在依據本性的行動者方面，這一現象的發生，卻是由於行動者並非從起初就有完美的依據本性而行動的能力，而是經過一段時間以後，才獲得它，例如人並不是從起初就能生育。可是從主動或行動方面，那出自本源者之所以受阻而不能與其本源同時存在，是因為行動是連續的或逐漸完成的(suc-cessiva)。因此，假設有一行動者，在自己獲得存在的那一時刻，就立即開始有這樣的行動，仍然不是立即在同一時刻就有效果，而是在(連續)行動終止的那一時刻。\n可是顯然地，按照前面第四十一題第二節所說的，聖父之生聖子，不是以意志，而是以本性。其次，聖父的本性也是從永恆就是完美的。復次，聖父生聖子的行動，並不是連續的；因為如果是連續的，則天主聖子就是連續地或逐漸地受生，祂的受生也就是物質的和伴有變動的，而這是不可能的。所以，何時有聖父，也就何時有聖子。如此則聖子與聖父是同為永恆的；同樣地，聖神與聖父和聖子也是同為永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一齣自",
+          "after": "一出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝lJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        824
+      ],
+      "before": "正如奧斯定在《論天主的話》(證道集第一一七篇第六章)所說的，無一受造物的出發或源出方式，能完美地表示天主的生或受生;因此，應該從許多的方式中搜集相似點，使一種方式所缺少的，由另一種方式來彌補。因此，厄弗所大公會議(431年)說: 「願光明告訴你，聖子與聖父常常同在，並是同為永恆的;願聖言明示祂的誕生不可能是承受變動或被動(impassibilitas);願『聖子』的名稱提示給你，祂與聖父的同性同體。」其中尤以言之從理智出發，表示的最為明確;因為「言」並不後於它所從出之理智，除非理智是由潛能而進入現實;而在天主內卻不能如此論說理智。",
+      "after": "正如奧斯定在《論天主的話》(證道集第一一七篇第六章)所說的，無一受造物的出發或源出方式，能完美地表示天主的生或受生；因此，應該從許多的方式中搜集相似點，使一種方式所缺少的，由另一種方式來彌補。因此，厄弗所大公會議(431年)說：「願光明告訴你，聖子與聖父常常同在，並是同為永恆的；願聖言明示祂的誕生不可能是承受變動或被動(impassibilitas)；願『聖子』的名稱提示給你，祂與聖父的同性同體。」其中尤以言之從理智出發，表示的最為明確；因為「言」並不後於它所從出之理智，除非理智是由潛能而進入現實；而在天主內卻不能如此論說理智。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "永恆性排除持續的開始或本源，卻不排除起源的本源。",
+      "after": "永恆性排除持續的開始或本源，卻不排除起源的本源。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "一切的腐朽或腐化都是變化;因此，一切腐化者，都開始不存在，以及終於停止存在。可是天主的生或受生卻不是變化，正如第二十七題第二節所說的。因此，聖子常常受生，聖父常常生。",
+      "after": "一切的腐朽或腐化都是變化；因此，一切腐化者，都開始不存在，以及終於停止存在。可是天主的生或受生卻不是變化，正如第二十七題第二節所說的。因此，聖子常常受生，聖父常常生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "在時間內，一是那不可分者，即時刻或此刻;一是那持續者，即時間;二者不同。可是在永恆性內，那不可分的「現在或此刻」(nunc)卻是常常固定不變的，正如前面第十題第二節釋疑1.、第四節釋疑2.所說的。可是聖子的受生，卻不是在時間的「此刻」'或在時間內，而是在永恆內。因此，可以說聖於常常受生或誕生，以表示永恆性中的現在和常存，正如奧利振所說的(《耶肋米亞釋義》第九篇)。可是，正如教宗額我略一世《倫理叢談》卷一第二十九篇第一章和奧斯定《雜題八十三》第三十七題所說的，更好說聖子是常常受生的或誕生的(natus);這「常常」一詞意指永恆性的常存，這「誕生的」一詞意指受生者的完美。所以，依此而言，聖子既不是不完美的，也不是有時間祂不存在，如同亞略所說的。",
+      "after": "在時間內，一是那不可分者，即時刻或此刻；一是那持續者，即時間；二者不同。可是在永恆性內，那不可分的「現在或此刻」(nunc)卻是常常固定不變的，正如前面第十題第二節釋疑1.、第四節釋疑2.所說的。可是聖子的受生，卻不是在時間的「此刻」，或在時間內，而是在永恆內。因此，可以說聖子常常受生或誕生，以表示永恆性中的現在和常存，正如奧利振所說的(《耶肋米亞釋義》第九篇)。可是，正如教宗額我略一世《倫理叢談》卷一第二十九篇第一章和奧斯定《雜題八十三》第三十七題所說的，更好說聖子是常常受生的或誕生的(natus)；這「常常」一詞意指永恆性的常存，這「誕生的」一詞意指受生者的完美。所以，依此而言，聖子既不是不完美的，也不是有時間祂不存在，如同亞略所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時間的「此刻」'",
+          "after": "時間的「此刻」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聖於",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "在天主的位格內是否有本性的秩序",
+      "after": "在天主的位格內是否有本性的秩序",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "在天主的位格或三位內，似乎沒有本性的秩序。因為:",
+      "after": "在天主的位格或三位內，似乎沒有本性的秩序。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        825
+      ],
+      "before": "在天主內的一切，或是本體，或是位格，或是表記。可是本性的秩序，既不意指本體，也不是三位中的任何一位或表記中的任何γ個表記。所以，在天主三位內沒有本性的秩序。",
+      "after": "在天主內的一切，或是本體，或是位格，或是表記。可是本性的秩序，既不意指本體，也不是三位中的任何一位或表記中的任何一個表記。所以，在天主三位內沒有本性的秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "任何γ個",
+          "after": "任何一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        825,
+        826
+      ],
+      "before": "此外，凡是在其內有本性秩序之諸物，其中之一物先於男一物，至少按照本性和理解是如此。可是在天主三位內卻「沒有什麼先後」'正如亞達納修在《信經「不拘誰」》中所說的。所以，在天主三位內沒有本性的秩序。",
+      "after": "此外，凡是在其內有本性秩序之諸物，其中之一物先於另一物，至少按照本性和理解是如此。可是在天主三位內卻「沒有什麼先後」，正如亞達納修在《信經「不拘誰」》中所說的。所以，在天主三位內沒有本性的秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一物",
+          "after": "另一物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「沒有什麼先後」'",
+          "after": "「沒有什麼先後」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        826
+      ],
+      "before": "此外，凡有秩序者，也有區分。可是在天主內本性沒有區分。所以，在那裡也沒有本性的秩序。",
+      "after": "此外，凡有秩序者，也有區分。可是在天主內本性沒有區分。所以，在那裡也沒有本性的秩序。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        826
+      ],
+      "before": "此外，天主的本性就是祂的本體。可是並不說在天主內有本體的秩序。所以，也沒有本性的秩序。",
+      "after": "此外，天主的本性就是祂的本體。可是並不說在天主內有本體的秩序。所以，也沒有本性的秩序。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        826
+      ],
+      "before": "哪裡有多物而沒有秩序，那裡也就有混亂。可是在天主三位內卻沒有混亂，正如亞達納修(同上)所說的。所以，在那裡有秩序。",
+      "after": "哪裡有多物而沒有秩序，那裡也就有混亂。可是在天主三位內卻沒有混亂，正如亞達納修(同上)所說的。所以，在那裡有秩序。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        826
+      ],
+      "before": "我解答如下:秩序常是針對與某一根元或本源(principi-um)的關係而說的。因此，正如本源有多種說法，即按照位置有點作為本源，按照理智的理解有證明的原理作為本源，以及按照特殊的原因;同樣地，秩序的說法也是如此。可是在天主內，本源是按照起源而說的，不含有先有或在先，正如第三十三題第一節釋疑3.所說的。因此，在天主內，應該有按照起源的秩序，它也不含有先有或在先。按照奧斯定《駁馬西米諾》卷二第十四章)的說法，這種秩序就稱為本性的秩序，按照這秩序，不是一位先於另一位，而是一位出於另一位。",
+      "after": "我解答如下：秩序常是針對與某一根元或本源(principi-um)的關係而說的。因此，正如本源有多種說法，即按照位置有點作為本源，按照理智的理解有證明的原理作為本源，以及按照特殊的原因；同樣地，秩序的說法也是如此。可是在天主內，本源是按照起源而說的，不含有先有或在先，正如第三十三題第一節釋疑3.所說的。因此，在天主內，應該有按照起源的秩序，它也不含有先有或在先。按照奧斯定《駁馬西米諾》卷二第十四章)的說法，這種秩序就稱為本性的秩序，按照這秩序，不是一位先於另一位，而是一位出於另一位。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        826
+      ],
+      "before": "本性的秩序意指一般性的起源表記，而非特殊的起源表記。",
+      "after": "本性的秩序意指一般性的起源表記，而非特殊的起源表記。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        826,
+        827
+      ],
+      "before": "在受造物之中，縱然那出自本源之物，與自己的本源是同時持久存在，可是按照本性和理解，那本源仍然在先，如果討論的著眼點是那為本源者。可是，如果著眼點是原因與效果、和本源與出自本源者的關係本身，那麼顯然地，無論按照本性和理解，這些彼此相關者都是同時的，因為其中之一個包括在另一個的定義內。(按:如「是父親」的這個人，先於那「是兒子」的人;可是父子關係和父子名分卻是同時的，沒有先後。)可是在天主內，關係本身卻都是自立於同一本性內的位格。因此，無論是從本性方面和關係方面，一位格都不可能先於另一位格，縱使按照本性和理解，也不可能是一位格先於另一位格。",
+      "after": "在受造物之中，縱然那出自本源之物，與自己的本源是同時持久存在，可是按照本性和理解，那本源仍然在先，如果討論的著眼點是那為本源者。可是，如果著眼點是原因與效果、和本源與出自本源者的關係本身，那麼顯然地，無論按照本性和理解，這些彼此相關者都是同時的，因為其中之一個包括在另一個的定義內。(按：如「是父親」的這個人，先於那「是兒子」的人；可是父子關係和父子名分卻是同時的，沒有先後。)可是在天主內，關係本身卻都是自立於同一本性內的位格。因此，無論是從本性方面和關係方面，一位格都不可能先於另一位格，縱使按照本性和理解，也不可能是一位格先於另一位格。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "所謂本性的秩序，不是說本性本身有秩序;而是說在天主三位內的秩序，是按本性的起源。",
+      "after": "所謂本性的秩序，不是說本性本身有秩序；而是說在天主三位內的秩序，是按本性的起源。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "「本性」多少含有本源的意義，「本體」貝IJ不如是。因此，稱起源的秩序為本性的秩序，f要於稱之為本體的秩序。",
+      "after": "「本性」多少含有本源的意義，「本體」則不如是。因此，稱起源的秩序為本性的秩序，優於稱之為本體的秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "f要於",
+          "after": "優於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "聖子在大小方面是否與聖父同等",
+      "after": "聖子在大小方面是否與聖父同等",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "按照大小或在大小方面，聖子似乎並不與聖父同等或相等。因為:",
+      "after": "按照大小或在大小方面，聖子似乎並不與聖父同等或相等。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "《若望褔音》第十四章二28節記載耶穌自己說:「父比我大」;宗徒在《格林多前書》第十五章28節也說:「萬物都屈服於祂(子)以後，於自己也要屈服在那使萬物屈服於自己的(父)0 」",
+      "after": "《若望福音》第十四章二28節記載耶穌自己說：「父比我大」；宗徒在《格林多前書》第十五章28節也說：「萬物都屈服於祂(子)以後，子自己也要屈服在那使萬物屈服子自己的(父)。 」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "於自己",
+          "after": "子自己",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(父)0",
+          "after": "(父)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "此外，父性屬於聖父的尊位。可是父性卻不屬於聖子。所以，並非凡聖父所有的一切尊位，聖子都有。所以，在大小方面，聖子與聖父並非同等。",
+      "after": "此外，父性屬於聖父的尊位。可是父性卻不屬於聖子。所以，並非凡聖父所有的一切尊位，聖子都有。所以，在大小方面，聖子與聖父並非同等。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        827
+      ],
+      "before": "此外，那裡有整體與部分，頁1]多個部分大於一個部分或較少的部分;例如:三人大於二人或一人。可是在天主內，卻似乎有涵蓋全部的整體和部分，因為在「關係」或「表記」中含有多個表記。因此，既然在聖父內有三個表記，而在聖子內卻只有兩個，所以，聖子與聖父似乎不是同等的。",
+      "after": "此外，那裡有整體與部分，則多個部分大於一個部分或較少的部分；例如：三人大於二人或一人。可是在天主內，卻似乎有涵蓋全部的整體和部分，因為在「關係」或「表記」中含有多個表記。因此，既然在聖父內有三個表記，而在聖子內卻只有兩個，所以，聖子與聖父似乎不是同等的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "頁1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        828
+      ],
+      "before": "《斐理伯書》第二章6節卻說: 「祂(基督)並沒有以自己與天主同等，為應當把持不拾的。」",
+      "after": "《斐理伯書》第二章6節卻說：「祂(基督)並沒有以自己與天主同等，為應當把持不捨的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不拾",
+          "after": "不捨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        828
+      ],
+      "before": "我解答如下:必須說聖子在大小方面與聖父同等。因為天主的大小無非就是其本性的完美。可是這卻屬於父性和子性的理或性質，即子藉受生而獲致在父內的本性的完美，就如父有這本性的完美一樣。可是因為在人間的生或受生，是由潛能而進入現實的轉變，所以為子者之人，不是從開始即與生者或父相等，而是藉相當的成長才能到達同等的地步，除非由於生之本源的缺陷而有異狀發生。可是從第二十七題第二節、第三十三題第二節釋疑3.及4.和第三節所說的，可知在天主內確實有本義的父性與子性。而且也不能說，聖父的能刀在生(聖子)方面有缺陷;也不能說，聖子是逐漸的轉變而臻於完美。所以，必須說，在大小方面，聖子從永恆就與聖父同等。因此，希拉利在《論主教會議》一書中說: 「剔除肉身的軟弱，剔除孕育的開始和過程，剔除人的一切痛若干日需要，貝IJ一切為子者，按照本性的出生，都與父親相等，因為他們都有相似的本性。」",
+      "after": "我解答如下：必須說聖子在大小方面與聖父同等。因為天主的大小無非就是其本性的完美。可是這卻屬於父性和子性的理或性質，即子藉受生而獲致在父內的本性的完美，就如父有這本性的完美一樣。可是因為在人間的生或受生，是由潛能而進入現實的轉變，所以為子者之人，不是從開始即與生者或父相等，而是藉相當的成長才能到達同等的地步，除非由於生之本源的缺陷而有異狀發生。可是從第二十七題第二節、第三十三題第二節釋疑3.及4.和第三節所說的，可知在天主內確實有本義的父性與子性。而且也不能說，聖父的能力在生(聖子)方面有缺陷；也不能說，聖子是逐漸的轉變而臻於完美。所以，必須說，在大小方面，聖子從永恆就與聖父同等。因此，希拉利在《論主教會議》一書中說：「剔除肉身的軟弱，剔除孕育的開始和過程，剔除人的一切痛苦和需要，則一切為子者，按照本性的出生，都與父親相等，因為他們都有相似的本性。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能刀",
+          "after": "能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "痛若干日需要",
+          "after": "痛苦和需要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        828
+      ],
+      "before": "那些話是論及基督的人性而說的，而在人性方面，基督小於聖父，並屈服於聖父。可是按照天主性，基督卻與聖父同等。這就是亞達納修(在信經「不拘誰」中)所說的: 「基督按照天主性與聖父同等，按照人性小於聖父o 」或按照希拉利在《論天主聖三》卷九第五十四節所說的: 「聖父因賜予者的權威是較大的，但那獲賜同一存在者，卻不是較小的。」他在《論主教會議》中又說: 「聖子的屈服是本性的孝敬」'即對父性權威的承認，可是「其他物的屈服，卻是基於受造的欠缺健全」 0",
+      "after": "那些話是論及基督的人性而說的，而在人性方面，基督小於聖父，並屈服於聖父。可是按照天主性，基督卻與聖父同等。這就是亞達納修(在信經「不拘誰」中)所說的：「基督按照天主性與聖父同等，按照人性小於聖父。 」或按照希拉利在《論天主聖三》卷九第五十四節所說的：「聖父因賜予者的權威是較大的，但那獲賜同一存在者，卻不是較小的。」他在《論主教會議》中又說：「聖子的屈服是本性的孝敬」，即對父性權威的承認，可是「其他物的屈服，卻是基於受造的欠缺健全」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聖父o",
+          "after": "聖父。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「聖子的屈服是本性的孝敬」'",
+          "after": "「聖子的屈服是本性的孝敬」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "欠缺健全」 0",
+          "after": "欠缺健全」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        828,
+        829
+      ],
+      "before": "同等所涉及或關注的是大小。可是在天主內，大小卻是指本性的完美，正如正解己說過的，並屬於本體。因此，在天主內，問等和相似所涉及的，是那些屬於本體者;而且不能根據關係的區別而稱之為不相等或不相似。因此，奧斯定在《駁馬西米諾》卷二第十八章說:「起源的問題是什麼出自什麼，可是同等或相同的問題卻是什麼樣的和怎樣大的。」所以，父性是聖父的尊位，如同是聖父的本體一樣;因為尊位是絕對的，並屬於本體。所以，正如同一本體在父內是父性，在子內是子性;同樣地，同一尊位也是在父內是父性，在子內是子性。所以，這說法是真實的，即凡聖父所有的→切尊位，聖子也都有。但不可因此而推論說，「聖父有父性，所以聖子也有父性」。因為如此則是把(絕對的屬於本體的)「什麼」轉變成(相對的屬於位格的)「針對什麼」;因為聖父和聖子所有的確是同一本體和尊位，但在聖父內，是按照賦予者的關係，而在聖子內卻是按照接受者的關係。",
+      "after": "同等所涉及或關注的是大小。可是在天主內，大小卻是指本性的完美，正如正解己說過的，並屬於本體。因此，在天主內，同等和相似所涉及的，是那些屬於本體者；而且不能根據關係的區別而稱之為不相等或不相似。因此，奧斯定在《駁馬西米諾》卷二第十八章說：「起源的問題是什麼出自什麼，可是同等或相同的問題卻是什麼樣的和怎樣大的。」所以，父性是聖父的尊位，如同是聖父的本體一樣；因為尊位是絕對的，並屬於本體。所以，正如同一本體在父內是父性，在子內是子性；同樣地，同一尊位也是在父內是父性，在子內是子性。所以，這說法是真實的，即凡聖父所有的一切尊位，聖子也都有。但不可因此而推論說，「聖父有父性，所以聖子也有父性」。因為如此則是把(絕對的屬於本體的)「什麼」轉變成(相對的屬於位格的)「針對什麼」；因為聖父和聖子所有的確是同一本體和尊位，但在聖父內，是按照賦予者的關係，而在聖子內卻是按照接受者的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "問等",
+          "after": "同等",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "→切",
+          "after": "一切",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        829
+      ],
+      "before": "在天主內，「關係」並不是涵蓋全部的整體，雖然它也指稱多種關係;因為按照本體和存在，一切關係都是一個或一體，而這相反「涵蓋全部的或普遍性的」(u!1iversalis)之理或性質，因為後者的部分在存在方面彼此都有區分。同樣地，在天主內，「位格」也不是普遍性的，正如第三十題第四節釋漿3.所說的。因此，既不是一切關係大於一個關係;也不是一切位格大於一個位格;因為在每一位格內都有天主本性的整個完美。",
+      "after": "在天主內，「關係」並不是涵蓋全部的整體，雖然它也指稱多種關係；因為按照本體和存在，一切關係都是一個或一體，而這相反「涵蓋全部的或普遍性的」(universalis)之理或性質，因為後者的部分在存在方面彼此都有區分。同樣地，在天主內，「位格」也不是普遍性的，正如第三十題第四節釋疑3.所說的。因此，既不是一切關係大於一個關係；也不是一切位格大於一個位格；因為在每一位格內都有天主本性的整個完美。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "u!1iversalis",
+          "after": "universalis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋漿3.",
+          "after": "釋疑3.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        829
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        829
+      ],
+      "before": "聖子是否在聖父內，以及聖父是否在聖子內",
+      "after": "聖子是否在聖父內，以及聖父是否在聖子內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        829
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        829
+      ],
+      "before": "似乎聖子不是在聖父內，以及聖父也不是在聖子內。因為:",
+      "after": "似乎聖子不是在聖父內，以及聖父也不是在聖子內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        829,
+        830
+      ],
+      "before": "哲學家在《物理學》卷四第三章，提出一物在另一物內的八種方式;而無論按照那一種方式，聖子都不是在聖父內，以及聖父也都不是在聖子內，正如瀏覽每種方式所指明的。所以，聖子並不在聖父內，聖父也不在聖子內。",
+      "after": "哲學家在《物理學》卷四第三章，提出一物在另一物內的八種方式；而無論按照那一種方式，聖子都不是在聖父內，以及聖父也都不是在聖子內，正如瀏覽每種方式所指明的。所以，聖子並不在聖父內，聖父也不在聖子內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        830
+      ],
+      "before": "此外，凡自一物而外出或出離者，都不再在該物內。可是，聖子卻是從永恆就自聖父外出，按照《米該亞》第五章I節所說的:「他的來歷源於互古，達自永遠的時代。」所以，聖子並不在聖父內。",
+      "after": "此外，凡自一物而外出或出離者，都不再在該物內。可是，聖子卻是從永恆就自聖父外出，按照《米該亞》第五章1節所說的：「他的來歷源於亙古，達自永遠的時代。」所以，聖子並不在聖父內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章I節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "互古",
+          "after": "亙古",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        830
+      ],
+      "before": "此外，二對立者，其中之一位不在另一位內。可是聖子與聖父在關係方面彼此對立。所以，一位不在另一位內。",
+      "after": "此外，二對立者，其中之一位不在另一位內。可是聖子與聖父在關係方面彼此對立。所以，一位不在另一位內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        830
+      ],
+      "before": "《若望福音》第十四章10節卻說:「我(子)在父內，父在我內。」",
+      "after": "《若望福音》第十四章10節卻說：「我(子)在父內，父在我內。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        830
+      ],
+      "before": "我解答如下:在聖父與聖子內，可以考慮到三點，即本體，關係與起源;而按照其中任何一點，聖子是在聖父內，聖父也是在聖子內。按照本體，裏父是在聖子內，因為聖父是自己的本體，並將自己的本體，不藉任何轉變，通傳給聖子;因此可作結說，既然聖父的本體在聖子內，那麼聖父也在聖子內。同樣地，既然聖子是自己的本體，因此也可作結說，聖子在聖父內，因為聖子的本體在聖父內。這就是希拉利在《論天主聖三》卷五第三十七節所說的:「我可以說，不變的天主，遵循自己的本性，生不變的天主。所以，在祂(受生者)內的自立性，我們懂作天主的本性，因為是天主在天主內。」按照關係，兩個彼此有對立關係之物，在理解或觀念上，一物顯然是在另一物內。按照起源，顯然地，理智之言的出發，不是向外出發，而是存留在發言者內。而那用言所說出者，也仍保存在言內。關於聖神，也有相同的情形。",
+      "after": "我解答如下：在聖父與聖子內，可以考慮到三點，即本體，關係與起源；而按照其中任何一點，聖子是在聖父內，聖父也是在聖子內。按照本體，聖父是在聖子內，因為聖父是自己的本體，並將自己的本體，不藉任何轉變，通傳給聖子；因此可作結說，既然聖父的本體在聖子內，那麼聖父也在聖子內。同樣地，既然聖子是自己的本體，因此也可作結說，聖子在聖父內，因為聖子的本體在聖父內。這就是希拉利在《論天主聖三》卷五第三十七節所說的：「我可以說，不變的天主，遵循自己的本性，生不變的天主。所以，在祂(受生者)內的自立性，我們懂作天主的本性，因為是天主在天主內。」按照關係，兩個彼此有對立關係之物，在理解或觀念上，一物顯然是在另一物內。按照起源，顯然地，理智之言的出發，不是向外出發，而是存留在發言者內。而那用言所說出者，也仍保存在言內。關於聖神，也有相同的情形。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "裏父",
+          "after": "聖父",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "那些在受造物內所有的，都不足以表達那些屬於天主的事物。因此，聖子不是按照哲學家所提出的任何一種方式在聖父內，反之亦然。可是，此外尚有這種更內在的方式，即說一物在那發出它的本源內的方式;只是在受造物內，由於本源與那出於本源者沒有同一本體，而無這種方式。",
+      "after": "那些在受造物內所有的，都不足以表達那些屬於天主的事物。因此，聖子不是按照哲學家所提出的任何一種方式在聖父內，反之亦然。可是，此外尚有這種更內在的方式，即說一物在那發出它的本源內的方式；只是在受造物內，由於本源與那出於本源者沒有同一本體，而無這種方式。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "聖子出自聖父的外出(exitus)，是按照內在出發的方式，如同言自內心外出或發出，而仍存在於內心一樣。因此，在天主內的這種外出，只是按照關係的區別，而非按照本體方式的差距。",
+      "after": "聖子出自聖父的外出(exitus)，是按照內在出發的方式，如同言自內心外出或發出，而仍存在於內心一樣。因此，在天主內的這種外出，只是按照關係的區別，而非按照本體方式的差距。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "聖子與聖父彼此對立，是按照關係，並不是按照本體。可是兩個彼此有對立關係之物，一物是在男一物內，正如正解已說過的。",
+      "after": "聖子與聖父彼此對立，是按照關係，並不是按照本體。可是兩個彼此有對立關係之物，一物是在另一物內，正如正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一物",
+          "after": "另一物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正解已說過",
+          "after": "正解己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "在能力方面聖子是否與聖父相同",
+      "after": "在能力方面聖子是否與聖父相同",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q042.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "在能力方面或按照能力(potentia)，聖子似乎並不與聖父相同或相等。因為:",
+      "after": "在能力方面或按照能力(potentia)，聖子似乎並不與聖父相同或相等。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "《若望福音》第五章19節說: 「子不能由自己做仟麼，祂看見父做什jJ忌，才能做什麼o 」可是聖父卻能由自己做。所以，按照能力，聖父大於聖子。",
+      "after": "《若望福音》第五章19節說：「子不能由自己做什麼，祂看見父做什麼，才能做什麼。 」可是聖父卻能由自己做。所以，按照能力，聖父大於聖子。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "仟麼",
+          "after": "什麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "什jJ忌",
+          "after": "什麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "什麼o",
+          "after": "什麼。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        831
+      ],
+      "before": "此外，出命者和指教者的能力，大於服從者和聆聽者的能力。可是聖父命令聖子，按照《若望福音》第十四章31節所說的: 「父怎樣命令我.我就照樣去行動。」聖父也指教聖子，按照《若望福音》第五章20所說的: 「父愛子，凡自己所做的都指示給祂。」同樣地，聖子也聆聽，按照《若望福音》第五章30節所說的:「父怎樣告訴我，我就怎樣審判。」所以，聖父比聖子有更大的能力。",
+      "after": "此外，出命者和指教者的能力，大於服從者和聆聽者的能力。可是聖父命令聖子，按照《若望福音》第十四章31節所說的：「父怎樣命令我，我就照樣去行動。」聖父也指教聖子，按照《若望福音》第五章20所說的：「父愛子，凡自己所做的都指示給祂。」同樣地，聖子也聆聽，按照《若望福音》第五章30節所說的：「父怎樣告訴我，我就怎樣審判。」所以，聖父比聖子有更大的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "命令我.",
+          "after": "命令我，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        831,
+        832
+      ],
+      "before": "此外，聖父能生與自己同等的聖子，這屬於聖父的全能;因為奧斯定在《駁馬西米諾》卷二第四章說: 「如果天主聖父未能生與自己同等的聖子，那麼天主聖父的全能在那裡?」可是聖子卻不能生聖子，正如第四十一題第六節釋疑1.及2.所指明的。所以，並不是凡屬於聖父之全能的一切，聖子也能。如此則聖子在能力上並不與聖父相等或相同。",
+      "after": "此外，聖父能生與自己同等的聖子，這屬於聖父的全能；因為奧斯定在《駁馬西米諾》卷二第四章說：「如果天主聖父未能生與自己同等的聖子，那麼天主聖父的全能在那裡?」可是聖子卻不能生聖子，正如第四十一題第六節釋疑1.及2.所指明的。所以，並不是凡屬於聖父之全能的一切，聖子也能。如此則聖子在能力上並不與聖父相等或相同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        832
+      ],
+      "before": "《若望福音》第五章19節說: 「凡父所做的，子也照樣做。」",
+      "after": "《若望福音》第五章19節說：「凡父所做的，子也照樣做。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        832
+      ],
+      "before": "我解答如下:必須說聖子在能力上與聖父相同或相等。因為主動或行動的能力隨本性的完美而來;我們看到在受造物內，一物越有更完美的本性，其行動的能力也越大。可是前面第四節己指明，在天主內的父性與子性之理或性質，要求聖子在大小方面，即在本性的完美方面，與聖父相同或相等。因此應該說，聖子在能力上與聖父相同或相等。聖神針對(聖父和聖子)二者的情形，也是如此。",
+      "after": "我解答如下：必須說聖子在能力上與聖父相同或相等。因為主動或行動的能力隨本性的完美而來；我們看到在受造物內，一物越有更完美的本性，其行動的能力也越大。可是前面第四節己指明，在天主內的父性與子性之理或性質，要求聖子在大小方面，即在本性的完美方面，與聖父相同或相等。因此應該說，聖子在能力上與聖父相同或相等。聖神針對(聖父和聖子)二者的情形，也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        832
+      ],
+      "before": "所謂「子不能由自己做什麼」'這話並不由聖子撤除聖父所有的任何能力;因為立即繼續說: 「凡父所做的，子也照樣做。」它是在指明，聖子是由聖父獲有能力，因為是由聖父獲有本性。因此，希拉利在《論天主聖三》卷九第四十八節說: 「天主本性的唯一是這樣的，即聖子是藉自己而行動，卻不是由自己而行動。」",
+      "after": "所謂「子不能由自己做什麼」，這話並不由聖子撤除聖父所有的任何能力；因為立即繼續說：「凡父所做的，子也照樣做。」它是在指明，聖子是由聖父獲有能力，因為是由聖父獲有本性。因此，希拉利在《論天主聖三》卷九第四十八節說：「天主本性的唯一是這樣的，即聖子是藉自己而行動，卻不是由自己而行動。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「子不能由自己做什麼」'",
+          "after": "「子不能由自己做什麼」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        832
+      ],
+      "before": "聖父的「指示」與聖子的「聆聽」'無非是說聖父將知識通傳給聖子，如同祂將本體通傳給聖子一樣。聖父的「命令」也可能做相同的解釋，即聖父因生聖子而從永恆就給予聖子行動的知識和意志。或者更好說，這是針對基督的人性而說的。",
+      "after": "聖父的「指示」與聖子的「聆聽」，無非是說聖父將知識通傳給聖子，如同祂將本體通傳給聖子一樣。聖父的「命令」也可能做相同的解釋，即聖父因生聖子而從永恆就給予聖子行動的知識和意志。或者更好說，這是針對基督的人性而說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「聆聽」'",
+          "after": "「聆聽」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q042.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        832,
+        833
+      ],
+      "before": "正如同一本體，在聖父內是父性，在聖子內是子性;同樣地，聖父因以而生的能力，與聖子因以而受生的能力，也是同一能力。因此，顯然地，凡聖父所能做的，聖子也能做。可是卻不可因此就說聖子能生;這是將(絕對的)「什麼」轉變為(相對的)「針對什麼υ因為在天主內，「生」意指關係。所以，聖子有聖父所有的同一全能，可是伴有男一關係。因為聖父之有此全能，「有如是給予者」'這就是說「聖父能生」的意思;而聖子之有此全能，「有如是接受者」'這就是說「聖子能受生」的意思。",
+      "after": "正如同一本體，在聖父內是父性，在聖子內是子性；同樣地，聖父因以而生的能力，與聖子因以而受生的能力，也是同一能力。因此，顯然地，凡聖父所能做的，聖子也能做。可是卻不可因此就說聖子能生；這是將(絕對的)「什麼」轉變為(相對的)「針對什麼」；因為在天主內，「生」意指關係。所以，聖子有聖父所有的同一全能，可是伴有另一關係。因為聖父之有此全能，「有如是給予者」，這就是說「聖父能生」的意思；而聖子之有此全能，「有如是接受者」，這就是說「聖子能受生」的意思。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「針對什麼υ",
+          "after": "「針對什麼」；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一關係",
+          "after": "另一關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「有如是給予者」'",
+          "after": "「有如是給予者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「有如是接受者」'",
+          "after": "「有如是接受者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
