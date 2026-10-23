@@ -1,0 +1,1276 @@
+{
+  "schema_version": 1,
+  "batch": "I-q044",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "0cae750479042103829f4a654609be07b2068d35",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q044",
+    "title": "論受造物的出自天主與論萬物的第一原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      869,
+      870,
+      871,
+      872,
+      873,
+      874,
+      875,
+      876,
+      877
+    ],
+    "printed_pages": [
+      1,
+      9
+    ],
+    "question_title_checked_unchanged": false,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 52,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 19
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q44.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q44.json": "80d9219dd37d6dfab02ad8a458ac5a11291535234b23a4e7687d538905c52f0c",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q044.a001.respondeo",
+      "pdf_file_page": 870,
+      "text": "藉本體本質而宜有之者",
+      "status": "suspected_source_print_error",
+      "action": "原书「宜」疑为「自」，保留原字。"
+    },
+    {
+      "id": "I.q044.a004.arg2",
+      "pdf_file_page": 876,
+      "text": "不可能是相同的一個",
+      "status": "suspected_source_print_error",
+      "action": "原书此处否定词可能有误，按底本保留，不以哲学常识改写。"
+    },
+    {
+      "id": "I.q044.a004.ad3",
+      "pdf_file_page": 877,
+      "text": "因除非物分享",
+      "status": "suspected_source_print_error",
+      "action": "原书「因除非」疑缺「为」，依底本恢复，不自行补字。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q044.prologue",
+      "description": "移除混入引言的重复题标题与分节提示，保留原换行转义。"
+    }
+  ],
+  "notes": [
+    "第二集书内页码从1重新起算，PDF869–877对应1–9，非前卷页码偏移。",
+    "全部9页、四节已逐页对齐。",
+    "PDF853–868题外前置页未纳入本题，不宣称已校对。",
+    "仅本地保存。"
+  ],
+  "readings": [
+    {
+      "id": "I.q044.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "論受造物的出白天主與論萬物的第一原因一分為四節一\n在討論天主三位以後，現在我們應該討論受造物的出自天主與萬物的第一原因(參看第二題引言)。這討論分為三部分:第一，論受造物的產生(productio);第二，論受造物的區別(第四十七題);第三，論受造物的保存與掌管(第一0三題)。關於第一部分，共分三點:一、論萬物的第一原因是什麼;二、論受造物出自第一原因的方式(第四十五題);三、論受造物存在的起始(第四十六題)。\n關於第一點，可以提出四個問題:\n一、天主是否萬物的成因。\n二、第一質料是否為天主所創造，抑或是與夭主同等相配，合的原理或根源。\n三、天主是否為萬物的模型原因，或天主之外是否尚有別的模型原因。\n四、天主自己是否為萬物的目的原因。",
+      "after": "\n在討論天主三位以後，現在我們應該討論受造物的出自天主與萬物的第一原因(參看第二題引言)。這討論分為三部分：第一，論受造物的產生(productio)；第二，論受造物的區別(第四十七題)；第三，論受造物的保存與掌管(第一○三題)。關於第一部分，共分三點：一、論萬物的第一原因是什麼；二、論受造物出自第一原因的方式(第四十五題)；三、論受造物存在的起始(第四十六題)。\n關於第一點，可以提出四個問題：\n一、天主是否萬物的成因。\n二、第一質料是否為天主所創造，抑或是與天主同等相配合的原理或根源。\n三、天主是否為萬物的模型原因，或天主之外是否尚有別的模型原因。\n四、天主自己是否為萬物的目的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論受造物的出白天主與論萬物的第一原因一分為四節一",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0三題",
+          "after": "第一○三題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夭主",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相配，合",
+          "after": "相配合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "萬物是否皆必然為天主所創造",
+      "after": "萬物是否皆必然為天主所創造",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "萬物似乎不是皆必然為天主所創造。因為:",
+      "after": "萬物似乎不是皆必然為天主所創造。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        869
+      ],
+      "before": "物之沒有不屬於自己本質之物，這並非不可能，例如:人之沒有白色。可是效果與原因的關係卻似乎不屬於物的本質;因為沒有它，仍然可以瞭解某些物。所以，某些物沒有它，仍然可以存在。所以，有某些不是為天主所創造的物，這並非不可能。",
+      "after": "物之沒有不屬於自己本質之物，這並非不可能，例如：人之沒有白色。可是效果與原因的關係卻似乎不屬於物的本質；因為沒有它，仍然可以瞭解某些物。所以，某些物沒有它，仍然可以存在。所以，有某些不是為天主所創造的物，這並非不可能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        870
+      ],
+      "before": "此外，物之需要成因(causa efficiens)，是為存在。所以，那不能不存在的，就不需要成因。可是無一必然物(neces-sarium)可能不存在;因為它必然存在，就不能不存在。既然萬物中，有許多是必然的，所以，萬物似乎不都是出白天主。",
+      "after": "此外，物之需要成因(causa efficiens)，是為存在。所以，那不能不存在的，就不需要成因。可是無一必然物(neces-sarium)可能不存在；因為它必然存在，就不能不存在。既然萬物中，有許多是必然的，所以，萬物似乎不都是出自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        870
+      ],
+      "before": "此外，凡是有某種原因的，皆可有來自該原因的誰明。可是，在屬於數學的事物內，沒有來自成因或主動原因(causa agens)的證明，正如哲學家在《形上學》卷三第二章所指明的。所以，萬物並不都是來白天主，如同來自主動原因一樣。",
+      "after": "此外，凡是有某種原因的，皆可有來自該原因的證明。可是，在屬於數學的事物內，沒有來自成因或主動原因(causa agens)的證明，正如哲學家在《形上學》卷三第二章所指明的。所以，萬物並不都是來自天主，如同來自主動原因一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "誰明",
+          "after": "證明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        870
+      ],
+      "before": "《羅馬書》第十一章36節說: 「因為萬物都出於祂，依賴祂，而歸於祂。」",
+      "after": "《羅馬書》第十一章36節說：「因為萬物都出於祂，依賴祂，而歸於祂。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        870
+      ],
+      "before": "我解答如下:必須說:凡是以不論任何方式存在的，都出白天主。因為，如果某物內有什麼是藉分享或分有而存在的，那麼它必然是由那藉本體本質而宜有之者所產生的，例如鐵是被火燒的火紅或火熱。可是第三題第四節討論天主的單純性(sim-plicitas)時，已經指明，天主是藉自己而自立存在的存在本身。第七題第一節釋疑3.和第二節也曾說明，凡自立存在的存在只能是單一的:例如，如果白色是自立存在的，就只能是單一的，因為白色是按照接受(白色)物而增多的。\n所以，出白天主的其它一切9並不是自己的存在，而是分享存在。所以，萬物必然是按照存在的不同分享而不同，或為更完美的，或較不完美的，它們都為唯一第一物(primum ens)所形成，而這唯一第一物是最完美的存在。因此，柏拉圖(Plato)《巴曼尼得斯篇》第二十六章說: 「一」必然是在「多」之前。亞里斯多德在《形仁學》卷二第一章說，凡是物之最者與真之最者，就是萬物的原因與一切真的原因，如同熱之最者，也就是一切熱的原因一樣。",
+      "after": "我解答如下：必須說：凡是以不論任何方式存在的，都出自天主。因為，如果某物內有什麼是藉分享或分有而存在的，那麼它必然是由那藉本體本質而宜有之者所產生的，例如鐵是被火燒的火紅或火熱。可是第三題第四節討論天主的單純性(sim-plicitas)時，已經指明，天主是藉自己而自立存在的存在本身。第七題第一節釋疑3.和第二節也曾說明，凡自立存在的存在只能是單一的：例如，如果白色是自立存在的，就只能是單一的，因為白色是按照接受(白色)物而增多的。\n所以，出自天主的其它一切，並不是自己的存在，而是分享存在。所以，萬物必然是按照存在的不同分享而不同，或為更完美的，或較不完美的，它們都為唯一第一物(primum ens)所形成，而這唯一第一物是最完美的存在。因此，柏拉圖(Plato)《巴曼尼得斯篇》第二十六章說：「一」必然是在「多」之前。亞里斯多德在《形上學》卷二第一章說，凡是物之最者與真之最者，就是萬物的原因與一切真的原因，如同熱之最者，也就是一切熱的原因一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其它一切9",
+          "after": "其它一切，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形仁學",
+          "after": "形上學",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "雖然與原因的關係，並不屬於被形成之物的定義，卻是隨那些屬於它的本質者而來。因為根據物之因分享而為物，就可推知它應該是為另一物所形成。因此，這種物不可能不是被形成的，就如人不可能不是會笑的。可是因為「被形成」不是普遍或絕對屬於物的本質，因此，有不被形成之物。",
+      "after": "雖然與原因的關係，並不屬於被形成之物的定義，卻是隨那些屬於它的本質者而來。因為根據物之因分享而為物，就可推知它應該是為另一物所形成。因此，這種物不可能不是被形成的，就如人不可能不是會笑的。可是因為「被形成」不是普遍或絕對屬於物的本質，因此，有不被形成之物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "這種推論，使有些人主張，凡是必然之物都沒有原因，正如《物理學》卷八第一章所說的。可是在利用證明的科學內，這卻顯然是偽的，在這樣的科學內，必然的原理是必然結論的原因。因此，亞里斯多德在《形上學》卷五第五章說，有些必然物有自己的必然性(necessitas)的原因。所以，必須有主動原因，不只是因為效果能不存在，而且也是因為原因如不存在，那麼效果也就不存在。因為這句有條件的話是真的，無論前提和結論是可能存在的，或是不可能的。",
+      "after": "這種推論，使有些人主張，凡是必然之物都沒有原因，正如《物理學》卷八第一章所說的。可是在利用證明的科學內，這卻顯然是偽的，在這樣的科學內，必然的原理是必然結論的原因。因此，亞里斯多德在《形上學》卷五第五章說，有些必然物有自己的必然性(necessitas)的原因。所以，必須有主動原因，不只是因為效果能不存在，而且也是因為原因如不存在，那麼效果也就不存在。因為這句有條件的話是真的，無論前提和結論是可能存在的，或是不可能的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "雖然，數學的數字，在理性或思想方面，是抽象的，可是實際的存在，卻不是抽象的。任何一物，就其有存在來說，理應有主動原因。所以，雖然凡數學所有的一切都有主動原因，可是數學家的研究，卻不涉及它們與主動原因的關係。所以，在屬於數學的科學裡，並不藉用主動原因來證明什麼。",
+      "after": "雖然，數學的數字，在理性或思想方面，是抽象的，可是實際的存在，卻不是抽象的。任何一物，就其有存在來說，理應有主動原因。所以，雖然凡數學所有的一切都有主動原因，可是數學家的研究，卻不涉及它們與主動原因的關係。所以，在屬於數學的科學裡，並不藉用主動原因來證明什麼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "第一質料是否為天主所創造",
+      "after": "第一質料是否為天主所創造",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "第一質料(materia prima'又譯:元質)似乎不是為天主所創造。因為:",
+      "after": "第一質料(materia prima，又譯：元質)似乎不是為天主所創造。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "prima'",
+          "after": "prima，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        871
+      ],
+      "before": "凡是成為一物者，都是由主體(subjectum)與另外某一因素(aliquid aliud)而組成，正如《物理學》卷一第七章所說的。可是第一質料卻沒有主體。所以，第一質料不可能是天主創造的。",
+      "after": "凡是成為一物者，都是由主體(subjectum)與另外某一因素(aliquid aliud)而組成，正如《物理學》卷一第七章所說的。可是第一質料卻沒有主體。所以，第一質料不可能是天主創造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        871,
+        872
+      ],
+      "before": "此外，主動(actio)與被動(passio)彼此相反。可是正如第一主動原理或根源(principium activum)是天主;同樣地，第一被動原理或根源(principium passivum)是質料。所以，天主和第一質料，是兩個彼此相對而分的原理或根源，二者之中，沒有一個是出自另一個。",
+      "after": "此外，主動(actio)與被動(passio)彼此相反。可是正如第一主動原理或根源(principium activum)是天主；同樣地，第一被動原理或根源(principium passivum)是質料。所以，天主和第一質料，是兩個彼此相對而分的原理或根源，二者之中，沒有一個是出自另一個。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        872
+      ],
+      "before": "此外，一切主動者，做成本刊自己者。如此，既然一切主動者，由於是處於現實而有動作，所以，一切被做成者，勢必也是以某種方式處於現實。可是第一質料，以其為第一質料而言，卻只是處於潛能。所以，凡是被做成的，都相反第一質料之本質。",
+      "after": "此外，一切主動者，做成相似自己者。如此，既然一切主動者，由於是處於現實而有動作，所以，一切被做成者，勢必也是以某種方式處於現實。可是第一質料，以其為第一質料而言，卻只是處於潛能。所以，凡是被做成的，都相反第一質料之本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "做成本刊自己",
+          "after": "做成相似自己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        872
+      ],
+      "before": "奧斯定在《懺悔錄》卷十二第七章說: 「主啊!你創造了二物，一物，接近你」'即天使，「另一物，接近無」'即第一質料。",
+      "after": "奧斯定在《懺悔錄》卷十二第七章說：「主啊!你創造了二物，一物，接近你」，即天使，「另一物，接近無」，即第一質料。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "接近你」'",
+          "after": "接近你」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接近無」'",
+          "after": "接近無」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        872,
+        873
+      ],
+      "before": "我解答如下:古代的哲學家們漸漸地、逐步地接近真知識。因為從起初嗎還是粗俗的他們，除了可感覺的物體以外，他們並不認為還有他物。其中有些哲學家承認物都有運動，他們認為物只不過藉著一些依附體，例如:藉著厚(densitas)、薄(raritas)、緊(congregatio)和散(s月regatio)而運動而已。他們假設物體本身是非受造的，他們指定這些依附體變化的某些原因，例如:友誼、不和、理智或其它等等。\n可是後來他們卻藉著理智，而區分閱本體形式與質料; f也們主張質料是非受造的;他們也察覺到物體所產生的變化都是根據本體形式。他們指出這些變化的某些普遍的原因;按照亞里斯多德，這原因是日軌(黃道)，按照柏拉圈，則是觀念或理念。\n可是應該注意的是:質料藉著形式而被限定為固定的(~勿)種或別類;正如某一(物)種或別類的(個別)實體藉著附加給它的依附體，而被限定為固定的存在方式，例如:人藉著「白色的」而獲得限定。所以，二者都以特殊的觀點來研究物，或把它看作是「這一物」'或把它看作是「這樣的物」。因此，他們也為物指定了特殊的主動原因。\n後來其他的一些哲學家，提昇自己，以研究物之為物。他們研究物的原因，不僅是根據物是「這些」物或「這樣的」物，而且是也根據它們是「物」。所以，那作為物之為物的原因者，它之為物的原因，應該是:不只是根據它們藉依附體形式，而為「這樣的」物;也不只是根據它們藉著本體形式，而為「這些」物;而且是也根據凡是無論以什麼方式，屬於它們之存在的一切。如此，則也應該將第一質料列為是物之普遍原因所創造。",
+      "after": "我解答如下：古代的哲學家們漸漸地、逐步地接近真知識。因為從起初，還是粗俗的他們，除了可感覺的物體以外，他們並不認為還有他物。其中有些哲學家承認物都有運動，他們認為物只不過藉著一些依附體，例如：藉著厚(densitas)、薄(raritas)、聚(congregatio)和散(segregatio)而運動而已。他們假設物體本身是非受造的，他們指定這些依附體變化的某些原因，例如：友誼、不和、理智或其它等等。\n可是後來他們卻藉著理智，而區分開本體形式與質料； 他們主張質料是非受造的；他們也察覺到物體所產生的變化都是根據本體形式。他們指出這些變化的某些普遍的原因；按照亞里斯多德，這原因是日軌(黃道)，按照柏拉圖，則是觀念或理念。\n可是應該注意的是：質料藉著形式而被限定為固定的(物)種或別類；正如某一(物)種或別類的(個別)實體藉著附加給它的依附體，而被限定為固定的存在方式，例如：人藉著「白色的」而獲得限定。所以，二者都以特殊的觀點來研究物，或把它看作是「這一物」，或把它看作是「這樣的物」。因此，他們也為物指定了特殊的主動原因。\n後來其他的一些哲學家，提昇自己，以研究物之為物。他們研究物的原因，不僅是根據物是「這些」物或「這樣的」物，而且是也根據它們是「物」。所以，那作為物之為物的原因者，它之為物的原因，應該是：不只是根據它們藉依附體形式，而為「這樣的」物；也不只是根據它們藉著本體形式，而為「這些」物；而且是也根據凡是無論以什麼方式，屬於它們之存在的一切。如此，則也應該將第一質料列為是物之普遍原因所創造。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "從起初嗎還是粗俗",
+          "after": "從起初，還是粗俗",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "緊(congregatio)",
+          "after": "聚(congregatio)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "s月regatio",
+          "after": "segregatio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "區分閱",
+          "after": "區分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "f也們",
+          "after": "他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "柏拉圈",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(~勿)",
+          "after": "(物)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「這一物」'",
+          "after": "「這一物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        873
+      ],
+      "before": "哲學家在《物理學》卷一所說的，是特殊的形成，即從一形式到另一形式，無論是依附體形式或本體形式。可是現在我們卻是在討論物之出自存在的普遍源頭。連質料也不自外於這一「源出」(emanatio)，雖然它是在第一種方式的形成之外。",
+      "after": "哲學家在《物理學》卷一所說的，是特殊的形成，即從一形式到另一形式，無論是依附體形式或本體形式。可是現在我們卻是在討論物之出自存在的普遍源頭。連質料也不自外於這一「源出」(emanatio)，雖然它是在第一種方式的形成之外。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        873
+      ],
+      "before": "被動是主動的效果。因此，被動的第一原理或根源，是主動的第一原理或根源的效果，這是合理的;因為一切不完美之物是由完美之物所產生。因為第一原理或根源應該是最完美的，正如亞里斯多億在《形上學》卷十二第七章所說的。",
+      "after": "被動是主動的效果。因此，被動的第一原理或根源，是主動的第一原理或根源的效果，這是合理的；因為一切不完美之物是由完美之物所產生。因為第一原理或根源應該是最完美的，正如亞里斯多德在《形上學》卷十二第七章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "亞里斯多億",
+          "after": "亞里斯多德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        873
+      ],
+      "before": "這種論詣，並沒有證明質料不是受造的，而僅證明質料並不是毫無形式而受造的。因為雖然一切受造之物都是處於現實的，卻不是純現實(actus purus)。因此，如果凡屬於其存在的整體都是受造的，那麼它所有的潛能部分，也應該是受造的。",
+      "after": "這種論證，並沒有證明質料不是受造的，而僅證明質料並不是毫無形式而受造的。因為雖然一切受造之物都是處於現實的，卻不是純現實(actus purus)。因此，如果凡屬於其存在的整體都是受造的，那麼它所有的潛能部分，也應該是受造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論詣",
+          "after": "論證",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "模型原因是否為天主以外之物",
+      "after": "模型原因是否為天主以外之物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "a模型原因(causa exemplaris)似乎為天主以外之物。因為:",
+      "after": "模型原因(causa exemplaris)似乎為天主以外之物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "a模型",
+          "after": "模型",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "仿照模型之物(exemplatum)相似模型。可是受造物都遠不相似天主。所以，天主並不是萬物的模型原因。",
+      "after": "仿照模型之物(exemplatum)相似模型。可是受造物都遠不相似天主。所以，天主並不是萬物的模型原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "此外，凡因分享而存在之物，都歸於本然或原本存在之物，例如燒紅之物歸於烈火，正如上面第一節所說的。可是凡屬於感覺界的一切，都只是在分享某一(物)種或別類。這一點可由此而加以說明，即一切可感覺之物，不僅是有那屬於其(物)種或別類之本質者，而且本質原素之外，也附帶有那些使其成為個體的原素。所以，必須承認有(在個體之上)本然而存在的(4勿)種或別類，例如:「本然的人」和「本然的馬」等等。這些就是(相關之物)的模型。所以，有某些在天主以外的物，是模型。",
+      "after": "此外，凡因分享而存在之物，都歸於本然或原本存在之物，例如燒紅之物歸於烈火，正如上面第一節所說的。可是凡屬於感覺界的一切，都只是在分享某一(物)種或別類。這一點可由此而加以說明，即一切可感覺之物，不僅是有那屬於其(物)種或別類之本質者，而且本質原素之外，也附帶有那些使其成為個體的原素。所以，必須承認有(在個體之上)本然而存在的(物)種或別類，例如：「本然的人」和「本然的馬」等等。這些就是(相關之物)的模型。所以，有某些在天主以外的物，是模型。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原素之外",
+          "after": "原素之外",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(4勿)",
+          "after": "(物)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "此外，科學與定義，都只論及(物)種或別類本身，卻不關注其個月iJ或特殊部分，因為科學與定義不是討論個別事物的。所以，有一些存在之物，它們是超越個別事物的物或(物)種。這些物都稱為模型。所以，結論與前質疑2.相同。",
+      "after": "此外，科學與定義，都只論及(物)種或別類本身，卻不關注其個別或特殊部分，因為科學與定義不是討論個別事物的。所以，有一些存在之物，它們是超越個別事物的物或(物)種。這些物都稱為模型。所以，結論與前質疑2.相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個月iJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "此外，這似乎與狄奧尼修在《神名論》第五章所說的相同:「存在本身，先於那為生命本身者，也先於那為智慧本身者。」",
+      "after": "此外，這似乎與狄奧尼修在《神名論》第五章所說的相同：「存在本身，先於那為生命本身者，也先於那為智慧本身者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        874
+      ],
+      "before": "模型與觀念或理念是相同的。可是按照奧斯定在《雜題八十三》第四十六題所說的:觀念是「天主的理智所包括的主要形式」。所以，萬物的模型不是在天主之外。",
+      "after": "模型與觀念或理念是相同的。可是按照奧斯定在《雜題八十三》第四十六題所說的：觀念是「天主的理智所包括的主要形式」。所以，萬物的模型不是在天主之外。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        874,
+        875
+      ],
+      "before": "我解答如下:天主是萬物的第一模型原因。為彰顯此點，應該注意:模型為一物的產生是不可或缺的，它使其效果或產物，獲得固定的形式。因為工匠根據所看見的模型而產生質料的固定形式，或是外面所看見的模型、或是在心靈內所領悟的內在模型。可是顯然地，凡自然形成之物都有固定的形式。這些形式的固定或確定，應該歸於天主的智慧，如同歸於第一根原一樣，因為天主的智慧設計了在於萬物之區別的宇宙秩序。所以，應該說:在天主的智慧內，有萬物的理，我們在第十五題第一節稱它們為觀念或理念，即是存在於天主理智內的模型形式。這些模型形式，雖然藉著為物所接受而增加，卻與天主的本體實際並無不同，因為不同之物，分別能以不同的方式，分享天主本體的肖像。所以，天主自己是萬物的第一模型。也可以說在受造物內有其它物的模型，因為有些物是仿照其它的物，或是仿照同種的物，或是仿照額比或近似的物。",
+      "after": "我解答如下：天主是萬物的第一模型原因。為彰顯此點，應該注意：模型為一物的產生是不可或缺的，它使其效果或產物，獲得固定的形式。因為工匠根據所看見的模型而產生質料的固定形式，或是外面所看見的模型、或是在心靈內所領悟的內在模型。可是顯然地，凡自然形成之物都有固定的形式。這些形式的固定或確定，應該歸於天主的智慧，如同歸於第一根原一樣，因為天主的智慧設計了在於萬物之區別的宇宙秩序。所以，應該說：在天主的智慧內，有萬物的理，我們在第十五題第一節稱它們為觀念或理念，即是存在於天主理智內的模型形式。這些模型形式，雖然藉著為物所接受而增加，卻與天主的本體實際並無不同，因為不同之物，分別能以不同的方式，分享天主本體的肖像。所以，天主自己是萬物的第一模型。也可以說在受造物內有其它物的模型，因為有些物是仿照其它的物，或是仿照同種的物，或是仿照類比或近似的物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "額比",
+          "after": "類比",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        875
+      ],
+      "before": "雖然，受造物不能達到按照天主的本性，以及種類的相同，相似天主的地步，如同受生的人相似生人的人一樣;可是，受造物卻藉著彰顯為天主所思的理或理念，而相似祂，如同落實在(建築)材料內的房屋，相似建築師心靈上所有的房屋一樣。",
+      "after": "雖然，受造物不能達到按照天主的本性，以及種類的相同，相似天主的地步，如同受生的人相似生人的人一樣；可是，受造物卻藉著彰顯為天主所思的理或理念，而相似祂，如同落實在(建築)材料內的房屋，相似建築師心靈上所有的房屋一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        875
+      ],
+      "before": "人之有質料或物質，屬於人的本性本質。因此，不可能有人沒有物質。雖然這個人，是藉分享人的別類或本性而存在，卻不能歸於同一別類的某本然存在之物，只能歸於更高的(沒有物質的)別類，如同歸於分離的(沒有物質的)自立實體(substantía separata)一樣。其它的可感覺之物也是如此。",
+      "after": "人之有質料或物質，屬於人的本性本質。因此，不可能有人沒有物質。雖然這個人，是藉分享人的別類或本性而存在，卻不能歸於同一別類的某本然存在之物，只能歸於更高的(沒有物質的)別類，如同歸於分離的(沒有物質的)自立實體(substantia separata)一樣。其它的可感覺之物也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "substantía",
+          "after": "substantia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        875
+      ],
+      "before": "雖然一切的科學與定義只論及物，可是物所有的存在方式，與理智所有的理解的方式，卻不是應該相同。因為我們藉著主動理智(íntellectus agens)的能力，從特殊的情況中，而抽取出普遍的物種(概念);可是普遍的物種卻不應該是在特殊的物之外或之上，如同是特殊物的模型一樣。",
+      "after": "雖然一切的科學與定義只論及物，可是物所有的存在方式，與理智所有的理解的方式，卻不是應該相同。因為我們藉著主動理智(intellectus agens)的能力，從特殊的情況中，而抽取出普遍的物種(概念)；可是普遍的物種卻不應該是在特殊的物之外或之上，如同是特殊物的模型一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "íntellectus",
+          "after": "intellectus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "正如狄奧尼修在《神名論》第十一章所說的，生命本身及智慧本身，有時是指稱天主自己，有時是指天主賜給物的能力;卻不是指某些獨立存在之物，如同古代的哲學家所主張的一樣。",
+      "after": "正如狄奧尼修在《神名論》第十一章所說的，生命本身及智慧本身，有時是指稱天主自己，有時是指天主賜給物的能力；卻不是指某些獨立存在之物，如同古代的哲學家所主張的一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "天主是否為萬物的目的原因",
+      "after": "天主是否為萬物的目的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "天主似乎不是萬物的目的原因(causa finalis)。因為:",
+      "after": "天主似乎不是萬物的目的原因(causa finalis)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "為目的而行動，似乎是屬於那需要目的者。可是天主卻無所需要。所以，為目的而行動不適於祂。",
+      "after": "為目的而行動，似乎是屬於那需要目的者。可是天主卻無所需要。所以，為目的而行動不適於祂。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "此外，生殖的目的和受生者的形式，與主動(生殖)者，不可能是相同的一個，正如在《物理學》卷二第七章所說的;因為生殖的目的是受生者的形式。可是天主卻是萬物的第一主動者或成因。所以，天主並不是萬物的目的原因。",
+      "after": "此外，生殖的目的和受生者的形式，與主動(生殖)者，不可能是相同的一個，正如在《物理學》卷二第七章所說的；因為生殖的目的是受生者的形式。可是天主卻是萬物的第一主動者或成因。所以，天主並不是萬物的目的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "此外，萬物都欲求目的。可是並不是一切物都欲求天主。因為不是一切物都認識祂。所以，天主並不是萬物的目的。",
+      "after": "此外，萬物都欲求目的。可是並不是一切物都欲求天主。因為不是一切物都認識祂。所以，天主並不是萬物的目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "此外，目的原因是原因中之為首的。所以，如果天主是主動原因(causa agens，成因)與目的原因，那麼在天主內勢必有所先後。這是不可能的。",
+      "after": "此外，目的原因是原因中之為首的。所以，如果天主是主動原因(causa agens，成因)與目的原因，那麼在天主內勢必有所先後。這是不可能的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        876
+      ],
+      "before": "《鐵言》第十六章4節說: 「上主為了自己而創造了宇宙萬物。」",
+      "after": "《箴言》第十六章4節說：「上主為了自己而創造了宇宙萬物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "鐵言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        876,
+        877
+      ],
+      "before": "我解答如下:一切行動者，都為目的而行動;否則，行動者的行動之有這一後果，而非那一後果，就只是偶然的。可是主動者與被動者的目的，以其為目的而言是相同的，但方式卻不同。因為這同一個目的，主動者是有意賦予，而被動者是有意接受。可是有些物，卻同時既主動，又被動;這些都是不完美的主動者，他們宜於在主動時也欲求有所得。可是那只是主動者的第一主動者，卻不會為了獲得某一目的而行動，他只願意分施那是自己的美善的完美。每一受造物都願意獲得自己的完美，這完美即是天主的完美與美善的肖像。所以，天主的美善是萬物的目的。",
+      "after": "我解答如下：一切行動者，都為目的而行動；否則，行動者的行動之有這一後果，而非那一後果，就只是偶然的。可是主動者與被動者的目的，以其為目的而言是相同的，但方式卻不同。因為這同一個目的，主動者是有意賦予，而被動者是有意接受。可是有些物，卻同時既主動，又被動；這些都是不完美的主動者，他們宜於在主動時也欲求有所得。可是那只是主動者的第一主動者，卻不會為了獲得某一目的而行動，他只願意分施那是自己的美善的完美。每一受造物都願意獲得自己的完美，這完美即是天主的完美與美善的肖像。所以，天主的美善是萬物的目的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        877
+      ],
+      "before": "為了需要而行動，只不過屬於不完美的主動者而已，因為它們自然或生來就既主動又被動。可是這卻不適於天主。所以，唯有祂自己纔是最慷慨大方的;因為祂的行動並不是為了自己的利益，而只是由於自己的美善。",
+      "after": "為了需要而行動，只不過屬於不完美的主動者而已，因為它們自然或生來就既主動又被動。可是這卻不適於天主。所以，唯有祂自己纔是最慷慨大方的；因為祂的行動並不是為了自己的利益，而只是由於自己的美善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        877
+      ],
+      "before": "受生者的形式之為生殖的目的，只是由於它是生殖者之形式的肖像，生殖者有意分施自己的肖像。否則受生者的形式將優於生殖者，因為目的比那些導致目的者更尊貴。",
+      "after": "受生者的形式之為生殖的目的，只是由於它是生殖者之形式的肖像，生殖者有意分施自己的肖像。否則受生者的形式將優於生殖者，因為目的比那些導致目的者更尊貴。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q044.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        877
+      ],
+      "before": "萬物不拘欲求什麼善，無論是用理智嗜慾，或是用感覺嗜慾，或是用沒有認知的自然嗜慾，都是欲求天主有如目的。因為除非物分享天主的肖像，貝IJ沒有什麼具備善的性質，以及是值得欲求的。",
+      "after": "萬物不拘欲求什麼善，無論是用理智嗜慾，或是用感覺嗜慾，或是用沒有認知的自然嗜慾，都是欲求天主有如目的。因除非物分享天主的肖像，則沒有什麼具備善的性質，以及是值得欲求的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為除非物",
+          "after": "因除非物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q044.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        877
+      ],
+      "before": "因為天主是萬物的成因、模型原因和目的原因，以及第一質料也是出於天主，所以，萬物的第一根源，在實質或事物本身方面，勢必是唯一無二的。可是這並不妨礙，在理智方面，可在天主內分別討論許多觀點，其中有些觀點比另一觀點，更先進入或接觸到我們的理智。",
+      "after": "因為天主是萬物的成因、模型原因和目的原因，以及第一質料也是出於天主，所以，萬物的第一根源，在實質或事物本身方面，勢必是唯一無二的。可是這並不妨礙，在理智方面，可在天主內分別討論許多觀點，其中有些觀點比另一觀點，更先進入或接觸到我們的理智。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ],
+  "question_title_change": {
+    "before": "論受造物的出資天主與論萬物的第一原因",
+    "after": "論受造物的出自天主與論萬物的第一原因",
+    "pdf_file_pages": [
+      869
+    ]
+  }
+}
