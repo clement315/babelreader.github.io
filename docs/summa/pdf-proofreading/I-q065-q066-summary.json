@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-23",
+  "author": "element",
+  "scope": "Prima Pars questions 65–66",
+  "status": "completed_locally",
+  "questions": 2,
+  "articles": 8,
+  "distinct_pdf_pages": 26,
+  "pdf_ranges": [
+    [
+      1116,
+      1141
+    ]
+  ],
+  "printed_pages": [
+    248,
+    273
+  ],
+  "changed_review_units": 81,
+  "checked_unchanged_review_units": 27,
+  "protected_zh_tokens": 118,
+  "source_anomaly_records": 5,
+  "suspected_source_print_errors": 5,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "layout_constraints_documented": 2,
+  "checks": {
+    "all_2_live_snapshots_match_recorded_pre_edit_baselines": true,
+    "all_2_reports_contain_exact_current_complete_json": true,
+    "all_2_manifests_match_current_reader_rows": true,
+    "all_non_zh_reader_bytes_preserved": true,
+    "per_field_newline_escape_sequences_preserved": true,
+    "catalog_non_zh_bytes_preserved": true,
+    "all_source_anomaly_text_retained": true,
+    "all_2_recorded_browser_validations_passed": true,
+    "all_2_recorded_regression_test_runs_passed": true,
+    "scope_progress_and_publication_policy_consistent": true,
+    "all_2_question_commits_signed_element": true
+  },
+  "publication": "No push or deployment performed; wait until Prima Pars questions 1–119 are complete.",
+  "next_question": "I.q067",
+  "question_commits": [
+    "b192e13|element|weihaowen104@gmail.com|Proofread Prima Pars question 66 locally against PDF images",
+    "a2aa4cb|element|weihaowen104@gmail.com|Proofread Prima Pars question 65 locally against PDF images"
+  ],
+  "batches": [
+    {
+      "question": "I.q065",
+      "title": "論形體受造物的創造工程",
+      "articles": 4,
+      "pdf_file_pages": [
+        1116,
+        1126
+      ],
+      "printed_pages": [
+        248,
+        258
+      ],
+      "changed_review_units": 38,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 2,
+      "report": "I-q065.md",
+      "manifest": "I-q065.json",
+      "validation": "I-q065-validation.json",
+      "reader_sha256": "2121cee09e5d1a1a7172dccbceb349faf1cee75ea14254a3e5c05b214a9f49cb"
+    },
+    {
+      "question": "I.q066",
+      "title": "論創造到分開的進展",
+      "articles": 4,
+      "pdf_file_pages": [
+        1127,
+        1141
+      ],
+      "printed_pages": [
+        259,
+        273
+      ],
+      "changed_review_units": 43,
+      "checked_unchanged_review_units": 16,
+      "source_anomaly_records": 3,
+      "report": "I-q066.md",
+      "manifest": "I-q066.json",
+      "validation": "I-q066-validation.json",
+      "reader_sha256": "d3190b7cb5554cf48467beb8477784c8b056e155ed5a40bbe91e8f8548d4d391"
+    }
+  ]
+}
