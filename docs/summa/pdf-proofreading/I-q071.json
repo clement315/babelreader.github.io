@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "batch": "I-q071",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "d4259f37dae0b88e17b07539bcc30a8bf4649796",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q071",
+    "title": "論第五天的工程",
+    "articles": [
+      1
+    ],
+    "pdf_file_pages": [
+      1182,
+      1183,
+      1184
+    ],
+    "printed_pages": [
+      314,
+      316
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 14,
+    "changed_review_units": 9,
+    "checked_unchanged_review_units": 6
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q71.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q71.json": "9e000089bda041e808cbce059e305156f07b98efee3f9eac694c3b1905952b07"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q071.a001.sed_contra",
+      "pdf_file_page": 1182,
+      "text": "權威己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部3页、1节原页逐页对齐；仅本地保存，第一部全部完成前不上传。",
+    "原书只有一节；网站原有「第 1 節」导航及重复题标题保留。题引言、质疑引言与质疑一同在既有arg1字段，板块标识「质疑」也保留，不新建字段或换行。"
+  ],
+  "readings": [
+    {
+      "id": "I.q071.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q071.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "第 1 節",
+      "after": "第 1 節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q071.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "論第五天的工程",
+      "after": "論第五天的工程",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q071.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "然後要討論的是第五天的工程(參看第七十題引言)。質疑這一工程，描述的似乎不適當。因為:\n水只能產生那水的能力所足以產生者。可是水的能力卻不足以產生一切的魚和鳥，因為我們看到它們中大多數都是由精子所生。所以，「水要生出蠕動的生物和地面上的飛鳥」《創世紀》第一章20節)，這樣說是不適當的。",
+      "after": "然後要討論的是第五天的工程(參看第七十題引言)。質疑這一工程，描述的似乎不適當。因為：\n水只能產生那水的能力所足以產生者。可是水的能力卻不足以產生一切的魚和鳥，因為我們看到它們中大多數都是由精子所生。所以，「水要生出蠕動的生物和地面上的飛鳥」(《創世紀》第一章20節)，這樣說是不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "飛鳥」《創世紀》",
+          "after": "飛鳥」(《創世紀》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "此外，魚和鳥不僅生於水(這一元素)，而且在它們的組織中，地或土(這一元素)的控制似乎大於水;因為它們的身體自然動向土地，並在土地上棲息。所以，說魚和鳥由水產生，是不適當的。",
+      "after": "此外，魚和鳥不僅生於水(這一元素)，而且在它們的組織中，地或土(這一元素)的控制似乎大於水；因為它們的身體自然動向土地，並在土地上棲息。所以，說魚和鳥由水產生，是不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "此外，正如魚在水中蠕動，同樣地，鳥也在天空中飛翔。所以，如果魚是生於水，那麼鳥就不應該是生於水，而應該生於空氣。",
+      "after": "此外，正如魚在水中蠕動，同樣地，鳥也在天空中飛翔。所以，如果魚是生於水，那麼鳥就不應該是生於水，而應該生於空氣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q071.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "此外，並非一切的魚都在水中蠕動;因為一些魚有腳或爪，用以在地上爬行，例如:小海豹。所以，說「水要生出蠕動的生物」並不足以說明魚類的產生。",
+      "after": "此外，並非一切的魚都在水中蠕動；因為一些魚有腳或爪，用以在地上爬行，例如：小海豹。所以，說「水要生出蠕動的生物」並不足以說明魚類的產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "此外，地上的動物比飛鳥和魚更完美。此可由這一事實看出，即是它們都有明顯區分的肢體和更完美的生殖;因為地上的動物是胎生，而魚和飛鳥卻是卵生。可是按照自然秩序，更完美之物領先。所以，魚和鳥不應該在地上的動物之先，在第五天產生。",
+      "after": "此外，地上的動物比飛鳥和魚更完美。此可由這一事實看出，即是它們都有明顯區分的肢體和更完美的生殖；因為地上的動物是胎生，而魚和飛鳥卻是卵生。可是按照自然秩序，更完美之物領先。所以，魚和鳥不應該在地上的動物之先，在第五天產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1182
+      ],
+      "before": "聖經《創世紀》第一章第20等節的權威己足。",
+      "after": "聖經《創世紀》第一章第20等節的權威己足。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q071.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1183
+      ],
+      "before": "我解答如下:正如上面第七十題第一節所說的，在先後次序方面，點綴的工程與分開的工程相呼應。因此，正如在為分開工程所指定的三天中，那中間的一天，即是第二天，被指定為中間形體的分開，即是水的分開;同樣地，在為點綴工程所指定的三天中，中間的一天，即是第五天，被指定藉著魚和鳥的產生，來點綴中間形體。因此，正如梅瑟在第四天提及光體與光，以指出第四天與他說的有光形成的第一天相呼應;同樣地，在這第五天，他也提及水和天上的穹蒼，以指出第五天與第二天相呼應。\n可是應該知道，正如關於植物的產生，奧斯定與其他聖人們的意見互不相同;同樣地，關於鳥和魚的產生，也是如此。因為其他聖人們主張，魚和鳥是在第五天現實地(按照牠們的實際情形）產生;可是奧斯定在《創世紀字義新探》卷五第五章卻說，在第五天，水的自然本性只潛能地產生了魚和鳥(獲得將產生魚和鳥的能力)。",
+      "after": "我解答如下：正如上面第七十題第一節所說的，在先後次序方面，點綴的工程與分開的工程相呼應。因此，正如在為分開工程所指定的三天中，那中間的一天，即是第二天，被指定為中間形體的分開，即是水的分開；同樣地，在為點綴工程所指定的三天中，中間的一天，即是第五天，被指定藉著魚和鳥的產生，來點綴中間形體。因此，正如梅瑟在第四天提及光體與光，以指出第四天與他說的有光形成的第一天相呼應；同樣地，在這第五天，他也提及水和天上的穹蒼，以指出第五天與第二天相呼應。\n可是應該知道，正如關於植物的產生，奧斯定與其他聖人們的意見互不相同；同樣地，關於鳥和魚的產生，也是如此。因為其他聖人們主張，魚和鳥是在第五天現實地(按照他們的實際情形)產生；可是奧斯定在《創世紀字義新探》卷五第五章卻說，在第五天，水的自然本性只潛能地產生了魚和鳥(獲得將產生魚和鳥的能力)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情形）",
+          "after": "情形)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1183,
+        1184
+      ],
+      "before": "亞維采那(Avicenna)主張:一切的動物，即使經由自然的途徑，也都能由某種沒有精子(semen)的元素的混合(commixtio elementorum)而生殖《論靈魂》卷四第五章、卷五第七章)。可是這卻似乎是不合理的。因為自然本性都是經由固定的途徑或方法，進行到自己的效果:因此，那些按照自然本性經由精子而生殖者，按照自然本性，不能沒有精子而生殖。\n因此，我們應該採取其它的說法，即是在動物的本性或自然生殖中，在那些由精子而生之動物中，主動原理或本原是精子所有的形式或形成能力(virtus formativa);至於在那些由腐爛而生之動物中，則天上形體的能力﹒取代精子的能力。可是在上述每一種動物的生殖中，物質原理或本源(principium materiale)卻是元素，或元素所產生之物。可是在萬物的最初創立(institutio prima)中，天主聖言卻是主動原理或本源，祂由元素的物質形成了動物，或是按照其他聖人們的意見，現實地按照牠們的實際情形，或是按照奧斯定的意見，賦予元素的物質(產生動物的)能力。並不是水和土本身有孕殖一切動物的能力，正如亞維采那所主張的;動物之所以能藉著精子或星宿的能力，自元素的物質產生，是由於起初賦予元素的能力。",
+      "after": "亞維采那(Avicenna)主張：一切的動物，即使經由自然的途徑，也都能由某種沒有精子(semen)的元素的混合(commixtio elementorum)而生殖(《論靈魂》卷四第五章、卷五第七章)。可是這卻似乎是不合理的。因為自然本性都是經由固定的途徑或方法，進行到自己的效果；因此，那些按照自然本性經由精子而生殖者，按照自然本性，不能沒有精子而生殖。\n因此，我們應該採取其它的說法，即是在動物的本性或自然生殖中，在那些由精子而生之動物中，主動原理或本原是精子所有的形式或形成能力(virtus formativa)；至於在那些由腐爛而生之動物中，則天上形體的能力，取代精子的能力。可是在上述每一種動物的生殖中，物質原理或本源(principium materiale)卻是元素，或元素所產生之物。可是在萬物的最初創立(institutio prima)中，天主聖言卻是主動原理或本源，祂由元素的物質形成了動物，或是按照其他聖人們的意見，現實地按照他們的實際情形，或是按照奧斯定的意見，賦予元素的物質(產生動物的)能力。並不是水和土本身有孕殖一切動物的能力，正如亞維采那所主張的；動物之所以能藉著精子或星宿的能力，自元素的物質產生，是由於起初賦予元素的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生殖《論靈魂》",
+          "after": "生殖(《論靈魂》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自己的效果:",
+          "after": "自己的效果；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力﹒",
+          "after": "能力，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1184
+      ],
+      "before": "鳥和魚的身體，可以分兩方面來看:一方面，就其本身來看。如此則在牠們內必然更由土這一元素來控制，因為在動物的身體內，形成適度的混合，必然要有大量的較不主動的元素，即是土。可是另一方面，如果就牠們生來是用這樣的動作而行動來看，如此則牠們與那些牠們行動於其中的形體，有某種近似。於此，是這樣來描述牠們的生殖。",
+      "after": "鳥和魚的身體，可以分兩方面來看：一方面，就其本身來看。如此則在他們內必然更由土這一元素來控制，因為在動物的身體內，形成適度的混合，必然要有大量的較不主動的元素，即是土。可是另一方面，如果就他們生來是用這樣的動作而行動來看，如此則他們與那些他們行動於其中的形體，有某種近似。於此，是這樣來描述他們的生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 5,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1184
+      ],
+      "before": "因為空氣是感官感覺不到的(insensibilis)，所以不是本身或單獨被數算，而是同其它的物一起:部分是同水一起，這是針對其較低部分，此一部分有水的蒸氣聚集;部分也是同天(caelum)一起，這是針對其較高部分。可是鳥卻是在空氣的較低部分或低空行動，因此說，「鳥在天的穹蒼以下」飛翔，縱然穹蒼意指有雲的天空。因此，將鳥的產生歸於水。",
+      "after": "因為空氣是感官感覺不到的(insensibilis)，所以不是本身或單獨被數算，而是同其它的物一起：部分是同水一起，這是針對其較低部分，此一部分有水的蒸氣聚集；部分也是同天(caelum)一起，這是針對其較高部分。可是鳥卻是在空氣的較低部分或低空行動，因此說，「鳥在天的穹蒼以下」飛翔，縱然穹蒼意指有雲的天空。因此，將鳥的產生歸於水。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1184
+      ],
+      "before": "自然是藉著中間物由這一極(extremum)到達那一極。所以，在地上的和水中的動物之間，有與二者都有所相同的中間物。牠們同那一極的動物相同較多，就與之並列，這是按照與牠們的相同之處，而非按照與另一極的相同之處。可是，為兼括魚類中一切有這樣特點者，聖經在說了:「水要生出蠕動的生物」之後，接著說:「天主於是造了大魚」等等。",
+      "after": "自然是藉著中間物由這一極(extremum)到達那一極。所以，在地上的和水中的動物之間，有與二者都有所相同的中間物。他們同那一極的動物相同較多，就與之並列，這是按照與他們的相同之處，而非按照與另一極的相同之處。可是，為兼括魚類中一切有這樣特點者，聖經在說了：「水要生出蠕動的生物」之後，接著說：「天主於是造了大魚」等等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q071.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1184
+      ],
+      "before": "這些動物的產生秩序，主要是按照點綴牠們的身體的秩序，而非按照牠們自己的地位。可是在生殖的過程中，是由較不完美者，而臻於比較完美者。",
+      "after": "這些動物的產生秩序，主要是按照點綴牠們的身體的秩序，而非按照牠們自己的地位。可是在生殖的過程中，是由較不完美者，而臻於比較完美者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
