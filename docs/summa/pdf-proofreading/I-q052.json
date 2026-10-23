@@ -1,0 +1,804 @@
+{
+  "schema_version": 1,
+  "batch": "I-q052",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "4c126d000a67050f7e649263ba847afc22f10316",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q052",
+    "title": "論天使與地方的關係",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      967,
+      968,
+      969,
+      970,
+      971
+    ],
+    "printed_pages": [
+      99,
+      103
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 33,
+    "changed_review_units": 23,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q52.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q52.json": "e3a70caa5b6c401b452f2a143153f0c63a0f6f83589f0bfa214e67a0e1bdfd01"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q052.a001.arg1",
+      "pdf_file_page": 967,
+      "text": "可移種的形體",
+      "status": "suspected_source_print_error",
+      "action": "原书「种」疑「动」，按底本保留。"
+    },
+    {
+      "id": "I.q052.a002.respondeo",
+      "pdf_file_page": 970,
+      "text": "推動者而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部5页、3节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q052.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "然後要探討的是天使與地方的關係(參看第五十→甜言)。\n關於這一點，可以提出三個問題:\n一、天使是否佔有地方。\n二、天使是否能同時佔有許多地方。\n三、許多的天使是否能同時佔有相同的地方。",
+      "after": "然後要探討的是天使與地方的關係(參看第五十一題引言)。\n關於這一點，可以提出三個問題：\n一、天使是否佔有地方。\n二、天使是否能同時佔有許多地方。\n三、許多的天使是否能同時佔有相同的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五十→甜言",
+          "after": "第五十一題引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "天使是否佔有地方",
+      "after": "天使是否佔有地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "天使似乎不佔有地方。因為:",
+      "after": "天使似乎不佔有地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "波其武在《論七天創造工程》一書裡說: 「智者的共同意見，是非形體物並不佔有地方。」亞里斯多德在《物理學》卷四第五章說:!並不是凡存在的，都佔有地方，只有可移種的形體如此。」可是天使卻不是形體，正如第五十題第一節所說明的。所以，天使並不佔有地方。",
+      "after": "波其武在《論七天創造工程》一書裡說：「智者的共同意見，是非形體物並不佔有地方。」亞里斯多德在《物理學》卷四第五章說：「並不是凡存在的，都佔有地方，只有可移種的形體如此。」可是天使卻不是形體，正如第五十題第一節所說明的。所以，天使並不佔有地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說:!",
+          "after": "說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "此外，地方是佔有位置的分量(quantitas)。所以，凡{佔有地方的一切，都有位置。可是佔有位置，卻不適於天使;因為天使的實體是無分量的，而分量的固有差別或種差是有位置。所以，天使並不佔有地方。",
+      "after": "此外，地方是佔有位置的分量(quantitas)。所以，凡佔有地方的一切，都有位置。可是佔有位置，卻不適於天使；因為天使的實體是無分量的，而分量的固有差別或種差是有位置。所以，天使並不佔有地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "凡{佔",
+          "after": "凡佔",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        967
+      ],
+      "before": "此外，佔有地方，是為地方所界定，並受地方的包容，正如哲學家在《物理學》卷四第十二章所指明的。可是天使卻不能被界定，也不能受地方的包容;因為包容者比受包容者更真有形式的性質，如同空氣之與水，正如《物理學》卷四第五章所說的。所以，天使並不佔有地方。",
+      "after": "此外，佔有地方，是為地方所界定，並受地方的包容，正如哲學家在《物理學》卷四第十二章所指明的。可是天使卻不能被界定，也不能受地方的包容；因為包容者比受包容者更具有形式的性質，如同空氣之與水，正如《物理學》卷四第五章所說的。所以，天使並不佔有地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "更真有",
+          "after": "更具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "非主日的節日夜禱結束禱詞說: 「願住在它(居處)內的你的聖天使，保護我們平安。」",
+      "after": "非主日的節日夜禱結束禱詞說：「願住在它(居處)內的你的聖天使，保護我們平安。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "我解答如下:天使適於佔有地方。可是說天使佔有地方與形體佔有地方，意義並不相同。形體之佔有地方，是根據體積的分量或大小的接觸，來適應地方。在天使內並沒有體積的分量或大小，而是有能力的分量或大小。所以，將天使的能77施展到不論任何地方，此即稱為天使佔有有形的地方。\n由此可見，不應該說天使為地方所界定，或在連續體上有位置。這一切只適用於在地方上的形體，因為形體的分量或大小，是根據體積的分量或大小。同樣地，也不應該因此而說，天使為地方所包容或佔有。因為非形體的實體是以自己的能力，接觸形體物，自己包容或進佔形體物，而非為形體物所包容或佔有;因為靈魂之在身體內，是有如包容者或進佔者，而非有如被包容者或被佔有者。同樣地，說天使佔有或在形體的地方內，不是有如被包容者或被佔有者，而是有如某種方式的包容者或進佔者。",
+      "after": "我解答如下：天使適於佔有地方。可是說天使佔有地方與形體佔有地方，意義並不相同。形體之佔有地方，是根據體積的分量或大小的接觸，來適應地方。在天使內並沒有體積的分量或大小，而是有能力的分量或大小。所以，將天使的能力施展到不論任何地方，此即稱為天使佔有有形的地方。\n由此可見，不應該說天使為地方所界定，或在連續體上有位置。這一切只適用於在地方上的形體，因為形體的分量或大小，是根據體積的分量或大小。同樣地，也不應該因此而說，天使為地方所包容或佔有。因為非形體的實體是以自己的能力，接觸形體物，自己包容或進佔形體物，而非為形體物所包容或佔有；因為靈魂之在身體內，是有如包容者或進佔者，而非有如被包容者或被佔有者。同樣地，說天使佔有或在形體的地方內，不是有如被包容者或被佔有者，而是有如某種方式的包容者或進佔者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能77",
+          "after": "能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a001.general",
+      "article": 1,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "藉此可清楚知道對各質疑的答案。",
+      "after": "藉此可清楚知道對各質疑的答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "天使是否能同時佔有許多地方",
+      "after": "天使是否能同時佔有許多地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "天使似乎能同時佔有許多地方。因為:",
+      "after": "天使似乎能同時佔有許多地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        968
+      ],
+      "before": "天使的能力並不小於靈魂的能力。可是靈魂卻是同時佔有許多地方。因為「整個靈魂佔有身體的每一部分」'正如奧斯定《論天主聖三》卷六第六章所說的。所以，天使也能同時佔有許多地方。",
+      "after": "天使的能力並不小於靈魂的能力。可是靈魂卻是同時佔有許多地方。因為「整個靈魂佔有身體的每一部分」，正如奧斯定《論天主聖三》卷六第六章所說的。所以，天使也能同時佔有許多地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "每一部分」'",
+          "after": "每一部分」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        968,
+        969
+      ],
+      "before": "此外，天使佔有他所攝取的身體。既然他攝取了連續的身體，他似乎是佔有身體的每一部分。可是根據身體的不同部分，而有不同的地方。所以，天使同時{佔有許多地方。",
+      "after": "此外，天使佔有他所攝取的身體。既然他攝取了連續的身體，他似乎是佔有身體的每一部分。可是根據身體的不同部分，而有不同的地方。所以，天使同時佔有許多地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同時{佔",
+          "after": "同時佔",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        969
+      ],
+      "before": "此外，大馬士革的若望在《諭正統信仰》卷一第十三章說:「天使工作的地方，就是天使佔有的地方。」可是天使有時卻同時在許多地方工作，正如那毀滅索多瑪域的天使所指明的U(《創世紀》第十九章25節)。所以，天使能同時佔有許多地方。",
+      "after": "此外，大馬士革的若望在《論正統信仰》卷一第十三章說：「天使工作的地方，就是天使佔有的地方。」可是天使有時卻同時在許多地方工作，正如那毀滅索多瑪城的天使所指明的(《創世紀》第十九章25節)。所以，天使能同時佔有許多地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《諭正統",
+          "after": "《論正統",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "索多瑪域",
+          "after": "索多瑪城",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所指明的U",
+          "after": "所指明的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        969
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷二第三章說:「幾時天使在天上，就不在地上。」",
+      "after": "大馬士革的若望在《論正統信仰》卷二第三章說：「幾時天使在天上，就不在地上。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        969,
+        970
+      ],
+      "before": "我解答如下:天使的能力和本質是有限的。可是天主的能力和本質卻是無限的，也是萬物的普遍原因;因此，天主藉著白己的能力而普及於萬物，不僅是在許多地方，而且也無所不在，處處都在。可是天使的能力，由於是有限的，不能擴及萬物，而只能限定於某一物。因為凡與一能力相比較的，應該是作為「一物」與它相比較。所以，正如普遍的物(或全體受造物)與天主的普遍能力相比較，有如一物;同樣地，個別的物與天使的(有限)能力相比較，也有如是一物。因此，既然天使是藉著把自己的能力施展到地方，而佔有地方，所以，天使不是處處都在，也不是(同時)在許多地方，而是隻在一個地方。\n關於這個問題，有些人受騙了e他們由於不能超越想像，認為天使的「不可分性」(indivisibilitas)相似「點」的不可分性;因此，他們認為天使只不過佔有「點」的地方。可是顯然地，他們都錯了。因為點是有位置的不可分的;可是天使卻是超越分量和位置的不可分的。因此，不是必然地按照位置給天使限定一個不可分的地方;而是按照天使有意把自己的能力施展到大的或小的形體，給他指定可分的或不可分的、大的或小的地方。如此，天使的能力所及的整個形體，對天使來說，算是一個地方。\n即使一位天使推動天(caelum)，那麼天使也不必是處處都在。第一，因為天使的能力只不過及於首先被他推動者而己，而運動首先之所在，僅是天的一部分，即是東方的部分;因此，哲學家在《物理學》卷八第十章，也將天的啟動的能力歸於東方的部分。第二，因為哲學家們並不主張一個分離實體直接地推動一切的星球。因此，天使不必處處都在。\n所以，由此可見，佔有地方，是以不同的方式，歸於形體、天使和天主。因為形體之佔有地方，是以包圍的方式(cir-cumsc巾tive)，為地方所界定。可是天使之佔有地方，不是以包圍的方式，因為天使不為地方所界定，而是以限定的方式(definitive)，因為天使在一個地方的方式，使他不能在另一個地方。可是天主之佔有地方，既不是以包圍的方式，也不是以限定的方式，因為祂是無所不在，處處都在的。",
+      "after": "我解答如下：天使的能力和本質是有限的。可是天主的能力和本質卻是無限的，也是萬物的普遍原因；因此，天主藉著自己的能力而普及於萬物，不僅是在許多地方，而且也無所不在，處處都在。可是天使的能力，由於是有限的，不能擴及萬物，而只能限定於某一物。因為凡與一能力相比較的，應該是作為「一物」與它相比較。所以，正如普遍的物(或全體受造物)與天主的普遍能力相比較，有如一物；同樣地，個別的物與天使的(有限)能力相比較，也有如是一物。因此，既然天使是藉著把自己的能力施展到地方，而佔有地方，所以，天使不是處處都在，也不是(同時)在許多地方，而是只在一個地方。\n關於這個問題，有些人受騙了。他們由於不能超越想像，認為天使的「不可分性」(indivisibilitas)相似「點」的不可分性；因此，他們認為天使只不過佔有「點」的地方。可是顯然地，他們都錯了。因為點是有位置的不可分的；可是天使卻是超越分量和位置的不可分的。因此，不是必然地按照位置給天使限定一個不可分的地方；而是按照天使有意把自己的能力施展到大的或小的形體，給他指定可分的或不可分的、大的或小的地方。如此，天使的能力所及的整個形體，對天使來說，算是一個地方。\n即使一位天使推動天(caelum)，那麼天使也不必是處處都在。第一，因為天使的能力只不過及於首先被他推動者而己，而運動首先之所在，僅是天的一部分，即是東方的部分；因此，哲學家在《物理學》卷八第十章，也將天的啟動的能力歸於東方的部分。第二，因為哲學家們並不主張一個分離實體直接地推動一切的星球。因此，天使不必處處都在。\n所以，由此可見，佔有地方，是以不同的方式，歸於形體、天使和天主。因為形體之佔有地方，是以包圍的方式(cir-cumscriptive)，為地方所界定。可是天使之佔有地方，不是以包圍的方式，因為天使不為地方所界定，而是以限定的方式(definitive)，因為天使在一個地方的方式，使他不能在另一個地方。可是天主之佔有地方，既不是以包圍的方式，也不是以限定的方式，因為祂是無所不在，處處都在的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白己",
+          "after": "自己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻在",
+          "after": "只在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受騙了e",
+          "after": "受騙了。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "cir-cumsc巾tive",
+          "after": "cir-cumscriptive",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a002.general",
+      "article": 2,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "藉此可輕易看出對各質疑的答案。因為天使的能力直接所及的整體，算是他的一個地方，即使這整體不是連續的。",
+      "after": "藉此可輕易看出對各質疑的答案。因為天使的能力直接所及的整體，算是他的一個地方，即使這整體不是連續的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "許多天使是否能同時佔有相同的地方",
+      "after": "許多天使是否能同時佔有相同的地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "許多天使似乎能同時佔有相同的地方。因為:",
+      "after": "許多天使似乎能同時佔有相同的地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        970
+      ],
+      "before": "許多的形體不可能同時佔有相同的地方，因為它們充滿地方。可是天使卻不充滿地方;因為唯有形體才充滿地方，使沒有真空(vacuum)，正如哲學家在《物理學》卷四第六章所指明的。所以，許多天使能佔有相同的地方。",
+      "after": "許多的形體不可能同時佔有相同的地方，因為它們充滿地方。可是天使卻不充滿地方；因為唯有形體才充滿地方，使沒有真空(vacuum)，正如哲學家在《物理學》卷四第六章所指明的。所以，許多天使能佔有相同的地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        970,
+        971
+      ],
+      "before": "此外，一位天使和一個形體的差別，大於兩位天使之間的差別。可是一位天使和一個身體卻能同時佔有相同的地方;因為無一地方不是充滿可感覺的形體，正如《物理學》卷四第七及第九章所證明的。所以，兩位天使遠更能佔有相同的地方。",
+      "after": "此外，一位天使和一個形體的差別，大於兩位天使之間的差別。可是一位天使和一個身體卻能同時佔有相同的地方；因為無一地方不是充滿可感覺的形體，正如《物理學》卷四第七及第九章所證明的。所以，兩位天使遠更能佔有相同的地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "此外，按照奧斯定，靈魂佔有肉身的每一部分(《論天主聖三》卷六第六章)。可是，魔鬼雖然不能潛入靈魂，卻有時潛入身體;如此，貝IJ魔鬼與靈魂同時佔有相同的地方。所以，根據同樣的理由，其他的無論什麼精神體，也都能如此。",
+      "after": "此外，按照奧斯定，靈魂佔有肉身的每一部分(《論天主聖三》卷六第六章)。可是，魔鬼雖然不能潛入靈魂，卻有時潛入身體；如此，則魔鬼與靈魂同時佔有相同的地方。所以，根據同樣的理由，其他的無論什麼精神體，也都能如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "兩個靈魂並不同時佔有相同的身體。所以，根據同樣的理由，兩位天使也不能同時佔有相同的地方。",
+      "after": "兩個靈魂並不同時佔有相同的身體。所以，根據同樣的理由，兩位天使也不能同時佔有相同的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "我解答如下:兩位天使不能同時佔有相同的地方。理由是:因為兩個完滿的或全面的原因，不可能是唯一而相同之物的直接原因。這是各類原因所指明的。因為一物的最近形式只有一個，最近的推動者也只有一個，雖然遠的原動力能有許多個。許多人拖動一艘船，這也不構成反證;因為他們之中無一人是完滿的原動力，每一個人的力量都不足以拖動這艘船，而是全體有如一個原動力，集中他們的力量，形成一個推動或拖動行動。因此，既然說天使佔有地方，是說他的能力，以完滿進佔者的方式，直接地接觸地方，正如上文第一節所說的，所以，只能是一位天使佔有一個地方。",
+      "after": "我解答如下：兩位天使不能同時佔有相同的地方。理由是：因為兩個完滿的或全面的原因，不可能是唯一而相同之物的直接原因。這是各類原因所指明的。因為一物的最近形式只有一個，最近的推動者也只有一個，雖然遠的原動力能有許多個。許多人拖動一艘船，這也不構成反證；因為他們之中無一人是完滿的原動力，每一個人的力量都不足以拖動這艘船，而是全體有如一個原動力，集中他們的力量，形成一個推動或拖動行動。因此，既然說天使佔有地方，是說他的能力，以完滿進佔者的方式，直接地接觸地方，正如上文第一節所說的，所以，只能是一位天使佔有一個地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "i.許多天使受阻於佔有相同的地方，並不是礙於充滿地方，而是因為其它的理由，正如正解所說的。",
+      "after": "許多天使受阻於佔有相同的地方，並不是礙於充滿地方，而是因為其它的理由，正如正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.許多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q052.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "天使與形體，不是以相同的方式佔有地方。因此，理由不能成立。",
+      "after": "天使與形體，不是以相同的方式佔有地方。因此，理由不能成立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q052.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        971
+      ],
+      "before": "魔鬼和靈魂，也不是按照相同的原因關係與身體相比較;因為靈魂是(身體的)形式，魔鬼則不是。因此，理由不能成立。",
+      "after": "魔鬼和靈魂，也不是按照相同的原因關係與身體相比較；因為靈魂是(身體的)形式，魔鬼則不是。因此，理由不能成立。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
