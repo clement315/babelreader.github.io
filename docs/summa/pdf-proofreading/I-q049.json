@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "batch": "I-q049",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "f3406915c4b2c776c7d065a4cb8ef6224354cb4e",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q049",
+    "title": "論惡的原因",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      935,
+      936,
+      937,
+      938,
+      939,
+      940,
+      941,
+      942,
+      943
+    ],
+    "printed_pages": [
+      67,
+      75
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 44,
+    "changed_review_units": 26,
+    "checked_unchanged_review_units": 19
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q49.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q49.json": "d9a2bbc243aef352f5242021dfdaef30f4c1ac4a34a44af22ae61bf20a4ac4c6"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q049.a001.respondeo",
+      "pdf_file_page": 936,
+      "text": "善而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q049.a001.respondeo",
+      "pdf_file_page": 936,
+      "text": "上文己指明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q049.a001.respondeo",
+      "pdf_file_page": 936,
+      "text": "第三節己說明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q049.a002.respondeo",
+      "pdf_file_page": 939,
+      "text": "理由己如上述",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q049.a003.respondeo",
+      "pdf_file_page": 941,
+      "text": "第三節己說明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部9页、三节逐页核对，第一节四项、第三节六项质疑与答复逐一对应。",
+    "破损段落按原页恢复，书名号与引文标点逐项核实。",
+    "仅本地保存。"
+  ],
+  "readings": [
+    {
+      "id": "I.q049.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "隨後要探討的是惡的原因如(參看第四十八題引言)。\n關於這一點，可以提出三個問題:\n一、長2是否能為惡的原因。\n二、至善、即天主，是否是惡的原因。\n三、是杏有一至惡為一切惡的第一原因。",
+      "after": "隨後要探討的是惡的原因(參看第四十八題引言)。\n關於這一點，可以提出三個問題：\n一、善是否能為惡的原因。\n二、至善、即天主，是否是惡的原因。\n三、是否有一至惡為一切惡的第一原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因如",
+          "after": "原因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "長2",
+          "after": "善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是杏",
+          "after": "是否",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "善是否能為惡的原因",
+      "after": "善是否能為惡的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "善似乎不可能為惡的原因。因為:",
+      "after": "善似乎不可能為惡的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "《瑪竇福音》第七章18節說:「好樹不古巴結壞呆子。」",
+      "after": "《瑪竇福音》第七章18節說：「好樹不能結壞果子。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不古巴結壞呆子",
+          "after": "不能結壞果子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "此外，二相反者，其中之一不可能為另一的原因。可是惡卻是相反善的。所以，善不可能為惡的原因。",
+      "after": "此外，二相反者，其中之一不可能為另一的原因。可是惡卻是相反善的。所以，善不可能為惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "此外，有缺點的效果只不過出自有缺點的原因而已。可是如果惡有原因，那麼惡就是有缺點的效果。所以，惡也有有缺點的原因。可是一切有缺點者卻都是惡。所以，惡的原因只不過是惡而已。",
+      "after": "此外，有缺點的效果只不過出自有缺點的原因而已。可是如果惡有原因，那麼惡就是有缺點的效果。所以，惡也有有缺點的原因。可是一切有缺點者卻都是惡。所以，惡的原因只不過是惡而已。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "此外，狄奧尼修在《神名論》第四章說:「惡並沒有原因。」所以，善並不是惡的原因。",
+      "after": "此外，狄奧尼修在《神名論》第四章說：「惡並沒有原因。」所以，善並不是惡的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        935
+      ],
+      "before": "奧斯定在《駁朱利安~》(Contra Iulianum)卷一第九章說: 「除了源自善，惡絕不可能另有本源。」",
+      "after": "奧斯定在《駁朱利安》(Contra Iulianum)卷一第九章說：「除了源自善，惡絕不可能另有本源。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《駁朱利安~》",
+          "after": "《駁朱利安》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        935,
+        936,
+        937
+      ],
+      "before": "我解答如下:應該說:一切惡，都以某種方式具有原因。因為惡是短缺生來或自然應該有的善。可是一物之短缺自己應該有的自然配備或素質，只能是由於有原因將物拖離自己的素質;因為重物除了受外力強迫以外，就不會上升，而主動者也不會有失於自己的行動，除非是為了某種障礙。可是成為原因，卻只適用於善而己，因為除非是物，無物可能是原因，而一切物，以其為物來說，都是善的。如果我們注意各種原因的特殊性質，那麼主動者(成因)，形式與目的，都意指一種完善或完美，而完善或完美，廚甘苦的本質;可是即使是質料，以其為趨向善的潛能來說，也有苦的性質。\n上文己指明，善是以質料原因的方式或資格，而為惡的原因。因為上文第四十八題第三節己說明書是惡的主體。可是息卻沒有形式原因，反而是由於虧缺形式。同樣地，惡也沒有自的原因，反而是由於虧缺或破壞指向應有之目的的秩序;因為不僅是目的有善的性質，連指向或針對目的的「有利或有益」(utile)也是如此。可是惡卻按照主動者或成因的方式，有原、J L/之下;三;於、JTiu或L接一;人是Ir-~.或問:去山3\n為說明此點，應該知道:惡之在行動上產生，與惡之在效果上產生，方式並不相同。惡之在行動上產生，是由於行動原理或原動力的缺點一一或是屬於主要行動者的，或是屬於工具性行動者的。例如，動物的運動之可能出現缺點，或是因運動的能力衰弱，例如:幼兒們;或是隻因工真的不合用，例如:跛子。\n可是在某物上的惡，而不是在行動者的固有效果上的惡，有時是藉行動者的能力而產生，有時是藉行動者質料的缺點而產生。藉行動者的能力或成就而產生，是說幾時行動者所想耍的形式，必然會有另一形式的破壞相隨;例如:隨火的形式而來的，必然是空氣或水的形式受到破壞。所以，正如火的能力越完美，也就越完美地安1)入自己的形式，同樣地，也就越完美地或徹底地破壞相反者;因此，惡，以及空氣和水的破壤，來自火的完美。可是這卻是偶然的情況，因為火並不想破搜水的形式，而只想注入自己的形式;可是做這一個，告IJ偶然地產生了那一個。\n可是，如果火的固有效果有缺點，例如:傳熱的缺點，那麼這或是由於行動的缺點，而這缺點是起源於某一原理或動力的缺點，正如土文所說的;或是由於質料的不配合，即質料不按受行動之火的行動。可是則便是這種缺點，也是偶然地發生在善上，善本然地或本身是主於行動。因此，這是真的:即惡無論以什麼方式，都沒有原因，除非是偶然地。善也是這樣(偶然地)為惡的原因。",
+      "after": "我解答如下：應該說：一切惡，都以某種方式具有原因。因為惡是短缺生來或自然應該有的善。可是一物之短缺自己應該有的自然配備或素質，只能是由於有原因將物拖離自己的素質；因為重物除了受外力強迫以外，就不會上升，而主動者也不會有失於自己的行動，除非是為了某種障礙。可是成為原因，卻只適用於善而己，因為除非是物，無物可能是原因，而一切物，以其為物來說，都是善的。如果我們注意各種原因的特殊性質，那麼主動者(成因)，形式與目的，都意指一種完善或完美，而完善或完美，屬於善的本質；可是即使是質料，以其為趨向善的潛能來說，也有善的性質。\n上文己指明，善是以質料原因的方式或資格，而為惡的原因。因為上文第四十八題第三節己說明善是惡的主體。可是惡卻沒有形式原因，反而是由於虧缺形式。同樣地，惡也沒有目的原因，反而是由於虧缺或破壞指向應有之目的的秩序；因為不僅是目的有善的性質，連指向或針對目的的「有利或有益」(utile)也是如此。可是惡卻按照主動者或成因的方式，有原因，只是不是本然地或直接地，而是偶然地或間接地。\n為說明此點，應該知道：惡之在行動上產生，與惡之在效果上產生，方式並不相同。惡之在行動上產生，是由於行動原理或原動力的缺點——或是屬於主要行動者的，或是屬於工具性行動者的。例如，動物的運動之可能出現缺點，或是因運動的能力衰弱，例如：幼兒們；或是只因工具的不合用，例如：跛子。\n可是在某物上的惡，而不是在行動者的固有效果上的惡，有時是藉行動者的能力而產生，有時是藉行動者質料的缺點而產生。藉行動者的能力或成就而產生，是說幾時行動者所想要的形式，必然會有另一形式的破壞相隨；例如：隨火的形式而來的，必然是空氣或水的形式受到破壞。所以，正如火的能力越完美，也就越完美地刻入自己的形式，同樣地，也就越完美地或徹底地破壞相反者；因此，惡，以及空氣和水的破壞，來自火的完美。可是這卻是偶然的情況，因為火並不想破壞水的形式，而只想注入自己的形式；可是做這一個，卻偶然地產生了那一個。\n可是，如果火的固有效果有缺點，例如：傳熱的缺點，那麼這或是由於行動的缺點，而這缺點是起源於某一原理或動力的缺點，正如上文所說的；或是由於質料的不配合，即質料不接受行動之火的行動。可是即使是這種缺點，也是偶然地發生在善上，善本然地或本身是宜於行動。因此，這是真的：即惡無論以什麼方式，都沒有原因，除非是偶然地。善也是這樣(偶然地)為惡的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "廚甘苦的本質",
+          "after": "屬於善的本質",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有苦的性質",
+          "after": "有善的性質",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "己說明書",
+          "after": "己說明善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可是息卻",
+          "after": "可是惡卻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自的原因",
+          "after": "目的原因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有原、J L/之下;三;於、JTiu或L接一;人是Ir-~.或問:去山3",
+          "after": "有原因，只是不是本然地或直接地，而是偶然地或間接地。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻因工真",
+          "after": "只因工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "想耍",
+          "after": "想要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "安1)入",
+          "after": "刻入",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "破壤",
+          "after": "破壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "破搜",
+          "after": "破壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "告IJ",
+          "after": "卻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "土文",
+          "after": "上文",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不按受",
+          "after": "不接受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "則便",
+          "after": "即使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是主於",
+          "after": "是宜於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        937
+      ],
+      "before": "正如奧斯定在《駁朱利安》卷一第九章所說的: 1主稱壞樹為邪惡意志，稱好樹為善良意志。J可是邪惡的倫理行昂，卻不由善良意志而產生;因為善良的倫理行為，是根據善良意志來判定的。可是邪惡意志的行動本身，卻是由原本是善的理性受造物產生的。它如此而是惡的原因。",
+      "after": "正如奧斯定在《駁朱利安》卷一第九章所說的：「主稱壞樹為邪惡意志，稱好樹為善良意志。」可是邪惡的倫理行為，卻不由善良意志而產生；因為善良的倫理行為，是根據善良意志來判定的。可是邪惡意志的行動本身，卻是由原本是善的理性受造物產生的。它如此而是惡的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1主稱",
+          "after": "「主稱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志。J",
+          "after": "意志。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行昂",
+          "after": "行為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        937
+      ],
+      "before": "善並不產生那相反自己的惡，卻產生其它的惡。例如火的善產生水的惡;本性善良的人產生道德方面的惡行為。這是偶然的情況，正如正解所說的(參看第十九題第九節)。可是二相反物，其中之一物卻也偶然地產生另一物:例如外圍的冷使物發熱，因為熱收縮凝聚在內部。",
+      "after": "善並不產生那相反自己的惡，卻產生其它的惡。例如火的善產生水的惡；本性善良的人產生道德方面的惡行為。這是偶然的情況，正如正解所說的(參看第十九題第九節)。可是二相反物，其中之一物卻也偶然地產生另一物：例如外圍的冷使物發熱，因為熱收縮凝聚在內部。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        937,
+        938
+      ],
+      "before": "惡之有有缺點的原因，在有意志的物上，與在自然物上，並不相同。因為自然行動者，除非受外物所阻，所產生的效果，就與自己相同;而這(能受阻)本身就是一種缺點。因此，除非在行動者或質料上，已先有另一惡存在，就絕不會有效果上的惡相隨，正如正解所說的。可是在有意志之物上，行動的缺點，卻出自現實或當時有缺點的意志，因為意志當時不使自己屈服於自己的規範之下。可是這種缺點卻不是罪;偕同這種缺點作為或行動，那就隨即有罪了。",
+      "after": "惡之有有缺點的原因，在有意志的物上，與在自然物上，並不相同。因為自然行動者，除非受外物所阻，所產生的效果，就與自己相同；而這(能受阻)本身就是一種缺點。因此，除非在行動者或質料上，已先有另一惡存在，就絕不會有效果上的惡相隨，正如正解所說的。可是在有意志之物上，行動的缺點，卻出自現實或當時有缺點的意志，因為意志當時不使自己屈服於自己的規範之下。可是這種缺點卻不是罪；偕同這種缺點作為或行動，那就隨即有罪了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "惡不是本然地有原因，而只是偶然地，正如正解所說的。",
+      "after": "惡不是本然地有原因，而只是偶然地，正如正解所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "至善，即天主，是否是惡的原因",
+      "after": "至善，即天主，是否是惡的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "至善，即天主，似乎是惡的原因。因為:",
+      "after": "至善，即天主，似乎是惡的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "《依撒意亞》第四十五章6至7節說:「我是上主，再沒有另一位:是我造了光明，造了黑暗:造了幸福，降了災禍或色。」《亞毛斯》第三章六節也說:「叫裡發生災禍或惡，豈不是上主所為。」",
+      "after": "《依撒意亞》第四十五章6至7節說：「我是上主，再沒有另一位：是我造了光明，造了黑暗；造了幸福，降了災禍或惡。」《亞毛斯》第三章六節也說：「如城裡發生災禍或惡，豈不是上主所為。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另一位:",
+          "after": "另一位：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "黑暗:",
+          "after": "黑暗；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "災禍或色",
+          "after": "災禍或惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「叫裡",
+          "after": "「如城裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "此外，第二原因的效果歸於第一原因。可是善卻是惡的原因，正如上文第一節所說的。既然一切善的原因是天主，正如上面第二題第三節、第六題第一及第四節所指明的，所以，一切惡也是出白天主。",
+      "after": "此外，第二原因的效果歸於第一原因。可是善卻是惡的原因，正如上文第一節所說的。既然一切善的原因是天主，正如上面第二題第三節、第六題第一及第四節所指明的，所以，一切惡也是出自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "此外，正如《物理學》卷二第三章所說的，船之平安得救與危險的原因完全相同。可是天主卻是萬物平安得救的原因。所以，祂也是一切喪亡和惡的原因。",
+      "after": "此外，正如《物理學》卷二第三章所說的，船之平安得救與危險的原因完全相同。可是天主卻是萬物平安得救的原因。所以，祂也是一切喪亡和惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        938
+      ],
+      "before": "奧斯定在《雜題八十三》、第二十一題說:天主「並不是惡的創始者，因為他並不是道向於非物或不存在(non esse)的原因」。",
+      "after": "奧斯定在《雜題八十三》第二十一題說：天主「並不是惡的創始者，因為他並不是趨向於非物或不存在(non esse)的原因」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "八十三》、",
+          "after": "八十三》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "道向",
+          "after": "趨向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        938,
+        939
+      ],
+      "before": "我解答如下:正如上文第一節問指明的，在於行動之缺點的惡，常常由於行動者的故E丘吉才奎生。可是，天主毫無任何缺點可言，而是至高無上的完美互之完善，正如上面第四題第一節所說明的。因此，在於行動之缺點三了惡，或由於行動者的缺點而產生的惡，並不能歸於天主-C芳:竺於三索茵一樣。\n可是那在於某些物之朽壞的思，卻歸於天主，如同歸於原因一樣。這顯示在自然物內，也顯示在有意志之物內心因為上文第一節已經說過，某一行動者，由於ii.!~用自己的能力產生了某一形式，而這形式(必然)有朽展和缺點相隘，所以他也是用自己的能力，產生了那朽壞和缺點。可是顯然地，天主在受造之物內主要所意圓的形式，是宇宙抉序的善或完美。可是正如上面第二十二題第二節釋疑2.、第四十八題第二部所說的，宇宙的秩序，需要有些物可能有所也缺或虧損，而且有時也宣際有所短缺或虧損。因此，天主由於在物內產生宇宙秩序的善或完美，隨即、有如偶然地(不是真正所意圓的)，產生了物的朽壞;按照《撒慕爾紀上》第二章6節所說的: 「上主使人死，也使人活。」可是《智慧篇》第一輩13節卻說: 「天主並未造死亡」'意思是說，「死亡本身不是天主所願意的」。\n可是正義的秩序也屬於宇宙的秩序，正義的秩序要求罪人受罰。準此，天主是罰這種惡的創始者及原因，卻不是罪這種惡的創始者或原因，理由己如上述第四十八題第六節。",
+      "after": "我解答如下：正如上文第一節所指明的，在於行動之缺點的惡，常常由於行動者的缺點而產生。可是，天主毫無任何缺點可言，而是至高無上的完美或完善，正如上面第四題第一節所說明的。因此，在於行動之缺點的惡，或由於行動者的缺點而產生的惡，並不能歸於天主，如同歸於原因一樣。\n可是那在於某些物之朽壞的惡，卻歸於天主，如同歸於原因一樣。這顯示在自然物內，也顯示在有意志之物內。因為上文第一節已經說過，某一行動者，由於他用自己的能力產生了某一形式，而這形式(必然)有朽壞和缺點相隨，所以他也是用自己的能力，產生了那朽壞和缺點。可是顯然地，天主在受造之物內主要所意圖的形式，是宇宙秩序的善或完美。可是正如上面第二十二題第二節釋疑2.、第四十八題第二節所說的，宇宙的秩序，需要有些物可能有所短缺或虧損，而且有時也實際有所短缺或虧損。因此，天主由於在物內產生宇宙秩序的善或完美，隨即、有如偶然地(不是真正所意圖的)，產生了物的朽壞；按照《撒慕爾紀上》第二章6節所說的：「上主使人死，也使人活。」可是《智慧篇》第一章13節卻說：「天主並未造死亡」，意思是說，「死亡本身不是天主所願意的」。\n可是正義的秩序也屬於宇宙的秩序，正義的秩序要求罪人受罰。準此，天主是罰這種惡的創始者及原因，卻不是罪這種惡的創始者或原因，理由己如上述第四十八題第六節。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一節問指明",
+          "after": "第一節所指明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "故E丘吉才奎生",
+          "after": "缺點而產生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美互之完善",
+          "after": "完美或完善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "缺點三了惡",
+          "after": "缺點的惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "-C芳:竺於三索茵一樣",
+          "after": "，如同歸於原因一樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "朽壞的思",
+          "after": "朽壞的惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之物內心",
+          "after": "之物內。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "ii.!~用",
+          "after": "他用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "朽展",
+          "after": "朽壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相隘",
+          "after": "相隨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意圓",
+          "after": "意圖",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "抉序",
+          "after": "秩序",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二部",
+          "after": "第二節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有所也缺",
+          "after": "有所短缺",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "宣際",
+          "after": "實際",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一輩",
+          "after": "第一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「天主並未造死亡」'",
+          "after": "「天主並未造死亡」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        939
+      ],
+      "before": "那段聖經所說的惡，是罰這種惡，而非罪這種惡。",
+      "after": "那段聖經所說的惡，是罰這種惡，而非罪這種惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        939
+      ],
+      "before": "那有缺點的第二原因的效果，歸於那沒有缺點的第一原因，是針對第二原因所有的物的內涵與完美;並不是針對它所有的缺點。正如跛行中所有的無論什麼行動，都由動力所產生;可是跛行中的皆由不直，並不是來自由J力，而是來自腿部的彎曲。同樣地，惡或不良行動中的無論什麼物的內涵和行動，都歸於天主，如同歸於原因一樣;可是其中的缺點或不良，不是由天主產生，而是由有缺點的第二原因產生。",
+      "after": "那有缺點的第二原因的效果，歸於那沒有缺點的第一原因，是針對第二原因所有的物的內涵與完美；並不是針對它所有的缺點。正如跛行中所有的無論什麼行動，都由動力所產生；可是跛行中的彎曲不直，並不是來自動力，而是來自腿部的彎曲。同樣地，惡或不良行動中的無論什麼物的內涵和行動，都歸於天主，如同歸於原因一樣；可是其中的缺點或不良，不是由天主產生，而是由有缺點的第二原因產生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皆由不直",
+          "after": "彎曲不直",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來自由J力",
+          "after": "來自動力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        939
+      ],
+      "before": "船沈了，歸咎於水手，如同歸咎於原因一樣，因為他沒有做那為了船的平安得救所需要做的。可是天主卻不會有失於做那為平安得救所需要做的。因此，不能相提並論。",
+      "after": "船沈了，歸咎於水手，如同歸咎於原因一樣，因為他沒有做那為了船的平安得救所需要做的。可是天主卻不會有失於做那為平安得救所需要做的。因此，不能相提並論。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "是否有一至惡為一切惡的原因",
+      "after": "是否有一至惡為一切惡的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "有關於第三節，我們討論如下：",
+      "after": "有關於第三節，我們討論如下：",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "似乎有一至惡為一切惡的原因。因為:",
+      "after": "似乎有一至惡為一切惡的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "相反的效果有相反的原因。可是在物中卻發現有相皮，按照《德訓篇》第三寸三章的節所說的: 「善與惡相封，生與死相峙，罪人也與虔敬人敵對。」所以也有相反的根元:一是善的根元，一是惡的根元(二元論)。",
+      "after": "相反的效果有相反的原因。可是在物中卻發現有相反，按照《德訓篇》第三十三章15節所說的：「善與惡相對，生與死相峙，罪人也與虔敬人敵對。」所以也有相反的根元：一是善的根元，一是惡的根元(二元論)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相皮",
+          "after": "相反",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三寸三章的節",
+          "after": "第三十三章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相封",
+          "after": "相對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "此外，如果二相反者中，有一個是在萬物的本性或自然內，那麼其餘的(另一個)也是，正如《天地論》卷二第三章所說的。可是至善是在萬物的本性或自然內，因為祂是一切善的原因，正如第二題第三節、第六題第二及第四節所說明的。所以，有一與至善相反的至惡，為一切惡的原因。",
+      "after": "此外，如果二相反者中，有一個是在萬物的本性或自然內，那麼其餘的(另一個)也是，正如《天地論》卷二第三章所說的。可是至善是在萬物的本性或自然內，因為祂是一切善的原因，正如第二題第三節、第六題第二及第四節所說明的。所以，有一與至善相反的至惡，為一切惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "此外，正如物中有善與更善，同樣地，物中也有惡與更惡。可是善、更善，是著眼於或針對至善而說的。所以，惡、更惡，也是著眼於或針對某一至惡而說的。",
+      "after": "此外，正如物中有善與更善，同樣地，物中也有惡與更惡。可是善、更善，是著眼於或針對至善而說的。所以，惡、更惡，也是著眼於或針對某一至惡而說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "此外，凡是藉分享而有的一切，都歸於那藉本質而有的。可是我們中間的所謂惡的事物，卻不是由於本質而為惡，而是由於分享。所以，有藉其本質而為惡的至惡，它是一切惡的原因。",
+      "after": "此外，凡是藉分享而有的一切，都歸於那藉本質而有的。可是我們中間的所謂惡的事物，卻不是由於本質而為惡，而是由於分享。所以，有藉其本質而為惡的至惡，它是一切惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.arg5",
+      "article": 3,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "此外，凡是偶然而有的一切，都歸於那本然而有的。可是善卻是偶然地為惡的原因。所以，應該承認有一至惡，它是本然地為萬惡的原因。也不可這樣說，惡並沒有本然的原因，而只有偶然的原因;因為果如此，買IJ其結論是:大多數的情況內惡並不存在，它只存在於少數的情況內(而這是不合於事實的)。",
+      "after": "此外，凡是偶然而有的一切，都歸於那本然而有的。可是善卻是偶然地為惡的原因。所以，應該承認有一至惡，它是本然地為萬惡的原因。也不可這樣說，惡並沒有本然的原因，而只有偶然的原因；因為果如此，則其結論是：大多數的情況內惡並不存在，它只存在於少數的情況內(而這是不合於事實的)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.arg6",
+      "article": 3,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        940
+      ],
+      "before": "此外，效果的惡歸於原因的惡，因為有缺點的效果出自有缺點的原因，正如上文第一及第二節所說的。可是這溯本追源卻不可能永無止境。所以，應該承認有一個第一的或元始的惡﹒它是一切惡的原因。",
+      "after": "此外，效果的惡歸於原因的惡，因為有缺點的效果出自有缺點的原因，正如上文第一及第二節所說的。可是這溯本追源卻不可能永無止境。所以，應該承認有一個第一的或元始的惡，它是一切惡的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惡﹒",
+          "after": "惡，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        941
+      ],
+      "before": "至善是一切物的原因，正如第二題第三節、第六題第四節所說明的。所以，不可能有一與至善相對立的根元，為一切惡的原因。",
+      "after": "至善是一切物的原因，正如第二題第三節、第六題第四節所說明的。所以，不可能有一與至善相對立的根元，為一切惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        941,
+        942
+      ],
+      "before": "我解答如下:由上面所說的，可見並沒有一個惡的第一原理或根源，如同有一個善的第一原理或根源一樣。因為善的第一原理或根源是因其本質為苔，正如上面第六題第三及第四節所說明的。可是卻沒有什麼能因其本質為惡;因為上面第五題第三節、第四十八題第三節己說明，一切物，以其為物來說，都是善的;而惡只是存在善內，一如存在主體內。\n因為善的第一原理或根源，是至上的與完美的善，它在自己內超絕地寓有一切美善，正如上面第六題第二節所說明的。可是至(上的或全面的)惡卻不可能存在，因為正如第四十八題第四節所說明的，雖然惡常常減損善，卻絕不可能完全消滅善。如此，在常有善留存的情形下，不可能有什麼完整的和完全的惡。因此，哲學家在《倫理學》卷四第五章說:「如果惡是完整的，那麼它將毀滅自己。」因為一切善既已被毀滅(惡的完整需要如此)，惡本身也就被消除，因為惡的主體是善。\n因為惡的觀念與第一原理或根源的觀念相抵觸。一方面，因為一切惡皆由善產生，正如上文第一節所說明的。另一方面，因為惡之為原因，只能是偶然地;如此，貝Ij惡不可能是第一原因，因為偶然的原因後於本然的原因，正如《物理學》卷二第六章所指明的。\n可是有些人卻主張兩種第一原理或根源:一是善的，一是惡的。他們陷於這種錯誤，與古人的其他奇異主張，同出一源:即是因為他們並沒有討論物的普遍原因，而只討論特殊效果的特殊原因。因此，如果他們發見有什麼因自己的本性能力而有害於某物，那麼他們就以為這種物的本性是惡的;例如:有人說火的本性是惡的，因為它焚毀窮人的房屋。可是一物之美善的徵驗，不應該按照它與某一特殊物的關係或秩序，而應該根據它自己，以及根據它與整個宇宙的關係或秩序，在這宇宙整體裡，每一物都有自己的位置﹒一切井然有序，正如第四十七題第二節釋疑1所指明的。\n同樣地，因為他們也發現了二相反的特殊效果的二相反的特殊原因，卻不知將相反的特殊原因，歸於一共同的普遍的原因。所以，他們斷定原因之間的相反或衝突，一直延伸到第一原理或根源。可是，因為一切相反者都同歸於一共同者，所以在它們中，在各別的相反的原因之上，必然有一共同的原因。正如在元素的相反的品質之上，有天體的能力;同樣地，在無論以什麼方式存在的一切之上，有一存在的第一原理或根源，正如第二題第三節所說明的。",
+      "after": "我解答如下：由上面所說的，可見並沒有一個惡的第一原理或根源，如同有一個善的第一原理或根源一樣。因為善的第一原理或根源是因其本質為善，正如上面第六題第三及第四節所說明的。可是卻沒有什麼能因其本質為惡；因為上面第五題第三節、第四十八題第三節己說明，一切物，以其為物來說，都是善的；而惡只是存在善內，一如存在主體內。\n因為善的第一原理或根源，是至上的與完美的善，它在自己內超絕地寓有一切美善，正如上面第六題第二節所說明的。可是至(上的或全面的)惡卻不可能存在，因為正如第四十八題第四節所說明的，雖然惡常常減損善，卻絕不可能完全消滅善。如此，在常有善留存的情形下，不可能有什麼完整的和完全的惡。因此，哲學家在《倫理學》卷四第五章說：「如果惡是完整的，那麼它將毀滅自己。」因為一切善既已被毀滅(惡的完整需要如此)，惡本身也就被消除，因為惡的主體是善。\n因為惡的觀念與第一原理或根源的觀念相抵觸。一方面，因為一切惡皆由善產生，正如上文第一節所說明的。另一方面，因為惡之為原因，只能是偶然地；如此，則惡不可能是第一原因，因為偶然的原因後於本然的原因，正如《物理學》卷二第六章所指明的。\n可是有些人卻主張兩種第一原理或根源：一是善的，一是惡的。他們陷於這種錯誤，與古人的其他奇異主張，同出一源：即是因為他們並沒有討論物的普遍原因，而只討論特殊效果的特殊原因。因此，如果他們發見有什麼因自己的本性能力而有害於某物，那麼他們就以為這種物的本性是惡的；例如：有人說火的本性是惡的，因為它焚毀窮人的房屋。可是一物之美善的徵驗，不應該按照它與某一特殊物的關係或秩序，而應該根據它自己，以及根據它與整個宇宙的關係或秩序，在這宇宙整體裡，每一物都有自己的位置，一切井然有序，正如第四十七題第二節釋疑1.所指明的。\n同樣地，因為他們也發現了二相反的特殊效果的二相反的特殊原因，卻不知將相反的特殊原因，歸於一共同的普遍的原因。所以，他們斷定原因之間的相反或衝突，一直延伸到第一原理或根源。可是，因為一切相反者都同歸於一共同者，所以在它們中，在各別的相反的原因之上，必然有一共同的原因。正如在元素的相反的品質之上，有天體的能力；同樣地，在無論以什麼方式存在的一切之上，有一存在的第一原理或根源，正如第二題第三節所說明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為苔",
+          "after": "為善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "位置﹒",
+          "after": "位置，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑1所",
+          "after": "釋疑1.所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        942
+      ],
+      "before": "相反者同屬一類，在存在的性質或觀點上也相同。所以，雖然相反者有相反的特殊原因，卻必然上溯至一共同的第一原因。",
+      "after": "相反者同屬一類，在存在的性質或觀點上也相同。所以，雖然相反者有相反的特殊原因，卻必然上溯至一共同的第一原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        942
+      ],
+      "before": "虧缺(privatio)與具備(habitus)，原本是針對同一物。可是虧缺的主體卻是在潛能中的物，正如第四十八題第三節所說的。因此，既然惡是善的虧缺(privatio boni)，正如上面所指明的，所以，它所相反的善，是有潛能相依附的善，而不是至善，因為至善是純現實(actus purus)。",
+      "after": "虧缺(privatio)與具備(habitus)，原本是針對同一物。可是虧缺的主體卻是在潛能中的物，正如第四十八題第三節所說的。因此，既然惡是善的虧缺(privatio boni)，正如上面所指明的，所以，它所相反的善，是有潛能相依附的善，而不是至善，因為至善是純現實(actus purus)。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q049.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        942
+      ],
+      "before": "每一物都是按照自己的本性而伸展或增長。可是正如形式是一種成就或完美，同樣地，虧缺也是一種脫離或自棄。因此，一切形式、完美與善，因接近完美的終點或極點而增長;可是虧缺與惡，卻因遠離這一(完善的)極點而增長。因此，不是根據接近至惡，而說惡和更惡，如同根據接近至善，而說善和更善。",
+      "after": "每一物都是按照自己的本性而伸展或增長。可是正如形式是一種成就或完美，同樣地，虧缺也是一種脫離或自棄。因此，一切形式、完美與善，因接近完美的終點或極點而增長；可是虧缺與惡，卻因遠離這一(完善的)極點而增長。因此，不是根據接近至惡，而說惡和更惡，如同根據接近至善，而說善和更善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        943
+      ],
+      "before": "物之稱為惡，不是藉著分亭，而是藉著虧缺分享(應有的善)。因此，不需要上溯至一基於其本質的惡。",
+      "after": "物之稱為惡，不是藉著分享，而是藉著虧缺分享(應有的善)。因此，不需要上溯至一基於其本質的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分亭",
+          "after": "分享",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.ad5",
+      "article": 3,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        943
+      ],
+      "before": "惡之能有原因，只不過是偶然地，正如上文第一節所說的。因此，不能上溯至惡的什麼本然原因。至於說惡存在於大多數的情況內，這句話卻絕對是偽的。因為自然的惡只存在於有生有死(有敗壞)之物內，而它們只不過佔有整個宇宙的極小部分而已。再者，在每一種物內，自然或天性的缺點，只發生在少數的情況下。只有在人中間，惡似乎存在於大多數的情況下;因為人在感覺方面的善，不是人作為人的善，這種善是理性方面的善。可是許多人隨從感覺，卻不隨從理性。",
+      "after": "惡之能有原因，只不過是偶然地，正如上文第一節所說的。因此，不能上溯至惡的什麼本然原因。至於說惡存在於大多數的情況內，這句話卻絕對是偽的。因為自然的惡只存在於有生有死(有敗壞)之物內，而它們只不過佔有整個宇宙的極小部分而已。再者，在每一種物內，自然或天性的缺點，只發生在少數的情況下。只有在人中間，惡似乎存在於大多數的情況下；因為人在感覺方面的善，不是人作為人的善，這種善是理性方面的善。可是許多人隨從感覺，卻不隨從理性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q049.a003.ad6",
+      "article": 3,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        943
+      ],
+      "before": "在惡的原因方面，不會進行永無止境;而是將一切惡歸於某一善的原因，由此善的原因，偶然地有惡繼而產生。",
+      "after": "在惡的原因方面，不會進行永無止境；而是將一切惡歸於某一善的原因，由此善的原因，偶然地有惡繼而產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
