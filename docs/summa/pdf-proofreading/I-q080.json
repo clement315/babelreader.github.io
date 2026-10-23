@@ -1,0 +1,673 @@
+{
+  "schema_version": 1,
+  "batch": "I-q080",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "99cc4a4307a06ba98e8269cf22d9ddd5694b9193",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q080",
+    "title": "綜論嗜慾機能",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1335,
+      1336,
+      1337,
+      1338
+    ],
+    "printed_pages": [
+      108,
+      111
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 24,
+    "changed_review_units": 17,
+    "checked_unchanged_review_units": 8
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q80.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q80.json": "d4d618805631f6a1f9a39edce5a248b140f4fa9211092380538c4e393ba08101"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q080.a001.ad1",
+      "pdf_file_page": 1336,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q080.a002.arg1",
+      "pdf_file_page": 1337,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q080.prologue",
+      "description": "题引言前五行页边OCR乱码移除，原有五个换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部4页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q080.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "A匕\n鬥悶匕\n綜/血弘悶\n-\n一為\n然後要討論的是嗜慾機能(參看第七十八題51言)。共分為四點:第一，總論嗜慾機能;第二，論肉慾(肉體之嗜慾;第八十一題);第三，論意志(第八十二題);第凹，論自由抉擇或自由意志(第八十三題)。\n關於第一點，可以提出兩個問題:\n一、嗜慾是否應列為靈魂之特別機能。\n二、嗜慾是否分為感官嗜慾和智性嗜慾，有如不同的機白色。",
+      "after": "\n\n\n\n\n然後要討論的是嗜慾機能(參看第七十八題引言)。共分為四點：第一，總論嗜慾機能；第二，論肉慾(肉體之嗜慾；第八十一題)；第三，論意志(第八十二題)；第四，論自由抉擇或自由意志(第八十三題)。\n關於第一點，可以提出兩個問題：\n一、嗜慾是否應列為靈魂之特別機能。\n二、嗜慾是否分為感官嗜慾和智性嗜慾，有如不同的機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "A匕\n鬥悶匕\n綜/血弘悶\n-\n一為\n",
+          "after": "\n\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "51言",
+          "after": "引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "機白色",
+          "after": "機能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "嗜慾是否為靈魂的一種特別機能",
+      "after": "嗜慾是否為靈魂的一種特別機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "嗜慾(appetitus)似乎不是靈魂的一種特別機能。因為:",
+      "after": "嗜慾(appetitus)似乎不是靈魂的一種特別機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "生物(有生命者、有魂者)和無生物所共有者，不該是靈魂的一種機能。但嗜慾是生物和無生物所共有的，因為《倫理學》卷一第一章說，善乃是「一切東西或萬物所欲者」。所以，嗜慾不是靈魂的一種特別機能。",
+      "after": "生物(有生命者、有魂者)和無生物所共有者，不該是靈魂的一種機能。但嗜慾是生物和無生物所共有的，因為《倫理學》卷一第一章說，善乃是「一切東西或萬物所欲者」。所以，嗜慾不是靈魂的一種特別機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "此外，機能是按對象而定區分，但我們所認知不日所欲求的是同樣的東西。所以﹒嗜慾能力不該是認知能力以外的另一機能。",
+      "after": "此外，機能是按對象而定區分，但我們所認知和所欲求的是同樣的東西。所以，嗜慾能力不該是認知能力以外的另一機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日",
+          "after": "和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1335
+      ],
+      "before": "此外，共同者不能與專有者平列，但是靈魂的每個機能都欲求某個別可欲的東西，即其中目宜之對象。所以，針對此一共同可欲之對象，不必另外有一個異於其他機能的機能，即所謂的嗜慾機能。",
+      "after": "此外，共同者不能與專有者平列，但是靈魂的每個機能都欲求某個別可欲的東西，即其相宜之對象。所以，針對此一共同可欲之對象，不必另外有一個異於其他機能的機能，即所謂的嗜慾機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中目宜",
+          "after": "相宜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1336
+      ],
+      "before": "哲學家在《靈魂論》卷二第三及第十章，將嗜慾與其他機能加以區分。大馬士革的若望在《論正統信仰》卷二第二十二章也將嗜慾能力與認知能力加以區分。",
+      "after": "哲學家在《靈魂論》卷二第三及第十章，將嗜慾與其他機能加以區分。大馬士革的若望在《論正統信仰》卷二第二十二章也將嗜慾能力與認知能力加以區分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1336
+      ],
+      "before": "我解答如下:該承認靈魂有一種嗜慾機能。為證明此點，要知道任何形式都有其傾向，例如:火之形式使之傾向上升，並產生與其本身相似者。那些分有認知能力者的形式，比沒有認知能力者之形式高。在沒有認知能力的東西內，只有限定每個東西於其固有存在的形式，這也就是每個東西的自然天性。這個自然形式有一種自然傾向，即所謂的「自然嗜慾」(appetitus naturalis)。在有認知能力的東西內，每個東西也因自然形式，而被限定於固有的自然存在，但卻能容納其他東西之物象;就如感官容納一切可感覺之東西的物象，智能容納一切可理解之東西的物象。因而人的靈魂按感宮和智能多少可以說是一切東西。在這方面，有認知能力者多少都近似天主，因為按狄奧尼修《神名論》第五章所說的，「一切原先都在天主內存在」 0\n所以，正如有認知能力者的形式，其存在方式高於自然形式的存在方式，同樣那些東西內的傾向，也該比自然傾向高，即上七所謂的自然嗜慾高。這種高級傾向屬於靈魂的嗜慾能力，使動物慾求其所認知者，不只欲求自然形式所傾曏者。所以靈魂該有一種嗜慾機能。",
+      "after": "我解答如下：該承認靈魂有一種嗜慾機能。為證明此點，要知道任何形式都有其傾向，例如：火之形式使之傾向上升，並產生與其本身相似者。那些分有認知能力者的形式，比沒有認知能力者之形式高。在沒有認知能力的東西內，只有限定每個東西於其固有存在的形式，這也就是每個東西的自然天性。這個自然形式有一種自然傾向，即所謂的「自然嗜慾」(appetitus naturalis)。在有認知能力的東西內，每個東西也因自然形式，而被限定於固有的自然存在，但卻能容納其他東西之物象；就如感官容納一切可感覺之東西的物象，智能容納一切可理解之東西的物象。因而人的靈魂按感官和智能多少可以說是一切東西。在這方面，有認知能力者多少都近似天主，因為按狄奧尼修《神名論》第五章所說的，「一切原先都在天主內存在」。\n所以，正如有認知能力者的形式，其存在方式高於自然形式的存在方式，同樣那些東西內的傾向，也該比自然傾向高，即比所謂的自然嗜慾高。這種高級傾向屬於靈魂的嗜慾能力，使動物欲求其所認知者，不只欲求自然形式所傾向者。所以靈魂該有一種嗜慾機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "存在」 0",
+          "after": "存在」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "即上七",
+          "after": "即比",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動物慾求",
+          "after": "動物欲求",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傾曏",
+          "after": "傾向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1336
+      ],
+      "before": "如正解已說過的，真有認知能力者之嗜慾，高於萬物所共有的自然嗜慾。故此靈魂該有一種特別機能。",
+      "after": "如正解己說過的，具有認知能力者之嗜慾，高於萬物所共有的自然嗜慾。故此靈魂該有一種特別機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1336,
+        1337
+      ],
+      "before": "被認知不日被欲求者，其主體固然相同，但其理或觀點並不相同:被認知者是東西之可感覺或可理解的那一面;被欲求者是東西之適宜或善的那一面。為區分機能，不必有質料或主體的差別，但該有對象之理的差別。",
+      "after": "被認知和被欲求者，其主體固然相同，但其理或觀點並不相同；被認知者是東西之可感覺或可理解的那一面；被欲求者是東西之適宜或善的那一面。為區分機能，不必有質料或主體的差別，但該有對象之理的差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日",
+          "after": "和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並不相同:",
+          "after": "並不相同；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "靈魂的每一機能，都是一種形式或天性，並有某種自然傾向。因而各以自然嗜慾欲求其相關對象。在這自然嗜慾之上，有個以認知為前導的動物性嗜慾，這嗜慾所欲求的，不是由於它適於此一或那一機能的活動，如要看是為看見，要聽是為聽到，而是因為它絕對地或不加區分地適於整個動物。",
+      "after": "靈魂的每一機能，都是一種形式或天性，並有某種自然傾向。因而各以自然嗜慾欲求其相關對象。在這自然嗜慾之上，有個以認知為前導的動物性嗜慾，這嗜慾所欲求的，不是由於它適於此一或那一機能的活動，如要看是為看見，要聽是為聽到，而是因為它絕對地或不加區分地適於整個動物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "感官嗜慾和智性嗜慾是否為不同之機能",
+      "after": "感官嗜慾和智性嗜慾是否為不同之機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "感官或感覺嗜慾(appetitus sensitivus)和智性嗜慾(appetitus intellectivus)似乎不是不同的機能。囡為:",
+      "after": "感官或感覺嗜慾(appetitus sensitivus)和智性嗜慾(appetitus intellectivus)似乎不是不同的機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "囡為",
+          "after": "因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "前面第七十七題第三節已經說過，機能不因了偶然差別而定區分。但可欲者是被感官所知覺或被智能所知覺，乃是偶然的事。所以感官嗜慾和智性嗜慾不是不同的機能。",
+      "after": "前面第七十七題第三節己經說過，機能不因了偶然差別而定區分。但可欲者是被感官所知覺或被智能所知覺，乃是偶然的事。所以感官嗜慾和智性嗜慾不是不同的機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "此外，智性認知是針對普遍性的東西，感官認知是針對個體性的東西，二者之區別即在於此。但在嗜慾方面沒有這種區別;因為嗜慾是從靈魂到東西的一種運動，而東西是個體性的，似乎嗜慾都是以個體性的東西為對象的。所以智性嗜慾與感官嗜慾不該有區別。",
+      "after": "此外，智性認知是針對普遍性的東西，感官認知是針對個體性的東西，二者之區別即在於此。但在嗜慾方面沒有這種區別；因為嗜慾是從靈魂到東西的一種運動，而東西是個體性的，似乎嗜慾都是以個體性的東西為對象的。所以智性嗜慾與感官嗜慾不該有區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "此外，嗜慾能力有似低級能力而受知覺能力之支配，運動能力也是一樣。但是在人內，除了像在其他動物內伴隨感官機能的運動能力外，另外沒有伴隨智能的運動能力。所以按同理，也不該有另外的嗜慾機能。",
+      "after": "此外，嗜慾能力有似低級能力而受知覺能力之支配，運動能力也是一樣。但是在人內，除了像在其他動物內伴隨感官機能的運動能力外，另外沒有伴隨智能的運動能力。所以按同理，也不該有另外的嗜慾機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q080.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1337
+      ],
+      "before": "哲學家在《靈魂論》卷三第九及第十章，將嗜慾分為fijt種，並說高級嗜慾推動低級嗜慾(第十一章)。",
+      "after": "哲學家在《靈魂論》卷三第九及第十章，將嗜慾分為兩種，並說高級嗜慾推動低級嗜慾(第十一章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "fijt種",
+          "after": "兩種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1337,
+        1338
+      ],
+      "before": "我解答如下:必須承認智性嗜慾是有別於感官嗜慾的機能。嗜慾機能乃是一種被動機能，本來就是為受知覺之支配。故此，《靈魂論》卷三第十章和《形上學》卷十二第七章都說，知覺到的可欲者是不動的推動者，嗜慾是被推動的推動者。被動者和可動者乃是根據主動者和推動者定區分:因為推動者該與可動者相配，主動者與被動者相配;被動機能之理即在於它與其主動機能之關係。既然智性所知覺者與感官所知覺者屬於不同的類刑，因而智性嗜慾是有別於感官嗜慾的另一機能。",
+      "after": "我解答如下：必須承認智性嗜慾是有別於感官嗜慾的機能。嗜慾機能乃是一種被動機能，本來就是為受知覺之支配。故此，《靈魂論》卷三第十章和《形上學》卷十二第七章都說，知覺到的可欲者是不動的推動者，嗜慾是被推動的推動者。被動者和可動者乃是根據主動者和推動者定區分：因為推動者該與可動者相配，主動者與被動者相配；被動機能之理即在於它與其主動機能之關係。既然智性所知覺者與感官所知覺者屬於不同的類別，因而智性嗜慾是有別於感官嗜慾的另一機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1338
+      ],
+      "before": "可欲者是被感官所知覺或被智性所知覺，不是偶然的事，而是本然地屬於可欲者本身;因為可欲者除非被知覺到，否則不能推動嗜慾。因而被知覺到者之差別也就是可欲者之差別。故此，嗜慾機能是根據被知覺到者之差別而互為區分，被知覺到者就似是其專有之對象。",
+      "after": "可欲者是被感官所知覺或被智性所知覺，不是偶然的事，而是本然地屬於可欲者本身；因為可欲者除非被知覺到，否則不能推動嗜慾。因而被知覺到者之差別也就是可欲者之差別。故此，嗜慾機能是根據被知覺到者之差別而互為區分，被知覺到者就似是其專有之對象。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1338
+      ],
+      "before": "智性嗜慾雖然是以靈魂之外的個體性的東西為對象，但它指向這些對象是因了某一普遍性的理由，即是說它欲求某東西，乃是因為那是善。是以哲學家在《11多辭學》(Ars Rhetorica)卷二第四章說，怨恨之對象能是普遍性的，例如: 「我們恨各種的盜賊」。此外，用智性嗜慾我們能欲求感官所不能知覺之非物質的善，如學間，德行等。",
+      "after": "智性嗜慾雖然是以靈魂之外的個體性的東西為對象，但它指向這些對象是因了某一普遍性的理由，即是說它欲求某東西，乃是因為那是善。是以哲學家在《修辭學》(Ars Rhetorica)卷二第四章說，怨恨之對象能是普遍性的，例如：「我們恨各種的敵」。此外，用智性嗜慾我們能欲求感官所不能知覺之非物質的善，如學問，德行等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "11多辭學",
+          "after": "修辭學",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "盜賊",
+          "after": "敵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "學間",
+          "after": "學問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q080.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1338
+      ],
+      "before": "正如《靈魂論》卷三第十一章所說的，普遍性的意見只有通過個別的意見才會推動;同樣，高級嗜慾之推動也是通過低級嗜慾。因此受智性和感官支配的運動能力沒有區別。",
+      "after": "正如《靈魂論》卷三第十一章所說的，普遍性的意見只有通過個別的意見才會推動；同樣，高級嗜慾之推動也是通過低級嗜慾。因此受智性和感官支配的運動能力沒有區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
