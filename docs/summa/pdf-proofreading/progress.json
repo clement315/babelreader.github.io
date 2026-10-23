@@ -211,6 +211,21 @@
       "articles": 8,
       "source_defects_flagged": 6,
       "layout_differences_preserved_by_user_instruction": 0
+    },
+    {
+      "id": "I-q075",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I-q075.md",
+      "manifest": "I-q075.json",
+      "pdf_file_pages": [
+        1228,
+        1244
+      ],
+      "articles": 7,
+      "source_defects_flagged": 3,
+      "layout_differences_preserved_by_user_instruction": 0,
+      "priority_reason": "User-reported OCR corruption in I.q075.a001.objection-intro; full question reviewed ahead of sequential order"
     }
   ],
   "reviewed_question_ids": [
@@ -229,10 +244,11 @@
     "I.q013",
     "I.q014",
     "I.q015",
-    "I.q016"
+    "I.q016",
+    "I.q075"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 106,
+  "reviewed_articles": 113,
   "total_catalog_articles": 3125,
   "next_question": "I.q017",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
