@@ -1,0 +1,1177 @@
+{
+  "schema_version": 1,
+  "batch": "I-q015",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "9cb8a8613fd14e5af7181424f4f2d6bf5d62d9a7",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q015",
+    "title": "論理念",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468
+    ],
+    "printed_pages": [
+      245,
+      252
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 40,
+    "changed_review_units": 29,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q15.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q15.json": "ea02dec343061aa65db5f0ae032a8ac600c7ea42797bc71fd68f659f549913a9"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q015.a001.arg1",
+      "pdf_file_page": 462,
+      "text": "物而己",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a001.arg2",
+      "pdf_file_page": 462,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a001.arg3",
+      "pdf_file_page": 462,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a001.ad3",
+      "pdf_file_page": 463,
+      "text": "而己",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a002.respondeo",
+      "pdf_file_page": 465,
+      "text": "理念而己",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a002.ad2",
+      "pdf_file_page": 466,
+      "text": "己建成",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a003.arg2",
+      "pdf_file_page": 467,
+      "text": "己說過了",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a003.ad4",
+      "pdf_file_page": 468,
+      "text": "己造好的",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a003.ad4",
+      "pdf_file_page": 468,
+      "text": "物種而己",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」的印误；按底本保留，不按现代语义静默改字。"
+    },
+    {
+      "id": "I.q015.a002.respondeo",
+      "pdf_file_page": 466,
+      "text": "三軍統師",
+      "status": "suspected_source_print_error",
+      "action": "原页明确印为「統師」，疑为「統帥」；保留原字供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部8页逐页与中文字段对齐；对理念释义、柏拉圖人名、相似者、引号及拉丁词作放大复核。",
+    "原译「常久」「亭毒」「種差」、原书「三軍統師」及己／已疑点均按底本保留；不作术语统一或译文润色。",
+    "题标题及3个节标题已按原页复核，无须修改目录。"
+  ],
+  "readings": [
+    {
+      "id": "I.q015.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        461
+      ],
+      "before": "(按: idea一字來自希臘文，中文多譯之為觀念或理念。從認知的角度來看，此字是指人的理智藉觀察一種物的許多個體，以抽象的方式，對該種物所獲致的普通基本認知，額似知識論中的普遍概念。依此可譯之為觀念。但從創作的角度來看，此字則指創作的構思或設計成果。依此則宜譯之為理念。創作者的理念實現或落實在所創作的某種物中，就成為該種物之理，其所表達的是該種物之本質或物種一-species。用語句或命題把物種或本質加以界定，則是定義。拉丁文的ratl。一字，能兼有上述幾種意義。此外，觀念一詞所代表的普通基本認知，係以創作者的理念和其所創作之物的理或本質為基礎和標準，如果不相符合，便不是真實的和正確的認知。所以，即使從認知的角度來看，idea也並非不可以譯為理念以取代觀念。但若把創作的idea譯為觀念以取代理念，則可能詞不達意。)\n討論了天主的知識之後，現在向應進一步討論觀念或理念(idea'參看第十四題引言)。\n關於這一點，可以提出三個問題:\n一、(天主)是否有理念。\n二、有許多理念，抑或只有一個理念。\n三、天主對自己所認知的一切，是否都有理念。",
+      "after": "(按：idea一字來自希臘文，中文多譯之為觀念或理念。從認知的角度來看，此字是指人的理智藉觀察一種物的許多個體，以抽象的方式，對該種物所獲致的普通基本認知，類似知識論中的普遍概念。依此可譯之為觀念。但從創作的角度來看，此字則指創作的構思或設計成果。依此則宜譯之為理念。創作者的理念實現或落實在所創作的某種物中，就成為該種物之理，其所表達的是該種物之本質或物種——species。用語句或命題把物種或本質加以界定，則是定義。拉丁文的ratio一字，能兼有上述幾種意義。此外，觀念一詞所代表的普通基本認知，係以創作者的理念和其所創作之物的理或本質為基礎和標準，如果不相符合，便不是真實的和正確的認知。所以，即使從認知的角度來看，idea也並非不可以譯為理念以取代觀念。但若把創作的idea譯為觀念以取代理念，則可能詞不達意。)\n討論了天主的知識之後，現在尚應進一步討論觀念或理念(idea，參看第十四題引言)。\n關於這一點，可以提出三個問題：\n一、(天主)是否有理念。\n二、有許多理念，抑或只有一個理念。\n三、天主對自己所認知的一切，是否都有理念。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "拉丁文",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "額似",
+          "after": "類似",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "物種一-species",
+          "after": "物種——species",
+          "occurrences": 1,
+          "type": "标点／乱码"
+        },
+        {
+          "before": "ratl。",
+          "after": "ratio",
+          "occurrences": 1,
+          "type": "乱码／拉丁文"
+        },
+        {
+          "before": "向應",
+          "after": "尚應",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "idea'",
+          "after": "idea，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "(天主)是否有理念",
+      "after": "(天主)是否有理念",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "(天主)似乎沒有理念。因為:",
+      "after": "(天主)似乎沒有理念。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "狄奧尼修在《神名論》第七章說，天主不是依理念認知事物。而理念之設定，沒有別的目的，只是為了藉以認知事物而已。所以，(天主)沒有理念。",
+      "after": "狄奧尼修在《神名論》第七章說，天主不是依理念認知事物。而理念之設定，沒有別的目的，只是為了藉以認知事物而己。所以，(天主)沒有理念。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形"
+      ],
+      "changes": [
+        {
+          "before": "而已",
+          "after": "而己",
+          "occurrences": 1,
+          "type": "原书字形"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "此外，天主是在自己內認知一切，如前面第十四題第五節己說過的。而天主不是藉理念來認知自己。所以，也不是藉理念認知其他東西。",
+      "after": "此外，天主是在自己內認知一切，如前面第十四題第五節己說過的。而天主不是藉理念來認知自己。所以，也不是藉理念認知其他東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "此外，理念被視為是認知和行動的根本或本原。可是，天主的本質已經是認知和創作一切的充足的根本或本原。所以，無需設定有理念。",
+      "after": "此外，理念被視為是認知和行動的根本或本原。可是，天主的本質己經是認知和創作一切的充足的根本或本原。所以，無需設定有理念。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "原书字形"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        462
+      ],
+      "before": "奧斯定在《雜題八十三》第四十六題卻說: 「理念具有如此之能力，如不領悟理念，就沒有人能成為智者。」",
+      "after": "奧斯定在《雜題八十三》第四十六題卻說：「理念具有如此之能力，如不領悟理念，就沒有人能成為智者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        462,
+        463
+      ],
+      "before": "我解答如下:必須肯定在天主的靈智或理智內有理念。理念(idea)一詞，原係希臘文，拉丁文稱「形式」(forma)。因此，理念的意義，就是物之存在於自己本身以外的形式。一物之存在於自己本身以外的形式，能有兩種作用;或者是作為此形式之物的模型;或者是作為認知該物的原理或根本，就如說可認知之物的形式是存在於認知者內。從這兩方面來說，都應該肯定天主有理念。\n這一點可以如此來說明:在一切並非偶然所產生的物內，形式必然是一切產生之目的。產主者或主動者不會是為了形式而動作，除非在自己內有該形式的像或相似該形式者。這能有兩種情形:在某些主動者內，要形成立物的形式預先存在於他們內，是依物之自然或本身的存在方式9比如，在那些依自然本性而動作的主動者J內，就如人之生人，火之引火。在另一些主動者內，卻是依可理解的或在理智內的存在方式，比如，在那些藉理智而動作的主動者內，就如房屋的像或相似者預先存在於建築師的理智內。而這像(設計)就可以稱為房屋的理念，因為建築師意欲使房屋仿照他在理智中所構思的形式。\n由於這個世界並非偶然產生，而是由天主藉其主動的理智而造成的，如下面第四十七題第一節將要證明的，所以在天主內必然有形式，世界就是依照這形式的像或仿照這形式而造成的。而理念的意義就在於ltt。",
+      "after": "我解答如下：必須肯定在天主的靈智或理智內有理念。理念(idea)一詞，原係希臘文，拉丁文稱「形式」(forma)。因此，理念的意義，就是物之存在於自己本身以外的形式。一物之存在於自己本身以外的形式，能有兩種作用；或者是作為此形式之物的模型；或者是作為認知該物的原理或根本，就如說可認知之物的形式是存在於認知者內。從這兩方面來說，都應該肯定天主有理念。\n這一點可以如此來說明：在一切並非偶然所產生的物內，形式必然是一切產生之目的。產生者或主動者不會是為了形式而動作，除非在自己內有該形式的像或相似該形式者。這能有兩種情形：在某些主動者內，要形成之物的形式預先存在於他們內，是依物之自然或本身的存在方式，比如，在那些依自然本性而動作的主動者內，就如人之生人，火之引火。在另一些主動者內，卻是依可理解的或在理智內的存在方式，比如，在那些藉理智而動作的主動者內，就如房屋的像或相似者預先存在於建築師的理智內。而這像(設計)就可以稱為房屋的理念，因為建築師意欲使房屋仿照他在理智中所構思的形式。\n由於這個世界並非偶然產生，而是由天主藉其主動的理智而造成的，如下面第四十七題第一節將要證明的，所以在天主內必然有形式，世界就是依照這形式的像或仿照這形式而造成的。而理念的意義就在於此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "多余字符",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "產主者",
+          "after": "產生者",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "形成立物",
+          "after": "形成之物",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "存在方式9",
+          "after": "存在方式，",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "主動者J內",
+          "after": "主動者內",
+          "occurrences": 1,
+          "type": "多余字符"
+        },
+        {
+          "before": "ltt",
+          "after": "此",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "天主不是依照存在於天主以外的理念來理解物。也就是因此，亞里斯多德駁斥了怕拉圖以為理念不是存在於理智內，而是有其自身存在的主張(《形上學》卷一第九章)。",
+      "after": "天主不是依照存在於天主以外的理念來理解物。也就是因此，亞里斯多德駁斥了柏拉圖以為理念不是存在於理智內，而是有其自身存在的主張(《形上學》卷一第九章)。",
+      "status": "corrected",
+      "error_types": [
+        "人名",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "怕拉圖",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "人名／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "雖然，天主是藉自己的本質認知自己和其他的東西，但祂的本質是創作其他東西的根本或本原，卻不是創作自己的本原。因此，天主的本質，針對其他東西來說，具有理念的性質，但不是針對天主自己來說。",
+      "after": "雖然，天主是藉自己的本質認知自己和其他的東西，但祂的本質是創作其他東西的根本或本原，卻不是創作自己的本原。因此，天主的本質，針對其他東西來說，具有理念的性質，但不是針對天主自己來說。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "天主依其本質，是一切東西的像或不自似者;所以，天主內的理念無非就是祂的本質而已。",
+      "after": "天主依其本質，是一切東西的像或相似者；所以，天主內的理念無非就是祂的本質而己。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "原书字形",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不自似者",
+          "after": "相似者",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "而已",
+          "after": "而己",
+          "occurrences": 1,
+          "type": "原书字形"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "(天主)是否有許多理念",
+      "after": "(天主)是否有許多理念",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "(天主)似乎不是有許多理念。因為:",
+      "after": "(天主)似乎不是有許多理念。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "天主內的理念，就是天主的本質。而天主的本質只是一個。所以，理念也只是一個。",
+      "after": "天主內的理念，就是天主的本質。而天主的本質只是一個。所以，理念也只是一個。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        463
+      ],
+      "before": "此外，就如理念是認知和創作的本原或根本，藝術和智慧也是如此。可是，在夫主內並沒有許多藝術和智慧。所以，在天主內也沒有許多理念。",
+      "after": "此外，就如理念是認知和創作的本原或根本，藝術和智慧也是如此。可是，在天主內並沒有許多藝術和智慧。所以，在天主內也沒有許多理念。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夫主",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        464
+      ],
+      "before": "此外，如果說理念是依其與各種不同受造物之關係而增多，那麼可以反駁說:理念之多元性是永恆的。所以，如果(天主)有許多理念，而受造物卻是有時間性的，則有時間性之物反而成了永恆之物的原因。",
+      "after": "此外，如果說理念是依其與各種不同受造物之關係而增多，那麼可以反駁說：理念之多元性是永恆的。所以，如果(天主)有許多理念，而受造物卻是有時間性的，則有時間性之物反而成了永恆之物的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        464
+      ],
+      "before": "此外，這些關係，或者僅在受造物這方面是實在的，或者連在天主方面也是實在的。如果只是在受造物方面是實在的，而受造物又不是自永恆就有的，那麼，如果理念僅是依照這些關係而增多，貝Ij理念之多元性就不是白永恆就有的。如果這些關係在天主方面也是實在的，那麼在天主內，除了位格之多元性或多數性以外，還有另一種實在的多元性;而這卻相反大馬士革的若望所說的‘在天主內，除了「(聖父的)非受生(主動產生、父生子)、(聖子的)受生(子生於父)，和(聖神的)出發(由父和子所共發)」以外，一切都是一。所以，在天主內沒有訐多理念。",
+      "after": "此外，這些關係，或者僅在受造物這方面是實在的，或者連在天主方面也是實在的。如果只是在受造物方面是實在的，而受造物又不是自永恆就有的，那麼，如果理念僅是依照這些關係而增多，則理念之多元性就不是自永恆就有的。如果這些關係在天主方面也是實在的，那麼在天主內，除了位格之多元性或多數性以外，還有另一種實在的多元性；而這卻相反大馬士革的若望所說的，在天主內，除了「(聖父的)非受生(主動產生、父生子)、(聖子的)受生(子生於父)，和(聖神的)出發(由父和子所共發)」以外，一切都是一。所以，在天主內沒有許多理念。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "白永恆",
+          "after": "自永恆",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "所說的‘",
+          "after": "所說的，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        464
+      ],
+      "before": "奧斯定在《雜題八十三》第四十六題卻說: 「理念是事物的常久而固定不蠻的主要形式或理，因為它們不是被形成的;因此，它們既是永恆的，也是常常一樣的，它們存在於天主的理智內。雖然它們本身無始也無絡，可是，凡是能有始有終以及實際有始有終的東西，卻說都是依照它們而形成的。」",
+      "after": "奧斯定在《雜題八十三》第四十六題卻說：「理念是事物的常久而固定不變的主要形式或理，因為它們不是被形成的；因此，它們既是永恆的，也是常常一樣的，它們存在於天主的理智內。雖然它們本身無始也無終，可是，凡是能有始有終以及實際有始有終的東西，卻說都是依照它們而形成的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不蠻",
+          "after": "不變",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "無絡",
+          "after": "無終",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        464,
+        465,
+        466
+      ],
+      "before": "我解答如下:必須肯定(天主)有訐多理念。為明示此點，應該注意，每一個效果的最終目的，正是主要主動者或主動原因原本所意圖的，就如軍隊的秩序是將領所意圖的。而那為萬物中之至善的，即是宇宙秩序之善，如《形上學》卷十二第十章所證明的。所以，宇宙之秩序正是天主所意圖的，並非偶然地來自先後相繼的許多主動原因，如某些人所說的，天主僅僅造了第一個受造物，這第一個受造物造了第二個受造物，如此類推一直到產生了這麼多的東西;依這個意見，天主無非只有第一個受造物的理念而已c可是，如果宇宙秩序本身是由天主所造成的，而且是祂所意圓的或願意的，那麼天主必定有宇宙秩序之理念。然而，除非對組成一個整體的各物都有理或理念，就不可能有那整體之理念;就如一個建築師，除非對房屋的每一部分都有理念，便不可能構思房屋之類的整體。所以，在天主的理智內，必定有一切事物的理念c因此，奧斯定在《雜題八十三》第四十六題說:「每一種東西都是依其特有的理念，由天主所造成的。」所以，在天主的理智內有許多理念。\n至於這與天主的單純性如何不相衝突，也可容易看出，如果注意到這一點，即被創作之物的理念在創作者的理智內，有如是被理解的對象，而非有如是作為理解之媒介的像，這像就是使理智現實或實際理解的形式。因為，在建築師之理智內的房屋的形式或理念，是被建築師所理解的對象，建築師按這形式的像或仿照這形式用連材建築房屋。天主理解許多事物，並不相反天主理智的單純性;假設天主的理智是藉許多像而成形或現實地理解，這才相反其理智的單純性。(按:如人的眼睛同時看到許多副眼鏡，這與眼睛的整體健康並無衛突;但若眼睛必須用許多高1]眼鏡纔看得到東西，這就不合於眼睛的整體健康了。)所以，許多理念立存在於天主的理智內，只不過有如是為天主所理解的對象而已c\n這也可以如此看出:天主完美地認知自己的本質;因此祂認知自己的本質，是依照這本質可被認知的每一方面。而天主本質之可被認知，不僅是依照其本身方面，而且也是依照這本質，可以按某種仿效方式為受造物所分有方面。每一種受造物都因分有天主本質的某種相似，而有各自的物種或種別(species)。所以，就天主認知自己的本質可以如此被某一種受造物所仿效而言，祂也就認知自己的本質有如這種受造物特有的理和理念，對別的受造物也是如此。因此，很明顯地，天主認知訐多事物的許多特有的理;這些理也就是理念。(按:如三軍統師認知按不同方式分有自己完整軍樺的各種軍階，並在自己的理智內有關於他們的理念。這與天主有事物的許多理念，頗為相似，雖不完全相等。)",
+      "after": "我解答如下：必須肯定(天主)有許多理念。為明示此點，應該注意，每一個效果的最終目的，正是主要主動者或主動原因原本所意圖的，就如軍隊的秩序是將領所意圖的。而那為萬物中之至善的，即是宇宙秩序之善，如《形上學》卷十二第十章所證明的。所以，宇宙之秩序正是天主所意圖的，並非偶然地來自先後相繼的許多主動原因，如某些人所說的，天主僅僅造了第一個受造物，這第一個受造物造了第二個受造物，如此類推一直到產生了這麼多的東西；依這個意見，天主無非只有第一個受造物的理念而己。可是，如果宇宙秩序本身是由天主所造成的，而且是祂所意圖的或願意的，那麼天主必定有宇宙秩序之理念。然而，除非對組成一個整體的各物都有理或理念，就不可能有那整體之理念；就如一個建築師，除非對房屋的每一部分都有理念，便不可能構思房屋之類的整體。所以，在天主的理智內，必定有一切事物的理念。因此，奧斯定在《雜題八十三》第四十六題說：「每一種東西都是依其特有的理念，由天主所造成的。」所以，在天主的理智內有許多理念。\n至於這與天主的單純性如何不相衝突，也可容易看出，如果注意到這一點，即被創作之物的理念在創作者的理智內，有如是被理解的對象，而非有如是作為理解之媒介的像，這像就是使理智現實或實際理解的形式。因為，在建築師之理智內的房屋的形式或理念，是被建築師所理解的對象，建築師按這形式的像或仿照這形式用建材建築房屋。天主理解許多事物，並不相反天主理智的單純性；假設天主的理智是藉許多像而成形或現實地理解，這才相反其理智的單純性。(按：如人的眼睛同時看到許多副眼鏡，這與眼睛的整體健康並無衝突；但若眼睛必須用許多副眼鏡才看得到東西，這就不合於眼睛的整體健康了。)所以，許多理念之存在於天主的理智內，只不過有如是為天主所理解的對象而己。\n這也可以如此看出：天主完美地認知自己的本質；因此祂認知自己的本質，是依照這本質可被認知的每一方面。而天主本質之可被認知，不僅是依照其本身方面，而且也是依照這本質，可以按某種仿效方式為受造物所分有方面。每一種受造物都因分有天主本質的某種相似，而有各自的物種或種別(species)。所以，就天主認知自己的本質可以如此被某一種受造物所仿效而言，祂也就認知自己的本質有如這種受造物特有的理和理念，對別的受造物也是如此。因此，很明顯地，天主認知許多事物的許多特有的理；這些理也就是理念。(按：如三軍統師認知按不同方式分有自己完整軍權的各種軍階，並在自己的理智內有關於他們的理念。這與天主有事物的許多理念，頗為相似，雖不完全相等。)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "原书字形",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "而已c",
+          "after": "而己。",
+          "occurrences": 2,
+          "type": "乱码／标点／原书字形"
+        },
+        {
+          "before": "意圓",
+          "after": "意圖",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "理念c",
+          "after": "理念。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "用連材",
+          "after": "用建材",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "衛突",
+          "after": "衝突",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "高1]眼鏡",
+          "after": "副眼鏡",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "理念立存在",
+          "after": "理念之存在",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "軍樺",
+          "after": "軍權",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "理念指稱天主的本質，不是就本質本身來說，而是著眼於這本質是這種或那種東西的像或理。因此，是根據由一個本質而有許多被理解或認知的理，而說有訐多理念。",
+      "after": "理念指稱天主的本質，不是就本質本身來說，而是著眼於這本質是這種或那種東西的像或理。因此，是根據由一個本質而有許多被理解或認知的理，而說有許多理念。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "智慧與藝術所表示的，是天主用以理解或認知的媒介，而理念所表示的，則是天主所理解或認知者。而天主是藉一而認知訐多;不僅認知訐多東西本身，而且也同時知道它們是為自己所認知者(或在自己的理智內)。這就是認知事物的許多理或理念，比如:一個建築師認知有質料的(或已建成的)房屋的形式，就說他認知房屋;可是，如果他所認知的房屋的形式，只是他所構思或設計的形式，根據他知道自己認知這形式，他便是認知房屋的理念或理。天主不僅藉自己的本質認知許多事物，而且也知道自己藉自己的本質認知許多事物，而這就是認知事物的許多理;或者說，在天主理智內有許多祂知道的理念。",
+      "after": "智慧與藝術所表示的，是天主用以理解或認知的媒介，而理念所表示的，則是天主所理解或認知者。而天主是藉一而認知許多；不僅認知許多東西本身，而且也同時知道它們是為自己所認知者(或在自己的理智內)。這就是認知事物的許多理或理念，比如：一個建築師認知有質料的(或己建成的)房屋的形式，就說他認知房屋；可是，如果他所認知的房屋的形式，只是他所構思或設計的形式，根據他知道自己認知這形式，他便是認知房屋的理念或理。天主不僅藉自己的本質認知許多事物，而且也知道自己藉自己的本質認知許多事物，而這就是認知事物的許多理；或者說，在天主理智內有許多祂知道的理念。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 2,
+          "type": "错字"
+        },
+        {
+          "before": "已建成",
+          "after": "己建成",
+          "occurrences": 1,
+          "type": "原书字形"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "這種增多理念的關{系，不是由受造物所形成的，而是由天主的理智藉比較自己的本質與受造物而形成的。",
+      "after": "這種增多理念的關係，不是由受造物所形成的，而是由天主的理智藉比較自己的本質與受造物而形成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "增多理念的這些關{系，不是存在於受造物內，而是存在於天主內。但這些關係並非如同區分天主位格的關係一樣，是實在的;而是為天主所認知的關{系。",
+      "after": "增多理念的這些關係，不是存在於受造物內，而是存在於天主內。但這些關係並非如同區分天主位格的關係一樣，是實在的；而是為天主所認知的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 2,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "天主對自己所認知的一切是否都有理念",
+      "after": "天主對自己所認知的一切是否都有理念",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        466
+      ],
+      "before": "天主對自己所認知的一切，似乎並不是都有理念。因為:",
+      "after": "天主對自己所認知的一切，似乎並不是都有理念。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        466,
+        467
+      ],
+      "before": "在天主內沒有「惡」的理念，因為如果有的話，那就是在天主內有惡存在了。可是，天主認真日惡。所以，不是天主對自己所認知的一切都有理念。",
+      "after": "在天主內沒有「惡」的理念，因為如果有的話，那就是在天主內有惡存在了。可是，天主認知惡。所以，不是天主對自己所認知的一切都有理念。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        467
+      ],
+      "before": "此外，天主認知那些現在不存在、將來也不會存在，而且也不曾存在過的東西，這在前面第十四盟第九節己說過了。而關於這些東西並沒有理念，因為狄奧尼修在《神名論》第五章說: 「天主的意願是決定和形成萬物的模型。」所以，不是天主對自己所認知的事物，都有理念。",
+      "after": "此外，天主認知那些現在不存在、將來也不會存在，而且也不曾存在過的東西，這在前面第十四題第九節己說過了。而關於這些東西並沒有理念，因為狄奧尼修在《神名論》第五章說：「天主的意願是決定和形成萬物的模型。」所以，不是天主對自己所認知的事物，都有理念。",
+      "status": "corrected",
+      "error_types": [
+        "引用编号",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十四盟",
+          "after": "第十四題",
+          "occurrences": 1,
+          "type": "错字／引用编号"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        467
+      ],
+      "before": "此外，天主認知第一質料。而關於第一質料不可能有理念，因為它沒有任何形式。所以，結論與前相同。",
+      "after": "此外，天主認知第一質料。而關於第一質料不可能有理念，因為它沒有任何形式。所以，結論與前相同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        467
+      ],
+      "before": "此外，我們知道，天主不僅認知物種或種差(species)，而且也認知物類或類別(genus)，以及個別物和依附體。可是，如奧斯定在《雜題八十三》第四十六題所說的，依首先引進理念的柏拉圍之意見，關於這些東西並沒有理念。所以，天主並不是對自己所認知的一切事物都有理念。",
+      "after": "此外，我們知道，天主不僅認知物種或種差(species)，而且也認知物類或類別(genus)，以及個別物和依附體。可是，如奧斯定在《雜題八十三》第四十六題所說的，依首先引進理念的柏拉圖之意見，關於這些東西並沒有理念。所以，天主並不是對自己所認知的一切事物都有理念。",
+      "status": "corrected",
+      "error_types": [
+        "人名",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "柏拉圍",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "人名／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        467
+      ],
+      "before": "由奧斯定所說的可知(向上)，理念是存在於天主理智內的設計或理(ratio)。可是，天主對自己所認知的一切，都有關於它們的各自的理。所以，天主對自己所認知的一切，都有理念。",
+      "after": "由奧斯定所說的可知(同上)，理念是存在於天主理智內的設計或理(ratio)。可是，天主對自己所認知的一切，都有關於它們的各自的理。所以，天主對自己所認知的一切，都有理念。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向上",
+          "after": "同上",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        467
+      ],
+      "before": "我解答如下:依柏拉圍之說，理念是認知事物和產生事物之本原或根本。以理念存在於天主的理智內而言，兼與此二者有關。以其為產生或創作事物之根本而言，可以稱為模型，且屬於實踐之知識;以其為認知之根本或原理而言，是真正所謂的「理」;也可以歸屬於理論的或鑑賞的知識。所以，以其為模型而言，天主的理念依此與祂在時間內所創作的一切的事物有關。以其為認知之根本或原理而言，買IJ與天主所認真日的一切有關，即使它們無論在任何時間內都不會形成或實際存在，以及與天主依其各自的理或本質和用鑑賞的方式所認知的一切有關。",
+      "after": "我解答如下：依柏拉圖之說，理念是認知事物和產生事物之本原或根本。以理念存在於天主的理智內而言，兼與此二者有關。以其為產生或創作事物之根本而言，可以稱為模型，且屬於實踐之知識；以其為認知之根本或原理而言，是真正所謂的「理」；也可以歸屬於理論的或鑑賞的知識。所以，以其為模型而言，天主的理念依此與祂在時間內所創作的一切的事物有關。以其為認知之根本或原理而言，則與天主所認知的一切有關，即使它們無論在任何時間內都不會形成或實際存在，以及與天主依其各自的理或本質和用鑑賞的方式所認知的一切有關。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "人名",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "柏拉圍",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        468
+      ],
+      "before": "天主之認知惡，不是藉惡本身的理，而是藉善的理。所以，['\"惡」在天主內沒有理念，不拘是以理念為模型而言，或是以理念為理或設計而言。",
+      "after": "天主之認知惡，不是藉惡本身的理，而是藉善的理。所以，「惡」在天主內沒有理念，不拘是以理念為模型而言，或是以理念為理或設計而言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号"
+      ],
+      "changes": [
+        {
+          "before": "['\"惡」",
+          "after": "「惡」",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        }
+      ]
+    },
+    {
+      "id": "I.q015.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        468
+      ],
+      "before": "對於那些現在不存在、將來也不會存在、過去也不曾存在過的東西，天主沒有實踐的知識，除非是依潛在的實踐能力而言。所以，針對這些東西，在天主內沒有意指模型的理念，只有意指理或設計的理念。",
+      "after": "對於那些現在不存在、將來也不會存在、過去也不曾存在過的東西，天主沒有實踐的知識，除非是依潛在的實踐能力而言。所以，針對這些東西，在天主內沒有意指模型的理念，只有意指理或設計的理念。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        468
+      ],
+      "before": "依某些人所說，柏拉圖主張質料不是受造而成的，所以他主張沒有「質料」這一理念，質料只作為共同原因。可是，我們主張質料是天主造的，但其受造不是單獨而沒有形式，所以質料在天主內有它的理念，但不是與組合物之理念分開的理念。因為質料本身既無存在，亦不可能被認知。",
+      "after": "依某些人所說，柏拉圖主張質料不是受造而成的，所以他主張沒有「質料」這一理念，質料只作為共同原因。可是，我們主張質料是天主造的，但其受造不是單獨而沒有形式，所以質料在天主內有它的理念，但不是與組合物之理念分開的理念。因為質料本身既無存在，亦不可能被認知。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q015.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        468
+      ],
+      "before": "如以理念為模型而言，物類不可能有與物種之理念分開的理念，因為物類之形成，常是在某一物種內。(按:即實際沒有不也是某一物種的物類。例如:動物類分為有靈動物和無靈動物兩種;實際上，沒有既不是有靈動物，也不是無靈動物的所謂動物類。)與主體常在一起而不能分闊的依附體，也是一樣，因為它們是與主體同時形成的。至於另外加給主體的依附體，卻有其特殊的理念e如建築師依照房屋之形式造成一切原就同屬於房屋的依附體:而其他附加給己造好的房屋的依附體，如壁畫等裝飾品，卻是依照別的形式製造的。依柏拉圖之說，個體除了物種之理念外，另IJ無其他理念;一則因為它們是因質料而個體化，成為個體，而且，又如某些人所說的，他認為質料與理念同為原因，不是受造的;二則因為大自然的意向所指只是物種而己，其產生特殊個體之目的，僅在於在它們內保存物種。可是，天主之亭毒，不僅包括物種，而且也擴及單獨個體，如下面第二十二題第二節將要說明的。",
+      "after": "如以理念為模型而言，物類不可能有與物種之理念分開的理念，因為物類之形成，常是在某一物種內。(按：即實際沒有不也是某一物種的物類。例如：動物類分為有靈動物和無靈動物兩種；實際上，沒有既不是有靈動物，也不是無靈動物的所謂動物類。)與主體常在一起而不能分開的依附體，也是一樣，因為它們是與主體同時形成的。至於另外加給主體的依附體，卻有其特殊的理念。如建築師依照房屋之形式造成一切原就同屬於房屋的依附體；而其他附加給己造好的房屋的依附體，如壁畫等裝飾品，卻是依照別的形式製造的。依柏拉圖之說，個體除了物種之理念外，別無其他理念；一則因為它們是因質料而個體化，成為個體，而且，又如某些人所說的，他認為質料與理念同為原因，不是受造的；二則因為大自然的意向所指只是物種而己，其產生特殊個體之目的，僅在於在它們內保存物種。可是，天主之亭毒，不僅包括物種，而且也擴及單獨個體，如下面第二十二題第二節將要說明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "理念e",
+          "after": "理念。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "依附體:",
+          "after": "依附體;",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
