@@ -1,0 +1,2362 @@
+{
+  "schema_version": 1,
+  "batch": "I-q041",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "b315848fe6a7bd1b8bffa031b5e15c21e394ce67",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q041",
+    "title": "論位格與表記行動的關係",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817
+    ],
+    "printed_pages": [
+      585,
+      601
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 78,
+    "changed_review_units": 60,
+    "checked_unchanged_review_units": 19
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q41.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q41.json": "0b331c46648ab605c3d485d8d375a25430559bfaf4543b254abacea76bcbdb42",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q041.a002.ad3",
+      "pdf_file_page": 806,
+      "text": "第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a003.respondeo",
+      "pdf_file_page": 808,
+      "text": "第三節己經指明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a003.ad4",
+      "pdf_file_page": 810,
+      "text": "我己被預見",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a004.arg1",
+      "pdf_file_page": 811,
+      "text": "第一節己指明的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a004.arg1",
+      "pdf_file_page": 811,
+      "text": "第三節己指明的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a004.arg3",
+      "pdf_file_page": 811,
+      "text": "及4.己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a006.respondeo",
+      "pdf_file_page": 816,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a006.ad3",
+      "pdf_file_page": 817,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q041.a003.arg1",
+      "pdf_file_page": 807,
+      "text": "接受聖之名稱",
+      "status": "suspected_source_print_error",
+      "action": "原书印作「聖之名稱」，疑漏「子」，依底本保留。"
+    },
+    {
+      "id": "I.q041.a003.ad2",
+      "pdf_file_page": 809,
+      "text": "(或『是本體的聖父』)。",
+      "status": "suspected_source_print_error",
+      "action": "原书此处外层引号未闭合，保留原书。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部17页逐页核对；第三节释疑二漏掉的同性同体定义及建筑师例证依原页补回；第四节标题同步目录。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q041.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "然後要討論的是，位格或天主三位與表記行動(actus notionales)的關係(參看第三十九題引言)。\n關於這→點，可以提出六個問題:\n一、是否應將表記行動歸於位格。\n二、這種行動是必然的或是自顧的。\n三、根據這種行動的位格之出發，是出自虛無，或是出自某物。\n四、是否應該肯定在天主內有與表記行動中日闊的能力。\n五、這種能力意指或表示什麼。\n六、表記行動是否能止於多個位格。",
+      "after": "然後要討論的是，位格或天主三位與表記行動(actus notionales)的關係(參看第三十九題引言)。\n關於這一點，可以提出六個問題：\n一、是否應將表記行動歸於位格。\n二、這種行動是必然的或是自願的。\n三、根據這種行動的位格之出發，是出自虛無，或是出自某物。\n四、是否應該肯定在天主內有與表記行動相關的能力。\n五、這種能力意指或表示什麼。\n六、表記行動是否能止於多個位格。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這→點",
+          "after": "這一點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "自顧",
+          "after": "自願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "中日闊",
+          "after": "相關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "是否應將表記行動歸於位格",
+      "after": "是否應將表記行動歸於位格",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "是似乎不應該將表記行動歸於位格。因為:",
+      "after": "似乎不應該將表記行動歸於位格。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是似乎",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        801
+      ],
+      "before": "波其武在《論天主聖三》第四章說:「所有各類範疇，如有人用來稱述天主，都轉變為天主的本體或實體，只有關係例外。」可是，行動或動作是十類範疇之一。所以，如果將某一行動歸於天主，那麼它應屬於天主的本體﹒而非屬於表記。",
+      "after": "波其武在《論天主聖三》第四章說：「所有各類範疇，如有人用來稱述天主，都轉變為天主的本體或實體，只有關係例外。」可是，行動或動作是十類範疇之一。所以，如果將某一行動歸於天主，那麼它應屬於天主的本體，而非屬於表記。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本體﹒",
+          "after": "本體，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        801,
+        802
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷五第四章說，凡論及天主所說的，或者是按照本體說的，或者是按照關係說的。可是，那些屬於本體的，都用本體屬性(essentiale attributu日1)來表示;而那些屬於關係的，買IJ用位格的名稱和特徵的名稱來表示。所以，除了這些以外‘不應該再將表記行動歸於位格。",
+      "after": "此外，奧斯定在《論天主聖三》卷五第四章說，凡論及天主所說的，或者是按照本體說的，或者是按照關係說的。可是，那些屬於本體的，都用本體屬性(essentiale attributum)來表示；而那些屬於關係的，則用位格的名稱和特徵的名稱來表示。所以，除了這些以外，不應該再將表記行動歸於位格。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "essentiale attributu日1",
+          "after": "essentiale attributum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "以外‘",
+          "after": "以外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        802
+      ],
+      "before": "此外，行動或主動也由自己產生或引起受動或被動，這屬於它的特質。可是在天主內，不可能有受動或被動。所以，也不應該肯定在天主內有表記行動。",
+      "after": "此外，行動或主動也由自己產生或引起受動或被動，這屬於它的特質。可是在天主內，不可能有受動或被動。所以，也不應該肯定在天主內有表記行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        802
+      ],
+      "before": "奧斯定在《致伯多祿執事論信德》第三章中說: 「這是聖父所特有的，即祂生了聖子。」可是「生」卻是行動。所以，應該肯定在天主內有表記行動。",
+      "after": "奧斯定在《致伯多祿執事論信德》第三章中說：「這是聖父所特有的，即祂生了聖子。」可是「生」卻是行動。所以，應該肯定在天主內有表記行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        802
+      ],
+      "before": "我解答如下:在天主位格中的區別，是基於起源。可是唯有藉一些行動才能適當地指定起源。所以，為了在天主的位格中指定起源的秩序，必須將表記行動歸於位格。",
+      "after": "我解答如下：在天主位格中的區別，是基於起源。可是唯有藉一些行動才能適當地指定起源。所以，為了在天主的位格中指定起源的秩序，必須將表記行動歸於位格。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        802
+      ],
+      "before": "一切起源都藉某種行動來標明。可是有兩種起源的秩序能歸於天主。一種是根據受造物出自天主;而這是天主三位所共有的。因此，為標明受造物出白天主而歸於天主的行動，屬於本體。另一種在天主內的起源秩序，是根據位格之出自位格。因此，那些標明這種起源秩序的行動，稱為表記行動;因為位格的表記是{立格彼此之間的關係，正如第三十二題第二及第三節所指明的。",
+      "after": "一切起源都藉某種行動來標明。可是有兩種起源的秩序能歸於天主。一種是根據受造物出自天主；而這是天主三位所共有的。因此，為標明受造物出自天主而歸於天主的行動，屬於本體。另一種在天主內的起源秩序，是根據位格之出自位格。因此，那些標明這種起源秩序的行動，稱為表記行動；因為位格的表記是位格彼此之間的關係，正如第三十二題第二及第三節所指明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "是{立格",
+          "after": "是位格",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        802,
+        803
+      ],
+      "before": "只是按照表示或表明的方式，表記行動與位格的關係有差別;可是事實上或就事物本身而言，卻是完全相同。因此，大師在《語錄》卷一第二十六題說:生或生育和誕生或出生，「換以別的名稱，則稱為父性不日子性」。為明示此點，應該注意:我們首先是從變動(motus)來臆猜一物源自另一物;因為一物藉變動而被動地脫離自己的原狀，顯然必有原因。因此，行動或主動(actio)，按照此一名稱的原義，是指「變動的起源」;因為正如在那可被另一物推動的物內，變動稱為受動或被動(passio);同樣地，恨據變動是從另一物開始，而止於那被推動的或接受變動的物內，這同一變動的起源就稱為行動或主動(actio)。所以，如果除去其中的變動，則行動或主動，只不過意指從某一原因或本源進至那源自此一本源者的起源的秩序而已。因此，由於在天主內沒有變動，產生或引出位格的位格行動，只不過是本源針對那源自本源之位格的關連(habi-tudo)而已。這些關連也就是關係或表記本身。可是，由於我們只能按照感覺界之事物的方式，談論天主和靈智界的事物，因為我們是由感覺界之事物取得知識;而在感覺界之事物內的主動與被動，就其含有變動而言，與那隨主動與被動而後有的關係並不相同。所以，位格問之關連，就分開來一方面用行動的方式來表示，另一方面用關係的方式來表示。因此可見，這些關連本身或就其為物而言，是同一或相同的，它們的差別只是在表示的方式方面。",
+      "after": "只是按照表示或表明的方式，表記行動與位格的關係有差別；可是事實上或就事物本身而言，卻是完全相同。因此，大師在《語錄》卷一第二十六題說：生或生育和誕生或出生，「換以別的名稱，則稱為父性和子性」。為明示此點，應該注意：我們首先是從變動(motus)來臆猜一物源自另一物；因為一物藉變動而被動地脫離自己的原狀，顯然必有原因。因此，行動或主動(actio)，按照此一名稱的原義，是指「變動的起源」；因為正如在那可被另一物推動的物內，變動稱為受動或被動(passio)；同樣地，根據變動是從另一物開始，而止於那被推動的或接受變動的物內，這同一變動的起源就稱為行動或主動(actio)。所以，如果除去其中的變動，則行動或主動，只不過意指從某一原因或本源進至那源自此一本源者的起源的秩序而已。因此，由於在天主內沒有變動，產生或引出位格的位格行動，只不過是本源針對那源自本源之位格的關連(habi-tudo)而已。這些關連也就是關係或表記本身。可是，由於我們只能按照感覺界之事物的方式，談論天主和靈智界的事物，因為我們是由感覺界之事物取得知識；而在感覺界之事物內的主動與被動，就其含有變動而言，與那隨主動與被動而後有的關係並不相同。所以，位格間之關連，就分開來一方面用行動的方式來表示，另一方面用關係的方式來表示。因此可見，這些關連本身或就其為物而言，是同一或相同的，它們的差別只是在表示的方式方面。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "父性不日",
+          "after": "父性和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "恨據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "位格問",
+          "after": "位格間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "行動或主動，就其意指變動的起源而言，由自己產生或引起受動或被動;可是，我們並不是如此主張在天主的位格內有行動或主動。因此，在那裡也沒有受動或被動，除非是按照文法上的說法，僅涉及表示的方式;如同我們將生(generare)歸於聖父，以及將受生(generari)歸於聖子。",
+      "after": "行動或主動，就其意指變動的起源而言，由自己產生或引起受動或被動；可是，我們並不是如此主張在天主的位格內有行動或主動。因此，在那裡也沒有受動或被動，除非是按照文法上的說法，僅涉及表示的方式；如同我們將生(generare)歸於聖父，以及將受生(generari)歸於聖子。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "表記行動是不是自願的",
+      "after": "表記行動是不是自願的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "表記行動似乎是自願的(voluntarius'出於意志之意願的卜因為:",
+      "after": "表記行動似乎是自願的(voluntarius，出於意志之意願的)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "voluntarius'",
+          "after": "voluntarius，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "意願的卜",
+          "after": "意願的)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        803
+      ],
+      "before": "希拉利在《論主教會議》一書中說: 「聖父並不是在本性必然的引領下，生了聖子。」",
+      "after": "希拉利在《論主教會議》一書中說：「聖父並不是在本性必然的引領下，生了聖子。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        803,
+        804
+      ],
+      "before": "此外，宗徒在《哥羅森書》第一章的節說: 「(天主)並將我們移置在祂鐘愛之子的國內。」可是鐘愛卻屬於意志。所以，聖子是因意志而生於聖父。",
+      "after": "此外，宗徒在《哥羅森書》第一章13節說：「(天主)並將我們移置在祂鍾愛之子的國內。」可是鍾愛卻屬於意志。所以，聖子是因意志而生於聖父。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章的節",
+          "after": "第一章13節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "鐘愛",
+          "after": "鍾愛",
+          "occurrences": 2,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        804
+      ],
+      "before": "此外，沒有什麼比愛更是自願的。可是，聖神發於聖父和聖子而為愛。所以，聖神之出發是自願的。",
+      "after": "此外，沒有什麼比愛更是自願的。可是，聖神發於聖父和聖子而為愛。所以，聖神之出發是自願的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        804
+      ],
+      "before": "此外，聖子是以理智的方式出發而為聖言。可是，­切「言」卻是藉意志而發於發言者。所以，聖子之發於聖父，是藉意志，而非藉本性。",
+      "after": "此外，聖子是以理智的方式出發而為聖言。可是，一切「言」卻是藉意志而發於發言者。所以，聖子之發於聖父，是藉意志，而非藉本性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "­切",
+          "after": "一切",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.arg5",
+      "article": 2,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        804
+      ],
+      "before": "此外，一物如果不是自願的，就是必然的。所以，如果聖父不是因意志或自願生了聖子，那麼祂似乎就是必然地生了聖子。這相反奧斯定在《答奧羅修》(Ad Orosium)中所說的。",
+      "after": "此外，一物如果不是自願的，就是必然的。所以，如果聖父不是因意志或自願生了聖子，那麼祂似乎就是必然地生了聖子。這相反奧斯定在《答奧羅修》(Ad Orosium)中所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        804
+      ],
+      "before": "奧斯定在同一書中說:「聖父既不是因意志或自願，也不是必然生了聖子。」",
+      "after": "奧斯定在同一書中說：「聖父既不是因意志或自願，也不是必然生了聖子。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        804,
+        805
+      ],
+      "before": "我解答如F:說一物因意志而是或形成，能有兩種解讀。一種是釋名詞之副格(~blativus)，只意指伴同(concomi-tantia;按:拉丁文用名詞之副格表達「因」'無前置詞);例如:我可以說:「我因自己的意志而是人」'即是因為「我願意我是人」。依此方式，可以說聖父因意志而生了聖子，正如祂也因意志而是天主;因為祂願意自己是天主，也願意自己生聖子。另一種解讀，是釋此副格意指與本源的關連，例如說:「工匠因意志而工作」'因為意志是工作的本源。依這種方式，應該說，聖父非因意志而生了聖子;卻是因意志而造生了受造物。因此﹒希拉利在《論主教會議》中說:「誰若說，像任何一個受造物一樣，聖子也是因天主的意志受造而成，那麼他就應該受絕罰。」\n個中理由是，因為意志不日本性在產生物或效果方面，有此一區別，即本性是被限定於一的，而意志卻不是被限定於一的。理由是，因為效果相似主動者藉以行動的形式。可是顯然地，一物只有一種自然本性的形式，物是藉此形式有其存在和是自己所是之物;因此，它的存在是怎樣的或它是怎樣的，它所作成的也是怎樣的(按:如人之生人或馬之生馬)。可是，意志藉以行動的形式，卻不是僅有一種，而是根據有許多理智的理念，而有許多種;因此，那因意志所作的，並不是主動者怎樣，它也怎樣，而是主動者願意和構想要它怎樣，它就怎樣。所以，那些能是這樣或別樣的事物，意志是它們的本源。可是，那些只能如此這股或同一樣的事物，本性是它們的本源。\n凡是能這樣或那樣存在的事物，都與天主的本性相去甚遠，但這樣的存在卻屬於受造物的理或性質;因為天主是本然地(依其本質)必然存在，可是受造物卻是由無中而受造的。因此，亞略派人士為了願意獲致貶降聖子為受造物的結論，於是便按照意志是指本源的意義，說聖父因意志而生了聖子。可是我們卻應該說，聖父不是因意志，而是因本性生了聖子。因此，希拉利在《論主教會議》中說:「是天主的意志賜給了一切受造物實體」;可是卻是出於沒有任何變動的非受生的實體之完美的誕生，給了聖子本性。天主願意一切的受造物怎樣存在，它們就怎樣存在;可是那生於天主的聖子，天主怎樣存在，祂也怎樣自立存在。",
+      "after": "我解答如下：說一物因意志而是或形成，能有兩種解讀。一種是釋名詞之副格(ablativus)，只意指伴同(concomi-tantia；按：拉丁文用名詞之副格表達「因」，無前置詞)；例如：我可以說：「我因自己的意志而是人」，即是因為「我願意我是人」。依此方式，可以說聖父因意志而生了聖子，正如祂也因意志而是天主；因為祂願意自己是天主，也願意自己生聖子。另一種解讀，是釋此副格意指與本源的關連，例如說：「工匠因意志而工作」，因為意志是工作的本源。依這種方式，應該說，聖父非因意志而生了聖子；卻是因意志而造生了受造物。因此，希拉利在《論主教會議》中說：「誰若說，像任何一個受造物一樣，聖子也是因天主的意志受造而成，那麼他就應該受絕罰。」\n個中理由是，因為意志和本性在產生物或效果方面，有此一區別，即本性是被限定於一的，而意志卻不是被限定於一的。理由是，因為效果相似主動者藉以行動的形式。可是顯然地，一物只有一種自然本性的形式，物是藉此形式有其存在和是自己所是之物；因此，它的存在是怎樣的或它是怎樣的，它所作成的也是怎樣的(按：如人之生人或馬之生馬)。可是，意志藉以行動的形式，卻不是僅有一種，而是根據有許多理智的理念，而有許多種；因此，那因意志所作的，並不是主動者怎樣，它也怎樣，而是主動者願意和構想要它怎樣，它就怎樣。所以，那些能是這樣或別樣的事物，意志是它們的本源。可是，那些只能如此這般或同一樣的事物，本性是它們的本源。\n凡是能這樣或那樣存在的事物，都與天主的本性相去甚遠，但這樣的存在卻屬於受造物的理或性質；因為天主是本然地(依其本質)必然存在，可是受造物卻是由無中而受造的。因此，亞略派人士為了願意獲致貶降聖子為受造物的結論，於是便按照意志是指本源的意義，說聖父因意志而生了聖子。可是我們卻應該說，聖父不是因意志，而是因本性生了聖子。因此，希拉利在《論主教會議》中說：「是天主的意志賜給了一切受造物實體」；可是卻是出於沒有任何變動的非受生的實體之完美的誕生，給了聖子本性。天主願意一切的受造物怎樣存在，它們就怎樣存在；可是那生於天主的聖子，天主怎樣存在，祂也怎樣自立存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如F",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "~blativus",
+          "after": "ablativus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「因」'",
+          "after": "「因」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「我因自己的意志而是人」'",
+          "after": "「我因自己的意志而是人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「工匠因意志而工作」'",
+          "after": "「工匠因意志而工作」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "因此﹒",
+          "after": "因此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "意志不日本性",
+          "after": "意志和本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "如此這股",
+          "after": "如此這般",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        805
+      ],
+      "before": "所引述的權威，是為駁斥那些從聖子的受生中連聖父的伴同意志也排除的人們，這些人說:聖父是如此因本性而生了聖子，即祂沒有什麼生聖子的意願;正如我們因本性的必然，而遭遇種種相反我們意志的事物，例如:死亡、年老力衰和種種缺欠。從引文的上下文可以明確看出此點。因為那裡說: 「不是在聖父不願意的情形下，或聖父被迫的情形下，或聖父本不願意，卻因受本性必然的導引，而生了聖子。」",
+      "after": "所引述的權威，是為駁斥那些從聖子的受生中連聖父的伴同意志也排除的人們，這些人說：聖父是如此因本性而生了聖子，即祂沒有什麼生聖子的意願；正如我們因本性的必然，而遭遇種種相反我們意志的事物，例如：死亡、年老力衰和種種缺欠。從引文的上下文可以明確看出此點。因為那裡說：「不是在聖父不願意的情形下，或聖父被迫的情形下，或聖父本不願意，卻因受本性必然的導引，而生了聖子。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "宗徒稱基督為「天主的鍾愛之子」'是因為基督由天主獲得豐厚的愛i並不是因為鐘愛是聖子受生的本源。",
+      "after": "宗徒稱基督為「天主的鍾愛之子」，是因為基督由天主獲得豐厚的愛；並不是因為鍾愛是聖子受生的本源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「天主的鍾愛之子」'",
+          "after": "「天主的鍾愛之子」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "愛i並",
+          "after": "愛；並",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "鐘愛",
+          "after": "鍾愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "就意志也是一種自然本性而言，它也自然而然地有所願欲;例如，人的意志自然而然地傾向於真福。同樣地，天主也自然而然地願欲和愛自己。可是天主的意志對有別於自己之物的關係，卻是(願或不願、願此或願彼)兩可的，正如第十九題第三節己說過的。而聖神之出發為愛，卻是因為天主愛自己。因此，祂是自然地或因本性出發，雖然是以意志的方式出發。",
+      "after": "就意志也是一種自然本性而言，它也自然而然地有所願欲；例如，人的意志自然而然地傾向於真福。同樣地，天主也自然而然地願欲和愛自己。可是天主的意志對有別於自己之物的關係，卻是(願或不願、願此或願彼)兩可的，正如第十九題第三節己說過的。而聖神之出發為愛，卻是因為天主愛自己。因此，祂是自然地或因本性出發，雖然是以意志的方式出發。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "即使在理智的孕育或領悟中，也是回溯到那些最初自然而然所領悟者。可是天主卻是自然而然地領惜自己。據此而論，天主聖言的孕育則是自然的或藉本性的。",
+      "after": "即使在理智的孕育或領悟中，也是回溯到那些最初自然而然所領悟者。可是天主卻是自然而然地領悟自己。據此而論，天主聖言的孕育則是自然的或藉本性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "領惜自己",
+          "after": "領悟自己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a002.ad5",
+      "article": 2,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "一物稱為必然的，能是基於或藉自己(per se)，和基於或藉他物(per aliud)0「藉他物」有兩種方式c一種方式是如藉主動和強力逼迫的原因;如此形成的必然，稱為強暴。另一種方式是如藉目的原因;例如說:某物在眾多導向目的之物中是必然的，因為沒有它，就不可能達到目的，或不可能順利地達到目的。無論按照上述二者中的那一種方式，天主的生或生育都不是必然的;因為天主不是為了(其他)目的，也沒有任何強力能壓迫祂。可是說一物「藉自己」是必然的，是說它不能不存在。如此，則「天主存在_1就是必然的。也是按照這種方式，「聖父生聖子」是必然的。",
+      "after": "一物稱為必然的，能是基於或藉自己(per se)，和基於或藉他物(per aliud)。「藉他物」有兩種方式。一種方式是如藉主動和強力逼迫的原因；如此形成的必然，稱為強暴。另一種方式是如藉目的原因；例如說：某物在眾多導向目的之物中是必然的，因為沒有它，就不可能達到目的，或不可能順利地達到目的。無論按照上述二者中的那一種方式，天主的生或生育都不是必然的；因為天主不是為了(其他)目的，也沒有任何強力能壓迫祂。可是說一物「藉自己」是必然的，是說它不能不存在。如此，則「天主存在」就是必然的。也是按照這種方式，「聖父生聖子」是必然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(per aliud)0",
+          "after": "(per aliud)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "有兩種方式c",
+          "after": "有兩種方式。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「天主存在_1",
+          "after": "「天主存在」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "表記行動是否出自某物",
+      "after": "表記行動是否出自某物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        806
+      ],
+      "before": "表記行動似乎不是出自某物或由某物發出。因為:",
+      "after": "表記行動似乎不是出自某物或由某物發出。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        806,
+        807
+      ],
+      "before": "如果聖父是由某物而生聖子，那麼或者是由自己，或者是由他物。如果是由他物，那麼就有不同於聖父之物在聖子內，因為那有物由其生出之物，也在那生出或受生之物內。可是，這卻相反希拉利在《論天主聖三》卷七第三十九節所說的: 「在祂們(三位1中，沒有什麼不同的或外來的。」可是如果聖父是由自己而生聖子，貝1]應注意這一點，即那有物由其生出或產生之物，如果事後繼續存在，就會接受那生出或所產生之物的稱謂或名稱;例如我們說: 「人是白的」'因為當人由不是白的或非白變成白的之後，而仍繼續存在;如此則須作結說，聖父生了聖子以後，或者不再繼續存在，或者(繼續存在而接受聖之名稱，因而)聖父是聖子，而這是錯誤的。所以，聖父並不是由某物，而是由無或虛無中生聖子。",
+      "after": "如果聖父是由某物而生聖子，那麼或者是由自己，或者是由他物。如果是由他物，那麼就有不同於聖父之物在聖子內，因為那有物由其生出之物，也在那生出或受生之物內。可是，這卻相反希拉利在《論天主聖三》卷七第三十九節所說的：「在祂們(三位)中，沒有什麼不同的或外來的。」可是如果聖父是由自己而生聖子，則應注意這一點，即那有物由其生出或產生之物，如果事後繼續存在，就會接受那生出或所產生之物的稱謂或名稱；例如我們說：「人是白的」，因為當人由不是白的或非白變成白的之後，而仍繼續存在；如此則須作結說，聖父生了聖子以後，或者不再繼續存在，或者(繼續存在而接受聖之名稱，因而)聖父是聖子，而這是錯誤的。所以，聖父並不是由某物，而是由無或虛無中生聖子。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂們(三位1中",
+          "after": "祂們(三位)中",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「人是白的」'",
+          "after": "「人是白的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        807
+      ],
+      "before": "此外，那有物由其生出之物，是那生出之物的本源。所以，如果聖父是由自己的本質(本體，essentia)或本性(性體，natura)而生聖子，那麼聖父的本質或本性就是聖子的本源。但不是物質或質料的本源;因為在天主內沒有物質或質料。所以有如是主動的本源，如同生者是受生者的本源一樣。如此則應該說「本質生或生育」'而這是前面第三十九題第五節所駁斥的。",
+      "after": "此外，那有物由其生出之物，是那生出之物的本源。所以，如果聖父是由自己的本質(本體，essentia)或本性(性體，natura)而生聖子，那麼聖父的本質或本性就是聖子的本源。但不是物質或質料的本源；因為在天主內沒有物質或質料。所以有如是主動的本源，如同生者是受生者的本源一樣。如此則應該說「本質生或生育」，而這是前面第三十九題第五節所駁斥的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「本質生或生育」'",
+          "after": "「本質生或生育」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        807
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷七第六章說，天主三位並不是「生自」同一本體，因為本體與位格並無不同。可是，聖子的位格與聖父的本體也並無不同。所以，聖子並不是出白聖父的本體。",
+      "after": "此外，奧斯定在《論天主聖三》卷七第六章說，天主三位並不是「生自」同一本體，因為本體與位格並無不同。可是，聖子的位格與聖父的本體也並無不同。所以，聖子並不是出自聖父的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        807,
+        808
+      ],
+      "before": "此外，一切的受造物都是出白無或虛無。可是聖經卻稱聖子為受造物;因為《德訓篇》第二十四章5節由受生的「智慧」的口中說: 「我由至高者的口中出生，我在一切化工以先，是首先出生的。」後來(第14節)又由同一「智慧」的口中說: 「起初，當世界未有以前，我就受造。」所以，聖子(受生的智慧)並不是由某物，而是由無中出生或受生。同樣地，關於聖神也可以提出質疑，因為《匣加利亞》第十二章l節說:「展開蒼天，奠定大地，在人內創造人之神的上主，這樣說」;《亞毛斯》第四章13節按照另一種譯本也說:「我形成了山嶽，創造了神(spiritus)」。",
+      "after": "此外，一切的受造物都是出自無或虛無。可是聖經卻稱聖子為受造物；因為《德訓篇》第二十四章5節由受生的「智慧」的口中說：「我由至高者的口中出生，我在一切化工以先，是首先出生的。」後來(第14節)又由同一「智慧」的口中說：「起初，當世界未有以前，我就受造。」所以，聖子(受生的智慧)並不是由某物，而是由無中出生或受生。同樣地，關於聖神也可以提出質疑，因為《匝加利亞》第十二章1節說：「展開蒼天，奠定大地，在人內創造人之神的上主，這樣說」；《亞毛斯》第四章13節按照另一種譯本也說：「我形成了山嶽，創造了神(spiritus)」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "匣加利亞",
+          "after": "匝加利亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        808
+      ],
+      "before": "奧斯定在《致伯多祿執事論信德》第二章說:「天主聖父從無始(sine initio)就由自己的性體，生了與自己平等的聖子。」",
+      "after": "奧斯定在《致伯多祿執事論信德》第二章說：「天主聖父從無始(sine initio)就由自己的性體，生了與自己平等的聖子。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        808,
+        809
+      ],
+      "before": "我解答如下:聖子並不是由無中(ex nihilo)而生或受生，而是由聖父的本體或實體(Sl削antia)。因為第二十七題第二節、第三十三題第二節釋疑3.及4.和第三節已經指明，在天主內有真實的和依其本義的劃生、子i圭和出生或誕生。可是，在真正的有人生而為子的生或生育，與製造或創造之悶，有此一區別，即製造者是由外在的物質或材料製造一物，例如:木匠由或用木材製造長凳，而人卻是由自己生出兒子。可是正如受造的工匠由或用材料製造某物，同樣地，天主也是由無中創造，正如以下第四十五題第二節將要證明的;並不是因為「無」變成物的實體，而是因為物的整個實體由「無」中產生，不預設有任何別的物存在。所以，如果聖子之出自聖父，宛如是由「無」中而存在，那l要聖子與聖父的關係，就如同手工藝品與工匠的關係一樣;顯然地，工藝品不可能有真正的或按照其本義的「子性」這司名稱，而只能按照某種相似。因此，如果天主聖子之出自聖父，宛如是由「無」中而存在，那麼祂就不是真正的和按照本義的聖子。這相反《若望壹書》第五章20節所說的:(使我們在祂(天主)真實的聖子耶穌基督內。」所以，天主的真實聖子，並不是由「無」中存在，也不是受造，而只是出生或受生。\n可是，如果那些由「無」中而受造的，也稱為天主的兒子，那麼這是按照喻義的說法，這是根據與那貫正為聖子者的某種相似。因此，就天主的真實的和自然的聖子是唯一的而言，稱之為「獨生子或獨生者」'按照《若望福音》第一章18節所說的: 「只有那在父懷裡的獨生者，祂給我們詳述了。」可是，就其他的人因與祂有某種相似，被稱為(天主的)義子而言，則只好像是按照喻義稱祂為「長子或首生者」'按照《羅馬書》第八章29節所說的: 「因為祂所預選的人，也預定他們與自己的兒子的肖像相同，好使祂在眾多弟兄中作長子。」\n所以，天主聖子是由聖父的本體或實體而受生。卻也有別於人子的受生。因為生人者的實體，部分變成受生者的實體。可是天主的本性或性體卻是不可分的。因此，必須說，聖父之生聖子，不是將本性或性體的部分轉注入聖子內，而是將整個本性或性體通傳給聖子，唯有起源方面的區別仍然存在，正如前面第四十題第二節所指明的。",
+      "after": "我解答如下：聖子並不是由無中(ex nihilo)而生或受生，而是由聖父的本體或實體(substantia)。因為第二十七題第二節、第三十三題第二節釋疑3.及4.和第三節己經指明，在天主內有真實的和依其本義的父性、子性和出生或誕生。可是，在真正的有人生而為子的生或生育，與製造或創造之間，有此一區別，即製造者是由外在的物質或材料製造一物，例如：木匠由或用木材製造長凳，而人卻是由自己生出兒子。可是正如受造的工匠由或用材料製造某物，同樣地，天主也是由無中創造，正如以下第四十五題第二節將要證明的；並不是因為「無」變成物的實體，而是因為物的整個實體由「無」中產生，不預設有任何別的物存在。所以，如果聖子之出自聖父，宛如是由「無」中而存在，那麼聖子與聖父的關係，就如同手工藝品與工匠的關係一樣；顯然地，工藝品不可能有真正的或按照其本義的「子性」這一名稱，而只能按照某種相似。因此，如果天主聖子之出自聖父，宛如是由「無」中而存在，那麼祂就不是真正的和按照本義的聖子。這相反《若望壹書》第五章20節所說的：「使我們在祂(天主)真實的聖子耶穌基督內。」所以，天主的真實聖子，並不是由「無」中存在，也不是受造，而只是出生或受生。\n可是，如果那些由「無」中而受造的，也稱為天主的兒子，那麼這是按照喻義的說法，這是根據與那眞正為聖子者的某種相似。因此，就天主的真實的和自然的聖子是唯一的而言，稱之為「獨生子或獨生者」，按照《若望福音》第一章18節所說的：「只有那在父懷裡的獨生者，祂給我們詳述了。」可是，就其他的人因與祂有某種相似，被稱為(天主的)義子而言，則只好像是按照喻義稱祂為「長子或首生者」，按照《羅馬書》第八章29節所說的：「因為祂所預選的人，也預定他們與自己的兒子的肖像相同，好使祂在眾多弟兄中作長子。」\n所以，天主聖子是由聖父的本體或實體而受生。卻也有別於人子的受生。因為生人者的實體，部分變成受生者的實體。可是天主的本性或性體卻是不可分的。因此，必須說，聖父之生聖子，不是將本性或性體的部分轉注入聖子內，而是將整個本性或性體通傳給聖子，唯有起源方面的區別仍然存在，正如前面第四十題第二節所指明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Sl削antia",
+          "after": "substantia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "已經指明",
+          "after": "己經指明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "劃生、子i圭",
+          "after": "父性、子性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "之悶",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "那l要",
+          "after": "那麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "這司名稱",
+          "after": "這一名稱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "所說的:(使",
+          "after": "所說的：「使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "貫正",
+          "after": "眞正",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「獨生子或獨生者」'",
+          "after": "「獨生子或獨生者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「長子或首生者」'",
+          "after": "「長子或首生者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        809
+      ],
+      "before": "當說聖子「生自聖父」時，這前置詞或介詞「自」'是指示那同性同體的生者本源;不是指示物質或質料本源。因為凡由物質或質料所產生者，都是藉物質或質料轉變為某種形式而形成;可是天主的本體卻是不變的，也不能接受別的形式。",
+      "after": "當說聖子「生自聖父」時，這前置詞或介詞「自」，是指示那同性同體的生者本源；不是指示物質或質料本源。因為凡由物質或質料所產生者，都是藉物質或質料轉變為某種形式而形成；可是天主的本體卻是不變的，也不能接受別的形式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這前置詞或介詞「自」'",
+          "after": "這前置詞或介詞「自」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        809,
+        810
+      ],
+      "before": "說聖子是生「自聖父的本體」'按照大師在《語錄》卷一第五題的解釋，有如是意指與主動本源的關係;他在那裡做了這樣的解釋: 「聖子生自聖父的本體，即是生自『聖父本體』(或『是本體的聖父~)。為此，奧斯定在《論天主聖三》卷1-五第十三章說: 「我所說的(聖子)生自『聖父本體~(或『是本體的聖父~)，其意義就如同我更明晰地說「生自『聖父的本體~0 』(按: 「聖父本體」(Pater essentia)是「聖父」和「本體」三名詞並置，常用相同的格，如同天主聖父、天主聖子、天主聖神等詞一樣。而在「聖父的本體」中，「聖父」常用所有格，與「本體」的格不同。)可是，這卻似乎不足以說明這句話的意義，因為我們可以說受造物「出自天主本體」(或是本體的天主)，卻不能說受造物「出白天主的本體」。因此，可以有另外不同的說法，即前置詞「自(由dC、由、從、用)υ」常常指示「同1性間生同體」(印Cωonsub「出自建築師」ν，因為建築師並不是同性同體的原因。可是我們卻可以說一物出自另一物，只要這另一物是指任何一種同性同體的本源:它或是主動本源，例如說:兒於是「出自父親」;它或是物質或質料本源，例如說./l恥小\\刀是「出自或來自鐵」;它或是形式本源，只要這些在其主體內的形式是自立自的句，而且不再成為其他物的形式;因為我們可以說一位天使是「出自或來自理智的性體」。是按照此一方式，我們說聖子生自聖父的本體;因為藉「生」而通傳給聖子的聖父的本體，自立於聖子內。",
+      "after": "說聖子是生「自聖父的本體」，按照大師在《語錄》卷一第五題的解釋，有如是意指與主動本源的關係；他在那裡做了這樣的解釋：「聖子生自聖父的本體，即是生自『聖父本體』(或『是本體的聖父』)。為此，奧斯定在《論天主聖三》卷十五第十三章說：「我所說的(聖子)生自『聖父本體』(或『是本體的聖父』)，其意義就如同我更明晰地說「生自『聖父的本體』。」(按：「聖父本體」(Pater essentia)是「聖父」和「本體」二名詞並置，常用相同的格，如同天主聖父、天主聖子、天主聖神等詞一樣。而在「聖父的本體」中，「聖父」常用所有格，與「本體」的格不同。)可是，這卻似乎不足以說明這句話的意義，因為我們可以說受造物「出自天主本體」(或是本體的天主)，卻不能說受造物「出自天主的本體」。因此，可以有另外不同的說法，即前置詞「自(de、由、從、用)」常常指示「同性同體」(consubstantialitas)。因此，我們並不說房屋是「出自建築師」，因為建築師並不是同性同體的原因。可是我們卻可以說一物出自另一物，只要這另一物是指任何一種同性同體的本源：它或是主動本源，例如說：兒子是「出自父親」；它或是物質或質料本源，例如說：小刀是「出自或來自鐵」；它或是形式本源，只要這些在其主體內的形式是自立的，而且不再成為其他物的形式；因為我們可以說一位天使是「出自或來自理智的性體」。是按照此一方式，我們說聖子生自聖父的本體；因為藉「生」而通傳給聖子的聖父的本體，自立於聖子內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生「自聖父的本體」'",
+          "after": "生「自聖父的本體」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "是本體的聖父~",
+          "after": "是本體的聖父』",
+          "occurrences": 2,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "卷1-五",
+          "after": "卷十五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "『聖父本體~",
+          "after": "『聖父本體』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "『聖父的本體~0 』",
+          "after": "『聖父的本體』。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「本體」三名詞",
+          "after": "「本體」二名詞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "出白天主的本體",
+          "after": "出自天主的本體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "即前置詞「自(由dC、由、從、用)υ」常常指示「同1性間生同體」(印Cωonsub「出自建築師」ν，",
+          "after": "即前置詞「自(de、由、從、用)」常常指示「同性同體」(consubstantialitas)。因此，我們並不說房屋是「出自建築師」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "兒於是",
+          "after": "兒子是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "例如說./l恥小\\刀",
+          "after": "例如說：小刀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "自立自的句",
+          "after": "自立的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        810
+      ],
+      "before": "當說:!聖子生自聖父的本體」峙，其中有所加添，可根據它所指的關係，保全(子與父之位格的)區別。可是當說: 「三位或三位格出自天主的本體」時，其中卻沒有什麼指關係者，可據以建立前置詞「自」所要表示的區別。所以，情形並不相同。",
+      "after": "當說：「聖子生自聖父的本體」時，其中有所加添，可根據它所指的關係，保全(子與父之位格的)區別。可是當說：「三位或三位格出自天主的本體」時，其中卻沒有什麼指關係者，可據以建立前置詞「自」所要表示的區別。所以，情形並不相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說:!聖子",
+          "after": "說：「聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "本體」峙",
+          "after": "本體」時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        810,
+        811
+      ],
+      "before": "當說: 「智慧是受造的」峙，可以這樣解讀，即它所說的智慧，不是指那是天主聖子的智慧，而是指受造的智慧，是天主把這智慧植入受造物之內;因為《德哥11篇》第一章9~10節說: 「祂藉著聖神，創造了它」即是智慧，「進把它傾注在祂一切的化玉上。」聖經在相同的章節裡兼談受生的智慧和受造的智慧，並無不宜;因為受造的智慧是分享非受造的智慧。這話或者也可能與聖子所攝取的受造的本性或性體有闕，意思是說，「起初，當世界未有以前，祂就造了我」'即是「我已被預見與受造物合而為一」。或者，智慧之稱為受造的和受生的，是為給我們暗示天主生或生育的方式。因為在生育時，受生者獲得生者的本性，這屬於完美;可是在創造峙，創造者並不改變，而受造者也不獲得創造者的本性。所以，說聖子同時是受造的和受生的，是為從創造中領悟聖父的不可改變性，以及從生育中領悟在聖父早日聖子內的唯一性體或一體。希拉利在《論主教會議》中也是這樣解釋這A經旬的意義。至於所引的其他經旬，不是在談論聖神，而是在談論受造的神或spiritus;這spiritus'有時稱為風暴，有時稱為空氣，有時稱為人的氣息，有時也稱為魂或生命(anima)，或其它任何看不見的實體。",
+      "after": "當說：「智慧是受造的」時，可以這樣解讀，即它所說的智慧，不是指那是天主聖子的智慧，而是指受造的智慧，是天主把這智慧植入受造物之內；因為《德訓篇》第一章9~10節說：「祂藉著聖神，創造了它」即是智慧，「還把它傾注在祂一切的化工上。」聖經在相同的章節裡兼談受生的智慧和受造的智慧，並無不宜；因為受造的智慧是分享非受造的智慧。這話或者也可能與聖子所攝取的受造的本性或性體有關，意思是說，「起初，當世界未有以前，祂就造了我」，即是「我己被預見與受造物合而為一」。或者，智慧之稱為受造的和受生的，是為給我們暗示天主生或生育的方式。因為在生育時，受生者獲得生者的本性，這屬於完美；可是在創造時，創造者並不改變，而受造者也不獲得創造者的本性。所以，說聖子同時是受造的和受生的，是為從創造中領悟聖父的不可改變性，以及從生育中領悟在聖父和聖子內的唯一性體或一體。希拉利在《論主教會議》中也是這樣解釋這一經句的意義。至於所引的其他經句，不是在談論聖神，而是在談論受造的神或spiritus；這spiritus，有時稱為風暴，有時稱為空氣，有時稱為人的氣息，有時也稱為魂或生命(anima)，或其它任何看不見的實體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "受造的」峙",
+          "after": "受造的」時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "德哥11篇",
+          "after": "德訓篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「進把它",
+          "after": "「還把它",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "化玉",
+          "after": "化工",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "有闕",
+          "after": "有關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "祂就造了我」'",
+          "after": "祂就造了我」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「我已被預見",
+          "after": "「我己被預見",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "創造峙",
+          "after": "創造時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "聖父早日聖子",
+          "after": "聖父和聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "這A經旬",
+          "after": "這一經句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "其他經旬",
+          "after": "其他經句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "spiritus'",
+          "after": "spiritus，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "在天主內是否有與表記行動相闋的能力",
+      "after": "在天主內是否有與表記行動相關的能力",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相闋",
+          "after": "相關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "似乎不應該肯定在天主內有興衰記行動相關的能力(potentia)。因為:",
+      "after": "似乎不應該肯定在天主內有與表記行動相關的能力(potentia)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "興衰記",
+          "after": "與表記",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "一切的能力，或是王動的，或是被動的。可是這兩種能力卻都不能適用於此;因為在天王內並沒有被動的能力，正如第二十五題第一節已指明的;而主動的能力也不適用於一位格之針對另一位格，因為天士的位格並不是受造而成的，正如第三節已指明的。所以，在天主內並沒有針對表記行動的能力。",
+      "after": "一切的能力，或是主動的，或是被動的。可是這兩種能力卻都不能適用於此；因為在天主內並沒有被動的能力，正如第二十五題第一節己指明的；而主動的能力也不適用於一位格之針對另一位格，因為天主的位格並不是受造而成的，正如第三節己指明的。所以，在天主內並沒有針對表記行動的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "王動",
+          "after": "主動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "天王",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "已指明",
+          "after": "己指明",
+          "occurrences": 2,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "天士",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "此外，能力是針對可能者(possibile)而說的。可是天主的位格並不屬於可能者之列，而屬於必然者之列。所以，針對天主的位格因以或賴以出發的表記行動，不應該肯定在天主內有相關能力。",
+      "after": "此外，能力是針對可能者(possibile)而說的。可是天主的位格並不屬於可能者之列，而屬於必然者之列。所以，針對天主的位格因以或賴以出發的表記行動，不應該肯定在天主內有相關能力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        811
+      ],
+      "before": "此外，聖子出發而為言，而言是理智的孕育或領悟;聖神則出發而為愛，而愛屬於意志。可是，在天主內，能力卻是針對效果而說的，並非針對領悟或理解和願意而說的，正如第二十五題第一節釋疑3.及4.己說過的。所以，在天主內，不應該針對與表記行動的關係來談能力。",
+      "after": "此外，聖子出發而為言，而言是理智的孕育或領悟；聖神則出發而為愛，而愛屬於意志。可是，在天主內，能力卻是針對效果而說的，並非針對領悟或理解和願意而說的，正如第二十五題第一節釋疑3.及4.己說過的。所以，在天主內，不應該針對與表記行動的關係來談能力。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        812
+      ],
+      "before": "奧斯定在《駁馬西米諾》卷二第七章說;「如果天主聖父未能生與自己同等的聖子，那麼天主聖父的全能在那裡?」所以，在天主內有與表記行動相關的能力。",
+      "after": "奧斯定在《駁馬西米諾》卷二第七章說：「如果天主聖父未能生與自己同等的聖子，那麼天主聖父的全能在那裡?」所以，在天主內有與表記行動相關的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說;",
+          "after": "說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        812
+      ],
+      "before": "我解答如下:正如肯定在天主內有表記行動，同樣地，也應該肯定在那裡有與這種行動相關的能力;因為能力只不過意指行動的本源而已。因此，既然我們理解到聖父是生或生育的本源，以及聖父和聖於是噓出或發出(spiratio)的本源;所以，必須將生或生育的能力歸於聖父，將噓出或發出的能力歸於聖父和聖子。因為生的能力意指那生者因以而生者或生之所憑藉者;而一切生者都是因什麼或有所憑藉而生;因此，在一切生者內都應該有生的能力，而在一切噓出或發出者內都應該有噓出或發出的能力。",
+      "after": "我解答如下：正如肯定在天主內有表記行動，同樣地，也應該肯定在那裡有與這種行動相關的能力；因為能力只不過意指行動的本源而已。因此，既然我們理解到聖父是生或生育的本源，以及聖父和聖子是噓出或發出(spiratio)的本源；所以，必須將生或生育的能力歸於聖父，將噓出或發出的能力歸於聖父和聖子。因為生的能力意指那生者因以而生者或生之所憑藉者；而一切生者都是因什麼或有所憑藉而生；因此，在一切生者內都應該有生的能力，而在一切噓出或發出者內都應該有噓出或發出的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聖於",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        812
+      ],
+      "before": "正如一位格根據表記行動而出發，不是出發有如受造而成的;同樣地，在天主內，與表記行動相關的能力，也不說是針對某一受造而成的位格;而只是針對出發的位格。",
+      "after": "正如一位格根據表記行動而出發，不是出發有如受造而成的；同樣地，在天主內，與表記行動相關的能力，也不說是針對某一受造而成的位格；而只是針對出發的位格。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        812
+      ],
+      "before": "可能者，就其與必然者相對立而言，附和或基於被動的能力，而在天主內沒有這種能力。因此，在天主內，也沒有按照這種方式的可能者;而只是按照將可能者涵蓋在必然者之範圍內的方式。如此則可以說:正如「天主存在」是可能的，同樣地，「聖子受生」也是可能的。",
+      "after": "可能者，就其與必然者相對立而言，附和或基於被動的能力，而在天主內沒有這種能力。因此，在天主內，也沒有按照這種方式的可能者；而只是按照將可能者涵蓋在必然者之範圍內的方式。如此則可以說：正如「天主存在」是可能的，同樣地，「聖子受生」也是可能的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        812,
+        813
+      ],
+      "before": "能力意指本源。可是，本源指出自己與那出自本源之物有區別。在論及天主的事物中，注意到有兩種區別:一種是實在的或物本身的區別，另一種是隻在觀念或思想上的區別。按照實在的區別，天主藉本體有別於祂藉創造而為其本源的萬物;正如一位格也是如此有別於自己根據表記行動而為其本源的另一位格。可是在天主內，行動與主動或行動者卻只有觀念或思想上的區別;否則行動便是在天主內的依附體了。所以，有的行動，使某些物據以出於天主而有別於天主，無論是按照本體的區別或位格的區別，針對這樣的行動，能依「本源」之本義，而把能力歸於天主。因此，正如我們肯定在天主內有創造的能力;同樣地，我們也能肯定有生的能力或噓出的能力。可是理解和願意卻不意指這樣的行動，即它們並不指明有物出於天主而有別於天主，無論是按照本體的區別或位格的區別。為此，針對這些行動，就無法證實或滿全能力在天主內(意指本源)的理或性質，除非只按理解或思想和表示的方式，即是在天主內的理智和理解，是用不同的方式來加以表示，雖然天主的理解本身就是祂的本體，沒有本源。",
+      "after": "能力意指本源。可是，本源指出自己與那出自本源之物有區別。在論及天主的事物中，注意到有兩種區別：一種是實在的或物本身的區別，另一種是只在觀念或思想上的區別。按照實在的區別，天主藉本體有別於祂藉創造而為其本源的萬物；正如一位格也是如此有別於自己根據表記行動而為其本源的另一位格。可是在天主內，行動與主動或行動者卻只有觀念或思想上的區別；否則行動便是在天主內的依附體了。所以，有的行動，使某些物據以出於天主而有別於天主，無論是按照本體的區別或位格的區別，針對這樣的行動，能依「本源」之本義，而把能力歸於天主。因此，正如我們肯定在天主內有創造的能力；同樣地，我們也能肯定有生的能力或噓出的能力。可是理解和願意卻不意指這樣的行動，即它們並不指明有物出於天主而有別於天主，無論是按照本體的區別或位格的區別。為此，針對這些行動，就無法證實或滿全能力在天主內(意指本源)的理或性質，除非只按理解或思想和表示的方式，即是在天主內的理智和理解，是用不同的方式來加以表示，雖然天主的理解本身就是祂的本體，沒有本源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是隻在",
+          "after": "是只在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "生之能力是否意指關係，而非本體",
+      "after": "生之能力是否意指關係，而非本體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "生之能力或發出之能力，似乎意指關係，而非本體。因為:",
+      "after": "生之能力或發出之能力，似乎意指關係，而非本體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "能力意指本源，正在日其意義所指明的;因為我們稱主動能力為主動或行動的本源，正如《形上學》卷五第十二章所指明的。可是在天主內，針對位格的本源，是以表記或關係的方式說出或稱謂。所以，在天主內，能力並非意指本體，而是意指關係。",
+      "after": "能力意指本源，正如其意義所指明的；因為我們稱主動能力為主動或行動的本源，正如《形上學》卷五第十二章所指明的。可是在天主內，針對位格的本源，是以表記或關係的方式說出或稱謂。所以，在天主內，能力並非意指本體，而是意指關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正在日",
+          "after": "正如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "此外，在天主內，能(行動)與行動沒有差別。可是在天主內，生之行動卻意指閱(系。所以，生之能力也是如此。",
+      "after": "此外，在天主內，能(行動)與行動沒有差別。可是在天主內，生之行動卻意指關係。所以，生之能力也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "閱(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "此外，在天主內，凡意指本體的，都是三位共有的。可是，生之能力卻不是三位共有的，而是聖父所特有的。所以，生之能力並不意指本體。",
+      "after": "此外，在天主內，凡意指本體的，都是三位共有的。可是，生之能力卻不是三位共有的，而是聖父所特有的。所以，生之能力並不意指本體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        813
+      ],
+      "before": "正如天主能生聖子，同樣地，天主也願生聖子。可是生之意願卻意指本體。所以，生之能力也是如此。",
+      "after": "正如天主能生聖子，同樣地，天主也願生聖子。可是生之意願卻意指本體。所以，生之能力也是如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        814
+      ],
+      "before": "我解答如下:有些人說生之能力在天主內意指關係。可是這卻是不可能的。因為在任何主動者或行動者內的能力，依其本義，是指稱那行動者因以或藉以行動者(或其行動所憑藉者)。可是，凡藉自己的行動產生一物者，在他藉以行動的形式方面，都是產生與自己相似者，例如:受生之人與那生人之人，在人之本性方面相似，為人父者是因這人之本性的能力，而能生人。所以，受生者與生者相似之所在(或受生者與生者所相似的那一因素)，就是在生者內的生之能力。可是，聖子是在天主之本性方面，與生者聖父相似。因此，在聖父內的天主之本性或天主性是在聖父內的生之能力。因此，希拉利在《論天主聖三》卷五第三十七節說:「天主的誕生，不可能不持有其所從出的本性;因為既非那不是天主者自立存在，亦非從那不是天主者處(獲得能力)自立存在。」\n所以，如此則應該說，生之能力主要地意指天主的本體，正如大師在《語錄》卷一第七題所說的;而不僅指關係。而真其意指本體，也不是著眼於本體與關係相同，好像是以同等的方式兼指二者。因為，雖然父性意指聖父的形式，但這父性卻是針對聖父之位格的個別位格特{設，就如同個體的形式與受造個體的關係一樣。可是在受造的物體內，個體的形式建立生者這一位格，卻不是那生者因以或藉以而生或生育之因素，否則就變成蘇格拉底生蘇格拉底了。因此，也不能把父性解釋為那聖父因以或藉以而生者，只能解釋為那建立生者之位格者;否則就變成聖父生聖父了。可是那聖父因以或藉以而生者，卻是天主的本性，聖子是在這本性內相似聖父。根據這一點，大馬士革的若望在《論正統信仰》卷一第八章說，生或生育是「本性的工程」'而這本性，不是被視為生者，而是被視為那生者因以或藉以而生者(或生者之生所憑藉的能力)。所以，生之能力正面或直接地意指天主的本性，卻側面或間接地意指關{系。",
+      "after": "我解答如下：有些人說生之能力在天主內意指關係。可是這卻是不可能的。因為在任何主動者或行動者內的能力，依其本義，是指稱那行動者因以或藉以行動者(或其行動所憑藉者)。可是，凡藉自己的行動產生一物者，在他藉以行動的形式方面，都是產生與自己相似者，例如：受生之人與那生人之人，在人之本性方面相似，為人父者是因這人之本性的能力，而能生人。所以，受生者與生者相似之所在(或受生者與生者所相似的那一因素)，就是在生者內的生之能力。可是，聖子是在天主之本性方面，與生者聖父相似。因此，在聖父內的天主之本性或天主性是在聖父內的生之能力。因此，希拉利在《論天主聖三》卷五第三十七節說：「天主的誕生，不可能不持有其所從出的本性；因為既非那不是天主者自立存在，亦非從那不是天主者處(獲得能力)自立存在。」\n所以，如此則應該說，生之能力主要地意指天主的本體，正如大師在《語錄》卷一第七題所說的；而不僅指關係。而其意指本體，也不是著眼於本體與關係相同，好像是以同等的方式兼指二者。因為，雖然父性意指聖父的形式，但這父性卻是針對聖父之位格的個別位格特徵，就如同個體的形式與受造個體的關係一樣。可是在受造的物體內，個體的形式建立生者這一位格，卻不是那生者因以或藉以而生或生育之因素，否則就變成蘇格拉底生蘇格拉底了。因此，也不能把父性解釋為那聖父因以或藉以而生者，只能解釋為那建立生者之位格者；否則就變成聖父生聖父了。可是那聖父因以或藉以而生者，卻是天主的本性，聖子是在這本性內相似聖父。根據這一點，大馬士革的若望在《論正統信仰》卷一第八章說，生或生育是「本性的工程」，而這本性，不是被視為生者，而是被視為那生者因以或藉以而生者(或生者之生所憑藉的能力)。所以，生之能力正面或直接地意指天主的本性，卻側面或間接地意指關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而真其",
+          "after": "而其",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "特{設",
+          "after": "特徵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「本性的工程」'",
+          "after": "「本性的工程」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "能力並不是意指本源的關係本身，否則便屬於「關係」這一類了;而是意指那是本源者;而其稱為本源，不是好像它是主動者或行動者，而是有如那行動者因以或藉以行動者(行動者之行動所憑藉者)。可是，行動者有別於其所作成者，生者也有別於受生者。可是那生者之生所憑藉之因素，卻是生者與受生者所共有的;而且生或生育越完美，這因素也越完美。因此，天主的生或生育既是最完美的，所以，生者之生所憑藉的因素，是生者與受生者所共有的，在數目方面同一或是同一個，不只是在種別方面同一或是同一種，如同在受造的萬物內一樣。所以，不可以根據我們說天主的本體是「生者之生所憑藉的本源」'而作結說「天主的本體被區分」;假設是說天主的本體生或生育，這樣的結論方可成立。",
+      "after": "能力並不是意指本源的關係本身，否則便屬於「關係」這一類了；而是意指那是本源者；而其稱為本源，不是好像它是主動者或行動者，而是有如那行動者因以或藉以行動者(行動者之行動所憑藉者)。可是，行動者有別於其所作成者，生者也有別於受生者。可是那生者之生所憑藉之因素，卻是生者與受生者所共有的；而且生或生育越完美，這因素也越完美。因此，天主的生或生育既是最完美的，所以，生者之生所憑藉的因素，是生者與受生者所共有的，在數目方面同一或是同一個，不只是在種別方面同一或是同一種，如同在受造的萬物內一樣。所以，不可以根據我們說天主的本體是「生者之生所憑藉的本源」，而作結說「天主的本體被區分」；假設是說天主的本體生或生育，這樣的結論方可成立。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「生者之生所憑藉的本源」'",
+          "after": "「生者之生所憑藉的本源」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "在天主內，生之能力與生或生育之相同，就如同天主的本體與生或生育和父性之相同，其相同是在物本身方面，而不是在觀念或思想方面。",
+      "after": "在天主內，生之能力與生或生育之相同，就如同天主的本體與生或生育和父性之相同，其相同是在物本身方面，而不是在觀念或思想方面。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "當我說「生之能1」 J時，直接所指出的是「能力屍間接所提及的是「生」'如同我說「聖父的本體」一樣。因此，就其所意指的本體而言，生之能力是天主三位共有的;可是就其一併所觸及的表記或位格關係而言，卻是聖父之位格所特有的。",
+      "after": "當我說「生之能力」時，直接所指出的是「能力」，間接所提及的是「生」，如同我說「聖父的本體」一樣。因此，就其所意指的本體而言，生之能力是天主三位共有的；可是就其一併所觸及的表記或位格關係而言，卻是聖父之位格所特有的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「生之能1」 J",
+          "after": "「生之能力」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「能力屍",
+          "after": "「能力」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "「生」'",
+          "after": "「生」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "表記行動是否能止於多個位格",
+      "after": "表記行動是否能止於多個位格",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "是表記行動似乎能及於和終止於多個位格，致使在天主內可以有多個受生者(聖子)或多個被發出者(聖神)。因為:",
+      "after": "表記行動似乎能及於和終止於多個位格，致使在天主內可以有多個受生者(聖子)或多個被發出者(聖神)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是表記行動",
+          "after": "表記行動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        815
+      ],
+      "before": "凡有生之能力者都能生。而聖子卻有生之能力。所以，聖子能生。可是聖子卻不能生自己。所以，聖子能生男一聖子。所以，在天主內能有多個聖子。",
+      "after": "凡有生之能力者都能生。而聖子卻有生之能力。所以，聖子能生。可是聖子卻不能生自己。所以，聖子能生另一聖子。所以，在天主內能有多個聖子。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一聖子",
+          "after": "另一聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        816
+      ],
+      "before": "此外，奧斯定在《駁馬西米諾》卷二第十二章說:「聖子沒有生造物主。並不是因為祂不能;而是因為祂不應該。」",
+      "after": "此外，奧斯定在《駁馬西米諾》卷二第十二章說：「聖子沒有生造物主。並不是因為祂不能；而是因為祂不應該。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        816
+      ],
+      "before": "此外，天主聖父比受造的為父者有更強的生之能力。可是一個人卻能生多個兒子。所以，天主也是如此;尤其因為在生了一位聖子以後，聖父的能力並沒有減少。",
+      "after": "此外，天主聖父比受造的為父者有更強的生之能力。可是一個人卻能生多個兒子。所以，天主也是如此；尤其因為在生了一位聖子以後，聖父的能力並沒有減少。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        816
+      ],
+      "before": "在天主內有(esse)與能(posse)沒有差別。所以，如果在天主內能有多個聖子，那麼就實有多個聖子。如此，則在天主內所有的位格，就多於三個，而這是異端。",
+      "after": "在天主內有(esse)與能(posse)沒有差別。所以，如果在天主內能有多個聖子，那麼就實有多個聖子。如此，則在天主內所有的位格，就多於三個，而這是異端。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q041.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        816
+      ],
+      "before": "我解答如下:正如亞達納修在《信經「不拘誰」》中所說的，在天主內只有一個聖父、一個聖子和一個聖神。個中理由可分為四點。第一點理由取自關係方面，天主的位格只因關係而彼此有區別。由於天主的位格就是自立的關係本身，所以在天主內，就不可能有多個聖父或多個聖子，除非有多個父性和子性。可是這只有按照物的質料方面的區別纔是可能的;因為同一物種或同一種物的形式，只有根據質料或物質才會增多，而在天主內並沒有物質或質料。因此，在天主內只能有一個自立的子性，就如自立的白色也只能有一個一樣。第二點理由取自各位格個別出發的方式。因為天主是用唯-而單純的行動理解和願欲一切。所以，只能有一個位格以聖言的方式出發，即是聖子;也只能有一個位格以愛的方式出發，即是聖神。第三點理由取白出發的一般方式。因為位格本身的出發是以自然本性的方式，正如第二節己說過的;而自然本性是被限定於一的。第四點理由取白天主位格的完美性。因為聖子之所以是完美的聖子，正由於完整的天主子性都包括在祂內，以及只有一個聖子。關於其他的位格，同樣也應該如此說。",
+      "after": "我解答如下：正如亞達納修在《信經「不拘誰」》中所說的，在天主內只有一個聖父、一個聖子和一個聖神。個中理由可分為四點。第一點理由取自關係方面，天主的位格只因關係而彼此有區別。由於天主的位格就是自立的關係本身，所以在天主內，就不可能有多個聖父或多個聖子，除非有多個父性和子性。可是這只有按照物的質料方面的區別才是可能的；因為同一物種或同一種物的形式，只有根據質料或物質才會增多，而在天主內並沒有物質或質料。因此，在天主內只能有一個自立的子性，就如自立的白色也只能有一個一樣。第二點理由取自各位格個別出發的方式。因為天主是用唯一而單純的行動理解和願欲一切。所以，只能有一個位格以聖言的方式出發，即是聖子；也只能有一個位格以愛的方式出發，即是聖神。第三點理由取自出發的一般方式。因為位格本身的出發是以自然本性的方式，正如第二節己說過的；而自然本性是被限定於一的。第四點理由取自天主位格的完美性。因為聖子之所以是完美的聖子，正由於完整的天主子性都包括在祂內，以及只有一個聖子。關於其他的位格，同樣也應該如此說。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "唯-而",
+          "after": "唯一而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "理由取白",
+          "after": "理由取自",
+          "occurrences": 2,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        817
+      ],
+      "before": "雖然，應該簡直地或無條件地承認，聖父所有的能力，聖子也有;可是，如果(生之能力的)「生之」(generandi)是主動動詞用作名詞的所有格，使其意義是說「聖子有能力(主動地)生或生育」'那麼就不應該承認聖子(作為聖子)有生之能力。因為就如:雖然聖父和聖子的存在是相同的，可是由於所加添的表記或父子關係'聖子不能是聖父。可是如果「生之」是被動動詞用作名詞的所有格，那麼，在聖子內就有這種被動的生之能力，即是祂能受生。同樣地，如果「生之」是無主詞或不定動詞(verbum impersonale)用作名詞的所有格，使「生之能力」'意指從某一位格生出或受生所憑藉的能力，那麼，在聖子內也有這種能力。",
+      "after": "雖然，應該簡直地或無條件地承認，聖父所有的能力，聖子也有；可是，如果(生之能力的)「生之」(generandi)是主動動詞用作名詞的所有格，使其意義是說「聖子有能力(主動地)生或生育」，那麼就不應該承認聖子(作為聖子)有生之能力。因為就如：雖然聖父和聖子的存在是相同的，可是由於所加添的表記或父子關係，聖子不能是聖父。可是如果「生之」是被動動詞用作名詞的所有格，那麼，在聖子內就有這種被動的生之能力，即是祂能受生。同樣地，如果「生之」是無主詞或不定動詞(verbum impersonale)用作名詞的所有格，使「生之能力」，意指從某一位格生出或受生所憑藉的能力，那麼，在聖子內也有這種能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生或生育」'",
+          "after": "生或生育」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "表記或父子關係'",
+          "after": "表記或父子關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "使「生之能力」'",
+          "after": "使「生之能力」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        817
+      ],
+      "before": "奧斯定說那些話，並非有意說聖子能生聖子;而是說聖子之不生，不是由於聖子之無能，正如下面第四十二題第六節釋疑3.要指明的。",
+      "after": "奧斯定說那些話，並非有意說聖子能生聖子；而是說聖子之不生，不是由於聖子之無能，正如下面第四十二題第六節釋疑3.要指明的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q041.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        817
+      ],
+      "before": "是基於天主的非物質性與完美，在天主內不能有多個聖子，正如正解已說過的c所以，在天主內沒有多個聖子，並不是由於聖父之生或生育的無能。",
+      "after": "是基於天主的非物質性與完美，在天主內不能有多個聖子，正如正解己說過的。所以，在天主內沒有多個聖子，並不是由於聖父之生或生育的無能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正解已說過的c",
+          "after": "正解己說過的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／漏字"
+        }
+      ]
+    }
+  ]
+}
