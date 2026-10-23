@@ -1,0 +1,1180 @@
+{
+  "schema_version": 1,
+  "batch": "I-q073",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "5ad6aab50ccdee18258036e6dcee793bbaea50c2",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q073",
+    "title": "論那些屬於第七天者",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      1189,
+      1190,
+      1191,
+      1192,
+      1193,
+      1194,
+      1195
+    ],
+    "printed_pages": [
+      321,
+      327
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 36,
+    "changed_review_units": 30,
+    "checked_unchanged_review_units": 7
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q73.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q73.json": "7adf1578c302ce4755f05900d933ae1a0f4df1cb0c80552cc68b20818837796a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q073.a001.arg3",
+      "pdf_file_page": 1189,
+      "text": "業己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q073.a001.arg3",
+      "pdf_file_page": 1190,
+      "text": "己更新",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q073.a001.sed_contra",
+      "pdf_file_page": 1190,
+      "text": "己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q073.a001.ad2",
+      "pdf_file_page": 1191,
+      "text": "己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q073.a001.ad3",
+      "pdf_file_page": 1191,
+      "text": "己先存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q073.a003.respondeo",
+      "pdf_file_page": 1194,
+      "text": "第二節所說的。天主",
+      "status": "suspected_source_print_error",
+      "action": "原书句号疑应为逗号，依底本保留。"
+    },
+    {
+      "id": "I.q073.a003.respondeo",
+      "pdf_file_page": 1194,
+      "text": "第七十二題第四節",
+      "status": "suspected_source_print_error",
+      "action": "原书交叉节号疑误，第七十二题只有一节；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、3节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q073.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "然後要討論的是那些屬於第七天者(參看第七十題引言)。\n關於這一點，可以提出三個問題:\n一、論玉程的完成。\n二、論天土的休息。\n三、論這一天的祝福與聖化。",
+      "after": "然後要討論的是那些屬於第七天者(參看第七十題引言)。\n關於這一點，可以提出三個問題：\n一、論工程的完成。\n二、論天主的休息。\n三、論這一天的祝福與聖化。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "玉程",
+          "after": "工程",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天土",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "天主的工程的完成是否應該歸於第七天",
+      "after": "天主的工程的完成是否應該歸於第七天",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "天主的工程的完成，似乎不應該歸於第七天。因為:",
+      "after": "天主的工程的完成，似乎不應該歸於第七天。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "在現世所有的一切作為，都屬於天主的工程。可是「今世的終結或完成」卻是在世界末日，正如《瑪竇福音》第十三章第37等節所說的。基督降生成人的時間也是圓滿完成的時間。因此，《j!m拉達書》第四章4節說: 「時間一滿」。基督臨死時自己也說: 「完成了」'正如《若望福音》第十九章30節所說的。所以，天主的工程的完成不應該歸於第七天。",
+      "after": "在現世所有的一切作為，都屬於天主的工程。可是「今世的終結或完成」卻是在世界末日，正如《瑪竇福音》第十三章第37等節所說的。基督降生成人的時間也是圓滿完成的時間。因此，《迦拉達書》第四章4節說：「時間一滿」。基督臨死時自己也說：「完成了」，正如《若望福音》第十九章30節所說的。所以，天主的工程的完成不應該歸於第七天。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《j!m拉達書》",
+          "after": "《迦拉達書》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完成了」'",
+          "after": "完成了」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1189
+      ],
+      "before": "此外，凡是完成自己的工程者9都是在從事工作。可是聖經並沒有記述天主在第七天有什麼工作，反而是停止了一切工程，休息了。所以，工程的完成不應該歸於第七天。",
+      "after": "此外，凡是完成自己的工程者，都是在從事工作。可是聖經並沒有記述天主在第七天有什麼工作，反而是停止了一切工程，休息了。所以，工程的完成不應該歸於第七天。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "者9",
+          "after": "者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1189,
+        1190
+      ],
+      "before": "此外，一件工程不能說業已完成，如果還有許多東西附加於其上，除非所附加者是多餘的。因為所謂完美或圓滿之物，是指它不缺少任何應該有之物。可是在第七天以後，還形成了許多東西，不日許多的個體的產生;甚至屢見不鮮的一些新物種的產生，尤其是在那些由腐爛而生的動物方面。天主也天天創造新的靈魂。降生成人的工程也是新的，對此《耶肋米亞》第三十一章22節說: 「上主在地上正在創造一件新事」。也有新的奇異工程，《德訓篇》第三十六章6節論及它們說: 「求你重顯神蹟，重行奇事。」在諸聖受光榮時，萬物也要煥然一新，按照《默示錄》第二十一章5節所說的:「那位坐在寶座上的說:看!我已更新了一切。」所以，天主的工程的完成不應該歸於第七夭。",
+      "after": "此外，一件工程不能說業己完成，如果還有許多東西附加於其上，除非所附加者是多餘的。因為所謂完美或圓滿之物，是指它不缺少任何應該有之物。可是在第七天以後，還形成了許多東西，和許多的個體的產生；甚至屢見不鮮的一些新物種的產生，尤其是在那些由腐爛而生的動物方面。天主也天天創造新的靈魂。降生成人的工程也是新的，對此《耶肋米亞》第三十一章22節說：「上主在地上正在創造一件新事」。也有新的奇異工程，《德訓篇》第三十六章6節論及它們說：「求你重顯神蹟，重行奇事。」在諸聖受光榮時，萬物也要煥然一新，按照《默示錄》第二十一章5節所說的：「那位坐在寶座上的說：看!我己更新了一切。」所以，天主的工程的完成不應該歸於第七天。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日許多",
+          "after": "和許多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已更新",
+          "after": "己更新",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第七夭",
+          "after": "第七天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "業已完成",
+          "after": "業己完成",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1190
+      ],
+      "before": "《創世紀》第二章2節說: 「到第七夭夭主造物的玉程已完成。」",
+      "after": "《創世紀》第二章2節說：「到第七天天主造物的工程己完成。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第七夭夭主",
+          "after": "第七天天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "玉程",
+          "after": "工程",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已完成",
+          "after": "己完成",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1190
+      ],
+      "before": "我解答如下:物的完美或完成(perfectio)共分兩種n其中，第一種完美或完成，是指物在自己實體方面的完美或完成。這種完美或完成，是整體的形式，起於各部分的完整。可是，第二種完美或完成，卻是目的。而目的或是作為，例如:彈琴是彈琴者的目的;或是藉著作為所獲致之物，例如:建築師的目的，是藉著建築而形成的房屋。可是第一種完美或完成，卻是第二種完美或完成的原因，因為形式是作為的原理或本源。\n可是作為整個宇宙之目的的最後完美或完成，卻是聖人們的完美或圓滿真褔，這將在今世的終結時出現。可是第一種完美或完成，即是宇宙的完整，卻是在萬物的最初創立時竣工。這歸於第七天。",
+      "after": "我解答如下：物的完美或完成(perfectio)共分兩種。其中，第一種完美或完成，是指物在自己實體方面的完美或完成。這種完美或完成，是整體的形式，起於各部分的完整。可是，第二種完美或完成，卻是目的。而目的或是作為，例如：彈琴是彈琴者的目的；或是藉著作為所獲致之物，例如：建築師的目的，是藉著建築而形成的房屋。可是第一種完美或完成，卻是第二種完美或完成的原因，因為形式是作為的原理或本源。\n可是作為整個宇宙之目的的最後完美或完成，卻是聖人們的完美或圓滿真福，這將在今世的終結時出現。可是第一種完美或完成，即是宇宙的完整，卻是在萬物的最初創立時竣工。這歸於第七天。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兩種n",
+          "after": "兩種。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1190,
+        1191
+      ],
+      "before": "正如正解所說的，第一種完美或完成是第二種完美或完成的原因。可是獲得真褔的需要有二:本性與恩寵。所以，真福的完美或完成本身是在世界末日，正如正解所說的。可是以原因的方式而為此閉路的，在本性方面有萬物的最初創立的完成;在恩寵方面，有基督的降生成人的完成，因為「恩寵和真理都是由耶穌基督而來的」'正如《若望褔音》第一章17節所說的。所以，在第七天有本性的完成，在基督的降生成人內有恩寵的完成，在世界末日則有光榮或榮福的完成。",
+      "after": "正如正解所說的，第一種完美或完成是第二種完美或完成的原因。可是獲得真福的需要有二：本性與恩寵。所以，真福的完美或完成本身是在世界末日，正如正解所說的。可是以原因的方式而為此開路的，在本性方面有萬物的最初創立的完成；在恩寵方面，有基督的降生成人的完成，因為「恩寵和真理都是由耶穌基督而來的」，正如《若望福音》第一章17節所說的。所以，在第七天有本性的完成，在基督的降生成人內有恩寵的完成，在世界末日則有光榮或榮福的完成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閉路",
+          "after": "開路",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "若望褔音",
+          "after": "若望福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而來的」'",
+          "after": "而來的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1191
+      ],
+      "before": "天主在第七天確實有所工作，但不是創造新的受造物，而是管理受造物，並推動受造物去從事，自己的工作;這已多少屬於第二種完美或完成的開始。因此，停止或終結工作，按照我們的譯文，歸於第七天。可是按照另一譯文(七十賢士譯本)，卻歸於第六天。二者都可以成立。因為針對宇宙各部分的完整來說，終結或完成歸於第六天;可是針對各部分的工作來說，終結或完成歸於第七夭。\n或者可以說，在連續的運動中，幾時一物還可以有進一步的運動，就不能稱為在停止以前的完美或己完成的運動，因為停止顯示運動的絡站或完成。可是，天主除了六天所創造的受造物以外，還能創造其他的許多受造物。因此，基於祂在第七天停止了創造新的受造物‘而說祂終結或停止了自己的工程。",
+      "after": "天主在第七天確實有所工作，但不是創造新的受造物，而是管理受造物，並推動受造物去從事自己的工作；這已多少屬於第二種完美或完成的開始。因此，停止或終結工作，按照我們的譯文，歸於第七天。可是按照另一譯文(七十賢士譯本)，卻歸於第六天。二者都可以成立。因為針對宇宙各部分的完整來說，終結或完成歸於第六天；可是針對各部分的工作來說，終結或完成歸於第七天。\n或者可以說，在連續的運動中，幾時一物還可以有進一步的運動，就不能稱為在停止以前的完美或己完成的運動，因為停止顯示運動的終站或完成。可是，天主除了六天所創造的受造物以外，還能創造其他的許多受造物。因此，基於祂在第七天停止了創造新的受造物，而說祂終結或停止了自己的工程。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "從事，自己的",
+          "after": "從事自己的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第七夭",
+          "after": "第七天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "絡站",
+          "after": "終站",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "新的受造物‘",
+          "after": "新的受造物，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1191,
+        1192
+      ],
+      "before": "以後為天主所形成的，沒有什麼是完全新的，以致在六天的工程裡全無先導。因為有些物在質料方面己先存在，例如:天主用亞當的肋骨而形成了女人。可是有些東西，不僅在質料方面，而且也在原因方面，已先存在於六天的工程裡，例如:現在所生殖的個體有自己同類的最初個體作為前驅或先導。至於新的種類或物種，如果出現的話，也先己存在於一些主動的能力(virlus activa)內。例如，也腐爛而生殖的動物，是由星宿的能力和元素起初所獲得的能力所產生，即使有這類動物的新種類產生，也是如此。有些新種類的動物，是出自種類不同之動物的混合，例如:由驢和馬而生驟子。這些也都在原因方面，有六天的工程作為先導。可是有些物卻是按照相似(similitudo)，而在六天的工程裡有先導，例如:現在所創造的靈魂。基督降生成人的工程也是如此，正如《斐理伯書》第二章7節所說的，天主聖子使自己「與人相似」。無形的或精神體的光榮(g1oria spiritualis)，按照相似，也在天使之內有先導;可是形體的光榮，卻在天、尤其是高天內有先導。因此，《計iI道篇》第一章10節說: 「太陽之下絕無新事;因為在我們以前的世紀內早就有過。」",
+      "after": "以後為天主所形成的，沒有什麼是完全新的，以致在六天的工程裡全無先導。因為有些物在質料方面己先存在，例如：天主用亞當的肋骨而形成了女人。可是有些東西，不僅在質料方面，而且也在原因方面，己先存在於六天的工程裡，例如：現在所生殖的個體有自己同類的最初個體作為前驅或先導。至於新的種類或物種，如果出現的話，也先己存在於一些主動的能力(virtus activa)內。例如，由腐爛而生殖的動物，是由星宿的能力和元素起初所獲得的能力所產生，即使有這類動物的新種類產生，也是如此。有些新種類的動物，是出自種類不同之動物的混合，例如：由驢和馬而生騾子。這些也都在原因方面，有六天的工程作為先導。可是有些物卻是按照相似(similitudo)，而在六天的工程裡有先導，例如：現在所創造的靈魂。基督降生成人的工程也是如此，正如《斐理伯書》第二章7節所說的，天主聖子使自己「與人相似」。無形的或精神體的光榮(gloria spiritualis)，按照相似，也在天使之內有先導；可是形體的光榮，卻在天、尤其是高天內有先導。因此，《訓道篇》第一章10節說：「太陽之下絕無新事；因為在我們以前的世紀內早就有過。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因方面，已先",
+          "after": "原因方面，己先",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "virlus",
+          "after": "virtus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也腐爛",
+          "after": "由腐爛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "驟子",
+          "after": "騾子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "g1oria",
+          "after": "gloria",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《計iI道篇》",
+          "after": "《訓道篇》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "天主是否在第七天停止了自己的一切工程而休息了",
+      "after": "天主是否在第七天停止了自己的一切工程而休息了",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "天主在第七天似乎沒有停止自己的一切工程而休息了。因為:",
+      "after": "天主在第七天似乎沒有停止自己的一切工程而休息了。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "《若望福音》第五章17節說: 「我父捉到現在一直.L.作，我也應該工作。」所以，天主並沒有在第七天停止一切工程。",
+      "after": "《若望福音》第五章17節說：「我父親到現在一直工作，我也應該工作。」所以，天主並沒有在第七天停止一切工程。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "捉到",
+          "after": "親到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ".L.作",
+          "after": "工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "此外，停止(止息或安息，requies)，與行動或變動相反，或與辛勞相反，而辛勞有時來自行動。可是天主卻不會變動，天主完成自己的工程，也毫無辛勞可言。所以‘不應該說天主在第七天停止了自己的工程而休息了。",
+      "after": "此外，停止(止息或安息，requies)，與行動或變動相反，或與辛勞相反，而辛勞有時來自行動。可是天主卻不會變動，天主完成自己的工程，也毫無辛勞可言。所以，不應該說天主在第七天停止了自己的工程而休息了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "此外，如果說天主在第七天休息，是因為祂「使人休息」'那麼可以反駁說: 「休息與工作對稱」。可是聖經說:「天主創造或形成了此物或彼物」'卻並不解說成天主: 「使人創造或形成」。所以也不能合宜地說，所謂天主休息了，是因為祂使人休息。",
+      "after": "此外，如果說天主在第七天休息，是因為祂「使人休息」，那麼可以反駁說：「休息與工作對稱」。可是聖經說：「天主創造或形成了此物或彼物」，卻並不解說成天主：「使人創造或形成」。所以也不能合宜地說，所謂天主休息了，是因為祂使人休息。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使人休息」'",
+          "after": "使人休息」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "此物或彼物」'",
+          "after": "此物或彼物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1192
+      ],
+      "before": "《創世紀》第二章2節說:「天主就在第七天休息，停止了所做的一切玉作。」",
+      "after": "《創世紀》第二章2節說：「天主就在第七天休息，停止了所做的一切工作。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "玉作",
+          "after": "工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1192,
+        1193
+      ],
+      "before": "我解答如下:休息原本與行動相反，因而進一步也與由行動所產生的辛勞或勞動相反。雖然行動按本義是屬於形體的，可是「行動」一詞也延伸用於精神的事物，而且有兩種方式:一種方式，是根據一切的作為都稱為行動;如此，天主的美善也是以某種方式，動向並前行至(受造)物，這是根據天主的美善把自己通傳給他們，正如狄奧尼修在《神名論》第二章所說的。另一種方式，伸向某物的願望，也稱為一種行動。因此，休息也有兩種意義:一是意指停止工作;二是意指達成或滿全了願望。\n在這兩方面，都可以說天主在第七天休息了。第一，因為天主在第七天停止了創造新的受造物，祂後來再沒有創造什麼在最初的工程內毫無先導或基礎者，正如第一節釋疑3所說的。第二，因為祂自己並不需要受造之物，卻因享有自己而為真福。因此，在創造一切工程以後，《告他紀》並沒有說:「天主安居於自己的工程」'好像天主為自己的真褔而需要它們-t菜;卻說:「天主停Jl.了它們」。天主確實安息於或安於自己，因為地自給自足，並達成或滿全自己的願望。雖然祂自己從永恆就安息於自己，可是祂在創造工程以後的安息於自己，卻屬於第七夭。這就是所謂停止了工程，正如奧斯定在《創世紀字義新探》卷四第十五章所說的。",
+      "after": "我解答如下：休息原本與行動相反，因而進一步也與由行動所產生的辛勞或勞動相反。雖然行動按本義是屬於形體的，可是「行動」一詞也延伸用於精神的事物，而且有兩種方式：一種方式，是根據一切的作為都稱為行動；如此，天主的美善也是以某種方式，動向並前行至(受造)物，這是根據天主的美善把自己通傳給他們，正如狄奧尼修在《神名論》第二章所說的。另一種方式，伸向某物的願望，也稱為一種行動。因此，休息也有兩種意義：一是意指停止工作；二是意指達成或滿全了願望。\n在這兩方面，都可以說天主在第七天休息了。第一，因為天主在第七天停止了創造新的受造物，祂後來再沒有創造什麼在最初的工程內毫無先導或基礎者，正如第一節釋疑3所說的。第二，因為祂自己並不需要受造之物，卻因享有自己而為真福。因此，在創造一切工程以後，《創世紀》並沒有說：「天主安息於自己的工程」，好像天主為自己的真福而需要它們一樣；卻說：「天主停止了它們」。天主確實安息於或安於自己，因為祂自給自足，並達成或滿全自己的願望。雖然祂自己從永恆就安息於自己，可是祂在創造工程以後的安息於自己，卻屬於第七天。這就是所謂停止了工程，正如奧斯定在《創世紀字義新探》卷四第十五章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《告他紀》",
+          "after": "《創世紀》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主安居",
+          "after": "天主安息",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "工程」'",
+          "after": "工程」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "它們-t菜",
+          "after": "它們一樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "停Jl.",
+          "after": "停止",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因為地自給",
+          "after": "因為祂自給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第七夭",
+          "after": "第七天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1193
+      ],
+      "before": "天主íjlJ克在一直玉作J'是指祂保存和管理受造之物;而不是指創造新的受造物。",
+      "after": "天主「到現在一直工作」，是指祂保存和管理受造之物；而不是指創造新的受造物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主íjlJ克在一直玉作J'是指祂保存和管理受造之物;而不是指創造新的受造物。",
+          "after": "天主「到現在一直工作」，是指祂保存和管理受造之物；而不是指創造新的受造物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1193
+      ],
+      "before": "停止戒休息，(在那裡)並不與辛勞或行動相反i而與產生新的(受造)物，以及伸向它物的願望相反，正如正解所說的。",
+      "after": "停止或休息，(在那裡)並不與辛勞或行動相反；而與產生新的(受造)物，以及伸向它物的願望相反，正如正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "停止戒休息",
+          "after": "停止或休息",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相反i",
+          "after": "相反；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1193,
+        1194
+      ],
+      "before": "正如天主只安息於自己﹒並因享有自己而為真褔;同樣地，我們也唯有藉著享有天主而成為真福。如此，祂也使我們在祂內，而停止祂的和我們的工作。所以，說天主休息了，是因為他使我們休息，這是適當的解釋。可是這卻不是唯一的解釋;還有其它更重要和更優先的解釋(正解)。",
+      "after": "正如天主只安息於自己，並因享有自己而為真福；同樣地，我們也唯有藉著享有天主而成為真福。如此，祂也使我們在祂內，而停止祂的和我們的工作。所以，說天主休息了，是因為祂使我們休息，這是適當的解釋。可是這卻不是唯一的解釋；還有其它更重要和更優先的解釋(正解)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自己﹒",
+          "after": "自己，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因為他使",
+          "after": "因為祂使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "祝福與聖化是否應該歸於第七天",
+      "after": "祝福與聖化是否應該歸於第七天",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "祝褔(benedictio)與聖化(sanctificatio)，似乎不應該歸於第七天。因為:",
+      "after": "祝福(benedictio)與聖化(sanctificatio)，似乎不應該歸於第七天。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祝褔",
+          "after": "祝福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "時間通常被稱為被祝福的和聖的，是因為在相關時問內所產生的善，或所躲避的惡。可是天主或工作，或停止工作，卻毫無增損可言。所以，特殊的祝福與聖化不應該歸於第七天。",
+      "after": "時間通常被稱為被祝福的和聖的，是因為在相關時間內所產生的善，或所躲避的惡。可是天主或工作，或停止工作，卻毫無增損可言。所以，特殊的祝福與聖化不應該歸於第七天。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "此外，祝福一詞出自「美善」。可是按照狄奧尼修《神名論》第四章，美善或善卻是「散發_」(diffusivum)及「通傳」(communicativum)自己的。所以，那些有受造物產生的幾天，比那停止創造受造物的一天，更應該受到祝福。",
+      "after": "此外，祝福一詞出自「美善」。可是按照狄奧尼修《神名論》第四章，美善或善卻是「散發」(diffusivum)及「通傳」(communicativum)自己的。所以，那些有受造物產生的幾天，比那停止創造受造物的一天，更應該受到祝福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "散發_",
+          "after": "散發",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "此外，前面在每一受造物中都提到了某種祝福，即是幾時針對每一受造物說: 「天主看了，認為好」。所以，在創造萬物以後，不應該再祝福第七天。",
+      "after": "此外，前面在每一受造物中都提到了某種祝福，即是幾時針對每一受造物說：「天主看了，認為好」。所以，在創造萬物以後，不應該再祝福第七天。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1194
+      ],
+      "before": "《創世紀》第二章3節說: 「天主祝福了第七天，定為聖日，因為在這一天，天主停止了自己的一切玉作。」",
+      "after": "《創世紀》第二章3節說：「天主祝福了第七天，定為聖日，因為在這一天，天主停止了自己的一切工作。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "玉作",
+          "after": "工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1194,
+        1195
+      ],
+      "before": "我解答如下:正如上文第二節所說的。天主在第七天休息，共有兩種意義:一種是，t也停止了新的創造工程，可是祂仍保存和管理已受造之物;另一種意義是，祂在工作以後，安息於或安於自己。所以，就第一種意義來說，祝福應歸於第七天。因為正如第七十二題第四節所說的，祝福屬於增多或繁殖;因此，對天主所祝福的受造物說: 「你們耍筆生繁殖。」可是，萬物的繁殖卻藉著受造物的管理而完成，因這管理而同類生於同類。可是，就第二種意義來說，聖化應該歸於第七夭。因為任何一物的聖化，都是著重於它在天主內安息。因此，奉獻於天主之物，稱為聖物。",
+      "after": "我解答如下：正如上文第二節所說的。天主在第七天休息，共有兩種意義：一種是，祂停止了新的創造工程，可是祂仍保存和管理已受造之物；另一種意義是，祂在工作以後，安息於或安於自己。所以，就第一種意義來說，祝福應歸於第七天。因為正如第七十二題第四節所說的，祝福屬於增多或繁殖；因此，對天主所祝福的受造物說：「你們要孳生繁殖。」可是，萬物的繁殖卻藉著受造物的管理而完成，因這管理而同類生於同類。可是，就第二種意義來說，聖化應該歸於第七天。因為任何一物的聖化，都是著重於它在天主內安息。因此，奉獻於天主之物，稱為聖物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "t也",
+          "after": "祂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "耍筆生",
+          "after": "要孳生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第七夭",
+          "after": "第七天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1195
+      ],
+      "before": "第七天被聖化，並不是因為在天主方面有什麼增損;而是因為受造物藉著繁殖和安息於天主，而有所增益。",
+      "after": "第七天被聖化，並不是因為在天主方面有什麼增損；而是因為受造物藉著繁殖和安息於天主，而有所增益。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q073.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1195
+      ],
+      "before": "在最初的六天，受造物是在自己的最初原因內產生。可是以後，受造物卻基於這些最初原因而得以繁殖和保存，這也屬於天主的美善。祂的完美或成全也尤其在這一點上顯示出來，即是祂自己安息於美善本身，而我們也藉著享有這美善而能安息。",
+      "after": "在最初的六天，受造物是在自己的最初原因內產生。可是以後，受造物卻基於這些最初原因而得以繁殖和保存，這也屬於天主的美善。祂的完美或成全也尤其在這一點上顯示出來，即是祂自己安息於美善本身，而我們也藉著享有這美善而能安息。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q073.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1195
+      ],
+      "before": "在前面每一天所提到的美善，屬於自然本性的最初創立;可是第七天的祝福，卻屬於自然本性的繁殖。",
+      "after": "在前面每一天所提到的美善，屬於自然本性的最初創立；可是第七天的祝福，卻屬於自然本性的繁殖。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
