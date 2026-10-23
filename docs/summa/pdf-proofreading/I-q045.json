@@ -1,0 +1,2488 @@
+{
+  "schema_version": 1,
+  "batch": "I-q045",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "5e072eb8c1f7bf75fa6d075a3ee156b4654078ed",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q045",
+    "title": "論受造物源出第一原因的方式",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      878,
+      879,
+      880,
+      881,
+      882,
+      883,
+      884,
+      885,
+      886,
+      887,
+      888,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      897
+    ],
+    "printed_pages": [
+      10,
+      29
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 100,
+    "changed_review_units": 64,
+    "checked_unchanged_review_units": 37
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q45.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q45.json": "4d8c30088d2c225a8ed15dc34834cc1550c947a99f4b57caf869f291c9d11bbf",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q045.a001.arg3",
+      "pdf_file_page": 879,
+      "text": "這座態像",
+      "status": "suspected_source_print_error",
+      "action": "原页「态像」疑为「雕像」，保留。"
+    },
+    {
+      "id": "I.q045.a003.respondeo",
+      "pdf_file_page": 884,
+      "text": "第三節釋疑2.",
+      "status": "suspected_source_print_error",
+      "action": "原书内部引文疑应第二节，按原页恢复。"
+    },
+    {
+      "id": "I.q045.a004.respondeo",
+      "pdf_file_page": 886,
+      "text": "(ens；《形上學》",
+      "status": "suspected_source_print_error",
+      "action": "原书括号不配对，依原页恢复。"
+    },
+    {
+      "id": "I.q045.a004.ad1",
+      "pdf_file_page": 886,
+      "text": "源出於普通物",
+      "status": "suspected_source_print_error",
+      "action": "原书「普通物」疑为「普遍物」，保留。"
+    },
+    {
+      "id": "I.q045.a005.arg3",
+      "pdf_file_page": 887,
+      "text": "第二等節",
+      "status": "suspected_source_print_error",
+      "action": "原页「等」疑多字，保留。"
+    },
+    {
+      "id": "I.q045.a005.respondeo",
+      "pdf_file_page": 888,
+      "text": "這人或這樣的的存在",
+      "status": "suspected_source_print_error",
+      "action": "原书重「的」，保留。"
+    },
+    {
+      "id": "I.q045.a005.respondeo",
+      "pdf_file_page": 888,
+      "text": "地球的實體",
+      "status": "suspected_source_print_error",
+      "action": "原译所用术语与语义可能存疑，严格保留不改译名。"
+    },
+    {
+      "id": "I.q045.a005.respondeo",
+      "pdf_file_page": 888,
+      "text": "《語錄》卷五第四題",
+      "status": "suspected_source_print_error",
+      "action": "原书书卷编号存疑，按底本保留。"
+    },
+    {
+      "id": "I.q045.a006.arg1",
+      "pdf_file_page": 891,
+      "text": "凡先有之物都是沒有之物的原因",
+      "status": "suspected_source_print_error",
+      "action": "原书「没有」疑「后有」，不据语义改写。"
+    },
+    {
+      "id": "I.q045.a006.arg3",
+      "pdf_file_page": 891,
+      "text": "歸這屬於",
+      "status": "suspected_source_print_error",
+      "action": "原页疑多「这」，保留。"
+    },
+    {
+      "id": "I.q045.a006.ad2",
+      "pdf_file_page": 893,
+      "text": "第三十八題第八節",
+      "status": "suspected_source_print_error",
+      "action": "原书题号疑有误，按原页保留。"
+    },
+    {
+      "id": "I.q045.a007.respondeo",
+      "pdf_file_page": 895,
+      "text": "尺度、數目和重量，」",
+      "status": "suspected_source_print_error",
+      "action": "原书逗号在引号内，保留其位置。"
+    },
+    {
+      "id": "I.q045.a002.respondeo",
+      "pdf_file_page": 882,
+      "text": "第二節己說明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a002.ad1",
+      "pdf_file_page": 882,
+      "text": "原因而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a002.ad2",
+      "pdf_file_page": 883,
+      "text": "己講過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a003.respondeo",
+      "pdf_file_page": 884,
+      "text": "關係而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a005.respondeo",
+      "pdf_file_page": 889,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a005.ad1",
+      "pdf_file_page": 889,
+      "text": "肯定己有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    },
+    {
+      "id": "I.q045.a008.respondeo",
+      "pdf_file_page": 896,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，保留原书。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q045.a004.ad2",
+      "description": "从误合并字段恢复第四节正解、释疑1和释疑2至各既有字段，补回正解断句处原有「释疑2.」；原字段换行转义数量与次序保持，余换行置字段末。"
+    }
+  ],
+  "notes": [
+    "全部20页、八节逐页核对。",
+    "重点恢复第四节结构，并按原页区分「摻有」「参与」等用字，不统一译风。",
+    "仅本地保存。"
+  ],
+  "readings": [
+    {
+      "id": "I.q045.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "然後要探究受造物源出第一原因的方式，即所謂的創造(參看第四十四題引言)。\n關於這一點，可以提出八個問題:\n一、創造是什麼?。\n二、天主是否能有所創造。\n三、創造是否為在受造物本體中的某物。\n四、什麼宜於受造。\n五、創造是否為唯一天主的事。\n六、創造是為天主聖三所共有，抑或只特別屬於一位e\n七、在受造物內是否有天主聖三的蹤跡或痕跡。\n八、在自然和意志的工作中是否帶有創造的工作。",
+      "after": "然後要探究受造物源出第一原因的方式，即所謂的創造(參看第四十四題引言)。\n關於這一點，可以提出八個問題：\n一、創造是什麼。\n二、天主是否能有所創造。\n三、創造是否為在受造物本體中的某物。\n四、什麼宜於受造。\n五、創造是否為唯一天主的事。\n六、創造是為天主聖三所共有，抑或只特別屬於一位。\n七、在受造物內是否有天主聖三的蹤跡或痕跡。\n八、在自然和意志的工作中是否摻有創造的工作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "什麼?。",
+          "after": "什麼。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一位e",
+          "after": "一位。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是否帶有",
+          "after": "是否摻有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "創造是否由無中製造",
+      "after": "創造是否由無中製造",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "創造(creare)似乎不是由無中製造(facere)。因為:",
+      "after": "創造(creare)似乎不是由無中製造(facere)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "奧斯定在《法律及先知惡評闢駁》(Contra adversarium Legis et Prophetarum)卷一第二十三章說: 「製造是關於那完全不存在之物，可是創造卻是從那已存在之物延伸而建立某物。」",
+      "after": "奧斯定在《法律及先知惡評闢駁》(Contra adversarium Legis et Prophetarum)卷一第二十三章說：「製造是關於那完全不存在之物，可是創造卻是從那已存在之物延伸而建立某物。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        878
+      ],
+      "before": "此外，行動與變動的高貴，是要看極點(起點與終點)。所以，由善到善和由有到有的行動比由無到某物的行動，更為高貴。可是創造卻似乎是最高貴的行動，也是一切行動中的為首者。所以，創造並不是由無到某物，反而是由物到物或由有到有。",
+      "after": "此外，行動與變動的高貴，是要看極點(起點與終點)。所以，由善到善和由有到有的行動比由無到某物的行動，更為高貴。可是創造卻似乎是最高貴的行動，也是一切行動中的為首者。所以，創造並不是由無到某物，反而是由物到物或由有到有。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        879
+      ],
+      "before": "此外，前置詞「由」'意指與某種原因的關係，尤其是與質料原因的關係;例如:我們說這座態像是由銅而鑄成的。可是「無」'卻不可能成為「有」或「物」的質料，也不可能以某種方式，是它的原因。所以，創造並不是由無中製造某物。",
+      "after": "此外，前置詞「由」，意指與某種原因的關係，尤其是與質料原因的關係；例如：我們說這座態像是由銅而鑄成的。可是「無」，卻不可能成為「有」或「物」的質料，也不可能以某種方式，是它的原因。所以，創造並不是由無中製造某物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「由」'",
+          "after": "「由」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「無」'",
+          "after": "「無」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        879
+      ],
+      "before": "關於《創世紀》第一章l節的「在起初天主創造了天地」等等，「註解」(拉丁通行本註解)上說: 「創造是由無中而製造某物。」",
+      "after": "關於《創世紀》第一章1節的「在起初天主創造了天地」等等，「註解」(拉丁通行本註解)上說：「創造是由無中而製造某物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章l節",
+          "after": "第一章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        879
+      ],
+      "before": "我解答如下:正如第四十四題第二節所說的，不僅應該討論一特殊有或物從另一特殊有或物的源出，而且也應該討論全部有或物的源出於普遍原因，即天主;我們指稱這種源出為創造c那按照個別或特殊的源出而來的或出生的，並不是先於源出而有或存在。例如，如果一人出生，並不是(出生以前)已先有了這一個人，而是從沒有這一個人而生成了這一個人，從沒有白色到有了白色。為此，如果討論宇宙萬物或萬有之源出於第一根源，在這源出之前，也不可能有任何物或有。可是，「無」與「無物」或「無有」相同。所以，正如一個人的出生，是從沒有「此人」這個特殊的物起;同樣，創造，即全部物或有的源出，也是從無「物」或「有」起，而無物或無有就是無。",
+      "after": "我解答如下：正如第四十四題第二節所說的，不僅應該討論一特殊有或物從另一特殊有或物的源出，而且也應該討論全部有或物的源出於普遍原因，即天主；我們指稱這種源出為創造。那按照個別或特殊的源出而來的或出生的，並不是先於源出而有或存在。例如，如果一人出生，並不是(出生以前)已先有了這一個人，而是從沒有這一個人而生成了這一個人，從沒有白色到有了白色。為此，如果討論宇宙萬物或萬有之源出於第一根源，在這源出之前，也不可能有任何物或有。可是，「無」與「無物」或「無有」相同。所以，正如一個人的出生，是從沒有「此人」這個特殊的物起；同樣，創造，即全部物或有的源出，也是從無「物」或「有」起，而無物或無有就是無。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為創造c",
+          "after": "為創造。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        879
+      ],
+      "before": "奧斯定用「創造」(creatio)一詞，是按照其另一意義，即凡被改進或提昇至一更好境界者﹒皆可稱為被創造。例如說「某人被創造(t翟昇)為主教。」可是我們於此不是這樣來討論創造，正如正解所說的。",
+      "after": "奧斯定用「創造」(creatio)一詞，是按照其另一意義，即凡被改進或提昇至一更好境界者，皆可稱為被創造。例如說「某人被創造(擢昇)為主教。」可是我們於此不是這樣來討論創造，正如正解所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "境界者﹒",
+          "after": "境界者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "t翟昇",
+          "after": "擢昇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        879,
+        880
+      ],
+      "before": "變化並不是由起點，而是由終點而獲得其種類與地位。所以，變化的終點越完美，越在先，變化也就越完美，越在先，即使那與終點相對立的起點是較不完美的。正如生殖絕對比(生後的)變化(alteratio)更尊貴，更在先，因此，本體形式比依附體形式更尊貴;可是，作為生殖之起點的本體形式的剝奪或短缺，卻比其作為變化之起點的相對者(依附體形式的剝奪或短缺)，更不完美。向樣地，創造也比生殖與變化更完美，更在先，因為創造的終點是物的整合本體。可是，那被理解為創造的起點的，卻是絕對的非物或無物(non ens)。",
+      "after": "變化並不是由起點，而是由終點而獲得其種類與地位。所以，變化的終點越完美，越在先，變化也就越完美，越在先，即使那與終點相對立的起點是較不完美的。正如生殖絕對比(生後的)變化(alteratio)更尊貴，更在先，因此，本體形式比依附體形式更尊貴；可是，作為生殖之起點的本體形式的剝奪或短缺，卻比其作為變化之起點的相對者(依附體形式的剝奪或短缺)，更不完美。同樣地，創造也比生殖與變化更完美，更在先，因為創造的終點是物的整合本體。可是，那被理解為創造的起點的，卻是絕對的非物或無物(non ens)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向樣地",
+          "after": "同樣地",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        880
+      ],
+      "before": "幾時說由無中製成一物，前置詞「由」或「從」(ex)並不意指質料原因(按:如從木料製成木器)，而只意指先後的秩序，例如說: 「從早上到中午」'即是說: 「在早上以後，即是中午」。可是應該瞭解的，是這前置詞「從」'可能包括我所說的「無」這「否定」(negatio)，或為這否定或「無」所包括(按:前者著重「從無中」的「從」'而後者著重其「無」)。如果是前一種方式，那麼秩序仍然獲得肯定，也說明它與先前的「無有或不存在」的關係。可是如果它包括前置詞(或前置詞為否定所包括)，那麼就不是指先後的秩序，而其意義是「由『無』中製成」;即不是「由什麼物或東西製成」'就好像如果說「他言中無物」即是他並沒有說出什麼。這兩種方式，對於解說「由無中製成某物」'都可以成立。可是按照第一方式，前置詞「由」是指先後的秩序(先是沒有，後來有了)，正如已經說過的;按照第二方式，則是指與質料原因的關係'並否定了這關係(不是從什麼質料製成的)。",
+      "after": "幾時說由無中製成一物，前置詞「由」或「從」(ex)並不意指質料原因(按：如從木料製成木器)，而只意指先後的秩序，例如說：「從早上到中午」，即是說：「在早上以後，即是中午」。可是應該瞭解的，是這前置詞「從」，可能包括我所說的「無」這「否定」(negatio)，或為這否定或「無」所包括(按：前者著重「從無中」的「從」，而後者著重其「無」)。如果是前一種方式，那麼秩序仍然獲得肯定，也說明它與先前的「無有或不存在」的關係。可是如果它包括前置詞(或前置詞為否定所包括)，那麼就不是指先後的秩序，而其意義是「由『無』中製成」；即不是「由什麼物或東西製成」，就好像如果說「他言中無物」即是他並沒有說出什麼。這兩種方式，對於解說「由無中製成某物」，都可以成立。可是按照第一方式，前置詞「由」是指先後的秩序(先是沒有，後來有了)，正如已經說過的；按照第二方式，則是指與質料原因的關係，並否定了這關係(不是從什麼質料製成的)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「從早上到中午」'",
+          "after": "「從早上到中午」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「從」'",
+          "after": "「從」，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「由什麼物或東西製成」'",
+          "after": "「由什麼物或東西製成」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「由無中製成某物」'",
+          "after": "「由無中製成某物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因的關係'",
+          "after": "原因的關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        880
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        880
+      ],
+      "before": "天主是否能有所創造",
+      "after": "天主是否能有所創造",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        880
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        880
+      ],
+      "before": "天主似乎不能有所創造。因為:",
+      "after": "天主似乎不能有所創造。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        880,
+        881
+      ],
+      "before": "按照哲學家在《物理學》卷一第四章所說的，古代哲學家的共同理解是「由無中而生無」。可是天主的德能卻不相反第一原理;例如:天主不能使整體不大於其部分，或使肯定與否定同時是真的。所以，天主也不能由無中而製造或創造什麼。",
+      "after": "按照哲學家在《物理學》卷一第四章所說的，古代哲學家的共同理解是「由無中而生無」。可是天主的德能卻不相反第一原理；例如：天主不能使整體不大於其部分，或使肯定與否定同時是真的。所以，天主也不能由無中而製造或創造什麼。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        881
+      ],
+      "before": "此外，如果創造是由無中製造，那麼受創造就是(受造)「成為」(fieri)某物。可是一切「成為」都是「變為」或變化。所以，創造也是變化。可是一切的變化卻出自主體，正如變化或變動的定義所指明的，因為變動是「在於潛能者的實現或現實化」(《物理學》卷三第一章)。所以，一物由天主從無中創造而成為某物，這是不可能的。",
+      "after": "此外，如果創造是由無中製造，那麼受創造就是(受造)「成為」(fieri)某物。可是一切「成為」都是「變為」或變化。所以，創造也是變化。可是一切的變化卻出自主體，正如變化或變動的定義所指明的，因為變動是「在於潛能者的實現或現實化」(《物理學》卷三第一章)。所以，一物由天主從無中創造而成為某物，這是不可能的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        881
+      ],
+      "before": "此外，凡是受造而成的，必然是在某一時段在成為或形成中。可是不能說，那受造的，同時是在形成中以及已被造成。因為在持久存在的物中，那尚在形成中的，還沒有存在;而那已被造成的，已經存在;如此，則將是一物(同時)既存在，又不存在(而這是不可能的)。所以，如果一物(受造)而成為某物，它的「在形成中」'應先於它的「已被造成」。可是，這是不可能的，除非已先有一主體存在，以支持那「在形成中」。所以，一物從無中受造而形成，這是不可能的。",
+      "after": "此外，凡是受造而成的，必然是在某一時段在成為或形成中。可是不能說，那受造的，同時是在形成中以及已被造成。因為在持久存在的物中，那尚在形成中的，還沒有存在；而那已被造成的，已經存在；如此，則將是一物(同時)既存在，又不存在(而這是不可能的)。所以，如果一物(受造)而成為某物，它的「在形成中」，應先於它的「已被造成」。可是，這是不可能的，除非已先有一主體存在，以支持那「在形成中」。所以，一物從無中受造而形成，這是不可能的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「在形成中」'",
+          "after": "「在形成中」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        881
+      ],
+      "before": "此外，無限的距離是不能越過的。可是有與無之間的距離卻是無限的。所以，由無中而形成某物的情況，不會發生。",
+      "after": "此外，無限的距離是不能越過的。可是有與無之間的距離卻是無限的。所以，由無中而形成某物的情況，不會發生。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        881
+      ],
+      "before": "《創世紀》第一章1節說:「在起初天主創造了天地。」",
+      "after": "《創世紀》第一章1節說：「在起初天主創造了天地。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        881,
+        882
+      ],
+      "before": "我解答如下:天主之有所創造，不僅並非不可能;而且還應該承認，萬物皆必然為天主所創造，正如上文所指明的。因為，不論任何人由任何物而造成任何物，其製造行為所用之物，應該在他的行為之先就存在，並不是該行為本身所產生的。例如，工匠由自然物來工作，如同由木材與銅，這些自然物並不是由工藝的行為所產生的，而是產生於自然的行動。可是自然本身之產生自然物，也僅是限於形式，並以已先有物質或質料為前提。所以，如果天主只不過由先已存在之物而創造，那麼這先已存在之物勢必不是為祂所產生。可是上面第四十四題第一及第二節己說明，萬物中，不可能有什麼，不是由天主而存在，因為天主是宇宙萬物的普通原因。因此，必然要說:天主由無中產生萬物，而使它們存在。",
+      "after": "我解答如下：天主之有所創造，不僅並非不可能；而且還應該承認，萬物皆必然為天主所創造，正如上文所指明的。因為，不論任何人由任何物而造成任何物，其製造行為所用之物，應該在他的行為之先就存在，並不是該行為本身所產生的。例如，工匠由自然物來工作，如同由木材與銅，這些自然物並不是由工藝的行為所產生的，而是產生於自然的行動。可是自然本身之產生自然物，也僅是限於形式，並以已先有物質或質料為前提。所以，如果天主只不過由先已存在之物而創造，那麼這先已存在之物勢必不是為祂所產生。可是上面第四十四題第一及第二節己說明，萬物中，不可能有什麼，不是由天主而存在，因為天主是宇宙萬物的普通原因。因此，必然要說：天主由無中產生萬物，而使它們存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        882
+      ],
+      "before": "正如第四十四題第二節所說的，古代的哲學家，只不過討論特殊效果之源出於特殊原因而己，特殊原因必然假定有先於自己行為的物存在，因此而形成他們的共同意見，即「由無中而生無」。可是這種說法，卻不適於萬物來自普遍原理或源頭的原始源出。",
+      "after": "正如第四十四題第二節所說的，古代的哲學家，只不過討論特殊效果之源出於特殊原因而己，特殊原因必然假定有先於自己行為的物存在，因此而形成他們的共同意見，即「由無中而生無」。可是這種說法，卻不適於萬物來自普遍原理或源頭的原始源出。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        882,
+        883
+      ],
+      "before": "創造並不是變化或變動，除非是按照(人的)理解方式。(按:即創造本身不同於變化，只是按照人的理解方式，把它說成好像是變化。)因為變化或變動的本質，是同一物現在的情形與原先的情形不同。因為有時是同一已存在之物，其現在的情形與原先的情形不間，如同在暈、質及位置方面的變化(按:例如一個人，與先前比較，現在變胖了、變黑了，也變換了所在的位置)。可是，有時只是同一可能存在(在潛能中)之物，如同在本體方面的變化，這種變化的主體是質料(按:例如一張木桌在製成之前，原不存在，只是有可能存在，從原沒有木桌到現有木桌這一變化的主體，是質料或木料，而非木桌)。可是，產生物之整個本體的創造(按:包括物之本體所可能有的質料在內)，卻無所謂同一物的前後情形不同，除非是按照(人的)理解方式或說法，就如設想某一物原先完全不存在，而以後存在了。可是‘由於主動與被動，在變化或變動的本體方面，所指相間，所不同者只是彼此的關係，正如《物理學》卷三第三章所說的;所以，在變化或變動消失之後，所存留的，只應該是在創造者和受造者內的不同關係。\n可是，由於表達的方式，依循理解的方式，如同己講過的第十三題第一節，於是用變化或變動的方式來表達創造，因而說創造是從無中製造某物。雖然如此. 「製造」和「被製成或成為」·要比「使變化」和「接受變化」·更為適宜，因為「製造」和「被製成或成為」·本身含有原因對效果和效果對原因的關係，而變化只是其引伸的後果而已。",
+      "after": "創造並不是變化或變動，除非是按照(人的)理解方式。(按：即創造本身不同於變化，只是按照人的理解方式，把它說成好像是變化。)因為變化或變動的本質，是同一物現在的情形與原先的情形不同。因為有時是同一已存在之物，其現在的情形與原先的情形不同，如同在量、質及位置方面的變化(按：例如一個人，與先前比較，現在變胖了、變黑了，也變換了所在的位置)。可是，有時只是同一可能存在(在潛能中)之物，如同在本體方面的變化，這種變化的主體是質料(按：例如一張木桌在製成之前，原不存在，只是有可能存在，從原沒有木桌到現有木桌這一變化的主體，是質料或木料，而非木桌)。可是，產生物之整個本體的創造(按：包括物之本體所可能有的質料在內)，卻無所謂同一物的前後情形不同，除非是按照(人的)理解方式或說法，就如設想某一物原先完全不存在，而以後存在了。可是，由於主動與被動，在變化或變動的本體方面，所指相同，所不同者只是彼此的關係，正如《物理學》卷三第三章所說的；所以，在變化或變動消失之後，所存留的，只應該是在創造者和受造者內的不同關係。\n可是，由於表達的方式，依循理解的方式，如同己講過的第十三題第一節，於是用變化或變動的方式來表達創造，因而說創造是從無中製造某物。雖然如此，「製造」和「被製成或成為」，要比「使變化」和「接受變化」，更為適宜，因為「製造」和「被製成或成為」，本身含有原因對效果和效果對原因的關係，而變化只是其引伸的後果而已。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "情形不間",
+          "after": "情形不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "在暈、質",
+          "after": "在量、質",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可是‘由於",
+          "after": "可是，由於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所指相間",
+          "after": "所指相同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "雖然如此. ",
+          "after": "雖然如此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」·",
+          "after": "」，",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "那些沒有變化而被形成之物，同時又是在被形成之中‘又是已被形成:無論這種形成是變化或變動的終點，例如:光照(因為一物同時是在被光照中和已被光照);或不是變化或變動的終點，例如:心中的言語，同時是在被形成中和已被形成。在這些物中，那已被形成者，已經存在;幾時說它尚在形成中，是為表示它乃由它物而存在，以及先前並不存在。因此，創造既是沒有變化的，所以，一物同時是在受造之中和已被造成。",
+      "after": "那些沒有變化而被形成之物，同時又是在被形成之中，又是已被形成：無論這種形成是變化或變動的終點，例如：光照(因為一物同時是在被光照中和已被光照)；或不是變化或變動的終點，例如：心中的言語，同時是在被形成中和已被形成。在這些物中，那已被形成者，已經存在；幾時說它尚在形成中，是為表示它乃由它物而存在，以及先前並不存在。因此，創造既是沒有變化的，所以，一物同時是在受造之中和已被造成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之中‘",
+          "after": "之中，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "這一質疑出自虛偽的幻想，如同在無與有之間，有某種無限的中間物一樣:這顯然是偽的。可是這種虛偽的幻想，是由於誤以為創造意指兩句的(起點和終點)之間所存在的某種變化。",
+      "after": "這一質疑出自虛偽的幻想，如同在無與有之間，有某種無限的中間物一樣：這顯然是偽的。可是這種虛偽的幻想，是由於誤以為創造意指兩「點」(起點和終點)之間所存在的某種變化。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兩句的(起點和終點)",
+          "after": "兩「點」(起點和終點)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "創造是否是受造物中之物",
+      "after": "創造是否是受造物中之物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "創造似乎不是受造物中之物。因為:",
+      "after": "創造似乎不是受造物中之物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        883
+      ],
+      "before": "正如被動意義的創造屬於受造物，同樣地，主動意義的創造也屬於造物主。可是主動意義的創造卻不是造物主中之物;因為如果是的話，造物主勢必有某種暫時物。所以，被動意義的創造也不是受造物中之物。",
+      "after": "正如被動意義的創造屬於受造物，同樣地，主動意義的創造也屬於造物主。可是主動意義的創造卻不是造物主中之物；因為如果是的話，造物主勢必有某種暫時物。所以，被動意義的創造也不是受造物中之物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        883,
+        884
+      ],
+      "before": "此外，在造物主與受造物之間，毫無中間物可言。可是，創造卻意指二者的中間物:因為中間物並不是造物主，因為它不是永恆的;也不是受造物，因為它如果是的話，按理就應該有另一種創造而使它得以受造，如此則將永無止境。所以，創造並不是(受造物中之)物。",
+      "after": "此外，在造物主與受造物之間，毫無中間物可言。可是，創造卻意指二者的中間物：因為中間物並不是造物主，因為它不是永恆的；也不是受造物，因為它如果是的話，按理就應該有另一種創造而使它得以受造，如此則將永無止境。所以，創造並不是(受造物中之)物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        884
+      ],
+      "before": "此外，如果創造是與受造的本體不同之物，那麼就應該是它的依附體。可是一切依附體都是在主體內。所以，受造之物是創造的主體。如此則創造的主體與終點是相同的。可是這是不可能的。因為主體先於依附體，也保存依附體;可是終點卻後於終點所從出的主動與被動，終點一旦存在，主動與被動就停止存在。所以，創造本身並不是任何物。",
+      "after": "此外，如果創造是與受造的本體不同之物，那麼就應該是它的依附體。可是一切依附體都是在主體內。所以，受造之物是創造的主體。如此則創造的主體與終點是相同的。可是這是不可能的。因為主體先於依附體，也保存依附體；可是終點卻後於終點所從出的主動與被動，終點一旦存在，主動與被動就停止存在。所以，創造本身並不是任何物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        884
+      ],
+      "before": "一物按照整個本體而形成，大於只按照本體形式或依附體形式而形成。可是，使一物按照本體形式或依附體形式而形成的絕對的或相對的生殖，是屬於受生者之物。所以，那使一物按照整個本體而形成的創造，更應該是屬於受造者之物。",
+      "after": "一物按照整個本體而形成，大於只按照本體形式或依附體形式而形成。可是，使一物按照本體形式或依附體形式而形成的絕對的或相對的生殖，是屬於受生者之物。所以，那使一物按照整個本體而形成的創造，更應該是屬於受造者之物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        884
+      ],
+      "before": "我解答如下:創造只就關係方面，置某物於受造者之內。因為那受造的，並不是藉變動或變化而形成。因為凡藉變動或變化而形成的，都是由先已存在之物而形成，一些物的特殊或個別的產生，纔有這情況;可是那出自普遍原因，即那出白天主的全部存在(之物)的產生，卻不可能有這種↑青況。因此，天主之藉創造而產生萬物，其間沒有變動或變化。可是從主動與被動中除去了變動或變化，就只不過仍然存有關係而己，正如第二節釋疑2.所說的。因此，在受造物內的創造，勢必只不過是與造物主的某種關係，有如與自己存在之原理或根源的關係;如同在帶有變動或變化的被動內會含有與變動或變化之原理或根源的關係一樣。",
+      "after": "我解答如下：創造只就關係方面，置某物於受造者之內。因為那受造的，並不是藉變動或變化而形成。因為凡藉變動或變化而形成的，都是由先已存在之物而形成，一些物的特殊或個別的產生，纔有這情況；可是那出自普遍原因，即那出自天主的全部存在(之物)的產生，卻不可能有這種情況。因此，天主之藉創造而產生萬物，其間沒有變動或變化。可是從主動與被動中除去了變動或變化，就只不過仍然存有關係而己，正如第三節釋疑2.所說的。因此，在受造物內的創造，勢必只不過是與造物主的某種關係，有如與自己存在之原理或根源的關係；如同在帶有變動或變化的被動內會含有與變動或變化之原理或根源的關係一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白天主",
+          "after": "出自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "↑青況",
+          "after": "情況",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二節釋疑2.",
+          "after": "第三節釋疑2.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        884,
+        885
+      ],
+      "before": "主動意義的創造意指天主的行動，即是祂的本體與受造物的關係。可是在天主內，其與受造物的關係，卻不是實際的，而只是思維方面的;可是受造物與天主的關係卻是實際的關係，正如第十三題第七節討論天主監名時所說的。",
+      "after": "主動意義的創造意指天主的行動，即是祂的本體與受造物的關係。可是在天主內，其與受造物的關係，卻不是實際的，而只是思維方面的；可是受造物與天主的關係卻是實際的關係，正如第十三題第七節討論天主聖名時所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主監名",
+          "after": "天主聖名",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "因為創造意指變化，正如上文第二節釋疑2.所說的;可是變化卻似乎是主動者與被動者之間的中間物;因此，創造也意指造物主與受造物之間的中間物。可是被動意義的創造卻存在受造物內，也是受造物。可是這受造物卻不需要因其它創造而受造;因為關係，就其為關係而言，是針對某物的，而其與該物相關，不是藉由其它某些關係，而是藉由它們自己，正如第四十二題第一節釋疑4.討論天主三位的平等時所說的。",
+      "after": "因為創造意指變化，正如上文第二節釋疑2.所說的；可是變化卻似乎是主動者與被動者之間的中間物；因此，創造也意指造物主與受造物之間的中間物。可是被動意義的創造卻存在受造物內，也是受造物。可是這受造物卻不需要因其它創造而受造；因為關係，就其為關係而言，是針對某物的，而其與該物相關，不是藉由其它某些關係，而是藉由它們自己，正如第四十二題第一節釋疑4.討論天主三位的平等時所說的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "創造就其有如變化而言，受造物是終點;可是創造就其真正是關係而言，受造物是創造的主體，並在存在方面先於關係，如同主體先於依附體一樣。可是從其對象或所針對之物來看，即從受造物的原理或根源來看，關係卻也其有某種優先。不過也不需要說，受造物幾時存在，就是在受造之中，因為創造原含有受造物對造物主的萬古常新的關係。",
+      "after": "創造就其有如變化而言，受造物是終點；可是創造就其真正是關係而言，受造物是創造的主體，並在存在方面先於關係，如同主體先於依附體一樣。可是從其對象或所針對之物來看，即從受造物的原理或根源來看，關係卻也具有某種優先。不過也不需要說，受造物幾時存在，就是在受造之中，因為創造原含有受造物對造物主的萬古常新的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卻也其有",
+          "after": "卻也具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "受造是否專屬於組合物與自立存在物",
+      "after": "受造是否專屬於組合物與自立存在物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "受造似乎不專屬於組合物(compositum)與自立存在物(subsistens)。因為:",
+      "after": "受造似乎不專屬於組合物(compositum)與自立存在物(subsistens)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "《論原因》(De Causis)第四章說: 「受造之物的首要者就是存在。」可是受造之物的存在卻不是自立的。所以，創造原本並不專屬於自立存在物和組合物。",
+      "after": "《論原因》(De Causis)第四章說：「受造之物的首要者就是存在。」可是受造之物的存在卻不是自立的。所以，創造原本並不專屬於自立存在物和組合物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        885
+      ],
+      "before": "此外，凡是受造的，都是由無中而存在。可是組合物的存在，卻不是由無中，而是由其組合部分。所以，受造並不過於組合物。",
+      "after": "此外，凡是受造的，都是由無中而存在。可是組合物的存在，卻不是由無中，而是由其組合部分。所以，受造並不適於組合物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並不過於",
+          "after": "並不適於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        885,
+        886
+      ],
+      "before": "此外，那為第二次源出之前提之物，才真正是藉第一次源出所產生之物:如同藉自然生殖或產生而有的自然物，是工藝創作的前提一樣。可是那為自然生殖或產生之前提的，卻是質料。所以，那真正受造的，是質料，並不是組合物。",
+      "after": "此外，那為第二次源出之前提之物，才真正是藉第一次源出所產生之物：如同藉自然生殖或產生而有的自然物，是工藝創作的前提一樣。可是那為自然生殖或產生之前提的，卻是質料。所以，那真正受造的，是質料，並不是組合物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        886
+      ],
+      "before": "《創世紀》第一章l節說: 「在起初天主創造了天地。」可是天地卻是自立存在的組合物。所以，創造專屬於這些物。",
+      "after": "《創世紀》第一章1節說：「在起初天主創造了天地。」可是天地卻是自立存在的組合物。所以，創造專屬於這些物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章l節",
+          "after": "第一章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        886
+      ],
+      "before": "我解答如下:受造是一種成為或形成，正如上面第二節",
+      "after": "我解答如下：受造是一種成為或形成，正如上面第二節釋疑2.所說的。可是成為或形成指向物的存在。因此，那些適宜於存在的，也真正適宜於成為及受造。而這真正適宜於那些自立存在者或自立體：它們或是單純的自立體，例如分離的(沒有質料或物質的)實體(substantia Separata)；或是組合的自立體，例如：物質實體(substantia materialis)。因為那已有存在者，也真正適宜於存在，而這是那自立於自己的存在者。可是形式、依附體和其它類似之物，它們稱為物，不是好像它們自己是自立之物，而是因為物藉著它們而存在或成為某物；例如：白色之稱為物，是因為主體藉著白色而成為白的。因此，按照哲學家的話，原本應該稱依附體為「屬於物者」(entis)，而不應該稱之為「物」(ens；《形上學》卷七第一章)。所以，正如那些非自立存在的依附體、形式和其它類似之物，都比較更為共同存在之物(coexistens)，而非物；同樣地，它們也更應該稱為共同受造之物(concreatum)，而非受造之物。可是真正的受造之物，卻是自立存在之物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:受造是一種成為或形成，正如上面第二節",
+          "after": "我解答如下:受造是一種成為或形成，正如上面第二節釋疑2.所說的。可是成為或形成指向物的存在。因此，那些適宜於存在的，也真正適宜於成為及受造。而這真正適宜於那些自立存在者或自立體:它們或是單純的自立體，例如分離的(沒有質料或物質的)實體(substantia Separata);或是組合的自立體，例如:物質實體(substantia materialis)。因為那已有存在者，也真正適宜於存在，而這是那自立於自己的存在者。可是形式、依附體和其它類似之物，它們稱為物，不是好像它們自己是自立之物，而是因為物藉著它們而存在或成為某物;例如:白色之稱為物，是因為主體藉著白色而成為白的。因此，按照哲學家的話，原本應該稱依附體為「屬於物者」(entis)，而不應該稱之為「物」(ens；《形上學》卷七第一章)。所以，正如那些非自立存在的依附體、形式和其它類似之物，都比較更為共同存在之物(coexistens)，而非物;同樣地，它們也更應該稱為共同受造之物(concreatum)，而非受造之物。可是真正的受造之物，卻是自立存在之物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        886,
+        887
+      ],
+      "before": "",
+      "after": "說「受造之物的首要者就是存在」，這「存在」一詞，並不意指受造的主體，而意指所創造之物的真正重點。因為說某物受造，是因為它是「物」，而不是因為它是「這」物；因為創造是整個存在源出於普通物，正如上面第一節所說的。相同的說法是：例如說「首要的可見之物就是顏色」，雖然真正看見的是有顏色之物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "說「受造之物的首要者就是存在」，這「存在」一詞，並不意指受造的主體，而意指所創造之物的真正重點。因為說某物受造，是因為它是「物」，而不是因為它是「這」物;因為創造是整個存在源出於普通物，正如上面第一節所說的。相同的說法是:例如說「首要的可見之物就是顏色」，雖然真正看見的是有顏色之物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "所說的。可是成為或形成指向物的存在。因此，那些適宜於存在的，也真正適宜於成為及受造。而這真正適宜於那些自立存在者或自立體:它們或是單純的自立體，例如分離的(沒有質料或物質的)實體(substantia Separata);或是組合的自立體，例如:物質實體(substantia materialis)。因為那已有存在者，也真正適宜於存在，而這是那自立於自己的存在者。可是形式、依附體和其它額似之物，它們稱為物，不是好像它們自己是自立之物，而是因為物藉著它們而存在或成為某物;例如:白色之稱為物，是因為主體藉著白色而成為白的。因此，按照哲學家的話，原本應該稱依附體為「屬於物者」(entis)，而不應該稱之為「物」(ens;(《形上學》卷七第一章)。所以，正如那些非自立存在的依附體、形式和其它類似之物，都比較更為共同存在之物(coexistens)，而非物;同樣地，它們也更應該稱為共同受造之物(concreatum)，而非受造之物。可是真正的受造之物，卻是自立存在之物。釋疑1.說「受造之物的首要者就是存在」'這「存在」一詞，並不意指受造的主體，而意指所創造之物的真正重點。因為說某物受造，是因為它是「物」'而不是因為它是「這」物;因為創造是整個存在源出於普通物，正如上面第一節所說的。相同的說法是:例如說「首要的可見之物就是顏色」'雖然真正看見的是有顏色之物。\n2.創造並不意指組合物之由先存在的原素而產生的組合;說組合物受造，是說它同自己的一切原素或構成部分一起進入存在。",
+      "after": "創造並不意指組合物之由先存在的原素而產生的組合；說組合物受造，是說它同自己的一切原素或構成部分一起進入存在。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所說的。可是成為或形成指向物的存在。因此，那些適宜於存在的，也真正適宜於成為及受造。而這真正適宜於那些自立存在者或自立體:它們或是單純的自立體，例如分離的(沒有質料或物質的)實體(substantia Separata);或是組合的自立體，例如:物質實體(substantia materialis)。因為那已有存在者，也真正適宜於存在，而這是那自立於自己的存在者。可是形式、依附體和其它額似之物，它們稱為物，不是好像它們自己是自立之物，而是因為物藉著它們而存在或成為某物;例如:白色之稱為物，是因為主體藉著白色而成為白的。因此，按照哲學家的話，原本應該稱依附體為「屬於物者」(entis)，而不應該稱之為「物」(ens;(《形上學》卷七第一章)。所以，正如那些非自立存在的依附體、形式和其它類似之物，都比較更為共同存在之物(coexistens)，而非物;同樣地，它們也更應該稱為共同受造之物(concreatum)，而非受造之物。可是真正的受造之物，卻是自立存在之物。釋疑1.說「受造之物的首要者就是存在」'這「存在」一詞，並不意指受造的主體，而意指所創造之物的真正重點。因為說某物受造，是因為它是「物」'而不是因為它是「這」物;因為創造是整個存在源出於普通物，正如上面第一節所說的。相同的說法是:例如說「首要的可見之物就是顏色」'雖然真正看見的是有顏色之物。\n2.創造並不意指組合物之由先存在的原素而產生的組合;說組合物受造，是說它同自己的一切原素或構成部分一起進入存在。",
+          "after": "創造並不意指組合物之由先存在的原素而產生的組合;說組合物受造，是說它同自己的一切原素或構成部分一起進入存在。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "這一質疑，並沒有證明唯有質料纔是受造的;而只不過證明質料係由創造而存在而已。因為創造是整個存在的產生，不僅是質料的產生。",
+      "after": "這一質疑，並沒有證明唯有質料纔是受造的；而只不過證明質料係由創造而存在而已。因為創造是整個存在的產生，不僅是質料的產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "創造是否專屬於天主",
+      "after": "創造是否專屬於天主",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "創造似乎不是專屬於天主。因為:",
+      "after": "創造似乎不是專屬於天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "按照哲學家在《氣象論》卷四第三章的說法，完善之物，能夠製造相似自己之物。可是非物質的受造物，比物質受造物更完善，而後者實際製造相似自己之物，因為火生火，人生人。所以，非物質的實體，可以製造相似自己的實體。可是非物質的實體，卻只能藉著創造而形成，因為並沒有供它形成的質料。所以，有的受造物可以創造。",
+      "after": "按照哲學家在《氣象論》卷四第三章的說法，完善之物，能夠製造相似自己之物。可是非物質的受造物，比物質受造物更完善，而後者實際製造相似自己之物，因為火生火，人生人。所以，非物質的實體，可以製造相似自己的實體。可是非物質的實體，卻只能藉著創造而形成，因為並沒有供它形成的質料。所以，有的受造物可以創造。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "此外，從製成之物方面，反抗越大，製造者所需要的能力也越大。可是相反的(存在之)物，比無物或無的反抗力大。所以，由相反的(存在之)物製成一物，而這是受造物實際所作的，比自無中而製成一物，需要更大的能力。所以，受造物更能做到此一點(由無中製造或創造)。",
+      "after": "此外，從製成之物方面，反抗越大，製造者所需要的能力也越大。可是相反的(存在之)物，比無物或無的反抗力大。所以，由相反的(存在之)物製成一物，而這是受造物實際所作的，比自無中而製成一物，需要更大的能力。所以，受造物更能做到此一點(由無中製造或創造)。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        887
+      ],
+      "before": "此外，製造者的能力，可藉著其所形成之物的大小程度來衡量。可是受造之物卻是有限的，正如第七題第二等節討論天主的無限性時所證明的。所以，藉創造而產生一受造物，只不過需要有限的能力而已。可是具備有限的能力，卻不相反受造物的本性。所以，受造物創造，這並非不可能。",
+      "after": "此外，製造者的能力，可藉著其所形成之物的大小程度來衡量。可是受造之物卻是有限的，正如第七題第二等節討論天主的無限性時所證明的。所以，藉創造而產生一受造物，只不過需要有限的能力而已。可是具備有限的能力，卻不相反受造物的本性。所以，受造物創造，這並非不可能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        888
+      ],
+      "before": "奧斯定在《論天主聖三》卷三第八章說，不論是善天使，或是惡天使，都不可能是一物的創造者。所以，其它的受造物就更不可能了。",
+      "after": "奧斯定在《論天主聖三》卷三第八章說，不論是善天使，或是惡天使，都不可能是一物的創造者。所以，其它的受造物就更不可能了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        888,
+        889
+      ],
+      "before": "我解答如下:按照上面第一節、第四十四題第一及第二節所說的，一看便知創造只能是唯一天主所專有的行動。因為較普遍的效果，應該歸於較普遍的和較先的原因。可是在一切的效果中，存在本身是最普遍的。因此，存在本身應該是第一和最普遍原因的專有效果，而這原因就是天主。因此，《論原因》第三章也說，不是睿智，也不是尊貴的靈魂，賜給存在，除非是藉由天主的工作而工作。可是，是絕對地(普遍而無任何先存之物地)產生存在，而非產生這人或這樣的的存在，屬於創造的本質。因此，顯然地，創造是天主自己的專有行動。\n可是，會有這樣的情形發生，即一物不是因自己的能力，而是以另一物的能力行動，有如它的工具，參與另一物所專有的行動;例如:空氣藉著火的能力，會生熟和引發火。準此，有些人以為，雖然創造是普遍原因的專有行動，可是一些較低的原因，以其藉由第一原因的能力行動來說，也能創造。因此，亞維採那(Avicenna)主張:為天主所創造的第一分離實體，創造了在自己以後的另一分離實體，以及地球的實體和其靈魂;地球的實體創造了低級物體的物質(《形上學》，第九篇第四章)。按照這種方式，大師在其《語錄》卷五第四題裡也說，天主可以通傳給受造物創造的能力，使受造物藉由服務的執行方式，而非藉著自己的權力，進行創造。\n可是這卻是不可能的。因為工其性的第二原因，除非藉著自己所固有的，配合著工作，以影響主要主動者的效果，就不可能參與高級原因的行動。所以，如果工具憑藉自己所固有的，沒有任何行動或影響，那麼勢必徒勞無益，而且也不需要為特定的行動有特定的工具。因為我們看到鋸子藉鋸木材，而這是由於鋸子之形式的特質，產生凳子的形式，但這凳子的形式，卻是主要主動者的固有效果。可是那為創造者天主的固有效果的，是那先於其它一切而存在的，即是絕對的或單純的存在。所以針對此一效果，沒有什麼能配合著，以及以工具的方式，有所影響，因為創造不是用什麼先己存在之物，致使這物能藉著工具性主動者的行動，予以配合。\n所以，創造不可能適於某一受造物;無論是按照它自己的能力，或是按照其工具或服務的性質，都不可能。\n尤其是不宜說某物體創造，因為除非藉著觸動或推動，無一物體可以行動。如此，則在自己的行動中，需要有被觸動或被推動之物先已存在，而這相反創造的本質。",
+      "after": "我解答如下：按照上面第一節、第四十四題第一及第二節所說的，一看便知創造只能是唯一天主所專有的行動。因為較普遍的效果，應該歸於較普遍的和較先的原因。可是在一切的效果中，存在本身是最普遍的。因此，存在本身應該是第一和最普遍原因的專有效果，而這原因就是天主。因此，《論原因》第三章也說，不是睿智，也不是尊貴的靈魂，賜給存在，除非是藉由天主的工作而工作。可是，是絕對地(普遍而無任何先存之物地)產生存在，而非產生這人或這樣的的存在，屬於創造的本質。因此，顯然地，創造是天主自己的專有行動。\n可是，會有這樣的情形發生，即一物不是因自己的能力，而是以另一物的能力行動，有如它的工具，參與另一物所專有的行動；例如：空氣藉著火的能力，會生熱和引發火。準此，有些人以為，雖然創造是普遍原因的專有行動，可是一些較低的原因，以其藉由第一原因的能力行動來說，也能創造。因此，亞維採那(Avicenna)主張：為天主所創造的第一分離實體，創造了在自己以後的另一分離實體，以及地球的實體和其靈魂；地球的實體創造了低級物體的物質(《形上學》，第九篇第四章)。按照這種方式，大師在其《語錄》卷五第四題裡也說，天主可以通傳給受造物創造的能力，使受造物藉由服務的執行方式，而非藉著自己的權力，進行創造。\n可是這卻是不可能的。因為工具性的第二原因，除非藉著自己所固有的，配合著工作，以影響主要主動者的效果，就不可能參與高級原因的行動。所以，如果工具憑藉自己所固有的，沒有任何行動或影響，那麼勢必徒勞無益，而且也不需要為特定的行動有特定的工具。因為我們看到鋸子藉鋸木材，而這是由於鋸子之形式的特質，產生凳子的形式，但這凳子的形式，卻是主要主動者的固有效果。可是那為創造者天主的固有效果的，是那先於其它一切而存在的，即是絕對的或單純的存在。所以針對此一效果，沒有什麼能配合著，以及以工具的方式，有所影響，因為創造不是用什麼先己存在之物，致使這物能藉著工具性主動者的行動，予以配合。\n所以，創造不可能適於某一受造物；無論是按照它自己的能力，或是按照其工具或服務的性質，都不可能。\n尤其是不宜說某物體創造，因為除非藉著觸動或推動，無一物體可以行動。如此，則在自己的行動中，需要有被觸動或被推動之物先已存在，而這相反創造的本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這樣的的存在",
+          "after": "這樣的的存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "會生熟",
+          "after": "會生熱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "工其性",
+          "after": "工具性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        889,
+        890
+      ],
+      "before": "凡是分享某本性或天性的完善之物，其製造相似自己之物，並不是藉絕對地產生該相關本性，而是藉將這種本性貼附於某一物。因為這個人不可能絕對地是人性的原因，因為這樣，人就是自己的原因;他只是人性存在於這個受生的人身上的原因。因此，他在自己的行動中，先已肯定己有固定的質料存在，藉這質料，這個人成為這個人。可是正如這個人分享人性，同樣地，我也可以說，每一個(存在的)受造物，也都分享存在的本性;因為惟有天主是自己的存在，正如第七題第一節釋疑3.及第二節所說的。所以，無一受造之物，能絕對地產生某一物，除非是在這一(個體上)產生存在;如此，則在那產生相似之物的行動之前，應該認知到先有構成「這一」物的物。可是非物質的實體，卻不需要先假定有使它成為「這一」實體之物;因為它之為「這一」實體，是藉著自己的賴以存在的形式，因為非物質的實體是自立存在的形式。所以，非物質的實體，不可能在存在方面1，產生另一個與自己相似的非物質實體，只能給予(已存在者)某種附加的完善;例如我們說高級天使光照低級天使，正為狄奧尼修所說的。按照此一說法，天朝也有父子或家族關係(paternitas)，正如宗徒在《厄弗所書》第三章的節所指明的:「上天下地的一切家族都是由祂而得名。」由此可見，除非應該先有某物，無一受造之物可能產生某物。而這(先有某物)相反創造的本質。",
+      "after": "凡是分享某本性或天性的完善之物，其製造相似自己之物，並不是藉絕對地產生該相關本性，而是藉將這種本性貼附於某一物。因為這個人不可能絕對地是人性的原因，因為這樣，人就是自己的原因；他只是人性存在於這個受生的人身上的原因。因此，他在自己的行動中，先已肯定己有固定的質料存在，藉這質料，這個人成為這個人。可是正如這個人分享人性，同樣地，我也可以說，每一個(存在的)受造物，也都分享存在的本性；因為惟有天主是自己的存在，正如第七題第一節釋疑3.及第二節所說的。所以，無一受造之物，能絕對地產生某一物，除非是在這一(個體上)產生存在；如此，則在那產生相似之物的行動之前，應該認知到先有構成「這一」物的物。可是非物質的實體，卻不需要先假定有使它成為「這一」實體之物；因為它之為「這一」實體，是藉著自己的賴以存在的形式，因為非物質的實體是自立存在的形式。所以，非物質的實體，不可能在存在方面，產生另一個與自己相似的非物質實體，只能給予(已存在者)某種附加的完善；例如我們說高級天使光照低級天使，正為狄奧尼修所說的。按照此一說法，天朝也有父子或家族關係(paternitas)，正如宗徒在《厄弗所書》第三章15節所指明的：「上天下地的一切家族都是由祂而得名。」由此可見，除非應該先有某物，無一受造之物可能產生某物。而這(先有某物)相反創造的本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "存在方面1，",
+          "after": "存在方面，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三章的節",
+          "after": "第三章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        890
+      ],
+      "before": "從相反之物而形成或成為一物，這只是偶然的或間接的，如同《物理學》卷一第七章所說的;本然的或直接的方式，是從處於潛能中的主體成為某物。相反之物之反抗主動者，是由於阻礙潛能成為現實，而主動者正是要潛能成為現實，例如:火企圖使水的質料成為相似自己的現實(熱水)，而受阻於相反的形式和性質(按:例如水的冰冷低溫)，潛能就像是受到了它們的束縛，使自己不能順利成為現實。此一潛能受的束縛越大，貝IJ主動者就需要有更大的能力，以使質料成為現實。為此，如果沒有任何潛能預先存在，貝IJ主動者就需要有更大的能力。所以，由此可見，從無中製造(按:即創造)一物，比從相反的物製造一物，需要更大的能力。(按:例如用火把冰冷的水燒成熱水，比把平常的水燒成熱水，需要更大的火力;但從無中創造熱水，貝!J需要更大的能力。)",
+      "after": "從相反之物而形成或成為一物，這只是偶然的或間接的，如同《物理學》卷一第七章所說的；本然的或直接的方式，是從處於潛能中的主體成為某物。相反之物之反抗主動者，是由於阻礙潛能成為現實，而主動者正是要潛能成為現實，例如：火企圖使水的質料成為相似自己的現實(熱水)，而受阻於相反的形式和性質(按：例如水的冰冷低溫)，潛能就像是受到了它們的束縛，使自己不能順利成為現實。此一潛能受的束縛越大，則主動者就需要有更大的能力，以使質料成為現實。為此，如果沒有任何潛能預先存在，則主動者就需要有更大的能力。所以，由此可見，從無中製造(按：即創造)一物，比從相反的物製造一物，需要更大的能力。(按：例如用火把冰冷的水燒成熱水，比把平常的水燒成熱水，需要更大的火力；但從無中創造熱水，則需要更大的能力。)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝!J",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        890,
+        891
+      ],
+      "before": "製造者的能力，不僅由製造而成之物的本體，而且也由製造而成的方式來衡量;因為更大的熱能，其熱化作用，不僅更大，而且也更迅速。所以，雖然創造有限的效果，並沒有證明有無限的能力，可是「由無中創造」有限的效果，卻證明有無限的能力。這由上文釋疑2.所說的，可不言而喻。因為如果潛能離現實越遠，所需要的主動者的能力也越大，那麼，那完全沒有先存潛能或質料的主動者或製造者一一而創造者就是這樣的主動者，其能力應該是無限的。因為完全沒有潛能或質料，與自然主動者的能力常假定先有的某種潛能或質料之間，沒有任何比例，就如「無物」與I物」之間，沒有任何比例一樣。因為無一受造物有絕對的無限能力，如同無一受造物有絕對的無限存在一樣，正如上面第七題第二節所證明的，所以，無一受造物能創造。",
+      "after": "製造者的能力，不僅由製造而成之物的本體，而且也由製造而成的方式來衡量；因為更大的熱能，其熱化作用，不僅更大，而且也更迅速。所以，雖然創造有限的效果，並沒有證明有無限的能力，可是「由無中創造」有限的效果，卻證明有無限的能力。這由上文釋疑2.所說的，可不言而喻。因為如果潛能離現實越遠，所需要的主動者的能力也越大，那麼，那完全沒有先存潛能或質料的主動者或製造者——而創造者就是這樣的主動者，其能力應該是無限的。因為完全沒有潛能或質料，與自然主動者的能力常假定先有的某種潛能或質料之間，沒有任何比例，就如「無物」與「物」之間，沒有任何比例一樣。因為無一受造物有絕對的無限能力，如同無一受造物有絕對的無限存在一樣，正如上面第七題第二節所證明的，所以，無一受造物能創造。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "與I物」",
+          "after": "與「物」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "創造是否專屬於天主的一位",
+      "after": "創造是否專屬於天主的一位",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "創造似乎專屬於天主的一位或某一位格。因為;",
+      "after": "創造似乎專屬於天主的一位或某一位格。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "凡先有之物都是沒有之物的原因，完善之物是不完善之物的原因。可是，天主位格之出發或源出，卻先於受造物的出發或源出;而且也更完善，因為天主的位格之出發或源出，是依自己原理或源頭的完善肖像，可是受造物卻是依不完善的肖像。所以，天主位格之出發或源出，是萬物出發或源出的原因。因此，創造專屬於天主的一位或某一位格。",
+      "after": "凡先有之物都是沒有之物的原因，完善之物是不完善之物的原因。可是，天主位格之出發或源出，卻先於受造物的出發或源出；而且也更完善，因為天主的位格之出發或源出，是依自己原理或源頭的完善肖像，可是受造物卻是依不完善的肖像。所以，天主位格之出發或源出，是萬物出發或源出的原因。因此，創造專屬於天主的一位或某一位格。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        891
+      ],
+      "before": "此外，除了藉天主位格間的出發(processio)與關係以外，天主三位彼此並沒有區別。所以，凡以不同的方式，歸屬於天主三位的，是按照天主位格的出發與關係，而歸屬於祂們。可是受造物的因果關係(causalitas)，卻是以不同的方式，歸屬於天主三位:因為在(尼西亞)信經裡，將「祂是一切可見與不可見之物的造物主」歸於聖父;將「萬物是藉著祂而造成的」歸於聖子，卻將「祂是主及賦予生命者」歸於聖神。所以，受造物的因果關係之歸屬於天主位格，是按照其出發與關係。",
+      "after": "此外，除了藉天主位格間的出發(processio)與關係以外，天主三位彼此並沒有區別。所以，凡以不同的方式，歸屬於天主三位的，是按照天主位格的出發與關係，而歸屬於祂們。可是受造物的因果關係(causalitas)，卻是以不同的方式，歸屬於天主三位：因為在(尼西亞)信經裡，將「祂是一切可見與不可見之物的造物主」歸於聖父；將「萬物是藉著祂而造成的」歸於聖子，卻將「祂是主及賦予生命者」歸於聖神。所以，受造物的因果關係之歸屬於天主位格，是按照其出發與關係。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        891,
+        892
+      ],
+      "before": "此外，如果說受造物的因果關係，是按照某一歸於天主某一位之本體屬性或特徵(attributum essentiale)來衡量，這似乎還不足。因為天主的每一效果，都是由每一本體屬性所產生，即德能、美善和智慧;如此，則不是歸這屬於一屬性，勝於或多於另一屬性。所以，某一固定方式的因果關係，也不應該歸屬於(天主三位中的)一位，勝於另一位，除非是按照三位之間的關係與出發，針對創造來加以區別。",
+      "after": "此外，如果說受造物的因果關係，是按照某一歸於天主某一位之本體屬性或特徵(attributum essentiale)來衡量，這似乎還不足。因為天主的每一效果，都是由每一本體屬性所產生，即德能、美善和智慧；如此，則不是歸這屬於一屬性，勝於或多於另一屬性。所以，某一固定方式的因果關係，也不應該歸屬於(天主三位中的)一位，勝於另一位，除非是按照三位之間的關係與出發，針對創造來加以區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        892
+      ],
+      "before": "狄奧尼修在《神名論》第二章說，一切有因果關係之物(causale)，都為整個天主性所共有。",
+      "after": "狄奧尼修在《神名論》第二章說，一切有因果關係之物(causale)，都為整個天主性所共有。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        892
+      ],
+      "before": "我解答如下:創造原本是產生或引進萬物的有或存在。由於一切主動者都產生相似自己之物，可以從行動的效果來研究行動的原理或源頭，因為火生火。所以，創造之歸於天主，是按照祂的存在或有，亦即祂的本體，而天主的本體是天主三位所共有的。因此，創造並不是專屬於天主的某一位，而是整個天主聖三所共有的。\n可是天主的位格，按照其出發的理，針對萬物的創造也有因果關係。因為正如第十四題第八節、第十九題第四節講天主的知識與意志時所說明的，天主藉著自己的理智與意志而為萬物的原因，如同工匠是手工藝品的原因一樣。可是工匠卻是藉著理智所孕育的話或構想，和意志對相關之物的愛而創作。因此，天主聖父也是藉著自己的話或聖言一一亦即自己的蟲子，和自己的愛一一亦即聖神，創造了受造物。準此，天主位格的出發，是產生受造物的理，因為位格的出發包括本體屬性或特{毀，即知識和意志。",
+      "after": "我解答如下：創造原本是產生或引進萬物的有或存在。由於一切主動者都產生相似自己之物，可以從行動的效果來研究行動的原理或源頭，因為火生火。所以，創造之歸於天主，是按照祂的存在或有，亦即祂的本體，而天主的本體是天主三位所共有的。因此，創造並不是專屬於天主的某一位，而是整個天主聖三所共有的。\n可是天主的位格，按照其出發的理，針對萬物的創造也有因果關係。因為正如第十四題第八節、第十九題第四節講天主的知識與意志時所說明的，天主藉著自己的理智與意志而為萬物的原因，如同工匠是手工藝品的原因一樣。可是工匠卻是藉著理智所孕育的話或構想，和意志對相關之物的愛而創作。因此，天主聖父也是藉著自己的話或聖言——亦即自己的聖子，和自己的愛——亦即聖神，創造了受造物。準此，天主位格的出發，是產生受造物的理，因為位格的出發包括本體屬性或特徵，即知識和意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蟲子",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "特{毀",
+          "after": "特徵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        892
+      ],
+      "before": "天主位格的出發是創造的原因，正如正解所說的。",
+      "after": "天主位格的出發是創造的原因，正如正解所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        892,
+        893
+      ],
+      "before": "正如天主的本性雖然是天主三位共有的，可是卻按照一種順序，屬於或歸於天主三位，因為聖子由聖父而獲得了這本性，聖神則兼由二者而獲得了這本性。同樣地，創造的德能，雖然也是天主三位共有的，可是也按照某一順序，屬於或歸於天主三位，因為聖子由聖父而獲得了它，聖神則兼由二者而獲得了它。因此，將「是造物主」歸於聖父，有如一位不是從別處獲得其創造德能者。關於聖子，《若望福音》第一章3節則說: 「萬物是藉著祂而造成的」'因為祂由另一位而獲得了同樣的德能;因為前置詞「藉著」通常意指中問原因(causa media)，或意指出自源頭的源頭。可是兼由二者獲得同樣德能的聖神，歸於祂的是:祂藉著自己的統治權而管理聖父藉著聖子而創造的萬物，也賦予他們生命。\n此一歸屬或歸名的共同之理，也可從本體屬性或特徵的歸屬來看。因為正如第三十八題第八節所說的，尤其在創造時，顯示出歸於壁父的德能;所以，將「是造物主」歸於聖父。主動者藉著理智藉以行動的智慧，歸於聖子;所以，關於聖子，說: 「萬物是藉著祂而造成的」。使萬物達到應有目的的管理，所麗的美善，以及賦予生命，貝1]歸於聖神:因為生命在於內在的活動，可是生命的第一推動者卻是目的與美善。",
+      "after": "正如天主的本性雖然是天主三位共有的，可是卻按照一種順序，屬於或歸於天主三位，因為聖子由聖父而獲得了這本性，聖神則兼由二者而獲得了這本性。同樣地，創造的德能，雖然也是天主三位共有的，可是也按照某一順序，屬於或歸於天主三位，因為聖子由聖父而獲得了它，聖神則兼由二者而獲得了它。因此，將「是造物主」歸於聖父，有如一位不是從別處獲得其創造德能者。關於聖子，《若望福音》第一章3節則說：「萬物是藉著祂而造成的」，因為祂由另一位而獲得了同樣的德能；因為前置詞「藉著」通常意指中間原因(causa media)，或意指出自源頭的源頭。可是兼由二者獲得同樣德能的聖神，歸於祂的是：祂藉著自己的統治權而管理聖父藉著聖子而創造的萬物，也賦予他們生命。\n此一歸屬或歸名的共同之理，也可從本體屬性或特徵的歸屬來看。因為正如第三十八題第八節所說的，尤其在創造時，顯示出歸於聖父的德能；所以，將「是造物主」歸於聖父。主動者藉著理智藉以行動的智慧，歸於聖子；所以，關於聖子，說：「萬物是藉著祂而造成的」。使萬物達到應有目的的管理，所屬的美善，以及賦予生命，則歸於聖神：因為生命在於內在的活動，可是生命的第一推動者卻是目的與美善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「萬物是藉著祂而造成的」'",
+          "after": "「萬物是藉著祂而造成的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中問",
+          "after": "中間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "壁父",
+          "after": "聖父",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所麗的",
+          "after": "所屬的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "雖然，天主的一切效果出自每種屬性，可是每種效果卻歸於那與自己性質相宜或相關的屬性;正如萬物的安排與智慧相闕，同樣地，罪人的成義也與所傾注的豐富仁慈和美善相關。可是那產生物的本體的創造，卻歸於德能。",
+      "after": "雖然，天主的一切效果出自每種屬性，可是每種效果卻歸於那與自己性質相宜或相關的屬性；正如萬物的安排與智慧相關，同樣地，罪人的成義也與所傾注的豐富仁慈和美善相關。可是那產生物的本體的創造，卻歸於德能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相闕",
+          "after": "相關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "在受造物內是否必然有天主聖三的痕跡",
+      "after": "在受造物內是否必然有天主聖三的痕跡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "在受造物內，似乎並不必然有天主聖三的蹤跡或痕跡。因為:",
+      "after": "在受造物內，似乎並不必然有天主聖三的蹤跡或痕跡。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        893
+      ],
+      "before": "任何物都有自己的痕跡可尋。可是卻不能從受造物上溯至天主聖三，正如第三十二題第一節所說的。所以，在受造物內，並沒有天主聖三的痕跡。",
+      "after": "任何物都有自己的痕跡可尋。可是卻不能從受造物上溯至天主聖三，正如第三十二題第一節所說的。所以，在受造物內，並沒有天主聖三的痕跡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        893,
+        894
+      ],
+      "before": "此外，凡受造物所有的一切，都是受造的。所以，如果受造物按照某些屬性有天主聖三的痕跡，以及凡是受造的也都有天主聖三的痕跡，那麼，每一屬性也都應該有天主聖三的痕跡;如此就永無止境。",
+      "after": "此外，凡受造物所有的一切，都是受造的。所以，如果受造物按照某些屬性有天主聖三的痕跡，以及凡是受造的也都有天主聖三的痕跡，那麼，每一屬性也都應該有天主聖三的痕跡；如此就永無止境。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        894
+      ],
+      "before": "此外，效果只不過顯示自己的原因而已。可是受造物的因果關係，只屬於(天主的)共同本性或性體(natura commu-nis)，而不屬於使天主位格區分為三的關係。所以，在受造物內，並沒有(天主)三位的痕跡，而只有(天主)一體的痕跡。",
+      "after": "此外，效果只不過顯示自己的原因而已。可是受造物的因果關係，只屬於(天主的)共同本性或性體(natura commu-nis)，而不屬於使天主位格區分為三的關係。所以，在受造物內，並沒有(天主)三位的痕跡，而只有(天主)一體的痕跡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        894
+      ],
+      "before": "奧斯定在《論天主聖三》卷六第十章說:「天主聖三的痕跡顯示在受造物內。」",
+      "after": "奧斯定在《論天主聖三》卷六第十章說：「天主聖三的痕跡顯示在受造物內。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        894,
+        895
+      ],
+      "before": "我解答如下:一切的效果，都多少顯示自己的原因，方式卻不相同。因為有的效果只顯示原因的因果關係，卻不顯示原因的形式，例如:煙顯示火。這種顯示稱為「痕跡的顯示」(repraesentatio vestigii)，因為痕跡只顯示某一經過者的行動，卻不顯示它是怎樣的。可是，有的效果卻按照相似的形式顯示原因，例如:所生的火顯示生火的火，梅古神(Mercurius)的像顯示梅古神，這是「肖像的顯示」(repraesentatio imaginis)。\n可是，天主位格的出發，卻是根據理智和意志來看，正如第二十七題所說的;因為聖子出發為理智的聖言，聖神出發為意志的愛。所以，在那些有理智與意志的有靈之受造物裡，有天主聖三的肖像式的顯示，因為在他們內有孕育成的言和所發出的愛。\n可是在一切受造物內，都有天主聖三的痕跡式的顯示，因為在每一受造物內，都必然有些東西歸於天主的位格，如同歸於原因一樣。因為每一受造物，都自立於自己的存在內，都有使它成為某一種類(東西)的形式，而且也與其它物有某種秩序或關係。所以，就每一受造物是受造的實體或自立體來看，它顯示出原因和原理或源頭，這樣就顯示出望父的位格，因為聖父是「不是出自源頭的源頭」。可是就其有形式與種類來看，它卻顯示聖言;這是因為手工藝品的形式，是出自工匠的孕育或構想。可是就其有秩序來看，它卻顯示那本身是愛的聖神;因為與其它物之間實際所有的秩序，出自創造者的意志。\n因此，奧斯定在《論天主聖三》卷六第十章說，在每一受造物內，都有天主聖三的痕跡，這是根據「它是一存在之物」'根據它被「形成為某一種類之物」以及根據「保持某種秩序」 0《智慧篇》第十一章21節所提及的三個名詞: 「尺度、數目和重量，」都歸於以上所述幾點;因為「尺度」是關於受限於自己的原素的本體或自立體，「數目」是關於種類，「重量」則是關於秩序。奧斯定所提及的三個名詞: 「模式、物種與秩序」(《論善之性質》第三章)，也歸於上述幾點。他在《雜題八十三》第十八題，所提及的「凡確立者、凡可識別者、凡協和者」也是如此。因為一物是藉著自己的本體而確立，是藉著形式而被識別，是藉著秩序而協和。其它類似的說法，都可易於歸於上面所說的相同幾點。",
+      "after": "我解答如下：一切的效果，都多少顯示自己的原因，方式卻不相同。因為有的效果只顯示原因的因果關係，卻不顯示原因的形式，例如：煙顯示火。這種顯示稱為「痕跡的顯示」(repraesentatio vestigii)，因為痕跡只顯示某一經過者的行動，卻不顯示它是怎樣的。可是，有的效果卻按照相似的形式顯示原因，例如：所生的火顯示生火的火，梅古神(Mercurius)的像顯示梅古神，這是「肖像的顯示」(repraesentatio imaginis)。\n可是，天主位格的出發，卻是根據理智和意志來看，正如第二十七題所說的；因為聖子出發為理智的聖言，聖神出發為意志的愛。所以，在那些有理智與意志的有靈之受造物裡，有天主聖三的肖像式的顯示，因為在他們內有孕育成的言和所發出的愛。\n可是在一切受造物內，都有天主聖三的痕跡式的顯示，因為在每一受造物內，都必然有些東西歸於天主的位格，如同歸於原因一樣。因為每一受造物，都自立於自己的存在內，都有使它成為某一種類(東西)的形式，而且也與其它物有某種秩序或關係。所以，就每一受造物是受造的實體或自立體來看，它顯示出原因和原理或源頭，這樣就顯示出聖父的位格，因為聖父是「不是出自源頭的源頭」。可是就其有形式與種類來看，它卻顯示聖言；這是因為手工藝品的形式，是出自工匠的孕育或構想。可是就其有秩序來看，它卻顯示那本身是愛的聖神；因為與其它物之間實際所有的秩序，出自創造者的意志。\n因此，奧斯定在《論天主聖三》卷六第十章說，在每一受造物內，都有天主聖三的痕跡，這是根據「它是一存在之物」，根據它被「形成為某一種類之物」以及根據「保持某種秩序」。《智慧篇》第十一章21節所提及的三個名詞：「尺度、數目和重量，」都歸於以上所述幾點；因為「尺度」是關於受限於自己的原素的本體或自立體，「數目」是關於種類，「重量」則是關於秩序。奧斯定所提及的三個名詞：「模式、物種與秩序」(《論善之性質》第三章)，也歸於上述幾點。他在《雜題八十三》第十八題，所提及的「凡確立者、凡可識別者、凡協和者」也是如此。因為一物是藉著自己的本體而確立，是藉著形式而被識別，是藉著秩序而協和。其它類似的說法，都可易於歸於上面所說的相同幾點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "望父",
+          "after": "聖父",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「它是一存在之物」'",
+          "after": "「它是一存在之物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        895
+      ],
+      "before": "i.痕跡的顯示，是看那些(歸溯於天主聖三的)特徵(appropriata);藉著此一方式，可以由受造物上升至天主聖三，正如上述正解所說的(參看:第三十二題第一節釋疑1.)。",
+      "after": "痕跡的顯示，是看那些(歸溯於天主聖三的)特徵(appropriata)；藉著此一方式，可以由受造物上升至天主聖三，正如上述正解所說的(參看：第三十二題第一節釋疑1.)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.痕跡",
+          "after": "痕跡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        895
+      ],
+      "before": "受造物原本是指自立存在之物，在這樣的受造物內，都有上文所說的三點。並不需要在受造物所有的每一屬性內，都有這三點。是根據這三點，將(天主聖三的)痕跡，歸於自立存在之物。",
+      "after": "受造物原本是指自立存在之物，在這樣的受造物內，都有上文所說的三點。並不需要在受造物所有的每一屬性內，都有這三點。是根據這三點，將(天主聖三的)痕跡，歸於自立存在之物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        895
+      ],
+      "before": "天主位格的出發，也是以某種方式，為創造的原因和原理，正如第六節所說的。",
+      "after": "天主位格的出發，也是以某種方式，為創造的原因和原理，正如第六節所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "在自然與工藝的工作中是否慘有創造",
+      "after": "在自然與工藝的工作中是否摻有創造",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慘有",
+          "after": "摻有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "在自然與工藝的工作中，似乎樓有創造。因為:",
+      "after": "在自然與工藝的工作中，似乎摻有創造。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "樓有",
+          "after": "摻有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "在每一自然和工藝的工作中，都產生某種形式。可是形式卻不由任何物而產生，因為它並沒有質料作為自己的部分。所以，形式由「無」(nihilum)中而產生。因此，在每一自然和藝術的工作中，都有創造。",
+      "after": "在每一自然和工藝的工作中，都產生某種形式。可是形式卻不由任何物而產生，因為它並沒有質料作為自己的部分。所以，形式由「無」(nihilum)中而產生。因此，在每一自然和藝術的工作中，都有創造。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "此外，效果並不優於自己的原因。可是在自然物中，除了有為主動或被動形式的依附體形式以外，並沒有別的主動者。所以，自然的工作並不產生本體的形式。所以，本體的形式，必是藉著創造所產生的。",
+      "after": "此外，效果並不優於自己的原因。可是在自然物中，除了有為主動或被動形式的依附體形式以外，並沒有別的主動者。所以，自然的工作並不產生本體的形式。所以，本體的形式，必是藉著創造所產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "此外，自然或物之本性製造相似自己之物。可是自然界有一些受生之物，卻不是生自相似自己之物，正如藉著腐爛而受生之生物所指明的。所以，牠們的形式並不是出自自然，而是出自創造。其它物也是如此。",
+      "after": "此外，自然或物之本性製造相似自己之物。可是自然界有一些受生之物，卻不是生自相似自己之物，正如藉著腐爛而受生之生物所指明的。所以，牠們的形式並不是出自自然，而是出自創造。其它物也是如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.arg4",
+      "article": 8,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "此外，非受造者﹒就不是受造之物。所以，如果凡出自自然的一切都不參有創造，那麼凡出自自然的一切，勢必都不是受造之物。這是異端。",
+      "after": "此外，非受造者，就不是受造之物。所以，如果凡出自自然的一切都不參有創造，那麼凡出自自然的一切，勢必都不是受造之物。這是異端。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "非受造者﹒",
+          "after": "非受造者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        896
+      ],
+      "before": "奧斯定在《創世紀字意新探》卷五第十一章，卻把屬於自然工作的繁殖工作，與創造的工作分開。",
+      "after": "奧斯定在《創世紀字意新探》卷五第十一章，卻把屬於自然工作的繁殖工作，與創造的工作分開。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        896,
+        897
+      ],
+      "before": "我解答如下:這種疑問因形式而產生。有些人主張形式並不是因自然的行動而開始，而是先存在於質料內，主張一種形式潛在說。這是由於他們對質料的無知。因為他們眛於分辨潛能與現實。因為形式之先存在於質料，是存在於潛能中，而他們卻主張形式是絕對地(或也現實地)先己存在。\n可是另有一些人，卻主張形式是藉著創造的方式，由獨立(於自然原因之外)的主動者或原因，所形成或產生。準此，自然的每一工作都慘有創造。可是這是由於他們對形式的無知。因為他們沒有注意到，物體或形體物的自然形式(forma naturalis)並不是自立存在的，而只是一物藉以存在的(內在)因素。由於形成與受造，原本只適用於自立存在的物，正如上面第四節所說的，所以屬於形式的，既不是形成，也不是受造，而是一問或一起受造。\n可是，凡真正由自然主動者或成因所形成的，都是由質料或物質所形成的組合物(compositum)。因此，在自然的工作中，並未慘有創造;卻肯定在自然的工作以前，已先有了創造。",
+      "after": "我解答如下：這種疑問因形式而產生。有些人主張形式並不是因自然的行動而開始，而是先存在於質料內，主張一種形式潛在說。這是由於他們對質料的無知。因為他們昧於分辨潛能與現實。因為形式之先存在於質料，是存在於潛能中，而他們卻主張形式是絕對地(或也現實地)先己存在。\n可是另有一些人，卻主張形式是藉著創造的方式，由獨立(於自然原因之外)的主動者或原因，所形成或產生。準此，自然的每一工作都摻有創造。可是這是由於他們對形式的無知。因為他們沒有注意到，物體或形體物的自然形式(forma naturalis)並不是自立存在的，而只是一物藉以存在的(內在)因素。由於形成與受造，原本只適用於自立存在的物，正如上面第四節所說的，所以屬於形式的，既不是形成，也不是受造，而是一同或一起受造。\n可是，凡真正由自然主動者或成因所形成的，都是由質料或物質所形成的組合物(compositum)。因此，在自然的工作中，並未摻有創造；卻肯定在自然的工作以前，已先有了創造。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "眛於",
+          "after": "昧於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慘有",
+          "after": "摻有",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一問或一起",
+          "after": "一同或一起",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        897
+      ],
+      "before": "形式因組合物的形成而開始現實的存在，不是本然地或自己單獨地被形成，而只是偶然地或一同被形成。",
+      "after": "形式因組合物的形成而開始現實的存在，不是本然地或自己單獨地被形成，而只是偶然地或一同被形成。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        897
+      ],
+      "before": "自然的主動品質(qualitas activa)，是賴本體形式的能力而行動。所以，自然的主動者或成因之產生與自己相似之物，不僅是在品質方面，而且也是在種類或(物)種方面。",
+      "after": "自然的主動品質(qualitas activa)，是賴本體形式的能力而行動。所以，自然的主動者或成因之產生與自己相似之物，不僅是在品質方面，而且也是在種類或(物)種方面。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q045.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        897
+      ],
+      "before": "普遍的主動者或成因(agens universale)，即天上的(太陽的)能力，足以生殖不完美的生物;生物之相似天上的能力，並不是按照(*勿)種，而是按照某種類比。所以，並不需要說，那不完美生物的形式，是受造於獨立(於自然以外)的主動者或成因。可是普遍的主動者或成因，卻不足以生殖完美的生物，而需要固有的主動者或成因，即單義的或同質的生殖者(generans univocum)。",
+      "after": "普遍的主動者或成因(agens universale)，即天上的(太陽的)能力，足以生殖不完美的生物；生物之相似天上的能力，並不是按照(物)種，而是按照某種類比。所以，並不需要說，那不完美生物的形式，是受造於獨立(於自然以外)的主動者或成因。可是普遍的主動者或成因，卻不足以生殖完美的生物，而需要固有的主動者或成因，即單義的或同質的生殖者(generans univocum)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(*勿)",
+          "after": "(物)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q045.a008.ad4",
+      "article": 8,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        897
+      ],
+      "before": "自然的工作不能成立，除非先肯定有受造的原因或主動者(principium creatum)存在。因此，凡藉著自然而形成的一切，都稱為受造物。",
+      "after": "自然的工作不能成立，除非先肯定有受造的原因或主動者(principium creatum)存在。因此，凡藉著自然而形成的一切，都稱為受造物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
