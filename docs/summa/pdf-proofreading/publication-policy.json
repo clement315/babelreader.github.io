@@ -178,25 +178,23 @@
     "I-q061",
     "I-q062",
     "I-q063",
-    "I-q064"
+    "I-q064",
+    "I-q065"
   ],
-  "next_question": "I.q065",
+  "next_question": "I.q066",
   "current_requested_work": {
-    "instruction": "完成第一部第61题至第64题的逐页校对，保留结果，只在本地保存",
+    "instruction": "完成第一部第65题至第66题的逐页校对，保留结果，只在本地保存",
     "required_question_ids": [
-      "I.q061",
-      "I.q062",
-      "I.q063",
-      "I.q064"
+      "I.q065",
+      "I.q066"
     ],
     "completed_question_ids": [
-      "I.q061",
-      "I.q062",
-      "I.q063",
-      "I.q064"
+      "I.q065"
     ],
-    "remaining_question_ids": [],
-    "status": "complete"
+    "remaining_question_ids": [
+      "I.q066"
+    ],
+    "status": "in_progress"
   },
   "completed_requested_work": [
     {
@@ -293,6 +291,23 @@
         "I.q058",
         "I.q059",
         "I.q060"
+      ],
+      "remaining_question_ids": [],
+      "status": "complete"
+    },
+    {
+      "instruction": "完成第一部第61题至第64题的逐页校对，保留结果，只在本地保存",
+      "required_question_ids": [
+        "I.q061",
+        "I.q062",
+        "I.q063",
+        "I.q064"
+      ],
+      "completed_question_ids": [
+        "I.q061",
+        "I.q062",
+        "I.q063",
+        "I.q064"
       ],
       "remaining_question_ids": [],
       "status": "complete"
