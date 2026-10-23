@@ -1,0 +1,1883 @@
+{
+  "schema_version": 1,
+  "batch": "I-q031",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "3de5593f692249988525692c1eb069e66da731a5",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q031",
+    "title": "論在天主內那些與唯一性或多數性有關者",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685
+    ],
+    "printed_pages": [
+      456,
+      469
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 56,
+    "changed_review_units": 48,
+    "checked_unchanged_review_units": 9
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q31.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q31.json": "7b5498d845d51f16738af33c118dd60ac4fca3174cae2b35f5d6f196e0f90756"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q031.a002.respondeo",
+      "pdf_file_page": 677,
+      "text": "質疑3.己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q031.a002.ad2",
+      "pdf_file_page": 679,
+      "text": "正解己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q031.a002.ad4",
+      "pdf_file_page": 679,
+      "text": "己成型",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q031.a004.respondeo",
+      "pdf_file_page": 684,
+      "text": "釋疑2.己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q031.a002.arg3",
+      "pdf_file_page": 676,
+      "text": "《論天主聖三》第三十九節",
+      "status": "suspected_source_print_error",
+      "action": "原书此处未注明卷数，依底本保留。"
+    },
+    {
+      "id": "I.q031.a003.ad1",
+      "pdf_file_page": 681,
+      "text": "如果在天使內沒有多位或多個位格",
+      "status": "suspected_source_print_error",
+      "action": "原书印作「天使内」，疑应为「天主内」，保留原书供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q031.prologue",
+      "description": "题引言开头重复识别的题标题和「分为四节」删除，其后的原换行转义保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部14页连同译注逐段核对；trinitas译注漏掉的起首说明及第三节质疑引言依原页补回，第四节释疑三否定词「没有」恢复。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q031.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        672
+      ],
+      "before": "論在天主內那些與唯一性或多數性有關者一分為四節一\n(按:拉丁文的t出「討i叫其意義是:數字為三者或一分為三者O由於是一分為三，所以反過來說，買興則IJ是三根於一。{依衣此，盯tr扎Inl盯ita且可譯為三一性。不過，如本題第一節質疑5所說:「在講述天主的一切說法中，者都F是把抽象者說成具體的」'即把抽象名詞當作具體名詞來用。例如:抽象名詞unitas'此字來自數字「一」'意謂單一性或唯一性。但當用此字來講述天主時，卻往往用它來表示天主的唯一本體，即指「一體」。抽象名詞trinitas亦是如此。在講述天主時，此字實際是指基於天主「一體」的「三位」'不過只是含蓄的，而非明確的，即未直接把「位或位格」標示出來。所以，其最適當的中文譯名應是「聖三」。唯其如此，纔可以進一步解釋說:所謂「聖三」'不是說天主有三個本體或三體，而是說天主有三個位格或三位。假使把此字直接譯為「三位」'這種解說就成為多餘而無意義了。)\n此後要討論的，是在天主內那些與唯一性或多數性有關者(參看第二十九題引言)。\n關於這一點，可以提出四個問題:\n一、諭「聖三」(trinitas)這個名稱。\n二.、是否能說「堂子別於聖父或是與聖父有分別的」(alius)。\n三、在天主內，看來含有排他性(alietas)之排除說法，是否可與指本質或本體之名稱相連或並用。\n四、是否可與指位格之名稱相連或並用。",
+      "after": "\n(按：拉丁文的trinitas是一抽象名詞，來自形容詞trinus，其意義是：數字為三者或一分為三者。由於是一分為三，所以反過來說，則是三根於一。依此，trinitas可譯為三一性。不過，如本題第一節質疑5.所說：「在講述天主的一切說法中，都是把抽象者說成具體的」，即把抽象名詞當作具體名詞來用。例如：抽象名詞unitas，此字來自數字「一」，意謂單一性或唯一性。但當用此字來講述天主時，卻往往用它來表示天主的唯一本體，即指「一體」。抽象名詞trinitas亦是如此。在講述天主時，此字實際是指基於天主「一體」的「三位」，不過只是含蓄的，而非明確的，即未直接把「位或位格」標示出來。所以，其最適當的中文譯名應是「聖三」。唯其如此，才可以進一步解釋說：所謂「聖三」，不是說天主有三個本體或三體，而是說天主有三個位格或三位。假使把此字直接譯為「三位」，這種解說就成為多餘而無意義了。)\n此後要討論的，是在天主內那些與唯一性或多數性有關者(參看第二十九題引言)。\n關於這一點，可以提出四個問題：\n一、論「聖三」(trinitas)這個名稱。\n二、是否能說「聖子別於聖父或是與聖父有分別的」(alius)。\n三、在天主內，看來含有排他性(alietas)之排除說法，是否可與指本質或本體之名稱相連或並用。\n四、是否可與指位格之名稱相連或並用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論在天主內那些與唯一性或多數性有關者一分為四節一",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉丁文的t出「討i叫其意義是:",
+          "after": "拉丁文的trinitas是一抽象名詞，來自形容詞trinus，其意義是：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者O",
+          "after": "者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買興則IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{依衣此，盯tr扎Inl盯ita且",
+          "after": "依此，trinitas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "質疑5所",
+          "after": "質疑5.所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者都F是",
+          "after": "都是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "具體的」'",
+          "after": "具體的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "unitas'",
+          "after": "unitas，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「三位」'",
+          "after": "「三位」，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔可以",
+          "after": "才可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「聖三」'",
+          "after": "「聖三」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "諭「聖三」",
+          "after": "論「聖三」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "二.、",
+          "after": "二、",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "堂子",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "在天主內是否有聖三",
+      "after": "在天主內是否有聖三",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "在天主內似乎沒有聖三(trinitas)。因為:",
+      "after": "在天主內似乎沒有聖三(trinitas)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "在天主內，一切名稱或指實體或本體，或指關係。而「聖三」這個名稱，不表示實體或本體(substantia);因為如果是指實體，那麼將是用實體來陳述每一位(而為三個實體)了。它亦非表示關係;因為這一說法不是根據針對他物的名稱。所以，在天主內，不應用「聖三」這個名稱。",
+      "after": "在天主內，一切名稱或指實體或本體，或指關係。而「聖三」這個名稱，不表示實體或本體(substantia)；因為如果是指實體，那麼將是用實體來陳述每一位(而為三個實體)了。它亦非表示關係；因為這一說法不是根據針對他物的名稱。所以，在天主內，不應用「聖三」這個名稱。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "此外，「聖三」這個名稱似乎是一個集體名稱，因為它表示眾多。而這樣的名稱並不適合於天主;因為集體名稱所包含的單一性是最小的單一性，而在天主內的單一性卻是最大的單一性。所以，「聖三」這個名稱不適合於天主。",
+      "after": "此外，「聖三」這個名稱似乎是一個集體名稱，因為它表示眾多。而這樣的名稱並不適合於天主；因為集體名稱所包含的單一性是最小的單一性，而在天主內的單一性卻是最大的單一性。所以，「聖三」這個名稱不適合於天主。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "此外，凡是一分為三或三分者(trinum)，都是三章的(triplex)。而在天主內卻沒有三重性(triplicitas)，因為三重性是一種不相等。所以，在天主內也沒有聖三。",
+      "after": "此外，凡是一分為三或三分者(trinum)，都是三重的(triplex)。而在天主內卻沒有三重性(triplicitas)，因為三重性是一種不相等。所以，在天主內也沒有聖三。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "三章",
+          "after": "三重",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "此外，凡存在於天主內者，均係存在於天主本質或本體之唯一性內，因為天主是自己的本質或本體。是以，如果在天主內有聖三，那必是存在於天主本質或本體之唯一性內。如此則在天主內有三個本質或本體方面的唯一性了;而這是異端。",
+      "after": "此外，凡存在於天主內者，均係存在於天主本質或本體之唯一性內，因為天主是自己的本質或本體。是以，如果在天主內有聖三，那必是存在於天主本質或本體之唯一性內。如此則在天主內有三個本質或本體方面的唯一性了；而這是異端。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "此外，在講述天主的一切說法中，都是把抽象者說成具體的;因為天主性就是天主，父性就是聖父。然而，指聖三的這一抽象名稱(trinitas一一數字為三)，卻不能說就是一分為三(trina);否則，在天主內就有九物了，而這是錯誤的。所以，在天主內，不應用「聖三」這個名稱。",
+      "after": "此外，在講述天主的一切說法中，都是把抽象者說成具體的；因為天主性就是天主，父性就是聖父。然而，指聖三的這一抽象名稱(trinitas——數字為三)，卻不能說就是一分為三(trina)；否則，在天主內就有九物了，而這是錯誤的。所以，在天主內，不應用「聖三」這個名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一數字",
+          "after": "——數字",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        673
+      ],
+      "before": "亞達納修卻說: 「應在聖三(三位)中恭敬唯一(一體)，在唯一中恭敬聖三。」(信經「不拘誰」 Quicumque)",
+      "after": "亞達納修卻說：「應在聖三(三位)中恭敬唯一(一體)，在唯一中恭敬聖三。」(信經「不拘誰」 Quicumque)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        674
+      ],
+      "before": "我解答如下: 「聖三」這個名稱，在天主內所表示的是一個確定的位格數字。所以，就如說在天主內有不確定的位格的多數性或多位，同樣也就應該用「聖三」這個名稱;因為「聖三」這個名稱以確定數字所表示的，也就是「多數性」以不確定數字所表示的。",
+      "after": "我解答如下：「聖三」這個名稱，在天主內所表示的是一個確定的位格數字。所以，就如說在天主內有不確定的位格的多數性或多位，同樣也就應該用「聖三」這個名稱；因為「聖三」這個名稱以確定數字所表示的，也就是「多數性」以不確定數字所表示的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        674
+      ],
+      "before": "依字i原來說，「聖三」這個名稱，似乎是表示三個位格的一個本質或本體，依此而說聖三或三一性就好像是三者的唯一性或一體(trium unitas)。不過，按這個字的本有意義來說，它較為表示同一本質或本體之位格的數字。因此我們不能說聖父就是聖三，因為聖父不是三位。但它也並不表示各位格之間的關係本身，而較為表示相互有關係的位格的數字。因此此一名稱本身不涉及與他物之關係o",
+      "after": "依字源來說，「聖三」這個名稱，似乎是表示三個位格的一個本質或本體，依此而說聖三或三一性就好像是三者的唯一性或一體(trium unitas)。不過，按這個字的本有意義來說，它較為表示同一本質或本體之位格的數字。因此我們不能說聖父就是聖三，因為聖父不是三位。但它也並不表示各位格之間的關係本身，而較為表示相互有關係的位格的數字。因此此一名稱本身不涉及與他物之關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "字i原",
+          "after": "字源",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係o",
+          "after": "關係。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        674
+      ],
+      "before": "集體名稱含有兩(國要素，即主體或基體之多數性或多個基體(supposita)，及某種單一性，即某種秩序的單一性或合為一個秩序，因為「民族」是在某種秩序下所包括的訐多個人。依第一點來說，「聖三」這個名稱與所有的集體名稱相符;依第二點來說，卻有所不同，因為在天主聖三內，不僅有秩序的單一性或一個秩序，而且還有本質或本體的單一性或-體。",
+      "after": "集體名稱含有兩個要素，即主體或基體之多數性或多個基體(supposita)，及某種單一性，即某種秩序的單一性或合為一個秩序，因為「民族」是在某種秩序下所包括的許多個人。依第一點來說，「聖三」這個名稱與所有的集體名稱相符；依第二點來說，卻有所不同，因為在天主聖三內，不僅有秩序的單一性或一個秩序，而且還有本質或本體的單一性或一體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兩(國",
+          "after": "兩個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "或-體",
+          "after": "或一體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        674
+      ],
+      "before": "「聖三」是絕對的說法(不與他物做比較)，因為它指的是三位格的這個數字「三」。而「三重性」(triplicitas一分為三重、層等)所指的，卻是三者與一之不相等的比例或比較;因為是一種不相等的比例或比較，這自波其武在《數學》(Arithmetica)卷一第二十三章中所說的可以知道。",
+      "after": "「聖三」是絕對的說法(不與他物做比較)，因為它指的是三位格的這個數字「三」。而「三重性」(triplicitas一分為三重、層等)所指的，卻是三者與一之不相等的比例或比較；因為是一種不相等的比例或比較，這自波其武在《數學》(Arithmetica)卷一第二十三章中所說的可以知道。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        674,
+        675
+      ],
+      "before": "在「天主聖三」的含意中，有數字本身(絕對的數字)，也有被數的位格。所以，當我們說「聖三在唯一性或一體內」時，我們並不是把(絕對的)數字「三」置於唯一性內，好像有三次唯一似的;我們是把被數的(三)位格置於本性或性體內，就如說某一(物之)本性的主體或基體存在於那個本性內一樣。反之，當我們說「單一性或一體是在聖三內」時，就如說某一(種物之)本性是存在於屬於該本性的(多個)主體或基體內一樣。",
+      "after": "在「天主聖三」的含意中，有數字本身(絕對的數字)，也有被數的位格。所以，當我們說「聖三在唯一性或一體內」時，我們並不是把(絕對的)數字「三」置於唯一性內，好像有三次唯一似的；我們是把被數的(三)位格置於本性或性體內，就如說某一(物之)本性的主體或基體存在於那個本性內一樣。反之，當我們說「單一性或一體是在聖三內」時，就如說某一(種物之)本性是存在於屬於該本性的(多個)主體或基體內一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        675
+      ],
+      "before": "當說「聖三或數字為三」(trinitas)是「一分為三的(trina)」時，其所引進的數字(謂詞或賓詞「一分為三的」),按其意義含有同一數字本身的倍數增加;因為我所說的「一分為三的」'是指所說那物在主體或基體方面的區分。所以，不能說「聖三(三位)是一分為三的」;因為假設聖三(三位)是一分為三的，那麼聖三(的每一位)將有三主體或基體(按:如此則聖三將有九主體或基體，就如假使一隊人分排三個三個地前行，走過了三排，也就等於走過了九人，而如此說天主是不對的);這就如說「(一個)天主(Deus單數)是一分為三的(三位trinus)，所以有天主性的三主體或基體(三自立於天主性者)」一樣。",
+      "after": "當說「聖三或數字為三」(trinitas)是「一分為三的(trina)」時，其所引進的數字(謂詞或賓詞「一分為三的」)，按其意義含有同一數字本身的倍數增加；因為我所說的「一分為三的」，是指所說那物在主體或基體方面的區分。所以，不能說「聖三(三位)是一分為三的」；因為假設聖三(三位)是一分為三的，那麼聖三(的每一位)將有三主體或基體(按：如此則聖三將有九主體或基體，就如假使一隊人分排三個三個地前行，走過了三排，也就等於走過了九人，而如此說天主是不對的)；這就如說「(一個)天主(Deus單數)是一分為三的(三位trinus)，所以有天主性的三主體或基體(三自立於天主性者)」一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "),",
+          "after": ")，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三的」'",
+          "after": "三的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        675
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        675
+      ],
+      "before": "聖子是否別於聖父或是與聖父有分別的",
+      "after": "聖子是否別於聖父或是與聖父有分別的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        675
+      ],
+      "before": "(按:拉丁文形容詞alius-a-ud，其基本意義是「有分別的或別的」。根據其所形容的名詞，它能是指另IJ一個、別一位、另IJ一種物、別一自立體、月lJ一依附體等等c在本節悍，雖然alius主要是指聖子在主體或基體方面別於聖父，是別一個或別一位;但仍須依其基本意義來譯此字，不宜直接譯為「一個」或「一位」'否則下面的翻譯將會遇到相當大的困難。)有關第二節，我們討論如下:",
+      "after": "(按：拉丁文形容詞alius-a-ud，其基本意義是「有分別的或別的」。根據其所形容的名詞，它能是指別一個、別一位、別一種物、別一自立體、別一依附體等等。在本節裡，雖然alius主要是指聖子在主體或基體方面別於聖父，是別一個或別一位；但仍須依其基本意義來譯此字，不宜直接譯為「一個」或「一位」，否則下面的翻譯將會遇到相當大的困難。)有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "月lJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "等等c",
+          "after": "等等。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本節悍",
+          "after": "本節裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「一位」'",
+          "after": "「一位」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        675
+      ],
+      "before": "聖子似乎不是別於聖父或與聖父有分別的(alius a Patre一別於聖父者)。因為:",
+      "after": "聖子似乎不是別於聖父或與聖父有分別的(alius a Patre一別於聖父者)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        675,
+        676
+      ],
+      "before": "「有分別的」是表示substantia(本體)不同的相對名稱。所以，如果聖子是與聖父有分別的，那麼聖子似乎就是與聖父不同的了(diversus)。而這相反奧斯定在《論天主聖三》卷七第四章所說的，他在那裡說:當我們說三位時，「我們沒有表示有什麼不同的意思」。",
+      "after": "「有分別的」是表示substantia(本體)不同的相對名稱。所以，如果聖子是與聖父有分別的，那麼聖子似乎就是與聖父不同的了(diversus)。而這相反奧斯定在《論天主聖三》卷七第四章所說的，他在那裡說：當我們說三位時，「我們沒有表示有什麼不同的意思」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        676
+      ],
+      "before": "此外，凡是相互是有分別的，彼此間均有某種差異(differ一叫a)。因此，如果聖子是與聖父有分別的，那麼祂與聖父也就是有差異的了(differens)。而這相反盎博羅修在《論天主教信德》卷一第二章所說的，他在那裡說:「聖父與聖子在天主性方面是二而一的(unum)，其間既無本體之差異，亦無任何不同。」",
+      "after": "此外，凡是相互是有分別的，彼此間均有某種差異(differentia)。因此，如果聖子是與聖父有分別的，那麼祂與聖父也就是有差異的了(differens)。而這相反盎博羅修在《論天主教信德》卷一第二章所說的，他在那裡說：「聖父與聖子在天主性方面是二而一的(unum)，其間既無本體之差異，亦無任何不同。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "differ一叫a",
+          "after": "differentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        676
+      ],
+      "before": "此外，「不一樣的或別樣的」(alienum)一詞，是來白「有分別的」(alius)。而聖子與聖父卻不是不一樣的;因為希拉利在《論天主聖三》第三十九節說:在天玉之(三)位格內「沒有什麼是不同的，沒有什麼是不一樣的，也沒有什麼是可以分開的」。所以，聖子不是與聖父有分別的。",
+      "after": "此外，「不一樣的或別樣的」(alienum)一詞，是來自「有分別的」(alius)。而聖子與聖父卻不是不一樣的；因為希拉利在《論天主聖三》第三十九節說：在天主之(三)位格內「沒有什麼是不同的，沒有什麼是不一樣的，也沒有什麼是可以分開的」。所以，聖子不是與聖父有分別的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天玉",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        676
+      ],
+      "before": "此外，「有分別的一個或一位(alius)」和「有分別的一(種)物(aliud)」'意義是相同的，只是在(文法上名詞或形容詞的)類或性方面有所不同而已。所以，如果聖子是與聖父有分別的一個或一位(alius)，那麼，聖子也就是與聖父有分別的一(種)物了(aliud)。",
+      "after": "此外，「有分別的一個或一位(alius)」和「有分別的一(種)物(aliud)」，意義是相同的，只是在(文法上名詞或形容詞的)類或性方面有所不同而已。所以，如果聖子是與聖父有分別的一個或一位(alius)，那麼，聖子也就是與聖父有分別的一(種)物了(aliud)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "aliud)」'",
+          "after": "aliud)」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        676
+      ],
+      "before": "奧斯定在《致伯多祿執事論信德》(De fide ad Petrum)第一章中卻說:「聖父、聖子和聖神之本質是一個，依本質而論，並非聖父是一物，聖子是另一物，聖神又是另一物;雖然按位格來說，聖父是一位，聖子是別的一位，聖神又是別的一位。」(按:此書本為富振秋(Fulgentius)之著作。)",
+      "after": "奧斯定在《致伯多祿執事論信德》(De fide ad Petrum)第一章中卻說：「聖父、聖子和聖神之本質是一個，依本質而論，並非聖父是一物，聖子是另一物，聖神又是另一物；雖然按位格來說，聖父是一位，聖子是別的一位，聖神又是別的一位。」(按：此書本為富振秋(Fulgentius)之著作。)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        676,
+        677,
+        678
+      ],
+      "before": "我解答如下:如熱羅尼莫所說，由於用詞不當而產生異端(參看:彼得隆巴，(《語錄》卷四第十三題第二章)，因此在討論天主聖三時，我們必須小心謹慎從事;因為如奧斯定在《論天主聖三》卷一第三章所說: 「與此問題相比，沒有什麼問題的錯誤更為有害，探究起來更為辛苦，成果更為有益。」我們在討論有關聖三的問題時，必須避免兩個彼此相反的錯誤，在二者之間執中進行:其中一個錯誤是亞略(Arius)的錯誤，他在肯定三位格之外，又主張有三實體或本體;另一個錯誤是薩培裏(Sabellius)的錯誤，他則在肯定一個本質或本體之外，又主張只有一個位格。\n所以，為避免亞略的錯誤‘我們應避免在天主內用「不同」(diversitas)和「差異」(differentia)這二名詞，以免消除本質、本體的唯一性或一體;不過，我們可以用「區別」(dis-ti配tio)這個名詞，來表示關係的對立。因此，當我們在一些權威著作中發現有位格的「不同」或「差異」這種說法時，應把「不同」或「差異」解作「區別」。而為了避免損害天主本質、本體之單純性，則應避免「分開」(separatio)和「分割」(divi-sio)等名詞，因為它們是把整體分為部分。而為了避免損害到相等(aequalitas)，亦應避免「不相等」(disparitas)這個字。而為了避免損害相似(similitudo)，則應避免「不一樣」(alienum)及「不相似」(discrepans)等字;因為盎傳羅修在《論天主教信德》第二章說:在聖父與聖子內，「無任何不相似，而只有一個天主性(divinitas)」;而按希拉利所說，在天主內，「沒有什麼是不一樣的，也沒有什麼是可以分開的」'如質疑3.己說過的。\n為了避免薩培裏的錯誤，我們應該避免「各自或隔離」(si月ularitas)這個字，以免損及天主本質、本體的可通傳性或共有性;因此希拉利在「論天主聖三」卷七第三十九節說:「稱聖父和聖子為彼此隔離的天主或各自為天主，是褻聖。」為了避免損害到位格的數目或多數性，我們應該避免用「獨一的」(unicus)這個字，因為希拉利在同書(第三十八節)又說，應從天主內排除獨一和各自之概念。我們說「獨一聖子」'因為在天主內沒有多個聖子。不過我們不說「獨一天主」句因為天主性是多個(位格)所共有的。我們也避免用「混合的」(叫心)這個字，以免消除位格間的本性秩序;因此盎博羅修在《論天主教信德》卷一第二章說:「凡是一個的，就不是混合的;凡是沒有差異的，就不可能是多重的。」為避免損害三位的共享和互通(consortium)，亦應避免用「孤獨的」(solitarius)一字;因為希拉利在《論天主聖三》卷凹(第十八節)說:「應該崇信，天主既不是孤獨的，亦不是(多個)不同的。」\n而「有分別的」(alius)這個名稱，作為陽性的名稱，其含義只是在指主體或基體(suppositum)的區別(參看釋疑4.)。因此，我們能夠適當地說，聖子是與聖父有分別的或別的一個;因為祂是天主之本性的別的一個主體或基體，就如祂是別的一個位格(persona)，別的一個(希臘文的)hypostasis一樣。",
+      "after": "我解答如下：如熱羅尼莫所說，由於用詞不當而產生異端(參看：彼得隆巴，《語錄》卷四第十三題第二章)，因此在討論天主聖三時，我們必須小心謹慎從事；因為如奧斯定在《論天主聖三》卷一第三章所說：「與此問題相比，沒有什麼問題的錯誤更為有害，探究起來更為辛苦，成果更為有益。」我們在討論有關聖三的問題時，必須避免兩個彼此相反的錯誤，在二者之間執中進行：其中一個錯誤是亞略(Arius)的錯誤，他在肯定三位格之外，又主張有三實體或本體；另一個錯誤是薩培里(Sabellius)的錯誤，他則在肯定一個本質或本體之外，又主張只有一個位格。\n所以，為避免亞略的錯誤，我們應避免在天主內用「不同」(diversitas)和「差異」(differentia)這二名詞，以免消除本質、本體的唯一性或一體；不過，我們可以用「區別」(dis-tinctio)這個名詞，來表示關係的對立。因此，當我們在一些權威著作中發現有位格的「不同」或「差異」這種說法時，應把「不同」或「差異」解作「區別」。而為了避免損害天主本質、本體之單純性，則應避免「分開」(separatio)和「分割」(divi-sio)等名詞，因為它們是把整體分為部分。而為了避免損害到相等(aequalitas)，亦應避免「不相等」(disparitas)這個字。而為了避免損害相似(similitudo)，則應避免「不一樣」(alienum)及「不相似」(discrepans)等字；因為盎博羅修在《論天主教信德》第二章說：在聖父與聖子內，「無任何不相似，而只有一個天主性(divinitas)」；而按希拉利所說，在天主內，「沒有什麼是不一樣的，也沒有什麼是可以分開的」，如質疑3.己說過的。\n為了避免薩培里的錯誤，我們應該避免「各自或隔離」(singularitas)這個字，以免損及天主本質、本體的可通傳性或共有性；因此希拉利在「論天主聖三」卷七第三十九節說：「稱聖父和聖子為彼此隔離的天主或各自為天主，是褻聖。」為了避免損害到位格的數目或多數性，我們應該避免用「獨一的」(unicus)這個字，因為希拉利在同書(第三十八節)又說，應從天主內排除獨一和各自之概念。我們說「獨一聖子」，因為在天主內沒有多個聖子。不過我們不說「獨一天主」，因為天主性是多個(位格)所共有的。我們也避免用「混合的」(confusus)這個字，以免消除位格間的本性秩序；因此盎博羅修在《論天主教信德》卷一第二章說：「凡是一個的，就不是混合的；凡是沒有差異的，就不可能是多重的。」為避免損害三位的共享和互通(consortium)，亦應避免用「孤獨的」(solitarius)一字；因為希拉利在《論天主聖三》卷四(第十八節)說：「應該崇信，天主既不是孤獨的，亦不是(多個)不同的。」\n而「有分別的」(alius)這個名稱，作為陽性的名稱，其含義只是在指主體或基體(suppositum)的區別(參看釋疑4.)。因此，我們能夠適當地說，聖子是與聖父有分別的或別的一個；因為祂是天主之本性的別的一個主體或基體，就如祂是別的一個位格(persona)，別的一個(希臘文的)hypostasis一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，(《語錄》",
+          "after": "，《語錄》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "薩培裏",
+          "after": "薩培里",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "錯誤‘",
+          "after": "錯誤，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "dis-ti配tio",
+          "after": "dis-tinctio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "盎傳",
+          "after": "盎博",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分開的」'",
+          "after": "分開的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "si月ularitas",
+          "after": "singularitas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「獨一聖子」'",
+          "after": "「獨一聖子」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「獨一天主」句",
+          "after": "「獨一天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "叫心",
+          "after": "confusus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卷凹",
+          "after": "卷四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        678
+      ],
+      "before": "「有分別的」(alius)，就像是一個指特殊部分或局部的名稱，其所指是主體或基體suppositum(而非本質或本體的sen­tia);因此，只要在指基體或位格的substantia方面有區別(dis-tinctio)，就滿全其定義或可以稱為有分別的(alius)。而「不同」(diversitas)則要求在指本質、本體的Sl郎tantla方面有區別。所以，我們不能說聖子不同於聖父或是與聖父不同的，雖然可以說，堂子別於聖父或是與聖父有分別的。(按: substantia一字有基本二義:一指自立的基體或位格，一指本質本體。質疑1.根據後一意義主張不可以說聖子與聖父有別，因為二者有同一本質本體;釋短i.則根據前一意義，認為聖子既有異於聖父之位格的位格，所以可以說聖子與聖父有別，是另一位。)",
+      "after": "「有分別的」(alius)，就像是一個指特殊部分或局部的名稱，其所指是主體或基體suppositum(而非本質或本體essen-tia)；因此，只要在指基體或位格的substantia方面有區別(dis-tinctio)，就滿全其定義或可以稱為有分別的(alius)。而「不同」(diversitas)則要求在指本質、本體的substantia方面有區別。所以，我們不能說聖子不同於聖父或是與聖父不同的，雖然可以說，聖子別於聖父或是與聖父有分別的。(按：substantia一字有基本二義：一指自立的基體或位格，一指本質本體。質疑1.根據後一意義主張不可以說聖子與聖父有別，因為二者有同一本質本體；釋疑1.則根據前一意義，認為聖子既有異於聖父之位格的位格，所以可以說聖子與聖父有別，是另一位。)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本體的sen­tia",
+          "after": "本體essen-tia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Sl郎tantla",
+          "after": "substantia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "堂子",
+          "after": "聖子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋短i.",
+          "after": "釋疑1.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        679
+      ],
+      "before": "「差異」(differentia)含有形式之區別(distinctio)。而在天主內卻只有一個形式，這由《斐理伯書》第二章6節所說的「祂(基督)雖具有天主的形式」可知。因此，如所引權威所顯示的，「有差異者Jídifferens)這個名稱，在天主內本不適用。然而大馬士革的若望卻把「差異」這個名稱用在天主的(三)位格上，這是因為他以形式的方式來表示關係的特徵(或視關係特徵如形式);因此他說:是在固定的特徵方面7而不是在本質本體方面，(三)位格彼此有差異(《論正統信仰》'卷三第五章)。不過，如正解己說過的，「差異」是當「區別」來用的。",
+      "after": "「差異」(differentia)含有形式之區別(distinctio)。而在天主內卻只有一個形式，這由《斐理伯書》第二章6節所說的「祂(基督)雖具有天主的形式」可知。因此，如所引權威所顯示的，「有差異者」(differens)這個名稱，在天主內本不適用。然而大馬士革的若望卻把「差異」這個名稱用在天主的(三)位格上，這是因為他以形式的方式來表示關係的特徵(或視關係特徵如形式)；因此他說：是在固定的特徵方面，而不是在本質本體方面，(三)位格彼此有差異(《論正統信仰》，卷三第五章)。不過，如正解己說過的，「差異」是當「區別」來用的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有差異者Jídifferens)",
+          "after": "有差異者」(differens)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方面7",
+          "after": "方面，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "信仰》'",
+          "after": "信仰》，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        679
+      ],
+      "before": "「不一樣的財IJ樣的」是指那外在的和不相似的。而「有分別的」卻沒有這種意思。因此，我們說聖子是與聖父「有分別的山雖然不說是「不一樣的」c",
+      "after": "「不一樣的或別樣的」是指那外在的和不相似的。而「有分別的」卻沒有這種意思。因此，我們說聖子是與聖父「有分別的」，雖然不說是「不一樣的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不一樣的財IJ樣的",
+          "after": "不一樣的或別樣的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有分別的山",
+          "after": "有分別的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不一樣的」c",
+          "after": "不一樣的」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        679
+      ],
+      "before": "文法上的無類或中性(genus neutrum)之詞，所指是缺乏形式的或尚未成型的(informe);而惕性之詞，所指則是已成型的和彼此有所區別的:陰性之詞亦是如此。因此，用中性之詞來表示共有的本質，而用陽性和陰性之詞來表示具有共有本質之特定的主體，這是適當的。因此，即使在人事方面也是如此:如果是問:「那是誰」(quis陽性或陰性)，回答是:「蘇格拉底」'這是一個主體或個體的名稱;如果是問:「那是什麼」(quid中性)，回答則是:「有理性和有死亡的動物」(一「種」物，非一個體)。因此，由於在天主內的區別，是依位格，而不是依本質，所以我們說，聖父與聖子「有分別或是另一位」(陽性的alius)，而不是(本質不同的)男一(種)物(中性的íaliudJ);反之我們卻說，聖父與聖子共是一(本質一一中性的-íunumJ)，而不說共是一個位格或一位(陽性的-unus)。",
+      "after": "文法上的無類或中性(genus neutrum)之詞，所指是缺乏形式的或尚未成型的(informe)；而陽性之詞，所指則是己成型的和彼此有所區別的：陰性之詞亦是如此。因此，用中性之詞來表示共有的本質，而用陽性和陰性之詞來表示具有共有本質之特定的主體，這是適當的。因此，即使在人事方面也是如此：如果是問：「那是誰」(quis陽性或陰性)，回答是：「蘇格拉底」，這是一個主體或個體的名稱；如果是問：「那是什麼」(quid中性)，回答則是：「有理性和有死亡的動物」(一「種」物，非一個體)。因此，由於在天主內的區別，是依位格，而不是依本質，所以我們說，聖父與聖子「有分別或是另一位」(陽性的alius)，而不是(本質不同的)另一(種)物(中性的「aliud」)；反之我們卻說，聖父與聖子共是一(本質——中性的—「unum」)，而不說共是一個位格或一位(陽性的—unus)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惕性",
+          "after": "陽性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已成型",
+          "after": "己成型",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蘇格拉底」'",
+          "after": "蘇格拉底」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "íaliudJ",
+          "after": "「aliud」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一中性的-íunumJ",
+          "after": "——中性的—「unum」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "陽性的-unus",
+          "after": "陽性的—unus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "是否應該把排除之詞「唯獨」加於在天主內的本質名稱之上",
+      "after": "是否應該把排除之詞「唯獨」加於在天主內的本質名稱之上",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "1.似乎不應應、該把排除或排他之(形容)詞或說法「唯獨(單獨、只有、只)」(卅d的本質或本體名稱之上。困為:",
+      "after": "1.似乎不應該把排除或排他之(形容)詞或說法「唯獨(單獨、只有、只)」(dictio exclusiva “solus”)，加於在天主內的本質或本體名稱之上。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1.似乎不應應、該把排除或排他之(形容)詞或說法「唯獨(單獨、只有、只)」(卅d的本質或本體名稱之上。困為:",
+          "after": "1.似乎不應該把排除或排他之(形容)詞或說法「唯獨(單獨、只有、只)」(dictio exclusiva “solus”)，加於在天主內的本質或本體名稱之上。因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "按哲學家在《駁詭辯的謬論》(Elench)卷二第三章所說，單獨的，就是「那不同別的在一起的」。而天主卻是同天使及聖靈魂在一起。所以，我們不能說天主是單獨的。",
+      "after": "按哲學家在《駁詭辯的謬論》(Elench)卷二第三章所說，單獨的，就是「那不同別的在一起的」。而天主卻是同天使及聖靈魂在一起。所以，我們不能說天主是單獨的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "此外，凡是與在天主內的本質名稱相連的，都可單獨地用來陳述(天主的)每一位，亦可同時陳述所有三位。因為，既然可以適當地說:「天主是智慧的」'我們當然可以說:「聖父是智慧的天主」'也可以說:「聖三是智慧的天主」。可是，奧斯定在《論天主聖三》卷六第九章卻說:「應該考慮說『聖父不是單獨的真天主』的這個意見。」所以，不能說天主是單獨的。",
+      "after": "此外，凡是與在天主內的本質名稱相連的，都可單獨地用來陳述(天主的)每一位，亦可同時陳述所有三位。因為，既然可以適當地說：「天主是智慧的」，我們當然可以說：「聖父是智慧的天主」，也可以說：「聖三是智慧的天主」。可是，奧斯定在《論天主聖三》卷六第九章卻說：「應該考慮說『聖父不是單獨的真天主』的這個意見。」所以，不能說天主是單獨的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智慧的」'",
+          "after": "智慧的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主」'",
+          "after": "天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "此外，如果把「唯獨」一詞與本質名稱相連，那麼它或是針對稱述位格的位格謂詞或述詞，或是針對本質述詞。然而，它不是針對位格述詞，因為「唯獨天主是父親(聖父)」這句話是錯的，因為連人也是父親。它也不是針對本質述詞。因為，如果「唯獨天主創造」這句話是真的，那麼「唯獨聖父創造」的結論似乎也是真的;因為凡是用來陳述天主的，都可用來陳述聖父。而「唯獨聖父創造」是錯的，因為聖子也是創造者。所以，「唯獨」一詞，在天主內不能與本質名稱相連。",
+      "after": "此外，如果把「唯獨」一詞與本質名稱相連，那麼它或是針對稱述位格的位格謂詞或述詞，或是針對本質述詞。然而，它不是針對位格述詞，因為「唯獨天主是父親(聖父)」這句話是錯的，因為連人也是父親。它也不是針對本質述詞。因為，如果「唯獨天主創造」這句話是真的，那麼「唯獨聖父創造」的結論似乎也是真的；因為凡是用來陳述天主的，都可用來陳述聖父。而「唯獨聖父創造」是錯的，因為聖子也是創造者。所以，「唯獨」一詞，在天主內不能與本質名稱相連。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        680
+      ],
+      "before": "《弟茂德前書》第一章17節卻說:「願尊崇和光榮歸於那萬世的不死不滅的君玉，手。不可見的獨一(單獨的soli)天玉。」",
+      "after": "《弟茂德前書》第一章17節卻說：「願尊崇和光榮歸於那萬世的不死不滅的君王，和不可見的獨一(單獨的soli)天主。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《弟茂德前書》第一章17節卻說:「願尊崇和光榮歸於那萬世的不死不滅的君玉，手。不可見的獨一(單獨的soli)天玉。」",
+          "after": "《弟茂德前書》第一章17節卻說：「願尊崇和光榮歸於那萬世的不死不滅的君王，和不可見的獨一(單獨的soli)天主。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        681
+      ],
+      "before": "我解答如下: 「唯獨」(solus)一詞或說法，可以解作絕對的(categorematica，本身意義完整不牽涉他物)，或相對的(syncategorematica，本身意義不完整而牽涉他物)。所謂絕對的說法，是把其所表示者絕對或直接加於一主體或基體，例如:說「白人」時，是把「白」加於人。如果「唯獨」一詞是這種意義，員IJ絕不可能與在天主內的任何名稱相連;因為那會把孤獨性(solitudo)加給其所相連之詞，而使天主變為孤獨的(按:如唯獨或只有天主、只有聖父等);而這相反前面第二節所說的。而所謂相對的(牽涉他物的)說法，則除指主體之外，尚引入其所稱述內容或述詞與主體的關係，例如: 「每一」或「無一」等即是。同樣，「唯獨」一詞或說法也是如此，因為「唯獨」排除其他主體共享其所稱述之內容或述詞。就如說: 「唯獨或只有(s01us)蘇格拉底在寫字」'不是說蘇格拉底是孤獨的;而是說:雖然有許多人和他在一起，但沒有人和他共同寫字。依此方式，把「唯獨」一詞與在天主內的本質名稱相連，並無不可，因為它只是在排除別於天主的其他共享其所稱述之內容或述詞;就如我們說: 「唯獨天主是永恆的」'因為除了天主之外，沒有什麼是永恆的。",
+      "after": "我解答如下：「唯獨」(solus)一詞或說法，可以解作絕對的(categorematica，本身意義完整不牽涉他物)，或相對的(syncategorematica，本身意義不完整而牽涉他物)。所謂絕對的說法，是把其所表示者絕對或直接加於一主體或基體，例如：說「白人」時，是把「白」加於人。如果「唯獨」一詞是這種意義，則絕不可能與在天主內的任何名稱相連；因為那會把孤獨性(solitudo)加給其所相連之詞，而使天主變為孤獨的(按：如唯獨或只有天主、只有聖父等)；而這相反前面第二節所說的。而所謂相對的(牽涉他物的)說法，則除指主體之外，尚引入其所稱述內容或述詞與主體的關係，例如：「每一」或「無一」等即是。同樣，「唯獨」一詞或說法也是如此，因為「唯獨」排除其他主體共享其所稱述之內容或述詞。就如說：「唯獨或只有(solus)蘇格拉底在寫字」，不是說蘇格拉底是孤獨的；而是說：雖然有許多人和他在一起，但沒有人和他共同寫字。依此方式，把「唯獨」一詞與在天主內的本質名稱相連，並無不可，因為它只是在排除別於天主的其他共享其所稱述之內容或述詞；就如我們說：「唯獨天主是永恆的」，因為除了天主之外，沒有什麼是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "s01us",
+          "after": "solus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "寫字」'",
+          "after": "寫字」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "永恆的」'",
+          "after": "永恆的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        681
+      ],
+      "before": "雖然天使和聖靈魂常常同天主在一起，可是假設在天主內沒有多位或多個位格，那麼天主仍是單獨的或孤獨的。因為有不同自然本性的物伴同，並不消除孤獨;因為雖然在花園裡有許多植物和動物，而仍然說某人是單獨地在那裡。同樣地，如果在天使內沒有多位或多個位格，即使有天便和人同祂在一起，仍然說祂是單獨的或孤獨的。所以，天使和靈魂的伴同，並不會排除天主的絕對孤獨;更不會排除相對的孤獨，即針對某一稱述內容或述詞的孤獨(按:如針對「是永恆的」)。",
+      "after": "雖然天使和聖靈魂常常同天主在一起，可是假設在天主內沒有多位或多個位格，那麼天主仍是單獨的或孤獨的。因為有不同自然本性的物伴同，並不消除孤獨；因為雖然在花園裡有許多植物和動物，而仍然說某人是單獨地在那裡。同樣地，如果在天使內沒有多位或多個位格，即使有天使和人同祂在一起，仍然說祂是單獨的或孤獨的。所以，天使和靈魂的伴同，並不會排除天主的絕對孤獨；更不會排除相對的孤獨，即針對某一稱述內容或述詞的孤獨(按：如針對「是永恆的」)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        681,
+        682
+      ],
+      "before": "I(形容詞)唯獨或單獨的」一詞，嚴格地說，不是取自或著眼於具有形式性質的述詞，因為它是針對主體(supposi-tum)，即它排除與其中目連之主體以外的其他主體。而「僅、只」(tantum)這個副詞，因是排他的，所以既可用於主體，亦可用於述詞;因為我們可以說: 「只蘇格拉底跑步」，即「沒有別人跑步」;我們也可以說: 「蘇格拉底只是跑步」'即「他不作別的」 0因此，本不可以(把形容詞「單獨的」加於述詞)說:「聖父是單獨的天主」或「聖三是單獨的天主」'除非在述詞內隱含有某種進一步的解釋，即如同說: 「聖三是天主，而祂(qui天主)是單獨的天主」。按此一解釋方式﹒「聖父是天王，而祂是單獨的天主」的說法亦可能是真的，如果該一關係或承上代名詞(中也qui)指的是(主旬「聖父是天主」中的)述詞，而不是主詞或主體。奧斯定所說的「聖父不是單獨的天主」和「聖三是單獨的天主」'是一種詮釋的說法，他的意思是:聖經所謂「萬世的君玉和不可見的獨一天主」'不應該解作是指聖父的位格，而應解作只指聖三。",
+      "after": "「(形容詞)唯獨或單獨的」一詞，嚴格地說，不是取自或著眼於具有形式性質的述詞，因為它是針對主體(supposi-tum)，即它排除與其相連之主體以外的其他主體。而「僅、只」(tantum)這個副詞，因是排他的，所以既可用於主體，亦可用於述詞；因為我們可以說：「只蘇格拉底跑步」，即「沒有別人跑步」；我們也可以說：「蘇格拉底只是跑步」，即「他不作別的」。因此，本不可以(把形容詞「單獨的」加於述詞)說：「聖父是單獨的天主」或「聖三是單獨的天主」，除非在述詞內隱含有某種進一步的解釋，即如同說：「聖三是天主，而祂(qui天主)是單獨的天主」。按此一解釋方式，「聖父是天主，而祂是單獨的天主」的說法亦可能是真的，如果該一關係或承上代名詞(祂qui)指的是(主句「聖父是天主」中的)述詞，而不是主詞或主體。奧斯定所說的「聖父不是單獨的天主」和「聖三是單獨的天主」，是一種詮釋的說法，他的意思是：聖經所謂「萬世的君王和不可見的獨一天主」，不應該解作是指聖父的位格，而應解作只指聖三。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "I(形容詞)",
+          "after": "「(形容詞)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中目連",
+          "after": "相連",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "跑步」'",
+          "after": "跑步」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "別的」 0",
+          "after": "別的」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主」'",
+          "after": "天主」，",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方式﹒",
+          "after": "方式，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天王",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中也qui",
+          "after": "祂qui",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "主旬",
+          "after": "主句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        682
+      ],
+      "before": ":唯獨」一詞，可兼以兩種方式(針對位格和本質述詞)與本質性的名稱相連。因為「唯獨天主是聖父」這一命題有兩種意義。因為「聖父」可能指聖父之位格，在這種意義下這命題是真的，因為沒有任何人是那個位格。或者可能僅指關係，而在這種義意下，這命題卻是錯誤的，因為在其他物中亦有父性之關係，雖然這種關係不是單義的或同一意義的。同樣，「唯獨天主創造」這句話也是真的。可是卻不能因此而說: 「所以，唯獨聖父創造」;因為，如論理學家所說，排除之詞固定或限制它所相連的名稱，使它不能下降而用於在它以下的主體或個體(suppositum!0因為不能由於「唯獨人是有死的有理性的動物」'而做結論說: 「所以唯獨蘇格拉底是這樣的動物」。",
+      "after": "「唯獨」一詞，可兼以兩種方式(針對位格和本質述詞)與本質性的名稱相連。因為「唯獨天主是聖父」這一命題有兩種意義。因為「聖父」可能指聖父之位格，在這種意義下這命題是真的，因為沒有任何人是那個位格。或者可能僅指關係，而在這種意義下，這命題卻是錯誤的，因為在其他物中亦有父性之關係，雖然這種關係不是單義的或同一意義的。同樣，「唯獨天主創造」這句話也是真的。可是卻不能因此而說：「所以，唯獨聖父創造」；因為，如論理學家所說，排除之詞固定或限制它所相連的名稱，使它不能下降而用於在它以下的主體或個體(suppositum)。因為不能由於「唯獨人是有死的有理性的動物」，而做結論說：「所以唯獨蘇格拉底是這樣的動物」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": ":唯獨」",
+          "after": "「唯獨」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "義意",
+          "after": "意義",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "suppositum!0",
+          "after": "suppositum)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動物」'",
+          "after": "動物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "排他之詞是否可與位格名稱相連",
+      "after": "排他之詞是否可與位格名稱相連",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q031.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "即使謂詞或述詞是一般性的或共同的，排他之詞似乎仍可與位格名稱相連。因為:",
+      "after": "即使謂詞或述詞是一般性的或共同的，排他之詞似乎仍可與位格名稱相連。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "在《若望福音》第十七章3節，主向聖父講話時，說:「認識你，獨一(或唯一的)真天主。」所以，唯獨聖父是真天主。",
+      "after": "在《若望福音》第十七章3節，主向聖父講話時，說：「認識你，獨一(或唯一的)真天主。」所以，唯獨聖父是真天主。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "此外，《瑪實褔音》第十一章27節說: 「除了父外，沒有人(nemo)認識子。」這也就等於說: 「唯獨父認識子。」可是，認識子是一般性的或共同的說法。所以結論如前。",
+      "after": "此外，《瑪竇福音》第十一章27節說：「除了父外，沒有人(nemo)認識子。」這也就等於說：「唯獨父認識子。」可是，認識子是一般性的或共同的說法。所以結論如前。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "瑪實褔音",
+          "after": "瑪竇福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "此外，排他之詞並不排除其所相連之名稱的概念所包含者;因此，它不排除(其所相連之名稱的)部分，亦不排除其普遍性。因為不可由於「唯獨蘇格拉底是白的」'而做結論說: 「他的手不是白的」或何人』不是白的」。可是，一位格被包含在另一位格的概念內，如聖父是在聖子的概念內，反之亦然。所以，說「唯獨聖父是天主」'並不排除聖子或聖神是天主。如此則這種說法似乎是對的。",
+      "after": "此外，排他之詞並不排除其所相連之名稱的概念所包含者；因此，它不排除(其所相連之名稱的)部分，亦不排除其普遍性。因為不可由於「唯獨蘇格拉底是白的」，而做結論說：「他的手不是白的」或「『人』不是白的」。可是，一位格被包含在另一位格的概念內，如聖父是在聖子的概念內，反之亦然。所以，說「唯獨聖父是天主」，並不排除聖子或聖神是天主。如此則這種說法似乎是對的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白的」'",
+          "after": "白的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "或何人』",
+          "after": "或「『人』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主」'",
+          "after": "天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "此外，教會歌頌說: 「唯有你(Tu solus)是至高無上的，耶穌基督。」(彌撒光榮頌)",
+      "after": "此外，教會歌頌說：「唯有你(Tu solus)是至高無上的，耶穌基督。」(彌撒光榮頌)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        683
+      ],
+      "before": "「唯獨聖父是天主」之說法，含有兩種解說，即「聖父是天主」'及「沒有任何另iJ1」士或在聖父以外的一位是天主」。可是，這第二種解說是錯的，因為聖子是男IJ於或在聖父以外的一位，而祂(聖子)是天主。所以，「唯獨聖父是天主」之說法是錯的。其餘類似說法亦同。",
+      "after": "「唯獨聖父是天主」之說法，含有兩種解說，即「聖父是天主」，及「沒有任何別於或在聖父以外的一位是天主」。可是，這第二種解說是錯的，因為聖子是別於或在聖父以外的一位，而祂(聖子)是天主。所以，「唯獨聖父是天主」之說法是錯的。其餘類似說法亦同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主」'",
+          "after": "天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另iJ1」士",
+          "after": "別於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男IJ於",
+          "after": "別於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        683,
+        684
+      ],
+      "before": "我解答如下:當我們說: 「唯獨聖父是天主」時，這個命題能有多種不同的解讀。如果「唯獨」這個字加給聖父一種孤獨性，那命題就錯了，這是採用絕對的說法。如果採用相對的說法，仍能有多種意義。因為，如果是由主體的形式中排除(其他一切)，那命題就是對的，其意義是: 「那沒有任何其他一位與祂間為父者，是天主。」奧斯定就是以這種方式在《論天主聖三》卷六第七章解釋說: 1我們說唯獨聖父，不是因為祂與聖子或聖神分開;我們如此說，是表示聖子與聖神不是與聖父一同為父。J可是，在一般習用的說法中卻沒有這種意義，除非是其中另含有某種解釋，即「那唯獨稱為父者，是天主」。按其本有意義來說，這命題是把其他排出於其述詞之外。依此，如果其所排除的11也J(alius)，是陽性之詞所表示者(某一個體)，則這命題是錯誤的;如果其所排除的「它」(aliud)，只是中性之詞所表示者(某一種物)，這命題則是真實的，因為聖子是聖父以外的另外一個(alius)，卻不是另外一種物(aliud);聖神也是如此。可是，如前面第三節釋疑2.己說過的，「唯獨或單獨」一詞本來是關於主詞或主體的，所以它所排除的，是另一個體，而不是另一種物。所以，不應推廣使用這種說法;在具有權威的著作中如遇到類似說法，貝iJ應以虔誠的精神力日以解釋。",
+      "after": "我解答如下：當我們說：「唯獨聖父是天主」時，這個命題能有多種不同的解讀。如果「唯獨」這個字加給聖父一種孤獨性，那命題就錯了，這是採用絕對的說法。如果採用相對的說法，仍能有多種意義。因為，如果是由主體的形式中排除(其他一切)，那命題就是對的，其意義是：「那沒有任何其他一位與祂同為父者，是天主。」奧斯定就是以這種方式在《論天主聖三》卷六第七章解釋說：「我們說唯獨聖父，不是因為祂與聖子或聖神分開；我們如此說，是表示聖子與聖神不是與聖父一同為父。」可是，在一般習用的說法中卻沒有這種意義，除非是其中另含有某種解釋，即「那唯獨稱為父者，是天主」。按其本有意義來說，這命題是把其他排出於其述詞之外。依此，如果其所排除的「他」(alius)，是陽性之詞所表示者(某一個體)，則這命題是錯誤的；如果其所排除的「它」(aliud)，只是中性之詞所表示者(某一種物)，這命題則是真實的，因為聖子是聖父以外的另外一個(alius)，卻不是另外一種物(aliud)；聖神也是如此。可是，如前面第三節釋疑2.己說過的，「唯獨或單獨」一詞本來是關於主詞或主體的，所以它所排除的，是另一個體，而不是另一種物。所以，不應推廣使用這種說法；在具有權威的著作中如遇到類似說法，則應以虔誠的精神加以解釋。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂間為",
+          "after": "祂同為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1我們說",
+          "after": "「我們說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為父。J",
+          "after": "為父。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "11也J",
+          "after": "「他」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝iJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力日以",
+          "after": "加以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        684
+      ],
+      "before": "當我們說: 「唯獨你是真天主」時，如奧斯定在《論天主聖三》卷六第九章所解釋的，其意思不是指聖父一位，而是指整體聖三。或者，如果是指聖父的位格，也並不排除其他位格，這是由於(天主)本質或本體之單一性或一體的原故，因為正如正解所說，「唯獨」一詞僅排除另一種物(aliud)。",
+      "after": "當我們說：「唯獨你是真天主」時，如奧斯定在《論天主聖三》卷六第九章所解釋的，其意思不是指聖父一位，而是指整體聖三。或者，如果是指聖父的位格，也並不排除其他位格，這是由於(天主)本質或本體之單一性或一體的原故，因為正如正解所說，「唯獨」一詞僅排除另一種物(aliud)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        684,
+        685
+      ],
+      "before": "對這一質疑的答案亦同。當從本質或本體觀點論及聖父時，由於本質或本體之單一性或一體，聖子及聖神均不被排除。不過，應該知道，在引證的這句聖經中，1(拉丁文) nemoJ一詞，與其表面所表示的「沒有一個人」(nullus homo)，並不完全一樣(因為後者是針對人的層次而言，如此則不能把父的位格排除);這個字，應按照一般說話的習慣，做周延的解釋，用以代表一切具有理性的本性。",
+      "after": "對這一質疑的答案亦同。當從本質或本體觀點論及聖父時，由於本質或本體之單一性或一體，聖子及聖神均不被排除。不過，應該知道，在引證的這句聖經中，「(拉丁文)nemo」一詞，與其表面所表示的「沒有一個人」(nullus homo)，並不完全一樣(因為後者是針對人的層次而言，如此則不能把父的位格排除)；這個字，應按照一般說話的習慣，做周延的解釋，用以代表一切具有理性的本性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1(拉丁文) nemoJ",
+          "after": "「(拉丁文)nemo」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        685
+      ],
+      "before": "排他之詞，如果?是有基體或主體(suppositum)方面之區別，如部分和普遍的，則不排除其所相連之名稱的概念所包含者。然而，聖子與聖父有基體或主體方面的區別;所以二者情形不同。",
+      "after": "排他之詞，如果沒有基體或主體(suppositum)方面之區別，如部分和普遍的，則不排除其所相連之名稱的概念所包含者。然而，聖子與聖父有基體或主體方面的區別；所以二者情形不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如果?是有",
+          "after": "如果沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q031.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        685
+      ],
+      "before": "我們並不是絕對地說，只有聖子是至高無上的;而是說，「借同聖神，並在共享天主聖父的光榮中」'只有聖子是至高無上的。",
+      "after": "我們並不是絕對地說，只有聖子是至高無上的；而是說，「偕同聖神，並在共享天主聖父的光榮中」，只有聖子是至高無上的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "借同",
+          "after": "偕同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "光榮中」'",
+          "after": "光榮中」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
