@@ -394,6 +394,20 @@
       "articles": 4,
       "source_defects_flagged": 7,
       "layout_differences_preserved_by_user_instruction": 0
+    },
+    {
+      "id": "I-q029",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I-q029.md",
+      "manifest": "I-q029.json",
+      "pdf_file_pages": [
+        643,
+        658
+      ],
+      "articles": 4,
+      "source_defects_flagged": 11,
+      "layout_differences_preserved_by_user_instruction": 0
     }
   ],
   "reviewed_question_ids": [
@@ -425,19 +439,20 @@
     "I.q025",
     "I.q026",
     "I.q027",
-    "I.q028"
+    "I.q028",
+    "I.q029"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 175,
+  "reviewed_articles": 179,
   "total_catalog_articles": 3125,
-  "next_question": "I.q029",
+  "next_question": "I.q030",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
     "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
-    "body_resume_at": "I.q029",
+    "body_resume_at": "I.q030",
     "resume_body_only_after_all_titles_reviewed": true,
     "all_title_slots_audited_on": "2026-10-23",
     "title_source_gaps": [
