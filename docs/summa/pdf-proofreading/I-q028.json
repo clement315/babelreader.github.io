@@ -1,0 +1,1601 @@
+{
+  "schema_version": 1,
+  "batch": "I-q028",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "cf3e6e22ff8d32023f666b90497f21cfbea58b31",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q028",
+    "title": "論天主內之關係",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642
+    ],
+    "printed_pages": [
+      415,
+      426
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 53,
+    "changed_review_units": 42,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q28.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q28.json": "cb214519824fb1d807d055cb6dad6a6295f3d69065909e772bfaec0053f98d42"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q028.a002.ad2",
+      "pdf_file_page": 637,
+      "text": "名稱時己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a002.ad3",
+      "pdf_file_page": 637,
+      "text": "第二節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a003.respondeo",
+      "pdf_file_page": 638,
+      "text": "第一節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a004.arg3",
+      "pdf_file_page": 640,
+      "text": "第二節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a004.respondeo",
+      "pdf_file_page": 640,
+      "text": "第七節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a004.respondeo",
+      "pdf_file_page": 641,
+      "text": "第五節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q028.a004.respondeo",
+      "pdf_file_page": 641,
+      "text": "第四節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，按底本保留或恢复，供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部12页逐页对齐；第四节释疑一在网页末尾漏掉的「言。」依原页补足，第三节拉丁词和第四节书目原文核对。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q028.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "然後要討論的是天主內的關係(relationes;參看第二十七題引言)。\n關於這一點，可以提出四個問題:\n一、在天主內是否有某些實在關係。\n二、這些關係是否就是天主的本質或本體，或者是外加(於本質或本體)的。\n三、在天主內能否有多種或多個相互實際有別的問係。\n四、論這些關係之數目。",
+      "after": "然後要討論的是天主內的關係(relationes；參看第二十七題引言)。\n關於這一點，可以提出四個問題：\n一、在天主內是否有某些實在關係。\n二、這些關係是否就是天主的本質或本體，或者是外加(於本質或本體)的。\n三、在天主內能否有多種或多個相互實際有別的關係。\n四、論這些關係之數目。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "問係",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "在天主內是否有某些實在關係",
+      "after": "在天主內是否有某些實在關係",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "在天主內似乎沒有某些實在(reales)關係。因為:",
+      "after": "在天主內似乎沒有某些實在(reales)關係。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        631
+      ],
+      "before": "波其武在《論天主聖三》第四章說:「當人用各種範疇來稱述天主時，凡是能用以稱述天主者，都轉變成本體或自立體;至於關係或關係到棄物(ad aliquid)，則完全不能用以稱一述天主。」可是，凡是實在或實際存在於天主內者，都能用以稱述天主。所以，關係並不是實在或實際存在於天主內。",
+      "after": "波其武在《論天主聖三》第四章說：「當人用各種範疇來稱述天主時，凡是能用以稱述天主者，都轉變成本體或自立體；至於關係或關係到某物(ad aliquid)，則完全不能用以稱述天主。」可是，凡是實在或實際存在於天主內者，都能用以稱述天主。所以，關係並不是實在或實際存在於天主內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "棄物",
+          "after": "某物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "稱一述",
+          "after": "稱述",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        631,
+        632
+      ],
+      "before": "此外，波其武在同書第六章又說:「在天主聖三內，聖父與聖子之關係，以及兩者與聖神之關係9彼此相似，都是那本是同一物者與那本是同一物者的關係(按:聖父、聖子、聖神本是同一天主)0 」可是，這種關係只不過是觀念上的或思想上的關係而已(只存在於思想上)，因為一切實在的關係(存在於物本身的關係)。都需要有實在的兩端。所以，在天主內之關係，不是實在的，而僅是思想t的。",
+      "after": "此外，波其武在同書第六章又說：「在天主聖三內，聖父與聖子之關係，以及兩者與聖神之關係，彼此相似，都是那本是同一物者與那本是同一物者的關係(按：聖父、聖子、聖神本是同一天主)。」可是，這種關係只不過是觀念上的或思想上的關係而已(只存在於思想上)，因為一切實在的關係(存在於物本身的關係)，都需要有實在的兩端。所以，在天主內之關係，不是實在的，而僅是思想上的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係9",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主)0 」",
+          "after": "天主)。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係)。都",
+          "after": "關係)，都",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "思想t",
+          "after": "思想上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        632
+      ],
+      "before": "此外，父性之關係是一種本源的關{系。可是，當說天主是受造物的本源時，並不意謂任何實在的關係，而只是一種思想上的關係而已。所以，在天主內的父性也不是實在的關係。同理，其他在天主內的關係也不是實在的。",
+      "after": "此外，父性之關係是一種本源的關係。可是，當說天主是受造物的本源時，並不意謂任何實在的關係，而只是一種思想上的關係而已。所以，在天主內的父性也不是實在的關係。同理，其他在天主內的關係也不是實在的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        632
+      ],
+      "before": "此外，天主內的生或生育，是根據可理解之言的出發，而由理智之活動而來的關係'是思想上的關係。所以，在天主內根據生或生育所說的父性和子性，僅是思想上的關係而已。",
+      "after": "此外，天主內的生或生育，是根據可理解之言的出發，而由理智之活動而來的關係，是思想上的關係。所以，在天主內根據生或生育所說的父性和子性，僅是思想上的關係而已。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        632
+      ],
+      "before": "如非有父性，便不會稱為父;如非有子性，亦不會稱為子。所以，如果在天主內的父性與子性都不是實在的，那麼天主之是聖父和聖子也不是實在的，而只是根據理智的思想;而這卻是薩培裏的異端(haeresis Sabelliana)。",
+      "after": "如非有父性，便不會稱為父；如非有子性，亦不會稱為子。所以，如果在天主內的父性與子性都不是實在的，那麼天主之是聖父和聖子也不是實在的，而只是根據理智的思想；而這卻是薩培里的異端(haeresis Sabelliana)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "薩培裏",
+          "after": "薩培里",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        632,
+        633
+      ],
+      "before": "我解答如下:在天主內，有些關係是實在的。為明示此點，應該注意，只有在那些關係到某物或與某物有關係者中，纔有某些只存在於理性之思想中而不存在於物本身內者。在其他種顯(的範疇)中並沒有這種情形;因為其他的種類，如量和質，按其本質就表示是依附於某物者。而關係或那些所謂關係到某物者，按其本質卻僅表示與或針對另一物的關連(respectus)。而這種關連有時是在物之自然本性內;比如:有些東西依其本性就彼此之間有某種秩序，並互有傾向。這樣的關係應該是實在的。比如在有重量的物體內，有趨於適中地方或位置的傾向與趨勢;因此，在這有重量的物體內，就有一種與或針對適中位置的關連。其他類似的東西也是一樣。不過，關係或那些所謂關係到某物者所表示的關連，有時卻只存在於比較一物與另一物的理性之領悟或思想內;那時，就只有思想上的關係了，比如幾時理性把人與動物的比較作為「種」(species'別類)與「類」(genus'共類)的比較。(按:把動物「類」分為非理性或無靈動物和理性或有靈動物(人)兩「種」'這所謂類和種，以及其間之關係，只存在於理性中，並不存在於動物和人中。)\n當一物由具有同樣本性的本源出發時，那麼二者，即造出發者，和那其所從出或出發者﹒必在同一秩序中相合相通;因此彼此之間必有實在之關連。所以，如第二十七題第三節釋疑2.所證明的，在天主內之出發既是在同一本性內，那麼根據天主內的出發而有的關係，必是實在的閱(系。",
+      "after": "我解答如下：在天主內，有些關係是實在的。為明示此點，應該注意，只有在那些關係到某物或與某物有關係者中，才有某些只存在於理性之思想中而不存在於物本身內者。在其他種類(的範疇)中並沒有這種情形；因為其他的種類，如量和質，按其本質就表示是依附於某物者。而關係或那些所謂關係到某物者，按其本質卻僅表示與或針對另一物的關連(respectus)。而這種關連有時是在物之自然本性內；比如：有些東西依其本性就彼此之間有某種秩序，並互有傾向。這樣的關係應該是實在的。比如在有重量的物體內，有趨於適中地方或位置的傾向與趨勢；因此，在這有重量的物體內，就有一種與或針對適中位置的關連。其他類似的東西也是一樣。不過，關係或那些所謂關係到某物者所表示的關連，有時卻只存在於比較一物與另一物的理性之領悟或思想內；那時，就只有思想上的關係了，比如幾時理性把人與動物的比較作為「種」(species，別類)與「類」(genus，共類)的比較。(按：把動物「類」分為非理性或無靈動物和理性或有靈動物(人)兩「種」，這所謂類和種，以及其間之關係，只存在於理性中，並不存在於動物和人中。)\n當一物由具有同樣本性的本源出發時，那麼二者，即這出發者，和那其所從出或出發者，必在同一秩序中相合相通；因此彼此之間必有實在之關連。所以，如第二十七題第三節釋疑2.所證明的，在天主內之出發既是在同一本性內，那麼根據天主內的出發而有的關係，必是實在的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "種顯",
+          "after": "種類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "species'",
+          "after": "species，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "genus'",
+          "after": "genus，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「種」'",
+          "after": "「種」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造出發者",
+          "after": "這出發者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發者﹒",
+          "after": "發者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閱(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        633
+      ],
+      "before": "所謂不能用關係到某物或關係來稱述天主，是根據關係的特有之理或本質;還是因為關係之特有之理或本質，不是指關係與其所屬之物或主體的相較或配合，而是指與另一物(終點)的關連。所以，波其武無意藉此排除在天主內有關係，而只是說，根據關係的特有之理或本質，不可以用它按照(f象依附體)依附(主體)的方式來稱述，而只可以依照關係或關連到他物的方式。",
+      "after": "所謂不能用關係到某物或關係來稱述天主，是根據關係的特有之理或本質；這是因為關係之特有之理或本質，不是指關係與其所屬之物或主體的相較或配合，而是指與另一物(終點)的關連。所以，波其武無意藉此排除在天主內有關係，而只是說，根據關係的特有之理或本質，不可以用它按照(像依附體)依附(主體)的方式來稱述，而只可以依照關係或關連到他物的方式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還是因為",
+          "after": "這是因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(f象",
+          "after": "(像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        633
+      ],
+      "before": "只有在把「同一」這個字懂作絕對或全面同」的時候，由「同-」這個名稱所表示的關係才只是思想上的關係;因為這種關係，只能存在於理性按照對一物的兩種不同的觀點，所構思出的這物與它自己的秩序內。不過，如果所謂「同-」'不是指數目的同-個，而是指物類或物種之本性的同一，那情形就不一樣了。所以，波其武之把天主內的關係比作同一性之關係，不是在每一方面，而只是在這一點上，即本體並不因這些關係而變為不同，就如本體亦不因同一性關係而變為不同一樣。",
+      "after": "只有在把「同一」這個字懂作絕對或全面同一的時候，由「同一」這個名稱所表示的關係才只是思想上的關係；因為這種關係，只能存在於理性按照對一物的兩種不同的觀點，所構思出的這物與它自己的秩序內。不過，如果所謂「同一」，不是指數目的同一個，而是指物類或物種之本性的同一，那情形就不一樣了。所以，波其武之把天主內的關係比作同一性之關係，不是在每一方面，而只是在這一點上，即本體並不因這些關係而變為不同，就如本體亦不因同一性關係而變為不同一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "全面同」",
+          "after": "全面同一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同-",
+          "after": "同一",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同一」'",
+          "after": "同一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        633,
+        634
+      ],
+      "before": "由於受造物白天主出發而有不同之本性，所以天主是在全部受造物之秩序以外，祂與受造物之關係亦非出於祂的本性。因為天主之產生受造物，不是出於其本性之必然，而是如第十四題第八節和第十九題第四節所說的，藉由天主的理智和意志。因此，在天主內沒有對受造物之實在關係。可是，在受造物內卻有對天主的實在關係;因為受造物被包含在天主的秩序之內，其繫屬於天主，屬於他們的本性。而天主內之出發，卻是在同一本性內。因此，情形並不相同。",
+      "after": "由於受造物自天主出發而有不同之本性，所以天主是在全部受造物之秩序以外，祂與受造物之關係亦非出於祂的本性。因為天主之產生受造物，不是出於其本性之必然，而是如第十四題第八節和第十九題第四節所說的，藉由天主的理智和意志。因此，在天主內沒有對受造物之實在關係。可是，在受造物內卻有對天主的實在關係；因為受造物被包含在天主的秩序之內，其繫屬於天主，屬於他們的本性。而天主內之出發，卻是在同一本性內。因此，情形並不相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天主",
+          "after": "自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "僅隨理智之活動而來的在被理解事物內之關係，只是思想上的關係而已，也就是說，是因為理性在兩個被理解的事物問構思或想出這些關係o不過，隨理智之活動而來的，存在於依理解方式而出發的言及其所從出之本源(理智)間的關係，則不只是思想上的，而是實在的關係;因為理智和理性也是實在的物，而且與依理解方式而出發者，有實在的關連，就如形體物與依形體方式出發者有實在的關連一樣。因此，在天主內之父性與子性是實在的關係。",
+      "after": "僅隨理智之活動而來的在被理解事物內之關係，只是思想上的關係而已，也就是說，是因為理性在兩個被理解的事物間構思或想出這些關係。不過，隨理智之活動而來的，存在於依理解方式而出發的言及其所從出之本源(理智)間的關係，則不只是思想上的，而是實在的關係；因為理智和理性也是實在的物，而且與依理解方式而出發者，有實在的關連，就如形體物與依形體方式出發者有實在的關連一樣。因此，在天主內之父性與子性是實在的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事物問",
+          "after": "事物間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係o",
+          "after": "關係。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "天主內之關係，與天主之本質或本體是否相同",
+      "after": "天主內之關係，與天主之本質或本體是否相同",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "天主內之關係'與天主之本質或本體，似乎並不相同(或不是同一的idem)。因為:",
+      "after": "天主內之關係，與天主之本質或本體，似乎並不相同(或不是同一的idem)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        634
+      ],
+      "before": "奧斯定在《論天主聖三》卷五第五章說: 「並非所說的在天主內的一切，都是依據本體或本質而說的。因為也說對他者之關係，比如說聖父對聖子之關係;而這不是依據本體而說的。」所以，關係不是天主的本質或本體。",
+      "after": "奧斯定在《論天主聖三》卷五第五章說：「並非所說的在天主內的一切，都是依據本體或本質而說的。因為也說對他者之關係，比如說聖父對聖子之關係；而這不是依據本體而說的。」所以，關係不是天主的本質或本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        634,
+        635
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷七第一章說: 「凡是用關係所述說之物，關係之外，也另有他物;比如主人和僕人(按:主、僕關係之外，另有『人』作為關係之主體)」所0以，如果在天主內有某些關係，那麼除了這些關係之外，在天主內必定還另有他物。可是，這「他物」只能是天主之本質或本體。所以，本質或本體是不同於關係之物。",
+      "after": "此外，奧斯定在《論天主聖三》卷七第一章說：「凡是用關係所述說之物，關係之外，也另有他物；比如主人和僕人(按：主、僕關係之外，另有『人』作為關係之主體)。」所以，如果在天主內有某些關係，那麼除了這些關係之外，在天主內必定還另有他物。可是，這「他物」只能是天主之本質或本體。所以，本質或本體是不同於關係之物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "主體)」所0以",
+          "after": "主體)。」所以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        635
+      ],
+      "before": "此外，如《範疇論》第五章所說，有關係之物的存在，是針對或相對於他物的存在。所以，如果關係就是天主的本質或本體，那麼天主之本質或本體的存在便是相對於他物的存在了;而這與天主存在的完美性是不能相容的，因為如前面第三題第四節所證明的，天主的存在是最絕對的，是本然自立的。所以，關係不是天主的本質或本體。",
+      "after": "此外，如《範疇論》第五章所說，有關係之物的存在，是針對或相對於他物的存在。所以，如果關係就是天主的本質或本體，那麼天主之本質或本體的存在便是相對於他物的存在了；而這與天主存在的完美性是不能相容的，因為如前面第三題第四節所證明的，天主的存在是最絕對的，是本然自立的。所以，關係不是天主的本質或本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        635
+      ],
+      "before": "凡不是天主的本質或本體之物，都是受造物。而歸於天主的關係是實在的。所以，如果關係不是天主之本質或本體，那就是受造物了;如此也就不應對之施以崇拜(天主)之禮;可是，相反這一點，(聖三節彌撒之)頌謝詞卻唱說: 「崇拜天主，應位格(三位)分明，尊威均等(相同、一同)0 」",
+      "after": "凡不是天主的本質或本體之物，都是受造物。而歸於天主的關係是實在的。所以，如果關係不是天主之本質或本體，那就是受造物了；如此也就不應對之施以崇拜(天主)之禮；可是，相反這一點，(聖三節彌撒之)頌謝詞卻唱說：「崇拜天主，應位格(三位)分明，尊威均等(相同、一同)。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一同)0 」",
+          "after": "一同)。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        635,
+        636
+      ],
+      "before": "我解答如下:關於這一點，據說包萊的吉爾波(Gilbertus Porretanus)，曾犯過錯誤，但後來在萊姆士會議中撤回了自己的錯誤主張。他曾說，天主內之關係是陪侍或搭配性的(assistentes)，或外加(於本質或本體)的。\n為明示筒中情形，應該注意，在九類依附體的每一類內，都有兩點應予考慮。其中之一，是每一類依附體作為依附體所有的存在，這是一切依附體所共有的，即依附於主體內的存在，因為依附體之存在就是在......內存在。在每一類依附體中，另外可以考慮的一點，是各類依附體中每一類所特有的性質或理。關係之外的其他依附體，如量與質，即使其類的特有性質，亦係來自其與主體之比較或配合，因為量是本體之度量，質是本體之素質。而關係之特有性質，卻不是來自與其所在之主體之比較或配合，而是來自與外在的他物之比較或配合。\n所以，即使是在受造物中，如果我們把關係作為關係來看，那麼關係便是陪侍或搭配性的(外加的)，而不是依附於內部的;好像他們是在表示多少會涉及到有關係之物的一種關連，而此一關連由該物出發趨向另外一物。不過，如果把關係作為依附體來看，那麼關係便是依附於主體內的，並在主體內有依附的存在。而包萊的吉爾波卻是隻按第一種看法討論了關{系。\n不過，凡是在受造物內有依附的存在者，被移置於天主內時，便有自立的存在了;因為在天主內沒有什麼如同是在主體內的依附體，凡是在天主內者盡是天主的本質或本體。因此，相對於在受造物內的關係，在主體內有依附的存在，而實際存在於天主內的關係，貝IJ有天主之本質或本體的存在，與天主之本質或本體完全相同的存在。不過，就關係是說關係到某物這一點而言，關係並不表示與本質或本體之關係，而是與其相對者之關係。因此，實際存在於天主內之關係，就其本身而言(secundum rem)，與天主的本質或本體顯然是同-的;其分別只是在理智的思考方面，這是依據在關係內含有(一物)對與其相對之物的關連，而這關連卻並不包含在「本質或本體」(essentÎa)這一名稱內。所以，在天主內，關係之存在，並非別於本質或本體之存在，而是同一個相同的存在，這是很明顯的。",
+      "after": "我解答如下：關於這一點，據說包萊的吉爾波(Gilbertus Porretanus)，曾犯過錯誤，但後來在萊姆士會議中撤回了自己的錯誤主張。他曾說，天主內之關係是陪侍或搭配性的(assistentes)，或外加(於本質或本體)的。\n為明示箇中情形，應該注意，在九類依附體的每一類內，都有兩點應予考慮。其中之一，是每一類依附體作為依附體所有的存在，這是一切依附體所共有的，即依附於主體內的存在，因為依附體之存在就是在……內存在。在每一類依附體中，另外可以考慮的一點，是各類依附體中每一類所特有的性質或理。關係之外的其他依附體，如量與質，即使其類的特有性質，亦係來自其與主體之比較或配合，因為量是本體之度量，質是本體之素質。而關係之特有性質，卻不是來自與其所在之主體之比較或配合，而是來自與外在的他物之比較或配合。\n所以，即使是在受造物中，如果我們把關係作為關係來看，那麼關係便是陪侍或搭配性的(外加的)，而不是依附於內部的；好像他們是在表示多少會涉及到有關係之物的一種關連，而此一關連由該物出發趨向另外一物。不過，如果把關係作為依附體來看，那麼關係便是依附於主體內的，並在主體內有依附的存在。而包萊的吉爾波卻是只按第一種看法討論了關係。\n不過，凡是在受造物內有依附的存在者，被移置於天主內時，便有自立的存在了；因為在天主內沒有什麼如同是在主體內的依附體，凡是在天主內者盡是天主的本質或本體。因此，相對於在受造物內的關係，在主體內有依附的存在，而實際存在於天主內的關係，則有天主之本質或本體的存在，與天主之本質或本體完全相同的存在。不過，就關係是說關係到某物這一點而言，關係並不表示與本質或本體之關係，而是與其相對者之關係。因此，實際存在於天主內之關係，就其本身而言(secundum rem)，與天主的本質或本體顯然是同一的；其分別只是在理智的思考方面，這是依據在關係內含有(一物)對與其相對之物的關連，而這關連卻並不包含在「本質或本體」(essentia)這一名稱內。所以，在天主內，關係之存在，並非別於本質或本體之存在，而是同一個相同的存在，這是很明顯的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "筒中",
+          "after": "箇中",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "......",
+          "after": "……",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻按",
+          "after": "只按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同-",
+          "after": "同一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "essentÎa",
+          "after": "essentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        636,
+        637
+      ],
+      "before": "奧斯定的這些話，並不表示天主內之父性或其他關係，依其存在而言，與天主之本質或本體不是同一的;其意思是說，不是用它按自立體或本體的方面來稱述，即不是把它視為存在於其所稱述之物內者，而是視之為與他物有關連者c因此，才說在天主內只有兩種範疇(按:即自立體與關係)，因為其他的範疇，不拘是在自己的存在方面，或是在各自特有的理或性質方面，都含有與其所述說之物的交結或連結;可是，在天主內‘卻沒有什麼能與其所在之物，或其所述說之物，有任(可交結或連結，除非是同一性方面的，這是因為天主之至高的單純性的原故。",
+      "after": "奧斯定的這些話，並不表示天主內之父性或其他關係，依其存在而言，與天主之本質或本體不是同一的；其意思是說，不是用它按自立體或本體的方面來稱述，即不是把它視為存在於其所稱述之物內者，而是視之為與他物有關連者。因此，才說在天主內只有兩種範疇(按：即自立體與關係)，因為其他的範疇，不拘是在自己的存在方面，或是在各自特有的理或性質方面，都含有與其所述說之物的交結或連結；可是，在天主內，卻沒有什麼能與其所在之物，或其所述說之物，有任何交結或連結，除非是同一性方面的，這是因為天主之至高的單純性的原故。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "者c",
+          "after": "者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主內‘",
+          "after": "天主內，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "任(可",
+          "after": "任何",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "正如在受造物中，在那所謂有關係者中，不僅有對男一物之關連，而且也有某種絕對或獨立者;同樣，在天主內也是如此;不過不是完全一樣。因為在受造物中，除了意指關係之名稱的意義所包括者之外，還另有他物;而在天主內，卻不是另有他物，而是同一相同物，只是未能藉意指關係之名稱把它完全表達出來，未能把它包括在意指關係之名稱的意義中。因為在第十三題第二節討論天主之名稱時已說過，在天主本質或本體之完美性中所包括的，遠比任何名稱所能表示者多。所以，不能因此而說，在天主內除了關係之外，在實物方面或就物本身來說，還另有他物;其區別只在於所討論的名稱之意涵方面。",
+      "after": "正如在受造物中，在那所謂有關係者中，不僅有對另一物之關連，而且也有某種絕對或獨立者；同樣，在天主內也是如此；不過不是完全一樣。因為在受造物中，除了意指關係之名稱的意義所包括者之外，還另有他物；而在天主內，卻不是另有他物，而是同一相同物，只是未能藉意指關係之名稱把它完全表達出來，未能把它包括在意指關係之名稱的意義中。因為在第十三題第二節討論天主之名稱時己說過，在天主本質或本體之完美性中所包括的，遠比任何名稱所能表示者多。所以，不能因此而說，在天主內除了關係之外，在實物方面或就物本身來說，還另有他物；其區別只在於所討論的名稱之意涵方面。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "假如在天主的完美性內，除了意指關係之名稱所表示者之外，就再沒有別的了，那麼天主的存在就如同是與他物有關連的，而是不完美的了;就像假如在天主的完美性內，除了智慧這個名稱所表示者之外，就再沒有別的了，那麼在天主內就沒有任何自立存在者了。可是，由於天主之完美性大於任何名稱之意義所能包括者，所以不能說:如果意指關係之名稱，或任何其他用於天主之名稱，並不是表示某種完美之物，那麼天主之本質或本體就是有不完美的存在，因為天主的本質或本體，在自己內總括一切種類的完美，如第四題第二節己說過的。",
+      "after": "假如在天主的完美性內，除了意指關係之名稱所表示者之外，就再沒有別的了，那麼天主的存在就如同是與他物有關連的，而是不完美的了；就像假如在天主的完美性內，除了智慧這個名稱所表示者之外，就再沒有別的了，那麼在天主內就沒有任何自立存在者了。可是，由於天主之完美性大於任何名稱之意義所能包括者，所以不能說：如果意指關係之名稱，或任何其他用於天主之名稱，並不是表示某種完美之物，那麼天主之本質或本體就是有不完美的存在，因為天主的本質或本體，在自己內總括一切種類的完美，如第四題第二節己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "天主內之關係是否彼此之間有實在的區別",
+      "after": "天主內之關係是否彼此之間有實在的區別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        637
+      ],
+      "before": "在天主內之閱(系，彼此之間似乎沒有實在的區別。因為:",
+      "after": "在天主內之關係，彼此之間似乎沒有實在的區別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "閱(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        637,
+        638
+      ],
+      "before": "凡是與同一物相同者，彼此亦相同。而在天主內之一切關係，就其本身而言(secundum rem)，均與天主之本質或本體相同。所以，就其本身而言，這些關係彼此之間並沒有區別。",
+      "after": "凡是與同一物相同者，彼此亦相同。而在天主內之一切關係，就其本身而言(secundum rem)，均與天主之本質或本體相同。所以，就其本身而言，這些關係彼此之間並沒有區別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        638
+      ],
+      "before": "此外，父性和於性，依名稱之理(定義)或性質，與天主之本質或本體有所區別;同樣，善間能力亦然。可是，天主的善性與能力，並不由於這種理或性質方面的區別，而彼此之間有實在的區別。所以，父性和子性之間也沒有。",
+      "after": "此外，父性和子性，依名稱之理(定義)或性質，與天主之本質或本體有所區別；同樣，善性和能力亦然。可是，天主的善性與能力，並不由於這種理或性質方面的區別，而彼此之間有實在的區別。所以，父性和子性之間也沒有。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "於性",
+          "after": "子性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善間能力",
+          "after": "善性和能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        638
+      ],
+      "before": "此外，在天主內，除了依據起源的關係之外，別無實在的區別。而一個關係似乎不是源於或出於另一個關係。所以，關係彼此之間沒有實在的區別。",
+      "after": "此外，在天主內，除了依據起源的關係之外，別無實在的區別。而一個關係似乎不是源於或出於另一個關係。所以，關係彼此之間沒有實在的區別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        638
+      ],
+      "before": "波其武在《論天主聖三》第六章卻說: 「在天主內，本體含有唯一性(一體)，而關係增之為三位。」如果關係彼此之間沒有實在的區別，則在天主內亦沒有實在的三位，而只在思想上有三位;而這屬於薩培裏的錯誤。",
+      "after": "波其武在《論天主聖三》第六章卻說：「在天主內，本體含有唯一性(一體)，而關係增之為三位。」如果關係彼此之間沒有實在的區別，則在天主內亦沒有實在的三位，而只在思想上有三位；而這屬於薩培里的錯誤。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "薩培裏",
+          "after": "薩培里",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        638
+      ],
+      "before": "我解答如下:如果把某一物歸於另一物，就應該把屬於這某一物之理或本質的一切，都歸於那另一物;比如:無論把「人」歸於那一物，都應該把「有理性或理性的存在」歸於他。而關係之理或本質，就在於一物對另一物的關連，依此關連，一物與另一物在關係方面相對或相互對立。因此，在天主內既然實在有關係或有實在的關係，如先前第一節已說過的，那麼在天主內必也實在有相對或對立。而關係方面的相對或對立，在其本質或理內就含有區別。所以，在天主內應該有實在的區別(物本身實有的區別);當然這不是就絕對的物本身或物本身的絕對面而言，因為絕對的物就是兼有至一性和至高單純性的天主本質或本體;而是就有關係的物或物的關係面而言的ζ",
+      "after": "我解答如下：如果把某一物歸於另一物，就應該把屬於這某一物之理或本質的一切，都歸於那另一物；比如：無論把「人」歸於那一物，都應該把「有理性或理性的存在」歸於他。而關係之理或本質，就在於一物對另一物的關連，依此關連，一物與另一物在關係方面相對或相互對立。因此，在天主內既然實在有關係或有實在的關係，如先前第一節己說過的，那麼在天主內必也實在有相對或對立。而關係方面的相對或對立，在其本質或理內就含有區別。所以，在天主內應該有實在的區別(物本身實有的區別)；當然這不是就絕對的物本身或物本身的絕對面而言，因為絕對的物就是兼有至一性和至高單純性的天主本質或本體；而是就有關係的物或物的關係面而言的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而言的ζ",
+          "after": "而言的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "依哲學家在《物理學》卷三第三章所說，這一論證，即凡是與同一物相同者，彼此亦相同，只針對那些在物本身和在思想或觀念上均完全相同的事物纔有效，比如:(拉T文的) tunica(衣)和indumentum(衣著);然而，對於在思想或觀念上有區別的事物則無效。因此，在同處他又說:雖然主動(actio)與動或變動(motus)相同(主動是動)，被動(passio)亦然(被動亦是動);可是，不能因此而說主動與被動相同(王動就是或等於被動);因為在「主動」內所有的觀點或與可動者之動的關連，有如是動之所從出者或本源(起點)，而在「被動」內所有者，則是動來自他物(或動的終點)。同樣，雖然就物本身來說，父性與天主之本質或本體相同，子性亦然;可是，此二者在其特有之理或觀念上，卻含有互相對立的觀點或閱連。因此，也彼此有區別。",
+      "after": "依哲學家在《物理學》卷三第三章所說，這一論證，即凡是與同一物相同者，彼此亦相同，只針對那些在物本身和在思想或觀念上均完全相同的事物才有效，比如：(拉丁文的) tunica(衣)和indumentum(衣著)；然而，對於在思想或觀念上有區別的事物則無效。因此，在同處他又說：雖然主動(actio)與動或變動(motus)相同(主動是動)，被動(passio)亦然(被動亦是動)；可是，不能因此而說主動與被動相同(主動就是或等於被動)；因為在「主動」內所有的觀點或與可動者之動的關連，有如是動之所從出者或本源(起點)，而在「被動」內所有者，則是動來自他物(或動的終點)。同樣，雖然就物本身來說，父性與天主之本質或本體相同，子性亦然；可是，此二者在其特有之理或觀念上，卻含有互相對立的觀點或關連。因此，也彼此有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有效",
+          "after": "才有效",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉T文",
+          "after": "拉丁文",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "王動",
+          "after": "主動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閱連",
+          "after": "關連",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "能力與善性，在其理或觀念上，並不含有任何相對或對立;是以情形不同。",
+      "after": "能力與善性，在其理或觀念上，並不含有任何相對或對立；是以情形不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "雖然嚴格地說，關係彼此之間，不是一個關係源於或出於另一個關係;不過，關係卻依據一物之由男一物出發，而被視為相對或對立者。",
+      "after": "雖然嚴格地說，關係彼此之間，不是一個關係源於或出於另一個關係；不過，關係卻依據一物之由另一物出發，而被視為相對或對立者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "在天主內是否僅有四種實在關係，即父性、子性、發出，及被發出或出發",
+      "after": "在天主內是否僅有四種實在關係，即父性、子性、發出，及被發出或出發",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "在天主內似乎不僅有四種實在關係，即父性、子性、發出(spiratio噓氣、噓出)，及被發出或出發(processio)。因為:",
+      "after": "在天主內似乎不僅有四種實在關係，即父性、子性、發出(spiratio噓氣、噓出)，及被發出或出發(processio)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        639
+      ],
+      "before": "在天主內還應考慮到理解者與被理解者，及願欲者與被願欲者之關係;而這些關係似乎是實在的關係，以及並不屬於上述四種關係。所以，在天主內不只有四種實在關係。",
+      "after": "在天主內還應考慮到理解者與被理解者，及願欲者與被願欲者之關係；而這些關係似乎是實在的關係，以及並不屬於上述四種關係。所以，在天主內不只有四種實在關係。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        639,
+        640
+      ],
+      "before": "此外，對天主內之實在關係的領悟，是根據言依循理解方式的出發。可是，如亞維採那(Avicenna)於《形上學》第三篇第十章所說的，理解的關係可以無限地增加。所以，在天主內有無限的實在關係。",
+      "after": "此外，對天主內之實在關係的領悟，是根據言依循理解方式的出發。可是，如亞維采那(Avicenna)於《形上學》第三篇第十章所說的，理解的關係可以無限地增加。所以，在天主內有無限的實在關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "亞維採那",
+          "after": "亞維采那",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        640
+      ],
+      "before": "此外，在天主內自永恆就有觀念或理念，這在第十五題第二節己說過了。可是，這些理念只能是依照其與許多不同之物的關連，而相互區別，如在第十五題第二節己說過的。所以，在天主內有眾多的永恆關係。",
+      "after": "此外，在天主內自永恆就有觀念或理念，這在第十五題第二節己說過了。可是，這些理念只能是依照其與許多不同之物的關連，而相互區別，如在第十五題第二節己說過的。所以，在天主內有眾多的永恆關係。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        640
+      ],
+      "before": "此外，相等、相似及相同都是一些關係;而它們自永恆就在天主內。所以，在天主內自永恆就有比上述四種關係更多的關係。",
+      "after": "此外，相等、相似及相同都是一些關係；而它們自永恆就在天主內。所以，在天主內自永恆就有比上述四種關係更多的關係。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        640
+      ],
+      "before": "天主內之關係似乎少於四種，因為按哲學家在《物理學》卷三第一章所說，「由雅典至特比之路，和由特比至雅典之路，是同一條路」。所以，同理，由父至子的父性關係，和由子至父的子性關係，似乎是同一關{系。如此則在天主內不是有四種關係Q",
+      "after": "天主內之關係似乎少於四種，因為按哲學家在《物理學》卷三第一章所說，「由雅典至特比之路，和由特比至雅典之路，是同一條路」。所以，同理，由父至子的父性關係，和由子至父的子性關係，似乎是同一關係。如此則在天主內不是有四種關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係Q",
+          "after": "關係。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        640,
+        641
+      ],
+      "before": "我解答如下:按哲學家在《形上學》卷五第十五章所說，一切的關係，或是建立於量上，如一倍或一半等，或是建立於行動或主動與被動上，如創作者與被創作者，父(生者)與子(受生者)，主與僕等。既然在天主內是沒有「量」的，因為如奧斯定在《駁摩尼教基本信條》(Contra Epistolam Manichaei quam vocant Fundamenti)第十五章所說，天主之大是與量無關的;所以，在天主內之實在關係，只能是建立在主動或行動上的。但不是建立在有外在物據以由天主發出之行動上，因為天主對受造物之關係在天主內並不是實在的，這在前面第一節釋疑3.和第十三題第七節己說過了。因此，只能按這樣的行動來領悟在天主內的實在關係，即根據行動在天主內所有的出發，不是向外的出發，而是向內的出發。\n而這樣的出發只有兩種，如第二十七題第五節己說過的:其中之一是根據理智的行動，即言之出發;男一種則是根據意志的行動，即愛之出發。根持其中任何一種出發，都應該有兩個相對或對立的關係:其一是那白本源出發者之關係，其二是本i原本身之間係。言之出發稱為產生或生育，而這是按歸於有生命之物之產生的特有意義。而在完美的有生命之物中，生育之本源的關係稱為父性;由本源出發者之關係則稱為子性。而愛之出發卻沒有特有的名稱，如第二十七題第四節已說過的;因此，根據它而有的關係也是這樣。不過，這種出發之本源的關係可稱為噓出或發出(spiratio)，而那(由本源)出發者(或發自本源者)之關係則稱為出發;雖然這兩個名稱屬於出發或起源本身，而非屬於關係。",
+      "after": "我解答如下：按哲學家在《形上學》卷五第十五章所說，一切的關係，或是建立於量上，如一倍或一半等，或是建立於行動或主動與被動上，如創作者與被創作者，父(生者)與子(受生者)，主與僕等。既然在天主內是沒有「量」的，因為如奧斯定在《駁摩尼教基本信條》(Contra Epistolam Manichaei quam vocant Fundamenti)第十五章所說，天主之大是與量無關的；所以，在天主內之實在關係，只能是建立在主動或行動上的。但不是建立在有外在物據以由天主發出之行動上，因為天主對受造物之關係在天主內並不是實在的，這在前面第一節釋疑3.和第十三題第七節己說過了。因此，只能按這樣的行動來領悟在天主內的實在關係，即根據行動在天主內所有的出發，不是向外的出發，而是向內的出發。\n而這樣的出發只有兩種，如第二十七題第五節己說過的：其中之一是根據理智的行動，即言之出發；另一種則是根據意志的行動，即愛之出發。根據其中任何一種出發，都應該有兩個相對或對立的關係：其一是那自本源出發者之關係，其二是本源本身之關係。言之出發稱為產生或生育，而這是按歸於有生命之物之產生的特有意義。而在完美的有生命之物中，生育之本源的關係稱為父性；由本源出發者之關係則稱為子性。而愛之出發卻沒有特有的名稱，如第二十七題第四節己說過的；因此，根據它而有的關係也是這樣。不過，這種出發之本源的關係可稱為噓出或發出(spiratio)，而那(由本源)出發者(或發自本源者)之關係則稱為出發；雖然這兩個名稱屬於出發或起源本身，而非屬於關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "根持",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那白本源",
+          "after": "那自本源",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本i原本身之間係",
+          "after": "本源本身之關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        641
+      ],
+      "before": "在那些其理智(理解者)與被理解者、其願欲者(意志)與被願欲者彼此有別的物中，知識與被知之物，願飲者與被願欲之物，能夠有實在的關係。可是，在天主內，理智與被理解者卻是完全相同的或同一的，因為天主是藉理解自己而理解其他一切;同理，祂的意志與被願欲者也是如此。因此，在天主內的這樣的關係不是實在的，就像同一物對其本身之關係不是實在的一樣。不過，理智對言之關係卻是實在的;因為言被懂作藉理解行動而出發者，而非視之為被理解之物。因為當我們理解石頭時，理智由被理解之物所孕育或構思出者，稱為",
+      "after": "在那些其理智(理解者)與被理解者、其願欲者(意志)與被願欲者彼此有別的物中，知識與被知之物，願欲者與被願欲之物，能夠有實在的關係。可是，在天主內，理智與被理解者卻是完全相同的或同一的，因為天主是藉理解自己而理解其他一切；同理，祂的意志與被願欲者也是如此。因此，在天主內的這樣的關係不是實在的，就像同一物對其本身之關係不是實在的一樣。不過，理智對言之關係卻是實在的；因為言被懂作藉理解行動而出發者，而非視之為被理解之物。因為當我們理解石頭時，理智由被理解之物所孕育或構思出者，稱為言。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在那些其理智(理解者)與被理解者、其願欲者(意志)與被願欲者彼此有別的物中，知識與被知之物，願飲者與被願欲之物，能夠有實在的關係。可是，在天主內，理智與被理解者卻是完全相同的或同一的，因為天主是藉理解自己而理解其他一切;同理，祂的意志與被願欲者也是如此。因此，在天主內的這樣的關係不是實在的，就像同一物對其本身之關係不是實在的一樣。不過，理智對言之關係卻是實在的;因為言被懂作藉理解行動而出發者，而非視之為被理解之物。因為當我們理解石頭時，理智由被理解之物所孕育或構思出者，稱為",
+          "after": "在那些其理智(理解者)與被理解者、其願欲者(意志)與被願欲者彼此有別的物中，知識與被知之物，願欲者與被願欲之物，能夠有實在的關係。可是，在天主內，理智與被理解者卻是完全相同的或同一的，因為天主是藉理解自己而理解其他一切;同理，祂的意志與被願欲者也是如此。因此，在天主內的這樣的關係不是實在的，就像同一物對其本身之關係不是實在的一樣。不過，理智對言之關係卻是實在的;因為言被懂作藉理解行動而出發者，而非視之為被理解之物。因為當我們理解石頭時，理智由被理解之物所孕育或構思出者，稱為言。",
+          "occurrences": 1,
+          "type": "漏字／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        641,
+        642
+      ],
+      "before": "在我們內的理解關係可以增至無限，因為人是以一個行動理解石頭，以另一個行動理解「自己理解石頭」又以另一個行動理解這(後一個)理解;如此則理解之行動會增至無限，因而被理解之關係也會增至無限。可是，在天主內卻不可能這樣，因為天主是隻以一個行動而理解一切。",
+      "after": "在我們內的理解關係可以增至無限，因為人是以一個行動理解石頭，以另一個行動理解「自己理解石頭」，又以另一個行動理解這(後一個)理解；如此則理解之行動會增至無限，因而被理解之關係也會增至無限。可是，在天主內卻不可能這樣，因為天主是只以一個行動而理解一切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理解石頭」又",
+          "after": "理解石頭」，又",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是隻以",
+          "after": "是只以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        642
+      ],
+      "before": "理念上的關連，有如是為天主所理解者。因此，不能基於有許多這樣的關連，而說在天主內有許多關係(參看釋疑2.)，而只能說天主認知許多關係。",
+      "after": "理念上的關連，有如是為天主所理解者。因此，不能基於有許多這樣的關連，而說在天主內有許多關係(參看釋疑2.)，而只能說天主認知許多關係。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q028.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        642
+      ],
+      "before": "相等與相似，在天主內不是實在的關係，僅是思想上的關係'這由之後第四十二題第一節釋疑4所說將可看出。",
+      "after": "相等與相似，在天主內不是實在的關係，僅是思想上的關係，這由之後第四十二題第一節釋疑4.所說將可看出。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑4所",
+          "after": "釋疑4.所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q028.a004.ad5",
+      "article": 4,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        642
+      ],
+      "before": "(答反之)由一點至另一點之路，往與返都是同一條路;可是，二點的關連或方向(由......至IJ)卻不相同(按:如同一鐵路路線一一像臺北至高雄佳返雙向行駛的起點與終點，或起站與迄站，並不相同)。所以，不能因此而結論說，父至子與子至父之關係是同一關係;不過，對於一個絕對者可以做這種結論，假設這絕對者是在他們之間的居中者。",
+      "after": "(答反之)由一點至另一點之路，往與返都是同一條路；可是，二點的關連或方向(由……到)卻不相同(按：如同一鐵路路線——像台北至高雄——往返雙向行駛的起點與終點，或起站與迄站，並不相同)。所以，不能因此而結論說，父至子與子至父之關係是同一關係；不過，對於一個絕對者可以做這種結論，假設這絕對者是在他們之間的居中者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "由......至IJ",
+          "after": "由……到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一像臺北至高雄佳返",
+          "after": "——像台北至高雄——往返",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
