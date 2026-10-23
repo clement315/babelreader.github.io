@@ -1,0 +1,1393 @@
+{
+  "schema_version": 1,
+  "batch": "I-q018",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "bea353e133e2a1813a4b8ff9b2fa3299fd4909b5",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q018",
+    "title": "論天主的生命",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506
+    ],
+    "printed_pages": [
+      280,
+      290
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 50,
+    "changed_review_units": 37,
+    "checked_unchanged_review_units": 14
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q18.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q18.json": "233ccbc6e773a31efec3fe43a7a2eb47536c1ba2b66e4eaaed683ca3a5e9899a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q018.a001.sed_contra",
+      "pdf_file_page": 497,
+      "text": "由此可以推知。植物",
+      "status": "suspected_source_print_error",
+      "action": "原页在「推知」后印句号，语气可疑；按底本保留句号，不静默改为逗号。"
+    },
+    {
+      "id": "I.q018.a001.respondeo",
+      "pdf_file_page": 497,
+      "text": "動物己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，疑为「已」；按原页恢复并保留，供人工核定。"
+    },
+    {
+      "id": "I.q018.a002.arg1",
+      "pdf_file_page": 499,
+      "text": "地方或位置方面的的移動",
+      "status": "suspected_source_print_error",
+      "action": "原页「的的」重字；保留底本，疑似印误供人工核定。"
+    },
+    {
+      "id": "I.q018.a002.arg2",
+      "pdf_file_page": 499,
+      "text": "活動而己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，疑为「已」；按原页恢复并保留，供人工核定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部11页逐页与题引言及4节中文字段对齐；另以400dpi放大核对蠣蠔、牠／祂、cursus／currere、航海術及己／已。",
+    "原书 De Vegetab、De Plantis、dimen-sio 的写法和跨行连接号保留；不以现代书目或其他版本替换。",
+    "保留原译「無視於天性賦於」「漸進的行動動向遠處」等措辞，不作润色。",
+    "题标题及全部节标题经原页核对保持不变，无须改动目录。"
+  ],
+  "readings": [
+    {
+      "id": "I.q018.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "因為有生命者纔有理解，所以在討論了天主的知識和理智之後，現在應該討論天主的生命(參看第十四題引言)。\n關於這一點，可以提出四個問題:\n一、哪些物生活或有生命(vivere)。\n二、什麼是主命(vita)。\n三、天主是否有生命。\n四、是否在天主內一切都是生命。",
+      "after": "因為有生命者才有理解，所以在討論了天主的知識和理智之後，現在應該討論天主的生命(參看第十四題引言)。\n關於這一點，可以提出四個問題：\n一、哪些物生活或有生命(vivere)。\n二、什麼是生命(vita)。\n三、天主是否有生命。\n四、是否在天主內一切都是生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "主命",
+          "after": "生命",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "是否一切自然物都生活或有生命",
+      "after": "是否一切自然物都生活或有生命",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "似乎一切自然物都生活或有生命(vivere)。因為:",
+      "after": "似乎一切自然物都生活或有生命(vivere)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "哲學家在《物理學》卷八第一章說，行動(motus)「對於一切存在於自然界的東西來說，像是一種生命。」而一切自然物都分享行動。所以，一切自然物都分享生命。",
+      "after": "哲學家在《物理學》卷八第一章說，行動(motus)「對於一切存在於自然界的東西來說，像是一種生命。」而一切自然物都分享行動。所以，一切自然物都分享生命。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "此外，植物被稱為有生活或生命，是因為它們在自己內有生長和萎縮的行動之本原或根本。而地方或位置方面的行動，如《物理學》卷八第七章所證明的，依性質比生長和萎縮的行動更為完美，並且在先。既然一切自然物體(co叩us)都有某種地方或位置行動的本原或根本，所以，似乎一切自然物體都生活或有生命。",
+      "after": "此外，植物被稱為有生活或生命，是因為它們在自己內有生長和萎縮的行動之本原或根本。而地方或位置方面的行動，如《物理學》卷八第七章所證明的，依性質比生長和萎縮的行動更為完美，並且在先。既然一切自然物體(corpus)都有某種地方或位置行動的本原或根本，所以，似乎一切自然物體都生活或有生命。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "拉丁文"
+      ],
+      "changes": [
+        {
+          "before": "co叩us",
+          "after": "corpus",
+          "occurrences": 1,
+          "type": "乱码／拉丁文"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        496
+      ],
+      "before": "此外，在自然物體中，元素是較不完美的。可是，連元素也說是有生命，例如說:「活水」。所以﹒其他的自然物體更有生命了。",
+      "after": "此外，在自然物體中，元素是較不完美的。可是，連元素也說是有生命，例如說：「活水」。所以，其他的自然物體更有生命了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        497
+      ],
+      "before": "狄奧尼修在《神名論》第六章卻說:「植物是依生命之最低的反應或作用而有生命活動。」由此可以推知。植物是佔有生命的最低一級。而無魂或自然的物體是在植物之下。所以，它們沒有生命。",
+      "after": "狄奧尼修在《神名論》第六章卻說：「植物是依生命之最低的反應或作用而有生命活動。」由此可以推知。植物是佔有生命的最低一級。而無魂或自然的物體是在植物之下。所以，它們沒有生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        497
+      ],
+      "before": "我解答如下:由那些明顯地有生命活動之物，我們可以分辨出什麼物有生命，和什麼物沒有生命。動物明顯地有生命，因為《論生物》(De Vegetab)中說:「動物中的生命是明顯的。」(參看:亞里斯多德，《論植物》(De Plantis)卷一第一章)是以，應該依據動物之所以稱為有生命者，來分辨有生命者和沒有生命者。而這要依檬生命在動物中的最初顯現和最後存留。當動物開始自己推動自己或自動時，我們就說牠有最初的生活或生命，而且只要在動物中持續有這種自動出現，牠就被認定為仍然活著或有生命;而當動物已經沒有任何自動，只能被別物所推動時，那時就說牠因喪失生命而死。由此可以看出，真正(proprie)有生命者，就是那些以某種行動來推動自己者;所謂行動，是指狹義的行動，例如說行動是不完備者(不完全是現實者)之現實或行動，亦即(部分)在潛能中者之現實或行動;或者依照一般的說法，是指完備者(在現實中者)之現實或行動，就像理解和感覺也被稱為「行動」'如《靈魂論》卷三第四章所說的。所以，凡是主動促使自己行動或活動者，就稱為是有生命的;同樣，凡是依其天性不會主動促使自己行動或活動者，就不能稱為是有生命的，除非是依某種相似點而言。",
+      "after": "我解答如下：由那些明顯地有生命活動之物，我們可以分辨出什麼物有生命，和什麼物沒有生命。動物明顯地有生命，因為《論生物》(De Vegetab)中說：「動物中的生命是明顯的。」(參看：亞里斯多德，《論植物》(De Plantis)卷一第一章)是以，應該依據動物之所以稱為有生命者，來分辨有生命者和沒有生命者。而這要依據生命在動物中的最初顯現和最後存留。當動物開始自己推動自己或自動時，我們就說牠有最初的生活或生命，而且只要在動物中持續有這種自動出現，牠就被認定為仍然活著或有生命；而當動物己經沒有任何自動，只能被別物所推動時，那時就說牠因喪失生命而死。由此可以看出，真正(proprie)有生命者，就是那些以某種行動來推動自己者；所謂行動，是指狹義的行動，例如說行動是不完備者(不完全是現實者)之現實或行動，亦即(部分)在潛能中者之現實或行動；或者依照一般的說法，是指完備者(在現實中者)之現實或行動，就像理解和感覺也被稱為「行動」，如《靈魂論》卷三第四章所說的。所以，凡是主動促使自己行動或活動者，就稱為是有生命的；同樣，凡是依其天性不會主動促使自己行動或活動者，就不能稱為是有生命的，除非是依某種相似點而言。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "依檬",
+          "after": "依據",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "動物已經",
+          "after": "動物己經",
+          "occurrences": 1,
+          "type": "原书字形／错字"
+        },
+        {
+          "before": "「行動」'",
+          "after": "「行動」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        497,
+        498
+      ],
+      "before": "哲學家的話可以解讀為:或者是指最初的行動，即天體的運行;或者是指一般所說的行動。在這兩種意義下，都是因某種相似或比擬而說行動好像是自然物體的生命，而不是依自然物體的特質。因為天體的運行之在有各種物體天性的宇宙中，就如用以維持生命的心的行動之在動物中一樣。同樣，甚且每一個自然界的行動，對自然物而言，都有點像生命的活動。因此，假設整個物體或有形的宇宙，像某些人所主張的，是一個動物，致使這種行動等於是來自一個內在的動力，那麼行動就等於是一切自然物體的生命了。",
+      "after": "哲學家的話可以解讀為：或者是指最初的行動，即天體的運行；或者是指一般所說的行動。在這兩種意義下，都是因某種相似或比擬而說行動好像是自然物體的生命，而不是依自然物體的特質。因為天體的運行之在有各種物體天性的宇宙中，就如用以維持生命的心的行動之在動物中一樣。同樣，甚且每一個自然界的行動，對自然物而言，都有點像生命的活動。因此，假設整個物體或有形的宇宙，像某些人所主張的，是一個動物，致使這種行動等於是來自一個內在的動力，那麼行動就等於是一切自然物體的生命了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "物體，不拘是重的或輕的物體，本來者1)無所謂行動或變動，除非是它們脫離自己天性的自然情況，即當它們是在本有的地方或位置之外時;因為如果它們是在自己本有的和自然的地方或位置，它們就會靜止。而植物和其他有生命之物，卻是以生命之行動而動，且係出於其自然傾向，而不是在於接近和遠離其自然傾向;而且如果它們由這種行動退縮，也就等於是由其自然傾向退縮。此外，如《物理學》卷八第四章所說的，重的物體和輕的物體之動，均係由賦給它們形式或替它們除掉阻礙的外在動力或產生行動者所推動;如此則它們不是自己推動自己，像有生命的物體那樣。",
+      "after": "物體，不拘是重的或輕的物體，本來都無所謂行動或變動，除非是它們脫離自己天性的自然情況，即當它們是在本有的地方或位置之外時；因為如果它們是在自己本有的和自然的地方或位置，它們就會靜止。而植物和其他有生命之物，卻是以生命之行動而動，且係出於其自然傾向，而不是在於接近和遠離其自然傾向；而且如果它們由這種行動退縮，也就等於是由其自然傾向退縮。此外，如《物理學》卷八第四章所說的，重的物體和輕的物體之動，均係由賦給它們形式或替它們除掉阻礙的外在動力或產生行動者所推動；如此則它們不是自己推動自己，像有生命的物體那樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本來者1)",
+          "after": "本來都",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "所謂活水，就是暢流的水;因為沒有暢流不息的水源而靜止不動的水，貝IJ稱為死水，比如說池沼的水。這是一種相似或比擬的說法，因為就活水好像是自己推動自己來說，與生命有某種相似。可是，它們並沒有生命的實質;因為它們的這種流動，不是來自自己本身，而是來自產生它們的原因;就如其他輕重物體之動，也有類似的情形。",
+      "after": "所謂活水，就是暢流的水；因為沒有暢流不息的水源而靜止不動的水，則稱為死水，比如說池沼的水。這是一種相似或比擬的說法，因為就活水好像是自己推動自己來說，與生命有某種相似。可是，它們並沒有生命的實質；因為它們的這種流動，不是來自自己本身，而是來自產生它們的原因；就如其他輕重物體之動，也有類似的情形。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "生命是不是一種活動",
+      "after": "生命是不是一種活動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "有關第二節，我們討論如F:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如F",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        498
+      ],
+      "before": "生命似乎是一種活動(operatio)c因為:",
+      "after": "生命似乎是一種活動(operatio)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "(operatio)c",
+          "after": "(operatio)。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        498,
+        499
+      ],
+      "before": "每一物之區分，都是區分為與自己同屬一類者。而有生命或生活卻分為一些活動，這由哲學家在《靈魂論》卷二第二章中所說的可以獲得證明，因為他把有生命或生活分為四項活動，即吸取營養、感覺、地方或位置方面的的移動，以及理解。所以，生命是一種活動。",
+      "after": "每一物之區分，都是區分為與自己同屬一類者。而有生命或生活卻分為一些活動，這由哲學家在《靈魂論》卷二第二章中所說的可以獲得證明，因為他把有生命或生活分為四項活動，即吸取營養、感覺、地方或位置方面的的移動，以及理解。所以，生命是一種活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        499
+      ],
+      "before": "此外，我們說行動生活與靜觀生活有別。而度靜觀生活者與度行動生活者之區分，僅在於一些活動而已。所以，生命是一種活動。",
+      "after": "此外，我們說行動生活與靜觀生活有別。而度靜觀生活者與度行動生活者之區分，僅在於一些活動而己。所以，生命是一種活動。",
+      "status": "corrected",
+      "error_types": [
+        "原书字形",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而已",
+          "after": "而己",
+          "occurrences": 1,
+          "type": "原书字形／错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        499
+      ],
+      "before": "此外，認識天主是一種活動。而這活動就是生命，這由《若望福音》第十七章3節所說的「永生就是認識你，唯一的真天主屍可以獲得證明。所以，生命是活動。",
+      "after": "此外，認識天主是一種活動。而這活動就是生命，這由《若望福音》第十七章3節所說的「永生就是認識你，唯一的真天主」，可以獲得證明。所以，生命是活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "真天主屍",
+          "after": "真天主」，",
+          "occurrences": 1,
+          "type": "乱码／引号／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        499
+      ],
+      "before": "哲學家在《靈魂論》卷二第四章中卻說:「對有生命或生活者而言，生命或生活就是有或存在。」",
+      "after": "哲學家在《靈魂論》卷二第四章中卻說：「對有生命或生活者而言，生命或生活就是有或存在。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        499,
+        500
+      ],
+      "before": "我解答:如下:由上第十七題第一及第三節所說可知，我們的理智原本是以認知物之本質為自己的特有對象，卻是從感官那裡收取資料，而感官的特有對象是外表的依附體。因此，我們是由物外面所表現的而獲得對物之本質的認知。因此，如前面第三題第一節所證明的，我們是依照怎樣認知一物，也怎樣拾一物命名;所以我們大都是由物之外表的特性來給物命名，以表示物的本質。因此，這類的名稱，有時是依其本義用來表示物的本質，它們主要地是為此而起的;有時卻也用來表示名稱所由起的(外表)特性，而這就較少合乎本義。比如大家都知道，「物體」這個名稱是用來表示實體或自立體中的一類，這是因為在它們內有(長、寬、高)三種幅度或向度(dimen-sio);因此，「物體」這個名稱有時也用來表示(物體之)三向度(這特性)，並據此把物體當作量的一種。\n所以，關於生命也應該如此解釋。因為「生命」這個名稱是取自物的一外在現象，即自己推動自己;然而這個名稱原本所要表示的，卻不是這一現象，而是一個依其天性應會自動或者促使或啟動自己從事各種活動的實體或自立體。依此，生活(vivere)無非就是在此種天性中的有或存在(esse)，而生命(vita)則是以抽象的方式來表示此點;就如IgElJ(cursus)這個名詞，是以抽象方式來表示「跑」(Cl盯ere)的動作。因此，「活的或有生命活動的(vivum)」不是針對依附體的稱謂或描述，而是針對實體或自立體的。不過，「生命」飼有時也會不完全依其本義，用來表示生命的活動一一「生命」就是由這些活動而獲得命名的;例如哲學家在《倫理學》卷九第九章中說: 「生活或有生命，主要地是感覺或理解。」",
+      "after": "我解答如下：由上第十七題第一及第三節所說可知，我們的理智原本是以認知物之本質為自己的特有對象，卻是從感官那裡收取資料，而感官的特有對象是外表的依附體。因此，我們是由物外面所表現的而獲得對物之本質的認知。因此，如前面第三題第一節所證明的，我們是依照怎樣認知一物，也怎樣給一物命名；所以我們大都是由物之外表的特性來給物命名，以表示物的本質。因此，這類的名稱，有時是依其本義用來表示物的本質，它們主要地是為此而起的；有時卻也用來表示名稱所由起的(外表)特性，而這就較少合乎本義。比如大家都知道，「物體」這個名稱是用來表示實體或自立體中的一類，這是因為在它們內有(長、寬、高)三種幅度或向度(dimen-sio)；因此，「物體」這個名稱有時也用來表示(物體之)三向度(這特性)，並據此把物體當作量的一種。\n所以，關於生命也應該如此解釋。因為「生命」這個名稱是取自物的一外在現象，即自己推動自己；然而這個名稱原本所要表示的，卻不是這一現象，而是一個依其天性應會自動或者促使或啟動自己從事各種活動的實體或自立體。依此，生活(vivere)無非就是在此種天性中的有或存在(esse)，而生命(vita)則是以抽象的方式來表示此點；就如「跑」(cursus)這個名詞，是以抽象方式來表示「跑」(currere)的動作。因此，「活的或有生命活動的(vivum)」不是針對依附體的稱謂或描述，而是針對實體或自立體的。不過，「生命」一詞有時也會不完全依其本義，用來表示生命的活動——「生命」就是由這些活動而獲得命名的；例如哲學家在《倫理學》卷九第九章中說：「生活或有生命，主要地是感覺或理解。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "多余标点",
+        "引号",
+        "拉丁文",
+        "标点",
+        "漏字",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答:如下:",
+          "after": "我解答如下：",
+          "occurrences": 1,
+          "type": "多余标点"
+        },
+        {
+          "before": "拾一物",
+          "after": "給一物",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "IgElJ(cursus)",
+          "after": "「跑」(cursus)",
+          "occurrences": 1,
+          "type": "乱码／引号"
+        },
+        {
+          "before": "Cl盯ere",
+          "after": "currere",
+          "occurrences": 1,
+          "type": "乱码／拉丁文"
+        },
+        {
+          "before": "「生命」飼",
+          "after": "「生命」一詞",
+          "occurrences": 1,
+          "type": "乱码／漏字"
+        },
+        {
+          "before": "活動一一",
+          "after": "活動——",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        500
+      ],
+      "before": "在那裡，哲學家是把「有生命或生活」當作生命的活動。或者更好應該說:感覺、理解及其他類似者，有時是用來表示某些活動，有時卻用來表示如此活動者的有或存在本身。因為《倫理學》卷九第九章說: 「有或存在就是感覺或理解」'意思是說:具有從事感覺或理解的天性。是在這種意義下，哲學家把生活分為四項活動。因為在這下界或現有的世界中，共有四類生活者或有生命之物。其中一些只有會吸取營養的天性，其效應是生長和生殖;有些進一步而有會感覺的天性，如蠣據等不動的動物;而另外一些除此之外還有能在地方或位置上自動的天性，如四腳獸、飛禽等完美的動物;而還有一些卻更進一步有會理解的天性，如人即是。",
+      "after": "在那裡，哲學家是把「有生命或生活」當作生命的活動。或者更好應該說：感覺、理解及其他類似者，有時是用來表示某些活動，有時卻用來表示如此活動者的有或存在本身。因為《倫理學》卷九第九章說：「有或存在就是感覺或理解」，意思是說：具有從事感覺或理解的天性。是在這種意義下，哲學家把生活分為四項活動。因為在這下界或現有的世界中，共有四類生活者或有生命之物。其中一些只有會吸取營養的天性，其效應是生長和生殖；有些進一步而有會感覺的天性，如蠣蠔等不動的動物；而另外一些除此之外還有能在地方或位置上自動的天性，如四腳獸、飛禽等完美的動物；而還有一些卻更進一步有會理解的天性，如人即是。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「有或存在就是感覺或理解」'",
+          "after": "「有或存在就是感覺或理解」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "蠣據",
+          "after": "蠣蠔",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        500,
+        501
+      ],
+      "before": "所謂生命的活動，係指這些活動之本原或根本是在活動者之內，使活動者得以自己產生這些活動。不過，在我們人內，不僅有某些活動來自自然天性的根本，例如;自然能力;而且還有一些耐力日的根本，例如:使人傾向於某類活動的習性一←它們就像(第二)天性一樣會使活動變成一種快樂。因此，如果一種活動是一個人所樂於做的，所傾向的，持久所願從事的，並把它作為自己一生的目標，就用一種相似或比擬的說法，稱之為人的生活;因此，說某些人度著放蕩形骸的生活，某些人度著正當的生活。靜觀生活與行動生活之區分，也是依照這一方式。而且也是依照這一方式，說認識天主就是永生。",
+      "after": "所謂生命的活動，係指這些活動之本原或根本是在活動者之內，使活動者得以自己產生這些活動。不過，在我們人內，不僅有某些活動來自自然天性的根本，例如：自然能力；而且還有一些附加的根本，例如：使人傾向於某類活動的習性——它們就像(第二)天性一樣會使活動變成一種快樂。因此，如果一種活動是一個人所樂於做的，所傾向的，持久所願從事的，並把它作為自己一生的目標，就用一種相似或比擬的說法，稱之為人的生活；因此，說某些人度著放蕩形骸的生活，某些人度著正當的生活。靜觀生活與行動生活之區分，也是依照這一方式。而且也是依照這一方式，說認識天主就是永生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "例如;",
+          "after": "例如：",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "耐力日",
+          "after": "附加",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "習性一←",
+          "after": "習性——",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "由上所述可知質疑3.之解答。",
+      "after": "由上所述可知質疑3.之解答。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "天主是否有生命",
+      "after": "天主是否有生命",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "天主似乎沒有生命(或生命似乎不適用於天主)。因為:",
+      "after": "天主似乎沒有生命(或生命似乎不適用於天主)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "如第一及第二節所說，說某些物有生命或生活，是何據它們自己推動自己(或自己被自己推動)。可是，對天主而言，無所謂被推動。所以，也無所謂有生命。",
+      "after": "如第一及第二節所說，說某些物有生命或生活，是依據它們自己推動自己(或自己被自己推動)。可是，對天主而言，無所謂被推動。所以，也無所謂有生命。",
+      "status": "corrected",
+      "error_types": [
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "何據",
+          "after": "依據",
+          "occurrences": 1,
+          "type": "错字"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "此外，在一切生活或有生命之物內，必有一個生活或生命之本原或根本;因此哲學家在《靈魂論》卷二第四章中說:「靈魂是生活或有生命之物體的原因和根本刊而天主卻沒有任何根本。所以，不應把生命歸於天主。",
+      "after": "此外，在一切生活或有生命之物內，必有一個生活或生命之本原或根本；因此哲學家在《靈魂論》卷二第四章中說：「靈魂是生活或有生命之物體的原因和根本。」而天主卻沒有任何根本。所以，不應把生命歸於天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "引号",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "根本刊",
+          "after": "根本。」",
+          "occurrences": 1,
+          "type": "乱码／引号／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "此外，在我們四週有生命之物的生命根本是生魂，而生魂僅存在於有形體的物或物體內。所以，生命並不屬於沒有形體之物。",
+      "after": "此外，在我們四週有生命之物的生命根本是生魂，而生魂僅存在於有形體的物或物體內。所以，生命並不屬於沒有形體之物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        501
+      ],
+      "before": "《聖詠》第八十三篇3節卻說:「我的心靈以及我的肉身，向生活的(有生命的)天主踴躍歡欣。」",
+      "after": "《聖詠》第八十三篇3節卻說：「我的心靈以及我的肉身，向生活的(有生命的)天主踴躍歡欣。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        501,
+        502,
+        503
+      ],
+      "before": "我解答如下:生命依其本義，是以至極的方式存在於天主內。為明示此點，應該考慮到，說某些物生活或有生命，係因為它們的活動來自自己，而不是為他物所推動;一物越是這樣，在它內的生命也就越完美。在推動者和被推動者中，依次有這三種情形。因為，首先是目的推動工作者，而主要工作者則是藉自己的形式工作。此主要工作者有時藉某種工具工作，而工具不是由自己形式之能力工作，而是由主要工作者之能力一一工具只是在執行工作。\n所以，有些物自己推動自己，無視於天性賦於它們的形式和目的，只是在執行工作或行動;它們藉以工作的形式，和它們工作之目的，都是由天性為它們限定的。植物就是這樣的物，它們藉其天性所賦予自己的形式，在生長和萎縮方面，自己推動自己。\n而另有一些物，貝'J更進一步自己推動自己，即不僅是在執行行動方面，而且也是在作為行動之本原或根本的形式方面，它們是藉自己取得形式。動物就是這樣的物，她們的行動之根本，不是天性所賦予的形式，而是由感官所取得的形式。是以，牠們的感官越完美，牠們的自動也越完美。因為那些只有觸覺的動物，就只有伸縮的自動，比如蠣自豪:牠們只些微超越植物之行動。而那些有完美感覺能力的動物，不僅自己推動自己去認知與自己相連和自己所接觸到的東西，而且也以漸進的行動動向遠處，去認知與自己有距離的東西。\n然而，這樣的動物雖然是由感官取得作為行動之根本的形式，但牠們卻不是自己為自己制定自己工作或行動的目的，這目的是由天性賦予的，牠們是受天性之本能的推動，以其由感官所認知的形式去工作。因此，在這樣的動物之上，另有一些動物，牠們的自動也是在目的方面，牠們是自己為自己制定目的，而這除非藉理性及理智是辦不到的，因為理性和理智的工作就是認知目的與導向目的者的關係'並使後者與前者相配合。因此，有理智者的生活方式是更完美的，因為他們更完美地推動自己。其表記是:在同一個人之內，理智能力推動感官能力;而感官能力依理智的命令，推動執行行動的器官。就如連在技術中，我們看到使用船的技i材，tllJ航海j祠，指揮設計船的形式的技術，這設計技術則指揮僅負責準備材料執行建造的技街。\n雖然，我們的理智啟動自己去做某些主作，但有些事物卻是由其天性所制定的，比如第一或基本原理，理智必須接受，又如最終目的，理智不能不欲。因此，我們的理智雖然對一些事物是自動，但對另一些事物卻是為他物所推動。所以，如果一物的天性(或本質)就是自己的理解或認知，而且其天性所具有的，不是為他物所限定，那麼這物就獲得了最高級的生命。而天主就是如此。所以，生命是以至極的方式在天主內。因此，哲學家在《形上學》卷十二第七章中，證明瞭天主就是理智之後，結論說:天主有最完美的和永在的生命;因為天主的理智是最完美的，而且常常是在現實中。",
+      "after": "我解答如下：生命依其本義，是以至極的方式存在於天主內。為明示此點，應該考慮到，說某些物生活或有生命，係因為它們的活動來自自己，而不是為他物所推動；一物越是這樣，在它內的生命也就越完美。在推動者和被推動者中，依次有這三種情形。因為，首先是目的推動工作者，而主要工作者則是藉自己的形式工作。此主要工作者有時藉某種工具工作，而工具不是由自己形式之能力工作，而是由主要工作者之能力——工具只是在執行工作。\n所以，有些物自己推動自己，無視於天性賦於它們的形式和目的，只是在執行工作或行動；它們藉以工作的形式，和它們工作之目的，都是由天性為它們限定的。植物就是這樣的物，它們藉其天性所賦予自己的形式，在生長和萎縮方面，自己推動自己。\n而另有一些物，則更進一步自己推動自己，即不僅是在執行行動方面，而且也是在作為行動之本原或根本的形式方面，它們是藉自己取得形式。動物就是這樣的物，牠們的行動之根本，不是天性所賦予的形式，而是由感官所取得的形式。是以，牠們的感官越完美，牠們的自動也越完美。因為那些只有觸覺的動物，就只有伸縮的自動，比如蠣蠔：牠們只些微超越植物之行動。而那些有完美感覺能力的動物，不僅自己推動自己去認知與自己相連和自己所接觸到的東西，而且也以漸進的行動動向遠處，去認知與自己有距離的東西。\n然而，這樣的動物雖然是由感官取得作為行動之根本的形式，但牠們卻不是自己為自己制定自己工作或行動的目的，這目的是由天性賦予的，牠們是受天性之本能的推動，以其由感官所認知的形式去工作。因此，在這樣的動物之上，另有一些動物，牠們的自動也是在目的方面，牠們是自己為自己制定目的，而這除非藉理性及理智是辦不到的，因為理性和理智的工作就是認知目的與導向目的者的關係，並使後者與前者相配合。因此，有理智者的生活方式是更完美的，因為他們更完美地推動自己。其表記是：在同一個人之內，理智能力推動感官能力；而感官能力依理智的命令，推動執行行動的器官。就如連在技術中，我們看到使用船的技術，即航海術，指揮設計船的形式的技術，這設計技術則指揮僅負責準備材料執行建造的技術。\n雖然，我們的理智啟動自己去做某些工作，但有些事物卻是由其天性所制定的，比如第一或基本原理，理智必須接受，又如最終目的，理智不能不欲。因此，我們的理智雖然對一些事物是自動，但對另一些事物卻是為他物所推動。所以，如果一物的天性(或本質)就是自己的理解或認知，而且其天性所具有的，不是為他物所限定，那麼這物就獲得了最高級的生命。而天主就是如此。所以，生命是以至極的方式在天主內。因此，哲學家在《形上學》卷十二第七章中，證明了天主就是理智之後，結論說：天主有最完美的和永在的生命；因為天主的理智是最完美的，而且常常是在現實中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能力一一",
+          "after": "能力——",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "貝'J",
+          "after": "則",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "她們",
+          "after": "牠們",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "蠣自豪",
+          "after": "蠣蠔",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "技i材，tllJ航海j祠",
+          "after": "技術，即航海術",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "技街",
+          "after": "技術",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "主作",
+          "after": "工作",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "證明瞭",
+          "after": "證明了",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        503
+      ],
+      "before": "如《形士學》卷九第八章所說的，動作(actio)有兩種:一種及於外物，去日熱化和切害IJ;另一種是存留在動作者內，如理解、感覺及願意。其間的區別是:第一種動作不是推動外物之動作者的完美或成就，而是那被推動之物的完美或吱就;第二種動作則是動作者自己之完美或成就。因此，由於被推動或行動(motus)是被推動者之現實，這第二種動作，以其為動作者之現實而言，也被稱為是它的行動;而這是基於此一相似點，即就如行動是被推動者的現實，同樣第二種動作是動作者的現實;雖然行動是不完備(不完全是在現實中)之物的現實，即(部分)在潛能中之物的現實，而第二種動作則是完備之物的現實，即在現實中之物的現實，如《靈魂論》卷三第七章所說的。依此視理解為行動或被推動的方式，那理解自己者也被說成是推動自己。柏拉間也依此方式，主張天主推動自己;而不是依行動為不完備之物之現實的方式。",
+      "after": "如《形上學》卷九第八章所說的，動作(actio)有兩種：一種及於外物，如熱化和切割；另一種是存留在動作者內，如理解、感覺及願意。其間的區別是：第一種動作不是推動外物之動作者的完美或成就，而是那被推動之物的完美或成就；第二種動作則是動作者自己之完美或成就。因此，由於被推動或行動(motus)是被推動者之現實，這第二種動作，以其為動作者之現實而言，也被稱為是它的行動；而這是基於此一相似點，即就如行動是被推動者的現實，同樣第二種動作是動作者的現實；雖然行動是不完備(不完全是在現實中)之物的現實，即(部分)在潛能中之物的現實，而第二種動作則是完備之物的現實，即在現實中之物的現實，如《靈魂論》卷三第七章所說的。依此視理解為行動或被推動的方式，那理解自己者也被說成是推動自己。柏拉圖也依此方式，主張天主推動自己；而不是依行動為不完備之物之現實的方式。",
+      "status": "corrected",
+      "error_types": [
+        "书名",
+        "乱码",
+        "人名",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《形士學》",
+          "after": "《形上學》",
+          "occurrences": 1,
+          "type": "书名／错字"
+        },
+        {
+          "before": "去日熱化",
+          "after": "如熱化",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "切害IJ",
+          "after": "切割",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "吱就",
+          "after": "成就",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "柏拉間",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "人名／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        503,
+        504
+      ],
+      "before": "就如天主是祂自己的存在和自己的理解;同樣，祂也是自己的生活。為此，祂是如此而生活，即沒有(或不需要有)生活之本原或根本。",
+      "after": "就如天主是祂自己的存在和自己的理解；同樣，祂也是自己的生活。為此，祂是如此而生活，即沒有(或不需要有)生活之本原或根本。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "在這些低級物體內的生命，是為有腐朽的自然本性所接受，而有如此自然本性之物，為保存物種的延續需要生殖，為保存個體的延續需要營養。為此，在這些低級的物體內，沒有生魂就沒有生命。而在不會腐朽的物中，則沒有這種情形。",
+      "after": "在這些低級物體內的生命，是為有腐朽的自然本性所接受，而有如此自然本性之物，為保存物種的延續需要生殖，為保存個體的延續需要營養。為此，在這些低級的物體內，沒有生魂就沒有生命。而在不會腐朽的物中，則沒有這種情形。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "是否一切在天主內都是生命",
+      "after": "是否一切在天主內都是生命",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "似乎並非一切在天主內都是生命。因為:",
+      "after": "似乎並非一切在天主內都是生命。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "1《宗徒大事錄》第十七章28節說: 「我們生活、行動、存在，都在祂(天主)內。」但在天主內，並非一切都是行動。所以，在天主內，並非一切都是生命。",
+      "after": "《宗徒大事錄》第十七章28節說：「我們生活、行動、存在，都在祂(天主)內。」但在天主內，並非一切都是行動。所以，在天主內，並非一切都是生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "混入编号"
+      ],
+      "changes": [
+        {
+          "before": "1《宗徒大事錄》",
+          "after": "《宗徒大事錄》",
+          "occurrences": 1,
+          "type": "混入编号"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "此外，一切在天主內，像是在第一個模型內。而仿製品必應與模型符合。然而並非一切都在自己內擁有生命。所以，它們在天主內，似乎也不都是生命。",
+      "after": "此外，一切在天主內，像是在第一個模型內。而仿製品必應與模型符合。然而並非一切都在自己內擁有生命。所以，它們在天主內，似乎也不都是生命。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q018.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "此外，如奧斯定在《論真宗教》第二十九章所說的，有生命的實體或自立體比沒有生命的實體或自立體好。所以，如果那些在自己內沒有生命之物，在天主內反而是生命，t.l13J要這些物在天主內反而比在自己內更為真實;但這似乎是錯誤的，因為它們在自己內是在現實中，而在天主內僅是在潛能中。",
+      "after": "此外，如奧斯定在《論真宗教》第二十九章所說的，有生命的實體或自立體比沒有生命的實體或自立體好。所以，如果那些在自己內沒有生命之物，在天主內反而是生命，那麼這些物在天主內反而比在自己內更為真實；但這似乎是錯誤的，因為它們在自己內是在現實中，而在天主內僅是在潛能中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "t.l13J要",
+          "after": "那麼",
+          "occurrences": 1,
+          "type": "乱码／错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        504
+      ],
+      "before": "此外，天主不僅知道善的事物和那些在某段時間內所發生的事物;而且也知道惡的事物和那些天主能做、卻總不會發生的事物。所以，如果在天主內一切都是生命，是因為天主知道它們，那麼惡的事物和那些總不會發生的事物，似乎在天主內也都是生命，因為天主也知道它們。這似乎是不適當的。",
+      "after": "此外，天主不僅知道善的事物和那些在某段時間內所發生的事物；而且也知道惡的事物和那些天主能做、卻總不會發生的事物。所以，如果在天主內一切都是生命，是因為天主知道它們，那麼惡的事物和那些總不會發生的事物，似乎在天主內也都是生命，因為天主也知道它們。這似乎是不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        504,
+        505
+      ],
+      "before": "《若望福音》第一章3至4節卻說: 「凡受造的，在祂(天主)內有主命。」然而除了天主主外，一切都是受造的。所以，一切在天主內都是生命。",
+      "after": "《若望福音》第一章3至4節卻說：「凡受造的，在祂(天主)內有生命。」然而除了天主之外，一切都是受造的。所以，一切在天主內都是生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "主命",
+          "after": "生命",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "天主主外",
+          "after": "天主之外",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        505
+      ],
+      "before": "我解答如下:如第三節所說，天主的生活就是天主的理解。而在天主內，理智、被理解者，以及祂的理解活動，都是同一物。因此，凡是作為被理解者而存在於天主內者，就是天主的生活或生命本身。因此，既然為天主所創造的一切，都是作為被理解者而存在於天主內，所以凡是在天主內的，都是天主的生命本身。",
+      "after": "我解答如下：如第三節所說，天主的生活就是天主的理解。而在天主內，理智、被理解者，以及祂的理解活動，都是同一物。因此，凡是作為被理解者而存在於天主內者，就是天主的生活或生命本身。因此，既然為天主所創造的一切，都是作為被理解者而存在於天主內，所以凡是在天主內的，都是天主的生命本身。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        505
+      ],
+      "before": "說受造物在天主內，有兩種方式。一種方式，是就他們為天主之能力所涵蓋和保存而言，就如我們說那些屬於我們權下者在我們內一樣。依此方式而說受造物在天主內，是照他們存在於自己天性內的情形。宗徒所說的「我們生活、行動、存在，都在祂內」'就應該這樣解釋;因為我們的生活、我們的存在，以及我們的行動，都是以天主為原因。另一種方式，說受造物在天主內，有如是在認知者內。依此，他們之在天主內，是藉他們自己的理(ratio'天主創造他們的設計)，而在天主內，這些理無非就是天主的本質。因此，以受造物如此在天主內而言，他們就是天主的本質。而且，因為天主的本質是生命，而不是行動(motus'含有在潛能中的被動)，所以依這種說法，在天主內的受造物，不是行動，而是生命。",
+      "after": "說受造物在天主內，有兩種方式。一種方式，是就他們為天主之能力所涵蓋和保存而言，就如我們說那些屬於我們權下者在我們內一樣。依此方式而說受造物在天主內，是照他們存在於自己天性內的情形。宗徒所說的「我們生活、行動、存在，都在祂內」，就應該這樣解釋；因為我們的生活、我們的存在，以及我們的行動，都是以天主為原因。另一種方式，說受造物在天主內，有如是在認知者內。依此，他們之在天主內，是藉他們自己的理(ratio，天主創造他們的設計)，而在天主內，這些理無非就是天主的本質。因此，以受造物如此在天主內而言，他們就是天主的本質。而且，因為天主的本質是生命，而不是行動(motus，含有在潛能中的被動)，所以依這種說法，在天主內的受造物，不是行動，而是生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "都在祂內」'",
+          "after": "都在祂內」，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "ratio'",
+          "after": "ratio，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "motus'",
+          "after": "motus，",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        505
+      ],
+      "before": "仿製品之應與模型符合，是在形式之理方面，不是在存在之形態井面。因為形式在模型內和在仿製品內，有時會有不同形態的存在。就如房屋的形式，在建築師的心靈中有非物質的和可理解的存在;而在建築師心靈之外的房屋內則有物質的和可以感覺到的存在。因此，連那些在自己內沒菊生命之物的理，在天主之靈智中也是生命，因為他們在天主之靈智中有天主的存在。",
+      "after": "仿製品之應與模型符合，是在形式之理方面，不是在存在之形態方面。因為形式在模型內和在仿製品內，有時會有不同形態的存在。就如房屋的形式，在建築師的心靈中有非物質的和可理解的存在；而在建築師心靈之外的房屋內則有物質的和可以感覺到的存在。因此，連那些在自己內沒有生命之物的理，在天主之靈智中也是生命，因為他們在天主之靈智中有天主的存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "形態井面",
+          "after": "形態方面",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "沒菊生命",
+          "after": "沒有生命",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        506
+      ],
+      "before": "如果自然物依其理或本質只有形式，而沒有質料或物質，那麼由各方面看，他們藉天主的理念在天主靈智內的形態，比他們在自己內的形態，都更為真實。為了這個緣故，柏拉圖也曾主張:(與物質或身體)分離的人，是真的人，有物質的人則是分有(真人)的人。可是，由於自然物依其理或本質是有質料或物質的，所以應該說:絕對地講，自然物在天主的靈智中，比在他們自己內，有更為真實的存在，因為在天主的靈智中他們有「非受造」的存在.在他們自己內則有「受造」的存在c可是，作為此一存在或存在物，例如:人或馬，他們卻是在自己的天性內，比在天主的靈智內，有更為真實的存在;因為有質料或物質的存在，屬於人(是人)的真實性，而在天主的靈智內他們卻沒有這一存在。就如房屋在建築師的心靈中，比在物質中，有更為高貴的存在;然而，在物質中的房屋卻比在人心靈中的房屋更為真實。因為前者是在現實中或是現實存在的，而後者則是在潛能中或可能存在的。",
+      "after": "如果自然物依其理或本質只有形式，而沒有質料或物質，那麼由各方面看，他們藉天主的理念在天主靈智內的形態，比他們在自己內的形態，都更為真實。為了這個緣故，柏拉圖也曾主張：(與物質或身體)分離的人，是真的人，有物質的人則是分有(真人)的人。可是，由於自然物依其理或本質是有質料或物質的，所以應該說：絕對地講，自然物在天主的靈智中，比在他們自己內，有更為真實的存在，因為在天主的靈智中他們有「非受造」的存在；在他們自己內則有「受造」的存在。可是，作為此一存在或存在物，例如：人或馬，他們卻是在自己的天性內，比在天主的靈智內，有更為真實的存在；因為有質料或物質的存在，屬於人(是人)的真實性，而在天主的靈智內他們卻沒有這一存在。就如房屋在建築師的心靈中，比在物質中，有更為高貴的存在；然而，在物質中的房屋卻比在人心靈中的房屋更為真實。因為前者是在現實中或是現實存在的，而後者則是在潛能中或可能存在的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "的存在.在",
+          "after": "的存在；在",
+          "occurrences": 1,
+          "type": "标点"
+        },
+        {
+          "before": "的存在c",
+          "after": "的存在。",
+          "occurrences": 1,
+          "type": "乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q018.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        506
+      ],
+      "before": "雖然，就惡隸屬於天主的知識範圍來說，而在天主的知識內，但惡之在天主內，不是說，惡是為天主所創造或為天主所保存，也不是說，惡在天主內有自己的理;因為惡是藉由善之理而為天主所認知。所以，不能說惡在天主內是生命。然而，那些無論在什麼時候都不會存在之物，卻可以說，他們在天主內是生命，這是基於這些物為天玉所理解或認知，而生活或生命只是指理解或認知，而不是指活動之根本。",
+      "after": "雖然，就惡隸屬於天主的知識範圍來說，而在天主的知識內，但惡之在天主內，不是說，惡是為天主所創造或為天主所保存，也不是說，惡在天主內有自己的理；因為惡是藉由善之理而為天主所認知。所以，不能說惡在天主內是生命。然而，那些無論在什麼時候都不會存在之物，卻可以說，他們在天主內是生命，這是基於這些物為天主所理解或認知，而生活或生命只是指理解或認知，而不是指活動之根本。",
+      "status": "corrected",
+      "error_types": [
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天玉",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
