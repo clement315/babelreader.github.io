@@ -1,0 +1,777 @@
+{
+  "date": "2026-10-23",
+  "author": "element",
+  "scope": "Prima Pars questions 71–80",
+  "request_baseline_git_commit": "d4259f3",
+  "status": "completed_locally",
+  "questions": 10,
+  "newly_completed_questions": 9,
+  "rechecked_questions": [
+    75
+  ],
+  "articles": 50,
+  "newly_completed_articles": 43,
+  "distinct_pdf_pages": 136,
+  "pdf_ranges": [
+    [
+      1182,
+      1206
+    ],
+    [
+      1228,
+      1338
+    ]
+  ],
+  "printed_ranges": [
+    [
+      314,
+      338
+    ],
+    [
+      1,
+      111
+    ]
+  ],
+  "excluded_non_body_pages": [
+    1207,
+    1208
+  ],
+  "changed_review_units_in_current_request": 417,
+  "checked_unchanged_review_units_in_current_request": 265,
+  "protected_zh_tokens": 742,
+  "source_anomaly_records": 57,
+  "suspected_source_print_errors": 57,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "layout_constraints_documented": 7,
+  "checks": {
+    "all_10_live_snapshots_match_request_start_data": true,
+    "all_10_reports_contain_exact_current_complete_json": true,
+    "all_10_manifests_match_current_reader_rows": true,
+    "all_report_first_and_last_sentences_match_recorded_pre_edit_snapshots": true,
+    "question_75_full_recheck_and_3_additional_corrections_recorded_without_double_counting": true,
+    "all_non_zh_reader_bytes_preserved": true,
+    "per_field_newline_escape_sequences_preserved": true,
+    "catalog_non_zh_bytes_preserved": true,
+    "all_source_anomaly_text_retained": true,
+    "all_10_recorded_browser_validations_passed": true,
+    "all_10_recorded_regression_test_runs_passed": true,
+    "scope_progress_and_publication_policy_consistent": true,
+    "all_10_question_commits_authored_and_committed_by_element": true
+  },
+  "publication": "No push or deployment performed; wait until Prima Pars questions 1–119 are complete.",
+  "next_question": "I.q081",
+  "cumulative_reviewed_questions": 80,
+  "cumulative_reviewed_articles": 403,
+  "question_commits": [
+    "2c618ba|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 80 locally against PDF images",
+    "99cc4a4|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 79 and restore article structure locally",
+    "eaf0490|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 78 locally against PDF images",
+    "0c514ce|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 77 locally against PDF images",
+    "04d7f8c|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 76 locally against PDF images",
+    "5e544d3|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Recheck Prima Pars question 75 and retain literal source pronouns",
+    "968949d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 74 locally against PDF images",
+    "702c7dd|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 73 locally against PDF images",
+    "5ad6aab|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 72 locally against PDF images",
+    "7c6b89f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 71 locally against PDF images"
+  ],
+  "batches": [
+    {
+      "question": "I.q071",
+      "title": "論第五天的工程",
+      "articles": 1,
+      "pdf_file_pages": [
+        1182,
+        1184
+      ],
+      "printed_pages": [
+        314,
+        316
+      ],
+      "changed_review_units_in_current_request": 9,
+      "checked_unchanged_in_current_request": 6,
+      "cumulative_corrected_units_in_full_report": 9,
+      "source_anomaly_records": 1,
+      "report": "I-q071.md",
+      "manifest": "I-q071.json",
+      "validation": "I-q071-validation.json",
+      "reader_sha256": "bb0340f04d3ad0056bac6df955980387950d0bfc3683ca8ed5ca5323481d776d"
+    },
+    {
+      "question": "I.q072",
+      "title": "論第六天的工程",
+      "articles": 1,
+      "pdf_file_pages": [
+        1185,
+        1188
+      ],
+      "printed_pages": [
+        317,
+        320
+      ],
+      "changed_review_units_in_current_request": 11,
+      "checked_unchanged_in_current_request": 6,
+      "cumulative_corrected_units_in_full_report": 11,
+      "source_anomaly_records": 3,
+      "report": "I-q072.md",
+      "manifest": "I-q072.json",
+      "validation": "I-q072-validation.json",
+      "reader_sha256": "85a12a1081031ffc881304991bb501a771cc8171f7b56aba68682f297cd5ba6c"
+    },
+    {
+      "question": "I.q073",
+      "title": "論那些屬於第七天者",
+      "articles": 3,
+      "pdf_file_pages": [
+        1189,
+        1195
+      ],
+      "printed_pages": [
+        321,
+        327
+      ],
+      "changed_review_units_in_current_request": 30,
+      "checked_unchanged_in_current_request": 7,
+      "cumulative_corrected_units_in_full_report": 30,
+      "source_anomaly_records": 7,
+      "report": "I-q073.md",
+      "manifest": "I-q073.json",
+      "validation": "I-q073-validation.json",
+      "reader_sha256": "a94cd4c70adda13c0c8ae02c94143f837b4efe1181dbc2642bbf589e8ce72791"
+    },
+    {
+      "question": "I.q074",
+      "title": "綜論整個七天",
+      "articles": 3,
+      "pdf_file_pages": [
+        1196,
+        1206
+      ],
+      "printed_pages": [
+        328,
+        338
+      ],
+      "changed_review_units_in_current_request": 36,
+      "checked_unchanged_in_current_request": 12,
+      "cumulative_corrected_units_in_full_report": 36,
+      "source_anomaly_records": 3,
+      "report": "I-q074.md",
+      "manifest": "I-q074.json",
+      "validation": "I-q074-validation.json",
+      "reader_sha256": "40ec02cd149186ff92c106f384e330bb0673ee0294b8c63453d747676fa731f2"
+    },
+    {
+      "question": "I.q075",
+      "title": "論由精神和形體本體結合而成的人：先論靈魂的本質",
+      "articles": 7,
+      "pdf_file_pages": [
+        1228,
+        1244
+      ],
+      "printed_pages": [
+        1,
+        17
+      ],
+      "changed_review_units_in_current_request": 3,
+      "checked_unchanged_in_current_request": 82,
+      "cumulative_corrected_units_in_full_report": 60,
+      "source_anomaly_records": 3,
+      "report": "I-q075.md",
+      "manifest": "I-q075.json",
+      "validation": "I-q075-validation.json",
+      "reader_sha256": "936da5bf2d8a3ffffdeb886bc0f1631b532fe528c1c4c7961368bbc6aae05c0e"
+    },
+    {
+      "question": "I.q076",
+      "title": "論靈魂與身體之結合",
+      "articles": 8,
+      "pdf_file_pages": [
+        1245,
+        1272
+      ],
+      "printed_pages": [
+        18,
+        45
+      ],
+      "changed_review_units_in_current_request": 83,
+      "checked_unchanged_in_current_request": 35,
+      "cumulative_corrected_units_in_full_report": 83,
+      "source_anomaly_records": 8,
+      "report": "I-q076.md",
+      "manifest": "I-q076.json",
+      "validation": "I-q076-validation.json",
+      "reader_sha256": "1f47d747ac116295a64c3e8a24a37ba049863d1bd6d9d4921ba1756f2b80d160"
+    },
+    {
+      "question": "I.q077",
+      "title": "綜論靈魂之機能",
+      "articles": 8,
+      "pdf_file_pages": [
+        1273,
+        1290
+      ],
+      "printed_pages": [
+        46,
+        63
+      ],
+      "changed_review_units_in_current_request": 76,
+      "checked_unchanged_in_current_request": 37,
+      "cumulative_corrected_units_in_full_report": 76,
+      "source_anomaly_records": 9,
+      "report": "I-q077.md",
+      "manifest": "I-q077.json",
+      "validation": "I-q077-validation.json",
+      "reader_sha256": "ca47ed22971e28f493b70452c527888d8a5fe0cab300f7cca22f8081d08eccf0"
+    },
+    {
+      "question": "I.q078",
+      "title": "分論靈魂之機能",
+      "articles": 4,
+      "pdf_file_pages": [
+        1291,
+        1304
+      ],
+      "printed_pages": [
+        64,
+        77
+      ],
+      "changed_review_units_in_current_request": 40,
+      "checked_unchanged_in_current_request": 20,
+      "cumulative_corrected_units_in_full_report": 40,
+      "source_anomaly_records": 6,
+      "report": "I-q078.md",
+      "manifest": "I-q078.json",
+      "validation": "I-q078-validation.json",
+      "reader_sha256": "3a24081cee825ac5b3c5f622ebdee77b72510cfbb0c9cac43d4c1571663cfde4"
+    },
+    {
+      "question": "I.q079",
+      "title": "論智性機能",
+      "articles": 13,
+      "pdf_file_pages": [
+        1305,
+        1334
+      ],
+      "printed_pages": [
+        78,
+        107
+      ],
+      "changed_review_units_in_current_request": 112,
+      "checked_unchanged_in_current_request": 52,
+      "cumulative_corrected_units_in_full_report": 112,
+      "source_anomaly_records": 15,
+      "report": "I-q079.md",
+      "manifest": "I-q079.json",
+      "validation": "I-q079-validation.json",
+      "reader_sha256": "32a24e88066ab8d6c9c5853f741294dd4376f2ff7a922b0b701ac6a2f9aeb4bb"
+    },
+    {
+      "question": "I.q080",
+      "title": "綜論嗜慾機能",
+      "articles": 2,
+      "pdf_file_pages": [
+        1335,
+        1338
+      ],
+      "printed_pages": [
+        108,
+        111
+      ],
+      "changed_review_units_in_current_request": 17,
+      "checked_unchanged_in_current_request": 8,
+      "cumulative_corrected_units_in_full_report": 17,
+      "source_anomaly_records": 2,
+      "report": "I-q080.md",
+      "manifest": "I-q080.json",
+      "validation": "I-q080-validation.json",
+      "reader_sha256": "8ceb644581ec11239f9b6fac53a81531daba7468959123e5487829285bf93712"
+    }
+  ],
+  "suspected_print_errors": [
+    {
+      "id": "I.q071.a001.sed_contra",
+      "pdf_file_page": 1182,
+      "text": "權威己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q071"
+    },
+    {
+      "id": "I.q072.a001.sed_contra",
+      "pdf_file_page": 1186,
+      "text": "權威己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q072"
+    },
+    {
+      "id": "I.q072.a001.ad3",
+      "pdf_file_page": 1187,
+      "text": "先己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q072"
+    },
+    {
+      "id": "I.q072.a001.ad4",
+      "pdf_file_page": 1187,
+      "text": "方面己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q072"
+    },
+    {
+      "id": "I.q073.a001.arg3",
+      "pdf_file_page": 1189,
+      "text": "業己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a001.arg3",
+      "pdf_file_page": 1190,
+      "text": "己更新",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a001.sed_contra",
+      "pdf_file_page": 1190,
+      "text": "己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a001.ad2",
+      "pdf_file_page": 1191,
+      "text": "己完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a001.ad3",
+      "pdf_file_page": 1191,
+      "text": "己先存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a003.respondeo",
+      "pdf_file_page": 1194,
+      "text": "第二節所說的。天主",
+      "status": "suspected_source_print_error",
+      "action": "原书句号疑应为逗号，依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q073.a003.respondeo",
+      "pdf_file_page": 1194,
+      "text": "第七十二題第四節",
+      "status": "suspected_source_print_error",
+      "action": "原书交叉节号疑误，第七十二题只有一节；依底本保留。",
+      "question": "I.q073"
+    },
+    {
+      "id": "I.q074.a002.respondeo",
+      "pdf_file_page": 1200,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q074"
+    },
+    {
+      "id": "I.q074.a003.ad3",
+      "pdf_file_page": 1204,
+      "text": "己受造之物",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q074"
+    },
+    {
+      "id": "I.q074.a003.ad6",
+      "pdf_file_page": 1205,
+      "text": "matutina)對此",
+      "status": "suspected_source_print_error",
+      "action": "原书拉丁括注后疑漏分隔标点，依底本保留。",
+      "question": "I.q074"
+    },
+    {
+      "id": "I.q075.a002.ad2",
+      "pdf_file_page": 1233,
+      "text": "熱並不全使東西變熱",
+      "status": "suspected_source_print_error",
+      "action": "原页确印「全」，文意可疑，保留原字，不擅改为「會」。",
+      "question": "I.q075"
+    },
+    {
+      "id": "I.q075.a007.respondeo",
+      "pdf_file_page": 1243,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页呈「己」字形，疑为「已」；按原字保留。",
+      "question": "I.q075"
+    },
+    {
+      "id": "I.q075.a007.ad1",
+      "pdf_file_page": 1244,
+      "text": "超性的目的",
+      "status": "suspected_source_print_error",
+      "action": "原页此段末尾无句号，网页也无；按底本保留，不自行补标点。",
+      "question": "I.q075"
+    },
+    {
+      "id": "I.q076.a003.ad4",
+      "pdf_file_page": 1259,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a004.ad2",
+      "pdf_file_page": 1262,
+      "text": "己因靈魂",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a005.respondeo",
+      "pdf_file_page": 1263,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a006.respondeo",
+      "pdf_file_page": 1266,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a006.ad2",
+      "pdf_file_page": 1267,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a007.respondeo",
+      "pdf_file_page": 1269,
+      "text": "quinta esentia",
+      "status": "suspected_source_print_error",
+      "action": "原书拉丁拼写疑缺s，依底本保留esentia。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a008.respondeo",
+      "pdf_file_page": 1270,
+      "text": "如己多次",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q076.a008.respondeo",
+      "pdf_file_page": 1272,
+      "text": "如己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q076"
+    },
+    {
+      "id": "I.q077.a001.arg6",
+      "pdf_file_page": 1274,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a001.ad6",
+      "pdf_file_page": 1277,
+      "text": "己經說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a004.ad2",
+      "pdf_file_page": 1283,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a006.respondeo",
+      "pdf_file_page": 1286,
+      "text": "第五節己說",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a006.respondeo",
+      "pdf_file_page": 1286,
+      "text": "按己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a006.respondeo",
+      "pdf_file_page": 1286,
+      "text": "依附性體形式",
+      "status": "suspected_source_print_error",
+      "action": "原书「依附性體」疑为「依附體性」倒置，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a006.ad2",
+      "pdf_file_page": 1286,
+      "text": "其動向",
+      "status": "suspected_source_print_error",
+      "action": "原书「動向」疑为「動因」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a008.objection-intro",
+      "pdf_file_page": 1289,
+      "text": "與身與分離",
+      "status": "suspected_source_print_error",
+      "action": "原书第二个「與」疑为「體」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q077.a008.respondeo",
+      "pdf_file_page": 1290,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q077"
+    },
+    {
+      "id": "I.q078.a001.respondeo",
+      "pdf_file_page": 1293,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q078.a001.ad1",
+      "pdf_file_page": 1294,
+      "text": "己解答",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q078.a002.respondeo",
+      "pdf_file_page": 1295,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q078.a002.respondeo",
+      "pdf_file_page": 1296,
+      "text": "己告竣",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q078.a002.ad4",
+      "pdf_file_page": 1296,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q078.a004.respondeo",
+      "pdf_file_page": 1303,
+      "text": "己足以",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q078"
+    },
+    {
+      "id": "I.q079.a001.ad4",
+      "pdf_file_page": 1307,
+      "text": "靈魂之主體",
+      "status": "suspected_source_print_error",
+      "action": "原书「主體」疑为「本體」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a002.respondeo",
+      "pdf_file_page": 1309,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a004.respondeo",
+      "pdf_file_page": 1314,
+      "text": "Tertiio",
+      "status": "suspected_source_print_error",
+      "action": "原书拉丁书名拼写疑有多余i，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a004.ad1",
+      "pdf_file_page": 1314,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a005.respondeo",
+      "pdf_file_page": 1316,
+      "text": "第四節己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a005.respondeo",
+      "pdf_file_page": 1316,
+      "text": "第二節己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a007.arg1",
+      "pdf_file_page": 1320,
+      "text": "卷說",
+      "status": "suspected_source_print_error",
+      "action": "原书在「卷」后未印卷号，依底本保留，不补造编号。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a007.sed_contra",
+      "pdf_file_page": 1320,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a007.respondeo",
+      "pdf_file_page": 1320,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a007.respondeo",
+      "pdf_file_page": 1321,
+      "text": "第五十九題第四節",
+      "status": "suspected_source_print_error",
+      "action": "原书交叉题号疑误，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a008.respondeo",
+      "pdf_file_page": 1323,
+      "text": "己經領悟",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a009.arg4",
+      "pdf_file_page": 1324,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a009.arg4",
+      "pdf_file_page": 1324,
+      "text": "己經確定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a009.respondeo",
+      "pdf_file_page": 1325,
+      "text": "己經知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q079.a011.ad3",
+      "pdf_file_page": 1330,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q079"
+    },
+    {
+      "id": "I.q080.a001.ad1",
+      "pdf_file_page": 1336,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q080"
+    },
+    {
+      "id": "I.q080.a002.arg1",
+      "pdf_file_page": 1337,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q080"
+    }
+  ],
+  "layout_constraints": [
+    {
+      "id": "I.q074.prologue",
+      "description": "移除页边OCR乱码，原字段两个换行保留为空行。"
+    },
+    {
+      "id": "I.q074.a003.arg7",
+      "description": "误混入质疑七的七段释疑移回已有ad1至ad7字段；原arg7换行保留为空行，空答复字段不新增换行。"
+    },
+    {
+      "id": "I.q076.a004.ad3",
+      "description": "原答复四误并入答复三，移回既有空ad4字段；原ad3换行保留为空行，ad4不新增换行。"
+    },
+    {
+      "id": "I.q078.prologue",
+      "description": "题引言前五行页边OCR乱码移除；原有五个换行保留为空行。"
+    },
+    {
+      "id": "I.q079.a011.intro",
+      "description": "整节误并入intro，按原页把三项质疑、反之、正解、三项答复移回原有空栏。原结构无objection-intro键，质疑引言仍保留在intro，不新增键名。全部原字段无换行，不新增换行。"
+    },
+    {
+      "id": "I.q079.a013.arg3",
+      "description": "反之前半句误并入质疑三，移回原有sed_contra字段，与原末尾「能。」接合；arg3原换行保留为空行。"
+    },
+    {
+      "id": "I.q080.prologue",
+      "description": "题引言前五行页边OCR乱码移除，原有五个换行保留为空行。"
+    }
+  ]
+}
