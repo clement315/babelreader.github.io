@@ -1,0 +1,1644 @@
+{
+  "schema_version": 1,
+  "batch": "I-q022",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "29b93e6fef962a6a4369280ff04d702aac3c254d",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q022",
+    "title": "論天主的照顧",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567
+    ],
+    "printed_pages": [
+      341,
+      351
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 52,
+    "changed_review_units": 43,
+    "checked_unchanged_review_units": 10
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q22.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q22.json": "3fffbf6077428b0429e328601f8ae393938fc8a7f3a852d1ed0dc0ea64c68d1a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q022.a001.respondeo",
+      "pdf_file_page": 558,
+      "text": "第四節己證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a001.respondeo",
+      "pdf_file_page": 558,
+      "text": "第四節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a001.ad3",
+      "pdf_file_page": 559,
+      "text": "2.己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a002.respondeo",
+      "pdf_file_page": 561,
+      "text": "第一節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a002.respondeo",
+      "pdf_file_page": 561,
+      "text": "第十一節己證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a003.ad2",
+      "pdf_file_page": 565,
+      "text": "正解己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a004.arg1",
+      "pdf_file_page": 566,
+      "text": "現己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a004.arg1",
+      "pdf_file_page": 566,
+      "text": "就己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，按底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q022.a002.ad4",
+      "pdf_file_page": 563,
+      "text": "Tullius Cicerone，106~43BC",
+      "status": "suspected_source_print_error",
+      "action": "原书拉丁人名形态与年代依扫描保留，不改用其他版本。"
+    },
+    {
+      "id": "I.q022.a003.respondeo",
+      "pdf_file_page": 565,
+      "text": "尼沙之額我略",
+      "status": "suspected_source_print_error",
+      "action": "原译如此，连同书名、作者、年代与章节均保留，不以外部书目改写。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部11页逐段对照原页，中文内人名、年代、拉丁词、引文及编号照底本；第二节释疑五缺失的括号按原页补回。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q022.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "討論了絕對屬於天主意志的種種之後，現在應進行討論同時兼與理智和意志有關的事物(參看第十九題引言)。屬於這樣事物的，有普遍關於萬物的照顧，和特別關於人之得救的預定和棄絕，以及其後果(第二十三題)。因為連在倫理學中，也是在(屬於意志的)道德涵養性德性之後，繼而討論(屬於理智的)明智或智德，而照顧似乎是屬於智德。\n關於天主的照顧，可以提出四個問題:\n一、是否宜將照顧歸於天主。\n二、是否一切萬物都在天主照顧之下。\n三、是否天主直接照顧一切。\n四、天主之照顧是否加給接受照顧之事物一種必然性。",
+      "after": "討論了絕對屬於天主意志的種種之後，現在應進行討論同時兼與理智和意志有關的事物(參看第十九題引言)。屬於這樣事物的，有普遍關於萬物的照顧，和特別關於人之得救的預定和棄絕，以及其後果(第二十三題)。因為連在倫理學中，也是在(屬於意志的)道德涵養性德性之後，繼而討論(屬於理智的)明智或智德，而照顧似乎是屬於智德。\n關於天主的照顧，可以提出四個問題：\n一、是否宜將照顧歸於天主。\n二、是否一切萬物都在天主照顧之下。\n三、是否天主直接照顧一切。\n四、天主之照顧是否加給接受照顧之事物一種必然性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "是否應將照顧歸於天主",
+      "after": "是否應將照顧歸於天主",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "似乎不應將照顧(provident泊，預謀、籌書IJ)歸於天主。因為:",
+      "after": "似乎不應將照顧(providentia，預謀、籌劃)歸於天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "provident泊",
+          "after": "providentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "籌書IJ",
+          "after": "籌劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        557
+      ],
+      "before": "按西塞祿之說，照顧是明智或智德之部分(《修辭學》卷三第五十三章)。而依哲學家在《倫理學》卷六第五章所說，明智就是善於計議或計畫IJ，這不適用於天主，因為天主從無任何疑慮而需要計議。所以，照顧不適用於天主。",
+      "after": "按西塞祿之說，照顧是明智或智德之部分(《修辭學》卷三第五十三章)。而依哲學家在《倫理學》卷六第五章所說，明智就是善於計議或計劃，這不適用於天主，因為天主從無任何疑慮而需要計議。所以，照顧不適用於天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "計畫IJ",
+          "after": "計劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        557,
+        558
+      ],
+      "before": "此外，凡是在天主內者，都是永恆的。而照顧卻不是什麼永恆的事物，因為依大馬士革的若望所說，照顧是有關存在物的，而存在物卻不是永恆的(《論正統信仰》卷二第二十九事)。所以在天主內沒有照顧=",
+      "after": "此外，凡是在天主內者，都是永恆的。而照顧卻不是什麼永恆的事物，因為依大馬士革的若望所說，照顧是有關存在物的，而存在物卻不是永恆的(《論正統信仰》卷二第二十九章)。所以在天主內沒有照顧。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "二十九事",
+          "after": "二十九章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "照顧=",
+          "after": "照顧。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        558
+      ],
+      "before": "此外，在天主內沒有l王fpJ組合物。而照顧卻似乎是組合物，因為它在自己內含有意主和理智。所以，在天主內沒有照顧。",
+      "after": "此外，在天主內沒有任何組合物。而照顧卻似乎是組合物，因為它在自己內含有意志和理智。所以，在天主內沒有照顧。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "l王fpJ",
+          "after": "任何",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意主",
+          "after": "意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        558
+      ],
+      "before": "《智慧篇》第十四章3節卻說: 「但最後，父啊!還是你的照顧在駕駛」。",
+      "after": "《智慧篇》第十四章3節卻說：「但最後，父啊!還是你的照顧在駕駛」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        558,
+        559
+      ],
+      "before": "我解答如下:必須肯定在天主內有照顧之存在。因為萬物中的善都是由天主所創造的，如在前面第六題第四節已證明過的。而在萬物中，不僅有屬於萬物之本體方面的善，而且也有關於它們歸向目的的善，特別是歸於最終目的，flrJ歸向天主之善的善，如在前面第二十一題第四節己說過的。所以，這種存在於受造物內之歸向目的或秩序的善，是白天主所創造的。而如前面第十五題第二節及第十九題第四節所證明的，天主藉自己的理智而是萬物的原因，因此，祂的每一個效果，必然在天主內預先有其理或設計存在;所以，萬物歸向目的之秩序，亦必然在天主的理智內預先有其理或設計存在。而安排萬物歸向目的的設計，卻正是照顧。因為照顧或預謀是明智之主要部分;明智之另兩部分，即對過去事物的記憶和對現在事物之瞭解，則是為照顧或預謀舖路的;因為，我們是根據所記得的過去事物和所瞭解的現在事物，而推測應怎樣照顧或預謀將來的事物。按哲學家在《倫理學》卷六第五章所說，明智之特性即是安排其他的事物趨向目的;或者是在自身方面，比如:人妥善地安排自己的行為趨向自己生活之目的，就說他是明智的人;或者是在家庭、城市或國家內對自己的屬下方面，如《瑪竇福音》第二十四章的節所說: 「忠信聰明的使人，主人派他管理自己的家。」在這第二種意義下，明智和照顧可以適用於天主;因為在天主內，沒有可以安排歸向目的的事物，因為天主本身就是最終目的。所以，使萬物歸向目的之秩序的安排或設計，在天主內即稱為照顧。因此，波其武在《哲學的慰藉》卷四第六章說:「照顧就是在最高統治者內的天主的設計或計劃本身，它安排一切。」而所謂安排，能是指使萬物歸向目的之秩序的設計，亦能是指各部分在整體內之秩序的設計。",
+      "after": "我解答如下：必須肯定在天主內有照顧之存在。因為萬物中的善都是由天主所創造的，如在前面第六題第四節己證明過的。而在萬物中，不僅有屬於萬物之本體方面的善，而且也有關於它們歸向目的的善，特別是歸於最終目的，即歸向天主之善的善，如在前面第二十一題第四節己說過的。所以，這種存在於受造物內之歸向目的或秩序的善，是由天主所創造的。而如前面第十五題第二節及第十九題第四節所證明的，天主藉自己的理智而是萬物的原因，因此，祂的每一個效果，必然在天主內預先有其理或設計存在；所以，萬物歸向目的之秩序，亦必然在天主的理智內預先有其理或設計存在。而安排萬物歸向目的的設計，卻正是照顧。因為照顧或預謀是明智之主要部分；明智之另兩部分，即對過去事物的記憶和對現在事物之瞭解，則是為照顧或預謀鋪路的；因為，我們是根據所記得的過去事物和所瞭解的現在事物，而推測應怎樣照顧或預謀將來的事物。按哲學家在《倫理學》卷六第五章所說，明智之特性即是安排其他的事物趨向目的；或者是在自身方面，比如：人妥善地安排自己的行為趨向自己生活之目的，就說他是明智的人；或者是在家庭、城市或國家內對自己的屬下方面，如《瑪竇福音》第二十四章45節所說：「忠信聰明的僕人，主人派他管理自己的家。」在這第二種意義下，明智和照顧可以適用於天主；因為在天主內，沒有可以安排歸向目的的事物，因為天主本身就是最終目的。所以，使萬物歸向目的之秩序的安排或設計，在天主內即稱為照顧。因此，波其武在《哲學的慰藉》卷四第六章說：「照顧就是在最高統治者內的天主的設計或計劃本身，它安排一切。」而所謂安排，能是指使萬物歸向目的之秩序的設計，亦能是指各部分在整體內之秩序的設計。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四節已",
+          "after": "第四節己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "flrJ",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是白",
+          "after": "是由",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "舖路",
+          "after": "鋪路",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二十四章的節",
+          "after": "第二十四章45節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聰明的使人",
+          "after": "聰明的僕人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        559
+      ],
+      "before": "依哲學家在《倫理學》卷六第九章之意見，明智本來是出命者，其對象是「謀略」(eubulia)正確所計議的，和「正常審斷」(synesis)正確所裁決的事物。因此，雖然計議不適用於天主，因為其中含有對懸疑事物的探究;但命令被安排的事物趨向目的，對它們有正確的設計或計畫1]，卻適用於天主，就去日《聖詠》第一四八篇6節所說的:「祂頒布了命令，永不變吏。」依此意義，明智和照顧之理或性質，都適用於天主。雖然也可以這樣說，即應行事物之理或設計本身在天主內稱為計議或計劃;但這不是由於探究，而是由於確實的認知，即計議者藉探究要達到的認知。因此，《厄弗所書》第一章11節說﹒「祂按照自己官意的計劃施行萬事。」",
+      "after": "依哲學家在《倫理學》卷六第九章之意見，明智本來是出命者，其對象是「謀略」(eubulia)正確所計議的，和「正常審斷」(synesis)正確所裁決的事物。因此，雖然計議不適用於天主，因為其中含有對懸疑事物的探究；但命令被安排的事物趨向目的，對它們有正確的設計或計劃，卻適用於天主，就如《聖詠》第一四八篇6節所說的：「祂頒布了命令，永不變更。」依此意義，明智和照顧之理或性質，都適用於天主。雖然也可以這樣說，即應行事物之理或設計本身在天主內稱為計議或計劃；但這不是由於探究，而是由於確實的認知，即計議者藉探究要達到的認知。因此，《厄弗所書》第一章11節說：「祂按照自己旨意的計劃施行萬事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "計畫1]",
+          "after": "計劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "就去日",
+          "after": "就如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "變吏",
+          "after": "變更",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說﹒",
+          "after": "說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "官意",
+          "after": "旨意",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        559
+      ],
+      "before": "照管(cura)包括兩項:即「秩序之設計」'此稱為照顧或預謀和安排;以及「秩序之執行」'此稱為管理或治理。其中之第一項是永恆的，第二項是有時間性的。",
+      "after": "照管(cura)包括兩項：即「秩序之設計」，此稱為照顧或預謀和安排；以及「秩序之執行」，此稱為管理或治理。其中之第一項是永恆的，第二項是有時間性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "設計」'",
+          "after": "設計」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "執行」'",
+          "after": "執行」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        559
+      ],
+      "before": "照顧在於理智，不過它預先設定有願欲日的之意志。因為一個人除非願欲目的，他就不會下令做為達到那個目的的事。因此，明智或智德也同樣地預先設定，有使嗜慾趨向善的道德涵養性德性，如哲學家在《倫理學》卷六第十三章所說的。不過，即使假設照顧是同等地屬於天主的意志和理智，那也不損害天主的單純性，因為意志和理智在天主內根本就是同一的，如在前面第十九題第一節，第四節釋疑2已經說過的。",
+      "after": "照顧在於理智，不過它預先設定有願欲目的之意志。因為一個人除非願欲目的，他就不會下令做為達到那個目的的事。因此，明智或智德也同樣地預先設定，有使嗜慾趨向善的道德涵養性德性，如哲學家在《倫理學》卷六第十三章所說的。不過，即使假設照顧是同等地屬於天主的意志和理智，那也不損害天主的單純性，因為意志和理智在天主內根本就是同一的，如在前面第十九題第一節，第四節釋疑2.己經說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "願欲日的",
+          "after": "願欲目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "2已經",
+          "after": "2.己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "是否一切萬物都在天主照顧之下",
+      "after": "是否一切萬物都在天主照顧之下",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "似乎不是一切的萬物都在天主照顧之下。因為:",
+      "after": "似乎不是一切的萬物都在天主照顧之下。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "凡是預料到的(預先見到的或謀劃的)，就不是偶然發生的。如果一切事物都是由天主所照料或照顧，就不會有偶然的事物發生;如此則偶然和僥倖就消失了。而這與一般的意見卻相反。",
+      "after": "凡是預料到的(預先見到的或謀劃的)，就不是偶然發生的。如果一切事物都是由天主所照料或照顧，就不會有偶然的事物發生；如此則偶然和僥倖就消失了。而這與一般的意見卻相反。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "此外，每一個智慧的照顧者，都盡其所能地由他所管理的事物中排除缺陷和惡。而我們卻在萬物中看到許多惡。所以，或者是天主不能阻止這許多惡，因而祂不是全能的;或者是祂並非照管所有的事物。",
+      "after": "此外，每一個智慧的照顧者，都盡其所能地由他所管理的事物中排除缺陷和惡。而我們卻在萬物中看到許多惡。所以，或者是天主不能阻止這許多惡，因而祂不是全能的；或者是祂並非照管所有的事物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "此外，凡是必然發生的事物，便不需要照顧或明智;因此，按哲學家在《倫理學》卷六第五章所說的，明智是偶然事物之正確計劃，計議和決擇就是關於這些偶然事物的。所以，在萬物中既有許多是必然而發生的，那麼不是一切的萬物都在(天主的)照顧之下。",
+      "after": "此外，凡是必然發生的事物，便不需要照顧或明智；因此，按哲學家在《倫理學》卷六第五章所說的，明智是偶然事物之正確計劃，計議和決擇就是關於這些偶然事物的。所以，在萬物中既有許多是必然而發生的，那麼不是一切的萬物都在(天主的)照顧之下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "此外，凡是任由自己照顧自己者，便不屬於一個治理者的照顧之下。而天主任由人自己照顧自己，按《德訓篇》第十五章14節所說的: 「天主在起初就造了人，並把他支付伶自己計議或謀略的手中」;特別是關於惡人，按《聖詠》第八十篇13節所說的: 「祂就任憑他們的心靈頑硬，讓他們隨自己的私意而行。」所以，不是一切的萬物都在天主照顧之下。",
+      "after": "此外，凡是任由自己照顧自己者，便不屬於一個治理者的照顧之下。而天主任由人自己照顧自己，按《德訓篇》第十五章14節所說的：「天主在起初就造了人，並把他交付給自己計議或謀略的手中」；特別是關於惡人，按《聖詠》第八十篇13節所說的：「祂就任憑他們的心靈頑硬，讓他們隨自己的私意而行。」所以，不是一切的萬物都在天主照顧之下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "支付伶",
+          "after": "交付給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.arg5",
+      "article": 2,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "此外，宗徒在《格林多前書》第九章9節說: 「天主所關心的不是牛」;同理，也不是其他沒有理性的受造物。所以，不是一切的萬物都在天主照顧之下。",
+      "after": "此外，宗徒在《格林多前書》第九章9節說：「天主所關心的不是牛」；同理，也不是其他沒有理性的受造物。所以，不是一切的萬物都在天主照顧之下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        560
+      ],
+      "before": "《智慧篇》第八章1節論天主的智慧，卻說: 「智慧施展成力，從地拉直到地極，從容安排治理萬物。」",
+      "after": "《智慧篇》第八章1節論天主的智慧，卻說：「智慧施展威力，從地極直到地極，從容安排治理萬物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "施展成力",
+          "after": "施展威力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "從地拉",
+          "after": "從地極",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        561,
+        562
+      ],
+      "before": "我解答如下:有些人，如德讀克利圖斯及伊比鳩魯派(Epicurei)等，完全否認天主的照顧，主張世界是偶然產生的。有些人卻主張只有不朽腐的東西纔有天主的照顧;至於有朽腐的東西，其個體沒有天主的照顧，只有其物種或類另IJ纔有天主的照顧，因為它們是如此(依類別)而為不朽腐的。《約伯傳》第二十二章14節以這些人的名義說: 「雲彩遮避著祂(天主h使祂看不到什麼，而祂只在天邊周圍遊行，並不注意我們。」而「梅瑟教師」卻認為人是有朽腐東西中之例外，這是由於人分有理智的光彩(《疑問指南》卷三第十七章);對於別的有朽腐的個體，他則追隨其他人的意見。\n不過，必須說，一切萬物，不僅是在普遍的或共同的(物種)方面，而且也是在特殊的個體方面，都在天主的照顧之下。這可如此加以證明。由於每一個主動者或動因，都是為了一個目的而行動，所以第一個動因的因果作用或效力有多大範圍，使效果趨向目的的安排或規定也就有多大範圈。至於在某一主動者或動因內，有什麼沒有達到預先規定的目的，那是由於該效果來自原主動者意外的另一原因。可是，天主是第-主動者或動因，祂的因果作用或效力，擴及一切存在物，不僅及於物種或類別的因素，而且也及於個體的因素，無論是屬於朽腐之物的或不朽腐之物的，無不概括在內。因此，凡是有某種形態之存在者，都必然是由天主針對某一目的所安排或規定的，按宗徒在《羅馬書》第十三章1節所說的: 「白天主來的，都是由天主規定的。」而天主之照顧無非就是安排萬物趨向目的的設計，如在第一節己說過的。所以，萬物分有多大程度的存在，也就必然有多大程度的隸屬於天主的照顧。\n而且，同樣地，前面第十四題第十一節已證明過了，天主認知一切，普遍的以及特殊的。而天主的認知與萬物的關係，如前面第十四題第八節所說的，就如技術之認真日與技術作品之關係一樣。所以，一切萬物詐，正無隸屬於天主之安排或規定，就如一切技術作品都隸屬於技{叮叮規定一樣。",
+      "after": "我解答如下：有些人，如德謨克利圖斯及伊比鳩魯派(Epicurei)等，完全否認天主的照顧，主張世界是偶然產生的。有些人卻主張只有不朽腐的東西才有天主的照顧；至於有朽腐的東西，其個體沒有天主的照顧，只有其物種或類別才有天主的照顧，因為它們是如此(依類別)而為不朽腐的。《約伯傳》第二十二章14節以這些人的名義說：「雲彩遮蔽著祂(天主)，使祂看不到什麼，而祂只在天邊周圍遊行，並不注意我們。」而「梅瑟教師」卻認為人是有朽腐東西中之例外，這是由於人分有理智的光彩(《疑問指南》卷三第十七章)；對於別的有朽腐的個體，他則追隨其他人的意見。\n不過，必須說，一切萬物，不僅是在普遍的或共同的(物種)方面，而且也是在特殊的個體方面，都在天主的照顧之下。這可如此加以證明。由於每一個主動者或動因，都是為了一個目的而行動，所以第一個動因的因果作用或效力有多大範圍，使效果趨向目的的安排或規定也就有多大範圍。至於在某一主動者或動因內，有什麼沒有達到預先規定的目的，那是由於該效果來自原主動者意外的另一原因。可是，天主是第一主動者或動因，祂的因果作用或效力，擴及一切存在物，不僅及於物種或類別的因素，而且也及於個體的因素，無論是屬於朽腐之物的或不朽腐之物的，無不概括在內。因此，凡是有某種形態之存在者，都必然是由天主針對某一目的所安排或規定的，按宗徒在《羅馬書》第十三章1節所說的：「由天主來的，都是由天主規定的。」而天主之照顧無非就是安排萬物趨向目的的設計，如在第一節己說過的。所以，萬物分有多大程度的存在，也就必然有多大程度的隸屬於天主的照顧。\n而且，同樣地，前面第十四題第十一節己證明過了，天主認知一切，普遍的以及特殊的。而天主的認知與萬物的關係，如前面第十四題第八節所說的，就如技術之認知與技術作品之關係一樣。所以，一切萬物都必然隸屬於天主之安排或規定，就如一切技術作品都隸屬於技術的規定一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德讀",
+          "after": "德謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "遮避",
+          "after": "遮蔽",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主h",
+          "after": "天主)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第-主動",
+          "after": "第一主動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「白天主",
+          "after": "「由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已證明",
+          "after": "己證明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "萬物詐，正無",
+          "after": "萬物都必然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "技{叮叮",
+          "after": "技術的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        562
+      ],
+      "before": "普遍原因和個別或特殊原因的情形不同。一個東西能夠脫離特殊原因的安排或秩序，但不能夠脫離普遍原因的安排或秩序。因為一個東西之逃脫特殊原因之秩序，無非是因為受了另外一個特殊原因之阻礙，比如:木柴因受水之作用阻礙而不燃燒。因此，既然所有的特殊原因都被涵蓋在普遍原因之內，那麼任何一個效果都不可能逃脫普遍原因的秩序。所以，如果一個效果逃離了一個特殊原因之秩序，針對那個特殊原因來講，就說這個效果是偶然的或僥倖的;不過，針對他不可能逃離的普遍原因而言，則說這個效果是預見而謀定的c比如:兩個僕人(在外地)相遇，在他們來說，雖然是事出偶然，但在他們的主人來說，卻是完全意料中事，因為他有意地如此派他們兩人到同一地方去，並使他們彼此無所知悉。",
+      "after": "普遍原因和個別或特殊原因的情形不同。一個東西能夠脫離特殊原因的安排或秩序，但不能夠脫離普遍原因的安排或秩序。因為一個東西之逃脫特殊原因之秩序，無非是因為受了另外一個特殊原因之阻礙，比如：木柴因受水之作用阻礙而不燃燒。因此，既然所有的特殊原因都被涵蓋在普遍原因之內，那麼任何一個效果都不可能逃脫普遍原因的秩序。所以，如果一個效果逃離了一個特殊原因之秩序，針對那個特殊原因來講，就說這個效果是偶然的或僥倖的；不過，針對他不可能逃離的普遍原因而言，則說這個效果是預見而謀定的。比如：兩個僕人(在外地)相遇，在他們來說，雖然是事出偶然，但在他們的主人來說，卻是完全意料中事，因為他有意地如此派他們兩人到同一地方去，並使他們彼此無所知悉。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "謀定的c",
+          "after": "謀定的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        562,
+        563
+      ],
+      "before": "照顧特殊事物者與普遍照顧一切事物者的情形不同。照顧特殊事物者，盡其所能地由其所照顧的東西中消除一切缺陷;而普遍照顧一切事物者，為了使整體的善不致受到阻礙，有時容許特殊事物有缺陷。因此，自然物之朽腐，和缺陷，被稱為是違反特殊的本性或性體;但就一個東西的缺陷轉變為另一個東西或宇宙整體的善而言，它們卻是源於普遍大自然的宗旨。因為﹒個東西芝朽腐，便是另一個東西的產生，物種或類別因此而被延續。所以，天主既是全體存在物的全面照顧者，天主的照顧之特性之一，便是為了不使宇宙之完備的善受到阻礙，而容許一些特殊事物有缺陷。因為，如果任何惡都不被容許的話，這宇宙便會缺少許多善，比如:如果沒有動物被殺死，便不會有獅子的生命;如果沒有殘虐暴君的迫害，也就沒有殉道者的堅忍。因此，奧斯定在《基本教理手冊》第十一章說: 「除非天主的全能和仁善大得可以化惡為善，全能的天主就絕不會容許祂的工程中有任何惡存在。」似乎就是由以上我們所澄清的這兩種理由，才導致一些人以為有朽腐的東西，即其內含有偶然和惡的東西，不在天主的照顧之下。",
+      "after": "照顧特殊事物者與普遍照顧一切事物者的情形不同。照顧特殊事物者，盡其所能地由其所照顧的東西中消除一切缺陷；而普遍照顧一切事物者，為了使整體的善不致受到阻礙，有時容許特殊事物有缺陷。因此，自然物之朽腐，和缺陷，被稱為是違反特殊的本性或性體；但就一個東西的缺陷轉變為另一個東西或宇宙整體的善而言，它們卻是源於普遍大自然的宗旨。因為一個東西之朽腐，便是另一個東西的產生，物種或類別因此而被延續。所以，天主既是全體存在物的全面照顧者，天主的照顧之特性之一，便是為了不使宇宙之完備的善受到阻礙，而容許一些特殊事物有缺陷。因為，如果任何惡都不被容許的話，這宇宙便會缺少許多善，比如：如果沒有動物被殺死，便不會有獅子的生命；如果沒有殘虐暴君的迫害，也就沒有殉道者的堅忍。因此，奧斯定在《基本教理手冊》第十一章說：「除非天主的全能和仁善大得可以化惡為善，全能的天主就絕不會容許祂的工程中有任何惡存在。」似乎就是由以上我們所澄清的這兩種理由，才導致一些人以為有朽腐的東西，即其內含有偶然和惡的東西，不在天主的照顧之下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為﹒個東西芝",
+          "after": "因為一個東西之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        563
+      ],
+      "before": "人不是自然性體或大自然的建立者;他只是在自己技藝和修德的作為中利用自然事物。所以，人的照顧達不到在自然界必然發生的事物。但天主的照顧卻及於它們，因為天主是自然性體或大自然的創立者。似乎是由於這個理由，纔有人，如德誤克利圖斯及其他古代自然哲學家等，認為自然事物之運行係出於質料之必然性，不受天主照顧。",
+      "after": "人不是自然性體或大自然的建立者；他只是在自己技藝和修德的作為中利用自然事物。所以，人的照顧達不到在自然界必然發生的事物。但天主的照顧卻及於它們，因為天主是自然性體或大自然的創立者。似乎是由於這個理由，才有人，如德謨克利圖斯及其他古代自然哲學家等，認為自然事物之運行係出於質料之必然性，不受天主照顧。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有人",
+          "after": "才有人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德誤",
+          "after": "德謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        563
+      ],
+      "before": "所謂天主把人交付給人自己，並不是說人不受天主的照顧;而是表示人的活動能力未被先天地限定於一，像自然物一樣，因為自然物有如是被男一東西所指揮，只是被動地趨向目的，而不是有如自己主動地推動自己趨向目的，像有理性的受造物藉自由意志而從事計議和抉擇一樣。是以，聖經刻意地說，把人交付給「自己計議的手中」。可是，自由意志之行為可回溯到天主，有如以天主為原因，所以，凡是由自由意志所發生的?便都屬於天主的照顧之下，因為人的照顧包括在天主的照顧內，就如特殊的原因包括在普遍的原因內一樣。天主對義人的照顧，比對惡人的照顧更為卓越，這是因為天主不容許發生最後會阻礙義人得救的事，因為如《羅馬書》第八章28節所說的: 「天主使一切協助那些愛祂的人，獲得益處。」由於天主不主動挽回惡人遠離罪過之惡，而說天主任由他們。但這並不是說他們完全被損棄於天主的照顧之外;因為除非有天主的照顧保存他們，他們便會淪為虛無。西塞祿(Tullíus Cicerone'106-43BC)似乎是為了這個理由，才把我們含有計議的人事，排除於天主的照顧之外(<<論佔川(De Divinat)卷二第五章)。",
+      "after": "所謂天主把人交付給人自己，並不是說人不受天主的照顧；而是表示人的活動能力未被先天地限定於一，像自然物一樣，因為自然物有如是被另一東西所指揮，只是被動地趨向目的，而不是有如自己主動地推動自己趨向目的，像有理性的受造物藉自由意志而從事計議和抉擇一樣。是以，聖經刻意地說，把人交付給「自己計議的手中」。可是，自由意志之行為可回溯到天主，有如以天主為原因，所以，凡是由自由意志所發生的，便都屬於天主的照顧之下，因為人的照顧包括在天主的照顧內，就如特殊的原因包括在普遍的原因內一樣。天主對義人的照顧，比對惡人的照顧更為卓越，這是因為天主不容許發生最後會阻礙義人得救的事，因為如《羅馬書》第八章28節所說的：「天主使一切協助那些愛祂的人，獲得益處。」由於天主不主動挽回惡人遠離罪過之惡，而說天主任由他們。但這並不是說他們完全被擯棄於天主的照顧之外；因為除非有天主的照顧保存他們，他們便會淪為虛無。西塞祿(Tullius Cicerone，106~43BC)似乎是為了這個理由，才把我們含有計議的人事，排除於天主的照顧之外(《論占卜》(De Divinat)卷二第五章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發生的?",
+          "after": "發生的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "損棄",
+          "after": "擯棄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Tullíus Cicerone'106-43BC",
+          "after": "Tullius Cicerone，106~43BC",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(<<論佔川",
+          "after": "(《論占卜》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a002.ad5",
+      "article": 2,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "如前面釋疑4.及第十九題第十節所說，有理性的受造牧因有自由意志而對自己的行為有主權，所以是以一種特殊方式屬於天主的照顧之下，即是說，有的行事算為他的功或過，芷回報以賞或罰。是在這種意義下，宗徒說天主不關心牛。但不是像梅瑟教師所想的，沒有理性的個別受造物不屬天主照顧之範圍內《疑問指南》卷三第十七章)。",
+      "after": "如前面釋疑4.及第十九題第十節所說，有理性的受造物因有自由意志而對自己的行為有主權，所以是以一種特殊方式屬於天主的照顧之下，即是說，有的行事算為他的功或過，並回報以賞或罰。是在這種意義下，宗徒說天主不關心牛。但不是像梅瑟教師所想的，沒有理性的個別受造物不屬天主照顧之範圍(《疑問指南》卷三第十七章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "受造牧",
+          "after": "受造物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "芷回報",
+          "after": "並回報",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圍內《",
+          "after": "範圍(《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "天主是否直接照顧一切",
+      "after": "天主是否直接照顧一切",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "天主似乎不是直接照顧一切。因為:",
+      "after": "天主似乎不是直接照顧一切。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "凡是屬於尊位或高貴者，都應歸於天主。而任用臣(業，藉他們間接地照顧屬下，屬於君王之尊位或高貴。所以﹒天主更不會直接照顧一切。",
+      "after": "凡是屬於尊位或高貴者，都應歸於天主。而任用臣僕，藉他們間接地照顧屬下，屬於君王之尊位或高貴。所以，天主更不會直接照顧一切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "臣(業",
+          "after": "臣僕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "此外，安排事物，使趨向目的，這屬於照顧。而一研事物之目的，即是其本身的完美和善。使自己的效果獲致善，這屬於每一個原因。所以，每一個主動原因或動因都是照顧致果的原因。所以，如果天主直接照顧一切，貝1]所有的第二原因都將被取消了。",
+      "after": "此外，安排事物，使趨向目的，這屬於照顧。而一切事物之目的，即是其本身的完美和善。使自己的效果獲致善，這屬於每一個原因。所以，每一個主動原因或動因都是照顧效果的原因。所以，如果天主直接照顧一切，則所有的第二原因都將被取消了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一研事物",
+          "after": "一切事物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "照顧致果",
+          "after": "照顧效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "此外，奧斯定在《基本教理於冊》第十七章說: 「安於一些事物，不知反比知更好」'比如卑鄙的事物;哲學家在《形上學》卷十二第九章也說過同樣的話。而凡是更好的，都應該歸於天主。所以，天主不直接照顧卑鄙的和惡的事物。",
+      "after": "此外，奧斯定在《基本教理手冊》第十七章說：「對於一些事物，不知反比知更好」，比如卑鄙的事物；哲學家在《形上學》卷十二第九章也說過同樣的話。而凡是更好的，都應該歸於天主。所以，天主不直接照顧卑鄙的和惡的事物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "教理於冊",
+          "after": "教理手冊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "安於一些",
+          "after": "對於一些",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "更好」'",
+          "after": "更好」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        564
+      ],
+      "before": "《約伯傳》第三十四章13節卻說: 「祂(天主)另外委派了誰掌管大地，祂又任命了誰治理受造的世界?」對此，教宗額我略一世說:是祂親自治理祂自己所建造的世界(《倫理叢談》卷一第二十四章)。",
+      "after": "《約伯傳》第三十四章13節卻說：「祂(天主)另外委派了誰掌管大地，祂又任命了誰治理受造的世界？」對此，教宗額我略一世說：是祂親自治理祂自己所建造的世界(《倫理叢談》卷一第二十四章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "世界?",
+          "after": "世界？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        565
+      ],
+      "before": "我解答如下:照顧包括兩點:即安排被照顧的事物趨向目的的設計或計畫IJ，以及此一安排或計劃之執行，也稱為治理。所以，關於其中之第一點，天主是直接地照顧一切。因為在祂的理智中，有一切事物的理或設計，包括最渺小的事物在內;不拘祂為某些效果預置了什麼原因，祂都把產生相關效果的能力賦予這些原因。因此，天主必然在自己的設計內，早就預先有了這些妓果的安排或秩序。至於第二點，天主的照顧卻有某些中間媒介。因為祂利用高級的受造物來治理低級的受造物;這不是因為祂的能方不足，而是由於祂豐裕的仁善，祂願意受造物也分草身為原因的高貴。\n依據上述理由，尼沙之額我略(Gregorius Nyssenus'約335-394年)在《論人性》(De nat. hom.)第四十四章介紹柏拉圖主張有三層照顧之說，便不能成立了。所謂三層照顧，其中之第一層，是至上神的照顧，祂首要地照顧精神事物，繼而也照顧整個世界中的物之類、種和普遍的原因。第二層是關於那些有生有滅的個別事物的照顧;柏拉圖把這種照顧歸於那些周遊天上的一般神，即那些推動天體循環的獨立存在的本體或自立體。第三層是對人事的照顧‘他認為這是鬼神的事;而依奧斯定在《天主之城》卷九第一章的記述，柏拉圖派認為這些鬼神位於我們與一般神兩者之間。",
+      "after": "我解答如下：照顧包括兩點：即安排被照顧的事物趨向目的的設計或計劃，以及此一安排或計劃之執行，也稱為治理。所以，關於其中之第一點，天主是直接地照顧一切。因為在祂的理智中，有一切事物的理或設計，包括最渺小的事物在內；不拘祂為某些效果預置了什麼原因，祂都把產生相關效果的能力賦予這些原因。因此，天主必然在自己的設計內，早就預先有了這些效果的安排或秩序。至於第二點，天主的照顧卻有某些中間媒介。因為祂利用高級的受造物來治理低級的受造物；這不是因為祂的能力不足，而是由於祂豐裕的仁善，祂願意受造物也分享身為原因的高貴。\n依據上述理由，尼沙之額我略(Gregorius Nyssenus，約335~394年)在《論人性》(De nat. hom.)第四十四章介紹柏拉圖主張有三層照顧之說，便不能成立了。所謂三層照顧，其中之第一層，是至上神的照顧，祂首要地照顧精神事物，繼而也照顧整個世界中的物之類、種和普遍的原因。第二層是關於那些有生有滅的個別事物的照顧；柏拉圖把這種照顧歸於那些周遊天上的一般神，即那些推動天體循環的獨立存在的本體或自立體。第三層是對人事的照顧，他認為這是鬼神的事；而依奧斯定在《天主之城》卷九第一章的記述，柏拉圖派認為這些鬼神位於我們與一般神兩者之間。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "計畫IJ",
+          "after": "計劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能方",
+          "after": "能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分草",
+          "after": "分享",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Nyssenus'約335-394",
+          "after": "Nyssenus，約335~394",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "照顧‘",
+          "after": "照顧，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        565
+      ],
+      "before": "有臣僕來執行他的照顧，這屬於君王的尊位或高貴;可是，對於藉臣僕所應做的事而沒有計劃，卻是出於他自己的缺陷。因為實踐或行動的知識，對於環繞行為的個別因素，考慮得越週詳，知識也就越完備。",
+      "after": "有臣僕來執行他的照顧，這屬於君王的尊位或高貴；可是，對於藉臣僕所應做的事而沒有計劃，卻是出於他自己的缺陷。因為實踐或行動的知識，對於環繞行為的個別因素，考慮得越週詳，知識也就越完備。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        565
+      ],
+      "before": "天主直接照顧一切萬物，並不因此而排除第二原因，因為第二原因是天主之安排或計畫IJ的執行者，如前面正解己說過的。",
+      "after": "天主直接照顧一切萬物，並不因此而排除第二原因，因為第二原因是天主之安排或計劃的執行者，如前面正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "計畫IJ",
+          "after": "計劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "對我們來說，不知道惡的和卑鄙的事物更好，這是由於它們會阻礙我們注意更好的事，因為我們不能同時理解許多的事物;也是由於思念惡事有時敗壞我們的意志使之向惡。而在天主內卻不會有這種情形，因為祂一目瞭然一切的事物，而祂的意志亦不可能向惡。",
+      "after": "對我們來說，不知道惡的和卑鄙的事物更好，這是由於它們會阻礙我們注意更好的事，因為我們不能同時理解許多的事物；也是由於思念惡事有時敗壞我們的意志使之向惡。而在天主內卻不會有這種情形，因為祂一目了然一切的事物，而祂的意志亦不可能向惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一目瞭然",
+          "after": "一目了然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "天主之照顧是否加給接受照顧之事物一種必然性",
+      "after": "天主之照顧是否加給接受照顧之事物一種必然性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "有關第四節，我們討論如下;",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下;",
+          "after": "如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "天主之照顧，似乎是加給接受照顧之事物一種必然性。因為:",
+      "after": "天主之照顧，似乎是加給接受照顧之事物一種必然性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "如哲學家在《形仁學》卷六第三章所證明的，任何一個效果，如果本然地(依其本質)有某一原因，而這個原因現已存在或曾經存在，並且效果是必然地跟隨這個原因出現，那麼效果便是必然地發生。可是，天主的照顧既是永恆的，所以預先就已存在;而其效果也是必然地隨之出現，因為天主的照顧不可能失效或落空。所以司天主的照顧加給接受照顧的事物一種必然性。",
+      "after": "如哲學家在《形上學》卷六第三章所證明的，任何一個效果，如果本然地(依其本質)有某一原因，而這個原因現己存在或曾經存在，並且效果是必然地跟隨這個原因出現，那麼效果便是必然地發生。可是，天主的照顧既是永恆的，所以預先就己存在；而其效果也是必然地隨之出現，因為天主的照顧不可能失效或落空。所以，天主的照顧加給接受照顧的事物一種必然性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《形仁學》",
+          "after": "《形上學》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現已",
+          "after": "現己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "就已",
+          "after": "就己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以司",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "此外，每一個照顧者都盡其所能使自己的事工穩固，以兔失敗。而天主是最有能力的Q所以，他給予自己所照顧的事物穩固的必然性。",
+      "after": "此外，每一個照顧者都盡其所能使自己的事工穩固，以免失敗。而天主是最有能力的。所以，他給予自己所照顧的事物穩固的必然性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "以兔",
+          "after": "以免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力的Q",
+          "after": "能力的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "此外，波其武在《哲學的慰藉》卷四第六章說:「由不可改變之照顧來源而產生的命逞，藉各種原因之不可分解的聯繫，把人們的行為和時運緊扣在一起。」所以，天主的照顧似乎是加給接受照顧的事物一種豆、然性。",
+      "after": "此外，波其武在《哲學的慰藉》卷四第六章說：「由不可改變之照顧來源而產生的命運，藉各種原因之不可分解的聯繫，把人們的行為和時運緊扣在一起。」所以，天主的照顧似乎是加給接受照顧的事物一種必然性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "命逞",
+          "after": "命運",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "豆、然性",
+          "after": "必然性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        566
+      ],
+      "before": "狄奧尼修在《神名論》第四章說，「敗壞自然本性或性體，不屬於照顧」。然而，有些東西基於本性就是偶然的或非必然的。所以，天主的照顧不加給事物排除偶然的必然性。",
+      "after": "狄奧尼修在《神名論》第四章說，「敗壞自然本性或性體，不屬於照顧」。然而，有些東西基於本性就是偶然的或非必然的。所以，天主的照顧不加給事物排除偶然的必然性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        567
+      ],
+      "before": "我解答如下:天主的照顧加給某些事物必然性，但不是加給所有的事物，如某些人所主張的。安排事物趨向目的，這屬於照顧。天主之善是位於事物本身之外之目的，在這善之後，存在於事物本身內之主要的善，便是宇宙的完美。然而，如果在事物中沒有各種等級的存在，也就不會有宇宙的完美。因此，造生所有各種等級立存在物司這屬於天主的照顧。為此，祂為某些事物準備了必然的原因，使它們必然地發生;而為另一些事物準備了偶然的原因，使它們依照近因之條件而為偶然發生的事物。",
+      "after": "我解答如下：天主的照顧加給某些事物必然性，但不是加給所有的事物，如某些人所主張的。安排事物趨向目的，這屬於照顧。天主之善是位於事物本身之外之目的，在這善之後，存在於事物本身內之主要的善，便是宇宙的完美。然而，如果在事物中沒有各種等級的存在，也就不會有宇宙的完美。因此，造生所有各種等級之存在物，這屬於天主的照顧。為此，祂為某些事物準備了必然的原因，使它們必然地發生；而為另一些事物準備了偶然的原因，使它們依照近因之條件而為偶然發生的事物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "等級立存在物司",
+          "after": "等級之存在物，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        567
+      ],
+      "before": "天主照顧之效果，不是(籠統地j無論以任何方式發生的事物，而是或者是偶然地或者是必然地發生的事物。因此，如果天主的照顧安排了一事物沒有差池而必然地發生﹒那麼這事物就會沒有差池而必然地發生。如果天主照顧的安排，是使一事物偶然地發生，那麼這事物就會偶然地發生。",
+      "after": "天主照顧之效果，不是(籠統地)無論以任何方式發生的事物，而是或者是偶然地或者是必然地發生的事物。因此，如果天主的照顧安排了一事物沒有差池而必然地發生，那麼這事物就會沒有差池而必然地發生。如果天主照顧的安排，是使一事物偶然地發生，那麼這事物就會偶然地發生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "籠統地j",
+          "after": "籠統地)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發生﹒",
+          "after": "發生，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q022.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        567
+      ],
+      "before": "天主照顧的安排之堅定而不可動搖，在於祂所照顧的一切，都按祂所預謀的方式發生，即或者是必然地，或者是偶然地。",
+      "after": "天主照顧的安排之堅定而不可動搖，在於祂所照顧的一切，都按祂所預謀的方式發生，即或者是必然地，或者是偶然地。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q022.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        567
+      ],
+      "before": "波其武所談及的不可分解性和不可改變性，固然屬於天主照顧之確定性，因為不拘是在效果方面或是發生的方式方面，天主的照顧都不會失敗或落空;然而卻不屬於效果方面的必然性。此外，還應該注意:必然的(物)和偶然的(物)，原本是針對存在物作為存在物或存在者而說的。因此，偶然和必然之(存在)方式之屬於天主的照顧，是著眼於祂是全體存在物或整個存在界的普遍照顧者，而非針對某些接受照顧之個別事物的照顧。",
+      "after": "波其武所談及的不可分解性和不可改變性，固然屬於天主照顧之確定性，因為不拘是在效果方面或是發生的方式方面，天主的照顧都不會失敗或落空；然而卻不屬於效果方面的必然性。此外，還應該注意：必然的(物)和偶然的(物)，原本是針對存在物作為存在物或存在者而說的。因此，偶然和必然之(存在)方式之屬於天主的照顧，是著眼於祂是全體存在物或整個存在界的普遍照顧者，而非針對某些接受照顧之個別事物的照顧。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
