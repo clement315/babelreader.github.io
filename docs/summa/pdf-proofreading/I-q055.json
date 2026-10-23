@@ -1,0 +1,916 @@
+{
+  "schema_version": 1,
+  "batch": "I-q055",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "3c82d6a0cfe54286d9e2080024016c7b4a544cdc",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q055",
+    "title": "論天使的認識方法",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999
+    ],
+    "printed_pages": [
+      124,
+      131
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 36,
+    "changed_review_units": 29,
+    "checked_unchanged_review_units": 8
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q55.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q55.json": "0d5be13caccf624711efc7a3a66cef41bbe703812c51934a14c5e6fe42ba211f"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q055.a003.ad1",
+      "pdf_file_page": 998,
+      "text": "在物之前先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「先己」疑为「先已」；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q055.prologue",
+      "description": "题引言起首的孤立字母与乱字删除，恢复「第五十四题引言」及其后的句号；保留原字段全部换行转义，将多出的原分行留作引言末尾空行。"
+    }
+  ],
+  "notes": [
+    "全部8页、3节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q055.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "。l\n卸\n間份去白拈法\n山\n一\n-\n隨後要探討的是天使的認識方法或媒介(參看第五十四題51一言關於這一點，可以提出三個問題:問\n一、天使是藉著自己的本體，抑或是藉著某種像(species)\n而認識一切。\n二、如果是藉著像，是藉著同性的(與性俱來的)像，抑或是藉著取自事物的像。\n三、高級天使是否比低級天使藉著更為普遍的像而認識。",
+      "after": "隨後要探討的是天使的認識方法或媒介(參看第五十四題引言)。\n關於這一點，可以提出三個問題：\n一、天使是藉著自己的本體，抑或是藉著某種像(species)而認識一切。\n二、如果是藉著像，是藉著同性的(與性俱來的)像，抑或是藉著取自事物的像。\n三、高級天使是否比低級天使藉著更為普遍的像而認識。\n\n\n\n\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "。l\n卸\n間份去白拈法\n山\n一\n-\n隨後要探討的是天使的認識方法或媒介(參看第五十四題51一言關於這一點，可以提出三個問題:問\n一、天使是藉著自己的本體，抑或是藉著某種像(species)\n而認識一切。\n二、如果是藉著像，是藉著同性的(與性俱來的)像，抑或是藉著取自事物的像。\n三、高級天使是否比低級天使藉著更為普遍的像而認識。",
+          "after": "隨後要探討的是天使的認識方法或媒介(參看第五十四題引言)。\n關於這一點，可以提出三個問題：\n一、天使是藉著自己的本體，抑或是藉著某種像(species)而認識一切。\n二、如果是藉著像，是藉著同性的(與性俱來的)像，抑或是藉著取自事物的像。\n三、高級天使是否比低級天使藉著更為普遍的像而認識。\n\n\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "天使是否藉著自己的本體而認識一切",
+      "after": "天使是否藉著自己的本體而認識一切",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "天使似乎是藉著自己的本質或本體(substantia)而認識一切。因為:",
+      "after": "天使似乎是藉著自己的本質或本體(substantia)而認識一切。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "狄奧尼修在《神名論》第七章說:「天使根據自己的靈智本性(natura mentis)，而知道地上所有的一切。」可是天使的本性卻是自己的本質或本體。所以，天使藉著自己的本質或本體而認識事物。",
+      "after": "狄奧尼修在《神名論》第七章說：「天使根據自己的靈智本性(natura mentis)，而知道地上所有的一切。」可是天使的本性卻是自己的本質或本體。所以，天使藉著自己的本質或本體而認識事物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        992
+      ],
+      "before": "此外，按照哲學家在《形上學》卷十二第九章和《靈魂論》卷三第四章所說的:「凡沒有物質的，其理智與所理解者是相同的。」可是所理解者，基於其被理解的理由或憑藉，與理解者是相同的。所以，在無物質者內，例如在天使內，理解所憑藉的，就是理解者的本體本身。",
+      "after": "此外，按照哲學家在《形上學》卷十二第九章和《靈魂論》卷三第四章所說的：「凡沒有物質的，其理智與所理解者是相同的。」可是所理解者，基於其被理解的理由或憑藉，與理解者是相同的。所以，在無物質者內，例如在天使內，理解所憑藉的，就是理解者的本體本身。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        992,
+        993
+      ],
+      "before": "此外，凡是在他物內者，都是藉著其所在之物的方式，而在該物內。可是天使卻有理智的或理解的本性。所以，凡是在天使內的，都是藉著可理解的方式在天使內。可是萬物卻都是在天使內。因為物中之低級者，是以本質的方式在高級者內;而高級者，卻是以被分享或分承的方式，在低級者內;因此，狄奧尼修在《神名論》第四章說，「天主將整體匯集在整體內」'即是將一切匯集在一切內。所以，天使是在自己的本體內而認識一切。",
+      "after": "此外，凡是在他物內者，都是藉著其所在之物的方式，而在該物內。可是天使卻有理智的或理解的本性。所以，凡是在天使內的，都是藉著可理解的方式在天使內。可是萬物卻都是在天使內。因為物中之低級者，是以本質的方式在高級者內；而高級者，卻是以被分享或分承的方式，在低級者內；因此，狄奧尼修在《神名論》第四章說，「天主將整體匯集在整體內」，即是將一切匯集在一切內。所以，天使是在自己的本體內而認識一切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "整體內」'",
+          "after": "整體內」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        993
+      ],
+      "before": "狄奧尼修在同一章又說: 「天使藉著事物的理或本質而受光照。」所以，天使是藉著事物的理或本質，而不是藉著自己的本體去認識。",
+      "after": "狄奧尼修在同一章又說：「天使藉著事物的理或本質而受光照。」所以，天使是藉著事物的理或本質，而不是藉著自己的本體去認識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        993
+      ],
+      "before": "我解答如下:理智之理解所憑藉者，與理解的理智相比較，如同它的形式一樣，因為形式是行動者所藉以行動的。可是為使潛能或能力完全為形式所充實或充滿，能力所擴及到的一切，都應該包括在形式內。因此，在可朽之物中，形式並不完全充實質料的潛能:因為質料的潛能所擴及的，比這一或那一形式所包括的更多。\n可是天使的理智能力，卻能伸展到理解一切;因為理智的對象是一般的物或真。可是，天使的本體或本質本身卻並不包括一切;因為它是限定於某一類和種的本質。可是，在自己內完善地統括及洞悉一切，這是天主的本質或本體所專有的，因為這本質或本體是無限的。所以，唯有天主藉著自己的本質或本體而認識一切。可是，天使卻不能藉著自己的本質或本體而認識一切，他的理智為認識事物，應該藉著一些像而完成準備自己。",
+      "after": "我解答如下：理智之理解所憑藉者，與理解的理智相比較，如同它的形式一樣，因為形式是行動者所藉以行動的。可是為使潛能或能力完全為形式所充實或充滿，能力所擴及到的一切，都應該包括在形式內。因此，在可朽之物中，形式並不完全充實質料的潛能：因為質料的潛能所擴及的，比這一或那一形式所包括的更多。\n可是天使的理智能力，卻能伸展到理解一切；因為理智的對象是一般的物或真。可是，天使的本體或本質本身卻並不包括一切；因為它是限定於某一類和種的本質。可是，在自己內完善地統括及洞悉一切，這是天主的本質或本體所專有的，因為這本質或本體是無限的。所以，唯有天主藉著自己的本質或本體而認識一切。可是，天使卻不能藉著自己的本質或本體而認識一切，他的理智為認識事物，應該藉著一些像而完成準備自己。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        993,
+        994
+      ],
+      "before": "幾時說，天使根據自己的本性而認識，這前詞「根據」'並不是指定認識的媒介，即被認識者的像;而是指定認識的能力，而這能力，是天使根據自己的本性而有的。",
+      "after": "幾時說，天使根據自己的本性而認識，這前詞「根據」，並不是指定認識的媒介，即被認識者的像；而是指定認識的能力，而這能力，是天使根據自己的本性而有的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "根據」'",
+          "after": "根據」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        994
+      ],
+      "before": "在現實(感覺)中的感宮，與在現實(被感覺)中的被感覺之物，是相同的，正如《靈魂論》卷三第八章所說的。可是這話並不是說，好像感官本身就是在感官內的可感覺的像本身，而是因為二者合而為一，如同由現實和潛能合而為一一樣。同樣地，說在現實(理解)中的理智，與在現實中的被理解之物，是相同的，也不是說，理智的本體就是它藉以理解的像本身，而是因為這像是它的形式。至於說，「凡沒有物質的，其理智與所理解者是相同的」'也是一樣，它如同說，「在現實(理解)中的理智，是在現實(被理解)中的被理解之物」;因為一物之是在現實中的被理解之物，是由於它是非物質的。",
+      "after": "在現實(感覺)中的感官，與在現實(被感覺)中的被感覺之物，是相同的，正如《靈魂論》卷三第八章所說的。可是這話並不是說，好像感官本身就是在感官內的可感覺的像本身，而是因為二者合而為一，如同由現實和潛能合而為一一樣。同樣地，說在現實(理解)中的理智，與在現實中的被理解之物，是相同的，也不是說，理智的本體就是它藉以理解的像本身，而是因為這像是它的形式。至於說，「凡沒有物質的，其理智與所理解者是相同的」，也是一樣，它如同說，「在現實(理解)中的理智，是在現實(被理解)中的被理解之物」；因為一物之是在現實中的被理解之物，是由於它是非物質的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相同的」'",
+          "after": "相同的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        994
+      ],
+      "before": "那些在天使以下者，以及那些在天使以上者，都以某種方式，是在天使的本體或本質內;誠然不是完善地﹒也不是按照固有的理或本質，因為天使的本質是有限的，異於其它(*勿)的本質;而是按照某種一般的理或本質。可是一切卻都是完善地，並按照自己的理或本質，在天主的本質內，如同在第一而普遍的活動能力內。無論是什麼物所有的，無論是專有的或共有的(或一般的)，都是由此活動能力而來。所以，天主是藉著自己的本質，而有關於一切事物的各別知識。天使卻並非如此，他(藉自己的本質)只有(關於一切事物的)一般的知識。",
+      "after": "那些在天使以下者，以及那些在天使以上者，都以某種方式，是在天使的本體或本質內；誠然不是完善地，也不是按照固有的理或本質，因為天使的本質是有限的，異於其它(物)的本質；而是按照某種一般的理或本質。可是一切卻都是完善地，並按照自己的理或本質，在天主的本質內，如同在第一而普遍的活動能力內。無論是什麼物所有的，無論是專有的或共有的(或一般的)，都是由此活動能力而來。所以，天主是藉著自己的本質，而有關於一切事物的各別知識。天使卻並非如此，他(藉自己的本質)只有(關於一切事物的)一般的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "完善地﹒",
+          "after": "完善地，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(*勿)",
+          "after": "(物)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "天使是否藉著取自事物的像而理解",
+      "after": "天使是否藉著取自事物的像而理解",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "天使似乎是藉著取自事物的像而理解。因為:",
+      "after": "天使似乎是藉著取自事物的像而理解。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "凡被理解的一切，都是藉著自己在理解者內的肖像，而被理解。可是一物在另一物內的肖像，或是以模型的方式在那裡，如此則是物的原因;或是以影像的方式在那裡，如此則為物所產生。所以，理解者的一切知識，或應該是所理解之物的原因，或應該是由物所產生。可是天使的知識，卻不是自然存在之物的原因，唯有天主的知識纔是自然存在之物的原因。所以，天使的理智藉以理解的像，應該是取之於物。",
+      "after": "凡被理解的一切，都是藉著自己在理解者內的肖像，而被理解。可是一物在另一物內的肖像，或是以模型的方式在那裡，如此則是物的原因；或是以影像的方式在那裡，如此則為物所產生。所以，理解者的一切知識，或應該是所理解之物的原因，或應該是由物所產生。可是天使的知識，卻不是自然存在之物的原因，唯有天主的知識纔是自然存在之物的原因。所以，天使的理智藉以理解的像，應該是取之於物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "此外，天使的光，強於靈魂的「主動理智」的光。可是「主動理智」的光，是從心象(想像的內容)中抽取可理解的像(理象)。所以，天使的理智的光，也可以從可感覺之物本身中，抽取{象。因此，並非不可以說，天使是藉著取自物的像而理解。",
+      "after": "此外，天使的光，強於靈魂的「主動理智」的光。可是「主動理智」的光，是從心象(想像的內容)中抽取可理解的像(理象)。所以，天使的理智的光，也可以從可感覺之物本身中，抽取像。因此，並非不可以說，天使是藉著取自物的像而理解。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "抽取{象",
+          "after": "抽取像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "此外，除非像是取自可感覺之物，貝IJ理智所有的像，針對近和遠就沒有什麼差別。所以，如果天使不是藉著取自物的像而理解，那麼他的知識就與近處和遠處沒有什麼差別;如此則他的地方運動是多餘的。",
+      "after": "此外，除非像是取自可感覺之物，則理智所有的像，針對近和遠就沒有什麼差別。所以，如果天使不是藉著取自物的像而理解，那麼他的知識就與近處和遠處沒有什麼差別；如此則他的地方運動是多餘的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        995
+      ],
+      "before": "狄奧尼修在《神名論》第七章說: 「天使並不是由可分或可感覺之物中，而蒐集到對天主的知識。」",
+      "after": "狄奧尼修在《神名論》第七章說：「天使並不是由可分或可感覺之物中，而蒐集到對天主的知識。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        995,
+        996
+      ],
+      "before": "我解答如下:天使藉以理解的像，不是取之於物，而是與自己同性的或與性俱來的。因為應該這樣理解精神實體的區別與秩序，如同形體實體所有的區別與秩序一樣。可是最高級的物體或形體，在自己的本性內，具備為形式所完全充實的或成就的能力;可是在低級物體內，物質的能力或潛能，卻沒有完全為形式所充實或成就，而是由某行動者，此時而獲得這種形式，彼時又獲得那種形式。同樣地，低級的理智實體，即人的靈魂所有的理智能力，不是生來或自然獲得了充實，而是藉著取自物的理象(可理解的像)，先後相繼地獲得充實。可是在高級精神實體內的理智能力，即在天使內的理智能力，卻藉著理象(可理解的像)，而自然獲得充實，這是因為天使有與性俱來的理象，以理解他們自然能理解的一切。\n由這些實體的存在方式，就可以明顯地看出此點。因為低級的精神實體，即靈魂，有與身體關連的存在。因為靈魂是身體的形式;因此，由於他們的存在方式﹒他們即宜於由身體和藉著身體，而撞得自己理智方面的成就或完美，否則與肉身合而為一，就毫無意義了。可是高級的精神實體，即天使，是與身體完全隔絕的，以非物質的方式﹒自立於智性的或靈性的存在;因此，藉著智性或靈性方面的外溢或流注(effluxus intel-ligibilis)，他們獲得自己智性的完美，使他們藉以在獲得靈智本性的同時，由天主而獲得所知之物的像。因此，奧斯定在《創世紀字義新探》卷二第八章說: 「其他低於天使之物如此受造，使他們先存在於有靈之受造物的知識內，然後才存在自己的物種或物性內。」",
+      "after": "我解答如下：天使藉以理解的像，不是取之於物，而是與自己同性的或與性俱來的。因為應該這樣理解精神實體的區別與秩序，如同形體實體所有的區別與秩序一樣。可是最高級的物體或形體，在自己的本性內，具備為形式所完全充實的或成就的能力；可是在低級物體內，物質的能力或潛能，卻沒有完全為形式所充實或成就，而是由某行動者，此時而獲得這種形式，彼時又獲得那種形式。同樣地，低級的理智實體，即人的靈魂所有的理智能力，不是生來或自然獲得了充實，而是藉著取自物的理象(可理解的像)，先後相繼地獲得充實。可是在高級精神實體內的理智能力，即在天使內的理智能力，卻藉著理象(可理解的像)，而自然獲得充實，這是因為天使有與性俱來的理象，以理解他們自然能理解的一切。\n由這些實體的存在方式，就可以明顯地看出此點。因為低級的精神實體，即靈魂，有與身體關連的存在。因為靈魂是身體的形式；因此，由於他們的存在方式，他們即宜於由身體和藉著身體，而獲得自己理智方面的成就或完美，否則與肉身合而為一，就毫無意義了。可是高級的精神實體，即天使，是與身體完全隔絕的，以非物質的方式，自立於智性的或靈性的存在；因此，藉著智性或靈性方面的外溢或流注(effluxus intel-ligibilis)，他們獲得自己智性的完美，使他們藉以在獲得靈智本性的同時，由天主而獲得所知之物的像。因此，奧斯定在《創世紀字義新探》卷二第八章說：「其他低於天使之物如此受造，使他們先存在於有靈之受造物的知識內，然後才存在自己的物種或物性內。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "存在方式﹒",
+          "after": "存在方式，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "撞得",
+          "after": "獲得",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方式﹒",
+          "after": "方式，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "才存在自己",
+          "after": "才存在自己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        996
+      ],
+      "before": "在天使的靈智內，有受造物的肖像，可是並不是取自受造物本身，而是來白天主，因為天主是受造物的原因，而受造物的肖像，也是首先存在於天主內。因此，奧斯定在同書(卷二第八章)說: 「正如受造物據以受造的理，在受造物受造之前，先存在於天主的聖言內;同樣地，關於該理的知識，也是(先)存在於理智的受造物內，然後纔有受造物的受造。」",
+      "after": "在天使的靈智內，有受造物的肖像，可是並不是取自受造物本身，而是來自天主，因為天主是受造物的原因，而受造物的肖像，也是首先存在於天主內。因此，奧斯定在同書(卷二第八章)說：「正如受造物據以受造的理，在受造物受造之前，先存在於天主的聖言內；同樣地，關於該理的知識，也是(先)存在於理智的受造物內，然後纔有受造物的受造。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白天主",
+          "after": "來自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        996,
+        997
+      ],
+      "before": "除非經過中點，就不可能從這一極點到達那一極點。可是形式在想像中的存在，固然沒有物質，卻並非沒有物質的情況或條件，這種存在有如中點，介於在物質內的形式的存在，以及藉著擺脫物質和物質情況而抽取的在理智內的形式的存在。因此，天使的理智不論如何大能，都不可能使物質的形式歸於理智的存在，除非是先把這些形式歸於所想像的形式的存在。可是這是不可能的;因為天使的理智並沒有想像力，正如第五十四題第五節所說的。縱使天使的理智能由物質之物中抽取可理解的像，卻也不會(實際)抽取像;因為天使的理智並不需要它們，這是由於天使的理智已有與性俱來的可理解的像。",
+      "after": "除非經過中點，就不可能從這一極點到達那一極點。可是形式在想像中的存在，固然沒有物質，卻並非沒有物質的情況或條件，這種存在有如中點，介於在物質內的形式的存在，以及藉著擺脫物質和物質情況而抽取的在理智內的形式的存在。因此，天使的理智不論如何大能，都不可能使物質的形式歸於理智的存在，除非是先把這些形式歸於所想像的形式的存在。可是這是不可能的；因為天使的理智並沒有想像力，正如第五十四題第五節所說的。縱使天使的理智能由物質之物中抽取可理解的像，卻也不會(實際)抽取像；因為天使的理智並不需要它們，這是由於天使的理智已有與性俱來的可理解的像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "天使的知識，針對地方的遠和近，沒有什麼差別。可是他的地方運動並不因此而成為多餘的;因為他的地方運動，不是為求得知識，而是為在地方上從事某種活動。",
+      "after": "天使的知識，針對地方的遠和近，沒有什麼差別。可是他的地方運動並不因此而成為多餘的；因為他的地方運動，不是為求得知識，而是為在地方上從事某種活動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "高級天使是否比低級天使藉著更為普遍的像而理解",
+      "after": "高級天使是否比低級天使藉著更為普遍的像而理解",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "高級天使似乎不是比低級天使藉著更為普遍的像而理解。因為:",
+      "after": "高級天使似乎不是比低級天使藉著更為普遍的像而理解。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "普遍的似乎是從特殊的當中抽取出來的。可是天使卻不是藉著那取自物的像而理解。所以，不能說天使理智的像是較更普遍的或較少普遍的。",
+      "after": "普遍的似乎是從特殊的當中抽取出來的。可是天使卻不是藉著那取自物的像而理解。所以，不能說天使理智的像是較更普遍的或較少普遍的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        997
+      ],
+      "before": "此外，那特殊地被認識的，比那普遍地被認識的，被認識的更為完美;因為普遍地認識某物，似乎是位於潛能與現實的中間。所以，如果高級天使比低級天使藉著更為普遍的形式而認識，那麼高級天使勢必比低級天使有更不完美的知識。這是不適宜的。",
+      "after": "此外，那特殊地被認識的，比那普遍地被認識的，被認識的更為完美；因為普遍地認識某物，似乎是位於潛能與現實的中間。所以，如果高級天使比低級天使藉著更為普遍的形式而認識，那麼高級天使勢必比低級天使有更不完美的知識。這是不適宜的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        997,
+        998
+      ],
+      "before": "此外，許多物的固有之理或本質，不可能是相同的。可是如果高級天使藉著一個普遍的形式，而認識許多不同的物，而低級天使卻藉著許多的特殊形式，而認識它們，那麼高級天使勢必是用一個普遍形式，而認識許多不同的物。所以，對於二者，他都不能有特有的知識。這似乎是不適宜的。",
+      "after": "此外，許多物的固有之理或本質，不可能是相同的。可是如果高級天使藉著一個普遍的形式，而認識許多不同的物，而低級天使卻藉著許多的特殊形式，而認識它們，那麼高級天使勢必是用一個普遍形式，而認識許多不同的物。所以，對於二者，他都不能有特有的知識。這似乎是不適宜的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q055.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        998
+      ],
+      "before": "狄奧尼修在《上天(天使)階級論》第十二章說司高級天使比低級天使更分享普遍的知識。《論原因》命題十也說，高級天使有更普遍的形式。",
+      "after": "狄奧尼修在《上天(天使)階級論》第十二章說，高級天使比低級天使更分享普遍的知識。《論原因》命題十也說，高級天使有更普遍的形式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章說司",
+          "after": "章說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        998
+      ],
+      "before": "我解答如下:物有更高級者，是因為它們更接近與相似那一個為第一者，即天主。可是天主所有的整個理智的圓滿知識，卻包括在「一」內，即包括在天主的本質內，天主藉著自己的本質而認識一切。受造的理智所有的這種圓滿知識是更低級的，也是更不單純的。因此，凡是天主藉著「一」而認識的，低級的理智應該藉著「眾多」來認識，而且是理智越低級，認識所憑藉的也越眾多。\n所以，天使越高級，也越能藉著更少的像，而察覺全部所可察覺者。所以，他的形式應該是更普遍的，如同每一形式都能伸展到許多的事物一樣。我們自己似乎也不乏這種例證c因為有些人，除非為他們逐一做特殊的解釋，他們就不能把捏可理解的真理，而這是因為他們的理智薄弱。有些人有較更健全的理智，由少許事物，就能通曉許許多多的事物。",
+      "after": "我解答如下：物有更高級者，是因為它們更接近與相似那一個為第一者，即天主。可是天主所有的整個理智的圓滿知識，卻包括在「一」內，即包括在天主的本質內，天主藉著自己的本質而認識一切。受造的理智所有的這種圓滿知識是更低級的，也是更不單純的。因此，凡是天主藉著「一」而認識的，低級的理智應該藉著「眾多」來認識，而且是理智越低級，認識所憑藉的也越眾多。\n所以，天使越高級，也越能藉著更少的像，而察覺全部所可察覺者。所以，他的形式應該是更普遍的，如同每一形式都能伸展到許多的事物一樣。我們自己似乎也不乏這種例證。因為有些人，除非為他們逐一做特殊的解釋，他們就不能把握可理解的真理，而這是因為他們的理智薄弱。有些人有較更健全的理智，由少許事物，就能通曉許許多多的事物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "例證c",
+          "after": "例證。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "把捏",
+          "after": "把握",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        998
+      ],
+      "before": "普遍者，有時取自特殊物，因為那認識它的理智，是由(特殊)物而取得知識。可是如果有的理智，不是由(特殊)物取得知識，那麼他所認識的普遍者，並不是取自(特殊)物，而是以某種方式，在物之前先己存在:或是按照因果關係的秩序，例如:萬物的普通之理存在於天主聖言內;或是至少按照本性的秩序，例如萬物的普遍之理存在於天使的理智內。",
+      "after": "普遍者，有時取自特殊物，因為那認識它的理智，是由(特殊)物而取得知識。可是如果有的理智，不是由(特殊)物取得知識，那麼他所認識的普遍者，並不是取自(特殊)物，而是以某種方式，在物之前先己存在：或是按照因果關係的秩序，例如：萬物的普遍之理存在於天主聖言內；或是至少按照本性的秩序，例如萬物的普遍之理存在於天使的理智內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "萬物的普通之理",
+          "after": "萬物的普遍之理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        999
+      ],
+      "before": "說普遍地認識某物，有兩種方式:一種方式是從所知之物方面，即是隻認識物的普遍本性。如此普遍地認識某物，是較不完美的;因為只知道人是動物，就是不完美地認識人。另一方式是從認識的方法或媒介方面。如此普遍地認識某物，則是更完美的;因為那藉著一個普遍的媒介，而能認識特殊個別事物的理智，比那不能如此的理智，更為完美。",
+      "after": "說普遍地認識某物，有兩種方式：一種方式是從所知之物方面，即是只認識物的普遍本性。如此普遍地認識某物，是較不完美的；因為只知道人是動物，就是不完美地認識人。另一方式是從認識的方法或媒介方面。如此普遍地認識某物，則是更完美的；因為那藉著一個普遍的媒介，而能認識特殊個別事物的理智，比那不能如此的理智，更為完美。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "即是隻認識",
+          "after": "即是只認識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q055.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        999
+      ],
+      "before": "相同的一物，不可能是許多物的相等的固有之理或本質。可是如果這相同的一物是卓越的，那麼它就可能作為不同物的固有之理和肖像。正如人有擴及一切德性行為的普遍智德或機智;這一普遍機智能作為特殊機智的固有之理和肖像，例如在獅子身上是針對勇猛的行動，在狐狸身上是針對警覺的行動，其它依此類推。同樣地，天主的本質也因自己的卓越，而成為個別物的固有之理或本質以及肖像;因為個別物按照固有的理或本質為自己所摹仿的，就在天主的本質內。關於在天使靈智內的普遍之理，也應該這樣說，即由於這理的卓越，藉著這理，許多物能根據專有的相關知識，而被認識。",
+      "after": "相同的一物，不可能是許多物的相等的固有之理或本質。可是如果這相同的一物是卓越的，那麼它就可能作為不同物的固有之理和肖像。正如人有擴及一切德性行為的普遍智德或機智；這一普遍機智能作為特殊機智的固有之理和肖像，例如在獅子身上是針對勇猛的行動，在狐狸身上是針對警覺的行動，其它依此類推。同樣地，天主的本質也因自己的卓越，而成為個別物的固有之理或本質以及肖像；因為個別物按照固有的理或本質為自己所摹仿的，就在天主的本質內。關於在天使靈智內的普遍之理，也應該這樣說，即由於這理的卓越，藉著這理，許多物能根據專有的相關知識，而被認識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
