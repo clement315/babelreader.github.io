@@ -193,9 +193,16 @@
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
-    "active_phase": "all_book_titles_first",
+    "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
     "body_resume_at": "I.q014",
-    "resume_body_only_after_all_titles_reviewed": true
+    "resume_body_only_after_all_titles_reviewed": true,
+    "all_title_slots_audited_on": "2026-10-23",
+    "title_source_gaps": [
+      "II_II.q170.a002",
+      "SUPPL.q064.a003",
+      "SUPPL.q064.a004",
+      "SUPPL.q064.a010"
+    ]
   }
 }

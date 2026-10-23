@@ -2,7 +2,7 @@
   "schema_version": 1,
   "author": "element",
   "strategy_changed_on": "2026-10-22",
-  "active_phase": "article_titles",
+  "active_phase": "body_proofreading",
   "question_titles": {
     "reviewed": 613,
     "total": 613,
@@ -10,9 +10,19 @@
     "manifest": "titles/question-titles-20261022.json"
   },
   "article_titles": {
-    "reviewed": 3115,
+    "reviewed": 3125,
     "total": 3125,
     "reviewed_ids": [
+      "APPENDICES.q001.a001",
+      "APPENDICES.q001.a002",
+      "APPENDICES.q001.a003",
+      "APPENDICES.q001.a004",
+      "APPENDICES.q001.a005",
+      "APPENDICES.q001.a006",
+      "APPENDICES.q001.a007",
+      "APPENDICES.q001.a008",
+      "APPENDICES.q002.a001",
+      "APPENDICES.q002.a002",
       "I.q001.a001",
       "I.q001.a002",
       "I.q001.a003",
@@ -3129,14 +3139,15 @@
       "SUPPL.q099.a004",
       "SUPPL.q099.a005"
     ],
-    "status": "in_progress",
+    "status": "source_image_review_complete_with_documented_source_gaps",
     "basis": "Original PDF images; I-q001 through I-q013 full-text batches and title-only manifests.",
     "manifests": [
       "titles/I-article-titles-20261022.json",
       "titles/I_II-article-titles-20261022.json",
       "titles/II_II-article-titles-20261022.json",
       "titles/III-article-titles-20261022.json",
-      "titles/SUPPL-article-titles-20261022.json"
+      "titles/SUPPL-article-titles-20261022.json",
+      "titles/APPENDICES-article-titles-20261022.json"
     ],
     "source_unavailable_ids": [
       "II_II.q170.a002",
@@ -3144,7 +3155,9 @@
       "SUPPL.q064.a004",
       "SUPPL.q064.a010"
     ],
-    "available_source_titles_verified": 3111
+    "available_source_titles_verified": 3121,
+    "completed_on": "2026-10-23",
+    "corrected_in_title_round": 256
   },
   "body_proofreading": {
     "completed_question_ids": [
@@ -3164,7 +3177,8 @@
     ],
     "reviewed_articles": 79,
     "resume_at": "I.q014",
-    "status": "waiting_for_all_question_and_article_titles",
+    "status": "ready_to_resume_at_I.q014",
     "resume_requires_titles_complete": true
-  }
+  },
+  "title_round_completion": "titles/all-titles-completion-20261023.md"
 }
