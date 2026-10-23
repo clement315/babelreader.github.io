@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "batch": "I-q072",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "7c6b89fcbf051d6d8de4f715b89c3a30e937e58d",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q072",
+    "title": "論第六天的工程",
+    "articles": [
+      1
+    ],
+    "pdf_file_pages": [
+      1185,
+      1186,
+      1187,
+      1188
+    ],
+    "printed_pages": [
+      317,
+      320
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 16,
+    "changed_review_units": 11,
+    "checked_unchanged_review_units": 6
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q72.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q72.json": "3ec1cd392281da28574fadc7c574bcc61f2a83013f37bf5a44751a28bd12c1b8"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q072.a001.sed_contra",
+      "pdf_file_page": 1186,
+      "text": "權威己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q072.a001.ad3",
+      "pdf_file_page": 1187,
+      "text": "先己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q072.a001.ad4",
+      "pdf_file_page": 1187,
+      "text": "方面己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部4页、1节原页逐页对齐；仅本地保存，第一部全部完成前不上传。",
+    "原书只有一节；网站导航「第 1 節」、重复题标题、arg1内题引言与质疑引言保留，不新增字段或换行。"
+  ],
+  "readings": [
+    {
+      "id": "I.q072.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "第 1 節",
+      "after": "第 1 節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "論第六天的工程",
+      "after": "論第六天的工程",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "然後要探究的是第六天的工程(參看第七十題引言)。質疑這一工程似乎描述的不適當。因為:\n正如鳥和魚都有生魂(anima vivens);同樣地，地上的動物也是如此。可是地上的動物卻不是生魂本身。所以，不宜說: 「地要生出生魂」(《創世紀》第一章24節);而應該說: 「地要生出有生魂的四足動物」。",
+      "after": "然後要探究的是第六天的工程(參看第七十題引言)。質疑這一工程似乎描述的不適當。因為：\n正如鳥和魚都有生魂(anima vivens)；同樣地，地上的動物也是如此。可是地上的動物卻不是生魂本身。所以，不宜說：「地要生出生魂」(《創世紀》第一章24節)；而應該說：「地要生出有生魂的四足動物」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "此外，類(genus，共類)並不應該與種(species，別類)相對分或並列。可是「牲畜」與「野獸」卻都被認為是涵蓋在「四足的」以下。所以，「四足的」與牲畜和野獸並列(七十賢士譯本是如此譯的)，這是不適當的。",
+      "after": "此外，類(genus，共類)並不應該與種(species，別類)相對分或並列。可是「牲畜」與「野獸」卻都被認為是涵蓋在「四足的」以下。所以，「四足的」與牲畜和野獸並列(七十賢士譯本是如此譯的)，這是不適當的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "此外，正如動物都有固定的種和類;同樣地，人也是如此。可是在敘述人的造成時，並沒有提及人的種或類。所以，在敘述其他動物的產生時，也不應該提及種或類，而說「各種」或「各類」(《創世紀》第一章24節)。",
+      "after": "此外，正如動物都有固定的種和類；同樣地，人也是如此。可是在敘述人的造成時，並沒有提及人的種或類。所以，在敘述其他動物的產生時，也不應該提及種或類，而說「各種」或「各類」(《創世紀》第一章24節)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "此外﹒地上的動物比魚和鳥更相似人，而聖經說人受到了天主的祝福。由於聖經說鳥和魚也受到了祝福，所以，關於其他的動物，也更應該這樣說。",
+      "after": "此外，地上的動物比魚和鳥更相似人，而聖經說人受到了天主的祝福。由於聖經說鳥和魚也受到了祝福，所以，關於其他的動物，也更應該這樣說。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外﹒",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1185
+      ],
+      "before": "此外，有些動物生於腐爛(putrefactio)，而腐爛是一種朽壞(corruptio)。可是朽壞卻不宜屬於萬物的最初創立或創造(institutio prima)。所以，(這樣的)動物不應該在萬物的最初創立中產生。",
+      "after": "此外，有些動物生於腐爛(putrefactio)，而腐爛是一種朽壞(corruptio)。可是朽壞卻不宜屬於萬物的最初創立或創造(institutio prima)。所以，(這樣的)動物不應該在萬物的最初創立中產生。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.arg6",
+      "article": 1,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        1185,
+        1186
+      ],
+      "before": "此外，有些動物是有毒而有害於人的。可是在原祖犯罪以前，不應該有什麼有害於人的東西。所以，這樣的動物，或是完全不應該由天主創造，因為祂是萬善之創始者;或是不應該在原祖犯罪以前受造。",
+      "after": "此外，有些動物是有毒而有害於人的。可是在原祖犯罪以前，不應該有什麼有害於人的東西。所以，這樣的動物，或是完全不應該由天主創造，因為祂是萬善之創始者；或是不應該在原祖犯罪以前受造。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1186
+      ],
+      "before": "聖經《創世紀》第一章第24等節的權威已足。",
+      "after": "聖經《創世紀》第一章第24等節的權威己足。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "權威已足",
+          "after": "權威己足",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1186
+      ],
+      "before": "我解答如下:正如在第五天點綴了中間的形體，並與第二天相呼應;同樣地，在第六天也藉著地上動物的產生，而點綴了最後的形體，即是地，並與第三天相呼應。因此，兩處都提及了地。於此同樣地，按照奧斯定《創世紀字義新探》卷五第五章，地上的動物的產生，是指產生的潛能或能力;按照其他聖人們，則是現實地(照其實際情形)產生。",
+      "after": "我解答如下：正如在第五天點綴了中間的形體，並與第二天相呼應；同樣地，在第六天也藉著地上動物的產生，而點綴了最後的形體，即是地，並與第三天相呼應。因此，兩處都提及了地。於此同樣地，按照奧斯定《創世紀字義新探》卷五第五章，地上的動物的產生，是指產生的潛能或能力；按照其他聖人們，則是現實地(照其實際情形)產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1186
+      ],
+      "before": "正如巴西略《六天創世論贊》第八篇所說的，各種生物都有生命的各種等級，此可自聖經的說法得知。因為植物有最不完美而隱密的生命。因此，在敘述它們的產生時，絲毫沒有提及生命，而只提及生長，因為只在這方面發見植物有生命的活動，因為營養和增強都是為生長效力，正如下面第七十八題第二節所將討論的。在動物中，按照一般的說法，地上的動物比飛鳥和魚更完美。並不是因為魚無記憶力‘如同巴西略所主張的(同上)，以及奧斯定所非議的《創世紀字義新探》卷三第八章);而是因為動物的肢體的明顯區分和生育方式的完美(有些不完美的動物，例如:蜜蜂和螞蟻，在某些方面，表現得更為聰明)。所以，不逕自稱魚為「生物」，而稱之為「蠕動的生物」，卻稱地上的動物為「生物」，因為牠們有完美的生命。這好像說，魚是有某種生命的「身體」，可是地上的動物，卻因有完美的生命，有如是控制身體的魂或生命。可是人卻有生命的最完美等級。因此不說人的生命出自地或水，如同其他動物的生命一樣，而是出自天主。",
+      "after": "正如巴西略《六天創世論贊》第八篇所說的，各種生物都有生命的各種等級，此可自聖經的說法得知。因為植物有最不完美而隱密的生命。因此，在敘述它們的產生時，絲毫沒有提及生命，而只提及生長，因為只在這方面發見植物有生命的活動，因為營養和增強都是為生長效力，正如下面第七十八題第二節所將討論的。在動物中，按照一般的說法，地上的動物比飛鳥和魚更完美。並不是因為魚無記憶力，如同巴西略所主張的(同上)，以及奧斯定所非議的(《創世紀字義新探》卷三第八章)；而是因為動物的肢體的明顯區分和生育方式的完美(有些不完美的動物，例如：蜜蜂和螞蟻，在某些方面，表現得更為聰明)。所以，不逕自稱魚為「生物」，而稱之為「蠕動的生物」，卻稱地上的動物為「生物」，因為他們有完美的生命。這好像說，魚是有某種生命的「身體」，可是地上的動物，卻因有完美的生命，有如是控制身體的魂或生命。可是人卻有生命的最完美等級。因此不說人的生命出自地或水，如同其他動物的生命一樣，而是出自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "記憶力‘",
+          "after": "記憶力，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所非議的《創世紀",
+          "after": "所非議的(《創世紀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1186,
+        1187
+      ],
+      "before": "牲畜或畜生意指「家畜」(animal domesticum)，對人多少有所助益。可是野獸卻意指兇猛的動物，例如:熊和獅子。可是蠕動的生物，或意指那些無足而不能離地而起的動物，例如:蛇;或意指那些有短足而只少許離地的動物，例如:壁虎和烏龜等等。可是，因為有些動物卻不屬於上述任何一種，例如:鹿和山羊;為了也把牠們涵蓋在內，於是增添「四足的」。或者先推出「四足的」作為類(共類)，然後附加其他物作為種(別類);因為也有一些爬行者是四足動物，例如:壁虎和烏龜。",
+      "after": "牲畜或畜生意指「家畜」(animal domesticum)，對人多少有所助益。可是野獸卻意指兇猛的動物，例如：熊和獅子。可是蠕動的生物，或意指那些無足而不能離地而起的動物，例如：蛇；或意指那些有短足而只少許離地的動物，例如：壁虎和烏龜等等。可是，因為有些動物卻不屬於上述任何一種，例如：鹿和山羊；為了也把他們涵蓋在內，於是增添「四足的」。或者先推出「四足的」作為類(共類)，然後附加其他物作為種(別類)；因為也有一些爬行者是四足動物，例如：壁虎和烏龜。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1187
+      ],
+      "before": "在其他動植物方面提及了種和類，是為指出同類由同類而生。可是在人方面卻不必這樣說，因為那論及其他受造物先已說過的，也都可以貼合於人。或者，因為動植物按照自己的種類而產生﹒有如遠離天主的肖像;可是人卻說是按照天主的肖像和模樣形成的。",
+      "after": "在其他動植物方面提及了種和類，是為指出同類由同類而生。可是在人方面卻不必這樣說，因為那論及其他受造物先己說過的，也都可以貼合於人。或者，因為動植物按照自己的種類而產生，有如遠離天主的肖像；可是人卻說是按照天主的肖像和模樣形成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先已說過",
+          "after": "先己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "產生﹒",
+          "after": "產生，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1187
+      ],
+      "before": "天主的祝福賦予藉生育而繁殖的能力。所以，在最初受造的魚和鳥方面己說過的，不必在那些地上的動物方面重提，而已隱含在其中。可是在人方面卻重提了祝福，因為人有特殊的繁殖關係，即是為達到被選者的圓滿數目;「以免有人說生兒育女的職務是有罪的」(奧斯定，《創世紀字義新探》卷三第十三章)。可是植物「卻毫無繁殖後代的感情可言，其生殖也毫無感覺;因此，被認為不配接受言語的祝福」(同上)。",
+      "after": "天主的祝福賦予藉生育而繁殖的能力。所以，在最初受造的魚和鳥方面己說過的，不必在那些地上的動物方面重提，而已隱含在其中。可是在人方面卻重提了祝福，因為人有特殊的繁殖關係，即是為達到被選者的圓滿數目；「以免有人說生兒育女的職務是有罪的」(奧斯定，《創世紀字義新探》卷三第十三章)。可是植物「卻毫無繁殖後代的感情可言，其生殖也毫無感覺；因此，被認為不配接受言語的祝福」(同上)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q072.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1187
+      ],
+      "before": "因為一物的生殖是另一物的朽壞，所以由較不尊貴者的朽壞，而生殖更尊貴者，這並不相反萬物的最初創立。因此，由無生命之物或由植物的朽壞而生的動物，那時可能生出。可是那些由動物的朽壞而生的動物，那時卻不可能產生，除非只是針對其潛能或能力來說。",
+      "after": "因為一物的生殖是另一物的朽壞，所以由較不尊貴者的朽壞，而生殖更尊貴者，這並不相反萬物的最初創立。因此，由無生命之物或由植物的朽壞而生的動物，那時可能生出。可是那些由動物的朽壞而生的動物，那時卻不可能產生，除非只是針對其潛能或能力來說。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q072.a001.ad6",
+      "article": 1,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        1187,
+        1188
+      ],
+      "before": "正如奧斯定在《創世紀釋義一一兼駁摩尼教派》卷一第十六章所說的:「如果一個毫無經驗者進入一名工匠的工作室，看見在那裡有許多工具，並且不知道這些工具的原因或用途;如果這個毫無經驗者是愚蠢的人，那麼他就會以為這些工具是多餘的。如果他漫不經心而陷於窯灶中，或讓尖銳的鐵器割傷了自己，那麼他就可以為那裡有許多有害之物;工匠由於知道工具的用途，因而譏笑他愚昧無知。如此，在這世界上，有些人也膽敢指責許多事物，因為他們並不知道這些事物存在的理由;因為許多物品雖然並不是我們家中的必需品，可是它們卻是宇宙的完整所不可或缺的。」可是人在原祖犯罪以前，都善用世物。因此，有毒的動物並無害於人。",
+      "after": "正如奧斯定在《創世紀釋義——兼駁摩尼教派》卷一第十六章所說的：「如果一個毫無經驗者進入一名工匠的工作室，看見在那裡有許多工具，並且不知道這些工具的原因或用途；如果這個毫無經驗者是愚蠢的人，那麼他就會以為這些工具是多餘的。如果他漫不經心而陷於窯灶中，或讓尖銳的鐵器割傷了自己，那麼他就可以為那裡有許多有害之物；工匠由於知道工具的用途，因而譏笑他愚昧無知。如此，在這世界上，有些人也膽敢指責許多事物，因為他們並不知道這些事物存在的理由；因為許多物品雖然並不是我們家中的必需品，可是它們卻是宇宙的完整所不可或缺的。」可是人在原祖犯罪以前，都善用世物。因此，有毒的動物並無害於人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
