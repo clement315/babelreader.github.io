@@ -1,0 +1,49 @@
+{
+  "batch": "I-q061",
+  "date": "2026-10-23",
+  "checks": [
+    {
+      "name": "Every row and question prologue renders the corrected bilingual data",
+      "passed": true,
+      "detail": 48
+    },
+    {
+      "name": "Every separately flagged suspected print error is preserved in the rendered text",
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode remains functional",
+      "passed": true
+    },
+    {
+      "name": "Corrected chapter has no horizontal overflow on a 390px phone",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope_note": "Only the question IDs listed in progress.json have been compared against source page images. Browser checks confirm displayed data, not source accuracy elsewhere.",
+  "data_protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q61.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q61.json": "c9c68a11be60d5670783339bfc198a5a341993e1b4254bdf068abe1e8c9239fd"
+    }
+  },
+  "existing_regression_tests": {
+    "tests": 3,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "protected_zh_tokens": 54,
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "report_full_code_exactly_matches_reader": true,
+    "all_review_units_have_source_page_references": true,
+    "unresolved_source_scan_units": 0
+  }
+}

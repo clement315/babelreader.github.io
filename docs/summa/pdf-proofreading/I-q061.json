@@ -1,0 +1,1185 @@
+{
+  "schema_version": 1,
+  "batch": "I-q061",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "4c8104cfcfd2b32eb5f060cc4eff70cdd1a1ff6d",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q061",
+    "title": "論天使之本性存在的產生",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063
+    ],
+    "printed_pages": [
+      189,
+      195
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 32,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q61.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q61.json": "c9c68a11be60d5670783339bfc198a5a341993e1b4254bdf068abe1e8c9239fd"
+    }
+  },
+  "suspected_print_errors": [],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q061.prologue",
+      "description": "删除引言开头误混入的乱码；保留原字段换行转义数量，多余分行留在末尾。"
+    },
+    {
+      "id": "I.q061.a004.respondeo",
+      "description": "原第四节三则释疑全被误并入正解，现依原页移回既有ad1、ad2、ad3中文空字段，不添加键名；正解原有两处换行转义保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部7页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q061.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "存.片\n。M內\n間天使一做組的一M叫4產生\n在先行討論了天使的本|生、知識與意志以後，現在應該討論他們的創造，或泛論他們的起源(參看第五十題引言)。此一討論分為三部分;第一，我們討論天使的本性存在如何產生;第二，他們如何在恩寵或光榮方面獲得成就(第六十二題);第三，其中一些如何變惡(第六十三題)。\n關於第一點，可以提出四個問題:\n一、天使是否有自己存在的原因。\n二、天使是否1if_永恆就存在。\n三、天使之受造是否在形體受造物之前。\n四、天使是否受迫在蒼天或光天(caelum empyreum)。",
+      "after": "在先行討論了天使的本性、知識與意志以後，現在應該討論他們的創造，或泛論他們的起源(參看第五十題引言)。此一討論分為三部分；第一，我們討論天使的本性存在如何產生；第二，他們如何在恩寵或光榮方面獲得成就(第六十二題)；第三，其中一些如何變惡(第六十三題)。\n關於第一點，可以提出四個問題：\n一、天使是否有自己存在的原因。\n二、天使是否從永恆就存在。\n三、天使之受造是否在形體受造物之前。\n四、天使是否受造在蒼天或光天(caelum empyreum)。\n\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "存.片\n。M內\n間天使一做組的一M叫4產生\n在先行討論了天使的本|生、知識與意志以後，現在應該討論他們的創造，或泛論他們的起源(參看第五十題引言)。此一討論分為三部分;第一，我們討論天使的本性存在如何產生;第二，他們如何在恩寵或光榮方面獲得成就(第六十二題);第三，其中一些如何變惡(第六十三題)。\n關於第一點，可以提出四個問題:\n一、天使是否有自己存在的原因。\n二、天使是否1if_永恆就存在。\n三、天使之受造是否在形體受造物之前。\n四、天使是否受迫在蒼天或光天(caelum empyreum)。",
+          "after": "在先行討論了天使的本性、知識與意志以後，現在應該討論他們的創造，或泛論他們的起源(參看第五十題引言)。此一討論分為三部分;第一，我們討論天使的本性存在如何產生;第二，他們如何在恩寵或光榮方面獲得成就(第六十二題);第三，其中一些如何變惡(第六十三題)。\n關於第一點，可以提出四個問題:\n一、天使是否有自己存在的原因。\n二、天使是否從永恆就存在。\n三、天使之受造是否在形體受造物之前。\n四、天使是否受造在蒼天或光天(caelum empyreum)。\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "天使是否有自己存在的原因",
+      "after": "天使是否有自己存在的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "天使似乎沒有自己存在的原因。因為:",
+      "after": "天使似乎沒有自己存在的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "《創世紀》第一章論述天主所創造的萬物。可是在那裡卻絲毫沒有提及天使。所以，天使並不是為天主所造的。",
+      "after": "《創世紀》第一章論述天主所創造的萬物。可是在那裡卻絲毫沒有提及天使。所以，天使並不是為天主所造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1057
+      ],
+      "before": "此外，哲學家在《形上學》卷八第六章說:如果其它自立體或實體(substantia)是無質料的形式，那麼「就藉著自己立即是存在者與一，並沒有使它成為存在者或一的原因」。可是天使卻是無質料的(immaterialis)形式，正如第五十題第二節所說的。所以，他們並沒有自己存在的原因。",
+      "after": "此外，哲學家在《形上學》卷八第六章說：如果其它自立體或實體(substantia)是無質料的形式，那麼「就藉著自己立即是存在者與一，並沒有使它成為存在者或一的原因」。可是天使卻是無質料的(immaterialis)形式，正如第五十題第二節所說的。所以，他們並沒有自己存在的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1057,
+        1058
+      ],
+      "before": "此外，凡是經由某主動者(agens)而產生的一切，正因為它產生，它是由該主動者接受形式。可是天使(本身)既是形式，所以不是由某主動者接受形式。所以，天使並沒有主動或形成原因。",
+      "after": "此外，凡是經由某主動者(agens)而產生的一切，正因為它產生，它是由該主動者接受形式。可是天使(本身)既是形式，所以不是由某主動者接受形式。所以，天使並沒有主動或形成原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1058
+      ],
+      "before": "《聖詠》第一四八篇2節說: 「祂的諸位天使，請讚美祂!」後來又說: 「因為上主一命，他們立刻受造。」(5節)",
+      "after": "《聖詠》第一四八篇2節說：「祂的諸位天使，請讚美祂!」後來又說：「因為上主一命，他們立刻受造。」(5節)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1058
+      ],
+      "before": "我解答如下:必須說，天使，以及天主以外的一切，都是為天主所造的。因為唯有天主是自己的存在;可是在其它的一切物中，物的本質與它的存在卻是不同的，正如第三題第四節、第七題第二節、第四十四題第一節所指明的。由此可見，唯有天主是藉著自己的本質而為存在者;其它一切都是藉著分有或分享而為存在者。可是凡是藉著分享而存在者，是由那藉著本質而存在者所產生，正如一切被燃燒者是由火所產生一樣。因此，天使必然是為天主所造的。",
+      "after": "我解答如下：必須說，天使，以及天主以外的一切，都是為天主所造的。因為唯有天主是自己的存在；可是在其它的一切物中，物的本質與它的存在卻是不同的，正如第三題第四節、第七題第二節、第四十四題第一節所指明的。由此可見，唯有天主是藉著自己的本質而為存在者；其它一切都是藉著分有或分享而為存在者。可是凡是藉著分享而存在者，是由那藉著本質而存在者所產生，正如一切被燃燒者是由火所產生一樣。因此，天使必然是為天主所造的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1058
+      ],
+      "before": "奧斯定在《天主之城》卷十一第九章說，在萬物的最初受造中，天使並未被遺漏，而是由「天」或「光」的名稱來表示。因此，無論天使是被遺漏，或是用形體物的名稱來表示，這都是因為梅瑟是在對知識淺薄的民眾說話，他們還不能理解無形的性體;設若告訴他們，有一些物超越一切的有形性體之上，那麼這會成為他們偶像崇拜的機會，因為他們原就傾向於偶像崇拜，而這正是梅瑟設法主要使他們所擺脫的。",
+      "after": "奧斯定在《天主之城》卷十一第九章說，在萬物的最初受造中，天使並未被遺漏，而是由「天」或「光」的名稱來表示。因此，無論天使是被遺漏，或是用形體物的名稱來表示，這都是因為梅瑟是在對知識淺薄的民眾說話，他們還不能理解無形的性體；設若告訴他們，有一些物超越一切的有形性體之上，那麼這會成為他們偶像崇拜的機會，因為他們原就傾向於偶像崇拜，而這正是梅瑟設法主要使他們所擺脫的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1058
+      ],
+      "before": "凡是身為自立存在形式(forma subsistens)的實體，都沒有自己存在和「-」的形式原因，也沒有使物質的潛能變成現實的主動因或成因;而有產生整個實體的原因。",
+      "after": "凡是身為自立存在形式(forma subsistens)的實體，都沒有自己存在和「一」的形式原因，也沒有使物質的潛能變成現實的主動因或成因；而有產生整個實體的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「-」",
+          "after": "「一」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1058
+      ],
+      "before": "藉此，對質疑3.的解答也不言而喻。",
+      "after": "藉此，對質疑3.的解答也不言而喻。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "天使是否由天主從永恆所產生的",
+      "after": "天使是否由天主從永恆所產生的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "天使似乎是由天主從永恆所產生的。因為:",
+      "after": "天使似乎是由天主從永恆所產生的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "天主藉著自己的存在，而為天使存在的原因;因為天主的行動，不是藉著什麼附加於自己本質的東西。可是天主的存在卻是永恆的。所以，天主從永恆產生了天使。",
+      "after": "天主藉著自己的存在，而為天使存在的原因；因為天主的行動，不是藉著什麼附加於自己本質的東西。可是天主的存在卻是永恆的。所以，天主從永恆產生了天使。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "此外，凡有時存在，有時不存在的一切，都屬於時間。可是天使卻是「在時間之上的」'正如《論原因》命題二所說的。所以，天使並不是有時存在，有時不存在，而是常常存在。",
+      "after": "此外，凡有時存在，有時不存在的一切，都屬於時間。可是天使卻是「在時間之上的」，正如《論原因》命題二所說的。所以，天使並不是有時存在，有時不存在，而是常常存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之上的」'",
+          "after": "之上的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "此外，奧斯定證明靈現的不朽，是由於靈魂藉著理智能理解真理(《獨語》卷二第十九章)。可是正如真理是不朽的，同樣地，它也是永恆的。所以，靈魂和天使的理智本性不僅是不朽的，而且也是永恆的。",
+      "after": "此外，奧斯定證明靈魂的不朽，是由於靈魂藉著理智能理解真理(《獨語》卷二第十九章)。可是正如真理是不朽的，同樣地，它也是永恆的。所以，靈魂和天使的理智本性不僅是不朽的，而且也是永恆的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靈現",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "《藏言》第八章22節代表「受生的智慧」(Sapientia genita)說:「上主自始即拿我作他行動的起始，作他作為的開端。」可是天使卻是天主創造的，正如上文第一節所指明的。所以，天使有時不存在。",
+      "after": "《箴言》第八章22節代表「受生的智慧」(Sapientia genita)說：「上主自始即拿我作他行動的起始，作他作為的開端。」可是天使卻是天主創造的，正如上文第一節所指明的。所以，天使有時不存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "藏言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1059
+      ],
+      "before": "我解答如下:唯有天主，聖父、聖子和聖神，是從永恆存在的。這是公教信仰所堅持不疑的;其它一切與此相反者，都應該被譴責為異端。因為天主是如此產生了受造物，即是「由無中」創造了他們，亦即是「在什麼都沒有以後」。",
+      "after": "我解答如下：唯有天主，聖父、聖子和聖神，是從永恆存在的。這是公教信仰所堅持不疑的；其它一切與此相反者，都應該被譴責為異端。因為天主是如此產生了受造物，即是「由無中」創造了他們，亦即是「在什麼都沒有以後」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1059,
+        1060
+      ],
+      "before": "天主的存在就是祂的願意。所以，天主藉著自己的存在而產生了天使和其它受造物，這並不排除祂是藉著自己的意志而創造了它們。可是，天主的意志與受造物的產生之間，並沒有必然關係，正如第十九題第三節、第四十六題第一節所說的。所以，當天主願意時，祂就產生祂願意的。",
+      "after": "天主的存在就是祂的願意。所以，天主藉著自己的存在而產生了天使和其它受造物，這並不排除祂是藉著自己的意志而創造了它們。可是，天主的意志與受造物的產生之間，並沒有必然關係，正如第十九題第三節、第四十六題第一節所說的。所以，當天主願意時，祂就產生祂願意的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "時間是度量天體運行的數字，天使之在這種時間之上，是因為天使在有形性體的一切運行之上。可是另有一種時間，是度量天使在不存在之後繼續存在的數字，天使不在這種時問之上，也不在為度量天使繼續行動之數字的時間之上。因此，奧斯定在《創世紀字義新探》卷八第二十及二十二章說:「天主藉著時間，而推動精神體的受造物。」",
+      "after": "時間是度量天體運行的數字，天使之在這種時間之上，是因為天使在有形性體的一切運行之上。可是另有一種時間，是度量天使在不存在之後繼續存在的數字，天使不在這種時間之上，也不在為度量天使繼續行動之數字的時間之上。因此，奧斯定在《創世紀字義新探》卷八第二十及二十二章說：「天主藉著時間，而推動精神體的受造物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "天使和理智靈魂就由於有能藉以理解真理的本性而是不朽的，可是他們不是從永恆就有這種本性，而是在天主願意的時候，才由天主賜給了他們的。因此，不能作結說，天使從永恆就存在。",
+      "after": "天使和理智靈魂就由於有能藉以理解真理的本性而是不朽的，可是他們不是從永恆就有這種本性，而是在天主願意的時候，才由天主賜給了他們的。因此，不能作結說，天使從永恆就存在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "天使是否是在形體世界之前受造的",
+      "after": "天使是否是在形體世界之前受造的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "天使似乎是在形體世界之前受造的。因為:",
+      "after": "天使似乎是在形體世界之前受造的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "熱羅尼莫在《弟鐸書註解》第一章說: 「我們的時代還未滿六千年，應該如何斷定天使、上座者、宰制者和其他品級之侍奉天主，已經過了多少時代和多少世紀的更替呢?」大馬士革的若望在《論正統信仰》卷二第三章也說: 「有些人說，在一切受造物以前，先有天使受生。」這也正如神學家(納西盎的額我略，約329'Y 390年)所說的: 「祂首先構思了天使和天上的德能，這構思就是祂的工程。」(《演講集》(Prologus in Orat.)第三十八篇)",
+      "after": "熱羅尼莫在《弟鐸書註解》第一章說：「我們的時代還未滿六千年，應該如何斷定天使、上座者、宰制者和其他品級之侍奉天主，已經過了多少時代和多少世紀的更替呢?」大馬士革的若望在《論正統信仰》卷二第三章也說：「有些人說，在一切受造物以前，先有天使受生。」這也正如神學家(納西盎的額我略，約329～390年)所說的：「祂首先構思了天使和天上的德能，這構思就是祂的工程。」(《演講集》(Prologus in Orat.)第三十八篇)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "329'Y 390",
+          "after": "329～390",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1060
+      ],
+      "before": "此外，天使的本性處於天主的本性與形體物的本性之間。可是天主的本性是從永恆就有的，形體物的本性則從時間開始。所以，天使的本性，是在時間的創造之前和在永恆之後受造的。",
+      "after": "此外，天使的本性處於天主的本性與形體物的本性之間。可是天主的本性是從永恆就有的，形體物的本性則從時間開始。所以，天使的本性，是在時間的創造之前和在永恆之後受造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1061
+      ],
+      "before": "此外，天1吏的本l生距離形體物的本性，比一形體物的本性距離另一形體物的本性更遠。可是一形體物的本性卻是在另一形體物的本i主之前受造的;因此，《創世紀》在卷首敘述萬物的受造經歷了六天c所以，天使的本性遠更是在一切形體物的本性之前受造的守",
+      "after": "此外，天使的本性距離形體物的本性，比一形體物的本性距離另一形體物的本性更遠。可是一形體物的本性卻是在另一形體物的本性之前受造的；因此，《創世紀》在卷首敘述萬物的受造經歷了六天。所以，天使的本性遠更是在一切形體物的本性之前受造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天1吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本l生",
+          "after": "本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本i主",
+          "after": "本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "六天c",
+          "after": "六天。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受造的守",
+          "after": "受造的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1061
+      ],
+      "before": "《創世紀》第一章l節說:「在起初天主創造了天地。」可是如果此前已先有物受造，那麼這(在起初)就不是真實的了。所以，天使並不是在形禮物的本性之前受造的。",
+      "after": "《創世紀》第一章1節說：「在起初天主創造了天地。」可是如果此前已先有物受造，那麼這(在起初)就不是真實的了。所以，天使並不是在形體物的本性之前受造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形禮物",
+          "after": "形體物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1061
+      ],
+      "before": "我解答如下:關於這一點，聖師們的意見共分兩種:比較可靠的意見(sententia probabilior)，似乎是天使是同形體的受造物一起受造的，因為天使也是宇宙的一部分;並不是天使本來自成一個宇宙，而是天使和形體的受造物共同組成一個宇宙。這從一受造物與另一受造物的秩序可以看出，因為萬物彼此間的秩序是宇宙的善。無一完美的部分是與自己的整體分闊的。既然天主的「工程完美無比」'正如《申命紀》第三十二章4節所說的，所以，主張祂在其它的受造物之前，分別創造了天使這受造物，大概不是真的。雖然如此，也不可把相反的意見視為錯誤。這尤其是鑑於納西盎的額我略的意見(參看質疑1.)，他對基督徒的道理有倍大的權威，致使無人敢貶損他的言論，例如，連亞達納修(Athanasius)也不敢如此，正如熱羅尼莫所說的。",
+      "after": "我解答如下：關於這一點，聖師們的意見共分兩種：比較可靠的意見(sententia probabilior)，似乎是天使是同形體的受造物一起受造的，因為天使也是宇宙的一部分；並不是天使本來自成一個宇宙，而是天使和形體的受造物共同組成一個宇宙。這從一受造物與另一受造物的秩序可以看出，因為萬物彼此間的秩序是宇宙的善。無一完美的部分是與自己的整體分開的。既然天主的「工程完美無比」，正如《申命紀》第三十二章4節所說的，所以，主張祂在其它的受造物之前，分別創造了天使這受造物，大概不是真的。雖然如此，也不可把相反的意見視為錯誤。這尤其是鑑於納西盎的額我略的意見(參看質疑1.)，他對基督徒的道理有佑大的權威，致使無人敢貶損他的言論，例如，連亞達納修(Athanasius)也不敢如此，正如熱羅尼莫所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無比」'",
+          "after": "無比」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "倍大",
+          "after": "佑大",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1061
+      ],
+      "before": "熱羅尼莫所說，是根據希臘聖師的意見，他們一致認為天使是在形體的世界之前受造的。",
+      "after": "熱羅尼莫所說，是根據希臘聖師的意見，他們一致認為天使是在形體的世界之前受造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1061
+      ],
+      "before": "天主並不是宇宙的一部分，而是在整個宇宙之上，祂自己以卓越的方式，先有宇宙的全部完美。可是天使卻是宇宙的一部分。因此，不能相提並論。",
+      "after": "天主並不是宇宙的一部分，而是在整個宇宙之上，祂自己以卓越的方式，先有宇宙的全部完美。可是天使卻是宇宙的一部分。因此，不能相提並論。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "一切的形體受造物在質料或物質方面是一致的，可是天使與形體受造物在物質方面卻彼此不同。因此，形體受造物的質料或物質一旦受造，一切都多少受造;可是並不是天使一旦受造，整個宇宙也受造c\n可是如果支持(反之的)相反的意見，那麼《創世紀》第一章所說的「在起初天主創造了天地」'就應該解釋為:「在起初」'是指「在聖子內」'或是「在時間的起初」;而不是指在原始，即是說:「在此前，什麼都沒有」'除非是說:「在此前，什麼形體受造物之類的東西都沒有」。",
+      "after": "一切的形體受造物在質料或物質方面是一致的，可是天使與形體受造物在物質方面卻彼此不同。因此，形體受造物的質料或物質一旦受造，一切都多少受造；可是並不是天使一旦受造，整個宇宙也受造。\n可是如果支持(反之的)相反的意見，那麼《創世紀》第一章所說的「在起初天主創造了天地」，就應該解釋為：「在起初」，是指「在聖子內」，或是「在時間的起初」；而不是指在原始，即是說：「在此前，什麼都沒有」，除非是說：「在此前，什麼形體受造物之類的東西都沒有」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也受造c",
+          "after": "也受造。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天地」'",
+          "after": "天地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "起初」'",
+          "after": "起初」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聖子內」'",
+          "after": "聖子內」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "都沒有」'",
+          "after": "都沒有」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "天使是否受造在蒼天或光天",
+      "after": "天使是否受造在蒼天或光天",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "天使似乎不是受造在蒼天或光天(caelum empyreum)。因為:",
+      "after": "天使似乎不是受造在蒼天或光天(caelum empyreum)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "天使是非形體的實體(substantia incorporea)。可是非形體的實體，在存在方面並不依賴形體，因此在形成方面他們也不依賴形體。所以，天使並不是受造在形體的地方(locus co中oreus)。",
+      "after": "天使是非形體的實體(substantia incorporea)。可是非形體的實體，在存在方面並不依賴形體，因此在形成方面他們也不依賴形體。所以，天使並不是受造在形體的地方(locus corporeus)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "co中oreus",
+          "after": "corporeus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "此外，奧斯定在《創世紀字義新探》卷三第十章說，天使是受造在高空的。所以，天使並不是受造在蒼天。",
+      "after": "此外，奧斯定在《創世紀字義新探》卷三第十章說，天使是受造在高空的。所以，天使並不是受造在蒼天。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q061.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1062
+      ],
+      "before": "此外，蒼天稱為至高無上的天(caelum supremum)。所以，如果天使是受造在蒼天，那麼天使就不會再上升更高的天了。這相反《依撒意亞》第十四章13節以犯罪的天使的名義所說的:「我要上升高夭。」",
+      "after": "此外，蒼天稱為至高無上的天(caelum supremum)。所以，如果天使是受造在蒼天，那麼天使就不會再上升更高的天了。這相反《依撒意亞》第十四章13節以犯罪的天使的名義所說的：「我要上升高天。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "高夭",
+          "after": "高天",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1062,
+        1063
+      ],
+      "before": "斯特拉布(Strabus)解釋「在起初天主創造了天地」U(《創世紀》第一章l節)說: r'此處所謂的天，並不是指稱可見的宇宙穹蒼(firmamen tum)，而是指稱光天(cael um empyreum)，即是如火的燦爛的天，或有理智的天，這不是由它的熱而起名，而是由它的光芒而起名。此天一形成，便立即充滿了天使。J(拉丁通行本註解)",
+      "after": "斯特拉布(Strabus)解釋「在起初天主創造了天地」(《創世紀》第一章1節)說：「此處所謂的天，並不是指稱可見的宇宙穹蒼(firmamentum)，而是指稱光天(caelum empyreum)，即是如火的燦爛的天，或有理智的天，這不是由它的熱而起名，而是由它的光芒而起名。此天一形成，便立即充滿了天使。」(拉丁通行本註解)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天地」U",
+          "after": "天地」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "r'",
+          "after": "「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "firmamen tum",
+          "after": "firmamentum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "cael um",
+          "after": "caelum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使。J",
+          "after": "天使。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1063
+      ],
+      "before": "我解答如下:正如上文第三節所說的，整個宇宙由形體的與精神體的受造物而祖成。因此，精神體的受造物之受造，與形體的受造物有某種關{系，並監督管理整個形體的受造物。因此，天使宜於在最高的形體物受造，如同是整個形體的受造物的主管一樣。此一(最高的形體)物，或是稱為蒼天，或是其它任何名稱。因此，依希道解釋《申命紀》第十章14節的「天與天上的天，都屬於上主你的天主」說，至高無上的天是天使們的天(拉丁通行本註解)。釋提i.天使之受造在形體的地方，並不是如同他們在存在和形成方面有賴於形體一樣;因為天主可能在一切形體受造物之前創造了天使，正如許多聖師所主張的。天使之受造在形體的地方，是為顯示他們與形體受造物的秩序，以及他們以自己的德能及於形體物。\n2.奧斯定所說的高空的最高部分，或意指天的最高部分，因為二者在精緻(subtilitas)與透明(diaphaneitas)方面有相同之處。或者他不是論及一切的天使，而只論及那些犯罪的天{吏，按照某些人的意見，這些天使是屬於低級的品級。可是也不妨說:那些對一切形體物有卓絕不日普遍德能的高級天使，是受造在形飽受造物的最高處;可是其他有部分德能的天使，卻是受造在低級的形體物。\n3.在那裡，依撒意亞先知並不是論及形體的天，而是論及天主聖三的天，犯罪的天使願意上升到那裡，因為他們願意與天主有某種平等，正如第六十三題第三節所將指明的。",
+      "after": "我解答如下：正如上文第三節所說的，整個宇宙由形體的與精神體的受造物而組成。因此，精神體的受造物之受造，與形體的受造物有某種關係，並監督管理整個形體的受造物。因此，天使宜於在最高的形體物受造，如同是整個形體的受造物的主管一樣。此一(最高的形體)物，或是稱為蒼天，或是其它任何名稱。因此，依希道解釋《申命紀》第十章14節的「天與天上的天，都屬於上主你的天主」說，至高無上的天是天使們的天(拉丁通行本註解)。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:正如上文第三節所說的，整個宇宙由形體的與精神體的受造物而祖成。因此，精神體的受造物之受造，與形體的受造物有某種關{系，並監督管理整個形體的受造物。因此，天使宜於在最高的形體物受造，如同是整個形體的受造物的主管一樣。此一(最高的形體)物，或是稱為蒼天，或是其它任何名稱。因此，依希道解釋《申命紀》第十章14節的「天與天上的天，都屬於上主你的天主」說，至高無上的天是天使們的天(拉丁通行本註解)。釋提i.天使之受造在形體的地方，並不是如同他們在存在和形成方面有賴於形體一樣;因為天主可能在一切形體受造物之前創造了天使，正如許多聖師所主張的。天使之受造在形體的地方，是為顯示他們與形體受造物的秩序，以及他們以自己的德能及於形體物。\n2.奧斯定所說的高空的最高部分，或意指天的最高部分，因為二者在精緻(subtilitas)與透明(diaphaneitas)方面有相同之處。或者他不是論及一切的天使，而只論及那些犯罪的天{吏，按照某些人的意見，這些天使是屬於低級的品級。可是也不妨說:那些對一切形體物有卓絕不日普遍德能的高級天使，是受造在形飽受造物的最高處;可是其他有部分德能的天使，卻是受造在低級的形體物。\n3.在那裡，依撒意亞先知並不是論及形體的天，而是論及天主聖三的天，犯罪的天使願意上升到那裡，因為他們願意與天主有某種平等，正如第六十三題第三節所將指明的。",
+          "after": "我解答如下:正如上文第三節所說的，整個宇宙由形體的與精神體的受造物而組成。因此，精神體的受造物之受造，與形體的受造物有某種關係，並監督管理整個形體的受造物。因此，天使宜於在最高的形體物受造，如同是整個形體的受造物的主管一樣。此一(最高的形體)物，或是稱為蒼天，或是其它任何名稱。因此，依希道解釋《申命紀》第十章14節的「天與天上的天，都屬於上主你的天主」說，至高無上的天是天使們的天(拉丁通行本註解)。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1063
+      ],
+      "before": "",
+      "after": "天使之受造在形體的地方，並不是如同他們在存在和形成方面有賴於形體一樣；因為天主可能在一切形體受造物之前創造了天使，正如許多聖師所主張的。天使之受造在形體的地方，是為顯示他們與形體受造物的秩序，以及他們以自己的德能及於形體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "天使之受造在形體的地方，並不是如同他們在存在和形成方面有賴於形體一樣;因為天主可能在一切形體受造物之前創造了天使，正如許多聖師所主張的。天使之受造在形體的地方，是為顯示他們與形體受造物的秩序，以及他們以自己的德能及於形體物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1063
+      ],
+      "before": "",
+      "after": "奧斯定所說的高空的最高部分，或意指天的最高部分，因為二者在精緻(subtilitas)與透明(diaphaneitas)方面有相同之處。或者他不是論及一切的天使，而只論及那些犯罪的天使，按照某些人的意見，這些天使是屬於低級的品級。可是也不妨說：那些對一切形體物有卓絕和普遍德能的高級天使，是受造在形體受造物的最高處；可是其他有部分德能的天使，卻是受造在低級的形體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "奧斯定所說的高空的最高部分，或意指天的最高部分，因為二者在精緻(subtilitas)與透明(diaphaneitas)方面有相同之處。或者他不是論及一切的天使，而只論及那些犯罪的天使，按照某些人的意見，這些天使是屬於低級的品級。可是也不妨說:那些對一切形體物有卓絕和普遍德能的高級天使，是受造在形體受造物的最高處;可是其他有部分德能的天使，卻是受造在低級的形體物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q061.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1063
+      ],
+      "before": "",
+      "after": "在那裡，依撒意亞先知並不是論及形體的天，而是論及天主聖三的天，犯罪的天使願意上升到那裡，因為他們願意與天主有某種平等，正如第六十三題第三節所將指明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "在那裡，依撒意亞先知並不是論及形體的天，而是論及天主聖三的天，犯罪的天使願意上升到那裡，因為他們願意與天主有某種平等，正如第六十三題第三節所將指明的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
