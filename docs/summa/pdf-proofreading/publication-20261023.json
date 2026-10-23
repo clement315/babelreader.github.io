@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "author": "element",
-  "status": "preflight_passed",
+  "status": "uploaded_verified",
   "user_instruction": "很好，请你先把今天的校对工作全部上传到仓库先吧",
   "authorization_scope": "One-time upload of all completed proofreading work from 2026-10-23; future batches retain the existing local-only workflow.",
   "remote_url": "https://github.com/clement315/babelreader.github.io.git",
@@ -457,5 +457,13 @@
     "4c6806fe79f8851f6365c3846ad077e32c03ed1e|2026-10-23|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 22 locally against PDF images",
     "29b93e6fef962a6a4369280ff04d702aac3c254d|2026-10-23|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 21 locally against PDF images",
     "5bcb130dc582820a152f7862e8653f1e016a945b|2026-10-23|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 20 locally; defer publication until part complete"
-  ]
+  ],
+  "release_commit": "294b64d4bea800cd074b82a22c608c230606085d",
+  "verified_remote_main": "294b64d4bea800cd074b82a22c608c230606085d",
+  "uncommitted_changes_at_release": false,
+  "additional_current_regression_tests": {
+    "tests": 3,
+    "passed": true
+  },
+  "publication_note": "Remote main was verified at the release commit after a successful normal fast-forward push. This follow-up commit records verification only."
 }
