@@ -1,0 +1,1058 @@
+{
+  "schema_version": 1,
+  "batch": "I-q051",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "ef43c3a038379fa579f00787f11147f87f22f524",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q051",
+    "title": "論天使與形體物的關係",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      958,
+      959,
+      960,
+      961,
+      962,
+      963,
+      964,
+      965,
+      966
+    ],
+    "printed_pages": [
+      90,
+      98
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 42,
+    "changed_review_units": 28,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q51.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q51.json": "ba8146bc4700e3cfe96da1648b20a097591f1d604a919dc715f4007e35288305"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q051.a003.arg5",
+      "pdf_file_page": 963,
+      "text": "第十八章2節",
+      "status": "source_scan_mark_checked",
+      "action": "原书亚巴郎拜见天使的引文节号按底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部9页、3节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q051.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        958
+      ],
+      "before": "然後要探討的是天使與形體物或形體的關係(參看第五十題引言)。第一，論天使與形體物的關係;第二，論天使與形體物之地方的關係(第五十二題);第三，論天使與地方運動的關係(第五十三題)。\n關於第一點，可以提出三個問題:\n一、天使是否具有自然或按照本性與自己合而為一的形有宜。\n二、天使是否攝取形體。\n三、天使在所攝取的形體上是否實行生命的活動。",
+      "after": "然後要探討的是天使與形體物或形體的關係(參看第五十題引言)。第一，論天使與形體物的關係；第二，論天使與形體物之地方的關係(第五十二題)；第三，論天使與地方運動的關係(第五十三題)。\n關於第一點，可以提出三個問題：\n一、天使是否具有自然或按照本性與自己合而為一的形體。\n二、天使是否攝取形體。\n三、天使在所攝取的形體上是否實行生命的活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "形有宜",
+          "after": "形體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        958
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        958
+      ],
+      "before": "天使是否具有自然或按照本性與自己合而為一的形體",
+      "after": "天使是否具有自然或按照本性與自己合而為一的形體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        958
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        958
+      ],
+      "before": "天使似乎具有自然或按照本性與自己合而為一的形體。因為:",
+      "after": "天使似乎具有自然或按照本性與自己合而為一的形體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        958,
+        959
+      ],
+      "before": "奧利振在《原則論》卷一第六章說: 「這是天主的，即是聖父、聖子和聖神的本性單獨所專有的，即其存在應該理解為沒有物質的實體，也毫無附加結合在一起的形體。」伯爾納鐸(Bernardus de Clairvaux, l090......__1153年)在《雅歌釋義》(Homilia super Cant.)第六篇也說: 「我們將無形無像歸於唯一的天主吧!如同我們將不死不滅性歸於唯一的天主一樣。唯有天主的本性，不為自己，也不為其它物，而需要任何形體工具的協助。」 「可是顯然地，每一受造的精神體卻都需要形體的協助。」(同上，第五篇)奧斯定在《創世紀字義新探》卷三第十章也說:「魔鬼稱為天空中的動物，因為他們的本性具備氣體的能力。」可是魔鬼與天使的本世卻是相同的。所以，天使具有自然與自己合而為一的形體或身體。",
+      "after": "奧利振在《原則論》卷一第六章說：「這是天主的，即是聖父、聖子和聖神的本性單獨所專有的，即其存在應該理解為沒有物質的實體，也毫無附加結合在一起的形體。」伯爾納鐸(Bernardus de Clairvaux, 1090～1153年)在《雅歌釋義》(Homilia super Cant.)第六篇也說：「我們將無形無像歸於唯一的天主吧!如同我們將不死不滅性歸於唯一的天主一樣。唯有天主的本性，不為自己，也不為其它物，而需要任何形體工具的協助。」 「可是顯然地，每一受造的精神體卻都需要形體的協助。」(同上，第五篇)奧斯定在《創世紀字義新探》卷三第十章也說：「魔鬼稱為天空中的動物，因為他們的本性具備氣體的能力。」可是魔鬼與天使的本性卻是相同的。所以，天使具有自然與自己合而為一的形體或身體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "l090......__1153",
+          "after": "1090～1153",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本世",
+          "after": "本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        959
+      ],
+      "before": "此外，教宗額我略一世在《福音論贊》卷一第十篇主顯節的證道詞裡，稱天使為「有靈的動物」。可是一切的有靈動物卻都由靈魂與形體或身體而組成。所以，天使具有自然與自己合而為一的身體。",
+      "after": "此外，教宗額我略一世在《福音論贊》卷一第十篇主顯節的證道詞裡，稱天使為「有靈的動物」。可是一切的有靈動物卻都由靈魂與形體或身體而組成。所以，天使具有自然與自己合而為一的身體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        959
+      ],
+      "before": "此外，天使的生命比靈魂的生命更完美。可是靈魂卻不僅自己生活，而且也使身體生活。所以，天使也使那自然與自己合而為一的身體生活。",
+      "after": "此外，天使的生命比靈魂的生命更完美。可是靈魂卻不僅自己生活，而且也使身體生活。所以，天使也使那自然與自己合而為一的身體生活。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        959
+      ],
+      "before": "狄奧尼修在《神名論》第四章說:「天使應該被認為是無形無像的或非形體的。」",
+      "after": "狄奧尼修在《神名論》第四章說：「天使應該被認為是無形無像的或非形體的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        959,
+        960
+      ],
+      "before": "我解答如下:天使沒有自然與自己合而為一的形體或身體，因為凡是附加於某一本性的，都不是普遍地存在於該本質之內。例如:有翅膀，因為這不屬於動物的本質，不是任何動物都應該有的。可是，因為理解卻不是身體的行為，也不是身體能力的行為，正如以下第七十五題第二節所將指明的。所以，具有與自己合而為一的身體，並不屬於這種理智實體的本質，這是就其為理智實體來說;可是為了它物，身體能附加於某一理智實體，例如:人的靈魂宜於與身體合而為一。因為靈魂是不完美的，在理智實體的共類內，處於潛能的狀態，在自己的本性內沒有完備的知識，必須藉著身體的感宮，由可感覺物中而取得知識，正如之後第八十四題第六節、第八十九題第一節所將討論的。可是在每一類物中，如果存有不完美者，在該類中就應該先存有完美者。所以，在理智的本性或本體中，有一些完美的理智實體，他們不需要由可感覺物中取得知識。所以，並不是一切的理智實體，都與身體合而為一;而是有一些是與身體分離存在的。我們稱這些理智實體為天便。",
+      "after": "我解答如下：天使沒有自然與自己合而為一的形體或身體，因為凡是附加於某一本性的，都不是普遍地存在於該本質之內。例如：有翅膀，因為這不屬於動物的本質，不是任何動物都應該有的。可是，因為理解卻不是身體的行為，也不是身體能力的行為，正如以下第七十五題第二節所將指明的。所以，具有與自己合而為一的身體，並不屬於這種理智實體的本質，這是就其為理智實體來說；可是為了它物，身體能附加於某一理智實體，例如：人的靈魂宜於與身體合而為一。因為靈魂是不完美的，在理智實體的共類內，處於潛能的狀態，在自己的本性內沒有完備的知識，必須藉著身體的感官，由可感覺物中而取得知識，正如之後第八十四題第六節、第八十九題第一節所將討論的。可是在每一類物中，如果存有不完美者，在該類中就應該先存有完美者。所以，在理智的本性或本體中，有一些完美的理智實體，他們不需要由可感覺物中取得知識。所以，並不是一切的理智實體，都與身體合而為一；而是有一些是與身體分離存在的。我們稱這些理智實體為天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為天便",
+          "after": "為天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        960
+      ],
+      "before": "正如第五十題第一節所說的，有些人的意見是萬物都是形體。似乎是由此一想法出發，有些人以為除了與形體合而為一的非形體實體以外，再沒有別的非形體實體;因此，有些人甚至主張天主是世界的靈魂，正如奧斯定在《天主之城》卷七第六章所記敘的。可是因為這種主張相反公教會的這一信仰，即天主崇高超越萬物，按照《聖詠》第八篇2節所說的: 「你的尊榮被高舉在諸天之上」'奧利振拒絕關於天主方面的這一主張，但在其他方面，卻隨從別的一些人的意見，如同在其他許多問題上，他也受了矇騙一樣，因為他相信了古代哲學家們的意見。至於伯爾納鐸的話卻可能這樣解釋，即受造的精神體需要形體的工真，並不是指自然與自己合而為一的形體工具，而是為某種目的而取用的形體工具，正如下文第二節所將討論的。奧斯定的談話並沒有表示贊成，而只是引用柏拉圖學派的意見，這些人主張有天空中的動物，並稱之為魔鬼。",
+      "after": "正如第五十題第一節所說的，有些人的意見是萬物都是形體。似乎是由此一想法出發，有些人以為除了與形體合而為一的非形體實體以外，再沒有別的非形體實體；因此，有些人甚至主張天主是世界的靈魂，正如奧斯定在《天主之城》卷七第六章所記敘的。可是因為這種主張相反公教會的這一信仰，即天主崇高超越萬物，按照《聖詠》第八篇2節所說的：「你的尊榮被高舉在諸天之上」，奧利振拒絕關於天主方面的這一主張，但在其他方面，卻隨從別的一些人的意見，如同在其他許多問題上，他也受了矇騙一樣，因為他相信了古代哲學家們的意見。至於伯爾納鐸的話卻可能這樣解釋，即受造的精神體需要形體的工具，並不是指自然與自己合而為一的形體工具，而是為某種目的而取用的形體工具，正如下文第二節所將討論的。奧斯定的談話並沒有表示贊成，而只是引用柏拉圖學派的意見，這些人主張有天空中的動物，並稱之為魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "諸天之上」'",
+          "after": "諸天之上」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "工真",
+          "after": "工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        960
+      ],
+      "before": "教宗額我略一世是以比喻的方式，稱天使為有靈的動物，這是由於靈性或理性方面相似的緣故。",
+      "after": "教宗額我略一世是以比喻的方式，稱天使為有靈的動物，這是由於靈性或理性方面相似的緣故。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        960
+      ],
+      "before": "以(外在)成因的方式賜給生命，這屬於絕對的完美。因此，這也宜為天主所有，按照《撒慕爾紀上》第二章6節所說的: 「上主使人元，也使人活。」可是以(內在)形式的方式使人生活，這屬於為某一物性或本性之部分的實體，這種實體並不具備完整的該種物性或本性。因此，那沒有與形體合而為一的理智實體，比那與形體合而為一的理智實體，更為完美。",
+      "after": "以(外在)成因的方式賜給生命，這屬於絕對的完美。因此，這也宜為天主所有，按照《撒慕爾紀上》第二章6節所說的：「上主使人死，也使人活。」可是以(內在)形式的方式使人生活，這屬於為某一物性或本性之部分的實體，這種實體並不具備完整的該種物性或本性。因此，那沒有與形體合而為一的理智實體，比那與形體合而為一的理智實體，更為完美。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使人元",
+          "after": "使人死",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "天使是否攝取形體",
+      "after": "天使是否攝取形體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "天使似乎並不攝取(assumere)形體或身體。因為:",
+      "after": "天使似乎並不攝取(assumere)形體或身體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "在天使的工程中沒有什麼是多餘的，如同在自然的工程中沒有什麼是多餘的一樣。可是天使攝取身體或形體卻是多餘的;因為天使並不需要形體，天使的能力超越形體的一切能力。所以，天(吏並不攝取形體。",
+      "after": "在天使的工程中沒有什麼是多餘的，如同在自然的工程中沒有什麼是多餘的一樣。可是天使攝取身體或形體卻是多餘的；因為天使並不需要形體，天使的能力超越形體的一切能力。所以，天使並不攝取形體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "此外，一切的攝取都止於某種合一，因為「攝取」(assumere)意指「取歸自己」(ud se sumere)。可是身體卻沒有與天使合而為一，有如與形式合而為一一樣，正如上文第一節所說的。至於那與天使有如是推動者的合而為一，並不稱為攝取;否則一切被天使所推動的形體，就都是被天使所攝取了。所以，天使並不攝取身體或形體。",
+      "after": "此外，一切的攝取都止於某種合一，因為「攝取」(assumere)意指「取歸自己」(ad se sumere)。可是身體卻沒有與天使合而為一，有如與形式合而為一一樣，正如上文第一節所說的。至於那與天使有如是推動者的合而為一，並不稱為攝取；否則一切被天使所推動的形體，就都是被天使所攝取了。所以，天使並不攝取身體或形體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "ud se sumere",
+          "after": "ad se sumere",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "此外，天使並不攝取(四元素中的)土或水的形體，因為這會使他們無法忽然就不見了。也不攝取火的形體，因為這會使他們焚毀他們所接觸的東西;也不攝取空氣的形體，因為空氣是難以成型的，也是無法接受色彩的。所以，天使並不攝取形體。",
+      "after": "此外，天使並不攝取(四元素中的)土或水的形體，因為這會使他們無法忽然就不見了。也不攝取火的形體，因為這會使他們焚毀他們所接觸的東西；也不攝取空氣的形體，因為空氣是難以成型的，也是無法接受色彩的。所以，天使並不攝取形體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        961
+      ],
+      "before": "奧斯定在《天主之城》卷十六第二十九章說，天使以所攝取的身體，而顯現給亞巴郎。",
+      "after": "奧斯定在《天主之城》卷十六第二十九章說，天使以所攝取的身體，而顯現給亞巴郎。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        961,
+        962
+      ],
+      "before": "我解答如下:有些人說，天使絕不攝取身體;至於聖經論及天使的顯現所敘述的一切，卻都是出現在先知們的神視中，即先知們的幻覺中。可是這卻相反聖經所願意表達的。因為幻覺所看見的，都只是在看見者的幻覺中而已;因此，不會為一切人所一同看見。可是，天主的聖經有時介紹天使的顯現，卻使人人都可以看見他們。正如那些顯現給亞巴郎的天使、為亞巴郎、他的整個家族、羅特和素多瑪城的百姓共同所看見;同樣地，那顯現給多俾亞的天使，也為眾人所看見。由此可見，這類的顯現是根據身體的目視，藉此自視，而看見那在看見者以外的東西，也是因此，人人才都可以看見。可是這種目視所看見的，卻只不過是形體或身體而已。既然天使既不是身體，也沒有自然與自己合而為一的身體，正如上文第一節、第五十題第一節所指明的，所以只能是天使有時攝取身體。",
+      "after": "我解答如下：有些人說，天使絕不攝取身體；至於聖經論及天使的顯現所敘述的一切，卻都是出現在先知們的神視中，即先知們的幻覺中。可是這卻相反聖經所願意表達的。因為幻覺所看見的，都只是在看見者的幻覺中而已；因此，不會為一切人所一同看見。可是，天主的聖經有時介紹天使的顯現，卻使人人都可以看見他們。正如那些顯現給亞巴郎的天使、為亞巴郎、他的整個家族、羅特和素多瑪城的百姓共同所看見；同樣地，那顯現給多俾亞的天使，也為眾人所看見。由此可見，這類的顯現是根據身體的目視，藉此目視，而看見那在看見者以外的東西，也是因此，人人才都可以看見。可是這種目視所看見的，卻只不過是形體或身體而已。既然天使既不是身體，也沒有自然與自己合而為一的身體，正如上文第一節、第五十題第一節所指明的，所以只能是天使有時攝取身體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "藉此自視",
+          "after": "藉此目視",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        962
+      ],
+      "before": "天使之需要身體，不是為自己，而是為我們，以便同人親密地交往，並顯示人所期盼的，在未來的生活中﹒與天使所有的靈性交往。舊約時代的天使攝取了身體，這也是天主聖言將攝取人之身體的象徵性的表記;因為舊約的一切顯現都指向這一顯現，即是天主聖子在肉身上的顯現。",
+      "after": "天使之需要身體，不是為自己，而是為我們，以便同人親密地交往，並顯示人所期盼的，在未來的生活中，與天使所有的靈性交往。舊約時代的天使攝取了身體，這也是天主聖言將攝取人之身體的象徵性的表記；因為舊約的一切顯現都指向這一顯現，即是天主聖子在肉身上的顯現。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生活中﹒",
+          "after": "生活中，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        962
+      ],
+      "before": "天使所攝取的身體，其與天使的合而為一，不是有如與形式的合而為一，也不僅是有如與推動者的合而為一;而是與那以所攝取的可移動的身體，為自己代表的推動者的合而為一。因為，正如在聖經上，以可感覺物的形像來說明可理解物的屬性;同樣地，天使也以天主的權能，而形成可感覺的身體，使它宜於呈現天使可理解的屬性。這就是天使攝取身體的意義。",
+      "after": "天使所攝取的身體，其與天使的合而為一，不是有如與形式的合而為一，也不僅是有如與推動者的合而為一；而是與那以所攝取的可移動的身體，為自己代表的推動者的合而為一。因為，正如在聖經上，以可感覺物的形像來說明可理解物的屬性；同樣地，天使也以天主的權能，而形成可感覺的身體，使它宜於呈現天使可理解的屬性。這就是天使攝取身體的意義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        962
+      ],
+      "before": "雖然空氣處於稀薄的狀態時，沒有定型，也沒有色彩;可是當它被濃縮時，卻可能成型，也可能有色彩，正如雲彩所指明的。因此，天使也是如此由空氣而攝取身體，即用天主的權能把空氣濃縮，以因應形成所攝取之身體的需要。",
+      "after": "雖然空氣處於稀薄的狀態時，沒有定型，也沒有色彩；可是當它被濃縮時，卻可能成型，也可能有色彩，正如雲彩所指明的。因此，天使也是如此由空氣而攝取身體，即用天主的權能把空氣濃縮，以因應形成所攝取之身體的需要。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "天使在所攝取的身體上是否實行生命的活動",
+      "after": "天使在所攝取的身體上是否實行生命的活動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "天使在所攝取的身體上，似乎實行或從事生命的活動。因為:",
+      "after": "天使在所攝取的身體上，似乎實行或從事生命的活動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "真實的天使不宜有虛構或假裝。可是如果天使所攝取的身體，看來是生活的，也有生命的活動，而實際卻並非這樣，那麼就是虛構或假裝(fictio)。所以，天使在所攝取的身體上，實行生命的活動。",
+      "after": "真實的天使不宜有虛構或假裝。可是如果天使所攝取的身體，看來是生活的，也有生命的活動，而實際卻並非這樣，那麼就是虛構或假裝(fictio)。所以，天使在所攝取的身體上，實行生命的活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "此外，在天使的活動中，沒有什麼是多餘的。可是除非天使在所攝取的身體上，藉著眼睛、鼻子、耳朵和其它等等感覺器官而感覺，形成它們便是多餘的。所以，天使藉著所攝取的身體而感覺。這是最切實的生命活動。",
+      "after": "此外，在天使的活動中，沒有什麼是多餘的。可是除非天使在所攝取的身體上，藉著眼睛、鼻子、耳朵和其它等等感覺器官而感覺，形成它們便是多餘的。所以，天使藉著所攝取的身體而感覺。這是最切實的生命活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "此外，以延續的行動而行動，是生命的活動之一，正如《靈魂論》卷二第二章所指明的。可是顯然地，天使在所攝取的身體上，明確的行動。因為《創世紀》第十八章的節說:「亞巴郎引領」顯現給他的天使，並「一同前行」 0多俾亞曾問天使說:「你認識往瑪待去的路嗎?」天使回答他說:「走，我多次到過那裡，全條路線我都很熟悉。」(《多俾亞傳》第五章7---8豈有)所以，天使常常在所攝取的身體上，實行生命的活動。",
+      "after": "此外，以延續的行動而行動，是生命的活動之一，正如《靈魂論》卷二第二章所指明的。可是顯然地，天使在所攝取的身體上，明確的行動。因為《創世紀》第十八章16節說：「亞巴郎引領」顯現給他的天使，並「一同前行」。多俾亞曾問天使說：「你認識往瑪待去的路嗎?」天使回答他說：「走，我多次到過那裡，全條路線我都很熟悉。」(《多俾亞傳》第五章7～8節)所以，天使常常在所攝取的身體上，實行生命的活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十八章的節",
+          "after": "第十八章16節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "7---8豈有",
+          "after": "7～8節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        963
+      ],
+      "before": "此外，說話是生活者的活動;因為是藉著由動物的口中發出的聲音而產生，正如《靈魂論》卷二第八章所說的。可是顯然地，聖經的許多地方卻提及天使在所攝取的身體上，曾經說話。所以，他們在所攝取的身體上，實行生命的活動。",
+      "after": "此外，說話是生活者的活動；因為是藉著由動物的口中發出的聲音而產生，正如《靈魂論》卷二第八章所說的。可是顯然地，聖經的許多地方卻提及天使在所攝取的身體上，曾經說話。所以，他們在所攝取的身體上，實行生命的活動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.arg5",
+      "article": 3,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        963,
+        964
+      ],
+      "before": "此外，飲食是動物的固有活動;因此，主在復活後同門徒們一起飲食，以證明自己重獲了生命，正如《路加福音》末章(第二十四韋伯節)所說的。可是那些在所攝取的身體上顯現的天使，卻曾飲食，亞巴郎拿食物給他們，並先拜見了他們，正如《創世紀》第十八章2節所說的。所以，天使在所攝取的身體上，實行生命的活動。",
+      "after": "此外，飲食是動物的固有活動；因此，主在復活後同門徒們一起飲食，以證明自己重獲了生命，正如《路加福音》末章(第二十四章43節)所說的。可是那些在所攝取的身體上顯現的天使，卻曾飲食，亞巴郎拿食物給他們，並先拜見了他們，正如《創世紀》第十八章2節所說的。所以，天使在所攝取的身體上，實行生命的活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二十四韋伯節",
+          "after": "第二十四章43節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.arg6",
+      "article": 3,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        964
+      ],
+      "before": "此外，人之生人是生命的活動。可是這卻適宜於攝取身體的天使，因為《創世紀》第六章4節說:「當天主的兒子與人的女兒結合生子時，在地上已有一些巨人，他們就是古代的英雄，著名的人物。」所以，天使在所攝取的身體上，實行生命的活動。",
+      "after": "此外，人之生人是生命的活動。可是這卻適宜於攝取身體的天使，因為《創世紀》第六章4節說：「當天主的兒子與人的女兒結合生子時，在地上已有一些巨人，他們就是古代的英雄，著名的人物。」所以，天使在所攝取的身體上，實行生命的活動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        964
+      ],
+      "before": "為天使所攝取的身體，並不生活，正如上文第一節釋疑3.所說的。所以，天使也不能藉著它們而實行生命的活動。",
+      "after": "為天使所攝取的身體，並不生活，正如上文第一節釋疑3.所說的。所以，天使也不能藉著它們而實行生命的活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        964
+      ],
+      "before": "我解答如下:有生命者的一些活動，與其它的活動有共同之處:例如說話是有生命者的活動，單就其為聲音來說，與其它無生命者的聲音有共同之處;行走與其它運動也有共同之處，如果僅著眼於其為運動。所以，關於(有生命者與無生命者)兩種活動所共有的，天使能藉所攝取的身體，有生命的活動;可是關於那有生命者所專有的，則不能，因為按照哲學家在《論睡眠與醒賠》(De somn. et vig.)第一章所說的:「能力是誰的，動作也是誰的。」因此，凡是沒有生命的，都不可能有生命的活動，因為生命是這種動作或活動的能力原理或根源。",
+      "after": "我解答如下：有生命者的一些活動，與其它的活動有共同之處：例如說話是有生命者的活動，單就其為聲音來說，與其它無生命者的聲音有共同之處；行走與其它運動也有共同之處，如果僅著眼於其為運動。所以，關於(有生命者與無生命者)兩種活動所共有的，天使能藉所攝取的身體，有生命的活動；可是關於那有生命者所專有的，則不能，因為按照哲學家在《論睡眠與醒寤》(De somn. et vig.)第一章所說的：「能力是誰的，動作也是誰的。」因此，凡是沒有生命的，都不可能有生命的活動，因為生命是這種動作或活動的能力原理或根源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "醒賠",
+          "after": "醒寤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        964,
+        965
+      ],
+      "before": "正如在聖經上，用可感覺的形像來描述可理解的事物，這並不相反真理或真實。因為如此說，並不是額外肯定司理解之物也是可感覺的，而是藉著可感覺的形像，根據某種相似，讓人來理解可理解之物的屬性;同樣地，天使所攝取的身體，看來似乎是有生命的人，雖然實際不是，這也並不相反聖天使的真實。因為天使之攝取身體，無非是籍著人的以及人之活動的屬性，來標明天使的精神的屬性和活動。如果天使攝取真正的人，那麼這一點就難於適當地達成;因為他們的屬性，將使我們認識這些人，而非天使。",
+      "after": "正如在聖經上，用可感覺的形像來描述可理解的事物，這並不相反真理或真實。因為如此說，並不是額外肯定可理解之物也是可感覺的，而是藉著可感覺的形像，根據某種相似，讓人來理解可理解之物的屬性；同樣地，天使所攝取的身體，看來似乎是有生命的人，雖然實際不是，這也並不相反聖天使的真實。因為天使之攝取身體，無非是藉著人的以及人之活動的屬性，來標明天使的精神的屬性和活動。如果天使攝取真正的人，那麼這一點就難於適當地達成；因為他們的屬性，將使我們認識這些人，而非天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "司理解",
+          "after": "可理解",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "籍著",
+          "after": "藉著",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        965
+      ],
+      "before": "感覺完全是生命的活動。因此，絕不應該說，天使藉著所攝取的身體的器官而感覺。可是形成這些器官，也不是多餘的。因為這些器官的形成，並不是為使天使藉著它們感覺，而是為藉著這些器官，來標明天使的精神能力，例如藉著眼睛，來標明天使的認識能力，藉著其它的肢體，來標明他的其它能力，正如狄奧尼修在《上天(天使)階級論》末章第十五章所說的。",
+      "after": "感覺完全是生命的活動。因此，絕不應該說，天使藉著所攝取的身體的器官而感覺。可是形成這些器官，也不是多餘的。因為這些器官的形成，並不是為使天使藉著它們感覺，而是為藉著這些器官，來標明天使的精神能力，例如藉著眼睛，來標明天使的認識能力，藉著其它的肢體，來標明他的其它能力，正如狄奧尼修在《上天(天使)階級論》末章第十五章所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        965
+      ],
+      "before": "來自內在結合為一的原動力的行動，是生命所專有的活動。可是，為天使所攝取的身體，卻不是如此行動，因為天使並不是這些身體的形式。幾時這樣的身體行動，天使也附帶著行動，因為他們在這樣的身體內，有如是原動力在可被推動的物體內，如此則他們是在這裡，而非在他處;關於天主，卻不能這樣說。因此，雖然當有天主在其內的這些物體行動時，天主並不行動，因為天主無所不在;可是，天使卻隨著所攝取的身體的行動而附帶地行動。不過，天使並不隨著天體的行動而行動，縱然是天使在它們內，如同原動力在可被推動的物體內一樣;因為天體就其整體而言，並不離開地方。而為推動夫球之精神體所指定的地方，不是根據天球之實體的某一固定部分，因為它有時在東，有時在西;而是根據固定的位置，因為原動力常常是在東方，正如《物理學》卷八第十章所說的。",
+      "after": "來自內在結合為一的原動力的行動，是生命所專有的活動。可是，為天使所攝取的身體，卻不是如此行動，因為天使並不是這些身體的形式。幾時這樣的身體行動，天使也附帶著行動，因為他們在這樣的身體內，有如是原動力在可被推動的物體內，如此則他們是在這裡，而非在他處；關於天主，卻不能這樣說。因此，雖然當有天主在其內的這些物體行動時，天主並不行動，因為天主無所不在；可是，天使卻隨著所攝取的身體的行動而附帶地行動。不過，天使並不隨著天體的行動而行動，縱然是天使在它們內，如同原動力在可被推動的物體內一樣；因為天體就其整體而言，並不離開地方。而為推動天球之精神體所指定的地方，不是根據天球之實體的某一固定部分，因為它有時在東，有時在西；而是根據固定的位置，因為原動力常常是在東方，正如《物理學》卷八第十章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "推動夫球",
+          "after": "推動天球",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        965
+      ],
+      "before": "天使並沒有真正地以所攝取的身體而說話，而只是有些類似說話，即在空氣中發出與人類聲音相似的聲音。",
+      "after": "天使並沒有真正地以所攝取的身體而說話，而只是有些類似說話，即在空氣中發出與人類聲音相似的聲音。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q051.a003.ad5",
+      "article": 3,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        965,
+        966
+      ],
+      "before": "照其本意來說，飲食並不適用於天使;因為飲食意指所食的食物，變成飲食者的實體。雖然食物在基督復活後並沒有變成祂的身體，卻分解於先存的質料中，可是基督確曾有過如此性質的身體，使食物能變成祂的身體;因此，是真正的飲食。可是天使所食的食物，卻沒有變成所攝取的身體，而其身體的性質，也不能使食物變成身體;因此，並不是真正的飲食，而是精神飲食的一種象徵。這就是《多俾亞傳》第十二章18\"-'19節天使所說的:「當我與你們在一起時，你們雖然看見我喫喝，其實我是在取用看不見的飲食。」可是亞巴郎拿食物給天使，以為他們都是人，而在他們身上恭敬天主，「如同天主常常住在先知們身上一樣」，正如奧斯定在《天主之城》卷十六第二十九章所說的。",
+      "after": "照其本意來說，飲食並不適用於天使；因為飲食意指所食的食物，變成飲食者的實體。雖然食物在基督復活後並沒有變成祂的身體，卻分解於先存的質料中，可是基督確曾有過如此性質的身體，使食物能變成祂的身體；因此，是真正的飲食。可是天使所食的食物，卻沒有變成所攝取的身體，而其身體的性質，也不能使食物變成身體；因此，並不是真正的飲食，而是精神飲食的一種象徵。這就是《多俾亞傳》第十二章18～19節天使所說的：「當我與你們在一起時，你們雖然看見我吃喝，其實我是在取用看不見的飲食。」可是亞巴郎拿食物給天使，以為他們都是人，而在他們身上恭敬天主，「如同天主常常住在先知們身上一樣」，正如奧斯定在《天主之城》卷十六第二十九章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "18\"-'19節",
+          "after": "18～19節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喫喝",
+          "after": "吃喝",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q051.a003.ad6",
+      "article": 3,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        966
+      ],
+      "before": "正如奧斯定在《天主之城》卷十五第二十三章所說的:「許多人堅稱自己經歷過，或聽人說過:山林之神(Si1vanus)及田園之神(Faunus)，即一般人所謂的夜神或夜魔(lncubus)，曾顯現給婦女們，貪戀她們，並與她們茍合。否認這些事物，似屬無恥。可是在洪水以前，天主的聖天使絕不可能如此墮落。因此，Ij天主的兒子』意指舍特的子孫，都是善人;至於出自加音支派的女兒，聖經則稱她們為『人的女兒』。他們可能生一些巨人，這不值得大驚小怪;因為他們並不都是巨人，可是巨人的數日，在洪水以前卻多於在洪水以後。J\n可是如果有時與惡魔的苟合而生一些人，這不是藉由惡魔的或惡魔所攝取的身體的精子，而是藉由某特選之人的精子;例如，同一惡魔先(以女人的形像)與男人同寢，後來再(以男人的形像)與女人同寢，如同他們也取用了其它物的種子，而生產一些物一樣，正如奧斯定在《論天主聖三》卷三第八及第九章所說的。如此，則那受生者，並不是魔鬼的兒子，而是那提供精子之人的兒子。",
+      "after": "正如奧斯定在《天主之城》卷十五第二十三章所說的：「許多人堅稱自己經歷過，或聽人說過：山林之神(Silvanus)及田園之神(Faunus)，即一般人所謂的夜神或夜魔(Incubus)，曾顯現給婦女們，貪戀她們，並與她們苟合。否認這些事物，似屬無恥。可是在洪水以前，天主的聖天使絕不可能如此墮落。因此，『天主的兒子』意指舍特的子孫，都是善人；至於出自加音支派的女兒，聖經則稱她們為『人的女兒』。他們可能生一些巨人，這不值得大驚小怪；因為他們並不都是巨人，可是巨人的數目，在洪水以前卻多於在洪水以後。」\n可是如果有時與惡魔的苟合而生一些人，這不是藉由惡魔的或惡魔所攝取的身體的精子，而是藉由某特選之人的精子；例如，同一惡魔先(以女人的形像)與男人同寢，後來再(以男人的形像)與女人同寢，如同他們也取用了其它物的種子，而生產一些物一樣，正如奧斯定在《論天主聖三》卷三第八及第九章所說的。如此，則那受生者，並不是魔鬼的兒子，而是那提供精子之人的兒子。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Si1vanus",
+          "after": "Silvanus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "lncubus",
+          "after": "Incubus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "茍合",
+          "after": "苟合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Ij天主的兒子』",
+          "after": "『天主的兒子』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "數日",
+          "after": "數目",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以後。J",
+          "after": "以後。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
