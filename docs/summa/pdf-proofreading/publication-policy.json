@@ -371,5 +371,18 @@
       "remaining_question_ids": [],
       "status": "complete"
     }
+  ],
+  "authorized_upload_exceptions": [
+    {
+      "date": "2026-10-23",
+      "user_instruction": "很好，请你先把今天的校对工作全部上传到仓库先吧",
+      "proofreading_head": "c52468302ca3e5cb033a4be7cf7ea5d47e2dc409",
+      "remote_before": "17397e825bebd4c551eb7a318011d27112814d36",
+      "branch": "main",
+      "status": "authorized_pending_upload",
+      "scope": "All 67 pending proofreading commits from 2026-10-23; data files I.q020–I.q080, catalog, reports and progress.",
+      "record": "publication-20261023.json",
+      "future_batches": "Continue local-only until Prima Pars is complete unless the user instructs otherwise."
+    }
   ]
 }
