@@ -1,0 +1,1731 @@
+{
+  "schema_version": 1,
+  "batch": "I-q057",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "48dd18eebd84ec2a44c6105019da9396e1f630a5",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q057",
+    "title": "論天使對物質物的知識",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020
+    ],
+    "printed_pages": [
+      140,
+      152
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 62,
+    "changed_review_units": 45,
+    "checked_unchanged_review_units": 18
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q57.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q57.json": "3c6b78c7d7d384ae5e0135b5b6bbc51abb8ea1a30757dcd5f8d5b9090855c4cd"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q057.a002.respondeo",
+      "pdf_file_page": 1011,
+      "text": "《希伯來書》第十四章1節",
+      "status": "suspected_source_print_error",
+      "action": "原书此处章、节疑互倒，依底本保留，不据其他版本改为第一章14节。"
+    },
+    {
+      "id": "I.q057.a002.respondeo",
+      "pdf_file_page": 1011,
+      "text": "《德訓篇》第五章5節",
+      "status": "suspected_source_print_error",
+      "action": "原书引文卷名及章节疑有误，原样保留，供人工决定。"
+    },
+    {
+      "id": "I.q057.a003.respondeo",
+      "pdf_file_page": 1014,
+      "text": "第十二題第十三節論天主的知識",
+      "status": "suspected_source_print_error",
+      "action": "原书交叉题号疑有误，依底本保留。"
+    },
+    {
+      "id": "I.q057.a004.arg1",
+      "pdf_file_page": 1015,
+      "text": "《約伯傳》第二十七章17節",
+      "status": "suspected_source_print_error",
+      "action": "原书章号疑有误，依底本保留。"
+    },
+    {
+      "id": "I.q057.a004.sed_contra",
+      "pdf_file_page": 1016,
+      "text": "《耶肋米亞》第七章9至10節",
+      "status": "suspected_source_print_error",
+      "action": "原书章号疑有漏字，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q057.prologue",
+      "description": "删除题引言起首乱码，恢复「第五十六题引言」及句号；原有换行转义数量不变，多余原分行留在字段末尾。"
+    }
+  ],
+  "notes": [
+    "全部13页、5节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q057.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "V\n冊天捏刀品d只副\n心\n一\n棚\n然後要探討的是為天使所認識的物質物(參看第五十六題引恥且=關於這一點，可以提出五個問題:口\n一、天使是否認識物質物的自然本性。\n二、天使是否認識單獨或個別物。\n三、天使是否認識未來物。\n四、天使是否知道心中的思想。\n五、天使是否知道恩寵的一切臭豆責。",
+      "after": "然後要探討的是為天使所認識的物質物(參看第五十六題引言)。\n關於這一點，可以提出五個問題：\n一、天使是否認識物質物的自然本性。\n二、天使是否認識單獨或個別物。\n三、天使是否認識未來物。\n四、天使是否知道心中的思想。\n五、天使是否知道恩寵的一切奧蹟。\n\n\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "V\n冊天捏刀品d只副\n心\n一\n棚\n然後要探討的是為天使所認識的物質物(參看第五十六題引恥且=關於這一點，可以提出五個問題:口\n一、天使是否認識物質物的自然本性。\n二、天使是否認識單獨或個別物。\n三、天使是否認識未來物。\n四、天使是否知道心中的思想。\n五、天使是否知道恩寵的一切臭豆責。",
+          "after": "然後要探討的是為天使所認識的物質物(參看第五十六題引言)。\n關於這一點，可以提出五個問題：\n一、天使是否認識物質物的自然本性。\n二、天使是否認識單獨或個別物。\n三、天使是否認識未來物。\n四、天使是否知道心中的思想。\n五、天使是否知道恩寵的一切奧蹟。\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "天使是否認識物質物",
+      "after": "天使是否認識物質物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "天使似乎不認識物質物(res materialis)。因為:",
+      "after": "天使似乎不認識物質物(res materialis)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "被理解者是理解者的完美。可是物質物卻不可能是天使的完美;因為物質物低於天使。所以，天使並不認識物質物。",
+      "after": "被理解者是理解者的完美。可是物質物卻不可能是天使的完美；因為物質物低於天使。所以，天使並不認識物質物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1008
+      ],
+      "before": "此外，理智的目睹或透視(visio intellectualis)，是關於那些藉著自己的本質而存在於靈魂內者，正如關於《格林多後書》第十二章2節的「3主解」(拉丁通行本註解)所說的。可是物質物卻不能藉著自己的本質，而存在於人的靈魂或天使的靈智內。所以，物質物不能藉著理智的透視被認識，而只能藉著覺察形體物之肖像的想像的觀看(visio imaginaria)，以及藉著關於形體物本身的感官的觀看(visio sensibilis)。可是，天使都沒有想像和覺官的觀看，而只有理智的透視。所以，天使不能認識物質物。",
+      "after": "此外，理智的目睹或透視(visio intellectualis)，是關於那些藉著自己的本質而存在於靈魂內者，正如關於《格林多後書》第十二章2節的「註解」(拉丁通行本註解)所說的。可是物質物卻不能藉著自己的本質，而存在於人的靈魂或天使的靈智內。所以，物質物不能藉著理智的透視被認識，而只能藉著覺察形體物之肖像的想像的觀看(visio imaginaria)，以及藉著關於形體物本身的感官的觀看(visio sensibilis)。可是，天使都沒有想像和覺官的觀看，而只有理智的透視。所以，天使不能認識物質物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "3主解",
+          "after": "註解",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1009
+      ],
+      "before": "此外，物質物並不是現實地或直接地可理解的，而是藉著感官與想像的察覺，而成為可知的，而天使並沒有感官與想像。所以，天使並不認識物質物。",
+      "after": "此外，物質物並不是現實地或直接地可理解的，而是藉著感官與想像的察覺，而成為可知的，而天使並沒有感官與想像。所以，天使並不認識物質物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1009
+      ],
+      "before": "凡低級能力所能做的，高級能力也能做。可是那按照自然秩序低於天使理智的人類理智，卻能認識物質物。所以，天使的理智遠更能如此。",
+      "after": "凡低級能力所能做的，高級能力也能做。可是那按照自然秩序低於天使理智的人類理智，卻能認識物質物。所以，天使的理智遠更能如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1009
+      ],
+      "before": "我解答如下:這是萬物的秩序:即高級物比低級物更完美，凡低級物以不完備的、局部的和繁複的方式所真有的，也以卓越的方式，經由一種統括與精簡或單純化，存在於高級物內。所以，在天主內，如同在萬物的最高峯上一樣，萬物都按照天主本身的單純存在(simplex esse)，無以復加地預先存在，正如狄奧尼修在《神名論》第一章所說的。可是在其他受造物中，天使卻是最接近和相似天主的;因此，他們更多和更完美地分享天主的美善，正如狄奧尼修在《上天(天使)階級論》第四章所說的。所以，一切物質物，都以比在這些物本身內所具備的，更單純的、更非物質的方式，但卻以比在天主內的更繁複的、更不完美的方式，預先存在於天使內。\n可是凡在一物內者，是按照其所在之物的(存在)方式，而存在於該物內。可是天使按照自己的本性卻是真備理智的。所以，正如天主藉著自己的本質而認識物質物;同樣地，天使也藉著那自己由於自己所具備的可理解之像(理象，species inteIligibilis)而有的，認識物質物。",
+      "after": "我解答如下：這是萬物的秩序：即高級物比低級物更完美，凡低級物以不完備的、局部的和繁複的方式所具有的，也以卓越的方式，經由一種統括與精簡或單純化，存在於高級物內。所以，在天主內，如同在萬物的最高峯上一樣，萬物都按照天主本身的單純存在(simplex esse)，無以復加地預先存在，正如狄奧尼修在《神名論》第一章所說的。可是在其他受造物中，天使卻是最接近和相似天主的；因此，他們更多和更完美地分享天主的美善，正如狄奧尼修在《上天(天使)階級論》第四章所說的。所以，一切物質物，都以比在這些物本身內所具備的，更單純的、更非物質的方式，但卻以比在天主內的更繁複的、更不完美的方式，預先存在於天使內。\n可是凡在一物內者，是按照其所在之物的(存在)方式，而存在於該物內。可是天使按照自己的本性卻是具備理智的。所以，正如天主藉著自己的本質而認識物質物；同樣地，天使也藉著那自己由於自己所具備的可理解之像(理象，species intelligibilis)而有的，認識物質物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所真有",
+          "after": "所具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真備",
+          "after": "具備",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "inteIligibilis",
+          "after": "intelligibilis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1009
+      ],
+      "before": "被理解者，是按照理解者在理智內所有的可理解之像，而為理解者的完美。如此，在天使的理智內的可理解之像，而為天使的理智之完美與現實。",
+      "after": "被理解者，是按照理解者在理智內所有的可理解之像，而為理解者的完美。如此，在天使的理智內的可理解之像，而為天使的理智之完美與現實。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "感官並不察覺物的本體，而只察覺外在的依附體。同樣地，想像也是如此，它只察覺形體物的肖像。可是唯有理智才察覺物的本體或本質。因此，在《靈魂論》卷三第七章說:理智的對象是「物是什麼」(quod quid est)，關於這一點，理智不犯錯誤，如同感官關於固有的可感覺物不犯錯誤一樣。所以，物質物的本質之存在於人或天使的理智內，有如被理解者之存在於理解者內，並不是按照自己的實際存在。可是有一些物卻按照這兩種存在，而存在於1裏智或靈魂內。理智的透視，兼及於這兩種存在。",
+      "after": "感官並不察覺物的本體，而只察覺外在的依附體。同樣地，想像也是如此，它只察覺形體物的肖像。可是唯有理智才察覺物的本體或本質。因此，在《靈魂論》卷三第七章說：理智的對象是「物是什麼」(quod quid est)，關於這一點，理智不犯錯誤，如同感官關於固有的可感覺物不犯錯誤一樣。所以，物質物的本質之存在於人或天使的理智內，有如被理解者之存在於理解者內，並不是按照自己的實際存在。可是有一些物卻按照這兩種存在，而存在於理智或靈魂內。理智的透視，兼及於這兩種存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1裏智",
+          "after": "理智",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "如果天使由物質物本身中，而獲得物質物的知識，那麼天使就應該藉著對於它們的抽象作用，而使它們成為現實可理解的。可是，天使卻不是由物質物中獲得物質物的知識，而是藉著與性{具來的現實可理解的物的像，而獲得物質物的知識，如向我們的理智，按照用抽象作用所構成的可理解的像，而有物質物的知識一樣。",
+      "after": "如果天使由物質物本身中，而獲得物質物的知識，那麼天使就應該藉著對於它們的抽象作用，而使它們成為現實可理解的。可是，天使卻不是由物質物中獲得物質物的知識，而是藉著與性俱來的現實可理解的物的像，而獲得物質物的知識，如同我們的理智，按照用抽象作用所構成的可理解的像，而有物質物的知識一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "與性{具來",
+          "after": "與性俱來",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如向",
+          "after": "如同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "天使是否認識單獨或個別物",
+      "after": "天使是否認識單獨或個別物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "天使似乎不認識單獨或個別物(singulare)。因為:",
+      "after": "天使似乎不認識單獨或個別物(singulare)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "哲學家在《物理學》卷一第五章說:「感覺針對單獨或個別物，可是理性(或理智)卻針對普遍物(universale)0 」可是天使卻沒有別的認識能力，而只有理智能力，正如第五十四題第五節所指明的。所以，天使並不知道單獨或個別物。",
+      "after": "哲學家在《物理學》卷一第五章說：「感覺針對單獨或個別物，可是理性(或理智)卻針對普遍物(universale)。」可是天使卻沒有別的認識能力，而只有理智能力，正如第五十四題第五節所指明的。所以，天使並不知道單獨或個別物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(universale)0 」",
+          "after": "(universale)。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1010
+      ],
+      "before": "此外，一切的認識都是藉著認識者與所認識之物的某種肖似。可是就單獨物為單獨物來說，在天使與單獨物中，不可能存在什麼肖似之處;因為天便是非物質的，正如第五十題第二節所說的，而單獨化或個體化\\'singularitas)的原理則是物質。所以，天使不可能認識單安特z",
+      "after": "此外，一切的認識都是藉著認識者與所認識之物的某種肖似。可是就單獨物為單獨物來說，在天使與單獨物中，不可能存在什麼肖似之處；因為天使是非物質的，正如第五十題第二節所說的，而單獨化或個體化(singularitas)的原理則是物質。所以，天使不可能認識單獨物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\\'singularitas)",
+          "after": "(singularitas)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "單安特z",
+          "after": "單獨物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1011
+      ],
+      "before": "此外，如果天使知道單獨物，或者是藉著單獨的像，或者是藉著普遍的像。可是，不是藉著單獨的像，因為這樣，就應該有無限的像;也不是藉著普遍的像，這是由於普遍物並不是認識單獨物之為單獨物的充足原理，因為在普遍物內，單獨物只被獲知其潛能或可能性。所以，天使並不認識單獨物。",
+      "after": "此外，如果天使知道單獨物，或者是藉著單獨的像，或者是藉著普遍的像。可是，不是藉著單獨的像，因為這樣，就應該有無限的像；也不是藉著普遍的像，這是由於普遍物並不是認識單獨物之為單獨物的充足原理，因為在普遍物內，單獨物只被獲知其潛能或可能性。所以，天使並不認識單獨物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1011
+      ],
+      "before": "誰也不能保讓他所不認識的。可是天使卻保護單獨或個別的人，按照《聖詠》第九十篇11節所說的: 「因為祂必為你委派自己的天使」等等。所以，天使認識單獨或個別物。",
+      "after": "誰也不能保護他所不認識的。可是天使卻保護單獨或個別的人，按照《聖詠》第九十篇11節所說的：「因為祂必為你委派自己的天使」等等。所以，天使認識單獨或個別物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "保讓",
+          "after": "保護",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1011,
+        1012
+      ],
+      "before": "我解答如下:有些人完全否認天使有單獨物的知識。可是這首先損及公教信德，因為公教信德肯定天使是為低級物奉職的，按照《希伯來書》第十四章l節所說的: 「天使都是奉職的神。」可是如果天使沒有單獨物的知識，那麼天使就不可能照顧世人的所行所為，因為行為是關於單獨或個別物的。而這相反《德訓篇》第五章5節所說的:「其在天使前說:沒有照顧。」其次，它也減損哲學的論證'因為根據這些論證，天使是天上星球的推動者，他們藉著自己的理智和意志，而推動它們。\n因此，另有一些人說，天使固然有單獨物的知識，可是是在普遍的原因內，一切的單獨或個另IJ效果都歸於普遍的原因;就如天文學家藉著天上運行的情況，而預測未來的日蝕和月蝕c可是這種主張卻無法規避上述的困難;因為如此在普遍原因內而認識單獨物，並不是認識它作為單獨物，即是存在於「此時」(nunc)和「此地」(hic)之物。因為那藉著計算天上的運行，而知未來日蝕和月蝕的天文學家，只是普遍地或籠統地知道，而不是按照此時此地的情況知道，除非藉著感官而得知。可是奉職、照顧和運行，卻都屬於存在於此時此地的單獨物。\n所以，應該採取另一種說法，即正如人利用種種認識能力，而認識一切物類﹒用理智而認識普遍物和非物質物，用感官而認識單獨物與形體物;同樣地，天使也藉著自己唯一的理智能力，而認識二者。因為這是萬物的秩序，即一物愈是高級的，也愈有更為緊密結合的與所及範園更廣的能力。這正如在人自己身上所指明的:通用或綜合感宮(sensus communis)比個別的感官(sensus proprius)更高俏，雖然是唯一的能力，卻認識那藉著外在的五種感官所認識的一切，以及一些不為外在感官所認識的其它物，例如:白的與甜的之區別。在其它方面也可如此討論。因此，既然天使按照自然秩序是超乎人之上的，就不宜於說，人藉著自己的任何能力所認識之物，而天使藉著自己的唯一認識能力，即是藉著理智，卻不認識。因此，亞里斯多德以為這是不適當的，即我們所知道的爭論，天主卻一無所知，正如《靈魂論》卷一第五章和《形上學》卷三第四章所指明的。\n至於天使的理智認識單獨物的方式，可由此看出，即正如物由天主流出而自立於自己的本性內;同樣地，它們也存在天使的知識內。可是顯然地，物之白天主所流出者，不僅有那屬於普遍的本性者，而且也有那是個體化的原理者;因為天主是整個物之本體的原理!，既是在質料方面，也是在形式方面。正由於祂創造，所以祂也認識，因為祂的知識就是物的原因，正如第十四題第八節所說明的。所以，正如天主藉著自己的創造一切的本質，而成為一切切的自像，祂也藉著自己的本質而認識一切，不僅是在萬物的普通本世方面，而且也是在單獨性方面;同樣地，天使也藉著天主所賦予的像(species a Dco indita)而認識物，不僅是在普還本佳方面‘而且也是在它們的單獨性方面，這是因為天使之唯一而單純的本質真有多樣的呈現。",
+      "after": "我解答如下：有些人完全否認天使有單獨物的知識。可是這首先損及公教信德，因為公教信德肯定天使是為低級物奉職的，按照《希伯來書》第十四章1節所說的：「天使都是奉職的神。」可是如果天使沒有單獨物的知識，那麼天使就不可能照顧世人的所行所為，因為行為是關於單獨或個別物的。而這相反《德訓篇》第五章5節所說的：「莫在天使前說：沒有照顧。」其次，它也減損哲學的論證，因為根據這些論證，天使是天上星球的推動者，他們藉著自己的理智和意志，而推動它們。\n因此，另有一些人說，天使固然有單獨物的知識，可是是在普遍的原因內，一切的單獨或個別效果都歸於普遍的原因；就如天文學家藉著天上運行的情況，而預測未來的日蝕和月蝕。可是這種主張卻無法規避上述的困難；因為如此在普遍原因內而認識單獨物，並不是認識它作為單獨物，即是存在於「此時」(nunc)和「此地」(hic)之物。因為那藉著計算天上的運行，而知未來日蝕和月蝕的天文學家，只是普遍地或籠統地知道，而不是按照此時此地的情況知道，除非藉著感官而得知。可是奉職、照顧和運行，卻都屬於存在於此時此地的單獨物。\n所以，應該採取另一種說法，即正如人利用種種認識能力，而認識一切物類，用理智而認識普遍物和非物質物，用感官而認識單獨物與形體物；同樣地，天使也藉著自己唯一的理智能力，而認識二者。因為這是萬物的秩序，即一物愈是高級的，也愈有更為緊密結合的與所及範圍更廣的能力。這正如在人自己身上所指明的：通用或綜合感官(sensus communis)比個別的感官(sensus proprius)更高尚，雖然是唯一的能力，卻認識那藉著外在的五種感官所認識的一切，以及一些不為外在感官所認識的其它物，例如：白的與甜的之區別。在其它方面也可如此討論。因此，既然天使按照自然秩序是超乎人之上的，就不宜於說，人藉著自己的任何能力所認識之物，而天使藉著自己的唯一認識能力，即是藉著理智，卻不認識。因此，亞里斯多德以為這是不適當的，即我們所知道的爭論，天主卻一無所知，正如《靈魂論》卷一第五章和《形上學》卷三第四章所指明的。\n至於天使的理智認識單獨物的方式，可由此看出，即正如物由天主流出而自立於自己的本性內；同樣地，它們也存在天使的知識內。可是顯然地，物之由天主所流出者，不僅有那屬於普遍的本性者，而且也有那是個體化的原理者；因為天主是整個物之本體的原理，既是在質料方面，也是在形式方面。正由於祂創造，所以祂也認識，因為祂的知識就是物的原因，正如第十四題第八節所說明的。所以，正如天主藉著自己的創造一切的本質，而成為一切物的肖像，祂也藉著自己的本質而認識一切，不僅是在萬物的普遍本性方面，而且也是在單獨性方面；同樣地，天使也藉著天主所賦予的像(species a Deo indita)而認識物，不僅是在普遍本性方面，而且也是在它們的單獨性方面，這是因為天使之唯一而單純的本質具有多樣的呈現。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十四章l節",
+          "after": "第十四章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其在天使前說",
+          "after": "莫在天使前說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "論證'",
+          "after": "論證，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "月蝕c",
+          "after": "月蝕。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一切物類﹒",
+          "after": "一切物類，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "高俏",
+          "after": "高尚",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "物之白天主",
+          "after": "物之由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原理!，",
+          "after": "原理，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一切切的自像",
+          "after": "一切物的肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "普通本世",
+          "after": "普遍本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "a Dco",
+          "after": "a Deo",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "普還本佳",
+          "after": "普遍本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方面‘",
+          "after": "方面，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本質真有",
+          "after": "本質具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "哲學家是在討論我們的理智，它除非藉著抽象，就不能理解，而它藉著剝離物質的情況所抽出之物，就成為普遍的。可是這種理解方式卻不適用於天(吏，正如第五十五題第二節、第三節釋疑1.所說的。因此，不能相提並論。",
+      "after": "哲學家是在討論我們的理智，它除非藉著抽象，就不能理解，而它藉著剝離物質的情況所抽出之物，就成為普遍的。可是這種理解方式卻不適用於天使，正如第五十五題第二節、第三節釋疑1.所說的。因此，不能相提並論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "按照自己的本性，天使並不肖似物質物，如同一物按照在共類或別類或依附體的相合而肖似另一物一樣;而是如同高級物之相似低級物，就像太陽相似火一樣。也是按照這一方式，在天主內有萬物的肖像，無論是在形式方面或質料方面;這是因為凡是萬物所有的，都預先存在於天主內，如同存在於原因內。根據同樣的理由，天使的理智所有的像，他們既是出白天主本質的肖像，所以也是萬物的肖像，不僅是在形式方面，而且也是在質料方面。",
+      "after": "按照自己的本性，天使並不肖似物質物，如同一物按照在共類或別類或依附體的相合而肖似另一物一樣；而是如同高級物之相似低級物，就像太陽相似火一樣。也是按照這一方式，在天主內有萬物的肖像，無論是在形式方面或質料方面；這是因為凡是萬物所有的，都預先存在於天主內，如同存在於原因內。根據同樣的理由，天使的理智所有的像，他們既是出自天主本質的肖像，所以也是萬物的肖像，不僅是在形式方面，而且也是在質料方面。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "天使是藉著普遍的形式，認識單獨物，而這些普遍的形式，不僅是在普遍的原理方面，而且也是在個體化原理方面，是萬物的肖像。天使如何藉著同一的像，而能認識許多物，這在第五十五題第三節釋疑3.裡已加以討論。",
+      "after": "天使是藉著普遍的形式，認識單獨物，而這些普遍的形式，不僅是在普遍的原理方面，而且也是在個體化原理方面，是萬物的肖像。天使如何藉著同一的像，而能認識許多物，這在第五十五題第三節釋疑3.裡已加以討論。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "天使是否認識未來物",
+      "after": "天使是否認識未來物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "天使似乎認識未來物(futurum)。因為:",
+      "after": "天使似乎認識未來物(futurum)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "天使的認識能力大於人c可是有些人卻知道許多的未來物。所以，天使遠更能如此。",
+      "after": "天使的認識能力大於人。可是有些人卻知道許多的未來物。所以，天使遠更能如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "大於人c",
+          "after": "大於人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1013
+      ],
+      "before": "此外，現在與未來是時間的區別。可是天使的理智卻超乎時間之上;因為「睿智(intelligcntia)與永恆性(aeternilas)並列_」'即是與「永常(aevum'精神受造物的持續存在)並列」'正如《論原因》命題二所說的c所以，過去與未來，對天使的理智，毫無區別可言;天使之認識二者，也毫無區別可言。",
+      "after": "此外，現在與未來是時間的區別。可是天使的理智卻超乎時間之上；因為「睿智(intelligentia)與永恆性(aeternitas)並列」，即是與「永常(aevum，精神受造物的持續存在)並列」，正如《論原因》命題二所說的。所以，過去與未來，對天使的理智，毫無區別可言；天使之認識二者，也毫無區別可言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "intelligcntia",
+          "after": "intelligentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "aeternilas",
+          "after": "aeternitas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並列_」'",
+          "after": "並列」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "aevum'",
+          "after": "aevum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並列」'",
+          "after": "並列」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所說的c",
+          "after": "所說的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1013,
+        1014
+      ],
+      "before": "此外，天使之認識，不是藉著取自物的像，而是藉著天生的普遍的像。可是，普遍的像與過去、現在和未來的關係相等。所以，天使之認識過去、現在和未來物，似乎毫無區別。",
+      "after": "此外，天使之認識，不是藉著取自物的像，而是藉著天生的普遍的像。可是，普遍的像與過去、現在和未來的關係相等。所以，天使之認識過去、現在和未來物，似乎毫無區別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1014
+      ],
+      "before": "此外，正如說某物相隔或相距(distans)是按照時間，同樣地，也是按照地方或空間。可是天使卻認識按照地方相距者。所以，天使也認識按照未來的時間相距者。",
+      "after": "此外，正如說某物相隔或相距(distans)是按照時間，同樣地，也是按照地方或空間。可是天使卻認識按照地方相距者。所以，天使也認識按照未來的時間相距者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1014
+      ],
+      "before": "那為天主性之獨特標記者，不適用於天使。可是認識未來物，卻是天主性的獨特標記，按照《依撒意亞》第四十一章23節所說的: 「請你們說說那以後要來的事，好叫我們知道你們是神。」所以，天使並不認識未來物。",
+      "after": "那為天主性之獨特標記者，不適用於天使。可是認識未來物，卻是天主性的獨特標記，按照《依撒意亞》第四十一章23節所說的：「請你們說說那以後要來的事，好叫我們知道你們是神。」所以，天使並不認識未來物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1014,
+        1015
+      ],
+      "before": "我解答如下:認識未來物，能有兩種方式:一種方式，是在其原因內。如此，那些必然會由自己的原因而產生的未來物，可藉著確實的知識而得知，例如:太陽明天升起來。可是那些在大多數的情況下，會由原因而產生的未來物，並不是確實得知，而只是臆測，例如:醫生預知病人將恢復健康。這種認識未來物的方式，存在天使之內;而且他們越普遍地、完美地認識物的原因，他們的此一認識方式也越勝過我們。如同那更敏銳地觀看到病因的醫生，也更佳地預知病人未來的病情。可是那些在極少數的情況下，由原因而產生的未來物，卻完全無從得知，例如偶發的和意外的事物。\n另一方式，是在(物之)自己內認識未來物。如此認識未來物，是專屬於天主的，不僅是那些必然發生的，或在大多數情況下發生的，而且也包括那些偶發的和意外發生的;因為天主是在自己的永恆內看到一切，而永恆既然是單純的，所以它在整個時間內，也包羅整個時間。所以，對整個時間所發生的一切，天主一白瞭然，歷歷如在目前，且是看到一切，如何它們在自己內，正如第十二題第十三節論天主的知識時所說的c可是天使的和其他任何受造的理智，與天主的永恆性相去甚連。所以，受造的理智都不能認識未來物，如同它們在自己的存在內。",
+      "after": "我解答如下：認識未來物，能有兩種方式：一種方式，是在其原因內。如此，那些必然會由自己的原因而產生的未來物，可藉著確實的知識而得知，例如：太陽明天升起來。可是那些在大多數的情況下，會由原因而產生的未來物，並不是確實得知，而只是臆測，例如：醫生預知病人將恢復健康。這種認識未來物的方式，存在天使之內；而且他們越普遍地、完美地認識物的原因，他們的此一認識方式也越勝過我們。如同那更敏銳地觀看到病因的醫生，也更佳地預知病人未來的病情。可是那些在極少數的情況下，由原因而產生的未來物，卻完全無從得知，例如偶發的和意外的事物。\n另一方式，是在(物之)自己內認識未來物。如此認識未來物，是專屬於天主的，不僅是那些必然發生的，或在大多數情況下發生的，而且也包括那些偶發的和意外發生的；因為天主是在自己的永恆內看到一切，而永恆既然是單純的，所以它在整個時間內，也包羅整個時間。所以，對整個時間所發生的一切，天主一目了然，歷歷如在目前，且是看到一切，如何它們在自己內，正如第十二題第十三節論天主的知識時所說的。可是天使的和其他任何受造的理智，與天主的永恆性相去甚遠。所以，受造的理智都不能認識未來物，如同它們在自己的存在內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一白瞭然",
+          "after": "一目了然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所說的c",
+          "after": "所說的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "甚連",
+          "after": "甚遠",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "人只不過是在(物的)原因內，或藉著天主的啟示，而認識未來物而已。基此，天使是更卓越地認識未來物。",
+      "after": "人只不過是在(物的)原因內，或藉著天主的啟示，而認識未來物而已。基此，天使是更卓越地認識未來物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "雖然天使的理智，超越那度量形體運動的時間，可是卻有-f.重按照可理解之觀念或認識之繼續的時間，存在於天使的理智內，正如奧斯定在《創世紀字義新探》卷八第二十二章所說的:「天主藉著時間而推動精神受造物。」準此，在天使的理智內，既然有一種繼續，所以並不是整個時間所發生的一切，都(一起)呈現在天使的目前。",
+      "after": "雖然天使的理智，超越那度量形體運動的時間，可是卻有一種按照可理解之觀念或認識之繼續的時間，存在於天使的理智內，正如奧斯定在《創世紀字義新探》卷八第二十二章所說的：「天主藉著時間而推動精神受造物。」準此，在天使的理智內，既然有一種繼續，所以並不是整個時間所發生的一切，都(一起)呈現在天使的目前。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "-f.重",
+          "after": "一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "雖然在天使的理智內的像，就其本身來說，與現在、過去和未來物的關係相等;可是現在、過去和未來物，與像或理念的關係卻不相等。因為現在物，現有自己的本性，使它們藉以肖似在天使的理智內的像，並能藉著這些像而被認識。可是未來物卻還沒有自己的本性，使它們藉以肖似那些像;所以不能藉著那些像而被認識。",
+      "after": "雖然在天使的理智內的像，就其本身來說，與現在、過去和未來物的關係相等；可是現在、過去和未來物，與像或理念的關係卻不相等。因為現在物，現有自己的本性，使它們藉以肖似在天使的理智內的像，並能藉著這些像而被認識。可是未來物卻還沒有自己的本性，使它們藉以肖似那些像；所以不能藉著那些像而被認識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "按照空間或地方相距之物，已具備物的本性，並分享某一物種，此一物種的肖像，存在於天使內c論及未來物，貝IJ這並不是真的，正如上文釋疑3.所說的。所以，情形不同。",
+      "after": "按照空間或地方相距之物，已具備物的本性，並分享某一物種，此一物種的肖像，存在於天使內。論及未來物，則這並不是真的，正如上文釋疑3.所說的。所以，情形不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使內c",
+          "after": "使內。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "天使是否知道心中的思想",
+      "after": "天使是否知道心中的思想",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1015
+      ],
+      "before": "天使似乎認識或知道心中的思想。因為:",
+      "after": "天使似乎認識或知道心中的思想。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1015,
+        1016
+      ],
+      "before": "教宗額我略一世在《倫理叢談》卷十八第四十八章，註釋《約伯傳》第二十七章17節的「黃金與琉璃不能與她並列」'說:「在那時候」'即是在復活者的真褔中，「一個人之為他人所透視，就如同那人之透視自己，當每人的理智被注視時，良心同時也被一覽無遺。」可是復活者卻將相似天使，如同《瑪竇福音》第二十二章30節所說的。所以，一位天使可以看見那在另一位天使的良心或意識內者。",
+      "after": "教宗額我略一世在《倫理叢談》卷十八第四十八章，註釋《約伯傳》第二十七章17節的「黃金與琉璃不能與她並列」，說：「在那時候」，即是在復活者的真福中，「一個人之為他人所透視，就如同那人之透視自己，當每人的理智被注視時，良心同時也被一覽無遺。」可是復活者卻將相似天使，如同《瑪竇福音》第二十二章30節所說的。所以，一位天使可以看見那在另一位天使的良心或意識內者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並列」'",
+          "after": "並列」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那時候」'",
+          "after": "那時候」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1016
+      ],
+      "before": "此外，正如形狀是針對形體而言，同樣地，可理解的像是針對理智而言。可是看見了形體，就也看見它的形狀。所以，看見了理智的實體，就也看見在理智的實體內的可理解的像。既然天使看見另一位天1吏，甚至靈魂，所以，似乎也能看見二者的思想。",
+      "after": "此外，正如形狀是針對形體而言，同樣地，可理解的像是針對理智而言。可是看見了形體，就也看見它的形狀。所以，看見了理智的實體，就也看見在理智的實體內的可理解的像。既然天使看見另一位天使，甚至靈魂，所以，似乎也能看見二者的思想。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天1吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1016
+      ],
+      "before": "此外，那些在我們的理智內者，比那些在想像力內者，更相似天使;因為前者是現實地被理解，而後者只是可能被理解。可是那些在想像力內者，卻能為天使所認識，有如形體物，因為想像力是身體的能力。所以，天使似乎能知道理智的思想。",
+      "after": "此外，那些在我們的理智內者，比那些在想像力內者，更相似天使；因為前者是現實地被理解，而後者只是可能被理解。可是那些在想像力內者，卻能為天使所認識，有如形體物，因為想像力是身體的能力。所以，天使似乎能知道理智的思想。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1016
+      ],
+      "before": "那專屬於天主者，不適於天使。可是知道心中的思想，卻專屬於天主，按照《耶肋米亞》第七章9至10節所說的:「人心最狡滑欺詐，難以探察，誰能透哉?我上主究察人心。」所以，天便不知道心中的祕密。",
+      "after": "那專屬於天主者，不適於天使。可是知道心中的思想，卻專屬於天主，按照《耶肋米亞》第七章9至10節所說的：「人心最狡猾欺詐，難以探察，誰能透識?我上主究察人心。」所以，天使不知道心中的祕密。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "狡滑",
+          "after": "狡猾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "透哉",
+          "after": "透識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1016,
+        1017
+      ],
+      "before": "我解答如下:知道心中的思想，能有兩種方式:一種方式，是在其效果內。如此，不僅天使可得而知，而且人也可得而知。效果越隱祕，知識也越精微。因為不僅有時藉著外在的行為，而且也藉著面容的變化，而得知心中的思想;醫生藉著脈搏，也可以知道病人的某些心情。何況天使，甚至於魔鬼，他們更能精微地透徹身體的這些隱祕變化。因此，奧斯定在《論魔鬼之預言》(De divinatione daeffiOnum)第五章說: 「他們輕而易舉地透識人的情況，不僅是用聲音所道出的情況，而且也包括用思想所構成的情況，因為在身體上會流露出來自心靈的某些標記。」雖然他在《訂正錄》(Retract)卷二第三十章說，無法確定此如何完成。\n另一方式，是能知道在理智中的思想，和在意志內的情感。如此，唯有天主能知道心中的思想和意志中的情感。理由是:因為有靈之受造物的意志，只屈服於唯一天主的權下;唯有祂自己能影響意志，祂是意志的主要對象，有如最後的目的;此在下面第一0五題第四節、第一0六題第二節將詳加討論。因此，唯有天主才知道意志所有的一切，或只繫於意志的一切。可是顯然地，一個人現實地思想某些事物，只繫於意志;因為人幾時有知識的習性，或存在於習性內的可理解的像，就可以隨意使用它們。因此，宗徒在《格林多前書》第二章11節說:「除了人內裡的心神外，誰也不知道人的事。」",
+      "after": "我解答如下：知道心中的思想，能有兩種方式：一種方式，是在其效果內。如此，不僅天使可得而知，而且人也可得而知。效果越隱祕，知識也越精微。因為不僅有時藉著外在的行為，而且也藉著面容的變化，而得知心中的思想；醫生藉著脈搏，也可以知道病人的某些心情。何況天使，甚至於魔鬼，他們更能精微地透徹身體的這些隱祕變化。因此，奧斯定在《論魔鬼之預言》(De divinatione daemonum)第五章說：「他們輕而易舉地透識人的情況，不僅是用聲音所道出的情況，而且也包括用思想所構成的情況，因為在身體上會流露出來自心靈的某些標記。」雖然他在《訂正錄》(Retract)卷二第三十章說，無法確定此如何完成。\n另一方式，是能知道在理智中的思想，和在意志內的情感。如此，唯有天主能知道心中的思想和意志中的情感。理由是：因為有靈之受造物的意志，只屈服於唯一天主的權下；唯有祂自己能影響意志，祂是意志的主要對象，有如最後的目的；此在下面第一〇五題第四節、第一〇六題第二節將詳加討論。因此，唯有天主才知道意志所有的一切，或只繫於意志的一切。可是顯然地，一個人現實地思想某些事物，只繫於意志；因為人幾時有知識的習性，或存在於習性內的可理解的像，就可以隨意使用它們。因此，宗徒在《格林多前書》第二章11節說：「除了人內裡的心神外，誰也不知道人的事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "daeffiOnum",
+          "after": "daemonum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0五",
+          "after": "第一〇五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1017
+      ],
+      "before": "一人的思想，現今不為另一人所知，是由於兩種障礙:即是身體的遲鈍和意志隱藏自己的祕密。可是在復活的時候，第一種障礙將被消除，現今也不在天使內。可是第二種障礙，卻仍然保存於復活後，而現今也存在於天使內。身體的明徹，將反映出靈智在恩寵與光榮多寡方面的性質。因此，一個就可以看見另一個的靈智。",
+      "after": "一人的思想，現今不為另一人所知，是由於兩種障礙：即是身體的遲鈍和意志隱藏自己的祕密。可是在復活的時候，第一種障礙將被消除，現今也不在天使內。可是第二種障礙，卻仍然保存於復活後，而現今也存在於天使內。身體的明徹，將反映出靈智在恩寵與光榮多寡方面的性質。因此，一個就可以看見另一個的靈智。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1017
+      ],
+      "before": "雖然由於可理解之像的樣式，按照大小不等的普遍性，與(天使之)實體的高貴不等相呼應，而使一位天使可藉以看見另一位天使的可理解的像，{旦卻不可因此而說，一位天使知道另一位天使在現實地思想時，如何運用這些可理解的像。",
+      "after": "雖然由於可理解之像的樣式，按照大小不等的普遍性，與(天使之)實體的高貴不等相呼應，而使一位天使可藉以看見另一位天使的可理解的像，但卻不可因此而說，一位天使知道另一位天使在現實地思想時，如何運用這些可理解的像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1017,
+        1018
+      ],
+      "before": "獸類的嗜慾並不是自己行為的主宰，而是順從另一的形體或精神原因的街擊。由於天使知道形體物和它們的情況，所以，能因而知道那在獸類的嗜慾與想像力的知覺內者，甚至也知道人的這些東西，這是因為在人內‘感覺嗜慾有時順從形體的某種衝擊而進入行動，如同獸類常常是這樣。可是天使卻不必然知道人的感覺嗜慾的行動和想像力的知覺，如果它們是受意志和理性的推動;因為連靈魂的低級部份也多少分享理性，如同服從命令者一樣，正如《倫理學》卷一第十三章所說的。也不能因此而說，如果天使知道那在人的感覺嗜慾或想像內者，那麼也就知道那在思想或意志內者;因為理智或意志，並不屬於感覺嗜慾與想像力的權下，反而能以各種不同的方式運用它們。",
+      "after": "獸類的嗜慾並不是自己行為的主宰，而是順從另一的形體或精神原因的衝擊。由於天使知道形體物和它們的情況，所以，能因而知道那在獸類的嗜慾與想像力的知覺內者，甚至也知道人的這些東西，這是因為在人內，感覺嗜慾有時順從形體的某種衝擊而進入行動，如同獸類常常是這樣。可是天使卻不必然知道人的感覺嗜慾的行動和想像力的知覺，如果它們是受意志和理性的推動；因為連靈魂的低級部份也多少分享理性，如同服從命令者一樣，正如《倫理學》卷一第十三章所說的。也不能因此而說，如果天使知道那在人的感覺嗜慾或想像內者，那麼也就知道那在思想或意志內者；因為理智或意志，並不屬於感覺嗜慾與想像力的權下，反而能以各種不同的方式運用它們。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "街擊",
+          "after": "衝擊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人內‘",
+          "after": "人內，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "天使是否知道恩寵的奧蹟",
+      "after": "天使是否知道恩寵的奧蹟",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "天使似乎認識或知道恩寵的奧蹟(mysterium gratiae)。因為:",
+      "after": "天使似乎認識或知道恩寵的奧蹟(mysterium gratiae)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "在一切奧蹟中，最崇高的奧蹟是基督降生成人的奧蹟。可是天使從起初就知道這個奧蹟;因為奧斯定在《創世紀字義新探》卷五第十九章說: 「這個奧蹟從無始之始﹒就隱藏在天主內，卻使天上的掌權者和異能者得知。」宗徒在《弟茂德前書》第三章16節也說: 「這虔敬的偉大奧蹟，顯現於天使。」所以，天使知道恩寵的奧蹟。",
+      "after": "在一切奧蹟中，最崇高的奧蹟是基督降生成人的奧蹟。可是天使從起初就知道這個奧蹟；因為奧斯定在《創世紀字義新探》卷五第十九章說：「這個奧蹟從無始之始，就隱藏在天主內，卻使天上的掌權者和異能者得知。」宗徒在《弟茂德前書》第三章16節也說：「這虔敬的偉大奧蹟，顯現於天使。」所以，天使知道恩寵的奧蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "無始之始﹒",
+          "after": "無始之始，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "此外，一切奧蹟之理，都包含在天主的上智內。可是天使卻看見天主的上智本身，即祂的本質。所以，天使知道恩寵的奧蹟。",
+      "after": "此外，一切奧蹟之理，都包含在天主的上智內。可是天使卻看見天主的上智本身，即祂的本質。所以，天使知道恩寵的奧蹟。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q057.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1018
+      ],
+      "before": "此外，先知藉著天使而受教，正如狄奧尼修在《上天(天使)階級論》第四章所指明的。可是先知卻知道恩寵的奧蹟;因為《亞毛斯》第三章7節說: 「吾主上主若不先將自己的計劃啟示給自己的先知，什麼也不做。」所以，天使知道恩寵的奧蹟。",
+      "after": "此外，先知藉著天使而受教，正如狄奧尼修在《上天(天使)階級論》第四章所指明的。可是先知卻知道恩寵的奧蹟；因為《亞毛斯》第三章7節說：「吾主上主若不先將自己的計劃啟示給自己的先知，什麼也不做。」所以，天使知道恩寵的奧蹟。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1018,
+        1019
+      ],
+      "before": "無人學習他所知道的。可是天使，縱然是最高級的天使，卻也探間和學習天主恩寵的奧蹟。因為《上天(天使)階級論》第七章說:聖經「敘述天上的一些本體，他們問耶穌，並自祂而學得天主對我們的工程的知識，以及耶穌直接地教導他們」;正如《依撒意亞》第六十三章l節所顯示的，那裡記載天使問說: 「那由厄束而來的是誰?」而耶穌回答他們說:「是宣佈正義的我。」所以，天使並不知道恩寵的奧蹟。",
+      "after": "無人學習他所知道的。可是天使，縱然是最高級的天使，卻也探問和學習天主恩寵的奧蹟。因為《上天(天使)階級論》第七章說：聖經「敘述天上的一些本體，他們問耶穌，並自祂而學得天主對我們的工程的知識，以及耶穌直接地教導他們」；正如《依撒意亞》第六十三章1節所顯示的，那裡記載天使問說：「那由厄東而來的是誰?」而耶穌回答他們說：「是宣佈正義的我。」所以，天使並不知道恩寵的奧蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "探間",
+          "after": "探問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "厄束",
+          "after": "厄東",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1019
+      ],
+      "before": "我解答如下:天使的知識共有兩種:一是本性的知識(cognitio naturalis)，天使依此知識，一方面藉著自己的本質(essentia)，另一方面也藉著自己天生的像(species innata)，而認識事物。藉著這種知識，天使不能知道恩寵的奧蹟，因為這些奧蹟完全繫於天主的意志。可是，如果一位天使不能知道另一位天i吏的繫於其意志的思想，那麼他遠更不能知道那完全繫於天主之意志的事物。因此，宗徒在《格林多前書》第二章11節推論說: 「除了人內扭的心神外，有誰能知道那人的事呢?同樣，除了天主聖神外，誰也不能明瞭天主的事。」\n另有一種天使的知識，即是使天使享真福的知識，他們藉著這種知識，而看見聖言，並在聖言內看見事物。天使藉著這種看見(visio)，而知道恩寵的奧蹟，並不是知道一切的奧蹟，也不是一切的天使都相等地知道奧蹟，而是按照天主所願意啟示給他們的;正如宗徒在《格林多前書》第二章10節所說的: 「可是天主藉著聖神將這一切啟示給我們了。」而且是這樣，即高級天使，由於更精微地默觀天主的上智，在這種享見天主中，他們知道更多和更高深的奧蹟，並藉著光照低級天使，而把這些奧蹟顯示給他們。在這些奧蹟之中，有些奧蹟，他們從受造之初就已知道;有些奧蹟，是為配合他們的職責，以後才知道的。",
+      "after": "我解答如下：天使的知識共有兩種：一是本性的知識(cognitio naturalis)，天使依此知識，一方面藉著自己的本質(essentia)，另一方面也藉著自己天生的像(species innata)，而認識事物。藉著這種知識，天使不能知道恩寵的奧蹟，因為這些奧蹟完全繫於天主的意志。可是，如果一位天使不能知道另一位天使的繫於其意志的思想，那麼他遠更不能知道那完全繫於天主之意志的事物。因此，宗徒在《格林多前書》第二章11節推論說：「除了人內裡的心神外，有誰能知道那人的事呢?同樣，除了天主聖神外，誰也不能明瞭天主的事。」\n另有一種天使的知識，即是使天使享真福的知識，他們藉著這種知識，而看見聖言，並在聖言內看見事物。天使藉著這種看見(visio)，而知道恩寵的奧蹟，並不是知道一切的奧蹟，也不是一切的天使都相等地知道奧蹟，而是按照天主所願意啟示給他們的；正如宗徒在《格林多前書》第二章10節所說的：「可是天主藉著聖神將這一切啟示給我們了。」而且是這樣，即高級天使，由於更精微地默觀天主的上智，在這種享見天主中，他們知道更多和更高深的奧蹟，並藉著光照低級天使，而把這些奧蹟顯示給他們。在這些奧蹟之中，有些奧蹟，他們從受造之初就已知道；有些奧蹟，是為配合他們的職責，以後才知道的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天i吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人內扭",
+          "after": "人內裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1020
+      ],
+      "before": "談論基督降生成人的奧蹟，可分兩種方式:一種方式，是概括地。如此，從天使享真褔之初，就都獲示這種奧蹟。理由是，因為這是普遍的原理或根源，天使的一切職責都導向它:「眾天使都是奉職，的神，被派遣給那些要承受救息的人服務」'正如《希伯來書》第一章14節所說的;而救恩是藉著基督降生成人的奧蹟而完成。因此，一切的天使從起初就應該知道這種奧蹟。另一種談論降生成人的奧蹟的方式，是針對特殊情況。如此，並不是一切的天使都從起初就知道一切的奧蹟;甚至於有些天使，縱然是高級天使，也是後來才知道的，正如狄奧尼修的話(參看反之)所指明的。",
+      "after": "談論基督降生成人的奧蹟，可分兩種方式：一種方式，是概括地。如此，從天使享真福之初，就都獲示這種奧蹟。理由是，因為這是普遍的原理或根源，天使的一切職責都導向它：「眾天使都是奉職的神，被派遣給那些要承受救恩的人服務」，正如《希伯來書》第一章14節所說的；而救恩是藉著基督降生成人的奧蹟而完成。因此，一切的天使從起初就應該知道這種奧蹟。另一種談論降生成人的奧蹟的方式，是針對特殊情況。如此，並不是一切的天使都從起初就知道一切的奧蹟；甚至於有些天使，縱然是高級天使，也是後來才知道的，正如狄奧尼修的話(參看反之)所指明的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奉職，的神",
+          "after": "奉職的神",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "救息",
+          "after": "救恩",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人服務」'",
+          "after": "人服務」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1020
+      ],
+      "before": "雖然草真福的天使都默觀天主的上智，卻不能洞徹它。因此，他們不必然知道天主的上智所隱藏的一切。",
+      "after": "雖然享真福的天使都默觀天主的上智，卻不能洞徹它。因此，他們不必然知道天主的上智所隱藏的一切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "雖然草真福",
+          "after": "雖然享真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q057.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1020
+      ],
+      "before": "無論先知藉著天主的啟示，關於恩寵的奧蹟知道什麼，那啟示給天使們的，遠更為高超。雖然天主概括地給先知們啟示了，關於祂救贖人類將要做的事;但有些關於這一點的特殊情形，宗徒們曾經獲知，而先知們未曾知道，按照《厄弗所書》第三章4.--...，5節所說的:「你們照著讀了，使能明白我對基督的奧祕所有的瞭解，這臭祕在以前的世代中，沒有告訴過任何人，有如現在一樣，藉聖神已啟示給他的聖宗徒。」即使在先知們中，後來的先知也知道先前的先知所不知道的;按照《聖詠》第一一八篇100節所說的:「我比年老的人瞭解的更多。」教宗額我略一世《厄則克耳論贊》卷二第四篇也說，對天主的知識，隨著時代的進展而增加。",
+      "after": "無論先知藉著天主的啟示，關於恩寵的奧蹟知道什麼，那啟示給天使們的，遠更為高超。雖然天主概括地給先知們啟示了，關於祂救贖人類將要做的事；但有些關於這一點的特殊情形，宗徒們曾經獲知，而先知們未曾知道，按照《厄弗所書》第三章4～5節所說的：「你們照著讀了，使能明白我對基督的奧祕所有的瞭解，這奧祕在以前的世代中，沒有告訴過任何人，有如現在一樣，藉聖神已啟示給他的聖宗徒。」即使在先知們中，後來的先知也知道先前的先知所不知道的；按照《聖詠》第一一八篇100節所說的：「我比年老的人瞭解的更多。」教宗額我略一世《厄則克耳論贊》卷二第四篇也說，對天主的知識，隨著時代的進展而增加。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "4.--...，5節",
+          "after": "4～5節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這臭祕",
+          "after": "這奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
