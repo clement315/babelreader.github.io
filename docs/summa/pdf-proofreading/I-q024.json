@@ -1,0 +1,1114 @@
+{
+  "schema_version": 1,
+  "batch": "I-q024",
+  "date": "2026-10-23",
+  "author": "element",
+  "baseline_git_commit": "2601429081663edaabc5a3e6c4567d6707c5ea8a",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q024",
+    "title": "論生命冊",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      590,
+      591,
+      592,
+      593,
+      594,
+      595
+    ],
+    "printed_pages": [
+      374,
+      379
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 37,
+    "changed_review_units": 28,
+    "checked_unchanged_review_units": 10
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q24.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q24.json": "96fa6ce6b528991e6b944b1d645aae621dea1cf74587b010a7bbcfb1f2776376"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q024.a001.ad1",
+      "pdf_file_page": 591,
+      "text": "己做的事",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q024.a002.arg3",
+      "pdf_file_page": 592,
+      "text": "第一節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q024.a002.sed_contra",
+      "pdf_file_page": 592,
+      "text": "第一節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q024.a002.respondeo",
+      "pdf_file_page": 593,
+      "text": "第一節己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形疑为「已」，依底本保留或恢复，供人工核定。"
+    },
+    {
+      "id": "I.q024.a003.ad1",
+      "pdf_file_page": 595,
+      "text": "有什麼可以改變性",
+      "status": "suspected_source_print_error",
+      "action": "原页如此，疑有原书措辞或印误，不擅加字改写。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全6页逐段核对；恢复生命册、箴言及引号字形，补足第三节正解遗漏的「：一方」。",
+    "仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q024.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "然後要討論的是生命冊(1伽vitae;參看第二十三題引言)。\n關於這一點，可以提出三個問題:\n一、什麼是生命冊。\n二、是何種生命之冊。\n三、一個人是否能由主命冊中被刪除。",
+      "after": "然後要討論的是生命冊(liber vitae；參看第二十三題引言)。\n關於這一點，可以提出三個問題：\n一、什麼是生命冊。\n二、是何種生命之冊。\n三、一個人是否能由生命冊中被刪除。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1伽vitae",
+          "after": "liber vitae",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "主命冊",
+          "after": "生命冊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "生命冊與預定是否相同",
+      "after": "生命冊與預定是否相同",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "生命冊與預定，似乎並不相同。因為:",
+      "after": "生命冊與預定，似乎並不相同。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "《德哥I1篇》第二十四章32節說:「這一切都包含在生命冊上。」那裡的「註解」(拉丁通行本註解)上說:「即新舊盟約。」而這並不是預定。所以，生命ffft與預定並不相同。",
+      "after": "《德訓篇》第二十四章32節說：「這一切都包含在生命冊上。」那裡的「註解」(拉丁通行本註解)上說：「即新舊盟約。」而這並不是預定。所以，生命冊與預定並不相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德哥I1篇",
+          "after": "德訓篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生命ffft",
+          "after": "生命冊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "此外，奧斯定在《天主之城》卷二十第卡四章說:生命冊是「天主的一種力量，使每個人的善行和惡行都被記憶下來」。而天主的力量，似乎並不屬於預定，而是屬於能力這一屬性。所以，生命冊與預定並不相同。",
+      "after": "此外，奧斯定在《天主之城》卷二十第十四章說：生命冊是「天主的一種力量，使每個人的善行和惡行都被記憶下來」。而天主的力量，似乎並不屬於預定，而是屬於能力這一屬性。所以，生命冊與預定並不相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡四章",
+          "after": "第十四章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "此外，與預定相對的是檳棄。如果生命冊就是預定，那麼就像有生命冊一樣，也應該有死亡冊了。",
+      "after": "此外，與預定相對的是擯棄。如果生命冊就是預定，那麼就像有生命冊一樣，也應該有死亡冊了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "檳棄",
+          "after": "擯棄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        590
+      ],
+      "before": "關於《聖詠》第六j-/\\篇29節的「顧他們從享有生命者之冊上全被刪除」'「註解」(拉丁通行本註解)上說:「這生命冊，就是天主將其預知之人，預定進入生命的知識。」",
+      "after": "關於《聖詠》第六十八篇29節的「願他們從享有生命者之冊上全被刪除」，「註解」(拉丁通行本註解)上說：「這生命冊，就是天主將其預知之人，預定進入生命的知識。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第六j-/\\篇",
+          "after": "第六十八篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "顧他們",
+          "after": "願他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "刪除」'",
+          "after": "刪除」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        591
+      ],
+      "before": "我解答如F:說天主有生命冊，是依照人間類似的事所設的比喻說法。因為人問有這一習慣，即把被選去做一件事的人，都登記在一個冊子上，比如士兵或從前被稱為「註冊的元老」(Patres conscripti)的國會議員。由第二十三題第四節所說可知，所有被預定的人，都被天主揀選，將獲得永生。所以，這些被預定之人的登記，就稱為生命冊。\n而一個人牢記一件事，就以比喻的說法說他把那件事銘安IJ或登記在他的腦袋或理智裡，按《接言》第三章1節所說的:「不要忘記我的法律，該誠心，陪守我的誡命」;稍後第三節繼續說:「刻在你的心版上」 0因為把一件事登記在可以看得見的簿冊上，也是為了幫助記憶。因此，天主牢記自己預定了某些人進入永生的知識，便被稱為生命冊。因為就像簿冊上的文字，是應做之事的記號:同樣﹒天主的知識，在天主內，也是那些應被引導進入永生之人的記號，按《弟茂德後書》第二章19節所說的:「但是天主堅固的基礎，喫立不動，且有這樣的刻文說:~主認識那些屬於祂的人Jl 0 」",
+      "after": "我解答如下：說天主有生命冊，是依照人間類似的事所設的比喻說法。因為人間有這一習慣，即把被選去做一件事的人，都登記在一個冊子上，比如士兵或從前被稱為「註冊的元老」(Patres conscripti)的國會議員。由第二十三題第四節所說可知，所有被預定的人，都被天主揀選，將獲得永生。所以，這些被預定之人的登記，就稱為生命冊。\n而一個人牢記一件事，就以比喻的說法說他把那件事銘刻或登記在他的腦袋或理智裡，按《箴言》第三章1節所說的：「不要忘記我的法律，該誠心恪守我的誡命」；稍後第三節繼續說：「刻在你的心版上」。因為把一件事登記在可以看得見的簿冊上，也是為了幫助記憶。因此，天主牢記自己預定了某些人進入永生的知識，便被稱為生命冊。因為就像簿冊上的文字，是應做之事的記號；同樣，天主的知識，在天主內，也是那些應被引導進入永生之人的記號，按《弟茂德後書》第二章19節所說的：「但是天主堅固的基礎，屹立不動，且有這樣的刻文說：『主認識那些屬於祂的人』。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如F",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人問",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "銘安IJ",
+          "after": "銘刻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "誠心，陪守",
+          "after": "誠心恪守",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "心版上」 0",
+          "after": "心版上」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "記號:",
+          "after": "記號；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同樣﹒",
+          "after": "同樣，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喫立",
+          "after": "屹立",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~主認識那些屬於祂的人Jl 0",
+          "after": "『主認識那些屬於祂的人』。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "。 」",
+          "after": "。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        591
+      ],
+      "before": "生命冊能有兩種說法。一種是指登記那些被選進入生命者;我們現在就是如此來談論生命冊。另一種可稱為生命冊者，是指登記那些引人進入生命的事物。而這也分為兩種。一種是指登記應作的事:新舊盟約即依此意義被稱為生命冊。男一種是指登記己做的事;{吏每個人將要記起自己之所作所為的天主的力量，則是按這意義被稱為生命冊。這就像那登記被召選入伍之人者，或者那傳授兵法者，或者那記錄士兵之所作所為者，都可稱為「軍事冊籍」。",
+      "after": "生命冊能有兩種說法。一種是指登記那些被選進入生命者；我們現在就是如此來談論生命冊。另一種可稱為生命冊者，是指登記那些引人進入生命的事物。而這也分為兩種。一種是指登記應作的事：新舊盟約即依此意義被稱為生命冊。另一種是指登記己做的事；使每個人將要記起自己之所作所為的天主的力量，則是按這意義被稱為生命冊。這就像那登記被召選入伍之人者，或者那傳授兵法者，或者那記錄士兵之所作所為者，都可稱為「軍事冊籍」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一",
+          "after": "另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{吏",
+          "after": "使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        591
+      ],
+      "before": "檬此也可看清質提2.之解答。",
+      "after": "據此也可看清質疑2.之解答。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "檬此",
+          "after": "據此",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "質提",
+          "after": "質疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        591,
+        592
+      ],
+      "before": "僅登記被選者，而不登記被淘汰者，還是一種慣例。因此，沒有與檳棄相關的死亡冊，如同有與生命相關的生命冊一樣。",
+      "after": "僅登記被選者，而不登記被淘汰者，還是一種慣例。因此，沒有與擯棄相關的死亡冊，如同有與生命相關的生命冊一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "檳棄",
+          "after": "擯棄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "(答「反之」)在思想或觀念上，生命冊與預定有別。因為生命冊含有對預定之知識，這由所引之「註解」亦可看出。",
+      "after": "(答「反之」)在思想或觀念上，生命冊與預定有別。因為生命冊含有對預定之知識，這由所引之「註解」亦可看出。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "生命冊是否僅針對被預定者之光榮生命",
+      "after": "生命冊是否僅針對被預定者之光榮生命",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "生命冊似乎不是僅針對或涉及被預定者之光榮或(天上的)榮福生命。因為:",
+      "after": "生命冊似乎不是僅針對或涉及被預定者之光榮或(天上的)榮福生命。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "生命冊是生命之知識。而天主因自己之生命而知其他一切生命。所以，生命冊之稱謂，主要地是針對天主之生命;而不是僅針對被預定者之生命。",
+      "after": "生命冊是生命之知識。而天主因自己之生命而知其他一切生命。所以，生命冊之稱謂，主要地是針對天主之生命；而不是僅針對被預定者之生命。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "此外，正如光榮的生命是來白天主，同樣自然生命也是來白天主。所以，如果光榮生命之知識稱為生命冊，那麼自然生命之知識也該稱為生命冊。",
+      "after": "此外，正如光榮的生命是來自天主，同樣自然生命也是來自天主。所以，如果光榮生命之知識稱為生命冊，那麼自然生命之知識也該稱為生命冊。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "此外，有些人被選接受恩寵，卻未被選獲得光榮的生命;這由《若望福音》第六章71節所說的可以知道:「我不是揀退了你們十二個人嗎?你們中卻有一個是魔鬼。」而如前面第一節己說過的，生命冊卻是關於天主揀選的登記。所以，生命冊也是關於恩寵生命的。",
+      "after": "此外，有些人被選接受恩寵，卻未被選獲得光榮的生命；這由《若望福音》第六章71節所說的可以知道：「我不是揀選了你們十二個人嗎？你們中卻有一個是魔鬼。」而如前面第一節己說過的，生命冊卻是關於天主揀選的登記。所以，生命冊也是關於恩寵生命的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "揀退",
+          "after": "揀選",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人嗎?",
+          "after": "人嗎？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        592
+      ],
+      "before": "生命冊是預定之知識，如第一節已說過的。而預定卻只在恩寵生命導向光榮的觀點下，才涉及恩寵生命;因為有恩寵而未達到光榮者，不是被預定的。所以，生命冊之稱謂，只是針對光榮的。",
+      "after": "生命冊是預定之知識，如第一節己說過的。而預定卻只在恩寵生命導向光榮的觀點下，才涉及恩寵生命；因為有恩寵而未達到光榮者，不是被預定的。所以，生命冊之稱謂，只是針對光榮的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        592,
+        593
+      ],
+      "before": "我解答如下:生命冊，如第一節所說，含有針對生命市被選者之登記或知識。而一個人之被選，係針對那非屬於其本性之物。而且，一個人被選所針對之物，其有目的的性質;因為一個士兵之被選或被登記，目的不是為7佩帶武器，而是為了去打仗，因為這纔是軍事目的的特有任務。超越本性的白的，則是光榮的生命，如前面第十二題第四節及第二十三題第一節己說過的。所以，嚴格地說﹒生命冊係針對光榮的生命。",
+      "after": "我解答如下：生命冊，如第一節所說，含有針對生命而被選者之登記或知識。而一個人之被選，係針對那非屬於其本性之物。而且，一個人被選所針對之物，具有目的的性質；因為一個士兵之被選或被登記，目的不是為了佩帶武器，而是為了去打仗，因為這才是軍事目的的特有任務。超越本性的目的，則是光榮的生命，如前面第十二題第四節及第二十三題第一節己說過的。所以，嚴格地說，生命冊係針對光榮的生命。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生命市",
+          "after": "生命而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其有目的",
+          "after": "具有目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為7",
+          "after": "為了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本性的白的",
+          "after": "本性的目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說﹒",
+          "after": "說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "天主的生命‘即使作為光榮的生命來說，對天主是自然的生命。因此，針對這種生命，沒有所謂揀選，因之亦無生命冊。因為我們不說某人被選，是為獲有感官，或隨其本性俱來的其他諸物。",
+      "after": "天主的生命，即使作為光榮的生命來說，對天主是自然的生命。因此，針對這種生命，沒有所謂揀選，因之亦無生命冊。因為我們不說某人被選，是為獲有感官，或隨其本性俱來的其他諸物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生命‘",
+          "after": "生命，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "藉此也可知質疑2之解答。因為針對本性生命﹒沒有什麼揀選，亦無生命冊。",
+      "after": "藉此也可知質疑2.之解答。因為針對本性生命，沒有什麼揀選，亦無生命冊。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "質疑2之",
+          "after": "質疑2.之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生命﹒",
+          "after": "生命，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "恩寵的生命，沒有目的的性質，而有導向目的者的性質。因此，並不說某人被選為獲得恩寵的生命，除非是著眼於恩寵的生命導向光榮。因此，也不說有恩寵但失足而未達到光榮的人是絕對地被選，而說他們是相對地或在某一方面被選;同樣，也不說他們是絕對地被登記在生命冊上，而是相對或在某一方面。意思是說，在天主的安排和知識中，有他們存在，即他們將因分有恩寵而與永生有某種關係。",
+      "after": "恩寵的生命，沒有目的的性質，而有導向目的者的性質。因此，並不說某人被選為獲得恩寵的生命，除非是著眼於恩寵的生命導向光榮。因此，也不說有恩寵但失足而未達到光榮的人是絕對地被選，而說他們是相對地或在某一方面被選；同樣，也不說他們是絕對地被登記在生命冊上，而是相對或在某一方面。意思是說，在天主的安排和知識中，有他們存在，即他們將因分有恩寵而與永生有某種關係。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "是否有人由生命冊中被刪除",
+      "after": "是否有人由生命冊中被刪除",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "似乎沒有任何人由生命冊中被刪除。因為;",
+      "after": "似乎沒有任何人由生命冊中被刪除。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        593
+      ],
+      "before": "奧斯定在《天主之城》卷二十第十五章說:「天主的不會錯的預知，就是生命冊」。而由天主的預知中，不可能撤除什麼;同樣，也不可能由預定中撤除什麼。所以，也不可能由生命冊中刪除什麼人。",
+      "after": "奧斯定在《天主之城》卷二十第十五章說：「天主的不會錯的預知，就是生命冊」。而由天主的預知中，不可能撤除什麼；同樣，也不可能由預定中撤除什麼。所以，也不可能由生命冊中刪除什麼人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        593,
+        594
+      ],
+      "before": "此外，凡是存在於一物內者，是以該物之存在方式而存在。而生命冊是永恆的和不可改變的存在物。所以，凡是存在於其內者，不是有時間性地，而是永恆地和不可動搖地存在其內。",
+      "after": "此外，凡是存在於一物內者，是以該物之存在方式而存在。而生命冊是永恆的和不可改變的存在物。所以，凡是存在於其內者，不是有時間性地，而是永恆地和不可動搖地存在其內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        594
+      ],
+      "before": "此外，刪除與輸入或登入相對。而一個人不能重新被登入生命冊。所以，也不能從那裡被刪除。",
+      "after": "此外，刪除與輸入或登入相對。而一個人不能重新被登入生命冊。所以，也不能從那裡被刪除。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        594
+      ],
+      "before": "《聖詠》第六十八篇29節卻說: 「顧他們從享有生命者之冊上全被刪除。」",
+      "after": "《聖詠》第六十八篇29節卻說：「願他們從享有生命者之冊上全被刪除。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "顧他們",
+          "after": "願他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        594,
+        595
+      ],
+      "before": "我解答如下:有人說，按事實來說，沒有人能夠由生命問中被刪除;但根據人的看法，卻能夠有人被刪除。因為聖經習慣在一件事情被知道的時候，說那件事情成立或發生。準此，人們看到某些人現有的義德，而認為他們被登記在生命冊上時，便說這些人被登記在生命冊上了。不過，當今世或來世發現他們失掉了他們的義德峙，便說他們由生命冊中被刪除了。關於《聖詠》第六十八篇29節: 「願他們從享有生命者之冊上全被刪除」'「註解」(拉丁通行本註解)上也是如此來解釋這樣的刪除。\n可是，由生命冊中不被刪除，被視為是義人的賞報之一，因為《默示錄》第三章5節說: 「勝利的必要這樣穿上白衣，我絕不把他的名字從生命冊上抹去。」而那應許給聖人們的，不只是在人們的意見中如此;所以可以說，由生命冊中被刪除或不被刪除，不僅是涉及人們的意見﹒而且也是尉係到事實本身。因為生命冊是登記被安排得永生之人的。而一個人是由兩方面被安排得永生方面是由於天主的預定，這種安排是絕不會落空的;另一方面是由於恩寵，凡是有恩寵的人，就因此而有資格得永生c不過這種安排有時會失敗，因為因有恩寵而被安排得永生者，卻因犯死罪而不克達到永生。所以，那些因天主預定而被安排得永生者，是絕對地被登記在生命冊上，因為他們是以將要獲得永生本身者的身分，被登記在那裡。這些人絕不會由生命冊中被刪除。至於那些並非由於天主的預定，而僅係由於恩寵被安排得永生者，貝IJ說他們不是絕對地，而只是相對地被登記於生命冊上;因為他們之被登記將要獲得永生，不是針對永生本身，而是針對永生之原因。這些人能夠由生命冊中被刪除;而這種刪除無關於天主之知識，好像是天主原來預先知道，後來又不知道了;而是涉及被知道的事，就是說因為天主知道某人原先被安排得永生，但後來因為失落恩寵而不被安排得永生了。",
+      "after": "我解答如下：有人說，按事實來說，沒有人能夠由生命冊中被刪除；但根據人的看法，卻能夠有人被刪除。因為聖經習慣在一件事情被知道的時候，說那件事情成立或發生。準此，人們看到某些人現有的義德，而認為他們被登記在生命冊上時，便說這些人被登記在生命冊上了。不過，當今世或來世發現他們失掉了他們的義德時，便說他們由生命冊中被刪除了。關於《聖詠》第六十八篇29節：「願他們從享有生命者之冊上全被刪除」，「註解」(拉丁通行本註解)上也是如此來解釋這樣的刪除。\n可是，由生命冊中不被刪除，被視為是義人的賞報之一，因為《默示錄》第三章5節說：「勝利的必要這樣穿上白衣，我絕不把他的名字從生命冊上抹去。」而那應許給聖人們的，不只是在人們的意見中如此；所以可以說，由生命冊中被刪除或不被刪除，不僅是涉及人們的意見，而且也是關係到事實本身。因為生命冊是登記被安排得永生之人的。而一個人是由兩方面被安排得永生：一方面是由於天主的預定，這種安排是絕不會落空的；另一方面是由於恩寵，凡是有恩寵的人，就因此而有資格得永生。不過這種安排有時會失敗，因為因有恩寵而被安排得永生者，卻因犯死罪而不克達到永生。所以，那些因天主預定而被安排得永生者，是絕對地被登記在生命冊上，因為他們是以將要獲得永生本身者的身分，被登記在那裡。這些人絕不會由生命冊中被刪除。至於那些並非由於天主的預定，而僅係由於恩寵被安排得永生者，則說他們不是絕對地，而只是相對地被登記於生命冊上；因為他們之被登記將要獲得永生，不是針對永生本身，而是針對永生之原因。這些人能夠由生命冊中被刪除；而這種刪除無關於天主之知識，好像是天主原來預先知道，後來又不知道了；而是涉及被知道的事，就是說因為天主知道某人原先被安排得永生，但後來因為失落恩寵而不被安排得永生了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生命問",
+          "after": "生命冊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "義德峙",
+          "after": "義德時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "刪除」'",
+          "after": "刪除」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意見﹒",
+          "after": "意見，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尉係",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "永生方面",
+          "after": "永生：一方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "永生c",
+          "after": "永生。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        595
+      ],
+      "before": "如正解所說，刪除之與生命冊的關係，不是從預知方面來看，好像在天主內有什麼可以改變性;而是從被預知之事物方面來看，而它們是可以改變的。",
+      "after": "如正解所說，刪除之與生命冊的關係，不是從預知方面來看，好像在天主內有什麼可以改變性；而是從被預知之事物方面來看，而它們是可以改變的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q024.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        595
+      ],
+      "before": "事物在天主內的存在，固然是不變的，但在其本身內卻是可以改變的，自生命冊中被刪除即屬於這後一情形。",
+      "after": "事物在天主內的存在，固然是不變的，但在其本身內卻是可以改變的，自生命冊中被刪除即屬於這後一情形。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q024.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        595
+      ],
+      "before": "可以按說一個人由生命冊中被刪除的方式，說他同樣重新被登記在那裡;或者是根據人們的看法如此，或者是說他因恩寵又重新開始走向永生‘這也都包括在天主的知識內，雖然天主不是重新知道。",
+      "after": "可以按說一個人由生命冊中被刪除的方式，說他同樣重新被登記在那裡；或者是根據人們的看法如此，或者是說他因恩寵又重新開始走向永生，這也都包括在天主的知識內，雖然天主不是重新知道。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "永生‘",
+          "after": "永生，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
