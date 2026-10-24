@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "batch": "I-q101",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q101",
+    "title": "論要生之子女的知識情況",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1552,
+      1553,
+      1554
+    ],
+    "printed_pages": [
+      325,
+      327
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 22,
+    "changed_review_units": 14,
+    "checked_unchanged_review_units": 9
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q101.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q101.json": "d65d4f4f498decdcffc8c637987c0f3218e15bc33c2461b6de204973cdab2189"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q101.a001.respondeo",
+      "pdf_file_page": 1553,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q101.a002.ad2",
+      "pdf_file_page": 1554,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部3页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q101.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "然後要討論的是，要生之子女的知識情況(參看第九十九題引言)。\n關於這點，可以提出兩個問題:\n一、是否孩子一生下來就會有完備的知識。\n二、是否一生下來就會完善地運用理性。",
+      "after": "然後要討論的是，要生之子女的知識情況(參看第九十九題引言)。\n關於這點，可以提出兩個問題：\n一、是否孩子一生下來就會有完備的知識。\n二、是否一生下來就會完善地運用理性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "在純真狀態的孩子，是否會一生下來就具有完備的知識",
+      "after": "在純真狀態的孩子，是否會一生下來就具有完備的知識",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "在純真狀態，孩子似乎會是一生下來就具有完備的知識。因為:",
+      "after": "在純真狀態，孩子似乎會是一生下來就具有完備的知識。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "亞當是怎樣，他生的孩子也會是怎樣。但按前面第九十四題第三節所說的，亞當具有完備的知識c所以，由他生的孩子也會具有完備的知識。",
+      "after": "亞當是怎樣，他生的孩子也會是怎樣。但按前面第九十四題第三節所說的，亞當具有完備的知識。所以，由他生的孩子也會具有完備的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "知識c",
+          "after": "知識。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "此外，按伯達(Beda Venerabilis'673-735年)所說的，愚昧是由罪惡來的。但愚昧就是缺之知識。所以，在犯罪以前，孩子一生下來就會具有一切知識。",
+      "after": "此外，按伯達(Beda Venerabilis，673～735年)所說的，愚昧是由罪惡來的。但愚昧就是缺乏知識。所以，在犯罪以前，孩子一生下來就會具有一切知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Venerabilis'673-735年",
+          "after": "Venerabilis，673～735年",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "缺之知識",
+          "after": "缺乏知識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "此外，那時孩子一生下來，就該具有正義。但正義需要知識，以指導行為。所以，也該有知識。",
+      "after": "此外，那時孩子一生下來，就該具有正義。但正義需要知識，以指導行為。所以，也該有知識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1552
+      ],
+      "before": "按《靈魂論》卷三第四章所說的，我們的靈魂按天性「好像什麼也沒寫的白紙」。但靈魂的天性現在是怎樣，那時也是怎樣。所以，孩子的靈魂在起初沒有知識。",
+      "after": "按《靈魂論》卷三第四章所說的，我們的靈魂按天性「好像什麼也沒寫的白紙」。但靈魂的天性現在是怎樣，那時也是怎樣。所以，孩子的靈魂在起初沒有知識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "我解答如下:前面第九十九題第一節已經說過，關於超越天性的事，只有相信權威;若權威沒有指示，我們就該根據自然情況。按前面第五十五題第二節、第八十四題第七節所說的，人自然該用感官獲致知識。靈魂之所以與身體結合，是因為它在活動上需要身體;倘若在最初靈魂就有不用感官能力獲致的知識，就不必與身體結合。所以該說，在純真狀態，孩子不是一生下來便有完備之知識;而是在時間過程中，毫無困難地藉發現或學習獲致知識。",
+      "after": "我解答如下：前面第九十九題第一節己經說過，關於超越天性的事，只有相信權威；若權威沒有指示，我們就該根據自然情況。按前面第五十五題第二節、第八十四題第七節所說的，人自然該用感官獲致知識。靈魂之所以與身體結合，是因為它在活動上需要身體；倘若在最初靈魂就有不用感官能力獲致的知識，就不必與身體結合。所以該說，在純真狀態，孩子不是一生下來便有完備之知識；而是在時間過程中，毫無困難地藉發現或學習獲致知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "知識全備是原祖個人的附屬情況，因了他是全人類的始祖和先師。故他所生的於女，在這方面與他不相似;只有在天性的性質或賦予整個人類的恩惠方面與他相似。",
+      "after": "知識全備是原祖個人的附屬情況，因了他是全人類的始祖和先師。故他所生的子女，在這方面與他不相似；只有在天性的性質或賦予整個人類的恩惠方面與他相似。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "於女",
+          "after": "子女",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "愚昧是缺乏那時該有的知識。初生的孩子不會是愚昧的，因為他們會有那時該有的知識。所以他們不是愚昧，而是在某些方面無知。狄奧尼修在《上天(天使)階級論》第七章，主張連聖天使們也有這種無知。",
+      "after": "愚昧是缺乏那時該有的知識。初生的孩子不會是愚昧的，因為他們會有那時該有的知識。所以他們不是愚昧，而是在某些方面無知。狄奧尼修在《上天(天使)階級論》第七章，主張連聖天使們也有這種無知。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "那時的孩子會具有足以指導其正義行為的知識。在這方面人是用(自然)法律的普遍原理指導自己，他們那時所知道的遠比我們現在知道得清楚;關於別的普遍原理也是一樣。",
+      "after": "那時的孩子會具有足以指導其正義行為的知識。在這方面人是用(自然)法律的普遍原理指導自己，他們那時所知道的遠比我們現在知道得清楚；關於別的普遍原理也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "初生的孩子是否會完善地運用理性",
+      "after": "初生的孩子是否會完善地運用理性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "在純真狀態，初生的孩子似乎會完善地或充分地運用理性。因為:",
+      "after": "在純真狀態，初生的孩子似乎會完善地或充分地運用理性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1553
+      ],
+      "before": "現在的孩子不會完善地運用理性，乃是因了靈魂受到身體之連累。那時不會如此，因為正如《智慧篇》第九章的節所說的:「這必腐朽的肉身，重壓著靈魂。」所以，在未犯罪並引來腐朽之前，初生的孩子會完善地運用理性。",
+      "after": "現在的孩子不會完善地運用理性，乃是因了靈魂受到身體之連累。那時不會如此，因為正如《智慧篇》第九章15節所說的：「這必腐朽的肉身，重壓著靈魂。」所以，在未犯罪並引來腐朽之前，初生的孩子會完善地運用理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第九章的節",
+          "after": "第九章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1554
+      ],
+      "before": "此外，有些動物一生下來，就能運用自然本能，例如羊羔見狼就逃。所以在純真狀態，初生的人更該會完善地運用理性。",
+      "after": "此外，有些動物一生下來，就能運用自然本能，例如羊羔見狼就逃。所以在純真狀態，初生的人更該會完善地運用理性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1554
+      ],
+      "before": "凡是由生殖而來的東西，天性是從不完美狀態達到完美狀態。所以，孩子不是從一開始就會完善地運用理性。",
+      "after": "凡是由生殖而來的東西，天性是從不完美狀態達到完美狀態。所以，孩子不是從一開始就會完善地運用理性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q101.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1554
+      ],
+      "before": "我解答如下:由前面第八十四題第七節所說的，可以知道理性之運用，多少繫於感宮之運用;故若感官有故障，內部感官能力受到幹擾，人便不能完善地運用理性，例如睡眠的或有神經病的人。感宮，能力乃是身體器官的一種能力。為此，若其器官受阻，其活動必然受阻，因而理性之作用也受阻。孩子們的這些感官能力有障礙，因為大腦的濕氣過盛。故此他們不能完善地運用理性，正如他們也不能完善地運用其他肢體。所以在純真狀態，孩子不會像後來在成年期那樣，完善地運用理性。但是針對那些在那(純真)狀態與他們相關的事物上，他們那時比現在會更完善地運用理性，就如前面第九十九題第一節論到運用其他肢體時曾說過的。",
+      "after": "我解答如下：由前面第八十四題第七節所說的，可以知道理性之運用，多少繫於感官之運用；故若感官有故障，內部感官能力受到干擾，人便不能完善地運用理性，例如睡眠的或有神經病的人。感官能力乃是身體器官的一種能力。為此，若其器官受阻，其活動必然受阻，因而理性之作用也受阻。孩子們的這些感官能力有障礙，因為大腦的濕氣過盛。故此他們不能完善地運用理性，正如他們也不能完善地運用其他肢體。所以在純真狀態，孩子不會像後來在成年期那樣，完善地運用理性。但是針對那些在那(純真)狀態與他們相關的事物上，他們那時比現在會更完善地運用理性，就如前面第九十九題第一節論到運用其他肢體時曾說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮之",
+          "after": "感官之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幹擾",
+          "after": "干擾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮，能力",
+          "after": "感官能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1554
+      ],
+      "before": "身體之腐化所增加的負擔，連在與任何年齡之人有關的事物上，也都有礙於理性之遲用。",
+      "after": "身體之腐化所增加的負擔，連在與任何年齡之人有關的事物上，也都有礙於理性之運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理性之遲用",
+          "after": "理性之運用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q101.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1554
+      ],
+      "before": "其他動物在最初也不如以後善於運用其自然本能，這可以從這件事上看出來:鳥類教小鳥飛;別的動物也有類似的情形。但是在人身上，如正解己說過的，因了大腦的濕氣重，而有特殊的障礙。",
+      "after": "其他動物在最初也不如以後善於運用其自然本能，這可以從這件事上看出來：鳥類教小鳥飛；別的動物也有類似的情形。但是在人身上，如正解己說過的，因了大腦的濕氣重，而有特殊的障礙。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
