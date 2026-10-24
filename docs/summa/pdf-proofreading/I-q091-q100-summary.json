@@ -1,0 +1,640 @@
+{
+  "date": "2026-10-24",
+  "author": "element",
+  "scope": "Prima Pars questions 91–100",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "status": "completed_locally",
+  "questions": 10,
+  "articles": 39,
+  "distinct_pdf_pages": 88,
+  "pdf_file_pages": [
+    1464,
+    1551
+  ],
+  "printed_pages": [
+    237,
+    324
+  ],
+  "changed_review_units": 359,
+  "checked_unchanged_review_units": 158,
+  "protected_zh_tokens_in_question_files": 566,
+  "source_anomaly_records": 47,
+  "suspected_source_print_errors": 47,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "browser_preview_transport": "Exact local repository files supplied by Playwright request interception; this is a local rendering check, not a published website check.",
+  "checks": {
+    "ten_live_snapshots_match_baseline": true,
+    "complete_report_json_exactly_matches_current_reader": true,
+    "all_report_first_last_sentences_match_pre_edit_text": true,
+    "all_manifest_units_match_before_and_after_data": true,
+    "all_review_units_have_page_references": true,
+    "all_non_zh_source_bytes_preserved": true,
+    "each_field_newline_escape_sequence_preserved": true,
+    "question_94_article_3_title_synced_to_catalog": true,
+    "all_source_anomaly_text_preserved": true,
+    "all_quote_and_book_title_pairs_balanced": true,
+    "only_original_flagged_unbalanced_parenthesis_retained": true,
+    "desktop_and_mobile_browser_checks_passed": true,
+    "three_existing_regression_tests_passed_for_each_batch": true,
+    "progress_and_local_publication_policy_consistent": true,
+    "all_eleven_content_commits_authored_and_committed_by_element": true
+  },
+  "newline_check_note": "The JSON escape parser distinguishes a true newline escape from an escaped literal backslash followed by n. In question 91, only that literal OCR debris was removed; actual newline escapes and decoded newline sequences remain identical.",
+  "publication": "No push or deployment this turn. Questions 81–100 remain pending local batches under the existing publication policy.",
+  "cumulative_reviewed_questions": 100,
+  "cumulative_reviewed_articles": 493,
+  "next_question": "I.q101",
+  "question_and_final_review_commits": [
+    "3b8a89f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Refine question 95 citation reading after enlarged PDF review",
+    "0b056e7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 100 locally against PDF images",
+    "05da669|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 99 locally against PDF images",
+    "fce402a|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 98 locally against PDF images",
+    "9dcd87f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 97 locally against PDF images",
+    "39d2d86|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 96 locally against PDF images",
+    "e13ad61|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 95 locally against PDF images",
+    "d861b0c|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 94 locally against PDF images",
+    "aec3675|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 93 locally against PDF images",
+    "268db81|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 92 locally against PDF images",
+    "ec34c13|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 91 locally against PDF images"
+  ],
+  "batches": [
+    {
+      "question": "I.q091",
+      "title": "論第一個人之身體的產生",
+      "articles": 4,
+      "pdf_file_pages": [
+        1464,
+        1473
+      ],
+      "printed_pages": [
+        237,
+        246
+      ],
+      "changed_review_units": 41,
+      "checked_unchanged_review_units": 16,
+      "source_anomaly_records": 8,
+      "report": "I-q091.md",
+      "manifest": "I-q091.json",
+      "validation": "I-q091-validation.json",
+      "reader_sha256": "a9a563bb8c2545df0bc0a23e200275fd87f50c8215817226fc8c8b82e9b3ff46"
+    },
+    {
+      "question": "I.q092",
+      "title": "論女人之產生",
+      "articles": 4,
+      "pdf_file_pages": [
+        1474,
+        1481
+      ],
+      "printed_pages": [
+        247,
+        254
+      ],
+      "changed_review_units": 30,
+      "checked_unchanged_review_units": 19,
+      "source_anomaly_records": 3,
+      "report": "I-q092.md",
+      "manifest": "I-q092.json",
+      "validation": "I-q092-validation.json",
+      "reader_sha256": "7e73cc360e339120c3836c561b0be5ba8e2779fb0a9bf647946cf612322fd98a"
+    },
+    {
+      "question": "I.q093",
+      "title": "論人之產生的目標或終局",
+      "articles": 9,
+      "pdf_file_pages": [
+        1482,
+        1503
+      ],
+      "printed_pages": [
+        255,
+        276
+      ],
+      "changed_review_units": 91,
+      "checked_unchanged_review_units": 28,
+      "source_anomaly_records": 9,
+      "report": "I-q093.md",
+      "manifest": "I-q093.json",
+      "validation": "I-q093-validation.json",
+      "reader_sha256": "c2f3c5b3528b97955537ce011279237edd82d281531b82ae56eaf939a21003ee"
+    },
+    {
+      "question": "I.q094",
+      "title": "論第一個人在理智方面的境界或情況",
+      "articles": 4,
+      "pdf_file_pages": [
+        1504,
+        1513
+      ],
+      "printed_pages": [
+        277,
+        286
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 17,
+      "source_anomaly_records": 7,
+      "report": "I-q094.md",
+      "manifest": "I-q094.json",
+      "validation": "I-q094-validation.json",
+      "reader_sha256": "885d59c44967d42eeffbb2d6574ade6f0971e5db70435d60118b658daf851709"
+    },
+    {
+      "question": "I.q095",
+      "title": "論有關第一個人之意志者，即恩寵與正義",
+      "articles": 4,
+      "pdf_file_pages": [
+        1514,
+        1522
+      ],
+      "printed_pages": [
+        287,
+        295
+      ],
+      "changed_review_units": 38,
+      "checked_unchanged_review_units": 21,
+      "source_anomaly_records": 5,
+      "report": "I-q095.md",
+      "manifest": "I-q095.json",
+      "validation": "I-q095-validation.json",
+      "reader_sha256": "5aeb85274fbd2c0dd49219c7549287e5fb354d29d0786da9a8e9326fc2a17bf3"
+    },
+    {
+      "question": "I.q096",
+      "title": "論人在純真狀態的統治權力",
+      "articles": 4,
+      "pdf_file_pages": [
+        1523,
+        1530
+      ],
+      "printed_pages": [
+        296,
+        303
+      ],
+      "changed_review_units": 31,
+      "checked_unchanged_review_units": 16,
+      "source_anomaly_records": 2,
+      "report": "I-q096.md",
+      "manifest": "I-q096.json",
+      "validation": "I-q096-validation.json",
+      "reader_sha256": "aef12184c0c36c72d9266ae19d7c734870d5cf724b598a9f7ae7d0c421486d16"
+    },
+    {
+      "question": "I.q097",
+      "title": "論第一個人在（純真）狀態中的個體保存",
+      "articles": 4,
+      "pdf_file_pages": [
+        1531,
+        1538
+      ],
+      "printed_pages": [
+        304,
+        311
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 17,
+      "source_anomaly_records": 4,
+      "report": "I-q097.md",
+      "manifest": "I-q097.json",
+      "validation": "I-q097-validation.json",
+      "reader_sha256": "8b6e530f8fab974f580555449224c8983da04e58eb356360bd41402cadc7fde5"
+    },
+    {
+      "question": "I.q098",
+      "title": "論有關種類之保存者",
+      "articles": 2,
+      "pdf_file_pages": [
+        1539,
+        1543
+      ],
+      "printed_pages": [
+        312,
+        316
+      ],
+      "changed_review_units": 20,
+      "checked_unchanged_review_units": 7,
+      "source_anomaly_records": 2,
+      "report": "I-q098.md",
+      "manifest": "I-q098.json",
+      "validation": "I-q098-validation.json",
+      "reader_sha256": "2e2fdbbcd328871a272453c4223f5d94e04f7a14022b3f290b0b4e85c656720e"
+    },
+    {
+      "question": "I.q099",
+      "title": "論要生之子女身體上的情況",
+      "articles": 2,
+      "pdf_file_pages": [
+        1544,
+        1547
+      ],
+      "printed_pages": [
+        317,
+        320
+      ],
+      "changed_review_units": 17,
+      "checked_unchanged_review_units": 10,
+      "source_anomaly_records": 3,
+      "report": "I-q099.md",
+      "manifest": "I-q099.json",
+      "validation": "I-q099-validation.json",
+      "reader_sha256": "0f7d8086f1b083a35f67cdf8b1cf4df88f677fe4085152b8b02ad9b49982dcb8"
+    },
+    {
+      "question": "I.q100",
+      "title": "論要生之子女的正義情況",
+      "articles": 2,
+      "pdf_file_pages": [
+        1548,
+        1551
+      ],
+      "printed_pages": [
+        321,
+        324
+      ],
+      "changed_review_units": 20,
+      "checked_unchanged_review_units": 7,
+      "source_anomaly_records": 4,
+      "report": "I-q100.md",
+      "manifest": "I-q100.json",
+      "validation": "I-q100-validation.json",
+      "reader_sha256": "c81695e9fb5cf44d18ead1591925072877076e833f643b2ba00c2b93a7c7af63"
+    }
+  ],
+  "source_anomalies": [
+    {
+      "id": "I.q091.a001.ad3",
+      "pdf_file_page": 1466,
+      "text": "瞳人",
+      "status": "suspected_source_print_error",
+      "action": "原页作「瞳人」，依底本保留，不换成通行写法。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a001.ad4",
+      "pdf_file_page": 1466,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a002.arg1",
+      "pdf_file_page": 1466,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a002.respondeo",
+      "pdf_file_page": 1467,
+      "text": "第六十三題第四節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文确作「第六十三題第四節」，疑题号有误；保留待人工定夺。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a002.respondeo",
+      "pdf_file_page": 1467,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a002.ad4",
+      "pdf_file_page": 1468,
+      "text": "原己存在於別的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a003.ad1",
+      "pdf_file_page": 1470,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q091.a003.ad2",
+      "pdf_file_page": 1470,
+      "text": "相衡突",
+      "status": "suspected_source_print_error",
+      "action": "放大原页确作「相衡突」，疑「衝」字印误；保留原书字形。",
+      "question": "I.q091"
+    },
+    {
+      "id": "I.q092.a001.arg1",
+      "pdf_file_page": 1474,
+      "text": "《動物生成論》)",
+      "status": "suspected_source_print_error",
+      "action": "原页在书名号后多一个右括号，依底本保留，不当作网页识别错误删除。",
+      "question": "I.q092"
+    },
+    {
+      "id": "I.q092.a003.ad3",
+      "pdf_file_page": 1480,
+      "text": "己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q092"
+    },
+    {
+      "id": "I.q092.a004.respondeo",
+      "pdf_file_page": 1480,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q092"
+    },
+    {
+      "id": "I.q093.a001.respondeo",
+      "pdf_file_page": 1483,
+      "text": "做造物",
+      "status": "suspected_source_print_error",
+      "action": "原页作「做造物」，疑「受造物」印误；保留原字。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a002.ad1",
+      "pdf_file_page": 1486,
+      "text": "分自完美者",
+      "status": "suspected_source_print_error",
+      "action": "原页作「分自完美者」，疑「分有」印误；不静默改写。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a004.respondeo",
+      "pdf_file_page": 1489,
+      "text": "己印在我們身上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a005.ad4",
+      "pdf_file_page": 1492,
+      "text": "妄稱「肖像」",
+      "status": "suspected_source_print_error",
+      "action": "原页作「妄稱」，虽措辞可疑，照原书保留。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a006.respondeo",
+      "pdf_file_page": 1493,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a006.ad4",
+      "pdf_file_page": 1495,
+      "text": "卷十一第二等章",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「第二等章」，保留原有引文写法，不自行编定章数。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a007.ad2",
+      "pdf_file_page": 1497,
+      "text": "有何不同因而",
+      "status": "suspected_source_print_error",
+      "action": "原页在「不同」「因而」间无标点，保留原排字。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a008.respondeo",
+      "pdf_file_page": 1499,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q093.a008.ad3",
+      "pdf_file_page": 1500,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q093"
+    },
+    {
+      "id": "I.q094.a002.respondeo",
+      "pdf_file_page": 1508,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a002.respondeo",
+      "pdf_file_page": 1508,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a002.ad3",
+      "pdf_file_page": 1509,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a003.ad3",
+      "pdf_file_page": 1511,
+      "text": "己知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a004.arg5",
+      "pdf_file_page": 1512,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a004.ad5",
+      "pdf_file_page": 1513,
+      "text": "己先犯",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q094.a004.respondeo",
+      "pdf_file_page": 1512,
+      "text": "不冒然相信",
+      "status": "suspected_source_print_error",
+      "action": "原页作「冒然」，依底本保留，不换成通行写法。",
+      "question": "I.q094"
+    },
+    {
+      "id": "I.q095.a001.respondeo",
+      "pdf_file_page": 1515,
+      "text": "己經給了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q095"
+    },
+    {
+      "id": "I.q095.a003.respondeo",
+      "pdf_file_page": 1519,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q095"
+    },
+    {
+      "id": "I.q095.a003.ad2",
+      "pdf_file_page": 1520,
+      "text": "己講過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q095"
+    },
+    {
+      "id": "I.q095.a003.ad3",
+      "pdf_file_page": 1520,
+      "text": "己說的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q095"
+    },
+    {
+      "id": "I.q095.a004.ad2",
+      "pdf_file_page": 1522,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q095"
+    },
+    {
+      "id": "I.q096.a003.sed_contra",
+      "pdf_file_page": 1527,
+      "text": "不同等，；因為",
+      "status": "suspected_source_print_error",
+      "action": "350dpi放大原页，两个相邻标点「，；」均可见；保留原书标点异常，不自行择一。",
+      "question": "I.q096"
+    },
+    {
+      "id": "I.q096.a003.arg1",
+      "pdf_file_page": 1527,
+      "text": "(《倫理叢談》卷二十一第十章)。",
+      "status": "suspected_source_print_error",
+      "action": "原页引句后及括号后均有句号，原样保留。",
+      "question": "I.q096"
+    },
+    {
+      "id": "I.q097.a003.ad1",
+      "pdf_file_page": 1536,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q097"
+    },
+    {
+      "id": "I.q097.a003.ad4",
+      "pdf_file_page": 1536,
+      "text": "己預作安排",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q097"
+    },
+    {
+      "id": "I.q097.a004.respondeo",
+      "pdf_file_page": 1537,
+      "text": "養分己不足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q097"
+    },
+    {
+      "id": "I.q097.a004.general",
+      "pdf_file_page": 1538,
+      "text": "己足看出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q097"
+    },
+    {
+      "id": "I.q098.a002.respondeo",
+      "pdf_file_page": 1542,
+      "text": "己預知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q098"
+    },
+    {
+      "id": "I.q098.a002.ad4",
+      "pdf_file_page": 1543,
+      "text": "分娩期己到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q098"
+    },
+    {
+      "id": "I.q099.a002.arg3",
+      "pdf_file_page": 1546,
+      "text": "己足繁殖",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q099"
+    },
+    {
+      "id": "I.q099.a002.ad1",
+      "pdf_file_page": 1547,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q099"
+    },
+    {
+      "id": "I.q099.a002.ad1",
+      "pdf_file_page": 1547,
+      "text": "第九十二題第二節釋疑1.",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「第二節釋疑1.」；相关文字在第92题第一节释疑1，疑原书交叉引文有误，保留原题节编号。",
+      "question": "I.q099"
+    },
+    {
+      "id": "I.q100.prologue",
+      "pdf_file_page": 1548,
+      "text": "己固定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q100"
+    },
+    {
+      "id": "I.q100.a002.objection-intro",
+      "pdf_file_page": 1549,
+      "text": "似乎不會一出生就固定於正義",
+      "status": "suspected_source_print_error",
+      "action": "原页质疑引言确有「不會」，与其后质疑主张及正解关系疑有排字错误；保留原书，不按论证自行删改否定字。",
+      "question": "I.q100"
+    },
+    {
+      "id": "I.q100.a002.arg3",
+      "pdf_file_page": 1550,
+      "text": "由他生出的才必然地犯罪",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「才」，疑为「人」字印误；保留原书文字。",
+      "question": "I.q100"
+    },
+    {
+      "id": "I.q100.a002.ad4",
+      "pdf_file_page": 1551,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q100"
+    }
+  ]
+}
