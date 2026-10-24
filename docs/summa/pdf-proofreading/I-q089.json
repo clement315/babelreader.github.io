@@ -1,0 +1,2506 @@
+{
+  "schema_version": 1,
+  "batch": "I-q089",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "5af0c1e49c598eddd4f38984d9291296ea679b79",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q089",
+    "title": "論分離之靈魂的認知",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1439,
+      1440,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1447,
+      1448,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455
+    ],
+    "printed_pages": [
+      212,
+      228
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 98,
+    "changed_review_units": 69,
+    "checked_unchanged_review_units": 30
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q89.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q89.json": "1185d00d6df453d41e4dc5ac669c0a73e16e447721eb1cf19e85e8714f97ecc3"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q089.a003.respondeo",
+      "pdf_file_page": 1445,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a003.ad1",
+      "pdf_file_page": 1445,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a003.ad2",
+      "pdf_file_page": 1446,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a004.respondeo",
+      "pdf_file_page": 1447,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a004.respondeo",
+      "pdf_file_page": 1447,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a004.ad1",
+      "pdf_file_page": 1447,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a004.ad2",
+      "pdf_file_page": 1447,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a006.arg2",
+      "pdf_file_page": 1450,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q089.a007.ad1",
+      "pdf_file_page": 1452,
+      "text": "而是能由於",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「而是能由於」，疑多印「能」；不为顺畅文意而删字，保留待人工定夺。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q089.prologue",
+      "description": "移除题引言前两行孤立字母，原有两个换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部17页、8节原页逐页对齐；仅本地保存，第一部全部完成前不上传。",
+    "第三节原书「反之」含两项编号，其释疑3、4分别答反之1、2；保留原有编号、段落和栏目，不改编结构。"
+  ],
+  "readings": [
+    {
+      "id": "I.q089.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "A\nU\n然後要討論的是靈魂離開身W體後的認知(參看第八十四題引言)。\n關於這點，可以提出八個問題:\n一、與身體分離之靈魂是否能領悟。\n二、它是否領悟獨立之本禮。\n三、是否領悟一切自然物。\n四、是否認知個體物。\n五、是否保存在現世所得的知識習性。\n六、是否能運用在現世所得的知識習性。\n七、空間距離是否妨礙分離的靈魂之認知。\n八、離開身體的靈魂是否知道現世發生的事情。",
+      "after": "\n\n然後要討論的是靈魂離開身體後的認知(參看第八十四題引言)。\n關於這點，可以提出八個問題：\n一、與身體分離之靈魂是否能領悟。\n二、它是否領悟獨立之本體。\n三、是否領悟一切自然物。\n四、是否認知個體物。\n五、是否保存在現世所得的知識習性。\n六、是否能運用在現世所得的知識習性。\n七、空間距離是否妨礙分離的靈魂之認知。\n八、離開身體的靈魂是否知道現世發生的事情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "A\nU\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "身W體",
+          "after": "身體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本禮",
+          "after": "本體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "離開身體之靈魂是否能有所領悟",
+      "after": "離開身體之靈魂是否能有所領悟",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "脫離身體的靈魂，似乎什麼也不能領悟。因為:",
+      "after": "脫離身體的靈魂，似乎什麼也不能領悟。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "哲學家在《靈魂論》卷一第四章說:「某內部器官一經破壞，領悟活動也遭破壞。」但是，死亡破壞人的所有內都器官。所以，領悟活動也全遭破壞。",
+      "after": "哲學家在《靈魂論》卷一第四章說：「某內部器官一經破壞，領悟活動也遭破壞。」但是，死亡破壞人的所有內部器官。所以，領悟活動也全遭破壞。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "內都",
+          "after": "內部",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1439
+      ],
+      "before": "此外，按前面第八十四題第七及第八節所說的，感宮的故障，及想像所受的幹擾‘都有礙靈魂的領悟活動。但從前面第七十七題第八節所說的可以知道，死亡完全破壞感官及想像。所以，在人死後靈魂什麼也不領悟。",
+      "after": "此外，按前面第八十四題第七及第八節所說的，感官的故障，及想像所受的干擾，都有礙靈魂的領悟活動。但從前面第七十七題第八節所說的可以知道，死亡完全破壞感官及想像。所以，在人死後靈魂什麼也不領悟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幹擾‘",
+          "after": "干擾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1439,
+        1440
+      ],
+      "before": "此外，假如脫離身體之靈魂能領悟，該是用某些理象領悟。但它不是用天生的理象領悟，因為最初它是「像沒有寫上任何東西的白紙」(《靈魂論》卷三第四章);也不是用從東西中抽出的理象，因為它沒有感官和想像器官，用以從東西中抽出理象;也不是用以前抽出而保存在靈魂中的理象，因為如此則嬰兒的靈魂在死後什麼也不領悟;也不是用天主灌輸的理象，因為那不是現在所討論的自然認知，而屬於恩寵範圈。所以，離開身體之靈魂什麼也不領1舌。",
+      "after": "此外，假如脫離身體之靈魂能領悟，該是用某些理象領悟。但它不是用天生的理象領悟，因為最初它是「像沒有寫上任何東西的白紙」(《靈魂論》卷三第四章)；也不是用從東西中抽出的理象，因為它沒有感官和想像器官，用以從東西中抽出理象；也不是用以前抽出而保存在靈魂中的理象，因為如此則嬰兒的靈魂在死後什麼也不領悟；也不是用天主灌輸的理象，因為那不是現在所討論的自然認知，而屬於恩寵範圍。所以，離開身體之靈魂什麼也不領悟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領1舌",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1440
+      ],
+      "before": "哲學家在《靈魂論》卷一第一章說: 1若靈魂沒有專屬於它的活動，便不會與身體分離而存在心靈魂確實與身體分離而存在，所以它有專屬於它的活動，尤其是領惜這一活動。所以，離開身體而存在的靈魂有所領悟。",
+      "after": "哲學家在《靈魂論》卷一第一章說：「若靈魂沒有專屬於它的活動，便不會與身體分離而存在。」靈魂確實與身體分離而存在，所以它有專屬於它的活動，尤其是領悟這一活動。所以，離開身體而存在的靈魂有所領悟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說: 1若",
+          "after": "說：「若",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "存在心靈魂",
+          "after": "存在。」靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領惜",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1440,
+        1441,
+        1442
+      ],
+      "before": "我解答如下:這個問題的難處，在於按我們的經驗，靈魂與身體結合為一時，不求助於心象便什麼也不能領悟。倘若像柏拉闡派所主張的，這不是由於靈魂的本性或性質，而是偶然因了受身體之牽制，貝IJ問題很容易解答。因為排除了身體之障礙，靈魂恢復了自己的本性，便不必求助於心象而能單純的領悟，像別的獨立之本體一樣。但按這說法，如果靈魂與身體結合反而不如分開更容易領悟，員IJ靈魂與身體結合不是為了靈魂的利益;那隻對身體有利益。但這是不合理的，因為質料是為了形式，而非形式是為了質料。假若我們說靈魂按天性為領1百使得求助於心象，而靈魂的天性不因身體之死亡而有所不同，似乎離開身體的靈魂什麼也不能自然地領悟，因為當前沒有它所求助的心象存在。\n故要想解除這個困難，該知道，每個東西之所以活動，乃因為它是現實，而每個東西之活動方式，是隨其存在方式。雖然靈魂的天性始終不變，但它與身體結合時，與它在脫離身體後的存在方式不同。但它之與身體結合並不是偶然的事，而是按其天性該與身體結合;就如質量輕的東西在其本位時合於它的天性，不在本位時不合於它的天性，但它的天性未變。根據靈魂與身體合一的存在方式，其領悟方式是求助於形體物之心象，心象是在身體器官中的東西。靈魂與身體分開後，它的領悟方式是直接指向本身就可領悟的東西，就像別的獨立之本體一樣。所以求助於心象的領悟方式是合於靈魂之天性的，正如它與身體結合也是合於天性的;但是與身體分開存在不合於它的天性，所以，領悟時不用心象也不合於它的天性。故此，它之所以與身體結合，是為有合於其天性的活動。\n但這裡又有了別的疑慮。天性常是指向較好的;但是直接轉向本身可領悟者之領悟方式，比求助於心象的領悟方式好。所以，天主設構靈魂的天性時，本來該使那較好的領悟方式合於它的天性，使它不需要與身體結合。\n因此該知道，直接轉向高級物的領悟方式，雖然比求助於心象的領悟方式絕對高妙;但是，那高級領悟方式對靈魂的能力來說卻是不完美的。原因是這樣的:有領悟力的本體之領悟能力，都是由於分有天主的光明。這光在最高根本中是單純的和單一的;智性受造物離最高根本愈遠，那光就愈分散並愈個別化，正如從圓心引出之直線。因此，天主只用祂的唯一本質便領悟一切。高級智性本體之領悟用的形式雖然較多，但他們實際是用少數比較更普遍的，和領悟事物能力更強的形式，這是因為他們的領悟能力效能較高;低級智性本體所有的形式更多，但比較不普遍，領悟事物的能力也比較弱，這是因為這些智性本體比高級者領悟的能力差。倘若低級智性本體具有高級者所有的那樣普遍的形式，貝IJ因了本身的領悟能力差，對事物便不能藉以獲得完美的認知，只能得些廣泛模糊的知識。這從人身上也多少能看出來:智力差的人，用智力強的人的那些普遍概念，不能獲得完美的知識，除非給他們一個東西、一個東西地來解釋。按自然次序，人的靈魂顯然是智性本體中最低的。在東西中有不同的等級，乃是由於宇宙之完美上的需要。所以天主在創設人的靈魂時，若使之具有獨立本體所真之領悟方式，它將得不到完美的知識，只能有些廣泛模糊的知識。為了使靈魂對事物能有完美正確的知識，故自然使它與身體結合，以便從感性物中獲得對它們的正確知識。正似愚笨的人，只有用其體的例子，才能獲得知識。\n由此可見，靈魂與身體結合是為了靈魂的利益。使之能藉心象領悟;然而它也能與身體分離而存在，並其有別的領悟方式。",
+      "after": "我解答如下：這個問題的難處，在於按我們的經驗，靈魂與身體結合為一時，不求助於心象便什麼也不能領悟。倘若像柏拉圖派所主張的，這不是由於靈魂的本性或性質，而是偶然因了受身體之牽制，則問題很容易解答。因為排除了身體之障礙，靈魂恢復了自己的本性，便不必求助於心象而能單純的領悟，像別的獨立之本體一樣。但按這說法，如果靈魂與身體結合反而不如分開更容易領悟，則靈魂與身體結合不是為了靈魂的利益；那只對身體有利益。但這是不合理的，因為質料是為了形式，而非形式是為了質料。假若我們說靈魂按天性為領悟便得求助於心象，而靈魂的天性不因身體之死亡而有所不同，似乎離開身體的靈魂什麼也不能自然地領悟，因為當前沒有它所求助的心象存在。\n故要想解除這個困難，該知道，每個東西之所以活動，乃因為它是現實，而每個東西之活動方式，是隨其存在方式。雖然靈魂的天性始終不變，但它與身體結合時，與它在脫離身體後的存在方式不同。但它之與身體結合並不是偶然的事，而是按其天性該與身體結合；就如質量輕的東西在其本位時合於它的天性，不在本位時不合於它的天性，但它的天性未變。根據靈魂與身體合一的存在方式，其領悟方式是求助於形體物之心象，心象是在身體器官中的東西。靈魂與身體分開後，它的領悟方式是直接指向本身就可領悟的東西，就像別的獨立之本體一樣。所以求助於心象的領悟方式是合於靈魂之天性的，正如它與身體結合也是合於天性的；但是與身體分開存在不合於它的天性，所以，領悟時不用心象也不合於它的天性。故此，它之所以與身體結合，是為有合於其天性的活動。\n但這裡又有了別的疑慮。天性常是指向較好的；但是直接轉向本身可領悟者之領悟方式，比求助於心象的領悟方式好。所以，天主設構靈魂的天性時，本來該使那較好的領悟方式合於它的天性，使它不需要與身體結合。\n因此該知道，直接轉向高級物的領悟方式，雖然比求助於心象的領悟方式絕對高妙；但是，那高級領悟方式對靈魂的能力來說卻是不完美的。原因是這樣的：有領悟力的本體之領悟能力，都是由於分有天主的光明。這光在最高根本中是單純的和單一的；智性受造物離最高根本愈遠，那光就愈分散並愈個別化，正如從圓心引出之直線。因此，天主只用祂的唯一本質便領悟一切。高級智性本體之領悟用的形式雖然較多，但他們實際是用少數比較更普遍的，和領悟事物能力更強的形式，這是因為他們的領悟能力效能較高；低級智性本體所有的形式更多，但比較不普遍，領悟事物的能力也比較弱，這是因為這些智性本體比高級者領悟的能力差。倘若低級智性本體具有高級者所有的那樣普遍的形式，則因了本身的領悟能力差，對事物便不能藉以獲得完美的認知，只能得些廣泛模糊的知識。這從人身上也多少能看出來：智力差的人，用智力強的人的那些普遍概念，不能獲得完美的知識，除非給他們一個東西、一個東西地來解釋。按自然次序，人的靈魂顯然是智性本體中最低的。在東西中有不同的等級，乃是由於宇宙之完美上的需要。所以天主在創設人的靈魂時，若使之具有獨立本體所具之領悟方式，它將得不到完美的知識，只能有些廣泛模糊的知識。為了使靈魂對事物能有完美正確的知識，故自然使它與身體結合，以便從感性物中獲得對它們的正確知識。正似愚笨的人，只有用具體的例子，才能獲得知識。\n由此可見，靈魂與身體結合是為了靈魂的利益。使之能藉心象領悟；然而它也能與身體分離而存在，並具有別的領悟方式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "柏拉闡",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那隻",
+          "after": "那只",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為領1百使得",
+          "after": "為領悟便得",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所真之",
+          "after": "所具之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "用其體",
+          "after": "用具體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並其有",
+          "after": "並具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1442
+      ],
+      "before": "若將哲學家的話細加分析，他這樣說是因了前面做的假設，即是:假定領悟是組合體的一種活動，1象感覺一樣;因為他尚未指出理智與感官之間的區別。或者也可以說，他是指的求助於心象的那種領悟方式。",
+      "after": "若將哲學家的話細加分析，他這樣說是因了前面做的假設，即是：假定領悟是組合體的一種活動，像感覺一樣；因為他尚未指出理智與感官之間的區別。或者也可以說，他是指的求助於心象的那種領悟方式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1象",
+          "after": "像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1442
+      ],
+      "before": "質疑2.也是根據這種(求助於心象的)領悟方式來的。",
+      "after": "質疑2.也是根據這種(求助於心象的)領悟方式來的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1442
+      ],
+      "before": "離開身體的靈魂，不是用天生的理象領悟，也不用當時抽出的理象，也不只用保存下來的理象;而是用天主之光分給它的理象，1象別的獨立本體一樣，雖然程度較低。所以，靈魂一旦不再歸向身體，立刻就轉向高級事物。但並不因此這種認知便不是自然的，因為天主不只是恩寵之光的根源，也是自然之光的根源。",
+      "after": "離開身體的靈魂，不是用天生的理象領悟，也不用當時抽出的理象，也不只用保存下來的理象；而是用天主之光分給它的理象，像別的獨立本體一樣，雖然程度較低。所以，靈魂一旦不再歸向身體，立刻就轉向高級事物。但並不因此這種認知便不是自然的，因為天主不只是恩寵之光的根源，也是自然之光的根源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1象",
+          "after": "像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "離開身體之靈魂是否領悟獨立之本體",
+      "after": "離開身體之靈魂是否領悟獨立之本體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "離開身體的靈魂，似乎不領悟獨立之本體。因為:",
+      "after": "離開身體的靈魂，似乎不領悟獨立之本體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "既然靈魂自然就是人性的一部分，它與身體合一時比與身體分開後完美;因為任何部分在整體中時都比較完美。但按前面第八十八題第一節所說的，與身體合一的靈魂並不領悟獨立之本體。所以，它離開身體後更是如此。",
+      "after": "既然靈魂自然就是人性的一部分，它與身體合一時比與身體分開後完美；因為任何部分在整體中時都比較完美。但按前面第八十八題第一節所說的，與身體合一的靈魂並不領悟獨立之本體。所以，它離開身體後更是如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "此外，凡被認知者，或者因了它是在當前，或者是因了它的理象。但是獨立之本體不能因其在當前而被靈魂認知;因為只有天主能進入靈魂;也不能是因了靈魂從天使身上抽出的理象，因為天使比靈魂還單純。所以，離開身體的靈魂無法認知獨立之本體。",
+      "after": "此外，凡被認知者，或者因了它是在當前，或者是因了它的理象。但是獨立之本體不能因其在當前而被靈魂認知；因為只有天主能進入靈魂；也不能是因了靈魂從天使身上抽出的理象，因為天使比靈魂還單純。所以，離開身體的靈魂無法認知獨立之本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "此外，有些哲學家認為，人的最高幸福便在於認知獨立之本體。倘若離開身體之靈魂能認知獨立之本體，買IJ只要它與身體分離便能獲得幸福。這似乎不合理。",
+      "after": "此外，有些哲學家認為，人的最高幸福便在於認知獨立之本體。倘若離開身體之靈魂能認知獨立之本體，則只要它與身體分離便能獲得幸福。這似乎不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1443
+      ],
+      "before": "離開身體的靈魂認知別的離開身體之靈魂，就如《路加褔音》第十六章23節所說的，在地獄中的富人看到拉匣祿和亞巴郎。所以，離開身體之靈魂也能看到魔鬼和天使。",
+      "after": "離開身體的靈魂認知別的離開身體之靈魂，就如《路加福音》第十六章23節所說的，在地獄中的富人看到拉匝祿和亞巴郎。所以，離開身體之靈魂也能看到魔鬼和天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉匣祿",
+          "after": "拉匝祿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1443,
+        1444
+      ],
+      "before": "我解答如下:按奧斯定在《論天主聖三》卷九第三章說的: 「我們的心靈憑本身獲得對非形體物之知識」;所謂憑本身，就是由於認知自己，就去日前面第八十八題第一節釋疑1.所說的。所以從與身體分離之靈魂認知自己這事上，我們就可以知道它怎樣認知其他獨立之本體。前面第一節、第八十四題第七節曾說，只要靈魂是與身體結合為一，它就是靠求助於心象而領悟。所以在現世它之領悟自己，也是靠從心象中抽出之理象而現實地領悟;也就是按前面第八十七題第一節所說的，它是通過自己的活動才領悟到自己。但在它與身體分開後，領悟時不求助於心象，而是直接指向本身可領悟的東西;所以它是在自己身上領悟自己。一切獨立之本體的共同點，是「無論它領悟高於自己或低於自己的東西，都是按自己之本體的方式去領悟」(《論原因》第八章)。一個東西之被領悟是由於它是在領悟者內;而一個東西在另一個之內，是以所在之東西的方式。離開身體之靈魂本體的方式，低於天使本體立方式，但與其他離開身體之靈魂則相同。所以，它對別的離開身體之靈魂有完美的認知，對天便的認知則是有缺欠不完美的。我們這裡講的是離、開身體之靈魂的自然認知，關於榮光式的認知當然有所不同。",
+      "after": "我解答如下：按奧斯定在《論天主聖三》卷九第三章說的：「我們的心靈憑本身獲得對非形體物之知識」；所謂憑本身，就是由於認知自己，就如前面第八十八題第一節釋疑1.所說的。所以從與身體分離之靈魂認知自己這事上，我們就可以知道它怎樣認知其他獨立之本體。前面第一節、第八十四題第七節曾說，只要靈魂是與身體結合為一，它就是靠求助於心象而領悟。所以在現世它之領悟自己，也是靠從心象中抽出之理象而現實地領悟；也就是按前面第八十七題第一節所說的，它是通過自己的活動才領悟到自己。但在它與身體分開後，領悟時不求助於心象，而是直接指向本身可領悟的東西；所以它是在自己身上領悟自己。一切獨立之本體的共同點，是「無論它領悟高於自己或低於自己的東西，都是按自己之本體的方式去領悟」(《論原因》第八章)。一個東西之被領悟是由於它是在領悟者內；而一個東西在另一個之內，是以所在之東西的方式。離開身體之靈魂本體的方式，低於天使本體之方式，但與其他離開身體之靈魂則相同。所以，它對別的離開身體之靈魂有完美的認知，對天使的認知則是有缺欠不完美的。我們這裡講的是離開身體之靈魂的自然認知，關於榮光式的認知當然有所不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "就去日",
+          "after": "就如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本體立方式",
+          "after": "本體之方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "離、開",
+          "after": "離開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "離開身體之靈魂，若從其與身體所共有之天性看，固然較為不完美;但在另一方面，它的領悟活動則比較自由，因為身體之操慮與負擔有礙於純智力活動。",
+      "after": "離開身體之靈魂，若從其與身體所共有之天性看，固然較為不完美；但在另一方面，它的領悟活動則比較自由，因為身體之操慮與負擔有礙於純智力活動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "離開身體之靈魂是用天主灌輸的象領悟天(吏。但這種象不足以完整地代表天便，因為靈魂的天性低於天使之天性。",
+      "after": "離開身體之靈魂是用天主灌輸的象領悟天使。但這種象不足以完整地代表天使，因為靈魂的天性低於天使之天性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "人的最高幸福，並非在於認知任何獨立之本體，只在於認知天主，但只有靠恩寵才能看到天主。認知其他的獨立本體，也是極大的幸福;雖然不是最高的幸褔，但要認知的完整。然而，如上面正解所說的，離開身體之靈魂對這些本體沒有完整的自然知識。",
+      "after": "人的最高幸福，並非在於認知任何獨立之本體，只在於認知天主，但只有靠恩寵才能看到天主。認知其他的獨立本體，也是極大的幸福；雖然不是最高的幸福，但要認知的完整。然而，如上面正解所說的，離開身體之靈魂對這些本體沒有完整的自然知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸褔",
+          "after": "幸福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "離開身體之靈魂是否認知一切自然物",
+      "after": "離開身體之靈魂是否認知一切自然物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "離開身體的靈魂，似乎認知一切自然物。因為:",
+      "after": "離開身體的靈魂，似乎認知一切自然物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1444
+      ],
+      "before": "在獨立之本體中，含有一切自然物之理。但是，離開身體之靈魂認知獨立之本體，當然，也認知一切自然物。",
+      "after": "在獨立之本體中，含有一切自然物之理。但是，離開身體之靈魂認知獨立之本體，當然，也認知一切自然物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1444,
+        1445
+      ],
+      "before": "此外，誰若領悟較高的可理解者，更能領悟較低的可理解者。但是，離開身體之靈魂領悟獨立之本體，那是最高的可理解者;所以，它更能領悟一切自然物，因為它們是較低的可理解者。",
+      "after": "此外，誰若領悟較高的可理解者，更能領悟較低的可理解者。但是，離開身體之靈魂領悟獨立之本體，那是最高的可理解者；所以，它更能領悟一切自然物，因為它們是較低的可理解者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1445
+      ],
+      "before": "1.魔鬼的自然認知力高於離開身體的靈魂。但魔鬼並不知道一切自然物，許多是由長久之經驗學到的，就如依希道(Isidorus'560~636年)《語錄》卷一第十章曾說的。所以離開身體之靈魂也不認知一切自然物。\n2.此外，假若靈魂一離開身體，立刻便知道一切自然物，買1]人努力研究科學知識便沒有意義了。這是不合理的。所以靈魂離開身體後不認知一切自然物。",
+      "after": "1.魔鬼的自然認知力高於離開身體的靈魂。但魔鬼並不知道一切自然物，許多是由長久之經驗學到的，就如依希道(Isidorus，560~636年)《語錄》卷一第十章曾說的。所以離開身體之靈魂也不認知一切自然物。\n2.此外，假若靈魂一離開身體，立刻便知道一切自然物，則人努力研究科學知識便沒有意義了。這是不合理的。所以靈魂離開身體後不認知一切自然物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Isidorus'",
+          "after": "Isidorus，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1445
+      ],
+      "before": "我解答如下:前面第一節釋疑3.已經說過，離開身體的靈魂像天使一樣，是憑天主之光所灌輸的象領悟。但是因了靈魂之天性低於天使之天性，這種領悟方式為天使是合於天性的，離開身體之靈魂用這種象則不能獲得完美的知識，只能得到廣泛和模糊的知識。離開身體之靈魂與這種模糊不完美之知識的關係，就如天使與用這些象所獲得的自然物之完美知識的關係。天使憑這些象，完美地認知一切自然物。因為按奧斯定在《創世紀字義新探》卷二第八章所說的，天主按照萬物各自的自然本性所造的一切，也在天使的智性中創造了它們。所以脫離身體的靈魂也有一切自然物的知識，{且不是明確的和特殊的知識，而是模糊的和廣泛的知識。",
+      "after": "我解答如下：前面第一節釋疑3.己經說過，離開身體的靈魂像天使一樣，是憑天主之光所灌輸的象領悟。但是因了靈魂之天性低於天使之天性，這種領悟方式為天使是合於天性的，離開身體之靈魂用這種象則不能獲得完美的知識，只能得到廣泛和模糊的知識。離開身體之靈魂與這種模糊不完美之知識的關係，就如天使與用這些象所獲得的自然物之完美知識的關係。天使憑這些象，完美地認知一切自然物。因為按奧斯定在《創世紀字義新探》卷二第八章所說的，天主按照萬物各自的自然本性所造的一切，也在天使的智性中創造了它們。所以脫離身體的靈魂也有一切自然物的知識，但不是明確的和特殊的知識，而是模糊的和廣泛的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1445
+      ],
+      "before": "如第五十五題第一節、第八十七題第一節己說過的，天使也不是以其本體認知一切自然物，而是憑一些象。所以，並不因7脫離肉身之靈魂多少認識獨立之本體，它便認識一切自然物。",
+      "after": "如第五十五題第一節、第八十七題第一節己說過的，天使也不是以其本體認知一切自然物，而是憑一些象。所以，並不因了脫離肉身之靈魂多少認識獨立之本體，它便認識一切自然物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "正如脫離身體之靈魂不完全領悟獨立之本體，它也不完全認知一切自然物;如正解己說過的，它只有模糊的知識。",
+      "after": "正如脫離身體之靈魂不完全領悟獨立之本體，它也不完全認知一切自然物；如正解己說過的，它只有模糊的知識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "(答「皮之」 1.)依希道所講的是對未來之事物的認知。對未來的事物，無論天使，魔鬼，或離開身體的靈魂，都不知道，除非是憑未來之事物的原因，或憑天主的啟示。我們這裡講的則是有關自然物的認知。",
+      "after": "(答「反之」 1.)依希道所講的是對未來之事物的認知。對未來的事物，無論天使，魔鬼，或離開身體的靈魂，都不知道，除非是憑未來之事物的原因，或憑天主的啟示。我們這裡講的則是有關自然物的認知。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "(答「皮之」 2.)在現世因研究而得的知識，是完美的和特殊的;死後的那種知識是模糊的。所以研究工作並非沒有音墓。心、叫",
+      "after": "(答「反之」 2.)在現世因研究而得的知識，是完美的和特殊的；死後的那種知識是模糊的。所以研究工作並非沒有意義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "音墓。心、叫",
+          "after": "意義。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "離開身體之靈魂是否認知個體物",
+      "after": "離開身體之靈魂是否認知個體物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "離開身體的靈魂，似乎不認知個體物或個別物(si n-gularia)。因為:",
+      "after": "離開身體的靈魂，似乎不認知個體物或個別物(sin-gularia)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "si n-gularia",
+          "after": "sin-gularia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "根據前面第七十七題第八節所說的可以知道，靈魂離開身體後，除了理智外什麼認知能力也不保存。但按前面第八十六題第一節所說的，理智不是為認知個體物的。所以，離開身體之靈魂不認知個體物。",
+      "after": "根據前面第七十七題第八節所說的可以知道，靈魂離開身體後，除了理智外什麼認知能力也不保存。但按前面第八十六題第一節所說的，理智不是為認知個體物的。所以，離開身體之靈魂不認知個體物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "此外，個別地認知一物之認知，比普遍或廣泛地認知一物之認知，更為明確。但是離開身體之靈魂，連對自然物之各種類別，都沒有明確的知識。所以，它更不認知個體物或個另iJ物。",
+      "after": "此外，個別地認知一物之認知，比普遍或廣泛地認知一物之認知，更為明確。但是離開身體之靈魂，連對自然物之各種類別，都沒有明確的知識。所以，它更不認知個體物或個別物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個另iJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "此外，若離開身體之靈魂認知個體物，那一定不是靠感官，所以它該認知所有的個體物。但它不認真日所有的個體物。所以，一個也不認知。",
+      "after": "此外，若離開身體之靈魂認知個體物，那一定不是靠感官，所以它該認知所有的個體物。但它不認知所有的個體物。所以，一個也不認知。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1446
+      ],
+      "before": "按《路加福音》第十六章28節所記述的，在地獄中的那個富人說: 「我有五個弟兄。」",
+      "after": "按《路加福音》第十六章28節所記述的，在地獄中的那個富人說：「我有五個弟兄。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1447
+      ],
+      "before": "我解答如下:離開身體的靈魂，認知一些個體物，但不認知所有個體物，即使是當前的個體物。為能明白這個問題，先要知道共有兩種領悟方式。一種是用從心象抽出的理象;按這方式，如第八十六題第一節己說過的，理智不能直接認知個體物，只能間接地認知。另一種領悟方式，是憑天主灌輸的象;以這種方式，理智能認知個體物。正如天主自己，由於是普遍性和個別性根本之原因，憑其本質認知一切普遍和個別的東西，如前面第十四題第十一節、第五十七題第二節己說過的。同樣，獨立之本體也能憑天主灌輸之象認知個體物，因為這些象是分有天主之本質的像。\n但是，天使與離開身體之靈魂有所不同:天使用這種象對萬物有完美明確的認知;離開身體之靈魂的知識則是模糊不清的。是以，天使由於其理智的效力強，用這種象不只能知道各類東西的性質，也認知各類所包括的個體。離開身體之靈魂用這種象，只能認知某些有特定關係的個體物:或者因了以前的知識，或者由於特別的感情，或者由於自然關係，或者由於天主的措施。因為凡被一個東西所容納的，都是按容納者之特定方式被容納。",
+      "after": "我解答如下：離開身體的靈魂，認知一些個體物，但不認知所有個體物，即使是當前的個體物。為能明白這個問題，先要知道共有兩種領悟方式。一種是用從心象抽出的理象；按這方式，如第八十六題第一節己說過的，理智不能直接認知個體物，只能間接地認知。另一種領悟方式，是憑天主灌輸的象；以這種方式，理智能認知個體物。正如天主自己，由於是普遍性和個別性根本之原因，憑其本質認知一切普遍和個別的東西，如前面第十四題第十一節、第五十七題第二節己說過的。同樣，獨立之本體也能憑天主灌輸之象認知個體物，因為這些象是分有天主之本質的像。\n但是，天使與離開身體之靈魂有所不同：天使用這種象對萬物有完美明確的認知；離開身體之靈魂的知識則是模糊不清的。是以，天使由於其理智的效力強，用這種象不只能知道各類東西的性質，也認知各類所包括的個體。離開身體之靈魂用這種象，只能認知某些有特定關係的個體物：或者因了以前的知識，或者由於特別的感情，或者由於自然關係，或者由於天主的措施。因為凡被一個東西所容納的，都是按容納者之特定方式被容納。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1447
+      ],
+      "before": "以抽象方式理智不能認知個體物。正如正解己說過的。離開身體之靈魂不是以這方式認知個體物。",
+      "after": "以抽象方式理智不能認知個體物。正如正解己說過的。離開身體之靈魂不是以這方式認知個體物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1447
+      ],
+      "before": "如正解己說過的‘離開身體之靈魂的認知，只限定於與它有特定關係的種類或個體。",
+      "after": "如正解己說過的，離開身體之靈魂的認知，只限定於與它有特定關係的種類或個體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "己說過的‘",
+          "after": "己說過的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1447
+      ],
+      "before": "離開身體的靈魂，與各個體的關係不一樣，它與某些有某種關係，與別的則沒有。所以不能一概而論，說它應該認真日一切個體物。",
+      "after": "離開身體的靈魂，與各個體的關係不一樣，它與某些有某種關係，與別的則沒有。所以不能一概而論，說它應該認知一切個體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "離開身體之靈魂是否保存在現世所得之知識習性",
+      "after": "離開身體之靈魂是否保存在現世所得之知識習性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "離開身體之靈魂，似乎不保存在現世所得之知識習性。因為:",
+      "after": "離開身體之靈魂，似乎不保存在現世所得之知識習性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "宗徒在《格林多前書》第十三章8節說:「知識之恩，終必消逝。」",
+      "after": "宗徒在《格林多前書》第十三章8節說：「知識之恩，終必消逝。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "此外，在現世有些不很好的人具有知識，有些好的人卻沒有知識。若在人死後，靈魂仍保有知識之習性，則在來世有些不好的人反比某些更好的人強。這似乎不合理。",
+      "after": "此外，在現世有些不很好的人具有知識，有些好的人卻沒有知識。若在人死後，靈魂仍保有知識之習性，則在來世有些不好的人反比某些更好的人強。這似乎不合理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "此外，離開身體之靈魂，將靠天主之光的影響而有知識。若靈魂離開身體後仍然保存在現世獲得的知識，則在同一主體上將有同類的兩個形式。這是不可能的。",
+      "after": "此外，離開身體之靈魂，將靠天主之光的影響而有知識。若靈魂離開身體後仍然保存在現世獲得的知識，則在同一主體上將有同類的兩個形式。這是不可能的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "此外﹒哲學家在《範疇論》第六章說:「習性是不易消失的品質;但是由於生病或其他類似的原因，知識有時受到破壞。」但是在現世的任何變化，也不如死亡之變化嚴重。所以，死亡似乎破壞知識之習性。",
+      "after": "此外，哲學家在《範疇論》第六章說：「習性是不易消失的品質；但是由於生病或其他類似的原因，知識有時受到破壞。」但是在現世的任何變化，也不如死亡之變化嚴重。所以，死亡似乎破壞知識之習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外﹒",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1448
+      ],
+      "before": "熱羅尼莫在《書信》第五十三篇「致包林書」(Ad Paulinum)中說:「我們要在現世學習那將在天上保存的知識。」",
+      "after": "熱羅尼莫在《書信》第五十三篇「致包林書」(Ad Paulinum)中說：「我們要在現世學習那將在天上保存的知識。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1448,
+        1449
+      ],
+      "before": "我解答如下:有些人主張知識之習性不是在理智中，而是在感官機能上，即在想像、思量不日記憶力上;並認為理象不是保存在「被動理智」中。若這種主張屬真，則身體破壞之後，在現世獲得的知識之習性必然全部喪失。\n但是知識是在理智中，就如《靈魂論》卷三第四章所說的，理智是「理象或概念的處所」;所以在現世獲得的知識習性，該是一部分在上述之感性能力中，一部分在理智中。這可以從獲得知識習性之活動上看出來，因為按《倫理學》卷二第一章所說的: 「習性像(以用以獲得習性之活動」。在現世理智用以獲得知識的活動，是藉理智求助於心象;而心象是在上述之感官能力上。故由於這種活動，「被動理智」獲得用這種所得理象思想的習慣。上述之低級機能也獲得一種柔)11頁性，使理智易於藉著求助於它們，而能觀看可理解之物。但是正如理智之活動主要和形式地是在理智中，只是按質料和準備是在下級機能中，同樣，習性也是如此。\n所以，一人在現世獲得的下級機能方面的知識習性，靈魂離關身體後不再保存;但是在理智中所獲得的，必然依舊保存下來。因為按《論長生與短命》(De longitudine et brevitate vit:1e)第二章所說的，形式遭破壞有兩種方式:一是本然地或直接地，它被相反者所破壞，如熱被冷破壞;另一方式是偶然地或間接的，即由於其主體受到破壞。人的理智中的知識，顯然不能因了主體受破壞而被破壞;因為按前面第七十九題第二節釋疑2.(參看第七十五題第六節)所指出的，理智是不朽的。在「被動理智」中的理象也不能被相反者所破壞;因為沒有東西與智性的意象對立，特別是用以領悟東西之本質的單純領1宮。至論理智用以綜合、區分，以及推論的活動，在理智中有對立，即命題或論證之真或假之對立。以這方式，有時知識被相反者所破壞，即在人根據假論證而離開真理之知識時。故此，哲學家在《論長生與短命》第二章裡，指出兩種直接破壞知識的方式:一是記憶力方面的遺忘，一是由於假論證而受騙。但在離開身體的靈魂中不能有這些情形。所以該說，在理智中的知識之習性，仍保存在離開身體的靈魂中。",
+      "after": "我解答如下：有些人主張知識之習性不是在理智中，而是在感官機能上，即在想像、思量和記憶力上；並認為理象不是保存在「被動理智」中。若這種主張屬真，則身體破壞之後，在現世獲得的知識之習性必然全部喪失。\n但是知識是在理智中，就如《靈魂論》卷三第四章所說的，理智是「理象或概念的處所」；所以在現世獲得的知識習性，該是一部分在上述之感性能力中，一部分在理智中。這可以從獲得知識習性之活動上看出來，因為按《倫理學》卷二第一章所說的：「習性像似用以獲得習性之活動」。在現世理智用以獲得知識的活動，是藉理智求助於心象；而心象是在上述之感官能力上。故由於這種活動，「被動理智」獲得用這種所得理象思想的習慣。上述之低級機能也獲得一種柔順性，使理智易於藉著求助於它們，而能觀看可理解之物。但是正如理智之活動主要和形式地是在理智中，只是按質料和準備是在下級機能中，同樣，習性也是如此。\n所以，一人在現世獲得的下級機能方面的知識習性，靈魂離開身體後不再保存；但是在理智中所獲得的，必然依舊保存下來。因為按《論長生與短命》(De longitudine et brevitate vitae)第二章所說的，形式遭破壞有兩種方式：一是本然地或直接地，它被相反者所破壞，如熱被冷破壞；另一方式是偶然地或間接的，即由於其主體受到破壞。人的理智中的知識，顯然不能因了主體受破壞而被破壞；因為按前面第七十九題第二節釋疑2.(參看第七十五題第六節)所指出的，理智是不朽的。在「被動理智」中的理象也不能被相反者所破壞；因為沒有東西與智性的意象對立，特別是用以領悟東西之本質的單純領悟。至論理智用以綜合、區分，以及推論的活動，在理智中有對立，即命題或論證之真或假之對立。以這方式，有時知識被相反者所破壞，即在人根據假論證而離開真理之知識時。故此，哲學家在《論長生與短命》第二章裡，指出兩種直接破壞知識的方式：一是記憶力方面的遺忘，一是由於假論證而受騙。但在離開身體的靈魂中不能有這些情形。所以該說，在理智中的知識之習性，仍保存在離開身體的靈魂中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "思量不日",
+          "after": "思量和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "習性像(以",
+          "after": "習性像似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "柔)11頁性",
+          "after": "柔順性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "離關",
+          "after": "離開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "vit:1e",
+          "after": "vitae",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領1宮",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1449
+      ],
+      "before": "宗徒那裡講的不是知識之習性，而是認知之活動。是以他用的論點是: 「因為我們現在所知道的，只是局部的」(第12節)。",
+      "after": "宗徒那裡講的不是知識之習性，而是認知之活動。是以他用的論點是：「因為我們現在所知道的，只是局部的」(第12節)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "正如按身材，不很好的人將來也能比某個更好的人高;同樣，某個不很好的人，將來也不妨具有某種知識之習性，而某更好的人卻沒有。但是這與更好的人將得到的其他優長相比，實在沒有什麼價值。",
+      "after": "正如按身材，不很好的人將來也能比某個更好的人高；同樣，某個不很好的人，將來也不妨具有某種知識之習性，而某更好的人卻沒有。但是這與更好的人將得到的其他優長相比，實在沒有什麼價值。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "二種知識的性質不同，所以沒有什麼不合理的地方。",
+      "after": "二種知識的性質不同，所以沒有什麼不合理的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "所舉之理由，是根據感性能力方面之知識的破壞。",
+      "after": "所舉之理由，是根據感性能力方面之知識的破壞。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "離開身體之靈魂是否仍繼續有在現世所得之知識的活動",
+      "after": "離開身體之靈魂是否仍繼續有在現世所得之知識的活動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "離開身體之靈魂，似乎不再繼續有在現世所得之知識的活動。因為:",
+      "after": "離開身體之靈魂，似乎不再繼續有在現世所得之知識的活動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "哲學家在《靈魂論》卷一第四章說，身體腐朽之後，靈魂「也不回憶，也不愛」。但是想以前所知道的便是回憶。所以離開身體之靈魂，不能有他在現世所獲得之知識的活動。",
+      "after": "哲學家在《靈魂論》卷一第四章說，身體腐朽之後，靈魂「也不回憶，也不愛」。但是想以前所知道的便是回憶。所以離開身體之靈魂，不能有他在現世所獲得之知識的活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "此外，理象在離開身體的靈魂中，並不比在與身體結合之靈魂中效力強。但現在我們除非轉向或求助於心象，便不能憑理象有領悟活動，這在前面第八十四題第七節已經說過。所以離開身體之靈魂，將來也不能單憑理象有領悟活動。故此離開身體之靈魂，絕對不能用現世獲得的理象有領悟活動。",
+      "after": "此外，理象在離開身體的靈魂中，並不比在與身體結合之靈魂中效力強。但現在我們除非轉向或求助於心象，便不能憑理象有領悟活動，這在前面第八十四題第七節己經說過。所以離開身體之靈魂，將來也不能單憑理象有領悟活動。故此離開身體之靈魂，絕對不能用現世獲得的理象有領悟活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1450
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第一章說:「習性產生與用以養成習性之活動相似的活動。」但在現世是以理智之轉向或求助於心象的活動養成知識之習性。所以這些習性不能產生月IJ樣的活動。但這樣(求助於心象)的活動在離開身體的靈魂中不可能有，所以，離開身體之靈魂不再有現世學得之知識的活動。",
+      "after": "此外，哲學家在《倫理學》卷二第一章說：「習性產生與用以養成習性之活動相似的活動。」但在現世是以理智之轉向或求助於心象的活動養成知識之習性。所以這些習性不能產生別樣的活動。但這樣(求助於心象)的活動在離開身體的靈魂中不可能有，所以，離開身體之靈魂不再有現世學得之知識的活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "月IJ樣",
+          "after": "別樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1450,
+        1451
+      ],
+      "before": "在《路加福音》第十六章25節，有向在地獄裡的富人說的這句話: 「你應記得你活著的時候，已享盡了你的福。」",
+      "after": "在《路加福音》第十六章25節，有向在地獄裡的富人說的這句話：「你應記得你活著的時候，已享盡了你的福。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "我解答如下:要從兩方面去看一個活動:即活動之類別，及活動之方式。活動芝類別是看對象，認知能力之活動指向對象，是憑對象之像或理象;而活動之方式是看活動者之能力。例如，一個人看石頭時，他看到石頭是由於石頭之像是在眼睛裡;至於說他看的真切，是由於他的視力強。既然按前面第五節所說的，離開身體之靈魂仍然保存理象，但離開身體之靈魂的情況與現在不同。因此離開身體之靈魂能用在現世獲得之理象，領悟它以前曾領悟的;但是方式不同，即不仰賴IL象，而是用適合於離開身體之靈魂的方式。所以，在離開身體之靈魂中，有在現世獲得之知識的活動，只是方式不同。",
+      "after": "我解答如下：要從兩方面去看一個活動：即活動之類別，及活動之方式。活動之類別是看對象，認知能力之活動指向對象，是憑對象之像或理象；而活動之方式是看活動者之能力。例如，一個人看石頭時，他看到石頭是由於石頭之像是在眼睛裡；至於說他看的真切，是由於他的視力強。既然按前面第五節所說的，離開身體之靈魂仍然保存理象，但離開身體之靈魂的情況與現在不同。因此離開身體之靈魂能用在現世獲得之理象，領悟它以前曾領悟的；但是方式不同，即不仰賴心象，而是用適合於離開身體之靈魂的方式。所以，在離開身體之靈魂中，有在現世獲得之知識的活動，只是方式不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "活動芝",
+          "after": "活動之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "IL象",
+          "after": "心象",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "哲學家所講的回憶，是很據屬於感性部分之記憶﹒而不是根據前面第七十九題第六節所說的智性部分之記憶。",
+      "after": "哲學家所講的回憶，是根據屬於感性部分之記憶，而不是根據前面第七十九題第六節所說的智性部分之記憶。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "很據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "記憶﹒",
+          "after": "記憶，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "領悟之方式的不同，不是由於理象之效力上的差別，而是由於領悟之靈魂在情況上的差別。",
+      "after": "領悟之方式的不同，不是由於理象之效力上的差別，而是由於領悟之靈魂在情況上的差別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "用以養成習性之活動，在類別上與習性所產生之活動相似，而不是在行動者之方式上相似。因為行合法的事，但不是以正當的方式，即不是心甘情願地，久之便產生一種合法性之正義的習性，使我們藉以心甘情願地行合法的事。",
+      "after": "用以養成習性之活動，在類別上與習性所產生之活動相似，而不是在行動者之方式上相似。因為行合法的事，但不是以正當的方式，即不是心甘情願地，久之便產生一種合法性之正義的習性，使我們藉以心甘情願地行合法的事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "空間距離是否妨礙分離的靈魂之認知",
+      "after": "空間距離是否妨礙分離的靈魂之認知",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1451
+      ],
+      "before": "空間距離似乎妨礙分離的靈魂之認知。因為:",
+      "after": "空間距離似乎妨礙分離的靈魂之認知。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1451,
+        1452
+      ],
+      "before": "奧斯定在《論追薦亡者》(De cura pro mortl的gerenda)第十三章說: 「亡者之靈魂在其所在的地方，不能知道在現世發生的事情。」但這些靈魂知道在他們那裡發生的事情。所以，空間距離有礙於離開身體之靈魂的認知活動。",
+      "after": "奧斯定在《論追薦亡者》(De cura pro mortuisgerenda)第十三章說：「亡者之靈魂在其所在的地方，不能知道在現世發生的事情。」但這些靈魂知道在他們那裡發生的事情。所以，空間距離有礙於離開身體之靈魂的認知活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "mortl的",
+          "after": "mortuis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1452
+      ],
+      "before": "此外，奧斯定在《論魔鬼之預言》第三章裡說: 「魔鬼由於行動的快速，能告訴我們一些我們所不知道的事。」倘若空間距離對魔鬼之認知能力沒有妨礙，貝IJ行動快速與這事沒有一點關係。離開身體之靈魂按天性低於魔鬼，所以其認知力更受空間距離之限制。",
+      "after": "此外，奧斯定在《論魔鬼之預言》第三章裡說：「魔鬼由於行動的快速，能告訴我們一些我們所不知道的事。」倘若空間距離對魔鬼之認知能力沒有妨礙，則行動快速與這事沒有一點關係。離開身體之靈魂按天性低於魔鬼，所以其認知力更受空間距離之限制。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1452
+      ],
+      "before": "此外，正如人有空間距離，同樣也有時問距離。但是時間距離妨礙脫離身體之靈魂的認知活動句因為他們不知道未來的事，所以，空間上的距離似乎也妨礙離開身體之靈魂的認知，活動。",
+      "after": "此外，正如人有空間距離，同樣也有時間距離。但是時間距離妨礙脫離身體之靈魂的認知活動，因為他們不知道未來的事，所以，空間上的距離似乎也妨礙離開身體之靈魂的認知活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "活動句",
+          "after": "活動，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認知，活動",
+          "after": "認知活動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1452
+      ],
+      "before": "《路加福音》第十六章23節說，富人「在痛苦中舉目-望，遠遠看見且已郎」。所以，空間距離無礙於脫離身體之靈魂的認知活動。",
+      "after": "《路加福音》第十六章23節說，富人「在痛苦中舉目一望，遠遠看見亞巴郎」。所以，空間距離無礙於脫離身體之靈魂的認知活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "舉目-望",
+          "after": "舉目一望",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "且已郎",
+          "after": "亞巴郎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1452
+      ],
+      "before": "我解答如下:有人主張，離開身體的靈魂之認知個體物，是靠將物象從感性物中抽出來。如果真是這樣，就該說空問距離有礙於離開身體之靈魂的認知活動;因為那需要或者是感性物對離開身體之靈魂起作用，或是離開身體之靈魂對感性物起作用;在兩種情形下，都要有固定的距離。但這種主張是不可能的，因為從感性物中抽出物象耍賴感官及其他感性機能，{旦離開身體之靈魂現實地沒有這些機能。離開身體之靈魂領悟個體物，是靠天主之光灌輸之理象;而為天主之光，沒有遠近之分。所以，空間距離對離開身體之靈魂的認知活動，絕對沒有妨礙。",
+      "after": "我解答如下：有人主張，離開身體的靈魂之認知個體物，是靠將物象從感性物中抽出來。如果真是這樣，就該說空間距離有礙於離開身體之靈魂的認知活動；因為那需要或者是感性物對離開身體之靈魂起作用，或是離開身體之靈魂對感性物起作用；在兩種情形下，都要有固定的距離。但這種主張是不可能的，因為從感性物中抽出物象要賴感官及其他感性機能，但離開身體之靈魂現實地沒有這些機能。離開身體之靈魂領悟個體物，是靠天主之光灌輸之理象；而為天主之光，沒有遠近之分。所以，空間距離對離開身體之靈魂的認知活動，絕對沒有妨礙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "空問",
+          "after": "空間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "耍賴",
+          "after": "要賴",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1452,
+        1453
+      ],
+      "before": "奧斯定說，在亡者靈魂所在的地方，不能看到這個世界所發生的事情，並不是想說原因在於空間距離，而是能由於別的原因，這在下面第八節要詣。",
+      "after": "奧斯定說，在亡者靈魂所在的地方，不能看到這個世界所發生的事情，並不是想說原因在於空間距離，而是能由於別的原因，這在下面第八節要講。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "要詣",
+          "after": "要講",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "奧斯定那裡謂的是別人的意見，他們認為魔鬼有與自己自然結合的身體。按這種看法，魔鬼也能有感官機能，用這些機能認知便有距離之限制。在那書中，奧斯定曾明明提到這個主張(第三章等);但是，根據他在《天主之城》卷二十一第十章所說的，似乎他在引述別人的說法，而不是在說自己的主張。",
+      "after": "奧斯定那裡講的是別人的意見，他們認為魔鬼有與自己自然結合的身體。按這種看法，魔鬼也能有感官機能，用這些機能認知便有距離之限制。在那書中，奧斯定曾明明提到這個主張(第三章等)；但是，根據他在《天主之城》卷二十一第十章所說的，似乎他在引述別人的說法，而不是在說自己的主張。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那裡謂的是",
+          "after": "那裡講的是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "時間距離上的未來之事物，不是現實的事物，故其本身是不可知的。因為在物方面有缺欠的，在可知性上也同樣有缺欠。但按空間有距離的事物，是現實的事物，本身是可知的。所以，空間距離不能與時間距離相提並論。",
+      "after": "時間距離上的未來之事物，不是現實的事物，故其本身是不可知的。因為在物方面有缺欠的，在可知性上也同樣有缺欠。但按空間有距離的事物，是現實的事物，本身是可知的。所以，空間距離不能與時間距離相提並論。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "離開身體之靈魂是否知道現世發生的事情",
+      "after": "離開身體之靈魂是否知道現世發生的事情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "離開身體之靈魂，似乎知道現世發生的事情。因為:",
+      "after": "離開身體之靈魂，似乎知道現世發生的事情。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "除非他們知道現世的事情，否則便不會關懷。但他們關懷現世的事情，就如《路加福音》第十六章28節所說的:「我有五個兄弟，叫他警告他們，免得他們也來到這痛苦的地方。」所以，離開身體的靈魂知道現世的事情。",
+      "after": "除非他們知道現世的事情，否則便不會關懷。但他們關懷現世的事情，就如《路加福音》第十六章28節所說的：「我有五個兄弟，叫他警告他們，免得他們也來到這痛苦的地方。」所以，離開身體的靈魂知道現世的事情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "此外，常有亡者顯現給活人，有時在人睡眠時，有時在人清醒時，並警告人關於現世的事情;就如《撒慕爾紀上》第二十八章11節所記的，撒慕爾顯現給1散烏耳。若亡者不知道現世的事情，便不可能如此。所以亡者知道現世的事情。",
+      "after": "此外，常有亡者顯現給活人，有時在人睡眠時，有時在人清醒時，並警告人關於現世的事情；就如《撒慕爾紀上》第二十八章11節所記的，撒慕爾顯現給撒烏耳。若亡者不知道現世的事情，便不可能如此。所以亡者知道現世的事情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1散烏耳",
+          "after": "撒烏耳",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "此外，離開身體之靈魂，知道他們那裡的事情。若他們不知道我們這裡的事情，那該是由於空間距離的限制。但在前面第七節此點已被否定。",
+      "after": "此外，離開身體之靈魂，知道他們那裡的事情。若他們不知道我們這裡的事情，那該是由於空間距離的限制。但在前面第七節此點已被否定。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q089.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1453
+      ],
+      "before": "《約伯傳》第十四章21節說: 「他的兒子受尊榮與杏，他也不知;他們受輕賤與否，他也不覺。」",
+      "after": "《約伯傳》第十四章21節說：「他的兒子受尊榮與否，他也不知；他們受輕賤與否，他也不覺。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "與杏",
+          "after": "與否",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1454,
+        1455
+      ],
+      "before": "我解答如下:按現在所討論的自然認知能力來說，亡者的靈魂不知道現世的事情。這可以從前面第四節所說的看出原因來。離開身體的靈魂認知個體物，乃是由於與那東西有些特定關係，或是由於以前之知識或感情的痕跡，或是由於天主的措施。按天主的措施以及亡者之靈魂的存在方式，他們脫離了與活人之交往，並歸入了沒有身體的獨立之本體的交往圈子。故此，他們不知道我們這裡的事1育。教宗額我略一世在其《倫理叢談》卷十二第二十一章舉的便是這個理由，他說: 「亡者不知道他們身後的活人怎樣生活，因為精神體的生活與肉體的生活相差很遠;正如形體物與非形體物不屬同類，知識也各不同。」奧斯定在《論追薦亡者》第十三及第十六章所說的，似乎指的也是這個原因: 「亡者之靈魂不干涉活人的事情。」\n至論已享真褔者之靈魂，似乎教宗額我略一世與奧斯定的看法有所不同。教宗額我略一世在那裡接著說: 「但是關於聖善的靈魂卻不可這樣想;因為他們既然親自看到全能天主之光輝，就絕對不該相信，還有他們所不知道的外在東西。」奧斯定在《論追薦亡者》第十三章則明說，「亡者不知道活人以及他們之子女做什麼事情，連聖善的靈魂也不例外」'正如有關《依撒意亞》第六十三章16節「亞巴郎不認識我們」這旬的「註解」(聖經夾旬j所記載的。他並且列舉證明說，他母親沒有像活著時那樣來看他，安慰他的憂苦;而他不認為他母親在幸福中變得比以前冷酷了。他又提到《列王紀刊第二十二章20節說的事情，即天主訐下約史雅國王早逝，以兔他看到他的人民將遭到的災患。不過奧斯定是秉持存疑的態度說了這話，所以他預先說j:「我所說的，誰願意接受就接受。」教宗額我略一世說得很堅定，這從他所說的「布芭對不該相信」就可以看出。\n教宗額我略一世的主張似乎比較合理，即瞻仰天主的聖善靈魂知道現世的一切事情。因為他們與天使同等，而奧斯定《論追薦亡者》第十五章也認為天使知道活人的事情。但是由於聖者之靈魂與天主之正義相通無間，他們不為人間的事情煩惱，也不加以干涉，除非由於天主之正義措施上的需要。",
+      "after": "我解答如下：按現在所討論的自然認知能力來說，亡者的靈魂不知道現世的事情。這可以從前面第四節所說的看出原因來。離開身體的靈魂認知個體物，乃是由於與那東西有些特定關係，或是由於以前之知識或感情的痕跡，或是由於天主的措施。按天主的措施以及亡者之靈魂的存在方式，他們脫離了與活人之交往，並歸入了沒有身體的獨立之本體的交往圈子。故此，他們不知道我們這裡的事情。教宗額我略一世在其《倫理叢談》卷十二第二十一章舉的便是這個理由，他說：「亡者不知道他們身後的活人怎樣生活，因為精神體的生活與肉體的生活相差很遠；正如形體物與非形體物不屬同類，知識也各不同。」奧斯定在《論追薦亡者》第十三及第十六章所說的，似乎指的也是這個原因：「亡者之靈魂不干涉活人的事情。」\n至論已享真福者之靈魂，似乎教宗額我略一世與奧斯定的看法有所不同。教宗額我略一世在那裡接著說：「但是關於聖善的靈魂卻不可這樣想；因為他們既然親自看到全能天主之光輝，就絕對不該相信，還有他們所不知道的外在東西。」奧斯定在《論追薦亡者》第十三章則明說，「亡者不知道活人以及他們之子女做什麼事情，連聖善的靈魂也不例外」，正如有關《依撒意亞》第六十三章16節「亞巴郎不認識我們」這句的「註解」(聖經夾句)所記載的。他並且列舉證明說，他母親沒有像活著時那樣來看他，安慰他的憂苦；而他不認為他母親在幸福中變得比以前冷酷了。他又提到《列王紀下》第二十二章20節說的事情，即天主許下約史雅國王早逝，以免他看到他的人民將遭到的災患。不過奧斯定是秉持存疑的態度說了這話，所以他預先說了：「我所說的，誰願意接受就接受。」教宗額我略一世說得很堅定，這從他所說的「絕對不該相信」就可以看出。\n教宗額我略一世的主張似乎比較合理，即瞻仰天主的聖善靈魂知道現世的一切事情。因為他們與天使同等，而奧斯定《論追薦亡者》第十五章也認為天使知道活人的事情。但是由於聖者之靈魂與天主之正義相通無間，他們不為人間的事情煩惱，也不加以干涉，除非由於天主之正義措施上的需要。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事1育",
+          "after": "事情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "例外」'",
+          "after": "例外」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這旬",
+          "after": "這句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夾旬j",
+          "after": "夾句)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《列王紀刊",
+          "after": "《列王紀下》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "訐下",
+          "after": "許下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以兔",
+          "after": "以免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "預先說j:",
+          "after": "預先說了：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "布芭對",
+          "after": "絕對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1455
+      ],
+      "before": "亡者的靈魂縱然不知道活人的情況，也能關懷活人的事情;就像我們雖然不知道亡者的情況，也能關懷他們，為他們祈禱。他們其實也能知道活人的事情，不是靠自己，而是或通過離世而與他們會合之人的靈魂，或因了天使或魔鬼，甚或也可能由於「天主之神的啟示」'就如奧斯定在那書裡所說的。",
+      "after": "亡者的靈魂縱然不知道活人的情況，也能關懷活人的事情；就像我們雖然不知道亡者的情況，也能關懷他們，為他們祈禱。他們其實也能知道活人的事情，不是靠自己，而是或通過離世而與他們會合之人的靈魂，或因了天使或魔鬼，甚或也可能由於「天主之神的啟示」，就如奧斯定在那書裡所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "啟示」'",
+          "after": "啟示」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1455
+      ],
+      "before": "亡者顯現給活人，或是由於天主的特別措施，使之干涉活人的事情;這該算為可重奇蹟。或者這種顯現是天使或魔鬼製造的，亡者本人甚而毫不知情;正如按奧斯定在那書第十章裡說的，就似活人也能自己毫不知情而出現在別人的夢中一樣。故此關於1散慕爾，可以說他顯現是由於天主的啟示，因為《穗司11篇》第四十六章23節說:「他逝世以後，還說了預言，警告君玉的死期。」但若不接受《德訓篇》的權威，因為猶太人不視之為聖經，可以說那顯現是魔鬼製造的。",
+      "after": "亡者顯現給活人，或是由於天主的特別措施，使之干涉活人的事情；這該算為一種奇蹟。或者這種顯現是天使或魔鬼製造的，亡者本人甚而毫不知情；正如按奧斯定在那書第十章裡說的，就似活人也能自己毫不知情而出現在別人的夢中一樣。故此關於撒慕爾，可以說他顯現是由於天主的啟示，因為《德訓篇》第四十六章23節說：「他逝世以後，還說了預言，警告君王的死期。」但若不接受《德訓篇》的權威，因為猶太人不視之為聖經，可以說那顯現是魔鬼製造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可重奇蹟",
+          "after": "一種奇蹟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1散慕爾",
+          "after": "撒慕爾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《穗司11篇》",
+          "after": "《德訓篇》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q089.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1455
+      ],
+      "before": "這種無知不是因了空間上的距離，而是由於上面正解所說的原因。",
+      "after": "這種無知不是因了空間上的距離，而是由於上面正解所說的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
