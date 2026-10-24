@@ -1,0 +1,1271 @@
+{
+  "schema_version": 1,
+  "batch": "I-q102",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q102",
+    "title": "論人之居處——地堂",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1555,
+      1556,
+      1557,
+      1558,
+      1559,
+      1560,
+      1561,
+      1562
+    ],
+    "printed_pages": [
+      328,
+      335
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 52,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 19
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q102.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q102.json": "95bb53736099b65c42ef2387a9332f073b6724bd6cb11de37eda4db093cc6bc1"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q102.a001.ad4",
+      "pdf_file_page": 1557,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q102.a002.respondeo",
+      "pdf_file_page": 1559,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q102.a002.ad4",
+      "pdf_file_page": 1560,
+      "text": "又因為在太陽永遠",
+      "status": "suspected_source_print_error",
+      "action": "原页确有「在」字，疑多字；依原书保留，不润色改写。"
+    },
+    {
+      "id": "I.q102.a004.ad3",
+      "pdf_file_page": 1562,
+      "text": "己經被安置",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q102.prologue",
+      "description": "移除引言前四行重复标题、孤立标点及杂字，四个真实换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q102.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "。\n間人一如租冊←地山\n{\n且\n然後要討論的是人的居慮，即地堂(參看第九十題引言)。\n關於這點，可以提出四個問題:\n一、地堂是否為形體界的地方。\n二、是否為適於人居住的地方。\n三、為何人被安置在地堂。\n四、人是否該在地堂中受造。",
+      "after": "\n\n\n\n然後要討論的是人的居處，即地堂(參看第九十題引言)。\n關於這點，可以提出四個問題：\n一、地堂是否為形體界的地方。\n二、是否為適於人居住的地方。\n三、為何人被安置在地堂。\n四、人是否該在地堂中受造。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "。\n間人一如租冊←地山\n{\n且\n",
+          "after": "\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "居慮",
+          "after": "居處",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "地堂是否為形體界的地方",
+      "after": "地堂是否為形體界的地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "地堂似乎不是形體界的一個地方。因為:",
+      "after": "地堂似乎不是形體界的一個地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "伯達說:「地堂的邊界直達月球的環形軌道。」(參看《創世紀》第二章8節，斯特拉布的「拉丁通行本註解」)但是地球上的任何地方都不可能如此:一是因為升高到這種高度不合地球的性質;此外，也是因為在月球之下是火之區域，會將地球燒:酸。所以地堂不是形體界的地方。",
+      "after": "伯達說：「地堂的邊界直達月球的環形軌道。」(參看《創世紀》第二章8節，斯特拉布的「拉丁通行本註解」)但是地球上的任何地方都不可能如此：一是因為升高到這種高度不合地球的性質；此外，也是因為在月球之下是火之區域，會將地球燒燬。所以地堂不是形體界的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "燒:酸",
+          "after": "燒燬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "此外，按《創世紀》第二章第10等節所說的，聖經提到有四條河在地堂裡發源。但是那裡指名的那四條河，有別的明顯的發源地，這可從哲學家在《氣象論》卷一第十三章所說的看出。所以，地堂不是形體界的地方。",
+      "after": "此外，按《創世紀》第二章第10等節所說的，聖經提到有四條河在地堂裡發源。但是那裡指名的那四條河，有別的明顯的發源地，這可從哲學家在《氣象論》卷一第十三章所說的看出。所以，地堂不是形體界的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1555
+      ],
+      "before": "此外，有人曾細心探察地球上所有可居住的地方，但是沒有提到地堂這個地方。所以地堂似乎不是形體界的地方。",
+      "after": "此外，有人曾細心探察地球上所有可居住的地方，但是沒有提到地堂這個地方。所以地堂似乎不是形體界的地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1555,
+        1556
+      ],
+      "before": "此外，在地堂裡有生命樹(《創世紀》第二章均有)。但是，生命樹是一種精神性的東西，因為《議書》第三.章18節論智慧說，「為掌握她的人，她是一棵生命樹」。所以，地堂不是形體界的地方，而是精神界的地方。",
+      "after": "此外，在地堂裡有生命樹(《創世紀》第二章9節)。但是，生命樹是一種精神性的東西，因為《箴言》第三章18節論智慧說，「為掌握她的人，她是一棵生命樹」。所以，地堂不是形體界的地方，而是精神界的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二章均有",
+          "after": "第二章9節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《議書》第三.章",
+          "after": "《箴言》第三章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1556
+      ],
+      "before": "此外，若地堂是形體界的，貝1]地堂裡的樹木也是形體界的。這似乎不可能，因為有形體的樹木是在第三天造的;而怯《創世紀》第二章8及9節所說的，地堂的樹木是在六天之工程以後種植的。所以地堂不是形體界的地方。",
+      "after": "此外，若地堂是形體界的，則地堂裡的樹木也是形體界的。這似乎不可能，因為有形體的樹木是在第三天造的；而按《創世紀》第二章8及9節所說的，地堂的樹木是在六天之工程以後種植的。所以地堂不是形體界的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而怯",
+          "after": "而按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1556
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷八第一章說:「關於地堂有三種主張:有些人持這種主張，他們認為地堂只是形體界的;有些人持另一種主張，他們認為地堂只是精神界的;有些人持第三種主張，他們認為地堂兼是形體界的和精神界的。我喜歡第三種主張。」",
+      "after": "奧斯定在《創世紀字義新探》卷八第一章說：「關於地堂有三種主張：有些人持這種主張，他們認為地堂只是形體界的；有些人持另一種主張，他們認為地堂只是精神界的；有些人持第三種主張，他們認為地堂兼是形體界的和精神界的。我喜歡第三種主張。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1556
+      ],
+      "before": "我解答如下:正如奧斯定在《天主之城》卷十三第二十一章所說的，「關於地堂可能有的那些有益的精神化的解說，盡可提出，無人禁止;但是(聖經)忠實敘述各種事物的歷史性真理，也該堅信不疑。」因為聖經上關於地堂所說的，是以敘述歷史的方式表連的;凡聖經以這種方式所說的，都應持之為充作基礎的歷史真理，並在這基礎上構想各種精神意義。所以，按依希道在《語源學》(Etymologiae)卷十四第三章所說的，地堂「是在東方的一個地方，其希臘文的名稱意思是花園」。說地堂是在東方很合理。因為地堂該是設在地球上最高貴的地方。既然按哲學家在《天界論》卷三第二章所說的，東方是天界的右方，而右方比左方高貴，所以，天主將地堂設置在東方很合情理。",
+      "after": "我解答如下：正如奧斯定在《天主之城》卷十三第二十一章所說的，「關於地堂可能有的那些有益的精神化的解說，盡可提出，無人禁止；但是(聖經)忠實敘述各種事物的歷史性真理，也該堅信不疑。」因為聖經上關於地堂所說的，是以敘述歷史的方式表達的；凡聖經以這種方式所說的，都應持之為充作基礎的歷史真理，並在這基礎上構想各種精神意義。所以，按依希道在《語源學》(Etymologiae)卷十四第三章所說的，地堂「是在東方的一個地方，其希臘文的名稱意思是花園」。說地堂是在東方很合理。因為地堂該是設在地球上最高貴的地方。既然按哲學家在《天界論》卷三第二章所說的，東方是天界的右方，而右方比左方高貴，所以，天主將地堂設置在東方很合情理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "表連",
+          "after": "表達",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1556,
+        1557
+      ],
+      "before": "若按字面解釋，伯達(斯特拉布)的話不合理。但是若不摸位置的高峻，而取其喻意，可以說地堂高達月球的地方;因為按依希道《語源學》卷十四第三章所說的，那裡「氣候常是溫和的」'在這方面與天體相似，沒有對立性。他提到月球而不說別的層天，因為月球是朝我們這方向之天體的邊緣;月亮也是在所有的天體中與地球最相似的;是以月亮也有陰影，像似不透明的東西。\n有人說，所謂地堂與月球相接，意思是說它位於大氣層的中部，即風及雨等之發源處;因為認為主宰這些氣象變化的主要是月亮。(且按這種說法，貝IJ那地方不適於人居住;一是因為天氣變化太大，也是因為不如下界的空氣適合人的性質。",
+      "after": "若按字面解釋，伯達(斯特拉布)的話不合理。但是若不按位置的高峻，而取其喻意，可以說地堂高達月球的地方；因為按依希道《語源學》卷十四第三章所說的，那裡「氣候常是溫和的」，在這方面與天體相似，沒有對立性。他提到月球而不說別的層天，因為月球是朝我們這方向之天體的邊緣；月亮也是在所有的天體中與地球最相似的；是以月亮也有陰影，像似不透明的東西。\n有人說，所謂地堂與月球相接，意思是說它位於大氣層的中部，即風及雨等之發源處；因為認為主宰這些氣象變化的主要是月亮。但按這種說法，則那地方不適於人居住；一是因為天氣變化太大，也是因為不如下界的空氣適合人的性質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不摸位置",
+          "after": "不按位置",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "溫和的」'",
+          "after": "溫和的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(且按",
+          "after": "但按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1557
+      ],
+      "before": "正如奧斯定在《創世紀字義新探》卷八第七章所說的，I該認為地堂所在地是不易為人所知的，而那些河，大家以為知道其發源地，乃是先流入了地下，經過很長一段地區後、，在別處又流出了地面。誰不知道河流慣常有這樣的情形?_I",
+      "after": "正如奧斯定在《創世紀字義新探》卷八第七章所說的，「該認為地堂所在地是不易為人所知的，而那些河，大家以為知道其發源地，乃是先流入了地下，經過很長一段地區後，在別處又流出了地面。誰不知道河流慣常有這樣的情形?」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所說的，I該",
+          "after": "所說的，「該",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地區後、，",
+          "after": "地區後，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "?_I",
+          "after": "?」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1557
+      ],
+      "before": "地堂所在地是與我們所住的地方隔開的，中間或有山，或有海，或有極熱的地帶，使人無法通過。故此地理學家沒有提到這個地方。",
+      "after": "地堂所在地是與我們所住的地方隔開的，中間或有山，或有海，或有極熱的地帶，使人無法通過。故此地理學家沒有提到這個地方。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1557
+      ],
+      "before": "生命樹是一種物質性的樹，因為前面第九十七題第四節已經說過，它的果子有養生的能力。但是它真有精神上的意義;就如曠野中的石頭是物質物，卻也象徵基督。\n知善惡樹也是物質性的樹，這名稱是針對後來發生的事而起的;因為人喫了它之後，由於處罰之經驗，知道了服從之善及不服從之惡的分別。但是按某些人的看法，其精神上的意義能是指自由意志。",
+      "after": "生命樹是一種物質性的樹，因為前面第九十七題第四節己經說過，它的果子有養生的能力。但是它真有精神上的意義；就如曠野中的石頭是物質物，卻也象徵基督。\n知善惡樹也是物質性的樹，這名稱是針對後來發生的事而起的；因為人喫了它之後，由於處罰之經驗，知道了服從之善及不服從之惡的分別。但是按某些人的看法，其精神上的意義能是指自由意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1557,
+        1558
+      ],
+      "before": "按奧斯定《創世紀字義新探》卷五第四章;卷八第三章所說的，第三天沒有現實地產生植物，只是產生了其基本原因或胚種;在六天工程以後，才現實地產生了地堂和別處的草木。(且按其他聖賢的說法，該說一切草木都是在第三天現實地產生了，連地堂的樹木也是一樣;至於說在六天工程後種植地堂內的樹木，該是一種重述。故此，我們的譯文說:「上主天主在起初種植了一個樂園」(《創世紀》第二章8節)。",
+      "after": "按奧斯定《創世紀字義新探》卷五第四章；卷八第三章所說的，第三天沒有現實地產生植物，只是產生了其基本原因或胚種；在六天工程以後，才現實地產生了地堂和別處的草木。但按其他聖賢的說法，該說一切草木都是在第三天現實地產生了，連地堂的樹木也是一樣；至於說在六天工程後種植地堂內的樹木，該是一種重述。故此，我們的譯文說：「上主天主在起初種植了一個樂園」(《創世紀》第二章8節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(且按",
+          "after": "但按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "地堂是否為適於人居住的地方",
+      "after": "地堂是否為適於人居住的地方",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "地堂似乎不是適於人居住的地方。因為:",
+      "after": "地堂似乎不是適於人居住的地方。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "人像天使一樣，都是為得真福的。但天使從一開始就是居住於真褔者所在的地方，即高天。所以也該在那裡設置人住的地方。",
+      "after": "人像天使一樣，都是為得真福的。但天使從一開始就是居住於真福者所在的地方，即高天。所以也該在那裡設置人住的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "此外，若人該有個地方，這或是由於他的靈魂之關係，或是由於身體之關係。若是由於靈魂，買IJ該住在天上，那裡似乎是靈魂的自然住所，因為每人都嚮往天上。若是由於身體，貝IJ該與其他動物住同樣的地方。所以，地堂絕對不是適於人居住的地方。",
+      "after": "此外，若人該有個地方，這或是由於他的靈魂之關係，或是由於身體之關係。若是由於靈魂，則該住在天上，那裡似乎是靈魂的自然住所，因為每人都嚮往天上。若是由於身體，則該與其他動物住同樣的地方。所以，地堂絕對不是適於人居住的地方。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "此外，一個地方若沒有東西在那裡，乃是無用的。但在人犯罪以後，地堂不再是人居住的地方。故若那裡是適合人居住的地方，似乎天主是白設置了。",
+      "after": "此外，一個地方若沒有東西在那裡，乃是無用的。但在人犯罪以後，地堂不再是人居住的地方。故若那裡是適合人居住的地方，似乎天主是白設置了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "此外，人的體質是溫和的，該住在溫和的地方。但是地堂之所在地不是溫和的地方;因為據說是在赤道地帶，這地帶的氣候似乎非常熱，因為太陽一年兩次從該地帶居民的頭上經過或直射。所以，地堂不是適於人居住的地方。",
+      "after": "此外，人的體質是溫和的，該住在溫和的地方。但是地堂之所在地不是溫和的地方；因為據說是在赤道地帶，這地帶的氣候似乎非常熱，因為太陽一年兩次從該地帶居民的頭上經過或直射。所以，地堂不是適於人居住的地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1558
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第十一章說，地堂是「神妙的地區，堪當身為天主之南1象者的住處」。",
+      "after": "大馬士革的若望《論正統信仰》卷二第十一章說，地堂是「神妙的地區，堪當身為天主之肖像者的住處」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "南1象",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1558,
+        1559
+      ],
+      "before": "我解答如下:前面第九十七題第一節曾說，人不朽不死，並非因為他的身體有不朽之結構，而是因為靈魂有一種防止身‘體朽腐的力量。人的身體能因內在的或外在的原因而腐朽。腐朽的內在原因，是由於濕氣耗盡，以及衰老，如前面第九十七題第四節己說過的;第一個人可用食物防止這種腐朽。在使身體腐朽的外在原因中，主要的是天氣不調和;為防止這種腐朽要有溫和的氣候。在地堂內這兩個條件都有，因為正如大馬士革的若望所說的，「那裡的氣候溫暖，空氣純淨，草木常年開花」(向上)。可見地堂最適於在原始不死狀態之人居住。",
+      "after": "我解答如下：前面第九十七題第一節曾說，人不朽不死，並非因為他的身體有不朽之結構，而是因為靈魂有一種防止身體朽腐的力量。人的身體能因內在的或外在的原因而腐朽。腐朽的內在原因，是由於濕氣耗盡，以及衰老，如前面第九十七題第四節己說過的；第一個人可用食物防止這種腐朽。在使身體腐朽的外在原因中，主要的是天氣不調和；為防止這種腐朽要有溫和的氣候。在地堂內這兩個條件都有，因為正如大馬士革的若望所說的，「那裡的氣候溫暖，空氣純淨，草木常年開花」(同上)。可見地堂最適於在原始不死狀態之人居住。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "身‘體",
+          "after": "身體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(向上)",
+          "after": "(同上)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1559
+      ],
+      "before": "高天或光天(caelum empyreum)是形體界的最高處，在一切變化範圍以外。由於第一個條件，故適於天使們居住;因為按奧斯定在《論天主聖三》卷三第四章所說的，「天主用精神體的受造物，管理形體的受造物」;所以，精神的性體該是在一切形體物之上，好似在監督形體物。由於第二個條件，那地方適合於真福之狀態，因為這狀態是固定不移的。所以真福之境地適合天使之本性，因此天使是在那裡受造。那裡不適合人的天性，因為人不是以治理方式監督整個形體界的;只在真褔條件下人能在那裡居住。故此，最初人不是被安置在高天，在最後的真褔狀態中將遷移到那裡。",
+      "after": "高天或光天(caelum empyreum)是形體界的最高處，在一切變化範圍以外。由於第一個條件，故適於天使們居住；因為按奧斯定在《論天主聖三》卷三第四章所說的，「天主用精神體的受造物，管理形體的受造物」；所以，精神的性體該是在一切形體物之上，好似在監督形體物。由於第二個條件，那地方適合於真福之狀態，因為這狀態是固定不移的。所以真福之境地適合天使之本性，因此天使是在那裡受造。那裡不適合人的天性，因為人不是以治理方式監督整個形體界的；只在真福條件下人能在那裡居住。故此，最初人不是被安置在高天，在最後的真福狀態中將遷移到那裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1559
+      ],
+      "before": "說靈魂或其他精神本體有個自然的地方或住所，乃是可笑的事;只是由於權宣而為非形體受造物指定一個地方。地堂是適合人的地方，無論是按靈魂或按身體而論，因為靈魂有一種防止身體腐朽的能力。但其他動物卻沒有這種能力。為此大馬士革的若望說，「在地堂裡沒有非理性之動物居住」(同上);雖然天主曾特別準許將動物都領到亞當面前，蛇也會藉魔鬼的力量在那裡出現。",
+      "after": "說靈魂或其他精神本體有個自然的地方或住所，乃是可笑的事；只是由於權宜而為非形體受造物指定一個地方。地堂是適合人的地方，無論是按靈魂或按身體而論，因為靈魂有一種防止身體腐朽的能力。但其他動物卻沒有這種能力。為此大馬士革的若望說，「在地堂裡沒有非理性之動物居住」(同上)；雖然天主曾特別準許將動物都領到亞當面前，蛇也會藉魔鬼的力量在那裡出現。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "權宣",
+          "after": "權宜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1559,
+        1560
+      ],
+      "before": "雖然，犯罪後，人不再在地堂居住，那地方也不因而是無用的;正如天主曾給人一種不死，雖然沒有保存佳，也不是罔然無用的。這些東西可表明天主對人的慈愛，以及人犯罪有什麼損失。何況，據說哈諾客(Enoch)和厄裏亞(Elias)是住在地堂裡。",
+      "after": "雖然，犯罪後，人不再在地堂居住，那地方也不因而是無用的；正如天主曾給人一種不死，雖然沒有保存住，也不是罔然無用的。這些東西可表明天主對人的慈愛，以及人犯罪有什麼損失。何況，據說哈諾客(Enoch)和厄里亞(Elias)是住在地堂裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "保存佳",
+          "after": "保存住",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "厄裏亞",
+          "after": "厄里亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "那些主張地堂是在赤道地帶的人，是認為那地帶氣候最溫和，因為常年日夜都一般長;又因為在太陽永遠不會離那裡太遠，沒有嚴寒之慮。他們認為那裡也不會太熱，因為太陽雖然是從居民的頭上經過或直射，但在這位置停留的時間不久。不過哲學家在《氣象論》卷二第五章i明明說那地帶太熱，不適於居住。這說法比較合理;因為太陽不從頭上經過或直射的地區，單是因了太陽較近，氣候便也很熱。無論如何，總之地堂該是位於最溫和的地方，說是在赤道地帶也好，說是在別的地帶也好。",
+      "after": "那些主張地堂是在赤道地帶的人，是認為那地帶氣候最溫和，因為常年日夜都一般長；又因為在太陽永遠不會離那裡太遠，沒有嚴寒之慮。他們認為那裡也不會太熱，因為太陽雖然是從居民的頭上經過或直射，但在這位置停留的時間不久。不過哲學家在《氣象論》卷二第五章，明明說那地帶太熱，不適於居住。這說法比較合理；因為太陽不從頭上經過或直射的地區，單是因了太陽較近，氣候便也很熱。無論如何，總之地堂該是位於最溫和的地方，說是在赤道地帶也好，說是在別的地帶也好。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五章i明明",
+          "after": "第五章，明明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "人被安置在地堂是否為經營並看守地堂",
+      "after": "人被安置在地堂是否為經營並看守地堂",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "人被安置在地堂，似乎不是為經營並看守地堂。因為:",
+      "after": "人被安置在地堂，似乎不是為經營並看守地堂。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "為處罰罪過而有的事，純真狀態時在地堂裡不會有。但按《創世紀》第三章第17等節所說的，農事是為處罰罪過才開始有的。所以，人在地堂裡不是為經營地堂。",
+      "after": "為處罰罪過而有的事，純真狀態時在地堂裡不會有。但按《創世紀》第三章第17等節所說的，農事是為處罰罪過才開始有的。所以，人在地堂裡不是為經營地堂。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "此外，不需要擔心有侵犯者的地方，不需要看守。但是地堂裡不必擔心有任何侵犯者。所以，不必看守地堂。",
+      "after": "此外，不需要擔心有侵犯者的地方，不需要看守。但是地堂裡不必擔心有任何侵犯者。所以，不必看守地堂。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "此外，若人被安置在地堂是為了使他經營和看守地堂，似乎人是為了地堂而受造的，而非地堂是為了人;這似乎不合事實。所以，人被安置在地堂裡，不是為看守和經營地堂。",
+      "after": "此外，若人被安置在地堂是為了使他經營和看守地堂，似乎人是為了地堂而受造的，而非地堂是為了人；這似乎不合事實。所以，人被安置在地堂裡，不是為看守和經營地堂。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1560
+      ],
+      "before": "《創世紀》第二章15節說: 「上主天主將人安置在伊甸的樂園內，叫他耕種，看守樂園。」",
+      "after": "《創世紀》第二章15節說：「上主天主將人安置在伊甸的樂園內，叫他耕種，看守樂園。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1560,
+        1561
+      ],
+      "before": "我解答如下:正如奧斯定在《創世紀字義新探》卷八第十章所說的，《創世紀》那句話能有兩種解釋。一種是說，天主將人放在地堂裡，因為天主要經營和看守人。所謂經營，是指使人行義，天主的這種作用一離開人，人立刻變為黑暗，就如陽光的作用一停止，空氣立刻就變為黑暗;所謂看守，是使之避免一切腐朽及惡。\n另一種解釋，是說人經營並看守地堂。但是那工作並不像犯罪後那樣勞苦，而是有樂趣的，因為能體驗到自然的能力。看守也不是為防止侵入者，而是為人自己保存，以免因犯罪而失去。這都是為了人的益處;所以地堂是為了人的利益，而非人是為了地堂的利益。",
+      "after": "我解答如下：正如奧斯定在《創世紀字義新探》卷八第十章所說的，《創世紀》那句話能有兩種解釋。一種是說，天主將人放在地堂裡，因為天主要經營和看守人。所謂經營，是指使人行義，天主的這種作用一離開人，人立刻變為黑暗，就如陽光的作用一停止，空氣立刻就變為黑暗；所謂看守，是使之避免一切腐朽及惡。\n另一種解釋，是說人經營並看守地堂。但是那工作並不像犯罪後那樣勞苦，而是有樂趣的，因為能體驗到自然的能力。看守也不是為防止侵入者，而是為人自己保存，以免因犯罪而失去。這都是為了人的益處；所以地堂是為了人的利益，而非人是為了地堂的利益。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a003.general",
+      "article": 3,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "由上面所說的，可知各質疑之答案。",
+      "after": "由上面所說的，可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "人是否在地堂內受造",
+      "after": "人是否在地堂內受造",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "人似乎是在地堂內受造的。因為:",
+      "after": "人似乎是在地堂內受造的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "天使是在他住的地方受造的，即是在高天或光天。但是地堂是人犯罪前的適當住所。所以人似乎該在地堂內受造。",
+      "after": "天使是在他住的地方受造的，即是在高天或光天。但是地堂是人犯罪前的適當住所。所以人似乎該在地堂內受造。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "此外，其他動物都是保留在其出生的地方，就如:魚是在水裡，四足動物是在地上。按前面第九十七題第四節所說的，人是保留在地堂裡。所以，也該是在地堂裡受造的。",
+      "after": "此外，其他動物都是保留在其出生的地方，就如：魚是在水裡，四足動物是在地上。按前面第九十七題第四節所說的，人是保留在地堂裡。所以，也該是在地堂裡受造的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "此外，女人是在地堂裡受造的。但男人比女人高貴。所以，男人更該是在地堂裡受造的。",
+      "after": "此外，女人是在地堂裡受造的。但男人比女人高貴。所以，男人更該是在地堂裡受造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1561
+      ],
+      "before": "《創世紀》第二章的節說: 「上主天主拿起人，並將他安置在地堂杖。」",
+      "after": "《創世紀》第二章15節說：「上主天主拿起人，並將他安置在地堂裡。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二章的節",
+          "after": "第二章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地堂杖",
+          "after": "地堂裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1561,
+        1562
+      ],
+      "before": "我解答如下:地堂是適於人的住所，這是基於原始狀態的不朽。那種不朽不是按天性便屬於人，而是來白天主的超性恩惠。為使人知道那是天主的恩惠，而不是出於人的天性，故天主在地堂以外造了人，然後把他安置在地宣裡，使他在動物生活階段一直住在那裡，及至後來當他獲得精神化的或屬神的生命時，再移到天堂。",
+      "after": "我解答如下：地堂是適於人的住所，這是基於原始狀態的不朽。那種不朽不是按天性便屬於人，而是來自天主的超性恩惠。為使人知道那是天主的恩惠，而不是出於人的天性，故天主在地堂以外造了人，然後把他安置在地堂裡，使他在動物生活階段一直住在那裡，及至後來當他獲得精神化的或屬神的生命時，再移到天堂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地宣裡",
+          "after": "地堂裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q102.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1562
+      ],
+      "before": "即使按天使的天性來說，高天或光天也是天使的適當住所，因而他們是在那裡受造。",
+      "after": "即使按天使的天性來說，高天或光天也是天使的適當住所，因而他們是在那裡受造。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1562
+      ],
+      "before": "同樣，那些地方也適於那些動物的天性。",
+      "after": "同樣，那些地方也適於那些動物的天性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q102.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1562
+      ],
+      "before": "女人在地堂受造，不是因了她本身高貴，而是由於其身體所從出之根本高貴。因為那時子女也會是同樣出生在地堂裡，因為他們的父母已經被安置在那裡。",
+      "after": "女人在地堂受造，不是因了她本身高貴，而是由於其身體所從出之根本高貴。因為那時子女也會是同樣出生在地堂裡，因為他們的父母己經被安置在那裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經被安置",
+          "after": "己經被安置",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
