@@ -1,0 +1,2426 @@
+{
+  "schema_version": 1,
+  "batch": "I-q105",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q105",
+    "title": "論受造物受自天主之改變",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1587,
+      1588,
+      1589,
+      1590,
+      1591,
+      1592,
+      1593,
+      1594,
+      1595,
+      1596,
+      1597,
+      1598,
+      1599,
+      1600,
+      1601,
+      1602
+    ],
+    "printed_pages": [
+      360,
+      375
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 93,
+    "changed_review_units": 67,
+    "checked_unchanged_review_units": 27
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q105.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q105.json": "c4a3b077dda4d66f5be997899d6040e623deebdc851b3b244e87f31dbc961a8a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q105.a003.ad3",
+      "pdf_file_page": 1593,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q105.a003.ad3",
+      "pdf_file_page": 1593,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q105.a004.ad3",
+      "pdf_file_page": 1594,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q105.a005.ad3",
+      "pdf_file_page": 1597,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q105.a001.arg3",
+      "description": "清除正文混入的页码及侧栏题名字符，按原页连贯复原句子。"
+    },
+    {
+      "id": "I.q105.a004.respondeo",
+      "description": "将错并在正解末尾的三条释疑移回已有空 ad1/ad2/ad3 字段；原正解两个换行保留为空行，不改键名结构。"
+    }
+  ],
+  "notes": [
+    "全部16页、8节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q105.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "然後要討論的是，天主之治理的第二個效果，即受造物之變動或改變廿nutatlO:參看第一0四題引言)。首先，論受造物受白天主的改變;第二，論一受造物受自別的受造物之改變(第一0六題)。\n關於第一點，可以提出八個問題:\n一、天主是否能直接把質料推向形式。\n二、是否能直接推動形體物。\n三、是否能推動理智。\n四、是否能推動意志。\n五、天主是否在每個動作者中動作。\n六、是否能行不合萬物所稟受之秩序的事。\n七、天主所做的這類事是否皆為奇蹟。\n八、論奇蹟之差別。",
+      "after": "然後要討論的是，天主之治理的第二個效果，即受造物之變動或改變(mutatio；參看第一〇四題引言)。首先，論受造物受自天主的改變；第二，論一受造物受自別的受造物之改變(第一〇六題)。\n關於第一點，可以提出八個問題：\n一、天主是否能直接把質料推向形式。\n二、是否能直接推動形體物。\n三、是否能推動理智。\n四、是否能推動意志。\n五、天主是否在每個動作者中動作。\n六、是否能行不合萬物所稟受之秩序的事。\n七、天主所做的這類事是否皆為奇蹟。\n八、論奇蹟之差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "廿nutatlO:",
+          "after": "(mutatio；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0四題",
+          "after": "第一〇四題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六題",
+          "after": "第一〇六題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受白天主",
+          "after": "受自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "天主是否能直接把質料推向形式",
+      "after": "天主是否能直接把質料推向形式",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "天主似乎不能直接把質料推向形式。因為:",
+      "after": "天主似乎不能直接把質料推向形式。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1587
+      ],
+      "before": "正如哲學家在《形上學》卷七第八章所證明的，除非是在質料內的形式，什麼都不能產生在某一固定質料內的形式，因為類似的產生類似的。但是，天主不是在質料內的形式。所以，不能在質料內產生形式。",
+      "after": "正如哲學家在《形上學》卷七第八章所證明的，除非是在質料內的形式，什麼都不能產生在某一固定質料內的形式，因為類似的產生類似的。但是，天主不是在質料內的形式。所以，不能在質料內產生形式。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1587,
+        1588
+      ],
+      "before": "此外，一個動因若是指向許多效果，其中一個效果也不能產生，除非由一個別的東西使它限定於這個效果;就如《靈魂論》卷三第十一章所說的，一個普遍性觀念沒有推動的力量，除非通過一個個別的領悟。但是天主的能力乃是萬物的普遍性原因。所以，除非通過某個別的原因，否則不能產生個別361的形式。",
+      "after": "此外，一個動因若是指向許多效果，其中一個效果也不能產生，除非由一個別的東西使它限定於這個效果；就如《靈魂論》卷三第十一章所說的，一個普遍性觀念沒有推動的力量，除非通過一個個別的領悟。但是天主的能力乃是萬物的普遍性原因。所以，除非通過某個別的原因，否則不能產生個別的形式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個別361",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1588
+      ],
+      "before": "此外，按前面第一0四題第二節所說的，正如普遍性的第存在繫於第一個普遍性的原因，同樣固定的或被限定的存在繫集於固定的個別原因。但是某東西的固定存在是靠它自己的形第式。所以，各東西的固有形式只是通過個別原因而自天主產生。的。員已冊",
+      "after": "此外，按前面第一〇四題第二節所說的，正如普遍性的存在繫於第一個普遍性的原因，同樣固定的或被限定的存在繫於固定的個別原因。但是某東西的固定存在是靠它自己的形式。所以，各東西的固有形式只是通過個別原因而自天主產生的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0四題",
+          "after": "第一〇四題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "普遍性的第存在",
+          "after": "普遍性的存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "存在繫集於",
+          "after": "存在繫於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形第式",
+          "after": "形式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "產生。的。員已冊",
+          "after": "產生的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1588
+      ],
+      "before": "《創世紀》第二章7節說:「上主天主用地上的灰土形成章E了λ、。」物;;:n, J已自",
+      "after": "《創世紀》第二章7節說：「上主天主用地上的灰土形成了人。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "形成章E了λ、。",
+          "after": "形成了人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "物;;:n, J已自",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1588
+      ],
+      "before": "我解答如下:天主能直接把質料推向形式。因為在被動言性潛能狀態的物，能被其能力涵蓋被動性潛能的主動能力化為最現實。既然質料是被涵蓋在天主的能力之下的，因為它是天主變產生的，所以能被天主的能力變成現實。而這就是把質料推向形式，因為形式無非就是質料之現實。",
+      "after": "我解答如下：天主能直接把質料推向形式。因為在被動性潛能狀態的物，能被其能力涵蓋被動性潛能的主動能力化為現實。既然質料是被涵蓋在天主的能力之下的，因為它是天主產生的，所以能被天主的能力變成現實。而這就是把質料推向形式，因為形式無非就是質料之現實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "被動言性",
+          "after": "被動性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "化為最現實",
+          "after": "化為現實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主變產生",
+          "after": "天主產生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1588,
+        1589
+      ],
+      "before": "一個效果之與其動因相似有兩種方式。第一種方式是二者屬於同類，如人之生於人，火之生於火;第二種方式是按某種隱含的或潛在的能力，即是說，就能力而言。效果之形式是包含在原因中，就如從腐爛物中產生的動物，以及植物及礦物，它們之所以像似太陽和星辰，因為是因了太陽和星辰的力量產生的。所以，在這種情形下，效果是根據動因能力所及之整個範圓與動因相似。按前面第十四題第十一節、第四十四題第二節所說的，天主的能力普及於形式和質料。故此，所產生的組合體，按隱含的或潛在的能力與天主相似，就像它因類別的相似而與生產它的組合體相似。為此，正如生產的組合體，藉由生產與自己相似之組合體，而能把質料推向形式;同樣，天主也是如此。但是不在質料內存在的其他形式則無此能力，因為質料不包含在別的獨立之本體的能力下。故此，魔鬼及天使對形體物之起作用，不是靠灌輸形式，而是利用形體性胚種或因子(semina)。",
+      "after": "一個效果之與其動因相似有兩種方式。第一種方式是二者屬於同類，如人之生於人，火之生於火；第二種方式是按某種隱含的或潛在的能力，即是說，就能力而言。效果之形式是包含在原因中，就如從腐爛物中產生的動物，以及植物及礦物，它們之所以像似太陽和星辰，因為是因了太陽和星辰的力量產生的。所以，在這種情形下，效果是根據動因能力所及之整個範圍與動因相似。按前面第十四題第十一節、第四十四題第二節所說的，天主的能力普及於形式和質料。故此，所產生的組合體，按隱含的或潛在的能力與天主相似，就像它因類別的相似而與生產它的組合體相似。為此，正如生產的組合體，藉由生產與自己相似之組合體，而能把質料推向形式；同樣，天主也是如此。但是不在質料內存在的其他形式則無此能力，因為質料不包含在別的獨立之本體的能力下。故此，魔鬼及天使對形體物之起作用，不是靠灌輸形式，而是利用形體性胚種或因子(semina)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圓",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "倘若天主的行動是出於天性之必然，貝IJ所舉之理由可以成立。但因為祂是用意志和理智行動，祂不只知道普遍之理，而且也知道每個形式所固有之理;故此，祂能在質料中分別固定地灌輸這個或那個形式。",
+      "after": "倘若天主的行動是出於天性之必然，則所舉之理由可以成立。但因為祂是用意志和理智行動，祂不只知道普遍之理，而且也知道每個形式所固有之理；故此，祂能在質料中分別固定地灌輸這個或那個形式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "第二原因之所以指向某固定效果，也是白天主給予它們的。所以天主既能使別的原因產生某些固定效果，也能親自產生某些固定效果。",
+      "after": "第二原因之所以指向某固定效果，也是由天主給予它們的。所以天主既能使別的原因產生某些固定效果，也能親自產生某些固定效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天主",
+          "after": "由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "天主是否能直接推動形體",
+      "after": "天主是否能直接推動形體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "天主似乎不能直接推動形體或形體物(corpus)。因為",
+      "after": "天主似乎不能直接推動形體或形體物(corpus)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "按《物理學》卷七第二章所指出的，推動者與被動者該在一起，推動者與被動者該有一種接觸。但是天主與形體物之間不能有接觸，因為狄奧尼修在《神名論》第一章說: 「天主沒有接觸」。所以，天主不能直接推動形體物。",
+      "after": "按《物理學》卷七第二章所指出的，推動者與被動者該在一起，推動者與被動者該有一種接觸。但是天主與形體物之間不能有接觸，因為狄奧尼修在《神名論》第一章說：「天主沒有接觸」。所以，天主不能直接推動形體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "接觸」。",
+          "after": "接觸」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1589
+      ],
+      "before": "此外，天主是不受推動的推動者。被認知到的可欲之對象便是這樣的。所以天主是以被願望和被認知之方式推動。但祂只能被理智認知，而理智不是形體物，也不是形體物的能力。所以天主不能直接推動形體物。",
+      "after": "此外，天主是不受推動的推動者。被認知到的可欲之對象便是這樣的。所以天主是以被願望和被認知之方式推動。但祂只能被理智認知，而理智不是形體物，也不是形體物的能力。所以天主不能直接推動形體物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1589,
+        1590
+      ],
+      "before": "此外，哲學家在《物理學》卷八第十章指出，無限的能力之推動是瞬息即成的。但是，形體物不能在一瞬間被推動，因為既然凡變動都是在兩個對立者之間的，那將是兩個對立者同時在一個主體上;這是不可能的。所以，形體物不能直接受無限能力之推動。按前面第二十五題第二節所說的，天主的能力是無限的。所以，天主不能直接推動形體物。",
+      "after": "此外，哲學家在《物理學》卷八第十章指出，無限的能力之推動是瞬息即成的。但是，形體物不能在一瞬間被推動，因為既然凡變動都是在兩個對立者之間的，那將是兩個對立者同時在一個主體上；這是不可能的。所以，形體物不能直接受無限能力之推動。按前面第二十五題第二節所說的，天主的能力是無限的。所以，天主不能直接推動形體物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1590
+      ],
+      "before": "天主直接完成了六天的工程;其中也有形體物之變動，例如《創世紀》第一章9節所說的: 「天下的水應聚在一處」。所以，天主能直接推動形體物。",
+      "after": "天主直接完成了六天的工程；其中也有形體物之變動，例如《創世紀》第一章9節所說的：「天下的水應聚在一處」。所以，天主能直接推動形體物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1590
+      ],
+      "before": "我解答如下:說天主不能親自產生藉由任何受造原因所形成的一切固定效果，這是不對的。既然形體物直接被受造之原因推動，毫無疑問地天主也能直接推動任何形體物。\n這是前面第一節所說的之自然結論。因為任何形體物之動態或變動，或是來自某種形式，例如:輕重物之空間動態是來自產生這些東西者所給的形式，因而產生這些東西者可以稱為推動者;或者是走向形式之過程，例如:熱化或變熱是達到火之形式的過程。賦予形式，準備形式之產生，以及使具有隨形式而來之動態，都是同一個東西的事:火不只產生別的火，它也有熱化作用，及向上推動的作用。天主既然直接在質料中產生形式，因此也能推動任何形體物之任何動態。",
+      "after": "我解答如下：說天主不能親自產生藉由任何受造原因所形成的一切固定效果，這是不對的。既然形體物直接被受造之原因推動，毫無疑問地天主也能直接推動任何形體物。\n這是前面第一節所說的之自然結論。因為任何形體物之動態或變動，或是來自某種形式，例如：輕重物之空間動態是來自產生這些東西者所給的形式，因而產生這些東西者可以稱為推動者；或者是走向形式之過程，例如：熱化或變熱是達到火之形式的過程。賦予形式，準備形式之產生，以及使具有隨形式而來之動態，都是同一個東西的事：火不只產生別的火，它也有熱化作用，及向上推動的作用。天主既然直接在質料中產生形式，因此也能推動任何形體物之任何動態。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1590
+      ],
+      "before": "接觸有兩種:形體性的接觸，如兩個形體之相連接;以及能力上的接觸，例如說:使人生悲者觸及悲傷者。按第一種接觸來說，天主既然沒有形體，祂不接觸也不被接觸。按能力上的接觸來說，祂在推動受造物時觸及到受造物，f旦祂不被觸及;因為沒有一個受造物的自然能力可以達到祂。狄奧尼修所說的:「天主沒有接觸」'就是這個意思，即是說祂不被觸及。",
+      "after": "接觸有兩種：形體性的接觸，如兩個形體之相連接；以及能力上的接觸，例如說：使人生悲者觸及悲傷者。按第一種接觸來說，天主既然沒有形體，祂不接觸也不被接觸。按能力上的接觸來說，祂在推動受造物時觸及到受造物，但祂不被觸及；因為沒有一個受造物的自然能力可以達到祂。狄奧尼修所說的：「天主沒有接觸」，就是這個意思，即是說祂不被觸及。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "f旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接觸」'",
+          "after": "接觸」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1590,
+        1591
+      ],
+      "before": "天主是以被願望和被認知之方式推動。但祂之推動，不必常是為那被推動之物所願望和所認知，而常是為祂自己所願望和所認知;因為祂行一切事都是為了自己的聖善。",
+      "after": "天主是以被願望和被認知之方式推動。但祂之推動，不必常是為那被推動之物所願望和所認知，而常是為祂自己所願望和所認知；因為祂行一切事都是為了自己的聖善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "哲學家在《物理學》卷八第十章有意證明，第一個推動者的能力不是有體積的或空間性的能力(virtus in magnitu-dine)。理由在於第一個推動者的能力是無限的(他以「第一個推動者能在無限時間推動」來證明此點);假如無限的能力是有空間性的，它將在時間以外推動，而這是不可能的。所以第一個推動者的無限能力不是空間恆的。由此可見，所謂形體物之在時間以外或一瞬間被推動，只是假如無限之能力是空間性的。這是因為凡空間性的能力，都是整個地推動，因為它是由於天性之必然而推動。無限的力量之超禮有限的力量沒有比例:推動者的力量愈大，動態也能愈快。既然有限的力量是在某固定時間中推動，因而無限的力量不是在時問內推動;因為任何時間與另一個時間都有個比例。但是沒有空間性的能力，是某個具有理智者的能力，而具有理智者對效果之作用是按效果之所宜。所以，由於形體物不宜於在時間外(瞬息地)被動，不能證明具有理智者的無限能力是在時間外推動。",
+      "after": "哲學家在《物理學》卷八第十章有意證明，第一個推動者的能力不是有體積的或空間性的能力(virtus in magnitu-dine)。理由在於第一個推動者的能力是無限的(他以「第一個推動者能在無限時間推動」來證明此點)；假如無限的能力是有空間性的，它將在時間以外推動，而這是不可能的。所以第一個推動者的無限能力不是空間性的。由此可見，所謂形體物之在時間以外或一瞬間被推動，只是假如無限之能力是空間性的。這是因為凡空間性的能力，都是整個地推動，因為它是由於天性之必然而推動。無限的力量之超越有限的力量沒有比例：推動者的力量愈大，動態也能愈快。既然有限的力量是在某固定時間中推動，因而無限的力量不是在時間內推動；因為任何時間與另一個時間都有個比例。但是沒有空間性的能力，是某個具有理智者的能力，而具有理智者對效果之作用是按效果之所宜。所以，由於形體物不宜於在時間外(瞬息地)被動，不能證明具有理智者的無限能力是在時間外推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "空間恆",
+          "after": "空間性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "超禮",
+          "after": "超越",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "天主是否直接推動受造之理智",
+      "after": "天主是否直接推動受造之理智",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "天主似乎不直接推動受造之理智。因為:",
+      "after": "天主似乎不直接推動受造之理智。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1591
+      ],
+      "before": "理智之行動(actio)是源自理智所在之主體;因為按《形上學》卷九第八章所說的，這行動不傳到外在的質料。被另一東西推動者之活動，不是源自行動所在之主體，而是源自那推動者。所以理智不被其他什麼推動。故天主似乎不能推動理智。",
+      "after": "理智之行動(actio)是源自理智所在之主體；因為按《形上學》卷九第八章所說的，這行動不傳到外在的質料。被另一東西推動者之活動，不是源自行動所在之主體，而是源自那推動者。所以理智不被其他什麼推動。故天主似乎不能推動理智。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1591,
+        1592
+      ],
+      "before": "此外，那本身具有其活動(motus)之足夠根本的，不被別的東西推動。理智之活動即是其領悟或理解本身，如同按哲學家在《靈魂論》卷三第七章所說的，領悟或知覺是一種活動。領悟之足夠根本，即是理智所稟受的智性之光。所以，它不受別的東西之推動。",
+      "after": "此外，那本身具有其活動(motus)之足夠根本的，不被別的東西推動。理智之活動即是其領悟或理解本身，如同按哲學家在《靈魂論》卷三第七章所說的，領悟或知覺是一種活動。領悟之足夠根本，即是理智所稟受的智性之光。所以，它不受別的東西之推動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1592
+      ],
+      "before": "此外，理智受可領悟者之推動，正如感官之為可感覺者所推動。但是天主對我們來說不是可領悟的，祂超出我們的理智。所以，天主不能推動我們的理智。",
+      "after": "此外，理智受可領悟者之推動，正如感官之為可感覺者所推動。但是天主對我們來說不是可領悟的，祂超出我們的理智。所以，天主不能推動我們的理智。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1592
+      ],
+      "before": "教導者推動學習者的理智。但按《聖詠》第九十三篇10節所說的，天主「教導人知識」。所以，天主推動人的理智。",
+      "after": "教導者推動學習者的理智。但按《聖詠》第九十二篇10節所說的，天主「教導人知識」。所以，天主推動人的理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "九十三篇",
+          "after": "九十二篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1592
+      ],
+      "before": "我解答如下:在形體性之活動中，那給予活動之根本，即形式者，被稱為推動者;同樣，那產生智性動作(operatio)之根本，即形式者，也被稱為推動理智者;而智↑生動作即所謂理智之活動。理智之動作或活動在領悟者內有兩個根本:一是智性能力本身，在處於潛能狀態的領悟者內也有這個根本;男一個是現實領悟之根本‘即是被領悟之東西在領悟者內的像。所以所謂一個東西推動理智，或是由於它賦給理智領悟之能力，或是由於它在理智上印上被領悟之東西的像。\n天主推動受造之理智兼用上述兩種方式，因為祂是第一個非物質物。既然智性是從非物質性而來，因而祂也是第一個有理智者或領悟者。既然在每個系列中為首者是其餘者之原因，因而一切領悟能力都是從祂來的。同樣，由於祂是第一個存在物，一切存在物都原先存在於祂內，有如存在於第一個原因內;一切存在物該是以可被領悟者之資格在祂內，並按祂的方式。正如萬物之可領悟之理原是在天主內存在，並由祂傳給其他的理智，使之能現實地領悟;同樣，受造物也是由於分得此理而自立存在。所以天主推動受造之理智，一是由於祂給受造理智自然的或附加的領悟能力;一是由於祂投射給理智可領悟之理或理象，並且祂又支撐及保存二者之存在。",
+      "after": "我解答如下：在形體性之活動中，那給予活動之根本，即形式者，被稱為推動者；同樣，那產生智性動作(operatio)之根本，即形式者，也被稱為推動理智者；而智性動作即所謂理智之活動。理智之動作或活動在領悟者內有兩個根本：一是智性能力本身，在處於潛能狀態的領悟者內也有這個根本；另一個是現實領悟之根本，即是被領悟之東西在領悟者內的像。所以所謂一個東西推動理智，或是由於它賦給理智領悟之能力，或是由於它在理智上印上被領悟之東西的像。\n天主推動受造之理智兼用上述兩種方式，因為祂是第一個非物質物。既然智性是從非物質性而來，因而祂也是第一個有理智者或領悟者。既然在每個系列中為首者是其餘者之原因，因而一切領悟能力都是從祂來的。同樣，由於祂是第一個存在物，一切存在物都原先存在於祂內，有如存在於第一個原因內；一切存在物該是以可被領悟者之資格在祂內，並按祂的方式。正如萬物之可領悟之理原是在天主內存在，並由祂傳給其他的理智，使之能現實地領悟；同樣，受造物也是由於分得此理而自立存在。所以天主推動受造之理智，一是由於祂給受造理智自然的或附加的領悟能力；一是由於祂投射給理智可領悟之理或理象，並且祂又支撐及保存二者之存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "根本‘",
+          "after": "根本，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "理智之動作或行動固然是來自理智所在之主體，但有如是來自第二原因;而它來白天主，有如是來自第一原因。是天主使那具有理智者或領悟者能夠領悟。",
+      "after": "理智之動作或行動固然是來自理智所在之主體，但有如是來自第二原因；而它來自天主，有如是來自第一原因。是天主使那具有理智者或領悟者能夠領悟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "智性之光與被領悟之東西的像一起，是領悟之足夠根本;然而那是次要的根本，並繫於第一個根本。",
+      "after": "智性之光與被領悟之東西的像一起，是領悟之足夠根本；然而那是次要的根本，並繫於第一個根本。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "可領悟者推動我們的理智，是由於它投印其像在我們的理智上，藉以能被領悟。但是天主在受造之理智上投印的像，不足用以種悟天主之本質，這在前面第十二題第二節、第五十六題第三節已經說過了。所以，如第十二題第四節已說過的，天主為受造之理智雖是不可領惰的，但祂推動受造之理智。",
+      "after": "可領悟者推動我們的理智，是由於它投印其像在我們的理智上，藉以能被領悟。但是天主在受造之理智上投印的像，不足用以領悟天主之本質，這在前面第十二題第二節、第五十六題第三節己經說過了。所以，如第十二題第四節己說過的，天主為受造之理智雖是不可領悟的，但祂推動受造之理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "種悟",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領惰",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "天主是否能推動受造之意志",
+      "after": "天主是否能推動受造之意志",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "天主似乎不能推動受造之意志。因為:",
+      "after": "天主似乎不能推動受造之意志。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "凡是由外物推動的，都是受強迫。但是意志不能被強迫。所以意志不能被外物推動。因此也不能被天主推動。",
+      "after": "凡是由外物推動的，都是受強迫。但是意志不能被強迫。所以意志不能被外物推動。因此也不能被天主推動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "此外，天主不能使互相矛盾者同時為真。若祂推動意志，便是使矛盾者同時為真;因為情願的動，乃是由自己動，而不是被外物所動。所以天主不能推動意志。",
+      "after": "此外，天主不能使互相矛盾者同時為真。若祂推動意志，便是使矛盾者同時為真；因為情願的動，乃是由自己動，而不是被外物所動。所以天主不能推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "此外，動屬於推動者甚於被推動者;為此，殺人行動不歸於石頭，而歸於拋石者。若天主推動意志，貝IJ人的情願作為不能有功或有過。這不合於真理。所以天主不推動意志。",
+      "after": "此外，動屬於推動者甚於被推動者；為此，殺人行動不歸於石頭，而歸於拋石者。若天主推動意志，則人的情願作為不能有功或有過。這不合於真理。所以天主不推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1593
+      ],
+      "before": "《斐理伯書》第二章13節說:「是天主在你們內工作，使你們願意，並使你們力行。」",
+      "after": "《斐理伯書》第二章13節說：「是天主在你們內工作，使你們願意，並使你們力行。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1593,
+        1594
+      ],
+      "before": "我解答如下:正如理智，按上面第三節所說的，受對象之推動，也受那給子領悟能力者之推動;同樣，意志也是一面受對象之推動，其對象是善，一面受創造願意能力者之推動。以受對象之推動方式，意志可受任何善之推動;但只有天主能以這方式足實並有效地推動意志。一個東西為能足實地推動另一東西，推動者之主動力量要超過，戒至少等於可被推動者之受動力量。意志之受動力量展向普遍的善，它的對象是普遍性的善，就如理智之對象是普遍性的物。任何受造的善都是個別的或局部的善，只有天主是普遍的善。所以，只有祂能以對象方式滿足意志，足實地推動意志。\n同樣，願意之能力包是隻由天主產生的。願意無非是對意志之對象的一種傾向，其對象即普遍的善。使東西傾向於普遍的善是第一個推動者的事，第一個推動者與最後目的是相稱的;就像在人間，領導羣眾走向公共利益也是羣眾之首領的事。所以按這兩種方式，推動意志都是天主所專有的;特別是以第二種方式，即從內部使之傾向於善。釋賠i.被他物推動者，其被推動若與自己的傾向相反，則為強迫;但若被那賦予自己傾曏者推動，則不稱為強迫，例如:產生重物者使重物下降時，那不是強迫。所以，天主推動意志時也不是強迫，因為意志之固有傾向是天主給的。\n2.情願地動，便是由自己動，也就是由內在之根本而動;但是那內在之根本能是來自別的外在根本。在這情形下，自己動與被外物所動彼此沒有衝突。\n3.若意志毫無自動成分，完全被他物所動，貝IJ意志之作為無功過可言。但是如釋疑2.己說過的，意志被他物所動，並不排除自己動，所以，也不取消功過之可能性。",
+      "after": "我解答如下：正如理智，按上面第三節所說的，受對象之推動，也受那給予領悟能力者之推動；同樣，意志也是一面受對象之推動，其對象是善，一面受創造願意能力者之推動。以受對象之推動方式，意志可受任何善之推動；但只有天主能以這方式足實並有效地推動意志。一個東西為能足實地推動另一東西，推動者之主動力量要超過，或至少等於可被推動者之受動力量。意志之受動力量展向普遍的善，它的對象是普遍性的善，就如理智之對象是普遍性的物。任何受造的善都是個別的或局部的善，只有天主是普遍的善。所以，只有祂能以對象方式滿足意志，足實地推動意志。\n同樣，願意之能力也是隻由天主產生的。願意無非是對意志之對象的一種傾向，其對象即普遍的善。使東西傾向於普遍的善是第一個推動者的事，第一個推動者與最後目的是相稱的；就像在人間，領導羣眾走向公共利益也是羣眾之首領的事。所以按這兩種方式，推動意志都是天主所專有的；特別是以第二種方式，即從內部使之傾向於善。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:正如理智，按上面第三節所說的，受對象之推動，也受那給子領悟能力者之推動;同樣，意志也是一面受對象之推動，其對象是善，一面受創造願意能力者之推動。以受對象之推動方式，意志可受任何善之推動;但只有天主能以這方式足實並有效地推動意志。一個東西為能足實地推動另一東西，推動者之主動力量要超過，戒至少等於可被推動者之受動力量。意志之受動力量展向普遍的善，它的對象是普遍性的善，就如理智之對象是普遍性的物。任何受造的善都是個別的或局部的善，只有天主是普遍的善。所以，只有祂能以對象方式滿足意志，足實地推動意志。\n同樣，願意之能力包是隻由天主產生的。願意無非是對意志之對象的一種傾向，其對象即普遍的善。使東西傾向於普遍的善是第一個推動者的事，第一個推動者與最後目的是相稱的;就像在人間，領導羣眾走向公共利益也是羣眾之首領的事。所以按這兩種方式，推動意志都是天主所專有的;特別是以第二種方式，即從內部使之傾向於善。釋賠i.被他物推動者，其被推動若與自己的傾向相反，則為強迫;但若被那賦予自己傾曏者推動，則不稱為強迫，例如:產生重物者使重物下降時，那不是強迫。所以，天主推動意志時也不是強迫，因為意志之固有傾向是天主給的。\n2.情願地動，便是由自己動，也就是由內在之根本而動;但是那內在之根本能是來自別的外在根本。在這情形下，自己動與被外物所動彼此沒有衝突。\n3.若意志毫無自動成分，完全被他物所動，貝IJ意志之作為無功過可言。但是如釋疑2.己說過的，意志被他物所動，並不排除自己動，所以，也不取消功過之可能性。",
+          "after": "我解答如下:正如理智，按上面第三節所說的，受對象之推動，也受那給子領悟能力者之推動;同樣，意志也是一面受對象之推動，其對象是善，一面受創造願意能力者之推動。以受對象之推動方式，意志可受任何善之推動;但只有天主能以這方式足實並有效地推動意志。一個東西為能足實地推動另一東西，推動者之主動力量要超過，戒至少等於可被推動者之受動力量。意志之受動力量展向普遍的善，它的對象是普遍性的善，就如理智之對象是普遍性的物。任何受造的善都是個別的或局部的善，只有天主是普遍的善。所以，只有祂能以對象方式滿足意志，足實地推動意志。\n同樣，願意之能力包是隻由天主產生的。願意無非是對意志之對象的一種傾向，其對象即普遍的善。使東西傾向於普遍的善是第一個推動者的事，第一個推動者與最後目的是相稱的;就像在人間，領導羣眾走向公共利益也是羣眾之首領的事。所以按這兩種方式，推動意志都是天主所專有的;特別是以第二種方式，即從內部使之傾向於善。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "給子",
+          "after": "給予",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "戒至少",
+          "after": "或至少",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力包是",
+          "after": "能力也是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1594
+      ],
+      "before": "",
+      "after": "被他物推動者，其被推動若與自己的傾向相反，則為強迫；但若被那賦予自己傾向者推動，則不稱為強迫，例如：產生重物者使重物下降時，那不是強迫。所以，天主推動意志時也不是強迫，因為意志之固有傾向是天主給的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "被他物推動者，其被推動若與自己的傾向相反，則為強迫;但若被那賦予自己傾向者推動，則不稱為強迫，例如:產生重物者使重物下降時，那不是強迫。所以，天主推動意志時也不是強迫，因為意志之固有傾向是天主給的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1594
+      ],
+      "before": "",
+      "after": "情願地動，便是由自己動，也就是由內在之根本而動；但是那內在之根本能是來自別的外在根本。在這情形下，自己動與被外物所動彼此沒有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "情願地動，便是由自己動，也就是由內在之根本而動;但是那內在之根本能是來自別的外在根本。在這情形下，自己動與被外物所動彼此沒有衝突。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1594
+      ],
+      "before": "",
+      "after": "若意志毫無自動成分，完全被他物所動，則意志之作為無功過可言。但是如釋疑2.己說過的，意志被他物所動，並不排除自己動，所以，也不取消功過之可能性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "若意志毫無自動成分，完全被他物所動，則意志之作為無功過可言。但是如釋疑2.己說過的，意志被他物所動，並不排除自己動，所以，也不取消功過之可能性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "天主是否在每個動作者中動作",
+      "after": "天主是否在每個動作者中動作",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "天主似乎不在每個動作者中動作。因為;",
+      "after": "天主似乎不在每個動作者中動作。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "不能說天主有任何不濟。若天主在每個動作者中動作，貝IJ祂在每個動作者中的動作是足實的。如此，則受造的主動者或動因之動作便是多餘的了。",
+      "after": "不能說天主有任何不濟。若天主在每個動作者中動作，則祂在每個動作者中的動作是足實的。如此，則受造的主動者或動因之動作便是多餘的了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "此外，一個動作不能同時是來自兩個動作者，正如一個動態之不能屬於兩個活動主體。如果受造物的動作是由在受造物內動作的天主來的，就不能同時是由受造物來的。如此沒有受造物有動作。",
+      "after": "此外，一個動作不能同時是來自兩個動作者，正如一個動態之不能屬於兩個活動主體。如果受造物的動作是由在受造物內動作的天主來的，就不能同時是由受造物來的。如此沒有受造物有動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "此外，製造者被稱為其所造之東西的動作之原因，因為他賦予這東西用以動作之形式。如果天主是其所造之東西的動作之原因，那是因為天主賦給受造物動作之能力。但這是在最初祂造東西時候的事c所以，似乎祂以後不再在受造物中動作。",
+      "after": "此外，製造者被稱為其所造之東西的動作之原因，因為他賦予這東西用以動作之形式。如果天主是其所造之東西的動作之原因，那是因為天主賦給受造物動作之能力。但這是在最初祂造東西時候的事。所以，似乎祂以後不再在受造物中動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事c",
+          "after": "事。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1595
+      ],
+      "before": "《依撒意亞》第二十六章12節說:「上主，凡我們所做的，都是你為我們成就的。」",
+      "after": "《依撒意亞》第二十六章12節說：「上主，凡我們所做的，都是你為我們成就的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1595,
+        1596,
+        1597
+      ],
+      "before": "我解答如下:所謂天主在每個動作者中動作，有人認為意思是說，在東西中受造之能力什麼作用也沒有，只有天主直接做一切事;例如:火沒有熱化作用，是天主在火中使東西熟，其餘的可以類推。但這是不可能的。第一，因為如此則取消了受造物問原因與效果之系統。這該算是創造者的無能，因為主動者該能使其效果具有主動之能力。第二，在東西中的動作能力，若不用於任何動作，把它給予東西便是多餘的。甚而受造物若沒有自己的動作，其本身都是多餘的，因為每個東西都是為了其動作。不完美者常是為了比較完美者，就如質料是為了形式，形式是第一現實，它又是為了動作，動作是第二現實，因而動作就是受造物之目的。所以，該如此解讀天主在東西中動作，即東西本身仍有自己的動作。\n為明瞭這點，要知道共有四類原因，其中質料不是主動或動作之根本，而是承受動作之效果的主體。目的、動因及形式，皆是動作之根本，但彼此有先後之另1]0動作之第一個根本是目的，它推動主動者或動因;第二個是動因;第三個是動因為動作所使用之物的形式(雖然動因本身也是用它自己的形式動作)，這可以從工藝作品上看出來。匠人是被目的推動而開始動作，目的即是作品，例如:一個箱子或一張牀;他使用力鋸動作，其刃有切割作用。\n所以天主是以這三種方式在每個動作者中動作。第一是以目的之方式。既然每個動作都是為了某一善，無論是真的或是表面的善;任何物之是善或表面看似善，都是由於分有最高之善的某種相似，最高之善也就是天主。所以，天主是每一動作的目的原因。同樣也要知道，如果有許多前後相接的動因，第三個動因常是靠第一個之力量而動作:因為是第一個動因推動第二個去動作。按這個觀點，一切東西都是靠天主的能力動作;如此則祂是一切動因之動作的原因。第三，要知道天主推動東西動作，不只是運用東西之形式及能力於動作，像匠人之運用刀鋸於鋸割，而刀鋸之形式有時並非由此匠人而來;而且天主也賦予受造界之動因以形式，並保存受造物之存在。所以祂是動作之原因，不只因了祂給予形式，即動作之根本，像產生物體者之為輕重物之運動的原因;也是因了祂保存東西之形式和能力，就像太陽之為顏色的顯現之原因，因為太陽給並保存用以顯示顏色的光亮。又因了東西之形式是在東西內的，而愈是最先和最普遍的形式就愈內在;而天主自己是萬物中之普遍性存在之原因，這存在是東西中最密切的因素;因而天主是以最密切的方式在萬物內動作。故此在聖經中，將天性之動作歸於天主，視天主為在天性中動作者，就如《約伯傳》第十章11節所說的:「你用皮和肉作我的衣服，用骨和筋把我全身聯結起來。」",
+      "after": "我解答如下：所謂天主在每個動作者中動作，有人認為意思是說，在東西中受造之能力什麼作用也沒有，只有天主直接做一切事；例如：火沒有熱化作用，是天主在火中使東西熱，其餘的可以類推。但這是不可能的。第一，因為如此則取消了受造物間原因與效果之系統。這該算是創造者的無能，因為主動者該能使其效果具有主動之能力。第二，在東西中的動作能力，若不用於任何動作，把它給予東西便是多餘的。甚而受造物若沒有自己的動作，其本身都是多餘的，因為每個東西都是為了其動作。不完美者常是為了比較完美者，就如質料是為了形式，形式是第一現實，它又是為了動作，動作是第二現實，因而動作就是受造物之目的。所以，該如此解讀天主在東西中動作，即東西本身仍有自己的動作。\n為明瞭這點，要知道共有四類原因，其中質料不是主動或動作之根本，而是承受動作之效果的主體。目的、動因及形式，皆是動作之根本，但彼此有先後之別。動作之第一個根本是目的，它推動主動者或動因；第二個是動因；第三個是動因為動作所使用之物的形式(雖然動因本身也是用它自己的形式動作)，這可以從工藝作品上看出來。匠人是被目的推動而開始動作，目的即是作品，例如：一個箱子或一張牀；他使用刀鋸動作，其刃有切割作用。\n所以天主是以這三種方式在每個動作者中動作。第一是以目的之方式。既然每個動作都是為了某一善，無論是真的或是表面的善；任何物之是善或表面看似善，都是由於分有最高之善的某種相似，最高之善也就是天主。所以，天主是每一動作的目的原因。同樣也要知道，如果有許多前後相接的動因，第二個動因常是靠第一個之力量而動作：因為是第一個動因推動第二個去動作。按這個觀點，一切東西都是靠天主的能力動作；如此則祂是一切動因之動作的原因。第三，要知道天主推動東西動作，不只是運用東西之形式及能力於動作，像匠人之運用刀鋸於鋸割，而刀鋸之形式有時並非由此匠人而來；而且天主也賦予受造界之動因以形式，並保存受造物之存在。所以祂是動作之原因，不只因了祂給予形式，即動作之根本，像產生物體者之為輕重物之運動的原因；也是因了祂保存東西之形式和能力，就像太陽之為顏色的顯現之原因，因為太陽給並保存用以顯示顏色的光亮。又因了東西之形式是在東西內的，而愈是最先和最普遍的形式就愈內在；而天主自己是萬物中之普遍性存在之原因，這存在是東西中最密切的因素；因而天主是以最密切的方式在萬物內動作。故此在聖經中，將天性之動作歸於天主，視天主為在天性中動作者，就如《約伯傳》第十章11節所說的：「你用皮和肉作我的衣服，用骨和筋把我全身聯結起來。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使東西熟",
+          "after": "使東西熱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受造物問",
+          "after": "受造物間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另1]0",
+          "after": "別。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使用力鋸",
+          "after": "使用刀鋸",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三個動因常是",
+          "after": "第二個動因常是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "天主在萬物內，是以第一動因的方式足實地動作;第二動茵的動作並不因此而成為多餘的。",
+      "after": "天主在萬物內，是以第一動因的方式足實地動作；第二動因的動作並不因此而成為多餘的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "動茵",
+          "after": "動因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "一個動作不能是出自兩個同等級的動因，但是同一個動作無妨是來自第一和第二動因。",
+      "after": "一個動作不能是出自兩個同等級的動因，但是同一個動作無妨是來自第一和第二動因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "如正解己說過的，天主不只給萬物形式，也保存其存在，使之動作，並是一切動作之目的。",
+      "after": "如正解己說過的，天主不只給萬物形式，也保存其存在，使之動作，並是一切動作之目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "天主是否能行不合萬物所稟受之秩序的事",
+      "after": "天主是否能行不合萬物所稟受之秩序的事",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "天主似乎不能做不合萬物所稟受之秩序的事。因為:",
+      "after": "天主似乎不能做不合萬物所稟受之秩序的事。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "奧斯定在《駁摩尼教徒褔斯德》卷二千六第三章說:「天主是一切自然物的建設者和創造者，不做任何違反自然的事。」不合萬物自然所稟受之秩序，似乎是違反自然的。所以天主不能做不合萬物所稟受之秩序的事。",
+      "after": "奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「天主是一切自然物的建設者和創造者，不做任何違反自然的事。」不合萬物自然所稟受之秩序，似乎是違反自然的。所以天主不能做不合萬物所稟受之秩序的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "二千六",
+          "after": "二十六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "此外，正義之秩序是從天主來的，自然之秩序也母從天主來的。但天主不能做不合正義之秩序的事，因為那將是做不義的事。所以祂也不能做不合自然秩序的事。",
+      "after": "此外，正義之秩序是從天主來的，自然之秩序也是從天主來的。但天主不能做不合正義之秩序的事，因為那將是做不義的事。所以祂也不能做不合自然秩序的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也母",
+          "after": "也是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "此外，自然秩序是天主設置的。若天主做不合自然秩序的事，員1]似乎天主是可改變的。這是不合理的。",
+      "after": "此外，自然秩序是天主設置的。若天主做不合自然秩序的事，則似乎天主是可改變的。這是不合理的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1597
+      ],
+      "before": "奧斯定在《駁摩尼教徒褔斯德》卷二十六第三章說:「天主有時做不合自然常規的事。」",
+      "after": "奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「天主有時做不合自然常規的事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1598
+      ],
+      "before": "我解答如下:任何原因皆在其效果中產生一種秩序，因為任何原因都有根本之性質。因而原因多，秩序也增多;但是一個秩序是包含在另一個內，正如原因也是一個包含在另一個內。所以高級原因不包含在低級原因之秩序內，而是正好相反。這可以從人闊的事情中取一個例於:家庭的秩序繫於家長;而家庭的秩序包含在城邦之秩序內，此秩序是來自城邦的首長;而城邦的秩序又包含在國王之秩序內，全國皆由國王治理。\n所以，如果是從萬物之秩序繫於第一原因來看，貝IJ天主不能做相反萬物之秩序的事;因為倘若祂這樣做，貝IJ違反祂的預知、或意志、或聖善。但若是從萬物之秩序繫於任何第二原因來看，則天主能做不合萬物之秩序的事。因為祂不屬於第二原因的秩序之下，而這秩序反而繫屬於天主，有如是由祂來的;但不是出於祂本性之必要，而是由於自由意志，因為祂本來可以設置另一種萬物之秩序。因此，若祂願意，祂可以做不合這個既定秩序的事，例如:不用第二原因而產生第二原因之效果，或是產生第二原因無力產生的效果。故此，奧斯定在《駁摩尼教徒褔斯德》卷二十六第三章說:「天主做不合自然常規的事，但祂絕不做違反最高定律的事，正如祂不做違背自己的事。」",
+      "after": "我解答如下：任何原因皆在其效果中產生一種秩序，因為任何原因都有根本之性質。因而原因多，秩序也增多；但是一個秩序是包含在另一個內，正如原因也是一個包含在另一個內。所以高級原因不包含在低級原因之秩序內，而是正好相反。這可以從人間的事情中取一個例子：家庭的秩序繫於家長；而家庭的秩序包含在城邦之秩序內，此秩序是來自城邦的首長；而城邦的秩序又包含在國王之秩序內，全國皆由國王治理。\n所以，如果是從萬物之秩序繫於第一原因來看，則天主不能做相反萬物之秩序的事；因為倘若祂這樣做，則違反祂的預知、或意志、或聖善。但若是從萬物之秩序繫於任何第二原因來看，則天主能做不合萬物之秩序的事。因為祂不屬於第二原因的秩序之下，而這秩序反而繫屬於天主，有如是由祂來的；但不是出於祂本性之必要，而是由於自由意志，因為祂本來可以設置另一種萬物之秩序。因此，若祂願意，祂可以做不合這個既定秩序的事，例如：不用第二原因而產生第二原因之效果，或是產生第二原因無力產生的效果。故此，奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「天主做不合自然常規的事，但祂絕不做違反最高定律的事，正如祂不做違背自己的事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人闊",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "例於",
+          "after": "例子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1598,
+        1599
+      ],
+      "before": "在自然物中發生不合所稟受之自然的事時，有兩種方式。一種方式，是因了一個不是賦給自然傾向的主動因或動因之作用，就如人把重物體推向高處，重物體之就下的天性不是由人來的;這是違反天性的事。另一種方式，是因了東西之自然動作所繫屬之動困的作用。這樣的事不違反天性，例如:海水之潮汐不違反天性，雖然不合水之自然動態，因為水是自然就下的。這是因了天體之影響，下界物體之自然傾向繫於天體。那麼，自然秩序既然是天主賦給萬物的，若祂做不合這秩序的事，並不連反自然c故此，奧斯定在《駁摩尼教徒褔斯德》卷二十六第三章說: 「自然界之一切形態、數目和秩序所由出的那一位所做的，對每個東西就算是自然的。」",
+      "after": "在自然物中發生不合所稟受之自然的事時，有兩種方式。一種方式，是因了一個不是賦給自然傾向的主動因或動因之作用，就如人把重物體推向高處，重物體之就下的天性不是由人來的；這是違反天性的事。另一種方式，是因了東西之自然動作所繫屬之動因的作用。這樣的事不違反天性，例如：海水之潮汐不違反天性，雖然不合水之自然動態，因為水是自然就下的。這是因了天體之影響，下界物體之自然傾向繫於天體。那麼，自然秩序既然是天主賦給萬物的，若祂做不合這秩序的事，並不違反自然。故此，奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「自然界之一切形態、數目和秩序所由出的那一位所做的，對每個東西就算是自然的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動困",
+          "after": "動因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "連反自然c",
+          "after": "違反自然。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "正義之秩序是根據東西與第一原因之關係而來的，而第一原因是一切正義之標準。所以，天主不能做不合這種秩序的事。",
+      "after": "正義之秩序是根據東西與第一原因之關係而來的，而第一原因是一切正義之標準。所以，天主不能做不合這種秩序的事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "天主是如此賦給了萬物某種秩序，即祂保留了自己有時因故而以耳目的方式行事。所以，祂不按這一秩序行事時，也沒有改變。",
+      "after": "天主是如此賦給了萬物某種秩序，即祂保留了自己有時因故而以別的方式行事。所以，祂不按這一秩序行事時，也沒有改變。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "耳目的方式",
+          "after": "別的方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "天主做的不合萬物之自然秩序的一切事，是否皆為奇蹟",
+      "after": "天主做的不合萬物之自然秩序的一切事，是否皆為奇蹟",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "似乎並非天主做的不合萬物之自然秩序的一切事，皆為奇蹟。因為:",
+      "after": "似乎並非天主做的不合萬物之自然秩序的一切事，皆為奇蹟。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "世界之創造，及靈魂之創造，以及使罪人成義﹒都是天主做的不合自然秩序的事;因為都不是用什麼自然原因之作用而完成的。但這些事不稱為奇蹟。所以，不是凡天王做的不合萬物之自然秩序的事皆為奇蹟。",
+      "after": "世界之創造，及靈魂之創造，以及使罪人成義，都是天主做的不合自然秩序的事；因為都不是用什麼自然原因之作用而完成的。但這些事不稱為奇蹟。所以，不是凡天主做的不合萬物之自然秩序的事皆為奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "成義﹒",
+          "after": "成義，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天王",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1599
+      ],
+      "before": "此外，所謂奇蹟，乃是「超出自然能力及驚奇者之期望的不平常的難事」(奧斯定，《論信仰的益處》第十六章)。但有些不合自然秩序的事並不困難，因為是一些小事，如:樹枝開花、病人痊癒;有的也不是不平常的，因為經常發生，例如:病人被放在街上，以期藉伯多祿經過時的影子而痊癒(《宗徒大事錄》第五章的節);有的也不是超出自然能力的，例如:人發燒得痊癒;也不是超出期望的，例如:我們都期望死人復活，這也是不合自然秩序的事。所以，不是凡不合自然秩序的事皆為奇蹟。",
+      "after": "此外，所謂奇蹟，乃是「超出自然能力及驚奇者之期望的不平常的難事」(奧斯定，《論信仰的益處》第十六章)。但有些不合自然秩序的事並不困難，因為是一些小事，如：樹枝開花、病人痊癒；有的也不是不平常的，因為經常發生，例如：病人被放在街上，以期藉伯多祿經過時的影子而痊癒(《宗徒大事錄》第五章15節)；有的也不是超出自然能力的，例如：人發燒得痊癒；也不是超出期望的，例如：我們都期望死人復活，這也是不合自然秩序的事。所以，不是凡不合自然秩序的事皆為奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五章的節",
+          "after": "第五章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1599,
+        1600
+      ],
+      "before": "此外，奇蹟之名稱是從驚奇來的。但驚奇是關於顯示於感官的事情的。但有些不合自然秩序的事不是顯於感官的，例如:宗徒們沒有研究也沒有學習就成了有學悶的。所以不是凡不合自然秩序的事皆為奇蹟。",
+      "after": "此外，奇蹟之名稱是從驚奇來的。但驚奇是關於顯示於感官的事情的。但有些不合自然秩序的事不是顯於感官的，例如：宗徒們沒有研究也沒有學習就成了有學問的。所以不是凡不合自然秩序的事皆為奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "學悶",
+          "after": "學問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1600
+      ],
+      "before": "奧斯定在《駁摩尼教徒褔斯德》卷二十六第三章說:「天主做的事不合我們所知之自然常規時，便稱為大事或奇事。」",
+      "after": "奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「天主做的事不合我們所知之自然常規時，便稱為大事或奇事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1600
+      ],
+      "before": "我解答如下:奇蹟之名稱是從驚奇來的。在效果明顯，而原因不詳時，便產生驚奇;就如《形上學》卷一第二章所說的，有人看到日蝕，不知其原因，便感到驚奇。可能有人知道某明顯效果之原因，而為他人所不知。因此有的事為某人可奇，而為別人則不可奇;就如無知的人對日蝕感到驚奇，天文學家則不以為奇。奇蹟可以說是完全出奇的事，有不為任何人所知道的原因，而這原因是天主。故此，天主在我們所知之原因外所行的事，便稱為奇蹟o",
+      "after": "我解答如下：奇蹟之名稱是從驚奇來的。在效果明顯，而原因不詳時，便產生驚奇；就如《形上學》卷一第二章所說的，有人看到日蝕，不知其原因，便感到驚奇。可能有人知道某明顯效果之原因，而為他人所不知。因此有的事為某人可奇，而為別人則不可奇；就如無知的人對日蝕感到驚奇，天文學家則不以為奇。奇蹟可以說是完全出奇的事，有不為任何人所知道的原因，而這原因是天主。故此，天主在我們所知之原因外所行的事，便稱為奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奇蹟o",
+          "after": "奇蹟。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1600
+      ],
+      "before": "\"1.創造及罪人成義，雖然只是由天主完成，但嚴格地說，不稱為奇蹟。因為這些事本來就不是別的原因所能做的，因而其發生不是不合於自然秩序;因為這些事不屬於自然秩序範圈。",
+      "after": "創造及罪人成義，雖然只是由天主完成，但嚴格地說，不稱為奇蹟。因為這些事本來就不是別的原因所能做的，因而其發生不是不合於自然秩序；因為這些事不屬於自然秩序範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "\"1.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1600
+      ],
+      "before": "所謂奇蹟是困難的事，不看事情所在之主體的重要性;而是因為超出自然之能力。同樣所謂不平常，不是因不常發生，而是因為不合於自然之常情。所謂超出自然能力的事，不只指事情本身，也指事情發生之方式及過程。也說奇蹟是超出自然之期望，但不是超出恩寵之期望;這恩寵是從信德來的，因了信德我們相信將來肉身之復活。",
+      "after": "所謂奇蹟是困難的事，不看事情所在之主體的重要性；而是因為超出自然之能力。同樣所謂不平常，不是因不常發生，而是因為不合於自然之常情。所謂超出自然能力的事，不只指事情本身，也指事情發生之方式及過程。也說奇蹟是超出自然之期望，但不是超出恩寵之期望；這恩寵是從信德來的，因了信德我們相信將來肉身之復活。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1600,
+        1601
+      ],
+      "before": "宗徒們的學問本身雖是不明顯的，但其效果是明顯的，因而使人驚奇。",
+      "after": "宗徒們的學問本身雖是不明顯的，但其效果是明顯的，因而使人驚奇。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "奇蹟是否有大小之別",
+      "after": "奇蹟是否有大小之別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q105.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "有關第八節‘我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第八節‘",
+          "after": "第八節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "奇蹟似乎沒有大小之別。因為:",
+      "after": "奇蹟似乎沒有大小之別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "奧斯定在《書信集》第一三七篇第二章「致濯祿西安書」中說:「在以奇蹟方式所實行的事中，實行的關鍵全在行車者之能力。」但是，一切奇蹟都是天主之間-能力完成的。所以，奇蹟沒有大小之別。",
+      "after": "奧斯定在《書信集》第一三七篇第二章「致渥祿西安書」中說：「在以奇蹟方式所實行的事中，實行的關鍵全在行事者之能力。」但是，一切奇蹟都是天主之同一能力完成的。所以，奇蹟沒有大小之別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "濯祿西安",
+          "after": "渥祿西安",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行車者",
+          "after": "行事者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之間-能力",
+          "after": "之同一能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "此外，天主的能力是無限的。但是無限與任何有限都不成比例。所以天主產生的奴果，這個並不比那個更可奇。所以奇蹟沒有大小之刑。",
+      "after": "此外，天主的能力是無限的。但是無限與任何有限都不成比例。所以天主產生的效果，這個並不比那個更可奇。所以奇蹟沒有大小之別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奴果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之刑",
+          "after": "之別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1601
+      ],
+      "before": "在《若望褔音》第十四章12節，主論奇蹟說: 「我所做的事業，他也要做，並且還要做比這些更大的事業。」",
+      "after": "在《若望福音》第十四章12節，主論奇蹟說：「我所做的事業，他也要做，並且還要做比這些更大的事業。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1601,
+        1602
+      ],
+      "before": "我解答如下:針對天主之能力，沒有事情可稱為奇蹟。因為任何事與天主的能力相比，都是微小的事;就如《依撒意亞》第四十章15節所說的: 「萬民像桶中的一滴水，如天秤上的一粒沙。」一件事之所以稱為奇膜，是針對其所超出的自然之能力。因此，稱為大奇蹟'是根據它更多超出自然之能力。\n超出自然之能力有三種方式。一是針對事情本身，例如:使兩個物體同時在同一個空間，或使太陽後退，或使人的肉身得到榮光;這些都是自然能力絕對做不來的。這些事算是奇蹟中等級最高的。第二，事情之超出自然能力，不是事情本身，而是針對事情所在之主體，例如:使死人復活，使瞎子看見等。大自然能夠產生生命，但不能在死人身上產生生命;大自然能產生視力，但不能給瞎子視力。這些在奇蹟中算是第二等。第三，事情超出自然能力，是在事情發生的方式和程序方面，例如:一人發燒，不加治療，不經一般的自然過程，由天主的能力立刻痊贖;又如不經自然原因，天主使天空立刻下雨，就如因7撒慕爾及厄裏亞之祈禱而發生的(《撒慕爾紀上》第十二章18節;《列王紀上》第十八章44及的節)。這些在奇蹟中是等級最低的。上述之三個等級中，又各因超出自然能力之方式不間，而再分為不同的等級。",
+      "after": "我解答如下：針對天主之能力，沒有事情可稱為奇蹟。因為任何事與天主的能力相比，都是微小的事；就如《依撒意亞》第四十章15節所說的：「萬民像桶中的一滴水，如天秤上的一粒沙。」一件事之所以稱為奇蹟，是針對其所超出的自然之能力。因此，稱為大奇蹟，是根據它更多超出自然之能力。\n超出自然之能力有三種方式。一是針對事情本身，例如：使兩個物體同時在同一個空間，或使太陽後退，或使人的肉身得到榮光；這些都是自然能力絕對做不來的。這些事算是奇蹟中等級最高的。第二，事情之超出自然能力，不是事情本身，而是針對事情所在之主體，例如：使死人復活，使瞎子看見等。大自然能夠產生生命，但不能在死人身上產生生命；大自然能產生視力，但不能給瞎子視力。這些在奇蹟中算是第二等。第三，事情超出自然能力，是在事情發生的方式和程序方面，例如：一人發燒，不加治療，不經一般的自然過程，由天主的能力立刻痊癒；又如不經自然原因，天主使天空立刻下雨，就如因了撒慕爾及厄里亞之祈禱而發生的(《撒慕爾紀上》第十二章18節；《列王紀上》第十八章44及45節)。這些在奇蹟中是等級最低的。上述之三個等級中，又各因超出自然能力之方式不同，而再分為不同的等級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天秤",
+          "after": "天秤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奇膜",
+          "after": "奇蹟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "大奇蹟'",
+          "after": "大奇蹟，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "痊贖",
+          "after": "痊癒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "厄裏亞",
+          "after": "厄里亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "44及的節",
+          "after": "44及45節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不間",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q105.a008.general",
+      "article": 8,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1602
+      ],
+      "before": "由上面所說的，可知各質疑之答案，因為那些質疑都是根據天主之能力而立論的。",
+      "after": "由上面所說的，可知各質疑之答案，因為那些質疑都是根據天主之能力而立論的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
