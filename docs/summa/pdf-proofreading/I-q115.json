@@ -1,0 +1,2164 @@
+{
+  "schema_version": 1,
+  "batch": "I-q115",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q115",
+    "title": "論形體受造物之作用",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      1697,
+      1698,
+      1699,
+      1700,
+      1701,
+      1702,
+      1703,
+      1704,
+      1705,
+      1706,
+      1707,
+      1708,
+      1709,
+      1710,
+      1711,
+      1712
+    ],
+    "printed_pages": [
+      470,
+      485
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 80,
+    "changed_review_units": 56,
+    "checked_unchanged_review_units": 25
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q115.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q115.json": "8ebf0fac99e9600cffed77426b726efd95c1787e174fa74a910a39ac71488111"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q115.a001.respondeo",
+      "pdf_file_page": 1699,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q115.a001.ad3",
+      "pdf_file_page": 1700,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q115.a004.respondeo",
+      "pdf_file_page": 1706,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q115.a006.respondeo",
+      "pdf_file_page": 1710,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q115.a006.respondeo",
+      "pdf_file_page": 1711,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q115.a006.ad3",
+      "pdf_file_page": 1712,
+      "text": "己經說了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q115.a002.ad4",
+      "description": "删除段后孤立杂字，原换行保留。"
+    }
+  ],
+  "notes": [
+    "全部16页、6节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q115.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "隨後要討論的是形體受造物之作用(參看第一0六題引言)，及歸於某些形體物的定數(第一一六題)。\n關於形體物之作用，可以提出六個問題:\n一、是否有具有主動或積拯作用的形體物。\n二、在形體物中是否有因子式月丕種之理。\n三、天體是否為藉下界形體物所發生者之原因。\n四、天體是否為人性行為之原因。\n五、魔鬼是否受天體之作用的支配。\n六、天體在受其作用之影響的東西中，是否產生必然的效果。",
+      "after": "隨後要討論的是形體受造物之作用(參看第一〇六題引言)，及歸於某些形體物的定數(第一一六題)。\n關於形體物之作用，可以提出六個問題：\n一、是否有具有主動或積極作用的形體物。\n二、在形體物中是否有因子或胚種之理。\n三、天體是否為藉下界形體物所發生者之原因。\n四、天體是否為人性行為之原因。\n五、魔鬼是否受天體之作用的支配。\n六、天體在受其作用之影響的東西中，是否產生必然的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "積拯",
+          "after": "積極",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "式月丕種",
+          "after": "或胚種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "是否有具有主動或積極作用的形體物",
+      "after": "是否有具有主動或積極作用的形體物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "似乎沒有具有主動或積極作用的形體物(corpus activumì。因為:",
+      "after": "似乎沒有具有主動或積極作用的形體物(corpus activum)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "activumì",
+          "after": "activum)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "奧斯定《天主之城》卷五第九章說:「在東西中，有的是被動而不主動的，就如形體物;有的是主動的而不被動，就如天主;有的是又主動又被動的，如精神性本體或自立體。」",
+      "after": "奧斯定《天主之城》卷五第九章說：「在東西中，有的是被動而不主動的，就如形體物；有的是主動的而不被動，就如天主；有的是又主動又被動的，如精神性本體或自立體。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1697
+      ],
+      "before": "此外，除了第一個主動者或效力因(agens)外，其餘的主動者或效力因，為起作用都需要有承受其作用的主體。但是在形體物以下沒有別的能承受其作用的本體，因為形體物之本體是萬物中等級最低的。所以形體性本體沒有主動或積極作用。",
+      "after": "此外，除了第一個主動者或效力因(agens)外，其餘的主動者或效力因，為起作用都需要有承受其作用的主體。但是在形體物以下沒有別的能承受其作用的本體，因為形體物之本體是萬物中等級最低的。所以形體性本體沒有主動或積極作用。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1697,
+        1698
+      ],
+      "before": "此外，凡形體性本體都有量度。但是量度妨礙本體之活動及作用，因為量度包圍並淹沒本體，例如:有雲的空氣就不能被光照。一個物體的量度愈大，其動作愈笨重，就是一個證據。所以，沒有形體性本體真有主動或積極作用。",
+      "after": "此外，凡形體性本體都有量度。但是量度妨礙本體之活動及作用，因為量度包圍並淹沒本體，例如：有雲的空氣就不能被光照。一個物體的量度愈大，其動作愈笨重，就是一個證據。所以，沒有形體性本體具有主動或積極作用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1698
+      ],
+      "before": "此外，凡主動者之所以有主動能力，是因了與第一主動者相近。但是形體物是極複雜的組合體，而第一主動者是最單純的，二者相距極遠。所以，沒有形體物是主動的。",
+      "after": "此外，凡主動者之所以有主動能力，是因了與第一主動者相近。但是形體物是極複雜的組合體，而第一主動者是最單純的，二者相距極遠。所以，沒有形體物是主動的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1698
+      ],
+      "before": "此外，假如有主動性的形體物，則其作用或是針對本體性形式，或是針對依附體性形式。它不是針對本體性的形式。因為在形體物中除了主動性品質外，沒有別的主動根本，而品質是一種依附體;依附體不能是本體形式之原因，因為原因該高於效果。同樣，它也不是針對依附體性形式。因為，按奧斯定在《論天主聖三》卷九第四章所說的，「依附體不能超出其主體之範圍」。所以，沒有形體物是主動的。",
+      "after": "此外，假如有主動性的形體物，則其作用或是針對本體性形式，或是針對依附體性形式。它不是針對本體性的形式。因為在形體物中除了主動性品質外，沒有別的主動根本，而品質是一種依附體；依附體不能是本體形式之原因，因為原因該高於效果。同樣，它也不是針對依附體性形式。因為，按奧斯定在《論天主聖三》卷九第四章所說的，「依附體不能超出其主體之範圍」。所以，沒有形體物是主動的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1698
+      ],
+      "before": "狄奧尼修在《上天(天使)階級論》第十五章，除了火的其他性質外，並說它「積極或主動，並且力量大，在它所接觸的質料上顯出它的威力」。",
+      "after": "狄奧尼修在《上天(天使)階級論》第十五章，除了火的其他性質外，並說它「積極或主動，並且力量大，在它所接觸的質料上顯出它的威力」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1698,
+        1699,
+        1700
+      ],
+      "before": "我解答如下:感宮明明指出有的形體物有主動或積極作用。但是關於形體物之作用，有些人犯了三種錯誤。有人主張形體物一點積極作用也沒有。這就是亞維採布隆(Avicebron)在其《生命之泉源》(Fons vitae)裡所抱的主張。他根據上面質疑提到的那些理由，想證明沒有形體物是有積極作用的;那些看來似是屬於形體物的作用，乃是一種精神力量的作用，這精神力量貫穿在所有的形體物中。故此，據他說，火沒有熱化作用‘而是滲透在火內的精神力量使東西變熱。這種主張似乎是從柏拉圖的主張演變來的。因為柏拉圖認為所有在形體質料中的形式，都是受這個質料所分得、所限定和所拘束的;獨立的形式則是絕對的和普遍性的。為此他說:那些獨立的形式，乃是質料內之形式的原因(參看第七十九題第三節、第八十四題第一節)。由於形體質料中的形式是因了量度而被限定於這個具體質料，亞維採布隆遂說，形體物的形式是受充為個體化之根本的量度之侷限和禁制，故不能將其作用擴展於另IJ的質料;只有精神性和非物質性的形式，既不受量度之拘束，能將其作用擴展到別的東西。\n但是，這個理由不能證明形體性的形式不是主動者或效力因，只證明它不是普遍性的主動者或效力因。倘若分得某東西，必然也分得這東西的特性;就如一個東西分得的光愈多，也就愈是可見的。主動無非就是使一東西成為現實的，那是現實之所以為現實本有的性質;為此‘凡主動者或效力因都產生與自己相似者。所以，一個形式若不被有量度的質料所限，便是不固定的和普遍性的主動者或效力因;若被某質料所限，便是受限制的個別主動者或效力因。故此，倘若按柏拉圖派的看法，真有獨立的火之形式，貝IJ它多少該是一切燃燒作用之原因η但是在這個形體質料中的火之形式，是從這個形體物到那個形體物之燃燒的原因。事實上這種作用要憑兩個物體之接觸而產生。\n但是亞維採布陸的主張，比柏拉圓的主張還要徹底。柏拉圖認為只有獨立的本體性形式;至於依附體，他則歸之於質料性的根本一一即是大與小，他認為這是第一對相反者，別的人則認為稀與密是第一對相反者。故此，無論柏拉園，或一部分隨從他的亞維採那，都認為形體性的主動者或效力因，只根據依附體性之形式產生作用，準備質料承受本體性之形式;但是最後的成就，即藉引進本體性形式而有的成就，員IJ來自非質料性之根本(參看第六十五題第四節、第七十九題第三節)。這便是關於形體物之作用的第二種主張，在第四十五題第八節論創造時已經講過了。\n第三種是德誤克利圖斯的主張，他說主動在於原子從主動之物體中溢出，被動則在被動之物質的隙孔容納那些原子。亞里斯多德在《生滅論》卷一第八及第九章曾反駁這種主張。因為倘若如此，則物體不是全部被動，而主動之物體的量度該因物體主動而減少;這顯然不合事實。\n所以該說，物體主動或有積極作用，乃因了它是現實的;而其作用及於另一物，貝IJ因為那物是在潛能狀態。",
+      "after": "我解答如下：感官明明指出有的形體物有主動或積極作用。但是關於形體物之作用，有些人犯了三種錯誤。有人主張形體物一點積極作用也沒有。這就是亞維採布隆(Avicebron)在其《生命之泉源》(Fons vitae)裡所抱的主張。他根據上面質疑提到的那些理由，想證明沒有形體物是有積極作用的；那些看來似是屬於形體物的作用，乃是一種精神力量的作用，這精神力量貫穿在所有的形體物中。故此，據他說，火沒有熱化作用，而是滲透在火內的精神力量使東西變熱。這種主張似乎是從柏拉圖的主張演變來的。因為柏拉圖認為所有在形體質料中的形式，都是受這個質料所分得、所限定和所拘束的；獨立的形式則是絕對的和普遍性的。為此他說：那些獨立的形式，乃是質料內之形式的原因(參看第七十九題第三節、第八十四題第一節)。由於形體質料中的形式是因了量度而被限定於這個具體質料，亞維採布隆遂說，形體物的形式是受充為個體化之根本的量度之局限和禁制，故不能將其作用擴展於別的質料；只有精神性和非物質性的形式，既不受量度之拘束，能將其作用擴展到別的東西。\n但是，這個理由不能證明形體性的形式不是主動者或效力因，只證明它不是普遍性的主動者或效力因。倘若分得某東西，必然也分得這東西的特性；就如一個東西分得的光愈多，也就愈是可見的。主動無非就是使一東西成為現實的，那是現實之所以為現實本有的性質；為此，凡主動者或效力因都產生與自己相似者。所以，一個形式若不被有量度的質料所限，便是不固定的和普遍性的主動者或效力因；若被某質料所限，便是受限制的個別主動者或效力因。故此，倘若按柏拉圖派的看法，真有獨立的火之形式，則它多少該是一切燃燒作用之原因。但是在這個形體質料中的火之形式，是從這個形體物到那個形體物之燃燒的原因。事實上這種作用要憑兩個物體之接觸而產生。\n但是亞維採布隆的主張，比柏拉圖的主張還要徹底。柏拉圖認為只有獨立的本體性形式；至於依附體，他則歸之於質料性的根本——即是大與小，他認為這是第一對相反者，別的人則認為稀與密是第一對相反者。故此，無論柏拉圖，或一部分隨從他的亞維採那，都認為形體性的主動者或效力因，只根據依附體性之形式產生作用，準備質料承受本體性之形式；但是最後的成就，即藉引進本體性形式而有的成就，則來自非質料性之根本(參看第六十五題第四節、第七十九題第三節)。這便是關於形體物之作用的第二種主張，在第四十五題第八節論創造時己經講過了。\n第三種是德誤克利圖斯的主張，他說主動在於原子從主動之物體中溢出，被動則在被動之物質的隙孔容納那些原子。亞里斯多德在《生滅論》卷一第八及第九章曾反駁這種主張。因為倘若如此，則物體不是全部被動，而主動之物體的量度該因物體主動而減少；這顯然不合事實。\n所以該說，物體主動或有積極作用，乃因了它是現實的；而其作用及於另一物，則因為那物是在潛能狀態。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "作用‘",
+          "after": "作用，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "侷限",
+          "after": "局限",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為此‘",
+          "after": "為此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因η",
+          "after": "原因。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "布陸",
+          "after": "布隆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "柏拉圓",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "柏拉園",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經講過",
+          "after": "己經講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1700
+      ],
+      "before": "奧斯定的話該是指全部形體界作為一個整體而說的，如此則在它下面沒有受它推動的東西，像精神界之推動形體界，非受造物之推動受造界。但是一個形體物能是低於另一形體物的，郎對男一形體物所現實具有的，它只具有潛能。",
+      "after": "奧斯定的話該是指全部形體界作為一個整體而說的，如此則在它下面沒有受它推動的東西，像精神界之推動形體界，非受造物之推動受造界。但是一個形體物能是低於另一形體物的，即對另一形體物所現實具有的，它只具有潛能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "郎對男一",
+          "after": "即對另一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1700
+      ],
+      "before": "由上面釋疑1.所說的，可知置疑2.之答案。然而要知道，亞維採布隆是這樣推想: 「有的東西是推動者，但不是被推動者一一即萬物之第一創造者;所以相對來說，也有隻是被推動和承受的東西」;這裡沒有錯。但是，那是第一質料，它是純潛能，正如天主之為純現實;而形體物則是由現實及潛能組成的，為此又主動又被動。",
+      "after": "由上面釋疑1.所說的，可知質疑2.之答案。然而要知道，亞維採布隆是這樣推想：「有的東西是推動者，但不是被推動者——即萬物之第一創造者；所以相對來說，也有只是被推動和承受的東西」；這裡沒有錯。但是，那是第一質料，它是純潛能，正如天主之為純現實；而形體物則是由現實及潛能組成的，為此又主動又被動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "置疑",
+          "after": "質疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻是",
+          "after": "只是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1700
+      ],
+      "before": "如正解己說過的，量度不全面阻礙形體形式有積極作用;只阻礙它不能是普遍性的主動者或效力因，由於形式被具有量度之質料所個體化。此外，所舉出的物體之重量的證明不能成立。第一，因為按《天地論》卷四第二章所指出的，量度之增加並不是重量之原因。第二，因為重量不使運動緩慢;甚而一個物體愈重，其自動動力愈大。第三，作用不是靠空間性的動態，相同德諒克利圖斯所說的;而是藉使一個東西從潛能變為現實。",
+      "after": "如正解己說過的，量度不全面阻礙形體形式有積極作用；只阻礙它不能是普遍性的主動者或效力因，由於形式被具有量度之質料所個體化。此外，所舉出的物體之重量的證明不能成立。第一，因為按《天地論》卷四第二章所指出的，量度之增加並不是重量之原因。第二，因為重量不使運動緩慢；甚而一個物體愈重，其自動動力愈大。第三，作用不是靠空間性的動態，如同德誤克利圖斯所說的；而是藉使一個東西從潛能變為現實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相同德諒",
+          "after": "如同德誤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1700,
+        1701
+      ],
+      "before": "形體物不是與天主相距最遠的，因為按它所有的形式，分有某點與天主之存在或現實的近似;與天主相距最遠的，乃是第一質料(元質)。它沒有一點主動或積極作用，因為它只是潛能。",
+      "after": "形體物不是與天主相距最遠的，因為按它所有的形式，分有某點與天主之存在或現實的近似；與天主相距最遠的，乃是第一質料(元質)。它沒有一點主動或積極作用，因為它只是潛能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "形體物之作用，既是針對依附體性形式，也是針對本體性形式。積極的品質，如熱，雖是依附體，但它是以本體形式之力量起作用，好似是本體形式之工具。故此，能針對本體性的形式起作用，例如:由於自然的熱是靈魂之工真，對肉的產生起作用;至於其對依附體起作用，則是憑本身的力量。它的作用超出其主體之範圈，與依附體之理並無不合之處，惟有它的存在超出主體才會如此。除非假定同一個依附體是從主動者流徙到被動者，就如德誤克利圖斯所主張的，作用之產生是由於原子之遷移。",
+      "after": "形體物之作用，既是針對依附體性形式，也是針對本體性形式。積極的品質，如熱，雖是依附體，但它是以本體形式之力量起作用，好似是本體形式之工具。故此，能針對本體性的形式起作用，例如：由於自然的熱是靈魂之工具，對肉的產生起作用；至於其對依附體起作用，則是憑本身的力量。它的作用超出其主體之範圍，與依附體之理並無不合之處，惟有它的存在超出主體才會如此。除非假定同一個依附體是從主動者流徙到被動者，就如德誤克利圖斯所主張的，作用之產生是由於原子之遷移。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "工真",
+          "after": "工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "在形體質料中是否有因子或胚種之理",
+      "after": "在形體質料中是否有因子或胚種之理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "在形體質料中似乎沒有因子或胚種之理(rationes semi-nales)。因為:",
+      "after": "在形體質料中似乎沒有因子或胚種之理(rationes semi-nales)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "「理」(ratio)是一種精神性的東西。但在形體質料中沒有任何精神性的東西，只有物質性的東西，像其所在之主體一樣。所以，在形體質料中沒有胚種之理。",
+      "after": "「理」(ratio)是一種精神性的東西。但在形體質料中沒有任何精神性的東西，只有物質性的東西，像其所在之主體一樣。所以，在形體質料中沒有胚種之理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷三第八及第九章說，魔鬼以隱密的行動，運用他們所知道的元素中的一些因子或胚種，從事某些作為。但是以空間行動所運用的東西，乃是形體，而不是理。所以，不該說在形體質料中有因子或胚種之理。",
+      "after": "此外，奧斯定在《論天主聖三》卷三第八及第九章說，魔鬼以隱密的行動，運用他們所知道的元素中的一些因子或胚種，從事某些作為。但是以空間行動所運用的東西，乃是形體，而不是理。所以，不該說在形體質料中有因子或胚種之理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1701
+      ],
+      "before": "此外，種子乃是一種積極的根本。但是在形體質料中沒有積極的根本;因為按前面第一節釋疑2.及4所說的，積極作用不屬於質料。所以，在形體質料中沒有因子或胚種之理。",
+      "after": "此外，種子乃是一種積極的根本。但是在形體質料中沒有積極的根本；因為按前面第一節釋疑2.及4所說的，積極作用不屬於質料。所以，在形體質料中沒有因子或胚種之理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1701,
+        1702
+      ],
+      "before": "此外，據說在形體質料中有一些原因之理(causales rationes)，這似乎已足能使東西產生(參看:奧斯定，(《創世紀字義新探》卷五第四章)。但是，囡子或胚種之理不同於原因之理;因為奇蹟發生是在因子成胚種之理以外，但不是在原因之理以外。所以不該說，在形體質料中有因子或胚種之理。",
+      "after": "此外，據說在形體質料中有一些原因之理(causales rationes)，這似乎已足能使東西產生(參看：奧斯定，《創世紀字義新探》卷五第四章)。但是，因子或胚種之理不同於原因之理；因為奇蹟發生是在因子或胚種之理以外，但不是在原因之理以外。所以不該說，在形體質料中有因子或胚種之理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，(《",
+          "after": "，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "囡子",
+          "after": "因子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因子成胚種",
+          "after": "因子或胚種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1702
+      ],
+      "before": "奧斯定在給自天主聖三》卷三第八章說: 「凡是以有形可見的方式出生的東西，在這個世界的形體元素中，潛藏有它們的種子。」",
+      "after": "奧斯定在《論天主聖三》卷三第八章說：「凡是以有形可見的方式出生的東西，在這個世界的形體元素中，潛藏有它們的種子。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "給自天主聖三",
+          "after": "《論天主聖三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1702,
+        1703
+      ],
+      "before": "我解答如下:按《靈魂論》卷二第四章所說的，名稱經常是取自比較完美的東西。在整個形體界中，以有生命的形體比較完美;為此「生性或天性」(natura)這個名詞，就是從有生物而推廣轉用於所有的自然物的。因為按哲學家在《形上學》卷五第四章所說的，「生性或天性」原是指有生物之生殖，即所謂的出生;又因了有生物是生於一個相連接的根本，如果子之生於樹，胎兒之生於與之相連結的母體，因而天性遂用以指在有變動之東西內的一切動態之根本。有生物之生殖的積極和被動根本，顯然是生物之所由生出之種子或胚種。因而順理成章地，奧斯定便把作為自然演生和變動之根本的主動和被動能力，稱為「胚種之理」(按semen一字，照其原義應譯為種子或胚種，照其延伸或推廣之義，也可譯為因子)。\n可以從許多層次去看這類主動的和被動的能力。按奧斯定在《創世紀字義新探》卷六第十章所說的，這類能力首先是主要並原本地，以理型或理念的方式，存在於天主聖言內。其次是在世界的元素內，是在最初與元素一起產生的。它們在元素內，好似是在普遍性的原因內。第三，是在那些按時間順序，由普通原因所產生的東西中，例如:在這個植物中、在這個動物中，它們在這些東西中，好似是在個別的原因中。第四，是在動物或植物所產生的種子中。這些種子與其他個別效果的關係，就似最初之普通原因與最初所產生之效果的關係。",
+      "after": "我解答如下：按《靈魂論》卷二第四章所說的，名稱經常是取自比較完美的東西。在整個形體界中，以有生命的形體比較完美；為此「生性或天性」(natura)這個名詞，就是從有生物而推廣轉用於所有的自然物的。因為按哲學家在《形上學》卷五第四章所說的，「生性或天性」原是指有生物之生殖，即所謂的出生；又因了有生物是生於一個相連接的根本，如果子之生於樹，胎兒之生於與之相連結的母體，因而天性遂用以指在有變動之東西內的一切動態之根本。有生物之生殖的積極和被動根本，顯然是生物之所由生出之種子或胚種。因而順理成章地，奧斯定便把作為自然演生和變動之根本的主動和被動能力，稱為「胚種之理」(按：semen一字，照其原義應譯為種子或胚種，照其延伸或推廣之義，也可譯為因子)。\n可以從許多層次去看這類主動的和被動的能力。按奧斯定在《創世紀字義新探》卷六第十章所說的，這類能力首先是主要並原本地，以理型或理念的方式，存在於天主聖言內。其次是在世界的元素內，是在最初與元素一起產生的。它們在元素內，好似是在普遍性的原因內。第三，是在那些按時間順序，由普通原因所產生的東西中，例如：在這個植物中、在這個動物中，它們在這些東西中，好似是在個別的原因中。第四，是在動物或植物所產生的種子中。這些種子與其他個別效果的關係，就似最初之普通原因與最初所產生之效果的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(按semen",
+          "after": "(按：semen",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "自然物的這些主動的和被動的能力，以其存在於形體質料中而論，固然不能稱為「理」;但是，以其與根源的關係來說，可以稱為理，因為是來自(聖言內的)理型的理。",
+      "after": "自然物的這些主動的和被動的能力，以其存在於形體質料中而論，固然不能稱為「理」；但是，以其與根源的關係來說，可以稱為理，因為是來自(聖言內的)理型的理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "這類主動或被動能力是位於形體物的某些部分;當這類能力被魔鬼以空間行動方式，用來產生某些效果時，便說因子或胚種被魔鬼運用。",
+      "after": "這類主動或被動能力是位於形體物的某些部分；當這類能力被魔鬼以空間行動方式，用來產生某些效果時，便說因子或胚種被魔鬼運用。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "在重動力物之生殖中，雄性之精子是主動或積極根本。但是在雌1性凹生因子或種子能是兼含有積極能力和被動能力。",
+      "after": "在動物之生殖中，雄性之精子是主動或積極根本。但是在雌性那方面的被動根本，也可以稱為因子或種子。所以，因子或種子能是兼含有積極能力和被動能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在重動力物之生殖中，雄性之精子是主動或積極根本。但是在雌1性凹生因子或種子能是兼含有積極能力和被動能力。",
+          "after": "在動物之生殖中，雄性之精子是主動或積極根本。但是在雌性那方面的被動根本，也可以稱為因子或種子。所以，因子或種子能是兼含有積極能力和被動能力。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "從奧斯定請論這類因子或胚種之理的話中，可以斷定因子或胚種之理也就是原因之理，正如種子也是一種原因;他在《論天主聖三》卷三第九章說: 「正像母體之孕有胎兒，世界也懷著將要產生之東西的原因。」不過，理型之理可以稱為原因之理，而不能正式稱為因子或胚種之理，因為種子不是與主體分開的根本。而且，奇蹟發生不是超出或在這類(理型之)理的範圍以外，同樣也不是超出或在受造物所秉賦的被動能力範圍以外。受造物是藉這種被動能力，能承受凡是為天主所命令的。所謂奇蹟發生，是說超出或在因子或胚種之理的範圍以外;即是指在自然的主動或積極能力，及與之相關之被動能力範圖以外。\n們",
+      "after": "從奧斯定講論這類因子或胚種之理的話中，可以斷定因子或胚種之理也就是原因之理，正如種子也是一種原因；他在《論天主聖三》卷三第九章說：「正像母體之孕有胎兒，世界也懷著將要產生之東西的原因。」不過，理型之理可以稱為原因之理，而不能正式稱為因子或胚種之理，因為種子不是與主體分開的根本。而且，奇蹟發生不是超出或在這類(理型之)理的範圍以外，同樣也不是超出或在受造物所秉賦的被動能力範圍以外。受造物是藉這種被動能力，能承受凡是為天主所命令的。所謂奇蹟發生，是說超出或在因子或胚種之理的範圍以外；即是指在自然的主動或積極能力，及與之相關之被動能力範圍以外。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "定請論",
+          "after": "定講論",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圖",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\n們",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "天體是否為在下界形體物內所發生者之原因",
+      "after": "天體是否為在下界形體物內所發生者之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1703
+      ],
+      "before": "天體似乎不是在下界形體物內所發生者之原因。因為:",
+      "after": "天體似乎不是在下界形體物內所發生者之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1703,
+        1704
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第七章說: 「我們認為那些東西」'~rJ是天體，「不是下界任何所發生者之原因，也不是腐化者之腐化的原因;只不過是風雨變化的徵兆。」",
+      "after": "大馬士革的若望《論正統信仰》卷二第七章說：「我們認為那些東西」，即是天體，「不是下界任何所發生者之原因，也不是腐化者之腐化的原因；只不過是風雨變化的徵兆。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西」'~rJ是",
+          "after": "東西」，即是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "此外，為產生某效果，只需要有主動者或效力因(agens)及質料。但是在下界的物體中有被動性的質料，也有互相對立的王動者或效力因，即冷與熱等。所以為產生在下界物體中所發生者，不必把原因歸於天體。",
+      "after": "此外，為產生某效果，只需要有主動者或效力因(agens)及質料。但是在下界的物體中有被動性的質料，也有互相對立的主動者或效力因，即冷與熱等。所以為產生在下界物體中所發生者，不必把原因歸於天體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "王動者",
+          "after": "主動者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "此外，凡主動者或效力困者fl產生與自己類似的效果。但是我們看到下界所發生的一切，都是由於變熱或變冷，變乾或變濕，以及其他類似的品質上之變化，這些都是天體所沒有的。所以天體不是下界所發生者之原因。",
+      "after": "此外，凡主動者或效力因都產生與自己類似的效果。但是我們看到下界所發生的一切，都是由於變熱或變冷，變乾或變濕，以及其他類似的品質上之變化，這些都是天體所沒有的。所以天體不是下界所發生者之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "效力困者fl",
+          "after": "效力因都",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "此外，奧斯定在《天主之城》卷五第六章說: 「沒有比身體之性另IJ更形體化的。」但是身體之性別不是由天體產生的;因為在同一星座下出生的雙胞胎，有時一個是男的，一個是女的。所以天體不是下界所產生之物體的原因。",
+      "after": "此外，奧斯定在《天主之城》卷五第六章說：「沒有比身體之性別更形體化的。」但是身體之性別不是由天體產生的；因為在同一星座下出生的雙胞胎，有時一個是男的，一個是女的。所以天體不是下界所產生之物體的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "性另IJ",
+          "after": "性別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "奧斯定在《論天主聖三》卷三第四章說: 「比較粗重低級的物體，是按某種層次受比較精細有力之物體的牽制。」狄奧尼修在《神名論》第四章也說: 「陽光對感官物之產生有作用，使之獲得生命，滋養它，使之長大，使之成熟。」",
+      "after": "奧斯定在《論天主聖三》卷三第四章說：「比較粗重低級的物體，是按某種層次受比較精細有力之物體的牽制。」狄奧尼修在《神名論》第四章也說：「陽光對感官物之產生有作用，使之獲得生命，滋養它，使之長大，使之成熟。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "我解答如下:既然凡是繁多都是源自單一;而不動者只有一種存在方式，能動者則有多種方式。所以，該認為在整個自然界中，凡動態皆是來自不動者。所以，愈是不動的東西，愈是動的東西之原因。天體是在形體物中最固定的，因為天體只有空間性的動態。因此，下界形體物的千變萬化，都歸宗於天體之運動，有似其原因。",
+      "after": "我解答如下：既然凡是繁多都是源自單一；而不動者只有一種存在方式，能動者則有多種方式。所以，該認為在整個自然界中，凡動態皆是來自不動者。所以，愈是不動的東西，愈是動的東西之原因。天體是在形體物中最固定的，因為天體只有空間性的動態。因此，下界形體物的千變萬化，都歸宗於天體之運動，有似其原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1704
+      ],
+      "before": "大馬士革的若望的話，是說天體並不是下界物體生滅之第一原因，像那些將天體視為神的人所說的。",
+      "after": "大馬士革的若望的話，是說天體並不是下界物體生滅之第一原因，像那些將天體視為神的人所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1705
+      ],
+      "before": "在下界的形體物中，除了元素的積極品質，如冷及熱等之外，沒有別的主動或積極根本。如果下界形體物之本體形式之區分只是根據這類依附體，古代自然哲學家認為其根本是稀和密;則在這些下界形體物之上，不必另有主動或積極根本，這些依附體便足以起作用。但細加思索者可以看出，這類依附體乃是針對自然物體之本體形式的質料方面之配備，而質料不足以起作用或主動。為此，在這些質料性配備之上，該有個主動的或積極的根本。\n為此柏拉圖派認為有獨立的物性或形式(species)，下界形體物因分得這些形式而獲得本體性之形式。但這似乎有所不足。因為獨立之物性或形式是一成不變的，因為他們說這些形式是固定的，如此則下界形體物之生滅不該有什麼變化;這顯然不合事實。\n為此按哲學家在《生滅論》卷二第十章所說的，必該有一個可動的主動或積極根本，因了它在或不在，而在下界形體物之生滅方面產生變化。天體就是這類根本。故此，凡在下界形體物中有生化活動的，都是以天體之工具的資格，推動同性或同類物之產生;是以《物理學》卷二第二章說: 「人和太陽產生人。」",
+      "after": "在下界的形體物中，除了元素的積極品質，如冷及熱等之外，沒有別的主動或積極根本。如果下界形體物之本體形式之區分只是根據這類依附體，古代自然哲學家認為其根本是稀和密；則在這些下界形體物之上，不必另有主動或積極根本，這些依附體便足以起作用。但細加思索者可以看出，這類依附體乃是針對自然物體之本體形式的質料方面之配備，而質料不足以起作用或主動。為此，在這些質料性配備之上，該有個主動的或積極的根本。\n為此柏拉圖派認為有獨立的物性或形式(species)，下界形體物因分得這些形式而獲得本體性之形式。但這似乎有所不足。因為獨立之物性或形式是一成不變的，因為他們說這些形式是固定的，如此則下界形體物之生滅不該有什麼變化；這顯然不合事實。\n為此按哲學家在《生滅論》卷二第十章所說的，必該有一個可動的主動或積極根本，因了它在或不在，而在下界形體物之生滅方面產生變化。天體就是這類根本。故此，凡在下界形體物中有生化活動的，都是以天體之工具的資格，推動同性或同類物之產生；是以《物理學》卷二第二章說：「人和太陽產生人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1705
+      ],
+      "before": "天體與下界之形體物的相似，不是基於種類上的相似，而是根據天體以其普遍性能力﹒在自身含有在下界物體中所產生的一切;我們也是按此方式，說一切都與天主相似。",
+      "after": "天體與下界之形體物的相似，不是基於種類上的相似，而是根據天體以其普遍性能力，在自身含有在下界物體中所產生的一切；我們也是按此方式，說一切都與天主相似。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能力﹒",
+          "after": "能力，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1705
+      ],
+      "before": "天體之作用，是按質料之配備上的不同，而以不同方式為下界形體物所承受。有時人體受孕之質料不是全部都適於男性，故此一部分形成男性，一部分形成女性。奧斯定舉出這個事實，是為反對占星術的;因為星辰在形體物上的作用，因質料之配備上的不同而各異。",
+      "after": "天體之作用，是按質料之配備上的不同，而以不同方式為下界形體物所承受。有時人體受孕之質料不是全部都適於男性，故此一部分形成男性，一部分形成女性。奧斯定舉出這個事實，是為反對占星術的；因為星辰在形體物上的作用，因質料之配備上的不同而各異。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "天體是否為人性行為之原因",
+      "after": "天體是否為人性行為之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "天體似乎是人性行為之原因。因為:",
+      "after": "天體似乎是人性行為之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "按前面第一-0題第三節所說的，天體既是受精神本體之推動，乃是像工具用精神本體之力量而起作用。但那些精神本體比我們的靈魂高。所以，天體似乎能影響我們的靈魂，並產生人性活動。",
+      "after": "按前面第一一〇題第三節所說的，天體既是受精神本體之推動，乃是像工具用精神本體之力量而起作用。但那些精神本體比我們的靈魂高。所以，天體似乎能影響我們的靈魂，並產生人性活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "此外，凡形態複雜的都歸宗於形態單一的根本。但人性行為是變化萬端的。所以，似乎歸宗於天體的單一化動態有似自己的根本。",
+      "after": "此外，凡形態複雜的都歸宗於形態單一的根本。但人性行為是變化萬端的。所以，似乎歸宗於天體的單一化動態有似自己的根本。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "此外，星相學家有關戰爭，或其他以理智及意志為根本的人性行為，多次預言真情。除非天體是人性行為之原因，否則便不能憑天體而做到此點。所以，天體是人性行為之原因。",
+      "after": "此外，星相學家有關戰爭，或其他以理智及意志為根本的人性行為，多次預言真情。除非天體是人性行為之原因，否則便不能憑天體而做到此點。所以，天體是人性行為之原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1706
+      ],
+      "before": "大馬士革的若望說: 「天體絕對不是人性行為之原因。」(《論正統信仰》卷二第七章)",
+      "after": "大馬士革的若望說：「天體絕對不是人性行為之原因。」(《論正統信仰》卷二第七章)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1706,
+        1707
+      ],
+      "before": "我解答如下:按前面第三節己說過的，天體的確直接並本然地影響形體物。其對靈魂之繫於身體器官之活動的影響，固然是直接的，不過是偶然的;因為基於身體器官之受到阻礙‘這些機能之此類活動也必然受到阻礙，就如眼睛若有病，便看不清楚。故此，假若理智和意志是繫於身體器官的機能，就如有些人曾主張理智與感官沒有區別;買IJ天體必然是人性行為和選擇之原因。果真如此的話，貝IJ人乃是憑自然本能活動，就像那些只有繫於身體器官之機能的其他動物一樣;因為這些低級動物在天體之影響下的活動，是自然天性的活動。如此，則人沒有自由意志，其活動是固定的，像其他自然物一樣。這顯然不合事實，與人情相反。\n然而要知道，天體對理智及意志能有間接和偶然的影響;因為無論理智或意志，都多少從下級機能有所接受，而這些機能又繫於身體之器官。但是關於這一點，理智和意志的情形有所不同。因為理智是必然地由下級知覺機能接受;為此，若想像，或估量力，或記憶力受到幹擾，理智的活動也必然受到幹擾。但是意志不是必然地隨從低級嗜慾之傾向;雖然憤情和慾情部分的情，都有點影響意志的能力，但是意志仍保有順從或不順從惰的能力。故此，天體之能使低級機能據以有所改變的影響，對充為人↑生行為之近困的意志，比對理智，作用較認為天體是人性行為之原因，是那些認為理智與感官沒有區別者的專有之主張。是以，他們當中有人說: 「人與眾神之父，每天給什麼志願，人便有什麼志願。」(荷馬，《奧底賽》(Odyss.)卷十八，一三五及一三六旬)理智和意志既然不是身體器官之活動，可知天體不可能是人性行為之原因。",
+      "after": "我解答如下：按前面第三節己說過的，天體的確直接並本然地影響形體物。其對靈魂之繫於身體器官之活動的影響，固然是直接的，不過是偶然的；因為基於身體器官之受到阻礙，這些機能之此類活動也必然受到阻礙，就如眼睛若有病，便看不清楚。故此，假若理智和意志是繫於身體器官的機能，就如有些人曾主張理智與感官沒有區別；則天體必然是人性行為和選擇之原因。果真如此的話，則人乃是憑自然本能活動，就像那些只有繫於身體器官之機能的其他動物一樣；因為這些低級動物在天體之影響下的活動，是自然天性的活動。如此，則人沒有自由意志，其活動是固定的，像其他自然物一樣。這顯然不合事實，與人情相反。\n然而要知道，天體對理智及意志能有間接和偶然的影響；因為無論理智或意志，都多少從下級機能有所接受，而這些機能又繫於身體之器官。但是關於這一點，理智和意志的情形有所不同。因為理智是必然地由下級知覺機能接受；為此，若想像，或估量力，或記憶力受到干擾，理智的活動也必然受到干擾。但是意志不是必然地隨從低級嗜慾之傾向；雖然憤情和慾情部分的情，都有點影響意志的能力，但是意志仍保有順從或不順從情的能力。故此，天體之能使低級機能據以有所改變的影響，對充為人性行為之近因的意志，比對理智，作用較小。認為天體是人性行為之原因，是那些認為理智與感官沒有區別者的專有之主張。是以，他們當中有人說：「人與眾神之父，每天給什麼志願，人便有什麼志願。」(荷馬，《奧底賽》(Odyss.)卷十八，一三五及一三六句)理智和意志既然不是身體器官之活動，可知天體不可能是人性行為之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "阻礙‘",
+          "after": "阻礙，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幹擾",
+          "after": "干擾",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "順從惰",
+          "after": "順從情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人↑生",
+          "after": "人性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "近困",
+          "after": "近因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "作用較認為",
+          "after": "作用較小。認為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一三六旬",
+          "after": "一三六句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1707
+      ],
+      "before": "推動天體的精神本體，對形體物的作用固然是通過天體之媒介;但對人之理智的作用則是直接的，~p直接光照或啟發。按前面第一一一題第二節所說的，精神本體不能改變人的意三臺",
+      "after": "推動天體的精神本體，對形體物的作用固然是通過天體之媒介；但對人之理智的作用則是直接的，即直接光照或啟發。按前面第一一一題第二節所說的，精神本體不能改變人的意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~p",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意三臺",
+          "after": "意志。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1707
+      ],
+      "before": "正如形體物之千變萬化的動態，歸宗於天體之單一動態為原因;理智與意志之千變萬化的活動，也歸宗於單一的根本，即天主之理智和意志。",
+      "after": "正如形體物之千變萬化的動態，歸宗於天體之單一動態為原因；理智與意志之千變萬化的活動，也歸宗於單一的根本，即天主之理智和意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1707
+      ],
+      "before": "大多數人順從惰，而情是感官嗜慾之動態，天體對情能有配合作用;少數有智慧的人才抵制這類的惰。是以，星相學家多次能預言真情，特別關於廣泛的事情;關於個別的事情則不然，因為可能有人能以自由意志控制惰。故此，星相學家也說: 「有智慧的人宰制星辰」'即是因為他控制自己的情。",
+      "after": "大多數人順從情，而情是感官嗜慾之動態，天體對情能有配合作用；少數有智慧的人才抵制這類的情。是以，星相學家多次能預言真情，特別關於廣泛的事情；關於個別的事情則不然，因為可能有人能以自由意志控制情。故此，星相學家也說：「有智慧的人宰制星辰」，即是因為他控制自己的情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "星辰」'",
+          "after": "星辰」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "天體是否能影響魔鬼",
+      "after": "天體是否能影響魔鬼",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "天體似乎能影響魔鬼。因為:",
+      "after": "天體似乎能影響魔鬼。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "魔鬼是按月亮的盈虧折磨人，這些人因而被稱為「受月球影響的狂人」(lunaticus)，還有《瑪竇福音》第四章24節及第卡七章14節所說的為憑據。除非魔鬼受天體之影響，否則不會是這樣。所以，魔鬼受天體之作用的影響。",
+      "after": "魔鬼是按月亮的盈虧折磨人，這些人因而被稱為「受月球影響的狂人」(lunaticus)，這有《瑪竇福音》第四章24節及第十七章14節所說的為憑據。除非魔鬼受天體之影響，否則不會是這樣。所以，魔鬼受天體之作用的影響。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還有",
+          "after": "這有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第卡七章",
+          "after": "第十七章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "此外，行妖術的是面朝某些星座、呼喚魔鬼。若魔鬼不繫於天體，便不會藉天體呼喚。所以，魔鬼受天體之作用的影響。",
+      "after": "此外，行妖術的是面朝某些星座、呼喚魔鬼。若魔鬼不繫於天體，便不會藉天體呼喚。所以，魔鬼受天體之作用的影響。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "此外，天體比下界的形體物力量大，但是能用某些下界的東西抵制魔鬼，即「用草、石、動物，特別是某些響聲和聲音，以及形像」'如奧斯定在《天主之城》卷十第十一章引述波菲裏(Porphyrio)的話所說的。所以，魔鬼更該受天體之作用的影響。",
+      "after": "此外，天體比下界的形體物力量大，但是能用某些下界的東西抵制魔鬼，即「用草、石、動物，特別是某些響聲和聲音，以及形像」，如奧斯定在《天主之城》卷十第十一章引述波菲里(Porphyrio)的話所說的。所以，魔鬼更該受天體之作用的影響。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "形像」'",
+          "after": "形像」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "波菲裏",
+          "after": "波菲里",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1708
+      ],
+      "before": "按天性等級，魔鬼是高於天體的。按奧斯定在《創世紀字義新探》卷十二第十六章所說的，「主動者高於被動者」。所以魔鬼不受天體之作用的影響。",
+      "after": "按天性等級，魔鬼是高於天體的。按奧斯定在《創世紀字義新探》卷十二第十六章所說的，「主動者高於被動者」。所以魔鬼不受天體之作用的影響。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1708,
+        1709
+      ],
+      "before": "我解答如下:關於魔鬼有三種主張。第一種是亞里斯多德派的，他們認為沒有魔鬼;在巫術中歸功於魔鬼的事情，都是由天體之作用產生的。奧斯定在《天主之城》卷十第十一章引述玻爾菲裏的話，便在影射這種主張:「人在地上發明瞭各種法術，以便獲致星辰的各種效果。」這主張顯然不合真理。憑經驗就可知道，魔鬼行的許多事情，絕非用天體的力量足以解釋，例如:附魔的人講他們不會的語言，背誦他們從來沒學過的詩句和文章，巫術家使石像講話和動作等事。\n因此，柏拉固派遂主張，魔鬼是「以空氣為身體，及心有感受的動物」;這是奧斯定在《天主之城》卷八第十六章引述的亞佈雷佑(Apl自ius)所下的定義。這是第二種主張。按這主張，可以說魔鬼受天體之影響的方式，就像前面第四節關於人所說的一樣。\n但是根據前面第五十一題第一節所說的，可以知道這主張不合真理。我們曾說過(按:這是第三種主張)，魔鬼是沒有身體的智性本體。由此可見，無論本然地或偶然地，直接地或間接地，魔鬼都不受天體之作用的影響。",
+      "after": "我解答如下：關於魔鬼有三種主張。第一種是亞里斯多德派的，他們認為沒有魔鬼；在巫術中歸功於魔鬼的事情，都是由天體之作用產生的。奧斯定在《天主之城》卷十第十一章引述波爾菲里的話，便在影射這種主張：「人在地上發明了各種法術，以便獲致星辰的各種效果。」這主張顯然不合真理。憑經驗就可知道，魔鬼行的許多事情，絕非用天體的力量足以解釋，例如：附魔的人講他們不會的語言，背誦他們從來沒學過的詩句和文章，巫術家使石像講話和動作等事。\n因此，柏拉圖派遂主張，魔鬼是「以空氣為身體，及心有感受的動物」；這是奧斯定在《天主之城》卷八第十六章引述的亞布雷佑(Apuleius)所下的定義。這是第二種主張。按這主張，可以說魔鬼受天體之影響的方式，就像前面第四節關於人所說的一樣。\n但是根據前面第五十一題第一節所說的，可以知道這主張不合真理。我們曾說過(按：這是第三種主張)，魔鬼是沒有身體的智性本體。由此可見，無論本然地或偶然地，直接地或間接地，魔鬼都不受天體之作用的影響。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "玻爾菲裏",
+          "after": "波爾菲里",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發明瞭",
+          "after": "發明了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "柏拉固",
+          "after": "柏拉圖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "亞佈雷佑",
+          "after": "亞布雷佑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Apl自ius",
+          "after": "Apuleius",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1709
+      ],
+      "before": "魔鬼按月亮的盈虧折磨人，是因了兩個理由。第一，按熱羅尼莫U(《瑪竇福音註釋》關於第四章24節)及金口若望(《瑪竇福音論贊》第五十七篇)所說的，是為了「悔辱天主的受造物」'即月亮。第二，既然按照前面第一一四題第四節釋疑2.所說的，魔鬼只能藉自然界的能力起作用;他們在採取行動時，先看物體對其所企圖之效果的準(蕭條件。據亞里斯多德所說的，顯然「大腦是身體中最濕潤的一部分」(《論動物之部分》卷二第七章;《論感官與感官物》第二章;(《論睡眠與醒寢》第三章)，故最易受月亮之影響一一月亮的特性就是推動液體。動物性的機能是以大腦為中樞，因此魔鬼是按月亮之盈虧，等大腦之條件合適時，平擾人的想像。",
+      "after": "魔鬼按月亮的盈虧折磨人，是因了兩個理由。第一，按熱羅尼莫(《瑪竇福音註釋》關於第四章24節)及金口若望(《瑪竇福音論贊》第五十七篇)所說的，是為了「侮辱天主的受造物」，即月亮。第二，既然按照前面第——四題第四節釋疑2.所說的，魔鬼只能藉自然界的能力起作用；他們在採取行動時，先看物體對其所企圖之效果的準備條件。據亞里斯多德所說的，顯然「大腦是身體中最濕潤的一部分」(《論動物之部分》卷二第七章；《論感官與感官物》第二章；《論睡眠與醒寤》第三章)，故最易受月亮之影響——月亮的特性就是推動液體。動物性的機能是以大腦為中樞，因此魔鬼是按月亮之盈虧，等大腦之條件合適時，干擾人的想像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "熱羅尼莫U(",
+          "after": "熱羅尼莫(",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "悔辱",
+          "after": "侮辱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受造物」'",
+          "after": "受造物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "準(蕭條件",
+          "after": "準備條件",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ";(《",
+          "after": "；《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "醒寢",
+          "after": "醒寤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "平擾",
+          "after": "干擾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1709
+      ],
+      "before": "藉某些星座呼喚魔鬼，魔鬼就來，是為了兩個理由:第一，使人誤信在星辰上住有神仙。第二，因為魔鬼看到在某些星座下，形體質料最適於產生人呼喚他們所企望的那些教果。",
+      "after": "藉某些星座呼喚魔鬼，魔鬼就來，是為了兩個理由：第一，使人誤信在星辰上住有神仙。第二，因為魔鬼看到在某些星座下，形體質料最適於產生人呼喚他們所企望的那些效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "教果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1709
+      ],
+      "before": "正如奧斯定在《天主之城》卷二十一第六章所說的，「魔鬼被各種石頭、草木、動物、歌詠及禮儀所吸引，並非如動物受食物吸引，而是如精神受標記吸引」'即因為這些東西是天主尊榮的標幟，而魔鬼貪求這種尊榮。",
+      "after": "正如奧斯定在《天主之城》卷二十一第六章所說的，「魔鬼被各種石頭、草木、動物、歌詠及禮儀所吸引，並非如動物受食物吸引，而是如精神受標記吸引」，即因為這些東西是天主尊榮的標幟，而魔鬼貪求這種尊榮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "吸引」'",
+          "after": "吸引」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "天體在受其作用之影響的東西中，是否產生必然的效果",
+      "after": "天體在受其作用之影響的東西中，是否產生必然的效果",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "天體在受其作用之影響的東西中，似平產生必然的效果。因為:",
+      "after": "天體在受其作用之影響的東西中，似乎產生必然的效果。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似平",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "有了足夠的原因，必然就有效果。但是天體乃是其效果的足夠原因。既然天體連同其動態和性質，都被視為必然的存在物，似乎其放果也是必然地產生。",
+      "after": "有了足夠的原因，必然就有效果。但是天體乃是其效果的足夠原因。既然天體連同其動態和性質，都被視為必然的存在物，似乎其效果也是必然地產生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "此外，主動者或效力因之能力，大到足以使質料完全受其支配時，則在質料上必然地產生其效果。但是，下界物體的全部質料都受天體之力量的支配，有如受高層力量的支配。所以，形體質料是必然地承受天體之效果。",
+      "after": "此外，主動者或效力因之能力，大到足以使質料完全受其支配時，則在質料上必然地產生其效果。但是，下界物體的全部質料都受天體之力量的支配，有如受高層力量的支配。所以，形體質料是必然地承受天體之效果。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "此外，假若天體不是必然地產生其效果，那是因了受到某原因的阻礙。但是任何能阻礙天體之效果的形體界原因，必然是以某天界東西為根本，因為天體是在下界所發生的一切事物之原因。既然那個天界根本是必然的，乃是必然地阻礙另一天體之效果，如此則在下界發生的一切事，都是必然發生的。",
+      "after": "此外，假若天體不是必然地產生其效果，那是因了受到某原因的阻礙。但是任何能阻礙天體之效果的形體界原因，必然是以某天界東西為根本，因為天體是在下界所發生的一切事物之原因。既然那個天界根本是必然的，乃是必然地阻礙另一天體之效果，如此則在下界發生的一切事，都是必然發生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1710
+      ],
+      "before": "哲學家在《論睡眠與醒措》說: 「在形體界預示天象，如風雨等的徵兆，有許多並沒有應驗，這也不足見怪。」(參看《論睡眠中的預知》第二章)所以，天體之效果，不是全都必然地產生。",
+      "after": "哲學家在《論睡眠與醒寤》說：「在形體界預示天象，如風雨等的徵兆，有許多並沒有應驗，這也不足見怪。」(參看《論睡眠中的預知》第二章)所以，天體之效果，不是全都必然地產生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "醒措",
+          "after": "醒寤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1710,
+        1711
+      ],
+      "before": "我解答如下:這個問題，有一部分在前面第四節已經有了答案，一部分向有困難，須待解釋。前面曾經指出，雖然天體之影響能在形體物上產生某些傾向，但意志並非必然地順從這些傾向。所以，由於意志的作用並非不能阻礙天體之妓果，不只在人自己身上，而且也在人之活動所能及的其他東西上。\n但是在自然界沒有任何這樣的根本，即可以自由地順從或不順從天體之影響的根本;因而，似乎至少在這樣的東西內，一切都是必然地發生。這是根據某些古老的說法，他們假定凡存在的都有原因，以及一有原因就必然有效果，因而結論說，一切都是必然地發生。亞里斯多德在《形上學》卷六第三章，曾從他們所假定的雨點加以反駁。\n第一，並非有了任何原因，就必然有效果。有些原因不是必然產生效果，只是多次產生，但也有時候不產生。不過，由於這些原因之所以有時失效，只是因了別的原因之阻礙，所以似乎仍無法避免上述之結論;因為另一原因之障礙也是必然發生的。\n第二，因而該說，凡是本然者，都有原因;而偶然者則沒有原因，因為它不是真正的物(ens)，因為它不是真正的「單一」(unum)。白色有原因，音樂也有原因;但是白色音樂沒有原因，因為那不是真正的物，也不是真正的單一。一個原因之阻礙另一個多次產生其效果的原因，顯然是偶而與另一原因相遇;這種際遇，就其是偶然的來說，沒有原因。為此，因這際遇而發生的事，並沒有個先已存在的原因，以使之必然發生，例如:一個屬於下界的物體在高層天空起火，落在地上，其原因是天上的某種力量;同樣，在地面上有某種可著火的原料，也可以歸宗於某天上的根本。但是那有火的物體正落在這個原料上，並把它燃燒，並不是以某天體為原因，而是偶然的事。由此可見，天體之效果不都是必然的。",
+      "after": "我解答如下：這個問題，有一部分在前面第四節己經有了答案，一部分尚有困難，須待解釋。前面曾經指出，雖然天體之影響能在形體物上產生某些傾向，但意志並非必然地順從這些傾向。所以，由於意志的作用並非不能阻礙天體之效果，不只在人自己身上，而且也在人之活動所能及的其他東西上。\n但是在自然界沒有任何這樣的根本，即可以自由地順從或不順從天體之影響的根本；因而，似乎至少在這樣的東西內，一切都是必然地發生。這是根據某些古老的說法，他們假定凡存在的都有原因，以及一有原因就必然有效果，因而結論說，一切都是必然地發生。亞里斯多德在《形上學》卷六第三章，曾從他們所假定的兩點加以反駁。\n第一，並非有了任何原因，就必然有效果。有些原因不是必然產生效果，只是多次產生，但也有時候不產生。不過，由於這些原因之所以有時失效，只是因了別的原因之阻礙，所以似乎仍無法避免上述之結論；因為另一原因之障礙也是必然發生的。\n第二，因而該說，凡是本然者，都有原因；而偶然者則沒有原因，因為它不是真正的物(ens)，因為它不是真正的「單一」(unum)。白色有原因，音樂也有原因；但是白色音樂沒有原因，因為那不是真正的物，也不是真正的單一。一個原因之阻礙另一個多次產生其效果的原因，顯然是偶而與另一原因相遇；這種際遇，就其是偶然的來說，沒有原因。為此，因這際遇而發生的事，並沒有個先己存在的原因，以使之必然發生，例如：一個屬於下界的物體在高層天空起火，落在地上，其原因是天上的某種力量；同樣，在地面上有某種可著火的原料，也可以歸宗於某天上的根本。但是那有火的物體正落在這個原料上，並把它燃燒，並不是以某天體為原因，而是偶然的事。由此可見，天體之效果不都是必然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經有了",
+          "after": "己經有了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一部分向有",
+          "after": "一部分尚有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "雨點",
+          "after": "兩點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "先已存在",
+          "after": "先己存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1711
+      ],
+      "before": "天體是通過下界的個別原因，而在下界產生效果，下界的個別原因有時能失效。",
+      "after": "天體是通過下界的個別原因，而在下界產生效果，下界的個別原因有時能失效。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q115.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1711,
+        1712
+      ],
+      "before": "天體之力量不是無限的。為此‘要在質料上產生效果，需要質料有某些配備，無論是空間距離方面，或別的方面的條件。正如空間距離能阻礙天體之效果(因為在北歐達其亞(Dacia J'與在非洲厄提約丕雅(Aethiopia J'太陽的熱化效果並不一樣);同樣質料的組細，冷或熱，及其他類似的情形，都能阻礙天體之效果。",
+      "after": "天體之力量不是無限的。為此，要在質料上產生效果，需要質料有某些配備，無論是空間距離方面，或別的方面的條件。正如空間距離能阻礙天體之效果(因為在北歐達其亞〔Dacia〕，與在非洲厄提約丕雅〔Aethiopia〕，太陽的熱化效果並不一樣)；同樣質料的粗細，冷或熱，及其他類似的情形，都能阻礙天體之效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為此‘",
+          "after": "為此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(Dacia J'",
+          "after": "〔Dacia〕，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(Aethiopia J'",
+          "after": "〔Aethiopia〕，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "組細",
+          "after": "粗細",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q115.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1712
+      ],
+      "before": "雖然阻礙另一原因之效果的原因，最後是以某天體為原因;但是兩個原因之相遇，既是偶然的，不能歸宗於天上的原因，這在上面正解已經說了。",
+      "after": "雖然阻礙另一原因之效果的原因，最後是以某天體為原因；但是兩個原因之相遇，既是偶然的，不能歸宗於天上的原因，這在上面正解己經說了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說了",
+          "after": "己經說了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
