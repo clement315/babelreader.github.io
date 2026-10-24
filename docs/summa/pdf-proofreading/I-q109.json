@@ -1,0 +1,1269 @@
+{
+  "schema_version": 1,
+  "batch": "I-q109",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q109",
+    "title": "論惡天使之排列或次序",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1641,
+      1642,
+      1643,
+      1644,
+      1645,
+      1646
+    ],
+    "printed_pages": [
+      414,
+      419
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 46,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q109.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q109.json": "246768aee580868885c11ddcf144b1f9ca15e09f07aafece81b8b56389188afd",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q109.a001.ad1",
+      "pdf_file_page": 1642,
+      "text": "己經證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q109.prologue",
+      "description": "删除引言前杂字与箭头，保留原换行。"
+    },
+    {
+      "id": "I.q109.a001.sed_contra",
+      "description": "移回误并入反之的三条质疑内容；保留原字段与换行。第一质疑原书内含「反之」，依底本保留。"
+    }
+  ],
+  "notes": [
+    "全部6页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q109.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "心\n卅-\n然(主要討論的是患天使之排列或次序(ordinatio;參看第一臺六題引言)。就\n關於這點，可以提出四個問題:\n→\n一、在魔鬼中是否有品絞。\n二、在他們中是否有領導。\n三、一個是否光照或啟發另一個。\n四、他們是否受善天使之領導。",
+      "after": "\n\n然後要討論的是惡天使之排列或次序(ordinatio；參看第一〇六題引言)。\n關於這點，可以提出四個問題：\n\n一、在魔鬼中是否有品級。\n二、在他們中是否有領導。\n三、一個是否光照或啟發另一個。\n四、他們是否受善天使之領導。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心\n卅-\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "然(主要",
+          "after": "然後要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "患天使",
+          "after": "惡天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一臺六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ")。就",
+          "after": ")。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "→\n",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "品絞",
+          "after": "品級",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "在魔鬼中是否有品級",
+      "after": "在魔鬼中是否有品級",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "在魔鬼中似乎沒有品級(ordines)。因為:",
+      "after": "在魔鬼中似乎沒有品級(ordines)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "品級或秩序(ordo)乃是屬於善的因素，就像模式及物種，還有奧斯定在《論善之性質》第三章裡所說的以資證明。",
+      "after": "品級或秩序(ordo)乃是屬於善的因素，就像模式及物種，這有奧斯定在《論善之性質》第三章裡所說的以資證明。反之無秩序是屬於惡的成素。但在善天使中沒有一點沒有秩序的東西。所以在惡天使中沒有什麼品級或秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還有奧斯定",
+          "after": "這有奧斯定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以資證明。",
+          "after": "以資證明。反之無秩序是屬於惡的成素。但在善天使中沒有一點沒有秩序的東西。所以在惡天使中沒有什麼品級或秩序。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "",
+      "after": "此外，天使之品級是屬於一種等級或體制(hierarchia)之下的。但是魔鬼不屬於任何等級或體制之下，因為體制是神聖的統制，而他們卻是一點聖善也沒有。所以在魔鬼中沒有品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，天使之品級是屬於一種等級或體制(hierarchia)之下的。但是魔鬼不屬於任何等級或體制之下，因為體制是神聖的統制，而他們卻是一點聖善也沒有。所以在魔鬼中沒有品級。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1641
+      ],
+      "before": "",
+      "after": "此外，按一般的說法，魔鬼是從各種天使之品級上墮落而成的。倘若有的魔鬼因了是由某品級墮落而成的，就說他們屬於這個品級，似乎每一品級的名稱都能適用於魔鬼。但是從來也不稱魔鬼為色辣芬，或上座者，或宰制者。所以由此可以類推，他們沒有品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，按一般的說法，魔鬼是從各種天使之品級上墮落而成的。倘若有的魔鬼因了是由某品級墮落而成的，就說他們屬於這個品級，似乎每一品級的名稱都能適用於魔鬼。但是從來也不稱魔鬼為色辣芬，或上座者，或宰制者。所以由此可以類推，他們沒有品級。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "，無秩序是屬於惡的成素。但在善天使中沒有一點沒有秩序的東西。所以在惡天使中沒有什麼品級或秩序。\n2.ι此t七外'天使之品級是屬於一種等級或體制(愧hi吋巴叮「削ar咄1卸a;:之下的。但是魔鬼不屬於任何等級或體制之下，因為體制是神聖的統制，而他們卻是一點聖善也沒有。所以在魔鬼中沒有品級。\n3.此外，按一般的說法，魔鬼是從各種天使之品級上墮落而成的。倘若有的魔鬼因了是由某品級墮落而成的，就說他們屬於這個品級，似乎每一品級的名稱都能適用於魔鬼。但是從來也不稱魔鬼為色辣芬，或上座者，或宰制者。所以由此可以類推，他們沒有品級。皮之宗徒在《厄弗所書》第六章12節說: 「我們戰門不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸主。」",
+      "after": "宗徒在《厄弗所書》第六章12節說：「我們戰鬥不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸主。」\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，無秩序是屬於惡的成素。但在善天使中沒有一點沒有秩序的東西。所以在惡天使中沒有什麼品級或秩序。\n2.ι此t七外'天使之品級是屬於一種等級或體制(愧hi吋巴叮「削ar咄1卸a;:之下的。但是魔鬼不屬於任何等級或體制之下，因為體制是神聖的統制，而他們卻是一點聖善也沒有。所以在魔鬼中沒有品級。\n3.此外，按一般的說法，魔鬼是從各種天使之品級上墮落而成的。倘若有的魔鬼因了是由某品級墮落而成的，就說他們屬於這個品級，似乎每一品級的名稱都能適用於魔鬼。但是從來也不稱魔鬼為色辣芬，或上座者，或宰制者。所以由此可以類推，他們沒有品級。皮之宗徒在《厄弗所書》第六章12節說: 「我們戰門不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸主。」",
+          "after": "宗徒在《厄弗所書》第六章12節說: 「我們戰門不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸主。」\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "戰門",
+          "after": "戰鬥",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "我解答如下:前面第一0八題第四、第七、第八節曾經說過，天使之品級，一是看天性之等次，一是看恩寵之等次。恩寵有兩種形態:一是不完美的，即是立功之形態;一是完美的，即是得到榮福之形態。如果是從完美之榮福的方面看天使之品級，員IJ魔鬼現在沒有，也從未具有天使之各種品級。但若從不完美之恩寵的方面去看，買IJ魔鬼曾有一段時間屬於天(吏的各種品級，但是墮落了。根據先前第六十二題第三節所說，所有的天使都是在恩寵中受造的;倘若看天性方面，貝IJ魔鬼現在仍有品級，因為按狄奧尼修所說的，他們沒有失去自然天賦(《神名論》第四章)。",
+      "after": "我解答如下：前面第一〇八題第四、第七、第八節曾經說過，天使之品級，一是看天性之等次，一是看恩寵之等次。恩寵有兩種形態：一是不完美的，即是立功之形態；一是完美的，即是得到榮福之形態。如果是從完美之榮福的方面看天使之品級，則魔鬼現在沒有，也從未具有天使之各種品級。但若從不完美之恩寵的方面去看，則魔鬼曾有一段時間屬於天使的各種品級，但是墮落了。根據先前第六十二題第三節所說，所有的天使都是在恩寵中受造的；倘若看天性方面，則魔鬼現在仍有品級，因為按狄奧尼修所說的，他們沒有失去自然天賦(《神名論》第四章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0八",
+          "after": "第一〇八",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "i.善中能沒有惡，但惡中不能沒有善，這在第四十九題第三節已經證明過了。所以，就魔鬼有善的天性來說，他們是有秩序的。",
+      "after": "善中能沒有惡，但惡中不能沒有善，這在第四十九題第三節己經證明過了。所以，就魔鬼有善的天性來說，他們是有秩序的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經證明",
+          "after": "己經證明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "魔鬼之體制或秩序，若從置立其秩序的天主那方面去看，是神聖的，因為天主是為自己而利用魔鬼;但是從魔鬼的意志方面去看，則不是神聖的，因為他們妄用天性以行惡。",
+      "after": "魔鬼之體制或秩序，若從置立其秩序的天主那方面去看，是神聖的，因為天主是為自己而利用魔鬼；但是從魔鬼的意志方面去看，則不是神聖的，因為他們妄用天性以行惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "色辣芬之名稱是來自愛德之熱火，上座者之名稱是由於天主之坐息或駐暉，宰制者之名稱含有自由之意義一一這些名稱與罪惡皆互不相容。故此，不用這些名稱指犯了罪的天使。",
+      "after": "色辣芬之名稱是來自愛德之熱火，上座者之名稱是由於天主之坐息或駐蹕，宰制者之名稱含有自由之意義——這些名稱與罪惡皆互不相容。故此，不用這些名稱指犯了罪的天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "駐暉",
+          "after": "駐蹕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意義一一",
+          "after": "意義——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "在魔鬼中是否有領導",
+      "after": "在魔鬼中是否有領導",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1642
+      ],
+      "before": "在魔鬼中似乎沒有領導(praelatio)。因為:",
+      "after": "在魔鬼中似乎沒有領導(praelatio)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1643
+      ],
+      "before": "凡領導都是根據一種正義的秩序。但是魔鬼完全背棄了正義。所以在他們中沒有領導。",
+      "after": "凡領導都是根據一種正義的秩序。但是魔鬼完全背棄了正義。所以在他們中沒有領導。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1643
+      ],
+      "before": "此外，哪裡沒有服從和繫厲，也就沒有領導。若沒有協調，這些都不可能存在;而按《儀言》第十三章10節所說的，魔鬼之間毫無協調: 「在傲慢者中常有爭端」。所以，在魔鬼中沒有領導。",
+      "after": "此外，哪裡沒有服從和繫屬，也就沒有領導。若沒有協調，這些都不可能存在；而按《箴言》第十三章10節所說的，魔鬼之間毫無協調：「在傲慢者中常有爭端」。所以，在魔鬼中沒有領導。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "繫厲",
+          "after": "繫屬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "儀言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1643
+      ],
+      "before": "此外，假如在他們中間有一種領導，那或是基於他們的天性，或是基於他們的罪過或處分。但不是基於天性，因為繫屬與勞役不是來白天性，而是生於罪惡;也不是基於罪過或處分。因為如此，則罪過重的高級魔鬼，該服屬於低級魔鬼。所以在魔鬼之間沒有領導。",
+      "after": "此外，假如在他們中間有一種領導，那或是基於他們的天性，或是基於他們的罪過或處分。但不是基於天性，因為繫屬與勞役不是來自天性，而是生於罪惡；也不是基於罪過或處分。因為如此，則罪過重的高級魔鬼，該服屬於低級魔鬼。所以在魔鬼之間沒有領導。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1643
+      ],
+      "before": "關於《格林多前書》第十五章24節的「註解」(拉丁通行本註解)上說: 「只要世界存在，使天使領導天使，人領導人，魔鬼領導魔鬼。」",
+      "after": "關於《格林多前書》第十五章24節的「註解」(拉丁通行本註解)上說：「只要世界存在，使天使領導天使，人領導人，魔鬼領導魔鬼。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1643
+      ],
+      "before": "我解答如下:東西之活動既是隨其天性，無論什麼東西，若其天性之間有次序，其活動之問也該有次序。這可從形體物上看出來。按自然次序低級形體物是在天體之下，其作用及活動遂也繫於天體之作用及活動。根據前面第一節所說的﹒有的魔鬼按自然次序顯然低於別的魔鬼。為此，他們的活動也繫於高級魔鬼之活動。而這就是構成領導的因素，即是屬下之行動繫於領導者之行動。所以魔鬼的自然次序就要求在他們牛間有領導。這也合於天主的智慧，它使宇宙中到處都有秩序，就如《智慧篇》第八章1節說的: 「智慧施展威力，從地極直達地掛，從容治理萬物。」",
+      "after": "我解答如下：東西之活動既是隨其天性，無論什麼東西，若其天性之間有次序，其活動之間也該有次序。這可從形體物上看出來。按自然次序低級形體物是在天體之下，其作用及活動遂也繫於天體之作用及活動。根據前面第一節所說的，有的魔鬼按自然次序顯然低於別的魔鬼。為此，他們的活動也繫於高級魔鬼之活動。而這就是構成領導的因素，即是屬下之行動繫於領導者之行動。所以魔鬼的自然次序就要求在他們中間有領導。這也合於天主的智慧，它使宇宙中到處都有秩序，就如《智慧篇》第八章1節說的：「智慧施展威力，從地極直達地極，從容治理萬物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之問",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說的﹒",
+          "after": "說的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "牛間",
+          "after": "中間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地掛",
+          "after": "地極",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1643,
+        1644
+      ],
+      "before": "魔鬼問的領導不是基於他們自己的正義，而是基於安排一切的天主之正義。",
+      "after": "魔鬼間的領導不是基於他們自己的正義，而是基於安排一切的天主之正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "魔鬼問",
+          "after": "魔鬼間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "魔鬼彼此間之協調，有的服從別的，並不是由於彼此之友誼;而是基於他們仇恨人類和反抗天主之正義的共同惡謀。世間的惡人也有這種情形，他們為了逞其惡行，也常是團結為一，服從能力較大的3",
+      "after": "魔鬼彼此間之協調，有的服從別的，並不是由於彼此之友誼；而是基於他們仇恨人類和反抗天主之正義的共同惡謀。世間的惡人也有這種情形，他們為了逞其惡行，也常是團結為一，服從能力較大的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "大的3",
+          "after": "大的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "魔鬼們按天性彼此不平等，因此，在他們中間有一種自然的領導。人類不是這樣，人按天性是平等的。而低級魔鬼服從高級的，對高級魔鬼沒有益處，反有害處;因為作惡乃是不幸的事，所以領頭(乍惡更為不幸。",
+      "after": "魔鬼們按天性彼此不平等，因此，在他們中間有一種自然的領導。人類不是這樣，人按天性是平等的。而低級魔鬼服從高級的，對高級魔鬼沒有益處，反有害處；因為作惡乃是不幸的事，所以領頭作惡更為不幸。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(乍惡",
+          "after": "作惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "在魔鬼中是否有光照或啟發",
+      "after": "在魔鬼中是否有光照或啟發",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "在魔鬼中似乎有光照或啟發。因為:",
+      "after": "在魔鬼中似乎有光照或啟發。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "光照或啟發在於揭示真理。但是魔鬼能向別的魔鬼揭示真理;因為高級魔鬼的自然認知能力較高。所以，高級魔鬼能光照或啟發低級魔鬼υ",
+      "after": "光照或啟發在於揭示真理。但是魔鬼能向別的魔鬼揭示真理；因為高級魔鬼的自然認知能力較高。所以，高級魔鬼能光照或啟發低級魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "魔鬼υ",
+          "after": "魔鬼。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "此外，光度強的物體能照耀光度弱的物體，就如太陽之光照月亮。但是高級魔鬼分得的自然之光較多。所以高級魔鬼似乎能光照或啟發低級魔鬼。",
+      "after": "此外，光度強的物體能照耀光度弱的物體，就如太陽之光照月亮。但是高級魔鬼分得的自然之光較多。所以高級魔鬼似乎能光照或啟發低級魔鬼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1644
+      ],
+      "before": "按前面第一。六題第一節反之、第二節釋疑1.所說的，光照或啟發作用與淨化及成全作用是相關的。但是魔鬼沒有淨化作用，就如《德訓篇》第三十四章4節所說的: 「污穢者能使什麼潔淨呢?」所以，也沒有光照或啟發作用。",
+      "after": "按前面第一〇六題第一節反之、第二節釋疑1.所說的，光照或啟發作用與淨化及成全作用是相關的。但是魔鬼沒有淨化作用，就如《德訓篇》第三十四章4節所說的：「污穢者能使什麼潔淨呢?」所以，也沒有光照或啟發作用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一。六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1644,
+        1645
+      ],
+      "before": "我解答如下:寬鬼彼此之間，不能有真正的光照或啟發作用。前面第一C七題第二節曾說，真正的光照或啟發是揭示指向天主的真理，天主光照或啟發一切理智。然而，講話也能是揭示真理的，就如一個天使向另一天使顯露他的意念時。但是魔鬼的邪惡，促使他不願意使別的魔鬼歸向天主，而寧要使之背離天主。故此，魔鬼不光照或啟發別的魔鬼，但是能以講話的方式將自己的意念揭示給別的魔鬼。",
+      "after": "我解答如下：魔鬼彼此之間，不能有真正的光照或啟發作用。前面第一〇七題第二節曾說，真正的光照或啟發是揭示指向天主的真理，天主光照或啟發一切理智。然而，講話也能是揭示真理的，就如一個天使向另一天使顯露他的意念時。但是魔鬼的邪惡，促使他不願意使別的魔鬼歸向天主，而寧要使之背離天主。故此，魔鬼不光照或啟發別的魔鬼，但是能以講話的方式將自己的意念揭示給別的魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "寬鬼",
+          "after": "魔鬼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一C七",
+          "after": "第一〇七",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "並非凡真理之揭示都是光照或啟發，只有先前正解所說的真理之揭示纔是。",
+      "after": "並非凡真理之揭示都是光照或啟發，只有先前正解所說的真理之揭示才是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "在自然知識方面，無論天使或魔鬼，都不需要真理之揭露;因為按前面第五十五題第二節、第五十八題第二節、第七十九題第二節所說的，他們一受造價具有了一切自然知識。為此，高級魔鬼所具有的較多之自然之光，不足以構成光照或啟發作用的基礎或理由。",
+      "after": "在自然知識方面，無論天使或魔鬼，都不需要真理之揭露；因為按前面第五十五題第二節、第五十八題第二節、第七十九題第二節所說的，他們一受造便具有了一切自然知識。為此，高級魔鬼所具有的較多之自然之光，不足以構成光照或啟發作用的基礎或理由。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "受造價",
+          "after": "受造便",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "善天便是否統轄惡天使",
+      "after": "善天使是否統轄惡天使",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "善天使似乎並不統轄惡天(吏。因為:",
+      "after": "善天使似乎並不統轄惡天使。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "天使之統轄主要是基於光照或啟發作用。但是，惡天使既然是黑暗，不受善天使之光照或啟發。所以，善天使並不統轄惡天使。",
+      "after": "天使之統轄主要是基於光照或啟發作用。但是，惡天使既然是黑暗，不受善天使之光照或啟發。所以，善天使並不統轄惡天使。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "此外，屬下的惡行，似乎該歸咎於領導者之疏忽。但是魔鬼做許多壞事。如果魔鬼是受善天使之領導，似乎善天使方面有疏忽的地方。這似乎不合理。",
+      "after": "此外，屬下的惡行，似乎該歸咎於領導者之疏忽。但是魔鬼做許多壞事。如果魔鬼是受善天使之領導，似乎善天使方面有疏忽的地方。這似乎不合理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q109.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1645
+      ],
+      "before": "此外司按前面第二節所說的，天使之領導是根據天性之次序。但按一般的說法，魔鬼既是由各品級墮落而來的，頁IJ按自然次序，許多魔鬼高於許多善天使。所以，善天使並非統轄所有的惡天使。",
+      "after": "此外，按前面第二節所說的，天使之領導是根據天性之次序。但按一般的說法，魔鬼既是由各品級墮落而來的，則按自然次序，許多魔鬼高於許多善天使。所以，善天使並非統轄所有的惡天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外司",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頁IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1645,
+        1646
+      ],
+      "before": "奧斯定在《論天主聖三》卷三第四章說:「棄逃並犯罪的生命精神體，受順理性、虔誠又正直的生命精神體之管轄。」教宗額我略一世也說:「所謂掌權者，是指能宰制相反之勢力的天使。」(《福音論贊》卷二第三十四篇)",
+      "after": "奧斯定在《論天主聖三》卷三第四章說：「棄逃並犯罪的生命精神體，受順理性、虔誠又正直的生命精神體之管轄。」教宗額我略一世也說：「所謂掌權者，是指能宰制相反之勢力的天使。」(《福音論贊》卷二第三十四篇)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1646
+      ],
+      "before": "我解答如下:領導之整個次序首先並根本是基於天主，並由受造物因與天主相近而分得;因為比較完美並與天主相近的受造物，便有影響其他受造物的能力。最大的完美，並導致更接近天主的，是那些獲致享見天主的受造物所有的完美，就如聖善的天使;而魔鬼沒有這種完美。是以善天使統轄惡天(吏，而後者受前者治理。",
+      "after": "我解答如下：領導之整個次序首先並根本是基於天主，並由受造物因與天主相近而分得；因為比較完美並與天主相近的受造物，便有影響其他受造物的能力。最大的完美，並導致更接近天主的，是那些獲致享見天主的受造物所有的完美，就如聖善的天使；而魔鬼沒有這種完美。是以善天使統轄惡天使，而後者受前者治理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1646
+      ],
+      "before": "許多有關天主的奧祕的事，是由聖善的天使揭示給魔鬼。例如，當天主的正義要求魔鬼做一些事，或為處罰惡人，或為磨練善人時;就如在人闊的事情上，法官的助手將法官的判決通知給執刑的人。這種揭示，從天使那方面說，是光照或啟發;因為他們是將這些事指向天主。從魔鬼那方面說，則不是光照或啟發;因為魔鬼不將這些事指向天主，只是為逞遂自己的惡意。",
+      "after": "許多有關天主的奧祕的事，是由聖善的天使揭示給魔鬼。例如，當天主的正義要求魔鬼做一些事，或為處罰惡人，或為磨練善人時；就如在人間的事情上，法官的助手將法官的判決通知給執刑的人。這種揭示，從天使那方面說，是光照或啟發；因為他們是將這些事指向天主。從魔鬼那方面說，則不是光照或啟發；因為魔鬼不將這些事指向天主，只是為逞遂自己的惡意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人闊",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1646
+      ],
+      "before": "聖善的天使是天主上智之臣僕。正如天主的上智容訐惡天使和惡人做些壞事，為了因而能產生的善;聖善的天使也不完全阻止惡天使有傷害的行為c",
+      "after": "聖善的天使是天主上智之臣僕。正如天主的上智容許惡天使和惡人做些壞事，為了因而能產生的善；聖善的天使也不完全阻止惡天使有傷害的行為。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "容訐",
+          "after": "容許",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行為c",
+          "after": "行為。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q109.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1646
+      ],
+      "before": "按自然次序地位較低的天使統轄魔鬼，雖然按自然次序魔鬼地位較高;因為善天使所依附的天主正義之能力，高於天使的自然能力。是以，按《格林多前書》第二章的節所說的，在人間也是「屬神的人能審斷一切」。哲學家在《倫理學》卷三第四章、卷十第五章也說:「有德的人是一切人性行為之標準和尺度。」",
+      "after": "按自然次序地位較低的天使統轄魔鬼，雖然按自然次序魔鬼地位較高；因為善天使所依附的天主正義之能力，高於天使的自然能力。是以，按《格林多前書》第二章15節所說的，在人間也是「屬神的人能審斷一切」。哲學家在《倫理學》卷三第四章、卷十第五章也說：「有德的人是一切人性行為之標準和尺度。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二章的節",
+          "after": "第二章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
