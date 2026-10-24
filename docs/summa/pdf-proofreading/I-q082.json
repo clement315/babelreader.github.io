@@ -1,0 +1,1535 @@
+{
+  "schema_version": 1,
+  "batch": "I-q082",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "6e48e9d3a648bf36e64dcaa648e04fd343fcc85b",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q082",
+    "title": "論意志",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      1346,
+      1347,
+      1348,
+      1349,
+      1350,
+      1351,
+      1352,
+      1353,
+      1354,
+      1355,
+      1356
+    ],
+    "printed_pages": [
+      119,
+      129
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 60,
+    "changed_review_units": 40,
+    "checked_unchanged_review_units": 21
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q82.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q82.json": "5fff7468036dad0d014e10f3a7c3620cdd896ed4725407cc5377b6b5b9ccadc4"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q082.a002.title",
+      "pdf_file_page": 1348,
+      "text": "凡意志所願意的是，否皆為意志所必然願意",
+      "status": "suspected_source_print_error",
+      "action": "原页标题确作「的是，否」，疑「的，是否」之排字错位；现有标题与原页一致，保留供人工定夺。"
+    },
+    {
+      "id": "I.q082.a002.respondeo",
+      "pdf_file_page": 1349,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q082.a003.respondeo",
+      "pdf_file_page": 1351,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q082.a004.ad1",
+      "pdf_file_page": 1353,
+      "text": "第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q082.a004.ad2",
+      "pdf_file_page": 1354,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q082.a005.arg1",
+      "pdf_file_page": 1354,
+      "text": "第六章31節",
+      "status": "source_scan_mark_checked",
+      "action": "原页智慧篇引文确作第六章31节；数字依原页保留，不按其他版本重编号。"
+    },
+    {
+      "id": "I.q082.a005.arg3",
+      "pdf_file_page": 1355,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q082.a005.ad3",
+      "pdf_file_page": 1356,
+      "text": "據此己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部11页、5节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q082.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "然後要討論的是意志(voluntas;參看第八十題引言)。\n關於這點，可以提出五個問題:\n一、意志是否必然欲求某些東西。\n二、意志是否必然欲求一切東西。\n三、意志是否為高於理智的機能。\n四、意志是否推動理智。\n五、意志是否分為憤情和慾情。",
+      "after": "然後要討論的是意志(voluntas；參看第八十題引言)。\n關於這點，可以提出五個問題：\n一、意志是否必然欲求某些東西。\n二、意志是否必然欲求一切東西。\n三、意志是否為高於理智的機能。\n四、意志是否推動理智。\n五、意志是否分為憤情和慾情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "意志是否必然欲求某些東西",
+      "after": "意志是否必然欲求某些東西",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "意志似乎不是必然欲求任何東西。因為:",
+      "after": "意志似乎不是必然欲求任何東西。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "奧斯定在《天主之城》卷五第十章說，一事若是必然的，便不是情願的。但意志所欲求的-切﹒皆是情願的。所以意志所欲求的，都不是必然所願望的。",
+      "after": "奧斯定在《天主之城》卷五第十章說，一事若是必然的，便不是情願的。但意志所欲求的一切，皆是情願的。所以意志所欲求的，都不是必然所願望的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "-切﹒",
+          "after": "一切，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "此外，按哲學家《形上學》卷九第二章所說的，理性機能是針對彼此對立者的。但意志是有理性的機能，因為正如《靈魂論》卷三第九章所說的，意志是在理性部分。所以意志是針對彼此對立者的，故此它不受任何必然限定。",
+      "after": "此外，按哲學家《形上學》卷九第二章所說的，理性機能是針對彼此對立者的。但意志是有理性的機能，因為正如《靈魂論》卷三第九章所說的，意志是在理性部分。所以意志是針對彼此對立者的，故此它不受任何必然限定。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1346
+      ],
+      "before": "此外，由於意志，我們是我們之行動的主人。但是對那出於必然者，我們不是主人。所以意志之活動不能是出於必然。",
+      "after": "此外，由於意志，我們是我們之行動的主人。但是對那出於必然者，我們不是主人。所以意志之活動不能是出於必然。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1346,
+        1347
+      ],
+      "before": "奧斯定在《論天主聖三》卷十三第四章說: 「大家以同一意志欲求幸福。」如果那不是必然的，而是偶然的，至少該有少數例外。所以，有的東西，是意志必然願意的。",
+      "after": "奧斯定在《論天主聖三》卷十三第四章說：「大家以同一意志欲求幸福。」如果那不是必然的，而是偶然的，至少該有少數例外。所以，有的東西，是意志必然願意的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1347
+      ],
+      "before": "我解答如下: 「必然」有許多意義，必然就是「不能不然」。一物之為必然或不能不然，一種方式是由於內在的根本:這或是由於質料根本，例如我們說:凡由相反者組合而成的東西必然會腐化;或是由於形式根本，例如說:三角形的三個角必然等於兩個直角。這種是自然和絕對的必然。一物之不能不然的另一種方式，是由於某外在根本，即由於目的，或由於動因。由於目的，因為缺少某特定物便不能或不易達到目的，如食物之於生命，馬之於旅程。這稱為目的上的必然，這種必然有時也稱為利益。由於動因，就如一人受某主動者之強迫，而不能反抗。這稱為「強迫性的必然」(necessitas coactionis)。\n強迫性的必然與意志絕對衝突。因為所謂為暴力所強迫的，就是與東西之傾向相反的。意志之動態乃是對某東西之傾向。因此，正如所謂自然的，是指合於天性之傾向的;同樣，所謂「情願的」(voluntarius)，也是指合於意志之傾向的。所以，正如一件事不能同時又是被暴力所強迫的，又是自然的;同樣，一件事也不可能又是絕對、或全面被迫的、或為暴力所逼的，又是情願的。\n當目的只有一種方法可以達到時，這種目的上的必然與意志不相衝突;例如，由於意志願意過海，意志便也不能不願意乘船。\n自然的必然與意志同樣也不衝突;甚而，正如理智必然依附第一或基本原理，意志也必然依附最後目的，即幸福。因為按《物理學》卷二第九章所說的，行動方面的目的，就似思辨方面的原理。因為那自然並固定不移地適合某東西者，該是其餘一切的基礎和根本。在每個東西中，天性是最先有的，一切動態皆源自某個不變動的東西。",
+      "after": "我解答如下：「必然」有許多意義，必然就是「不能不然」。一物之為必然或不能不然，一種方式是由於內在的根本：這或是由於質料根本，例如我們說：凡由相反者組合而成的東西必然會腐化；或是由於形式根本，例如說：三角形的三個角必然等於兩個直角。這種是自然和絕對的必然。一物之不能不然的另一種方式，是由於某外在根本，即由於目的，或由於動因。由於目的，因為缺少某特定物便不能或不易達到目的，如食物之於生命，馬之於旅程。這稱為目的上的必然，這種必然有時也稱為利益。由於動因，就如一人受某主動者之強迫，而不能反抗。這稱為「強迫性的必然」(necessitas coactionis)。\n強迫性的必然與意志絕對衝突。因為所謂為暴力所強迫的，就是與東西之傾向相反的。意志之動態乃是對某東西之傾向。因此，正如所謂自然的，是指合於天性之傾向的；同樣，所謂「情願的」(voluntarius)，也是指合於意志之傾向的。所以，正如一件事不能同時又是被暴力所強迫的，又是自然的；同樣，一件事也不可能又是絕對、或全面被迫的、或為暴力所逼的，又是情願的。\n當目的只有一種方法可以達到時，這種目的上的必然與意志不相衝突；例如，由於意志願意過海，意志便也不能不願意乘船。\n自然的必然與意志同樣也不衝突；甚而，正如理智必然依附第一或基本原理，意志也必然依附最後目的，即幸福。因為按《物理學》卷二第九章所說的，行動方面的目的，就似思辨方面的原理。因為那自然並固定不移地適合某東西者，該是其餘一切的基礎和根本。在每個東西中，天性是最先有的，一切動態皆源自某個不變動的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "奧斯定的話，該是指的強迫性的必然。因為他在《天主之城》卷五第十章說，自然的必然「不排斥意志之自由」。",
+      "after": "奧斯定的話，該是指的強迫性的必然。因為他在《天主之城》卷五第十章說，自然的必然「不排斥意志之自由」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "從意志自然願意某東西方面來看，它與領悟自然原理的理智或悟性，更為相配或相呼應，甚於它與針對彼此對立者的理性之關係。從這方面看，更好說它是理智的機能，而非理性的機能。",
+      "after": "從意志自然願意某東西方面來看，它與領悟自然原理的理智或悟性，更為相配或相呼應，甚於它與針對彼此對立者的理性之關係。從這方面看，更好說它是理智的機能，而非理性的機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "我們之所以是我們之行動的主人，是由於我們能選取這個或那個。按《倫理學》卷三第三及第五章所說的，選擇不是關於目的本身，而是「關於導致目的者」。所以對最後目的之慾求，不屬於我們為其主人的行動或事物範圈。",
+      "after": "我們之所以是我們之行動的主人，是由於我們能選取這個或那個。按《倫理學》卷三第三及第五章所說的，選擇不是關於目的本身，而是「關於導致目的者」。所以對最後目的之慾求，不屬於我們為其主人的行動或事物範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "凡意志所願意的是，否皆為意志所必然願意",
+      "after": "凡意志所願意的是，否皆為意志所必然願意",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "凡意志所願意的，似乎皆為意志所必然願意。因為:",
+      "after": "凡意志所願意的，似乎皆為意志所必然願意。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "狄奧尼修在《神名論》第四章說: 「惡不屬於意志之對象範圈。」所以，意志是必然地趨向於呈現於己之善。",
+      "after": "狄奧尼修在《神名論》第四章說：「惡不屬於意志之對象範圍。」所以，意志是必然地趨向於呈現於己之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "此外，意志之對象與意志之關係，就似推動者與被推動者。但是被推動者之動態，乃是必然地隨推動者之推動而生。所以，意志之對象，似乎是必然地推動意志。",
+      "after": "此外，意志之對象與意志之關係，就似推動者與被推動者。但是被推動者之動態，乃是必然地隨推動者之推動而生。所以，意志之對象，似乎是必然地推動意志。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "此外，正如感官所知覺者是感官嗜慾之對象，同樣理智所知覺者也是智性嗜慾或意志之對象。但是感官所知覺者是必然地推動感官嗜慾，因為奧斯定在《創世紀字義新探》卷九第十四章說: 「動物為其所見之物所動」。所以，理智所知覺者似乎是必然地推動意志ο",
+      "after": "此外，正如感官所知覺者是感官嗜慾之對象，同樣理智所知覺者也是智性嗜慾或意志之對象。但是感官所知覺者是必然地推動感官嗜慾，因為奧斯定在《創世紀字義新探》卷九第十四章說：「動物為其所見之物所動」。所以，理智所知覺者似乎是必然地推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意志ο",
+          "after": "意志。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1348
+      ],
+      "before": "奧斯定在《訂正錄》卷一第九章說: 「人用以犯罪和善生者是意志。」如此則意志與彼此對立者之關係是兩可的。故意志不是必然願意其所願意的一切。",
+      "after": "奧斯定在《訂正錄》卷一第九章說：「人用以犯罪和善生者是意志。」如此則意志與彼此對立者之關係是兩可的。故意志不是必然願意其所願意的一切。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1349
+      ],
+      "before": "我解答如下:意志不是必然願意其所願意的一切。為證明此點，要知道，按前面第一節己說過的，正如理智自然和必然地依附第一或基本原理，意志也是自然和必然地依附最後目的。然而，有些可理解的事理與第一或基本原理沒有必然的聯繫，例如:若否定偶然為真的命題，並不必否定第一或基本原理。所以理智不是必然地贊同這些偶然真的命題。有些命題是必然真的，與第一或基本原理有必然的聯繫，例如:可加以證明的結論;若否定這些結論，便得否定第一或基本原理。對這類結論，理智根據演繹推論的證明，一知道其與第一或基本原理的必然聯繫，便必然地贊同。但是在沒有用證明知道這種必然聯繫之前，便不必然地贊同。\n在意志方面也是一樣。有些個別的善，與真褔或幸褔沒有必然的聯繫，沒有那些善一人也能幸福，意志不是必然地依附這種善。有的善與幸福有必然的聯繫，即是人藉以與天主結合者，而天主是真正幸福之所在。但是在這種聯繫的必然性，藉確實目睹天主而獲得彰顯之前，意志並不必然依附天主和天主的事物。但是見到天主本體者之意志，是必然地依附天主，就像現在我們是必然地願意幸福一樣。由此可見，意志不是必然地願意其所願意的一切。",
+      "after": "我解答如下：意志不是必然願意其所願意的一切。為證明此點，要知道，按前面第一節己說過的，正如理智自然和必然地依附第一或基本原理，意志也是自然和必然地依附最後目的。然而，有些可理解的事理與第一或基本原理沒有必然的聯繫，例如：若否定偶然為真的命題，並不必否定第一或基本原理。所以理智不是必然地贊同這些偶然真的命題。有些命題是必然真的，與第一或基本原理有必然的聯繫，例如：可加以證明的結論；若否定這些結論，便得否定第一或基本原理。對這類結論，理智根據演繹推論的證明，一知道其與第一或基本原理的必然聯繫，便必然地贊同。但是在沒有用證明知道這種必然聯繫之前，便不必然地贊同。\n在意志方面也是一樣。有些個別的善，與真福或幸福沒有必然的聯繫，沒有那些善一人也能幸福，意志不是必然地依附這種善。有的善與幸福有必然的聯繫，即是人藉以與天主結合者，而天主是真正幸福之所在。但是在這種聯繫的必然性，藉確實目睹天主而獲得彰顯之前，意志並不必然依附天主和天主的事物。但是見到天主本體者之意志，是必然地依附天主，就像現在我們是必然地願意幸福一樣。由此可見，意志不是必然地願意其所願意的一切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1349
+      ],
+      "before": "意志無論趨向什麼，都是為了善的關係。但是因了有眾多的善，故不是必然地被限定於某一個。",
+      "after": "意志無論趨向什麼，都是為了善的關係。但是因了有眾多的善，故不是必然地被限定於某一個。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1349
+      ],
+      "before": "在推動者的能力超過被推動者，以致後者之可能性全部操在推動者的勢力下時，推動者纔是必然地在被推動者身上產生作用。既然意志的能力是針對完美和普遍之善，故某個別善不能控制其全部可能性，因而意志不是必然地受它推動。",
+      "after": "在推動者的能力超過被推動者，以致後者之可能性全部操在推動者的勢力下時，推動者才是必然地在被推動者身上產生作用。既然意志的能力是針對完美和普遍之善，故某個別善不能控制其全部可能性，因而意志不是必然地受它推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1349,
+        1350
+      ],
+      "before": "感官機能不像理性那樣，能包繹不同的對象，而只知覺某一個對象。因而根據這一對象，以固定的方式，來推動感官嗜慾。但理性能包羅許多類對象，因而智性或理性嗜慾，亦即意志，能受多方面的推動，而非必然地受一個對象之推動。",
+      "after": "感官機能不像理性那樣，能包羅不同的對象，而只知覺某一個對象。因而根據這一對象，以固定的方式，來推動感官嗜慾。但理性能包羅許多類對象，因而智性或理性嗜慾，亦即意志，能受多方面的推動，而非必然地受一個對象之推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "包繹",
+          "after": "包羅",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "意志是否為高於理智的機能",
+      "after": "意志是否為高於理智的機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "意志似乎是高於理智(intellectus)的機能。因為:",
+      "after": "意志似乎是高於理智(intellectus)的機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "意志之對象乃是善及目的，目的是原因中為首的和最高的。所以意志是機能中為首的和最高的。",
+      "after": "意志之對象乃是善及目的，目的是原因中為首的和最高的。所以意志是機能中為首的和最高的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "此外，自然界的東西是從不完美狀態達到完美狀態。在靈魂之機能中也是如此;其過程是從感官到理智，而理智是更為高貴的。但自然程序是從理智之活動達到意志之活動，所以意志是比理智完美又高貴的機能。",
+      "after": "此外，自然界的東西是從不完美狀態達到完美狀態。在靈魂之機能中也是如此；其過程是從感官到理智，而理智是更為高貴的。但自然程序是從理智之活動達到意志之活動，所以意志是比理智完美又高貴的機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "此外，習性與機能是相配的，有似完美或成就與可造就者是相配的。但是成就或成全意志的習性是愛德，它比成全理智的習性都高貴，因為《格林多前書》第十三章2節說:「我若有先知之恩，又明白一切臭祕和各種知識;我若有全備的信心，甚至能移山;但我若沒有愛，我什麼也不算。」所以意志是高於理智的機能。",
+      "after": "此外，習性與機能是相配的，有似完美或成就與可造就者是相配的。但是成就或成全意志的習性是愛德，它比成全理智的習性都高貴，因為《格林多前書》第十三章2節說：「我若有先知之恩，又明白一切奧祕和各種知識；我若有全備的信心，甚至能移山；但我若沒有愛，我什麼也不算。」所以意志是高於理智的機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "臭祕",
+          "after": "奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1350
+      ],
+      "before": "哲學家在《倫理學》卷十第七章，主張靈魂最高的機能是理智。",
+      "after": "哲學家在《倫理學》卷十第七章，主張靈魂最高的機能是理智。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1350,
+        1351
+      ],
+      "before": "我解答如下:所謂一個東西比另一個高貴，可以從兩方面去看:一是從絕對觀點，一是從相對觀點。所謂一個東西是絕對怎樣，乃是根據這東西本身怎樣;所謂相對地是怎樣，是根據它與另一東西的關係怎樣。因此，若看理智和意志本身，則理智比較高貴。這可以由二者之對象的比較上看出來。理智之對象比意志之對象單純並絕對，因為理智之對象是可欲之善的理;意志之對象則是可欲之善，而其所以為可欲之善的理是在理智中。一個東西越單純和抽象，它本身便越高貴，所以理智的對象比意志的對象高貴。機能之性質既在於其與對象的關係，因此按其本身並絕對地說，理智比意志高貴。\n按相對的觀點，看東西與另一東西的關係'則有時意志比理智高貴;即是由於意志之對象所在之物，高於理智之對象所在之物。就好似因了聲音所在之物高於顏色所在之物，便說聽覺相對地上七視覺高貴，雖然顏色原比聲音高貴單純。第十六題第一節、第二十七題第四節已經說過，理智之作用，是在於被領悟的東西之理是在領悟者中;意志之活動的完成，在於意志傾向於充為其對象的東西本身。是以哲學家在《形上學》卷六第四章說，[善與惡J'即意志之對象，[是在東西中J;[真與假J'即理智之對象，[是在心靈裡」。所以，如果善所在之物，比被領悟之理所在之靈魂本身高貴，貝IJ意志由於與這物的關係，比理智高貴。但若善所在之物，低於靈魂，則即使在與這東西的關係中，理智也比意志高貴。故此，愛天主比認識天主好;反之，認識形體物比愛形體物好。但絕對地說來，理智比意志高貴。",
+      "after": "我解答如下：所謂一個東西比另一個高貴，可以從兩方面去看：一是從絕對觀點，一是從相對觀點。所謂一個東西是絕對怎樣，乃是根據這東西本身怎樣；所謂相對地是怎樣，是根據它與另一東西的關係怎樣。因此，若看理智和意志本身，則理智比較高貴。這可以由二者之對象的比較上看出來。理智之對象比意志之對象單純並絕對，因為理智之對象是可欲之善的理；意志之對象則是可欲之善，而其所以為可欲之善的理是在理智中。一個東西越單純和抽象，它本身便越高貴，所以理智的對象比意志的對象高貴。機能之性質既在於其與對象的關係，因此按其本身並絕對地說，理智比意志高貴。\n按相對的觀點，看東西與另一東西的關係，則有時意志比理智高貴；即是由於意志之對象所在之物，高於理智之對象所在之物。就好似因了聲音所在之物高於顏色所在之物，便說聽覺相對地比視覺高貴，雖然顏色原比聲音高貴單純。第十六題第一節、第二十七題第四節己經說過，理智之作用，是在於被領悟的東西之理是在領悟者中；意志之活動的完成，在於意志傾向於充為其對象的東西本身。是以哲學家在《形上學》卷六第四章說，「善與惡」，即意志之對象，「是在東西中」；「真與假」，即理智之對象，「是在心靈裡」。所以，如果善所在之物，比被領悟之理所在之靈魂本身高貴，則意志由於與這物的關係，比理智高貴。但若善所在之物，低於靈魂，則即使在與這東西的關係中，理智也比意志高貴。故此，愛天主比認識天主好；反之，認識形體物比愛形體物好。但絕對地說來，理智比意志高貴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地上七視覺",
+          "after": "地比視覺",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "[善與惡J'",
+          "after": "「善與惡」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "[是在東西中J",
+          "after": "「是在東西中」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "[真與假J'",
+          "after": "「真與假」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "[是在心靈裡」",
+          "after": "「是在心靈裡」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1351
+      ],
+      "before": "原因之理或意義是根據一東西與另一東西之關係，在這關係中，[善」之理或意義是最重要的;但是「真」之理或意義更為絕對，其中也包括善之理或意義。因此善也是一種真。不過，真也是一種善;因為理智也是一種東西，真就是其目的。但是這種目的，是一切目的中最高的，正如理智也是機能中最高的。",
+      "after": "原因之理或意義是根據一東西與另一東西之關係，在這關係中，「善」之理或意義是最重要的；但是「真」之理或意義更為絕對，其中也包括善之理或意義。因此善也是一種真。不過，真也是一種善；因為理智也是一種東西，真就是其目的。但是這種目的，是一切目的中最高的，正如理智也是機能中最高的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "[善」",
+          "after": "「善」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1351,
+        1352
+      ],
+      "before": "在生長和時間過程中先有的是比較不完美的。因為在同一主體上，機能按時間先於行動，不完美者先於完美者。但是按性質和絕對居先的東西，是比較完美的;按這意義，行動先於機能。理智先於意志，便是按這方式，就如推動者是先於被推動者，主動者是先於被動者;因為是被領惰的善推動意志。",
+      "after": "在生長和時間過程中先有的是比較不完美的。因為在同一主體上，機能按時間先於行動，不完美者先於完美者。但是按性質和絕對居先的東西，是比較完美的；按這意義，行動先於機能。理智先於意志，便是按這方式，就如推動者是先於被推動者，主動者是先於被動者；因為是被領悟的善推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "領惰",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "所舉之理由，是根據意志與高於靈魂者之關係。因為愛德是我們用以愛天主的德行。",
+      "after": "所舉之理由，是根據意志與高於靈魂者之關係。因為愛德是我們用以愛天主的德行。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "意志是否推動理智",
+      "after": "意志是否推動理智",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "意志似乎不推動理智。因為:",
+      "after": "意志似乎不推動理智。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "i.推動者比被推動者高貴並在先;因為推動者乃是主動者;而按奧斯定在《創世紀字義新探》卷十二第十六章，和哲學家在《靈魂論》卷三第五章所說的，「主動者比被動者高貴」 0但按前面第三節說的，理智先於意志﹒並比意志高貴，所以，意志不推動理智。",
+      "after": "推動者比被推動者高貴並在先；因為推動者乃是主動者；而按奧斯定在《創世紀字義新探》卷十二第十六章，和哲學家在《靈魂論》卷三第五章所說的，「主動者比被動者高貴」。但按前面第三節說的，理智先於意志；並比意志高貴，所以，意志不推動理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.推動",
+          "after": "推動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "高貴」 0",
+          "after": "高貴」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "先於意志﹒",
+          "after": "先於意志；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "此外，推動者不受被推動者之推動，除非出於偶然。但是理智推動意志，因為由理智所知覺到的可欲者是不被推動的推動者;嗜慾則是被推動的推動者。所以，理智不受意志之推動。",
+      "after": "此外，推動者不受被推動者之推動，除非出於偶然。但是理智推動意志，因為由理智所知覺到的可欲者是不被推動的推動者；嗜慾則是被推動的推動者。所以，理智不受意志之推動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "此外，除非是我們所領悟的，否則我們不能願意任何東西。倘若是因了意志願意領悟才推動理智去領悟，貝IJ在那個願意之前該先有別的領悟，而那領悟之前要有另一個願意，如此則得推衍到無限，這是不可能的。所以，意志不推動理智。",
+      "after": "此外，除非是我們所領悟的，否則我們不能願意任何東西。倘若是因了意志願意領悟才推動理智去領悟，則在那個願意之前該先有別的領悟，而那領悟之前要有另一個願意，如此則得推衍到無限，這是不可能的。所以，意志不推動理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1352
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第二十六章說:「我們願意學習或不學習某個技能﹒全在乎我們。」所謂在乎我們，是由於意志‘而學習技能是靠理智。所以意志推動理智。",
+      "after": "大馬士革的若望《論正統信仰》卷二第二十六章說：「我們願意學習或不學習某個技能，全在乎我們。」所謂在乎我們，是由於意志，而學習技能是靠理智。所以意志推動理智。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "技能﹒",
+          "after": "技能，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志‘",
+          "after": "意志，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1352,
+        1353
+      ],
+      "before": "我解答如下:說某東西推動，有兩種方式。一種是以目的之方式;例如說，目的推動動因或成因，理智推動意志便是以這方式。因為領悟到的善是意志之對象，它以目的之資格推動意志。\n另一種推動是以主動者之方式;就如改變者之推動被改變者，推撞者之推動被推撞者。意志推動理智及靈魂之其他能方便是以這種方式，正如安瑟誤在《論比喻》第二章所說的。這是因為在有等序的主動機能中，是那指向普遍性目的之機能，推動指向個別目的之機能。在自然界和政治上都是如此。天之主動作用是為保存一切有生有腐化之東西的，故此它推動下界的一切形體物，這些下界形體物則每個只主動保存本類或本身。國王是關注全國之公益的，他以命令推動各城之首長，這些首長則各管理自己的城市。意志之對象是普遍性的善和目的，其他機能則只是各自關於與其相關之個別善的，就如:視覺是為認知顏色的，理智是為認知真假的。所以，意志以主動者之方式推動靈魂一切機能去行使自己之活動，只有生理部分的能力例外，它們不屬於我們的支配範圈。",
+      "after": "我解答如下：說某東西推動，有兩種方式。一種是以目的之方式；例如說，目的推動動因或成因，理智推動意志便是以這方式。因為領悟到的善是意志之對象，它以目的之資格推動意志。\n另一種推動是以主動者之方式；就如改變者之推動被改變者，推撞者之推動被推撞者。意志推動理智及靈魂之其他能力便是以這種方式，正如安瑟謨在《論比喻》第二章所說的。這是因為在有等序的主動機能中，是那指向普遍性目的之機能，推動指向個別目的之機能。在自然界和政治上都是如此。天之主動作用是為保存一切有生有腐化之東西的，故此它推動下界的一切形體物，這些下界形體物則每個只主動保存本類或本身。國王是關注全國之公益的，他以命令推動各城之首長，這些首長則各管理自己的城市。意志之對象是普遍性的善和目的，其他機能則只是各自關於與其相關之個別善的，就如：視覺是為認知顏色的，理智是為認知真假的。所以，意志以主動者之方式推動靈魂一切機能去行使自己之活動，只有生理部分的能力例外，它們不屬於我們的支配範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能方便",
+          "after": "能力便",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "安瑟誤",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1353,
+        1354
+      ],
+      "before": "可以從兩方面去看理智:一方面是看其為認知普遍性之物和真的機能;另一方面是把它看為一個東西和具有固定活動的個別機能。意志也可以從兩方面去看:一是看其對象之普遍性，即視之為欲求普遍之善者;一是視之為具有固定活動的個別機能。所以，若從二者之普遍性對象方面看理智和意志，則如第三節己說過的，理智絕對地比意志高貴。如果從其對象之普遍性方面看理智，而視意志為一個固定機能，貝Ij仍然是理智比意志高貴。因為意志本身，它的活動，和它的對象，都屬於理智所認知的物和真之範圍。所以理智認知意志，認知其活動和其對象-正如它認真日其他被認知之個別東西，如:石頭或木頭等屬於物和真之共理的東西。但如果從意志之普遍性對象或善方面看意志，而視理智為一個東西和個別機能，貝iJ在善之共理中，就像包括個別物一樣，包括理智本身，包括其認知活動及其對象或真，因為每個都是一個個別的善。按這觀點，意志比理智高貴，並且能推動理智。\n由此可見這兩個機能的活動(可以互相包含;這是因為理智知道意志願意，而意志願意理智認知。按同理，真中包括善，因為善是一種被認知的真;善中也包括真，因為真是一種被願望的善。",
+      "after": "可以從兩方面去看理智：一方面是看其為認知普遍性之物和真的機能；另一方面是把它看為一個東西和具有固定活動的個別機能。意志也可以從兩方面去看：一是看其對象之普遍性，即視之為欲求普遍之善者；一是視之為具有固定活動的個別機能。所以，若從二者之普遍性對象方面看理智和意志，則如第三節己說過的，理智絕對地比意志高貴。如果從其對象之普遍性方面看理智，而視意志為一個固定機能，則仍然是理智比意志高貴。因為意志本身，它的活動，和它的對象，都屬於理智所認知的物和真之範圍。所以理智認知意志，認知其活動和其對象，正如它認知其他被認知之個別東西，如：石頭或木頭等屬於物和真之共理的東西。但如果從意志之普遍性對象或善方面看意志，而視理智為一個東西和個別機能，則在善之共理中，就像包括個別物一樣，包括理智本身，包括其認知活動及其對象或真，因為每個都是一個個別的善。按這觀點，意志比理智高貴，並且能推動理智。\n由此可見這兩個機能的活動何以互相包含；這是因為理智知道意志願意，而意志願意理智認知。按同理，真中包括善，因為善是一種被認知的真；善中也包括真，因為真是一種被願望的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝iJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其對象-",
+          "after": "其對象，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "活動(可以",
+          "after": "活動何以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "如正解己說過的，理智推動意志，與意志推動理智的方式不同。",
+      "after": "如正解己說過的，理智推動意志，與意志推動理智的方式不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "不必推衍到無限，而是停在理智上，理智的活動是第一步。意志的活動以前必然要有知覺，但是意志的活動並非先於一切知覺;因為思慮和領悟之根本，乃是高於我們之理智的智性根本，即天主，哲學家在《幸褔倫理學》卷七第十四章也是這樣講的。如此便可證明不必推延到無限。",
+      "after": "不必推衍到無限，而是停在理智上，理智的活動是第一步。意志的活動以前必然要有知覺，但是意志的活動並非先於一切知覺；因為思慮和領悟之根本，乃是高於我們之理智的智性根本，即天主，哲學家在《幸福倫理學》卷七第十四章也是這樣講的。如此便可證明不必推延到無限。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸褔",
+          "after": "幸福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "高級嗜慾是否該分為憤情和慾情",
+      "after": "高級嗜慾是否該分為憤情和慾情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "高級嗜慾或意志似乎該分為憤情和慾情。因為:",
+      "after": "高級嗜慾或意志似乎該分為憤情和慾情。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1354
+      ],
+      "before": "慾情能力(concupiscibilis)是從慾望(concupiscere)來的;憤情能力(irascibilis)是從激憤(irasci)來的。但是有的慾望不能屬於感性嗜慾，只能屬於智|生嗜慾或意志，例如:對智慧之慾望。《智慧篇》第六章31節論這種慾望說: 「欲求知慧引人高登王位。」有一種激憤也不能屬於感性嗜慾，而屬於智性嗜慾，例如:當我們對毛病感到忿怒時。是以，熱羅尼莫在《瑪竇褔音註解》，關於第十三章33節也說: 「我們該在憤情部分保持對毛病的憤恨。」所以，像在感性嗜慾上一樣，智性嗜慾也該分為憤情和慾情。",
+      "after": "慾情能力(concupiscibilis)是從慾望(concupiscere)來的；憤情能力(irascibilis)是從激憤(irasci)來的。但是有的慾望不能屬於感性嗜慾，只能屬於智性嗜慾或意志，例如：對智慧之慾望。《智慧篇》第六章31節論這種慾望說：「欲求知慧引人高登王位。」有一種激憤也不能屬於感性嗜慾，而屬於智性嗜慾，例如：當我們對毛病感到忿怒時。是以，熱羅尼莫在《瑪竇福音註解》，關於第十三章33節也說：「我們該在憤情部分保持對毛病的憤恨。」所以，像在感性嗜慾上一樣，智性嗜慾也該分為憤情和慾情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智|生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1354,
+        1355
+      ],
+      "before": "此外，按一般的說法，愛德屬於慾情部分，而望德是在憤情部分。這兩種德行不能屬於感性嗜慾，因為其對象不是感性物，而是智性物。所以在智性部分該有慾情和憤情。",
+      "after": "此外，按一般的說法，愛德屬於慾情部分，而望德是在憤情部分。這兩種德行不能屬於感性嗜慾，因為其對象不是感性物，而是智性物。所以在智性部分該有慾情和憤情。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q082.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1355
+      ],
+      "before": "此外，《論精神及靈魂》第十三章說:「靈魂在與身體結合以前，便有這些機能(即憤情、慾情和理性)0 」但是感性部分的機能沒有一個是隻屬於靈魂的，而是屬於組合體的，這在前面第七十七題第五及第八節已經說過。所以，憤情和慾情是在意志內，而意志是智性嗜慾。",
+      "after": "此外，《論精神及靈魂》第十三章說：「靈魂在與身體結合以前，便有這些機能(即憤情、慾情和理性)。」但是感性部分的機能沒有一個是只屬於靈魂的，而是屬於組合體的，這在前面第七十七題第五及第八節己經說過。所以，憤情和慾情是在意志內，而意志是智性嗜慾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理性)0 」",
+          "after": "理性)。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻屬於",
+          "after": "只屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1355
+      ],
+      "before": "尼沙的額我略說，靈魂的非理性部分，分為願望能力和激憤能力(《論人性》第十六及第十七章);大馬士革的若望也是這樣說(《論正統信仰》卷二第十二章)。哲學家在《靈魂論》卷三第九章也說:「意志是在理性部分;慾望和憤怒，或願望或氣債，則是在靈魂的非理性部分。」",
+      "after": "尼沙的額我略說，靈魂的非理性部分，分為願望能力和激憤能力(《論人性》第十六及第十七章)；大馬士革的若望也是這樣說(《論正統信仰》卷二第十二章)。哲學家在《靈魂論》卷三第九章也說：「意志是在理性部分；慾望和憤怒，或願望或氣憤，則是在靈魂的非理性部分。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "氣債",
+          "after": "氣憤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1355,
+        1356
+      ],
+      "before": "我解答如下:憤情和慾情，不是智性嗜慾或意志的部分。因為按第五十九題第四節、第七十九題第七節所說的，按普遍之理指向對象的機能，不因了涵蓋在該普遍之理之下的別類上的差異而有區分。例如，視覺之關注可見之物，是按有顏色者的(普遍之)理，並不因了有各種不同的顏色而增多視覺機能;假若有一種專針對白色的機能而非是為一般顏色的，則將與專為黑色的機能有區分了。\n感性嗜慾所針對的不是善的普遍性質或理，因為感官不能認知普遍物。因而感性嗜慾按各種個月IJ善的不同性質或理，分為不同的部分。因為慾情所針對的，是合於天性並使感官起快感的善之性質或理;而憤情所針對的，則是對於那加害自己者予以對抗和攻擊的善之性質或理。然而意志之針對善，是按善的普遍性質或理。意志是智性嗜慾，故在它內嗜慾機能沒有這樣的區分，好像在智性嗜慾中憤情與慾情各為不同的機能;正如在智|生部分的認知機能也不是有許多個，雖然在感性部分是有許多認知機能。",
+      "after": "我解答如下：憤情和慾情，不是智性嗜慾或意志的部分。因為按第五十九題第四節、第七十九題第七節所說的，按普遍之理指向對象的機能，不因了涵蓋在該普遍之理之下的別類上的差異而有區分。例如，視覺之關注可見之物，是按有顏色者的(普遍之)理，並不因了有各種不同的顏色而增多視覺機能；假若有一種專針對白色的機能而非是為一般顏色的，則將與專為黑色的機能有區分了。\n感性嗜慾所針對的不是善的普遍性質或理，因為感官不能認知普遍物。因而感性嗜慾按各種個別善的不同性質或理，分為不同的部分。因為慾情所針對的，是合於天性並使感官起快感的善之性質或理；而憤情所針對的，則是對於那加害自己者予以對抗和攻擊的善之性質或理。然而意志之針對善，是按善的普遍性質或理。意志是智性嗜慾，故在它內嗜慾機能沒有這樣的區分，好像在智性嗜慾中憤情與慾情各為不同的機能；正如在智性部分的認知機能也不是有許多個，雖然在感性部分是有許多認知機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1356
+      ],
+      "before": "愛和慾望等有兩種意義。有時是指多少帶有血氣之感受或激動的情，這是一般的意義;按這意義，則只屬於感性嗜慾。另一種意義，是指單純的情感，不帶有情或血氣之感受或激動，如此則是意志之活動。按這意義，也可用於天使和天主。但按這種意義，它們不屬於個別的機能，而共屬於一個機能，即所謂的意志。",
+      "after": "愛和慾望等有兩種意義。有時是指多少帶有血氣之感受或激動的情，這是一般的意義；按這意義，則只屬於感性嗜慾。另一種意義，是指單純的情感，不帶有情或血氣之感受或激動，如此則是意志之活動。按這意義，也可用於天使和天主。但按這種意義，它們不屬於個別的機能，而共屬於一個機能，即所謂的意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1356
+      ],
+      "before": "意志也可以說是有憤惰的，即因為它願意反抗惡，但這並非出於惰的衝動，而是出於理性的判斷;同樣也可以說它有慾1霄，因為它願望善。按這意義，則在憤情和慾情中有愛德和望德;這也就是說在意志中有愛德和望德，因為意志與這些活動有關連。\n《論精神及靈魂》中所謂的「靈魂在與身體結合之前便有憤情和慾情」'也可以這樣來解釋(但是該按天性之次序來解釋，而非指時間上的先後)，雖然那本書上的話不值得聽信。",
+      "after": "意志也可以說是有憤情的，即因為它願意反抗惡，但這並非出於情的衝動，而是出於理性的判斷；同樣也可以說它有慾情，因為它願望善。按這意義，則在憤情和慾情中有愛德和望德；這也就是說在意志中有愛德和望德，因為意志與這些活動有關連。\n《論精神及靈魂》中所謂的「靈魂在與身體結合之前便有憤情和慾情」，也可以這樣來解釋(但是該按天性之次序來解釋，而非指時間上的先後)，雖然那本書上的話不值得聽信。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "憤惰",
+          "after": "憤情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出於惰",
+          "after": "出於情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慾1霄",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慾情」'",
+          "after": "慾情」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q082.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1356
+      ],
+      "before": "據此已可知質疑3.之解答。",
+      "after": "據此己可知質疑3.之解答。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已可知",
+          "after": "己可知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
