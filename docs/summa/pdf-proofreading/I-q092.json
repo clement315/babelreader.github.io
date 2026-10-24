@@ -1,0 +1,1187 @@
+{
+  "schema_version": 1,
+  "batch": "I-q092",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q092",
+    "title": "論女人之產生",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481
+    ],
+    "printed_pages": [
+      247,
+      254
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 30,
+    "checked_unchanged_review_units": 19
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q92.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q92.json": "379ecc9e98643237e9e574c48adf52ea06d828ca04ac3a1e4421a2d826273a11"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q092.a001.arg1",
+      "pdf_file_page": 1474,
+      "text": "《動物生成論》)",
+      "status": "suspected_source_print_error",
+      "action": "原页在书名号后多一个右括号，依底本保留，不当作网页识别错误删除。"
+    },
+    {
+      "id": "I.q092.a003.ad3",
+      "pdf_file_page": 1480,
+      "text": "己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q092.a004.respondeo",
+      "pdf_file_page": 1480,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q092.a001.objection-intro",
+      "description": "第一节三项质疑误并入质疑引言，逐一移回已有空的质疑1、2、3字段；不改字段键名、编号、结构或真实换行。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q092.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "然後要討論的是女人之產生(參看第九十題引言)。\n關於這點，可以提出四個問題:\n一、在最初創造萬物時是否該造女人。\n二、是否該從男人形成。\n三、是否出自男人之肋骨。\n四、是否白天主直接造的。",
+      "after": "然後要討論的是女人之產生(參看第九十題引言)。\n關於這點，可以提出四個問題：\n一、在最初創造萬物時是否該造女人。\n二、是否該從男人形成。\n三、是否出自男人之肋骨。\n四、是否由天主直接造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是否白天主",
+          "after": "是否由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "在最初創造萬物時是否該造女人",
+      "after": "在最初創造萬物時是否該造女人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "似乎不該在最初創造萬物時造女人。因為; i.哲學家在《動物生成論》)(D巴generat. animal)卷二第三章說: 「雌性是未成功的(發育不全的或不及格的)雄性(mas occasionatus)」。但是在最初設置萬物時，不該有發育不全的，或不及格的，和有缺欠的東西。所以最初設置萬物時不該造女人。2因此外﹒受管治及貶低乃是罪過的後果。因為在人犯罪之後，天主對女人說: 「你要受丈夫的管轄」(《創世紀》第三章16節)，教宗額我略一世也說: 「幾時我們沒有罪過，我們都是平等的」(《倫理叢談》卷二十一第十章;《牧靈規範》卷二第六章)。但是女人天生就低於男人的能力和地位，就如奧斯定在《創世紀字義新探》卷十二第十六章所說的: 「主動者常比被動者尊貴」。所以，不該在未犯罪前創造萬物時造女人。3.此外，犯罪的機會該被消除。但是，天主預先就知道女人將是男人犯罪的機會，所以不該造女人。",
+      "after": "似乎不該在最初創造萬物時造女人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似乎不該在最初創造萬物時造女人。因為; i.哲學家在《動物生成論》)(D巴generat. animal)卷二第三章說: 「雌性是未成功的(發育不全的或不及格的)雄性(mas occasionatus)」。但是在最初設置萬物時，不該有發育不全的，或不及格的，和有缺欠的東西。所以最初設置萬物時不該造女人。2因此外﹒受管治及貶低乃是罪過的後果。因為在人犯罪之後，天主對女人說: 「你要受丈夫的管轄」(《創世紀》第三章16節)，教宗額我略一世也說: 「幾時我們沒有罪過，我們都是平等的」(《倫理叢談》卷二十一第十章;《牧靈規範》卷二第六章)。但是女人天生就低於男人的能力和地位，就如奧斯定在《創世紀字義新探》卷十二第十六章所說的: 「主動者常比被動者尊貴」。所以，不該在未犯罪前創造萬物時造女人。3.此外，犯罪的機會該被消除。但是，天主預先就知道女人將是男人犯罪的機會，所以不該造女人。",
+          "after": "似乎不該在最初創造萬物時造女人。因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "",
+      "after": "哲學家在《動物生成論》)(De generat. animal)卷二第三章說：「雌性是未成功的(發育不全的或不及格的)雄性(mas occasionatus)」。但是在最初設置萬物時，不該有發育不全的，或不及格的，和有缺欠的東西。所以最初設置萬物時不該造女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "哲學家在《動物生成論》)(De generat. animal)卷二第三章說: 「雌性是未成功的(發育不全的或不及格的)雄性(mas occasionatus)」。但是在最初設置萬物時，不該有發育不全的，或不及格的，和有缺欠的東西。所以最初設置萬物時不該造女人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1474
+      ],
+      "before": "",
+      "after": "此外，受管治及貶低乃是罪過的後果。因為在人犯罪之後，天主對女人說：「你要受丈夫的管轄」(《創世紀》第三章16節)，教宗額我略一世也說：「幾時我們沒有罪過，我們都是平等的」(《倫理叢談》卷二十一第十章；《牧靈規範》卷二第六章)。但是女人天生就低於男人的能力和地位，就如奧斯定在《創世紀字義新探》卷十二第十六章所說的：「主動者常比被動者尊貴」。所以，不該在未犯罪前創造萬物時造女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，受管治及貶低乃是罪過的後果。因為在人犯罪之後，天主對女人說: 「你要受丈夫的管轄」(《創世紀》第三章16節)，教宗額我略一世也說: 「幾時我們沒有罪過，我們都是平等的」(《倫理叢談》卷二十一第十章;《牧靈規範》卷二第六章)。但是女人天生就低於男人的能力和地位，就如奧斯定在《創世紀字義新探》卷十二第十六章所說的: 「主動者常比被動者尊貴」。所以，不該在未犯罪前創造萬物時造女人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1474,
+        1475
+      ],
+      "before": "",
+      "after": "此外，犯罪的機會該被消除。但是，天主預先就知道女人將是男人犯罪的機會，所以不該造女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，犯罪的機會該被消除。但是，天主預先就知道女人將是男人犯罪的機會，所以不該造女人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1475
+      ],
+      "before": "《創世紀》第二章18節說: 「人單獨不好，我們要給他造個與他4日稱的助手。」",
+      "after": "《創世紀》第二章18節說：「人單獨不好，我們要給他造個與他相稱的助手。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "造個與他4日稱",
+          "after": "造個與他相稱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1475
+      ],
+      "before": "我解答如下:就如聖經所說的，為幫助男人，必需造女人;但不是像某些人所說的，是為在別的某一事上幫助男人。因為在別的任何事上，讓別的男人幫助男人，比讓女人幫助都更合適;而是為在生殖方面幫助男人。只要細看生物的生殖方式，便可以看清這個問題。有些生物，本身沒有積極的生殖能力，而是在另一類東西的作用下生殖，例如:那些沒有種子的植物和沒有精子的動物，是由天體的主動力量，從適當的質料中生殖。有些生物同時有生殖之主動和被動能力，例如:那些有種子的植物。在植物身上，沒有比生殖更高貴的生活表現;故此，其被動生殖力該與主動生殖力常在一起。在高級或完美動物方面，是雄性具有主動生殖力，而雌性具有被動生殖力。因了在動物的生活中，有比生殖更高貴的生命活動，而這是其生活的主要目的，故此高級動物的雄性不常與雌性結合在一起，只有在交構的時候;我們可以設想雌雄交捕時所形成的一體，就似在植物上雄性和雌性能力常在一起的情形，雖然在各種植物中有的陽性力較強，有的陰性17較盛。人有更高貴的生命活動作為目的，tlP領i宮。為此在人身上，兩性的分別該更加清楚，是以男性與女性分開來產生，但在生殖的事上則身體結合為一。故在女人形成之後，《創世紀》第二章24節立刻就說: 「二人成為一體」。",
+      "after": "我解答如下：就如聖經所說的，為幫助男人，必需造女人；但不是像某些人所說的，是為在別的某一事上幫助男人。因為在別的任何事上，讓別的男人幫助男人，比讓女人幫助都更合適；而是為在生殖方面幫助男人。只要細看生物的生殖方式，便可以看清這個問題。有些生物，本身沒有積極的生殖能力，而是在另一類東西的作用下生殖，例如：那些沒有種子的植物和沒有精子的動物，是由天體的主動力量，從適當的質料中生殖。有些生物同時有生殖之主動和被動能力，例如：那些有種子的植物。在植物身上，沒有比生殖更高貴的生活表現；故此，其被動生殖力該與主動生殖力常在一起。在高級或完美動物方面，是雄性具有主動生殖力，而雌性具有被動生殖力。因了在動物的生活中，有比生殖更高貴的生命活動，而這是其生活的主要目的，故此高級動物的雄性不常與雌性結合在一起，只有在交媾的時候；我們可以設想雌雄交媾時所形成的一體，就似在植物上雄性和雌性能力常在一起的情形，雖然在各種植物中有的陽性力較強，有的陰性力較盛。人有更高貴的生命活動作為目的，即領悟。為此在人身上，兩性的分別該更加清楚，是以男性與女性分開來產生，但在生殖的事上則身體結合為一。故在女人形成之後，《創世紀》第二章24節立刻就說：「二人成為一體」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "交構",
+          "after": "交媾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "交捕",
+          "after": "交媾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "陰性17",
+          "after": "陰性力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "tlP領i宮",
+          "after": "即領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1475,
+        1476
+      ],
+      "before": "從個體物的性質爽看，女人是有缺欠的，和發育不全的，或未成功的個別物。因為在男性精子中的積極生殖力，是傾向於產生與自己完全相似的，亦即男性;其所以生出女性，是因了積極生殖力較弱，或由於質料配合不當，或者也可能是由於外來的變化，例如像《動物生成論》卷四第二章說的，因了南風的關係，因為南風是陰濕的。但是從普遍性的天性來看，女性不是發育不全的，或未成功之物;而是出於天性，或自然之意向，或目的，是為了生殖的。普遍性之天性的意向，或目的，繫於天主，祂是天性的普通根源。故在設置天性時祂不只造了男人，也造了女人。",
+      "after": "從個體物的性質來看，女人是有缺欠的，和發育不全的，或未成功的個別物。因為在男性精子中的積極生殖力，是傾向於產生與自己完全相似的，亦即男性；其所以生出女性，是因了積極生殖力較弱，或由於質料配合不當，或者也可能是由於外來的變化，例如像《動物生成論》卷四第二章說的，因了南風的關係，因為南風是陰濕的。但是從普遍性的天性來看，女性不是發育不全的，或未成功之物；而是出於天性，或自然之意向，或目的，是為了生殖的。普遍性之天性的意向，或目的，繫於天主，祂是天性的普通根源。故在設置天性時祂不只造了男人，也造了女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "性質爽看",
+          "after": "性質來看",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "管制有兩種。一種是奴役性的，主管利用屬下以求自己的益處;這種管制是在犯罪以後才開始有的。另一種是家庭或政治性的酬，主管使用屬下是為求屬下的利益和幸福。在未犯罪以前也會有這種管制;因為在羣眾中，大家若不聽賢明的人管理，就要秩序大亂。女人天生就該受丈夫的這種管理，因為男人天生就比較明智。此外，即使無罪的純真狀態或境界，也不排斥人類的這種不平等，這點留待後面第九十六題第三節再講。",
+      "after": "管制有兩種。一種是奴役性的，主管利用屬下以求自己的益處；這種管制是在犯罪以後才開始有的。另一種是家庭或政治性的管制，主管使用屬下是為求屬下的利益和幸福。在未犯罪以前也會有這種管制；因為在羣眾中，大家若不聽賢明的人管理，就要秩序大亂。女人天生就該受丈夫的這種管理，因為男人天生就比較明智。此外，即使無罪的純真狀態或境界，也不排斥人類的這種不平等，這點留待後面第九十六題第三節再講。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "政治性的酬",
+          "after": "政治性的管制",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "若天主把曾為人犯罪之機會的東西都從世界消除，宇宙就不完美了。而且也不該為避免個別的惡，而除去共同的善或利益;何況天主又是大能的，能使任何惡轉向善。",
+      "after": "若天主把曾為人犯罪之機會的東西都從世界消除，宇宙就不完美了。而且也不該為避免個別的惡，而除去共同的善或利益；何況天主又是大能的，能使任何惡轉向善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "女人是否該出自男人",
+      "after": "女人是否該出自男人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "女人似乎不該是出自男人。因為:",
+      "after": "女人似乎不該是出自男人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "性別乃是人與其他動物所共有的，但其他動物的雌性不是用雄性形成的。所以，在人方面女性也不該用男性形成。",
+      "after": "性別乃是人與其他動物所共有的，但其他動物的雌性不是用雄性形成的。所以，在人方面女性也不該用男性形成。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1476
+      ],
+      "before": "此外，同屬於一個類別的東西，其質料相同。但是男人與女人屬於同類。男人既是用泥土形成的，女人也該如此，而不該用男人形成。",
+      "after": "此外，同屬於一個類別的東西，其質料相同。但是男人與女人屬於同類。男人既是用泥土形成的，女人也該如此，而不該用男人形成。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1477
+      ],
+      "before": "此外，造女人是為幫助男人生殖的。但是血統太近使人不適於生殖;故此按《肋未紀》第十八章第6等節所說的，親人不能彼此結婚。所以，女人不該用男人形成。",
+      "after": "此外，造女人是為幫助男人生殖的。但是血統太近使人不適於生殖；故此按《肋未紀》第十八章第6等節所說的，親人不能彼此結婚。所以，女人不該用男人形成。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1477
+      ],
+      "before": "《德訓篇》第十七章5節說: 「天主又從他」即從男人，「造了一個與他相似的伴侶」'即女人。",
+      "after": "《德訓篇》第十七章5節說：「天主又從他」即從男人，「造了一個與他相似的伴侶」，即女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "伴侶」'",
+          "after": "伴侶」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1477
+      ],
+      "before": "我解答如下:在最初設立萬物時，人比別的動物，更該是女性出於男性。第一，是為表顯第一個人的特殊地位，他既是天主的肖像，就像天主是整個宇宙之根本那樣，他是其類別的根本。故保祿在《宗徒大事錄》第+七章26節說，天主「由一個人造了全人類」。\n第二，為使男人由於知道女人是由自己產生的，而更愛女人，更相親密結合。是以《創世紀》第二章23節說: 「她是由男人取出的;為此人應離開自己的父母，依附自己的妻子。」這為人類尤其必要，因為男女終生生活在一起;其他動物則不是這樣。\n第三，按哲學家在《倫理學》卷八第十二章所說的，人類之男女結合，不只是為了生殖之需要，像別的動物那樣;也是為了家庭生活，在家庭男女各有不同的職務，而男人是女人的頭或首領。所以，女人該是由男人形成，有似由自己的根本形成一樣。\n第凹，是聖事方面的理由，用以表顯教會是以基督為根本。故此宗徒在《厄弗所書》第五章32節說: 「這奧祕真是偉大!但我是指基督和教會說的。」",
+      "after": "我解答如下：在最初設立萬物時，人比別的動物，更該是女性出於男性。第一，是為表顯第一個人的特殊地位，他既是天主的肖像，就像天主是整個宇宙之根本那樣，他是其類別的根本。故保祿在《宗徒大事錄》第十七章26節說，天主「由一個人造了全人類」。\n第二，為使男人由於知道女人是由自己產生的，而更愛女人，更相親密結合。是以《創世紀》第二章23節說：「她是由男人取出的；為此人應離開自己的父母，依附自己的妻子。」這為人類尤其必要，因為男女終生生活在一起；其他動物則不是這樣。\n第三，按哲學家在《倫理學》卷八第十二章所說的，人類男女結合，不只是為了生殖之需要，像別的動物那樣；也是為了家庭生活，在家庭男女各有不同的職務，而男人是女人的頭或首領。所以，女人該是由男人形成，有似由自己的根本形成一樣。\n第四，是聖事方面的理由，用以表顯教會是以基督為根本。故此宗徒在《厄弗所書》第五章32節說：「這奧祕真是偉大!但我是指基督和教會說的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第+七章",
+          "after": "第十七章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人類之男女結合",
+          "after": "人類男女結合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1477
+      ],
+      "before": "由上面正解所說的可知質疑1.之答案。",
+      "after": "由上面正解所說的可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1477,
+        1478
+      ],
+      "before": "一個東西之所從出，是謂質料。受造的(物之)天性或自然，各有固定的根本;既然它是固定於一的，它的產生過程也是固定的。故從某固定質料，產生出某固定類別的東西。但天主的能力既是無限的，可以用任何質料造成類別相同的東西，就如祂用泥土造成男人，用男人造成女人。",
+      "after": "一個東西之所從出，是謂質料。受造的(物之)天性或自然，各有固定的根本；既然它是固定於一的，它的產生過程也是固定的。故從某固定質料，產生出某固定類別的東西。但天主的能力既是無限的，可以用任何質料造成類別相同的東西，就如祂用泥土造成男人，用男人造成女人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "自然生殖帶有血統關係，並構成婚姻之障礙。但女人不是以自然生殖方式從男人產生的，只是因了天主的能力，故此不說厄娃是亞當的女兒。因此所舉之理由不能成立。",
+      "after": "自然生殖帶有血統關係，並構成婚姻之障礙。但女人不是以自然生殖方式從男人產生的，只是因了天主的能力，故此不說厄娃是亞當的女兒。因此所舉之理由不能成立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "女人是否該用男人的肋骨形成",
+      "after": "女人是否該用男人的肋骨形成",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "女人似乎不該用男人的肋骨來形成。因為:",
+      "after": "女人似乎不該用男人的肋骨來形成。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "男人的肋骨比女人的身體小很多。用小的不能形成大的，除非有所增補。若是這樣，更好說女人是由那增捕的部分形成的，而非由肋骨;或者是以鬆散方式，如同奧斯定在《會IJ世紀字義新探》卷十第二十六章所說的: 「一個物體除非鬆散，否則不能變大」。但是，女人的身體並不比男人的身體更鬆散，或密度較低，至少就肋骨與厄娃之身體的比例來說是如此。所以，厄娃不是用亞當之肋骨形成的。",
+      "after": "男人的肋骨比女人的身體小很多。用小的不能形成大的，除非有所增補。若是這樣，更好說女人是由那增補的部分形成的，而非由肋骨；或者是以鬆散方式，如同奧斯定在《創世紀字義新探》卷十第二十六章所說的：「一個物體除非鬆散，否則不能變大」。但是，女人的身體並不比男人的身體更鬆散，或密度較低，至少就肋骨與厄娃之身體的比例來說是如此。所以，厄娃不是用亞當之肋骨形成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "增捕",
+          "after": "增補",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "會IJ世紀",
+          "after": "創世紀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "此外，在最初創造的工程上，沒有什麼多餘的。所以亞當的肋骨是其身體完整的一部分。所以拿走那肋骨後，他的身體就不完整了。這似乎不合理。",
+      "after": "此外，在最初創造的工程上，沒有什麼多餘的。所以亞當的肋骨是其身體完整的一部分。所以拿走那肋骨後，他的身體就不完整了。這似乎不合理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "此外，拿開人的肋骨時不能沒有痛苦。但是在犯罪以前是沒有痛苦的。所以，不該拿走男人的肋骨，用以形成女人。",
+      "after": "此外，拿開人的肋骨時不能沒有痛苦。但是在犯罪以前是沒有痛苦的。所以，不該拿走男人的肋骨，用以形成女人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1478
+      ],
+      "before": "《創世紀》第二章22節說: 「上主天主用那由亞當取來的肋骨，形成了一個女人。」",
+      "after": "《創世紀》第二章22節說：「上主天主用那由亞當取來的肋骨，形成了一個女人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1479
+      ],
+      "before": "我解答如下:用男人的肋骨形成女人是合理的。第一，為指明男女之間該結合為伴侶。因為女人不該「管轄男人」(《《弟茂德前書》第二章12節)，故沒有用男人的頭來形成女人。但女人也不該受男人輕視，把她看為奴隸，因此沒有用男人的腳來形成。第二，是為了聖事的奧義。因為聖事是從在十字架上安眠的基督之肋問流出的，即血和水，並用以建立了教會。",
+      "after": "我解答如下：用男人的肋骨形成女人是合理的。第一，為指明男女之間該結合為伴侶。因為女人不該「管轄男人」(《弟茂德前書》第二章12節)，故沒有用男人的頭來形成女人。但女人也不該受男人輕視，把她看為奴隸，因此沒有用男人的腳來形成。第二，是為了聖事的奧義。因為聖事是從在十字架上安眠的基督之肋間流出的，即血和水，並用以建立了教會。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(《《弟茂德前書》",
+          "after": "(《弟茂德前書》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "肋問流出",
+          "after": "肋間流出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1479
+      ],
+      "before": "有人說，女人的身體是以增多(multip1icatio)質料的方式形成的，沒有另外補充或增補(additio)別的質料，就像主當初使五個餅變多那樣。但這是絕對不可能的。上述之增多，或是因了質料之本體的變化，或是由於其體積的變化。不是因了質料之本體的變化:一是因為質料本身不能有變化，因為它只有潛能性的存在，它只有主體之資格;一是因為多少與大小是質料之本質以外的東西。\n所以不能想像，質料在維持同樣的質料之前提下，不另外增補而能增多，除非是由於體積的變大。而這就是變鬆散(rarefactio)，也就是如同哲學家在《物理學》卷四第九章所說的，同樣的質料取得較大的體積。所以說質料不變鬆散而增多，乃是自相矛盾，就像接受定義而不接受被定義者。\n因此，在那增多中既看不出有鬆散情形，故一定是由於另外增補了質料的關係;而這或是以創造方式，或者，更可能是以轉化方式。故此奧斯定在《若望褔音釋義》第二十四;再說: 「基督用五個餅使五千人喫飽，就像祂用極少的種子產生出許多莊祿」'後者是從地上的養分轉化來的。然而無論說用五個餅使黑人喫飽，或說用男人的肋骨形成女人，這都是因為原有之肋骨或餅之質料獲得增補或補充。",
+      "after": "有人說，女人的身體是以增多(multiplicatio)質料的方式形成的，沒有另外補充或增補(additio)別的質料，就像主當初使五個餅變多那樣。但這是絕對不可能的。上述之增多，或是因了質料之本體的變化，或是由於其體積的變化。不是因了質料之本體的變化：一是因為質料本身不能有變化，因為它只有潛能性的存在，它只有主體之資格；一是因為多少與大小是質料之本質以外的東西。\n所以不能想像，質料在維持同樣的質料之前提下，不另外增補而能增多，除非是由於體積的變大。而這就是變鬆散(rarefactio)，也就是如同哲學家在《物理學》卷四第九章所說的，同樣的質料取得較大的體積。所以說質料不變鬆散而增多，乃是自相矛盾，就像接受定義而不接受被定義者。\n因此，在那增多中既看不出有鬆散情形，故一定是由於另外增補了質料的關係；而這或是以創造方式，或者，更可能是以轉化方式。故此奧斯定在《若望福音釋義》第二十四講說：「基督用五個餅使五千人喫飽，就像祂用極少的種子產生出許多莊稼」，後者是從地上的養分轉化來的。然而無論說用五個餅使眾人喫飽，或說用男人的肋骨形成女人，這都是因為原有之肋骨或餅之質料獲得增補或補充。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "multip1icatio",
+          "after": "multiplicatio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "若望褔音",
+          "after": "若望福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二十四;再說",
+          "after": "第二十四講說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "莊祿",
+          "after": "莊稼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "莊稼」'",
+          "after": "莊稼」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使黑人喫飽",
+          "after": "使眾人喫飽",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1479,
+        1480
+      ],
+      "before": "那肋骨屬於亞當之完整的一部分，但不是以他為一個體而論，而是以他為人類之根本而論;就如精子屬於生殖者之整體的一部分﹒但以自然方式排泄出來，並伴有快感。以天主的能力來說，更該用男火的肋骨形成女人的身體而不帶痛苦。",
+      "after": "那肋骨屬於亞當之完整的一部分，但不是以他為一個體而論，而是以他為人類之根本而論；就如精子屬於生殖者之整體的一部分，但以自然方式排泄出來，並伴有快感。以天主的能力來說，更該用男人的肋骨形成女人的身體而不帶痛苦。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一部分﹒",
+          "after": "一部分，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男火的肋骨",
+          "after": "男人的肋骨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "據此釋疑2.己可知質疑3.之答案。",
+      "after": "據此釋疑2.己可知質疑3.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "女人是否直接由天主形成的",
+      "after": "女人是否直接由天主形成的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "有關第四節，我們討論如l':",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如l'",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "女人似乎不是由天主直接形成的。因為:",
+      "after": "女人似乎不是由天主直接形成的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "由同類者所產生的個體，沒有一個是由天主直接形成的。但女人是從男人產生的，二者屬於同類。所以女人不是由天主直接形成的。",
+      "after": "由同類者所產生的個體，沒有一個是由天主直接形成的。但女人是從男人產生的，二者屬於同類。所以女人不是由天主直接形成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷三第四章說，天主是用天使管理形體物。但是，女人的身體是由形體質料形成的，所以是經由天使，而非直接由天主形成的。",
+      "after": "此外，奧斯定在《論天主聖三》卷三第四章說，天主是用天使管理形體物。但是，女人的身體是由形體質料形成的，所以是經由天使，而非直接由天主形成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "此外，那些在受造界以基本原因或胚種方式原先存在的東西，乃是因某受造物之力量而產生，不是直接由天主產生。但按奧斯定在《創世紀字義新探》卷九第十五章所說的，女人之身體是以基本原因或胚種方式，在最初的(創造)工程中產生的。所以，女人不是由天主直接形成的。",
+      "after": "此外，那些在受造界以基本原因或胚種方式原先存在的東西，乃是因某受造物之力量而產生，不是直接由天主產生。但按奧斯定在《創世紀字義新探》卷九第十五章所說的，女人之身體是以基本原因或胚種方式，在最初的(創造)工程中產生的。所以，女人不是由天主直接形成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "奧斯定在那書裡(同處)卻說:「只有天主能用肋骨形成或構成女人，整個自然界都是因天主而得存在。」",
+      "after": "奧斯定在那書裡(同處)卻說：「只有天主能用肋骨形成或構成女人，整個自然界都是因天主而得存在。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1480
+      ],
+      "before": "我解答如下:上面第二節釋疑2.已經說過，每一類東西的自然生殖都是出於固定的質料。人自然生殖所從出之質料是男女之精卵，所以從別的任何質料也不能自然地生出人類個體來。只有天主，既是天性之訂立者，能不按自然程序產生東西。所以，只有天主能用泥土形成男人，及用男人之肋骨形成女人。",
+      "after": "我解答如下：上面第二節釋疑2.己經說過，每一類東西的自然生殖都是出於固定的質料。人自然生殖所從出之質料是男女之精卵，所以從別的任何質料也不能自然地生出人類個體來。只有天主，既是天性之訂立者，能不按自然程序產生東西。所以，只有天主能用泥土形成男人，及用男人之肋骨形成女人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1481
+      ],
+      "before": "所舉之理由，是根據以自然生殖方式，由同類者生出個體。",
+      "after": "所舉之理由，是根據以自然生殖方式，由同類者生出個體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q092.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1481
+      ],
+      "before": "正如奧斯定在《創世紀字義新探》卷九第十五章所說的，我們不知道在形成女人時，天使是否曾提供服務;但是，正如男人的身體不是由天使用泥土形成的，女人的身體也一定不是天使用男人之肋骨形成的。",
+      "after": "正如奧斯定在《創世紀字義新探》卷九第十五章所說的，我們不知道在形成女人時，天使是否曾提供服務；但是，正如男人的身體不是由天使用泥土形成的，女人的身體也一定不是天使用男人之肋骨形成的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q092.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1481
+      ],
+      "before": "正如奧斯定在同書問卷第十八章所說的:「萬物最初的情形，不絕對要求女人是那樣形成，只是可以那樣形成)」所以，所謂女人之身體原先以基本原因或胚種方式存在於最初的工程中，不是按積極能力而言，只是按被動能力而言，即針對創造者之積極能力的被動能力。",
+      "after": "正如奧斯定在同書同卷第十八章所說的：「萬物最初的情形，不絕對要求女人是那樣形成，只是可以那樣形成。」所以，所謂女人之身體原先以基本原因或胚種方式存在於最初的工程中，不是按積極能力而言，只是按被動能力而言，即針對創造者之積極能力的被動能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同書問卷",
+          "after": "同書同卷",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那樣形成)」",
+          "after": "那樣形成。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
