@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "batch": "I-q098",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q098",
+    "title": "論有關種類之保存者",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1539,
+      1540,
+      1541,
+      1542,
+      1543
+    ],
+    "printed_pages": [
+      312,
+      316
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 26,
+    "changed_review_units": 20,
+    "checked_unchanged_review_units": 7
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q98.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q98.json": "5346d05814b60741557d8b25dd27b3fd65f2b1331766045e4bc6fd91c358e833"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q098.a002.respondeo",
+      "pdf_file_page": 1542,
+      "text": "己預知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q098.a002.ad4",
+      "pdf_file_page": 1543,
+      "text": "分娩期己到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部5页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q098.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "然後要討論的是，關於種類之保存者。首先，論生殖;第二，論子女之狀況(第九十九題)。\n關於第一點，可以提出兩個問題:\n一、在純真狀態是否有生蘊。\n二、是否以男女交構方式生鐘。",
+      "after": "然後要討論的是，關於種類之保存者。首先，論生殖；第二，論子女之狀況(第九十九題)。\n關於第一點，可以提出兩個問題：\n一、在純真狀態是否有生殖。\n二、是否以男女交媾方式生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生蘊",
+          "after": "生殖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "交構",
+          "after": "交媾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生鐘",
+          "after": "生殖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "在純真狀態是否有生殖",
+      "after": "在純真狀態是否有生殖",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "在純真狀態似乎沒有生殖。因為:",
+      "after": "在純真狀態似乎沒有生殖。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "按《物理學》卷五第五章所說的: 「腐朽與生殖相反」。相反者是關於同一個主體的。既然在純真狀態沒有腐朽，所以也沒有生殖。",
+      "after": "按《物理學》卷五第五章所說的：「腐朽與生殖相反」。相反者是關於同一個主體的。既然在純真狀態沒有腐朽，所以也沒有生殖。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "此外，生殖之目的，是為在種類上保存那在個體上無法保存的;故此，在那些永遠長存的個體上就沒有生殖。但是在純真狀態人原是能長生不死的，所以在純真狀態原沒有生殖。",
+      "after": "此外，生殖之目的，是為在種類上保存那在個體上無法保存的；故此，在那些永遠長存的個體上就沒有生殖。但是在純真狀態人原是能長生不死的，所以在純真狀態原沒有生殖。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1539
+      ],
+      "before": "此外，因了生殖，人的數目便增多。但是主人數目增多，使得分割產業，以免主權不清。既然人被立為動物的主人，人數因生殖增多以後，便得害IJ分主權。這似乎不合於自然法，因為按依希道《語源學》(Etymologiae)卷五第四章所說的，按自然法，一切東西都是公有的。所以，在純真狀態中沒有生殖。",
+      "after": "此外，因了生殖，人的數目便增多。但是主人數目增多，便得分割產業，以免主權不清。既然人被立為動物的主人，人數因生殖增多以後，便得割分主權。這似乎不合於自然法，因為按依希道《語源學》(Etymologiae)卷五第四章所說的，按自然法，一切東西都是公有的。所以，在純真狀態中沒有生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使得分割產業",
+          "after": "便得分割產業",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "害IJ分",
+          "after": "割分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1539,
+        1540
+      ],
+      "before": "《創世紀》第一章28節說: 「你們要生育繫雄，充滿大地。」沒有新的生殖，人數便不能增多，因為最初只創造了兩個人。所以在原始狀態也會有生殖。",
+      "after": "《創世紀》第一章28節說：「你們要生育繁殖，充滿大地。」沒有新的生殖，人數便不能增多，因為最初只創造了兩個人。所以在原始狀態也會有生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "繫雄",
+          "after": "繁殖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1540
+      ],
+      "before": "我解答如下:在純真狀態會有生殖，以使人類擴增;否則的話，人犯罪就成了十分必要的，以促成隨之而來的莫大益處。所以該知道，人按自己的天性，乃是居於有朽及無朽之受造物中間的東西;因為他的靈魂天生是不朽的，他的身體天生是有朽的o要知道對有朽之受造物，與對無朽之受造物，大自然的用意不一樣。那永恆常在的東西，似乎是大自然本來所願意的。那隻存在一段時間的，似乎不是大自然主要用意之所在，而是叫做東西為其依歸;否則的話，那東西腐化後，大自然的用意就落空了。在有朽的東西中，既然只有種類是永遠常存的，種類的利益是大自然的主要目標，自然生殖便是為了保存種類。無朽的本體，不只種類常存，個體也常在;因此，其個體也是大自然的直接目標。\n所以，人在身體方面，按自己的本性是有朽的，因此該有生殖。在靈魂方面，既是不朽的，大自然的直接目標是要有許多個體;或更好說，這是大自然之創造者的直接目標，因為只有祂是人靈魂的創造者。是以，為了人類的擴增，祂在人類中設置了生殖，在純真狀態也是一樣。",
+      "after": "我解答如下：在純真狀態會有生殖，以使人類擴增；否則的話，人犯罪就成了十分必要的，以促成隨之而來的莫大益處。所以該知道，人按自己的天性，乃是居於有朽及無朽之受造物中間的東西；因為他的靈魂天生是不朽的，他的身體天生是有朽的。要知道對有朽之受造物，與對無朽之受造物，大自然的用意不一樣。那永恆常在的東西，似乎是大自然本來所願意的。那只存在一段時間的，似乎不是大自然主要用意之所在，而是以別的東西為其依歸；否則的話，那東西腐化後，大自然的用意就落空了。在有朽的東西中，既然只有種類是永遠常存的，種類的利益是大自然的主要目標，自然生殖便是為了保存種類。無朽的本體，不只種類常存，個體也常在；因此，其個體也是大自然的直接目標。\n所以，人在身體方面，按自己的本性是有朽的，因此該有生殖。在靈魂方面，既是不朽的，大自然的直接目標是要有許多個體；或更好說，這是大自然之創造者的直接目標，因為只有祂是人靈魂的創造者。是以，為了人類的擴增，祂在人類中設置了生殖，在純真狀態也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有朽的o",
+          "after": "有朽的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那隻存在",
+          "after": "那只存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而是叫做東西",
+          "after": "而是以別的東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1540
+      ],
+      "before": "在純真狀態，人的身體本身是有朽的，但靈魂能防止它腐朽。所以人不該缺少那有朽物所應有的生殖。",
+      "after": "在純真狀態，人的身體本身是有朽的，但靈魂能防止它腐朽。所以人不該缺少那有朽物所應有的生殖。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1540
+      ],
+      "before": "且在純真狀態，生殖固然不是為了保存種類，然而是為了增多個體。",
+      "after": "在純真狀態，生殖固然不是為了保存種類，然而是為了增多個體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "且在純真狀態",
+          "after": "在純真狀態",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1540,
+        1541
+      ],
+      "before": "在現代，主人多了之後，必要分割產業，因為按哲學家在《政治學》卷二第二章所說的，財產公有乃是紛爭之機會。但是在純真狀態，黑人的意志都順從正理，故可按每人之需要，共同利用屬於他們權下的東西，而不致引起爭紛;就是現在也有不少的善人就;採用這種辦法。",
+      "after": "在現代，主人多了之後，必要分割產業，因為按哲學家在《政治學》卷二第二章所說的，財產公有乃是紛爭之機會。但是在純真狀態，眾人的意志都順從正理，故可按每人之需要，共同利用屬於他們權下的東西，而不致引起爭紛；就是現在也有不少的善人就採用這種辦法。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "黑人",
+          "after": "眾人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "就;採用",
+          "after": "就採用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "在純真狀態是否以男女結合方式生殖",
+      "after": "在純真狀態是否以男女結合方式生殖",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "在純真狀態似乎不是以男女結合方式生殖。因為:",
+      "after": "在純真狀態似乎不是以男女結合方式生殖。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "按大馬士革的若望《論正統信仰》卷二第十一章所說的，第一個人在地堂裡，「就像天使似的」。此外，在將來復活以後，按《瑪竇褔音》第二十二章30節所說的，人也是像天使一樣，「也不娶也不嫁」。所以，在地堂裡，也不是以男女結合方式生殖。",
+      "after": "按大馬士革的若望《論正統信仰》卷二第十一章所說的，第一個人在地堂裡，「就像天使似的」。此外，在將來復活以後，按《瑪竇福音》第二十二章30節所說的，人也是像天使一樣，「也不娶也不嫁」。所以，在地堂裡，也不是以男女結合方式生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "瑪竇褔音",
+          "after": "瑪竇福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "此外，最初的人一受造便是成年人。如果他們在犯罪以前是以結合方式生殖，在地堂裡他們就有了肉體的結合。但據聖經《創世紀》第四章1節所說的，事實上不然。",
+      "after": "此外，最初的人一受造便是成年人。如果他們在犯罪以前是以結合方式生殖，在地堂裡他們就有了肉體的結合。但據聖經《創世紀》第四章1節所說的，事實上不然。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "此外，在男女肉體結合時，由於強烈的快感，人變得像禽獸一樣;故此，人戒絕這種快樂的禁慾受到推崇。按《聖詠》第四十九篇21節所說的，是因了罪惡人才被比為禽獸:「人在當賞中，不深思遠處，將與牲畜無異。」所以在犯罪以前，沒有男女的肉體結合。",
+      "after": "此外，在男女肉體結合時，由於強烈的快感，人變得像禽獸一樣；故此，人戒絕這種快樂的禁慾受到推崇。按《聖詠》第四十九篇21節所說的，是因了罪惡人才被比為禽獸：「人在富貴中，不深思遠慮，將與牲畜無異。」所以在犯罪以前，沒有男女的肉體結合。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人在當賞中",
+          "after": "人在富貴中",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "深思遠處",
+          "after": "深思遠慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1541
+      ],
+      "before": "此外，在純真狀態沒有任何損害。但是肉體結合破壞童貞之完整性，所以在純真狀態沒有肉體結合。",
+      "after": "此外，在純真狀態沒有任何損害。但是肉體結合破壞童貞之完整性，所以在純真狀態沒有肉體結合。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q098.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1541,
+        1542
+      ],
+      "before": "按《創世紀》第一章27節及第二章22節所說的，天主是在人犯罪以前造了男女。在天主的工程中沒有什麼是徒然無用的。所以縱然人未曾犯罪，也會有結合，這原就是男女性別之目的。\n此外，《創世紀》第二章18~20節說，女人受造是為幫助男人的。但那無非是為在以結合生殖的車上幫助男人，因為在別的事上，男人比女人更能幫助男人。所以，在純真狀態，也會是以肉體結合方式生殖。",
+      "after": "按《創世紀》第一章27節及第二章22節所說的，天主是在人犯罪以前造了男女。在天主的工程中沒有什麼是徒然無用的。所以縱然人未曾犯罪，也會有結合，這原就是男女性別之目的。\n此外，《創世紀》第二章18～20節說，女人受造是為幫助男人的。但那無非是為在以結合生殖的事上幫助男人，因為在別的事上，男人比女人更能幫助男人。所以，在純真狀態，也會是以肉體結合方式生殖。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "18~20節",
+          "after": "18～20節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生殖的車上",
+          "after": "生殖的事上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1542
+      ],
+      "before": "我解答如下:古代有些聖賢，看到在這(犯罪以後的)狀態肉體結合所帶有的醜惡的貪婪，於是認為在純真狀態人不是以結合方式生殖。是以尼沙的額我略在他寫的《論人的工作》(De Hominis Opificio)第十七章中說，在地堂裡，人類繁殖的方式與現在不同;而是像天使那樣，不經結合，靠天主的作用繁殖。並說，天主在人犯罪以前造了男女，是著眼於犯罪以後的生殖方式，天主已預知人要犯罪。\n但是這種意見不合理。人的自然性質，並不因罪而減少，也不是因罪才賦予的。按前面第九十七題第三節所說的，人在犯罪以前也有動物性生命;按這種生命，人顯然該以結合方式生殖，像其他高級動物一樣。為這用途而設的自然肢體就是證據。所以不該說在犯罪以前，沒有像用其他肢體一樣，用這些自然肢體。\n按現在的情況，結合可分為兩層來看。一是屬於天性的，即為生殖的男女之結合。在任何生殖中，都需要積極(主動)和消極(被動)兩種能力。故此，在有性別區分的東西中，雄性具有積極能力，雌性具有消極能力;大自然的措施要求在生殖時雌雄相結合。結合的另一層，是那種不正常的貪婪所帶來的醜態。這是在純真狀態所沒有的，那時低級能力絕對服從理性。故此奧斯定在《天主之城》卷十四第二十六章說:「我們不要相信，男女結合沒有淫慾的病態就不會生育;這些(司生育的)肢體，如其他肢體一般，能如意而動，沒有亢奮和縱惰的激動，身心怡然自若o 」",
+      "after": "我解答如下：古代有些聖賢，看到在這(犯罪以後的)狀態肉體結合所帶有的醜惡的貪婪，於是認為在純真狀態人不是以結合方式生殖。是以尼沙的額我略在他寫的《論人的工作》(De Hominis Opificio)第十七章中說，在地堂裡，人類繁殖的方式與現在不同；而是像天使那樣，不經結合，靠天主的作用繁殖。並說，天主在人犯罪以前造了男女，是著眼於犯罪以後的生殖方式，天主己預知人要犯罪。\n但是這種意見不合理。人的自然性質，並不因罪而減少，也不是因罪才賦予的。按前面第九十七題第三節所說的，人在犯罪以前也有動物性生命；按這種生命，人顯然該以結合方式生殖，像其他高級動物一樣。為這用途而設的自然肢體就是證據。所以不該說在犯罪以前，沒有像用其他肢體一樣，用這些自然肢體。\n按現在的情況，結合可分為兩層來看。一是屬於天性的，即為生殖的男女之結合。在任何生殖中，都需要積極(主動)和消極(被動)兩種能力。故此，在有性別區分的東西中，雄性具有積極能力，雌性具有消極能力；大自然的措施要求在生殖時雌雄相結合。結合的另一層，是那種不正常的貪婪所帶來的醜態。這是在純真狀態所沒有的，那時低級能力絕對服從理性。故此奧斯定在《天主之城》卷十四第二十六章說：「我們不要相信，男女結合沒有淫慾的病態就不會生育；這些(司生育的)肢體，如其他肢體一般，能如意而動，沒有亢奮和縱情的激動，身心怡然自若。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主已預知",
+          "after": "天主己預知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "縱惰",
+          "after": "縱情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "怡然自若o 」",
+          "after": "怡然自若。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1542,
+        1543
+      ],
+      "before": "在地堂裡，人像似天使是由於精神性的或屬神的心靈，但在身體方面他有動物性的生活。在復活以後，人之將像似天使，是因為兼在靈魂早日身體上都成了精神性的或屬神的。所以二者不能相提並論。",
+      "after": "在地堂裡，人像似天使是由於精神性的或屬神的心靈，但在身體方面他有動物性的生活。在復活以後，人之將像似天使，是因為兼在靈魂和身體上都成了精神性的或屬神的。所以二者不能相提並論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靈魂早日身體",
+          "after": "靈魂和身體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1543
+      ],
+      "before": "按奧斯定在《創世紀字義新探》卷九第四章所說的，原祖在地堂裡沒有結合，是因為造了女人之後，很快就犯了罪，被趕出7地堂;或者是因為他們在等待天主決定結合的時間，因為他們最初只得有(生育繁殖的)廣泛命令。",
+      "after": "按奧斯定在《創世紀字義新探》卷九第四章所說的，原祖在地堂裡沒有結合，是因為造了女人之後，很快就犯了罪，被趕出了地堂；或者是因為他們在等待天主決定結合的時間，因為他們最初只得有(生育繁殖的)廣泛命令。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出7地堂",
+          "after": "出了地堂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1543
+      ],
+      "before": "禽獸沒有理性。所以人在肉體結合時變為禽獸，是因了理性不能控制肉體結合之快感及強烈的貪婪。但是在純真狀態，沒有理性不能控制的這類現象;但不是像某些人說的，那時感官性的快感小(其實天性愈純，身體也愈敏感，所以快感也愈大);而是因為慾情能力在理性的規範下，不那樣無約束地傾注於這種快樂。理性之作用，並不是為減少感官上的快感，而在於使慾情能力不漫無節制地貫注於快感;所謂漫無節制地，即是超過理性的限度。正如飲食有節的人，在飲食時所得的快感並不減於貪喫的人，只是他的慾情不那樣關注於這種快感。上面奧斯定所說的，也就是這個意思，他並不否認在純真狀態有大量快感，只說沒有淫慾之焦燒及心情的不安。所以在純真狀態，禁慾不是可尊重的;它現在之所以受到尊重，不是因了不生育的關係，而是因為它防止無節制的淫慾。那時生育則不帶淫慾。",
+      "after": "禽獸沒有理性。所以人在肉體結合時變為禽獸，是因了理性不能控制肉體結合之快感及強烈的貪婪。但是在純真狀態，沒有理性不能控制的這類現象；但不是像某些人說的，那時感官性的快感小(其實天性愈純，身體也愈敏感，所以快感也愈大)；而是因為慾情能力在理性的規範下，不那樣無約束地傾注於這種快樂。理性之作用，並不是為減少感官上的快感，而在於使慾情能力不漫無節制地貫注於快感；所謂漫無節制地，即是超過理性的限度。正如飲食有節的人，在飲食時所得的快感並不減於貪喫的人，只是他的慾情不那樣關注於這種快感。上面奧斯定所說的，也就是這個意思，他並不否認在純真狀態有大量快感，只說沒有淫慾之焦燒及心情的不安。所以在純真狀態，禁慾不是可尊重的；它現在之所以受到尊重，不是因了不生育的關係，而是因為它防止無節制的淫慾。那時生育則不帶淫慾。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q098.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1543
+      ],
+      "before": "正如奧斯定在《天主之城》卷十四第二十六章所說的，在那純真狀態，「丈夫能將精液注入妻子的胎中，而不害及她的貞操。因為能將精液注入婦女的胎中，而不損及她陰膜之完整，正如現在月經時血由體內流出而不損及完整一般。正如不是產痛的呻吟，而是分挽期已到，促母腹聞釋，使婦女生產;同樣，不是貪求淫樂，而是意志的自由運用，結合男女二性，使婦女懷孕」。",
+      "after": "正如奧斯定在《天主之城》卷十四第二十六章所說的，在那純真狀態，「丈夫能將精液注入妻子的胎中，而不害及她的貞操。因為能將精液注入婦女的胎中，而不損及她陰膜之完整，正如現在月經時血由體內流出而不損及完整一般。正如不是產痛的呻吟，而是分娩期己到，促母腹開釋，使婦女生產；同樣，不是貪求淫樂，而是意志的自由運用，結合男女二性，使婦女懷孕」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分挽期",
+          "after": "分娩期",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "期已到",
+          "after": "期己到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "腹聞釋",
+          "after": "腹開釋",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
