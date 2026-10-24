@@ -1,0 +1,2353 @@
+{
+  "schema_version": 1,
+  "batch": "I-q113",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q113",
+    "title": "論善天使之守護",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1674,
+      1675,
+      1676,
+      1677,
+      1678,
+      1679,
+      1680,
+      1681,
+      1682,
+      1683,
+      1684,
+      1685,
+      1686,
+      1687
+    ],
+    "printed_pages": [
+      447,
+      460
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 95,
+    "changed_review_units": 69,
+    "checked_unchanged_review_units": 27
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q113.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q113.json": "ceb8de7ad350d94b107bee2f6255658c09aaa52d736c6dd793f236f72b0b1acf"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q113.a001.ad2",
+      "pdf_file_page": 1676,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q113.a002.ad2",
+      "pdf_file_page": 1677,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q113.prologue",
+      "description": "清除引言前两行杂字，保留原换行。"
+    },
+    {
+      "id": "I.q113.a003.ad1",
+      "description": "将误并入第一答复的正解续文移回正解，补回原页「第二節釋疑1.」的完整指引。"
+    }
+  ],
+  "notes": [
+    "全部14页、8节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q113.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "往\n又\n然後要討論的是善天使之守護，及惡天使之侵害(參看第一一一題引言及第一一四題)。\n關於第一點，可以提出八個問題:\n一、人是否受天使守護。\n二、是否每人專有一位天使守護。\n三、守護是否只是最低品級之天使的任務。\n四、是否每人都宜有守護者天使或護守天使。，\n五、天使何時開始守護人。\n六、天使是否常守護人。\n七、被守護者之喪亡是否使天使悲傷。\n八、天使之間是否因守護而有街突。",
+      "after": "\n\n然後要討論的是善天使之守護，及惡天使之侵害(參看第一一一題引言及第一一四題)。\n關於第一點，可以提出八個問題：\n一、人是否受天使守護。\n二、是否每人專有一位天使守護。\n三、守護是否只是最低品級之天使的任務。\n四、是否每人都宜有守護者天使或護守天使。\n五、天使何時開始守護人。\n六、天使是否常守護人。\n七、被守護者之喪亡是否使天使悲傷。\n八、天使之間是否因守護而有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "往\n又\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "。，",
+          "after": "。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "街突",
+          "after": "衝突",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "人是否受天使守護",
+      "after": "人是否受天使守護",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "人似乎不受天使守護。因為:",
+      "after": "人似乎不受天使守護。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "給某些人守護者，或是因了這些人無知，或是因7他們沒有能力保護自己，例如:孩童和病人。但是，人能以自由意志保護自己;並且，因自然就知道自然法律而有知。所以，人不受天使守護。",
+      "after": "給某些人守護者，或是因了這些人無知，或是因了他們沒有能力保護自己，例如：孩童和病人。但是，人能以自由意志保護自己；並且，因自然就知道自然法律而有知。所以，人不受天使守護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1674
+      ],
+      "before": "此外，哪裡有強而有力的保護，較弱的保護似乎是多餘的。但是人有天主保護，就如《聖詠》第一二一篇4節說的: 「那保護以色列者，不打晚也不會E垂著。」所以人不必由天使保護。",
+      "after": "此外，哪裡有強而有力的保護，較弱的保護似乎是多餘的。但是人有天主保護，就如《聖詠》第一二一篇4節說的：「那保護以色列者，不打盹也不會睡著。」所以人不必由天使保護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不打晚也不會E垂著",
+          "after": "不打盹也不會睡著",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1675
+      ],
+      "before": "此外，被保護者之喪亡，該歸咎於保護者之疏怠;為此《列王紀上》第二十章39節對某人說: 「你要看守這個人，倘若失蹤了，定要你替他償命。」但是，每天有許多人因犯罪而喪亡，本來天使可以救助他們，或是藉顯現給他們，或是藉行奇蹟，或其他類似方式。如果天使們有保護人的責任，那便是他們疏怠，這顯然不合理。所以，天使不是人的保護者。",
+      "after": "此外，被保護者之喪亡，該歸咎於保護者之疏怠；為此《列王紀上》第二十章39節對某人說：「你要看守這個人，倘若失蹤了，定要你替他償命。」但是，每天有許多人因犯罪而喪亡，本來天使可以救助他們，或是藉顯現給他們，或是藉行奇蹟，或其他類似方式。如果天使們有保護人的責任，那便是他們疏怠，這顯然不合理。所以，天使不是人的保護者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1675
+      ],
+      "before": "《聖詠》第九十一篇11節卻說; 「祂必為你委派自己的天使，在你行走的每條道路上保護你。」",
+      "after": "《聖詠》第九十一篇11節卻說： 「祂必為你委派自己的天使，在你行走的每條道路上保護你。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卻說;",
+          "after": "卻說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1675
+      ],
+      "before": "我解答如下:按天主上智的措施，我們看到在一切東西中有此一現象，即變化不定的是由固定不移的推動和調度;就如一切形體是由無變動的精神本體推動牽制，下界的形體受上界的形體之推動牽制，後者在本體方面是不會改變的。而我們對結論意見不定，則有固定不變的原理為指南。關於該做的事情，人的認知和情感顯然變化多端，能與善背道而馳，因而需要委派天使保護人，指導並促人向善。",
+      "after": "我解答如下：按天主上智的措施，我們看到在一切東西中有此一現象，即變化不定的是由固定不移的推動和調度；就如一切形體是由無變動的精神本體推動牽制，下界的形體受上界的形體之推動牽制，後者在本體方面是不會改變的。而我們對結論意見不定，則有固定不變的原理為指南。關於該做的事情，人的認知和情感顯然變化多端，能與善背道而馳，因而需要委派天使保護人，指導並促人向善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1675
+      ],
+      "before": "人用自由意志多少能夠避惡，但效力不足;因為他對善的嚮往傾慕，受到各種情慾的削弱。同樣，人自然就有的對自然道德律之普遍認知，也多少能指導人向善，但作用也有所不濟;因為人在將普遍原理運用於個別事情時，多次失誤。為此《智慧篇》第九章14節說; 「有元的人的思想，常是不定的，我們人的計謀常是無常的。」是以人需要天使之保護。",
+      "after": "人用自由意志多少能夠避惡，但效力不足；因為他對善的嚮往傾慕，受到各種情慾的削弱。同樣，人自然就有的對自然道德律之普遍認知，也多少能指導人向善，但作用也有所不濟；因為人在將普遍原理運用於個別事情時，多次失誤。為此《智慧篇》第九章14節說： 「有死的人的思想，常是不定的，我們人的計謀常是無常的。」是以人需要天使之保護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "節說;",
+          "after": "節說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有元",
+          "after": "有死",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1675,
+        1676
+      ],
+      "before": "為能行善，需要具備兩點。第一，情感傾向於善，這在我們內是靠道德涵養性德性的習性。第二，理性該找到完成德性之善的適當途徑，哲學家認為這是屬於機智或智德的事(《倫理學》卷六第十二章)。關於第一點，天主直接保護人，給人灌輸恩寵和德性。關於第二點，天主是以普遍性導師的姿態保護人，按上面第一一一題第一節己說過的，祂的指導達到人是經過天{吏。",
+      "after": "為能行善，需要具備兩點。第一，情感傾向於善，這在我們內是靠道德涵養性德性的習性。第二，理性該找到完成德性之善的適當途徑，哲學家認為這是屬於機智或智德的事(《倫理學》卷六第十二章)。關於第一點，天主直接保護人，給人灌輸恩寵和德性。關於第二點，天主是以普遍性導師的姿態保護人，按上面第一一一題第一節己說過的，祂的指導達到人是經過天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天{吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "正如人因了罪惡之情慾能違揹他向善的自然本能;同樣，他也能違背善天使之激勵，這種激勵是以無形的方式啟發人行善。所以，人之喪亡，不能歸咎於天使之疏怠，而該歸咎於人的惡意。至於說有時他們例外地顯現給人，那是由於天主的特別恩寵;正如有時也發生不合自然定律的奇蹟。",
+      "after": "正如人因了罪惡之情慾能違背他向善的自然本能；同樣，他也能違背善天使之激勵，這種激勵是以無形的方式啟發人行善。所以，人之喪亡，不能歸咎於天使之疏怠，而該歸咎於人的惡意。至於說有時他們例外地顯現給人，那是由於天主的特別恩寵；正如有時也發生不合自然定律的奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "違揹",
+          "after": "違背",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "是否每人專有一位天使守護",
+      "after": "是否每人專有一位天使守護",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "似乎不是每人專有一位天使守護。因為:",
+      "after": "似乎不是每人專有一位天使守護。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "天使比人的能力大。但是一個人足以保護許多人。所以一位天使更能保護許多人。",
+      "after": "天使比人的能力大。但是一個人足以保護許多人。所以一位天使更能保護許多人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "此外，按狄奧尼修所說的，低級的東西是經過中級的，由高級的領到天主那裡(《上天階級論》第四及十三章)。但既然按前面第五十題第四節所說的，天使都是不同等的，所以，只有一位天使與人之間沒有居中者。所以，只有一位天使直接保護眾人。",
+      "after": "此外，按狄奧尼修所說的，低級的東西是經過中級的，由高級的領到天主那裡(《上天階級論》第四及十三章)。但既然按前面第五十題第四節所說的，天使都是不同等的，所以，只有一位天使與人之間沒有居中者。所以，只有一位天使直接保護眾人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "此外，較高的天使有較高的職務。但是，保護這個人並不比保護另一個人職務高，因為人按天性都是平等的。既然按狄奧尼修《上天階級論》第十章所說的，天使中一位高於另-位，似乎不同的人不是由不同的天使保護。",
+      "after": "此外，較高的天使有較高的職務。但是，保護這個人並不比保護另一個人職務高，因為人按天性都是平等的。既然按狄奧尼修《上天階級論》第十章所說的，天使中一位高於另一位，似乎不同的人不是由不同的天使保護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另-位",
+          "after": "另一位",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1676
+      ],
+      "before": "熱羅尼莫在解釋《瑪竇福音》第十八章10節「他們的天使在天上」那句話時，說:「靈魂的地位真高，以致每個靈魂自一出生，便有一位特派的天使守護。」(《瑪竇福音註解》卷",
+      "after": "熱羅尼莫在解釋《瑪竇福音》第十八章10節「他們的天使在天上」那句話時，說：「靈魂的地位真高，以致每個靈魂自一出生，便有一位特派的天使守護。」(《瑪竇福音註解》卷三)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "註解》卷",
+          "after": "註解》卷三)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1677
+      ],
+      "before": "我解答如下:每個人是由一位天使負責保護。這是因為，天使之保護，乃是天主對人之照顧的一種實施。天主對人之照顧，與對其他有朽之受造物的照顧不同;因為人與不朽之關係有所不同。人不只按種類說是不朽的，而且按每人之專有形式或靈魂而論也是不朽的;而其他有朽之東西則不是如此。天主的照顧之用意，顯然主要是針對那些永存不滅的東西;天主對有朽之東西的照顧，是以永存不滅的東西為指歸。所以，天主之照顧與每個人的關係，就似其與每一種、類之可朽物的關係。但是據教宗額我略一世所說U(《褔音論贊》卷二第三十四篇)，不同品級的天使負責不同之類或共類(genus)的東西，例如:掌權者是為抵制魔鬼，異能者是為在形體界行奇蹟的。所以，大概不同之種或別類(species)的東西，是由同一品級的不同之天使管理。因此，不同的人由不同的天使守護，這也是合理的。",
+      "after": "我解答如下：每個人是由一位天使負責保護。這是因為，天使之保護，乃是天主對人之照顧的一種實施。天主對人之照顧，與對其他有朽之受造物的照顧不同；因為人與不朽之關係有所不同。人不只按種類說是不朽的，而且按每人之專有形式或靈魂而論也是不朽的；而其他有朽之東西則不是如此。天主的照顧之用意，顯然主要是針對那些永存不滅的東西；天主對有朽之東西的照顧，是以永存不滅的東西為指歸。所以，天主之照顧與每個人的關係，就似其與每一種、類之可朽物的關係。但是據教宗額我略一世所說(《福音論贊》卷二第三十四篇)，不同品級的天使負責不同之類或共類(genus)的東西，例如：掌權者是為抵制魔鬼，異能者是為在形體界行奇蹟的。所以，大概不同之種或別類(species)的東西，是由同一品級的不同之天使管理。因此，不同的人由不同的天使守護，這也是合理的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所說U(",
+          "after": "所說(",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1677
+      ],
+      "before": "給人守護者有兩種方式:第一種方式是針對那人是一個別單位，如此則一個人該有一個守護者，有時為一個人有許多守護者;另一種方式是因為那人是某團體的一員，如此則由一個人負責保護整個團體，他有責任照顧與團體有關的每一成員的事，就如那些對別人有益或有害的外表之表現。負責保護人的天使也要照管隱密不顯的事，那關係到每人自己之得救。為此，每個人由一位天使負責保護。",
+      "after": "給人守護者有兩種方式：第一種方式是針對那人是一個別單位，如此則一個人該有一個守護者，有時為一個人有許多守護者；另一種方式是因為那人是某團體的一員，如此則由一個人負責保護整個團體，他有責任照顧與團體有關的每一成員的事，就如那些對別人有益或有害的外表之表現。負責保護人的天使也要照管隱密不顯的事，那關係到每人自己之得救。為此，每個人由一位天使負責保護。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1677,
+        1678
+      ],
+      "before": "前面第一一二題第三節釋疑4.己說過，第一等級的天使都多少直接受天主之光照或啟發，但有些事只有其中之較高者直接受天主光照或啟發，再由他們揭示給較低者。在較低的品級中也該是同樣的情形，即(同一品級中)最低的天使在某些事上是由最高者啟發，在另一些事上是由那直接在其上者啟發。如此﹒貝1]能是一位天使直接啟發人，而同時也有某些天使在其下，並啟發立，於二",
+      "after": "前面第一一二題第三節釋疑4.己說過，第一等級的天使都多少直接受天主之光照或啟發，但有些事只有其中之較高者直接受天主光照或啟發，再由他們揭示給較低者。在較低的品級中也該是同樣的情形，即(同一品級中)最低的天使在某些事上是由最高者啟發，在另一些事上是由那直接在其上者啟發。如此，則能是一位天使直接啟發人，而同時也有某些天使在其下，並啟發他們。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如此﹒貝1]",
+          "after": "如此，則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並啟發立，於二",
+          "after": "並啟發他們。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "人按天1三話是二等的，但也有不相等的地方，因為天主的措施使某些人支支六﹒使另一些人成就小，就如《德訓篇》第三十三章11\"'-'12三廿二三~-: 「上主以自己的絕大智慧，使眾人各有分別......他們中有技挖祝福而抬舉的......但也有被祂詛咒和貶抑，從本位上被推益的。」如此則保護這個人比保護別的人職務高。",
+      "after": "人按天性皆是平等的，但也有不相等的地方，因為天主的措施使某些人成就大，使另一些人成就小，就如《德訓篇》第三十三章11～12節所說的：「上主以自己的絕大智慧，使眾人各有分別……他們中有被祂祝福而抬舉的……但也有被祂詛咒和貶抑，從本位上被推翻的。」如此則保護這個人比保護別的人職務高。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人按天1三話是二等的，但也有不相等的地方，因為天主的措施使某些人支支六﹒使另一些人成就小，就如《德訓篇》第三十三章11\"'-'12三廿二三~-: 「上主以自己的絕大智慧，使眾人各有分別......他們中有技挖祝福而抬舉的......但也有被祂詛咒和貶抑，從本位上被推益的。」如此則保護這個人比保護別的人職務高。",
+          "after": "人按天性皆是平等的，但也有不相等的地方，因為天主的措施使某些人成就大，使另一些人成就小，就如《德訓篇》第三十三章11～12節所說的：「上主以自己的絕大智慧，使眾人各有分別……他們中有被祂祝福而抬舉的……但也有被祂詛咒和貶抑，從本位上被推翻的。」如此則保護這個人比保護別的人職務高。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "保護人是否只是最低品級之天使的任務",
+      "after": "保護人是否只是最低品級之天使的任務",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "保護人似乎不只是最低品級之天使的任務。因為:",
+      "after": "保護人似乎不只是最低品級之天使的任務。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "金口若望論至Ij《瑪竇福音》第十八章10節「他們的天使在天上」等等那句話，說: i這不是指任何天使，而是指最高的天使。J(<<馬竇褔音論質;第五十九篇)所以最高的天使保護人。",
+      "after": "金口若望論到《瑪竇福音》第十八章10節「他們的天使在天上」等等那句話，說：「這不是指任何天使，而是指最高的天使。」(《瑪竇福音論贊》第五十九篇)所以最高的天使保護人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論至Ij",
+          "after": "論到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說: i",
+          "after": "說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使。J(<<馬竇褔音論質;",
+          "after": "天使。」(《瑪竇福音論贊》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "此外，宗徒在《希伯來書》第一章14節說:天使「被派遣給那些要承受救恩的人服務」'這似乎是說天使被派遣是為了保護人的。但按前面第一一二題第四節所說的，有五個品級的天使被派遣服務。所以，這五個品級的天使都是負責保護人的。",
+      "after": "此外，宗徒在《希伯來書》第一章14節說：天使「被派遣給那些要承受救恩的人服務」，這似乎是說天使被派遣是為了保護人的。但按前面第一一二題第四節所說的，有五個品級的天使被派遣服務。所以，這五個品級的天使都是負責保護人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "服務」'",
+          "after": "服務」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "此外，抵制魔鬼和行奇蹟，為保護人似乎是十分必要的一一抵制魔鬼是屬於掌權者的事，行奇蹟是屬於異能者的事。所以，這兩個品級也是負責保護人的，不只有最低品級之天使有此責任。",
+      "after": "此外，抵制魔鬼和行奇蹟，為保護人似乎是十分必要的——抵制魔鬼是屬於掌權者的事，行奇蹟是屬於異能者的事。所以，這兩個品級也是負責保護人的，不只有最低品級之天使有此責任。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1678
+      ],
+      "before": "《聖詠》第九十一篇11節將守護人的事務歸於天使;按狄奧尼修所說的，他們的品級最低(《上天階級論》第五及第九章)。",
+      "after": "《聖詠》第九十一篇11節將守護人的事務歸於天使；按狄奧尼修所說的，他們的品級最低(《上天階級論》第五及第九章)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "我解答如下:前面曾說過，守護人有兩種方式(第二節",
+      "after": "我解答如下：前面曾說過，守護人有兩種方式(第二節釋疑1.)。一種是個別守護，即是每個人由一位天使負責保護。這種保護是最低品級之天使的事情。按教宗額我略一世《福音論贊》卷二第三十四篇說的，他們的職務是「傳報小事」；管理有關一個人之得救的事情，似乎是天使之職務中最小的。另一種是普遍性的保護，這因天使品級之不同而呈現多樣化，因為一個效力因或動因愈普遍，也就愈高。如此，則守護人類各種團體的，屬於率領者之品級，或者也許屬於總領天使，他們被稱為天使之首領。為此《達尼爾》第十章13節將我們稱為總領天使的彌額爾稱為「首領之一」。再往上說，異能者是守護一切形體物的。更高一層，掌權者是管理魔鬼的。按教宗額我略一世說的，率領者也是管理天使的(同上)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方式(第二節",
+          "after": "方式(第二節釋疑1.)。一種是個別守護，即是每個人由一位天使負責保護。這種保護是最低品級之天使的事情。按教宗額我略一世《褔音論贊》卷二第三十四篇說的，他們的職務是「傳報小事」;管理有關一個人之得救的事情，似乎是天使之職務中最小的。另一種是普遍性的保護，這因天使品級之不同而呈現多樣化，因為一個效力因或動因愈普遍，也就愈高。如此，貝IJ守護人類各種團體的，屬於率領者之品級，或者也許屬於總領天1吏，他們被稱為天使之首領。為此《達尼爾》第十章的節將我們稱為總領天使的彌額爾稱為「首領之一」。再往上說，異能者是守譚一切形體物的。更高一層，掌權者是管理魔鬼的。按教宗額我略一世說的，率領者也是管理天使的(向上)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天1吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十章的節",
+          "after": "第十章13節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "守譚",
+          "after": "守護",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "向上",
+          "after": "同上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": ")。一種是個別守護，即是每個人由一位天使負責保護。這種保護是最低品級之天使的事情。按教宗額我略一世《褔音論贊》卷二第三十四篇說的，他們的職務是「傳報小事」;管理有關一個人之得救的事情，似乎是天使之職務中最小的。另一種是普遍性的保護，這因天使品級之不同而呈現多樣化，因為一個效力因或動因愈普遍，也就愈高。如此，貝IJ守護人類各種團體的，屬於率領者之品級，或者也許屬於總領天1吏，他們被稱為天使之首領。為此《達尼爾》第十章的節將我們稱為總領天使的彌額爾稱為「首領之一」。再往上說，異能者是守譚一切形體物的。更高一層，掌權者是管理魔鬼的。按教宗額我略一世說的，率領者也是管理天使的(向上)。釋疑1.金口若望的話，可以說是指的最低品級之天使中最高的:因為按狄奧尼修所說的，在每一品級中，仍有「最高、中等和最低」之分別(《上天階級論》第十章)。大概比較大的天使，是保護那些被天主預定要享有較高之光榮的人的。",
+      "after": "金口若望的話，可以說是指的最低品級之天使中最高的：因為按狄奧尼修所說的，在每一品級中，仍有「最高、中等和最低」之分別(《上天階級論》第十章)。大概比較大的天使，是保護那些被天主預定要享有較高之光榮的人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": ")。一種是個別守護，即是每個人由一位天使負責保護。這種保護是最低品級之天使的事情。按教宗額我略一世《褔音論贊》卷二第三十四篇說的，他們的職務是「傳報小事」;管理有關一個人之得救的事情，似乎是天使之職務中最小的。另一種是普遍性的保護，這因天使品級之不同而呈現多樣化，因為一個效力因或動因愈普遍，也就愈高。如此，貝IJ守護人類各種團體的，屬於率領者之品級，或者也許屬於總領天1吏，他們被稱為天使之首領。為此《達尼爾》第十章的節將我們稱為總領天使的彌額爾稱為「首領之一」。再往上說，異能者是守譚一切形體物的。更高一層，掌權者是管理魔鬼的。按教宗額我略一世說的，率領者也是管理天使的(向上)。釋疑1.金口若望的話，可以說是指的最低品級之天使中最高的:因為按狄奧尼修所說的，在每一品級中，仍有「最高、中等和最低」之分別(《上天階級論》第十章)。大概比較大的天使，是保護那些被天主預定要享有較高之光榮的人的。",
+          "after": "金口若望的話，可以說是指的最低品級之天使中最高的:因為按狄奧尼修所說的，在每一品級中，仍有「最高、中等和最低」之分別(《上天階級論》第十章)。大概比較大的天使，是保護那些被天主預定要享有較高之光榮的人的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "不是凡被派遣的天{吏，都是個別保護每個人的;有些品級的天使，按上面正解說的，是或多或少負責較普遍之保護的。",
+      "after": "不是凡被派遣的天使，都是個別保護每個人的；有些品級的天使，按上面正解說的，是或多或少負責較普遍之保護的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天{吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "低級天使也能操使高級天使之職務，這是因為他們分得一些高級天使的職權，其與高級天使的關係，有如是後者之能力的執行者。以這種方式，最低品級之天使也能抵制魔鬼，並行奇蹟。",
+      "after": "低級天使也能操使高級天使之職務，這是因為他們分得一些高級天使的職權，其與高級天使的關係，有如是後者之能力的執行者。以這種方式，最低品級之天使也能抵制魔鬼，並行奇蹟。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "是否每人都有天使守護",
+      "after": "是否每人都有天使守護",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1679
+      ],
+      "before": "似乎不是每人都有天使守護。因為:",
+      "after": "似乎不是每人都有天使守護。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1679,
+        1680
+      ],
+      "before": "《斐理伯書》第二章7節論基督，說:「祂取了奴僕的形體，與人相似，形狀也一見如人。」若每人都有天使守護，基督便也該有守護者天使(守護神)或「護守天使」。但這似乎不合理;因為基督比任何天使地位都高。所以，不是每人都有天使守護。",
+      "after": "《斐理伯書》第二章7節論基督，說：「祂取了奴僕的形體，與人相似，形狀也一見如人。」若每人都有天使守護，基督便也該有守護者天使(守護神)或「護守天使」。但這似乎不合理；因為基督比任何天使地位都高。所以，不是每人都有天使守護。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1680
+      ],
+      "before": "此外，人類中的第一個人是亞當，但他不必有護守天使一一至少在純真狀態時是如此，因為那時沒有任何危險威脅他。所以，不是人人都有天使守護。",
+      "after": "此外，人類中的第一個人是亞當，但他不必有護守天使——至少在純真狀態時是如此，因為那時沒有任何危險威脅他。所以，不是人人都有天使守護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1680
+      ],
+      "before": "此外，人有天使守護，是為自天使引領走向永生，鼓勵行善，並防禦魔鬼之侵害。但是，被預知受罰的總不會得到永生。雖然外教人偶而也做好事，但是做得不好，因為意向不正。按奧斯定所說的，í{言德指導意向J U(聖詠講述卜關於聖詠第三十一篇，第二講);又按《得撒洛尼後書》第二章9節所說的，將有假基督來臨，「依靠撒萍的力量」。所以，不是每人都有天使守護。",
+      "after": "此外，人有天使守護，是為由天使引領走向永生，鼓勵行善，並防禦魔鬼之侵害。但是，被預知受罰的總不會得到永生。雖然外教人偶而也做好事，但是做得不好，因為意向不正。按奧斯定所說的，「信德指導意向」(《聖詠講述》，關於聖詠第三十一篇，第二講)；又按《得撒洛尼後書》第二章9節所說的，將有假基督來臨，「依靠撒彈的力量」。所以，不是每人都有天使守護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是為自",
+          "after": "是為由",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "í{言德指導意向J U(聖詠講述卜關於聖詠第三十一篇，第二講)",
+          "after": "「信德指導意向」(《聖詠講述》，關於聖詠第三十一篇，第二講)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "撒萍",
+          "after": "撒彈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1680
+      ],
+      "before": "有前面所引述的熱羅尼莫的權威，他說: 「每個靈魂都有一位天使保護自己。」(參看第二節皮之)",
+      "after": "有前面所引述的熱羅尼莫的權威，他說：「每個靈魂都有一位天使保護自己。」(參看第二節反之)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1680
+      ],
+      "before": "我解答如下:人在現世的生活情況下，好似是在旅途中，要回到故鄉。在這旅途中，有許多危險威脅著人，有的危險是內在的，有的是外在的;正如《聖詠》第一四二篇4節所說的:「在我行走的道路中，他們給我設下陷阱。」為此，正如人在不安全的路上行走時給予保護者;同樣，每個在現世的旅途中的人，都有天使護守。等到了旅途終點，便不再有護守天使;在天國裡他將有一位共同為王的天使，在地獄裡將有一個折磨他的魔鬼。",
+      "after": "我解答如下：人在現世的生活情況下，好似是在旅途中，要回到故鄉。在這旅途中，有許多危險威脅著人，有的危險是內在的，有的是外在的；正如《聖詠》第一四二篇4節所說的：「在我行走的道路中，他們給我設下陷阱。」為此，正如人在不安全的路上行走時給予保護者；同樣，每個在現世的旅途中的人，都有天使護守。等到了旅途終點，便不再有護守天使；在天國裡他將有一位共同為王的天使，在地獄裡將有一個折磨他的魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1680,
+        1681
+      ],
+      "before": "基督以其為人而論，直接受天主聖言之支配;所以祂不需要天使護守。此外，按靈魂說，祂是目睹或享有(天主)者;但是因為身體能有感受，祂是在旅途中者。從這方面說，祂沒有好似比祂高的監護天使，但有屬在祂下的臣僕天使。為此《瑪竇褔音》第四章11節說: 「有天使前來伺候祂。」",
+      "after": "基督以其為人而論，直接受天主聖言之支配；所以祂不需要天使護守。此外，按靈魂說，祂是目睹或享有(天主)者；但是因為身體能有感受，祂是在旅途中者。從這方面說，祂沒有好似比祂高的監護天使，但有屬在祂下的臣僕天使。為此《瑪竇福音》第四章11節說：「有天使前來伺候祂。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "人在純真狀態沒有內在之危險，因為按第九十五題第一及第三節所說的，他的內部一切都有條有理。但由於魔鬼之設計陷害，他有外來之危險;這有事實為證。所以他需要有天使護守。",
+      "after": "人在純真狀態沒有內在之危險，因為按第九十五題第一及第三節所說的，他的內部一切都有條有理。但由於魔鬼之設計陷害，他有外來之危險；這有事實為證。所以他需要有天使護守。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "正如被預知將受罰的，以及外教人和假基督，並不缺乏內在的自然理性之幫助;同樣，他們也沒有被剝奪天主給全人類的外在幫助，即天使之護守。雖然這不能助他們因行善而獲得永生，但能助他們少做一些對己、對人有害的惡事。就連魔鬼也有善天使牽制，使他們不得肆意妄為。同樣，假基督也不得肆意為惡。",
+      "after": "正如被預知將受罰的，以及外教人和假基督，並不缺乏內在的自然理性之幫助；同樣，他們也沒有被剝奪天主給全人類的外在幫助，即天使之護守。雖然這不能助他們因行善而獲得永生，但能助他們少做一些對己、對人有害的惡事。就連魔鬼也有善天使牽制，使他們不得肆意妄為。同樣，假基督也不得肆意為惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "人是否自出生就有天使守護",
+      "after": "人是否自出生就有天使守護",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "人似乎不是從一出生就有天使守護。因為:",
+      "after": "人似乎不是從一出生就有天使守護。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "按宗徒在《希伯來書》第一章14節所說的，天使被派遣，是為「給那些要承受救恩的人服務」。但人在領洗後才開始承受救恩。所以，天使是在人領洗的時候，而非在人出生的時候，開始保護人。",
+      "after": "按宗徒在《希伯來書》第一章14節所說的，天使被派遣，是為「給那些要承受救恩的人服務」。但人在領洗後才開始承受救恩。所以，天使是在人領洗的時候，而非在人出生的時候，開始保護人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1681
+      ],
+      "before": "此外，人受天使守護，是說在知識方面受天使之啟發。但是剛出生的嬰兒沒有知識能力，因為他們不能運用理性。所以，剛出生的嬰兒沒有天使守護。",
+      "after": "此外，人受天使守護，是說在知識方面受天使之啟發。但是剛出生的嬰兒沒有知識能力，因為他們不能運用理性。所以，剛出生的嬰兒沒有天使守護。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1681,
+        1682
+      ],
+      "before": "此外，嬰兒在母胎中有一段時間也有靈魂，正如從母胎中出生以後一樣。但是他們在母胎中的時候，似乎沒有天使守護‘因為連教會神長也不給他們行聖事。所以，人不是從一出生便有天使守護。",
+      "after": "此外，嬰兒在母胎中有一段時間也有靈魂，正如從母胎中出生以後一樣。但是他們在母胎中的時候，似乎沒有天使守護，因為連教會神長也不給他們行聖事。所以，人不是從一出生便有天使守護。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "守護‘",
+          "after": "守護，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1682
+      ],
+      "before": "熱羅尼莫卻說: 1每個靈魂，自一出生，便有一位特派的天使守護。J(參看第二節皮之)",
+      "after": "熱羅尼莫卻說：「每個靈魂，自一出生，便有一位特派的天使守護。」(參看第二節反之)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說: 1",
+          "after": "說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "守護。J",
+          "after": "守護。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1682
+      ],
+      "before": "我解答如下:正如奧利振在《瑪竇福音釋義》(Super Matthaeum)第五篇所說的，關於這個問題有兩種主張。有人說，天使是在人領洗時開始守護人，有人說是從人出生的時候開始。熱羅尼莫贊成第二種主張;這是有理由的。因為天主由於人為基督徒而給人的恩惠，是從領洗時開始，例如:領聖體等。但是，天主由於人具有理性而準備給人的恩惠，則是在人出生獲得這種天性時，就實際提供給人。由前面第一及第四節所說的可以知道，天使之守護便是這種恩惠。所以，人一出生，立刻就有天使守護自己。",
+      "after": "我解答如下：正如奧利振在《瑪竇福音釋義》(Super Matthaeum)第五篇所說的，關於這個問題有兩種主張。有人說，天使是在人領洗時開始守護人，有人說是從人出生的時候開始。熱羅尼莫贊成第二種主張；這是有理由的。因為天主由於人為基督徒而給人的恩惠，是從領洗時開始，例如：領聖體等。但是，天主由於人具有理性而準備給人的恩惠，則是在人出生獲得這種天性時，就實際提供給人。由前面第一及第四節所說的可以知道，天使之守護便是這種恩惠。所以，人一出生，立刻就有天使守護自己。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1682
+      ],
+      "before": "天使被派遣給人服務，若看其守護之最後效果，即獲得救恩。按實效固然只是為了那些要承受救恩的人，不過別的人也不是得不到天使之服務，雖然在他們身上這服務沒有使他們得救的實效。但是，天使的服務在他們身上仍然有實際作用，使他們少做許多惡事。",
+      "after": "天使被派遣給人服務，若看其守護之最後效果，即獲得救恩。按實效固然只是為了那些要承受救恩的人，不過別的人也不是得不到天使之服務，雖然在他們身上這服務沒有使他們得救的實效。但是，天使的服務在他們身上仍然有實際作用，使他們少做許多惡事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1682
+      ],
+      "before": "保護之職務固然以知識方面的啟發，作為主要和最後的效果，然而也有許多適合嬰兒的作用，即是:防禦魔鬼，並防止別的身體上和精神上的害處。",
+      "after": "保護之職務固然以知識方面的啟發，作為主要和最後的效果，然而也有許多適合嬰兒的作用，即是：防禦魔鬼，並防止別的身體上和精神上的害處。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1682
+      ],
+      "before": "嬰兒在母胎的時候，尚未完全與母體分聞，由於相連仍算是母體的一部分，就如懸掛在樹上的果子仍是樹的一部分。為此大概可以說，守護母親的天使，同時也守護在母胎中的嬰兒。但是，在他出生而與母體分開後，便專有一位天使守護他，就如熱羅尼莫所說的(向上)。",
+      "after": "嬰兒在母胎的時候，尚未完全與母體分開，由於相連仍算是母體的一部分，就如懸掛在樹上的果子仍是樹的一部分。為此大概可以說，守護母親的天使，同時也守護在母胎中的嬰兒。但是，在他出生而與母體分開後，便專有一位天使守護他，就如熱羅尼莫所說的(同上)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分聞",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "向上",
+          "after": "同上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "護守天使是否有時離棄人",
+      "after": "護守天使是否有時離棄人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "守護者天使或護守天使似乎有時離開他所保護的人。因為:",
+      "after": "守護者天使或護守天使似乎有時離開他所保護的人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "《耶肋米亞》第五十一章9節，以天使們的名義說:「我們本願治癒巴比倫，但是她卻不痊噁;我們放下她，各自回歸故鄉。」又《依撒意亞》第五章5節說: 「我必撤去它的籬芭，讓它被吞噬」; 「註解」(聖經夾旬)上說，「即是撤去天使之守護」。",
+      "after": "《耶肋米亞》第五十一章9節，以天使們的名義說：「我們本願治癒巴比倫，但是她卻不痊癒；我們放下她，各自回歸故鄉。」又《依撒意亞》第五章5節說：「我必撤去它的籬笆，讓它被吞噬」； 「註解」(聖經夾句)上說，「即是撤去天使之守護」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "痊噁",
+          "after": "痊癒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "籬芭",
+          "after": "籬笆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夾旬",
+          "after": "夾句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "此外，天主的保護比天使的重要。但是天主有時離棄人，就如《聖詠》第二十一篇2節所說的: 「我的天主，我的天主，你為什麼捨棄了我?」所以，護守天使更能捨棄人。",
+      "after": "此外，天主的保護比天使的重要。但是天主有時離棄人，就如《聖詠》第二十一篇2節所說的：「我的天主，我的天主，你為什麼捨棄了我?」所以，護守天使更能捨棄人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "此外，大馬士革的若望《論正統信仰》卷二第三章說: 「天使與我們在一起時，便不在天上。」但有時他們是在天上，所以有時他們離開我們。",
+      "after": "此外，大馬士革的若望《論正統信仰》卷二第三章說：「天使與我們在一起時，便不在天上。」但有時他們是在天上，所以有時他們離開我們。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1683
+      ],
+      "before": "按《伯多祿前書》第五章8節所說的，魔鬼常謀害我們: 「你們的仇敵魔鬼，如同咆嘩的獅子巡遊，尋找可吞食的人。」所以，善天使更是常守護我們。",
+      "after": "按《伯多祿前書》第五章8節所說的，魔鬼常謀害我們：「你們的仇敵魔鬼，如同咆哮的獅子巡遊，尋找可吞食的人。」所以，善天使更是常守護我們。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "咆嘩",
+          "after": "咆哮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1683,
+        1684
+      ],
+      "before": "我解答如下:從前面第二節所說的可以知道，天使之守護，乃是天主對人之措施的一種執行。無論人或別的東西﹒顯然都不能完全脫離天主之措施;因為一個東西只要分有存在，便屬於萬物之普遍措施的範園。但是，所謂天主按祂的措施離棄人，是指祂準許人陷於一種罪惡或一種處罰。同樣，也該說天使從來也不完全離棄人;但有時在某事上他離棄，即是說他不阻止人遭遇某患難，或不阻止人陷入罪惡;這都是按天主的決定。所謂巴比倫或以色列家族被天使遺棄，就是這個意思，因為保護他們的天便沒有防阻他們遭到患難。",
+      "after": "我解答如下：從前面第二節所說的可以知道，天使之守護，乃是天主對人之措施的一種執行。無論人或別的東西，顯然都不能完全脫離天主之措施；因為一個東西只要分有存在，便屬於萬物之普遍措施的範圍。但是，所謂天主按祂的措施離棄人，是指祂準許人陷於一種罪惡或一種處罰。同樣，也該說天使從來也不完全離棄人；但有時在某事上他離棄，即是說他不阻止人遭遇某患難，或不阻止人陷入罪惡；這都是按天主的決定。所謂巴比倫或以色列家族被天使遺棄，就是這個意思，因為保護他們的天使沒有防阻他們遭到患難。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西﹒",
+          "after": "東西，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "及2.由上至正解冉說的可知質疑1.及質疑2.之答案。",
+      "after": "及2.由上面正解所說的可知質疑1.及質疑2.之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "上至正解冉說",
+          "after": "上面正解所說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "天使按空間掛然有時離開人，但按保護之作用並不離問他;因為就連天使在天上的時候，也知道人的遭遇。他在空間行動也不費時間，立刻就能來到人的身邊。",
+      "after": "天使按空間雖然有時離開人，但按保護之作用並不離開他；因為就連天使在天上的時候，也知道人的遭遇。他在空間行動也不費時間，立刻就能來到人的身邊。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "掛然",
+          "after": "雖然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "離問",
+          "after": "離開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "天使為他們所守護者的不幸是否感到悲傷",
+      "after": "天使為他們所守護者的不幸是否感到悲傷",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "天使似乎為他們所守護者的不幸感到悲傷。因為:",
+      "after": "天使似乎為他們所守護者的不幸感到悲傷。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "《依撒意亞》第三十三章7節說: 「和平使者或天使悲痛啼哭。」但是啼哭是悲傷和哀愁的標記。所以，天使為他們所保護的人之不幸感到悲傷。",
+      "after": "《依撒意亞》第三十三章7節說：「和平使者或天使悲痛啼哭。」但是啼哭是悲傷和哀愁的標記。所以，天使為他們所保護的人之不幸感到悲傷。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "此外，按奧斯定《天主之城》卷十四第十五章所說的，哀愁或悲傷是「關於我們所不願而發生的事情的」。但是被保護的人喪亡是違反護守天使之意願的事。所以，天使因人喪亡而悲傷。",
+      "after": "此外，按奧斯定《天主之城》卷十四第十五章所說的，哀愁或悲傷是「關於我們所不願而發生的事情的」。但是被保護的人喪亡是違反護守天使之意願的事。所以，天使因人喪亡而悲傷。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "此外，喜樂與悲傷相反，正如悔罪之與犯罪相反。但按《路加福音》第十五章7節所說的，天使為了罪人悔改而感到喜樂。所以，他們為了善人陷入罪惡也感到悲傷。",
+      "after": "此外，喜樂與悲傷相反，正如悔罪之與犯罪相反。但按《路加福音》第十五章7節所說的，天使為了罪人悔改而感到喜樂。所以，他們為了善人陷入罪惡也感到悲傷。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a007.arg4",
+      "article": 7,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1684
+      ],
+      "before": "此外，關於《戶籍紀》第十八章12節那句: 「凡作初熟之物獻給(上主的)」等等，奧利振的可胡平」上說: 「天使被提受審﹒以便知曉是由於人自己的不慎，或是由於天使的疏怠，人跌倒犯了罪。」(《戶籍紀釋義》第十一篇)但是無論誰，按理都會為他因而被提審的惡，感到悲傷。所以，天使為人的罪感到悲傷。",
+      "after": "此外，關於《戶籍紀》第十八章12節那句：「凡作初熟之物獻給(上主的)」等等，奧利振的「註解」上說：「天使被提受審，以便知曉是由於人自己的不慎，或是由於天使的疏怠，人跌倒犯了罪。」(《戶籍紀釋義》第十一篇)但是無論誰，按理都會為他因而被提審的惡，感到悲傷。所以，天使為人的罪感到悲傷。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可胡平」",
+          "after": "「註解」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受審﹒",
+          "after": "受審，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1684,
+        1685
+      ],
+      "before": "哪裡有哀愁和悲傷，便沒有圓滿的幸福;為此《默示錄》第二十一章4節說: 「以後再也沒有死亡，再也沒有悲傷，沒有哀號，沒有苦楚。」但是，天使們是完全幸福的。所以，他們沒有任何悲傷。",
+      "after": "哪裡有哀愁和悲傷，便沒有圓滿的幸福；為此《默示錄》第二十一章4節說：「以後再也沒有死亡，再也沒有悲傷，沒有哀號，沒有苦楚。」但是，天使們是完全幸福的。所以，他們沒有任何悲傷。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1685
+      ],
+      "before": "我解答如下:天使們無論是對人的罪惡，或對人的處罰，都不感到悲傷。按奧斯定所說的(同上)，哀愁和悲傷無非是關於與意願相反之事情的。在世界上發生的事情，沒有一件與天使及其他享有真褔者的意願相反，因為他們的意志完全依順天主正義之措施;而世界上所發生的事情，沒有一件不是出於天主的正義，或為天主的正義所準許的。為此，絕對或總括地(simpliciter)來說，世界上的事沒有一件違反享有真褔者的意願。按哲學家在《倫理學》卷三第一章所說的，所謂絕對情願的，即是人特殊或具體地所願意者，即是把一切情況都考慮在內的情願，縱然普遍地只看事情本身不是情願的;例如水手，一般(absoh巾，脫離或無視於特殊情況)而普遍地來說，不願意將貨物拋在海裡，但在有生命危險時他情願如此。為此，按那裡所說的，這時情願甚於不情願。所以，普通而一般地來說，天使們不願意人犯罪和受罰;然而關於這事，他們願遵從天主正義的措施，而按這一措施，有的人受罰，並被容許犯罪。",
+      "after": "我解答如下：天使們無論是對人的罪惡，或對人的處罰，都不感到悲傷。按奧斯定所說的(同上)，哀愁和悲傷無非是關於與意願相反之事情的。在世界上發生的事情，沒有一件與天使及其他享有真福者的意願相反，因為他們的意志完全依順天主正義之措施；而世界上所發生的事情，沒有一件不是出於天主的正義，或為天主的正義所準許的。為此，絕對或總括地(simpliciter)來說，世界上的事沒有一件違反享有真福者的意願。按哲學家在《倫理學》卷三第一章所說的，所謂絕對情願的，即是人特殊或具體地所願意者，即是把一切情況都考慮在內的情願，縱然普遍地只看事情本身不是情願的；例如水手，一般(absolute，脫離或無視於特殊情況)而普遍地來說，不願意將貨物拋在海裡，但在有生命危險時他情願如此。為此，按那裡所說的，這時情願甚於不情願。所以，普通而一般地來說，天使們不願意人犯罪和受罰；然而關於這事，他們願遵從天主正義的措施，而按這一措施，有的人受罰，並被容許犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "absoh巾",
+          "after": "absolute",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1685
+      ],
+      "before": "依j散意亞先知的話，可以說「使者」指的是希則克雅國王的使者，他們因了辣布沙色(Rabsaces)的話而啼哭，事見《依撒意亞》第三十七章第2等節。這是按字面的意義來講。按寓意來說，和平使者是指宗徒及其他傳道者，他們為了人的罪惡而啼哭。如果按神祕意義，將和平使者解釋為享真福的天使，貝IJ那是比喻的說法，是指天使們普遍地願意人得救。按這方式，可以說天主及天使們有這類感受。",
+      "after": "依撒意亞先知的話，可以說「使者」指的是希則克雅國王的使者，他們因了辣布沙色(Rabsaces)的話而啼哭，事見《依撒意亞》第三十七章第2等節。這是按字面的意義來講。按寓意來說，和平使者是指宗徒及其他傳道者，他們為了人的罪惡而啼哭。如果按神祕意義，將和平使者解釋為享真福的天使，則那是比喻的說法，是指天使們普遍地願意人得救。按這方式，可以說天主及天使們有這類感受。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "依j散",
+          "after": "依撒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "由上面正解所說的可知質疑2.之答案。",
+      "after": "由上面正解所說的可知質疑2.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "無論人是悔罪成犯罪，天使仍保有一項喜樂的理由，即天主之措施的實現已",
+      "after": "無論人是悔罪或犯罪，天使仍保有一項喜樂的理由，即天主之措施的實現。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "成犯罪",
+          "after": "或犯罪",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "實現已",
+          "after": "實現。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a007.ad4",
+      "article": 7,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "為了人盯罪過天使被提審，不是被視為罪犯而是當見証，為使人承認自己的疏懶c",
+      "after": "為了人的罪過天使被提審，不是被視為罪犯而是當見証，為使人承認自己的疏懶。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人盯",
+          "after": "人的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "疏懶c",
+          "after": "疏懶。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "天使彼此之間是否能有衝突或不睦",
+      "after": "天使彼此之間是否能有衝突或不睦",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "有關第八節‘我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第八節‘",
+          "after": "第八節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "天使彼此之間似乎不能有衝突或不睦。因為:",
+      "after": "天使彼此之間似乎不能有衝突或不睦。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "《約伯傳》第二十五章2節說: 「祂在高天締造和平。」但衝突與和平相反。所以，在天上的天使之間沒有衝突r",
+      "after": "《約伯傳》第二十五章2節說：「祂在高天締造和平。」但衝突與和平相反。所以，在天上的天使之間沒有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "衝突r",
+          "after": "衝突。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "此外，哪裡有完美的愛德及正當的秩序，便不能有衝突。這是天使們全部都具有的。所以，天使們沒有衝突。",
+      "after": "此外，哪裡有完美的愛德及正當的秩序，便不能有衝突。這是天使們全部都具有的。所以，天使們沒有衝突。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q113.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "此外，若說天使們是為他們所保護的人而起衝突，則必然這位天使袒護這一方，那位天使袒護那一方。但若是一方有理，貝IJ對方沒有理。如此則善天使便成了袒護不義者，這似乎不合理。所以，在善天i吏彼此之間沒有衝突。",
+      "after": "此外，若說天使們是為他們所保護的人而起衝突，則必然這位天使袒護這一方，那位天使袒護那一方。但若是一方有理，則對方沒有理。如此則善天使便成了袒護不義者，這似乎不合理。所以，在善天使彼此之間沒有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天i吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1686
+      ],
+      "before": "在《達尼爾》第十章13節﹒以彌額爾天(吏的名義說:「波斯國的領袖或率領者(Princeps)反對我，使我在那裡滯留了二十一天o 」波斯人的這位領袖或率領者，指的是負責保護波斯國的天使c所以一位善天使反對別的天(吏，如此則在他們之間有衝突。",
+      "after": "在《達尼爾》第十章13節，以彌額爾天使的名義說：「波斯國的領袖或率領者(Princeps)反對我，使我在那裡滯留了二十一天。」波斯人的這位領袖或率領者，指的是負責保護波斯國的天使。所以一位善天使反對別的天使，如此則在他們之間有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "13節﹒",
+          "after": "13節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天o ",
+          "after": "天。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使c",
+          "after": "天使。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1686,
+        1687
+      ],
+      "before": "我解答如下:這個問題便是因了達尼爾的話引起的。熱羅尼莫於《達尼爾註解》(In Danielem)，關於第十章13節解釋說，波斯圈之領袖指的是天使，他反對以色列民族獲得自由;達尼爾為以色列民族之自由祈禱，由彌額爾天使呈獻於天主。這種反對能夠成立，因為一個魔鬼首領，引誘被帶到波斯的猶太人陷入罪惡，因而構成達尼爾為同一民族所做之祈禱的障礙。\n但是按教宗額我略一世在《倫理叢談》卷十七第十二章所說的，波斯國之領袖是指負責保護波斯的善天使。要想明瞭何以說一位天使反對另一位天便，該知道天主對各國或各人之判斷，是由天使們執行。天使之行動是根據天主的決定。有時各國或各人之功過互相怯觸，各不相讓;若非天主啟示，便不能知曉天主上智是怎樣處斷，為此必得就教於天主之上智。所以，幾時天使們詢問天主關於互相抵觸、街突之功績的旨意，便說他們彼此反對。這並不是因為他們的意願有衝突，因為他們的意願都是一致的，即都願意實現天主之處斷;而是因了他們所詢問的事彼此有衝突。",
+      "after": "我解答如下：這個問題便是因了達尼爾的話引起的。熱羅尼莫於《達尼爾註解》(In Danielem)，關於第十章13節解釋說，波斯國之領袖指的是天使，他反對以色列民族獲得自由；達尼爾為以色列民族之自由祈禱，由彌額爾天使呈獻於天主。這種反對能夠成立，因為一個魔鬼首領，引誘被帶到波斯的猶太人陷入罪惡，因而構成達尼爾為同一民族所做之祈禱的障礙。\n但是按教宗額我略一世在《倫理叢談》卷十七第十二章所說的，波斯國之領袖是指負責保護波斯的善天使。要想明瞭何以說一位天使反對另一位天使，該知道天主對各國或各人之判斷，是由天使們執行。天使之行動是根據天主的決定。有時各國或各人之功過互相抵觸，各不相讓；若非天主啟示，便不能知曉天主上智是怎樣處斷，為此必得就教於天主之上智。所以，幾時天使們詢問天主關於互相抵觸、衝突之功績的旨意，便說他們彼此反對。這並不是因為他們的意願有衝突，因為他們的意願都是一致的，即都願意實現天主之處斷；而是因了他們所詢問的事彼此有衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "波斯圈",
+          "after": "波斯國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "怯觸",
+          "after": "抵觸",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "街突",
+          "after": "衝突",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q113.a008.general",
+      "article": 8,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1687
+      ],
+      "before": "由此可知各質疑之答案。",
+      "after": "由此可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
