@@ -1,0 +1,1591 @@
+{
+  "schema_version": 1,
+  "batch": "I-q091",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q091",
+    "title": "論第一個人之身體的產生",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1464,
+      1465,
+      1466,
+      1467,
+      1468,
+      1469,
+      1470,
+      1471,
+      1472,
+      1473
+    ],
+    "printed_pages": [
+      237,
+      246
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 56,
+    "changed_review_units": 41,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q91.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q91.json": "0984d430ea033fbe45684abeebe2cf015755565ac36add8c33cf8de12e946629"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q091.a001.ad3",
+      "pdf_file_page": 1466,
+      "text": "瞳人",
+      "status": "suspected_source_print_error",
+      "action": "原页作「瞳人」，依底本保留，不换成通行写法。"
+    },
+    {
+      "id": "I.q091.a001.ad4",
+      "pdf_file_page": 1466,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q091.a002.arg1",
+      "pdf_file_page": 1466,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q091.a002.respondeo",
+      "pdf_file_page": 1467,
+      "text": "第六十三題第四節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文确作「第六十三題第四節」，疑题号有误；保留待人工定夺。"
+    },
+    {
+      "id": "I.q091.a002.respondeo",
+      "pdf_file_page": 1467,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q091.a002.ad4",
+      "pdf_file_page": 1468,
+      "text": "原己存在於別的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q091.a003.ad1",
+      "pdf_file_page": 1470,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q091.a003.ad2",
+      "pdf_file_page": 1470,
+      "text": "相衡突",
+      "status": "suspected_source_print_error",
+      "action": "放大原页确作「相衡突」，疑「衝」字印误；保留原书字形。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q091.prologue",
+      "description": "引言中孤立的字面反斜线加n属于识别乱码，不是真实换行转义；与周围乱码一起按原页修复。原有真实换行及其转义序列全部保留。"
+    }
+  ],
+  "notes": [
+    "全部10页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q091.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "然後要討論的是第一個人之身體的產生(參看第九十題引至ê\"\\n E司/\n關於這點，可以提出四個問題:\n一、論其所從出之質料。\n二、論其產生之創作者。\n三、論其藉由產生所得之配備。\n四、論其產生之方式及次序。",
+      "after": "然後要討論的是第一個人之身體的產生(參看第九十題引言)。\n關於這點，可以提出四個問題：\n一、論其所從出之質料。\n二、論其產生之創作者。\n三、論其藉由產生所得之配備。\n四、論其產生之方式及次序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "引至ê\"\\n E司/",
+          "after": "引言)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "第一個人的身體是否用灰土構成的",
+      "after": "第一個人的身體是否用灰土構成的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "第一個人的身體似乎不是用灰土構成的。因為:",
+      "after": "第一個人的身體似乎不是用灰土構成的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "從無中創造比用某質料製造東西需要更大的能力，因為非物比具有潛能的物離現實遠。人既然是下界受造物中最高貴的，在產生其身體時該特別表顯出天主的能力來。所以，身體不該從灰土中，而該從無中產生。",
+      "after": "從無中創造比用某質料製造東西需要更大的能力，因為非物比具有潛能的物離現實遠。人既然是下界受造物中最高貴的，在產生其身體時該特別表顯出天主的能力來。所以，身體不該從灰土中，而該從無中產生。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "此外，天體比下界的物體高貴。但是人的身體地位極高，因為它是受最高貴之形式，t!D靈魂的成全。所以，人的身體不該用下界的物體，而該用天體來構成。",
+      "after": "此外，天體比下界的物體高貴。但是人的身體地位極高，因為它是受最高貴之形式，即靈魂的成全。所以，人的身體不該用下界的物體，而該用天體來構成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，t!D靈魂",
+          "after": "，即靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "此外，火與空氣，比土及水高貴，因為前者比較精細。既然人的身體是極高貴的，似乎該用火和空氣，而不該用灰土構成。",
+      "after": "此外，火與空氣，比土及水高貴，因為前者比較精細。既然人的身體是極高貴的，似乎該用火和空氣，而不該用灰土構成。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1464
+      ],
+      "before": "此外，人的身體是由四種元素組成的。所以，它不是用灰土造的，而是用所有的元素。",
+      "after": "此外，人的身體是由四種元素組成的。所以，它不是用灰土造的，而是用所有的元素。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1465
+      ],
+      "before": "《創世紀》第二章7節說: 「上主天主用地上的灰土形成了人。」",
+      "after": "《創世紀》第二章7節說：「上主天主用地上的灰土形成了人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1465
+      ],
+      "before": "我解答如下:天主既然是完美的，祂也使祂的作品各按其位而具有完美性;正如《申命紀》第三十二章4節所說的:「祂的作為完美無比」。天主是絕對或單純完美的‘因為按狄奧尼íl多《神名論》第五章所說的，「祂本身原含有一切」'不是像組合體那樣，而是「單純地和一貫地」'就像不同的效果之原來存在於原因的同一個本質中。傳給天使們的這一完美性，在於天主在自然界所產生的一切，都在他們的認識中，但是用許多形式。這一完美i生傳給人的方式較差。人按天生的知識並不認識一切東西;但可以說他是用一切東西組成的:在精神本體方面，他有靈魂;他與天體的相似處，在於他按氣質之平衡是居於相反者之中立點;按身體，他有各種元素。但在元素中，按實力是以高級原素為主，即火和空氣;因為生命主要在於熱，也就是火，以及在於濕，也就是空氣。低級元素則是以體積見盛;因為低級元素既然能力小，除非分量重，否則混合的就不能平均。是以說人的身體是用泥土構成的，因為所謂泥乃是含有水的土。故此，人被稱為「小宇宙」'因為宇宙間所有的受造物都多少可以在他身上找到。",
+      "after": "我解答如下：天主既然是完美的，祂也使祂的作品各按其位而具有完美性；正如《申命紀》第三十二章4節所說的：「祂的作為完美無比」。天主是絕對或單純完美的，因為按狄奧尼修《神名論》第五章所說的，「祂本身原含有一切」，不是像組合體那樣，而是「單純地和一貫地」，就像不同的效果之原來存在於原因的同一個本質中。傳給天使們的這一完美性，在於天主在自然界所產生的一切，都在他們的認識中，但是用許多形式。這一完美性傳給人的方式較差。人按天生的知識並不認識一切東西；但可以說他是用一切東西組成的：在精神本體方面，他有靈魂；他與天體的相似處，在於他按氣質之平衡是居於相反者之中立點；按身體，他有各種元素。但在元素中，按實力是以高級原素為主，即火和空氣；因為生命主要在於熱，也就是火，以及在於濕，也就是空氣。低級元素則是以體積見盛；因為低級元素既然能力小，除非分量重，否則混合的就不能平均。是以說人的身體是用泥土構成的，因為所謂泥乃是含有水的土。故此，人被稱為「小宇宙」，因為宇宙間所有的受造物都多少可以在他身上找到。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "完美的‘",
+          "after": "完美的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "狄奧尼íl多",
+          "after": "狄奧尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一切」'",
+          "after": "一切」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一貫地」'",
+          "after": "一貫地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美i生",
+          "after": "完美性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "小宇宙」'",
+          "after": "小宇宙」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1465
+      ],
+      "before": "會IJ造者天主之能力，如此在人的身體上表現出來，即它的質料是以創造方式產生的。該用四種元素的質料形成人的身體，為使人與低級形體物有共同點，因而能居於精神性本體與形體物之間。",
+      "after": "創造者天主之能力，如此在人的身體上表現出來，即它的質料是以創造方式產生的。該用四種元素的質料形成人的身體，為使人與低級形體物有共同點，因而能居於精神性本體與形體物之間。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "會IJ造者",
+          "after": "創造者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1465,
+        1466
+      ],
+      "before": "天體雖然本來比下界物體高貴，但比較不適於靈魂之活動。因為靈魂獲得真理多少是憑感官，而這些感官的器官不能用天體構成，因為天體沒有感受性。有人說在人之身體的質料組閤中含有「第五元素」(quinta巳ssentia)，因為他們認為靈魂是藉一種光而與身體結合(參看第七十六題第七節)，這是不對的。首先，他們說光是一種形體物，這是不對的。第二，天體是沒有被動性的，所以不能從天體中分出一部分第五元素來，也不能與其他元素相混合。所以第五元素只是以其能力的效力，影響混合體的組合。",
+      "after": "天體雖然本來比下界物體高貴，但比較不適於靈魂之活動。因為靈魂獲得真理多少是憑感官，而這些感官的器官不能用天體構成，因為天體沒有感受性。有人說在人之身體的質料組合中含有「第五元素」(quinta essentia)，因為他們認為靈魂是藉一種光而與身體結合(參看第七十六題第七節)，這是不對的。首先，他們說光是一種形體物，這是不對的。第二，天體是沒有被動性的，所以不能從天體中分出一部分第五元素來，也不能與其他元素相混合。所以第五元素只是以其能力的效力，影響混合體的組合。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "組閤",
+          "after": "組合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "quinta巳ssentia",
+          "after": "quinta essentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "倘若活動力量比較強的火和空氣，在身體的組閤中，按分量也比較多的話，別的元素就會完全為它們所吸引，因而便不能混合平均。為了觸覺靈活，人(身體)的組合需要平均，而觸覺是其他感官之基礎。每個感官的器官不該現實地已真有它所能認知的對立者.，只能有其潛能。所以，或者它絕對沒有對立者之類的東西，就如瞳人沒有顏色，以能知覺所有的顏色。但這在觸覺器官上是不可能的，因為它是由元素組合成的。而觸覺知覺的是這些元素之品質。或者器官是相反者之中點，觸覺就該是如此;因為中點對兩極來說可以說是在潛能狀態。",
+      "after": "倘若活動力量比較強的火和空氣，在身體的組合中，按分量也比較多的話，別的元素就會完全為它們所吸引，因而便不能混合平均。為了觸覺靈活，人(身體)的組合需要平均，而觸覺是其他感官之基礎。每個感官的器官不該現實地具有它所能認知的對立者，只能有其潛能。所以，或者它絕對沒有對立者之類的東西，就如瞳人沒有顏色，以能知覺所有的顏色。但這在觸覺器官上是不可能的，因為它是由元素組合成的。而觸覺知覺的是這些元素之品質。或者器官是相反者之中點，觸覺就該是如此；因為中點對兩極來說可以說是在潛能狀態。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "組閤",
+          "after": "組合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對立者.，",
+          "after": "對立者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "在泥中有土，以及連繫土的水。聖經沒有提別的元素，一是因為在人體內佔的分量小，如正解己說過的;一是因為在講萬物之產生峙，聖經一直沒有提火和空氣。因為聖經是為一般人的，而粗俗的人覺得火與空氣不可捉摸。",
+      "after": "在泥中有土，以及連繫土的水。聖經沒有提別的元素，一是因為在人體內佔的分量小，如正解己說過的；一是因為在講萬物之產生時，聖經一直沒有提火和空氣。因為聖經是為一般人的，而粗俗的人覺得火與空氣不可捉摸。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "產生峙",
+          "after": "產生時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "人的身體是否由天主直接產生的",
+      "after": "人的身體是否由天主直接產生的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "人的身體似乎不是由天主直接產生的。因為:",
+      "after": "人的身體似乎不是由天主直接產生的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1466
+      ],
+      "before": "奧斯定在《論天主聖三》卷三第四章說，天主處理形體物是經過受造的天使。但人的身體，如第一節己說過的，是由形體質料構成的。所以該是經過天使，而非直接由天主產生的。",
+      "after": "奧斯定在《論天主聖三》卷三第四章說，天主處理形體物是經過受造的天使。但人的身體，如第一節己說過的，是由形體質料構成的。所以該是經過天使，而非直接由天主產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1466,
+        1467
+      ],
+      "before": "此外，凡是能以受造之能力產生的，不必直接白天主產生。但人的身體能夠由天體之受造的能力產生，因為有些動物是在天體之作用下從腐爛的東西中產生。阿布瑪tJ (Albumas泣，805'\"'-'886年，阿拉伯天文學家和占星家)說，在太熱或太冷的地區人不生育，在溫和地區才生育。所以人的身體不必由天主直接形成。",
+      "after": "此外，凡是能以受造之能力產生的，不必直接由天主產生。但人的身體能夠由天體之受造的能力產生，因為有些動物是在天體之作用下從腐爛的東西中產生。阿布瑪沙 (Albumasar，805～886年，阿拉伯天文學家和占星家)說，在太熱或太冷的地區人不生育，在溫和地區才生育。所以人的身體不必由天主直接形成。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "直接白天主",
+          "after": "直接由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "阿布瑪tJ",
+          "after": "阿布瑪沙",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Albumas泣，805'\"'-'886年",
+          "after": "Albumasar，805～886年",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1467
+      ],
+      "before": "此外‘凡由形體質料來的東西，都是由於質料之變化而來的。但一切形體上的變化都是由天體之運動產生的，天體之運動是一切運動中的第一個。既然人的身體是由形體質料形成的，所以在它的形成中似乎有些作用是來自天體。",
+      "after": "此外，凡由形體質料來的東西，都是由於質料之變化而來的。但一切形體上的變化都是由天體之運動產生的，天體之運動是一切運動中的第一個。既然人的身體是由形體質料形成的，所以在它的形成中似乎有些作用是來自天體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外‘",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1467
+      ],
+      "before": "此外，奧斯定在《創世紀字義新探》卷七第二十四章說，在六天的工程中，天主先是把人體之基本原因或胚種放在形體受造物中，後來才現實地形成了人的身體。但是已經潛在於形體受造物中的胚種，可以用某形體物的力量使之產生。戶已以人的身體是由某受造之力量，而不是直接由天主產生的。",
+      "after": "此外，奧斯定在《創世紀字義新探》卷七第二十四章說，在六天的工程中，天主先是把人體之基本原因或胚種放在形體受造物中，後來才現實地形成了人的身體。但是已經潛在於形體受造物中的胚種，可以用某形體物的力量使之產生。所以人的身體是由某受造之力量，而不是直接由天主產生的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "戶已以",
+          "after": "所以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1467
+      ],
+      "before": "《德訓篇》第十七章l節說:「上主用塵土造了人。」",
+      "after": "《德訓篇》第十七章1節說：「上主用塵土造了人。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1467,
+        1468
+      ],
+      "before": "我解答如下:、人體的第一次形成不能是由於某受造物在力量，而是直接由於天主。固然有人主張，形體物的形式是住某些非物質性形式來的(參看第六十三題第四節)。但是哲學家在《形上學》卷七第八及第九章反對這個主張。因為按前面軍四十五題第八節、第六十五題第四節、第九十題第二節己說過的﹒形式本身不能形成，形成的是組合體;又因了主動原因該與信形成者相似，故沒有質料的純形式，不適於產生在質料中存在的形式，這種形式只因組合體之成立而能成立。所以質料中自7形式，該是由質料中之形式產生的，也就是組合體由組合體產生。雖然天主是絕對非物質的，但只有祂能用自己的力量，ι創造方式產生質料。因此，只有祂能不藉助於先有之質料性形式而在質料中產生形式。因此按奧斯定在《論天主聖三》卷三第八及第九章所說的，若非用一些種子，天使不能使形體物改變形式。既然還沒有人的任何身體形成，不能用它的力量，以生殖方式來形成別的同類者，所以，人的第一個身體一定是直接由天主形成的。",
+      "after": "我解答如下：人體的第一次形成不能是由於某受造物的力量，而是直接由於天主。固然有人主張，形體物的形式是由某些非物質性形式來的(參看第六十三題第四節)。但是哲學家在《形上學》卷七第八及第九章反對這個主張。因為按前面第四十五題第八節、第六十五題第四節、第九十題第二節己說過的：形式本身不能形成，形成的是組合體；又因了主動原因該與受形成者相似，故沒有質料的純形式，不適於產生在質料中存在的形式，這種形式只因組合體之成立而能成立。所以質料中的形式，該是由質料中之形式產生的，也就是組合體由組合體產生。雖然天主是絕對非物質的，但只有祂能用自己的力量，以創造方式產生質料。因此，只有祂能不藉助於先有之質料性形式而在質料中產生形式。因此按奧斯定在《論天主聖三》卷三第八及第九章所說的，若非用一些種子，天使不能使形體物改變形式。既然還沒有人的任何身體形成，不能用它的力量，以生殖方式來形成別的同類者，所以，人的第一個身體一定是直接由天主形成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下:、",
+          "after": "如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受造物在力量",
+          "after": "受造物的力量",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是住某些",
+          "after": "是由某些",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "前面軍四十五",
+          "after": "前面第四十五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說過的﹒",
+          "after": "說過的：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "與信形成者",
+          "after": "與受形成者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "質料中自7形式",
+          "after": "質料中的形式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "，ι創造方式",
+          "after": "，以創造方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1468
+      ],
+      "before": "'1.關於形體物方面的事，天使雖然能夠有某些服務，但天主在形體物上所行的事，有些非天使之力量之所能及，例如:使死人復活，使瞎子復明。用泥土形成第一個人的身體也屬於這個範圈。不過在形成第一個人的身體時，天使也可能曾提供服務，就像在肉體復活時，將由他們收集骨灰。",
+      "after": "關於形體物方面的事，天使雖然能夠有某些服務，但天主在形體物上所行的事，有些非天使之力量之所能及，例如：使死人復活，使瞎子復明。用泥土形成第一個人的身體也屬於這個範圍。不過在形成第一個人的身體時，天使也可能曾提供服務，就像在肉體復活時，將由他們收集骨灰。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "'1.關於",
+          "after": "關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1468
+      ],
+      "before": "用精子生殖的高級動物，並不能只靠天體的力量產生，如同亞維採那所想像的(參看第七十一題釋疑'1.);雖然天體之力量對動物之自然生殖也有作用，就如哲學家在《物理學》卷二第二章說的，「人及太陽從質料中產生人」。是以，人及其他高級動物之生殖，需要溫度適宜的地區;然而天體的力量足以從適當的質料中產生一些低級動物，{旦顯然為產生完美的東西，比為產生不完美的東西需要的條件多。",
+      "after": "用精子生殖的高級動物，並不能只靠天體的力量產生，如同亞維采那所想像的(參看第七十一題釋疑1.)；雖然天體之力量對動物之自然生殖也有作用，就如哲學家在《物理學》卷二第二章說的，「人及太陽從質料中產生人」。是以，人及其他高級動物之生殖，需要溫度適宜的地區；然而天體的力量足以從適當的質料中產生一些低級動物，但顯然為產生完美的東西，比為產生不完美的東西需要的條件多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "亞維採那",
+          "after": "亞維采那",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑'1.",
+          "after": "釋疑1.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦顯然",
+          "after": "但顯然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1468
+      ],
+      "before": "天體之運動是自然界變化的原因，但不是超出自然秩序之變化的原因，後者只有賴天主的能力，例如:死人復活，瞎子復明。用泥土形成人也是屬於這類的事。",
+      "after": "天體之運動是自然界變化的原因，但不是超出自然秩序之變化的原因，後者只有賴天主的能力，例如：死人復活，瞎子復明。用泥土形成人也是屬於這類的事。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1468
+      ],
+      "before": "所謂一個東西以基本原因或胚種(mtio causalis)方式原已存在於受造物內，這有兩種情形:一是按主動能力及被動能力，即不只從原有的質料可以形成，而且也原有能完成此事的受造物;男一情形是隻有被動能力，即是說，能由天主從原有之質料中來形成。奧斯定所謂的人體以基本原因或胚種的方式，原己存在於別的受造工程中，這是指後一情形。",
+      "after": "所謂一個東西以基本原因或胚種(ratio causalis)方式原已存在於受造物內，這有兩種情形：一是按主動能力及被動能力，即不只從原有的質料可以形成，而且也原有能完成此事的受造物；另一情形是只有被動能力，即是說，能由天主從原有之質料中來形成。奧斯定所謂的人體以基本原因或胚種的方式，原己存在於別的受造工程中，這是指後一情形。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "mtio causalis",
+          "after": "ratio causalis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一情形",
+          "after": "另一情形",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是隻有",
+          "after": "是只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "人體的配備是否適當",
+      "after": "人體的配備是否適當",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "人體的配備似乎不適當。因為:",
+      "after": "人體的配備似乎不適當。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "既然人是動物中最高貴的，似乎人體在動物的專長方面該有最好的配備，即在知覺和運動方面。但是有些動物的知覺比人靈敏，有的行動比人快速，例如:狗的嗅覺比人強，鳥的行動比人快。所以人體配備的不適當。",
+      "after": "既然人是動物中最高貴的，似乎人體在動物的專長方面該有最好的配備，即在知覺和運動方面。但是有些動物的知覺比人靈敏，有的行動比人快速，例如：狗的嗅覺比人強，鳥的行動比人快。所以人體配備的不適當。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "此外，完美的東西就是什麼也不缺少的。但是人體比起其他動物來缺少許多東西，其他動物有自然的衣服和武器為保護自己，這是人所沒有的。所以人體的配備非常不完美。",
+      "after": "此外，完美的東西就是什麼也不缺少的。但是人體比起其他動物來缺少許多東西，其他動物有自然的衣服和武器為保護自己，這是人所沒有的。所以人體的配備非常不完美。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "此外，人與植物的距離，比與禽獸的距離遠。但植物的莖幹是直挺的，動物的軀幹是平伸的。所以人的身體不該是直挺的。",
+      "after": "此外，人與植物的距離，比與禽獸的距離遠。但植物的莖幹是直挺的，動物的軀幹是平伸的。所以人的身體不該是直挺的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1469
+      ],
+      "before": "《司iI道篇》第七章30節說: 「天主造人原很正直。」",
+      "after": "《訓道篇》第七章30節說：「天主造人原很正直。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "司iI道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1469,
+        1470
+      ],
+      "before": "我解答如下:自然界的東西都是由天主的技術產生的，因此可以說是天主的作品。每位匠人都想使自己的作品有最好的配備，但不是絕對的(或全面的)好，而是(相對地)看(個別的)自的。若這種配備附帶有什麼不相干的缺點，匠人並不在意。就如一位匠人要做鋸刀，他用鐵來做，為能利於鋸害IJ;他並不想用玻璃來製造，雖然玻璃是更美的原料，因為這種美有礙於(鋸割)目的之達成。天主也給了每個自然物最好的配備，但不是絕對地，而是各按針對其專有目的的關係。這也正是哲學家在《物理學》卷二第七章所說的: 「這樣比較更好，但不是絕對地，而是針對每個東西的性質。」\n人體的近目的是靈魂及其活動，因為質料是以形式為指歸，工具是以主動者之作用為指歸。天主所設計的人體配備，為那種形式和那些活動，是最合適的。倘若在身體的配備上發見有缺點，該知道，那種缺點是由為使身體適於靈魂及其活動而選用的質料來的。",
+      "after": "我解答如下：自然界的東西都是由天主的技術產生的，因此可以說是天主的作品。每位匠人都想使自己的作品有最好的配備，但不是絕對的(或全面的)好，而是(相對地)看(個別的)目的。若這種配備附帶有什麼不相干的缺點，匠人並不在意。就如一位匠人要做鋸刀，他用鐵來做，為能利於鋸割；他並不想用玻璃來製造，雖然玻璃是更美的原料，因為這種美有礙於(鋸割)目的之達成。天主也給了每個自然物最好的配備，但不是絕對地，而是各按針對其專有目的的關係。這也正是哲學家在《物理學》卷二第七章所說的：「這樣比較更好，但不是絕對地，而是針對每個東西的性質。」\n人體的近目的是靈魂及其活動，因為質料是以形式為指歸，工具是以主動者之作用為指歸。天主所設計的人體配備，為那種形式和那些活動，是最合適的。倘若在身體的配備上發見有缺點，該知道，那種缺點是由為使身體適於靈魂及其活動而選用的質料來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鋸害IJ",
+          "after": "鋸割",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1470
+      ],
+      "before": "人的觸覺比其他任何時物的觸覺都完美，而觸覺是其他感官之基礎;故此，在動物中，以人的氣質最平衡調諧。在內部感官能力方面，如第七十八題第四節己說過的?人也比別的動物強。但由於不得已，人在某些外部感宮不如別的動物，例如:在動物中，以人的嗅覺最差。在動物中，按身體的比例，人的大腦體積該是最大的:一是為使內部感官之活動更為靈活，這乃是為理智之活動所需要的，前面第八十四題第七節已經說過;一是為使大腦之冷度，調節心臟之熱度，因為要使軀幹挺直，一定需要的熱量高。因了大腦體積大，而且是屬於陰濕的，嗅覺遂受到阻礙，因為嗅覺需要乾燥。同樣，有些動物的視覺比人的清明，聽覺比人的靈敏，也是有原因的。這是因為人的氣質調和，遂妨礙了這些知覺。有的動物的行動比人快，也是這個原因，人的調諧氣質不適於快速的動作。",
+      "after": "人的觸覺比其他任何動物的觸覺都完美，而觸覺是其他感官之基礎；故此，在動物中，以人的氣質最平衡調諧。在內部感官能力方面，如第七十八題第四節己說過的，人也比別的動物強。但由於不得已，人在某些外部感官不如別的動物，例如：在動物中，以人的嗅覺最差。在動物中，按身體的比例，人的大腦體積該是最大的：一是為使內部感官之活動更為靈活，這乃是為理智之活動所需要的，前面第八十四題第七節已經說過；一是為使大腦之冷度，調節心臟之熱度，因為要使軀幹挺直，一定需要的熱量高。因了大腦體積大，而且是屬於陰濕的，嗅覺遂受到阻礙，因為嗅覺需要乾燥。同樣，有些動物的視覺比人的清明，聽覺比人的靈敏，也是有原因的。這是因為人的氣質調和，遂妨礙了這些知覺。有的動物的行動比人快，也是這個原因，人的調諧氣質不適於快速的動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "任何時物",
+          "after": "任何動物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說過的?",
+          "after": "說過的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "外部感宮",
+          "after": "外部感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1470
+      ],
+      "before": "有些動物的武器，角和爪，以及掩護動物的厚皮羽毛等，都說明這些動物身體中含的土分重;這與人之氣質之平衡溫和相衡突，因此人不宜有這些東西。但他有替代這些東西的理性和手，可用以為自己配備武器及衣服，以及其他生活用品，方法無窮。故此《靈魂論》卷三第八章稱手為「一切工具之工具」 0這也最適合人的理性，它有無限的構想，能為自己設備無限的工具。",
+      "after": "有些動物的武器，角和爪，以及掩護動物的厚皮羽毛等，都說明這些動物身體中含的土分重；這與人之氣質之平衡溫和相衡突，因此人不宜有這些東西。但他有替代這些東西的理性和手，可用以為自己配備武器及衣服，以及其他生活用品，方法無窮。故此《靈魂論》卷三第八章稱手為「一切工具之工具」。這也最適合人的理性，它有無限的構想，能為自己設備無限的工具。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "工具」 0",
+          "after": "工具」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1470,
+        1471
+      ],
+      "before": "人該有挺直的軀幹，這有四個理由。第一，人的感官不像其他動物那樣，只是為滿足生活之需要的，也是為求知識的。因此，其他動物之喜好感性物只是為了食與色，只有人能喜愛感性物本身之美。因為感官主要都在面孔上，其他動物的面孔朝地，好似是為尋找食物，以照顧自己的生計;人的面孔是豎直的，為了用感宮，特別用感官中最精細和能分辨東西的許多區別的眼睛，自由認真日各方面的東西，無論天上的或地上的，為能從各方面採集智愷層次的真理。第二，為使內部感官便於活動，因而把完成這些活動的大腦放在身體的最高部分，使它不受鷗IJ 0第三，倘若人的身體也是平仲的，便要用手當前腳。如此手便不能做別的事了。第四，若人的身體是平伸的，並以手當前腳，便要用嘴取食物。如此就要像別的動物，有長形的嘴，粗硬的脣，舌頭也是硬的，以免受外物傷害。這種配置絕對妨礙講話能力，而講話是理性的專有活動。\n人體雖是挺直的，與植物的距離卻非常大。人的高級部分，即頭部，是朝向上界，低級部分是朝向下界，所以與宇宙配合得最好。植物的高級部分則朝向下界(因為根子相當於嘴)，低級部分則朝向上界;禽獸的體態則居於二者之間。因為動物的高級部分是為取用食物的，低級部分是為排泄廢物的。",
+      "after": "人該有挺直的軀幹，這有四個理由。第一，人的感官不像其他動物那樣，只是為滿足生活之需要的，也是為求知識的。因此，其他動物之喜好感性物只是為了食與色，只有人能喜愛感性物本身之美。因為感官主要都在面孔上，其他動物的面孔朝地，好似是為尋找食物，以照顧自己的生計；人的面孔是豎直的，為了用感官，特別用感官中最精細和能分辨東西的許多區別的眼睛，自由認知各方面的東西，無論天上的或地上的，為能從各方面採集智性層次的真理。第二，為使內部感官便於活動，因而把完成這些活動的大腦放在身體的最高部分，使它不受壓制。第三，倘若人的身體也是平伸的，便要用手當前腳。如此手便不能做別的事了。第四，若人的身體是平伸的，並以手當前腳，便要用嘴取食物。如此就要像別的動物，有長形的嘴，粗硬的脣，舌頭也是硬的，以免受外物傷害。這種配置絕對妨礙講話能力，而講話是理性的專有活動。\n人體雖是挺直的，與植物的距離卻非常大。人的高級部分，即頭部，是朝向上界，低級部分是朝向下界，所以與宇宙配合得最好。植物的高級部分則朝向下界(因為根子相當於嘴)，低級部分則朝向上界；禽獸的體態則居於二者之間。因為動物的高級部分是為取用食物的，低級部分是為排泄廢物的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "用感宮",
+          "after": "用感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自由認真日",
+          "after": "自由認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智愷層次",
+          "after": "智性層次",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使它不受鷗IJ 0",
+          "after": "使它不受壓制。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也是平仲的",
+          "after": "也是平伸的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "聖經描述的人體之產生是否合理",
+      "after": "聖經描述的人體之產生是否合理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "聖經上《創世紀》第一章26\"\"'-'27節、第二章7節所記述的人體之產生，似乎不合理。因為:",
+      "after": "聖經上《創世紀》第一章26～27節、第二章7節所記述的人體之產生，似乎不合理。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "26\"\"'-'27節",
+          "after": "26～27節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "人的身體，像六天的其他工程一樣，都是由天主完成的。但是關於其他的工程那裡說: 「天主說，要有，就有了。」所以造人的時候也該這樣說。",
+      "after": "人的身體，像六天的其他工程一樣，都是由天主完成的。但是關於其他的工程那裡說：「天主說，要有，就有了。」所以造人的時候也該這樣說。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "此外，按前面第二節所說的，人的身體是由天主直接造的。所以不該說: 「讓我們造人。」",
+      "after": "此外，按前面第二節所說的，人的身體是由天主直接造的。所以不該說：「讓我們造人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1471
+      ],
+      "before": "此外，人身體之形式是靈魂，也就是生氣。所以在說了「上主天主用地上的灰土形成了人」之後，不該再說: 「在他鼻孔內(或臉上)吹了一口生氛。」",
+      "after": "此外，人身體之形式是靈魂，也就是生氣。所以在說了「上主天主用地上的灰土形成了人」之後，不該再說：「在他鼻孔內(或臉上)吹了一口生氣。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生氛",
+          "after": "生氣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "此外，靈魂或生氣是在整個身體中的，特別是在心中。所以不該說:「在他鼻孔內(或臉上)吹了一口生氣。」",
+      "after": "此外，靈魂或生氣是在整個身體中的，特別是在心中。所以不該說：「在他鼻孔內(或臉上)吹了一口生氣。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.arg5",
+      "article": 4,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "男女之性別是屬於身體的，天主的尚像是屬於靈魂的。但是按奧斯定《創世紀字義新探》卷七第二十四及二十八章所說的，靈魂是在身體之先造的。所以在說了「照天主的肖像造了人」之後，不該又說:「造了一男一女」。",
+      "after": "男女之性別是屬於身體的，天主的肖像是屬於靈魂的。但是按奧斯定《創世紀字義新探》卷七第二十四及二十八章所說的，靈魂是在身體之先造的。所以在說了「照天主的肖像造了人」之後，不該又說：「造了一男一女」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "聖經有它的權威。",
+      "after": "聖經有它的權威。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "(針對諸項質疑)我解答如下:",
+      "after": "(針對諸項質疑)我解答如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "正如奧斯定在《創世紀字義新探》卷六第十二章所說的，人之比其他東西高貴，並非是因了天主自己造7人，好像別的東西就不是祂自己造的。的確，聖經《聖詠》第一。一篇26節上說:「上天也是你手的功績」;在另一處《聖詠》第九十四篇5節也說:「陸地也是祂親手所形成的」'人的高貴乃在於是按天主之肖像造的。但聖經講造人時用了一種特別的說法，是為指明別的東西是為了人而造的。我們心中最在意的事，自然更加細心和努力去做1。",
+      "after": "正如奧斯定在《創世紀字義新探》卷六第十二章所說的，人之比其他東西高貴，並非是因了天主自己造了人，好像別的東西就不是祂自己造的。的確，聖經《聖詠》第一〇一篇26節上說：「上天也是你手的功績」；在另一處《聖詠》第九十四篇5節也說：「陸地也是祂親手所形成的」，人的高貴乃在於是按天主之肖像造的。但聖經講造人時用了一種特別的說法，是為指明別的東西是為了人而造的。我們心中最在意的事，自然更加細心和努力去做。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "造7人",
+          "after": "造了人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一。一篇",
+          "after": "第一〇一篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形成的」'",
+          "after": "形成的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去做1。",
+          "after": "去做。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1472
+      ],
+      "before": "不可想「讓我們造人」'是天主向天使們說的，如同有些人有這種曲解。這種說法是為表示天主有多位位格，指明在人內有各位格之肖像。",
+      "after": "不可想「讓我們造人」，是天主向天使們說的，如同有些人有這種曲解。這種說法是為表示天主有多位位格，指明在人內有各位格之肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "造人」'",
+          "after": "造人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1472,
+        1473
+      ],
+      "before": "有人認為人的身體是先形成的，然後天主給已經造好的身體灌輸了靈魂。但是既然身體和靈魂都是人性的一部分，天主或各別先只造身體，或先只造靈魂，都不合於第一次設置萬物所應具的完備性。關於身體這尤其不合適，因為是身體繫於靈魂，而不是靈魂繫於身體。\n為避免上述之講法，有人認為在說::上主天主形成了人」時，是指身體及靈魂一起之產生;後面加上的那句: 「在他鼻孔內吹了一口生氣」'是指天主聖神，就如主曾向宗徒們噓氣，並說: 「你們領受聖神罷」(《若望福音》第二十章22節)。但是正如奧斯定在《天主之城》卷十三第二十四章所說的，這種解釋不合聖經的字義。因為在那句話之後，接著說:「人就成了一個有靈的生物」;宗徒在《格林多前書》第十五章的節，不用這句話指精神生命，而指動物性生命。\n所以，所謂生氣指的是靈魂;所說的: 「在他的鼻孔內吹了一口生氣」'就似是解釋上旬的，因為靈魂是身體的形式。",
+      "after": "有人認為人的身體是先形成的，然後天主給已經造好的身體灌輸了靈魂。但是既然身體和靈魂都是人性的一部分，天主或各別先只造身體，或先只造靈魂，都不合於第一次設置萬物所應具的完備性。關於身體這尤其不合適，因為是身體繫於靈魂，而不是靈魂繫於身體。\n為避免上述之講法，有人認為在說：「上主天主形成了人」時，是指身體及靈魂一起之產生；後面加上的那句：「在他鼻孔內吹了一口生氣」，是指天主聖神，就如主曾向宗徒們噓氣，並說：「你們領受聖神罷」(《若望福音》第二十章22節)。但是正如奧斯定在《天主之城》卷十三第二十四章所說的，這種解釋不合聖經的字義。因為在那句話之後，接著說：「人就成了一個有靈的生物」；宗徒在《格林多前書》第十五章45節，不用這句話指精神生命，而指動物性生命。\n所以，所謂生氣指的是靈魂；所說的：「在他的鼻孔內吹了一口生氣」，就似是解釋上句的，因為靈魂是身體的形式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在說::上主",
+          "after": "在說：「上主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生氣」'",
+          "after": "生氣」，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十五章的節",
+          "after": "第十五章45節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "解釋上旬的",
+          "after": "解釋上句的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q091.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1473
+      ],
+      "before": "因為面孔上的諸多感官，最能表現生命之活動，故此說是在人的臉上吹了一口生氣。",
+      "after": "因為面孔上的諸多感官，最能表現生命之活動，故此說是在人的臉上吹了一口生氣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q091.a004.ad5",
+      "article": 4,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1473
+      ],
+      "before": "按奧斯定在《創世紀字義新探》卷四第三十三及第三十四章所說的，六天的工程都是一起完成的。所以，雖然他說第一個人的靈魂是與天使一起造的，並非指是在第六天以前造的;他認為在第六天造了第一個人的現實靈魂，以及身體之基本原因或胚種。別的聖師們則認為人的靈現和肉身，都是同在第六天現實地或完整地造成的。",
+      "after": "按奧斯定在《創世紀字義新探》卷四第三十三及第三十四章所說的，六天的工程都是一起完成的。所以，雖然他說第一個人的靈魂是與天使一起造的，並非指是在第六天以前造的；他認為在第六天造了第一個人的現實靈魂，以及身體之基本原因或胚種。別的聖師們則認為人的靈魂和肉身，都是同在第六天現實地或完整地造成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靈現和肉身",
+          "after": "靈魂和肉身",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
