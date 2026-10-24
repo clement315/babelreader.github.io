@@ -1,0 +1,1260 @@
+{
+  "schema_version": 1,
+  "batch": "I-q116",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q116",
+    "title": "論定數",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1713,
+      1714,
+      1715,
+      1716,
+      1717,
+      1718,
+      1719,
+      1720
+    ],
+    "printed_pages": [
+      486,
+      493
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 44,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q116.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q116.json": "93bf7496a09b4bbc3c25d7dfdc78ba7bebf2f6558d3dfd262a9696bc46f207d0"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q116.a001.respondeo",
+      "pdf_file_page": 1714,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q116.a002.respondeo",
+      "pdf_file_page": 1717,
+      "text": "己經逐一",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q116.a003.respondeo",
+      "pdf_file_page": 1718,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q116.a003.respondeo",
+      "pdf_file_page": 1718,
+      "text": "己被排除",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q116.a004.respondeo",
+      "pdf_file_page": 1719,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q116.a004.ad1",
+      "pdf_file_page": 1720,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q116.a002.respondeo",
+      "description": "把正解内错并的三条释疑移回既有字段，原两个换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q116.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "然後要討論的是定數(fatum'定命、命運;參看第一一五川題引言)。\n關於此點，可以提出四個問題:\n一、是否有定數。\n二、定數何在。\n三、是否不能改變。\n四、是否一切皆受定數之支配。",
+      "after": "然後要討論的是定數(fatum，定命、命運；參看第一一五題引言)。\n關於此點，可以提出四個問題：\n一、是否有定數。\n二、定數何在。\n三、是否不能改變。\n四、是否一切皆受定數之支配。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "fatum'",
+          "after": "fatum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一一五川題",
+          "after": "第一一五題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "定數是否為實在的東西",
+      "after": "定數是否為實在的東西",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "定數似乎什麼東西也不是。因為:",
+      "after": "定數似乎什麼東西也不是。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "教宗額我略一世在主顯節的證道詞中說:「在信友的心中不可認為定數是什麼實在的東西。」(《褔音論贊》卷一第十篇)",
+      "after": "教宗額我略一世在主顯節的證道詞中說：「在信友的心中不可認為定數是什麼實在的東西。」(《福音論贊》卷一第十篇)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1713
+      ],
+      "before": "此外，由定數發生的事，不是突如其來的:因為按奧斯定在《天主之城》卷五第九章所說的，「定數或命運這個拉T字fatum'我們認為是從fari這個動詞來的，就是從『講說』來的」;所以，所謂由定數或命運而發生的事，是指為那預先安排好者所講出來的事。然而預見或預料的事，並不是出於偶然或際遇。倘若事情的發生是由於定數，則不能有偶然和際遇。",
+      "after": "此外，由定數發生的事，不是突如其來的：因為按奧斯定在《天主之城》卷五第九章所說的，「定數或命運這個拉丁字fatum，我們認為是從fari這個動詞來的，就是從『講說』來的」；所以，所謂由定數或命運而發生的事，是指為那預先安排好者所講出來的事。然而預見或預料的事，並不是出於偶然或際遇。倘若事情的發生是由於定數，則不能有偶然和際遇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "拉T",
+          "after": "拉丁",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "fatum'",
+          "after": "fatum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1713,
+        1714
+      ],
+      "before": "不存在的，便不能有定義。但是波其武在《哲學的慰藉》卷四第六章給定數下定義說:「定數是有變化之東西內的一種安排。是天意(providentia'天主的照顧)用以便每個東西繫於其秩序的。」所以定數是實在的東西。",
+      "after": "不存在的，便不能有定義。但是波其武在《哲學的慰藉》卷四第六章給定數下定義說：「定數是有變化之東西內的一種安排。是天意(providentia，天主的照顧)用以使每個東西繫於其秩序的。」所以定數是實在的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "providentia'",
+          "after": "providentia，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "用以便",
+          "after": "用以使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1714,
+        1715
+      ],
+      "before": "我解答如下:在下界的事物中，有的似乎是來自偶然或機緣。然而有時一件事情，對低級原因來說，是出於偶然或際遇的事情;但是對高層的原因來說，卻是本來就在計劃中的。例如，一位主人分別派兩個僕人到同一個地方去，兩個僕人彼此不知對方的行蹤。到那地方後，對兩僕人來說，兩人的相遇是一種偶然際遇，因為是他們沒有想到的事;但對事前安排這事的主人來說，便不是偶然的，而是原就意料到的事。\n有些人不願意將在下界發生的這類偶然際遇，歸宗於高層原因，他們否認有定數和天意(天主的預先安排或照顧)奧斯定在《天主之城》卷五第九章，便曾述及西塞祿的這種思想。這主張與前面，第二十二題第二節論天主之照顧時所說的互相衝突c\n也有一些人要把下界所發生的一切偶然事情，無論是自然界或人事方面的，都歸宗於高層原因，即是天體。按這些人的看法，定數無非是「每人受孕時或誕生時星宿的位置」(參看:奧斯定，《天主之城》卷五第一、第八及第九章)。但這主張不能成立，理由有二。第一，關於人事方面。前面第一一五題第四節已經指出，人性行為只是偶然和間接地受天體之影響。但是，定數或命運性的原因，既然決定或支配定數或命運中所發生的事情，必然是那些事情的直接和本然的原因。第二，關於一切偶然發生的事情。前面第一一五題第六節曾說過，偶然的事物不是真正的物，也不是真正的單一。任何自然物的作用，都終結於某單一的東西。所以，偶然發生的事不可能是某自然主動恨本的本然效果。所以，沒有一個自然物能本然地使一個志在挖墳坑的人，找到寶藏。天體顯然是以自然根本之方式產生作用，所以其在下界的效果也是自然的。故此，天體的積極能11司不可能是F界之偶然際遇事件的原因。\n所以該說，下界偶然發生的事，無論在自然界或在人事方面的，都歸宗於一個預做安排的原因，即天意或天主之照顧。因為偶然的事，可以被理智視為單一的事件;否則的話，理智便不能構想這個命題了: 「挖墳坑的找到寶藏」。既然理智可以構想這樣的事情，它也能製造這樣的事情;就如一個知道在某地方藏有寶物的人，促使一個不知此事的愚人在那裡挖墳坑。故此，下界偶然發生的事情，無論是始料未及或來自際遇，並非不能歸宗於某以理智行事的預做安排的原因;特別是天主的理智。因為按第一0五題第四節、第一0六題第二節、第一一一題第二節所指出的，只有天主能改變意志。因此，關於以意志為根本的人性行為之安排，只應該歸於天主。\n由於下界發生的事情，都隸屬於天意或天主的照顧，有似是預先安排好並講出來的，我們可以承認有定數;雖然聖賢們拒絕用這個名詞，因為有人把這名詞歸宗於星座之力量。為此，奧斯定在《天主之城》卷五第一章說: 「若有人將人闊的事情歸於定數，因為他是以定數之名稱指天主的意志或能力，他可以保持他的主張，{旦該改正那個用語。」額我略也是據此而否認定數之存在(質疑1.)。",
+      "after": "我解答如下：在下界的事物中，有的似乎是來自偶然或機緣。然而有時一件事情，對低級原因來說，是出於偶然或際遇的事情；但是對高層的原因來說，卻是本來就在計劃中的。例如，一位主人分別派兩個僕人到同一個地方去，兩個僕人彼此不知對方的行蹤。到那地方後，對兩僕人來說，兩人的相遇是一種偶然際遇，因為是他們沒有想到的事；但對事前安排這事的主人來說，便不是偶然的，而是原就意料到的事。\n有些人不願意將在下界發生的這類偶然際遇，歸宗於高層原因，他們否認有定數和天意(天主的預先安排或照顧)。奧斯定在《天主之城》卷五第九章，便曾述及西塞祿的這種思想。這主張與前面，第二十二題第二節論天主之照顧時所說的互相衝突。\n也有一些人要把下界所發生的一切偶然事情，無論是自然界或人事方面的，都歸宗於高層原因，即是天體。按這些人的看法，定數無非是「每人受孕時或誕生時星宿的位置」(參看：奧斯定，《天主之城》卷五第一、第八及第九章)。但這主張不能成立，理由有二。第一，關於人事方面。前面第一一五題第四節己經指出，人性行為只是偶然和間接地受天體之影響。但是，定數或命運性的原因，既然決定或支配定數或命運中所發生的事情，必然是那些事情的直接和本然的原因。第二，關於一切偶然發生的事情。前面第一一五題第六節曾說過，偶然的事物不是真正的物，也不是真正的單一。任何自然物的作用，都終結於某單一的東西。所以，偶然發生的事不可能是某自然主動根本的本然效果。所以，沒有一個自然物能本然地使一個志在挖墳坑的人，找到寶藏。天體顯然是以自然根本之方式產生作用，所以其在下界的效果也是自然的。故此，天體的積極能力，不可能是下界之偶然際遇事件的原因。\n所以該說，下界偶然發生的事，無論在自然界或在人事方面的，都歸宗於一個預做安排的原因，即天意或天主之照顧。因為偶然的事，可以被理智視為單一的事件；否則的話，理智便不能構想這個命題了：「挖墳坑的找到寶藏」。既然理智可以構想這樣的事情，它也能製造這樣的事情；就如一個知道在某地方藏有寶物的人，促使一個不知此事的愚人在那裡挖墳坑。故此，下界偶然發生的事情，無論是始料未及或來自際遇，並非不能歸宗於某以理智行事的預做安排的原因；特別是天主的理智。因為按第一〇五題第四節、第一〇六題第二節、第一一一題第二節所指出的，只有天主能改變意志。因此，關於以意志為根本的人性行為之安排，只應該歸於天主。\n由於下界發生的事情，都隸屬於天意或天主的照顧，有似是預先安排好並講出來的，我們可以承認有定數；雖然聖賢們拒絕用這個名詞，因為有人把這名詞歸宗於星座之力量。為此，奧斯定在《天主之城》卷五第一章說：「若有人將人間的事情歸於定數，因為他是以定數之名稱指天主的意志或能力，他可以保持他的主張，但該改正那個用語。」額我略也是據此而否認定數之存在(質疑1.)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "照顧)奧斯定",
+          "after": "照顧)。奧斯定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "衝突c",
+          "after": "衝突。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經指出",
+          "after": "己經指出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恨本",
+          "after": "根本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能11司",
+          "after": "能力，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是F界",
+          "after": "是下界",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0五",
+          "after": "第一〇五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人闊",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1715
+      ],
+      "before": "由此可知質疑1.之答案。",
+      "after": "由此可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1715
+      ],
+      "before": "這並非不可能，即某些事情之為偶然際遇之類的事情，是針對近因來說，而不是針對天意或天主的照顧來說;所以，正如奧斯定在《雜題八十三》第二十四題所說的: 「世界上沒有偶然或僥{幸的事情。」",
+      "after": "這並非不可能，即某些事情之為偶然際遇之類的事情，是針對近因來說，而不是針對天意或天主的照顧來說；所以，正如奧斯定在《雜題八十三》第二十四題所說的：「世界上沒有偶然或僥倖的事情。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "僥{幸",
+          "after": "僥倖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "定數是否寓於受造物內",
+      "after": "定數是否寓於受造物內",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "定數似乎不是寓於受造物之內。因為:",
+      "after": "定數似乎不是寓於受造物之內。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "奧斯定在《天主之城》卷五第一章說:「定數之名稱是指稱天主的意志或能力。」但是，天主的意志和能力不是在受造物內，而是在天主內。所以，定數不是在受造物內，而是在天主內。",
+      "after": "奧斯定在《天主之城》卷五第一章說：「定數之名稱是指稱天主的意志或能力。」但是，天主的意志和能力不是在受造物內，而是在天主內。所以，定數不是在受造物內，而是在天主內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "此外，定數之與因定數而發生的事情，有似是原因，從講話的方式上便可以看出來。但是按前面第一節所說的，只有天主是世界上偶然發生的事情之本然普遍原因。所以，定數是在天主內，而不是在受造物內。",
+      "after": "此外，定數之與因定數而發生的事情，有似是原因，從講話的方式上便可以看出來。但是按前面第一節所說的，只有天主是世界上偶然發生的事情之本然普遍原因。所以，定數是在天主內，而不是在受造物內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "此外，倘若定數是在受造物內，那或者是本體，或者是依附體;但無論是其中哪一種，定數都該隨著受造物的數目而增多。既然定數似乎只有一個，所以不該是在受造物內，而該是在天主內。",
+      "after": "此外，倘若定數是在受造物內，那或者是本體，或者是依附體；但無論是其中哪一種，定數都該隨著受造物的數目而增多。既然定數似乎只有一個，所以不該是在受造物內，而該是在天主內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1716
+      ],
+      "before": "波其武在《論哲學的慰藉》卷四第六章說:「定數是有變化之東西內的一種安排。」",
+      "after": "波其武在《論哲學的慰藉》卷四第六章說：「定數是有變化之東西內的一種安排。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1716,
+        1717
+      ],
+      "before": "我解答如下:根據先前第二十二題第三節、第一0三題第六節所說的可以知道，天意或天主的照顧是藉中間原因產生其效果。所以，可以從兩方面去看效果之安排:第一是從天主那方面，這時效果之安排即稱為天主的照顧;第二是從天主為產生這些效呆所運用的中間原因，去看上述之安排，如此則有定數之意義。這也就是波其武在《哲學的慰藉》卷四第六章所說的:「定數之實現，或者是藉著為天主之照顧服務的一些精神體;或者是藉靈魂，或整個供驅使的自然界，無論是天體之動態，或天使的力量，或魔鬼的各種詭計。一連串的定數或命運，就是或由上述中的某些，或一起交織而成。」關於這些原因，在前面第一節、第一0四題第二節、第一-0題第一節、第一一三及第一一四題已經逐一討論過了。由此可見，定數是在那些受天主運用以產生效果的受造物內。種疑1第二(或受造〉原因之連結，即奧斯定所謂的「一串原因」(《天主之城》卷五第八章)，沒有定數之意義，除非因了是繫於天主己所以從原因方面說，可以稱天主之能力或意志為定數。但按本質，定數是指第二原因之安排或連結，即層次或秩序。\n2.定數具有原因之意義，乃是因了第二原因之安排或秩序稱為定數。\n3.所謂定數是安排(或素質，dispositio)，不是指屬於品質之類的素質;根據這字是指一種秩序，而秩序不是本體，是一種關係。這種秩序若從其根本方面去看，是一個，因而說只有一個定數。但是若從其放果，或從中間原因方面去看句則有許多個;故此詩人說: 「你的那些定數拖拉著你」 0",
+      "after": "我解答如下：根據先前第二十二題第三節、第一〇三題第六節所說的可以知道，天意或天主的照顧是藉中間原因產生其效果。所以，可以從兩方面去看效果之安排：第一是從天主那方面，這時效果之安排即稱為天主的照顧；第二是從天主為產生這些效果所運用的中間原因，去看上述之安排，如此則有定數之意義。這也就是波其武在《哲學的慰藉》卷四第六章所說的：「定數之實現，或者是藉著為天主之照顧服務的一些精神體；或者是藉靈魂，或整個供驅使的自然界，無論是天體之動態，或天使的力量，或魔鬼的各種詭計。一連串的定數或命運，就是或由上述中的某些，或一起交織而成。」關於這些原因，在前面第一節、第一〇四題第二節、第一一〇題第一節、第一一三及第一一四題己經逐一討論過了。由此可見，定數是在那些受天主運用以產生效果的受造物內。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:根據先前第二十二題第三節、第一0三題第六節所說的可以知道，天意或天主的照顧是藉中間原因產生其效果。所以，可以從兩方面去看效果之安排:第一是從天主那方面，這時效果之安排即稱為天主的照顧;第二是從天主為產生這些效呆所運用的中間原因，去看上述之安排，如此則有定數之意義。這也就是波其武在《哲學的慰藉》卷四第六章所說的:「定數之實現，或者是藉著為天主之照顧服務的一些精神體;或者是藉靈魂，或整個供驅使的自然界，無論是天體之動態，或天使的力量，或魔鬼的各種詭計。一連串的定數或命運，就是或由上述中的某些，或一起交織而成。」關於這些原因，在前面第一節、第一0四題第二節、第一-0題第一節、第一一三及第一一四題已經逐一討論過了。由此可見，定數是在那些受天主運用以產生效果的受造物內。種疑1第二(或受造〉原因之連結，即奧斯定所謂的「一串原因」(《天主之城》卷五第八章)，沒有定數之意義，除非因了是繫於天主己所以從原因方面說，可以稱天主之能力或意志為定數。但按本質，定數是指第二原因之安排或連結，即層次或秩序。\n2.定數具有原因之意義，乃是因了第二原因之安排或秩序稱為定數。\n3.所謂定數是安排(或素質，dispositio)，不是指屬於品質之類的素質;根據這字是指一種秩序，而秩序不是本體，是一種關係。這種秩序若從其根本方面去看，是一個，因而說只有一個定數。但是若從其放果，或從中間原因方面去看句則有許多個;故此詩人說: 「你的那些定數拖拉著你」 0",
+          "after": "我解答如下:根據先前第二十二題第三節、第一0三題第六節所說的可以知道，天意或天主的照顧是藉中間原因產生其效果。所以，可以從兩方面去看效果之安排:第一是從天主那方面，這時效果之安排即稱為天主的照顧;第二是從天主為產生這些效呆所運用的中間原因，去看上述之安排，如此則有定數之意義。這也就是波其武在《哲學的慰藉》卷四第六章所說的:「定數之實現，或者是藉著為天主之照顧服務的一些精神體;或者是藉靈魂，或整個供驅使的自然界，無論是天體之動態，或天使的力量，或魔鬼的各種詭計。一連串的定數或命運，就是或由上述中的某些，或一起交織而成。」關於這些原因，在前面第一節、第一0四題第二節、第一-0題第一節、第一一三及第一一四題已經逐一討論過了。由此可見，定數是在那些受天主運用以產生效果的受造物內。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0三",
+          "after": "第一〇三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "效呆",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0四",
+          "after": "第一〇四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經逐一",
+          "after": "己經逐一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "",
+      "after": "第二(或受造)原因之連結，即奧斯定所謂的「一串原因」(《天主之城》卷五第八章)，沒有定數之意義，除非因了是繫於天主。所以從原因方面說，可以稱天主之能力或意志為定數。但按本質，定數是指第二原因之安排或連結，即層次或秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "第二(或受造)原因之連結，即奧斯定所謂的「一串原因」(《天主之城》卷五第八章)，沒有定數之意義，除非因了是繫於天主。所以從原因方面說，可以稱天主之能力或意志為定數。但按本質，定數是指第二原因之安排或連結，即層次或秩序。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "",
+      "after": "定數具有原因之意義，乃是因了第二原因之安排或秩序稱為定數。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "定數具有原因之意義，乃是因了第二原因之安排或秩序稱為定數。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "",
+      "after": "所謂定數是安排(或素質，dispositio)，不是指屬於品質之類的素質；根據這字是指一種秩序，而秩序不是本體，是一種關係。這種秩序若從其根本方面去看，是一個，因而說只有一個定數。但是若從其效果，或從中間原因方面去看，則有許多個；故此詩人說：「你的那些定數拖拉著你」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "所謂定數是安排(或素質，dispositio)，不是指屬於品質之類的素質;根據這字是指一種秩序，而秩序不是本體，是一種關係。這種秩序若從其根本方面去看，是一個，因而說只有一個定數。但是若從其效果，或從中間原因方面去看，則有許多個;故此詩人說: 「你的那些定數拖拉著你」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "定數是否不能改變",
+      "after": "定數是否不能改變",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "定數似乎並非不能改變。因為:",
+      "after": "定數似乎並非不能改變。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "波其武在《哲學的慰藉》卷四第六章說: 「正如推理與領悟之關係，正在形成者與存在者之關{系，時間與永恆之關係，圓周與圓心之關係;可變化的定數之連結與單純不動的天主之照顧，也是同樣的關係。」",
+      "after": "波其武在《哲學的慰藉》卷四第六章說：「正如推理與領悟之關係，正在形成者與存在者之關係，時間與永恆之關係，圓周與圓心之關係；可變化的定數之連結與單純不動的天主之照顧，也是同樣的關係。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1717
+      ],
+      "before": "此外，哲學家在《辯證論》卷二第七章說: 「我們動時，我們內的東西也動。」但按波其武所說的，定數是「有變化之東西內的一種安排」(同上)。所以，定數是可能變動的。",
+      "after": "此外，哲學家在《辯證論》卷二第七章說：「我們動時，我們內的東西也動。」但按波其武所說的，定數是「有變化之東西內的一種安排」(同上)。所以，定數是可能變動的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1718
+      ],
+      "before": "此外，若定數不能改變，貝IJ受定數支配的，乃是固定不變地並必然地發生。但特別是這類歸之於定數的事，都是偶然的或不必然的事。所以，(若定數果真不能改變，則)沒有什麼事是偶然的，一切都是出於必然了。",
+      "after": "此外，若定數不能改變，則受定數支配的，乃是固定不變地並必然地發生。但特別是這類歸之於定數的事，都是偶然的或不必然的事。所以，(若定數果真不能改變，則)沒有什麼事是偶然的，一切都是出於必然了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1718
+      ],
+      "before": "波其武卻說，定數是不變的安排(向上)。",
+      "after": "波其武卻說，定數是不變的安排(同上)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向上",
+          "after": "同上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1718
+      ],
+      "before": "我解答如下:我們稱之為定數的第二原因之安排，可以從兩方面去看:一是看被這樣安排或排列的第二原因;一是看其與第一根本或天主的關係。所以，有人主張眾原因之間的連結或安排本身就是必然的，因而一切都是必然地發生。故此，任何效果都有原因，有了原因就必然有效果。但是，根據上面第一一五題第六節己說過的，可以知道這主張不合理。\n相反地，另IJ的人則主張定數是可改變的，即使以其繫於天主之照顧那方面說，也是可改變的。據尼沙的額我略說，埃及人認為可以用某些祭把改變定數(《論人性》第三十六章)。但這主張在前面第二十三題第八節已被排除，因為與天王之照顧的固定不變性相衝突。\n所以該說，從第二原因方面看，定數是可以改變的;但是從其繫於天主之照顧那方面看，貝IJ具有不變之性質。但這不是絕對的必然，而是條件性的必然，就如我們說下面這個條件命題是真的或必然的一樣: 「若天主預知這事將要發生，便將要發生」。故此，波其武說了: 「定數之連結是可改變的」之後，又加說: 「但這既然是源自不蠻的天主之照顧，這連結也必然是不變的」。",
+      "after": "我解答如下：我們稱之為定數的第二原因之安排，可以從兩方面去看：一是看被這樣安排或排列的第二原因；一是看其與第一根本或天主的關係。所以，有人主張眾原因之間的連結或安排本身就是必然的，因而一切都是必然地發生。故此，任何效果都有原因，有了原因就必然有效果。但是，根據上面第一一五題第六節己說過的，可以知道這主張不合理。\n相反地，別的人則主張定數是可改變的，即使以其繫於天主之照顧那方面說，也是可改變的。據尼沙的額我略說，埃及人認為可以用某些祭祀改變定數(《論人性》第三十六章)。但這主張在前面第二十三題第八節己被排除，因為與天主之照顧的固定不變性相衝突。\n所以該說，從第二原因方面看，定數是可以改變的；但是從其繫於天主之照顧那方面看，則具有不變之性質。但這不是絕對的必然，而是條件性的必然，就如我們說下面這個條件命題是真的或必然的一樣：「若天主預知這事將要發生，便將要發生」。故此，波其武說了：「定數之連結是可改變的」之後，又加說：「但這既然是源自不變的天主之照顧，這連結也必然是不變的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祭把",
+          "after": "祭祀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已被排除",
+          "after": "己被排除",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天王",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不蠻",
+          "after": "不變",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a003.general",
+      "article": 3,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1718
+      ],
+      "before": "由此可知各質疑之答案。",
+      "after": "由此可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "是否一切皆受定數之支配",
+      "after": "是否一切皆受定數之支配",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q116.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "一切似乎都受定數之支配。因為:",
+      "after": "一切似乎都受定數之支配。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "波其武在《哲學的慰藉》卷四第六章說:「定數之連結或交織推動諸天及星辰，調協各種元素，形成交替的變化;以同類的胚胎和精子之延續，革新一切有生有死的東西;並以解不間的因果之銜接，束縛著人的行動和遭遇。」所以，似乎沒有不包羅在定數交織下的東西。",
+      "after": "波其武在《哲學的慰藉》卷四第六章說：「定數之連結或交織推動諸天及星辰，調協各種元素，形成交替的變化；以同類的胚胎和精子之延續，革新一切有生有死的東西；並以解不開的因果之銜接，束縛著人的行動和遭遇。」所以，似乎沒有不包羅在定數交織下的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "解不間",
+          "after": "解不開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "此外，奧斯定在《天主之城》卷五第一章說，定數之為物，在於其與天主之意志及能力的關係。但是，按奧斯定在《論天主聖三》卷三第一章所說的，天主的意志是一切事物的原因。所以‘一切都在定數的支配之下。",
+      "after": "此外，奧斯定在《天主之城》卷五第一章說，定數之為物，在於其與天主之意志及能力的關係。但是，按奧斯定在《論天主聖三》卷三第一章所說的，天主的意志是一切事物的原因。所以，一切都在定數的支配之下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "此外，按波其武所說的，定數是「有變化之東西內的安排」(同上)。但是受造物都是有變化的，按前面第九盟第二節所說的，只有天主纔是真正不變的。所以，在一切受造物中都有定數。",
+      "after": "此外，按波其武所說的，定數是「有變化之東西內的安排」(同上)。但是受造物都是有變化的，按前面第九題第二節所說的，只有天主才是真正不變的。所以，在一切受造物中都有定數。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第九盟",
+          "after": "第九題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "波其武在《哲學的慰藉》卷四第六章說:「有些屬於天主之照顧範圍的事情，超出定數之交織。」",
+      "after": "波其武在《哲學的慰藉》卷四第六章說：「有些屬於天主之照顧範圍的事情，超出定數之交織。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1719
+      ],
+      "before": "我解答如下:前面第二節已經說過，定數是針對天主所預見之效果的第二原因之安排。凡屬於第二原因之作用下的，也屬於定數之範圈。但若是有白天主直接所行的事，它們既然不屬於第二原因之作用下，故也不受定數之支配，例如;萬物之創造，精神本體之得光榮等類的事。這正是波其武所說的，「接近最高天主的東西，固定不移，超出定數之變化層次範圈」。因此也可以知道，「一個東西離最高之靈智愈遠，愈受定數之束縛」(同處);因為愈受第二原因之必然1生的支配。",
+      "after": "我解答如下：前面第二節己經說過，定數是針對天主所預見之效果的第二原因之安排。凡屬於第二原因之作用下的，也屬於定數之範圍。但若是有由天主直接所行的事，它們既然不屬於第二原因之作用下，故也不受定數之支配，例如：萬物之創造，精神本體之得光榮等類的事。這正是波其武所說的，「接近最高天主的東西，固定不移，超出定數之變化層次範圍」。因此也可以知道，「一個東西離最高之靈智愈遠，愈受定數之束縛」(同處)；因為愈受第二原因之必然性的支配。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有白天主",
+          "after": "有由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "例如;",
+          "after": "例如：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "必然1生",
+          "after": "必然性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1720
+      ],
+      "before": "那裡所提到的一切，都是天主藉第二原因所產生的，是以屬於定數之交織範圈。但如正解己說過的，關於別的事情並不都一樣。",
+      "after": "那裡所提到的一切，都是天主藉第二原因所產生的，是以屬於定數之交織範圍。但如正解己說過的，關於別的事情並不都一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1720
+      ],
+      "before": "定數與天主之意志及能力的闕'f系，有如是與第一或最高根本的關係。所以正如上面正解所說的，凡屬於天主之意志或能力下的，並不一定都屬於定數範圈。",
+      "after": "定數與天主之意志及能力的關係，有如是與第一或最高根本的關係。所以正如上面正解所說的，凡屬於天主之意志或能力下的，並不一定都屬於定數範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "闕'f系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q116.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1720
+      ],
+      "before": "一切受造物雖然多少都有變化，但是其中有的不是來自有變化的受造之原因。是以，按以上正解說的，不屬於定數之範圈。",
+      "after": "一切受造物雖然多少都有變化，但是其中有的不是來自有變化的受造之原因。是以，按以上正解說的，不屬於定數之範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
