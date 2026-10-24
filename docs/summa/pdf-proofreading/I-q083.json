@@ -1,0 +1,1363 @@
+{
+  "schema_version": 1,
+  "batch": "I-q083",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "6e48e9d3a648bf36e64dcaa648e04fd343fcc85b",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q083",
+    "title": "論自由抉擇",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1357,
+      1358,
+      1359,
+      1360,
+      1361,
+      1362,
+      1363,
+      1364,
+      1365
+    ],
+    "printed_pages": [
+      130,
+      138
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 52,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 18
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q83.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q83.json": "ca468b60af3c37976b9d6fd141d297cdb867d0a6ca5345dc235fa08bf099245f"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q083.a001.ad1",
+      "pdf_file_page": 1359,
+      "text": "己經說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q083.a001.ad5",
+      "pdf_file_page": 1359,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q083.a001.ad5",
+      "pdf_file_page": 1359,
+      "text": "第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q083.a002.respondeo",
+      "pdf_file_page": 1361,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q083.a004.arg1",
+      "pdf_file_page": 1363,
+      "text": "《論正統信仰》)",
+      "status": "suspected_source_print_error",
+      "action": "放大原页可见书名号后另有一个无对应起括号的右括号；网页与原页一致，保留这一疑似排印多符号，待人工定夺。"
+    },
+    {
+      "id": "I.q083.a004.ad2",
+      "pdf_file_page": 1365,
+      "text": "己經說明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部9页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q083.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "然後要討論的是自由抉擇（liberum arbitrium，自由決議、自由意志；參看第八十題引言）。\n關於這點，可以提出四個問題:\n一、人是否有自由抉擇。\n二、自由抉擇是什麼，是能力、是活動，抑或是習性。\n三、如是能力，是嗜慾能力，抑或認知能力。\n四、如是嗜慾能力，與意志是否為同一機能。",
+      "after": "然後要討論的是自由抉擇（liberum arbitrium，自由決議、自由意志；參看第八十題引言）。\n關於這點，可以提出四個問題：\n一、人是否有自由抉擇。\n二、自由抉擇是什麼，是能力、是活動，抑或是習性。\n三、如是能力，是嗜慾能力，抑或認知能力。\n四、如是嗜慾能力，與意志是否為同一機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "人是否有自由抉擇",
+      "after": "人是否有自由抉擇",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "人似乎沒有自由抉擇。因為:",
+      "after": "人似乎沒有自由抉擇。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "凡有自由抉擇者，他願意什麼就做什麼。但人不是願意什麼就做什麼，因為《羅馬書》第七章19節說: 「我所願意的善，我不去行:而我所不顧意的惡，我卻去做」。所以人沒有自由抉擇。",
+      "after": "凡有自由抉擇者，他願意什麼就做什麼。但人不是願意什麼就做什麼，因為《羅馬書》第七章19節說：「我所願意的善，我不去行；而我所不願意的惡，我卻去做」。所以人沒有自由抉擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不顧意",
+          "after": "不願意",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去行:",
+          "after": "去行；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1357
+      ],
+      "before": "此外，凡有自由抉擇者，他有能力願意或不願意，(故或不做。但人不是如此，因為《羅馬書》第九章16節說: 「不在乎人願意，也不在乎人努力」。所以，人沒有自由抉擇。",
+      "after": "此外，凡有自由抉擇者，他有能力願意或不願意，做或不做。但人不是如此，因為《羅馬書》第九章16節說：「不在乎人願意，也不在乎人努力」。所以，人沒有自由抉擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(故或不做",
+          "after": "做或不做",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1357,
+        1358
+      ],
+      "before": "此外，按《形上學》卷一第二章所說的，「自由的即是自己是自己之原因」。受別的東西推動的，不是自由的。然而天主推動意志，因為《諾言》第二十一章i節說: 「君玉的心在上主手裡，可隨意轉移」;《斐理伯書》第二章的節也說:「是天主在你們內玉作，使你們願意，並使你們力行，為成就祂的善意」。所以，人沒有自由抉擇或意志。",
+      "after": "此外，按《形上學》卷一第二章所說的，「自由的即是自己是自己之原因」。受別的東西推動的，不是自由的。然而天主推動意志，因為《箴言》第二十一章1節說：「君王的心在上主手裡，可隨意轉移」；《斐理伯書》第二章13節也說：「是天主在你們內工作，使你們願意，並使你們力行，為成就祂的善意」。所以，人沒有自由抉擇或意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《諾言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章i節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二章的節",
+          "after": "第二章13節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "內玉作",
+          "after": "內工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1358
+      ],
+      "before": "此外，凡有自由抉擇者，便是自己之行為的主人。但人不是其行為的主人，因為《耶肋米亞》第十章23節說: 「人的道路是不由人的，行走的人也不能隨便操縱自己的步伐。」所以，人沒有自由抉擇。",
+      "after": "此外，凡有自由抉擇者，便是自己之行為的主人。但人不是其行為的主人，因為《耶肋米亞》第十章23節說：「人的道路是不由人的，行走的人也不能隨便操縱自己的步伐。」所以，人沒有自由抉擇。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1358
+      ],
+      "before": "此外，哲學家在《倫理學》卷三第五章說: 「一個人怎樣，他的目的似乎也怎樣。」但我們是怎樣，不屬於我們的能力範圈，而是由天性來的。所以我們追求什麼目的是由於天性，故非由於自由抉擇。",
+      "after": "此外，哲學家在《倫理學》卷三第五章說：「一個人怎樣，他的目的似乎也怎樣。」但我們是怎樣，不屬於我們的能力範圍，而是由天性來的。所以我們追求什麼目的是由於天性，故非由於自由抉擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1358
+      ],
+      "before": "《德訓篇》第十五章14節說: 「主在起初就造了人，並把他交給自己計議的手中。」 「註解」(聖經夾旬註解)上說，「即其抉擇的自由中」。",
+      "after": "《德訓篇》第十五章14節說：「主在起初就造了人，並把他交給自己計議的手中。」 「註解」(聖經夾句註解)上說，「即其抉擇的自由中」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夾旬",
+          "after": "夾句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1358
+      ],
+      "before": "我解答如下:人有自由抉擇:否則的話，勸說、鼓勵、命令、禁令、賞和罰，便都是無用的了。為看清這一點，要知道有的東西行動不經判斷，例如:石頭向下動;凡沒有認知能力的都是一樣。有的東西行動經過判斷，但其判斷不是自由的，例如:禽獸。羊看到狼時，牠是判斷該逃跑，但那是自然的判斷，而非自由的判斷;因為牠的判斷不是來自比較，而是生於自然本能，禽獸的任何判斷都是這類的。但人也是按判斷行動;因為他是以認知能力判斷是該逃避某東西，或該追求某東西。但是由於這種判斷，不是本能對某個別事件的判斷，而是來自理性的一種比較;所以他的行動是出於自由的判斷，能有多種不同的選擇。理性針對偶有事件能選取相反的不同方向;這有辯證性推論和修辭學性的說服為例。可行的或行為方面的個別事件是偶有事件;所以，理性關於它們的判斷能是多方面的，而不是固定的一種。所以，由於人是有理性的，故他必然有自由抉擇。",
+      "after": "我解答如下：人有自由抉擇；否則的話，勸說、鼓勵、命令、禁令、賞和罰，便都是無用的了。為看清這一點，要知道有的東西行動不經判斷，例如：石頭向下動；凡沒有認知能力的都是一樣。有的東西行動經過判斷，但其判斷不是自由的，例如：禽獸。羊看到狼時，牠是判斷該逃跑，但那是自然的判斷，而非自由的判斷；因為牠的判斷不是來自比較，而是生於自然本能，禽獸的任何判斷都是這類的。但人也是按判斷行動；因為他是以認知能力判斷是該逃避某東西，或該追求某東西。但是由於這種判斷，不是本能對某個別事件的判斷，而是來自理性的一種比較；所以他的行動是出於自由的判斷，能有多種不同的選擇。理性針對偶有事件能選取相反的不同方向；這有辯證性推論和修辭學性的說服為例。可行的或行為方面的個別事件是偶有事件；所以，理性關於它們的判斷能是多方面的，而不是固定的一種。所以，由於人是有理性的，故他必然有自由抉擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人有自由抉擇:",
+          "after": "人有自由抉擇；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1359
+      ],
+      "before": "按前面第八十一題第三節釋疑2.已經說過的，雖然感性嗜慾服從理性，但有時能反對理性，欲求與理性所指示的正相反的東西。而所謂人不行其所願之善，按奧斯定在同處的註解，即是「欲求善而不違背理性」。",
+      "after": "按前面第八十一題第三節釋疑2.己經說過的，雖然感性嗜慾服從理性，但有時能反對理性，欲求與理性所指示的正相反的東西。而所謂人不行其所願之善，按奧斯定在同處的註解，即是「欲求善而不違背理性」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1359
+      ],
+      "before": "宗徒的話，並非說人的願意和努力不是出於自由抉擇;而是說只有自由抉擇不夠，除非有天主的推動和扶助。",
+      "after": "宗徒的話，並非說人的願意和努力不是出於自由抉擇；而是說只有自由抉擇不夠，除非有天主的推動和扶助。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1359
+      ],
+      "before": "自由抉擇是其行動之原因，因為人是用自由抉擇促使自己採取行動。但是自由者是自己的「第一原因」'這並不屬於自由的要件:正如一個東西若是另一東西的原因，也不必是其第一原因。天主是推動自然原因和情願或自由原因的「第一原因」。在自然原因中，並不因天主推動它們，而使它們的行動不再是自然的;同樣，天主推動情願或自由原因，也無礙於其行動是情願的或自由的，甚而正是天主使其行動是情願的或自由的，因為天主是按每一東西之特性推動每一東西。",
+      "after": "自由抉擇是其行動之原因，因為人是用自由抉擇促使自己採取行動。但是自由者是自己的「第一原因」，這並不屬於自由的要件；正如一個東西若是另一東西的原因，也不必是其第一原因。天主是推動自然原因和情願或自由原因的「第一原因」。在自然原因中，並不因天主推動它們，而使它們的行動不再是自然的；同樣，天主推動情願或自由原因，也無礙於其行動是情願的或自由的，甚而正是天主使其行動是情願的或自由的，因為天主是按每一東西之特性推動每一東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一原因」'",
+          "after": "第一原因」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自由的要件:",
+          "after": "自由的要件；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1359
+      ],
+      "before": "所謂「人的道路是不由人的」'是指在實行所選擇的決定時，人能受到阻礙，無論他願意或不願意。選擇本身則在於我們自己，但要假定有天主的輔助。",
+      "after": "所謂「人的道路是不由人的」，是指在實行所選擇的決定時，人能受到阻礙，無論他願意或不願意。選擇本身則在於我們自己，但要假定有天主的輔助。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不由人的」'",
+          "after": "不由人的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1359,
+        1360
+      ],
+      "before": "人的品質有兩種:一是先天的，一是後天的。在先天的品質方面，有關於智性部分的，有關於身體的或與身體相關之能力的。由於人在智性部分的先天品質，他自然欲求最後目的或幸福。如第八十二題第一及第二節己說過的，這種嗜慾是自然的，不屬於自由抉擇之範圈。在身體和與身體相關的能力方面，人也能有些先天品質，具有易受某形體原因之影響的某種氣質或傾向;它們對智性部分沒有影響，因為智性活動不是身體的活動。所以，一個人在身體氣質方面是怎樣的﹒他的目的便也是怎樣的;因為由於這種體質，人傾向於選擇某物或棄捨某物。但這些傾向服從理性的判斷，因為如第八十一題第三節己說過的，下級嗜慾服從理性。所以，這些傾向無礙於抉擇的自由。\n後天的品質就像習性和情一樣，使人比較傾向某物而不傾向另一物。但這些傾向也服從理性之判斷。這是因為養成這些品質，無論是就其最後的養成原因或養成過程中的準備而言，都在於我們;而消除這些品質，也在於我們。所以這與抉擇的自由也沒有什麼衝突。",
+      "after": "人的品質有兩種：一是先天的，一是後天的。在先天的品質方面，有關於智性部分的，有關於身體的或與身體相關之能力的。由於人在智性部分的先天品質，他自然欲求最後目的或幸福。如第八十二題第一及第二節己說過的，這種嗜慾是自然的，不屬於自由抉擇之範圍。在身體和與身體相關的能力方面，人也能有些先天品質，具有易受某形體原因之影響的某種氣質或傾向；它們對智性部分沒有影響，因為智性活動不是身體的活動。所以，一個人在身體氣質方面是怎樣的，他的目的便也是怎樣的；因為由於這種體質，人傾向於選擇某物或棄捨某物。但這些傾向服從理性的判斷，因為如第八十一題第三節己說過的，下級嗜慾服從理性。所以，這些傾向無礙於抉擇的自由。\n後天的品質就像習性和情一樣，使人比較傾向某物而不傾向另一物。但這些傾向也服從理性之判斷。這是因為養成這些品質，無論是就其最後的養成原因或養成過程中的準備而言，都在於我們；而消除這些品質，也在於我們。所以這與抉擇的自由也沒有什麼衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "怎樣的﹒",
+          "after": "怎樣的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "自由抉擇是否為機能",
+      "after": "自由抉擇是否為機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "自由抉擇似乎不是機能。因為:",
+      "after": "自由抉擇似乎不是機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "自由抉擇無非就是「自由判斷」。判斷指的不是機能，而是活動。所以自由抉擇不是機能。",
+      "after": "自由抉擇無非就是「自由判斷」。判斷指的不是機能，而是活動。所以自由抉擇不是機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "此外，自由抉擇被稱為「意志與理性之才能」(參看:彼得隆巴，《語錄》卷二第二十四章)。才能(facultas)則是指能力之便於或易於施展(facilitas potestatis)，而這是靠習性。所以自由抉擇是一種習性。伯爾納鐸(Bernardus)《論恩寵與自由抉擇》(De Gratia et Lib. Arb.)第一章及第二章也說，自由抉擇是「靈魂之自由習性」。所以，那不是一種機能。",
+      "after": "此外，自由抉擇被稱為「意志與理性之才能」(參看：彼得隆巴，《語錄》卷二第二十四章)。才能(facultas)則是指能力之便於或易於施展(facilitas potestatis)，而這是靠習性。所以自由抉擇是一種習性。伯爾納鐸(Bernardus)《論恩寵與自由抉擇》(De Gratia et Lib. Arb.)第一章及第二章也說，自由抉擇是「靈魂之自由習性」。所以，那不是一種機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "此外，自然機能沒有能被罪惡去除的。但是自由抉擇卻被罪惡革除，因為奧斯定《基本教理手冊》第三十章說:「妄用自由抉擇之人，便喪失自己和自由抉擇」。所以，自由抉擇不是一種機能。",
+      "after": "此外，自然機能沒有能被罪惡去除的。但是自由抉擇卻被罪惡革除，因為奧斯定《基本教理手冊》第三十章說：「妄用自由抉擇之人，便喪失自己和自由抉擇」。所以，自由抉擇不是一種機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1360
+      ],
+      "before": "除了機能外，似乎沒有東西能是習性之主體。但是自由抉擇是恩寵之主體，在恩寵的輔助下，自由抉擇選取善行。所以自由抉擇是一種機能。",
+      "after": "除了機能外，似乎沒有東西能是習性之主體。但是自由抉擇是恩寵之主體，在恩寵的輔助下，自由抉擇選取善行。所以自由抉擇是一種機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1360,
+        1361
+      ],
+      "before": "我解答如下:雖然按字面來說，自由抉擇是指一種活動;但按一般的講話方式，我們卻說，自由抉擇是這種活動之根本，即人用以自由判斷者。在人內的活動之根本是機能和習性;因為我們說，是靠均識和智|生機能認知某東西。所以，自由抉擇或該是機能，或該是習性，或者該是帶有習性的機能。\n由兩點可以證明自由抉擇不是習性，也不是帶有習性的機能。第一，如果是習性，那該是自然習性。因為人有自由抉擇，乃是出於天性;但是在我們內，沒有一個自然習性是關於自由抉擇範圍內之事物的。因為針對那些我們對其有自然習性的事物，我們自然傾向於它們，例如:我們自然傾向於贊同第一或基本原理。在第八十二題第一及第二節論幸福之嗜慾時我們已經說過，我們自然所傾曏者，不屬於自由抉擇的範園。所以自由抉擇之為自然習↑生，這與自由抉擇之固有意義或性質互相矛盾。如果說它是非自然的或後天的習性，則又與它的自然性或先天性質相衝突。由此可見，它絕對不是一種習性。第二，按《倫理學》卷二第五章所說的，習性「乃是使我們對情慾或行動有好的或壞的配備者」。例如，節制使我們對慾望有好的配備，放縱使我們有壞的配備;知識使我們對智能之活動有好的配備，以便認知真理，相反之習性是壞的配備。但是自由抉擇對做好的選擇或壞的選擇，則是中立的或兩可的。所以，自由抉擇不可能是一種習性，因而那隻能是一種機能。",
+      "after": "我解答如下：雖然按字面來說，自由抉擇是指一種活動；但按一般的講話方式，我們卻說，自由抉擇是這種活動之根本，即人用以自由判斷者。在人內的活動之根本是機能和習性；因為我們說，是靠知識和智性機能認知某東西。所以，自由抉擇或該是機能，或該是習性，或者該是帶有習性的機能。\n由兩點可以證明自由抉擇不是習性，也不是帶有習性的機能。第一，如果是習性，那該是自然習性。因為人有自由抉擇，乃是出於天性；但是在我們內，沒有一個自然習性是關於自由抉擇範圍內之事物的。因為針對那些我們對其有自然習性的事物，我們自然傾向於它們，例如：我們自然傾向於贊同第一或基本原理。在第八十二題第一及第二節論幸福之嗜慾時我們己經說過，我們自然所傾向者，不屬於自由抉擇的範圍。所以自由抉擇之為自然習性，這與自由抉擇之固有意義或性質互相矛盾。如果說它是非自然的或後天的習性，則又與它的自然性或先天性質相衝突。由此可見，它絕對不是一種習性。第二，按《倫理學》卷二第五章所說的，習性「乃是使我們對情慾或行動有好的或壞的配備者」。例如，節制使我們對慾望有好的配備，放縱使我們有壞的配備；知識使我們對智能之活動有好的配備，以便認知真理，相反之習性是壞的配備。但是自由抉擇對做好的選擇或壞的選擇，則是中立的或兩可的。所以，自由抉擇不可能是一種習性，因而那只能是一種機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "均識",
+          "after": "知識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傾曏",
+          "after": "傾向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "習↑生",
+          "after": "習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻能",
+          "after": "只能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1361
+      ],
+      "before": "習慣上常以活動之名稱來指機能。因而用自由判斷這一活動，來指充為此活動之根本的機能。假若自由抉擇指的是活動，那就不是常在人內了。",
+      "after": "習慣上常以活動之名稱來指機能。因而用自由判斷這一活動，來指充為此活動之根本的機能。假若自由抉擇指的是活動，那就不是常在人內了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1361
+      ],
+      "before": "纔能有時是指便於行動的能力，故此，在自由抉擇的定義中提到才能。至於伯爾納鐸所謂的習性，不是指與機能並子IJ或相對分之習性，而是指一個人針對活動的某種狀況。而這狀況可能是來自機能，也可能是來自習性;因為人是靠機能而能有活動，靠習性而適於行動的好或不好。",
+      "after": "才能有時是指便於行動的能力，故此，在自由抉擇的定義中提到才能。至於伯爾納鐸所謂的習性，不是指與機能並列或相對分之習性，而是指一個人針對活動的某種狀況。而這狀況可能是來自機能，也可能是來自習性；因為人是靠機能而能有活動，靠習性而適於行動的好或不好。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔能",
+          "after": "才能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "並子IJ",
+          "after": "並列",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "所謂人犯罪便失去自由抉擇，並非是失去天性的自由一-這種自由在於不是出於強迫，所失去的是不受罪惡和災患之牽累的自由。關於這個問題，留待在本書第二集論到道德問題時再加以討論(第二集第一部第八十五等題;又有第一0九題)。",
+      "after": "所謂人犯罪便失去自由抉擇，並非是失去天性的自由——這種自由在於不是出於強迫，所失去的是不受罪惡和災患之牽累的自由。關於這個問題，留待在本書第二集論到道德問題時再加以討論(第二集第一部第八十五等題；又有第一〇九題)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自由一-",
+          "after": "自由——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "自由抉擇是否為嗜慾機能",
+      "after": "自由抉擇是否為嗜慾機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "自由抉擇似乎不是嗜慾機能，而是認知機能。因為:",
+      "after": "自由抉擇似乎不是嗜慾機能，而是認知機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第二十七章說:「有理性，立刻就伴有自由抉擇。」然而理性是認知機能。所以自由抉擇是認知機能。",
+      "after": "大馬士革的若望《論正統信仰》卷二第二十七章說：「有理性，立刻就伴有自由抉擇。」然而理性是認知機能。所以自由抉擇是認知機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "此外，所謂自由抉擇，就等於自由判斷。但是判斷是認知能力的活動，所以自由抉擇是認知機能。",
+      "after": "此外，所謂自由抉擇，就等於自由判斷。但是判斷是認知能力的活動，所以自由抉擇是認知機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "此外，選擇是特別屬於自由抉擇的活動。但是選擇似乎屬於認知，因為選擇含有某東西與另一東西之比較，而這是專屬於認知能力的事。所以自由抉擇是認知機能。",
+      "after": "此外，選擇是特別屬於自由抉擇的活動。但是選擇似乎屬於認知，因為選擇含有某東西與另一東西之比較，而這是專屬於認知能力的事。所以自由抉擇是認知機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1362
+      ],
+      "before": "哲學家在《倫理學》卷三第三章說，選擇是「對在我們能力下之東西的願望」。然而願望是嗜慾能力的活動，所以選擇也是一樣。自由抉擇是我們據以選擇者，所以自由抉擇是嗜慾能力。",
+      "after": "哲學家在《倫理學》卷三第三章說，選擇是「對在我們能力下之東西的願望」。然而願望是嗜慾能力的活動，所以選擇也是一樣。自由抉擇是我們據以選擇者，所以自由抉擇是嗜慾能力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1362,
+        1363
+      ],
+      "before": "我解答如下:自由抉擇專有的作用是選擇。說我們有自由抉擇，是根據我們能採納某事物，而拒絕另一事物，而這就是選擇。因此該根據選擇去看自由抉擇之性質。為能選擇，要有認知能力方面的作用，也要有嗜慾能力方面的作用。在認知方面，選擇要經過考慮或計議，以便知道該優先選取什麼;在嗜慾方面，考慮所提供的評斷，該在欲求時加以接受。故此，哲學家在《倫理學》卷六第二章，論到選擇主要該屬於嗜慾能力或該屬於認知能力時，沒有下定論。他說選擇「或是嗜慾性的智能，或是智性的嗜慾」。但是在《倫理學》卷三第三章﹒他比較傾向於後一說法，即選擇是智性的嗜慾'稱選擇為「經過考慮的願望」。這是因為選擇之專有對象乃是導致目的者;而導致目的者作為導致目的者，具有善之意義，即所謂的有用的善。既然善作為善，是嗜慾之對象，故此選擇主要是嗜慾能力之活動，所以自由抉擇是嗜慾機能。",
+      "after": "我解答如下：自由抉擇專有的作用是選擇。說我們有自由抉擇，是根據我們能採納某事物，而拒絕另一事物，而這就是選擇。因此該根據選擇去看自由抉擇之性質。為能選擇，要有認知能力方面的作用，也要有嗜慾能力方面的作用。在認知方面，選擇要經過考慮或計議，以便知道該優先選取什麼；在嗜慾方面，考慮所提供的評斷，該在欲求時加以接受。故此，哲學家在《倫理學》卷六第二章，論到選擇主要該屬於嗜慾能力或該屬於認知能力時，沒有下定論。他說選擇「或是嗜慾性的智能，或是智性的嗜慾」。但是在《倫理學》卷三第三章，他比較傾向於後一說法，即選擇是智性的嗜慾，稱選擇為「經過考慮的願望」。這是因為選擇之專有對象乃是導致目的者；而導致目的者作為導致目的者，具有善之意義，即所謂的有用的善。既然善作為善，是嗜慾之對象，故此選擇主要是嗜慾能力之活動，所以自由抉擇是嗜慾機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卷三第三章﹒",
+          "after": "卷三第三章，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智性的嗜慾'",
+          "after": "智性的嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "嗜慾能力伴隨認知能力。故此，大馬士革的若望說:「有理性，立刻就伴有自由抉擇。」",
+      "after": "嗜慾能力伴隨認知能力。故此，大馬士革的若望說：「有理性，立刻就伴有自由抉擇。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "判斷有似考慮之結論和決定。考慮之決定先是靠理性之評斷，然後買IJ靠嗜慾之接受。故此，哲學家在《倫理學》卷三第三章說:「經過考慮之判斷後，我們便按考慮之決定而願望」。故此說選擇是一種判斷，「自由決議或抉擇」之名稱即由此而來。",
+      "after": "判斷有似考慮之結論和決定。考慮之決定先是靠理性之評斷，然後則靠嗜慾之接受。故此，哲學家在《倫理學》卷三第三章說：「經過考慮之判斷後，我們便按考慮之決定而願望」。故此說選擇是一種判斷，「自由決議或抉擇」之名稱即由此而來。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "選擇過程中所含有的比較，屬於事先之考慮，這是理性的事。嗜慾雖然沒有比較能力，但因了它是受有比較作用的認知能力之推動，故在它決定取捨時，也多少相似比較。",
+      "after": "選擇過程中所含有的比較，屬於事先之考慮，這是理性的事。嗜慾雖然沒有比較能力，但因了它是受有比較作用的認知能力之推動，故在它決定取捨時，也多少相似比較。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "自由抉擇是否為有別於意志的機能",
+      "after": "自由抉擇是否為有別於意志的機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "自由抉擇似乎是有別於意志的機能。因為:",
+      "after": "自由抉擇似乎是有別於意志的機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1363
+      ],
+      "before": "大馬士革的若望在《論正統信仰》)卷二第二十二章說，thelesis是一個東西，bul巳SlS是另一個東西;前者是意志，後者似乎是自由抉擇﹒因為他說bulesis是關於一個東西與另一東西之比較下而取其一的意志。所以，自由抉擇似乎是有別於意志的機能。",
+      "after": "大馬士革的若望在《論正統信仰》)卷二第二十二章說，thelesis是一個東西，bulesis是另一個東西；前者是意志，後者似乎是自由抉擇；因為他說bulesis是關於一個東西與另一東西之比較下而取其一的意志。所以，自由抉擇似乎是有別於意志的機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "bul巳SlS",
+          "after": "bulesis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自由抉擇﹒",
+          "after": "自由抉擇；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1364
+      ],
+      "before": "此外，機能是因其活動而被認真日。但是按《倫理學》卷三第二章所說的，選擇有別於意志，而選擇是自由抉擇之活動;因為「意志是關於目的者，而選擇是關於導致目的者」。所以，自由抉擇是有別於意志的機能。",
+      "after": "此外，機能是因其活動而被認知。但是按《倫理學》卷三第二章所說的，選擇有別於意志，而選擇是自由抉擇之活動；因為「意志是關於目的者，而選擇是關於導致目的者」。所以，自由抉擇是有別於意志的機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1364
+      ],
+      "before": "此外，意志是智性的嗜慾。但是在智能或理智方面有兩個機能，即「主動理智」和「被動理智」。因此，在智性嗜慾方面除了意志外，也該另有一個機能，而這似乎只能是自由抉擇。所以，自由抉擇是意志以外的另一機能。",
+      "after": "此外，意志是智性的嗜慾。但是在智能或理智方面有兩個機能，即「主動理智」和「被動理智」。因此，在智性嗜慾方面除了意志外，也該另有一個機能，而這似乎只能是自由抉擇。所以，自由抉擇是意志以外的另一機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1364
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷三第十四章說，自由抉擇無非就是意志。",
+      "after": "大馬士革的若望在《論正統信仰》卷三第十四章說，自由抉擇無非就是意志。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1364,
+        1365
+      ],
+      "before": "我解答如下:按在前面第六十四題第二節、第八十題第二節所說的，嗜慾機能該與認知機能相自己。正如在智性認知方面有理智和理性之分，在智性嗜慾方面也有意志與自由抉擇之分，後者無非就是選擇能力。這可以從對象與行動之關係中看出來。因為「有頁悟」是指對一個東西的單純知覺;故此嚴格地說，領i宮專門只用於原理，因為原理是因其本身而被認知，不經比較推想。「推理」嚴格地說，是由一事物而認知另一事物，所以推理是針對由原理所得之結論的。在嗜慾方面也是一樣，「願意」是指對一東西的單純欲求;故說意志是關於目的之機能，目的是因其自身而被欲求。「選擇」則是為了得到另一東西而欲求某物，因而是專針對導致目的者的。在嗜慾方面，目的與導致目的者的關係'是導致目的者因了目的而被欲求;就似在認知方面原理與結論之關(系，我們是因了原理而贊同結論。由此可見，意志與選擇能力或自由抉擇之關係，就像理智與理性之關係。前面第七十九題第八節曾經指出，領↑吾與推理屬於同一個機能，就像動與靜之屬於同一個能力。所以願意與選擇也屬於同一個信育É0故此，意志和自由抉擇不是兩個機能，而是同一個機能c",
+      "after": "我解答如下：按在前面第六十四題第二節、第八十題第二節所說的，嗜慾機能該與認知機能相配。正如在智性認知方面有理智和理性之分，在智性嗜慾方面也有意志與自由抉擇之分，後者無非就是選擇能力。這可以從對象與行動之關係中看出來。因為「領悟」是指對一個東西的單純知覺；故此嚴格地說，領悟專門只用於原理，因為原理是因其本身而被認知，不經比較推想。「推理」嚴格地說，是由一事物而認知另一事物，所以推理是針對由原理所得之結論的。在嗜慾方面也是一樣，「願意」是指對一東西的單純欲求；故說意志是關於目的之機能，目的是因其自身而被欲求。「選擇」則是為了得到另一東西而欲求某物，因而是專針對導致目的者的。在嗜慾方面，目的與導致目的者的關係，是導致目的者因了目的而被欲求；就似在認知方面原理與結論之關係，我們是因了原理而贊同結論。由此可見，意志與選擇能力或自由抉擇之關係，就像理智與理性之關係。前面第七十九題第八節曾經指出，領悟與推理屬於同一個機能，就像動與靜之屬於同一個能力。所以願意與選擇也屬於同一個機能。故此，意志和自由抉擇不是兩個機能，而是同一個機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相自己",
+          "after": "相配",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有頁悟",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領i宮",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "領↑吾",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "信育É0",
+          "after": "機能。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "機能c",
+          "after": "機能。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1365
+      ],
+      "before": "bulesis和thelesis不是機能上的區別，而是活動方面的差別。",
+      "after": "bulesis和thelesis不是機能上的區別，而是活動方面的差別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q083.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1365
+      ],
+      "before": "選擇和意志，即願意本身，是不同的活動，但是屬於同一機能，就似領悟與推理也是屬於同一機能，還在上面正解已經說明。",
+      "after": "選擇和意志，即願意本身，是不同的活動，但是屬於同一機能，就似領悟與推理也是屬於同一機能，還在上面正解己經說明。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說明",
+          "after": "己經說明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q083.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1365
+      ],
+      "before": "理智就似是意志之推動者。故此，在意志中不必再分主動者和被動者σ",
+      "after": "理智就似是意志之推動者。故此，在意志中不必再分主動者和被動者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "被動者σ",
+          "after": "被動者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
