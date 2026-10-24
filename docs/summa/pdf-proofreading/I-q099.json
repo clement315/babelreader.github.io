@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "batch": "I-q099",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q099",
+    "title": "論要生之子女身體上的情況",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1544,
+      1545,
+      1546,
+      1547
+    ],
+    "printed_pages": [
+      317,
+      320
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 26,
+    "changed_review_units": 17,
+    "checked_unchanged_review_units": 10
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q99.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q99.json": "46791d9e76f4787c8e2417b5bab0964881fbd0b8097ee685a2fde80f2b2ee907"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q099.a002.arg3",
+      "pdf_file_page": 1546,
+      "text": "己足繁殖",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q099.a002.ad1",
+      "pdf_file_page": 1547,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q099.a002.ad1",
+      "pdf_file_page": 1547,
+      "text": "第九十二題第二節釋疑1.",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「第二節釋疑1.」；相关文字在第92题第一节释疑1，疑原书交叉引文有误，保留原题节编号。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部4页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q099.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "然後要討論的是那時要生之子女的情況(參看第九十八題引言)。首先，是關於身體方面;第二，關於正義(第一00題);第三，關於知識(第一0一題)。\n關於第一點，可以提出兩個問題:\n一、在純真狀態新生之嬰兒是否有完備的體力。\n二、生出的是否皆為男性。",
+      "after": "然後要討論的是那時要生之子女的情況(參看第九十八題引言)。首先，是關於身體方面；第二，關於正義(第一〇〇題)；第三，關於知識(第一〇一題)。\n關於第一點，可以提出兩個問題：\n一、在純真狀態新生之嬰兒是否有完備的體力。\n二、生出的是否皆為男性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一00題",
+          "after": "第一〇〇題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0一題",
+          "after": "第一〇一題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "在純真狀態的新生嬰兒是否具有運用肢體的完備體力",
+      "after": "在純真狀態的新生嬰兒是否具有運用肢體的完備體力",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "在純真狀態，新生的嬰兒似乎具有運用肢體的完備體力。因為:",
+      "after": "在純真狀態，新生的嬰兒似乎具有運用肢體的完備體力。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "奧斯定在《論兒童的洗禮》(De bapt. parvul.)卷一第三十八章說，嬰兒「身體上的虛弱，與心靈的虛弱相稱」。但是在純真狀態沒有心靈的虛弱。所以嬰兒也沒有身體的虛弱。",
+      "after": "奧斯定在《論兒童的洗禮》(De bapt. parvul.)卷一第三十八章說，嬰兒「身體上的虛弱，與心靈的虛弱相稱」。但是在純真狀態沒有心靈的虛弱。所以嬰兒也沒有身體的虛弱。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "此外，有的動物一生下來，就有足夠的運用肢體的能力。但是人比其他動物高貴。所以，人一生下來自然更該有運用肢體的能力。現在的情形似乎是罪過之處罰。",
+      "after": "此外，有的動物一生下來，就有足夠的運用肢體的能力。但是人比其他動物高貴。所以，人一生下來自然更該有運用肢體的能力。現在的情形似乎是罪過之處罰。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1544
+      ],
+      "before": "此外，不能得到眼前的可欲的東西，產生痛苦。但嬰兒若沒有運用肢體的能力，買IJ經常會有看到喜愛的東西而不能獲致的情形。所以他們會有痛苦，但在犯罪以前這是不能有的。所以在純真狀態嬰兒不缺少運用肢體的能力。",
+      "after": "此外，不能得到眼前的可欲的東西，產生痛苦。但嬰兒若沒有運用肢體的能力，則經常會有看到喜愛的東西而不能獲致的情形。所以他們會有痛苦，但在犯罪以前這是不能有的。所以在純真狀態嬰兒不缺少運用肢體的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1544,
+        1545
+      ],
+      "before": "此外，老年的虛弱與嬰兒的虛弱似乎是對稱的。但在純真狀態沒有老年的虛弱。所以，也沒有嬰兒之虛弱。",
+      "after": "此外，老年的虛弱與嬰兒的虛弱似乎是對稱的。但在純真狀態沒有老年的虛弱。所以，也沒有嬰兒之虛弱。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1545
+      ],
+      "before": "凡是由生殖而來的東西，先是不完美的，然後達到完美狀態。純真狀態的嬰兒是以生殖方式產生的。所以，在體積和體力上最初該是不完美的。",
+      "after": "凡是由生殖而來的東西，先是不完美的，然後達到完美狀態。純真狀態的嬰兒是以生殖方式產生的。所以，在體積和體力上最初該是不完美的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1545
+      ],
+      "before": "我解答如下:那超乎天性的，我們只有憑信德堅持;而我們所相信的，是來自權威。所以，除了天主之權威所傳授的超乎天性的事理之外，我們的一切主張該以萬物之天性為根據。嬰兒一生下來沒有足夠的運用肢體的能力，顯然合於自然現象及人性之定理。因為人的大腦，按身體的比例說，體積自然就比別的動物之大腦的體積大。因了嬰兒大腦的濕氣重，作為運動之工其的神經，自然不適於牽動肢體。而在另一方面，天主教信徒中沒有一個不相信，天主能使新生的嬰兒立刻具有運用其肢體的能力。\n根據聖經的權威我們知道，「天主造人原很正直」(《訓道篇》第七章30節);而按奧斯定《天主之城》卷十三第十三章所說的，這種正直在於身體完全服從靈魂。正如在原始狀態，人的肢體不能違反人的正當意志;同樣，人的肢體也不能不聽意志之支配。人的正當意志，是那指向適於自己之活動的意志。同樣的活動並不適合人的每種年齡。所以該說，新生的嬰兒沒有足夠的能力運用肢體去做任何活動，只能去做適合於嬰兒的活動，例如:喫奶。",
+      "after": "我解答如下：那超乎天性的，我們只有憑信德堅持；而我們所相信的，是來自權威。所以，除了天主之權威所傳授的超乎天性的事理之外，我們的一切主張該以萬物之天性為根據。嬰兒一生下來沒有足夠的運用肢體的能力，顯然合於自然現象及人性之定理。因為人的大腦，按身體的比例說，體積自然就比別的動物之大腦的體積大。因了嬰兒大腦的濕氣重，作為運動之工具的神經，自然不適於牽動肢體。而在另一方面，天主教信徒中沒有一個不相信，天主能使新生的嬰兒立刻具有運用其肢體的能力。\n根據聖經的權威我們知道，「天主造人原很正直」(《訓道篇》第七章30節)；而按奧斯定《天主之城》卷十三第十三章所說的，這種正直在於身體完全服從靈魂。正如在原始狀態，人的肢體不能違反人的正當意志；同樣，人的肢體也不能不聽意志之支配。人的正當意志，是那指向適於自己之活動的意志。同樣的活動並不適合人的每種年齡。所以該說，新生的嬰兒沒有足夠的能力運用肢體去做任何活動，只能去做適合於嬰兒的活動，例如：喫奶。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "工其",
+          "after": "工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1545
+      ],
+      "before": "奧斯定所講的虛弱，是指現在可以在嬰兒身上看到的虛弱，也包括在適於嬰兒期活動方面的虛弱在內;從他在前面所說的便可以看出來。他說: 「雖有乳房在跟前，嬰兒餓了時只會哭，而不會去吸忱。」",
+      "after": "奧斯定所講的虛弱，是指現在可以在嬰兒身上看到的虛弱，也包括在適於嬰兒期活動方面的虛弱在內；從他在前面所說的便可以看出來。他說：「雖有乳房在跟前，嬰兒餓了時只會哭，而不會去吸吮。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "吸忱",
+          "after": "吸吮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "有的動物一生下來就能運用肢體，並非因了高貴，因為有些高級動物沒有這種能力;這是因了那些動物的大腦乾燥，並囡了那些動物的專有活動是不完美的或簡單的，不需要多少精力。",
+      "after": "有的動物一生下來就能運用肢體，並非因了高貴，因為有些高級動物沒有這種能力；這是因了那些動物的大腦乾燥，並因了那些動物的專有活動是不完美的或簡單的，不需要多少精力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "囡了",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "根據正解中所說的，就可看出答案。或者也可以說，他們不會願望那些按正當意志不適合他們之情況的東西。",
+      "after": "根據正解中所說的，就可看出答案。或者也可以說，他們不會願望那些按正當意志不適合他們之情況的東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "在純真狀態，會有人出生，但是不會腐化。故在那狀態，能有一些由生殖而來的嬰兒的弱點;但不能有老年的弱點，因為老年的虛弱導向腐朽。",
+      "after": "在純真狀態，會有人出生，但是不會腐化。故在那狀態，能有一些由生殖而來的嬰兒的弱點；但不能有老年的弱點，因為老年的虛弱導向腐朽。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "在原始狀態是否會生出女性",
+      "after": "在原始狀態是否會生出女性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q099.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "在原始狀態似乎不會生出女性。因為:",
+      "after": "在原始狀態似乎不會生出女性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "哲學家在《動物生成論》卷二第三章說，「雌性是未成功的(發育不全的或不及格的)雄性」'好似是出乎自然之用意之外的。但是在那狀態，生殖人時不會有任何不自然的現象發生。所以不會有女性出生。",
+      "after": "哲學家在《動物生成論》卷二第三章說，「雌性是未成功的(發育不全的或不及格的)雄性」，好似是出乎自然之用意之外的。但是在那狀態，生殖人時不會有任何不自然的現象發生。所以不會有女性出生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "雄性」'",
+          "after": "雄性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "此外，凡主動者都產生與自己相似者，除非是受到阻礙，或力有不濟市或質料的配備不好，就如小火不能燃燒綠枝。在生殖峙，主動能力是在男性那方面。既然在純真狀態，男性的能力不會不足，女性方面的質料配備也不會不好，似乎生的都該是男性。",
+      "after": "此外，凡主動者都產生與自己相似者，除非是受到阻礙，或力有不濟，或質料的配備不好，就如小火不能燃燒綠枝。在生殖時，主動能力是在男性那方面。既然在純真狀態，男性的能力不會不足，女性方面的質料配備也不會不好，似乎生的都該是男性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不濟市",
+          "after": "不濟，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生殖峙",
+          "after": "生殖時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1546
+      ],
+      "before": "此外，在純真狀態，生殖是為增加人之數目的。但是第一個男人和第一個女人既然長生不死，只由他們二人已足繁殖人類。所以在純真狀態不需要有女性出生。",
+      "after": "此外，在純真狀態，生殖是為增加人之數目的。但是第一個男人和第一個女人既然長生不死，只由他們二人己足繁殖人類。所以在純真狀態不需要有女性出生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已足",
+          "after": "己足",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1546,
+        1547
+      ],
+      "before": "天主是怎樣設置了天性，在生殖時便會怎樣進行。但是按《創世紀》第一章27節及第二章22部所說的，天主在人性上設置了男女兩性。所以﹒即使在那狀態下，也會有男有女生出。",
+      "after": "天主是怎樣設置了天性，在生殖時便會怎樣進行。但是按《創世紀》第一章27節及第二章22節所說的，天主在人性上設置了男女兩性。所以，即使在那狀態下，也會有男有女生出。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "22部",
+          "after": "22節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1547
+      ],
+      "before": "我解答如下:在純真狀態，凡是屬於人性之圓滿成就的，都不會缺少。正如萬物之不同等級屬於整個宇宙之完美﹒同樣，性別的不同也屬於人性之完美。所以在純真狀態，男女兩性都會藉生殖產生。",
+      "after": "我解答如下：在純真狀態，凡是屬於人性之圓滿成就的，都不會缺少。正如萬物之不同等級屬於整個宇宙之完美；同樣，性別的不同也屬於人性之完美。所以在純真狀態，男女兩性都會藉生殖產生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "宇宙之完美﹒",
+          "after": "宇宙之完美；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1547
+      ],
+      "before": "所謂「雌性是未成功的雄性」'因為那是出乎個別天性或自然之用意以外的，但並非出乎普遍天性或大自然之用意以外，這在前面第九十二題第二節釋疑1.已經說過。",
+      "after": "所謂「雌性是未成功的雄性」，因為那是出乎個別天性或自然之用意以外的，但並非出乎普遍天性或大自然之用意以外，這在前面第九十二題第二節釋疑1.己經說過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "雄性」'",
+          "after": "雄性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1547
+      ],
+      "before": "女性之出生，並非只由於主動能力之不足，或質料之配備不當，如同質疑所提出的。有時是由於外來的原因，就如哲學家在《動物誌》卷六第十九章「論動物」所說的: 「北風有助於生男，南風有助於生女。」有時靈魂的意念，也易對身體有影響。在純真狀態更能是這樣，因為那時身體與靈魂之從屬關係比較密切，以致能隨生產者之意志，區分子女的性別。",
+      "after": "女性之出生，並非只由於主動能力之不足，或質料之配備不當，如同質疑所提出的。有時是由於外來的原因，就如哲學家在《動物誌》卷六第十九章「論動物」所說的：「北風有助於生男，南風有助於生女。」有時靈魂的意念，也易對身體有影響。在純真狀態更能是這樣，因為那時身體與靈魂之從屬關係比較密切，以致能隨生產者之意志，區分子女的性別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q099.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1547
+      ],
+      "before": "生出之子女既有動物生命，就要喫東西，所以也要生殖。所以該每人都有生殖力，不只是原祖父母。並且似乎據此可以推知，生出的女性與男性將會一樣多。",
+      "after": "生出之子女既有動物生命，就要喫東西，所以也要生殖。所以該每人都有生殖力，不只是原祖父母。並且似乎據此可以推知，生出的女性與男性將會一樣多。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
