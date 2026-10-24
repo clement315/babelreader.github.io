@@ -1,0 +1,1129 @@
+{
+  "schema_version": 1,
+  "batch": "I-q096",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q096",
+    "title": "論人在純真狀態的統治權力",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1523,
+      1524,
+      1525,
+      1526,
+      1527,
+      1528,
+      1529,
+      1530
+    ],
+    "printed_pages": [
+      296,
+      303
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 46,
+    "changed_review_units": 31,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q96.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q96.json": "f5e752550935a78c8ffb81fa7868ce1eaca97f918a19a8d99d1d2fae0519407c"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q096.a003.sed_contra",
+      "pdf_file_page": 1527,
+      "text": "不同等，；因為",
+      "status": "suspected_source_print_error",
+      "action": "350dpi放大原页，两个相邻标点「，；」均可见；保留原书标点异常，不自行择一。"
+    },
+    {
+      "id": "I.q096.a003.arg1",
+      "pdf_file_page": 1527,
+      "text": "(《倫理叢談》卷二十一第十章)。",
+      "status": "suspected_source_print_error",
+      "action": "原页引句后及括号后均有句号，原样保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q096.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "然後要討論的是，人在純真狀態所有的統治權力(參看第九十五題引言)。\n關於這點，可以提出四個問題:\n一、人在純真狀態是否曾統治動物。\n二、是否曾統治一切受造物。\n三、在純真狀態眾人是否平等。\n四、在那狀態是否有人統治他人。",
+      "after": "然後要討論的是，人在純真狀態所有的統治權力(參看第九十五題引言)。\n關於這點，可以提出四個問題：\n一、人在純真狀態是否曾統治動物。\n二、是否曾統治一切受造物。\n三、在純真狀態眾人是否平等。\n四、在那狀態是否有人統治他人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "亞當在純真狀態是否曾統治動物",
+      "after": "亞當在純真狀態是否曾統治動物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "在純真狀態亞當似乎未曾統治動物。因為:",
+      "after": "在純真狀態亞當似乎未曾統治動物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷九第十四章說，是天使將動物領到亞當面前，為給牠們命名。倘若人自己統治動物，便不需要天使之助。所以在純真狀態，人沒有統治其他動物的權力。",
+      "after": "奧斯定在《創世紀字義新探》卷九第十四章說，是天使將動物領到亞當面前，為給牠們命名。倘若人自己統治動物，便不需要天使之助。所以在純真狀態，人沒有統治其他動物的權力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "此外，彼此不和的東西，不適宜歸於一個統治權力之下。但有許多動物天性就彼此不和，例如:羊與狼。所以，不是一切動物都在人的統治權下。",
+      "after": "此外，彼此不和的東西，不適宜歸於一個統治權力之下。但有許多動物天性就彼此不和，例如：羊與狼。所以，不是一切動物都在人的統治權下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1523
+      ],
+      "before": "此外，熱羅尼莫說: 「人在犯罪以前，雖不需要動物，但天主給了人統治動物的權力;因為天主早已知道人在犯罪之後，將需要動物之幫助。」(參看:伯達，(《六天創世註解》卷一，關於《創世紀》第一輩26節)所以至少在犯罪以前，人並沒有獲得操使統治動物之權力。",
+      "after": "此外，熱羅尼莫說：「人在犯罪以前，雖不需要動物，但天主給了人統治動物的權力；因為天主早已知道人在犯罪之後，將需要動物之幫助。」(參看：伯達，《六天創世註解》卷一，關於《創世紀》第一章26節)所以至少在犯罪以前，人並沒有獲得操使統治動物之權力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "伯達，(《",
+          "after": "伯達，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一輩",
+          "after": "第一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1524
+      ],
+      "before": "此外，主人或統治者之特權似乎是發命令。但只有對具有理性者才宜於發命令。所以人沒有統治無理性動物之權力。",
+      "after": "此外，主人或統治者之特權似乎是發命令。但只有對具有理性者才宜於發命令。所以人沒有統治無理性動物之權力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1524
+      ],
+      "before": "《創世紀》第一章26節論人說:「他管理海中的魚，天空的飛鳥，和地上的野獸。」",
+      "after": "《創世紀》第一章26節論人說：「他管理海中的魚，天空的飛鳥，和地上的野獸。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1524
+      ],
+      "before": "我解答如下:前面第九十五題第一節曾說，那些該服從人的東西之所以不服從人，是對人的處罰，因7人背命不服從天主。故此在人背命以前的純真狀態，那些自然該服從人的東西沒有一個反抗他的。所有的動物自然都該服從人，這可以從三方面看出來。第一，從大自然之過程方面。萬物之產生有一種次序，即從不完美者到完美者(因為質料是以形式為依歸，不完美之形式是以較完美之形式為依歸)。在萬物之用途方面也是如此一一不完美之東西是為被完美之東西利用的:植物利用土地以吸收營養，動物利用植物，而人則兼利用植物和動物。故此，人自然就統治動物。因此，哲學家在《政治學》卷一第三章說，獵取野生動物是合理和自然的，因為人是在取用自然屬於他的東西。\n第二，是從天主之措施次序來看:天主是用高級物管理低級物。既然人是按天主之肖像造的，高於其他動物，其他動物理當受人管理。\n第三，從人及其他動物之特性來看。其他動物，憑其自然的估計能力，在某些特殊的行動方面分有一些機智;人則有普遍性的機智，以為一切行為之指南。凡是因分得而有者，都繫屬於那本然並普遍地具有者。由此可見，其他動物自然該服從人。",
+      "after": "我解答如下：前面第九十五題第一節曾說，那些該服從人的東西之所以不服從人，是對人的處罰，因了人背命不服從天主。故此在人背命以前的純真狀態，那些自然該服從人的東西沒有一個反抗他的。所有的動物自然都該服從人，這可以從三方面看出來。第一，從大自然之過程方面。萬物之產生有一種次序，即從不完美者到完美者(因為質料是以形式為依歸，不完美之形式是以較完美之形式為依歸)。在萬物之用途方面也是如此——不完美之東西是為被完美之東西利用的：植物利用土地以吸收營養，動物利用植物，而人則兼利用植物和動物。故此，人自然就統治動物。因此，哲學家在《政治學》卷一第三章說，獵取野生動物是合理和自然的，因為人是在取用自然屬於他的東西。\n第二，是從天主之措施次序來看：天主是用高級物管理低級物。既然人是按天主之肖像造的，高於其他動物，其他動物理當受人管理。\n第三，從人及其他動物之特性來看。其他動物，憑其自然的估計能力，在某些特殊的行動方面分有一些機智；人則有普遍性的機智，以為一切行為之指南。凡是因分得而有者，都繫屬於那本然並普遍地具有者。由此可見，其他動物自然該服從人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因7人",
+          "after": "因了人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如此一一",
+          "after": "如此——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "高級權力對屬下所能做的許多事，低級權力卻不能做。天使自然就比人的地位高。為此，天使在動物身上的作用，有的不是人力所能做到的，即是將動物立刻聚集到一起。",
+      "after": "高級權力對屬下所能做的許多事，低級權力卻不能做。天使自然就比人的地位高。為此，天使在動物身上的作用，有的不是人力所能做到的，即是將動物立刻聚集到一起。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "有人說﹒現在兇猛並傷害其他動物的動物，在那(純真)狀態不只對人是馴良的，對其他動物也是溫馴的。但是這種說法絕對不合理。動物的天↑生沒有因了人的罪而起變化，現在自然以其他動物之肉為食物的，如獅子和老鷹，那時並非只喫草。關於《創世紀》第一章30節的伯達之「註解」'也沒有說把草木給了一切野獸和飛鳥作食物，而只是給了某一些。所以那時有的動物自然彼此就不和。但並非因此就不受人統治，正如現在也不因此就不受天主統治，因為這些事都出於天主的措施。那時人是天主之措施的執行者，就像現在對家畜那樣;因為是由人將雞給畜養的鷹當食物。",
+      "after": "有人說，現在兇猛並傷害其他動物的動物，在那(純真)狀態不只對人是馴良的，對其他動物也是溫馴的。但是這種說法絕對不合理。動物的天性沒有因了人的罪而起變化，現在自然以其他動物之肉為食物的，如獅子和老鷹，那時並非只喫草。關於《創世紀》第一章30節的伯達之「註解」，也沒有說把草木給了一切野獸和飛鳥作食物，而只是給了某一些。所以那時有的動物自然彼此就不和。但並非因此就不受人統治，正如現在也不因此就不受天主統治，因為這些事都出於天主的措施。那時人是天主之措施的執行者，就像現在對家畜那樣；因為是由人將雞給畜養的鷹當食物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有人說﹒",
+          "after": "有人說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天↑生",
+          "after": "天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「註解」'",
+          "after": "「註解」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "在純真狀況，人在身體方面不需要動物:不必用以馬衣服，因為他們赤身露體，也不感到羞恥，因為沒有私慾之妄動;不必用以為食物，因為他們是以地堂的果實為食物;也不必用以負重行遠，因為人的體力極佳。但是人需要動物，為能對動物之性質有經驗性的知識。這就是天主將動物領到人前，為給動物命名的意義(《創世紀》第二章的節)，因為名字是指明東西之性質的。",
+      "after": "在純真狀況，人在身體方面不需要動物：不必用以為衣服，因為他們赤身露體，也不感到羞恥，因為沒有私慾之妄動；不必用以為食物，因為他們是以地堂的果實為食物；也不必用以負重行遠，因為人的體力極佳。但是人需要動物，為能對動物之性質有經驗性的知識。這就是天主將動物領到人前，為給動物命名的意義(《創世紀》第二章19節)，因為名字是指明東西之性質的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "用以馬衣服",
+          "after": "用以為衣服",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二章的節",
+          "after": "第二章19節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "其他動物憑其自然估計力，自然分有一些機智和理性，是以鶴隨從領袖，蜜蜂服從蜂王。所以，那時一切動物自動服從人，就像現在的某些家畜服從他那樣。",
+      "after": "其他動物憑其自然估計力，自然分有一些機智和理性，是以鶴隨從領袖，蜜蜂服從蜂王。所以，那時一切動物自動服從人，就像現在的某些家畜服從他那樣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "人是否曾有統治其他一切受造物的權力",
+      "after": "人是否曾有統治其他一切受造物的權力",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1525
+      ],
+      "before": "人似乎不曾有統治其他一切受造物的權力。因為:",
+      "after": "人似乎不曾有統治其他一切受造物的權力。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1525,
+        1526
+      ],
+      "before": "天使自然就比人的權力大。但是按奧斯定在《論天主聖三》卷三第八章所說的: 「即使對天{吏，形體質料或形體物也不是絕對地聽從。」所以，對在純真狀況的人，更不是如此。",
+      "after": "天使自然就比人的權力大。但是按奧斯定在《論天主聖三》卷三第八章所說的：「即使對天使，形體質料或形體物也不是絕對地聽從。」所以，對在純真狀況的人，更不是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天{吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1526
+      ],
+      "before": "此外，在植物中只有營養、生長及生殖三種生命力。這些能力不是天生為服從理性的，這可以在每一個人身上看出來。既然人有統治權力是憑理性，似乎人在純真狀態不會統治植物。",
+      "after": "此外，在植物中只有營養、生長及生殖三種生命力。這些能力不是天生為服從理性的，這可以在每一個人身上看出來。既然人有統治權力是憑理性，似乎人在純真狀態不會統治植物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1526
+      ],
+      "before": "此外，凡統治某東西的，都能改變那個東西。但是人不能改變天體之運行軌道，因為按狄奧尼修在《致波利卡普書》\\Epistola ad Polycarpum)中說的，這是專屬於天主的。所以，人不曾統治天體。",
+      "after": "此外，凡統治某東西的，都能改變那個東西。但是人不能改變天體之運行軌道，因為按狄奧尼修在《致波利卡普書》(Epistola ad Polycarpum)中說的，這是專屬於天主的。所以，人不曾統治天體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "\\Epistola",
+          "after": "(Epistola",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1526
+      ],
+      "before": "《創世紀》第一童話節論人說:「使他統治所有的受造物。」",
+      "after": "《創世紀》第一章26節論人說：「使他統治所有的受造物。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一童話節",
+          "after": "第一章26節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1526
+      ],
+      "before": "我解答如下:在人內可以說含有一切東西，因此他統治在他以內之一切的方式，也就是他統治別的東西之方式。在人內可以說有四種東西，即是:他與天使所共有的理性，他與動物所共有的感覺能力，他與植物所共有的生理能力，及他與無生物所共有的形體。理性在人內佔有統治的地位而不受統治。因此在原始狀態，人對天使沒有統治權力;而所謂「一切受造物」'是指「那些不是按天主之肖像受造者」。感性能力，如憤情和慾情，多少服從理性，靈魂是以命令方式統治之。因此在純真狀態，靈魂也是藉命令統治其他動物。人雖然也統治生理能力及形體，但不是以命令方式，而是以運用方式。所以人在純真狀態也是如此統治植物和無生物，即不是以命令方式或使之改變，而是毫無阻礙地利用其幫助。",
+      "after": "我解答如下：在人內可以說含有一切東西，因此他統治在他以內之一切的方式，也就是他統治別的東西之方式。在人內可以說有四種東西，即是：他與天使所共有的理性，他與動物所共有的感覺能力，他與植物所共有的生理能力，及他與無生物所共有的形體。理性在人內佔有統治的地位而不受統治。因此在原始狀態，人對天使沒有統治權力；而所謂「一切受造物」，是指「那些不是按天主之肖像受造者」。感性能力，如憤情和慾情，多少服從理性，靈魂是以命令方式統治之。因此在純真狀態，靈魂也是藉命令統治其他動物。人雖然也統治生理能力及形體，但不是以命令方式，而是以運用方式。所以人在純真狀態也是如此統治植物和無生物，即不是以命令方式或使之改變，而是毫無阻礙地利用其幫助。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "受造物」'",
+          "after": "受造物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a002.general",
+      "article": 2,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1526
+      ],
+      "before": "由上面所說的，可知各質疑之答案。",
+      "after": "由上面所說的，可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "在純真狀態眾人是否同等",
+      "after": "在純真狀態眾人是否同等",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "在純真狀態眾人似乎都是同等的或一樣的(a叫uales)。因為:",
+      "after": "在純真狀態眾人似乎都是同等的或一樣的(aequales)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "a叫uales",
+          "after": "aequales",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "教宗額我略一世說:「何處我們不犯罪，我們就都是平等的或一樣的。」(《倫理叢談》卷二十一第十章)。但是在純真狀態沒有罪過。所以大家都是平等的或一樣的。",
+      "after": "教宗額我略一世說：「何處我們不犯罪，我們就都是平等的或一樣的。」(《倫理叢談》卷二十一第十章)。但是在純真狀態沒有罪過。所以大家都是平等的或一樣的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "此外，相似及平等是彼此相愛的原因，就如《德訓篇》第卡三章19節說的: 「一切動物都愛自己的同類;同樣，人也各愛與自己相近的人。」在那個(純真)狀態人皆彼此相愛，那愛就是和平之維繫o所以，在純真狀態，大家都是平等的。",
+      "after": "此外，相似及平等是彼此相愛的原因，就如《德訓篇》第十三章19節說的：「一切動物都愛自己的同類；同樣，人也各愛與自己相近的人。」在那個(純真)狀態人皆彼此相愛，那愛就是和平之維繫。所以，在純真狀態，大家都是平等的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡三章",
+          "after": "第十三章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "維繫o",
+          "after": "維繫。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "此外，沒有原因，也就沒有效果。但是現在人彼此不平等或不一樣的原因，在天主那方面，似乎是由於祂按功績賞報某些人，處罰另一些人;在天性方面，由於自然缺點，有的生來軟弱無能，有的生來強壯健全。這些都是原始狀態所沒有的。",
+      "after": "此外，沒有原因，也就沒有效果。但是現在人彼此不平等或不一樣的原因，在天主那方面，似乎是由於祂按功績賞報某些人，處罰另一些人；在天性方面，由於自然缺點，有的生來軟弱無能，有的生來強壯健全。這些都是原始狀態所沒有的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1527
+      ],
+      "before": "《羅馬書》第十三章1節說: 「從天主來的，都是有等次或秩序的。」等次或秩序似乎主要在於不同等\"因為奧斯定在《天主之城》卷十九第十三章說: 「秩序是相等及不相等之東西各得其所的措置。」所以多在秩序井然的原始狀態下，有不同等存在。",
+      "after": "《羅馬書》第十三章1節說：「從天主來的，都是有等次或秩序的。」等次或秩序似乎主要在於不同等，；因為奧斯定在《天主之城》卷十九第十三章說：「秩序是相等及不相等之東西各得其所的措置。」所以，在秩序井然的原始狀態下，有不同等存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不同等\"因為",
+          "after": "不同等，；因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以多在",
+          "after": "所以，在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1527,
+        1528
+      ],
+      "before": "我解答如下:該說在原始狀態一定有一些不同等或不一樣，至少在兩性之間;因為若沒有男女之別，便不能生育。在年紀方面也是一樣;因為既然男女購合就有所生，所以有的人是從別人生出來的。\n但是在靈魂方面，也有所不同或不一樣，無論是按正義或按知識來看。人那時沒有工作的必要，全在人自己的抉擇;所以人能或多或少專心做某事，或追求某東西，或追求學識。所以，有的人比別太在正義和知識上的造詣高。\n在身體方面，也能有不同等或不一樣。那時人的身體並非完全不受自然律的限制，所以人能從外物獲得或多或少的利益和幫助;因為那時人為維持生命，也需要食物。如此則可以說，由於氣候不同，星辰的位置之不同，有的人生來比別人強壯，個子大，身材美，體質佳。不過無論在靈魂或身體上條件較差的人，並沒有缺殘或罪過。",
+      "after": "我解答如下：該說在原始狀態一定有一些不同等或不一樣，至少在兩性之間；因為若沒有男女之別，便不能生育。在年紀方面也是一樣；因為既然男女媾合就有所生，所以有的人是從別人生出來的。\n但是在靈魂方面，也有所不同或不一樣，無論是按正義或按知識來看。人那時沒有工作的必要，全在人自己的抉擇；所以人能或多或少專心做某事，或追求某東西，或追求學識。所以，有的人比別人在正義和知識上的造詣高。\n在身體方面，也能有不同等或不一樣。那時人的身體並非完全不受自然律的限制，所以人能從外物獲得或多或少的利益和幫助；因為那時人為維持生命，也需要食物。如此則可以說，由於氣候不同，星辰的位置之不同，有的人生來比別人強壯，個子大，身材美，體質佳。不過無論在靈魂或身體上條件較差的人，並沒有缺殘或罪過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "購合",
+          "after": "媾合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "別太",
+          "after": "別人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "教宗額我略一世想用那些話排除來自正義和罪惡差別上的不平等，這種不平等使某些人因處罰而受他人之管制。",
+      "after": "教宗額我略一世想用那些話排除來自正義和罪惡差別上的不平等，這種不平等使某些人因處罰而受他人之管制。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "平等是彼此平等相愛之原因。但是，在不同等者之間的愛，能比同等者之間的愛更大，雖然雙方之反應不相等。父親愛兒子，自然就甚於弟兄之愛弟兄;雖然兒子對父親的愛，不及他由父親所得到的愛。",
+      "after": "平等是彼此平等相愛之原因。但是，在不同等者之間的愛，能比同等者之間的愛更大，雖然雙方之反應不相等。父親愛兒子，自然就甚於弟兄之愛弟兄；雖然兒子對父親的愛，不及他由父親所得到的愛。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "不同等或不一樣之原因，在天主方面，也能不是由於他處罰某些人，賞報另一些人;而是為了多提拔某些人，少提拔另一些人，為在人類中有更完美的秩序。在天性方面，也能產生同樣方式的不同等或不一樣，而不必有天性上的缺殘。",
+      "after": "不同等或不一樣之原因，在天主方面，也能不是由於他處罰某些人，賞報另一些人；而是為了多提拔某些人，少提拔另一些人，為在人類中有更完美的秩序。在天性方面，也能產生同樣方式的不同等或不一樣，而不必有天性上的缺殘。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "在純真狀態是否有人統治他人",
+      "after": "在純真狀態是否有人統治他人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q096.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "在純真狀態，似平沒有人統治他人。因為:",
+      "after": "在純真狀態，似乎沒有人統治他人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似平",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1528
+      ],
+      "before": "奧斯定在《天主之城》卷十九第十五章說: 「天主願意照自己肖像所造而有理性的人，只統治沒有理性者，不是人統治人，而是人統治動物。」",
+      "after": "奧斯定在《天主之城》卷十九第十五章說：「天主願意照自己肖像所造而有理性的人，只統治沒有理性者，不是人統治人，而是人統治動物。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1528,
+        1529
+      ],
+      "before": "此外，為處罰罪惡而設置的，在純真狀態中並不存在。但是人隸屬於1也人‘乃是為處罰罪惡的;因為按《創世紀》第三章16節所記的，在人犯罪後才向女人說:「你要受丈夫的管轄。」所以，在純真狀態﹒人不隸屬於他人。",
+      "after": "此外，為處罰罪惡而設置的，在純真狀態中並不存在。但是人隸屬於他人，乃是為處罰罪惡的；因為按《創世紀》第三章16節所記的，在人犯罪後才向女人說：「你要受丈夫的管轄。」所以，在純真狀態，人不隸屬於他人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1也人‘",
+          "after": "他人，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "狀態﹒",
+          "after": "狀態，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1529
+      ],
+      "before": "此外，受管轄或統治與自由相反。但是自由是諸主善之一，在純真狀態未曾缺少過，因為按奧斯定在《天主之城》卷十四第十章所說的:「凡善良意志所願望的，什麼也不缺乏。」所以，在純真狀態，沒有人統治他人。",
+      "after": "此外，受管轄或統治與自由相反。但是自由是諸主善之一，在純真狀態未曾缺少過，因為按奧斯定在《天主之城》卷十四第十章所說的：「凡善良意志所願望的，什麼也不缺乏。」所以，在純真狀態，沒有人統治他人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1529
+      ],
+      "before": "在純真狀態，人類的情況並不優於天使們的情況。但在天使之間，有的天使統治別的天(吏，因而有一品級的天便被稱為掌權者。所以人統治他人並不相反純真狀態的尊嚴。",
+      "after": "在純真狀態，人類的情況並不優於天使們的情況。但在天使之間，有的天使統治別的天使，因而有一品級的天使被稱為掌權者。所以人統治他人並不相反純真狀態的尊嚴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1529,
+        1530
+      ],
+      "before": "我解答如下:統治權有兩種。一種統治權與奴役對立;這時所謂統治者，是說在他權下有奴隸。另一種統治權，是照一般的說法，與任何從屬相關的。如此則那負責管理和領導自由人的，也可以稱為統治者。在純真狀態，人對他人沒有第一種統治權;但是在純真狀態，人能以第二種統治權統治別人。\n其中的原因，在於奴隸與自由人的差別;按《形上學》卷一第二章所說的，「自由者是自己之原因」'而奴隸是以他人為指歸。所謂一人將另一人當奴隸統治，是統治者用被統治者求自己的利益，即求統治者之利益。既然每人都要追求自己的利益，所以將那該屬於自己的利益讓給別人，是可悲的事;所以這種統治為屬下不能不是一種處罰。因此在純真狀態，人對他人沒有這種統治權力。I\n那時人是以他人當自由人統治，是為了被統治者之利益或為7公益。在純真狀態有這種統治，是為了兩個理由。第一，因為人天生就是社會性動物，所以人在純真狀態也會度社會生活。若沒有人領導，為公共利益設想，則不可能許多人在一起生活;人多自然注意力分散，一人就有一個志向，因此哲學家在《政治學》卷一第二章說，無論何時有許多東西指向同一目的，常有一個東西是為首的和領導者。第二，倘若某人比別人的正義和學識都高，似乎該用來謀求他人的利益，就如《伯多祿前書》第四章10節所說的:「各人應依照自己所領受的神恩，彼此服事。」故此，奧斯定在《天主之城》卷十九第十四及第十五章說:「正義的人不是為了滿足權力慾而統治，而是由於熱心公務;這是自然秩序所要求的，天主是這樣造了人。」",
+      "after": "我解答如下：統治權有兩種。一種統治權與奴役對立；這時所謂統治者，是說在他權下有奴隸。另一種統治權，是照一般的說法，與任何從屬相關的。如此則那負責管理和領導自由人的，也可以稱為統治者。在純真狀態，人對他人沒有第一種統治權；但是在純真狀態，人能以第二種統治權統治別人。\n其中的原因，在於奴隸與自由人的差別；按《形上學》卷一第二章所說的，「自由者是自己之原因」，而奴隸是以他人為指歸。所謂一人將另一人當奴隸統治，是統治者用被統治者求自己的利益，即求統治者之利益。既然每人都要追求自己的利益，所以將那該屬於自己的利益讓給別人，是可悲的事；所以這種統治為屬下不能不是一種處罰。因此在純真狀態，人對他人沒有這種統治權力。\n那時人是以他人當自由人統治，是為了被統治者之利益或為了公益。在純真狀態有這種統治，是為了兩個理由。第一，因為人天生就是社會性動物，所以人在純真狀態也會度社會生活。若沒有人領導，為公共利益設想，則不可能許多人在一起生活；人多自然注意力分散，一人就有一個志向，因此哲學家在《政治學》卷一第二章說，無論何時有許多東西指向同一目的，常有一個東西是為首的和領導者。第二，倘若某人比別人的正義和學識都高，似乎該用來謀求他人的利益，就如《伯多祿前書》第四章10節所說的：「各人應依照自己所領受的神恩，彼此服事。」故此，奧斯定在《天主之城》卷十九第十四及第十五章說：「正義的人不是為了滿足權力慾而統治，而是由於熱心公務；這是自然秩序所要求的，天主是這樣造了人。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因」'",
+          "after": "原因」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "統治權力。I",
+          "after": "統治權力。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為7公益",
+          "after": "為了公益",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q096.a004.general",
+      "article": 4,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1530
+      ],
+      "before": "由此可知各質疑之答案，它們是從第一種統治權出發。",
+      "after": "由此可知各質疑之答案，它們是從第一種統治權出發。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
