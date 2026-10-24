@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "batch": "I-q097",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q097",
+    "title": "論第一個人在（純真）狀態中的個體保存",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1531,
+      1532,
+      1533,
+      1534,
+      1535,
+      1536,
+      1537,
+      1538
+    ],
+    "printed_pages": [
+      304,
+      311
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 51,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q97.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q97.json": "83a563c4ac3af5091ac4cf93824a92b1dcb44553c92e9e6a0898230601dddf93"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q097.a003.ad1",
+      "pdf_file_page": 1536,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q097.a003.ad4",
+      "pdf_file_page": 1536,
+      "text": "己預作安排",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q097.a004.respondeo",
+      "pdf_file_page": 1537,
+      "text": "養分己不足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q097.a004.general",
+      "pdf_file_page": 1538,
+      "text": "己足看出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q097.prologue",
+      "description": "删除引言前重复题名和分节说明；原有换行保留为空行。第四节保留已有空答复字段及总答复字段，不新增或重编结构。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q097.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "論第一個人在(純真)狀態中的個體保存一分為四節\n然後要討論的是第一個人在(純真)狀態中，有關身體方面的事情(參看第九十四題引言)。首先，關於個體之保存:第二，論人類之保存(第九十八題)。\n關於第一點，可以提出四個問題:\n一、在純真狀態人是否不元。\n二、人是否沒有感受。\n三、是否需要食物。\n四、藉生命樹是否能獲永生。",
+      "after": "\n然後要討論的是第一個人在(純真)狀態中，有關身體方面的事情(參看第九十四題引言)。首先，關於個體之保存；第二，論人類之保存(第九十八題)。\n關於第一點，可以提出四個問題：\n一、在純真狀態人是否不死。\n二、人是否沒有感受。\n三、是否需要食物。\n四、藉生命樹是否能獲永生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論第一個人在(純真)狀態中的個體保存一分為四節\n",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "保存:",
+          "after": "保存；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不元",
+          "after": "不死",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "在純真狀態人是否不死",
+      "after": "在純真狀態人是否不死",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "在純真狀態人似乎不是不會死亡的。因為:",
+      "after": "在純真狀態人似乎不是不會死亡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "「有死者」乃是人之定義的一部分。若除去定義，便沒有被定義者。如果那時有人存在，便不能是不會死亡的。",
+      "after": "「有死者」乃是人之定義的一部分。若除去定義，便沒有被定義者。如果那時有人存在，便不能是不會死亡的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1531
+      ],
+      "before": "此外，按《形上學》卷十第十章所說的，「有朽與無朽，是共類上的差別」。但在共類上不同的東西，一個不能變成另一個，倘若第一個人是不朽的，人在現在的狀況下就不能是有朽的了。",
+      "after": "此外，按《形上學》卷十第十章所說的，「有朽與無朽，是共類上的差別」。但在共類上不同的東西，一個不能變成另一個，倘若第一個人是不朽的，人在現在的狀況下就不能是有朽的了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1531,
+        1532
+      ],
+      "before": "此外，假使人在純真狀態是不會死的，這或是因了天性，或是因了恩寵。但那不是因了天性，因為(若是因了天性)由於天性在類別方面持續不變，現在人仍該是不會死的了;也不是因了恩寵，因為按《智慧篇》第十章2節所說的，第一個人因悔過又恢復了恩寵，「救他脫離丁本身的罪過」'所以也該重新獲得不死;但事實不然。所以在純真狀態人不是不會死亡的。",
+      "after": "此外，假使人在純真狀態是不會死的，這或是因了天性，或是因了恩寵。但那不是因了天性，因為(若是因了天性)由於天性在類別方面持續不變，現在人仍該是不會死的了；也不是因了恩寵，因為按《智慧篇》第十章2節所說的，第一個人因悔過又恢復了恩寵，「救他脫離了本身的罪過」，所以也該重新獲得不死；但事實不然。所以在純真狀態人不是不會死亡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "脫離丁",
+          "after": "脫離了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "罪過」'",
+          "after": "罪過」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1532
+      ],
+      "before": "此外，不死乃是許給人的賞報，就如《默示錄》第二十一章4節所說的: 「以後再也沒有死亡」。但是人不是被造在受賞的狀態下的，而是為使他立功掙得賞報。所以在純真狀態，人不是不會死的。",
+      "after": "此外，不死乃是許給人的賞報，就如《默示錄》第二十一章4節所說的：「以後再也沒有死亡」。但是人不是被造在受賞的狀態下的，而是為使他立功掙得賞報。所以在純真狀態，人不是不會死的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1532
+      ],
+      "before": "《羅馬書》第五章12節說: 「死亡藉著罪惡進入了世界。」所以在犯罪以前人是不會死的。",
+      "after": "《羅馬書》第五章12節說：「死亡藉著罪惡進入了世界。」所以在犯罪以前人是不會死的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1532
+      ],
+      "before": "我解答如下:東西之不朽有三種方式。一種是在質料方面，即或像天使那樣，沒有質料;或像天體一樣，有質料，但其質料之潛能狀態只是針對一個形式。這是按天性就不朽。第二，東西不朽是因了形式的關係，即是按天性有朽的東西，由於某種配合因而整個得兔腐朽。這稱為榮福的不朽。因為按奧斯定在《書信集》第一一八篇第三章「致狄奧斯高書」(Epistola ad Dioscorum)中說的: 「天主所造之靈魂，性能極大，其榮褔能影響身體，使之絕對健康，即具有不朽之精力。」第三，東西之不朽是由於形成原因之關係。在純真狀態，人便是以這種方式而不朽不死。因為按奧斯定在《論舊約及新約問題》第十九題所說的: 「天主造人，是為使他自主生死，只要不犯罪﹒便不會死亡。」\n他的身體不朽，不是因為在身體內有一種不朽之精力，而是因為在靈魂上有天主給的一種超性力量，只要靈魂服從天主，便能使身體兔於腐朽。這是很合理的。因為按前面第七十六題第一節所說的，靈魂是不成比例地超越形體質料;所以，在起初就該給它一種能力，使它能藉此能力，以超出形體質料之天性的方式，來保全身體。",
+      "after": "我解答如下：東西之不朽有三種方式。一種是在質料方面，即或像天使那樣，沒有質料；或像天體一樣，有質料，但其質料之潛能狀態只是針對一個形式。這是按天性就不朽。第二，東西不朽是因了形式的關係，即是按天性有朽的東西，由於某種配合因而整個得免腐朽。這稱為榮福的不朽。因為按奧斯定在《書信集》第一一八篇第三章「致狄奧斯高書」(Epistola ad Dioscorum)中說的：「天主所造之靈魂，性能極大，其榮福能影響身體，使之絕對健康，即具有不朽之精力。」第三，東西之不朽是由於形成原因之關係。在純真狀態，人便是以這種方式而不朽不死。因為按奧斯定在《論舊約及新約問題》第十九題所說的：「天主造人，是為使他自主生死，只要不犯罪，便不會死亡。」\n他的身體不朽，不是因為在身體內有一種不朽之精力，而是因為在靈魂上有天主給的一種超性力量，只要靈魂服從天主，便能使身體免於腐朽。這是很合理的。因為按前面第七十六題第一節所說的，靈魂是不成比例地超越形體質料；所以，在起初就該給它一種能力，使它能藉此能力，以超出形體質料之天性的方式，來保全身體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "得兔",
+          "after": "得免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "犯罪﹒",
+          "after": "犯罪，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "身體兔於",
+          "after": "身體免於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "及2.所舉之理由，是根據天性上的不朽和不死。",
+      "after": "及2.所舉之理由，是根據天性上的不朽和不死。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "保全身體不朽的那個能力，不是靈魂自然就有的，而是藉恩寵獲得的。第一個人雖然重新獲得了赦罪和立功以得榮褔之恩寵，但不帶有重獲不死之作用。這要等待基督，以使殘缺的天性，恢復到更美好的境界;這個問題留待後來第三集第十四題第四節釋疑1再講。",
+      "after": "保全身體不朽的那個能力，不是靈魂自然就有的，而是藉恩寵獲得的。第一個人雖然重新獲得了赦罪和立功以得榮福之恩寵，但不帶有重獲不死之作用。這要等待基督，以使殘缺的天性，恢復到更美好的境界；這個問題留待後來第三集第十四題第四節釋疑1再講。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "許給人作為賞報的榮褔境界的不死‘與在純真狀態賦予人的不死，二者是不同的。",
+      "after": "許給人作為賞報的榮福境界的不死，與在純真狀態賦予人的不死，二者是不同的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不死‘",
+          "after": "不死，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "人在純真狀態是否會有感受",
+      "after": "人在純真狀態是否會有感受",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "人在純真狀態，似乎會有感受或是有感受的(passi-bilis)。因為:",
+      "after": "人在純真狀態，似乎會有感受或是有感受的(passi-bilis)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "亞里斯多德，《靈魂論》卷二第十一章說: 「感覺是一種感受」。但在純真狀態人是有感覺的。所以也是有感受的。",
+      "after": "亞里斯多德，《靈魂論》卷二第十一章說：「感覺是一種感受」。但在純真狀態人是有感覺的。所以也是有感受的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "此外，睡眠是一種被動。但是在純真狀態，人也睡眠;因為《創世紀》第二章21節說: 「上主天主使亞當熟給」。所以，也是被動的或有感受的。",
+      "after": "此外，睡眠是一種被動。但是在純真狀態，人也睡眠；因為《創世紀》第二章21節說：「上主天主使亞當熟睡」。所以，也是被動的或有感受的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "熟給",
+          "after": "熟睡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "此外，那裡接著說: 「取出了他的一根肋骨」。所以令人曾因被割除身體的一部分而有感受。",
+      "after": "此外，那裡接著說：「取出了他的一根肋骨」。所以，人曾因被割除身體的一部分而有感受。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以令人",
+          "after": "所以，人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "此外，人的身體是軟的。但軟東西自然能感受到來自硬東西的碰撞。所以第一個人的身體若碰撞到什麼硬東西，就會因而有所感受。所以第一個人是有感受的。",
+      "after": "此外，人的身體是軟的。但軟東西自然能感受到來自硬東西的碰撞。所以第一個人的身體若碰撞到什麼硬東西，就會因而有所感受。所以第一個人是有感受的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1533
+      ],
+      "before": "假若他是有感受的，便也是有朽的，因為亞里斯多j息，《辯證論》卷六第六章說: 「感受強至iJ極點時，破壞本體」。",
+      "after": "假若他是有感受的，便也是有朽的，因為亞里斯多德，《辯證論》卷六第六章說：「感受強到極點時，破壞本體」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "亞里斯多j息",
+          "after": "亞里斯多德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "強至iJ",
+          "after": "強到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1533,
+        1534
+      ],
+      "before": "我解答如下:感受~passio)有兩種意義。一種是狹義的感受;如此說一個東西感受，是指它的自然狀態受到剝離。感受或被動乃是作用或主動之效果。在自然界的東西中，相反者互相作用，互相被動，一個使另一個脫離自己的自然狀態。另一種是廣義的，或一般所說的感受，指任何改變，連成全天性的也算在內，例如:領悟或感覺也稱為「一種感受」(亞里斯多德，《靈魂論》卷三第四章)。\n按第二種意義說，人在純真狀態是能有感受的，而且按靈魂及按身體都曾實際有感受。按第一種意義的感受來說，那時人是沒有感受的，無論是在靈魂方面或在身體方面，正如他也是不死的;因為若持續維持無罪，他能防止感受及死亡。",
+      "after": "我解答如下：感受(passio)有兩種意義。一種是狹義的感受；如此說一個東西感受，是指它的自然狀態受到剝離。感受或被動乃是作用或主動之效果。在自然界的東西中，相反者互相作用，互相被動，一個使另一個脫離自己的自然狀態。另一種是廣義的，或一般所說的感受，指任何改變，連成全天性的也算在內，例如：領悟或感覺也稱為「一種感受」(亞里斯多德，《靈魂論》卷三第四章)。\n按第二種意義說，人在純真狀態是能有感受的，而且按靈魂及按身體都曾實際有感受。按第一種意義的感受來說，那時人是沒有感受的，無論是在靈魂方面或在身體方面，正如他也是不死的；因為若持續維持無罪，他能防止感受及死亡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感受~passio)",
+          "after": "感受(passio)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "及2.由上面所說的可知前二質疑之答案。因為感覺和睡眠不剝奪人的自然狀態，而是為人有益的。",
+      "after": "及2.由上面所說的可知前二質疑之答案。因為感覺和睡眠不剝奪人的自然狀態，而是為人有益的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "正如前面第九十二題第三節釋疑2.曾說的，因了亞當是人類的根源，他纔有那根肋骨;就如人之有精子，是因為他是生殖之根本。正如排精並不帶有使人脫離其自然狀態的感受，取出那根肋骨也是一樣。",
+      "after": "正如前面第九十二題第三節釋疑2.曾說的，因了亞當是人類的根源，他才有那根肋骨；就如人之有精子，是因為他是生殖之根本。正如排精並不帶有使人脫離其自然狀態的感受，取出那根肋骨也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "在純真狀態，人的身體能避免受硬東西之傷害，一是由於自身之理性，因為他能藉以逃避有害的東西;一是由於天主的措施，保護他，使他不被意外的東西所傷害。",
+      "after": "在純真狀態，人的身體能避免受硬東西之傷害，一是由於自身之理性，因為他能藉以逃避有害的東西；一是由於天主的措施，保護他，使他不被意外的東西所傷害。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "在純真狀態人是否需要食物",
+      "after": "在純真狀態人是否需要食物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "在純真狀態，人似乎不需要食物。因為:",
+      "after": "在純真狀態，人似乎不需要食物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1534
+      ],
+      "before": "人需要食物乃是為補救損失。但是在亞當的身體上似平沒有任何損失，因為他是不朽的。所以為他食物不是必要的。",
+      "after": "人需要食物乃是為補救損失。但是在亞當的身體上似乎沒有任何損失，因為他是不朽的。所以為他食物不是必要的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似平",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1534,
+        1535
+      ],
+      "before": "此外，需要食物是為了營養。但是，吸收營養不能不帶感受。那時人的身體既是沒有感受的，似乎不需要食物。",
+      "after": "此外，需要食物是為了營養。但是，吸收營養不能不帶感受。那時人的身體既是沒有感受的，似乎不需要食物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1535
+      ],
+      "before": "此外，我們需要食物是為保存生命。但是亞當能以別的方式保存生命;因為若不犯罪，就不會死。所以他不需要食物。",
+      "after": "此外，我們需要食物是為保存生命。但是亞當能以別的方式保存生命；因為若不犯罪，就不會死。所以他不需要食物。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1535
+      ],
+      "before": "此外，喫東西就要排泄廢物，這種不雅的活動不適合原始狀態的尊嚴。所以，人在原始狀態似乎不用食物。",
+      "after": "此外，喫東西就要排泄廢物，這種不雅的活動不適合原始狀態的尊嚴。所以，人在原始狀態似乎不用食物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1535
+      ],
+      "before": "《創世紀》第二章16節說:「樂園中各種樹上的呆子，你們都可喫。」",
+      "after": "《創世紀》第二章16節說：「樂園中各種樹上的果子，你們都可喫。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "呆子",
+          "after": "果子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1535,
+        1536
+      ],
+      "before": "我解答如下:在純真狀態，人有需要食物的屬生靈的或動物性的生活;在復活以後，人將有不需要食物的屬神的或精神化的生活。為看清這一點，要知道理性之魂或靈魂，同時是生靈或魂(ani恥a)，又是神靈或精神體(spiritus)。說它是生靈或魂，是根據它與其他生靈或魂相同的地方，即是給身體生命。為此《創世紀》第二章7節說:「人就成了一個有靈(有生命)的生物(anima vivens汀，即是賦予身體生命者。而說它是神靈或精神體，是根據它所專有而為其他魂所無的部分，即是它有非物質性的領悟能力。\n在原始狀態，理性之魂或靈魂，傳給身體那屬於生靈或魂者﹒故那種身體被稱為屬生靈的身體(《格林多前書》第十五章44節)，因為它是從魂得有生命。按《靈魂論》卷二第四章及卷三第九章所說的，這些低級物的第一個生命根本，是生魂(anima vegetabilis)，其作用是吸收營養、生長和生殖。所以在原始狀態，人也有這些活動。在復活後的最後狀態，靈魂將多少傳給身體自己作為神靈或神所專有者，即將不死傳給所有的人，將沒有感受、榮福和德能傳給善人，善人的身體因而將被稱為屬神的(《格林多前書》第十五章44節)。為此，在復活以後，人將不需要食物;但是在純真狀態，人需要食物。",
+      "after": "我解答如下：在純真狀態，人有需要食物的屬生靈的或動物性的生活；在復活以後，人將有不需要食物的屬神的或精神化的生活。為看清這一點，要知道理性之魂或靈魂，同時是生靈或魂(anima)，又是神靈或精神體(spiritus)。說它是生靈或魂，是根據它與其他生靈或魂相同的地方，即是給身體生命。為此《創世紀》第二章7節說：「人就成了一個有靈(有生命)的生物(anima vivens)」，即是賦予身體生命者。而說它是神靈或精神體，是根據它所專有而為其他魂所無的部分，即是它有非物質性的領悟能力。\n在原始狀態，理性之魂或靈魂，傳給身體那屬於生靈或魂者；故那種身體被稱為屬生靈的身體(《格林多前書》第十五章44節)，因為它是從魂得有生命。按《靈魂論》卷二第四章及卷三第九章所說的，這些低級物的第一個生命根本，是生魂(anima vegetabilis)，其作用是吸收營養、生長和生殖。所以在原始狀態，人也有這些活動。在復活後的最後狀態，靈魂將多少傳給身體自己作為神靈或神所專有者，即將不死傳給所有的人，將沒有感受、榮福和德能傳給善人，善人的身體因而將被稱為屬神的(《格林多前書》第十五章44節)。為此，在復活以後，人將不需要食物；但是在純真狀態，人需要食物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "ani恥a",
+          "after": "anima",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "anima vivens汀",
+          "after": "anima vivens)」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "魂者﹒",
+          "after": "魂者；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "正如奧斯定在《舊約及新約問題》第十九題裡說的:「那時的身體既要用食物保養，怎能說人有不死的身體呢?不死者不需要食物，也不需要飲料。」前面第一節已經說過，原始狀態的不死是因了靈魂內的一種超性力量，而不是因了身體自己的性質使然。因此在熱力的作用上，那身體上的濕氣能有損失;以免消耗殆盡，人需要用食物補養。",
+      "after": "正如奧斯定在《舊約及新約問題》第十九題裡說的：「那時的身體既要用食物保養，怎能說人有不死的身體呢?不死者不需要食物，也不需要飲料。」前面第一節己經說過，原始狀態的不死是因了靈魂內的一種超性力量，而不是因了身體自己的性質使然。因此在熱力的作用上，那身體上的濕氣能有損失；以免消耗殆盡，人需要用食物補養。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "在營養作用中有一種被動和變化，即是從營養品方面，它變成接受營養者的本體。據此不能說人的身體有所被動或感受，而是被食用的食物有所被動或感受。何況縱然有感受，也是對天性有益的。",
+      "after": "在營養作用中有一種被動和變化，即是從營養品方面，它變成接受營養者的本體。據此不能說人的身體有所被動或感受，而是被食用的食物有所被動或感受。何況縱然有感受，也是對天性有益的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "若人不用食物保養自己，也屬於犯罪;正如他因取用被禁止的食物而犯了罪。因為同時給7他命令，知善惡樹上的果子不可喫，而要食用地堂裡其他樹上的果子(《創世紀》第二章的及17節)。",
+      "after": "若人不用食物保養自己，也屬於犯罪；正如他因取用被禁止的食物而犯了罪。因為同時給了他命令，知善惡樹上的果子不可喫，而要食用地堂裡其他樹上的果子(《創世紀》第二章16及17節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "給7",
+          "after": "給了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章的及17節",
+          "after": "章16及17節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "有人說，在純真狀態，人只取用必要的食物，所以不需要排泄廢物。但這種意見不合理，在喫用的東西中，似乎不能沒有不能變為養分的多餘廢物。所以多餘的要排泄出來，不過天主已預作安排，使這事沒有不雅觀的現象。",
+      "after": "有人說，在純真狀態，人只取用必要的食物，所以不需要排泄廢物。但這種意見不合理，在喫用的東西中，似乎不能沒有不能變為養分的多餘廢物。所以多餘的要排泄出來，不過天主己預作安排，使這事沒有不雅觀的現象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已預作",
+          "after": "己預作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "在純真狀態人是否會因了生命樹而獲得不死",
+      "after": "在純真狀態人是否會因了生命樹而獲得不死",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "生命樹似乎不能是人不死之原因。因為:",
+      "after": "生命樹似乎不能是人不死之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1536
+      ],
+      "before": "東西之作用沒有能超過其類別的，因為效果不能超過原因。然而生命樹是有朽的，否則便不能當食物喫用;因為按前面第三節釋疑2.說的，營養品要變成接受營養者之本體。所以，生命樹不能給人不朽或不死3",
+      "after": "東西之作用沒有能超過其類別的，因為效果不能超過原因。然而生命樹是有朽的，否則便不能當食物喫用；因為按前面第三節釋疑2.說的，營養品要變成接受營養者之本體。所以，生命樹不能給人不朽或不死。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不死3",
+          "after": "不死。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1537
+      ],
+      "before": "此外，由植物或其他自然界的東西所產生的故果也是自然的。倘若生命樹能產生不死，買IJ那不死也就是自然現象了。",
+      "after": "此外，由植物或其他自然界的東西所產生的效果也是自然的。倘若生命樹能產生不死，則那不死也就是自然現象了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1537
+      ],
+      "before": "此外，這好像又回到古人的神話，他們說神喫了某種食物，便長生不死;哲學家在《形上學》卷三第四章曾譏評他們。",
+      "after": "此外，這好像又回到古人的神話，他們說神喫了某種食物，便長生不死；哲學家在《形上學》卷三第四章曾譏評他們。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1537
+      ],
+      "before": "《創世紀》第三章22節說: 「不要讓他伸手再摘取生命樹上的呆子，喫了活到永遠。」\n此外，奧斯定在《舊約及新約問題》第十九題說: 「喫用生命樹能防止身體腐朽;就連在犯罪以後，若他獲準喫生命樹的果子，也能保持不朽。」",
+      "after": "《創世紀》第三章22節說：「不要讓他伸手再摘取生命樹上的果子，喫了活到永遠。」\n此外，奧斯定在《舊約及新約問題》第十九題說：「喫用生命樹能防止身體腐朽；就連在犯罪以後，若他獲準喫生命樹的果子，也能保持不朽。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "呆子",
+          "after": "果子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1537,
+        1538
+      ],
+      "before": "我解答如下:生命樹多少能產生不死，但不是絕對地。要想看清這個問題，要知道人在原始狀態，有兩種保存生命的方法，用以補救(身體上的)兩個缺點。第一個缺點，是由於自然熱力所造成的濕氣之損失，熱力是靈魂之工具。為補救這個缺點，人那時食用地堂裡其他樹木的果子，就像我們現在是用一般的食物。\n第三個缺點，就是哲學家在《生滅論》卷一第五章所說的，由外物所生的東西，在原有之濕氣中外加的成分，減少種類之積極能力，就如:酒裡加水。最初水固然變成酒的味道，但是水愈加愈多以後，酒的力量減低，味道於是變成淡如水。同樣我們看到，一種物之自然積極能力在最初非常強，它所吸收的養分不只夠補償損失，也足以使之長大。然後它吸收的養分已不足使它長大，只夠補償損失。最後到衰老階段，連補充損失也不足了;接著便衰退，終於身體自然分解。為補救這個缺點，人是靠生命樹;因為這樹能加強(身體)這種物體的能力，以抗拒因慘加外物而造成的衰弱。為此奧斯定在《天主之城》卷十四第二十六章說: 「人有食物充飢﹒有飲料解渴，有生命樹以防衰老。」他在《論舊約及新約問題》第十九題也說: 「生命樹以藥物方式防止人腐朽。」\n但是生命樹不是絕對地產生不死，因為靈魂內保養身體的力量不是由生命樹產生的，生命樹也不能給予身體不朽之性質，使永不腐朽。理由在於任何形體物的能力都是有限的。為此生命樹的力量不能使身體永遠精力不衷，這只限於某固定時間。一種力量愈大，其效果顯然也愈持久。生命樹的力量既然是有限的，食用一次只能在某段時間內防止腐朽;這段時間過去後，或者人被轉化到精神化的或屬神的生命，或者需要再度取食於生命樹。",
+      "after": "我解答如下：生命樹多少能產生不死，但不是絕對地。要想看清這個問題，要知道人在原始狀態，有兩種保存生命的方法，用以補救(身體上的)兩個缺點。第一個缺點，是由於自然熱力所造成的濕氣之損失，熱力是靈魂之工具。為補救這個缺點，人那時食用地堂裡其他樹木的果子，就像我們現在是用一般的食物。\n第二個缺點，就是哲學家在《生滅論》卷一第五章所說的，由外物所生的東西，在原有之濕氣中外加的成分，減少種類之積極能力，就如：酒裡加水。最初水固然變成酒的味道，但是水愈加愈多以後，酒的力量減低，味道於是變成淡如水。同樣我們看到，一種物之自然積極能力在最初非常強，它所吸收的養分不只夠補償損失，也足以使之長大。然後它吸收的養分己不足使它長大，只夠補償損失。最後到衰老階段，連補充損失也不足了；接著便衰退，終於身體自然分解。為補救這個缺點，人是靠生命樹；因為這樹能加強(身體)這種物體的能力，以抗拒因摻加外物而造成的衰弱。為此奧斯定在《天主之城》卷十四第二十六章說：「人有食物充飢，有飲料解渴，有生命樹以防衰老。」他在《論舊約及新約問題》第十九題也說：「生命樹以藥物方式防止人腐朽。」\n但是生命樹不是絕對地產生不死，因為靈魂內保養身體的力量不是由生命樹產生的，生命樹也不能給予身體不朽之性質，使永不腐朽。理由在於任何形體物的能力都是有限的。為此生命樹的力量不能使身體永遠精力不衰，這只限於某固定時間。一種力量愈大，其效果顯然也愈持久。生命樹的力量既然是有限的，食用一次只能在某段時間內防止腐朽；這段時間過去後，或者人被轉化到精神化的或屬神的生命，或者需要再度取食於生命樹。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三個缺點",
+          "after": "第二個缺點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "養分已不足",
+          "after": "養分己不足",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慘加",
+          "after": "摻加",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "充飢﹒",
+          "after": "充飢，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "精力不衷",
+          "after": "精力不衰",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q097.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1538
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q097.a004.general",
+      "article": 4,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1538
+      ],
+      "before": "由上面正解所說的，已足看出各質疑之答案。前幾個理由的結論，指出生命樹不是絕對地產生不死。其他理由的結論，貝IJ說明生命樹是以上述之防止腐朽方式產生不朽。",
+      "after": "由上面正解所說的，己足看出各質疑之答案。前幾個理由的結論，指出生命樹不是絕對地產生不死。其他理由的結論，則說明生命樹是以上述之防止腐朽方式產生不朽。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已足看出",
+          "after": "己足看出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
