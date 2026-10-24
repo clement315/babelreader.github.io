@@ -136,23 +136,33 @@
   "pending_local_batches": [
     "I-q081",
     "I-q082",
-    "I-q083"
+    "I-q083",
+    "I-q084"
   ],
-  "next_question": "I.q084",
+  "next_question": "I.q085",
   "current_requested_work": {
-    "instruction": "完成第一部第81题至第83题的逐页校对，保留结果，只在本地保存",
+    "instruction": "完成第一部第84题至第90题的逐页校对，保留结果，只在本地保存",
     "required_question_ids": [
-      "I.q081",
-      "I.q082",
-      "I.q083"
+      "I.q084",
+      "I.q085",
+      "I.q086",
+      "I.q087",
+      "I.q088",
+      "I.q089",
+      "I.q090"
     ],
     "completed_question_ids": [
-      "I.q081",
-      "I.q082",
-      "I.q083"
+      "I.q084"
     ],
-    "remaining_question_ids": [],
-    "status": "complete"
+    "remaining_question_ids": [
+      "I.q085",
+      "I.q086",
+      "I.q087",
+      "I.q088",
+      "I.q089",
+      "I.q090"
+    ],
+    "status": "in_progress"
   },
   "completed_requested_work": [
     {
@@ -325,6 +335,21 @@
         "I.q078",
         "I.q079",
         "I.q080"
+      ],
+      "remaining_question_ids": [],
+      "status": "complete"
+    },
+    {
+      "instruction": "完成第一部第81题至第83题的逐页校对，保留结果，只在本地保存",
+      "required_question_ids": [
+        "I.q081",
+        "I.q082",
+        "I.q083"
+      ],
+      "completed_question_ids": [
+        "I.q081",
+        "I.q082",
+        "I.q083"
       ],
       "remaining_question_ids": [],
       "status": "complete"
