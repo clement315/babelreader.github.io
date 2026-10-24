@@ -1,0 +1,1540 @@
+{
+  "schema_version": 1,
+  "batch": "I-q114",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q114",
+    "title": "論魔鬼之謀害",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1693,
+      1694,
+      1695,
+      1696
+    ],
+    "printed_pages": [
+      461,
+      469
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 57,
+    "changed_review_units": 43,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q114.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q114.json": "d1f19642ee7a53fa38dd7ce0380b478ebe5d4bd8ccdf494b88be3a7ae11a52d8"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q114.a004.ad2",
+      "pdf_file_page": 1695,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q114.a005.respondeo",
+      "pdf_file_page": 1696,
+      "text": "《瑪竇福音註釋》——未完成篇》",
+      "status": "suspected_source_print_error",
+      "action": "原页此处书名号不配对，依底本保留并单列。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q114.prologue",
+      "description": "删除重复题名杂字并复原 impugnatio 注释；三个原换行保留。"
+    },
+    {
+      "id": "I.q114.a003.sed_contra",
+      "description": "移回误并于反之的正解及三条答复；保留既有字段与原换行数。"
+    }
+  ],
+  "notes": [
+    "全部9页、5节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q114.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "「間\n一\n呵­\n然後要討論的是魔鬼之謀害間(i江m呻m1凹ψpu呵叩伊gr咿叫n1擊;參看第一一三題引言)卜。呵\n關於這點，可以提出五個問題:\n一、人是否受魔鬼謀害。\n二、試探是否專屬於魔鬼。\n三、人的罪惡是否皆來自魔鬼之謀害或試探。\n四、魔鬼是否能行真奇蹟以達誘惑之目的。\n五、被人克勝的魔鬼是否受制不再侵犯人。",
+      "after": "\n\n\n然後要討論的是魔鬼之謀害(impugnatio，侵犯、侵襲、襲擊；參看第一一三題引言)。\n關於這點，可以提出五個問題：\n一、人是否受魔鬼謀害。\n二、試探是否專屬於魔鬼。\n三、人的罪惡是否皆來自魔鬼之謀害或試探。\n四、魔鬼是否能行真奇蹟以達誘惑之目的。\n五、被人克勝的魔鬼是否受制不再侵犯人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「間\n一\n呵­\n",
+          "after": "\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "謀害間(i江m呻m1凹ψpu呵叩伊gr咿叫n1擊",
+          "after": "謀害(impugnatio，侵犯、侵襲、襲擊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ")卜。呵",
+          "after": ")。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "人是否受魔鬼謀害",
+      "after": "人是否受魔鬼謀害",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "人似乎不受魔鬼謀害。因為:",
+      "after": "人似乎不受魔鬼謀害。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "i.天使是由天主所派遣負責保護人的。但魔鬼不是天主派遣的;因為魔鬼志在使人喪失靈魂，而天主志在拯救靈魂。所以魔鬼不是負責謀害人的。",
+      "after": "天使是由天主所派遣負責保護人的。但魔鬼不是天主派遣的；因為魔鬼志在使人喪失靈魂，而天主志在拯救靈魂。所以魔鬼不是負責謀害人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "此外，讓弱者與強者，愚者與智者爭門，兩方之條件是不平等的。但人是愚弱的，而魔鬼是智強的。天主既是正義之源，不該準許人受魔鬼之謀害。",
+      "after": "此外，讓弱者與強者，愚者與智者爭鬥，兩方之條件是不平等的。但人是愚弱的，而魔鬼是智強的。天主既是正義之源，不該準許人受魔鬼之謀害。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "爭門",
+          "after": "爭鬥",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1688
+      ],
+      "before": "此外，肉身和世俗之襲擊，已足以考驗人。天主容許被選者受襲擊乃是為考驗他們。所以，似乎不必再受魔鬼之襲擊。",
+      "after": "此外，肉身和世俗之襲擊，已足以考驗人。天主容許被選者受襲擊乃是為考驗他們。所以，似乎不必再受魔鬼之襲擊。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1688,
+        1689
+      ],
+      "before": "宗徒在《厄弗所書》第六章12節說: 「我們戰門不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸玉，對抗天界裡邪惡的鬼神。」",
+      "after": "宗徒在《厄弗所書》第六章12節說：「我們戰鬥不是對抗血和肉，而是對抗率領者，對抗掌權者，對抗這黑暗世界的霸王，對抗天界裡邪惡的鬼神。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "戰門",
+          "after": "戰鬥",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "霸玉",
+          "after": "霸王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1689
+      ],
+      "before": "我解答如下:關於魔鬼之襲擊，該分為兩層來看:一是襲擊本身，一是襲擊之措施。襲擊本身是出於魔鬼之惡意，他們因了忌妒而要阻止人進善;又因了驕傲而僧越、摹擬天主之權力，驅使一些屬下來謀害人，正如天使在某些特定的救人工作上為天主服務。但是，有關襲擊之措施或安排是來白天主，祂會利用惡以產生善。然而在天使那方面，無論其守諾或守護之措施都由溯至天主，有似其第一根源。",
+      "after": "我解答如下：關於魔鬼之襲擊，該分為兩層來看：一是襲擊本身，一是襲擊之措施。襲擊本身是出於魔鬼之惡意，他們因了忌妒而要阻止人進善；又因了驕傲而僭越、摹擬天主之權力，驅使一些屬下來謀害人，正如天使在某些特定的救人工作上為天主服務。但是，有關襲擊之措施或安排是來自天主，祂會利用惡以產生善。然而在天使那方面，無論其守護或守護之措施都回溯至天主，有似其第一根源。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "僧越",
+          "after": "僭越",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "守諾",
+          "after": "守護",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "都由溯",
+          "after": "都回溯",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1689
+      ],
+      "before": "魔鬼謀害人有兩種方式:一種是誘惑人犯罪，這不是天主所指使的;但按天主之正義的判斷，有時加以容許。有時魔鬼謀害人是為了處罰人，還是天主所指使的;例如，按《子iJ王紀上》第二十二章第20等節所說的:為處罰以色列國王阿哈布，天主派遣虛言之神。因為處罰是以天主為第一根源。但是被派遣處罰人的魔鬼，在處罰人時則別有用意;他們是以仇恨或忌妒的心情處罰人，他們被派遣則是為了天主的正義。",
+      "after": "魔鬼謀害人有兩種方式：一種是誘惑人犯罪，這不是天主所指使的；但按天主之正義的判斷，有時加以容許。有時魔鬼謀害人是為了處罰人，這是天主所指使的；例如，按《列王紀上》第二十二章第20等節所說的：為處罰以色列國王阿哈布，天主派遣虛言之神。因為處罰是以天主為第一根源。但是被派遣處罰人的魔鬼，在處罰人時則別有用意；他們是以仇恨或忌妒的心情處罰人，他們被派遣則是為了天主的正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還是天主",
+          "after": "這是天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "子iJ王",
+          "after": "列王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1689
+      ],
+      "before": "為使兩方爭鬥之條件不致不平等，在人方面遂有補強，主要是靠天主的恩寵助佑;其次是藉天使之保護。為此，在《列王紀下》第六章16節，厄裏史對他的僕人說:「不必害怕，因為偕同我們的，比他們的還多。」",
+      "after": "為使兩方爭鬥之條件不致不平等，在人方面遂有補強，主要是靠天主的恩寵助佑；其次是藉天使之保護。為此，在《列王紀下》第六章16節，厄里叟對他的僕人說：「不必害怕，因為偕同我們的，比他們的還多。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "厄裏史",
+          "after": "厄里叟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1689
+      ],
+      "before": "若看人的軟弱，肉身與世俗之襲擊已足考驗人;但是，利用此二者襲擊人的魔鬼心狠，並不感到滿足。然而在天主的措施下，這反而有利於被選者之榮耀。",
+      "after": "若看人的軟弱，肉身與世俗之襲擊已足考驗人；但是，利用此二者襲擊人的魔鬼心狠，並不感到滿足。然而在天主的措施下，這反而有利於被選者之榮耀。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "試探是否專屬於魔鬼",
+      "after": "試探是否專屬於魔鬼",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "試探(tenta呵，誘惑一一針對壞目的或壞事)似乎不是專屬於魔鬼。因為:",
+      "after": "試探(tentare，誘惑——針對壞目的或壞事)似乎不是專屬於魔鬼。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "tenta呵",
+          "after": "tentare",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "也說天主試探人，這是按《創世紀》第二十二章l節所說的，「天主試探了亞巳郎」。肉身及世俗也試探人。此外，也說人試探天主或別人。所以，試探不是專屬於魔鬼。",
+      "after": "也說天主試探人，這是按《創世紀》第二十二章1節所說的，「天主試探了亞巴郎」。肉身及世俗也試探人。此外，也說人試探天主或別人。所以，試探不是專屬於魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "亞巳郎",
+          "after": "亞巴郎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "此外，試探是無知者的事。但是，魔鬼知道人的遭遇。所以，魔鬼不試探。",
+      "after": "此外，試探是無知者的事。但是，魔鬼知道人的遭遇。所以，魔鬼不試探。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "此外，試探乃是罪惡之門路。但罪惡在於意志。而從前面第一一一題第二節所說的，可以知道魔鬼不能改變人的意志。所以，試探似乎不是魔鬼的事。",
+      "after": "此外，試探乃是罪惡之門路。但罪惡在於意志。而從前面第一一一題第二節所說的，可以知道魔鬼不能改變人的意志。所以，試探似乎不是魔鬼的事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1690
+      ],
+      "before": "《得撒洛尼前書》第三章5節說: 「怕那誘惑(試探)者誘惑(試探)了你們」; 「註解」(聖經夾句)上說: 「即是魔鬼，其本職是試探人。」",
+      "after": "《得撒洛尼前書》第三章5節說：「怕那誘惑(試探)者誘惑(試探)了你們」； 「註解」(聖經夾句)上說：「即是魔鬼，其本職是試探人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1690,
+        1691
+      ],
+      "before": "我解答如下:試探原本乃是關於某東西做試驗(experi­mentum)。關於某東西做試驗，則是為對這東西有所認識;為此，每個試探者的直接目的都是知識。但是，有時以知識為起點，還進一步尋求別的或好或壞的目的:好的目的，例如願意知道某人是怎樣的，無論是在學問方面，或在品德方面，為T提拔他;若是為了要欺騙他或害他，而願有此知識，便是壞目的。\n按這方式，便可以知道探試對不同之主體的不同意義。說人試探，有時只是為了知識;故此說試探天主乃是罪惡，因為人好似對天主有懷疑，妄想試驗天主的能力。有時試探是為了加惠，或為了加害。魔鬼之試探，常是為了加害，使人陷於罪惡。按這意義，遂說試探是魔鬼的本職;因為雖然人有時也這樣試探，但可以說他是魔鬼的臣{羹。所謂天主試探是為知曉，是採用這一說法;所謂知曉，是指使別人知曉。為此《甲命紀》第十三章4節說: 「上主你們的天主有意試探你們，願意知道你們是否全心全靈真愛上主你們的天主。」至於說世俗和肉身試探，是按工具的意義，或是以質料方式，即是說:由於人是順從或抵抗肉身之私慾，由於他輕視世俗上的得意或失意，可以看出他是怎樣的人;魔鬼也利用肉身和世俗試探人。",
+      "after": "我解答如下：試探原本乃是關於某東西做試驗(experi-mentum)。關於某東西做試驗，則是為對這東西有所認識；為此，每個試探者的直接目的都是知識。但是，有時以知識為起點，還進一步尋求別的或好或壞的目的：好的目的，例如願意知道某人是怎樣的，無論是在學問方面，或在品德方面，為了提拔他；若是為了要欺騙他或害他，而願有此知識，便是壞目的。\n按這方式，便可以知道探試對不同之主體的不同意義。說人試探，有時只是為了知識；故此說試探天主乃是罪惡，因為人好似對天主有懷疑，妄想試驗天主的能力。有時試探是為了加惠，或為了加害。魔鬼之試探，常是為了加害，使人陷於罪惡。按這意義，遂說試探是魔鬼的本職；因為雖然人有時也這樣試探，但可以說他是魔鬼的臣僕。所謂天主試探是為知曉，是採用這一說法；所謂知曉，是指使別人知曉。為此《申命紀》第十三章4節說：「上主你們的天主有意試探你們，願意知道你們是否全心全靈真愛上主你們的天主。」至於說世俗和肉身試探，是按工具的意義，或是以質料方式，即是說：由於人是順從或抵抗肉身之私慾，由於他輕視世俗上的得意或失意，可以看出他是怎樣的人；魔鬼也利用肉身和世俗試探人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "experi­mentum",
+          "after": "experi-mentum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為T",
+          "after": "為了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "臣{羹",
+          "after": "臣僕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "甲命紀",
+          "after": "申命紀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "i.從上面所說的可知質疑1.之答案。",
+      "after": "從上面所說的可知質疑1.之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "魔鬼知道人表面發生的事情;只有天主知道人內心的狀況，祂是「客察心靈的」你接言》第十六章2節)。基於這內心的狀況，有人傾向某種毛病，而不傾向另一種毛病。為此，魔鬼試探，是想窺知人內心的狀況，為誘人陷入他所傾向的毛病。",
+      "after": "魔鬼知道人表面發生的事情；只有天主知道人內心的狀況，祂是「審察心靈的」(《箴言》第十六章2節)。基於這內心的狀況，有人傾向某種毛病，而不傾向另一種毛病。為此，魔鬼試探，是想窺知人內心的狀況，為誘人陷入他所傾向的毛病。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "客察",
+          "after": "審察",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "你接言》",
+          "after": "(《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "魔鬼雖然不能改變人的意志，但按前面第一一一題第三及第四節所說的，他多少能影響人的下級機能;雖不能用以強迫意志，但能對意志的傾向產生影響。",
+      "after": "魔鬼雖然不能改變人的意志，但按前面第一一一題第三及第四節所說的，他多少能影響人的下級機能；雖不能用以強迫意志，但能對意志的傾向產生影響。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "罪惡是否皆來自魔鬼的試探",
+      "after": "罪惡是否皆來自魔鬼的試探",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "罪惡似乎皆是來自魔鬼的試探。因為:",
+      "after": "罪惡似乎皆是來自魔鬼的試探。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "i.狄奧尼修在《神名論》第四章說: 「眾魔鬼是他們自己及其他物之惡的原因。」大馬士革的若望《論正統信仰》卷二第四章也說: 「一切惡意及不潔都是魔鬼構想出來的。」",
+      "after": "狄奧尼修在《神名論》第四章說：「眾魔鬼是他們自己及其他物之惡的原因。」大馬士革的若望《論正統信仰》卷二第四章也說：「一切惡意及不潔都是魔鬼構想出來的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1691
+      ],
+      "before": "此外，對每個罪人都可以說主在《若望褔音》第八章44節對猶太人說的話: 「你們是出於你們的父親魔鬼。」這是因了他們是在魔鬼的誘惑下犯罪。所以，罪惡皆是出自魔鬼的誘惑。",
+      "after": "此外，對每個罪人都可以說主在《若望福音》第八章44節對猶太人說的話：「你們是出於你們的父親魔鬼。」這是因了他們是在魔鬼的誘惑下犯罪。所以，罪惡皆是出自魔鬼的誘惑。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1692
+      ],
+      "before": "此外，正如天使是負責保護人的，魔鬼則是為謀害人的。但是我們所做的一切善事，都是出於天使之誘導;因為神聖的事物是經由天使傳給我們。所以我們做的一切壞事，都是從魔鬼之誘惑來的。",
+      "after": "此外，正如天使是負責保護人的，魔鬼則是為謀害人的。但是我們所做的一切善事，都是出於天使之誘導；因為神聖的事物是經由天使傳給我們。所以我們做的一切壞事，都是從魔鬼之誘惑來的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1692
+      ],
+      "before": "《論聖教信端》第四十九章說: 「我們的壞意念不都是由魔鬼引起的，有時是從我們的自由意志來的。」'正解我解答如下:說一個事物為另一事物的原因，有兩種方式:一是直接地，一是間接地。所謂間接地﹒就如某效力因或動因，產生針對某種效果之準備，便說是間接地和偶然地為那效果之原因;例如說，鋸木的人是木頭被焚燒的原因。按這種方式，該說魔鬼是我們的一切罪惡之原因;因為是他誘惑了第一個人犯罪，因了這罪，全人類都真有一種犯罪的傾向。大馬士革的若望及狄奧尼修的話，都該以這種方式去解釋。\n說一個東西直接地是另一東西的原因，是指對那東西直接起作用。按這方式，魔鬼不是一切罪惡的原因;因為不是每個罪都是在魔鬼的誘惑下產生的，有的是出於自由意志及肉性的腐敗。因為正如奧利振《原則論》卷三第二章所說的，縱然沒有魔鬼，人也有食色等之嗜慾;在這方面有許多不當，除非用理性來控制這種嗜慾;特別若天性已經腐敗。控制並疏導這類嗜慾要靠自由意志，所以，罪惡不一定都是因了魔鬼之誘惑來的。那些由魔鬼之誘惑而來的，人之所以去犯，按依希道《論至善》(De Summo Bono)卷三第五章所說的，「乃是像原1且一樣受了欺騙」 0釋疑1.由上面所說的可知質疑1.之答案。\n2.如果有的罪不是在魔鬼的誘惑下而犯的，人卻因了這些罪而成為魔鬼的子女，因為那乃是摹仿首先犯罪的魔鬼。\n3.人能夠自己陷入罪惡;但人要進而立功，便不能沒有天主的幫助，這幫助是藉天使之服務而帶給人。所以我們行的善事，都有天使之合作;然而我們的罪惡，卻不都是來自魔鬼的誘惑。雖然沒有一種罪惡，不是有時來自魔鬼的誘惑n",
+      "after": "《論聖教信端》第四十九章說：「我們的壞意念不都是由魔鬼引起的，有時是從我們的自由意志來的。」\n\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《論聖教信端》第四十九章說: 「我們的壞意念不都是由魔鬼引起的，有時是從我們的自由意志來的。」'正解我解答如下:說一個事物為另一事物的原因，有兩種方式:一是直接地，一是間接地。所謂間接地﹒就如某效力因或動因，產生針對某種效果之準備，便說是間接地和偶然地為那效果之原因;例如說，鋸木的人是木頭被焚燒的原因。按這種方式，該說魔鬼是我們的一切罪惡之原因;因為是他誘惑了第一個人犯罪，因了這罪，全人類都真有一種犯罪的傾向。大馬士革的若望及狄奧尼修的話，都該以這種方式去解釋。\n說一個東西直接地是另一東西的原因，是指對那東西直接起作用。按這方式，魔鬼不是一切罪惡的原因;因為不是每個罪都是在魔鬼的誘惑下產生的，有的是出於自由意志及肉性的腐敗。因為正如奧利振《原則論》卷三第二章所說的，縱然沒有魔鬼，人也有食色等之嗜慾;在這方面有許多不當，除非用理性來控制這種嗜慾;特別若天性已經腐敗。控制並疏導這類嗜慾要靠自由意志，所以，罪惡不一定都是因了魔鬼之誘惑來的。那些由魔鬼之誘惑而來的，人之所以去犯，按依希道《論至善》(De Summo Bono)卷三第五章所說的，「乃是像原1且一樣受了欺騙」 0釋疑1.由上面所說的可知質疑1.之答案。\n2.如果有的罪不是在魔鬼的誘惑下而犯的，人卻因了這些罪而成為魔鬼的子女，因為那乃是摹仿首先犯罪的魔鬼。\n3.人能夠自己陷入罪惡;但人要進而立功，便不能沒有天主的幫助，這幫助是藉天使之服務而帶給人。所以我們行的善事，都有天使之合作;然而我們的罪惡，卻不都是來自魔鬼的誘惑。雖然沒有一種罪惡，不是有時來自魔鬼的誘惑n",
+          "after": "《論聖教信端》第四十九章說: 「我們的壞意念不都是由魔鬼引起的，有時是從我們的自由意志來的。」\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1692
+      ],
+      "before": "",
+      "after": "我解答如下：說一個事物為另一事物的原因，有兩種方式：一是直接地，一是間接地。所謂間接地，就如某效力因或動因，產生針對某種效果之準備，便說是間接地和偶然地為那效果之原因；例如說，鋸木的人是木頭被焚燒的原因。按這種方式，該說魔鬼是我們的一切罪惡之原因；因為是他誘惑了第一個人犯罪，因了這罪，全人類都具有一種犯罪的傾向。大馬士革的若望及狄奧尼修的話，都該以這種方式去解釋。說一個東西直接地是另一東西的原因，是指對那東西直接起作用。按這方式，魔鬼不是一切罪惡的原因；因為不是每個罪都是在魔鬼的誘惑下產生的，有的是出於自由意志及肉性的腐敗。因為正如奧利振《原則論》卷三第二章所說的，縱然沒有魔鬼，人也有食色等之嗜慾；在這方面有許多不當，除非用理性來控制這種嗜慾；特別若天性已經腐敗。控制並疏導這類嗜慾要靠自由意志，所以，罪惡不一定都是因了魔鬼之誘惑來的。那些由魔鬼之誘惑而來的，人之所以去犯，按依希道《論至善》(De Summo Bono)卷三第五章所說的，「乃是像原祖一樣受了欺騙」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "我解答如下:說一個事物為另一事物的原因，有兩種方式:一是直接地，一是間接地。所謂間接地，就如某效力因或動因，產生針對某種效果之準備，便說是間接地和偶然地為那效果之原因;例如說，鋸木的人是木頭被焚燒的原因。按這種方式，該說魔鬼是我們的一切罪惡之原因;因為是他誘惑了第一個人犯罪，因了這罪，全人類都具有一種犯罪的傾向。大馬士革的若望及狄奧尼修的話，都該以這種方式去解釋。說一個東西直接地是另一東西的原因，是指對那東西直接起作用。按這方式，魔鬼不是一切罪惡的原因;因為不是每個罪都是在魔鬼的誘惑下產生的，有的是出於自由意志及肉性的腐敗。因為正如奧利振《原則論》卷三第二章所說的，縱然沒有魔鬼，人也有食色等之嗜慾;在這方面有許多不當，除非用理性來控制這種嗜慾;特別若天性已經腐敗。控制並疏導這類嗜慾要靠自由意志，所以，罪惡不一定都是因了魔鬼之誘惑來的。那些由魔鬼之誘惑而來的，人之所以去犯，按依希道《論至善》(De Summo Bono)卷三第五章所說的，「乃是像原祖一樣受了欺騙」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1692
+      ],
+      "before": "",
+      "after": "由上面所說的可知質疑1.之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由上面所說的可知質疑1.之答案。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1692,
+        1693
+      ],
+      "before": "",
+      "after": "如果有的罪不是在魔鬼的誘惑下而犯的，人卻因了這些罪而成為魔鬼的子女，因為那乃是摹仿首先犯罪的魔鬼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "如果有的罪不是在魔鬼的誘惑下而犯的，人卻因了這些罪而成為魔鬼的子女，因為那乃是摹仿首先犯罪的魔鬼。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "",
+      "after": "人能夠自己陷入罪惡；但人要進而立功，便不能沒有天主的幫助，這幫助是藉天使之服務而帶給人。所以我們行的善事，都有天使之合作；然而我們的罪惡，卻不都是來自魔鬼的誘惑。雖然沒有一種罪惡，不是有時來自魔鬼的誘惑。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "人能夠自己陷入罪惡;但人要進而立功，便不能沒有天主的幫助，這幫助是藉天使之服務而帶給人。所以我們行的善事，都有天使之合作;然而我們的罪惡，卻不都是來自魔鬼的誘惑。雖然沒有一種罪惡，不是有時來自魔鬼的誘惑。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "魔鬼是否能以真奇蹟誘惑人",
+      "after": "魔鬼是否能以真奇蹟誘惑人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "魔鬼似乎不能以真奇蹟誘惑人。因為:",
+      "after": "魔鬼似乎不能以真奇蹟誘惑人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "魔鬼的作用將來在假基督的事業上最為顯著。但是按宗徒在《得撒洛尼後書》第二章9節說的: 「那人來到，依靠撒殊的力量，具有各種德能，行虛假騙人的奇蹟異事。」所以在別的時代，魔鬼所行的更該是虛假騙人的奇蹟。",
+      "after": "魔鬼的作用將來在假基督的事業上最為顯著。但是按宗徒在《得撒洛尼後書》第二章9節說的：「那人來到，依靠撒彈的力量，具有各種德能，行虛假騙人的奇蹟異事。」所以在別的時代，魔鬼所行的更該是虛假騙人的奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "撒殊",
+          "after": "撒彈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "此外，真的奇蹟是由形體上的改變而發生。但是魔鬼不能將形體改變成另一天性;因為奧斯定在《天主之城》卷十八第十八章說: r.我不相信邪魔用他們的{支倆或能力，能變換人的身體，成為動物的肢體。」所以，魔鬼不能行真奇蹟。",
+      "after": "此外，真的奇蹟是由形體上的改變而發生。但是魔鬼不能將形體改變成另一天性；因為奧斯定在《天主之城》卷十八第十八章說：「我不相信邪魔用他們的伎倆或能力，能變換人的身體，成為動物的肢體。」所以，魔鬼不能行真奇蹟。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "r.我",
+          "after": "「我",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{支倆",
+          "after": "伎倆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "一個證據若支持兩個對立的結論，便沒有效力。若魔鬼能行真奇蹟以傳播邪說，奇蹟便沒有鞏固信德真理之效用;這是不合理的。因為《馬爾谷福音》第十六章20節說: 「主與他們合作，並以奇蹟相隨，證實所傳的道理。」",
+      "after": "一個證據若支持兩個對立的結論，便沒有效力。若魔鬼能行真奇蹟以傳播邪說，奇蹟便沒有鞏固信德真理之效用；這是不合理的。因為《馬爾谷福音》第十六章20節說：「主與他們合作，並以奇蹟相隨，證實所傳的道理。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1693
+      ],
+      "before": "奧斯定在《雜題八十三》第七十九題說: 「用巫術所行的杏蹟，多次與天主之僕人所行的奇蹟相似。」(參看「語錄二十一」'「語錄第四」)",
+      "after": "奧斯定在《雜題八十三》第七十九題說：「用巫術所行的奇蹟，多次與天主之僕人所行的奇蹟相似。」(參看「語錄二十一」，「語錄第四」)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "杏蹟",
+          "after": "奇蹟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "二十一」'",
+          "after": "二十一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1693,
+        1694
+      ],
+      "before": "我解答如下:從前面第一-0題第四節所說的可以知道，若按奇蹟的本義或狹義來說，魔鬼或別的受造物都無力行奇蹟，只有天主能。因為按其本義或狹義來說，奇蹟是超出整個受造界之秩序的，而所有的受造之能力都包括在這秩序內。但有時廣義的奇蹟'是指超出人之能力及知識的事情。魔鬼能行廣義的奇蹟，即因了超出人的能力和知識而使人驚奇的事情。因為就連人，若做了超出另一人之能力及知識的事情，也會使那人驚奇自己的作為，好似是行了奇蹟似的。\n然而要知道，魔鬼行的在我們眼中似是奇蹟的事情，雖然達不到真奇蹟的標準，但有時事情卻是真實的，例如:法郎玉的巫師藉魔鬼之能力，所變成的是真蛇及真蝦蝶(《出谷紀》第七章12節，第八章7節);又如奧斯定在《天主之城》卷二十第十九章所說的，「由天降火，一轉瞬間，毀滅了約伯聖人的家僕及羊羣;或狂風怒吼，吹倒了房屋，壓死其子女。一定不是幻想，而是撒彈的工作。」",
+      "after": "我解答如下：從前面第一一〇題第四節所說的可以知道，若按奇蹟的本義或狹義來說，魔鬼或別的受造物都無力行奇蹟，只有天主能。因為按其本義或狹義來說，奇蹟是超出整個受造界之秩序的，而所有的受造之能力都包括在這秩序內。但有時廣義的奇蹟，是指超出人之能力及知識的事情。魔鬼能行廣義的奇蹟，即因了超出人的能力和知識而使人驚奇的事情。因為就連人，若做了超出另一人之能力及知識的事情，也會使那人驚奇自己的作為，好似是行了奇蹟似的。\n然而要知道，魔鬼行的在我們眼中似是奇蹟的事情，雖然達不到真奇蹟的標準，但有時事情卻是真實的，例如：法郎王的巫師藉魔鬼之能力，所變成的是真蛇及真蝦蟆(《出谷紀》第七章12節，第八章7節)；又如奧斯定在《天主之城》卷二十第十九章所說的，「由天降火，一轉瞬間，毀滅了約伯聖人的家僕及羊羣；或狂風怒吼，吹倒了房屋，壓死其子女。一定不是幻想，而是撒彈的工作。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奇蹟'",
+          "after": "奇蹟，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "法郎玉",
+          "after": "法郎王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蝦蝶",
+          "after": "蝦蟆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1694
+      ],
+      "before": "正如奧斯定在那裡所說的，假基督行的可以說是虛假、騙人的奇蹟，「或是因為假基督以幻想欺騙人的五官，使人感覺到魔鬼好像做了他實際未曾做的;或者若是真奇蹟，然而是為使相信的人受騙的」。",
+      "after": "正如奧斯定在那裡所說的，假基督行的可以說是虛假、騙人的奇蹟，「或是因為假基督以幻想欺騙人的五官，使人感覺到魔鬼好像做了他實際未曾做的；或者若是真奇蹟，然而是為使相信的人受騙的」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1694,
+        1695
+      ],
+      "before": "前面第一--0題第二節曾說，形體質料並不服從善天使或惡天使的指揮，故魔鬼以其本身能力不能使質料從這個形式變為那個形式。但是，就如奧斯定在《論天主聖三》卷三第八及九章所說的，他們能利用世界元素中的一些胚種或因子(semina)，以達到這類效果。為此該說，凡是藉由某些自然能力可以產生的形體物之變化，而上述因子屬於這類自然能力，魔鬼都能運用這類因子產生，例如: I吏某東西變為蛇或蝦頓，這些能是從東西之腐爛而產生的。那些不能以自然能力產生的形體物之變化，魔鬼絕無能力真正產生，例如:將人的身體變為禽獸的身體，或使已死之人體復活。若有時看來似乎有這樣的事藉由魔鬼的行動發生，也不是真的事實，只是一種幻像。\n這有兩種發生的方式。一是從內心方面，即是魔鬼能改變人的想像，也能影響人的感宮，使人感覺一個事物與其實際情形不一樣，就如前面第一一一題第三及第四節己說過的。有時某些物質物也能產生這種效果。另一種方式是從外面。既然魔鬼能以空氣形成各式各樣的形體，為了藉形顯身;按同理，他也能夠使一個形體物呈現出任何形態，看來就似是那種形態的東西。這就是奧斯定在《天主之城》卷十八第十八章所說的:「人的想像，即使在思想或做夢時，也能設想無數種種事物，就如設想自己的身體是以某動物的形像，呈顯於別人的感官o 」這並非說，人的想像力本身，或其設想出的同一個形像本身，顯現在別人的感官中;而是因為魔鬼既能在一個人的想像中構成某形像，他也能將同樣的形像呈顯在他人的感宮中。",
+      "after": "前面第一一〇題第二節曾說，形體質料並不服從善天使或惡天使的指揮，故魔鬼以其本身能力不能使質料從這個形式變為那個形式。但是，就如奧斯定在《論天主聖三》卷三第八及九章所說的，他們能利用世界元素中的一些胚種或因子(semina)，以達到這類效果。為此該說，凡是藉由某些自然能力可以產生的形體物之變化，而上述因子屬於這類自然能力，魔鬼都能運用這類因子產生，例如：使某東西變為蛇或蝦蟆，這些能是從東西之腐爛而產生的。那些不能以自然能力產生的形體物之變化，魔鬼絕無能力真正產生，例如：將人的身體變為禽獸的身體，或使已死之人體復活。若有時看來似乎有這樣的事藉由魔鬼的行動發生，也不是真的事實，只是一種幻像。\n這有兩種發生的方式。一是從內心方面，即是魔鬼能改變人的想像，也能影響人的感官，使人感覺一個事物與其實際情形不一樣，就如前面第一一一題第三及第四節己說過的。有時某些物質物也能產生這種效果。另一種方式是從外面。既然魔鬼能以空氣形成各式各樣的形體，為了藉形顯身；按同理，他也能夠使一個形體物呈現出任何形態，看來就似是那種形態的東西。這就是奧斯定在《天主之城》卷十八第十八章所說的：「人的想像，即使在思想或做夢時，也能設想無數種種事物，就如設想自己的身體是以某動物的形像，呈顯於別人的感官。」這並非說，人的想像力本身，或其設想出的同一個形像本身，顯現在別人的感官中；而是因為魔鬼既能在一個人的想像中構成某形像，他也能將同樣的形像呈顯在他人的感官中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一--0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " I吏",
+          "after": "使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蝦頓",
+          "after": "蝦蟆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官o ",
+          "after": "感官。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "正在日奧斯定在《雜題八十三》第七十九題所說的‘「在巫師行聖人所行的奇蹟時，他們用的是別的名義，並是為了別的白的。前者追求的是自己的榮耀，後者追求的是天主的榮耀。前者行這些事是憑一種私人契約;後者是因公共職務，由於天主之命令，因為一切受造物都受天主之管轄。」",
+      "after": "正如奧斯定在《雜題八十三》第七十九題所說的，「在巫師行聖人所行的奇蹟時，他們用的是別的名義，並是為了別的目的。前者追求的是自己的榮耀，後者追求的是天主的榮耀。前者行這些事是憑一種私人契約；後者是因公共職務，由於天主之命令，因為一切受造物都受天主之管轄。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正在日",
+          "after": "正如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所說的‘",
+          "after": "所說的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "被克勝的魔鬼是否因此便受制不再侵犯",
+      "after": "被克勝的魔鬼是否因此便受制不再侵犯",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "被克勝的魔鬼似乎並不因此便受制、不再侵犯。因為:",
+      "after": "被克勝的魔鬼似乎並不因此便受制、不再侵犯。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "基督最徹底地克勝了祂的試探者。但是這試探者後來又藉恁患猶太人殺害祂，來侵犯祂。所以，被克勝的魔鬼放棄侵犯，這不是真的。",
+      "after": "基督最徹底地克勝了祂的試探者。但是這試探者後來又藉慫恿猶太人殺害祂，來侵犯祂。所以，被克勝的魔鬼放棄侵犯，這不是真的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恁患",
+          "after": "慫恿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1695
+      ],
+      "before": "此外，戰敗的人受到處罰，是為刺激他更加努力戰鬥。但這不合於天主的慈悲。所以，被克勝的魔鬼不會受到壓制(之罰)。",
+      "after": "此外，戰敗的人受到處罰，是為刺激他更加努力戰鬥。但這不合於天主的慈悲。所以，被克勝的魔鬼不會受到壓制(之罰)。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q114.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1696
+      ],
+      "before": "《瑪竇福音》第四章11節說:「於是魔鬼離開了祂」'即離開了勝利的基督。",
+      "after": "《瑪竇福音》第四章11節說：「於是魔鬼離開了祂」，即離開了勝利的基督。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂」'",
+          "after": "祂」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1696
+      ],
+      "before": "我解答如下:有人說，魔鬼一旦被克勝，以後便不能再試探任何人，無論是關於同樣的罪，或是關於別的罪。有人說，這樣的魔鬼能試探別的人，不能再試探同一個人。這主張比較正確，如果意思是說只限於一段時間;為此《路加福音》第四章13節說:「魔鬼用盡了各種試探後，就離開了基督，再等時機。」這有兩個理由。一是天主的慈悲;就如金口若望在《瑪竇褔音註釋》一一未完成篇》第五講，關於第四章10節說的:「並非魔鬼想試探人多久就能試探人多久，而是要在天主容許的時問內;天主雖容許他在一段時問試探，但到時候便使他離開，為顧全人性的脆弱。」另一個理由是魔鬼的詭詐;是以盎博羅修在《路加福音註疏》，關於第四章13節說:「魔鬼不敢堅持，以免失敗次數太多。」至於說，有時魔鬼再回到他離開的人，有《瑪竇福音》第十二章44節所說的以資證明:「我要回到我出來的那間屋裡去。」",
+      "after": "我解答如下：有人說，魔鬼一旦被克勝，以後便不能再試探任何人，無論是關於同樣的罪，或是關於別的罪。有人說，這樣的魔鬼能試探別的人，不能再試探同一個人。這主張比較正確，如果意思是說只限於一段時間；為此《路加福音》第四章13節說：「魔鬼用盡了各種試探後，就離開了基督，再等時機。」這有兩個理由。一是天主的慈悲；就如金口若望在《瑪竇福音註釋》——未完成篇》第五講，關於第四章10節說的：「並非魔鬼想試探人多久就能試探人多久，而是要在天主容許的時間內；天主雖容許他在一段時間試探，但到時候便使他離開，為顧全人性的脆弱。」另一個理由是魔鬼的詭詐；是以盎博羅修在《路加福音註疏》，關於第四章13節說：「魔鬼不敢堅持，以免失敗次數太多。」至於說，有時魔鬼再回到他離開的人，有《瑪竇福音》第十二章44節所說的以資證明：「我要回到我出來的那間屋裡去。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一未完成篇",
+          "after": "——未完成篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "時問",
+          "after": "時間",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.general",
+      "article": 5,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1696
+      ],
+      "before": "由此可知各質疑之答案。",
+      "after": "由此可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
