@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-24",
+  "author": "element",
+  "scope": "Prima Pars questions 81–83",
+  "baseline_git_commit": "6e48e9d3a648bf36e64dcaa648e04fd343fcc85b",
+  "status": "completed_locally",
+  "questions": 3,
+  "articles": 12,
+  "distinct_pdf_pages": 27,
+  "pdf_file_pages": [
+    1339,
+    1365
+  ],
+  "printed_pages": [
+    112,
+    138
+  ],
+  "changed_review_units": 104,
+  "checked_unchanged_review_units": 47,
+  "protected_zh_tokens_in_question_files": 166,
+  "source_anomaly_records": 16,
+  "suspected_source_print_errors": 15,
+  "source_scan_marks_checked": 1,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "browser_preview_transport": "Exact local repository files supplied by Playwright request interception; local HTTP connection was unavailable. This is a local rendering check, not a published website check.",
+  "checks": {
+    "three_live_snapshots_match_baseline": true,
+    "complete_report_json_exactly_matches_current_reader": true,
+    "all_report_first_last_sentences_match_pre_edit_text": true,
+    "all_manifest_units_match_before_and_after_data": true,
+    "all_review_units_have_page_references": true,
+    "all_non_zh_source_bytes_preserved": true,
+    "each_field_newline_escape_sequence_preserved": true,
+    "question_81_article_2_title_synced_to_catalog": true,
+    "all_source_anomaly_text_preserved": true,
+    "desktop_and_mobile_browser_checks_passed": true,
+    "three_existing_regression_tests_passed_for_each_batch": true,
+    "progress_and_local_publication_policy_consistent": true,
+    "three_question_commits_authored_and_committed_by_element": true
+  },
+  "publication": "No push or deployment this turn. The previous upload authorization applied only to 2026-10-23 work. New questions 81–83 remain local.",
+  "cumulative_reviewed_questions": 83,
+  "cumulative_reviewed_articles": 415,
+  "next_question": "I.q084",
+  "question_commits": [
+    "3ee1b6a|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 83 locally against PDF images",
+    "9ae589f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 82 locally against PDF images",
+    "9d67b66|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 81 locally against PDF images"
+  ],
+  "batches": [
+    {
+      "question": "I.q081",
+      "title": "論肉情或肉慾",
+      "articles": 3,
+      "pdf_file_pages": [
+        1339,
+        1345
+      ],
+      "printed_pages": [
+        112,
+        118
+      ],
+      "changed_review_units": 29,
+      "checked_unchanged_review_units": 8,
+      "source_anomaly_records": 2,
+      "report": "I-q081.md",
+      "manifest": "I-q081.json",
+      "validation": "I-q081-validation.json",
+      "reader_sha256": "03448dc1d853aa5c7e9917d9370a4e2cdabc1992755a769ab1596a55a2c226c8"
+    },
+    {
+      "question": "I.q082",
+      "title": "論意志",
+      "articles": 5,
+      "pdf_file_pages": [
+        1346,
+        1356
+      ],
+      "printed_pages": [
+        119,
+        129
+      ],
+      "changed_review_units": 40,
+      "checked_unchanged_review_units": 21,
+      "source_anomaly_records": 8,
+      "report": "I-q082.md",
+      "manifest": "I-q082.json",
+      "validation": "I-q082-validation.json",
+      "reader_sha256": "67950b41f50a04465de8236fadb870dbf408d872e45d3d00e6675b8d6cf6b9db"
+    },
+    {
+      "question": "I.q083",
+      "title": "論自由抉擇",
+      "articles": 4,
+      "pdf_file_pages": [
+        1357,
+        1365
+      ],
+      "printed_pages": [
+        130,
+        138
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 18,
+      "source_anomaly_records": 6,
+      "report": "I-q083.md",
+      "manifest": "I-q083.json",
+      "validation": "I-q083-validation.json",
+      "reader_sha256": "998c74b9f5486103eb9caf8fd53406d2e58585130bc7fb5848a9ed2f3651f00c"
+    }
+  ],
+  "source_anomalies": [
+    {
+      "id": "I.q081.a002.ad2",
+      "pdf_file_page": 1342,
+      "text": "第七十八題第二節",
+      "status": "suspected_source_print_error",
+      "action": "原页引文节号确为「第二节」，估量能力的对应讨论在该题第四节；不据义理改号，保留待人工定夺。",
+      "question": "I.q081"
+    },
+    {
+      "id": "I.q081.a003.ad1",
+      "pdf_file_page": 1344,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q081"
+    },
+    {
+      "id": "I.q082.a002.title",
+      "pdf_file_page": 1348,
+      "text": "凡意志所願意的是，否皆為意志所必然願意",
+      "status": "suspected_source_print_error",
+      "action": "原页标题确作「的是，否」，疑「的，是否」之排字错位；现有标题与原页一致，保留供人工定夺。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a002.respondeo",
+      "pdf_file_page": 1349,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a003.respondeo",
+      "pdf_file_page": 1351,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a004.ad1",
+      "pdf_file_page": 1353,
+      "text": "第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a004.ad2",
+      "pdf_file_page": 1354,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a005.arg1",
+      "pdf_file_page": 1354,
+      "text": "第六章31節",
+      "status": "source_scan_mark_checked",
+      "action": "原页智慧篇引文确作第六章31节；数字依原页保留，不按其他版本重编号。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a005.arg3",
+      "pdf_file_page": 1355,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q082.a005.ad3",
+      "pdf_file_page": 1356,
+      "text": "據此己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q082"
+    },
+    {
+      "id": "I.q083.a001.ad1",
+      "pdf_file_page": 1359,
+      "text": "己經說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q083"
+    },
+    {
+      "id": "I.q083.a001.ad5",
+      "pdf_file_page": 1359,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q083"
+    },
+    {
+      "id": "I.q083.a001.ad5",
+      "pdf_file_page": 1359,
+      "text": "第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q083"
+    },
+    {
+      "id": "I.q083.a002.respondeo",
+      "pdf_file_page": 1361,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q083"
+    },
+    {
+      "id": "I.q083.a004.arg1",
+      "pdf_file_page": 1363,
+      "text": "《論正統信仰》)",
+      "status": "suspected_source_print_error",
+      "action": "放大原页可见书名号后另有一个无对应起括号的右括号；网页与原页一致，保留这一疑似排印多符号，待人工定夺。",
+      "question": "I.q083"
+    },
+    {
+      "id": "I.q083.a004.ad2",
+      "pdf_file_page": 1365,
+      "text": "己經說明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q083"
+    }
+  ]
+}
