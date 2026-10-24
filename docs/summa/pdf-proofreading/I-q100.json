@@ -1,0 +1,776 @@
+{
+  "schema_version": 1,
+  "batch": "I-q100",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q100",
+    "title": "論要生之子女的正義情況",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      1548,
+      1549,
+      1550,
+      1551
+    ],
+    "printed_pages": [
+      321,
+      324
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 26,
+    "changed_review_units": 20,
+    "checked_unchanged_review_units": 7
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q100.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q100.json": "b71a974038a7309e3a522367a5c51025161f26a45405d3ea78c3fcbe6cd8d09a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q100.prologue",
+      "pdf_file_page": 1548,
+      "text": "己固定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q100.a002.objection-intro",
+      "pdf_file_page": 1549,
+      "text": "似乎不會一出生就固定於正義",
+      "status": "suspected_source_print_error",
+      "action": "原页质疑引言确有「不會」，与其后质疑主张及正解关系疑有排字错误；保留原书，不按论证自行删改否定字。"
+    },
+    {
+      "id": "I.q100.a002.arg3",
+      "pdf_file_page": 1550,
+      "text": "由他生出的才必然地犯罪",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「才」，疑为「人」字印误；保留原书文字。"
+    },
+    {
+      "id": "I.q100.a002.ad4",
+      "pdf_file_page": 1551,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部4页、2节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q100.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "然後要討論的是，要生之子女的正義情況(參看第九十九題51言)。\n關於這點，可以提出兩個問題:\n一、人是否會一出生就有正義。\n二、是否會一出生已固定於正義。",
+      "after": "然後要討論的是，要生之子女的正義情況(參看第九十九題引言)。\n關於這點，可以提出兩個問題：\n一、人是否會一出生就有正義。\n二、是否會一出生己固定於正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "51言",
+          "after": "引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已固定",
+          "after": "己固定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "人是否會一出生就有正義",
+      "after": "人是否會一出生就有正義",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "人似乎不會一出生就有正義。因為:",
+      "after": "人似乎不會一出生就有正義。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "聖維克多之雨果(Hugo de Sancto Victore)《聖事論》(De Sacrarnentis)卷一第六題第二十四章說:「第一個人在犯罪前生的兒子，固然沒有罪過，但不能繼承父親的正義。」",
+      "after": "聖維克多之雨果(Hugo de Sancto Victore)《聖事論》(De Sacramentis)卷一第六題第二十四章說：「第一個人在犯罪前生的兒子，固然沒有罪過，但不能繼承父親的正義。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Sacrarnentis",
+          "after": "Sacramentis",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "此外，正義是憑恩寵，就如宗徒在《羅馬書》第五章16\"\"'--'21節所說的。但是恩寵不遺傳，否則就是自然的了;而是由唯一天主直接灌輸的。所以，生出的孩子不會有正義。",
+      "after": "此外，正義是憑恩寵，就如宗徒在《羅馬書》第五章16～21節所說的。但是恩寵不遺傳，否則就是自然的了；而是由唯一天主直接灌輸的。所以，生出的孩子不會有正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "16\"\"'--'21節",
+          "after": "16～21節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "此外，正義是在靈魂上。(旦靈魂不是來自傳殖。所以‘正義也不是由父母傳到子女。",
+      "after": "此外，正義是在靈魂上。但靈魂不是來自傳殖。所以，正義也不是由父母傳到子女。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1548
+      ],
+      "before": "安瑟誤在《論童女受孕與原罪》(De concep仙virg.)第十章說「若人沒有犯罪，他所生的子女，既有靈瑰，也是正義的。」",
+      "after": "安瑟謨在《論童女受孕與原罪》(De conceptuvirg.)第十章說：「若人沒有犯罪，他所生的子女，既有靈魂，也是正義的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟誤",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "concep仙",
+          "after": "conceptu",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "靈瑰",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十章說「",
+          "after": "第十章說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1548,
+        1549
+      ],
+      "before": "我解答如下:人自然生殖與自己同類者。所以在類別或屬於人類的任何依附體或性質方面，子女必然與父母相似，除非在自然過程上發生偏差，但這在純真狀態是不會有的。在個體或屬於個人的依附體或性質方面‘子女不一定像似父母。第一個人受造時所帶有的原始正義，是屬於類耳IJ之天性的依附體，但不是由類別之(內在)根本產生的，而是天主給全人類之天性的一種恩惠。這是因為對立者是屬於同一共類的;與該(原始)正義對立之原始罪惡或原罪，自IJ被稱為天性上的罪，因而從父母傳到子女。故此，在原始正義方面，子女也該與父母相似。",
+      "after": "我解答如下：人自然生殖與自己同類者。所以在類別或屬於人類的任何依附體或性質方面，子女必然與父母相似，除非在自然過程上發生偏差，但這在純真狀態是不會有的。在個體或屬於個人的依附體或性質方面，子女不一定像似父母。第一個人受造時所帶有的原始正義，是屬於類別之天性的依附體，但不是由類別之(內在)根本產生的，而是天主給全人類之天性的一種恩惠。這是因為對立者是屬於同一共類的；與該(原始)正義對立之原始罪惡或原罪，則被稱為天性上的罪，因而從父母傳到子女。故此，在原始正義方面，子女也該與父母相似。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方面‘",
+          "after": "方面，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類耳IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "聖維克多之雨果所說的，不是指(繼承)正義之習性，而是指(繼承)正義之實行或功績。",
+      "after": "聖維克多之雨果所說的，不是指(繼承)正義之習性，而是指(繼承)正義之實行或功績。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "有人說，那時生出的孩子，會帶有原始正義，但沒有充為立功之根本的恩寵上的正義。但既然人受造時就有原始正義的正直，而按前面第九十五題第一節所說的，這種原始正義之基礎，在於理性憑寵愛或聖化恩寵而有的對天主的超性服從。所以一定該說，若孩子生而有原始正義，便也生而有恩寵;正如關於第一個人，我們曾說他一受造就有恩寵(同上)。但並不因此恩寵便是自然的，因為那不是憑精子之能力傳遞的，而是在人有了靈魂後立刻賦給人的。正如身體一配備好，天主立刻就賦給人靈魂，但靈魂並不是由血統傳生而來的。",
+      "after": "有人說，那時生出的孩子，會帶有原始正義，但沒有充為立功之根本的恩寵上的正義。但既然人受造時就有原始正義的正直，而按前面第九十五題第一節所說的，這種原始正義之基礎，在於理性憑寵愛或聖化恩寵而有的對天主的超性服從。所以一定該說，若孩子生而有原始正義，便也生而有恩寵；正如關於第一個人，我們曾說他一受造就有恩寵(同上)。但並不因此恩寵便是自然的，因為那不是憑精子之能力傳遞的，而是在人有了靈魂後立刻賦給人的。正如身體一配備好，天主立刻就賦給人靈魂，但靈魂並不是由血統傳生而來的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "由前文釋疑2.所說的，可知質疑3.之答案。",
+      "after": "由前文釋疑2.所說的，可知質疑3.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "在純真狀態，孩子是否會一出生就固定於正義",
+      "after": "在純真狀態，孩子是否會一出生就固定於正義",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1549
+      ],
+      "before": "在純真狀態，孩子似乎不會一出生就固定於正義。因為:",
+      "after": "在純真狀態，孩子似乎不會一出生就固定於正義。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1549,
+        1550
+      ],
+      "before": "教宗額我略一世在《倫理叢談》卷四第三十一章，解釋《約伯傳》第三章13節的「現，今我早已臥下安睡了...... 」那段話說:「假若原祖不會受罪惡之腐化，絕不會生出地獄或喪亡之子;只有那些現令當因救世主獲救者，會蒙選而由原祖生出。」所以他們都是一生出就固定於正義的。",
+      "after": "教宗額我略一世在《倫理叢談》卷四第三十一章，解釋《約伯傳》第三章13節的「現今我早已臥下安睡了......」那段話說：「假若原祖不會受罪惡之腐化，絕不會生出地獄或喪亡之子；只有那些現今當因救世主獲救者，會蒙選而由原祖生出。」所以他們都是一生出就固定於正義的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "現，今",
+          "after": "現今",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "...... 」",
+          "after": "......」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現令",
+          "after": "現今",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1550
+      ],
+      "before": "此外，安瑟誤在《天主為何成人》(Cur d巳us homo)卷一第十八章說:「倘若原祖父母生活中受誘惑而沒有犯罪，似乎將與其後裔固定於正義，以致以後不能再犯罪。」所以那時孩子會一出生就固定於正義。",
+      "after": "此外，安瑟謨在《天主為何成人》(Cur deus homo)卷一第十八章說：「倘若原祖父母生活中受誘惑而沒有犯罪，似乎將與其後裔固定於正義，以致以後不能再犯罪。」所以那時孩子會一出生就固定於正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟誤",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "d巳us",
+          "after": "deus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1550
+      ],
+      "before": "此外，善比惡的力量大。因了第一個人的罪過，由他生出的才必然地犯罪;所以，若第一個人堅持了正義，後代也會必然地遵行正義。",
+      "after": "此外，善比惡的力量大。因了第一個人的罪過，由他生出的才必然地犯罪；所以，若第一個人堅持了正義，後代也會必然地遵行正義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1550
+      ],
+      "before": "此外，別的天使犯罪時，忠於天主的天使，立刻便固定於正義了，以致以後不可能犯罪。所以，人也是一樣:若他當時抗拒了誘惑，也就會固定於正義了。但他是怎樣的，他所生的便也是怎樣。所以他的子女一生下來便會是固定於正義的。",
+      "after": "此外，別的天使犯罪時，忠於天主的天使，立刻便固定於正義了，以致以後不可能犯罪。所以，人也是一樣：若他當時抗拒了誘惑，也就會固定於正義了。但他是怎樣的，他所生的便也是怎樣。所以他的子女一生下來便會是固定於正義的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1550
+      ],
+      "before": "奧斯定在《天主之城》卷十四第寸章說:「假若他們」'即原祖父母，「沒有犯了原罪，傳於子孫，他的後代中也沒有人犯罪，接受了懲罰，整個人類社會該會是多麼幸福!」從這段話可以看出，縱然最初的人沒有犯罪，他們的後代中也有人能犯罪。所以，不是一生下來就會固定於正義。",
+      "after": "奧斯定在《天主之城》卷十四第十章說：「假若他們」，即原祖父母，「沒有犯了原罪，傳於子孫，他的後代中也沒有人犯罪，接受了懲罰，整個人類社會該會是多麼幸福!」從這段話可以看出，縱然最初的人沒有犯罪，他們的後代中也有人能犯罪。所以，不是一生下來就會固定於正義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第寸章",
+          "after": "第十章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "他們」'",
+          "after": "他們」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1550,
+        1551
+      ],
+      "before": "我解答如下:在純真狀態，似乎不可能孩子一生下來就會固定於正義。孩子初生時，顯然不能比其父母在其生殖狀態、更完美。至於其父母，幾時還生殖，就不是固定於正義的。因為理性受造物之所以固定於正義，是由於親眼看到天主而得到圓滿的幸福;他見了天主後不能不依附，因為天主就是聖善之本身，沒有人能捨棄他，因為人所願望和所愛慕的就是善之為善。我這是按一般情形說的;因為由於特殊恩惠，可能不是這樣，例如我們關於童貞天主之母所信的。所以，亞當一旦得到見天主本體之幸福，他在身體和心靈方面立刻就變成屬神的，動物性生活於是停止，而只有在動物生活中才有生殖。由此可見，孩子不是a出生就會固定於正義的。",
+      "after": "我解答如下：在純真狀態，似乎不可能孩子一生下來就會固定於正義。孩子初生時，顯然不能比其父母在其生殖狀態更完美。至於其父母，幾時還生殖，就不是固定於正義的。因為理性受造物之所以固定於正義，是由於親眼看到天主而得到圓滿的幸福；他見了天主後不能不依附，因為天主就是聖善之本身，沒有人能捨棄他，因為人所願望和所愛慕的就是善之為善。我這是按一般情形說的；因為由於特殊恩惠，可能不是這樣，例如我們關於童貞天主之母所信的。所以，亞當一旦得到見天主本體之幸福，他在身體和心靈方面立刻就變成屬神的，動物性生活於是停止，而只有在動物生活中才有生殖。由此可見，孩子不是一出生就會固定於正義的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生殖狀態、更",
+          "after": "生殖狀態更",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不是a出生",
+          "after": "不是一出生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1551
+      ],
+      "before": "假若亞當不會犯罪，不會生出喪亡之子，意思是說子女不會傳有原罪，而原罪是喪亡之原因。但是他的子女能因了自動犯罪而成為喪亡之子。或者，他們若不因自己犯罪而成為喪亡之子，也不是因為是固定於正義的，而是由於天主的措施，使他們避免犯罪。",
+      "after": "假若亞當不會犯罪，不會生出喪亡之子，意思是說子女不會傳有原罪，而原罪是喪亡之原因。但是他的子女能因了自動犯罪而成為喪亡之子。或者，他們若不因自己犯罪而成為喪亡之子，也不是因為是固定於正義的，而是由於天主的措施，使他們避免犯罪。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q100.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1551
+      ],
+      "before": "安瑟3莫不是把這主張視為定論，而是一種意見。這可以從他的語氣中看出來。他說: 「倘若原祖生活中......似乎...'\"」。",
+      "after": "安瑟謨不是把這主張視為定論，而是一種意見。這可以從他的語氣中看出來。他說：「倘若原祖生活中……似乎……」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟3莫",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "......似乎...'\"",
+          "after": "……似乎……",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1551
+      ],
+      "before": "所舉之理由沒有效力，雖然從安瑟誤的話(質疑2.)可以看出，他似乎受了這個理由的影響。原祖的罪不能使後代子孫必然犯罪，以致不能再重返正義;只有那些被判處永罰的人是如此。所以也不能使子孫必然不犯罪，以致完全不可能犯罪;只有獲享真褔者是這樣。",
+      "after": "所舉之理由沒有效力，雖然從安瑟謨的話(質疑2.)可以看出，他似乎受了這個理由的影響。原祖的罪不能使後代子孫必然犯罪，以致不能再重返正義；只有那些被判處永罰的人是如此。所以也不能使子孫必然不犯罪，以致完全不可能犯罪；只有獲享真福者是這樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟誤",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q100.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1551
+      ],
+      "before": "人與天使不一樣。因為人有變化不定的自由意志，無論是在選擇以前，或在選擇以後;天使不是這樣，我們前面第六十四題第二節論到天使時已經說過了。",
+      "after": "人與天使不一樣。因為人有變化不定的自由意志，無論是在選擇以前，或在選擇以後；天使不是這樣，我們前面第六十四題第二節論到天使時己經說過了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
