@@ -1,0 +1,2924 @@
+{
+  "schema_version": 1,
+  "batch": "I-q108",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q108",
+    "title": "論天使按等級和品級之排列",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1620,
+      1621,
+      1622,
+      1623,
+      1624,
+      1625,
+      1626,
+      1627,
+      1628,
+      1629,
+      1630,
+      1631,
+      1632,
+      1633,
+      1634,
+      1635,
+      1636,
+      1637,
+      1638,
+      1639,
+      1640
+    ],
+    "printed_pages": [
+      393,
+      413
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 102,
+    "changed_review_units": 76,
+    "checked_unchanged_review_units": 27
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q108.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q108.json": "01ab5d468e6d5088485707536040933494a8e670f484f6dac5501fa5f2e7a405",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q108.a001.respondeo",
+      "pdf_file_page": 1621,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a001.ad2",
+      "pdf_file_page": 1622,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a003.arg2",
+      "pdf_file_page": 1625,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a004.respondeo",
+      "pdf_file_page": 1627,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a006.respondeo",
+      "pdf_file_page": 1635,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a006.ad2",
+      "pdf_file_page": 1636,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a008.respondeo",
+      "pdf_file_page": 1639,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a008.ad1",
+      "pdf_file_page": 1640,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q108.a006.sed_contra",
+      "pdf_file_page": 1633,
+      "text": "第七等章",
+      "status": "suspected_source_print_error",
+      "action": "原页作「第七等章」，依底本保留疑似多字。"
+    },
+    {
+      "id": "I.q108.a006.respondeo",
+      "pdf_file_page": 1636,
+      "text": "13三節",
+      "status": "suspected_source_print_error",
+      "action": "原页作「13三節」，依底本保留疑似多字。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q108.a003.respondeo",
+      "description": "将正解内错并的三条释疑移回既有字段，保留原换行。"
+    },
+    {
+      "id": "I.q108.a006.ad4",
+      "description": "把误放在第四答复中的正解续文移回正解，并拆回第一至第三答复；所有键、顺序与每字段原换行数保留。"
+    }
+  ],
+  "notes": [
+    "全部21页、8节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q108.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "然後要討論的是，天使按等級(hierarchia)和品級(ordo)的排列。因為前面曾說，高級天使光照或啟發低級天使，低級的則不光照或啟發高級的(第一0六題第三節)。\n關於這點，可以提出八個問題:\n一、天使是否皆是同一等級的。\n二、在同一等紋中是否只有一品絞。\n三、在同一品級中是否有多位天使。\n四、等級與品級之分是否來白天性。\n五、論各品級之名稱及特性。\n六、論各品級之間的關係。\n七、在公審判之日以後是否仍有品絞。\n八、人是否被提升到天使之品紋。",
+      "after": "然後要討論的是，天使按等級(hierarchia)和品級(ordo)的排列。因為前面曾說，高級天使光照或啟發低級天使，低級的則不光照或啟發高級的(第一〇六題第三節)。\n關於這點，可以提出八個問題：\n一、天使是否皆是同一等級的。\n二、在同一等級中是否只有一品級。\n三、在同一品級中是否有多位天使。\n四、等級與品級之分是否來自天性。\n五、論各品級之名稱及特性。\n六、論各品級之間的關係。\n七、在公審判之日以後是否仍有品級。\n八、人是否被提升到天使之品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "等紋",
+          "after": "等級",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "品絞",
+          "after": "品級",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "品紋",
+          "after": "品級",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "天使是否皆是同一等級的",
+      "after": "天使是否皆是同一等級的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "所有的天使似乎都是同一等級的。因為:",
+      "after": "所有的天使似乎都是同一等級的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1620
+      ],
+      "before": "天使既然是受造物中最高的，該說他們的按排或制度是最好的。但是羣體最好的制度是統屬於一個統治之下，這可參看哲學家在《形上學》卷十二第十章及《政治學》卷四第二章所說的。既然所謂等級或體制(hierarchia)無非就是神聖的統制，似乎所有的天使皆屬問一等級或體制。",
+      "after": "天使既然是受造物中最高的，該說他們的安排或制度是最好的。但是羣體最好的制度是統屬於一個統治之下，這可參看哲學家在《形上學》卷十二第十章及《政治學》卷四第二章所說的。既然所謂等級或體制(hierarchia)無非就是神聖的統制，似乎所有的天使皆屬同一等級或體制。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "按排",
+          "after": "安排",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "屬問一",
+          "after": "屬同一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1620,
+        1621
+      ],
+      "before": "此外，狄奧尼修在《上天(天使)階級論》第三章說:「等級是秩序、知識及行動。」但是，天使都是在以天主為目的的秩序內，都認識天主，其行動皆受天主之規範。所以，所有的天使皆是同一等級的。",
+      "after": "此外，狄奧尼修在《上天(天使)階級論》第三章說：「等級是秩序、知識及行動。」但是，天使都是在以天主為目的的秩序內，都認識天主，其行動皆受天主之規範。所以，所有的天使皆是同一等級的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1621
+      ],
+      "before": "此外，在人問及天使問，皆有被稱為等級的或體制的神聖的統制。但所有的人皆屬於同一等級或體制。所以，所有的天使也都屬於同一等級或體制。",
+      "after": "此外，在人間及天使間，皆有被稱為等級的或體制的神聖的統制。但所有的人皆屬於同一等級或體制。所以，所有的天使也都屬於同一等級或體制。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人問",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使問",
+          "after": "天使間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1621
+      ],
+      "before": "狄奧尼修在《上天(天使)階級論》第六章，分天使為三個等級。",
+      "after": "狄奧尼修在《上天(天使)階級論》第六章，分天使為三個等級。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1621,
+        1622
+      ],
+      "before": "我解答如下:如質疑1.己說過的，等級或體制就是「神聖的統制」。在統制這個名詞中含有兩個因素:一是統制者，一是在統制者下有組織的羣眾。因了只有一位天主，祂不只是眾天使的統制者，也是全人類及整個受造界的統制者;因而不只黑天便，連能分享神聖事物的全體有理性的受造物，共構成一個等級或體制。按照奧斯定在《天主之城》卷十二第一章所說的:「有兩個城邦或社會，一是善的天使及善人的，男一個是惡天使及惡人的。」但是，若從在統制者下有組織的羣眾方面看，買IJ一個統制之構成，是根據羣眾能以同一方式接受統制者之治理;不能按同樣方式接受統制者之治理的羣眾，員IJ屬於不同的統制，就如在國王下有許多城邦，由不同的法律和官員來治理。\n人承受天主之光照或啟發的方式顯然與天使不同，因為天使是以純領悟方式承受啟發;而按狄奧尼修在《上天(天使)階級論》第一章所說的，人是在可感物的影像中獲致啟發。所以人的等級與天便的該加以區分。\n按同一方式，天使又分為三個等級。第五十五題第三節論到天使之認知時曾說，高級天使比低級天(吏，對真理有更為普遍的認知。這種所謂的普遍認知，在天使間可以分為三個層次，因為可以從三方面去看啟發給天使的萬物之理。第一，根據萬物之理(直接)出自第一個普遍根本，即天主。這是屬於第一等級之天使的方式，這一等級直接接觸到天主，按狄奧尼修在《上天(天使)階級論》第七章說的，他「好似是位於天主的門廳裡」。第二，根據這些事理繫屬於受造的普遍原因，這些原因已有所增多;這是屬於第二等級之天使的方式。第三，根據各事理之繫屬於專有原因，及其對個刑事物之貼用;這是屬於最低等級之天使的方式。後面第六節論到每一品級時，還要詳細講解。所以，等級之如此區分，是根據所繫屬之羣眾。\n由此可見，那些認為在天主三位中有等級，並稱之為「超天等級」(hierarchia supercaelestis)的，顯然是犯了錯誤，不合狄奧尼修的主張。在天主三位中固然有一種天性的次序，但沒有等級的次序。因為按狄奧尼修在《上天(天使)階級論》第三章說的:「等級的次序丹在於有的淨化、啟發，並成全別的，有的則受淨化、受啟發、受成全。」我們絕對不能認為在天主三位中有這種關係。",
+      "after": "我解答如下：如質疑1.己說過的，等級或體制就是「神聖的統制」。在統制這個名詞中含有兩個因素：一是統制者，一是在統制者下有組織的羣眾。因了只有一位天主，祂不只是眾天使的統制者，也是全人類及整個受造界的統制者；因而不只眾天使，連能分享神聖事物的全體有理性的受造物，共構成一個等級或體制。按照奧斯定在《天主之城》卷十二第一章所說的：「有兩個城邦或社會，一是善的天使及善人的，另一個是惡天使及惡人的。」但是，若從在統制者下有組織的羣眾方面看，則一個統制之構成，是根據羣眾能以同一方式接受統制者之治理；不能按同樣方式接受統制者之治理的羣眾，即屬於不同的統制，就如在國王下有許多城邦，由不同的法律和官員來治理。\n人承受天主之光照或啟發的方式顯然與天使不同，因為天使是以純領悟方式承受啟發；而按狄奧尼修在《上天(天使)階級論》第一章所說的，人是在可感物的影像中獲致啟發。所以人的等級與天使的該加以區分。\n按同一方式，天使又分為三個等級。第五十五題第三節論到天使之認知時曾說，高級天使比低級天使，對真理有更為普遍的認知。這種所謂的普遍認知，在天使間可以分為三個層次，因為可以從三方面去看啟發給天使的萬物之理。第一，根據萬物之理(直接)出自第一個普遍根本，即天主。這是屬於第一等級之天使的方式，這一等級直接接觸到天主，按狄奧尼修在《上天(天使)階級論》第七章說的，他「好似是位於天主的門廳裡」。第二，根據這些事理繫屬於受造的普遍原因，這些原因已有所增多；這是屬於第二等級之天使的方式。第三，根據各事理之繫屬於專有原因，及其對個別事物之貼用；這是屬於最低等級之天使的方式。後面第六節論到每一品級時，還要詳細講解。所以，等級之如此區分，是根據所繫屬之羣眾。\n由此可見，那些認為在天主三位中有等級，並稱之為「超天等級」(hierarchia supercaelestis)的，顯然是犯了錯誤，不合狄奧尼修的主張。在天主三位中固然有一種天性的次序，但沒有等級的次序。因為按狄奧尼修在《上天(天使)階級論》第三章說的：「等級的次序乃在於有的淨化、啟發，並成全別的，有的則受淨化、受啟發、受成全。」我們絕對不能認為在天主三位中有這種關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "黑天便",
+          "after": "眾天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個刑",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "次序丹在於",
+          "after": "次序乃在於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1622
+      ],
+      "before": "所舉之理由，是從統制者那方面來看統制;因為按哲學家在那裡說的，最好是羣眾統屬於一位統制者。",
+      "after": "所舉之理由，是從統制者那方面來看統制；因為按哲學家在那裡說的，最好是羣眾統屬於一位統制者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1622
+      ],
+      "before": "在對天主之認知方面，因了眾天使的方式都是一樣的，即皆看到天主的本體，在天使間不分等級;而是在受造萬物之理方面，如正解己說過的。",
+      "after": "在對天主之認知方面，因了眾天使的方式都是一樣的，即皆看到天主的本體，在天使間不分等級；而是在受造萬物之理方面，如正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1622
+      ],
+      "before": "所有的人皆屬於同一類則，都有同樣的自然認知方式;但天使們不是這樣，故不可相提並論。",
+      "after": "所有的人皆屬於同一類別，都有同樣的自然認知方式；但天使們不是這樣，故不可相提並論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類則",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "在同一等級內是否有許多品級",
+      "after": "在同一等級內是否有許多品級",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "在同一等級(hierarch叫內，似乎沒有許多品級(or也1巴s)。因為:",
+      "after": "在同一等級(hierarchia)內，似乎沒有許多品級(ordines)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "hierarch叫",
+          "after": "hierarchia)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "or也1巴s",
+          "after": "ordines",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "定義增多，被定義者便增多。但是按狄奧尼修所說的,等級(h他i臼er凹正且叮仰「叩叫叫c叫吐甘h吋叫叫叫i1第三章)0假f胃若有許多品級'貝開則l月j將不只有一個等級'而該有許多等級。",
+      "after": "定義增多，被定義者便增多。但是按狄奧尼修所說的，等級(hierarchia)就是次序或品級(ordo；《上天階級論》第三章)。假若有許多品級，則將不只有一個等級，而該有許多等級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "定義增多，被定義者便增多。但是按狄奧尼修所說的,等級(h他i臼er凹正且叮仰「叩叫叫c叫吐甘h吋叫叫叫i1第三章)0假f胃若有許多品級'貝開則l月j將不只有一個等級'而該有許多等級。",
+          "after": "定義增多，被定義者便增多。但是按狄奧尼修所說的，等級(hierarchia)就是次序或品級(ordo；《上天階級論》第三章)。假若有許多品級，則將不只有一個等級，而該有許多等級。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "此外司不同的品級就是不同的階層(gradus)。但是，精神體的階層乃是因7不同之神恩而定的。然而在天使中，神恩都是共有的，因為「那裡什麼也不獨佔」(彼得隆巴，《語錄》卷二第九題)。所以，天使們不分品級。",
+      "after": "此外，不同的品級就是不同的階層(gradus)。但是，精神體的階層乃是因了不同之神恩而定的。然而在天使中，神恩都是共有的，因為「那裡什麼也不獨佔」(彼得隆巴，《語錄》卷二第九題)。所以，天使們不分品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外司",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "此外，在教會的等級或體制中，品級是按淨化、啟發和成全三種作用分的。因為按狄奧尼修在《教會階級論》第五章說的，執事之品級職在淨化，司鐸之品級職在啟發，主教之品級職在成全。但是，每位天使都從事於淨化、啟發和成全活動。所以，天使們不分品級。",
+      "after": "此外，在教會的等級或體制中，品級是按淨化、啟發和成全三種作用分的。因為按狄奧尼修在《教會階級論》第五章說的，執事之品級職在淨化，司鐸之品級職在啟發，主教之品級職在成全。但是，每位天使都從事於淨化、啟發和成全活動。所以，天使們不分品級。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1623
+      ],
+      "before": "宗徒在《厄弗所書》第一章21節說，天主使基督的人性「超乎一切率領巖、掌權者、異能者、宰制者之上」;這些是不同品級的天使，其中有的屬於同一等級，這在後面第六節將要談到。",
+      "after": "宗徒在《厄弗所書》第一章21節說，天主使基督的人性「超乎一切率領者、掌權者、異能者、宰制者之上」；這些是不同品級的天使，其中有的屬於同一等級，這在後面第六節將要談到。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "率領巖",
+          "after": "率領者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1623,
+        1624
+      ],
+      "before": "我解答如下:按前面所說的，一個等級就是一個統制;也就是在統制者之治理下，以問一方式組織起來的一個羣體或羣眾。倘若在羣眾中不分次序或品級，那就不是有組識或有秩序的羣嘿，而是烏合之眾。等級或體制之理就需要有不同的品級，不同的品級是按不同之職務及活動而定。就如在一個城邦中之不同品級是由於不同之活動:有的是審判者之品級，有的是戰士之品級，有的是農工之品級，其他可以類推。\n一個城邦雖然有許多品級，但可以歸納為三個(階層),這是由於完整之羣眾都有首、中及尾三者。因而在城邦中的人可以分為三個階層或品級:有的人是為首的或最高的，如權貴;有的是居末位的或最低的，如賤民;有的是居中的，如有尊嚴的公民。所以在每一等級之天使中，是按不同之活動及職務而分為不同之品級，其差別可以歸納為三:即最高的、中間的和最低的。為此，狄奧尼修將每一等級分為三個品級(《上天階級論》第六章)。",
+      "after": "我解答如下：按前面所說的，一個等級就是一個統制；也就是在統制者之治理下，以同一方式組織起來的一個羣體或羣眾。倘若在羣眾中不分次序或品級，那就不是有組織或有秩序的羣眾，而是烏合之眾。等級或體制之理就需要有不同的品級，不同的品級是按不同之職務及活動而定。就如在一個城邦中之不同品級是由於不同之活動：有的是審判者之品級，有的是戰士之品級，有的是農工之品級，其他可以類推。\n一個城邦雖然有許多品級，但可以歸納為三個(階層)，這是由於完整之羣眾都有首、中及尾三者。因而在城邦中的人可以分為三個階層或品級：有的人是為首的或最高的，如權貴；有的是居末位的或最低的，如賤民；有的是居中的，如有尊嚴的公民。所以在每一等級之天使中，是按不同之活動及職務而分為不同之品級，其差別可以歸納為三：即最高的、中間的和最低的。為此，狄奧尼修將每一等級分為三個品級(《上天階級論》第六章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "以問一",
+          "after": "以同一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "組識",
+          "after": "組織",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "羣嘿",
+          "after": "羣眾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(階層),",
+          "after": "(階層)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1624
+      ],
+      "before": "品級(ordo)有兩種意義。一是指涵蓋許多不同階層(gradus)的排列或次序。按這意義，等級(hierarchia)稱為品級。另一意義是指一個階層。如此則說一個等級有許多品級。",
+      "after": "品級(ordo)有兩種意義。一是指涵蓋許多不同階層(gradus)的排列或次序。按這意義，等級(hierarchia)稱為品級。另一意義是指一個階層。如此則說一個等級有許多品級。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1624
+      ],
+      "before": "在天使的社會中，一切都是公有的;但是有的天使據有某些東西之方式，高於另Ij的天使。那能將所有之東西傳給他人的，比那不能傳給他人的，據有此東西之方式更完美，就如:有熱化作用的比沒有熱化作用的更完美，能教導別人的比不能教導別人的，知道得更完美。一個人愈能更完美地將恩惠傳授給別人，其階層也愈完美，就如:能教高深學間的，其教職之階層也更完美。天使之不同階層或品級，也應該以類似的方式，根據職務及活動之不同而加以瞭解。",
+      "after": "在天使的社會中，一切都是公有的；但是有的天使據有某些東西之方式，高於別的天使。那能將所有之東西傳給他人的，比那不能傳給他人的，據有此東西之方式更完美，就如：有熱化作用的比沒有熱化作用的更完美，能教導別人的比不能教導別人的，知道得更完美。一個人愈能更完美地將恩惠傳授給別人，其階層也愈完美，就如：能教高深學問的，其教職之階層也更完美。天使之不同階層或品級，也應該以類似的方式，根據職務及活動之不同而加以瞭解。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另Ij",
+          "after": "別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "學間",
+          "after": "學問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1624
+      ],
+      "before": "低級的天使也高於我們的等級或體制中最高的人，就如《瑪竇福音》第十一章11節所說的:「在天國裡最小的，也比他大」'即是比若翰大，而「在婦女所生者中，沒有興起一位比洗者若翰更大的。」因此，天上等級或體制中最小的天使，不只能淨化，也能啟發並成全，而且是以高於我們等級或體制中各品級的方式。所以，天上的品級不是按這些活動來分，而是根據別的活動上的差別。",
+      "after": "低級的天使也高於我們的等級或體制中最高的人，就如《瑪竇福音》第十一章11節所說的：「在天國裡最小的，也比他大」，即是比若翰大，而「在婦女所生者中，沒有興起一位比洗者若翰更大的。」因此，天上等級或體制中最小的天使，不只能淨化，也能啟發並成全，而且是以高於我們等級或體制中各品級的方式。所以，天上的品級不是按這些活動來分，而是根據別的活動上的差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "他大」'",
+          "after": "他大」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "在同一品級中是否有許多天便",
+      "after": "在同一品級中是否有許多天使",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "在同一品級(ordo)中，似乎不是有許多天使。因為:",
+      "after": "在同一品級(ordo)中，似乎不是有許多天使。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "之前第五十題第四節曾說，天使們彼此皆不相等。但是彼此平等的，才說是屬於同一品級。所以一個品級不包括許多天使。",
+      "after": "之前第五十題第四節曾說，天使們彼此皆不相等。但是彼此平等的，才說是屬於同一品級。所以一個品級不包括許多天使。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "此外，能由一個東西完成的，用許多東西乃是多餘的。但是一種天使之職務足能由一位天使來完成，因為一個太陽足能完成太陽之職務;天使既比天體完美，更該能夠勝任。倘若按第二節己說過的﹒品級是按職務分的，買IJ一個品級內有許多天使便是多餘的。",
+      "after": "此外，能由一個東西完成的，用許多東西乃是多餘的。但是一種天使之職務足能由一位天使來完成，因為一個太陽足能完成太陽之職務；天使既比天體完美，更該能夠勝任。倘若按第二節己說過的，品級是按職務分的，則一個品級內有許多天使便是多餘的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說過的﹒",
+          "after": "說過的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "此外，前面質疑1曾說，天使們彼此皆不相等。倘若一個品級中有多位天使，例如三位或四位，則較高品級中的最低者，與較低品級中的最高者，比與同一品級之最高者更為中目近。如此則看不出他該與這個或與那個問屬於一個品級。所以同一品級沒有許多天使。",
+      "after": "此外，前面質疑1曾說，天使們彼此皆不相等。倘若一個品級中有多位天使，例如三位或四位，則較高品級中的最低者，與較低品級中的最高者，比與同一品級之最高者更為相近。如此則看不出他該與這個或與那個同屬於一個品級。所以同一品級沒有許多天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中目近",
+          "after": "相近",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問屬",
+          "after": "同屬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1625
+      ],
+      "before": "《依撒意亞》第六章3節說，色辣芬「互相高呼」。所以，在色辣芬這品級中有許多天使。",
+      "after": "《依撒意亞》第六章3節說，色辣芬「互相高呼」。所以，在色辣芬這品級中有許多天使。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1625,
+        1626
+      ],
+      "before": "我解答如下:對某東西認識很清楚的人，能夠詳細分別其活動、能力及性質。對東西認識不清楚的人，只能根據少許之因素，做廣泛的區分。就如對自然界的東西認識不清楚的人，只能廣泛地區分其類則，將天體歸入一類，將下界的無生物視為一類，再將植物及動物各視為一類。那對自然界東西認識較清楚的人，可以將天體再區分為不同的層次或品級，別的每一類也能再加區分。\n我們對天使以及其職務認識的都不清楚，正如狄奧尼修在《上天(天使)階級論》第六章所說的。為此，我們只能廣泛地來區分天使之職務和品級;按這方式，在同一品級中有許多天使。倘若我們能詳細知道天使之職務及其區別，我們便能清楚地知道每一天使各有其專職，在萬物中佔有專屬於1也的品級，遠甚於我們對任何星辰的認知，雖然這一切目前對我們是隱蔽的。擇疑i.同一品級的天i吏，以其都具有賴以屬於此品級的共同相似點而論，可以說是平等的;但絕對地或整個地說，彼此不平等。為此，狄奧尼修在《上天(天使)階級論》第十章說，在同一品級!中的天使，該有上、中、下之分別。\n2.關於天使之品級及職務的詳細區分，即每位天使專有之職務和品級，是我們所不知道的。\n3.就如在一部分白、一部分黑的平面上，在黑白交界的部分，按位置能比兩個問是白的部分相近;但按性質則不然。同樣，分居兩個品級之首末兩端的兩位天使，按天性可能各比同一品級中的某些天使相似;但按對類似職務的適宜性則不然，這適宜性具有某固定的界限。",
+      "after": "我解答如下：對某東西認識很清楚的人，能夠詳細分別其活動、能力及性質。對東西認識不清楚的人，只能根據少許之因素，做廣泛的區分。就如對自然界的東西認識不清楚的人，只能廣泛地區分其類別，將天體歸入一類，將下界的無生物視為一類，再將植物及動物各視為一類。那對自然界東西認識較清楚的人，可以將天體再區分為不同的層次或品級，別的每一類也能再加區分。\n我們對天使以及其職務認識的都不清楚，正如狄奧尼修在《上天(天使)階級論》第六章所說的。為此，我們只能廣泛地來區分天使之職務和品級；按這方式，在同一品級中有許多天使。倘若我們能詳細知道天使之職務及其區別，我們便能清楚地知道每一天使各有其專職，在萬物中佔有專屬於他的品級，遠甚於我們對任何星辰的認知，雖然這一切目前對我們是隱蔽的。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:對某東西認識很清楚的人，能夠詳細分別其活動、能力及性質。對東西認識不清楚的人，只能根據少許之因素，做廣泛的區分。就如對自然界的東西認識不清楚的人，只能廣泛地區分其類則，將天體歸入一類，將下界的無生物視為一類，再將植物及動物各視為一類。那對自然界東西認識較清楚的人，可以將天體再區分為不同的層次或品級，別的每一類也能再加區分。\n我們對天使以及其職務認識的都不清楚，正如狄奧尼修在《上天(天使)階級論》第六章所說的。為此，我們只能廣泛地來區分天使之職務和品級;按這方式，在同一品級中有許多天使。倘若我們能詳細知道天使之職務及其區別，我們便能清楚地知道每一天使各有其專職，在萬物中佔有專屬於1也的品級，遠甚於我們對任何星辰的認知，雖然這一切目前對我們是隱蔽的。擇疑i.同一品級的天i吏，以其都具有賴以屬於此品級的共同相似點而論，可以說是平等的;但絕對地或整個地說，彼此不平等。為此，狄奧尼修在《上天(天使)階級論》第十章說，在同一品級!中的天使，該有上、中、下之分別。\n2.關於天使之品級及職務的詳細區分，即每位天使專有之職務和品級，是我們所不知道的。\n3.就如在一部分白、一部分黑的平面上，在黑白交界的部分，按位置能比兩個問是白的部分相近;但按性質則不然。同樣，分居兩個品級之首末兩端的兩位天使，按天性可能各比同一品級中的某些天使相似;但按對類似職務的適宜性則不然，這適宜性具有某固定的界限。",
+          "after": "我解答如下:對某東西認識很清楚的人，能夠詳細分別其活動、能力及性質。對東西認識不清楚的人，只能根據少許之因素，做廣泛的區分。就如對自然界的東西認識不清楚的人，只能廣泛地區分其類則，將天體歸入一類，將下界的無生物視為一類，再將植物及動物各視為一類。那對自然界東西認識較清楚的人，可以將天體再區分為不同的層次或品級，別的每一類也能再加區分。\n我們對天使以及其職務認識的都不清楚，正如狄奧尼修在《上天(天使)階級論》第六章所說的。為此，我們只能廣泛地來區分天使之職務和品級;按這方式，在同一品級中有許多天使。倘若我們能詳細知道天使之職務及其區別，我們便能清楚地知道每一天使各有其專職，在萬物中佔有專屬於1也的品級，遠甚於我們對任何星辰的認知，雖然這一切目前對我們是隱蔽的。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類則",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "於1也",
+          "after": "於他",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "",
+      "after": "同一品級的天使，以其都具有賴以屬於此品級的共同相似點而論，可以說是平等的；但絕對地或整個地說，彼此不平等。為此，狄奧尼修在《上天(天使)階級論》第十章說，在同一品級中的天使，該有上、中、下之分別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "同一品級的天使，以其都具有賴以屬於此品級的共同相似點而論，可以說是平等的;但絕對地或整個地說，彼此不平等。為此，狄奧尼修在《上天(天使)階級論》第十章說，在同一品級中的天使，該有上、中、下之分別。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "",
+      "after": "關於天使之品級及職務的詳細區分，即每位天使專有之職務和品級，是我們所不知道的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "關於天使之品級及職務的詳細區分，即每位天使專有之職務和品級，是我們所不知道的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "",
+      "after": "就如在一部分白、一部分黑的平面上，在黑白交界的部分，按位置能比兩個同是白的部分相近；但按性質則不然。同樣，分居兩個品級之首末兩端的兩位天使，按天性可能各比同一品級中的某些天使相似；但按對類似職務的適宜性則不然，這適宜性具有某固定的界限。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "就如在一部分白、一部分黑的平面上，在黑白交界的部分，按位置能比兩個同是白的部分相近;但按性質則不然。同樣，分居兩個品級之首末兩端的兩位天使，按天性可能各比同一品級中的某些天使相似;但按對類似職務的適宜性則不然，這適宜性具有某固定的界限。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "天使之等級和品級的區分是否來自天性",
+      "after": "天使之等級和品級的區分是否來自天性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "有關第四節，我們討論如下;",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下;",
+          "after": "如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "天使之等級和品級的區分似乎不是來白天性。因為:",
+      "after": "天使之等級和品級的區分似乎不是來自天性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1626
+      ],
+      "before": "i.等級或體制是指神聖的統制，在其定義中，狄奧尼修《上天階級論》第三章置入「是像似天主的，而且極盡相似之能事」。但天使之聖德及其與天主之相似乃是因了恩寵，不是由於天性。所以天使之等級和品級的區分是因了恩寵，不是因了天性。",
+      "after": "等級或體制是指神聖的統制，在其定義中，狄奧尼修《上天階級論》第三章置入「是像似天主的，而且極盡相似之能事」。但天使之聖德及其與天主之相似乃是因了恩寵，不是由於天性。所以天使之等級和品級的區分是因了恩寵，不是因了天性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1626,
+        1627
+      ],
+      "before": "此外，按狄奧尼11雪在《上天(天使)階級論》第七章說的，色辣芬是「熾熱」和「焚燒」的意思。這似乎是屬於愛德的，而愛德是出於恩寵，而非出白天性;因為按《羅馬書》第五章5節所說的，愛德「藉著所賜予我們的聖神，已傾注在我們心中了」。而如奧斯定在《天主之城》卷十二第九章所說的:「這話不只指聖人們，也適用於天便。」所以，天使的品級不是來自天性，而是來自恩寵。",
+      "after": "此外，按狄奧尼修在《上天(天使)階級論》第七章說的，色辣芬是「熾熱」和「焚燒」的意思。這似乎是屬於愛德的，而愛德是出於恩寵，而非出自天性；因為按《羅馬書》第五章5節所說的，愛德「藉著所賜予我們的聖神，已傾注在我們心中了」。而如奧斯定在《天主之城》卷十二第九章所說的：「這話不只指聖人們，也適用於天使。」所以，天使的品級不是來自天性，而是來自恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尼11雪",
+          "after": "尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1627
+      ],
+      "before": "此外，教會的等級仿效天上的等級。但是人悶的品級不是由於天性，而是由於恩寵之恩惠;因為一個人是主教，另一個人是司鐸，第三個人是執事，這都不是來自天性。所以，天使的品級也不是出白天性，而只是來自恩寵。",
+      "after": "此外，教會的等級仿效天上的等級。但是人間的品級不是由於天性，而是由於恩寵之恩惠；因為一個人是主教，另一個人是司鐸，第三個人是執事，這都不是來自天性。所以，天使的品級也不是出自天性，而只是來自恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人悶",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出白",
+          "after": "出自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1627
+      ],
+      "before": "大師在《語錄》卷二第九題說:「天使的一個品級是指一羣在恩寵恩惠上相似，在自然天賦上也相同的天上精神體。」所以，天使之品級的區分不只根據恩寵恩惠，也是根據自然天賦。",
+      "after": "大師在《語錄》卷二第九題說：「天使的一個品級是指一羣在恩寵恩惠上相似，在自然天賦上也相同的天上精神體。」所以，天使之品級的區分不只根據恩寵恩惠，也是根據自然天賦。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1627
+      ],
+      "before": "我解答如下:治理之秩序，也就是接受統制之羣眾的秩序可是看目的而定。可以從兩方面去看天使之目的。一是根據其自然秉賦，其目的在於以自然的知識和愛情認識愛慕天主。按這個目的，天使之品級是按自然天賦而分。另一方面，是看眾天使之超出其天性能力的目的，即是看見天主之本體，及永恆不渝地享受祂的聖善;只有靠恩寵才能達到這個目的。從這個目的之角度來看，天使之品級的區分，其完成是根據恩寵，但在配備或條件上是根樣自然秉賦;因為天使們的恩寵是按其自然承受能力而分配的，與人間之情形不一樣，這在前面第六十二題第六節釋疑3.已經說過了。故此，人間的品級只是按恩寵神恩而分，不是根據天性。",
+      "after": "我解答如下：治理之秩序，也就是接受統制之羣眾的秩序，是看目的而定。可以從兩方面去看天使之目的。一是根據其自然秉賦，其目的在於以自然的知識和愛情認識愛慕天主。按這個目的，天使之品級是按自然天賦而分。另一方面，是看眾天使之超出其天性能力的目的，即是看見天主之本體，及永恆不渝地享受祂的聖善；只有靠恩寵才能達到這個目的。從這個目的之角度來看，天使之品級的區分，其完成是根據恩寵，但在配備或條件上是根據自然秉賦；因為天使們的恩寵是按其自然承受能力而分配的，與人間之情形不一樣，這在前面第六十二題第六節釋疑3.己經說過了。故此，人間的品級只是按恩寵神恩而分，不是根據天性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "秩序可是",
+          "after": "秩序，是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "根樣",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a004.general",
+      "article": 4,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        1627
+      ],
+      "before": "由此可知各質疑之答案。",
+      "after": "由此可知各質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "天使之品級的命名是否適當",
+      "after": "天使之品級的命名是否適當",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "天使之品級的命名似乎不適當。因為:",
+      "after": "天使之品級的命名似乎不適當。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "所有的天上之精神體都稱為天使，也都稱為天上的異能者(Virtutes caelestes;狄奧尼修，(《上天階級論》第五章)。但是共同的名稱不該用為某些天(吏的專有名稱。所以將一個品級命名為天使，將另一個品級命名為異能者，是不適當的。",
+      "after": "所有的天上之精神體都稱為天使，也都稱為天上的異能者(Virtutes caelestes；狄奧尼修，《上天階級論》第五章)。但是共同的名稱不該用為某些天使的專有名稱。所以將一個品級命名為天使，將另一個品級命名為異能者，是不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，(《",
+          "after": "，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "此外，是主或主的身分，乃是天主所專有的，就如《聖詠》第九十九篇3節說的，「你們應該明起主就是天主」。所以，天上之精神體的一個品級稱為「主宰者或宰制者」(Dominationes)，是不適當的ο",
+      "after": "此外，是主或主的身分，乃是天主所專有的，就如《聖詠》第九十九篇3節說的，「你們應該明認主就是天主」。所以，天上之精神體的一個品級稱為「主宰者或宰制者」(Dominationes)，是不適當的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "明起",
+          "after": "明認",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的ο",
+          "after": "的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "此外，宰制者之名稱似乎是關於治理的。但是「率領者」與「掌權者」也是一樣。所以用這三個名稱指三個品級，是不適當的。",
+      "after": "此外，宰制者之名稱似乎是關於治理的。但是「率領者」與「掌權者」也是一樣。所以用這三個名稱指三個品級，是不適當的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "此外，「總領天使」意思有如是指天使之首領。所以這名稱該用來指「率領者」'而不該指別的品級。",
+      "after": "此外，「總領天使」意思有如是指天使之首領。所以這名稱該用來指「率領者」，而不該指別的品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "領者」'",
+          "after": "領者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.arg5",
+      "article": 5,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "此外，「色辣芬」這名稱是從「熾熱」來的，這是屬於愛德的;「革魯賓」這名稱是從「知識」來的。但是愛德及知識是天使們共有的方賦。所以不該用為特別品級的名稱。",
+      "after": "此外，「色辣芬」這名稱是從「熾熱」來的，這是屬於愛德的；「革魯賓」這名稱是從「知識」來的。但是愛德及知識是天使們共有的才賦。所以不該用為特別品級的名稱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方賦",
+          "after": "才賦",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.arg6",
+      "article": 5,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        1628
+      ],
+      "before": "此外，座位就是席位的意思。但是習慣上說天主是坐於有理性的受造物之上，因為有理性的受造物認識並愛慕天主。所以，「革魯賓」和「色辣芬」的品級之外，不該另有「上座者」(Throni)這一品級。可見天使之品級的命名不適當。",
+      "after": "此外，座位就是席位的意思。但是習慣上說天主是坐於有理性的受造物之上，因為有理性的受造物認識並愛慕天主。所以，「革魯賓」和「色辣芬」的品級之外，不該另有「上座者」(Throni)這一品級。可見天使之品級的命名不適當。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1628,
+        1629
+      ],
+      "before": "這有聖經的權威，聖經上是這樣稱呼的。色辣芬是《依撒意亞》第六章2節用的名稱;革魯賓是《厄則克耳》第十章15節的名稱:上座者是《哥羅森書》第一章的節的名稱;宰制者、異能者、掌權者，及率領者，是《厄弗所書》第一章21節的名稱;《猶達書》第9節有總領天使之名稱。天使之名稱散見聖經各處。",
+      "after": "這有聖經的權威，聖經上是這樣稱呼的。色辣芬是《依撒意亞》第六章2節用的名稱；革魯賓是《厄則克耳》第十章15節的名稱：上座者是《哥羅森書》第一章16節的名稱；宰制者、異能者、掌權者，及率領者，是《厄弗所書》第一章21節的名稱；《猶達書》第9節有總領天使之名稱。天使之名稱散見聖經各處。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章的節",
+          "after": "第一章16節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1629,
+        1630
+      ],
+      "before": "我解答如下:按狄奧尼11多在《上天(天使)階級論》第七章所說的，關於天使之品級的名稱，要知道「每一品級的專有名稱，是指各品級之特性」。為知道每一品級的特性，貝IJ要知道，一物之存在於有等次的東西中，有三種方式，即是:以特性或特質的方式，以超等的方式，及以分有的方式。所謂一物以特性的方式存在於某東西中，是指與該東西之天性相稱相等。以超等的方式，是指那歸於某東西的，{且於其所歸於的東西，但以超等的方式適宜於該東西;就如第十三題第二節關於稱謂天主的那些名稱曾說過的。以分有的方式，是指那歸於某東西的，不是圓滿地在該東西內，而是隻以殘缺的方式，例如:聖人以分有的方式可以被稱為神。如果一個東西該用能代表其特性的名稱來命名，不該根據它殘缺地所分有者，也不該根據那超等者;而該根據那與東西本身相稱中目等者。例如，要想正確地指稱人，該說他是「有理性的本體或自立體」'而不該說他是有「智性的本體」;後者是專指天使的名稱，因為單純的領悟是天使所固有的特性，人只是分有智性。也不可說人是「有感性的本體」'這是禽獸的專有名稱，因為感官是低於人之所專有的，是以超出其他動物的方式歸於人。\n關於天使之品級，要知道精神性的秉賦都是天使們所共有的，但是高級天使比低級天使所具有的豐厚。既然這些秉賦彼此之間也有等次，因此高級天使是以特i生方式其有高級秉賦，低級天使是以分有方式;反過來說，低級天使是以特性方式具有低級秉賦，高級天使則是以超等方式。所以是用高級秉賦稱呼高的品級。\n所以，狄奧尼修是按天使與其精神性秉賦之關係'來解釋品級之名稱。而教宗額我略一世在解釋這些名稱時，貝1]似乎比較注重外表之職務。他說: 「傳報小事的稱為天使，傳報大事的稱為總領天使，行奇蹟的稱為異能者，抵抗惡勢力的稱為掌權者，當善良之精神體的首頓的稱為率領者。」(《福音論贊》卷二第三十四篇)",
+      "after": "我解答如下：按狄奧尼修在《上天(天使)階級論》第七章所說的，關於天使之品級的名稱，要知道「每一品級的專有名稱，是指各品級之特性」。為知道每一品級的特性，則要知道，一物之存在於有等次的東西中，有三種方式，即是：以特性或特質的方式，以超等的方式，及以分有的方式。所謂一物以特性的方式存在於某東西中，是指與該東西之天性相稱相等。以超等的方式，是指那歸於某東西的，低於其所歸於的東西，但以超等的方式適宜於該東西；就如第十三題第二節關於稱謂天主的那些名稱曾說過的。以分有的方式，是指那歸於某東西的，不是圓滿地在該東西內，而是只以殘缺的方式，例如：聖人以分有的方式可以被稱為神。如果一個東西該用能代表其特性的名稱來命名，不該根據它殘缺地所分有者，也不該根據那超等者；而該根據那與東西本身相稱相等者。例如，要想正確地指稱人，該說他是「有理性的本體或自立體」，而不該說他是有「智性的本體」；後者是專指天使的名稱，因為單純的領悟是天使所固有的特性，人只是分有智性。也不可說人是「有感性的本體」，這是禽獸的專有名稱，因為感官是低於人之所專有的，是以超出其他動物的方式歸於人。\n關於天使之品級，要知道精神性的秉賦都是天使們所共有的，但是高級天使比低級天使所具有的豐厚。既然這些秉賦彼此之間也有等次，因此高級天使是以特性方式具有高級秉賦，低級天使是以分有方式；反過來說，低級天使是以特性方式具有低級秉賦，高級天使則是以超等方式。所以是用高級秉賦稱呼高的品級。\n所以，狄奧尼修是按天使與其精神性秉賦之關係，來解釋品級之名稱。而教宗額我略一世在解釋這些名稱時，則似乎比較注重外表之職務。他說：「傳報小事的稱為天使，傳報大事的稱為總領天使，行奇蹟的稱為異能者，抵抗惡勢力的稱為掌權者，當善良之精神體的首領的稱為率領者。」(《福音論贊》卷二第三十四篇)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尼11多",
+          "after": "尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{且於",
+          "after": "低於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而是隻以",
+          "after": "而是只以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中目等",
+          "after": "相等",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "立體」'",
+          "after": "立體」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本體」'",
+          "after": "本體」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "特i生",
+          "after": "特性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方式其有",
+          "after": "方式具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "首頓",
+          "after": "首領",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1630
+      ],
+      "before": "「天使」是「報(言者」的意思。天上的一切精神體，就其揭示有關天主的事來說，皆稱為天使。但是高級天使的揭示有其高超之處，故用以命名高級之品級。最低的天使除一般普遍的揭示外沒有出思的地方，故此便以單純之揭示當其名稱。因而就如狄奧尼修在《上天(天使)階級論》第五章所說的，共同名稱便被用為最低品級的專名。或者也可以說，最低品級特別稱為天使，因為他們直接向我們報訊。\n「能力」(virtus)可以有兩種意義:一般的意義是指在本體與功用之悶的東西。按這意義，天上的精神體皆可稱為天上的能力，正如他們也可稱為天上的本體。另一種意義，是指出奇或異常的能力。按這意義便為一個品級之專有名稱。是以狄奧尼修在《上天(天使)階級論》第八章說: 「異能者(Virtus)之名桶，是指一種雄壯和大無畏的勇氣」'首先用以實現他們分內的神聖任務，其次用以承受天主的恩賦。所以是指他們以無畏的精神，完成他們的神聖使命一一這似乎是屬於心神之勇氣方面的。",
+      "after": "「天使」是「報信者」的意思。天上的一切精神體，就其揭示有關天主的事來說，皆稱為天使。但是高級天使的揭示有其高超之處，故用以命名高級之品級。最低的天使除一般普遍的揭示外沒有出眾的地方，故此便以單純之揭示當其名稱。因而就如狄奧尼修在《上天(天使)階級論》第五章所說的，共同名稱便被用為最低品級的專名。或者也可以說，最低品級特別稱為天使，因為他們直接向我們報訊。\n「能力」(virtus)可以有兩種意義：一般的意義是指在本體與功用之間的東西。按這意義，天上的精神體皆可稱為天上的能力，正如他們也可稱為天上的本體。另一種意義，是指出奇或異常的能力。按這意義便為一個品級之專有名稱。是以狄奧尼修在《上天(天使)階級論》第八章說：「異能者(Virtus)之名稱，是指一種雄壯和大無畏的勇氣」，首先用以實現他們分內的神聖任務，其次用以承受天主的恩賦。所以是指他們以無畏的精神，完成他們的神聖使命——這似乎是屬於心神之勇氣方面的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "報(言者",
+          "after": "報信者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出思",
+          "after": "出眾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之悶",
+          "after": "之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "名桶",
+          "after": "名稱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "勇氣」'",
+          "after": "勇氣」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使命一一",
+          "after": "使命——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1630,
+        1631
+      ],
+      "before": "狄奧尼修在《神名論》第十二章說: 「主宰或宰制者(Dominatio)這名稱，以超等方式獨特地用以讚頌天主;但是以分有方式，聖經上也稱那些施恩給低級者的重要卓絕者為主宰者或宰制者。」故此狄奧尼修在《上天(天使)階級論》第八章說，宰制者之名稱，首先指「一種自由，即不受奴役驅使」像平民那樣，「並不受暴虐的壓迫」'像有時高貴人物也會遭遇到的。第二是指「嚴格不苟的管制，不容許任何奴役行為，也不容有壓迫屬下之暴虐行為」。第三是指「對在天主內的真正主權之嚮往及分享」。其實，任何品級之名稱都指其從天主所分有者，例如:異能者之名稱是指分有天主之大能;其餘可以類推。",
+      "after": "狄奧尼修在《神名論》第十二章說：「主宰或宰制者(Dominatio)這名稱，以超等方式獨特地用以讚頌天主；但是以分有方式，聖經上也稱那些施恩給低級者的重要卓絕者為主宰者或宰制者。」故此狄奧尼修在《上天(天使)階級論》第八章說，宰制者之名稱，首先指「一種自由，即不受奴役驅使」像平民那樣，「並不受暴虐的壓迫」，像有時高貴人物也會遭遇到的。第二是指「嚴格不苟的管制，不容許任何奴役行為，也不容有壓迫屬下之暴虐行為」。第三是指「對在天主內的真正主權之嚮往及分享」。其實，任何品級之名稱都指其從天主所分有者，例如：異能者之名稱是指分有天主之大能；其餘可以類推。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "壓迫」'",
+          "after": "壓迫」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1631
+      ],
+      "before": "宰詩IJ者、掌權者，及率領者之名稱，與治理之關係各有不同。因為主宰者的任務只是發命令該做什麼。為此教宗額我略一世說: 「有一隊天使稱為宰制者，因為別的該服從他們。」(《福音論贊》卷二第三十四篇)掌權者這個名稱指一種措施或規定，就如宗徒在《羅馬書》第十三章2節說的: 「誰反抗權柄，就是反抗天主的規定。」為此狄奧尼修說，掌權者之名稱，是指有關承受天主之命令，以及高級天使提攜督促低級者之神聖行動的安排(《上天階級論》第八章)。所以掌權者這一品級之任務，是安排屬下當做的事。至於率領者，按教宗額我略一世所說的，乃是「在其他的中間居首位」(《褔音論贊》卷二第三十四篇)，好似是領先執行所命令之事務的。故此，狄奧尼修在《上天(天使)階級論》第九章說，率領者之名稱，是指「在神聖組織中當領袖的」。那些領導他人的，在黑人中領先，是正式所謂的首領，就如《聖詠》第六十七篇26節說的:「首領與歌詠的人在前」 0",
+      "after": "宰制者、掌權者，及率領者之名稱，與治理之關係各有不同。因為主宰者的任務只是發命令該做什麼。為此教宗額我略一世說：「有一隊天使稱為宰制者，因為別的該服從他們。」(《福音論贊》卷二第三十四篇)掌權者這個名稱指一種措施或規定，就如宗徒在《羅馬書》第十三章2節說的：「誰反抗權柄，就是反抗天主的規定。」為此狄奧尼修說，掌權者之名稱，是指有關承受天主之命令，以及高級天使提攜督促低級者之神聖行動的安排(《上天階級論》第八章)。所以掌權者這一品級之任務，是安排屬下當做的事。至於率領者，按教宗額我略一世所說的，乃是「在其他的中間居首位」(《福音論贊》卷二第三十四篇)，好似是領先執行所命令之事務的。故此，狄奧尼修在《上天(天使)階級論》第九章說，率領者之名稱，是指「在神聖組織中當領袖的」。那些領導他人的，在眾人中領先，是正式所謂的首領，就如《聖詠》第六十七篇26節說的：「首領與歌詠的人在前」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "宰詩IJ",
+          "after": "宰制",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "黑人",
+          "after": "眾人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "前」 0",
+          "after": "前」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1631
+      ],
+      "before": "按狄奧尼修《上天階級論》第九章所說的，總領天使位居於率領者與天使之間。中間者與兩端者之一相比較，則好似是另一端，因為它兼有二者之性質:就如溫的與熱的相比是冷的，與冷的相比則是熱的。因此，總領天使就好似是「為首領的天使」:因為與天使相比，他們是首領;與率領者相比-他們則是天使。然而教宗額我略一世《福音論贊》卷二第三十四篇的講法，他們被稱為總頡天使，因為只統領天使這一品級，是傳報大事情的。率領者則統領一切執行天主之命令的天上的能力。",
+      "after": "按狄奧尼修《上天階級論》第九章所說的，總領天使位居於率領者與天使之間。中間者與兩端者之一相比較，則好似是另一端，因為它兼有二者之性質：就如溫的與熱的相比是冷的，與冷的相比則是熱的。因此，總領天使就好似是「為首領的天使」：因為與天使相比，他們是首領；與率領者相比，他們則是天使。然而教宗額我略一世《福音論贊》卷二第三十四篇的講法，他們被稱為總領天使，因為只統領天使這一品級，是傳報大事情的。率領者則統領一切執行天主之命令的天上的能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相比-",
+          "after": "相比，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "總頡",
+          "after": "總領",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad5",
+      "article": 5,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1631,
+        1632
+      ],
+      "before": "色辣芬之名稱不只是來自愛德，而且也是來自超等的或高度的愛德，「焚燒」或「熾熱」之名稱即含有此一意義。因此狄奧尼修在《上天(天使)階級論》第七章，是以火之性質來解釋色辣芬這個名稱﹒因為火具有高度的熱。我們可以從三方面去看火。第一，火立動態是一直向上的。這指色辣芬專心一志地嚮往天主。第二，火之積極能力，即熱力。而火中不只有熱，乃是有極高度的熱，其作用能力非常深入，能透入極微細的地方，非常強烈。這指色辣芬對屬下之作用極為強大，激發他們有同樣的熱火，並以火使他們完全淨化。第三，是看火之光明。這是指這類天使本身帶有不滅的光明，並完美地光照別的天使。\n革魯賓之名稱也是從一種超等的或高深的知識而來的，意思是「圓滿的知識」。狄奧尼修《上天階級論》第七章是從四方面去解釋:第一，對天主的完美認知;第二，受有完美的天主之光照;第三，他們在天主內看到來白天主的萬物之秩序的完美;第凹，將其握有之知識大量注輸給別的天使。",
+      "after": "色辣芬之名稱不只是來自愛德，而且也是來自超等的或高度的愛德，「焚燒」或「熾熱」之名稱即含有此一意義。因此狄奧尼修在《上天(天使)階級論》第七章，是以火之性質來解釋色辣芬這個名稱，因為火具有高度的熱。我們可以從三方面去看火。第一，火之動態是一直向上的。這指色辣芬專心一志地嚮往天主。第二，火之積極能力，即熱力。而火中不只有熱，乃是有極高度的熱，其作用能力非常深入，能透入極微細的地方，非常強烈。這指色辣芬對屬下之作用極為強大，激發他們有同樣的熱火，並以火使他們完全淨化。第三，是看火之光明。這是指這類天使本身帶有不滅的光明，並完美地光照別的天使。\n革魯賓之名稱也是從一種超等的或高深的知識而來的，意思是「圓滿的知識」。狄奧尼修《上天階級論》第七章是從四方面去解釋：第一，對天主的完美認知；第二，受有完美的天主之光照；第三，他們在天主內看到來自天主的萬物之秩序的完美；第四，將其握有之知識大量注輸給別的天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "名稱﹒",
+          "after": "名稱，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "火立動態",
+          "after": "火之動態",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a005.ad6",
+      "article": 5,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        1632,
+        1633
+      ],
+      "before": "上座者這一品級之高於較低的品級的地方，在於他們能直接在天主內看到神聖事物之理。但是革魯賓長於知識，色辣芬長於熱情。雖然在這兩種優長中包括有第三種優長，但這第三種優長，即上座者之優長，並不包括前兩種優長。故此上座者之品級有別於革魯賓及色辣芬之品級。因為一切東西的共同原理，是低級者的優長包括在高級者的優長中，反之則不然。\n狄奧尼修是比照物質界的座位來解釋上座者之名稱(《上天階級論》第七章)﹒可以分為四點。第一是位置，因為座位是高於平地的。那些被稱為上座者的天使，能夠升高至直接在天主內認知萬物之理。第二，物質座位有固定性，以使人在座位上是安定地坐著;這裡則正相反，是天主使天使固定。第三，座位承納坐在上面的人，並可將座上的人搬到別處。這些天使自身承納天主，並將天主運送給低級天使。第凹，是座位之形式:一面是敞開的，以容納人去坐。這些天使則敞開自己﹒敏於接納天主，為天主服務。",
+      "after": "上座者這一品級之高於較低的品級的地方，在於他們能直接在天主內看到神聖事物之理。但是革魯賓長於知識，色辣芬長於熱情。雖然在這兩種優長中包括有第三種優長，但這第三種優長，即上座者之優長，並不包括前兩種優長。故此上座者之品級有別於革魯賓及色辣芬之品級。因為一切東西的共同原理，是低級者的優長包括在高級者的優長中，反之則不然。\n狄奧尼修是比照物質界的座位來解釋上座者之名稱(《上天階級論》第七章)。可以分為四點。第一是位置，因為座位是高於平地的。那些被稱為上座者的天使，能夠升高至直接在天主內認知萬物之理。第二，物質座位有固定性，以使人在座位上是安定地坐著；這裡則正相反，是天主使天使固定。第三，座位承納坐在上面的人，並可將座上的人搬到別處。這些天使自身承納天主，並將天主運送給低級天使。第四，是座位之形式：一面是敞開的，以容納人去坐。這些天使則敞開自己，敏於接納天主，為天主服務。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第七章)﹒",
+          "after": "第七章)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自己﹒",
+          "after": "自己，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "各品級之排列是否適當",
+      "after": "各品級之排列是否適當",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "各品級之排列或等次(gradus)似乎不適當。因為:",
+      "after": "各品級之排列或等次(gradus)似乎不適當。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "領導者之品級該是最高的。但是宰制者、率領者，及掌權者，按名稱說是屬於領導地位的。所以這些該是品級中最高的。",
+      "after": "領導者之品級該是最高的。但是宰制者、率領者，及掌權者，按名稱說是屬於領導地位的。所以這些該是品級中最高的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "此外，一個品級與天主愈接近，也就愈高。但是上座者似乎是離天主最近的，因為沒有比座位與坐在上由者更接近的。所以，上座者之品級是最高的。",
+      "after": "此外，一個品級與天主愈接近，也就愈高。但是上座者似乎是離天主最近的，因為沒有比座位與坐在上面者更接近的。所以，上座者之品級是最高的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "上由者",
+          "after": "上面者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "此外，知識先於愛情，而理智也似乎高於意志。所以革魯賓之品級似乎比色辣芬之品級高。",
+      "after": "此外，知識先於愛情，而理智也似乎高於意志。所以革魯賓之品級似乎比色辣芬之品級高。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a006.arg4",
+      "article": 6,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "此外，教宗額我略一世將率領者列在掌權者之上(《福音論贊》卷二第三十四篇)。所以，率領者不是直接在總領天使之上，像狄奧尼修《上天階級論》第九章所說的。",
+      "after": "此外，教宗額我略一世將率領者列在掌權者之上(《福音論贊》卷二第三十四篇)。所以，率領者不是直接在總領天使之上，像狄奧尼修《上天階級論》第九章所說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1633
+      ],
+      "before": "狄奧尼修《上天階級論》第七等章將色辣芬列為第一等級(hierarchia)中的為首的，革魯賓為居中的，而上座者為殿後的;在第二等級中以宰制者居首位，異能者居中位，掌權者殿後;在最末等級中以率領者居先，總領天使居中，天使殿後。",
+      "after": "狄奧尼修《上天階級論》第七等章將色辣芬列為第一等級(hierarchia)中的為首的，革魯賓為居中的，而上座者為殿後的；在第二等級中以宰制者居首位，異能者居中位，掌權者殿後；在最末等級中以率領者居先，總領天使居中，天使殿後。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1633,
+        1634,
+        1635,
+        1636
+      ],
+      "before": "我解答如下:教宗額我略一世及狄奧尼修都曾排列天使之品級次序，除了關於率領者和異能者外，其他的次序都相同。狄奧尼修是把異能者放在宰制者之下，早日掌權者之上，將率領者放在掌權者之下，及總領天使之上;教宗額我略一世買Ij將率領者放在宰制者及掌權者之間，將異能者放在掌權者及總領天使之間。這兩種排列法都是以宗徒為依據。他在《厄弗所書》第一章20及21節，以從下而上的方式列舉居中之品級說:天主使基督「在天上坐在自己的右邊，超乎一切率領者、掌權者、其能者、宰制者之上」;這裡異能者是在掌權者及宰制者之間，合於狄奧尼修的排法。但是在《哥羅森書》第一章16節，他以由上而下的次序列舉這些品級時說: 「或是上座者，或是宰制者，或是率領者，或是掌權者，都是藉著祂並在祂內受造的。」這裡率領者是在宰制者和掌權者之間，合於教宗額我略一世的排法。\n我們且先看狄奧尼修之排法的理由。j重要知道前面第一節曾說過的，即第一等級(hierarchia)是在天主內見萬物之理;第二等級是在普遍性原因中見萬物之理;第三等級是在指定個別效果中見萬物之理。又因了天主不只是天使們之職務的目的，也是整個受造界的目的，所以第一等級的任務是思慮目的;第二等級的任務是普遍計劃該做的事情;第三等級的任務是將計劃貼用到效果，即事情之執行。在每件事上顯然都有這三點。為此，狄奧尼修既是根據品級(ordo)之名稱而看其性質，遂把其名稱與天主相闊的品級置於第一等級，即:色辣芬，革魯賓，及上座者。他將其名稱與一般之治理或安排有闊的品級置於第二等級，.tlD:宰制者，異能者，及掌權者。他將其名稱與事情之執行相關的品級置於第三等級，即:率領者，天使，及總領天使。\n關於目的，可以分為三層事情:第一，注意目的;第二，對目的獲得完備的認知;第三，將意向固定於目的。其中第二步比第一步多出一層事情，第三步又比前兩步多。因了天主之為受造物之目的，就像將領之為軍隊之目的，正如《形上學》卷十二第十章所說的，在人間的事情中可以找到與這種層次相似的情形:有的人地位高，可以親密地到國王或將軍身邊去;有的人更進一步，能知道國王或將葷的心事;別的更親近，能常留在他身邊，像親人一樣。我們可以根據這種類比，來確定第一等級之品級的排列法。因為上座者能在天主內直接認知萬物之理，是親身接近天主:這是第一等級所通有的能力，革魯賓且以高超的方式得知天主之祕密;色辣芬高於一切天使之上，因為得與天主結合為一。所以，便以第一等級所共有者，當上座者之品級的名稱;正如是以天上精神體所共有者，當作天使之品級的名稱。\n關於治理也可以分為三層事情:第一是確定該做的事情，這是宰制者專有的任務;第二是提供實現之能力，這是異能者的任務;第三，是安排怎樣實現，以及由誰實現所命令的事情，這是掌權者的任務。\n天使任務之執行在於傳報天主的事i育。為執行每一件行動，要有帶頭工作並領導他人的，就如:唱歌時的領唱者;及作戰時帶領及指揮別人的將領，這是率領者的任務。別的只是執行者，這是天使的任務。有的是居於二者之間的;如第五節",
+      "after": "我解答如下：教宗額我略一世及狄奧尼修都曾排列天使之品級次序，除了關於率領者和異能者外，其他的次序都相同。狄奧尼修是把異能者放在宰制者之下，和掌權者之上，將率領者放在掌權者之下，及總領天使之上；教宗額我略一世則將率領者放在宰制者及掌權者之間，將異能者放在掌權者及總領天使之間。這兩種排列法都是以宗徒為依據。他在《厄弗所書》第一章20及21節，以從下而上的方式列舉居中之品級說：天主使基督「在天上坐在自己的右邊，超乎一切率領者、掌權者、異能者、宰制者之上」；這裡異能者是在掌權者及宰制者之間，合於狄奧尼修的排法。但是在《哥羅森書》第一章16節，他以由上而下的次序列舉這些品級時說：「或是上座者，或是宰制者，或是率領者，或是掌權者，都是藉著祂並在祂內受造的。」這裡率領者是在宰制者和掌權者之間，合於教宗額我略一世的排法。\n我們且先看狄奧尼修之排法的理由。這要知道前面第一節曾說過的，即第一等級(hierarchia)是在天主內見萬物之理；第二等級是在普遍性原因中見萬物之理；第三等級是在指定個別效果中見萬物之理。又因了天主不只是天使們之職務的目的，也是整個受造界的目的，所以第一等級的任務是思慮目的；第二等級的任務是普遍計劃該做的事情；第三等級的任務是將計劃貼用到效果，即事情之執行。在每件事上顯然都有這三點。為此，狄奧尼修既是根據品級(ordo)之名稱而看其性質，遂把其名稱與天主相關的品級置於第一等級，即：色辣芬，革魯賓，及上座者。他將其名稱與一般之治理或安排有關的品級置於第二等級，即：宰制者，異能者，及掌權者。他將其名稱與事情之執行相關的品級置於第三等級，即：率領者，天使，及總領天使。\n關於目的，可以分為三層事情：第一，注意目的；第二，對目的獲得完備的認知；第三，將意向固定於目的。其中第二步比第一步多出一層事情，第三步又比前兩步多。因了天主之為受造物之目的，就像將領之為軍隊之目的，正如《形上學》卷十二第十章所說的，在人間的事情中可以找到與這種層次相似的情形：有的人地位高，可以親密地到國王或將軍身邊去；有的人更進一步，能知道國王或將軍的心事；別的更親近，能常留在他身邊，像親人一樣。我們可以根據這種類比，來確定第一等級之品級的排列法。因為上座者能在天主內直接認知萬物之理，是親身接近天主：這是第一等級所通有的能力，革魯賓且以高超的方式得知天主之祕密；色辣芬高於一切天使之上，因為得與天主結合為一。所以，便以第一等級所共有者，當上座者之品級的名稱；正如是以天上精神體所共有者，當作天使之品級的名稱。\n關於治理也可以分為三層事情：第一是確定該做的事情，這是宰制者專有的任務；第二是提供實現之能力，這是異能者的任務；第三，是安排怎樣實現，以及由誰實現所命令的事情，這是掌權者的任務。\n天使任務之執行在於傳報天主的事情。為執行每一件行動，要有帶頭工作並領導他人的，就如：唱歌時的領唱者；及作戰時帶領及指揮別人的將領，這是率領者的任務。別的只是執行者，這是天使的任務。有的是居於二者之間的；如第五節釋疑4.己說過的，這是總領天使的職務。這種排列品級的方法有其相當的理由。因為較低品級中的最高者常與較高品級中的最低者相近似；就如最低的動物與植物相差很少。第一個或為首的排列或順序屬於天主三位，以聖神為終點，祂是發出的愛；(天使中)第一等級的最高品級與祂相近似，是以愛情之焚燒命名。第一等級的最低品級是上座者，按名稱與宰制者相近似。因為按教宗額我略一世《福音論贊》卷二第三十四篇說的：上座者是「天主用以操使其判斷者」，他們從天主得到適宜於其任務的啟發，為直接啟發第二等級，此等級則是安排天主之使命的。掌權者之品級又與率領者之品級相近似，因為掌權者的任務是將使命傳給屬下，這使命遂即在率領者之名稱中表示出來。因為他們是領頭執行天主之使命者，就好像是在監督萬民及國家的治理，這是天主之使命中最主要的和為首的，因為：「民族之利益比一個私人的利益神聖」(亞里斯多德，《倫理學》卷一第二章)。是以《達尼爾》第十章13三節說：「波斯國的率領者(護守天使)卻反對我。」教宗額我略一世排列品級的方法也有道理。宰制者既然是決定和命令有關天主之使命的，在其以下之品級的排列，就是按執行天主之使命所涉及的對象的次序排的。按奧斯定在《論天主聖三》卷三第四章所說的，「物體或形體之治理有一種次序，低級者受高級者之治理，而一切物體又都受精神界受造物之治理；惡的精神體受善的精神體之治理」。所以在宰制者以下的第一個品級是率領者，善的精神體也受他們支配。然後是掌權者，是藉以抵制惡的精神體的；正似《羅馬書》第十三章3節說的，地上的權柄是用以制裁惡人的。再下面就是異能者，具有超出形體界的行奇蹟之能力。最後是總領天使及天使，他們或是傳報給人超出理性範圍的大事，或是傳報理性範圍所能涵蓋的小事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "早日掌權",
+          "after": "和掌權",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其能者",
+          "after": "異能者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "j重要知道",
+          "after": "這要知道",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相闊",
+          "after": "相關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有闊",
+          "after": "有關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ".tlD:",
+          "after": "即：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "將葷",
+          "after": "將軍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "事i育",
+          "after": "事情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如第五節",
+          "after": "如第五節釋疑4.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如第五節釋疑4.",
+          "after": "如第五節釋疑4.己說過的，這是總領天使的職務。這種排列品級的方法有其相當的理由。因為較低品級中的最高者常與較高品級中的最低者相近似;就如最低的動物與植物相差很少。第一個或為首的排列或順序屬於天主三位，以聖神為終點，祂是發出的愛;(天使中)第一等級的最高品級與祂相近似，是以愛情之焚燒命名。第一等級的最低品級是上座者，按名稱與宰制者相近似。因為按教宗額我略一世《福音論贊》卷二第三十四篇說的:上座者是「天主用以操使其判斷者」，他們從天主得到適宜於其任務的啟發，為直接啟發第二等級，此等級則是安排天主之使命的。掌權者之品級又與率領者之品級相近似，因為掌權者的任務是將使命傳給屬下，這使命遂即在率領者之名稱中表示出來。因為他們是領頭執行天主之使命者，就好像是在監督萬民及國家的治理，這是天主之使命中最主要的和為首的，因為: 「民族之利益比一個私人的利益神聖」(亞里斯多德，《倫理學》卷一第二章)。是以《達尼爾》第十章13三節說: 「波斯國的率領者(護守天使)卻反對我。」教宗額我略一世排列品級的方法也有道理。宰制者既然是決定和命令有關天主之使命的，在其以下之品級的排列，就是按執行天主之使命所涉及的對象的次序排的。按奧斯定在《論天主聖三》卷三第四章所說的，「物體或形體之治理有一種次序，低級者受高級者之治理，而一切物體又都受精神界受造物之治理;惡的精神體受善的精神體之治理」。所以在宰制者以下的第一個品級是率領者，善的精神體也受他們支配。然後是掌權者，是藉以抵制惡的精神體的;正似《羅馬書》第十三章3節說的，地上的權柄是用以制裁惡人的。再下面就是異能者，具有超出形體界的行奇蹟之能力。最後是總領天使及天使，他們或是傳報給人超出理性範圍的大事，或是傳報理性範圍所能涵蓋的小事。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1636
+      ],
+      "before": "",
+      "after": "在天使中，隸屬於天主比帶領低級高貴，後者並且是來自前者。所以由領導而得名之品級不是最高的，以歸向天主而得名的品級才是最高的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "在天使中，隸屬於天主比帶領低級高貴，後者並且是來自前者。所以由領導而得名之品級不是最高的，以歸向天主而得名的品級才是最高的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1636
+      ],
+      "before": "",
+      "after": "上座者之名稱所指的那種親密關係，也是革魯賓和色辣芬所共有的，而且如正解己說過的，其親密程度更高。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "上座者之名稱所指的那種親密關係，也是革魯賓和色辣芬所共有的，而且如正解己說過的，其親密程度更高。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1636
+      ],
+      "before": "",
+      "after": "按前面第十六題第一節、第二十七題第三節所說的，認知乃是在於被認知者在認知者內；愛則在於愛慕者與被愛的東西合而為一。高級者之自身比其在低級者中的高貴；低級者之在高級者中者比其在自身者高貴。為此，認知低級者高於愛低級者：愛高級者，特別是愛天主，則高於認知高級者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "按前面第十六題第一節、第二十七題第三節所說的，認知乃是在於被認知者在認知者內;愛則在於愛慕者與被愛的東西合而為一。高級者之自身比其在低級者中的高貴;低級者之在高級者中者比其在自身者高貴。為此，認知低級者高於愛低級者:愛高級者，特別是愛天主，則高於認知高級者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a006.ad4",
+      "article": 6,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1636,
+        1637
+      ],
+      "before": "己說過的，這是總領天使的職務。\n這種排列品級的方法有其相當的理由。因為較低品級中的最高者常與較高品級中的最低者相近似;就如最低的動物與植物相差很少。第一個或為首的排列或順序屬於天主三位，以聖神為終點，祂是發出的愛;(天使中)第一等級的最高品級與祂相近似，是以愛情之焚燒命名。第一等級的最低品級是t座者，按名稱與宰制者相近似。因為按教宗額我略一世《褔音論贊》卷二第三十四篇說的:上座者是「天主用以操使其判斷者」'他們從天主得到適宜於其任務的啟發，為直接啟發第二等級，此等級則是安排天主之使命的。掌權者之品級又與率領者之品級相近似，因為掌權者的任務是將使命傳給屬下，這使命遂即在率領者之名稱中表示出來。因為他們是領頭執行天主之使命者，就好像是在監督萬民及國家的治理，這是天主之使命中最主要的和為首的，因為: 「民族之利益比一個私人的利益神聖」(亞里斯多德，《倫理學》卷一第二章)。是以《達尼爾》第十章13三節說: 「波斯國的率領者(護守天使)卻反對我。」\n教宗額我略一世排列品級的方法也有道理。宰制者既然是決定和命令有關天主之使命的，在其以下之品級的排列，就是按執行天主之使命所涉及的對象的次序排的。按奧斯定在《論天主聖三》卷三第四章所說的，「物體或形體之治理有一種次序，低級者受高級者之治理，而一切物體又都受精神界受造物之治理;惡的精神體受善的精神體之治理」。所以在宰制者以下的第一個品級是率領者，善的精神體也受他們支配。然後是掌權者，是藉以抵制惡的精神體的;正似《羅馬書》第十三章3節說的，地上的權柄是用以制裁惡人的。再下面就是異能者，具有超出形體界的行奇蹟之能力。最後是總領天使及天使，他們或是傳報給人超出理性範圍的大事，或是傳報理性範圍所能涵蓋的小事。釋疑1.在天使中，隸屬於天主比帶領低級高貴，後者並且是來自前者。所以由領導而得名之品級不是最高的，以歸向天主而得名的品級纔是最高的。\n2.上座者之名稱所指的那種親密關係，也是革魯賓和色辣芬所共有的，而且如正解己說過的，其親密程度更高。\n3.按前面第十六題第一節、第二十七題第三節所說的，認知乃是在於被認知者在認知者內;愛則在於愛慕者與被愛的東西合而為一。高級者之自身比其在低級者中的高貴;低級者之在高級者中者比其在自身者高貴。為此，認知低級者高於愛低級者:愛高級者，特別是愛天主，貝IJ高於認知高級者。\n4.如果細看狄奧尼修及教宗額我略一世的品級之排列，可以看出在實質上二者所差無幾。教宗額我略一世解釋率領者之名稱，說是因為他們「領導善的精神體」;而這與異能者有相似處，因為異能者之名稱也表示一種勇敢，因而能使下級天使有效地執行天主之使命。此外，教宗額我略一世所說的異能者﹒則相當於狄奧尼修的率領者。因為在天主的使命中，為首的是行奇蹟，因為這為總領天使及天使之傳報開闊途徑。",
+      "after": "\n\n\n\n\n如果細看狄奧尼修及教宗額我略一世的品級之排列，可以看出在實質上二者所差無幾。教宗額我略一世解釋率領者之名稱，說是因為他們「領導善的精神體」；而這與異能者有相似處，因為異能者之名稱也表示一種勇敢，因而能使下級天使有效地執行天主之使命。此外，教宗額我略一世所說的異能者，則相當於狄奧尼修的率領者。因為在天主的使命中，為首的是行奇蹟，因為這為總領天使及天使之傳報開闊途徑。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "己說過的，這是總領天使的職務。\n這種排列品級的方法有其相當的理由。因為較低品級中的最高者常與較高品級中的最低者相近似;就如最低的動物與植物相差很少。第一個或為首的排列或順序屬於天主三位，以聖神為終點，祂是發出的愛;(天使中)第一等級的最高品級與祂相近似，是以愛情之焚燒命名。第一等級的最低品級是t座者，按名稱與宰制者相近似。因為按教宗額我略一世《褔音論贊》卷二第三十四篇說的:上座者是「天主用以操使其判斷者」'他們從天主得到適宜於其任務的啟發，為直接啟發第二等級，此等級則是安排天主之使命的。掌權者之品級又與率領者之品級相近似，因為掌權者的任務是將使命傳給屬下，這使命遂即在率領者之名稱中表示出來。因為他們是領頭執行天主之使命者，就好像是在監督萬民及國家的治理，這是天主之使命中最主要的和為首的，因為: 「民族之利益比一個私人的利益神聖」(亞里斯多德，《倫理學》卷一第二章)。是以《達尼爾》第十章13三節說: 「波斯國的率領者(護守天使)卻反對我。」\n教宗額我略一世排列品級的方法也有道理。宰制者既然是決定和命令有關天主之使命的，在其以下之品級的排列，就是按執行天主之使命所涉及的對象的次序排的。按奧斯定在《論天主聖三》卷三第四章所說的，「物體或形體之治理有一種次序，低級者受高級者之治理，而一切物體又都受精神界受造物之治理;惡的精神體受善的精神體之治理」。所以在宰制者以下的第一個品級是率領者，善的精神體也受他們支配。然後是掌權者，是藉以抵制惡的精神體的;正似《羅馬書》第十三章3節說的，地上的權柄是用以制裁惡人的。再下面就是異能者，具有超出形體界的行奇蹟之能力。最後是總領天使及天使，他們或是傳報給人超出理性範圍的大事，或是傳報理性範圍所能涵蓋的小事。釋疑1.在天使中，隸屬於天主比帶領低級高貴，後者並且是來自前者。所以由領導而得名之品級不是最高的，以歸向天主而得名的品級纔是最高的。\n2.上座者之名稱所指的那種親密關係，也是革魯賓和色辣芬所共有的，而且如正解己說過的，其親密程度更高。\n3.按前面第十六題第一節、第二十七題第三節所說的，認知乃是在於被認知者在認知者內;愛則在於愛慕者與被愛的東西合而為一。高級者之自身比其在低級者中的高貴;低級者之在高級者中者比其在自身者高貴。為此，認知低級者高於愛低級者:愛高級者，特別是愛天主，貝IJ高於認知高級者。\n4.如果細看狄奧尼修及教宗額我略一世的品級之排列，可以看出在實質上二者所差無幾。教宗額我略一世解釋率領者之名稱，說是因為他們「領導善的精神體」;而這與異能者有相似處，因為異能者之名稱也表示一種勇敢，因而能使下級天使有效地執行天主之使命。此外，教宗額我略一世所說的異能者﹒則相當於狄奧尼修的率領者。因為在天主的使命中，為首的是行奇蹟，因為這為總領天使及天使之傳報開闊途徑。",
+          "after": "\n\n\n\n\n如果細看狄奧尼修及教宗額我略一世的品級之排列，可以看出在實質上二者所差無幾。教宗額我略一世解釋率領者之名稱，說是因為他們「領導善的精神體」;而這與異能者有相似處，因為異能者之名稱也表示一種勇敢，因而能使下級天使有效地執行天主之使命。此外，教宗額我略一世所說的異能者，則相當於狄奧尼修的率領者。因為在天主的使命中，為首的是行奇蹟，因為這為總領天使及天使之傳報開闊途徑。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "在公審判之日以後是否仍有品級",
+      "after": "在公審判之日以後是否仍有品級",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "在公審判之日以後，似乎不保有品級。因為:",
+      "after": "在公審判之日以後，似乎不保有品級。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "宗徒在《格林多前書》第十五章24節說，基督將消滅一切率領者和一切掌權者，把自己的王權交於天主父一一這是在世界窮盡時的事。按同理，其他一切品級在那境界也都要消滅。",
+      "after": "宗徒在《格林多前書》第十五章24節說，基督將消滅一切率領者和一切掌權者，把自己的王權交於天主父——這是在世界窮盡時的事。按同理，其他一切品級在那境界也都要消滅。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主父一一",
+          "after": "天主父——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "此外，各品級之天使的任務是淨化、啟發，和成全。但是在公審判以後，天使不再淨化、啟發，和成全別的天便，因為在知識方面不再有進步。所以，保留天使之品級乃是多餘的事。",
+      "after": "此外，各品級之天使的任務是淨化、啟發，和成全。但是在公審判以後，天使不再淨化、啟發，和成全別的天使，因為在知識方面不再有進步。所以，保留天使之品級乃是多餘的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "此外，宗徒在《希伯來書》第一章14節說: 「眾天使豈不都是奉職的神，被派遣伶那些要承受救恩的人服務嗎?」由此可見，天使的職務是為領導人類獲得救恩的。但是，被選者都是在公審判以前獲得救恩。所以，在公審判之日以後，不保留天使之職務及品級。",
+      "after": "此外，宗徒在《希伯來書》第一章14節說：「眾天使豈不都是奉職的神，被派遣給那些要承受救恩的人服務嗎?」由此可見，天使的職務是為領導人類獲得救恩的。但是，被選者都是在公審判以前獲得救恩。所以，在公審判之日以後，不保留天使之職務及品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "派遣伶",
+          "after": "派遣給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1637
+      ],
+      "before": "《民長紀》第五章20節說: 「星辰由天上參戰，自其軌道與息色辣交鋒。」按「註解」(聖經夾旬)的解釋，這裡指自力是天使。所以，天使們常保留其品級。",
+      "after": "《民長紀》第五章20節說：「星辰由天上參戰，自其軌道與息色辣交鋒。」按「註解」(聖經夾句)的解釋，這裡指的是天使。所以，天使們常保留其品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夾旬",
+          "after": "夾句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "指自力是",
+          "after": "指的是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1637,
+        1638
+      ],
+      "before": "我解答如下:關於天使之品級，可以分為兩點來看-­是等次或階層(gradus)之區分，一是職務之執行。按前面第四節所說的，天使之等次的區分，乃是根據恩寵及天性的差別。這兩種差別在天使中將永遠存在。因為，除非他們本身消滅，其天性上的差別是無法消除的;榮福上的差別也將永遠在他們內存在，這是來自以前之功績上的差~IJ。\n至於天使之職務的執行，在公審判之日以後，一部分將保留，→部分將消滅。關於引領人走向目的的那部分職務將取消，{旦與最後目的之獲得能相容的那部分職務則保留。就如各級軍人在戰爭中的職務‘與在勝利後的職務，也有所不同。",
+      "after": "我解答如下：關於天使之品級，可以分為兩點來看：一是等次或階層(gradus)之區分，一是職務之執行。按前面第四節所說的，天使之等次的區分，乃是根據恩寵及天性的差別。這兩種差別在天使中將永遠存在。因為，除非他們本身消滅，其天性上的差別是無法消除的；榮福上的差別也將永遠在他們內存在，這是來自以前之功績上的差別。\n至於天使之職務的執行，在公審判之日以後，一部分將保留，一部分將消滅。關於引領人走向目的的那部分職務將取消，但與最後目的之獲得能相容的那部分職務則保留。就如各級軍人在戰爭中的職務，與在勝利後的職務，也有所不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來看-­是",
+          "after": "來看：一是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "差~IJ",
+          "after": "差別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "→部分",
+          "after": "一部分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "職務‘",
+          "after": "職務，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1638
+      ],
+      "before": "在世界末日，率領者與掌權者之引領他人走向目的之職務將取消。因為既然達到了目的，便不必再追求目的。宗徒提出的也是這個理由，他說: 「在祂把自己的王權交於天主父時」'即是說，在引導信徒獲得享受天主的時候。",
+      "after": "在世界末日，率領者與掌權者之引領他人走向目的之職務將取消。因為既然達到了目的，便不必再追求目的。宗徒提出的也是這個理由，他說：「在祂把自己的王權交於天主父時」，即是說，在引導信徒獲得享受天主的時候。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "父時」'",
+          "after": "父時」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1638
+      ],
+      "before": "天使對別的天使之作用，可以比照在我們內的智性活動來看。在我們內有許多智性活動是按因果關係連在一起的，例如:我們經過許多中詞或媒詞以達tlJ-個結論。結論之認知，顯然繫於所有其前的中詞或前提，不只為獲致新知識是如此，為保存知識也是如此。因為一人若忘了某些前提，他對結論固然能有意見或信念，但不能有科學性的知識，因為他不知道前因後果。低級天使既然是靠高級天使之光而得知天主之事理，所以他們的知識也繫於高級天使之光，不只是為獲致新知識，而且也是為保存知識。在公審判以後，低級天使在認知事理上縱然不再有進步，並不因此便不再受高級天使之光照或啟發。",
+      "after": "天使對別的天使之作用，可以比照在我們內的智性活動來看。在我們內有許多智性活動是按因果關係連在一起的，例如：我們經過許多中詞或媒詞以達到一個結論。結論之認知，顯然繫於所有其前的中詞或前提，不只為獲致新知識是如此，為保存知識也是如此。因為一人若忘了某些前提，他對結論固然能有意見或信念，但不能有科學性的知識，因為他不知道前因後果。低級天使既然是靠高級天使之光而得知天主之事理，所以他們的知識也繫於高級天使之光，不只是為獲致新知識，而且也是為保存知識。在公審判以後，低級天使在認知事理上縱然不再有進步，並不因此便不再受高級天使之光照或啟發。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "達tlJ-個",
+          "after": "達到一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1638
+      ],
+      "before": "在公審判之日以後，人雖不再需要天使之引導為獲致救恩，但那些獲得救恩的人，仍將從天使之職務上得到一些啟發。",
+      "after": "在公審判之日以後，人雖不再需要天使之引導為獲致救恩，但那些獲得救恩的人，仍將從天使之職務上得到一些啟發。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "人是否被提升到天使之品級",
+      "after": "人是否被提升到天使之品級",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q108.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "人似乎不被提升到天使之品級(ordines)。因為:",
+      "after": "人似乎不被提升到天使之品級(ordines)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "人類的等級(hi巴τarchia)，乃是在天上之等級中最低者之下，正如天使中最低的等級是在中間的等級之下，而中間的等級是在為首的等級之下。但是，最低等級的天使總不被提升到中間等級或為首的等級。所以，人也不被提升到天使的品級。",
+      "after": "人類的等級(hierarchia)，乃是在天上之等級中最低者之下，正如天使中最低的等級是在中間的等級之下，而中間的等級是在為首的等級之下。但是，最低等級的天使總不被提升到中間等級或為首的等級。所以，人也不被提升到天使的品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "hi巴τarchia",
+          "after": "hierarchia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "此外，天使的各種品級都帶有某種職務，例如:保護人、行奇蹟、抵制魔鬼等;這些事似乎不適於聖者之靈魂。所以人不被提升到天使的品級。",
+      "after": "此外，天使的各種品級都帶有某種職務，例如：保護人、行奇蹟、抵制魔鬼等；這些事似乎不適於聖者之靈魂。所以人不被提升到天使的品級。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "此外，正如善天使引導人向善，魔鬼則可|人向惡，但是不能說惡人的靈魂將變成魔鬼。這是金口若望《瑪竇福音論贊》第二十八篇曾加以駁斥的主張。所以善人的靈魂似乎不被提升到天使的品級。",
+      "after": "此外，正如善天使引導人向善，魔鬼則引人向惡，但是不能說惡人的靈魂將變成魔鬼。這是金口若望《瑪竇福音論贊》第二十八篇曾加以駁斥的主張。所以善人的靈魂似乎不被提升到天使的品級。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可|人",
+          "after": "引人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1639
+      ],
+      "before": "在《瑪竇福音》第二十二章30節，主論聖人說:「他們好像在天上的天使一樣。」",
+      "after": "在《瑪竇福音》第二十二章30節，主論聖人說：「他們好像在天上的天使一樣。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1639,
+        1640
+      ],
+      "before": "我解答如下:前面第四及第七節已經說過，天使之品級的區分，一是按天性的情況，一是按恩寵的恩惠。若只從天性之等次方面看天使之品級，則人絕對不能被提升到天使的品級，因為天性上的差別是永存不替的。有人只看這方面，遂認為人絕對不能被提拔到與天使相等。但是，這是個錯誤的主張，因為與基督在《路加福音》第二十章36節的許諾衝突，祂說:人在復活以後，將與天上的天使相等。在品級的因素中，天性有如是質料部分，那圓滿形成(品級)的部分，是來自恩寵;而恩寵繫於天主之慷慨，而不繫於天性。是以，人憑恩寵能獲得{若大的榮耀，使人與各層次之天使相等。這就是所謂人被提升到天使的品級。\n但是有人說，並非所有得救的人，只有守童貞及有全德的人被提升到天使的品級;別的人則在天使之團體以外，另外構成自己的品級。但這不合於奧斯定的主張，他在《天主之城》卷十二第九章說: 「人與天使將來不構成兩個社圈，而是一個社圈，因為大家的真褔全在於與同一個天主相結合。」",
+      "after": "我解答如下：前面第四及第七節己經說過，天使之品級的區分，一是按天性的情況，一是按恩寵的恩惠。若只從天性之等次方面看天使之品級，則人絕對不能被提升到天使的品級，因為天性上的差別是永存不替的。有人只看這方面，遂認為人絕對不能被提拔到與天使相等。但是，這是個錯誤的主張，因為與基督在《路加福音》第二十章36節的許諾衝突，祂說：人在復活以後，將與天上的天使相等。在品級的因素中，天性有如是質料部分，那圓滿形成(品級)的部分，是來自恩寵；而恩寵繫於天主之慷慨，而不繫於天性。是以，人憑恩寵能獲得偌大的榮耀，使人與各層次之天使相等。這就是所謂人被提升到天使的品級。\n但是有人說，並非所有得救的人，只有守童貞及有全德的人被提升到天使的品級；別的人則在天使之團體以外，另外構成自己的品級。但這不合於奧斯定的主張，他在《天主之城》卷十二第九章說：「人與天使將來不構成兩個社團，而是一個社團，因為大家的真福全在於與同一個天主相結合。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{若大",
+          "after": "偌大",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "社圈",
+          "after": "社團",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1640
+      ],
+      "before": "i.前面第四節與第六十二題第六節已經說過，給天使的恩寵是按其天性之條件，給人的恩寵不是如此。因此，正如低級天使不能被提升到高級天使的自然階層，同樣也不能被提升到高級天使的白白賜予的或恩寵的階層。人則能在恩寵的階層上上升，而不能在自然或天性階層上上升。",
+      "after": "前面第四節與第六十二題第六節己經說過，給天使的恩寵是按其天性之條件，給人的恩寵不是如此。因此，正如低級天使不能被提升到高級天使的自然階層，同樣也不能被提升到高級天使的白白賜予的或恩寵的階層。人則能在恩寵的階層上上升，而不能在自然或天性階層上上升。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1640
+      ],
+      "before": "按自然次序，天使是在我們與天主之間的。是以，按一般的規律，不只人闊的事，連所有的形體物都由他們管理。至於聖人們，就連在來世，也與我們屬於同一個天性。故按一般的規律，他們不管理人的事情，並且按奧斯定在《論迫薦亡者》第十三及第十六章說的: 「他們也不關心活人的事情」。但是按奧斯定在那書裡第十六章說的，有時特別準許某些聖人，在世的或已逝世的，t暴行這類任務，或是行奇蹟，或是抵制魔鬼等。",
+      "after": "按自然次序，天使是在我們與天主之間的。是以，按一般的規律，不只人間的事，連所有的形體物都由他們管理。至於聖人們，就連在來世，也與我們屬於同一個天性。故按一般的規律，他們不管理人的事情，並且按奧斯定在《論追薦亡者》第十三及第十六章說的：「他們也不關心活人的事情」。但是按奧斯定在那書裡第十六章說的，有時特別準許某些聖人，在世的或已逝世的，操行這類任務，或是行奇蹟，或是抵制魔鬼等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人闊",
+          "after": "人間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "迫薦",
+          "after": "追薦",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "t暴行",
+          "after": "操行",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q108.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1640
+      ],
+      "before": "認為人受魔鬼的處罰，並不是錯誤的想法;但有的人誤以為魔鬼無非就是亡者的靈魂。金口若望所反對的是這種主張。",
+      "after": "認為人受魔鬼的處罰，並不是錯誤的想法；但有的人誤以為魔鬼無非就是亡者的靈魂。金口若望所反對的是這種主張。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
