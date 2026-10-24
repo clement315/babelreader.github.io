@@ -1,0 +1,1227 @@
+{
+  "schema_version": 1,
+  "batch": "I-q090",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "5af0c1e49c598eddd4f38984d9291296ea679b79",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q090",
+    "title": "論人在靈魂方面的最初產生",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1456,
+      1457,
+      1458,
+      1459,
+      1460,
+      1461,
+      1462,
+      1463
+    ],
+    "printed_pages": [
+      229,
+      236
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 46,
+    "changed_review_units": 31,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q90.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q90.json": "71be681a86d7bdf6c8e9d55446ee14fa0f8ac5251ce42cc4b025a24040a8830f",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q090.a001.respondeo",
+      "pdf_file_page": 1457,
+      "text": "己經證明了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a001.respondeo",
+      "pdf_file_page": 1458,
+      "text": "己經證明了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a001.respondeo",
+      "pdf_file_page": 1457,
+      "text": "這光的的一部分",
+      "status": "suspected_source_print_error",
+      "action": "原页重复「的」字，网页与原页相同，保留重复字并单列待人工定夺。"
+    },
+    {
+      "id": "I.q090.a002.ad2",
+      "pdf_file_page": 1460,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a002.ad3",
+      "pdf_file_page": 1460,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a003.respondeo",
+      "pdf_file_page": 1461,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a003.ad1",
+      "pdf_file_page": 1461,
+      "text": "己可看出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a004.respondeo",
+      "pdf_file_page": 1462,
+      "text": "己經討論",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q090.a004.respondeo",
+      "pdf_file_page": 1463,
+      "text": "設造的合於",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「設造的合於」，疑助词「的／得」之印误；保留原字，不润色改写。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q090.prologue",
+      "description": "引言前四行页边乱码移除，原有四个换行保留为空行。"
+    },
+    {
+      "id": "I.q090.a001.respondeo",
+      "description": "误并入正解的三段释疑移回已有释疑1、2、3空栏；原正解中原有三个换行依要求保留，其中两处成为尾部空行。"
+    },
+    {
+      "id": "I.q090.a003.ad1",
+      "description": "原书合并释疑由正解恢复到已有唯一空释疑栏；保留该栏全部既有元数据及编号，不新建字段。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q090.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "句a\n冊人在暐，嗎凹研目產生\n揖/一\n戶眼\n在上述關於人性的諸問題之後，現在要討論的是人最初之­產生(參看第七十五題引言)。這個問題可以分為四點來看:第一，論人之產生;第二，論其產生之終局(第九十三題);第三，論人受造之初的境界和條件(第九十四題);第四，論其住所(第一0二題)。\n關於人之產生，可以分為三點來討論:第一，論人在靈魂方面之產生;第二，在男人之身體方面(第九十一題);第三，在女人之身體方面(第九十二題)。\n關於第一點，可以提出四個問題:\n一、人的靈魂是製造而成的，抑或是出白天主之本體。\n二、如是製造而成的，是否為創造而成的。\n三、是否經天使製造的。\n四、是否在身體以前製造的。",
+      "after": "\n\n\n\n在上述關於人性的諸問題之後，現在要討論的是人最初之產生(參看第七十五題引言)。這個問題可以分為四點來看：第一，論人之產生；第二，論其產生之終局(第九十三題)；第三，論人受造之初的境界和條件(第九十四題)；第四，論其住所(第一〇二題)。\n關於人之產生，可以分為三點來討論：第一，論人在靈魂方面之產生；第二，在男人之身體方面(第九十一題)；第三，在女人之身體方面(第九十二題)。\n關於第一點，可以提出四個問題：\n一、人的靈魂是製造而成的，抑或是出自天主之本體。\n二、如是製造而成的，是否為創造而成的。\n三、是否經天使製造的。\n四、是否在身體以前製造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "句a\n冊人在暐，嗎凹研目產生\n揖/一\n戶眼\n",
+          "after": "\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之­產生",
+          "after": "之產生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0二題",
+          "after": "第一〇二題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出白天主",
+          "after": "出自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "人的靈魂是製造而成的，抑或是出白天主之本體",
+      "after": "人的靈魂是製造而成的，抑或是出自天主之本體",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白天主",
+          "after": "出自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "靈魂似乎不是製造而成的(facta)，而是出白天主之本體。因為:",
+      "after": "靈魂似乎不是製造而成的(facta)，而是出自天主之本體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出白天主",
+          "after": "出自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1456
+      ],
+      "before": "î.《創世紀》第二章7節說: 「上主天主用地上的灰土形成了人，在他鼻孔內吹了一口生氣，人就成了一個有靈的生物。」但那吹氣的，是從自身吐出一些東西。所以使人生活的靈魂是來自天主的本體。",
+      "after": "《創世紀》第二章7節說：「上主天主用地上的灰土形成了人，在他鼻孔內吹了一口生氣，人就成了一個有靈的生物。」但那吹氣的，是從自身吐出一些東西。所以使人生活的靈魂是來自天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "î.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1456,
+        1457
+      ],
+      "before": "此外，按前面第七十五題第五節所說的，靈魂是單純的形式。但是形式是現實，所以靈魂是純現實;但純現實是唯一天主的特性，所以靈魂是來白天主的本體。",
+      "after": "此外，按前面第七十五題第五節所說的，靈魂是單純的形式。但是形式是現實，所以靈魂是純現實；但純現實是唯一天主的特性，所以靈魂是來自天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白天主",
+          "after": "來自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1457
+      ],
+      "before": "此外，凡存在而彼此又毫無差別的東西，就是同一個東西。但是天主和心靈存在，而二者又彼此毫無差別;因為若有差別，就有相差之因素，如此便是組合物了。所以，天主和人的心靈是同一個東西。",
+      "after": "此外，凡存在而彼此又毫無差別的東西，就是同一個東西。但是天主和心靈存在，而二者又彼此毫無差別；因為若有差別，就有相差之因素，如此便是組合物了。所以，天主和人的心靈是同一個東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1457
+      ],
+      "before": "奧斯定在《論靈魂及其本源》(De Anima et eius Origine)卷三第十五章，列舉了幾個他所謂的「顯然非常邪惡並與天主教信仰相反」的主張;其中第一個，就是有人說:「天主不是從無中，而是從自身製造了(人的)靈魂」。",
+      "after": "奧斯定在《論靈魂及其本源》(De Anima et eius Origine)卷三第十五章，列舉了幾個他所謂的「顯然非常邪惡並與天主教信仰相反」的主張；其中第一個，就是有人說：「天主不是從無中，而是從自身製造了(人的)靈魂」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1457,
+        1458
+      ],
+      "before": "我解答如下:說靈魂出白天主之本體，顯然沒有根據。由前面第七十七題第二節、第七十九題第二節、第八十四題第六節所說的可以知道，人的靈魂有時只有知識之潛能，它是從外物中獲得知識，並有許多機能:這一切都不合於天主的本性，因為祂是純現實，什麼也不是自外獲取的，本身沒有任何複合因素，這在前面第三題第一及第七節、第九題第一節已經證明瞭。\n這種邪說似乎是由古人的兩個成見造成的。最初研究萬物之性質的人，不能擺脫開想像，認為除形體物外什麼也沒有。故此，他們說天主是一種形體物，並是其他形體物的根本。既然按《靈魂論》卷一第二章所說的，由於他們認為靈魂有屬於他們所謂作為根本之形體物的天性或性質，所以靈魂屬於天主的天性或性質。摩尼教派的人也認為天主是一種形體性的光，這光的的一部分就是被困在身體中的靈魂。後來有些人固然想到了非形體物之存在，但不是與形體分闊的，而是形體之形式。是以，按奧斯定在《天主之城》卷八(參看卷四第三十一章)所記述的，瓦羅(Varro)說:「天主是以運動和條理管理世界的靈魂」。因此有人說，正如人是整個世界的一部分，人的靈魂便是整個(宇宙)魂的一部分;他們除了按形體的區分，否則便不會用理智區分精神性本體之諸等級。前面第三題第一及第八節、第五十題第二節釋疑4.、第七十五題第一節已經證明瞭，這些主張都是不可能的。所以說，靈魂出白天主之本體，顯然是錯誤的。釋漿1:所謂吹氣不可按形體方式去懂，說天主吹氣就等於說天主製造精神。其實人用身體吹氣時吐出的，也不是他本體或本質的東西，而是別的性質的東西。\n2.靈魂按其本質雖然是單純的形式，但不是其存在，它乃是因分有而為存在之物，這可從前面第七十五題第五節釋疑4.所說的看出來。所以，靈魂不像天主那樣是純現實。\n3.嚴格地說，有差別的東西是在某方面有差別，所以有相同的地方時才講到差別(不完全相同)。故此有差別的東西應該多少是組合物;因為有相同的部分，也有不同或有差別的部分。但是按《形上學》卷十第三章所說的，固然有差別的都是不同的，但並非凡不同的都是有差別的。因為單純的東西是因本身(或整個自己)而不同，不是由於其某些組合因素相差而不同，例如:人與驢之差別是有理性與無理性之差別;但關於有理性與無理性，不再說它們進一步因其它(組合因素的)差別而有差別。",
+      "after": "我解答如下：說靈魂出自天主之本體，顯然沒有根據。由前面第七十七題第二節、第七十九題第二節、第八十四題第六節所說的可以知道，人的靈魂有時只有知識之潛能，它是從外物中獲得知識，並有許多機能：這一切都不合於天主的本性，因為祂是純現實，什麼也不是自外獲取的，本身沒有任何複合因素，這在前面第三題第一及第七節、第九題第一節己經證明了。\n這種邪說似乎是由古人的兩個成見造成的。最初研究萬物之性質的人，不能擺脫開想像，認為除形體物外什麼也沒有。故此，他們說天主是一種形體物，並是其他形體物的根本。既然按《靈魂論》卷一第二章所說的，由於他們認為靈魂有屬於他們所謂作為根本之形體物的天性或性質，所以靈魂屬於天主的天性或性質。摩尼教派的人也認為天主是一種形體性的光，這光的的一部分就是被困在身體中的靈魂。後來有些人固然想到了非形體物之存在，但不是與形體分開的，而是形體之形式。是以，按奧斯定在《天主之城》卷八(參看卷四第三十一章)所記述的，瓦羅(Varro)說：「天主是以運動和條理管理世界的靈魂」。因此有人說，正如人是整個世界的一部分，人的靈魂便是整個(宇宙)魂的一部分；他們除了按形體的區分，否則便不會用理智區分精神性本體之諸等級。前面第三題第一及第八節、第五十題第二節釋疑4.、第七十五題第一節己經證明了，這些主張都是不可能的。所以說，靈魂出自天主之本體，顯然是錯誤的。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋漿1:所謂吹氣不可按形體方式去懂，說天主吹氣就等於說天主製造精神。其實人用身體吹氣時吐出的，也不是他本體或本質的東西，而是別的性質的東西。\n2.靈魂按其本質雖然是單純的形式，但不是其存在，它乃是因分有而為存在之物，這可從前面第七十五題第五節釋疑4.所說的看出來。所以，靈魂不像天主那樣是純現實。\n3.嚴格地說，有差別的東西是在某方面有差別，所以有相同的地方時才講到差別(不完全相同)。故此有差別的東西應該多少是組合物;因為有相同的部分，也有不同或有差別的部分。但是按《形上學》卷十第三章所說的，固然有差別的都是不同的，但並非凡不同的都是有差別的。因為單純的東西是因本身(或整個自己)而不同，不是由於其某些組合因素相差而不同，例如:人與驢之差別是有理性與無理性之差別;但關於有理性與無理性，不再說它們進一步因其它(組合因素的)差別而有差別。",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出白天主",
+          "after": "出自天主",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經證明瞭",
+          "after": "己經證明了",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "",
+      "after": "所謂吹氣不可按形體方式去懂，說天主吹氣就等於說天主製造精神。其實人用身體吹氣時吐出的，也不是他本體或本質的東西，而是別的性質的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "所謂吹氣不可按形體方式去懂，說天主吹氣就等於說天主製造精神。其實人用身體吹氣時吐出的，也不是他本體或本質的東西，而是別的性質的東西。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "",
+      "after": "靈魂按其本質雖然是單純的形式，但不是其存在，它乃是因分有而為存在之物，這可從前面第七十五題第五節釋疑4.所說的看出來。所以，靈魂不像天主那樣是純現實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "靈魂按其本質雖然是單純的形式，但不是其存在，它乃是因分有而為存在之物，這可從前面第七十五題第五節釋疑4.所說的看出來。所以，靈魂不像天主那樣是純現實。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "",
+      "after": "嚴格地說，有差別的東西是在某方面有差別，所以有相同的地方時才講到差別(不完全相同)。故此有差別的東西應該多少是組合物；因為有相同的部分，也有不同或有差別的部分。但是按《形上學》卷十第三章所說的，固然有差別的都是不同的，但並非凡不同的都是有差別的。因為單純的東西是因本身(或整個自己)而不同，不是由於其某些組合因素相差而不同，例如：人與驢之差別是有理性與無理性之差別；但關於有理性與無理性，不再說它們進一步因其它(組合因素的)差別而有差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "嚴格地說，有差別的東西是在某方面有差別，所以有相同的地方時才講到差別(不完全相同)。故此有差別的東西應該多少是組合物;因為有相同的部分，也有不同或有差別的部分。但是按《形上學》卷十第三章所說的，固然有差別的都是不同的，但並非凡不同的都是有差別的。因為單純的東西是因本身(或整個自己)而不同，不是由於其某些組合因素相差而不同，例如:人與驢之差別是有理性與無理性之差別;但關於有理性與無理性，不再說它們進一步因其它(組合因素的)差別而有差別。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "靈魂是否藉(從無中之)創造而有存在",
+      "after": "靈魂是否藉(從無中之)創造而有存在",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1458
+      ],
+      "before": "靈魂似乎不是藉(從無中之)創造而有存在。因J禱:",
+      "after": "靈魂似乎不是藉(從無中之)創造而有存在。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因J禱",
+          "after": "因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1458,
+        1459
+      ],
+      "before": "本身含有質料性之東西者，是用質料構成的。但靈魂內含有質料性的東西，因為它不是純現實。所以，靈魂是用質料構成的，而不是(從無中)創造的。",
+      "after": "本身含有質料性之東西者，是用質料構成的。但靈魂內含有質料性的東西，因為它不是純現實。所以，靈魂是用質料構成的，而不是(從無中)創造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1459
+      ],
+      "before": "此外，某固定質料之一切現實，似乎都是從質料之潛能中引出來的;因為既然質料是在針對現實的潛能狀態，任何現實原來就是以潛能狀態存在質料內的。但是從靈瑰的定義中可以看出，靈魂乃是身體之質料的現實(參看:亞里斯多德，《靈魂論》卷二第一章)。所以靈魂是從質料之潛能中引出來的。",
+      "after": "此外，某固定質料之一切現實，似乎都是從質料之潛能中引出來的；因為既然質料是在針對現實的潛能狀態，任何現實原來就是以潛能狀態存在質料內的。但是從靈魂的定義中可以看出，靈魂乃是身體之質料的現實(參看：亞里斯多德，《靈魂論》卷二第一章)。所以靈魂是從質料之潛能中引出來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靈瑰",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1459
+      ],
+      "before": "此外，靈魂是一種形式。倘若靈魂是(從無中)創造的，按同理，別的形式也都是(從無中)創造的。如此則沒有一個形式是因了生殖而存在的。這是不合理的。",
+      "after": "此外，靈魂是一種形式。倘若靈魂是(從無中)創造的，按同理，別的形式也都是(從無中)創造的。如此則沒有一個形式是因了生殖而存在的。這是不合理的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1459
+      ],
+      "before": "《創世紀》第一章27節說: 「天主於是照自己的肖像造了人。」人是因了靈魂而為天主之肖像，所以靈魂之存在是由於創造。",
+      "after": "《創世紀》第一章27節說：「天主於是照自己的肖像造了人。」人是因了靈魂而為天主之肖像，所以靈魂之存在是由於創造。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1459
+      ],
+      "before": "我解答如下:理性之魂或靈魂只能以創造方式產生;其他的形式則不然。這是因為形成乃是走向存在之過程，一個東西怎樣存在，便也怎樣形成。嚴格地說，本身具有存在，自立於自身之存在的，纔算是存在的東西;因此只有自立體或本體(substantia)才正式稱為物。依附體沒有存在，而是某東西因了它而存在，是按這意義而被稱為物，例如說:白色是物，乃是因了它而某東西是白的。故此《形上學》卷七第一章說，更好說依附體「是屬於物的而不是物」。關於其他不自立的形式也是一理。故此不自立的形式嚴格地不能說它「形成」'是因了自立的組合體之形成而說它形成。按前面第七十五題第二節所說的，靈魂是自立的形式，所以它有正式的存在和形成。既然它不能是由原有的形體質料形成的，否則它便是形體物了;也不能是由原有之精神質料形成的，否則精神性的本體便能互相轉變了。所以，必定該說它，是由創造而形成的。",
+      "after": "我解答如下：理性之魂或靈魂只能以創造方式產生；其他的形式則不然。這是因為形成乃是走向存在之過程，一個東西怎樣存在，便也怎樣形成。嚴格地說，本身具有存在，自立於自身之存在的，才算是存在的東西；因此只有自立體或本體(substantia)才正式稱為物。依附體沒有存在，而是某東西因了它而存在，是按這意義而被稱為物，例如說：白色是物，乃是因了它而某東西是白的。故此《形上學》卷七第一章說，更好說依附體「是屬於物的而不是物」。關於其他不自立的形式也是一理。故此不自立的形式嚴格地不能說它「形成」，是因了自立的組合體之形成而說它形成。按前面第七十五題第二節所說的，靈魂是自立的形式，所以它有正式的存在和形成。既然它不能是由原有的形體質料形成的，否則它便是形體物了；也不能是由原有之精神質料形成的，否則精神性的本體便能互相轉變了。所以，必定該說它，是由創造而形成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔算",
+          "after": "才算",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「形成」'",
+          "after": "「形成」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "在靈魂內，它的單純本質就似質料因素，它分得的存在即是它的形式因素;這存在與靈魂之本質必然是一起存在的，因為存在本來是跟隨本質的。如果按某些人的主張，說靈魂是由一種精神性的質料構成的，問題仍是一樣。因為那種質料沒有針對別的形式之潛能，就如天體之質料，否則靈魂就是有朽的了。所以，靈魂絕對不能是由原有之質料形成的。",
+      "after": "在靈魂內，它的單純本質就似質料因素，它分得的存在即是它的形式因素；這存在與靈魂之本質必然是一起存在的，因為存在本來是跟隨本質的。如果按某些人的主張，說靈魂是由一種精神性的質料構成的，問題仍是一樣。因為那種質料沒有針對別的形式之潛能，就如天體之質料，否則靈魂就是有朽的了。所以，靈魂絕對不能是由原有之質料形成的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "所謂從質料之潛能中引出現實，無非就是原來在潛能狀態的東西變成現實。但是，由於靈魂之存在不繫於形體質料，而是自立存在的，並超出形體質料之能力，這在前面第七十五題第二節已經說過，所以不是從質料之潛能中引出來的。",
+      "after": "所謂從質料之潛能中引出現實，無非就是原來在潛能狀態的東西變成現實。但是，由於靈魂之存在不繫於形體質料，而是自立存在的，並超出形體質料之能力，這在前面第七十五題第二節己經說過，所以不是從質料之潛能中引出來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "如正解己說過的，靈魂與其他形式之情形不同。",
+      "after": "如正解己說過的，靈魂與其他形式之情形不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "靈魂是否由天主直接產生的",
+      "after": "靈魂是否由天主直接產生的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "理性之魂或靈魂似乎不是白天主直接產生的，而是經由天使產生的。因為:",
+      "after": "理性之魂或靈魂似乎不是由天主直接產生的，而是經由天使產生的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不是白天主",
+          "after": "不是由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "在精神物之間比在形體物之間的等序周密。但是，按狄奧尼修在《神名論》第四章所說的，低級形體物是由高級形體物產生的。所以，低級的精神體或靈魂，是由高級之精神體或天使產生的。",
+      "after": "在精神物之間比在形體物之間的等序周密。但是，按狄奧尼修在《神名論》第四章所說的，低級形體物是由高級形體物產生的。所以，低級的精神體或靈魂，是由高級之精神體或天使產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1460
+      ],
+      "before": "此外，萬物的目的與其根本互相呼應，因為天主是萬物之根本和目的。所以，萬物之出自根本與萬物之歸向目的也互相呼應。但是狄奧尼修在《教會階級論》第五章說:「低級者是經由高級者歸返」。所以，低級物是經高級物而產生和存在，即靈魂是經天使而產生和存在。",
+      "after": "此外，萬物的目的與其根本互相呼應，因為天主是萬物之根本和目的。所以，萬物之出自根本與萬物之歸向目的也互相呼應。但是狄奧尼修在《教會階級論》第五章說：「低級者是經由高級者歸返」。所以，低級物是經高級物而產生和存在，即靈魂是經天使而產生和存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1460,
+        1461
+      ],
+      "before": "此外，按《氣象論》卷凹第三章所說的，「完美者乃是那能產生與自己相似的東西者」。但是，精神性本體遠比形體物完美。既然形體物產生與自己同穎而相似的東西，天使更該能產生按類別性質低於自己的東西，即靈魂。",
+      "after": "此外，按《氣象論》卷四第三章所說的，「完美者乃是那能產生與自己相似的東西者」。但是，精神性本體遠比形體物完美。既然形體物產生與自己同類而相似的東西，天使更該能產生按類別性質低於自己的東西，即靈魂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卷凹",
+          "after": "卷四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同穎",
+          "after": "同類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "《創世紀》第二章7節說，天主自己「在人的鼻孔中吹了一口生氣」。",
+      "after": "《創世紀》第二章7節說，天主自己「在人的鼻孔中吹了一口生氣」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "我解答如下;曾有人主張，是天使用天主給的能力，產生靈魂。這是絕對不可能的，也不合於信仰。前面第二節曾指出，靈魂只能是以創造方式產生的。但只有天主能創造。因為只有第一主動者或原因能不需先有別的東西而行動;前面第六十五題第三節已經說過，第二主動者或原因常要假定有來自第一主動者或原因的黑白東西。一種行動若需要先有別的，貝IJ這行動只是一種改變。\n所以，只有天主有創造行動，別的主動者或原因都只有改變或改造行動。既然靈魂不能是由改變某質料而產生的，故只能是由天主直接產生的。釋賠由上面所說的，已可看出各質疑之答案。因為形體物之產生同類或較低級的東西，以及高級物使低級物歸返，這一切都是以改變的方式進行。",
+      "after": "我解答如下：曾有人主張，是天使用天主給的能力，產生靈魂。這是絕對不可能的，也不合於信仰。前面第二節曾指出，靈魂只能是以創造方式產生的。但只有天主能創造。因為只有第一主動者或原因能不需先有別的東西而行動；前面第六十五題第三節己經說過，第二主動者或原因常要假定有來自第一主動者或原因的一點東西。一種行動若需要先有別的，則這行動只是一種改變。\n所以，只有天主有創造行動，別的主動者或原因都只有改變或改造行動。既然靈魂不能是由改變某質料而產生的，故只能是由天主直接產生的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋賠由上面所說的，已可看出各質疑之答案。因為形體物之產生同類或較低級的東西，以及高級物使低級物歸返，這一切都是以改變的方式進行。",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "解答如下;",
+          "after": "解答如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "黑白東西",
+          "after": "一點東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "",
+      "after": "由上面所說的，己可看出各質疑之答案。因為形體物之產生同類或較低級的東西，以及高級物使低級物歸返，這一切都是以改變的方式進行。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由上面所說的，己可看出各質疑之答案。因為形體物之產生同類或較低級的東西，以及高級物使低級物歸返，這一切都是以改變的方式進行。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "人的靈魂是否在身體之先產生的",
+      "after": "人的靈魂是否在身體之先產生的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "人的靈魂似乎是在身體之先受造或產生的。因為:",
+      "after": "人的靈魂似乎是在身體之先受造或產生的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1461
+      ],
+      "before": "按前面第六十六題第一節、第七十題第一節所說的，直1;造之工程先於分開和裝飾之工程。但靈魂是因創造而存在的‘而身體是在裝飾工程的最後階段產生的。所以，人的靈魂是在身體之先產生的。",
+      "after": "按前面第六十六題第一節、第七十題第一節所說的，創造之工程先於分開和裝飾之工程。但靈魂是因創造而存在的，而身體是在裝飾工程的最後階段產生的。所以，人的靈魂是在身體之先產生的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "直1;造",
+          "after": "創造",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "存在的‘",
+          "after": "存在的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1461,
+        1462
+      ],
+      "before": "此外，靈魂與天使比與禽獸更為相近。但是，天使是在形體物之先，或在最初與形體質料同時受造的;人的身體是在第六天形成的，禽獸也是那時產生的。所以，人的靈魂是在身體之先受造的。",
+      "after": "此外，靈魂與天使比與禽獸更為相近。但是，天使是在形體物之先，或在最初與形體質料同時受造的；人的身體是在第六天形成的，禽獸也是那時產生的。所以，人的靈魂是在身體之先受造的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1462
+      ],
+      "before": "此外，終點與起點是相配合的。但在失去了身體之後靈魂仍然存在。所以，最初也是在身體之先受造的。",
+      "after": "此外，終點與起點是相配合的。但在失去了身體之後靈魂仍然存在。所以，最初也是在身體之先受造的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1462
+      ],
+      "before": "現實是在與之相稱的潛能中實現。既然靈魂是身體專有之現實，所以靈魂是在身體內產生的。",
+      "after": "現實是在與之相稱的潛能中實現。既然靈魂是身體專有之現實，所以靈魂是在身體內產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1462,
+        1463
+      ],
+      "before": "我解答如下:奧利振《原則論》卷一第六等章曾經主張，不只第一個人的靈魂，所有人的靈魂都是在身體之先同天使一起受造的。這是因為他想，所有的精神性本體，無論是靈魂或天使，按其天性之條件都是平等的，只在功績上有差別;是以其中有的被困於形體，就如人的靈魂及天體之靈魂;有的按不同的等級保存了自己的清純本色。前面第四十七題第二節已經討論了這個意見，在此不再多說。\n奧斯定在《創世紀字義新探》卷七第二十四至二十八章說，第一個人的靈魂是與天使一起在身體之先創造的，但所根據的理由不同。因為他認為在那六天的工程中，沒有產生現實的身體，只產生了身體之根本原因或胚種(causales ration巳s)。但是關於靈魂則不可能如此說，因為它不是從原來就有的形體性或精神性質料產生的，也不能是由某受造物之力量產生的。因此，靈魂似乎是在創造一切的六天工程中，同天使一起被造的;以後是由於自己的意志而趨向於與身體結合，並管理它的3不過從他的話裡可以看出，他並不認為這是定論。他說:「若與聖經或真理沒有衝突，便可以相信人是在第六天這樣受造的，即人身體之根本原因或胚種是在世界之元素中造成的，靈魂是直接造成的。」(第二十四章)\n有些人主張，靈魂本身便具有完整的天性和本質，它不是以形式之資格與身體結合，只是為管理身體。對這些人來說，上述之學說是可以接受的。但若靈魂是以形式之資格與身體結合，並且本來就是人性的一部分，上述之學說便絕對不可能。顯然天主是將最初的東西設造的合於其天性的完美狀態，各按其額別之需要。靈魂既然是人性的一部分，除非與身體結合，否則便沒有天性的完美。所以不該沒有身體而只先造靈魂。\n如果要維持奧斯定有關六天工程之意見(參看第七十四題第二節)，可以說，靈魂既與天使相似，都是有智性的;所以就類別的相似(或就靈魂屬於有智性者之物類)來說，靈魂在六天的工程中領先(於身體)，但靈魂本身是與身體一起受造的。按其他聖賢們的說法，第一個人的靈魂和肉身都是在六天的工程中受造的。",
+      "after": "我解答如下：奧利振《原則論》卷一第六等章曾經主張，不只第一個人的靈魂，所有人的靈魂都是在身體之先同天使一起受造的。這是因為他想，所有的精神性本體，無論是靈魂或天使，按其天性之條件都是平等的，只在功績上有差別；是以其中有的被困於形體，就如人的靈魂及天體之靈魂；有的按不同的等級保存了自己的清純本色。前面第四十七題第二節己經討論了這個意見，在此不再多說。\n奧斯定在《創世紀字義新探》卷七第二十四至二十八章說，第一個人的靈魂是與天使一起在身體之先創造的，但所根據的理由不同。因為他認為在那六天的工程中，沒有產生現實的身體，只產生了身體之根本原因或胚種(causales rationes)。但是關於靈魂則不可能如此說，因為它不是從原來就有的形體性或精神性質料產生的，也不能是由某受造物之力量產生的。因此，靈魂似乎是在創造一切的六天工程中，同天使一起被造的；以後是由於自己的意志而趨向於與身體結合，並管理它的。不過從他的話裡可以看出，他並不認為這是定論。他說：「若與聖經或真理沒有衝突，便可以相信人是在第六天這樣受造的，即人身體之根本原因或胚種是在世界之元素中造成的，靈魂是直接造成的。」(第二十四章)\n有些人主張，靈魂本身便具有完整的天性和本質，它不是以形式之資格與身體結合，只是為管理身體。對這些人來說，上述之學說是可以接受的。但若靈魂是以形式之資格與身體結合，並且本來就是人性的一部分，上述之學說便絕對不可能。顯然天主是將最初的東西設造的合於其天性的完美狀態，各按其類別之需要。靈魂既然是人性的一部分，除非與身體結合，否則便沒有天性的完美。所以不該沒有身體而只先造靈魂。\n如果要維持奧斯定有關六天工程之意見(參看第七十四題第二節)，可以說，靈魂既與天使相似，都是有智性的；所以就類別的相似(或就靈魂屬於有智性者之物類)來說，靈魂在六天的工程中領先(於身體)，但靈魂本身是與身體一起受造的。按其他聖賢們的說法，第一個人的靈魂和肉身都是在六天的工程中受造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經討論",
+          "after": "己經討論",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "ration巳s",
+          "after": "rationes",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "管理它的3",
+          "after": "管理它的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "額別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1463
+      ],
+      "before": "假若靈魂的天性本身就構成一個完整的類別，因而可g以單獨被創造，買IJ所舉之理由可以證明靈魂在最初是單獨受造的。但它既然自然而是身體之形式，不該分開受造，而該在身體內受造。",
+      "after": "假若靈魂的天性本身就構成一個完整的類別，因而可以單獨被創造，則所舉之理由可以證明靈魂在最初是單獨受造的。但它既然自然而是身體之形式，不該分開受造，而該在身體內受造。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可g以",
+          "after": "可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q090.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1463
+      ],
+      "before": "關於質疑2.所應該說的也是一樣。倘若靈魂本身有(完整的)類別，則比較與天使接近。但因了它是身體之形式，它屬於動物之共類，是其形式根本。",
+      "after": "關於質疑2.所應該說的也是一樣。倘若靈魂本身有(完整的)類別，則比較與天使接近。但因了它是身體之形式，它屬於動物之共類，是其形式根本。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q090.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1463
+      ],
+      "before": "靈魂在身體死後仍然存在，是因了身體之缺點即死亡而有的現象。這種缺點在當初創造靈魂的時候是不該有的。",
+      "after": "靈魂在身體死後仍然存在，是因了身體之缺點即死亡而有的現象。這種缺點在當初創造靈魂的時候是不該有的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
