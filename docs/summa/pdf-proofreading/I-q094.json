@@ -1,0 +1,1360 @@
+{
+  "schema_version": 1,
+  "batch": "I-q094",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q094",
+    "title": "論第一個人在理智方面的境界或情況",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1504,
+      1505,
+      1506,
+      1507,
+      1508,
+      1509,
+      1510,
+      1511,
+      1512,
+      1513
+    ],
+    "printed_pages": [
+      277,
+      286
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 52,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q94.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q94.json": "b27b7f161eb12f63b6f8c0ca4c3c15abaf651623ca7c32e6328eed57e6a37b87",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q094.a002.respondeo",
+      "pdf_file_page": 1508,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a002.respondeo",
+      "pdf_file_page": 1508,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a002.ad3",
+      "pdf_file_page": 1509,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a003.ad3",
+      "pdf_file_page": 1511,
+      "text": "己知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a004.arg5",
+      "pdf_file_page": 1512,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a004.ad5",
+      "pdf_file_page": 1513,
+      "text": "己先犯",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q094.a004.respondeo",
+      "pdf_file_page": 1512,
+      "text": "不冒然相信",
+      "status": "suspected_source_print_error",
+      "action": "原页作「冒然」，依底本保留，不换成通行写法。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q094.prologue",
+      "description": "删除引言前重复的题名及分节说明；两个原有换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部10页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。",
+    "第二节正解「如此可／以」跨行处，放大确认左边小圈为扫描杂点，去除识别成句号的杂点，不改真实换行。"
+  ],
+  "readings": [
+    {
+      "id": "I.q094.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "論第一個人在理智方面的境界或情況\n一分為四節\n然後要討論的是，第一個人的境界或情況(參看第九十題引言)。首先，是在靈魂那方面的;其次，是在身體那方面的(第九十七題)。關於前者要討論雨點:第一，論人在理智方面的情況;第二，論人在意志方面之情況(第九十五題)。\n關於第一點，可以提出四個問題:\n一、第一個人是否曾見天主之本體。\n二、是否能看見獨立的本體，即天使。\n三、是否有一切東西之知識。\n四、是否能錯誤或受騙。",
+      "after": "\n\n然後要討論的是，第一個人的境界或情況(參看第九十題引言)。首先，是在靈魂那方面的；其次，是在身體那方面的(第九十七題)。關於前者要討論兩點：第一，論人在理智方面的情況；第二，論人在意志方面之情況(第九十五題)。\n關於第一點，可以提出四個問題：\n一、第一個人是否曾見天主之本體。\n二、是否能看見獨立的本體，即天使。\n三、是否有一切東西之知識。\n四、是否能錯誤或受騙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論第一個人在理智方面的境界或情況\n一分為四節\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "雨點",
+          "after": "兩點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "第一個人是否曾見天主之本體",
+      "after": "第一個人是否曾見天主之本體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "第一個人似乎曾見天主之本體(或藉天主之本體而看到天主)。因為:",
+      "after": "第一個人似乎曾見天主之本體(或藉天主之本體而看到天主)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1504
+      ],
+      "before": "人的幸福在於看到天主的本體。但是按大馬士革的若望在《論正統信仰》卷二第十一章所說的，第一個人「住在地堂裡，生活美滿幸福。」奧斯定在《天主之城》卷十四第十章也說: 「倘若那時的人有我們現在所有的心情，在那不可形容的褔地，即地堂，怎能會幸福呢?」所以，第一個人在地堂裡曾看到天主的本體。",
+      "after": "人的幸福在於看到天主的本體。但是按大馬士革的若望在《論正統信仰》卷二第十一章所說的，第一個人「住在地堂裡，生活美滿幸福。」奧斯定在《天主之城》卷十四第十章也說：「倘若那時的人有我們現在所有的心情，在那不可形容的福地，即地堂，怎能會幸福呢?」所以，第一個人在地堂裡曾看到天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔地",
+          "after": "福地",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1504,
+        1505
+      ],
+      "before": "此外，奧斯定在《天主之城》卷十四第十章又說:「凡善良意志所願獲得的，為第一個人一樣也不會落空。」但是善良意志所願獲得的，沒有比看見天主本體更好的事。所以，第一個人曾看到天主的本體。",
+      "after": "此外，奧斯定在《天主之城》卷十四第十章又說：「凡善良意志所願獲得的，為第一個人一樣也不會落空。」但是善良意志所願獲得的，沒有比看見天主本體更好的事。所以，第一個人曾看到天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1505
+      ],
+      "before": "此外，所謂見天主的本體(或藉天主的本體而看到天主)，就是不經媒介也不會隱約不明。但是按大師在《語錄》卷四第一題所說的，人在純真無罪境界「曾不經媒介看見天主」'他的看見也未曾隱約不明。因為按奧斯定在《論天主聖三》卷十五第九章所說的，隱約不明中含有晦暗或模糊，而晦暗或模糊是由罪過產生的。所以，人在最初境界曾見天主的本體。",
+      "after": "此外，所謂見天主的本體(或藉天主的本體而看到天主)，就是不經媒介也不會隱約不明。但是按大師在《語錄》卷四第一題所說的，人在純真無罪境界「曾不經媒介看見天主」，他的看見也未曾隱約不明。因為按奧斯定在《論天主聖三》卷十五第九章所說的，隱約不明中含有晦暗或模糊，而晦暗或模糊是由罪過產生的。所以，人在最初境界曾見天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "看見天主」'",
+          "after": "看見天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1505
+      ],
+      "before": "宗徒在《格林多前書》第十五章46節說: 「屬神的芳、是在丸，而是屬生靈的。」但是看天主的本體最是屬神的事。所以第」個人，在其屬生靈的生命之最初境界，沒有看到天主的本體。",
+      "after": "宗徒在《格林多前書》第十五章46節說：「屬神的不是在先，而是屬生靈的。」但是看天主的本體最是屬神的事。所以第一個人，在其屬生靈的生命之最初境界，沒有看到天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "屬神的芳、是在丸",
+          "after": "屬神的不是在先",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第」個人",
+          "after": "第一個人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1505,
+        1506
+      ],
+      "before": "我解答如下:按第一個人的生活之一般情形來說，他沒有看到天主的本體;除非是也許可以說他在出神中看到，即如《創世紀》第二章21節所說的，當「上主天主進使亞當熟睡」的時候。其中的原因，在於既然天主之本體與幸褔是一事，所以見天主之本體者的理智與天主之關係，就如一般人與幸褔之關係。顯然沒有人能自願放棄幸福;因為人自然和必然地追求幸褔，並逃避痛苦。所以沒有一個人見了天主的本體後，能自願地離棄天主，也即是犯罪。故此，凡是見了天主之本體的人，便堅定於愛天主，永遠也不能犯罪。既然亞當犯了罪，顯然他不曾見到天主的本體。\n但是他對天主的認知要高於我們的認知;故可以說，他所有的知識，是居於現有境界之知識，及在天鄉面見天主之本體的知識中間。為看清這個問題，要知道看見天主之本體或藉天主之本體看見天主，與藉受造物而看見天主，是相對而分的。一個受造物的等級愈高，愈相似天主，也愈清楚地藉它而看見天主;就如鏡子中的影像愈明晰，在鏡中所見到的人也愈真切。由此可見，藉智性的效果或智性受造物，比藉感官性和形體的效果或受造物所見到的天主清楚得多。但是人在現在的情況下，受阻於專心一志地清晰觀察智'1生受造物，因為感官界的事物使他分心，使他勞神。但是按何11道篇》第七章30節所說的，「天主造人原很正直」 0天主在人內所設構的正直，在於低級者服從高級者，高級者不受到低級者之妨礙。所以第一個人能清楚而堅定地觀賞理性的效果或受造物，不受外物之阻擾;他是憑第一真理之光照，無論是自然的或恩賜的，觀賞他們。為此，奧斯定在《創世紀字義新探》卷十一第三十三章說: 「也許天主曾跟最初的人講話，像祂跟天使們講話一樣﹒以其不變之真理，光照他們的心靈;雖然他們分享或享見的天主之本體，不像天使分享或享見的那麼多。」所以第一個人，藉天主所產生的智|生效果或受造物，會更清楚地認知天主，超過我們現在的認知。",
+      "after": "我解答如下：按第一個人的生活之一般情形來說，他沒有看到天主的本體；除非是也許可以說他在出神中看到，即如《創世紀》第二章21節所說的，當「上主天主遂使亞當熟睡」的時候。其中的原因，在於既然天主之本體與幸福是一事，所以見天主之本體者的理智與天主之關係，就如一般人與幸福之關係。顯然沒有人能自願放棄幸福；因為人自然和必然地追求幸福，並逃避痛苦。所以沒有一個人見了天主的本體後，能自願地離棄天主，也即是犯罪。故此，凡是見了天主之本體的人，便堅定於愛天主，永遠也不能犯罪。既然亞當犯了罪，顯然他不曾見到天主的本體。\n但是他對天主的認知要高於我們的認知；故可以說，他所有的知識，是居於現有境界之知識，及在天鄉面見天主之本體的知識中間。為看清這個問題，要知道看見天主之本體或藉天主之本體看見天主，與藉受造物而看見天主，是相對而分的。一個受造物的等級愈高，愈相似天主，也愈清楚地藉它而看見天主；就如鏡子中的影像愈明晰，在鏡中所見到的人也愈真切。由此可見，藉智性的效果或智性受造物，比藉感官性和形體的效果或受造物所見到的天主清楚得多。但是人在現在的情況下，受阻於專心一志地清晰觀察智性受造物，因為感官界的事物使他分心，使他勞神。但是按《訓道篇》第七章30節所說的，「天主造人原很正直」。天主在人內所設構的正直，在於低級者服從高級者，高級者不受到低級者之妨礙。所以第一個人能清楚而堅定地觀賞理性的效果或受造物，不受外物之阻擾；他是憑第一真理之光照，無論是自然的或恩賜的，觀賞他們。為此，奧斯定在《創世紀字義新探》卷十一第三十三章說：「也許天主曾跟最初的人講話，像祂跟天使們講話一樣，以其不變之真理，光照他們的心靈；雖然他們分享或享見的天主之本體，不像天使分享或享見的那麼多。」所以第一個人，藉天主所產生的智性效果或受造物，會更清楚地認知天主，超過我們現在的認知。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "進使亞當",
+          "after": "遂使亞當",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸褔",
+          "after": "幸福",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智'1生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "何11道篇》",
+          "after": "《訓道篇》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原很正直」 0",
+          "after": "原很正直」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一樣﹒",
+          "after": "一樣，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1506
+      ],
+      "before": "人在地堂裡是幸福的，但所享到的不是將來要享受的那種在於面見天主的完美幸福，而是如奧斯定在《創世紀字義新探》卷十一第十八章說的:他有「某種方式的幸福生活」'這是因為他具有一種自然的純真和完美性。",
+      "after": "人在地堂裡是幸福的，但所享到的不是將來要享受的那種在於面見天主的完美幸福，而是如奧斯定在《創世紀字義新探》卷十一第十八章說的：他有「某種方式的幸福生活」，這是因為他具有一種自然的純真和完美性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸福生活」'",
+          "after": "幸福生活」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1506
+      ],
+      "before": "善良意志即是順從秩序的意志。倘若第一個人在尚須立功的境界，就願享有那預許給他作為賞報的東西，他的意志便不是順從秩序的了。",
+      "after": "善良意志即是順從秩序的意志。倘若第一個人在尚須立功的境界，就願享有那預許給他作為賞報的東西，他的意志便不是順從秩序的了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1506,
+        1507
+      ],
+      "before": "媒介有兩種。有一種媒介，也一起看到用媒介所看之東西，例如:用鏡子看人，人是同時與鏡子一起被看到。另一種媒介，我們藉由認知它，而達到一個未知者，例如:論證之媒介。第一個人見天主不用這種媒介，但不能沒有第一種媒介。因為第一個人認識天主，不必藉取自某效果或受造物的論證，這為我們則是必要的;他乃是同時在效果中，特別是在智性的效果中，一起以某種方式看到天主。\n同樣也該知道，隱約不明中所含有的晦暗或模糊也有兩種:一種即每個受造物與天主的無限光明相較之下，都可以說是模糊的;因此，亞當是模模糊糊地看到天主，因為他是從受造的效果中看到天主。另一種模糊是由罪惡來的，即在於人置身於感官界的事物，受阻於觀賞智性的事物;按這意義，他不是模糊地看到天主。",
+      "after": "媒介有兩種。有一種媒介，也一起看到用媒介所看之東西，例如：用鏡子看人，人是同時與鏡子一起被看到。另一種媒介，我們藉由認知它，而達到一個未知者，例如：論證之媒介。第一個人見天主不用這種媒介，但不能沒有第一種媒介。因為第一個人認識天主，不必藉取自某效果或受造物的論證，這為我們則是必要的；他乃是同時在效果中，特別是在智性的效果中，一起以某種方式看到天主。\n同樣也該知道，隱約不明中所含有的晦暗或模糊也有兩種：一種即每個受造物與天主的無限光明相較之下，都可以說是模糊的；因此，亞當是模模糊糊地看到天主，因為他是從受造的效果中看到天主。另一種模糊是由罪惡來的，即在於人置身於感官界的事物，受阻於觀賞智性的事物；按這意義，他不是模糊地看到天主。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "亞當在純真狀態是否曾見到天使的本體",
+      "after": "亞當在純真狀態是否曾見到天使的本體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "亞當在純真狀態或原始的無罪境界似乎曾看到天使的本。因為:",
+      "after": "亞當在純真狀態或原始的無罪境界似乎曾看到天使的本體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天使的本。",
+          "after": "天使的本體。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "教宗額我略一世在《對話錄》卷四第一章說:「在地堂裡，人常與天主交談，並因其純潔高尚的心境，與幸福的天使們來佳。」",
+      "after": "教宗額我略一世在《對話錄》卷四第一章說：「在地堂裡，人常與天主交談，並因其純潔高尚的心境，與幸福的天使們來往。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來佳",
+          "after": "來往",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "此外，靈魂在現在的情況下不能認識獨立之本體，是因了它與有朽之身體之結合，就如《智慧篇》第九章的節所說的，肉身「重壓著靈魂」。是以，如前面第八十九題第二節所說的，靈魂離開身體後，能看到獨立之本體。但是第一個人的身體不是重壓著靈魂，因為那時身體是不朽的。所以，那時能看到獨立之本體。",
+      "after": "此外，靈魂在現在的情況下不能認識獨立之本體，是因了它與有朽之身體之結合，就如《智慧篇》第九章15節所說的，肉身「重壓著靈魂」。是以，如前面第八十九題第二節所說的，靈魂離開身體後，能看到獨立之本體。但是第一個人的身體不是重壓著靈魂，因為那時身體是不朽的。所以，那時能看到獨立之本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第九章的節",
+          "after": "第九章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "此外，按《論原因》命題十三說的，獨立之本體因了認識自己便認識別的獨立之本體。但是，第一個人的靈魂認識自己。所以，它也認識獨立之本體。",
+      "after": "此外，按《論原因》命題十三說的，獨立之本體因了認識自己便認識別的獨立之本體。但是，第一個人的靈魂認識自己。所以，它也認識獨立之本體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1507
+      ],
+      "before": "亞當的靈魂與我們的靈魂，在天性上是一樣的。我們的靈魂現在不能領悟獨立之本體。所以第一個人的靈魂也不能。",
+      "after": "亞當的靈魂與我們的靈魂，在天性上是一樣的。我們的靈魂現在不能領悟獨立之本體。所以第一個人的靈魂也不能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1508,
+        1509
+      ],
+      "before": "我解答如下:人靈魂的情況(status，境界、狀態)可以有兩種區分之方式。一是根據其自然存在之不同方式，如此可。以分為:離開身體之靈魂的情況，與在身體內的靈魂之情況。另一方式是在同一自然存在方式下，按完整及缺殘來分靈魂之情況。按這區分，純真狀態或情況，不同於人犯罪後的狀態或情況。在純真狀態下，人的靈魂是為成全和管理身體的，現在、也是一樣;故此《創世紀》第二章7節說第一個人「成了有靈的生物」'即是說，使身體有生命，有動物或感性的生命。但是如第一節己說過的，第一個人的這種生命是完整的，是因為身體絕對服從靈魂，沒有任何干擾。但是根據前面第八十四題第七節、第八十五題第一節、第八十九題第一節所說的，既然靈魂是為成全和管理身體之感性生命的，故我們的靈魂所該具有的領悟方式，是藉求助於心象。所以，第一個人的靈魂也該有這種領悟方式。\n按這種領悟方式，根據狄奧尼修在《神名論》第四章所說的，靈魂之動態可以分為三個等級:第一級，是「靈魂從外物中返回到自己內」;第二級，靈魂上升，「以與高級能力結合」'即與天使結合;第三級，是靈魂「被領到高於萬物的至善」'即是天主。在靈魂的第一級過程中，即從外物回到自己，完成對靈魂之認知。按前面第八十七題第三節所說的，靈魂之智性活動是自然以外物為對象;因了認知這些東西，便能認清我們的智1生活動，這是藉對象以認知活動。藉智性活動，便能認清人的理智，即機能因其專有活動而被認知。但是在第二級過程中，沒有完備的知識;因為如第五十五題第二節己說過的，天使不是靠求助於心象來領悟，而是以一種扭高妙的方式領悟。以上述之靈魂認知自己之方式，不足以認知天使。在第三級過程中更沒有完備的知識;因為就連天使{門，也不能因了他們認識自己便能認識天主之本體，因為天主是極超然的。\n所以，第一個人的靈魂不能看到天使的本體，但是，他對天使們所有的認知方式，遠超過我們所有的。因為他對內心之智性事物的認知，比我們的穩定切實。教宗額我略-世說「他與天使們來任」'就是因了這種優點。",
+      "after": "我解答如下：人靈魂的情況(status，境界、狀態)可以有兩種區分之方式。一是根據其自然存在之不同方式，如此可以分為：離開身體之靈魂的情況，與在身體內的靈魂之情況。另一方式是在同一自然存在方式下，按完整及缺殘來分靈魂之情況。按這區分，純真狀態或情況，不同於人犯罪後的狀態或情況。在純真狀態下，人的靈魂是為成全和管理身體的，現在也是一樣；故此《創世紀》第二章7節說第一個人「成了有靈的生物」，即是說，使身體有生命，有動物或感性的生命。但是如第一節己說過的，第一個人的這種生命是完整的，是因為身體絕對服從靈魂，沒有任何干擾。但是根據前面第八十四題第七節、第八十五題第一節、第八十九題第一節所說的，既然靈魂是為成全和管理身體之感性生命的，故我們的靈魂所該具有的領悟方式，是藉求助於心象。所以，第一個人的靈魂也該有這種領悟方式。\n按這種領悟方式，根據狄奧尼修在《神名論》第四章所說的，靈魂之動態可以分為三個等級：第一級，是「靈魂從外物中返回到自己內」；第二級，靈魂上升，「以與高級能力結合」，即與天使結合；第三級，是靈魂「被領到高於萬物的至善」，即是天主。在靈魂的第一級過程中，即從外物回到自己，完成對靈魂之認知。按前面第八十七題第三節所說的，靈魂之智性活動是自然以外物為對象；因了認知這些東西，便能認清我們的智性活動，這是藉對象以認知活動。藉智性活動，便能認清人的理智，即機能因其專有活動而被認知。但是在第二級過程中，沒有完備的知識；因為如第五十五題第二節己說過的，天使不是靠求助於心象來領悟，而是以一種極高妙的方式領悟。以上述之靈魂認知自己之方式，不足以認知天使。在第三級過程中更沒有完備的知識；因為就連天使們，也不能因了他們認識自己便能認識天主之本體，因為天主是極超然的。\n所以，第一個人的靈魂不能看到天使的本體，但是，他對天使們所有的認知方式，遠超過我們所有的。因為他對內心之智性事物的認知，比我們的穩定切實。教宗額我略一世說「他與天使們來往」，就是因了這種優點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如此可。以",
+          "after": "如此可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現在、也是",
+          "after": "現在也是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有靈的生物」'",
+          "after": "有靈的生物」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力結合」'",
+          "after": "能力結合」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至善」'",
+          "after": "至善」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智1生活動",
+          "after": "智性活動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "扭高妙",
+          "after": "極高妙",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使{門",
+          "after": "天使們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "額我略-世",
+          "after": "額我略一世",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來任」'",
+          "after": "來往」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "從上面正解所說的可知質疑1之答案。",
+      "after": "從上面正解所說的可知質疑1之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "第一個人的靈魂不能領悟獨立之本體，不是因了身體的重壓;而是因為他的原有之自然對象與獨立之本體相差太遠。而我們則是兼國了上述兩層原因。",
+      "after": "第一個人的靈魂不能領悟獨立之本體，不是因了身體的重壓；而是因為他的原有之自然對象與獨立之本體相差太遠。而我們則是兼因了上述兩層原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兼國了",
+          "after": "兼因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "如正解己說過的，第一個人的靈魂不能因了認識自己便認識獨立之本體;因為就連每個獨立本體，也是各以自己之方式認識別的獨立本體。",
+      "after": "如正解己說過的，第一個人的靈魂不能因了認識自己便認識獨立之本體；因為就連每個獨立本體，也是各以自己之方式認識別的獨立本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "第一個人是否其有一切東西之知識",
+      "after": "第一個人是否具有一切東西之知識",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "其有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "第一個人似乎沒有一切東西之知識。因為:",
+      "after": "第一個人似乎沒有一切東西之知識。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "他若有這些知識，或是藉習得的理象或理念，或是藉天生的，或是藉灌輸的。他不是藉習得的理象或理念，因為按《形上學》卷一第一章所說的，這種知識是生於經驗，而他那時還沒有經驗到一切;同樣，也不是藉天生的理象或理念，因為他的天性與我們的一樣。而按《靈魂論》卷三第四章所說的，我們的靈魂原來「就像什麼也沒有寫的一張白紙」。如果是藉灌輸的理象或理念，貝IJ他對萬物所有的知識，與我們從東西上所獲得的知識，不是同類的知識。",
+      "after": "他若有這些知識，或是藉習得的理象或理念，或是藉天生的，或是藉灌輸的。他不是藉習得的理象或理念，因為按《形上學》卷一第一章所說的，這種知識是生於經驗，而他那時還沒有經驗到一切；同樣，也不是藉天生的理象或理念，因為他的天性與我們的一樣。而按《靈魂論》卷三第四章所說的，我們的靈魂原來「就像什麼也沒有寫的一張白紙」。如果是藉灌輸的理象或理念，則他對萬物所有的知識，與我們從東西上所獲得的知識，不是同類的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1509
+      ],
+      "before": "此外，同類東西中的每一個體，都是以同樣方式獲致成就。但是一般的人不是從起初便有一切事物之知識，而是在時間過程中以自己的方式獲得的。所以，亞當也不是一產生便具有一切事物之知識。",
+      "after": "此外，同類東西中的每一個體，都是以同樣方式獲致成就。但是一般的人不是從起初便有一切事物之知識，而是在時間過程中以自己的方式獲得的。所以，亞當也不是一產生便具有一切事物之知識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1510
+      ],
+      "before": "此外，人的現生情況，乃是為使靈魂在人內逐漸獲得知識和功績;靈魂與身體結合似乎就是為了這個原因。但是人在最初的情況下，在功績方面是逐漸而進。所以在萬物的知識方面也是逐漸地進步。所以，第一個人沒有一切東西之知識。",
+      "after": "此外，人的現生情況，乃是為使靈魂在人內逐漸獲得知識和功績；靈魂與身體結合似乎就是為了這個原因。但是人在最初的情況下，在功績方面是逐漸而進。所以在萬物的知識方面也是逐漸地進步。所以，第一個人沒有一切東西之知識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1510
+      ],
+      "before": "按《創世紀》第二章20節說的，亞當曾給各種動物命名，而名字該與東西的性質相符。所以，亞當知道一切動物的性質;按同理，他也有其他一切物的知識。",
+      "after": "按《創世紀》第二章20節說的，亞當曾給各種動物命名，而名字該與東西的性質相符。所以，亞當知道一切動物的性質；按同理，他也有其他一切物的知識。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1510,
+        1511
+      ],
+      "before": "我解答如下:按自然次序，完美者是先於不完美者，就如現實是先於潛能;因為那在潛能狀態者，除非因了在現實狀態的東西，否則不能變成現實。此外，天主最初設造的東西，不只是為使那些東西本身存在，也是為使之為其他東西的根本。人不只能因身體之生殖而為另一人之根本，也能因了教導和管理。所以，第一個人在身體方面，既是一下就達到了完美狀態，以致立刻就能生殖;在靈魂方面也是一下就達到了完美狀態，為能立刻教導和管理他人。\n一個人除非有知識，否則不能教導別人。所以天主造的第一個人，具有人自然接受教導的一切東西的知識。這些即是潛伏在本然可知之第一或基本原理中的一切，也即是人以自然方式能知道的一切。此外，為了管理自己和他人的生活，不只需要人自然能知道的物之知識，也需要高於自然知識的物之知識。因為人的生活是以一種超自然或超性目的為依歸的，就如我們現在，為管理我們的生活，需要知道信德方面的事物。所以在超i企事物方面，第一個人也按在那種情況下管理生活所需要的程度，接受了關於他們的知識。\n至於人以自然的學習無法知道的，以及為管理人生不需要的知識，第一個人也不知道，例如:別人的心念，未來的偶發事件，及某些特殊事物，如在河底下有多少碎石等。",
+      "after": "我解答如下：按自然次序，完美者是先於不完美者，就如現實是先於潛能；因為那在潛能狀態者，除非因了在現實狀態的東西，否則不能變成現實。此外，天主最初設造的東西，不只是為使那些東西本身存在，也是為使之為其他東西的根本。人不只能因身體之生殖而為另一人之根本，也能因了教導和管理。所以，第一個人在身體方面，既是一下就達到了完美狀態，以致立刻就能生殖；在靈魂方面也是一下就達到了完美狀態，為能立刻教導和管理他人。\n一個人除非有知識，否則不能教導別人。所以天主造的第一個人，具有人自然接受教導的一切東西的知識。這些即是潛伏在本然可知之第一或基本原理中的一切，也即是人以自然方式能知道的一切。此外，為了管理自己和他人的生活，不只需要人自然能知道的物之知識，也需要高於自然知識的物之知識。因為人的生活是以一種超自然或超性目的為依歸的，就如我們現在，為管理我們的生活，需要知道信德方面的事物。所以在超性事物方面，第一個人也按在那種情況下管理生活所需要的程度，接受了關於他們的知識。\n至於人以自然的學習無法知道的，以及為管理人生不需要的知識，第一個人也不知道，例如：別人的心念，未來的偶發事件，及某些特殊事物，如在河底下有多少碎石等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "超i企",
+          "after": "超性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "第一個人是藉天主灌輸的理象或理念而有一切東西的知識，但那知識與我們的知識性質並無不同，就如基督給予天生之瞎子的眼睛，與大自然產生的眼睛，性質上並沒有差別。",
+      "after": "第一個人是藉天主灌輸的理象或理念而有一切東西的知識，但那知識與我們的知識性質並無不同，就如基督給予天生之瞎子的眼睛，與大自然產生的眼睛，性質上並沒有差別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "因為亞當是第一個人，該有一些別人所沒有的優長，這可以從上面正解所說的看出來。",
+      "after": "因為亞當是第一個人，該有一些別人所沒有的優長，這可以從上面正解所說的看出來。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "亞當對自然可知之物的知識，在量或數目方面不是漸進的，只在認知之方式仁是漸進的。因為他原來用理智已知道的，後來又因經驗而知道。至於超性界的知識，在量或數目方面也是漸進的，即因了新的啟示;就如天使也因了新的光照而有進步。但是知識的進步與功績的進步不能相提並論;因為一人能是他人之知識的根本，卻不能為其立功之根本。",
+      "after": "亞當對自然可知之物的知識，在量或數目方面不是漸進的，只在認知之方式上是漸進的。因為他原來用理智己知道的，後來又因經驗而知道。至於超性界的知識，在量或數目方面也是漸進的，即因了新的啟示；就如天使也因了新的光照而有進步。但是知識的進步與功績的進步不能相提並論；因為一人能是他人之知識的根本，卻不能為其立功之根本。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方式仁",
+          "after": "方式上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已知道",
+          "after": "己知道",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "人在原始狀態是否能受騙",
+      "after": "人在原始狀態是否能受騙",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "人在原始狀態或境界似乎能夠受騙。因為:",
+      "after": "人在原始狀態或境界似乎能夠受騙。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "宗徒在《弟茂德前書》第二章14節說: 「受騙陷於背命之罪的是女人。」",
+      "after": "宗徒在《弟茂德前書》第二章14節說：「受騙陷於背命之罪的是女人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "此外，大師在《語錄》卷二第二十一題說: 「女人聽到蛇講話沒有害↑白，因為她想是天主命蛇講話的。」但這(想法)是錯誤不實的。所以女人是在犯罪以前受了騙。",
+      "after": "此外，大師在《語錄》卷二第二十一題說：「女人聽到蛇講話沒有害怕，因為她想是天主命蛇講話的。」但這(想法)是錯誤不實的。所以女人是在犯罪以前受了騙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "害↑白",
+          "after": "害怕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1511
+      ],
+      "before": "此外，一個東西離得越遠，看起來也越小，這是自然的。但是眼睛的自然成性質沒有受到罪惡的損害。所以，在純真狀態也會有這樣的情形發生。所以那時的人像現在一樣，在所見之東西的量或大小方面曾經受騙。",
+      "after": "此外，一個東西離得越遠，看起來也越小，這是自然的。但是眼睛的自然或性質沒有受到罪惡的損害。所以，在純真狀態也會有這樣的情形發生。所以那時的人像現在一樣，在所見之東西的量或大小方面曾經受騙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自然成性質",
+          "after": "自然或性質",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1511,
+        1512
+      ],
+      "before": "此外，奧斯定在《創世紀字義新探》卷十二第二章說，在夢中靈魂將夢景看為實際的事物。但是人在純真狀態時也喫東西，所以也睡眠，也有夢。所以，他曾受騙，將夢景看為實際的事物。",
+      "after": "此外，奧斯定在《創世紀字義新探》卷十二第二章說，在夢中靈魂將夢景看為實際的事物。但是人在純真狀態時也喫東西，所以也睡眠，也有夢。所以，他曾受騙，將夢景看為實際的事物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a004.arg5",
+      "article": 4,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1512
+      ],
+      "before": "此外，如第三節己說過的，第一個人不知道別人的心念，及未來的偶發事件。若有人關於這方面的事對他說謊，他就受了騙。",
+      "after": "此外，如第三節己說過的，第一個人不知道別人的心念，及未來的偶發事件。若有人關於這方面的事對他說謊，他就受了騙。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1512
+      ],
+      "before": "奧斯定《論自由意志》卷三第十八章說:「認假成真，不是受造之人的本性，而是被判有罪之人的懲罰。」",
+      "after": "奧斯定《論自由意志》卷三第十八章說：「認假成真，不是受造之人的本性，而是被判有罪之人的懲罰。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1512,
+        1513
+      ],
+      "before": "我解答如下:有人說，所謂受騙有兩種意義:一種是在猜測上輕易地以假為真，但不堅決地相信;男一種是堅決地信以為然。關於亞當所知道的那些事物，人在犯罪以前這兩種受騙都不可能。但是有關亞當沒有知識的事物，他能受第一種欺騙，這是廣義地將欺騙解釋為任何沒有堅決相信的猜測。他們這樣講，是因認為在這類事上以假為員，對人沒有害處;又因了不冒然相信，所以也沒有罪過。\n但是，這種主張與原始狀態或境界的完整不合，因為按奧斯定在《天主之城》卷十四第十章所說的，在那狀態或境界，「避免犯罪毫不費力，幾時這種情形持續不變，便絕不可能有任何惡。」按《倫理學》卷六第二章所說的，真既然是理智的善，顯然假就是理智的惡。所以在維持純真的狀態下，人的理智不可能以假為真。就如在第一個人的身體之肢體上，固然能缺少某些優長，例如:光明，但是不能有惡;同樣，在理智上能缺少某物的知識，但不能有虛假木質的猜測。\n這也可以從原始狀態下之正直方面看出來，即只要靈魂在此狀態下服從天主，人內的低級部分便服從高級部分，高級部分也不會受到低級部分的妨礙。按我們前面第十七題第三節、第八十五題第六節曾說的，可知理智關於其專有對象常是真實的。故在它本身方面，永遠也不會受騙;在理智上之所以有錯誤，也是從某低級機能來的，如想像等。是以我們見到，若自然判斷力不受到阻礙，這類幻影不能欺騙我們;只在這判斷力受阻時我們才能受騙，例如:在睡眠中。由此可見，原始狀態的正直，不容許理智受到欺騙。",
+      "after": "我解答如下：有人說，所謂受騙有兩種意義：一種是在猜測上輕易地以假為真，但不堅決地相信；另一種是堅決地信以為然。關於亞當所知道的那些事物，人在犯罪以前這兩種受騙都不可能。但是有關亞當沒有知識的事物，他能受第一種欺騙，這是廣義地將欺騙解釋為任何沒有堅決相信的猜測。他們這樣講，是因認為在這類事上以假為真，對人沒有害處；又因了不冒然相信，所以也沒有罪過。\n但是，這種主張與原始狀態或境界的完整不合，因為按奧斯定在《天主之城》卷十四第十章所說的，在那狀態或境界，「避免犯罪毫不費力，幾時這種情形持續不變，便絕不可能有任何惡。」按《倫理學》卷六第二章所說的，真既然是理智的善，顯然假就是理智的惡。所以在維持純真的狀態下，人的理智不可能以假為真。就如在第一個人的身體之肢體上，固然能缺少某些優長，例如：光明，但是不能有惡；同樣，在理智上能缺少某物的知識，但不能有虛假不實的猜測。\n這也可以從原始狀態下之正直方面看出來，即只要靈魂在此狀態下服從天主，人內的低級部分便服從高級部分，高級部分也不會受到低級部分的妨礙。按我們前面第十七題第三節、第八十五題第六節曾說的，可知理智關於其專有對象常是真實的。故在它本身方面，永遠也不會受騙；在理智上之所以有錯誤，也是從某低級機能來的，如想像等。是以我們見到，若自然判斷力不受到阻礙，這類幻影不能欺騙我們；只在這判斷力受阻時我們才能受騙，例如：在睡眠中。由此可見，原始狀態的正直，不容許理智受到欺騙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以假為員",
+          "after": "以假為真",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "虛假木質",
+          "after": "虛假不實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1513
+      ],
+      "before": "女人的受騙，雖然是在罪行以前，卻是在內心之驕傲罪念之後。因為奧斯定在《創世紀字義新探》卷十一第三十章說: 「若非女人在心中先有了對自己之權力的偏愛，及一種自負，她就不會相信蛇的話。」",
+      "after": "女人的受騙，雖然是在罪行以前，卻是在內心之驕傲罪念之後。因為奧斯定在《創世紀字義新探》卷十一第三十章說：「若非女人在心中先有了對自己之權力的偏愛，及一種自負，她就不會相信蛇的話。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1513
+      ],
+      "before": "女人不是想蛇天生就有講話的能力，而想是由於超性的活動。不過關於這個問題，並不一定要接受《語錄》大師的主張。",
+      "after": "女人不是想蛇天生就有講話的能力，而想是由於超性的活動。不過關於這個問題，並不一定要接受《語錄》大師的主張。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q094.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1513
+      ],
+      "before": "倘若在第一個人的想像中或感官上有不符事實的表顯，也不能說他受了騙;因為他會用理性判定真假。",
+      "after": "倘若在第一個人的想像中或感官上有不符事實的表顯，也不能說他受了騙；因為他會用理性判定真假。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1513
+      ],
+      "before": "在夢中發生的，人不負責任，因為那時他不能運用理性，經過理性的活動纔是人專有的活動。",
+      "after": "在夢中發生的，人不負責任，因為那時他不能運用理性，經過理性的活動才是人專有的活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q094.a004.ad5",
+      "article": 4,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1513
+      ],
+      "before": "倘若有人在關於未來之偶發事件或他人之心念的事上說謊，人在純真狀態時不會相信就是這樣，只相信那是可能的;而這不是認假為真。\n或者也可以說，關於他不知道的事情，有天主幫他免受欺騙。有人也許要說，在他受誘惑的時候，他最需要幫助，但天主並沒有幫他免受欺騙。這種說法也沒有說服力。因為他在心中已先犯了罪，也沒有求天主幫助。",
+      "after": "倘若有人在關於未來之偶發事件或他人之心念的事上說謊，人在純真狀態時不會相信就是這樣，只相信那是可能的；而這不是認假為真。\n或者也可以說，關於他不知道的事情，有天主幫他免受欺騙。有人也許要說，在他受誘惑的時候，他最需要幫助，但天主並沒有幫他免受欺騙。這種說法也沒有說服力。因為他在心中己先犯了罪，也沒有求天主幫助。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已先犯",
+          "after": "己先犯",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
