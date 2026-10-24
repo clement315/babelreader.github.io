@@ -1,0 +1,3396 @@
+{
+  "schema_version": 1,
+  "batch": "I-q093",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "4a10de3a540d46c4b43639224d4f5b11563ee9b9",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q093",
+    "title": "論人之產生的目標或終局",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "pdf_file_pages": [
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487,
+      1488,
+      1489,
+      1490,
+      1491,
+      1492,
+      1493,
+      1494,
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1501,
+      1502,
+      1503
+    ],
+    "printed_pages": [
+      255,
+      276
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 118,
+    "changed_review_units": 91,
+    "checked_unchanged_review_units": 28
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q93.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q93.json": "b06b58518358616e07114f2240e5bcf39167b0ff25a28077720841b2ab99ca79"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q093.a001.respondeo",
+      "pdf_file_page": 1483,
+      "text": "做造物",
+      "status": "suspected_source_print_error",
+      "action": "原页作「做造物」，疑「受造物」印误；保留原字。"
+    },
+    {
+      "id": "I.q093.a002.ad1",
+      "pdf_file_page": 1486,
+      "text": "分自完美者",
+      "status": "suspected_source_print_error",
+      "action": "原页作「分自完美者」，疑「分有」印误；不静默改写。"
+    },
+    {
+      "id": "I.q093.a004.respondeo",
+      "pdf_file_page": 1489,
+      "text": "己印在我們身上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q093.a005.ad4",
+      "pdf_file_page": 1492,
+      "text": "妄稱「肖像」",
+      "status": "suspected_source_print_error",
+      "action": "原页作「妄稱」，虽措辞可疑，照原书保留。"
+    },
+    {
+      "id": "I.q093.a006.respondeo",
+      "pdf_file_page": 1493,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q093.a006.ad4",
+      "pdf_file_page": 1495,
+      "text": "卷十一第二等章",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「第二等章」，保留原有引文写法，不自行编定章数。"
+    },
+    {
+      "id": "I.q093.a007.ad2",
+      "pdf_file_page": 1497,
+      "text": "有何不同因而",
+      "status": "suspected_source_print_error",
+      "action": "原页在「不同」「因而」间无标点，保留原排字。"
+    },
+    {
+      "id": "I.q093.a008.respondeo",
+      "pdf_file_page": 1499,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q093.a008.ad3",
+      "pdf_file_page": 1500,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q093.prologue",
+      "description": "移除引言前两行重复标题及识别乱码；两个原有换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部22页、9节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q093.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "命\n冊人之一如訂那一或終局\n然後要討論的是人之產生的目標(finis)或終局(terminus'最後成果、結局)，即有關所謂他是「按天主之肖像和相似(t莫樣)」受造的問題(參看第九十題引言)。\n關於這點，可以提出九個問題:\n一、人內是否有天主之肖像。\n二、無靈受造物中是否有天主的百像。\n三、天使是否比人更具有天主之肖像。\n四、是否每人都有天主之肖像。\n五、在人內的天主之肖像，是基於與(天主之)本質的關係，抑或是與天主之所有位格，或其中之一位格的關係。\n六、人是否只根據心靈而為天主之肖像。\n七、人之有天主的肖像，是根據機能、習性，抑或活動。\n八、是否針對所有的封象。\n九、論再像與相似(模樣)之差別。",
+      "after": "\n\n然後要討論的是人之產生的目標(finis)或終局(terminus，最後成果、結局)，即有關所謂他是「按天主之肖像和相似(模樣)」受造的問題(參看第九十題引言)。\n關於這點，可以提出九個問題：\n一、人內是否有天主之肖像。\n二、無靈受造物中是否有天主的肖像。\n三、天使是否比人更具有天主之肖像。\n四、是否每人都有天主之肖像。\n五、在人內的天主之肖像，是基於與(天主之)本質的關係，抑或是與天主之所有位格，或其中之一位格的關係。\n六、人是否只根據心靈而為天主之肖像。\n七、人之有天主的肖像，是根據機能、習性，抑或活動。\n八、是否針對所有的對象。\n九、論肖像與相似(模樣)之差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "命\n冊人之一如訂那一或終局\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "terminus'",
+          "after": "terminus，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "t莫樣",
+          "after": "模樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "百像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "封象",
+          "after": "對象",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "再像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "人內是否有天主之肖像",
+      "after": "人內是否有天主之肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "人內似乎沒有天主之肖像(imagoì。因為:",
+      "after": "人內似乎沒有天主之肖像(imago)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "imagoì",
+          "after": "imago)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1482
+      ],
+      "before": "i.《依撒意亞》第四十章18節說: 「你們要把天主同誰相比擬呢?你們把祂與什麼相對照呢?」",
+      "after": "《依撒意亞》第四十章18節說：「你們要把天主同誰相比擬呢?你們把祂與什麼相對照呢?」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1482,
+        1483
+      ],
+      "before": "此外，當天主的肖像乃是天主獨生子之專權，宗徒在《哥羅森書》第一章的節，說祂「是不可見的天主的自像，是一切受造物的首生者。」所以在人內沒有天主的肖像。",
+      "after": "此外，當天主的肖像乃是天主獨生子之專權，宗徒在《哥羅森書》第一章15節，說祂「是不可見的天主的肖像，是一切受造物的首生者。」所以在人內沒有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章的節",
+          "after": "第一章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1483
+      ],
+      "before": "此外，希拉利(Hilarius'315~367年)在《論主教會議》(De Synodis)中說: 「肖像是其所摹繪之東西在種或別類(species)上沒有差別的像」;他在那裡又說: 「肖像是物之與物本身相等的、無法分辨的、二而一的酷似。」但是在類別上沒有差別的像不存在於人與天主之間，人與天主也不可能相等。所以在人內不能有天主的尚像。",
+      "after": "此外，希拉利(Hilarius，315～367年)在《論主教會議》(De Synodis)中說：「肖像是其所摹繪之東西在種或別類(species)上沒有差別的像」；他在那裡又說：「肖像是物之與物本身相等的、無法分辨的、二而一的酷似。」但是在類別上沒有差別的像不存在於人與天主之間，人與天主也不可能相等。所以在人內不能有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Hilarius'315~367年",
+          "after": "Hilarius，315～367年",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1483
+      ],
+      "before": "《創世紀》第一章26節說:「讓我們照我們的肖像，按我們的模樣造人。」",
+      "after": "《創世紀》第一章26節說：「讓我們照我們的肖像，按我們的模樣造人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1483
+      ],
+      "before": "我解答如下:奧斯定在《雜題八十三》第七十四題說:「哪裡有肖像，便也有相似(similitudo);但哪裡有相似，並不一定也有肖像。」由此可見，相似乃是肖像之內涵之一，以及尚像給相似之內涵增加一點東西，即肖像是根據另一個東西摹成並為表示那東西的;稱之為「肖像」'是因了它是摹擬另一個東西的。為此一個雞蛋，無論怎樣與另一個雞蛋相似和相等，也不說它是另一個的肖像，因為它不是由於摹擬另一個而來的。中目等不屬於肖像之內涵，正如奧斯定在那裡說的: 「哪裡有自像，並不一定就相等」'這可從一人在鏡子裡映出的影像上看出來。但是相等屬於完美的肖像之內涵，因為在完美的肖像上，其所根據或表示之東西所有的，肖像什麼也不缺少。\n在人內顯然有一種與天主的相似，它來自天主好似來自模型;但二者之間沒有相等的相似，因為這個模型與做造物之間有無限的距離。所以說，在人內有天主的肖像，但不是完美的肖像，只是不完美的肖像。聖經上說，人是「按照天主的肖像」造的，便是這個意思;因為「按照」表示接近，只用於有距離的東西。",
+      "after": "我解答如下：奧斯定在《雜題八十三》第七十四題說：「哪裡有肖像，便也有相似(similitudo)；但哪裡有相似，並不一定也有肖像。」由此可見，相似乃是肖像之內涵之一，以及肖像給相似之內涵增加一點東西，即肖像是根據另一個東西摹成並為表示那東西的；稱之為「肖像」，是因了它是摹擬另一個東西的。為此一個雞蛋，無論怎樣與另一個雞蛋相似和相等，也不說它是另一個的肖像，因為它不是由於摹擬另一個而來的。相等不屬於肖像之內涵，正如奧斯定在那裡說的：「哪裡有肖像，並不一定就相等」，這可從一人在鏡子裡映出的影像上看出來。但是相等屬於完美的肖像之內涵，因為在完美的肖像上，其所根據或表示之東西所有的，肖像什麼也不缺少。\n在人內顯然有一種與天主的相似，它來自天主好似來自模型；但二者之間沒有相等的相似，因為這個模型與做造物之間有無限的距離。所以說，在人內有天主的肖像，但不是完美的肖像，只是不完美的肖像。聖經上說，人是「按照天主的肖像」造的，便是這個意思；因為「按照」表示接近，只用於有距離的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "肖像」'",
+          "after": "肖像」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中目等",
+          "after": "相等",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相等」'",
+          "after": "相等」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "先知所說的是人所造的形體肖像，故特別說: 「你們把祂與什麼相對照呢?」而天主放在人內的是精神性的肖像。",
+      "after": "先知所說的是人所造的形體肖像，故特別說：「你們把祂與什麼相對照呢?」而天主放在人內的是精神性的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "「一切受造物的首生者」'是天主的完美肖像，完全等於它所表示的;是以說「祂是肖像」'從來也不說r:t也有肖像J 0人則是由於相似而被稱為天主的肖像;因了不完美的相似，故說「按照天主的肖像」。又因了與天主完全相似就要有與天主相同的本質，在天主獨生子身上的肖像，就像與閻王有相同本質之王太子之為國王的肖像;在人身上的肖像，則是在男一種本質上的尚像，就像在銀錢上的國王之肖像。這可參看奧斯定在《論十絃》(De decem chordis)「證道詞」第九篇第八章裡所說的。",
+      "after": "「一切受造物的首生者」，是天主的完美肖像，完全等於它所表示的；是以說「祂是肖像」，從來也不說「祂有肖像」。人則是由於相似而被稱為天主的肖像；因了不完美的相似，故說「按照天主的肖像」。又因了與天主完全相似就要有與天主相同的本質，在天主獨生子身上的肖像，就像與國王有相同本質之王太子之為國王的肖像；在人身上的肖像，則是在另一種本質上的肖像，就像在銀錢上的國王之肖像。這可參看奧斯定在《論十絃》(De decem chordis)「證道詞」第九篇第八章裡所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "首生者」'",
+          "after": "首生者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "肖像」'",
+          "after": "肖像」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "r:t也有肖像J 0",
+          "after": "「祂有肖像」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閻王",
+          "after": "國王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "沒有分開的東西便是一個，所謂沒有差別或分別的像，就是說同一的像。但所謂r~J'不只用於數字或個體、另1]類、或共類，也可用於類比(allalogia)或比例:而最後這一種便是受造物與天主之間的同一或相同、相合。至於所謂的「物與物之完全相等」'貝1]屬於完美之南像的內涵。",
+      "after": "沒有分開的東西便是一個，所謂沒有差別或分別的像，就是說同一的像。但所謂「一」，不只用於數字或個體、別類、或共類，也可用於類比(analogia)或比例：而最後這一種便是受造物與天主之間的同一或相同、相合。至於所謂的「物與物之完全相等」，則屬於完美之肖像的內涵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "r~J'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另1]類",
+          "after": "別類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "allalogia",
+          "after": "analogia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完全相等」'貝1]",
+          "after": "完全相等」，則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "南像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "無靈受造物中是否有天主的肖像",
+      "after": "無靈受造物中是否有天主的肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "在無靈受造物中似乎有天主的肖像。因為:",
+      "after": "在無靈受造物中似乎有天主的肖像。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "狄奧尼修在《神名論》第二章說: 「在效果中有其原因之近似的或相稱的尚像。」但天主不只是有靈受造物的原因，也是無靈受造物的原因。所以，在無靈的受造物中，有天主的肖像。",
+      "after": "狄奧尼修在《神名論》第二章說：「在效果中有其原因之近似的或相稱的肖像。」但天主不只是有靈受造物的原因，也是無靈受造物的原因。所以，在無靈的受造物中，有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1484
+      ],
+      "before": "此外，與一個東西的相似愈明顯，愈有肖像之性質。但是狄奧尼修在《神名論》第四章說，太陽的光線最像似天主的美善。所以太陽的光線是按照天主的再像。",
+      "after": "此外，與一個東西的相似愈明顯，愈有肖像之性質。但是狄奧尼修在《神名論》第四章說，太陽的光線最像似天主的美善。所以太陽的光線是按照天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "再像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1484,
+        1485
+      ],
+      "before": "此外，一個東西所具有的美善愈多，愈像似天主。但是整個宇宙比人更為美善，因為按《創世紀》第一章31節的說法，雖然每種東西都是好的，但論到全體卻說很好。所以不只人，整個宇宙都是按照天主的肖像。",
+      "after": "此外，一個東西所具有的美善愈多，愈像似天主。但是整個宇宙比人更為美善，因為按《創世紀》第一章31節的說法，雖然每種東西都是好的，但論到全體卻說很好。所以不只人，整個宇宙都是按照天主的肖像。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1485
+      ],
+      "before": "此外，波其武在《論哲學的慰藉》卷三第九章論天主說: 「祂以理智支撐世界，並按相似自己的肖像使之形成o 」所以，整個世界都是按照天主的肖像造的，不只有靈的受造物。",
+      "after": "此外，波其武在《論哲學的慰藉》卷三第九章論天主說：「祂以理智支撐世界，並按相似自己的肖像使之形成。」所以，整個世界都是按照天主的肖像造的，不只有靈的受造物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "形成o 」",
+          "after": "形成。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1485
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷六第十二章說: 「人之優越在於天主是按自己的肖像造了人，這是因為祂給了人智性的心靈，使人高於禽獸。」所以，沒有智性或靈性的東西，不是按照天主的肖像。",
+      "after": "奧斯定在《創世紀字義新探》卷六第十二章說：「人之優越在於天主是按自己的肖像造了人，這是因為祂給了人智性的心靈，使人高於禽獸。」所以，沒有智性或靈性的東西，不是按照天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1485,
+        1486
+      ],
+      "before": "我解答如下:並非任何相似，縱然是來自另一物並為表示該物的，都足以構成肖像之理或性質。如果相似只是按照類或共類(genus)，或是共同之依附體，不能因此便說某東西是按照另一個東西的肖像;因為從人身體生出的懦蟲，雖然按共類與人相似，但不能說是人的肖像。同樣，一個東西變得像另一個東西一樣白，也不能說前者是後者之肖像，因為白色是許多種東西共有的依附體。肖像之理或性質，需要具有「種」或別類(species)上的相似，例如:國王的兒子身上有國玉的肖像;或至少有種或別類所專有之依附體上的相似，特別是在形狀方面，例如:在鍋上的人像。故此，希拉利特別說: 「肖像是在種或別類上沒有差別的像」(參看第一節質疑3.)。\n顯然種或別類方面的相似要看最後的差別。一個東西之相似天主，首先是因了它存在，這是最普通的相似;其次是因了有生命;第三，因了有認知或領悟活動。按奧斯定在《雜題八十三》第五十二題說的，後者「與天主非常近似，在受造物中沒有比它們更接近天主的。」由此可見，嚴格地說，只有智性或有靈受造物是按天主的肖像造的。",
+      "after": "我解答如下：並非任何相似，縱然是來自另一物並為表示該物的，都足以構成肖像之理或性質。如果相似只是按照類或共類(genus)，或是共同之依附體，不能因此便說某東西是按照另一個東西的肖像；因為從人身體生出的蠕蟲，雖然按共類與人相似，但不能說是人的肖像。同樣，一個東西變得像另一個東西一樣白，也不能說前者是後者之肖像，因為白色是許多種東西共有的依附體。肖像之理或性質，需要具有「種」或別類(species)上的相似，例如：國王的兒子身上有國王的肖像；或至少有種或別類所專有之依附體上的相似，特別是在形狀方面，例如：在銅上的人像。故此，希拉利特別說：「肖像是在種或別類上沒有差別的像」(參看第一節質疑3.)。\n顯然種或別類方面的相似要看最後的差別。一個東西之相似天主，首先是因了它存在，這是最普通的相似；其次是因了有生命；第三，因了有認知或領悟活動。按奧斯定在《雜題八十三》第五十二題說的，後者「與天主非常近似，在受造物中沒有比它們更接近天主的。」由此可見，嚴格地說，只有智性或有靈受造物是按天主的肖像造的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "懦蟲",
+          "after": "蠕蟲",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "國玉",
+          "after": "國王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鍋上",
+          "after": "銅上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "不完美者常是分自完美者。為此那些不夠肖像之資格的東西，因了多少與天主有相似，也分有一點肖像。因此狄奧尼修說，效果有原因之「近似的或相稱的肖像」'即按其所接近的程度，而不是絕對的。",
+      "after": "不完美者常是分自完美者。為此那些不夠肖像之資格的東西，因了多少與天主有相似，也分有一點肖像。因此狄奧尼修說，效果有原因之「近似的或相稱的肖像」，即按其所接近的程度，而不是絕對的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "肖像」'",
+          "after": "肖像」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "狄奧尼修說陽光相似天主之美善，是按作用而言;而非按天性的尊高，但真正的肖像要有天性上的接近。",
+      "after": "狄奧尼修說陽光相似天主之美善，是按作用而言；而非按天性的尊高，但真正的肖像要有天性上的接近。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "按量和廣度來說，宇宙所具有的美善比有靈之受造物所具有的完備;但按強度和密度來說，有靈的受造物更接近天主之完美，因為他能得到至善。或者也可以說，部分不能與整體相比，只能與別的部分相比。因此，在說只有有靈的受造物是按照天主的肖像時，並不否認宇宙在某方面是按照天主的肖像;但否認宇宙的其他部分是按照天主的肖像。",
+      "after": "按量和廣度來說，宇宙所具有的美善比有靈之受造物所具有的完備；但按強度和密度來說，有靈的受造物更接近天主之完美，因為他能得到至善。或者也可以說，部分不能與整體相比，只能與別的部分相比。因此，在說只有有靈的受造物是按照天主的肖像時，並不否認宇宙在某方面是按照天主的肖像；但否認宇宙的其他部分是按照天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "波其武所說的肖像，是指作品與匠人理智中之相關藍圖之相似。按這意義，每個受造物都是天主理智中之模型的肖像。我們這裡講的不是這種肖像，而是天性上相似之肖像，即如:由於萬物皆存在，故皆相似第一個存在者;有生命的皆相似第一個生命;有智性的皆相似最高之智慧。",
+      "after": "波其武所說的肖像，是指作品與匠人理智中之相關藍圖之相似。按這意義，每個受造物都是天主理智中之模型的肖像。我們這裡講的不是這種肖像，而是天性上相似之肖像，即如：由於萬物皆存在，故皆相似第一個存在者；有生命的皆相似第一個生命；有智性的皆相似最高之智慧。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "天使是否比人更按照或具有天主之肖像",
+      "after": "天使是否比人更按照或具有天主之肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "天使似乎不比人更按照或具有天主之肖像。因為:",
+      "after": "天使似乎不比人更按照或具有天主之肖像。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1486
+      ],
+      "before": "奧斯定在《證道集》第四十三篇第二章「論肖像」(De imagine)的證道詞中說，除了人之外，天主沒有使任何受造物按照自己的肖像。所以說天使比人更是按照天主的肖像，這不是真的。",
+      "after": "奧斯定在《證道集》第四十三篇第二章「論肖像」(De imagine)的證道詞中說，除了人之外，天主沒有使任何受造物按照自己的肖像。所以說天使比人更是按照天主的肖像，這不是真的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1487
+      ],
+      "before": "此外，奧斯定在《雜題八十三》第五十一題說: 「人是如此按照天主的肖像(受造的)，即未有其他受造物居中作媒介，直接為天主所形成。所以沒有比人與天主更親近的。」但一受造物之被稱為天主的肖像，是因為與天主親近。所以天使不比人更具有天主的商像。",
+      "after": "此外，奧斯定在《雜題八十三》第五十一題說：「人是如此按照天主的肖像(受造的)，即未有其他受造物居中作媒介，直接為天主所形成。所以沒有比人與天主更親近的。」但一受造物之被稱為天主的肖像，是因為與天主親近。所以天使不比人更具有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "商像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1487
+      ],
+      "before": "此外，說一受造物是天主的肖像，是因了這受造物有智性或靈性。但智性沒有強弱之別，因為智性不是依附體，而是一種本體。所以，天便不比人更具有天主的肖像。",
+      "after": "此外，說一受造物是天主的肖像，是因了這受造物有智性或靈性。但智性沒有強弱之別，因為智性不是依附體，而是一種本體。所以，天使不比人更具有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1487
+      ],
+      "before": "教宗額我略一世在一篇證道詞中說: 「天使被稱為相似之印記，因為在他身上與天主之肖像的相似，表達的更為顯明。」 U(《福音論贊》卷二第三十四篇)",
+      "after": "教宗額我略一世在一篇證道詞中說：「天使被稱為相似之印記，因為在他身上與天主之肖像的相似，表達的更為顯明。」(《福音論贊》卷二第三十四篇)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": " U(",
+          "after": "(",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1487
+      ],
+      "before": "我解答如下:我們可以從兩方面來談天主之肖像。一是從構成尚像之第一基礎，即智性或有靈的天性。這樣則天使比人更具有天主之肖像，因為根據前面第五十八題第三節、第七十五題第七節釋疑3.、第七十九題第八節所說的可以知道，他們的智性或有靈的天性更為完美。第二，是從人內天主之肖像的次要因素，即在人內有些擬仿天主的地方，例如'.人是生於人，如天主之生於天主;又如人的靈魂是在整個身體內，並整個在每一部分內，正像天主與世界之關係。按這方面，人比天使更具有天主的肖像。但這些不能被看作在人內的天主之肖像，除非先假定有第一層的相似，即在智'「「或有靈之天性上的相似;否則的話，禽獸或無靈的動物便也都是天主的肖像了。既然按智性或有靈之天性司天使比人更具有天主的肖像，該說天使絕對地更真有天主的肖像，人則是相對地。",
+      "after": "我解答如下：我們可以從兩方面來談天主之肖像。一是從構成肖像之第一基礎，即智性或有靈的天性。這樣則天使比人更具有天主之肖像，因為根據前面第五十八題第三節、第七十五題第七節釋疑3.、第七十九題第八節所說的可以知道，他們的智性或有靈的天性更為完美。第二，是從人內天主之肖像的次要因素，即在人內有些擬仿天主的地方，例如：人是生於人，如天主之生於天主；又如人的靈魂是在整個身體內，並整個在每一部分內，正像天主與世界之關係。按這方面，人比天使更具有天主的肖像。但這些不能被看作在人內的天主之肖像，除非先假定有第一層的相似，即在智性或有靈之天性上的相似；否則的話，禽獸或無靈的動物便也都是天主的肖像了。既然按智性或有靈之天性，天使比人更具有天主的肖像，該說天使絕對地更具有天主的肖像，人則是相對地。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "例如'.",
+          "after": "例如：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智'「「",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天性司",
+          "after": "天性，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "更真有",
+          "after": "更具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1487,
+        1488
+      ],
+      "before": "奧斯定把其他低級的無靈受造物排除於天主的肖像之外，而不包括天使在內。",
+      "after": "奧斯定把其他低級的無靈受造物排除於天主的肖像之外，而不包括天使在內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "正如在說火是同類形體物中最細微的時候，並不是說這個火不能比那個火細微;同樣，說沒有比人的心靈與天主更親近的，是根據智性或有靈的天性之共類說的。因為他(奧斯定)在那句話前面先說了:「那些有認知活動的，與祂非常近似，在受造物中沒有比他們更接近天主的。」所以這並不排除天使更具有天主的肖像。",
+      "after": "正如在說火是同類形體物中最細微的時候，並不是說這個火不能比那個火細微；同樣，說沒有比人的心靈與天主更親近的，是根據智性或有靈的天性之共類說的。因為他(奧斯定)在那句話前面先說了：「那些有認知活動的，與祂非常近似，在受造物中沒有比他們更接近天主的。」所以這並不排除天使更具有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "所謂「本體沒有多少之分別」(亞里斯多德，《範疇論》第五章)，並非說某一種或別類之本體不能比另一種或別類的完美，只是說同一個個體之分有自己的物種，不是有時多些，有時少些。不同之個體所分有之本體之本質，也沒有多少之別。",
+      "after": "所謂「本體沒有多少之分別」(亞里斯多德，《範疇論》第五章)，並非說某一種或別類之本體不能比另一種或別類的完美，只是說同一個個體之分有自己的物種，不是有時多些，有時少些。不同之個體所分有之本體之本質，也沒有多少之別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "是否每人都有天主之肖像",
+      "after": "是否每人都有天主之肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "似乎不是每人都有天主之肖像。因為:",
+      "after": "似乎不是每人都有天主之肖像。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "宗徒在《格林多前書》第十一章7節說:「男人是天主的自像，女人是男人的肖像。」既然女人也是人類的一員，所以不是每人都是天主的肖像。",
+      "after": "宗徒在《格林多前書》第十一章7節說：「男人是天主的肖像，女人是男人的肖像。」既然女人也是人類的一員，所以不是每人都是天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "此外，宗徒在《羅馬書》第八章29節說:「天主所預選的人，也預定他們與自己的兒子的自像相同。」但不是每人都是被預選的人，所以不是每人都合於聖子的肖像。",
+      "after": "此外，宗徒在《羅馬書》第八章29節說：「天主所預選的人，也預定他們與自己的兒子的肖像相同。」但不是每人都是被預選的人，所以不是每人都合於聖子的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "此外，按前面第一節所說的，相似是肖像的要素之一。但罪過使人與天主不相似，所以使人失去天主的肖像。",
+      "after": "此外，按前面第一節所說的，相似是肖像的要素之一。但罪過使人與天主不相似，所以使人失去天主的肖像。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1488
+      ],
+      "before": "《聖詠》第三十八篇7節說:「人如再像般逝去。」",
+      "after": "《聖詠》第三十八篇7節說：「人如肖像般逝去。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "再像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1488,
+        1489
+      ],
+      "before": "我解答如下:既然說人是天主的尚像，是根據智性或有靈的天性;所以，智性愈擬似天主，就愈是天主的肖像。智性或有靈的天性之擬似天主的地方，主要是針對天主認識並愛慕自己。所以可以從三方面看人內的天主之肖像:第一，人有認識和愛天主的自然才能，而這種才能在於人心靈之天性，是眾人所共有的。第二，人有認識和愛天主的活動或習性，但不是完美的;還是由恩寵促成的肖像。第三，人有認識和愛天主的完美現實活動;還是根據榮福之相似來看肖像。為此針對《聖詠》第四篇7節那句:「上主，你光輝的儀容已印在我們身上」'「註解」(拉了通行本註解)將肖像分為三種，即創造之肖像，再造之肖像，及相似(或模樣)之肖像。每人都有第一種商像;只有義人有第二種肖像;天上的聖人們纔有第三種肖像。",
+      "after": "我解答如下：既然說人是天主的肖像，是根據智性或有靈的天性；所以，智性愈擬似天主，就愈是天主的肖像。智性或有靈的天性之擬似天主的地方，主要是針對天主認識並愛慕自己。所以可以從三方面看人內的天主之肖像：第一，人有認識和愛天主的自然才能，而這種才能在於人心靈之天性，是眾人所共有的。第二，人有認識和愛天主的活動或習性，但不是完美的；這是由恩寵促成的肖像。第三，人有認識和愛天主的完美現實活動；這是根據榮福之相似來看肖像。為此針對《聖詠》第四篇7節那句：「上主，你光輝的儀容己印在我們身上」，「註解」(拉丁通行本註解)將肖像分為三種，即創造之肖像，再造之肖像，及相似(或模樣)之肖像。每人都有第一種肖像；只有義人有第二種肖像；天上的聖人們才有第三種肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還是",
+          "after": "這是",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已印",
+          "after": "己印",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "身上」'",
+          "after": "身上」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉了通行本",
+          "after": "拉丁通行本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "們纔有",
+          "after": "們才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "商像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1489
+      ],
+      "before": "按筒像之基本性質或因素來說，即按智性或有靈的天性來說，無論男人或女人都有天主的肖像。為此《創世紀》第一章27節說了: 「照自己的再像造了他」'即人之後，接著說: 「造了他們一另一女」;那裡用多數說「他們」，按奧斯定說的，是為避免人誤解，以為在一個個體身上兼其男女兩性(《創世紀字義新探》卷三第二十二章)。但是就(尚像的)某種次要因素來看，男人有天主的肖像，而女人按照同一觀點則沒有天主的肖像;因為男人是女人的根本和目的，就像天主是整個世界的根本和目的。故此，宗徒說了: 「男人是天主的肖像和光榮，而女人卻是男人的光榮」之後，指出他這樣講的原因: 「不是男人出於女人，而是女人出於男人;而且男人不是為女人造的，女人乃是為男人造的。」(第8及9節)",
+      "after": "按肖像之基本性質或因素來說，即按智性或有靈的天性來說，無論男人或女人都有天主的肖像。為此《創世紀》第一章27節說了：「照自己的肖像造了他」，即人之後，接著說：「造了他們一男一女」；那裡用多數說「他們」，按奧斯定說的，是為避免人誤解，以為在一個個體身上兼具男女兩性(《創世紀字義新探》卷三第二十二章)。但是就(肖像的)某種次要因素來看，男人有天主的肖像，而女人按照同一觀點則沒有天主的肖像；因為男人是女人的根本和目的，就像天主是整個世界的根本和目的。故此，宗徒說了：「男人是天主的肖像和光榮，而女人卻是男人的光榮」之後，指出他這樣講的原因：「不是男人出於女人，而是女人出於男人；而且男人不是為女人造的，女人乃是為男人造的。」(第8及9節)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "他」'",
+          "after": "他」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一另一女",
+          "after": "一男一女",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "兼其",
+          "after": "兼具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "再像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "筒像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1489
+      ],
+      "before": "及3.那些理由，是根據從恩寵幸日榮褔上之相似而來的肖像。",
+      "after": "及3.那些理由，是根據從恩寵和榮福上之相似而來的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸日",
+          "after": "和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "在人內是否有關於天主三位的天主之肖像",
+      "after": "在人內是否有關於天主三位的天主之肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "在人內似乎沒有關於天主三位的天主之尚像。因為:",
+      "after": "在人內似乎沒有關於天主三位的天主之肖像。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "奧斯定在《致伯多祿執事論信德》裡說:「按本質聖三隻有一個天主性，造人所按的肖像也只有一個。」(參看:富振秋，(《致伯多祿執事論信德》第一章)希拉利在《論天主聖三》卷五也說:「人是按聖三共有之肖像造的。」所以在人內有關於本體的天主之尚像，而沒有關於三位的天主之肖像。",
+      "after": "奧斯定在《致伯多祿執事論信德》裡說：「按本質聖三只有一個天主性，造人所按的肖像也只有一個。」(參看：富振秋，《致伯多祿執事論信德》第一章)希拉利在《論天主聖三》卷五也說：「人是按聖三共有之肖像造的。」所以在人內有關於本體的天主之肖像，而沒有關於三位的天主之肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "聖三隻有",
+          "after": "聖三只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "富振秋，(《",
+          "after": "富振秋，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "此外，在翟南德的《論聖教信端》第五十五章說，人內的天主之肖像是根據永恆性。大馬士革的若望《論正統信仰》卷二第十二章也說:「說人是按天主的肖像，是為指明他有智性，自由意志，和自主能力。」尼沙的額我略也說，聖經上說人是按天主的肖像造的，「等於說人的天性分有一切聖善;因為天主性是圓滿的聖善」。這些都不是關於三位之區分的，而是關於本質之統一性的。所以人內的天主之肖像根據的不是天主三位，而是一性一體。",
+      "after": "此外，在翟南德的《論聖教信端》第五十五章說，人內的天主之肖像是根據永恆性。大馬士革的若望《論正統信仰》卷二第十二章也說：「說人是按天主的肖像，是為指明他有智性，自由意志，和自主能力。」尼沙的額我略也說，聖經上說人是按天主的肖像造的，「等於說人的天性分有一切聖善；因為天主性是圓滿的聖善」。這些都不是關於三位之區分的，而是關於本質之統一性的。所以人內的天主之肖像根據的不是天主三位，而是一性一體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "此外，肖像引導認識尚像所表示者。若人內的天主之肖像是根據天主三位的，既然人憑自然理性能認識自己，所以人憑自然的認識也該能認識天主三位。但按前面第三十二題第一節所說的，這是不對的。",
+      "after": "此外，肖像引導認識肖像所表示者。若人內的天主之肖像是根據天主三位的，既然人憑自然理性能認識自己，所以人憑自然的認識也該能認識天主三位。但按前面第三十二題第一節所說的，這是不對的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "此外，肖像之名義並非適於聖三中的每一位，只適於聖子;因為奧斯定在《論天主聖三》卷六第二章說:「只有聖子是聖父的肖像。」若人內之天主尚像是根據位格，貝fJ在人內沒有所有三位的肖像，只有聖子的的象。",
+      "after": "此外，肖像之名義並非適於聖三中的每一位，只適於聖子；因為奧斯定在《論天主聖三》卷六第二章說：「只有聖子是聖父的肖像。」若人內之天主肖像是根據位格，則在人內沒有所有三位的肖像，只有聖子的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝fJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的的象",
+          "after": "的肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1490
+      ],
+      "before": "希拉車fJ在《論天主聖三》卷四，根據人是按天主的肖像造的，證明天主的位格有多位。",
+      "after": "希拉利在《論天主聖三》卷四，根據人是按天主的肖像造的，證明天主的位格有多位。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "希拉車fJ",
+          "after": "希拉利",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1491
+      ],
+      "before": "我解答如下:前面第四十題第二節曾說‘天主之位格的區分，無非是根據起源;或更好說，根據起源之關係而來的。種種東西的起源，方式不都一樣，每一種東西的起源之方式，都是各按其天性的要求或適宜愷:生物與無生物之產生方式不一樣，動物與植物之產生方式也不一樣。由此可知，天主三位之區分，也是根據其適宜於天主的本性或性體。因此，根據相似天主之性體而為天主之肖像，並不排除根據表示三位而為天主之肖像;因為一個包含另一個。所以該說，人內有天主之肖像，無論是在天主的性體方面，或是在三位方面;因為連在天主本身內，也是一個本質或性體存在於三位格中。",
+      "after": "我解答如下：前面第四十題第二節曾說，天主之位格的區分，無非是根據起源；或更好說，根據起源之關係而來的。種種東西的起源，方式不都一樣，每一種東西的起源之方式，都是各按其天性的要求或適宜性：生物與無生物之產生方式不一樣，動物與植物之產生方式也不一樣。由此可知，天主三位之區分，也是根據其適宜於天主的本性或性體。因此，根據相似天主之性體而為天主之肖像，並不排除根據表示三位而為天主之肖像；因為一個包含另一個。所以該說，人內有天主之肖像，無論是在天主的性體方面，或是在三位方面；因為連在天主本身內，也是一個本質或性體存在於三位格中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "曾說‘",
+          "after": "曾說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "適宜愷",
+          "after": "適宜性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1491
+      ],
+      "before": "及2.由上面所說的，可以知道前二質疑之答案。",
+      "after": "及2.由上面所說的，可以知道前二質疑之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1491
+      ],
+      "before": "倘若人內之天主肖像能完美地表顯天主，貝IJ所舉之理由可以成立。但是按奧斯定在《論天主聖三》卷十五第二十及二十三章所說的，人內的三位或三的組合(trinitas)與天主內的三位有很大的差別。故此，他在那裡說: 「我們是看到而不是相信我們內的三位或三的組合;但我們是相信而非看到天主有三位。」",
+      "after": "倘若人內之天主肖像能完美地表顯天主，則所舉之理由可以成立。但是按奧斯定在《論天主聖三》卷十五第二十及二十三章所說的，人內的三位或三的組合(trinitas)與天主內的三位有很大的差別。故此，他在那裡說：「我們是看到而不是相信我們內的三位或三的組合；但我們是相信而非看到天主有三位。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1491,
+        1492
+      ],
+      "before": "有人說，在人內只有聖子的自像。但是，奧斯定在《論天主聖三》卷十二第六章反對這種主張。第一，既然按本質上的平等，聖子與聖父相似;若人是按聖子之肖像造的，必然也是按聖父之肖像造的。第二，倘若人只是按聖子的肖像造的，聖父就不會說: 「讓我們照我們的肖像，按我們的模樣造人」'而該說: 「按你的」 0\n《創世紀》第一章27節說的: 「照天主的自像造了人」'不該像某些人那樣想，以為聖父只按聖子的肖像造了人;而該解釋為天主聖三按自己的肖像，即按所有之三位的肖像造了人η\n「天主照自己的肖像造了人」這句話有兩種解釋法。第一，所謂「照」是指行動之終點，就等於說:「讓我們這樣來造人，以使在他內有尚像」。第二，「照」是為指模型原因，就如說:「這書是照那書製成的」。如此，所謂天主的肖像就是天主的本質。在這裡是用「尚像」替代「模型」'妄稱「尚像」為天主的本質。或者按某些人說的，稱天主之本質為尚像，是因為在本質上一位格相似另一位格。",
+      "after": "有人說，在人內只有聖子的肖像。但是，奧斯定在《論天主聖三》卷十二第六章反對這種主張。第一，既然按本質上的平等，聖子與聖父相似；若人是按聖子之肖像造的，必然也是按聖父之肖像造的。第二，倘若人只是按聖子的肖像造的，聖父就不會說：「讓我們照我們的肖像，按我們的模樣造人」，而該說：「按你的」。\n《創世紀》第一章27節說的：「照天主的肖像造了人」，不該像某些人那樣想，以為聖父只按聖子的肖像造了人；而該解釋為天主聖三按自己的肖像，即按所有之三位的肖像造了人。\n「天主照自己的肖像造了人」這句話有兩種解釋法。第一，所謂「照」是指行動之終點，就等於說：「讓我們這樣來造人，以使在他內有肖像」。第二，「照」是為指模型原因，就如說：「這書是照那書製成的」。如此，所謂天主的肖像就是天主的本質。在這裡是用「肖像」替代「模型」，妄稱「肖像」為天主的本質。或者按某些人說的，稱天主之本質為肖像，是因為在本質上一位格相似另一位格。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "造人」'",
+          "after": "造人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "按你的」 0",
+          "after": "按你的」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造了人」'",
+          "after": "造了人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造了人η",
+          "after": "造了人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "模型」'",
+          "after": "模型」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "人是否只根據心靈而為天主之肖像",
+      "after": "人是否只根據心靈而為天主之肖像",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "人似乎不是隻根據心靈而為天主之肖像。因為:",
+      "after": "人似乎不是只根據心靈而為天主之肖像。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不是隻",
+          "after": "不是只",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "宗徒在《格林多前書》第十一章7節說:「男人是天主的自像」。但男人不只有心靈。所以，天主的尚像不只在於心往事妄奎退。",
+      "after": "宗徒在《格林多前書》第十一章7節說：「男人是天主的肖像」。但男人不只有心靈。所以，天主的肖像不只在於心靈。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心往事妄奎退",
+          "after": "心靈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "此外，《創世紀》﹒第一章27節說:「天主照自己的自f象追7人，就是照天主的肖像造了人:造了一另一女。」但是男女是身體上的區別。所以，人內的天主自像也是由於身體，不只是由於心靈。",
+      "after": "此外，《創世紀》第一章27節說：「天主照自己的肖像造了人，就是照天主的肖像造了人：造了一男一女。」但是男女是身體上的區別。所以，人內的天主肖像也是由於身體，不只是由於心靈。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《創世紀》﹒",
+          "after": "《創世紀》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自f象追7人",
+          "after": "肖像造了人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一另一女",
+          "after": "一男一女",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "此外，肖像似乎主要在於形狀，1旦形狀是屬於身體方面的。所以人內的天主肖像也在於身體，不只在於心靈。",
+      "after": "此外，肖像似乎主要在於形狀，但形狀是屬於身體方面的。所以人內的天主肖像也在於身體，不只在於心靈。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1旦形狀",
+          "after": "但形狀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.arg4",
+      "article": 6,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1492
+      ],
+      "before": "此外，按奧斯定在《創世紀字義新探》卷十二第七及二十四章所說的，在我們內有三種見識，即:身體的，精神或想像的，和智性的。若按屬於心靈的智性見識在我們內有一種三的組合，因而使我們能是天主的向像;按同理，在別的見識方面也是一樣。",
+      "after": "此外，按奧斯定在《創世紀字義新探》卷十二第七及二十四章所說的，在我們內有三種見識，即：身體的，精神或想像的，和智性的。若按屬於心靈的智性見識在我們內有一種三的組合，因而使我們能是天主的肖像；按同理，在別的見識方面也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1492,
+        1493
+      ],
+      "before": "宗徒在《厄弗所書》第四章23及24節說:「應在心思念慮(心靈的活動)上改換一新，穿上新人。」按這句話，我們的革新和變為新人，是屬於心軍方面的。但是在《哥羅森書》第三章10節他說: 「你們穿上了新人，這新人即是照創造他者的肖像而更新，為獲得知識的。」這裡將穿上新人之革新歸於天主之肖像。所以當天主的肖像只是屬於心靈的事。",
+      "after": "宗徒在《厄弗所書》第四章23及24節說：「應在心思念慮(心靈的活動)上改換一新，穿上新人。」按這句話，我們的革新和變為新人，是屬於心靈方面的。但是在《哥羅森書》第三章10節他說：「你們穿上了新人，這新人即是照創造他者的肖像而更新，為獲得知識的。」這裡將穿上新人之革新歸於天主之肖像。所以當天主的肖像只是屬於心靈的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心軍",
+          "after": "心靈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1493,
+        1494
+      ],
+      "before": "我解答如下:按前面第二節所說的，在每種受造物上者1;多少有與天主的相似，只有在理性或有靈的受造物身上的相似，是以肖像的方式;在其他受造物上是以痕跡(vestigium)的方式。理性受造物超出其他受造物的地方，是理智或心靈。故此，在理性受造物上有天主之肖像，也只是憑心靈。若理性受造物具有別的部分，在那些部分只有痕跡，就像與這些部分相似的其他東西一樣。\n只要看痕跡與南像之表顯方式，便不難看出其中的理由來。如第二節己說過的，肖像所表顯的是種或別類方面的相似;痕跡是以效果方式表顯其原因，但二者不屬同種。動物之行動留下的足印稱為痕跡;同樣，灰是火的痕跡;一個地區的荒涼景象，是敵軍的痕跡。\n我們可以從受造物之表顯與天主本質或性體的相似，及其表顯與非受造之天主聖三之相似兩方面，去看有理性的受造物與其他受造物的差別。在相似天主之本質方面，理性受造物多少可以表顯一點同種性，因為他之相似天主，不只因為有存在又有生命活動，而且也因為有智性活動，這在前面第二節已經說過。其他受造物沒有智性活動;但若看其配置，可以看出創造者理智的痕跡。同樣，非受造的天主三位之區分，是根據聖言之出於或生於發言者(聖父)，以及愛(望神)之出自或發自(聖父及聖言)二者，如同在前面第二十八題第三節已經講過的。而在理性受造物中，頁。有言語之出於理智，愛之出於意志，這可說是非受造的天主三(立之肖像的同種性的表顯。在其他受造物中，沒有言語之根本、言語及愛(三者);但是在它們內有某種痕跡，表顯出在創造(它們的)原因中有這三者。因為由於受造物是有變化和有限的本體，可以證明它是由某根本來的:其別類或物種可以指明造物者之言語，就如房屋之形式能指出工程師的構想;目的可以指出造物者之愛，因為是愛使效果指向善，就如房屋之功用指出工程師之意志。\n所以在人內，按心靈有天主之肖像式的相似，但在別的部分則有天主之痕跡式的相似。",
+      "after": "我解答如下：按前面第二節所說的，在每種受造物上都多少有與天主的相似，只有在理性或有靈的受造物身上的相似，是以肖像的方式；在其他受造物上是以痕跡(vestigium)的方式。理性受造物超出其他受造物的地方，是理智或心靈。故此，在理性受造物上有天主之肖像，也只是憑心靈。若理性受造物具有別的部分，在那些部分只有痕跡，就像與這些部分相似的其他東西一樣。\n只要看痕跡與肖像之表顯方式，便不難看出其中的理由來。如第二節己說過的，肖像所表顯的是種或別類方面的相似；痕跡是以效果方式表顯其原因，但二者不屬同種。動物之行動留下的足印稱為痕跡；同樣，灰是火的痕跡；一個地區的荒涼景象，是敵軍的痕跡。\n我們可以從受造物之表顯與天主本質或性體的相似，及其表顯與非受造之天主聖三之相似兩方面，去看有理性的受造物與其他受造物的差別。在相似天主之本質方面，理性受造物多少可以表顯一點同種性，因為他之相似天主，不只因為有存在又有生命活動，而且也因為有智性活動，這在前面第二節已經說過。其他受造物沒有智性活動；但若看其配置，可以看出創造者理智的痕跡。同樣，非受造的天主三位之區分，是根據聖言之出於或生於發言者(聖父)，以及愛(聖神)之出自或發自(聖父及聖言)二者，如同在前面第二十八題第三節已經講過的。而在理性受造物中，則有言語之出於理智，愛之出於意志，這可說是非受造的天主三位之肖像的同種性的表顯。在其他受造物中，沒有言語之根本、言語及愛(三者)；但是在它們內有某種痕跡，表顯出在創造(它們的)原因中有這三者。因為由於受造物是有變化和有限的本體，可以證明它是由某根本來的：其別類或物種可以指明造物者之言語，就如房屋之形式能指出工程師的構想；目的可以指出造物者之愛，因為是愛使效果指向善，就如房屋之功用指出工程師之意志。\n所以在人內，按心靈有天主之肖像式的相似，但在別的部分則有天主之痕跡式的相似。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "上者1;多少",
+          "after": "上都多少",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "望神",
+          "after": "聖神",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "，頁。有言語",
+          "after": "，則有言語",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三(立之",
+          "after": "三位之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "南像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1494
+      ],
+      "before": "說人是天主的肖像，平非因為他按本質就是肖像，而是因為在他的心靈上印有天主訥肖像，就如說:銀錢是凱撒的肖像，因了銀錢上有凱撒的尚像。所以，並不必在人的每一部分都有天主的肖像。",
+      "after": "說人是天主的肖像，並非因為他按本質就是肖像，而是因為在他的心靈上印有天主的肖像，就如說：銀錢是凱撒的肖像，因了銀錢上有凱撒的肖像。所以，並不必在人的每一部分都有天主的肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "平非",
+          "after": "並非",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主訥",
+          "after": "天主的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1494
+      ],
+      "before": "正如奧斯定在《論天主聖三》卷十二第五章曾提到的，有人認為在人內有聖三的肖像，不是憑一個人，而是憑許多人。他們說:「男人表示聖父的位格;由男人所發出和所生的表顯聖子的位格;代表聖神第三位的是女人，因為她雖出於男人，但不是兒子或女兒。」一眼就能看出這學說不合理。第一，如此則聖神成了聖子的根本，就如女人是由男人所生之子女的根本。第二，一個人只能是一個位格的肖像。第三，如此則聖經該在子女出生之後，再請人內的天主之尚像。\n故此，聖經說了:「照天主的再像進了人」後，又說:「造了一男一女」'並非為說天主的尚像繫於男女之區分;而是因為天主之肖像是兩性所共有的，因為尚像在於心靈，而心靈沒有男女之別。故此宗徒在《哥羅森書》第三章10節，說了:「照創造他者的肖像」後，又說:「那裡不再分男人或女人」(參看《迦拉達書》第三章28節)。",
+      "after": "正如奧斯定在《論天主聖三》卷十二第五章曾提到的，有人認為在人內有聖三的肖像，不是憑一個人，而是憑許多人。他們說：「男人表示聖父的位格；由男人所發出和所生的表顯聖子的位格；代表聖神第三位的是女人，因為她雖出於男人，但不是兒子或女兒。」一眼就能看出這學說不合理。第一，如此則聖神成了聖子的根本，就如女人是由男人所生之子女的根本。第二，一個人只能是一個位格的肖像。第三，如此則聖經該在子女出生之後，再講人內的天主之肖像。\n故此，聖經說了：「照天主的肖像造了人」後，又說：「造了一男一女」，並非為說天主的肖像繫於男女之區分；而是因為天主之肖像是兩性所共有的，因為肖像在於心靈，而心靈沒有男女之別。故此宗徒在《哥羅森書》第三章10節，說了：「照創造他者的肖像」後，又說：「那裡不再分男人或女人」(參看《迦拉達書》第三章28節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "再請人內",
+          "after": "再講人內",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "進了人",
+          "after": "造了人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一男一女」'",
+          "after": "一男一女」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "再像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1494,
+        1495
+      ],
+      "before": "雖然，人內的天主之肖像不是根據身體的形狀，但是奧斯定在《雜題八十三》第五十一題說: 「在地上之動物的身體中，只有人的身體不是彎向地面，而是易於看天的，因而可以說人的身體比其他動物的身體更是照天主的肖像造的。」這並非說人的身體內有天主的肖像，而是因為人體的形狀以痕跡的方式表顯在靈魂上的天主之肖像。",
+      "after": "雖然，人內的天主之肖像不是根據身體的形狀，但是奧斯定在《雜題八十三》第五十一題說：「在地上之動物的身體中，只有人的身體不是彎向地面，而是易於看天的，因而可以說人的身體比其他動物的身體更是照天主的肖像造的。」這並非說人的身體內有天主的肖像，而是因為人體的形狀以痕跡的方式表顯在靈魂上的天主之肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a006.ad4",
+      "article": 6,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1495
+      ],
+      "before": "按奧斯定在《論天主聖三》卷十一第二等章所說的，無論在身體見識或想像見識中，都有一種三的組合。在身體見識方面，首先有外在之物體的物象;第二有看見的活動，這是因了外在之物象的影像印在視覺上;第三，有意志之意向，運用視覺去看並注視外在之東西。在想像見識方面，第一有在記憶中保存的物象;第二，想像之視見，它是如此進行的，即靈魂的尖端，亦即想像力本身，按上述之物象來塑造或形成自己;第三，使二者結合之意志的意向。但這兩種三的組合都不合天主肖像之資格。因為外在之東西的物象是靈魂以外的東西;記憶中的物象雖不在靈魂之外，然而是外來的。所以，二者都不能表顯天主三位的同性同體和同為永恆。此外，身體之見識不只是生於外物之物象，也生自視見者之感官;想像之視見也不只生於保存在記憶中的物象，也是生於想像力，因此這不過於表顯聖子只是生於聖父。至於意志使二者合一之意向，無論是在身體見識或在想像見識方面，都不是生於前二者，所以，不適於表顯聖神是出自聖父和聖子。",
+      "after": "按奧斯定在《論天主聖三》卷十一第二等章所說的，無論在身體見識或想像見識中，都有一種三的組合。在身體見識方面，首先有外在之物體的物象；第二有看見的活動，這是因了外在之物象的影像印在視覺上；第三，有意志之意向，運用視覺去看並注視外在之東西。在想像見識方面，第一有在記憶中保存的物象；第二，想像之視見，它是如此進行的，即靈魂的尖端，亦即想像力本身，按上述之物象來塑造或形成自己；第三，使二者結合之意志的意向。但這兩種三的組合都不合天主肖像之資格。因為外在之東西的物象是靈魂以外的東西；記憶中的物象雖不在靈魂之外，然而是外來的。所以，二者都不能表顯天主三位的同性同體和同為永恆。此外，身體之見識不只是生於外物之物象，也生自視見者之感官；想像之視見也不只生於保存在記憶中的物象，也是生於想像力，因此這不適於表顯聖子只是生於聖父。至於意志使二者合一之意向，無論是在身體見識或在想像見識方面，都不是生於前二者，所以，不適於表顯聖神是出自聖父和聖子。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這不過於",
+          "after": "這不適於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1495
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1495
+      ],
+      "before": "靈魂之有天主的肖像是否根據活動",
+      "after": "靈魂之有天主的肖像是否根據活動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1495
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1495
+      ],
+      "before": "靈魂之有天主的肖像，似乎不是根據活動。因為:",
+      "after": "靈魂之有天主的肖像，似乎不是根據活動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1495,
+        1496
+      ],
+      "before": "奧斯定在《天主之城》卷十一第二十六章說，人是照天主之自像造成的，是根據「我們存在，我們知道我們存在，並愛這存在和知覺。」但存在不指活動。所以，靈魂內之天主肖像不是根據活動。",
+      "after": "奧斯定在《天主之城》卷十一第二十六章說，人是照天主之肖像造成的，是根據「我們存在，我們知道我們存在，並愛這存在和知覺。」但存在不指活動。所以，靈魂內之天主肖像不是根據活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1496
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷九第十二章，指出天主的肖像在靈魂上是根據這三點:心靈、知覺和愛。但是心靈不是一種活動，更好說是機能，甚或說是靈魂之本質。所以，天主之尚像不是根據活動。",
+      "after": "此外，奧斯定在《論天主聖三》卷九第十二章，指出天主的肖像在靈魂上是根據這三點：心靈、知覺和愛。但是心靈不是一種活動，更好說是機能，甚或說是靈魂之本質。所以，天主之肖像不是根據活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1496
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷十第十二章，指出在靈魂內聖三之肖像是根據記憶，領悟(明悟)和意願。但是按大師在《語錄》卷一第三題所說的，這三種東西乃是「靈魂的自然能力」。所以肖像是根據機能，不是根據活動。",
+      "after": "此外，奧斯定在《論天主聖三》卷十第十二章，指出在靈魂內聖三之肖像是根據記憶，領悟(明悟)和意願。但是按大師在《語錄》卷一第三題所說的，這三種東西乃是「靈魂的自然能力」。所以肖像是根據機能，不是根據活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a007.arg4",
+      "article": 7,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1496
+      ],
+      "before": "此外，聖三的肖像常留在靈魂上。但是活動不常存留。所以在靈魂內的天主之肖像不是根據活動。",
+      "after": "此外，聖三的肖像常留在靈魂上。但是活動不常存留。所以在靈魂內的天主之肖像不是根據活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1496
+      ],
+      "before": "奧斯定在論《天主聖三》卷十一第二章，指出在靈魂低級部分的三的組合是根據現實的感官和想像之見識。所以在心靈部分的三的組合，那使人成為天主之肖像者，也該是根據現實之見識。",
+      "after": "奧斯定在論《天主聖三》卷十一第二章，指出在靈魂低級部分的三的組合是根據現實的感官和想像之見識。所以在心靈部分的三的組合，那使人成為天主之肖像者，也該是根據現實之見識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1496,
+        1497
+      ],
+      "before": "我解答如下:前面第二節已經說過，肖像該是種或別類(sp巳cies)方面之表顯。假若在靈魂內該承認有天主聖三之肖像，主要該是根據那最能表顯天主三位之「種」或各自的特質者(或那最能表顯區別天主三位的各種關係者)。天主之位格的區分，是根據聖言源自發言者(聖父)的出發，以及連結前二者之愛(聖神)的出發(processio)。按奧斯定在《論天主聖三》卷十四第七章所說的，在我們的靈魂內的言，「若沒有現實的思想便不能存在」。所以，在心靈中的聖三之肖像，首先並主要是在於活動，即是由我們握有的知識，藉內在的思想構成言，繼而再形成愛。但由於習性和機能是活動之根本，而每個東西都是潛伏在根本中，所以次要地，好似是一種延伸，也可以按機能去看靈魂內的聖三之肖像，特別是按習性，因為在它們中潛伏著活動。",
+      "after": "我解答如下：前面第二節已經說過，肖像該是種或別類(species)方面之表顯。假若在靈魂內該承認有天主聖三之肖像，主要該是根據那最能表顯天主三位之「種」或各自的特質者(或那最能表顯區別天主三位的各種關係者)。天主之位格的區分，是根據聖言源自發言者(聖父)的出發，以及連結前二者之愛(聖神)的出發(processio)。按奧斯定在《論天主聖三》卷十四第七章所說的，在我們的靈魂內的言，「若沒有現實的思想便不能存在」。所以，在心靈中的聖三之肖像，首先並主要是在於活動，即是由我們握有的知識，藉內在的思想構成言，繼而再形成愛。但由於習性和機能是活動之根本，而每個東西都是潛伏在根本中，所以次要地，好似是一種延伸，也可以按機能去看靈魂內的聖三之肖像，特別是按習性，因為在它們中潛伏著活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "sp巳cies",
+          "after": "species",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1497
+      ],
+      "before": "我們之存在之所以屬於天主之肖像，在於我們高出其他動物的部分;我們有這樣的存在是因了我們有心靈。所以這個三的組合，與興斯定在《論天主聖三》卷九第十二章說的三的組合，即心靈、知覺和愛，其實是一事。",
+      "after": "我們之存在之所以屬於天主之肖像，在於我們高出其他動物的部分；我們有這樣的存在是因了我們有心靈。所以這個三的組合，與奧斯定在《論天主聖三》卷九第十二章說的三的組合，即心靈、知覺和愛，其實是一事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "興斯定",
+          "after": "奧斯定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1497
+      ],
+      "before": "奧斯定在心靈中首先找到的是這個三的組合。但是心靈，雖然它多少認識自己全部，但也有不認識自己的地方，即不知道自己與別的東西有何不同因而它尋找自己，正如奧斯定接著所指出的(《論天主聖三》卷十第四及第八章)。所以，因了知覺與心靈不完全相等，他就採用了在靈魂中的心靈之三特性，E!D記憶、領悟(明悟)和意願(意志)，沒有人不知道自己有它們。他改用這三者代表聖三之肖像，好似說以前採用的有缺點。",
+      "after": "奧斯定在心靈中首先找到的是這個三的組合。但是心靈，雖然它多少認識自己全部，但也有不認識自己的地方，即不知道自己與別的東西有何不同因而它尋找自己，正如奧斯定接著所指出的(《論天主聖三》卷十第四及第八章)。所以，因了知覺與心靈不完全相等，他就採用了在靈魂中的心靈之三特性，即記憶、領悟(明悟)和意願(意志)，沒有人不知道自己有它們。他改用這三者代表聖三之肖像，好似說以前採用的有缺點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "E!D",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1497
+      ],
+      "before": "正如奧斯定在《論天主聖三》卷十四第七章所指出的，無論我們是否正在想某些東西，都可以說我們領悟和願意或愛這些東西。但在不想的時候，它們只屬於記憶;他認為那無非就是知識與愛之習性的存留。他在那裡說; 「但因沒有思想，那裡便不能有言語(我們所說的，我們都思想，縱然是用不屬於任何民族之語或話的內心之言說的)，所以在記憶、領悟和意願這三者中最能看出聖三之間像。我現在所謂的領悟，是指我們用以思想領悟者;而所謂意願或愛或愛慕，是指那連繫生者與受生者。由此可見，他是把聖三之肖像主要放在現實之領悟和意願上，而不是放在記憶之習性式的存留上;雖然在這方面也多少有聖三的肖像，就如在那裡所說的。由此可見，記憶、領悟和意願，並非如《語錄》所說的，是三種「能力」。",
+      "after": "正如奧斯定在《論天主聖三》卷十四第七章所指出的，無論我們是否正在想某些東西，都可以說我們領悟和願意或愛這些東西。但在不想的時候，它們只屬於記憶；他認為那無非就是知識與愛之習性的存留。他在那裡說： 「但因沒有思想，那裡便不能有言語(我們所說的，我們都思想，縱然是用不屬於任何民族之語或話的內心之言說的)，所以在記憶、領悟和意願這三者中最能看出聖三之肖像。我現在所謂的領悟，是指我們用以思想領悟者；而所謂意願或愛或愛慕，是指那連繫生者與受生者。」由此可見，他是把聖三之肖像主要放在現實之領悟和意願上，而不是放在記憶之習性式的存留上；雖然在這方面也多少有聖三的肖像，就如在那裡所說的。由此可見，記憶、領悟和意願，並非如《語錄》所說的，是三種「能力」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那裡說;",
+          "after": "那裡說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之間像",
+          "after": "之肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生者與受生者。",
+          "after": "生者與受生者。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a007.ad4",
+      "article": 7,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1497,
+        1498
+      ],
+      "before": "或者有人會用奧斯定在《論天主聖三》卷十四第六章所說的這些話來答覆，即「心靈常想到自己，領悟自己，並愛自己」。按他們對這些話的解釋，好似靈魂對自己常有現實的頡悟和愛。但奧斯定排除了這種解釋，因為他接著說; 「它不是常在想自己與自己以外的東西不同。」由此可見，靈魂常領悟和愛自己，不是現實地，而是以習性方式。固然也可以說，既然它知道自己的活動，無論它領悟什麼東西時都領悟到自己。但是由於它不是一直在現實地領悟，例如睡眠時，所以該說，雖然不常有現實的活動，但其活動常存在其根本中，即常存留在機能和習性中。故此奧斯定在《論天主聖三》卷十四第四章說: 「如果靈魂之為天主的肖像，是因了它能運用理性和理智領悟和觀察天主，則在靈魂存在之初便有天主的肖像。」",
+      "after": "或者有人會用奧斯定在《論天主聖三》卷十四第六章所說的這些話來答覆，即「心靈常想到自己，領悟自己，並愛自己」。按他們對這些話的解釋，好似靈魂對自己常有現實的領悟和愛。但奧斯定排除了這種解釋，因為他接著說： 「它不是常在想自己與自己以外的東西不同。」由此可見，靈魂常領悟和愛自己，不是現實地，而是以習性方式。固然也可以說，既然它知道自己的活動，無論它領悟什麼東西時都領悟到自己。但是由於它不是一直在現實地領悟，例如睡眠時，所以該說，雖然不常有現實的活動，但其活動常存在其根本中，即常存留在機能和習性中。故此奧斯定在《論天主聖三》卷十四第四章說：「如果靈魂之為天主的肖像，是因了它能運用理性和理智領悟和觀察天主，則在靈魂存在之初便有天主的肖像。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "頡悟",
+          "after": "領悟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接著說;",
+          "after": "接著說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "靈魂內天主聖三之肖像是否只針對天主這一對象",
+      "after": "靈魂內天主聖三之肖像是否只針對天主這一對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "靈魂內天主聖三之肖像似乎不只針對或關於天主這一對象。因為:",
+      "after": "靈魂內天主聖三之肖像似乎不只針對或關於天主這一對象。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "按前面第六及第七節所說的，心畫中有天主聖三之肖像，是由於在我們內「言」是出於「發言者」'愛是出於前二者。但無論以什麼為對象，在我們內皆是如此。所以，無論以什麼為對象，在我們心靈中都有天主聖三之肖像。",
+      "after": "按前面第六及第七節所說的，心靈中有天主聖三之肖像，是由於在我們內「言」是出於「發言者」，愛是出於前二者。但無論以什麼為對象，在我們內皆是如此。所以，無論以什麼為對象，在我們心靈中都有天主聖三之肖像。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心畫",
+          "after": "心靈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發言者」'",
+          "after": "發言者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷十二第四章說:「當我們在靈魂內尋找三的組合時，是在整個靈魂中尋找，不把以現世物為對象的理性活動，與以永恆者為對象的瞻仰分開。」所以，即使是以現世物為對象，在靈魂內也有聖三之肖像。",
+      "after": "此外，奧斯定在《論天主聖三》卷十二第四章說：「當我們在靈魂內尋找三的組合時，是在整個靈魂中尋找，不把以現世物為對象的理性活動，與以永恆者為對象的瞻仰分開。」所以，即使是以現世物為對象，在靈魂內也有聖三之肖像。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1498
+      ],
+      "before": "此外，我們之能領悟和愛慕天主，乃是由於恩寵之賜予。如果靈靈魂內的聖三之肖像，是由於以天主為對象之記憶、領悟、意志或愛慕，貝IJ人內有天主的肖像不是由於天性，而是由於恩寵。如此則不是人所共有的了。",
+      "after": "此外，我們之能領悟和愛慕天主，乃是由於恩寵之賜予。如果靈魂內的聖三之肖像，是由於以天主為對象之記憶、領悟、意志或愛慕，則人內有天主的肖像不是由於天性，而是由於恩寵。如此則不是人所共有的了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靈靈魂",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.arg4",
+      "article": 8,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1498,
+        1499
+      ],
+      "before": "此外，在天鄉的聖人們，由於榮福的見識，更合於天主之肖像。故此《格林多後書》第三章18節說: 「我們光榮上加光榮，都變成與主同樣的青像。」但在榮福之見識中也知道現世的事物。所以在我們內的天主之肖像，也能是針對或關於現世物。",
+      "after": "此外，在天鄉的聖人們，由於榮福的見識，更合於天主之肖像。故此《格林多後書》第三章18節說：「我們光榮上加光榮，都變成與主同樣的肖像。」但在榮福之見識中也知道現世的事物。所以在我們內的天主之肖像，也能是針對或關於現世物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "青像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1499
+      ],
+      "before": "奧斯定在《論天主聖三》卷十四第十二章說: 「在心靈中有天主之肖像，不是因為心靈記憶、領悟和愛慕自己，而是因為它也能記憶、領悟和愛慕造它的天主。」所以在心靈中的天主之肖像，更不是由於或根據其它別的對象。",
+      "after": "奧斯定在《論天主聖三》卷十四第十二章說：「在心靈中有天主之肖像，不是因為心靈記憶、領悟和愛慕自己，而是因為它也能記憶、領悟和愛慕造它的天主。」所以在心靈中的天主之肖像，更不是由於或根據其它別的對象。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1499
+      ],
+      "before": "我解答如下:前面第二及第七節已經說過，肖像該多少表顯種或別類(species)的相似。所以靈魂內的天主聖三之肖像，該是以某種東西為根據，這東西按照受造物所可能達到的程度，以表顯「種」或特質的方式，來表顯天主之位格。如第六及第七節巳說過的，天主之位格的區分，是由於聖言出於發言者(聖父)，而愛(聖神)出於前二者。天主的聖言之生於天主，是因了天主認識自己，而愛(聖神)之發白天主，是因了天主愛自己。對象的不同，顯然使言及愛的種或別類也不同;因為在人心中關於石頭和馬所產生的言(概念)不是同種，愛也不屬同種。所以，人內的天主之肖像，是根據人對認真日天主所產生的言(概念)及繼而產生的愛。所以，靈魂內的天主之肖像，是由於靈魂趨向於天主，或自然適於趨向於天主。\n心靈之趨向或被導向某東西有兩種方式:一是直接地、無媒介物;男一方式是間接地、有媒介物，就如一人在鏡子中看某人的映像，便說趨向或被導向那人本人。故此奧斯定在《論天主聖三》卷十四第八章說: 「心靈記憶自己，領悟自己，愛慕自己。若我們看到這些事，就看到一種三的組合;那還不是天主，但已是天主的肖像。」但其所以如此，不是因為心靈絕對地趨向自己(止於自己)，而是因為繼而趨向天主，這可由之前皮之引述的的話看出。",
+      "after": "我解答如下：前面第二及第七節已經說過，肖像該多少表顯種或別類(species)的相似。所以靈魂內的天主聖三之肖像，該是以某種東西為根據，這東西按照受造物所可能達到的程度，以表顯「種」或特質的方式，來表顯天主之位格。如第六及第七節己說過的，天主之位格的區分，是由於聖言出於發言者(聖父)，而愛(聖神)出於前二者。天主的聖言之生於天主，是因了天主認識自己，而愛(聖神)之發自天主，是因了天主愛自己。對象的不同，顯然使言及愛的種或別類也不同；因為在人心中關於石頭和馬所產生的言(概念)不是同種，愛也不屬同種。所以，人內的天主之肖像，是根據人對認知天主所產生的言(概念)及繼而產生的愛。所以，靈魂內的天主之肖像，是由於靈魂趨向於天主，或自然適於趨向於天主。\n心靈之趨向或被導向某東西有兩種方式：一是直接地、無媒介物；另一方式是間接地、有媒介物，就如一人在鏡子中看某人的映像，便說趨向或被導向那人本人。故此奧斯定在《論天主聖三》卷十四第八章說：「心靈記憶自己，領悟自己，愛慕自己。若我們看到這些事，就看到一種三的組合；那還不是天主，但已是天主的肖像。」但其所以如此，不是因為心靈絕對地趨向自己(止於自己)，而是因為繼而趨向天主，這可由之前反之引述的話看出。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "巳說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發白天主",
+          "after": "發自天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一方式",
+          "after": "另一方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之前皮之引述的的話",
+          "after": "之前反之引述的話",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1500
+      ],
+      "before": "為能是肖像，不只該注意一個東西出自另一個東西，還要看產生的是什麼樣的東西，以及是從什麼東西產生的，即天主的聖言出於對天主之認識。",
+      "after": "為能是肖像，不只該注意一個東西出自另一個東西，還要看產生的是什麼樣的東西，以及是從什麼東西產生的，即天主的聖言出於對天主之認識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1500
+      ],
+      "before": "在整個靈魂中都有一種三的組合，但並非是在以現世物為對象的(理性)活動，及以永恆物為對象的瞻仰之外，「去尋找另一個第三者，以完成三的組合」'如同在那裡接著所說的。而在有關現世物之理性部分中，「雖然有一種三的組合，但沒有天主的尚像」;那裡繼續說:因為對現世物之知識對靈魂來說是外來的。連用以認知現世物之習性，也不常在;只有時是現實的，但有時雖曾為現實知識，實則只存在記憶中。這可以從信德上看出:信德現在臨時是在我們內;在將來的真褔狀態，便不再有信德，只有信德之記憶。",
+      "after": "在整個靈魂中都有一種三的組合，但並非是在以現世物為對象的(理性)活動，及以永恆物為對象的瞻仰之外，「去尋找另一個第三者，以完成三的組合」，如同在那裡接著所說的。而在有關現世物之理性部分中，「雖然有一種三的組合，但沒有天主的肖像」；那裡繼續說：因為對現世物之知識對靈魂來說是外來的。連用以認知現世物之習性，也不常在；只有時是現實的，但有時雖曾為現實知識，實則只存在記憶中。這可以從信德上看出：信德現在臨時是在我們內；在將來的真福狀態，便不再有信德，只有信德之記憶。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "的組合」'",
+          "after": "的組合」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真褔",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1500
+      ],
+      "before": "有功勞的對天主之認知和愛只有憑恩寵。但按前面第十二題第十二節、第五十六題第三節、第六十題第五節所說的，對天主有一種自然的認知和愛。此外，心靈能運用理性領悟天主，也是自然的，因為第七節釋疑4.己說過，天主的肖像常存在心靈中: 「無論這個天主之肖像是無作用的」'好似蒙蓋起來的，「幾乎什麼也沒有ν像那些沒有運用理性之能力的人所有的; 「或是模糊的和破損的」'像在罪人心中的; 「或者是清晰美麗的」'像在義人心中的，就如奧斯定在《論天主聖三》卷十四第四章說的。",
+      "after": "有功勞的對天主之認知和愛只有憑恩寵。但按前面第十二題第十二節、第五十六題第三節、第六十題第五節所說的，對天主有一種自然的認知和愛。此外，心靈能運用理性領悟天主，也是自然的，因為第七節釋疑4.己說過，天主的肖像常存在心靈中：「無論這個天主之肖像是無作用的」，好似蒙蓋起來的，「幾乎什麼也沒有」，像那些沒有運用理性之能力的人所有的； 「或是模糊的和破損的」，像在罪人心中的； 「或者是清晰美麗的」，像在義人心中的，就如奧斯定在《論天主聖三》卷十四第四章說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "無作用的」'",
+          "after": "無作用的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幾乎什麼也沒有ν",
+          "after": "幾乎什麼也沒有」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "破損的」'",
+          "after": "破損的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "美麗的」'",
+          "after": "美麗的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a008.ad4",
+      "article": 8,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1500
+      ],
+      "before": "按榮福之見識，是在天主內看到現世事物;為此，對現世物的這種見識屬於天主之肖像。這就是奧斯定在《論天主聖三》卷十四第十四章所說的: 「在心靈充滿幸福所親近的那個性體中，心靈將看見它所見到的一切都是不變易的。」因為在非受造的聖言中含有一切受造物之理。",
+      "after": "按榮福之見識，是在天主內看到現世事物；為此，對現世物的這種見識屬於天主之肖像。這就是奧斯定在《論天主聖三》卷十四第十四章所說的：「在心靈充滿幸福所親近的那個性體中，心靈將看見它所見到的一切都是不變易的。」因為在非受造的聖言中含有一切受造物之理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.heading",
+      "article": 9,
+      "block": "节号",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "第九節",
+      "after": "第九節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a009.title",
+      "article": 9,
+      "block": "标题",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "將相似與肖像加以區分是否合理",
+      "after": "將相似與肖像加以區分是否合理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q093.a009.intro",
+      "article": 9,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "有關第九節，我們討論如下:",
+      "after": "有關第九節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.objection-intro",
+      "article": 9,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "將相似(similitudo'模樣)與肖像(imago)加以區分，似乎不合理(參看《創世紀》第一章26節)。因為:",
+      "after": "將相似(similitudo，模樣)與肖像(imago)加以區分，似乎不合理(參看《創世紀》第一章26節)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "similitudo'",
+          "after": "similitudo，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.arg1",
+      "article": 9,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "類或共類不宜與種或另IJ類互相區分。但相似與肖像之關係，好似共類與月IJ類之關係。因為《雜題八十三》第七十四題說: 「哪裡有肖像，也必有相似;反之則不然。」所以將相似與肖像加以區分不合理。",
+      "after": "類或共類不宜與種或別類互相區分。但相似與肖像之關係，好似共類與別類之關係。因為《雜題八十三》第七十四題說：「哪裡有肖像，也必有相似；反之則不然。」所以將相似與肖像加以區分不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ類",
+          "after": "別類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "月IJ類",
+          "after": "別類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.arg2",
+      "article": 9,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "此外，肖像之意義不只在於表顯天主的位格，也在於表顯天主的本質;屬於這種表顯的有不朽性和不可區分性。所以，所謂「相似在於本質，因為它是不朽的和不可區分的;向像在於其他特性」(《語錄》卷二第十六章)，說的不合理。",
+      "after": "此外，肖像之意義不只在於表顯天主的位格，也在於表顯天主的本質；屬於這種表顯的有不朽性和不可區分性。所以，所謂「相似在於本質，因為它是不朽的和不可區分的；肖像在於其他特性」(《語錄》卷二第十六章)，說的不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.arg3",
+      "article": 9,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "此外，按前面第四節所說的，在人內的天主之肖像有三種，即自然的、恩寵的及榮褔的。但是，無辜和正義屬於恩寵。所以，所謂「肖像是根據記憶、領悟和意願;相似是根據無草和正義」(《語錄》卷二第十六章)，說的不合理。",
+      "after": "此外，按前面第四節所說的，在人內的天主之肖像有三種，即自然的、恩寵的及榮福的。但是，無辜和正義屬於恩寵。所以，所謂「肖像是根據記憶、領悟和意願；相似是根據無辜和正義」(《語錄》卷二第十六章)，說的不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "榮褔",
+          "after": "榮福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無草",
+          "after": "無辜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.arg4",
+      "article": 9,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "此外，認識真理屬於領悟，愛慕德性屬於意志，這是尚像的兩部分。所以，所謂「肖像在於認識真理，相似在於愛慕德性」(同上)，說的不合理。",
+      "after": "此外，認識真理屬於領悟，愛慕德性屬於意志，這是肖像的兩部分。所以，所謂「肖像在於認識真理，相似在於愛慕德性」(同上)，說的不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.sed_contra",
+      "article": 9,
+      "block": "反之",
+      "pdf_file_pages": [
+        1501
+      ],
+      "before": "奧斯定在《雜題八十三》第五十一題說: 「有人不無道理地認為: 11按肖像』和『按相似~，所說的是兩個東西;因為假若是同一個東西，用一個名詞就能足夠了。」",
+      "after": "奧斯定在《雜題八十三》第五十一題說：「有人不無道理地認為：『按肖像』和『按相似』，所說的是兩個東西；因為假若是同一個東西，用一個名詞就能足夠了。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "11按肖像』和『按相似~，",
+          "after": "『按肖像』和『按相似』，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.respondeo",
+      "article": 9,
+      "block": "正解",
+      "pdf_file_pages": [
+        1501,
+        1502
+      ],
+      "before": "我解答如下:相似是一種一致或同一、合一(unitas)因為品質上的一致產生相似，如同《形上學》卷五第十五章所說的。但是「一」'由於是超越範疇的，所以是萬物所共有的，並可用於每個個別東西，就像「善」及「真」。故此，正如對某一個別的東西之關係，善作為這東西之完美，可以先於它或是它的序幕，也可以後於它或為它的造詣;同樣，相似與尚像之關係也是如此。人之作為序幕或起點的善，是根據人本身是一個別的善;而後於人或作為人之造詣的善，這是由於一人之德性造詣，我們特別稱他為善人。同樣，相似可以視為先於肖像之序幕或起點，因為按前面第一節所說的，它比肖像廣泛;也可視為繼肖像之後而有的東西，因為它指南像的一種成就或完美。因此，我們說某人的尚像與它所代表的這人相似或不相似，即是看肖像所表顯的完美或不完美。\n如此則相似與南(象可用兩種方式加以區別:一種是視相似為肖像之序幕或起點，這是許多東西所具有的。按這方式，相似是很據比智性或有靈性體之特點較廣的性質，而肖像是原本根據智性的特點。《雜題八十三》第五十一題便是按這種方式講的: 「精神」'即心靈，「毫無疑問是照天主的肖像造的;至於人的其他一切」'即屬於靈魂的低級部分，甚而屬於身體的部分，「則有人認為是按相似(模樣)造的」。在論《靈魂之大小》第二章中，也是按這方式，而說靈魂內的天主之相似(模樣)，在於靈魂是不朽的;因為有朽與無朽乃是物的廣泛差別。\n另一方式，是用相似指向像之表現和完美。大馬士革的若望《論正統信仰》卷二第十二章便是按這方式說: 「那按照天主之肖像的，是指智性，並有自主之能力的自由選擇或意志;至於那按照相似(模樣)的，是指德性的相似，這是由於人說有德性。」所謂相似屬於愛慕德性，也是按這種方式說的，因為不愛慕德性就沒有德行。",
+      "after": "我解答如下：相似是一種一致或同一、合一(unitas)；因為品質上的一致產生相似，如同《形上學》卷五第十五章所說的。但是「一」，由於是超越範疇的，所以是萬物所共有的，並可用於每個個別東西，就像「善」及「真」。故此，正如對某一個別的東西之關係，善作為這東西之完美，可以先於它或是它的序幕，也可以後於它或為它的造詣；同樣，相似與肖像之關係也是如此。人之作為序幕或起點的善，是根據人本身是一個別的善；而後於人或作為人之造詣的善，這是由於一人之德性造詣，我們特別稱他為善人。同樣，相似可以視為先於肖像之序幕或起點，因為按前面第一節所說的，它比肖像廣泛；也可視為繼肖像之後而有的東西，因為它指肖像的一種成就或完美。因此，我們說某人的肖像與它所代表的這人相似或不相似，即是看肖像所表顯的完美或不完美。\n如此則相似與肖像可用兩種方式加以區別：一種是視相似為肖像之序幕或起點，這是許多東西所具有的。按這方式，相似是根據比智性或有靈性體之特點較廣的性質，而肖像是原本根據智性的特點。《雜題八十三》第五十一題便是按這種方式講的：「精神」，即心靈，「毫無疑問是照天主的肖像造的；至於人的其他一切」，即屬於靈魂的低級部分，甚而屬於身體的部分，「則有人認為是按相似(模樣)造的」。在論《靈魂之大小》第二章中，也是按這方式，而說靈魂內的天主之相似(模樣)，在於靈魂是不朽的；因為有朽與無朽乃是物的廣泛差別。\n另一方式，是用相似指肖像之表現和完美。大馬士革的若望《論正統信仰》卷二第十二章便是按這方式說：「那按照天主之肖像的，是指智性，並有自主之能力的自由選擇或意志；至於那按照相似(模樣)的，是指德性的相似，這是由於人能有德性。」所謂相似屬於愛慕德性，也是按這種方式說的，因為不愛慕德性就沒有德行。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "unitas)因為",
+          "after": "unitas)；因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "南(象",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "很據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "精神」'",
+          "after": "精神」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其他一切」'",
+          "after": "其他一切」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人說有德性",
+          "after": "人能有德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尚像",
+          "after": "肖像",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "南像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "向像",
+          "after": "肖像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.ad1",
+      "article": 9,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1502,
+        1503
+      ],
+      "before": "相似與肖像之區別，不是根據相似之共理(因為在肖像之理中也含有此理);而是根據相似針對肖像之理所短缺的那部分，或是根據它使肖像更為完美。",
+      "after": "相似與肖像之區別，不是根據相似之共理(因為在肖像之理中也含有此理)；而是根據相似針對肖像之理所短缺的那部分，或是根據它使肖像更為完美。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.ad2",
+      "article": 9,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1503
+      ],
+      "before": "靈魂之本質之所以屬於肖像，是因了它在智性性體所專有之部分，表顯天主之本質;而不是由於從物之一般概念所引伸出的條件，例如:是單純的，不可區分的。",
+      "after": "靈魂之本質之所以屬於肖像，是因了它在智性性體所專有之部分，表顯天主之本質；而不是由於從物之一般概念所引伸出的條件，例如：是單純的，不可區分的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.ad3",
+      "article": 9,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1503
+      ],
+      "before": "有些德性是靈魂自然就有的，至少就德性的種子或德端來說是如此，按這些德性可以說有一種自然的相似;而且按某意義稱為肖像的，按另一意義被稱為相似(模樣)，也未嘗不可。",
+      "after": "有些德性是靈魂自然就有的，至少就德性的種子或德端來說是如此，按這些德性可以說有一種自然的相似；而且按某意義稱為肖像的，按另一意義被稱為相似(模樣)，也未嘗不可。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q093.a009.ad4",
+      "article": 9,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1503
+      ],
+      "before": "對言語之愛也就是被愛的知識，這屬於肖像之理;但是對德性之愛慕，就如德性本身一樣，是屬於相似(模樣)的。",
+      "after": "對言語之愛也就是被愛的知識，這屬於肖像之理；但是對德性之愛慕，就如德性本身一樣，是屬於相似(模樣)的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
