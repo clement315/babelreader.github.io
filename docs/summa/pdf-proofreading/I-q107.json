@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "batch": "I-q107",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q107",
+    "title": "論天使之言語",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      1612,
+      1613,
+      1614,
+      1615,
+      1616,
+      1617,
+      1618,
+      1619
+    ],
+    "printed_pages": [
+      385,
+      392
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 54,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 20
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q107.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q107.json": "8470cea61f0900c004e5f8465befec8958e737830194a7295e91122db5970930"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q107.a002.arg2",
+      "pdf_file_page": 1615,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q107.a002.ad3",
+      "pdf_file_page": 1616,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q107.a003.respondeo",
+      "pdf_file_page": 1617,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q107.a005.respondeo",
+      "pdf_file_page": 1619,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q107.a003.sed_contra",
+      "pdf_file_page": 1616,
+      "text": "萬事的上主",
+      "status": "suspected_source_print_error",
+      "action": "原页作「萬事的上主」，疑为「萬軍」之印误；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q107.a001.sed_contra",
+      "description": "将误并入反之的正解和三条释疑移回既有空字段；原反之两个换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部8页、5节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q107.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "然後要討論的是天使之言語(參一看第一0六題引言)。\n關於這點，可以提出五個問題:一\n一、天使是否向別的天使講話。件\n二、低級者是否向高級者講話。\n三、天使是否向天主講話。\n四、空間距離對天使之言語是否有作用。\n五、是否所有天使皆知曉一位天使向另一位講的話。",
+      "after": "然後要討論的是天使之言語(參看第一〇六題引言)。\n關於這點，可以提出五個問題：\n一、天使是否向別的天使講話。\n二、低級者是否向高級者講話。\n三、天使是否向天主講話。\n四、空間距離對天使之言語是否有作用。\n五、是否所有天使皆知曉一位天使向另一位講的話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "參一看第一0六題",
+          "after": "參看第一〇六題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問題:一",
+          "after": "問題：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "講話。件",
+          "after": "講話。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "天使是否向別的天使講話",
+      "after": "天使是否向別的天使講話",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "天使似乎不向別的天使講話。因為:",
+      "after": "天使似乎不向別的天使講話。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "教宗額我略一世在《倫理叢談》卷卡八第四十八章說，在復活以後，「肢體之形體性，不障蔽他人的眼睛看到每人的心靈」。所以，天使的心靈對別的天使更沒有掩蔽。言語是為將心靈裡藏著的顯示給他人用的。所以，天使不必向別的天使講話。",
+      "after": "教宗額我略一世在《倫理叢談》卷十八第四十八章說，在復活以後，「肢體之形體性，不障蔽他人的眼睛看到每人的心靈」。所以，天使的心靈對別的天使更沒有掩蔽。言語是為將心靈裡藏著的顯示給他人用的。所以，天使不必向別的天使講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卷卡八",
+          "after": "卷十八",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1612
+      ],
+      "before": "此外，言語有兩種:內心的言語，是人用以向自己講話的;外表的言語，是人用以向他人講話的。外表的言語是用一些可感覺到的符號，例如:聲音或手勢，或用某身體器官司如舌頭或手指;這些都是天使們所沒有的。所以，天使不向別的天使講話。",
+      "after": "此外，言語有兩種：內心的言語，是人用以向自己講話的；外表的言語，是人用以向他人講話的。外表的言語是用一些可感覺到的符號，例如：聲音或手勢，或用某身體器官，如舌頭或手指；這些都是天使們所沒有的。所以，天使不向別的天使講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "器官司如",
+          "after": "器官，如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1612,
+        1613
+      ],
+      "before": "此外，講話者刺激聽話者使之注意他說的話，但是想不出天使怎樣使別的天使注意，因為我們是用某種可感覺的符號。所以，天使不向別的天使講話。",
+      "after": "此外，講話者刺激聽話者使之注意他說的話，但是想不出天使怎樣使別的天使注意，因為我們是用某種可感覺的符號。所以，天使不向別的天使講話。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1613
+      ],
+      "before": "《格林多前書》第十三章l節說:「我若能說人間的話言，和能說天使的語言...... 」正值我解答如下:天使們有一種言語，但是教宗額我略一世在《倫理叢談》卷二第七章說:「我們的心該超越形體性言語之性質，而設想內心之高妙隱密的講話方式。」想明瞭天使怎樣向別的天使講話，要知道前面第八十二題第四節論到靈魂之活動和機能時所說的，即是意志推動理智之活動。可領悟者在理智中的方式有三種:第一，是以習性方式，或者按奧斯定《論天主聖三》卷十四第六及七章的說法，以記憶之方式;第二，以現實地被想到者的方式;第三，以對外有關之方式。可領悟者從第一級變為第二妝，顯然是靠意志之促使。為此習性之定義中說:「在願意時所運用者」(亞威洛哀，《靈魂論註疏》卷三注十八)。從第二級變為第三級也是靠意志，因為是意志使心念指向他物，例如為做什麼事，或是為顯示給他人。心靈使自己現實地思念它按習性所存有者時，是自己向自己講話J因為內心的意念也稱為內心的言語。天使心靈中的意念，由於其意志而要顯示給別的天使時，別的天使便知道了他的意念，天使就是這樣向別的天使講話。因為向另一個講話，無非就是將心靈的意念顯示給另一個。釋疑1在我們身上，心靈的意念好似有兩層掩蔽。第一層來自意志，它能使理智的意念留在內部，或表露於外。從這方面說，除天主外，誰也不能看穿另一個人的心靈，就如《格林多前書》第二章11節說的:「除了人內裡的心神外，有誰能知道別人的事呢?」。人之心靈的第二層掩蔽來自他人，這是由於身體的中且笨。為此，在意志要將心中的意念顯露給他人時，並不立刻被他人知曉，而要運用一些可感覺的符號。這就是教宗額我略一世在《倫理叢談》卷二第七章所說的:「對他人的眼睛來說，我們是站在心靈的隱密處，好似在身體的牆壁之後;但在我們想顯露自己時，好{以我們是從舌頭或語言之門走出，為能顯出我們內心是怎樣的。」天便沒有身體之蔽障。所以，天使J要顯露自己的意念時，耳目的天使立刻就知道。\n2.用聲音的外表言語，為我們是必要的，這是因了身體之障蔽。所以並不適用於天使，天使只有內心之言語;天使藉內在意念自己對自己講話，以及藉意志使之顯示出來，這都屬於內心的言語。因而天使顯露其意念的能力，就以比擬的方式稱為天便的語言。\n3對那些常在聖言中彼此相見的好天使，不需要什麼刺激;因為一個天使常看別的天使，所以常能看到別的天使對自己的示意。但是因為天使們在自然狀態時也能彼此講話，惡天i吏現在也彼此講話G所以該說，正如感官是受可感覺者之推動;同樣，理智則是受可領|吉者之推動。所以，正如感官是用可感覺的符號刺激;同樣，天便的心靈也是由於一種智性的力量引起注意。",
+      "after": "《格林多前書》第十三章1節說：「我若能說人間的語言，和能說天使的語言...... 」\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《格林多前書》第十三章l節說:「我若能說人間的話言，和能說天使的語言...... 」正值我解答如下:天使們有一種言語，但是教宗額我略一世在《倫理叢談》卷二第七章說:「我們的心該超越形體性言語之性質，而設想內心之高妙隱密的講話方式。」想明瞭天使怎樣向別的天使講話，要知道前面第八十二題第四節論到靈魂之活動和機能時所說的，即是意志推動理智之活動。可領悟者在理智中的方式有三種:第一，是以習性方式，或者按奧斯定《論天主聖三》卷十四第六及七章的說法，以記憶之方式;第二，以現實地被想到者的方式;第三，以對外有關之方式。可領悟者從第一級變為第二妝，顯然是靠意志之促使。為此習性之定義中說:「在願意時所運用者」(亞威洛哀，《靈魂論註疏》卷三注十八)。從第二級變為第三級也是靠意志，因為是意志使心念指向他物，例如為做什麼事，或是為顯示給他人。心靈使自己現實地思念它按習性所存有者時，是自己向自己講話J因為內心的意念也稱為內心的言語。天使心靈中的意念，由於其意志而要顯示給別的天使時，別的天使便知道了他的意念，天使就是這樣向別的天使講話。因為向另一個講話，無非就是將心靈的意念顯示給另一個。釋疑1在我們身上，心靈的意念好似有兩層掩蔽。第一層來自意志，它能使理智的意念留在內部，或表露於外。從這方面說，除天主外，誰也不能看穿另一個人的心靈，就如《格林多前書》第二章11節說的:「除了人內裡的心神外，有誰能知道別人的事呢?」。人之心靈的第二層掩蔽來自他人，這是由於身體的中且笨。為此，在意志要將心中的意念顯露給他人時，並不立刻被他人知曉，而要運用一些可感覺的符號。這就是教宗額我略一世在《倫理叢談》卷二第七章所說的:「對他人的眼睛來說，我們是站在心靈的隱密處，好似在身體的牆壁之後;但在我們想顯露自己時，好{以我們是從舌頭或語言之門走出，為能顯出我們內心是怎樣的。」天便沒有身體之蔽障。所以，天使J要顯露自己的意念時，耳目的天使立刻就知道。\n2.用聲音的外表言語，為我們是必要的，這是因了身體之障蔽。所以並不適用於天使，天使只有內心之言語;天使藉內在意念自己對自己講話，以及藉意志使之顯示出來，這都屬於內心的言語。因而天使顯露其意念的能力，就以比擬的方式稱為天便的語言。\n3對那些常在聖言中彼此相見的好天使，不需要什麼刺激;因為一個天使常看別的天使，所以常能看到別的天使對自己的示意。但是因為天使們在自然狀態時也能彼此講話，惡天i吏現在也彼此講話G所以該說，正如感官是受可感覺者之推動;同樣，理智則是受可領|吉者之推動。所以，正如感官是用可感覺的符號刺激;同樣，天便的心靈也是由於一種智性的力量引起注意。",
+          "after": "《格林多前書》第十三章l節說:「我若能說人間的話言，和能說天使的語言...... 」\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "話言",
+          "after": "語言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1613
+      ],
+      "before": "",
+      "after": "我解答如下：天使們有一種言語，但是教宗額我略一世在《倫理叢談》卷二第七章說：「我們的心該超越形體性言語之性質，而設想內心之高妙隱密的講話方式。」想明瞭天使怎樣向別的天使講話，要知道前面第八十二題第四節論到靈魂之活動和機能時所說的，即是意志推動理智之活動。可領悟者在理智中的方式有三種：第一，是以習性方式，或者按奧斯定《論天主聖三》卷十四第六及七章的說法，以記憶之方式；第二，以現實地被想到者的方式；第三，以對外有關之方式。可領悟者從第一級變為第二級，顯然是靠意志之促使。為此習性之定義中說：「在願意時所運用者」(亞威洛哀，《靈魂論註疏》卷三注十八)。從第二級變為第三級也是靠意志，因為是意志使心念指向他物，例如為做什麼事，或是為顯示給他人。心靈使自己現實地思念它按習性所存有者時，是自己向自己講話；因為內心的意念也稱為內心的言語。天使心靈中的意念，由於其意志而要顯示給別的天使時，別的天使便知道了他的意念，天使就是這樣向別的天使講話。因為向另一個講話，無非就是將心靈的意念顯示給另一個。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "我解答如下:天使們有一種言語，但是教宗額我略一世在《倫理叢談》卷二第七章說:「我們的心該超越形體性言語之性質，而設想內心之高妙隱密的講話方式。」想明瞭天使怎樣向別的天使講話，要知道前面第八十二題第四節論到靈魂之活動和機能時所說的，即是意志推動理智之活動。可領悟者在理智中的方式有三種:第一，是以習性方式，或者按奧斯定《論天主聖三》卷十四第六及七章的說法，以記憶之方式;第二，以現實地被想到者的方式;第三，以對外有關之方式。可領悟者從第一級變為第二級，顯然是靠意志之促使。為此習性之定義中說:「在願意時所運用者」(亞威洛哀，《靈魂論註疏》卷三注十八)。從第二級變為第三級也是靠意志，因為是意志使心念指向他物，例如為做什麼事，或是為顯示給他人。心靈使自己現實地思念它按習性所存有者時，是自己向自己講話；因為內心的意念也稱為內心的言語。天使心靈中的意念，由於其意志而要顯示給別的天使時，別的天使便知道了他的意念，天使就是這樣向別的天使講話。因為向另一個講話，無非就是將心靈的意念顯示給另一個。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1613,
+        1614
+      ],
+      "before": "",
+      "after": "在我們身上，心靈的意念好似有兩層掩蔽。第一層來自意志，它能使理智的意念留在內部，或表露於外。從這方面說，除天主外，誰也不能看穿另一個人的心靈，就如《格林多前書》第二章11節說的：「除了人內裡的心神外，有誰能知道別人的事呢？」。人之心靈的第二層掩蔽來自他人，這是由於身體的粗笨。為此，在意志要將心中的意念顯露給他人時，並不立刻被他人知曉，而要運用一些可感覺的符號。這就是教宗額我略一世在《倫理叢談》卷二第七章所說的：「對他人的眼睛來說，我們是站在心靈的隱密處，好似在身體的牆壁之後；但在我們想顯露自己時，好似我們是從舌頭或語言之門走出，為能顯出我們內心是怎樣的。」天使沒有身體之蔽障。所以，天使一要顯露自己的意念時，別的天使立刻就知道。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "在我們身上，心靈的意念好似有兩層掩蔽。第一層來自意志，它能使理智的意念留在內部，或表露於外。從這方面說，除天主外，誰也不能看穿另一個人的心靈，就如《格林多前書》第二章11節說的:「除了人內裡的心神外，有誰能知道別人的事呢？」。人之心靈的第二層掩蔽來自他人，這是由於身體的粗笨。為此，在意志要將心中的意念顯露給他人時，並不立刻被他人知曉，而要運用一些可感覺的符號。這就是教宗額我略一世在《倫理叢談》卷二第七章所說的:「對他人的眼睛來說，我們是站在心靈的隱密處，好似在身體的牆壁之後;但在我們想顯露自己時，好似我們是從舌頭或語言之門走出，為能顯出我們內心是怎樣的。」天使沒有身體之蔽障。所以，天使一要顯露自己的意念時，別的天使立刻就知道。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "",
+      "after": "用聲音的外表言語，為我們是必要的，這是因了身體之障蔽。所以並不適用於天使，天使只有內心之言語；天使藉內在意念自己對自己講話，以及藉意志使之顯示出來，這都屬於內心的言語。因而天使顯露其意念的能力，就以比擬的方式稱為天使的語言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "用聲音的外表言語，為我們是必要的，這是因了身體之障蔽。所以並不適用於天使，天使只有內心之言語;天使藉內在意念自己對自己講話，以及藉意志使之顯示出來，這都屬於內心的言語。因而天使顯露其意念的能力，就以比擬的方式稱為天使的語言。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "",
+      "after": "對那些常在聖言中彼此相見的好天使，不需要什麼刺激；因為一個天使常看別的天使，所以常能看到別的天使對自己的示意。但是因為天使們在自然狀態時也能彼此講話，惡天使現在也彼此講話。所以該說，正如感官是受可感覺者之推動；同樣，理智則是受可領悟者之推動。所以，正如感官是用可感覺的符號刺激；同樣，天使的心靈也是由於一種智性的力量引起注意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "對那些常在聖言中彼此相見的好天使，不需要什麼刺激;因為一個天使常看別的天使，所以常能看到別的天使對自己的示意。但是因為天使們在自然狀態時也能彼此講話，惡天使現在也彼此講話。所以該說，正如感官是受可感覺者之推動;同樣，理智則是受可領悟者之推動。所以，正如感官是用可感覺的符號刺激;同樣，天使的心靈也是由於一種智性的力量引起注意。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "低級天使是否向高級天使講話",
+      "after": "低級天使是否向高級天使講話",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "低級天使似乎不向高級天使講話。因為;",
+      "after": "低級天使似乎不向高級天使講話。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1614
+      ],
+      "before": "關於《格林多前書》第十三章l節那句:「我若能說人間的語言，和能說天使的語言」'「註解」(拉丁通行本註解)上說，天使的言語，是高級者用以光照或啟發低級天使的光照或啟發。但按前面第一0六題第三節所說的，低級天使從來也不光照或啟發高級天使。所以，低級天使也不向高級天使講話。",
+      "after": "關於《格林多前書》第十三章1節那句：「我若能說人間的語言，和能說天使的語言」，「註解」(拉丁通行本註解)上說，天使的言語，是高級者用以光照或啟發低級天使的光照或啟發。但按前面第一〇六題第三節所說的，低級天使從來也不光照或啟發高級天使。所以，低級天使也不向高級天使講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "語言」'",
+          "after": "語言」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六題",
+          "after": "第一〇六題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1615
+      ],
+      "before": "此外，前面第一節已經說過，光照或啟發無非就是將自己知道的顯示給別人。但講話也是如此。所以講話與光照或啟發是同一回事;如此則結論與先前質疑1.相同。",
+      "after": "此外，前面第一節己經說過，光照或啟發無非就是將自己知道的顯示給別人。但講話也是如此。所以講話與光照或啟發是同一回事；如此則結論與先前質疑1.相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1615
+      ],
+      "before": "此外，教宗額我略一世在《倫理叢談》卷二第七章說: 「天主向天使們講話，因為祂將其不可見的祕密顯示給他們的心靈。」但這就是光照或啟發。所以，天主的言語都是光照或啟發。按同理，天使的言語也都是光照或啟發。所以，低級天使絕對不能向高級天使講話。",
+      "after": "此外，教宗額我略一世在《倫理叢談》卷二第七章說：「天主向天使們講話，因為祂將其不可見的祕密顯示給他們的心靈。」但這就是光照或啟發。所以，天主的言語都是光照或啟發。按同理，天使的言語也都是光照或啟發。所以，低級天使絕對不能向高級天使講話。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1615
+      ],
+      "before": "按狄奧尼修在《上天(天使)階級論》第七章所講的，低級天使向高級天使說: 「誰是這位光榮的君玉?」(《聖詠》第二十三篇10節)",
+      "after": "按狄奧尼修在《上天(天使)階級論》第七章所講的，低級天使向高級天使說：「誰是這位光榮的君王?」(《聖詠》第二十三篇10節)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1615,
+        1616
+      ],
+      "before": "我解答如下:低級天使能向高級天使講話。為看清rJ:t點，要知道，在天使間，一切光照或啟發都是講話，但並非一切講話都是光照或啟發。因為按前面所說的，天使向天使講話，無非就是憑自己的意志將自己的意念或思念指向另一天使，為讓他知曉。﹒心靈所思念的，可以歸於兩個根本:一是天主，祂是第一個真理;一是思念者或領悟者之意志，是意志使我們現實地思想某事情。因了真理是理智之光，而一切真理之標準是天主。所以顯露心靈所思念的，就它繫於第一真理來說，這顯露既是講話又是光照或啟發;例如一位對另一位說:「天是天主造的」'或是「人是動物」。但是顯露那繫於思念者之意志的，這顯露不能說是光照或啟發，而只能說是講話;例如，一位對另一位說: 「我要學這個，我要做這事或那事」。這是因為受造的意志不是光，也不是真理之標準，而是分有光者。為此，表白那出於受造之意志者，本身不是光照或啟發。因為知道你願意什麼，或你懂什麼，這不屬於我之理智的完美，只有知道事物本身之真理纔算是我理智上的成就。\n天使之分為高級的和低級的，顯然是根據其與天主這一根本的關係。所以光照或啟發既繫於天主這一根本，只能從高級天使下達低級天使。但是在意志這一根本層次，願意者是第一個和最高的。故此，顯露屬於意志的事，可由願意者指向任何其他個體。從這方面來說，高級天使向低級天使講話，低級的也向高級的講話。",
+      "after": "我解答如下：低級天使能向高級天使講話。為看清此點，要知道，在天使間，一切光照或啟發都是講話，但並非一切講話都是光照或啟發。因為按前面所說的，天使向天使講話，無非就是憑自己的意志將自己的意念或思念指向另一天使，為讓他知曉。心靈所思念的，可以歸於兩個根本：一是天主，祂是第一個真理；一是思念者或領悟者之意志，是意志使我們現實地思想某事情。因了真理是理智之光，而一切真理之標準是天主。所以顯露心靈所思念的，就它繫於第一真理來說，這顯露既是講話又是光照或啟發；例如一位對另一位說：「天是天主造的」，或是「人是動物」。但是顯露那繫於思念者之意志的，這顯露不能說是光照或啟發，而只能說是講話；例如，一位對另一位說：「我要學這個，我要做這事或那事」。這是因為受造的意志不是光，也不是真理之標準，而是分有光者。為此，表白那出於受造之意志者，本身不是光照或啟發。因為知道你願意什麼，或你懂什麼，這不屬於我之理智的完美，只有知道事物本身之真理才算是我理智上的成就。\n天使之分為高級的和低級的，顯然是根據其與天主這一根本的關係。所以光照或啟發既繫於天主這一根本，只能從高級天使下達低級天使。但是在意志這一根本層次，願意者是第一個和最高的。故此，顯露屬於意志的事，可由願意者指向任何其他個體。從這方面來說，高級天使向低級天使講話，低級的也向高級的講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "rJ:t",
+          "after": "此",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "知曉。﹒",
+          "after": "知曉。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造的」'",
+          "after": "造的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔算",
+          "after": "才算",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "及2.由上面所說的，可知質疑1.及質疑2.之答案。",
+      "after": "及2.由上面所說的，可知質疑1.及質疑2.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "天主向天使們的一切講話都是啟發;因為天主的意志是真理之標準，所以知道天主願意什麼，也屬於受造之心靈的成就及光照或啟發。但是如正解己說過的，天使的意志與此情形不同。",
+      "after": "天主向天使們的一切講話都是啟發；因為天主的意志是真理之標準，所以知道天主願意什麼，也屬於受造之心靈的成就及光照或啟發。但是如正解己說過的，天使的意志與此情形不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "天使是否向天主講話",
+      "after": "天使是否向天主講話",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "天使似乎不向天主講話。因為:",
+      "after": "天使似乎不向天主講話。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "講話是為對另一個有所顯示。但天使不能向天主顯示什麼，因為天主什麼都知道。所以，天使不向天主講話。",
+      "after": "講話是為對另一個有所顯示。但天使不能向天主顯示什麼，因為天主什麼都知道。所以，天使不向天主講話。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "此外，按上面第一節說的，講話是將理智之意念指向另一個。但天使常將自己心靈的意念指向天主。假若天使確實向天主講話，那就是常向天主講話;而這似乎會造成某方面的不便，因為有時天使也要向別的天使講話。所以，天使似乎從來也不向天主講話。",
+      "after": "此外，按上面第一節說的，講話是將理智之意念指向另一個。但天使常將自己心靈的意念指向天主。假若天使確實向天主講話，那就是常向天主講話；而這似乎會造成某方面的不便，因為有時天使也要向別的天使講話。所以，天使似乎從來也不向天主講話。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1616
+      ],
+      "before": "《臣加利亞》第一章12節說:「上主的使者說:~萬事的上主!你拒絕憐恤耶路撒冷，要到何時呢?~0 」所以天使向天主講話。",
+      "after": "《匝加利亞》第一章12節說：「上主的使者說：『萬事的上主!你拒絕憐恤耶路撒冷，要到何時呢？』。」所以天使向天主講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "臣加利亞",
+          "after": "匝加利亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~萬事",
+          "after": "『萬事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "?~0 ",
+          "after": "？』。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "我解答如下:前面第一及二節已經說過，天使講話，就是將心靈的意念指向另一位ο將一個東西指向另一位有兩種方式。一種方式，是將一個東西傳給另一位或另一個，就如:在自然界主動者之指向被動者;在人間講話時，教師之指向學生。按這種方式說，天使絕不向天主講話，無論是關於事物之真理，或關於那繫於受造之意志的事:因為天主是一切真理和意志之根本和創置者。將一個東西指向另一位的第二種方式，是為有所得於另一位或另一個，例如:自然界的被動者之指向主動者;及在人間講話時，學生之指向老師。按這方式，天使向天主講話，或向天主的意志詢問該做的事，或對他永遠也不能瞭解的天主之奧妙表示驚奇;就如教宗額我略一世在《倫理叢談》卷二第七章所說的:「幾時天使們向上瞻仰，引起歎賞，便是向天主講話。」",
+      "after": "我解答如下：前面第一及二節己經說過，天使講話，就是將心靈的意念指向另一位。將一個東西指向另一位有兩種方式。一種方式，是將一個東西傳給另一位或另一個，就如：在自然界主動者之指向被動者；在人間講話時，教師之指向學生。按這種方式說，天使絕不向天主講話，無論是關於事物之真理，或關於那繫於受造之意志的事：因為天主是一切真理和意志之根本和創置者。將一個東西指向另一位的第二種方式，是為有所得於另一位或另一個，例如：自然界的被動者之指向主動者；及在人間講話時，學生之指向老師。按這方式，天使向天主講話，或向天主的意志詢問該做的事，或對他永遠也不能瞭解的天主之奧妙表示驚奇；就如教宗額我略一世在《倫理叢談》卷二第七章所說的：「幾時天使們向上瞻仰，引起歎賞，便是向天主講話。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另一位ο",
+          "after": "另一位。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "講話不常是為對另一位有所顯示，有時講話的最後目的，是為對發話者有所揭示，就如學生向老師提出問題時。",
+      "after": "講話不常是為對另一位有所顯示，有時講話的最後目的，是為對發話者有所揭示，就如學生向老師提出問題時。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "天使們用讚美嘆賞天主同祂講話的方式，常向天主講話。但是用向天主的上智詢問當做的事的講話方式，只有在有新的事情需要他們去做，希望得到天主的光照或啟發時，才向天主講話。",
+      "after": "天使們用讚美嘆賞天主同祂講話的方式，常向天主講話。但是用向天主的上智詢問當做的事的講話方式，只有在有新的事情需要他們去做，希望得到天主的光照或啟發時，才向天主講話。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "空間距離對天使講話有無作用",
+      "after": "空間距離對天使講話有無作用",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "空間距離對天使之講話似乎有作用。因為:",
+      "after": "空間距離對天使之講話似乎有作用。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1617
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷一第十三章說: 「天使在哪裡，便在那裡行動。」講話是天(吏的一種動作。既然天使是在某固定空間，似乎天使只在某固定距離範圍內可以講話。",
+      "after": "大馬士革的若望《論正統信仰》卷一第十三章說：「天使在哪裡，便在那裡行動。」講話是天使的一種動作。既然天使是在某固定空間，似乎天使只在某固定距離範圍內可以講話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1617,
+        1618
+      ],
+      "before": "此外，大聲講話，是因了聽話者之距離的關係。但是《依撒意亞》第六章3節論色辣芬說: 「他們互相高呼。」所以，空間距離對天使之講話似乎有點作用。",
+      "after": "此外，大聲講話，是因了聽話者之距離的關係。但是《依撒意亞》第六章3節論色辣芬說：「他們互相高呼。」所以，空間距離對天使之講話似乎有點作用。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "按《路加福音》第十六章24節所說的，在地獄裡的富人，曾向亞巴郎講話，空間距離沒有妨礙。所以空間距離更不能妨礙天使向別的天使講話。",
+      "after": "按《路加福音》第十六章24節所說的，在地獄裡的富人，曾向亞巴郎講話，空間距離沒有妨礙。所以空間距離更不能妨礙天使向別的天使講話。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "我解答如下:天使之講話，看前面第一至第三節所說的可以知道，在於一種智性動作。天使的智性活動絕對不受時空的限制﹒因為連我們的智性動作也沒有空間性及時間性，除非偶然因了心象方面的關{系，但天使沒有心象。對那絕對不受時空限制的，時間之長短，及距離之遠近，都毫無作用。所以空間距離對天使之講話毫無妨礙。",
+      "after": "我解答如下：天使之講話，看前面第一至第三節所說的可以知道，在於一種智性動作。天使的智性活動絕對不受時空的限制；因為連我們的智性動作也沒有空間性及時間性，除非偶然因了心象方面的關係，但天使沒有心象。對那絕對不受時空限制的，時間之長短，及距離之遠近，都毫無作用。所以空間距離對天使之講話毫無妨礙。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "限制﹒",
+          "after": "限制；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "按前面所說的，天使的講話或言語是一種內心的言語，f且能為別的天使所知覺;所以這話或言語是在說話的天使內，所以也是在天使講話的地方。但是正如空間距離不妨礙一個天使能看見另一天使;同樣也不妨礙他知覺另一天使內指向他的東西，即知覺另一天使的話。",
+      "after": "按前面所說的，天使的講話或言語是一種內心的言語，但能為別的天使所知覺；所以這話或言語是在說話的天使內，所以也是在天使講話的地方。但是正如空間距離不妨礙一個天使能看見另一天使；同樣也不妨礙他知覺另一天使內指向他的東西，即知覺另一天使的話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "f且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "那種高自乎不是形體界聲音方面的，形體界聲音的高呼是為了距離的關係;那種高H乎是表示所說的事情重大，或表感情深厚，就如教宗額我略一世在《倫理叢談》卷二第七章所說的: 1'\"願望小，呼聲也小。J",
+      "after": "那種高呼不是形體界聲音方面的，形體界聲音的高呼是為了距離的關係；那種高呼是表示所說的事情重大，或表感情深厚，就如教宗額我略一世在《倫理叢談》卷二第七章所說的：「願望小，呼聲也小。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "高自乎",
+          "after": "高呼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "高H乎",
+          "after": "高呼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " 1'\"願望小，呼聲也小。J",
+          "after": "「願望小，呼聲也小。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "是否所有的天使皆知曉一位天使向另一位講的話",
+      "after": "是否所有的天使皆知曉一位天使向另一位講的話",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1618
+      ],
+      "before": "似乎所有的天使都知曉一位天使向另一天使所謂的話。因為:",
+      "after": "似乎所有的天使都知曉一位天使向另一天使所講的話。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所謂的話",
+          "after": "所講的話",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1618,
+        1619
+      ],
+      "before": "人講的話不是大家都聽到，乃是由於空間距離之差別。但按前面第四節所說的，空間距離對天使的話毫無作用。所以，一位天使向另一天使講話，所有的天使都會知覺。",
+      "after": "人講的話不是大家都聽到，乃是由於空間距離之差別。但按前面第四節所說的，空間距離對天使的話毫無作用。所以，一位天使向另一天使講話，所有的天使都會知覺。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "此外，所有的天使之領悟能力都是相同的。倘若一位天使指向另一天使的心靈的意念被一個知曉，同樣也被別的天使知曉。",
+      "after": "此外，所有的天使之領悟能力都是相同的。倘若一位天使指向另一天使的心靈的意念被一個知曉，同樣也被別的天使知曉。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "此外，光照或啟發是一種講話。但是一位天使對另一天使之光照或啟發，達到所有的天使;因為狄奧尼修在《上天(天使)階級論》第十五章說:「天上每個本體皆將其所得之領悟傳給別的。」所以，一位天使對另一天使所講的話，也達到所有的天使。",
+      "after": "此外，光照或啟發是一種講話。但是一位天使對另一天使之光照或啟發，達到所有的天使；因為狄奧尼修在《上天(天使)階級論》第十五章說：「天上每個本體皆將其所得之領悟傳給別的。」所以，一位天使對另一天使所講的話，也達到所有的天使。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "人能夠只向一個人講話。所以，天使們更該有此能力。",
+      "after": "人能夠只向一個人講話。所以，天使們更該有此能力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "我解答如下:前面曾說，一位天使心靈中的意念能被另一位天使知覺，是因了那有意念者以其意志，將其意念指向另一天使。一個東西能由於某原因被指向一位，而不被指向其他的。因此，一位的意念能被另一位知曉，而不被其他的知曉。準此，一位天使向另一天使謂的話能被一位知曉，而別的天使不知曉，這並非因了空間距離之障阻，而是如己說過的，因了意志之措施。",
+      "after": "我解答如下：前面曾說，一位天使心靈中的意念能被另一位天使知覺，是因了那有意念者以其意志，將其意念指向另一天使。一個東西能由於某原因被指向一位，而不被指向其他的。因此，一位的意念能被另一位知曉，而不被其他的知曉。準此，一位天使向另一天使講的話能被一位知曉，而別的天使不知曉，這並非因了空間距離之障阻，而是如己說過的，因了意志之措施。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天使謂的話",
+          "after": "天使講的話",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q107.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "及2.由此可知質疑1.及質疑2.之答案。",
+      "after": "及2.由此可知質疑1.及質疑2.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q107.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1619
+      ],
+      "before": "光照或啟發是關於發自真理之第一標準者，此標準是一切天使的共同根本;因此光照或啟發是大家所共有的。但是，講話能是關於指向受造之意志這一根本者，而這一根本是每位天使所專有的。所以，這類話不必是大家公闊的。",
+      "after": "光照或啟發是關於發自真理之第一標準者，此標準是一切天使的共同根本；因此光照或啟發是大家所共有的。但是，講話能是關於指向受造之意志這一根本者，而這一根本是每位天使所專有的。所以，這類話不必是大家公開的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "公闊",
+          "after": "公開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
