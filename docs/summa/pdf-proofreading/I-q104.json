@@ -1,0 +1,1281 @@
+{
+  "schema_version": 1,
+  "batch": "I-q104",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q104",
+    "title": "分論天主治理之效果",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1577,
+      1578,
+      1579,
+      1580,
+      1581,
+      1582,
+      1583,
+      1584,
+      1585,
+      1586
+    ],
+    "printed_pages": [
+      350,
+      359
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 50,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q104.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q104.json": "e1100a753062ae176c3ef40a4e183bf465bf85dc4b31441ba959bc1ea456c43f"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q104.a001.ad3",
+      "pdf_file_page": 1581,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q104.a002.arg1",
+      "pdf_file_page": 1581,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q104.a002.ad3",
+      "pdf_file_page": 1583,
+      "text": "先己有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q104.a003.respondeo",
+      "pdf_file_page": 1584,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q104.a004.ad1",
+      "pdf_file_page": 1585,
+      "text": "「祂以自己大能的話支撐萬有。",
+      "status": "suspected_source_print_error",
+      "action": "原页此处引号未闭合；按底本保留，单列供人工决定。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I.q104.prologue",
+      "description": "删除引言前两行重复题名杂字；两个原有换行保留为空行。"
+    }
+  ],
+  "notes": [
+    "全部10页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q104.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1577
+      ],
+      "before": "品\n分間一如組冊一效果\n然後要討論的是天主之治理的個別效果(參看第一0三題引言及第四節;第一。五題引言)。\n關於這點，司以提出四個問題:\n一、受造物是否需要天主保存其存在。\n二、是否由天主直接保存。\n三、天主是否能使東西回歸虛無。\n四、是否有東西回歸虛無。",
+      "after": "\n\n然後要討論的是天主之治理的個別效果(參看第一〇三題引言及第四節；第一〇五題引言)。\n關於這點，可以提出四個問題：\n一、受造物是否需要天主保存其存在。\n二、是否由天主直接保存。\n三、天主是否能使東西回歸虛無。\n四、是否有東西回歸虛無。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "品\n分間一如組冊一效果\n",
+          "after": "\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0三題",
+          "after": "第一〇三題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一。五題",
+          "after": "第一〇五題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "司以",
+          "after": "可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1577
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1577
+      ],
+      "before": "受造物是否需要天主保存",
+      "after": "受造物是否需要天主保存",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1577
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1577
+      ],
+      "before": "受造物似乎不需要天主保存其存在。因為:",
+      "after": "受造物似乎不需要天主保存其存在。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1577,
+        1578
+      ],
+      "before": "那不能不存在的，不需要保存或維持其存在;就如一個東西不能離開某地方，便不需要保存它以免離去。但有的受造物按其天性不能不存在。所以，不是所有的受造物都需要天主保存其存在。中間命題或小前提之證明如下:那本然寓於某東西者，是必然地寓於那東西，而且不可能有相反者寓於這東西;例如:二必然是雙數，它不可能是單數。存在本然就是隨從形式的，因為每個東西之所以為現實存在的物，是因了它有形式。有的受造物是一些自立的形式，就如第五十題第二及五節論到天使時曾說過的;所以，他們本然就寓有存在。關於其質料只針對一種形式是在潛能狀態中的東西，也是一樣，就如前面第六十六題第二節論天體時所說的。這樣的受造物按其天性必然存在，不能不存在。因為不存在之潛能或可能性，不能是基於形式，因為存在本然跟隨形式;也不能是基於不能失去其形式的質料，因為這種質料沒有承受其他形式的潛能或可能性。",
+      "after": "那不能不存在的，不需要保存或維持其存在；就如一個東西不能離開某地方，便不需要保存它以免離去。但有的受造物按其天性不能不存在。所以，不是所有的受造物都需要天主保存其存在。中間命題或小前提之證明如下：那本然寓於某東西者，是必然地寓於那東西，而且不可能有相反者寓於這東西；例如：二必然是雙數，它不可能是單數。存在本然就是隨從形式的，因為每個東西之所以為現實存在的物，是因了它有形式。有的受造物是一些自立的形式，就如第五十題第二及五節論到天使時曾說過的；所以，他們本然就寓有存在。關於其質料只針對一種形式是在潛能狀態中的東西，也是一樣，就如前面第六十六題第二節論天體時所說的。這樣的受造物按其天性必然存在，不能不存在。因為不存在之潛能或可能性，不能是基於形式，因為存在本然跟隨形式；也不能是基於不能失去其形式的質料，因為這種質料沒有承受其他形式的潛能或可能性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1578
+      ],
+      "before": "此外，天主比任何受造的動因能力大。但是有的受造的動因，能把保存其存在傳給其效果，縱然動因之作用已經停止，例如:建築師的動作停止後，房屋仍然保存著;火的作用停止後，水在一段時間仍能保持熱。所以，天主絕對更能使受造物在祂的作用停止後，保持其存在。",
+      "after": "此外，天主比任何受造的動因能力大。但是有的受造的動因，能把保存其存在傳給其效果，縱然動因之作用已經停止，例如：建築師的動作停止後，房屋仍然保存著；火的作用停止後，水在一段時間仍能保持熱。所以，天主絕對更能使受造物在祂的作用停止後，保持其存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1578
+      ],
+      "before": "此外，強迫都是來自一種動因。但對每一受造物來說，趨向於不存在乃是不自然的和被迫的;因為每個受造物都自然地欲求存在υ所以，除非有某動因使之腐化，否則沒有受造物趨向於不存在。但有些受造物什麼也不能使之腐化，例如:精神性的本體及天體。所以這類受造物，縱使在天主的作用停止後，也不能趨向於不存在。",
+      "after": "此外，強迫都是來自一種動因。但對每一受造物來說，趨向於不存在乃是不自然的和被迫的；因為每個受造物都自然地欲求存在。所以，除非有某動因使之腐化，否則沒有受造物趨向於不存在。但有些受造物什麼也不能使之腐化，例如：精神性的本體及天體。所以這類受造物，縱使在天主的作用停止後，也不能趨向於不存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "存在υ",
+          "after": "存在。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1578
+      ],
+      "before": "此外，若天主保持東西存在，這該是靠某種作用。但是動因的任何作用，若是有效1J的，該在其效果上產生一點東西。所以，天主之保存作用，該在受造物上產生點東西。但這似乎不合理。因為這種作用不產生受造物之存在，因為已經存在的不再產生;也不能是外加的東西，因為或者天主不一直不斷地保存受造物之存在，或者一直不斷地給受造物加點東西一一這是不合理的。所以，不是由天主保存受造物之存在。",
+      "after": "此外，若天主保持東西存在，這該是靠某種作用。但是動因的任何作用，若是有效力的，該在其效果上產生一點東西。所以，天主之保存作用，該在受造物上產生點東西。但這似乎不合理。因為這種作用不產生受造物之存在，因為已經存在的不再產生；也不能是外加的東西，因為或者天主不一直不斷地保存受造物之存在，或者一直不斷地給受造物加點東西——這是不合理的。所以，不是由天主保存受造物之存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有效1J",
+          "after": "有效力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西一一",
+          "after": "東西——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1578
+      ],
+      "before": "《希伯來書》第一章3節說: 「祂以自己大能的話支撐萬有。」",
+      "after": "《希伯來書》第一章3節說：「他以自己大能的話支撐萬有。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂以",
+          "after": "他以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1578,
+        1579,
+        1580
+      ],
+      "before": "我解答如下:無論按信仰或按理性，都該說天主保存受造物之存在。為看清這個問題，該知道一個東西之由另一個保存有兩種方式。一種方式是間接地和偶然地，例如:使那有腐化作用者不得接近某東西，便是保存這個東西;比如說，一人看守孩子，使他不跌到火裡，便是保存這個孩子。天主也以這種方式保存某些東西，f且不是一切東西;因為有的東西，沒有能使之腐朽者，故無所謂需要遠離它們以保存東西。另一種方式是一東西本然和直接地保存另一東西，即那被保存的東西繫於那保存者，沒有那保存者就不能存在。所有的受造物都需要天主的這種保存。因為每一受造物的存在都繫於天主，以致除非有天主的大能的作用保持其存在，連一瞬也不能繼續存在，立刻變為虛無，就如教宗額我略一世所說的U(《倫理叢談》卷十六第三十七章)。\n這可以如此解釋。凡效果都繫於其原因，按原因為其原因之範圈。但要知道，有的動因只是其效果之成或變成(合成、形成，fieri)的原因，而不直接是其存在之原因。在工藝界及自然界都有這種情形。建築師只是房屋之形成或合成之原因，而非直接是房屋存在之原因。房屋之存在顯然是隨房屋之形式而來;而房屋之形式則在於組合及配合，這種形式繫於某些東西的自然能力。就如廚師是用火的自然積極能力燒飯，建築師造房屋則是用水泥、石塊和木材，這些東西有承受並保持那種組合及配合之能力。所以，房屋之存在是繫於這些東西之天性，而房屋之形成或合成繫於建築師。在自然界的東西也是一理。因為如果一個動因不是形式作為形式(或形式本身)之原因，買IJ不本然是隨這形式而來之存在的原因，只是效果之形成的原因。\n如果兩個東西間屬一類或別類(species)，其中一個顯然不本然是另一個之本類形式之原因;否則的話，就等於是自己之形式的原因了，因為兩個東西之本質是一樣的。但是它能是在質料中之如此形式的原因，即是說能使這個質料獲得這個形式。而這是形成或生成上之原因，就如人之生人，火之生火。所以每當一個自然效果，自然承受動因之深植的作用(impr巴ssio)，是按照它在動因內的相同之理或性質時，貝IJ效果之形成繫於該動因，其存在不繫於該動因。但有時效果之自然承受動因之深植的作用，不是按照它在動因內的相同之理或性質，例如:那些不產生同類之效果的動因，就如天體是不同類之下界之物體的產生原因。這樣的動因能夠是形式之原因，而且是按照這形式的理或性質，不只是根據它之為此一質料所承受。所以，它不只是形成之原因，也是存在之原因。\n正如一個東西之作為效果之形成原因的動因，其作用一停止，這東西便不能繼續形成;同樣，一個東西之動因，它不僅是效果之形成原因，而且也是效果之存在原因。它的作用一停止，這東西便也不能繼續存在。故此，火的作用停止後，熱水仍能保持熱;但是，若太陽的作用停止，被照明的空氣，連→瞬也不能保持光亮。這是因為水之質料承受火之熱，是以熱在火中相同之理或性質。因此，若水完全達到火之形式，便會永遠保有熱;但若只是開始不完整地分得火之形式，貝IJ熱不常保存，只保存一段時間，因為分得的熱之根本太少。但是空氣絕對不是按照光在太陽內的相同之理或性質，自然承受光，即不是承受作為光之根本的太陽之形式;因了光不是植根於空氣中，故太陽的作用一停止，立刻光亮也停止。\n受造物與天主之關係，就像空氣與光照者太陽之關係。太陽按其本性就是亮的，空氣因分有太陽之光而亮，但空氣不分有太陽之本i生;同樣，只有天主按其本質就是存在者，因為祂的本質就是祂的存在。一切受造物皆是因分有而是存在者，它的本質不是它的存在。為此奧斯定在《創世紀字義新探》卷凹第十二章說:「假若天主的大能，停止支持祂所創造的並應受祂治理的東西，那些東西的物性和一切性體都將立時消滅。」他在那書卷八第十二章說「就如空氣有光時就光亮，人也是一樣，天主與他在一起，他就光亮，不在一起，立刻就黑暗。」",
+      "after": "我解答如下：無論按信仰或按理性，都該說天主保存受造物之存在。為看清這個問題，該知道一個東西之由另一個保存有兩種方式。一種方式是間接地和偶然地，例如：使那有腐化作用者不得接近某東西，便是保存這個東西；比如說，一人看守孩子，使他不跌到火裡，便是保存這個孩子。天主也以這種方式保存某些東西，但不是一切東西；因為有的東西，沒有能使之腐朽者，故無所謂需要遠離它們以保存東西。另一種方式是一東西本然和直接地保存另一東西，即那被保存的東西繫於那保存者，沒有那保存者就不能存在。所有的受造物都需要天主的這種保存。因為每一受造物的存在都繫於天主，以致除非有天主的大能的作用保持其存在，連一瞬也不能繼續存在，立刻變為虛無，就如教宗額我略一世所說的(《倫理叢談》卷十六第三十七章)。\n這可以如此解釋。凡效果都繫於其原因，按原因為其原因之範圍。但要知道，有的動因只是其效果之成或變成(合成、形成，fieri)的原因，而不直接是其存在之原因。在工藝界及自然界都有這種情形。建築師只是房屋之形成或合成之原因，而非直接是房屋存在之原因。房屋之存在顯然是隨房屋之形式而來；而房屋之形式則在於組合及配合，這種形式繫於某些東西的自然能力。就如廚師是用火的自然積極能力燒飯，建築師造房屋則是用水泥、石塊和木材，這些東西有承受並保持那種組合及配合之能力。所以，房屋之存在是繫於這些東西之天性，而房屋之形成或合成繫於建築師。在自然界的東西也是一理。因為如果一個動因不是形式作為形式(或形式本身)之原因，則不本然是隨這形式而來之存在的原因，只是效果之形成的原因。\n如果兩個東西同屬一類或別類(species)，其中一個顯然不本然是另一個之本類形式之原因；否則的話，就等於是自己之形式的原因了，因為兩個東西之本質是一樣的。但是它能是在質料中之如此形式的原因，即是說能使這個質料獲得這個形式。而這是形成或生成上之原因，就如人之生人，火之生火。所以每當一個自然效果，自然承受動因之深植的作用(impressio)，是按照它在動因內的相同之理或性質時，則效果之形成繫於該動因，其存在不繫於該動因。但有時效果之自然承受動因之深植的作用，不是按照它在動因內的相同之理或性質，例如：那些不產生同類之效果的動因，就如天體是不同類之下界之物體的產生原因。這樣的動因能夠是形式之原因，而且是按照這形式的理或性質，不只是根據它之為此一質料所承受。所以，它不只是形成之原因，也是存在之原因。\n正如一個東西之作為效果之形成原因的動因，其作用一停止，這東西便不能繼續形成；同樣，一個東西之動因，它不僅是效果之形成原因，而且也是效果之存在原因。它的作用一停止，這東西便也不能繼續存在。故此，火的作用停止後，熱水仍能保持熱；但是，若太陽的作用停止，被照明的空氣，連一瞬也不能保持光亮。這是因為水之質料承受火之熱，是以熱在火中相同之理或性質。因此，若水完全達到火之形式，便會永遠保有熱；但若只是開始不完整地分得火之形式，則熱不常保存，只保存一段時間，因為分得的熱之根本太少。但是空氣絕對不是按照光在太陽內的相同之理或性質，自然承受光，即不是承受作為光之根本的太陽之形式；因了光不是植根於空氣中，故太陽的作用一停止，立刻光亮也停止。\n受造物與天主之關係，就像空氣與光照者太陽之關係。太陽按其本性就是亮的，空氣因分有太陽之光而亮，但空氣不分有太陽之本性；同樣，只有天主按其本質就是存在者，因為祂的本質就是祂的存在。一切受造物皆是因分有而是存在者，它的本質不是它的存在。為此奧斯定在《創世紀字義新探》卷四第十二章說：「假若天主的大能，停止支持祂所創造的並應受祂治理的東西，那些東西的物性和一切性體都將立時消滅。」他在那書卷八第十二章說：「就如空氣有光時就光亮，人也是一樣，天主與他在一起，他就光亮，不在一起，立刻就黑暗。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "f且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所說的U(",
+          "after": "所說的(",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "間屬",
+          "after": "同屬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "impr巴ssio",
+          "after": "impressio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "連→瞬",
+          "after": "連一瞬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本i生",
+          "after": "本性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卷凹",
+          "after": "卷四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十二章說「",
+          "after": "第十二章說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "存在本然隨從受造物的形式，但要假定有天主的影響;就如空氣透明就光亮，1旦要假定有太陽的影響。所以精神性受造物及天體之不存在的潛能或可能性，主要在於天主，祂能收回祂的影響，而不在於這些受造物之形式或質料。",
+      "after": "存在本然隨從受造物的形式，但要假定有天主的影響；就如空氣透明就光亮，但要假定有太陽的影響。所以精神性受造物及天體之不存在的潛能或可能性，主要在於天主，祂能收回祂的影響，而不在於這些受造物之形式或質料。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "天主不能使受造物在祂的作用停止後仍繼續存在，正如祂也不能使自己不是受造物之存在的原因。受造物需要天主之保存，因為效果之存在繫於使之存在的原因。所以，這與那不是存在之原因，只是形成之原因的情形不同。",
+      "after": "天主不能使受造物在祂的作用停止後仍繼續存在，正如祂也不能使自己不是受造物之存在的原因。受造物需要天主之保存，因為效果之存在繫於使之存在的原因。所以，這與那不是存在之原因，只是形成之原因的情形不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "所舉之理由，是根據遠離腐化者之保存方式而來的;如正解己說過的，並非一切受造物都需要這種保存。",
+      "after": "所舉之理由，是根據遠離腐化者之保存方式而來的；如正解己說過的，並非一切受造物都需要這種保存。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "天主不是以一種新的行動保存萬物，而是用祂給予存在之行動的延續，這種行動沒有動態和時間性。就如在空氣中保持光亮也是由於太陽之影響的延續。",
+      "after": "天主不是以一種新的行動保存萬物，而是用祂給予存在之行動的延續，這種行動沒有動態和時間性。就如在空氣中保持光亮也是由於太陽之影響的延續。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "天主是否直接保存一切受造物",
+      "after": "天主是否直接保存一切受造物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "天主似乎是直接保存一切受造物。因為:",
+      "after": "天主似乎是直接保存一切受造物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "如第一節釋疑4.己說過的，天主是以同一個行動而為萬物之創造者和保存者。但是天主是一切東西的直接創造者。所以祂也是直接的保存者。",
+      "after": "如第一節釋疑4.己說過的，天主是以同一個行動而為萬物之創造者和保存者。但是天主是一切東西的直接創造者。所以祂也是直接的保存者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "此外，每個東西與自己比它與別的東西近。但是受造物不能分得保持自己存在的能力。所以它更不能分得保持別的東西之存在的能力。所以，天主保存萬物不用中間的保存原因。",
+      "after": "此外，每個東西與自己比它與別的東西近。但是受造物不能分得保持自己存在的能力。所以它更不能分得保持別的東西之存在的能力。所以，天主保存萬物不用中間的保存原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1581
+      ],
+      "before": "此外，那保存效果之存在的，不只是效果的形成之原因，而且也是它的存在之原因。但是，所有的受造的原因，似乎都只是其效果之形成的原因;因為按前面第四十五題第三節所說的，這些只是變化之原因。所以，這些東西不是保存其效果之存在的原因。",
+      "after": "此外，那保存效果之存在的，不只是效果的形成之原因，而且也是它的存在之原因。但是，所有的受造的原因，似乎都只是其效果之形成的原因；因為按前面第四十五題第三節所說的，這些只是變化之原因。所以，這些東西不是保存其效果之存在的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1582
+      ],
+      "before": "用以保存東西者，即用以獲得存在者。天主是以某些中間原因當媒介，以賦予東西存在。所以也以某些中間原因當媒介，以保存東西之存在。",
+      "after": "用以保存東西者，即用以獲得存在者。天主是以某些中間原因當媒介，以賦予東西存在。所以也以某些中間原因當媒介，以保存東西之存在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1582
+      ],
+      "before": "我解答如下:前面第一節曾說，保存東西之存在有兩種方式:一是間接和偶然地，是因了遠離或阻止腐化作用;另一方式是直接和本然地，即一個東西之存在繫於男一個東西，就如效果之存在繫於原因。一個受造物以這兩種方式都能保存另一個之存在。在形體物中，顯然也有許多能防止腐化作用的，因而說它們能保存其他東西，例如:鹽能防止肉腐爛;關於許多其他的東西，也有類似的情形。有的效果之存在也繫於某受造物。既然有許多有系統的原因，效果必然是首先並主要地繫於第一個原因;但次要地是繫於其他的中間原因。因而主要是第一個原因保存效果;其次是其他中間原因，而且原因愈高，愈與第一個原因接近，也就愈重要。就連在形體物間，也是把東西的保存和持久歸於高級原因;例如，哲學家在《形上學》卷十二第六章說:第一個運動，即白晝之運動，是生化延續之原因;第二個運動，即由黃道而來之運動，是生滅交替之原因。同樣，星相學家認為行星中為首的土星，是東西之固定持久性的原因。所以該說，天主是藉中間原因保存某些東西之存在。",
+      "after": "我解答如下：前面第一節曾說，保存東西之存在有兩種方式：一是間接和偶然地，是因了遠離或阻止腐化作用；另一方式是直接和本然地，即一個東西之存在繫於另一個東西，就如效果之存在繫於原因。一個受造物以這兩種方式都能保存另一個之存在。在形體物中，顯然也有許多能防止腐化作用的，因而說它們能保存其他東西，例如：鹽能防止肉腐爛；關於許多其他的東西，也有類似的情形。有的效果之存在也繫於某受造物。既然有許多有系統的原因，效果必然是首先並主要地繫於第一個原因；但次要地是繫於其他的中間原因。因而主要是第一個原因保存效果；其次是其他中間原因，而且原因愈高，愈與第一個原因接近，也就愈重要。就連在形體物間，也是把東西的保存和持久歸於高級原因；例如，哲學家在《形上學》卷十二第六章說：第一個運動，即白晝之運動，是生化延續之原因；第二個運動，即由黃道而來之運動，是生滅交替之原因。同樣，星相學家認為行星中為首的土星，是東西之固定持久性的原因。所以該說，天主是藉中間原因保存某些東西之存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1582
+      ],
+      "before": "天主是直接地創造了一切，但祂在創造萬物時建立了一種系統，使一些東西繫於別的東西，並次要地藉這些東西以保存前者之存在;當然要假定先有來白天主的主要的保存。",
+      "after": "天主是直接地創造了一切，但祂在創造萬物時建立了一種系統，使一些東西繫於別的東西，並次要地藉這些東西以保存前者之存在；當然要假定先有來自天主的主要的保存。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1582
+      ],
+      "before": "固有的原因也是繫於這原因之效果的保存者。因此，正如不能授予任何效果，使它是自己之原因，但是能授予它，使它是另一東西的原因;同樣，也不能授予任何效果，使它能保存自己，但是能授予它，使它能保存另一個東西。",
+      "after": "固有的原因也是繫於這原因之效果的保存者。因此，正如不能授予任何效果，使它是自己之原因，但是能授予它，使它是另一東西的原因；同樣，也不能授予任何效果，使它能保存自己，但是能授予它，使它能保存另一個東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "任何受造物都不能是另一東西之原因，即不能使另一東西獲得新的形式或結構，除非是以改變之方式;因為它的作用常要假定先已有存在之主體。但是在它(以改變之方式)使妓果獲得了形式或結構之後，便可保存那形式或結構，不需要效果另有改變。就如空氣，在重新受光照時，它有一種變化;但為保持光亮，只需有光照者在，不需要空氣方面的改變。",
+      "after": "任何受造物都不能是另一東西之原因，即不能使另一東西獲得新的形式或結構，除非是以改變之方式；因為它的作用常要假定先己有存在之主體。但是在它(以改變之方式)使效果獲得了形式或結構之後，便可保存那形式或結構，不需要效果另有改變。就如空氣，在重新受光照時，它有一種變化；但為保持光亮，只需有光照者在，不需要空氣方面的改變。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先已有",
+          "after": "先己有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使妓果",
+          "after": "使效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "天主是否能使東西回歸虛無",
+      "after": "天主是否能使東西回歸虛無",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "天主似乎不能使東西回歸虛無。因為;",
+      "after": "天主似乎不能使東西回歸虛無。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "奧斯定在《雜題八十三》第二十一題說:「天主不是趨向不存在的原因。」但若祂使東西回歸虛無，祂便是這種原因了。所以天主不能使東西回歸虛無。",
+      "after": "奧斯定在《雜題八十三》第二十一題說：「天主不是趨向不存在的原因。」但若祂使東西回歸虛無，祂便是這種原因了。所以天主不能使東西回歸虛無。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "此外，天主是以其聖善而為東西之存在的原因，因為奧斯定在《論基督聖道》卷一第三十二章說:「我們存在，因為天主是善的。」但天主不能不是善的。所以祂不能使東西不存在。但若祂使東西回歸虛無，便是使東西不存在。",
+      "after": "此外，天主是以其聖善而為東西之存在的原因，因為奧斯定在《論基督聖道》卷一第三十二章說：「我們存在，因為天主是善的。」但天主不能不是善的。所以祂不能使東西不存在。但若祂使東西回歸虛無，便是使東西不存在。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "此外，若天主使某東西回歸虛無，該是用一種動作;但這是不可能的。因為凡動作都是以一種物為終點;是以，連腐化作用也結束於產生一個新東西，因為一物之生乃另一物之滅。所以天主不能使東西回歸虛無。",
+      "after": "此外，若天主使某東西回歸虛無，該是用一種動作；但這是不可能的。因為凡動作都是以一種物為終點；是以，連腐化作用也結束於產生一個新東西，因為一物之生乃另一物之滅。所以天主不能使東西回歸虛無。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1583
+      ],
+      "before": "《耶肋米亞》第十章24節說:「上主，你懲戒我，只好按照正義，不要隨你的忿怒，免得我歸於烏有。」",
+      "after": "《耶肋米亞》第十章24節說：「上主，你懲戒我，只好按照正義，不要隨你的忿怒，免得我歸於烏有。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1583,
+        1584
+      ],
+      "before": "我解答如下:有人認為天主使萬物存在是出於祂本性的必然性。如果這主張正確，則天主不能使東西回歸虛無，正如祂不能改變自己的本性。但是前面第十九題第四節已經指出這主張不能成立，而且絕對不合天主教的信仰。天主教的信仰認為天主是自願地使萬物存在，就如《聖詠》第一三五篇6節說的:「上主只要願意，無一不由他造成。」所以天主給予受造物存在，是繫於祂的意志。祂保存東西之存在，去日第一節釋疑4.己說過的，也是因為祂繼續供給它們存在。正如在東西存在之前，天主能不給它們存在，如此而不造它們;同樣，在東西造成以後，也能不供給其存在，如此則它們停止存在。這就是使之回歸虛無。",
+      "after": "我解答如下：有人認為天主使萬物存在是出於祂本性的必然性。如果這主張正確，則天主不能使東西回歸虛無，正如祂不能改變自己的本性。但是前面第十九題第四節已經指出這主張不能成立，而且絕對不合天主教的信仰。天主教的信仰認為天主是自願地使萬物存在，就如《聖詠》第一三五篇6節說的：「上主只要願意，無一不由他造成。」所以天主給予受造物存在，是繫於祂的意志。祂保存東西之存在，如第一節釋疑4.己說過的，也是因為祂繼續供給它們存在。正如在東西存在之前，天主能不給它們存在，如此而不造它們；同樣，在東西造成以後，也能不供給其存在，如此則它們停止存在。這就是使之回歸虛無。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "去日第一節",
+          "after": "如第一節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "不存在沒有本然的原因。因為除非是存在者，否則不能是原因;但是嚴格或本然地說，存在者乃是存在之原因。所以，天主不能是趨向不存在之原因;但這趨向不存在是基於受造物本身，因為它原是從虛無來的。但是天主偶然地能是使東西回歸虛無的原因，即是藉抽回祂對東西的作用。",
+      "after": "不存在沒有本然的原因。因為除非是存在者，否則不能是原因；但是嚴格或本然地說，存在者乃是存在之原因。所以，天主不能是趨向不存在之原因；但這趨向不存在是基於受造物本身，因為它原是從虛無來的。但是天主偶然地能是使東西回歸虛無的原因，即是藉抽回祂對東西的作用。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "天主的聖善是萬物之原因;但這不是出於天性上的必要，因為天主的聖善不繫於受造的東西，而是出於自由意志。因此，正如祂能不產生東西使之存在，而無礙於其聖善;同樣也能不保存東西之存在，而無損於其聖善。",
+      "after": "天主的聖善是萬物之原因；但這不是出於天性上的必要，因為天主的聖善不繫於受造的東西，而是出於自由意志。因此，正如祂能不產生東西使之存在，而無礙於其聖善；同樣也能不保存東西之存在，而無損於其聖善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "倘若天主使某東西回歸虛無，這不需要什麼動作，只要祂停止動作。",
+      "after": "倘若天主使某東西回歸虛無，這不需要什麼動作，只要祂停止動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "是否有東西回歸虛無",
+      "after": "是否有東西回歸虛無",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "有關第四節，我們討論如下",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "討論如下",
+          "after": "討論如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "似乎有東西回歸虛無。因為:",
+      "after": "似乎有東西回歸虛無。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1584
+      ],
+      "before": "終點與起點相稱。但在起初，除天主外，什麼也沒有。所以東西所到達的終點或結局，也是除天主外什麼也沒有。如此則受造物便回歸虛無。",
+      "after": "終點與起點相稱。但在起初，除天主外，什麼也沒有。所以東西所到達的終點或結局，也是除天主外什麼也沒有。如此則受造物便回歸虛無。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1584,
+        1585
+      ],
+      "before": "此外，受造物的潛能都是有限的。但有限的潛能不能擴展到無限;為此在《物理學》卷八第十章指出，有限的潛能不能無限時間地動。所以，沒有受造物能持續到無限。因而絡於要回歸虛無。",
+      "after": "此外，受造物的潛能都是有限的。但有限的潛能不能擴展到無限；為此在《物理學》卷八第十章指出，有限的潛能不能無限時間地動。所以，沒有受造物能持續到無限。因而終於要回歸虛無。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "絡於",
+          "after": "終於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1585
+      ],
+      "before": "此外，形式及依附體不是以質料為其構成部分。但有時它們會停止存在。所以它們回歸了虛無。",
+      "after": "此外，形式及依附體不是以質料為其構成部分。但有時它們會停止存在。所以它們回歸了虛無。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q104.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1585
+      ],
+      "before": "《計1[道篇》第三章14節說:「我知道，凡天主所行的事，永恆不變。」",
+      "after": "《訓道篇》第三章14節說：「我知道，凡天主所行的事，永恆不變。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "計1[道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1585
+      ],
+      "before": "我解答如下:按我們後面第一0五題第六節將要講的，天主對受造物所行的事，有的是按東西的自然過程進行，有的是在受造物所稟有的自然過程以外，以奇蹟的方式進行。天主按萬物之自然過程所行的事，可以從萬物之本性方面去看;至於以奇蹟方式所發生的事，是為了顯示恩寵，就如宗徒在《格林多前書》第十二章7節所說的: I聖神顯示在每人身上雖不同，但全是為人的好處y然後他就於諸實例中也提到了行奇蹟。\n按受造物的天性來看，沒有東西歸於虛無。因為受造物或者是非物質性的，因而其中不含有不存在之潛能;或者是物質性的，如此至少按質料是常存的，因為質料是不朽的，因為它是生滅之主體。使東西歸於虛無也不屬於顯示恩寵;因為保存東西之存在，更能顯示天主的大能和聖善。所以應該絕對地說，完全沒有東西歸於虛無。",
+      "after": "我解答如下：按我們後面第一〇五題第六節將要講的，天主對受造物所行的事，有的是按東西的自然過程進行，有的是在受造物所稟有的自然過程以外，以奇蹟的方式進行。天主按萬物之自然過程所行的事，可以從萬物之本性方面去看；至於以奇蹟方式所發生的事，是為了顯示恩寵，就如宗徒在《格林多前書》第十二章7節所說的：「聖神顯示在每人身上雖不同，但全是為人的好處」，然後他就於諸實例中也提到了行奇蹟。\n按受造物的天性來看，沒有東西歸於虛無。因為受造物或者是非物質性的，因而其中不含有不存在之潛能；或者是物質性的，如此至少按質料是常存的，因為質料是不朽的，因為它是生滅之主體。使東西歸於虛無也不屬於顯示恩寵；因為保存東西之存在，更能顯示天主的大能和聖善。所以應該絕對地說，完全沒有東西歸於虛無。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0五題",
+          "after": "第一〇五題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " I聖神",
+          "after": "「聖神",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "好處y",
+          "after": "好處」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1585
+      ],
+      "before": "東西原來不存在，而後來被產生有了存在，這表現產生者之大能。但是使東西回歸虛無，則有礙於此表現;因為保存東西之存在，更能表顯天主的能力，就如宗徒在《希伯來書》第一章3節所說的: 「祂以自己大能的話支撐萬有」。",
+      "after": "東西原來不存在，而後來被產生有了存在，這表現產生者之大能。但是使東西回歸虛無，則有礙於此表現；因為保存東西之存在，更能表顯天主的能力，就如宗徒在《希伯來書》第一章3節所說的：「祂以自己大能的話支撐萬有。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "萬有」。",
+          "after": "萬有。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1585,
+        1586
+      ],
+      "before": "受造物之存在潛能只是被動的或承受的;而積極的或主動的能力是屬於天主的，存在的注入係來白天主。東西能持續到無限，是因為天主的能力無限。不過有的東西的能力只限於存在某固定長的時間，因為有相反之動因阻礙它領受由天主所注入的存在，其有限的能力只能在有限的時間內抵抗這種相反的動因，不能抵抗到無限的時間。是以，那些沒有對立者的東西，雖然具有之能力是有限的，卻永遠持續存在。",
+      "after": "受造物之存在潛能只是被動的或承受的；而積極的或主動的能力是屬於天主的，存在的注入係來自天主。東西能持續到無限，是因為天主的能力無限。不過有的東西的能力只限於存在某固定長的時間，因為有相反之動因阻礙它領受由天主所注入的存在，其有限的能力只能在有限的時間內抵抗這種相反的動因，不能抵抗到無限的時間。是以，那些沒有對立者的東西，雖然具有之能力是有限的，卻永遠持續存在。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q104.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1586
+      ],
+      "before": "形式及依附體不是完整的物，因為不是自立的，而是屬於存在物的東西;其所以被稱為物，是因了某物因之而存在。雖然如此，形式及依附體也不是絕對歸於虛無:並非因了它們有一部分留存下來，而是因為它們留存在質料或主體之潛能中。",
+      "after": "形式及依附體不是完整的物，因為不是自立的，而是屬於存在物的東西；其所以被稱為物，是因了某物因之而存在。雖然如此，形式及依附體也不是絕對歸於虛無：並非因了它們有一部分留存下來，而是因為它們留存在質料或主體之潛能中。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
