@@ -1,0 +1,2715 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q003",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q003",
+    "title": "論何謂幸福",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1802,
+      1803,
+      1804,
+      1805,
+      1806,
+      1807,
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1813,
+      1814,
+      1815,
+      1816
+    ],
+    "printed_pages": [
+      31,
+      45
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 103,
+    "changed_review_units": 73,
+    "checked_unchanged_review_units": 31
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q3.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q3.json": "cad73a16c6e9bad840fc2793e932d79d12e1557387d077d500c26de664a1e1af"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q003.a004.arg2",
+      "pdf_file_page": 1808,
+      "text": "最高的的善",
+      "status": "suspected_source_print_error",
+      "action": "原页亦重复印「的」，依底本保留。"
+    },
+    {
+      "id": "I_II.q003.a007.ad2",
+      "pdf_file_page": 1815,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，依底本保留。"
+    },
+    {
+      "id": "I_II.q003.a008.respondeo",
+      "pdf_file_page": 1816,
+      "text": "己觸到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q003.a002.ad4",
+      "description": "把误并在第四项答复末尾的第五、六项合并答复移回既有ad5字段；ad4两个原有换行转义保留，最后一个成为尾部换行。不新增ad6字段。"
+    }
+  ],
+  "notes": [
+    "全部15页、8节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q003.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "然後要討論的是何謂幸福(見第二題引言)，及幸福需要什麼(第四題)。\n第一點分八節討論:\n一、幸福是否為一種非受造物。\n二、若是受造物，是否為一種動作。\n三、是感官部份的動作，抑或智性方面的動作。\n四、若是智性方面的，那是理性的，抑或意志的動作。\n五、若是理性的，那是鑑賞理性，抑扎實踐理性的動作。\n六、若是鑑賞理性之動作，是否在於理論知識之鑑賞。\n七、是否在於鑑賞天使。\n八、是否只在鑑賞天主。",
+      "after": "然後要討論的是何謂幸福(見第二題引言)，及幸福需要什麼(第四題)。\n第一點分八節討論：\n一、幸福是否為一種非受造物。\n二、若是受造物，是否為一種動作。\n三、是感官部份的動作，抑或智性方面的動作。\n四、若是智性方面的，那是理性的，抑或意志的動作。\n五、若是理性的，那是鑑賞理性，抑或實踐理性的動作。\n六、若是鑑賞理性之動作，是否在於理論知識之鑑賞。\n七、是否在於鑑賞天使。\n八、是否只在鑑賞天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "抑扎",
+          "after": "抑或",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "幸福是否為一種非受造物",
+      "after": "幸福是否為一種非受造物",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "好似幸福是一種非受造物。因為:",
+      "after": "好似幸福是一種非受造物。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "波其武在《哲學的慰藉》卷三第十章說: 「必須承認，天主就是幸福本身。」",
+      "after": "波其武在《哲學的慰藉》卷三第十章說：「必須承認，天主就是幸福本身。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "此外，幸福是最高的善。{旦天主是最高的善。既然不是有許多最高的薦，似乎幸福就是天主。",
+      "after": "此外，幸福是最高的善。但天主是最高的善。既然不是有許多最高的善，似乎幸福就是天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最高的薦",
+          "after": "最高的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1802
+      ],
+      "before": "此外，幸福是最後目的，是人的意志自然所指望者υ但是除天主外，意志不應拿別的當目的，如!莫斯定作品基督聖道》卷一第五章說的，只應以天主為樂。所以，幸福就是天主。",
+      "after": "此外，幸福是最後目的，是人的意志自然所指望者。但是除天主外，意志不應拿別的當目的，如奧斯定《論基督聖道》卷一第五章說的，只應以天主為樂。所以，幸福就是天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "者υ但是",
+          "after": "者。但是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如!莫斯定作品基督聖道》",
+          "after": "如奧斯定《論基督聖道》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "沒有一個「被創造者」(factum)是非受造物。但人的幸福是一種被創造者，因為奧斯定在《論基督聖道》卷一第三章說:「必須享用那些為我們『創造幸福』的東西。」所以，幸褔不是非受造物。",
+      "after": "沒有一個「被創造者」(factum)是非受造物。但人的幸福是一種被創造者，因為奧斯定在《論基督聖道》卷一第三章說：「必須享用那些為我們『創造幸福』的東西。」所以，幸福不是非受造物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "我解答如下:前面第一題第八節、第二題第七節已經說過，目的分兩種:一種指我們要得的東西，如愛財者的目的是金錢;另一種是指所欲之物的獲得，或據有，或運用，或享受，例如:愛財者的目的是握有錢財，貪喫者的目的是享用美食。按第一種說法，人的最後目的乃非受造之善一即天主'只有祂的無限美善可以完全滿足人的意志。按第二種說法，人的最後目的是他自己的一種受造物，即最後目的之獲取或享用。而最後目的稱為幸福。是以，若論人的幸福是指其原因或對象，則是一種非受造物;若指幸福之本質，則是受造物。",
+      "after": "我解答如下：前面第一題第八節、第二題第七節已經說過，目的分兩種：一種指我們要得的東西，如愛財者的目的是金錢；另一種是指所欲之物的獲得，或據有，或運用，或享受，例如：愛財者的目的是握有錢財，貪喫者的目的是享用美食。按第一種說法，人的最後目的乃非受造之善——即天主，只有祂的無限美善可以完全滿足人的意志。按第二種說法，人的最後目的是他自己的一種受造物，即最後目的之獲取或享用。而最後目的稱為幸福。是以，若論人的幸福是指其原因或對象，則是一種非受造物；若指幸福之本質，則是受造物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一即天主'",
+          "after": "——即天主，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "按祂的本質，天主是幸福，祂幸福不是由於獲得別的東西，而是由於祂的本質。人幸福是由於分得幸褔，如波其武在同處所說的，人也是由於分得而被稱為「天主」。人之成為幸福的是因為「分得」幸福，而這種「分得」是一種受造的東西。",
+      "after": "按祂的本質，天主是幸福，祂幸福不是由於獲得別的東西，而是由於祂的本質。人幸福是由於分得幸福，如波其武在同處所說的，人也是由於分得而被稱為「天主」。人之成為幸福的是因為「分得」幸福，而這種「分得」是一種受造的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "說幸福是人的最高善，因為幸褔是最高善之獲取或享用。",
+      "after": "說幸福是人的最高善，因為幸福是最高善之獲取或享用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "幸福被稱為最後目的，就如目的之獲取被稱為目的。",
+      "after": "幸福被稱為最後目的，就如目的之獲取被稱為目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "幸福是否為一種動作",
+      "after": "幸福是否為一種動作",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1803
+      ],
+      "before": "好似幸福不是一種動作。因為:",
+      "after": "好似幸福不是一種動作。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1803,
+        1804
+      ],
+      "before": "宗徒在《羅馬書》第六章22節說:「你們所得的效果是使你們成聖，結局就是永生。」但生命不是動作，而是生物之存在。所以，最後目的或幸福，不是一種動作。",
+      "after": "宗徒在《羅馬書》第六章22節說：「你們所得的效果是使你們成聖，結局就是永生。」但生命不是動作，而是生物之存在。所以，最後目的或幸福，不是一種動作。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "此外，波其武在《哲學的慰藉》卷三第二章說，幸福.是「一切善集合而成立完美狀態」。但狀態不是指動作，所以，幸福不是一種動作。",
+      "after": "此外，波其武在《哲學的慰藉》卷三第二章說，幸福是「一切善集合而成之完美狀態」。但狀態不是指動作，所以，幸福不是一種動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸福.是",
+          "after": "幸福是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而成立完美",
+          "after": "而成之完美",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "此外，幸福是指幸福者所有的東西，因為那是人的最後成就。但動作不指在動作者本身存在的東西，更好說是出於動作者的東西。所以，幸福不是動作。",
+      "after": "此外，幸福是指幸福者所有的東西，因為那是人的最後成就。但動作不指在動作者本身存在的東西，更好說是出於動作者的東西。所以，幸福不是動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "此外，幸福存留在幸福者身上。動作不存留，但逝去。所以，幸福不是動作。",
+      "after": "此外，幸福存留在幸福者身上。動作不存留，但逝去。所以，幸福不是動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a002.arg5",
+      "article": 2,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "此外，一個人只有一個幸福，而動作有許多。所以﹒幸福不是動作。",
+      "after": "此外，一個人只有一個幸福，而動作有許多。所以，幸福不是動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.arg6",
+      "article": 2,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "幸福在幸福者內沒有間斷。但人的動作時常間斷，假IJ如:由於睡眠或別的事情，或休息。所以，幸福不是動作。",
+      "after": "幸福在幸福者內沒有間斷。但人的動作時常間斷，例如：由於睡眠或別的事情，或休息。所以，幸福不是動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "假IJ如",
+          "after": "例如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "哲學家在《倫理學》卷一第十三章卻說: 「幸福是合於完美德性的動作。」",
+      "after": "哲學家在《倫理學》卷一第十三章卻說：「幸福是合於完美德性的動作。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1804
+      ],
+      "before": "我解答如下:以人之幸福是在他內存在的受造物而言‘必須說人的幸福是動作。幸福乃是人的最後成就。一物之完美程度，是根據它的現實;因為沒有現實的潛能不是完美的。故此，幸福必在於人的最後現實。顯然動作是動作者之最後現實，為此哲學家在《靈魂論》卷二第一章稱之為「第三現實」‘因為已具有形式的，在動作方面可能是在潛能狀態，如有知者能是潛能的觀察者。為此，在其他東西方面，也說每物皆是「為了其動作」'就如在《天界論》卷二第三章所說的。故人的幸福必然是動作。",
+      "after": "我解答如下：以人之幸福是在他內存在的受造物而言，必須說人的幸福是動作。幸福乃是人的最後成就。一物之完美程度，是根據它的現實；因為沒有現實的潛能不是完美的。故此，幸福必在於人的最後現實。顯然動作是動作者之最後現實，為此哲學家在《靈魂論》卷二第一章稱之為「第二現實」，因為已具有形式的，在動作方面可能是在潛能狀態，如有知者能是潛能的觀察者。為此，在其他東西方面，也說每物皆是「為了其動作」，就如在《天界論》卷二第三章所說的。故人的幸福必然是動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而言‘",
+          "after": "而言，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三現實",
+          "after": "第二現實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現實」‘因為",
+          "after": "現實」，因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其動作」'就如",
+          "after": "其動作」，就如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1804,
+        1805
+      ],
+      "before": "生命有兩種意義。一種是指生物之存在。這樣則幸福不是生命;我們在第二題第五節已經說過，一人之存在無論如何不即是他的幸福，只有天主的幸福就是存在。生命的另一意義是指生物之動作，生命之恨本因動作而變為現實;我們說實踐生活，鑑賞生活，或淫蕩生活時，便是指的這個。永生之被稱為最後目的，也是依這種意義。所以，《若望福音》第十七章3節說: 「永生就是認識你，唯一的真天ì. u 」",
+      "after": "生命有兩種意義。一種是指生物之存在。這樣則幸福不是生命；我們在第二題第五節已經說過，一人之存在無論如何不即是他的幸福，只有天主的幸福就是存在。生命的另一意義是指生物之動作，生命之根本因動作而變為現實；我們說實踐生活，鑑賞生活，或淫蕩生活時，便是指的這個。永生之被稱為最後目的，也是依這種意義。所以，《若望福音》第十七章3節說：「永生就是認識你，唯一的真天主。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之恨本",
+          "after": "之根本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真天ì. u 」",
+          "after": "真天主。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1805
+      ],
+      "before": "波其武在給幸福下定義時，注意的北iI、(jjj的幸福之理。共同幸福之理在於共同的完美之善，故說十仙Ji:: 「一切善集合而成之完美狀態」'這無非說幸福者是在完美之善的狀態。但亞里斯多德表達的是幸福之本質，指出人何以在這狀態，即是由於一種動作。為此，在《倫理學》卷一第七章中，他也說幸福是完美的善。",
+      "after": "波其武在給幸福下定義時，注意的是共同的幸福之理。共同幸福之理在於共同的完美之善，故說幸福是： 「一切善集合而成之完美狀態」，這無非說幸福者是在完美之善的狀態。但亞里斯多德表達的是幸福之本質，指出人何以在這狀態，即是由於一種動作。為此，在《倫理學》卷一第七章中，他也說幸福是完美的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "北iI、(jjj的",
+          "after": "是共同的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "故說十仙Ji::",
+          "after": "故說幸福是：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美狀態」'這",
+          "after": "完美狀態」，這",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1805
+      ],
+      "before": "按《形上學》卷九第八章中說的，動作分為兩種:一種出於動作主體而達於外在的東西，如燃燒和切割。這類動作不可能是幸福，因為這種動作不是行動主體之實現與完成;按那裡講的，更好說是被動者之實現與完成。另一種是留在行動主體上的動作，如:感覺、瞭解和願意;這種動作是行動主體之實現與完成。故這類動作能夠是幸福。",
+      "after": "按《形上學》卷九第八章中說的，動作分為兩種：一種出於動作主體而達於外在的東西，如燃燒和切割。這類動作不可能是幸福，因為這種動作不是行動主體之實現與完成；按那裡講的，更好說是被動者之實現與完成。另一種是留在行動主體上的動作，如：感覺、瞭解和願意；這種動作是行動主體之實現與完成。故這類動作能夠是幸福。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1805,
+        1806
+      ],
+      "before": "既然幸福表示一種最高的完美，各種能享有幸福的東西能有不同程度的完美。按此必然也有不同的幸福。天主的幸福是由於本質，因為祂的存在即是祂的動作，是以祂所享受的不是另一個東西，而是祂自己。幸福之天使的最後成就是一種動作，使之與非受造的善相接合;他們的這種動作是單一的，永久的。在人方面，按其現世生活狀態，其最高成就在於與天主結合之動作;但這動作不能是連續的，因而也不是單一的，因為動作一有間斷就不再是同一個。是以，在現世生活情況下，人不能有完美的幸福。所以哲學家在《倫理學》卷一第十章講人在現世的幸福，說是不完美的，然後結論說: 「我們稱他們為幸福的人」。但是天主許給我們完美的幸福，聖經《瑪竇褔音》第二十二章30節說那時我們「好像在天上的天使一樣」。\n如果是完美的幸福，所提之質疑就不存在了;因為人的心靈是由一個連續的和永久的動作，在幸褔的狀態下與天主結合。但在現世生活中，我們的動作愈不一貫，愈不連續，我們離完美之幸福也愈遠。那是分有一些幸福。我們的動作愈連續一貫，分得的愈多。是以，在寶路生活中，因忙於雜務，就不如在鑑賞生活中更近幸福之理;鑑賞生活專注一事，JlD真理之鑑賞。雖然人有時不是現實地做這種動作，但因了準備常做，並因為間斷本身，如睡眠或一些自然活動，也是為了上述之動作，這樣就像似連續的動作。\n由上面所述，可知質提5.及質疑6.之解答。",
+      "after": "既然幸福表示一種最高的完美，各種能享有幸福的東西能有不同程度的完美。按此必然也有不同的幸福。天主的幸福是由於本質，因為祂的存在即是祂的動作，是以祂所享受的不是另一個東西，而是祂自己。幸福之天使的最後成就是一種動作，使之與非受造的善相接合；他們的這種動作是單一的，永久的。在人方面，按其現世生活狀態，其最高成就在於與天主結合之動作；但這動作不能是連續的，因而也不是單一的，因為動作一有間斷就不再是同一個。是以，在現世生活情況下，人不能有完美的幸福。所以哲學家在《倫理學》卷一第十章講人在現世的幸福，說是不完美的，然後結論說：「我們稱他們為幸福的人」。但是天主許給我們完美的幸福，聖經《瑪竇福音》第二十二章30節說那時我們「好像在天上的天使一樣」。\n如果是完美的幸福，所提之質疑就不存在了；因為人的心靈是由一個連續的和永久的動作，在幸福的狀態下與天主結合。但在現世生活中，我們的動作愈不一貫，愈不連續，我們離完美之幸福也愈遠。那是分有一些幸福。我們的動作愈連續一貫，分得的愈多。是以，在實踐生活中，因忙於雜務，就不如在鑑賞生活中更近幸福之理；鑑賞生活專注一事，即真理之鑑賞。雖然人有時不是現實地做這種動作，但因了準備常做，並因為間斷本身，如睡眠或一些自然活動，也是為了上述之動作，這樣就像似連續的動作。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "既然幸福表示一種最高的完美，各種能享有幸福的東西能有不同程度的完美。按此必然也有不同的幸福。天主的幸福是由於本質，因為祂的存在即是祂的動作，是以祂所享受的不是另一個東西，而是祂自己。幸福之天使的最後成就是一種動作，使之與非受造的善相接合;他們的這種動作是單一的，永久的。在人方面，按其現世生活狀態，其最高成就在於與天主結合之動作;但這動作不能是連續的，因而也不是單一的，因為動作一有間斷就不再是同一個。是以，在現世生活情況下，人不能有完美的幸福。所以哲學家在《倫理學》卷一第十章講人在現世的幸福，說是不完美的，然後結論說: 「我們稱他們為幸福的人」。但是天主許給我們完美的幸福，聖經《瑪竇褔音》第二十二章30節說那時我們「好像在天上的天使一樣」。\n如果是完美的幸福，所提之質疑就不存在了;因為人的心靈是由一個連續的和永久的動作，在幸褔的狀態下與天主結合。但在現世生活中，我們的動作愈不一貫，愈不連續，我們離完美之幸福也愈遠。那是分有一些幸福。我們的動作愈連續一貫，分得的愈多。是以，在寶路生活中，因忙於雜務，就不如在鑑賞生活中更近幸福之理;鑑賞生活專注一事，JlD真理之鑑賞。雖然人有時不是現實地做這種動作，但因了準備常做，並因為間斷本身，如睡眠或一些自然活動，也是為了上述之動作，這樣就像似連續的動作。\n由上面所述，可知質提5.及質疑6.之解答。",
+          "after": "既然幸福表示一種最高的完美，各種能享有幸福的東西能有不同程度的完美。按此必然也有不同的幸福。天主的幸福是由於本質，因為祂的存在即是祂的動作，是以祂所享受的不是另一個東西，而是祂自己。幸福之天使的最後成就是一種動作，使之與非受造的善相接合;他們的這種動作是單一的，永久的。在人方面，按其現世生活狀態，其最高成就在於與天主結合之動作;但這動作不能是連續的，因而也不是單一的，因為動作一有間斷就不再是同一個。是以，在現世生活情況下，人不能有完美的幸福。所以哲學家在《倫理學》卷一第十章講人在現世的幸福，說是不完美的，然後結論說: 「我們稱他們為幸福的人」。但是天主許給我們完美的幸福，聖經《瑪竇褔音》第二十二章30節說那時我們「好像在天上的天使一樣」。\n如果是完美的幸福，所提之質疑就不存在了;因為人的心靈是由一個連續的和永久的動作，在幸褔的狀態下與天主結合。但在現世生活中，我們的動作愈不一貫，愈不連續，我們離完美之幸福也愈遠。那是分有一些幸福。我們的動作愈連續一貫，分得的愈多。是以，在寶路生活中，因忙於雜務，就不如在鑑賞生活中更近幸福之理;鑑賞生活專注一事，JlD真理之鑑賞。雖然人有時不是現實地做這種動作，但因了準備常做，並因為間斷本身，如睡眠或一些自然活動，也是為了上述之動作，這樣就像似連續的動作。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "寶路生活",
+          "after": "實踐生活",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "JlD真理",
+          "after": "即真理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a002.ad5",
+      "article": 2,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "",
+      "after": "由上面所述，可知質疑5.及質疑6.之解答。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由上面所述，可知質提5.及質疑6.之解答。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "質提",
+          "after": "質疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "幸福是感官部分之動作，抑或智性部分之動作",
+      "after": "幸福是感官部分之動作，抑或智性部分之動作",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "好似幸福也在於感官之動作。因為:",
+      "after": "好似幸福也在於感官之動作。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "除了智性動作外，沒有比感官性動作更高貴的。但是在人內，智性動作要靠感官性動作: 「因為若沒有心象(phan-tasma)，我們不能理解」'就如《靈魂論》卷三第七章說的。所以，幸福也在於感官動作。",
+      "after": "除了智性動作外，沒有比感官性動作更高貴的。但是在人內，智性動作要靠感官性動作：「因為若沒有心象(phan-tasma)，我們不能理解」，就如《靈魂論》卷三第七章說的。所以，幸福也在於感官動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理解」'就如",
+          "after": "理解」，就如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "此外，波其武在《哲學的慰藉》卷三第二章說﹒幸福是「一切善集合而成之完美狀態」。但有些善是感官性的，我們因感官之動作方能獲致，故似乎幸福需要感宮之動作。",
+      "after": "此外，波其武在《哲學的慰藉》卷三第二章說，幸福是「一切善集合而成之完美狀態」。但有些善是感官性的，我們因感官之動作方能獲致，故似乎幸福需要感官之動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說﹒",
+          "after": "說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1806
+      ],
+      "before": "此外，幸福是完美之善，如《倫理學》卷一第七章上說的:若非人各方面皆因之得以完成，買IJ不能說是完美的善。但是靈魂的某些部分是由於感官性動作乃得完成，所以幸福需要感官性動作。",
+      "after": "此外，幸福是完美之善，如《倫理學》卷一第七章上說的：若非人各方面皆因之得以完成，則不能說是完美的善。但是靈魂的某些部分是由於感官性動作乃得完成，所以幸福需要感官性動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1807
+      ],
+      "before": "在感官動作方面，禽獸與人相同，在幸福上則不同。故幸福不在於感官性動作。",
+      "after": "在感官動作方面，禽獸與人相同，在幸福上則不同。故幸福不在於感官性動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1807
+      ],
+      "before": "我解答如下:事物之與幸褔有關，有三種方式:一是按本質，一是在事前(antecedenter)，一是在事後(conse-quenter)。在本質上，感宮之動作不屬於幸福。因為在本質上，人之幸褔在於其與非受造之善的結合，此即最後目的，前面第一節已經說過一一這個結合不是由於感官|生動作;同樣也是因為人的幸福不在於身體上的利益，前面第二題第五節也討論過了一而我們用問動作只能獲取身體上的利益。\n不過在事前和在事後，感宮之動作能與幸福有關。在事前，按不完美之幸福，即在現世所能有的幸福;因為智性動作需先有感官之動作。至於在事後，是在天上的完美幸福中;因為如奧斯定《書信》一一八篇第二章「致狄奧斯高書」(ad Dioscorum)中說的，在復活以後，「靈魂之幸福，影響身體及感官，使其動作達到完美境界」;之後的南編))，第八十二題論到復活時，再詳細說明。但那時人心與天主結合之動作，並不靠感官ω",
+      "after": "我解答如下：事物之與幸福有關，有三種方式：一是按本質，一是在事前(antecedenter)，一是在事後(conse-quenter)。在本質上，感官之動作不屬於幸福。因為在本質上，人之幸福在於其與非受造之善的結合，此即最後目的，前面第一節已經說過——這個結合不是由於感官性動作；同樣也是因為人的幸福不在於身體上的利益，前面第二題第五節也討論過了——而我們用感官動作只能獲取身體上的利益。\n不過在事前和在事後，感官之動作能與幸福有關。在事前，按不完美之幸福，即在現世所能有的幸福；因為智性動作需先有感官之動作。至於在事後，是在天上的完美幸福中；因為如奧斯定《書信》一一八篇第二章「致狄奧斯高書」(ad Dioscorum)中說的，在復活以後，「靈魂之幸福，影響身體及感官，使其動作達到完美境界」；之後《補編》，第八十二題論到復活時，再詳細說明。但那時人心與天主結合之動作，並不靠感官。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說過一一這個",
+          "after": "說過——這個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官|生",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "過了一而我們用問動作",
+          "after": "過了——而我們用感官動作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之後的南編))",
+          "after": "之後《補編》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官ω",
+          "after": "感官。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1807
+      ],
+      "before": "所提之質疑，證明「在事前」不完美之幸福，即現世生活中所能有的，需要感官的動作。",
+      "after": "所提之質疑，證明「在事前」不完美之幸福，即現世生活中所能有的，需要感官的動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1807
+      ],
+      "before": "像天使們的那種幸福，由於與全部善之普遍根源的結合，含有一切善之集合，不缺少任何個別之善。但在現世不完美的幸福中，需要足夠使現世生活之動作完美的善之集合。",
+      "after": "像天使們的那種幸福，由於與全部善之普遍根源的結合，含有一切善之集合，不缺少任何個別之善。但在現世不完美的幸福中，需要足夠使現世生活之動作完美的善之集合。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1807
+      ],
+      "before": "在完美的幸福中，整個人皆完美，但低級部分是受高級部分之影響。在現世生活中的不完美幸福中正相反，是由低級部分之完美，進而成全高級部分。",
+      "after": "在完美的幸福中，整個人皆完美，但低級部分是受高級部分之影響。在現世生活中的不完美幸福中正相反，是由低級部分之完美，進而成全高級部分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "若幸福屬於智性，那是智能之動作，抑或意志之動作",
+      "after": "若幸福屬於智性，那是智能之動作，抑或意志之動作",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "似乎幸福在於意志之活動。因為:",
+      "after": "似乎幸福在於意志之活動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "奧斯定在《天主之城》卷十九第十和十一章說，人的幸福在於和平;故此，《聖詠》第一四七篇14節也說:「祂使你的地界安靜不亂。」 1旦和平屬於意志，所以人的幸福在於意志。",
+      "after": "奧斯定在《天主之城》卷十九第十和十一章說，人的幸福在於和平；故此，《聖詠》第一四七篇14節也說：「祂使你的地界安靜不亂。」 但和平屬於意志，所以人的幸福在於意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "此外，幸福是最高的的善。但善是意志之對象，所以，幸福在於意志之動作。",
+      "after": "此外，幸福是最高的的善。但善是意志之對象，所以，幸福在於意志之動作。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "此外，最後目的與第一動因相應;正如整個軍隊的最後目的是勝利，這也是將領的目的，他推動所有的人。但動作的第一動因是意志，因為意志推動其他力量，如後面第九題第一節要講的。所以，幸福屬於意志。",
+      "after": "此外，最後目的與第一動因相應；正如整個軍隊的最後目的是勝利，這也是將領的目的，他推動所有的人。但動作的第一動因是意志，因為意志推動其他力量，如後面第九題第一節要講的。所以，幸福屬於意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "此外，若幸福是一種動作，必須是人的最高貴之動作。但愛天主是意志之活動，比智性之活動認識天主高貴，如聖保祿在《格林多前書》第十三章說的。所以，幸福似乎在於意志之活動。",
+      "after": "此外，若幸福是一種動作，必須是人的最高貴之動作。但愛天主是意志之活動，比智性之活動認識天主高貴，如聖保祿在《格林多前書》第十三章說的。所以，幸福似乎在於意志之活動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.arg5",
+      "article": 4,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷十三第五章說:「願意什麼有什麼，又不欲惡事的，是有福的。」不遠後他又說:「願意什麼皆合情合理的人，去幸福不遠;因為善使人幸福，而他已經有了一點這些善，就是善良意志。」所以，幸福在於意志之活動。",
+      "after": "此外，奧斯定在《論天主聖三》卷十三第五章說：「願意什麼有什麼，又不欲惡事的，是有福的。」不遠後他又說：「願意什麼皆合情合理的人，去幸福不遠；因為善使人幸福，而他已經有了一點這些善，就是善良意志。」所以，幸福在於意志之活動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1808
+      ],
+      "before": "耶穌卻說「永生就是:認識你，唯一的真天主。」(《若望褔音》第十七章3節)永生就是最後目的，前面第二節釋疑1.已純講過。所以，人的幸福在於認識天主，還是智性活動。",
+      "after": "耶穌卻說：「永生就是：認識你，唯一的真天主。」(《若望福音》第十七章3節)。永生就是最後目的，前面第二節釋疑1.已經講過。所以，人的幸福在於認識天主，這是智性活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卻說「",
+          "after": "卻說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "3節)永生",
+          "after": "3節)。永生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已純",
+          "after": "已經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還是智性",
+          "after": "這是智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1809
+      ],
+      "before": "，我解答如下:按前面第二題第六節說的，幸福分兩層:一是幸福之本質，一是當然的附加物，即附加之快樂。按幸福之本質而言，不可能在於意志之活動。由前面第一和第二節、第二題第七節所說的，可知幸福在於最後目的之達成。目的之達成不在於意志活動。意志在願望目的時，是指向那不在的;在安息閉的時，其所享受的是已存在的。顯然目的之願望不是目的之達成，而是朝向目的之運動。意志之有快感，是因目的已經實現;而不是因為意志先有快感，繼而使目的實現。所以，為使目的出現在意志面前，需要意志活動以外的東西。\n這在感官性目的方面很易看出。倘若是由於意志動作獲致錢財，在想有錢財之始，已應獲得了錢財。但在開始意志沒有錢財，而是因為手去拿錢或類似之事意志纔得到錢財，然後它因得到之錢財而感到快樂。關於智性目的也是如此。開始我們願意達到智性目的-但我們得到這目的，是因智能活動使之出現在我們的心目之中，然後意志安息於已達到之目的，並感到快樂。\n故此，幸福之本質在於智性動作，因幸福而來之快感則屬於意志;是以奧斯定在《懺悔錄》卷十第二十三章說，幸福是「以真理為樂」'因為快樂是幸福之終點。",
+      "after": "我解答如下：按前面第二題第六節說的，幸福分兩層：一是幸福之本質，一是當然的附加物，即附加之快樂。按幸福之本質而言，不可能在於意志之活動。由前面第一和第二節、第二題第七節所說的，可知幸福在於最後目的之達成。目的之達成不在於意志活動。意志在願望目的時，是指向那不在的；在安息於目的時，其所享受的是已存在的。顯然目的之願望不是目的之達成，而是朝向目的之運動。意志之有快感，是因目的已經實現；而不是因為意志先有快感，繼而使目的實現。所以，為使目的出現在意志面前，需要意志活動以外的東西。\n這在感官性目的方面很易看出。倘若是由於意志動作獲致錢財，在想有錢財之始，已應獲得了錢財。但在開始意志沒有錢財，而是因為手去拿錢或類似之事意志才得到錢財，然後它因得到之錢財而感到快樂。關於智性目的也是如此。開始我們願意達到智性目的，但我們得到這目的，是因智能活動使之出現在我們的心目之中，然後意志安息於已達到之目的，並感到快樂。\n故此，幸福之本質在於智性動作，因幸福而來之快感則屬於意志；是以奧斯定在《懺悔錄》卷十第二十三章說，幸福是「以真理為樂」，因為快樂是幸福之終點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "，我解答",
+          "after": "我解答",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "安息閉的時",
+          "after": "安息於目的時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志纔得到",
+          "after": "意志才得到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智性目的-但",
+          "after": "智性目的，但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真理為樂」'因為",
+          "after": "真理為樂」，因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1809
+      ],
+      "before": "和平屬於人的最後目的，不是因為在本質上它就是幸福，而是「在事前」及「在事後」與之有關。在事前，因為表示達到最後目的之困難及障礙已經克服。在事後，表示人達到了最後目的，滿足了願望，因此寧靜了。",
+      "after": "和平屬於人的最後目的，不是因為在本質上它就是幸福，而是「在事前」及「在事後」與之有關。在事前，因為表示達到最後目的之困難及障礙已經克服。在事後，表示人達到了最後目的，滿足了願望，因此寧靜了。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1809
+      ],
+      "before": "意志的第一對象不是意志之動作，正如視覺之第一對象不是觀看，而是可見之物。由於幸褔是以第一目的之姿態屬於意志，所以不是以意志之動作的姿態屬於意志。",
+      "after": "意志的第一對象不是意志之動作，正如視覺之第一對象不是觀看，而是可見之物。由於幸福是以第一目的之姿態屬於意志，所以不是以意志之動作的姿態屬於意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1809,
+        1810
+      ],
+      "before": "智性比意志先觸及目的，但指向目的之運動是由意志開始。為此，達到目的以後的屬於意志，即快感及享受。",
+      "after": "智性比意志先觸及目的，但指向目的之運動是由意志開始。為此，達到目的以後的屬於意志，即快感及享受。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "在推動方面，愛情高於知識，但在獲取方面認識先於愛情，如奧斯定在《論天主聖三》卷十第一章說的:「若非知道，無以愛之。」為此，我們是先以智性動作達到智性目的，正如:我們是先以感官之活動達到感官性目的。",
+      "after": "在推動方面，愛情高於知識，但在獲取方面認識先於愛情，如奧斯定在《論天主聖三》卷十第一章說的：「若非知道，無以愛之。」為此，我們是先以智性動作達到智性目的，正如：我們是先以感官之活動達到感官性目的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a004.ad5",
+      "article": 4,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "那要什麼有什麼的，他幸福是因為有其所欲者;但這不是由於意志動作，而是由於別的c至於為幸福需要不欲惡事，是當作必要之配合。善良意志算在使人幸福的善之數目內，是取意志之傾向;就如運動是以其終點分類別，如變化算入品質之類。",
+      "after": "那要什麼有什麼的，他幸福是因為有其所欲者；但這不是由於意志動作，而是由於別的。至於為幸福需要不欲惡事，是當作必要之配合。善良意志算在使人幸福的善之數目內，是取意志之傾向；就如運動是以其終點分類別，如變化算入品質之類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "別的c至於",
+          "after": "別的。至於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "幸福是鑑賞理性之動作，抑為實踐理性之動作",
+      "after": "幸福是鑑賞理性之動作，抑為實踐理性之動作",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "似乎幸福是實踐理性之動作。因為:",
+      "after": "似乎幸福是實踐理性之動作。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "任何受造物之最後目的，皆在與天主相似。但由於實踐理性人更像似天主，而非由於鑑賞理性;因為實踐理性是所理解之事物的原因，而鑑賞理性之知識是由事物而來。所以，人之幸福更在於實踐理性之動作，而非在於鑑賞理性之動作。",
+      "after": "任何受造物之最後目的，皆在與天主相似。但由於實踐理性人更像似天主，而非由於鑑賞理性；因為實踐理性是所理解之事物的原因，而鑑賞理性之知識是由事物而來。所以，人之幸福更在於實踐理性之動作，而非在於鑑賞理性之動作。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "此外，幸福是人的完美之善。但比較起來，實踐理性是指向善的，而鑑賞理性指向真。為此，我們被稱為善的人﹒是根據我們之實踐理性的完美性，而不是根據鑑賞理性之完美;根據後者我們被稱為有知識的或聰明的。所以，人之幸福更在於實踐理性之活動，而不在於鑑賞理性之活動。",
+      "after": "此外，幸福是人的完美之善。但比較起來，實踐理性是指向善的，而鑑賞理性指向真。為此，我們被稱為善的人，是根據我們之實踐理性的完美性，而不是根據鑑賞理性之完美；根據後者我們被稱為有知識的或聰明的。所以，人之幸福更在於實踐理性之活動，而不在於鑑賞理性之活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善的人﹒是",
+          "after": "善的人，是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1810
+      ],
+      "before": "此外，幸福是人本身的一種善。但鑑賞理性主要關注在人以外的東西;實踐理性所關切的是關於人白身，即其動作及情感。所以，人的幸福更在於實踐理性之動作，而非在於鑑賞理性之動作。",
+      "after": "此外，幸福是人本身的一種善。但鑑賞理性主要關注在人以外的東西；實踐理性所關切的是關於人自身，即其動作及情感。所以，人的幸福更在於實踐理性之動作，而非在於鑑賞理性之動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人白身",
+          "after": "人自身",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1811
+      ],
+      "before": "奧斯走在《論天主聖三》卷一第八章說:「鑑賞預許給我們一切行為之目的，及永恆完美之快樂。」",
+      "after": "奧斯定在《論天主聖三》卷一第八章說：「鑑賞預許給我們一切行為之目的，及永恆完美之快樂。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧斯走",
+          "after": "奧斯定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1811
+      ],
+      "before": "我解答如下:幸福更在於鑑賞理性之動作，而非在於實踐理性之動作。可由三點見之。第一，若人的幸福是動作，那慮是人的最好動作。人的最好動作是那出於最好之能力，並指向最好之對象者。最好的能力是智性，其最好對象是天主之美善;而這不是實踐理性之對象，乃是鑑賞理性之對象。為此，幸福主要在於這種動作，即鑑賞天主。又因為在《倫理學》卷九第八章及卷十第七章上說: 「似乎每人的最好部分纔是他自己」;是以，這種動作最適合人，也最使人快樂。\n第二，從事鑑賞主要是為了鑑賞。實踐理性之活動不是為自己，而是為了行動;而行動又指向某一個目的。是以，最後目的顯然不在屬於實踐理性的實踐活動。\n第三，在鑑賞生活中，人與高級者相通，即與天主和天使相遇，並由於幸褔而與之相似。但在實踐活動方面，其他動物多少與人相同，雖不完全一樣。為此，來生之最後完美幸福，全在於鑑賞。現世所能有的不固滿幸福，貝1)首先並主要在於鑑賞，其次纔在於操持人之行動及情感的實踐理性，如《倫理學》卷十第七及第八章所說的。",
+      "after": "我解答如下：幸福更在於鑑賞理性之動作，而非在於實踐理性之動作。可由三點見之。第一，若人的幸福是動作，那應是人的最好動作。人的最好動作是那出於最好之能力，並指向最好之對象者。最好的能力是智性，其最好對象是天主之美善；而這不是實踐理性之對象，乃是鑑賞理性之對象。為此，幸福主要在於這種動作，即鑑賞天主。又因為在《倫理學》卷九第八章及卷十第七章上說：「似乎每人的最好部分才是他自己」；是以，這種動作最適合人，也最使人快樂。\n第二，從事鑑賞主要是為了鑑賞。實踐理性之活動不是為自己，而是為了行動；而行動又指向某一個目的。是以，最後目的顯然不在屬於實踐理性的實踐活動。\n第三，在鑑賞生活中，人與高級者相通，即與天主和天使相通，並由於幸福而與之相似。但在實踐活動方面，其他動物多少與人相同，雖不完全一樣。為此，來生之最後完美幸福，全在於鑑賞。現世所能有的不圓滿幸福，則首先並主要在於鑑賞，其次才在於操持人之行動及情感的實踐理性，如《倫理學》卷十第七及第八章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那慮是",
+          "after": "那應是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔",
+          "after": "才",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天使相遇",
+          "after": "天使相通",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不固滿",
+          "after": "不圓滿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1)",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1811
+      ],
+      "before": "上面所說實踐理性像似天主，是按比例;因為實踐理性與其所知者之關係，正如天主與祂所知者之關係。但鑑賞理性之像似天主是按結合或傳授，此種相似遠大於前者。但是也可以說，天主對其主要對象，即其本質，沒有實踐性的知識，只有鑑賞性的知識。",
+      "after": "上面所說實踐理性像似天主，是按比例；因為實踐理性與其所知者之關係，正如天主與他所知者之關係。但鑑賞理性之像似天主是按結合或傳授，此種相似遠大於前者。但是也可以說，天主對其主要對象，即其本質，沒有實踐性的知識，只有鑑賞性的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂所知",
+          "after": "他所知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1811,
+        1812
+      ],
+      "before": "實踐理性是指向自身以外的善，而鑑賞理性在自身內有善，即真理之鑑賞。若那善是完美的，貝1)整個人變成完美的及善的;實踐理性則本身無善，而是指向善。",
+      "after": "實踐理性是指向自身以外的善，而鑑賞理性在自身內有善，即真理之鑑賞。若那善是完美的，則整個人變成完美的及善的；實踐理性則本身無善，而是指向善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝1)",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "若人自己是自己的最後目的，員IJ那理由可以成立;如此則觀察和管理自己的行為及情感，便是他的幸福。但因為人的最後目的是外在的善，即天主，我們靠鑑賞理性始得以達到。所以，人的幸福更在於鑑賞理性之動作，而不在實踐理性之動作。",
+      "after": "若人自己是自己的最後目的，則那理由可以成立；如此則觀察和管理自己的行為及情感，便是他的幸福。但因為人的最後目的是外在的善，即天主，我們靠鑑賞理性始得以達到。所以，人的幸福更在於鑑賞理性之動作，而不在實踐理性之動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "幸福是否在於鑑賞性知識之探討",
+      "after": "幸福是否在於鑑賞性知識之探討",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "有關第六節，我們討論如下:質擺好似人的幸福在於鑑賞性知識之探討。因為:1.哲學家在《倫理學》卷一第十三章說: 「幸福是合於完美德性的動作。」而他在區分德性時，只提出三種鑑賞性德性: 「知識，智慧，悟↑生」(《倫理學》卷六第三章)。這三種德能皆是關於探討鑑賞性知識的。所以，人的最後幸福的企鑑賞性知識之探討。2.此外，大家皆自然冀求的東西，而且為這東西自身而",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有關第六節，我們討論如下:質擺好似人的幸福在於鑑賞性知識之探討。因為:1.哲學家在《倫理學》卷一第十三章說: 「幸福是合於完美德性的動作。」而他在區分德性時，只提出三種鑑賞性德性: 「知識，智慧，悟↑生」(《倫理學》卷六第三章)。這三種德能皆是關於探討鑑賞性知識的。所以，人的最後幸福的企鑑賞性知識之探討。2.此外，大家皆自然冀求的東西，而且為這東西自身而",
+          "after": "有關第六節，我們討論如下:",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "冀求的，似乎就是人的最後幸福。而這就是鑑賞性知識之探討，因為《形上學》卷一第一章上說: 「人皆自然冀求知識」;然後又說，鑑賞性知識是為其自身而被人追求(第二章)。所以幸福在於鑑賞性知識之探討。3.此外，幸福是人的最後成就。(旦每物之完成，是因其自潛能進入現實。人的智性是靠鑑賞性知識之探討而進入現實。故此人的最後幸福似乎在於這種探討。",
+      "after": "好似人的幸福在於鑑賞性知識之探討。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "冀求的，似乎就是人的最後幸福。而這就是鑑賞性知識之探討，因為《形上學》卷一第一章上說: 「人皆自然冀求知識」;然後又說，鑑賞性知識是為其自身而被人追求(第二章)。所以幸福在於鑑賞性知識之探討。3.此外，幸福是人的最後成就。(旦每物之完成，是因其自潛能進入現實。人的智性是靠鑑賞性知識之探討而進入現實。故此人的最後幸福似乎在於這種探討。",
+          "after": "好似人的幸福在於鑑賞性知識之探討。因為:",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "",
+      "after": "哲學家在《倫理學》卷一第十三章說：「幸福是合於完美德性的動作。」而他在區分德性時，只提出三種鑑賞性德性：「知識，智慧，悟性」(《倫理學》卷六第三章)。這三種德能皆是關於探討鑑賞性知識的。所以，人的最後幸福在於鑑賞性知識之探討。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "哲學家在《倫理學》卷一第十三章說: 「幸福是合於完美德性的動作。」而他在區分德性時，只提出三種鑑賞性德性: 「知識，智慧，悟↑生」(《倫理學》卷六第三章)。這三種德能皆是關於探討鑑賞性知識的。所以，人的最後幸福的企鑑賞性知識之探討。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "悟↑生",
+          "after": "悟性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸福的企",
+          "after": "幸福在於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "",
+      "after": "此外，大家皆自然冀求的東西，而且為這東西自身而冀求的，似乎就是人的最後幸福。而這就是鑑賞性知識之探討，因為《形上學》卷一第一章上說：「人皆自然冀求知識」；然後又說，鑑賞性知識是為其自身而被人追求(第二章)。所以幸福在於鑑賞性知識之探討。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，大家皆自然冀求的東西，而且為這東西自身而冀求的，似乎就是人的最後幸福。而這就是鑑賞性知識之探討，因為《形上學》卷一第一章上說: 「人皆自然冀求知識」;然後又說，鑑賞性知識是為其自身而被人追求(第二章)。所以幸福在於鑑賞性知識之探討。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "",
+      "after": "此外，幸福是人的最後成就。但每物之完成，是因其自潛能進入現實。人的智性是靠鑑賞性知識之探討而進入現實。故此人的最後幸福似乎在於這種探討。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，幸福是人的最後成就。(旦每物之完成，是因其自潛能進入現實。人的智性是靠鑑賞性知識之探討而進入現實。故此人的最後幸福似乎在於這種探討。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1812
+      ],
+      "before": "《耶肋米亞先知書》第九章22節說: 「智者不應誇耀自己的智慧」'指的即鑑賞性知識之智慧。所以，人的最後幸福不在於這類探討。",
+      "after": "《耶肋米亞先知書》第九章22節說：「智者不應誇耀自己的智慧」，指的即鑑賞性知識之智慧。所以，人的最後幸福不在於這類探討。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智慧」'指的",
+          "after": "智慧」，指的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1812,
+        1813
+      ],
+      "before": "我解答如下:前面曾說過，人的幸福分兩種，一是完美的，一是不完美的(第二節釋疑4.)。要知道，完美的幸褔具有幸福之真義;但不完美之幸福只分得某些相似點。正如在人內有完美的機智，他理解可行可為之事;某些禽獸有一種不完美的機智，牠們有一種本能，在某些事方面看來似是出於機智。在本質仁，完美之幸福不能在於鑑賞性知識之探討。為明白此點，要知道鑑賞|生知識不能超過這類知識之原理的能力範圈，因為在原理中包含了整個知識之可能性。鑑賞性知識之第一原理，按哲學家在《形上學》卷一第一章和《分析後論》卷二第十五章說的，皆是由感官而來。所以，全部鑑賞性知識皆不出由感官知識所能引伸者之範圍。人的幸福既是他的最後成就'不能在於對有形物之認知。一物不能被低於它者所完成，除非低級者分得一些高級者。顯然石塊之形式或其他任何形體物，皆低於人。是以，人的智性不因石塊之形式本身而得以完成，而是由於在這形式中分得一點高於人之智性者之相似點，即理性之光(llJmen intelligibile)或其他類似者。由他物而然者，皆歸結到自然而然者。故此人之最後成就，須是由於對高於人之智性者之認知。前面第一集第八十八題第二節已經說過，從形體物不能達到對高於人之智性的單純體(substantia separata)之認知。故人之最後幸福不能在於鑑賞性知識之探討。但是，就如在感官性東西之形式中分有一些高級物之相似點;同樣，鑑賞性知識之探討也分有一點真正完美之幸福。",
+      "after": "我解答如下：前面曾說過，人的幸福分兩種，一是完美的，一是不完美的(第二節釋疑4.)。要知道，完美的幸福具有幸福之真義；但不完美之幸福只分得某些相似點。正如在人內有完美的機智，他理解可行可為之事；某些禽獸有一種不完美的機智，牠們有一種本能，在某些事方面看來似是出於機智。在本質上，完美之幸福不能在於鑑賞性知識之探討。為明白此點，要知道鑑賞性知識不能超過這類知識之原理的能力範圍，因為在原理中包含了整個知識之可能性。鑑賞性知識之第一原理，按哲學家在《形上學》卷一第一章和《分析後論》卷二第十五章說的，皆是由感官而來。所以，全部鑑賞性知識皆不出由感官知識所能引伸者之範圍。人的幸福既是他的最後成就，不能在於對有形物之認知。一物不能被低於它者所完成，除非低級者分得一些高級者。顯然石塊之形式或其他任何形體物，皆低於人。是以，人的智性不因石塊之形式本身而得以完成，而是由於在這形式中分得一點高於人之智性者之相似點，即理性之光(lumen intelligibile)或其他類似者。由他物而然者，皆歸結到自然而然者。故此人之最後成就，須是由於對高於人之智性者之認知。前面第一集第八十八題第二節已經說過，從形體物不能達到對高於人之智性的單純體(substantia separata)之認知。故人之最後幸福不能在於鑑賞性知識之探討。但是，就如在感官性東西之形式中分有一些高級物之相似點；同樣，鑑賞性知識之探討也分有一點真正完美之幸福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本質仁",
+          "after": "本質上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鑑賞|生",
+          "after": "鑑賞性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最後成就'不能",
+          "after": "最後成就，不能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "llJmen",
+          "after": "lumen",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1813
+      ],
+      "before": "在《倫理學》中哲學家講的是不完美之幸福，即在現世生活中所能有者，前面第二節釋疑4.已經講過。",
+      "after": "在《倫理學》中哲學家講的是不完美之幸福，即在現世生活中所能有者，前面第二節釋疑4.已經講過。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1813
+      ],
+      "before": "人不只自然追求幸福，而也追求任何分有幸福或與幸福相似者。",
+      "after": "人不只自然追求幸福，而也追求任何分有幸福或與幸福相似者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1813
+      ],
+      "before": "鑑賞性知識之探討，我們的智性多少化為現實，但非最後完整之現實。",
+      "after": "鑑賞性知識之探討，我們的智性多少化為現實，但非最後完整之現實。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "幸福是否在於認識單純體或天使",
+      "after": "幸福是否在於認識單純體或天使",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "似乎人的幸福在於認識單純體，亦即天使。因為:",
+      "after": "似乎人的幸福在於認識單純體，亦即天使。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "教宗額我略一世在一篇證道中說:「若不得參加天使們的慶節，參加人間的慶節毫無益處。」(《若望褔音論贊》卷二第26節)天使們的慶節是指最後的幸福，但參加天使之慶節是觀賞他們。所以，好似人的最後幸福在於觀賞天便。",
+      "after": "教宗額我略一世在一篇證道中說：「若不得參加天使們的慶節，參加人間的慶節毫無益處。」(《若望福音論贊》卷二第26節)天使們的慶節是指最後的幸福，但參加天使之慶節是觀賞他們。所以，好似人的最後幸福在於觀賞天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天便",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "此外，每物之最後成就在於與其根本結合;圓形之被稱為完美圓形，乃因起點與終點是同一點。但按狄奧尼修在《上天(天使)階級論》第四章說的，人之知識的根本來白天便，人受天使的光照。所以，人之智性之成就，在於觀賞天使。",
+      "after": "此外，每物之最後成就在於與其根本結合；圓形之被稱為完美圓形，乃因起點與終點是同一點。但按狄奧尼修在《上天(天使)階級論》第四章說的，人之知識的根本來自天使，人受天使的光照。所以，人之智性之成就，在於觀賞天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白天便",
+          "after": "來自天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "此外，任何一物能與高級物相接合，就是完美的，郎如身體之最後成就在於與精神體結合。但在自然位次中，人的智性之上就是天使。所以，人之智性的最後成就，在於因觀賞天使而與立結合。",
+      "after": "此外，任何一物能與高級物相接合，就是完美的，即如身體之最後成就在於與精神體結合。但在自然位次中，人的智性之上就是天使。所以，人之智性的最後成就，在於因觀賞天使而與之結合。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "郎如",
+          "after": "即如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "與立結合",
+          "after": "與之結合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1814
+      ],
+      "before": "《耶肋米亞書》第九章23節卻說:「要誇耀的，只應在『知道和認識我(上主)~這件事上誇耀。」所以，人的最後光榮或幸福，只在於認識天主。",
+      "after": "《耶肋米亞書》第九章23節卻說：「要誇耀的，只應在『知道和認識我(上主)』這件事上誇耀。」所以，人的最後光榮或幸福，只在於認識天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(上主)~這",
+          "after": "(上主)』這",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1814,
+        1815
+      ],
+      "before": "我解答如下:前面第六節已經說過，人的完美幸福不在於那由於有所分得而成就人之智性者，而在於那本然如此者。顯然一物之能成全某一潛能事要看它是否屬於這潛能之專有對象。智性之專有對象是真。那隻分到一些真理者，不能使智性達到最後成就。棺《形上學》卷二第一章說的，萬物在存在方面的地位與在真關方面是一樣的;由分有而存在的東西，也是由分有而真。天使們的存在是分得的，因為第一集第四十四題第一節已經說過，只有天主的存在即是其本質。因而，只有天主按本質就是真理，觀賞祂便完全幸福。不過，觀賞天使也可得一些幸福，而且比探討鑑賞性知識得的多。",
+      "after": "我解答如下：前面第六節已經說過，人的完美幸福不在於那由於有所分得而成就人之智性者，而在於那本然如此者。顯然一物之能成全某一潛能，要看它是否屬於這潛能之專有對象。智性之專有對象是真。那只分到一些真理者，不能使智性達到最後成就。按《形上學》卷二第一章說的，萬物在存在方面的地位與在真理方面是一樣的；由分有而存在的東西，也是由分有而真。天使們的存在是分得的，因為第一集第四十四題第一節已經說過，只有天主的存在即是其本質。因而，只有天主按本質就是真理，觀賞祂便完全幸福。不過，觀賞天使也可得一些幸福，而且比探討鑑賞性知識得的多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "潛能事要",
+          "after": "潛能，要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那隻分到",
+          "after": "那只分到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "棺《",
+          "after": "按《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真關方面",
+          "after": "真理方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "參與天使們的慶典時，我們不只觀賞天使，也向他們一起觀賞天主。",
+      "after": "參與天使們的慶典時，我們不只觀賞天使，也同他們一起觀賞天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也向他們",
+          "after": "也同他們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "對那些認為人靈是天使造的人們而言，說人的幸福在觀賞天使相當合理，因為那就是與其根本之按合。但我們在第一集第九十題第三節己說過這主張錯誤。那麼，人之智性的最後造詣在於與天主結合，天主是人靈之創造及其能知!真理的第一根本。天使啟發人是以使者資格，如前面第一集第一一一題第二節釋疑2.已經講過的。天使助人達到幸福，不是人之幸福的對象。",
+      "after": "對那些認為人靈是天使造的人們而言，說人的幸福在觀賞天使相當合理，因為那就是與其根本之接合。但我們在第一集第九十題第三節己說過這主張錯誤。那麼，人之智性的最後造詣在於與天主結合，天主是人靈之創造及其能知真理的第一根本。天使啟發人是以使者資格，如前面第一集第一一一題第二節釋疑2.已經講過的。天使助人達到幸福，不是人之幸福的對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "按合",
+          "after": "接合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能知!真理",
+          "after": "能知真理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "低級者與高級者相接有兩種方式。第一，按所分得之能力的程度;如此則人的最後成就在於能觀賞，就如:天使。第二，如潛能之達到對象;這樣買IJ任何潛能之最後成就，皆在於達到那完全備有其對象之理者。",
+      "after": "低級者與高級者相接有兩種方式。第一，按所分得之能力的程度；如此則人的最後成就在於能觀賞，就如：天使。第二，如潛能之達到對象；這樣則任何潛能之最後成就，皆在於達到那完全備有其對象之理者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "人的幸福是否在於觀賞天主的本質",
+      "after": "人的幸福是否在於觀賞天主的本質",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "似乎人的幸福不在於見天主之本質。因為:",
+      "after": "似乎人的幸福不在於見天主之本質。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "狄奧尼修在《神祕神學》第一章說，人是由其智性的最高點與天主結合，猶如對一毫無所知者的結合。(且既知道本質，不能說毫無所知。所以智能之最後成就，或說幸福，不在於見天主之本質。",
+      "after": "狄奧尼修在《神祕神學》第一章說，人是由其智性的最高點與天主結合，猶如對一毫無所知者的結合。但既知道本質，不能說毫無所知。所以智能之最後成就，或說幸福，不在於見天主之本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1815
+      ],
+      "before": "此外，天性高，其成就也高。但是看天主的本質，乃是天主之智性所專有的造詣。所以，人之智性的成就不能如此之高，應比較低。",
+      "after": "此外，天性高，其成就也高。但是看天主的本質，乃是天主之智性所專有的造詣。所以，人之智性的成就不能如此之高，應比較低。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q003.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1816
+      ],
+      "before": "《若望壹書》第三章2節說:「一旦顯明瞭，我們必要相似祂，因為我們要看見祂實在怎樣。」",
+      "after": "《若望壹書》第三章2節說：「一旦顯明瞭，我們必要相似祂，因為我們要看見祂實在怎樣。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1816
+      ],
+      "before": "我解答如下:最後和完美之幸福，只能在於見天主之本質。有兩點以資證明:第一，只要人仍有所需求和願望﹒就不完全幸福;第二，每種潛能之成就，是看其對象之理。按《靈魂論》卷三第六章說的，智性之對象是「那是什麼屍亦即物之本質。故智性愈知某物之本質，其成就愈高。若一智性認識某一放果之本質，但不能知道原因之本質，即不知原因是什麼，不能說這智性己觸到原因本身，雖然由於效果能知原因之有無。所以，人知道了效果以後，自然希望知道有無原因，以及原因是什麼。如《形上學》卷一第二章中說的，這是一種好奇的願望，並引起追究;例如一人見了日蝕，想必有個原因，因為不知這原因是什麼，感到好奇，因而加以追究。除非認識了原因之本質，這追究不會中止。\n人的智性知道了某受造之結果的本質後﹒若只知道天主之存在，其成就尚未達到第一原因本身，仍有追究原因的自然慾望。因此，他仍不是完全幸福的。為能完全幸福，智性必須達到第一原因之本質。那麼，其完美境界在於與其對象之結合‘即是與天主結合，只有這個纔是人之幸福之所在‘如前面第一及第七節、第二題第八節已講過的。",
+      "after": "我解答如下：最後和完美之幸福，只能在於見天主之本質。有兩點以資證明：第一，只要人仍有所需求和願望，就不完全幸福；第二，每種潛能之成就，是看其對象之理。按《靈魂論》卷三第六章說的，智性之對象是「那是什麼」，亦即物之本質。故智性愈知某物之本質，其成就愈高。若一智性認識某一效果之本質，但不能知道原因之本質，即不知原因是什麼，不能說這智性己觸到原因本身，雖然由於效果能知原因之有無。所以，人知道了效果以後，自然希望知道有無原因，以及原因是什麼。如《形上學》卷一第二章中說的，這是一種好奇的願望，並引起追究；例如一人見了日蝕，想必有個原因，因為不知這原因是什麼，感到好奇，因而加以追究。除非認識了原因之本質，這追究不會中止。\n人的智性知道了某受造之結果的本質後，若只知道天主之存在，其成就尚未達到第一原因本身，仍有追究原因的自然慾望。因此，他仍不是完全幸福的。為能完全幸福，智性必須達到第一原因之本質。那麼，其完美境界在於與其對象之結合，即是與天主結合，只有這個才是人之幸福之所在，如前面第一及第七節、第二題第八節已講過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "願望﹒就",
+          "after": "願望，就",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那是什麼屍亦即",
+          "after": "那是什麼」，亦即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本質後﹒",
+          "after": "本質後，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之結合‘即",
+          "after": "之結合，即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這個纔是",
+          "after": "這個才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之所在‘如",
+          "after": "之所在，如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1816
+      ],
+      "before": "狄奧尼{I要講的是人在現世走向幸福峙的知識情況。",
+      "after": "狄奧尼修講的是人在現世走向幸福時的知識情況。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "狄奧尼{I要",
+          "after": "狄奧尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸福峙",
+          "after": "幸福時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q003.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1816
+      ],
+      "before": "如前面第一題第八節說的，目的有兩種。一種措所願望的東西;這樣則高級與低級，甚而所有東西的目的都是一樣，如前面說的(同處)。男一種指Jlt物之獲取;這樣則高級物與低級物之目的，各按其對此物之關係而異。天主在瞭解自己之本質時的幸福最高，人與天使見之而不暸解，貝IJ幸福較低c",
+      "after": "如前面第一題第八節說的，目的有兩種。一種指所願望的東西；這樣則高級與低級，甚而所有東西的目的都是一樣，如前面說的(同處)。另一種指此物之獲取；這樣則高級物與低級物之目的，各按其對此物之關係而異。天主在瞭解自己之本質時的幸福最高，人與天使見之而不瞭解，則幸福較低。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一種措",
+          "after": "一種指",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一種指Jlt物",
+          "after": "另一種指此物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不暸解",
+          "after": "不瞭解",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸福較低c",
+          "after": "幸福較低。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
