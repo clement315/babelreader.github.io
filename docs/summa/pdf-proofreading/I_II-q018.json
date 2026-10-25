@@ -1,0 +1,3580 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q018",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q018",
+    "title": "泛論人性行動之善惡",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "pdf_file_pages": [
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      1972
+    ],
+    "printed_pages": [
+      183,
+      201
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 134,
+    "changed_review_units": 94,
+    "checked_unchanged_review_units": 41
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q18.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q18.json": "7d16d8fa6d9f86d23aab6f9050f8feaa22e19229a93f2dd80ed20d0dd4473574"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q018.a002.respondeo",
+      "pdf_file_page": 1957,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a003.arg1",
+      "pdf_file_page": 1958,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a005.respondeo",
+      "pdf_file_page": 1961,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a006.arg2",
+      "pdf_file_page": 1963,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a006.ad1",
+      "pdf_file_page": 1964,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a007.ad1",
+      "pdf_file_page": 1966,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a008.arg2",
+      "pdf_file_page": 1966,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a009.ad2",
+      "pdf_file_page": 1969,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a010.ad1",
+      "pdf_file_page": 1971,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a011.respondeo",
+      "pdf_file_page": 1972,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a011.ad2",
+      "pdf_file_page": 1972,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q018.a007.respondeo",
+      "pdf_file_page": 1965,
+      "text": "那個對象機能包括在那個目的之下",
+      "status": "suspected_source_print_error",
+      "action": "原页亦印「對象機能」，句法有疑，依底本保留，不凭推测删字。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q018.prologue",
+      "description": "移除题头散字符和多余「十」，保留原字段四个前置换行及全部既有结构。"
+    },
+    {
+      "id": "I_II.q018.a009.respondeo",
+      "description": "三条释疑误并正解，回填既有ad1–3；原正解换行转义数量保留。"
+    }
+  ],
+  "notes": [
+    "全部19页、11节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q018.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1954
+      ],
+      "before": "也1\n泛間一4一Z←聲E\n了-心\n分為良固\n十在這以後，要討論的是人性行動之善惡(參看第六題引言)。首先，論人性行為怎樣是善，怎樣是惡;然後，論人性行動之善惡的後果，如:功、過、罪及罪責(第二十一題)。關於第一點，要討論三個問題:第一，泛論人性行動之善惡;第二，論內在行動之善惡(第十九題);第三，論外在行動之善惡(第二十題)。關於第-問題，可以提出十一個子題:一、是否凡行為皆善，或亦有惡行。二、人的行為之善惡是否在於對象。三、是否在於情況。四、是否在於目的。五、是否有些行為其本類即有善惡。六、行動善惡之類別是否在於目的。七、由目的而來之類耳目，是否屬於由對象而來者之下，如其總類，抑或正相反。八、是否有些行動其本類是無善無惡者。九、個體性行動是否能是中性的。十、情況能否決定道德行動之善惡類別。十一、是否凡增加行為之善惡的情況，皆決定其善惡類別。",
+      "after": "\n\n\n\n在這以後，要討論的是人性行動之善惡(參看第六題引言)。首先，論人性行為怎樣是善，怎樣是惡；然後，論人性行動之善惡的後果，如：功、過、罪及罪責(第二十一題)。關於第一點，要討論三個問題：第一，泛論人性行動之善惡；第二，論內在行動之善惡(第十九題)；第三，論外在行動之善惡(第二十題)。關於第一問題，可以提出十一個子題：一、是否凡行為皆善，或亦有惡行。二、人的行為之善惡是否在於對象。三、是否在於情況。四、是否在於目的。五、是否有些行為其本類即有善惡。六、行動善惡之類別是否在於目的。七、由目的而來之類別，是否屬於由對象而來者之下，如其總類，抑或正相反。八、是否有些行動其本類是無善無惡者。九、個體性行動是否能是中性的。十、情況能否決定道德行動之善惡類別。十一、是否凡增加行為之善惡的情況，皆決定其善惡類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也1\n泛間一4一Z←聲E\n了-心\n分為良固\n",
+          "after": "\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "十在這以後",
+          "after": "在這以後",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第-問題",
+          "after": "第一問題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類耳目",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "是否凡人性行為皆善，或亦有惡行",
+      "after": "是否凡人性行為皆善，或亦有惡行",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "似乎凡人的行為皆是善的，沒有惡的。因為:",
+      "after": "似乎凡人的行為皆是善的，沒有惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "狄奧尼修在《神名論》第四章說，若非靠善之力量，惡一無所能。但善的力量不產生惡。故沒有行為是惡的。",
+      "after": "狄奧尼修在《神名論》第四章說，若非靠善之力量，惡一無所能。但善的力量不產生惡。故沒有行為是惡的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "此外，若不是現實者，便不能有行動。然而惡之為惡，並非因為是現實，而是因為潛能被剝奪了現實;按《形上學》卷九第九章說的，潛能有現實成就乃是善。故一物之能行動﹒不是因了是惡，而是因為是善。所以，凡行為皆是善的，沒有惡的。",
+      "after": "此外，若不是現實者，便不能有行動。然而惡之為惡，並非因為是現實，而是因為潛能被剝奪了現實；按《形上學》卷九第九章說的，潛能有現實成就乃是善。故一物之能行動，不是因了是惡，而是因為是善。所以，凡行為皆是善的，沒有惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能行動﹒",
+          "after": "能行動，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "此外，按狄奧尼修在《神名論》第四章說的，惡之能為原因，是出於偶然。但每一行為有其本然效果。故沒有行為是惡的，行為皆是善的。",
+      "after": "此外，按狄奧尼修在《神名論》第四章說的，惡之能為原因，是出於偶然。但每一行為有其本然效果。故沒有行為是惡的，行為皆是善的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1955
+      ],
+      "before": "主在《若望褔音》第三章20節卻說: 「凡作惡的，都憎惡光明。」所以，人的行為有些是惡的。",
+      "after": "主在《若望福音》第三章20節卻說：「凡作惡的，都憎惡光明。」所以，人的行為有些是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1955,
+        1956
+      ],
+      "before": "我解答如下:討論行為之善惡，當如討論物的善惡;因為東西本身是怎樣，就產生怎樣的行動。一物有多少實在，便有多少善;因為按在第一集第五題第一及第三節、第十七題第四節釋疑2.裡說的，善與物可互相兌替。只有天主以圓滿和單純方式握有其整個實在，其他東西各具有適於自己之相對圓滿的實在。所以有些東西，從某方面說，具有實在性;然而對其應有之圓滿實在而言，則有所缺欠。例如，為構成人的圓滿實在，須是由靈魂和肉身合成的，真有認知和行動所需之一切機能和工具;如果一人少了其中的什麼東西，貝IJ其圓滿實在中有所缺欠。所以，一物有多少實在，便有多少善;對其圓滿實在有多少缺欠，{更少多少善，這即稱為惡。例如:瞎子之有生命是善，其缺少視力即是惡。倘若他沒有絲毫實在和善，便不能稱為善，也不能稱為惡了。然而，因為按善之理，應是圓滿的實在;倘若一物在其應有之圓滿實在中有所缺欠，便不說是單純的(或絕對的)善，而是某一方面的(或相對的)善，即因為那是實在物;但按在第一集第五題第一節釋疑1.中說的，可以說那是單純的實在，和相對的不實在。\n因此應該說，、凡是行為，具有多少實在性，便真有多少善;而對人性行為應有之圓滿現實缺欠多少，便少多少善，這便稱為惡。例如:缺少理性所規定之數量，ER缺少應在之地方等等。",
+      "after": "我解答如下：討論行為之善惡，當如討論物的善惡；因為東西本身是怎樣，就產生怎樣的行動。一物有多少實在，便有多少善；因為按在第一集第五題第一及第三節、第十七題第四節釋疑2.裡說的，善與物可互相兌替。只有天主以圓滿和單純方式握有其整個實在，其他東西各具有適於自己之相對圓滿的實在。所以有些東西，從某方面說，具有實在性；然而對其應有之圓滿實在而言，則有所缺欠。例如，為構成人的圓滿實在，須是由靈魂和肉身合成的，真有認知和行動所需之一切機能和工具；如果一人少了其中的什麼東西，則其圓滿實在中有所缺欠。所以，一物有多少實在，便有多少善；對其圓滿實在有多少缺欠，便少多少善，這即稱為惡。例如：瞎子之有生命是善，其缺少視力即是惡。倘若他沒有絲毫實在和善，便不能稱為善，也不能稱為惡了。然而，因為按善之理，應是圓滿的實在；倘若一物在其應有之圓滿實在中有所缺欠，便不說是單純的(或絕對的)善，而是某一方面的(或相對的)善，即因為那是實在物；但按在第一集第五題第一節釋疑1.中說的，可以說那是單純的實在，和相對的不實在。\n因此應該說，凡是行為，具有多少實在性，便具有多少善；而對人性行為應有之圓滿現實缺欠多少，便少多少善，這便稱為惡。例如：缺少理性所規定之數量，或缺少應在之地方等等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{更少",
+          "after": "便少",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "應該說，、凡",
+          "after": "應該說，凡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "便真有",
+          "after": "便具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "ER缺少",
+          "after": "或缺少",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "惡是靠有缺欠的善之力量而行動。因為若無絲毫之善，便也沒有實在，遂也不能有行動。若不是有缺欠的，便沒有惡。故其所產生之行為也是一種有缺欠的善，即相對的善，和單純的惡。",
+      "after": "惡是靠有缺欠的善之力量而行動。因為若無絲毫之善，便也沒有實在，遂也不能有行動。若不是有缺欠的，便沒有惡。故其所產生之行為也是一種有缺欠的善，即相對的善，和單純的惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "一個東西可能在某方面是現實，因而能有行動;在另一方面缺少現實，因而產生有缺欠的行為。就如一個瞎子，具有行走之實力，因而能夠行走;但因為缺少視力，以指導行動，故其行動有缺點，走路時東碰西撞。",
+      "after": "一個東西可能在某方面是現實，因而能有行動；在另一方面缺少現實，因而產生有缺欠的行為。就如一個瞎子，具有行走之實力，因而能夠行走；但因為缺少視力，以指導行動，故其行動有缺點，走路時東碰西撞。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "惡的行為，按其所有之善及實在性，能夠有一些本然的敘果。例如:姦淫是生孩子的原因，那是因7姦淫是男女之結合，並非由於結合的不合理。",
+      "after": "惡的行為，按其所有之善及實在性，能夠有一些本然的效果。例如：姦淫是生孩子的原因，那是因了姦淫是男女之結合，並非由於結合的不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "敘果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "人的行為之善惡是否在於對象",
+      "after": "人的行為之善惡是否在於對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1956
+      ],
+      "before": "仔似人的行為之善惡不在於對象。因為:",
+      "after": "好似人的行為之善惡不在於對象。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "仔似",
+          "after": "好似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1956,
+        1957
+      ],
+      "before": "行為之對象是東西。但按奧斯定在《論基督聖道》卷三第卡三章說的: 「在東西t沒有惡，惡在於犯罪者之運用」。所以，人性行為之善惡不在於對象。",
+      "after": "行為之對象是東西。但按奧斯定在《論基督聖道》卷三第十三章說的：「在東西上沒有惡，惡在於犯罪者之運用」。所以，人性行為之善惡不在於對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡三",
+          "after": "第十三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西t",
+          "after": "東西上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1957
+      ],
+      "before": "此外，對象有似行為之質料。東西的善不是來自質料，而是來自形式，因為形式是現實。所以行動之善惡不是來自對象。",
+      "after": "此外，對象有似行為之質料。東西的善不是來自質料，而是來自形式，因為形式是現實。所以行動之善惡不是來自對象。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1957
+      ],
+      "before": "此外，行動機能之對象對行為而言，似效果之與原因。但原因之善不繫於效果之善，正好相反。所以人性行為之善惡不是來自對象。",
+      "after": "此外，行動機能之對象對行為而言，似效果之與原因。但原因之善不繫於效果之善，正好相反。所以人性行為之善惡不是來自對象。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1957
+      ],
+      "before": "《歐瑟亞先知書》第九章10節卻說: 「自己成了可憎惡的，如他們所喜愛的邪神一樣。」人因其行為之惡而使天主憎惡。所以，行為之惡是按人所愛之惡的對象，行為之善也是同理。",
+      "after": "《歐瑟亞先知書》第九章10節卻說：「自己成了可憎惡的，如他們所喜愛的邪神一樣。」人因其行為之惡而使天主憎惡。所以，行為之惡是按人所愛之惡的對象，行為之善也是同理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1957
+      ],
+      "before": "我解答如下:前面第一節已經說過，行為以及其他東西之善惡，是看實在之圓滿或欠缺。第一個屬於實在之圓滿的，似是那賦東西以類別者。就如自然物是自其形式取得類別;同樣，行為是由對象取得類別，又如運動是由終點取得類別。因此，正如自然物之第一善是看它的形式，即那給它類別者;同樣，人性行為之第一善是看其適當之對象，因此有人稱之為「本類的善」(bonum ex genere)，例如:利用自己的東西。在自然物上的第一個惡，是生出之物沒有本類之形式，例如:生出的應是人而不是人，卻是別的東西;同樣，人性行為的第一個惡也是來自對象者，例如:拿他人的東西。這叫作本類的惡，類即指類別，就如說「人類」以指人的整個種類。",
+      "after": "我解答如下：前面第一節己經說過，行為以及其他東西之善惡，是看實在之圓滿或欠缺。第一個屬於實在之圓滿的，似是那賦東西以類別者。就如自然物是自其形式取得類別；同樣，行為是由對象取得類別，又如運動是由終點取得類別。因此，正如自然物之第一善是看它的形式，即那給它類別者；同樣，人性行為之第一善是看其適當之對象，因此有人稱之為「本類的善」(bonum ex genere)，例如：利用自己的東西。在自然物上的第一個惡，是生出之物沒有本類之形式，例如：生出的應是人而不是人，卻是別的東西；同樣，人性行為的第一個惡也是來自對象者，例如：拿他人的東西。這叫作本類的惡，類即指類別，就如說「人類」以指人的整個種類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1957
+      ],
+      "before": "外在的東西，本身雖然是善的，但不常適合這個或那個行為。故若視之為這些行為之對象時，貝IJ無善之義。",
+      "after": "外在的東西，本身雖然是善的，但不常適合這個或那個行為。故若視之為這些行為之對象時，則無善之義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1957,
+        1958
+      ],
+      "before": "對象不是「所由之質料」(materia ex qua)，而是「所及之質料」(materia circa quam);由於對象賦予類別，多少具有形式之義。",
+      "after": "對象不是「所由之質料」(materia ex qua)，而是「所及之質料」(materia circa quam)；由於對象賦予類別，多少具有形式之義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "人性行為之對象，不常是行動或積極機能之對象。嗜慾機能多少是受動或消極的，因為是受可欲者之推動;不過嗜慾機能是人行動之根本。積極機能之對象也不常是效果，而是在改變之後始為效果，例如:食物，消化以後始為營養機能之效果;在末消化以前，食物對營養機能，乃是動作所及之質料。由於對象多少是積極機能之故果，所以它是此機能之行動的終點﹒故此，它賦給行動形式及頹別，因為行動的類別來自終點。雖然行為之善不是效果之善產生的，但行為之稱為善﹒是因為能產生善的效果。這樣看來，行為對教果之相稱性，是行為之善的理由。",
+      "after": "人性行為之對象，不常是行動或積極機能之對象。嗜慾機能多少是受動或消極的，因為是受可欲者之推動；不過嗜慾機能是人行動之根本。積極機能之對象也不常是效果，而是在改變之後始為效果，例如：食物，消化以後始為營養機能之效果；在未消化以前，食物對營養機能，乃是動作所及之質料。由於對象多少是積極機能之效果，所以它是此機能之行動的終點；故此，它賦給行動形式及類別，因為行動的類別來自終點。雖然行為之善不是效果之善產生的，但行為之稱為善，是因為能產生善的效果。這樣看來，行為對效果之相稱性，是行為之善的理由。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在末消化",
+          "after": "在未消化",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之故果",
+          "after": "之效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "終點﹒",
+          "after": "終點；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頹別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為善﹒",
+          "after": "為善，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對教果",
+          "after": "對效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "人的行為之善惡是否在於情況",
+      "after": "人的行為之善惡是否在於情況",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "似乎行為不因情況而善而惡。因為:",
+      "after": "似乎行為不因情況而善而惡。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "如第七題第一節己說過的，情況是在行為之外環繞著行為的。但按《形上學》卷六第四章說的:「善與惡是東西本身上的」。所以，行為之善惡不在於情況。",
+      "after": "如第七題第一節己說過的，情況是在行為之外環繞著行為的。但按《形上學》卷六第四章說的：「善與惡是東西本身上的」。所以，行為之善惡不在於情況。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "此外，行為之善惡，是倫理學最關心的問題。但情況既然是行為的依附體，似是在學術的研究範圍以外的;因為按《形上學》卷六第二章說的，「沒有學術研究偶然事物」。所以，行為之善惡不在於情況。",
+      "after": "此外，行為之善惡，是倫理學最關心的問題。但情況既然是行為的依附體，似是在學術的研究範圍以外的；因為按《形上學》卷六第二章說的，「沒有學術研究偶然事物」。所以，行為之善惡不在於情況。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1958
+      ],
+      "before": "此外，那按本體屬於一物者，不因依附體而歸屬此物。但善與惡是按本體屬於行為。因為行為，按前面第二節說的，其本類即能善能惡。所以，行為之善惡不是由於情況。",
+      "after": "此外，那按本體屬於一物者，不因依附體而歸屬此物。但善與惡是按本體屬於行為。因為行為，按前面第二節說的，其本類即能善能惡。所以，行為之善惡不是由於情況。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1958,
+        1959
+      ],
+      "before": "哲學家在《倫理學》卷二第三章中卻說，有德者的行動，是「授該怎樣，該何時，以及其他情況」。所以，與此相反者，即是有各種相關壤習慣的人，就是說他做事是在不當的時間，不當的地點﹒以及其他情況。所以，人的行動因了情況而善而惡。",
+      "after": "哲學家在《倫理學》卷二第三章中卻說，有德者的行動，是「按該怎樣，該何時，以及其他情況」。所以，與此相反者，即是有各種相關壞習慣的人，就是說他做事是在不當的時間，不當的地點，以及其他情況。所以，人的行動因了情況而善而惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "授該",
+          "after": "按該",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相關壤習慣",
+          "after": "相關壞習慣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地點﹒",
+          "after": "地點，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "我解答如下:在自然物中，由那賦予類別的本體形式，得不到一物應有之全部圓滿成就;許多須由後來的依附體增加上去，例如:人的形狀、顏色等等。其中所有者若有欠適當，即造成惡。在行為方面也是一樣，其完滿的善不全在於本類性質，也在於附加之依附性。這些依附性即指適當之情況。所以，若適當之情況方面有欠缺，行為便是惡的。",
+      "after": "我解答如下：在自然物中，由那賦予類別的本體形式，得不到一物應有之全部圓滿成就；許多須由後來的依附體增加上去，例如：人的形狀、顏色等等。其中所有者若有欠適當，即造成惡。在行為方面也是一樣，其完滿的善不全在於本類性質，也在於附加之依附性。這些依附性即指適當之情況。所以，若適當之情況方面有欠缺，行為便是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "所謂情況是在行為以外，是說不屬於行為之本質;然而那是行為上的，有似行為之依附性。正如自然物體之依附性，也是在其本質以外的。",
+      "after": "所謂情況是在行為以外，是說不屬於行為之本質；然而那是行為上的，有似行為之依附性。正如自然物體之依附性，也是在其本質以外的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "並非所有的依附體對其主體皆是偶有的，有些是本然的，這些則屬於各學術研究之範圈。為此在倫理學中研究行為之情況。",
+      "after": "並非所有的依附體對其主體皆是偶有的，有些是本然的，這些則屬於各學術研究之範圍。為此在倫理學中研究行為之情況。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "既然善與物能互相兌替，則正如物可指稱本體，也可指稱依附體;同樣，善亦可指一物之本質實在性，或指附加之實在|主。在自然物方面如此，在人性行為上也是如此。",
+      "after": "既然善與物能互相兌替，則正如物可指稱本體，也可指稱依附體；同樣，善亦可指一物之本質實在性，或指附加之實在性。在自然物方面如此，在人性行為上也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "實在|主",
+          "after": "實在性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "人性行為之善惡是否在於目的",
+      "after": "人性行為之善惡是否在於目的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "人性行為之善惡似乎不在於目的。因為:",
+      "after": "人性行為之善惡似乎不在於目的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "狄奧尼修在《神名論》第四章說: 「沒有東西是為了惡而動作。」倘若動作之善惡是由於目的，買l!沒有一個行為是惡的。這顯然不合理。",
+      "after": "狄奧尼修在《神名論》第四章說：「沒有東西是為了惡而動作。」倘若動作之善惡是由於目的，則沒有一個行為是惡的。這顯然不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買l!",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1959
+      ],
+      "before": "此夕卜行動之善乃是行動本身的東西，目的則是外在的原因。所以，行為不是按目的而善而惡。",
+      "after": "此外，行動之善乃是行動本身的東西，目的則是外在的原因。所以，行為不是按目的而善而惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此夕卜",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1959,
+        1960
+      ],
+      "before": "此外，有時善的動作被用於壞的目的，如一人為了虛榮而施捨;反之，有些惡的動作被用於善的目的，如一人偷東西為給窮人。所以，行為三薦惡不是由於目的。",
+      "after": "此外，有時善的動作被用於壞的目的，如一人為了虛榮而施捨；反之，有些惡的動作被用於善的目的，如一人偷東西為給窮人。所以，行為之善惡不是由於目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "三薦惡",
+          "after": "之善惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1960
+      ],
+      "before": "波其武在《論題之分頹》(De differ. topic)卷二裡卻說:「目的好者，本身就好;目的不好的，本身也不好。」",
+      "after": "波其武在《論題之分類》(De differ. topic)卷二裡卻說：「目的好者，本身就好；目的不好的，本身也不好。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分頹",
+          "after": "分類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1960
+      ],
+      "before": "我解答如下:東西在善方面與在實在方面的情形是一樣的。有些東西的實在不繫於他物;關於這些東西，只須看其絕對之實在。(旦有些東西的實在繫於他物;故在研究這些東西時，須看其所繫之原因。正如東西的實在繫於動因及形式，東西之善則繫於目的。在天主聖三中，因其善不繫於他物，其善之義不在於目的。人性行為及其他東西之善繫於他物，除了其本身之善以外，其善之義又有賴於其所繫之目的。\n所以人性行為之善要看四點。第一是按共額(或總類genus)，即因7那是行為，按前面第一節說的，它有多少行為及實在性，便有多少善。第二是按另Ij穎(或類別或分頭species),是根據適當之對象。第三是按情況，好似是其依附體。第四是按目的，好似是對其善之原因的關(系。",
+      "after": "我解答如下：東西在善方面與在實在方面的情形是一樣的。有些東西的實在不繫於他物；關於這些東西，只須看其絕對之實在。但有些東西的實在繫於他物；故在研究這些東西時，須看其所繫之原因。正如東西的實在繫於動因及形式，東西之善則繫於目的。在天主聖三中，因其善不繫於他物，其善之義不在於目的。人性行為及其他東西之善繫於他物，除了其本身之善以外，其善之義又有賴於其所繫之目的。\n所以人性行為之善要看四點。第一是按共類(或總類genus)，即因了那是行為，按前面第一節說的，它有多少行為及實在性，便有多少善。第二是按別類(或類別或分類species)，是根據適當之對象。第三是按情況，好似是其依附體。第四是按目的，好似是對其善之原因的關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "共額",
+          "after": "共類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另Ij穎",
+          "after": "別類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分頭species),",
+          "after": "分類species)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1960
+      ],
+      "before": "人在行動時所望之苦，不常是真正的善;有時是真正的善，有時則是表面的善。若是表面的善，貝1]行為因了目的便是惡的。",
+      "after": "人在行動時所望之善，不常是真正的善；有時是真正的善，有時則是表面的善。若是表面的善，則行為因了目的便是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之苦",
+          "after": "之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1960
+      ],
+      "before": "目的雖然是外在原因，但行為與目的之關係及相稱性則依附於行為之內。",
+      "after": "目的雖然是外在原因，但行為與目的之關係及相稱性則依附於行為之內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1960,
+        1961
+      ],
+      "before": "一個行為在一點上馬吉‘可能在別的方面不善。為此，一個行為在想別及情況方面皆是苦的，能用於不善之目的;反之亦然2若非有了各方面之苦，一行為不能說是單純的善，因為按狄奧尼修在《神名論》第凹章裡說的﹒「任何一個虧缺即造成惡，善是由完整之原因造成的」。",
+      "after": "一個行為在一點上為善，可能在別的方面不善。為此，一個行為在類別及情況方面皆是善的，能用於不善之目的；反之亦然。若非有了各方面之善，一行為不能說是單純的善，因為按狄奧尼修在《神名論》第四章裡說的：「任何一個虧缺即造成惡，善是由完整之原因造成的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "馬吉‘",
+          "after": "為善，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "想別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皆是苦的",
+          "after": "皆是善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "亦然2",
+          "after": "亦然。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方面之苦",
+          "after": "方面之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹章",
+          "after": "第四章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說的﹒",
+          "after": "說的：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "是否有些行為按其別類(species)，即善或惡，來分類",
+      "after": "是否有些行為按其別類(species)，即善或惡，來分類",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "行為似乎不是按善惡分類。因為:",
+      "after": "行為似乎不是按善惡分類。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "按前面第一節說的，行為之善惡就如東西之善惡。但東西不按好壞分類，因為好人壞人皆為同類。所以，行為也不按善惡分類。",
+      "after": "按前面第一節說的，行為之善惡就如東西之善惡。但東西不按好壞分類，因為好人壞人皆為同類。所以，行為也不按善惡分類。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "此外，既然惡是欠缺，所以是一種非實在。但按哲學家在《形上學》卷三第三章說的，非實在不能有區別。既然區別構成類別，好似一個行為不因了是惡的，便構成一個類別。所以，人性行為不以善惡分類別。",
+      "after": "此外，既然惡是欠缺，所以是一種非實在。但按哲學家在《形上學》卷三第三章說的，非實在不能有區別。既然區別構成類別，好似一個行為不因了是惡的，便構成一個類別。所以，人性行為不以善惡分類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "此外，行為之類別不同，其效果便也不同。但從善行和惡行中，可能產生同類之效果，例如:通姦生孩子，婚姻結合也生孩子。所以，善行與惡行類別無異。",
+      "after": "此外，行為之類別不同，其效果便也不同。但從善行和惡行中，可能產生同類之效果，例如：通姦生孩子，婚姻結合也生孩子。所以，善行與惡行類別無異。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "此外，按前面第三節說的，行動是善是惡，有時是按情況而論。(旦情況既是依附體，不賦給行為類別。所以，人性行為不以善惡分類別。",
+      "after": "此外，按前面第三節說的，行動是善是惡，有時是按情況而論。但情況既是依附體，不賦給行為類別。所以，人性行為不以善惡分類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1961
+      ],
+      "before": "按哲學家在《倫理學》卷二第一章說的: 「相似的習性，產生相似的行動」。但善的習性與壞的習性不屬同類，例如:慷慨與奢侈。所以，善行與惡行不屬同類。",
+      "after": "按哲學家在《倫理學》卷二第一章說的：「相似的習性，產生相似的行動」。但善的習性與壞的習性不屬同類，例如：慷慨與奢侈。所以，善行與惡行不屬同類。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1961,
+        1962
+      ],
+      "before": "我解答如下:每個行動是由其對象而取得類別，前面第二節已經講過。所以對象若不同，行動之類別便也不同。然而要知道，有的對象上的不同，對某積極根本來說，使行為之類別不同;但對另一積極根本而言，則不使行為之類別不同。因為那偶然者不構成類別，只有本然者始構成類別。而對象之差別，對某一積極根本而言可能是本然的，而對另一根本而言則可能是偶然的;例如:認知聲音及顏色，對感官而言是本然不相同，但對知性而言則不然。\n人性行為之善惡是根據理性。因為按狄奧尼修在《神名論》第四章說的，人之善是「按理性的實在」'而惡是「不合理性者」。每一物之善，是那按其形式適合於它者;而惡是不合其形式者。可見對象善惡之區別‘是看其對理性的本然關係，即是說，看對象是否適合理性。有些行動被稱為人性的或道德的，乃因為是出於理性。故此，顯然善與惡構成道德行為的不同類別一一因為本然之不同，構成不同的類別。",
+      "after": "我解答如下：每個行動是由其對象而取得類別，前面第二節己經講過。所以對象若不同，行動之類別便也不同。然而要知道，有的對象上的不同，對某積極根本來說，使行為之類別不同；但對另一積極根本而言，則不使行為之類別不同。因為那偶然者不構成類別，只有本然者始構成類別。而對象之差別，對某一積極根本而言可能是本然的，而對另一根本而言則可能是偶然的；例如：認知聲音及顏色，對感官而言是本然不相同，但對知性而言則不然。\n人性行為之善惡是根據理性。因為按狄奧尼修在《神名論》第四章說的，人之善是「按理性的實在」，而惡是「不合理性者」。每一物之善，是那按其形式適合於它者；而惡是不合其形式者。可見對象善惡之區別，是看其對理性的本然關係，即是說，看對象是否適合理性。有些行動被稱為人性的或道德的，乃因為是出於理性。故此，顯然善與惡構成道德行為的不同類別——因為本然之不同，構成不同的類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經講過",
+          "after": "己經講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "實在」'",
+          "after": "實在」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "區別‘",
+          "after": "區別，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1962
+      ],
+      "before": "就是在自然物體方面，其善與惡若是合於天性與相反天性者，也構成不同的天性類別一一活的身體與死的身體不屬於同類。同樣，善若指合於理性，惡若指不合理性，則構成;不同類的行為。",
+      "after": "就是在自然物體方面，其善與惡若是合於天性與相反天性者，也構成不同的天性類別——活的身體與死的身體不屬於同類。同樣，善若指合於理性，惡若指不合理性，則構成不同類的行為。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "構成;不同",
+          "after": "構成不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1962
+      ],
+      "before": "惡不造成絕對的欠缺，只造成某機能方面的欠缺。說一個行為本身惡的時候，不是因了它沒有任何對象;而是因為沒有合於理性的對象，例如:拿他人東西。故由於其對象是現實的東西，可以構成惡行之類別。",
+      "after": "惡不造成絕對的欠缺，只造成某機能方面的欠缺。說一個行為本身惡的時候，不是因了它沒有任何對象；而是因為沒有合於理性的對象，例如：拿他人東西。故由於其對象是現實的東西，可以構成惡行之類別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1962
+      ],
+      "before": "夫婦購合與通姦，按其對理性的關係說，屬於不同的類別，其效果也不同類;因為一個可得讚美和獎賞，另一個應受譴責和處罰。但按其對生殖機能之關係，二者同屬一類。因此其效果也屬同類。",
+      "after": "夫婦媾合與通姦，按其對理性的關係說，屬於不同的類別，其效果也不同類；因為一個可得讚美和獎賞，另一個應受譴責和處罰。但按其對生殖機能之關係，二者同屬一類。因此其效果也屬同類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夫婦購合",
+          "after": "夫婦媾合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1962
+      ],
+      "before": "有時情況被視為對象之本質上的區別，還要看其與理性之關係，這時情況能賦給道德行為類別。在情況使一善行變為惡行時，便一定如此。因為若非情況與理性相反，便不會使行為變為惡。",
+      "after": "有時情況被視為對象之本質上的區別，這要看其與理性之關係，這時情況能賦給道德行為類別。在情況使一善行變為惡行時，便一定如此。因為若非情況與理性相反，便不會使行為變為惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "還要看其",
+          "after": "這要看其",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "行動善惡之類別是否在於目的",
+      "after": "行動善惡之類別是否在於目的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "由目的而來之善惡，似乎不構成行為類別之不同。因為:",
+      "after": "由目的而來之善惡，似乎不構成行為類別之不同。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "行動是由對象得其類別。但目的是在對象之理以外的。所以，由目的而來之善惡，不構成行動之類別上的不間。",
+      "after": "行動是由對象得其類別。但目的是在對象之理以外的。所以，由目的而來之善惡，不構成行動之類別上的不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不間",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "此外，如第五節己說過的，偶然者不構成類別。但行動指向什麼目的是偶然的，例如:一人為虛榮而施捨。所以，由目的而來之善惡，不構成行為類別上的不同。",
+      "after": "此外，如第五節己說過的，偶然者不構成類別。但行動指向什麼目的是偶然的，例如：一人為虛榮而施捨。所以，由目的而來之善惡，不構成行為類別上的不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "此外，類別不同的行動，可以導向同一個目的;就如為了達到虛榮之目的，可以利用各種德性及各種惡習之行動。所以，因目的而來之善惡，不造成行動類別上的不同。",
+      "after": "此外，類別不同的行動，可以導向同一個目的；就如為了達到虛榮之目的，可以利用各種德性及各種惡習之行動。所以，因目的而來之善惡，不造成行動類別上的不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "按前面第一題第三節指出的，人性行為由目的而分類別。所以由目的而來之善惡，使行動類別不同。",
+      "after": "按前面第一題第三節指出的，人性行為由目的而分類別。所以由目的而來之善惡，使行動類別不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1963
+      ],
+      "before": "我解答如下:如前面第一題第一節說過的，有些行動稱為是人性的，乃因為那是情願的。在一個情願的行動中有兩層行動，即內在之意志的行動，及外在行動;二者各有其對象。嚴格地說，目的乃內在意志之行動的對象;而外在行動所涉及者，即其對象。就如外在行動是因其所涉及的對象而分類別，意志之內在行動則由其目的，猶如由本然的對象而分類別。\n然而，出自意志方面者，對出自外在之行動者而言，算是形式部分，因為意志運用肢體行動如工真。而外在行動若不是情願的，也沒有道德性。所以，人性行為之類別，按形式是看目的，按質料是看外在行動之對象。因此哲學家在《倫理學》卷五第二章說: 「那為了能通姦而去偷竊的，嚴格地說，他是姦淫者，尤甚於是賊。」",
+      "after": "我解答如下：如前面第一題第一節說過的，有些行動稱為是人性的，乃因為那是情願的。在一個情願的行動中有兩層行動，即內在之意志的行動，及外在行動；二者各有其對象。嚴格地說，目的乃內在意志之行動的對象；而外在行動所涉及者，即其對象。就如外在行動是因其所涉及的對象而分類別，意志之內在行動則由其目的，猶如由本然的對象而分類別。\n然而，出自意志方面者，對出自外在之行動者而言，算是形式部分，因為意志運用肢體行動如工具。而外在行動若不是情願的，也沒有道德性。所以，人性行為之類別，按形式是看目的，按質料是看外在行動之對象。因此哲學家在《倫理學》卷五第二章說：「那為了能通姦而去偷竊的，嚴格地說，他是姦淫者，尤甚於是賊。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "工真",
+          "after": "工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "如正解己說過的，目的亦有對象之義。",
+      "after": "如正解己說過的，目的亦有對象之義。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "被用於某目的，縱然對外在行動是偶然的，對意志之內在行動則不是偶然，而內在之行動對外在者，似形式之與質料。",
+      "after": "被用於某目的，縱然對外在行動是偶然的，對意志之內在行動則不是偶然，而內在之行動對外在者，似形式之與質料。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "在許多不同類行動用於同一目的時，外在行動之頹另IJ固然不同，但在內在行動方面卻算同一類別。",
+      "after": "在許多不同類行動用於同一目的時，外在行動之類別固然不同，但在內在行動方面卻算同一類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "頹另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "由目的而來之類別，是否歸屬於由對象而來之類別如其總類，抑或正相反",
+      "after": "由目的而來之類別，是否歸屬於由對象而來之類別如其總類，抑或正相反",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "由目的而來的類刑，似乎應歸屬於由對象而來之類別，如其總類，例如:一人想偷東西，為了施捨。因為:",
+      "after": "由目的而來的類別，似乎應歸屬於由對象而來之類別，如其總類，例如：一人想偷東西，為了施捨。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "按前面第二及第六節說的，行動是由對象分類別們但一個東西不能屬於另一類，若那個類不屬於其本類。因為同一個東西不能屬於許多不同系統的類刑。所以，由目的而來之類別，包括在由對象而來之類別裡。",
+      "after": "按前面第二及第六節說的，行動是由對象分類別。但但一個東西不能屬於另一類，若那個類不屬於其本類。因為同一個東西不能屬於許多不同系統的類別。所以，由目的而來之類別，包括在由對象而來之類別裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類別們",
+          "after": "類別。但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "此外，最後之差別常構成最小的頡別。但由目的而來之差別，似是後於由對象而來之差別‘因為目的有最後之義。故由目的而來之類別，是最小的類，包括在由對象而來之類刑內。",
+      "after": "此外，最後之差別常構成最小的類別。但由目的而來之差別，似是後於由對象而來之差別；因為目的有最後之義。故由目的而來之類別，是最小的類，包括在由對象而來之類別內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "頡別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "差別‘",
+          "after": "差別；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "此外，一個差別愈是形式化，愈是特別的;因為差別之與共類，如形式之對質料。但按前面第六節說的，由目的而來之類別﹒比山對象而來者更形式化。所以，由目的而來之類別，包括在由對象而來之類另IJ內﹒如最小類是包括在日立類月1之中。",
+      "after": "此外，一個差別愈是形式化，愈是特別的；因為差別之與共類，如形式之對質料。但按前面第六節說的，由目的而來之類別，比由對象而來者更形式化。所以，由目的而來之類別，包括在由對象而來之類別內，如最小類是包括在上位類別之中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類別﹒",
+          "after": "類別，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "比山",
+          "after": "比由",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ內﹒",
+          "after": "類別內，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "日立類月1",
+          "after": "上位類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1964
+      ],
+      "before": "每一共知，具有固定數目的差刑。但在對象方面屬於一類的行動，可月1於無限的目的，例如:的i東西為做無限的善事或惡事。所以，由目的而來之類別，不包括在由對象而來之類另IJ裡，猶如包括在其共類裡。",
+      "after": "每一共類，具有固定數目的差別。但在對象方面屬於一類的行動，可用於無限的目的，例如：偷東西為做無限的善事或惡事。所以，由目的而來之類別，不包括在由對象而來之類別裡，猶如包括在其共類裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "共知",
+          "after": "共類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "差刑",
+          "after": "差別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可月1於",
+          "after": "可用於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的i東西",
+          "after": "偷東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1965
+      ],
+      "before": "我解答如下:外在行動之對象對意志之目的，有兩種關係。一是本然的，如努力戰爭之為勝利;另一種是偶然的，如拿他人的東西為去施捨ο按哲學家在《形上學》卷七第十二章說的，劃分一共類並構成此共類之別類的差別，須是那本然劃分此共類者。若是偶然者，則分類不妥，如一人說:動物分有理性者及無理性者;無理性動物分哺乳者及不哺乳者一一哺乳與不哺乳者不是本然地就能確定那無理性者。而該這樣來分:動物分有足者及無足者;有足者分為有二足者，有四足者，及許多足者。這樣則後者是本然地確定前面之差別。\n因此，若對象不是本然地指向目的，則由對象而來之差刑，不是本然地確定那來自目的者;反之亦然心這樣則其中之一類不屬於另一類，這時道德行為是屬於兩個不相干的類別。因此我們說，那為通姦而偷竊者，以一個行動做了兩個惡。若對象本然指向目的，則其中一個差別本然地確定另一個。這時一類是包括在另一類之下。\n現在要討論那個對象機能包括在那個目的之下。要明白此點，先得知道一個差別愈是取自比較特殊的形式，也是愈特殊的。其次，一個動因愈普遍，則由它而來之形式也愈普遍。第三，目的愈是最後者，愈與比較普遍之動因相呼應。例如:勝利乃全部軍隊之目的，亦及最高將領所望之目的;至於這個或那個分隊之佈防，則是下級將領所望之目的。由此可知，由目的而來之差別比較籠統;而由本然指向此目的之對象而來之差別是其殊帽。因為意志之本然對象是目的，而意志是靈魂其他一切機能之推動者，每個機能之專有對象，即各個別行動之對象。",
+      "after": "我解答如下：外在行動之對象對意志之目的，有兩種關係。一是本然的，如努力戰爭之為勝利；另一種是偶然的，如拿他人的東西為去施捨。按哲學家在《形上學》卷七第十二章說的，劃分一共類並構成此共類之別類的差別，須是那本然劃分此共類者。若是偶然者，則分類不妥，如一人說：動物分有理性者及無理性者；無理性動物分哺乳者及不哺乳者——哺乳與不哺乳者不是本然地就能確定那無理性者。而該這樣來分：動物分有足者及無足者；有足者分為有二足者，有四足者，及許多足者。這樣則後者是本然地確定前面之差別。\n因此，若對象不是本然地指向目的，則由對象而來之差別，不是本然地確定那來自目的者；反之亦然。這樣則其中之一類不屬於另一類，這時道德行為是屬於兩個不相干的類別。因此我們說，那為通姦而偷竊者，以一個行動做了兩個惡。若對象本然指向目的，則其中一個差別本然地確定另一個。這時一類是包括在另一類之下。\n現在要討論那個對象機能包括在那個目的之下。要明白此點，先得知道一個差別愈是取自比較特殊的形式，也是愈特殊的。其次，一個動因愈普遍，則由它而來之形式也愈普遍。第三，目的愈是最後者，愈與比較普遍之動因相呼應。例如：勝利乃全部軍隊之目的，亦及最高將領所望之目的；至於這個或那個分隊之佈防，則是下級將領所望之目的。由此可知，由目的而來之差別比較籠統；而由本然指向此目的之對象而來之差別是其殊相。因為意志之本然對象是目的，而意志是靈魂其他一切機能之推動者，每個機能之專有對象，即各個別行動之對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "施捨ο",
+          "after": "施捨。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "差刑",
+          "after": "差別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "亦然心",
+          "after": "亦然。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "殊帽",
+          "after": "殊相",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1965,
+        1966
+      ],
+      "before": "按本體來說，一物不能屬於兩個不同系統的類別。但按東西之附加物，一個東西可以屬於不同的類別。就如這個水果，按顏色屬於一類，如白色東西之類;而按氣味，屬於香甜之類。同樣，一個按本體屬於某類的行動，按附加之有關道德的情況，可以屬於兩類，自日前面第一題第三節釋疑3.己講過的。",
+      "after": "按本體來說，一物不能屬於兩個不同系統的類別。但按東西之附加物，一個東西可以屬於不同的類別。就如這個水果，按顏色屬於一類，如白色東西之類；而按氣味，屬於香甜之類。同樣，一個按本體屬於某類的行動，按附加之有關道德的情況，可以屬於兩類，如前面第一題第三節釋疑3.己講過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自日前面",
+          "after": "如前面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "在實施方面，目的是最後者，但在理性之意念中是第一個;道德行為之類別是按理性決定。",
+      "after": "在實施方面，目的是最後者，但在理性之意念中是第一個；道德行為之類別是按理性決定。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "差別對共類如形式之與質料，因為它使共類成為現實的。但也可視共類比另IJ類更形式化，因為共類更絕對，更少受限制。因此，按《物理學》卷二第三章上說的，定義之各部分歸原於形式因之共類。按此，貝!J共類是另IJ類之形式原因，而且愈是籠統，愈形式化。",
+      "after": "差別對共類如形式之與質料，因為它使共類成為現實的。但也可視共類比別類更形式化，因為共類更絕對，更少受限制。因此，按《物理學》卷二第三章上說的，定義之各部分歸原於形式因之共類。按此，則共類是別類之形式原因，而且愈是籠統，愈形式化。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ類",
+          "after": "別類",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝!J",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "是否有些行動按其本類是中性的",
+      "after": "是否有些行動按其本類是中性的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "有關第八節，我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "似乎沒有行動按本類是中性的(不善不惡)。因為:",
+      "after": "似乎沒有行動按本類是中性的(不善不惡)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "按奧斯定說的，惡是「善之欠缺」(《基本教理手冊》第十一章)。但按哲學家《範疇論》第八章說的，「缺欠」與「具有」是直接對立的。所以沒有行動按本類是中性的$猶如立於善與惡之中間。",
+      "after": "按奧斯定說的，惡是「善之欠缺」(《基本教理手冊》第十一章)。但按哲學家《範疇論》第八章說的，「缺欠」與「具有」是直接對立的。所以沒有行動按本類是中性的，猶如立於善與惡之中間。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中性的$",
+          "after": "中性的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "此外，如第六節、第一題第三節己說過的，人性行動或自目的或自對象取得類別。但所有的對象及目的皆或善或惡。所以，一切行動按其本類或是善或是惡。故沒有一個按本類是中性的。",
+      "after": "此外，如第六節、第一題第三節己說過的，人性行動或自目的或自對象取得類別。但所有的對象及目的皆或善或惡。所以，一切行動按其本類或是善或是惡。故沒有一個按本類是中性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1966
+      ],
+      "before": "此外，前面第一節說過，行為具有其應有之善即為善，如有所缺即為惡。但一切行動，必然地或具有圓滿之善，或有所缺。因此一切行動按其本類必然或是善，或是惡，沒有中性的。",
+      "after": "此外，前面第一節說過，行為具有其應有之善即為善，如有所缺即為惡。但一切行動，必然地或具有圓滿之善，或有所缺。因此一切行動按其本類必然或是善，或是惡，沒有中性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1966,
+        1967
+      ],
+      "before": "奧斯定在《山中聖訓詮釋》卷二第十八章說: 「有些居中的事情，可出於善意或惡意，不可輕率加以判斷。」所以，有些行動按其本額是中性的。",
+      "after": "奧斯定在《山中聖訓詮釋》卷二第十八章說：「有些居中的事情，可出於善意或惡意，不可輕率加以判斷。」所以，有些行動按其本類是中性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本額",
+          "after": "本類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1967
+      ],
+      "before": "我解答如下:前面第二及第五節說過，行動皆由對象分類別;而人性行動，或稱為道德行動，是按與人性行為之根本相關之對象分帥，亦即與理性相關之對象。因此，若行動之對象含有合於理性者，貝IJ此類行動是善的，如施捨東西給貧困者;若含有相反理性者，頁。此類行動是惡的，例如偷竊，亦即取他人之東西。有時行動之對象，不合屬於理性的東西，例如從地上除一根草，去田野等等。這些行動按其本類是中性的。",
+      "after": "我解答如下：前面第二及第五節說過，行動皆由對象分類別；而人性行動，或稱為道德行動，是按與人性行為之根本相關之對象分類別，亦即與理性相關之對象。因此，若行動之對象含有合於理性者，則此類行動是善的，如施捨東西給貧困者；若含有相反理性者，則此類行動是惡的，例如偷竊，亦即取他人之東西。有時行動之對象，不含屬於理性的東西，例如從地上撿一根草，去田野等等。這些行動按其本類是中性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分帥",
+          "after": "分類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頁。",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不合屬於",
+          "after": "不含屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地上除",
+          "after": "地上撿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1967
+      ],
+      "before": "缺欠分為兩種。有的在於「賞缺」全面欠缺(pri-vatum巴sse)。這種什麼也不留下，全面皆除去;如眼瞎全面除去視力，黑暗全面除去光明，死亡全面除去生命。有關物體的這種「缺欠」與相對之「真有」之間，不能有中立者。另一種缺欠在於「有缺」局部欠缺(privari)。如疾病是健康之缺欠，但並非整個健康全被除去，而有似是走向健康全面欠缺之路，健康全面欠缺亦即死亡。這種「缺欠」既然有所遺留，與相對之「具有」不常直接對立。如辛布里秋(Simplici肘，約490-560年)在《範疇論註疏》(Cornmento Super librum Praedic)中說的，所謂惡是善之欠缺，便是按這意義:因為不除去全面之善，而是有所遺留。故在善惡之間能有中立者。",
+      "after": "缺欠分為兩種。有的在於「實缺」全面欠缺(pri-vatum esse)。這種什麼也不留下，全面皆除去；如眼瞎全面除去視力，黑暗全面除去光明，死亡全面除去生命。有關物體的這種「缺欠」與相對之「具有」之間，不能有中立者。另一種缺欠在於「有缺」局部欠缺(privari)。如疾病是健康之缺欠，但並非整個健康全被除去，而有似是走向健康全面欠缺之路，健康全面欠缺亦即死亡。這種「缺欠」既然有所遺留，與相對之「具有」不常直接對立。如辛布里秋(Simplicius，約490~560年)在《範疇論註疏》(Commento Super librum Praedic)中說的，所謂惡是善之欠缺，便是按這意義：因為不除去全面之善，而是有所遺留。故在善惡之間能有中立者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "賞缺",
+          "after": "實缺",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "vatum巴sse",
+          "after": "vatum esse",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Simplici肘",
+          "after": "Simplicius",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "490-560",
+          "after": "490~560",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Cornmento",
+          "after": "Commento",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.ad2",
+      "article": 8,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1967
+      ],
+      "before": "每個對象或目的皆有些善或惡，至少有自然的善或惡;但不常有道德性的善惡，因為這是看其與理性之關係，如前面正解講過的。這裡討論的便是這種善惡。",
+      "after": "每個對象或目的皆有些善或惡，至少有自然的善或惡；但不常有道德性的善惡，因為這是看其與理性之關係，如前面正解講過的。這裡討論的便是這種善惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a008.ad3",
+      "article": 8,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1967
+      ],
+      "before": "並非凡屬於一行動者，皆屬於此行動之類別。為此，雖然屬於此行為的圓滿之善不全包含在類的理中，並不因此那行動按本類便是惡的，但也不是善的，例如:人按其本類不是有德者，也不是有毛病者。",
+      "after": "並非凡屬於一行動者，皆屬於此行動之類別。為此，雖然屬於此行為的圓滿之善不全包含在類的理中，並不因此那行動按本類便是惡的，但也不是善的，例如：人按其本類不是有德者，也不是有毛病者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.heading",
+      "article": 9,
+      "block": "节号",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "第九節",
+      "after": "第九節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a009.title",
+      "article": 9,
+      "block": "标题",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "是否有些行動按個體為中性者",
+      "after": "是否有些行動按個體為中性者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a009.intro",
+      "article": 9,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "有關第九節，我們討論如下:",
+      "after": "有關第九節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.objection-intro",
+      "article": 9,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "似乎有些行動按個體是中性的。因為:",
+      "after": "似乎有些行動按個體是中性的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.arg1",
+      "article": 9,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "沒有類別不含有或能含有個體。但前面第八節說過，有些行動按其本類是中性的。所以有些個體行動能是中性的。",
+      "after": "沒有類別不含有或能含有個體。但前面第八節說過，有些行動按其本類是中性的。所以有些個體行動能是中性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a009.arg2",
+      "article": 9,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "此外，按《倫理學》卷二第一章說的，個別行動久之造成與這些行動相合的習性，但有些習性是中性的。因為哲學家在《倫理學》卷四第一章說，有些人不是惡的，如溫和的人、奢侈的人;但也不是善人，因為不是有德者。故按習性他們是中性的。所以，有些個體行動是中性的。",
+      "after": "此外，按《倫理學》卷二第一章說的，個別行動久之造成與這些行動相合的習性，但有些習性是中性的。因為哲學家在《倫理學》卷四第一章說，有些人不是惡的，如溫和的人、奢侈的人；但也不是善人，因為不是有德者。故按習性他們是中性的。所以，有些個體行動是中性的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.arg3",
+      "article": 9,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "此外，道德性的善屬於德性，而道德性的惡屬於惡習。但有時一人不將按本類中性的行動，用於德性或惡習之目的。所以，有時個體行動是中性的。",
+      "after": "此外，道德性的善屬於德性，而道德性的惡屬於惡習。但有時一人不將按本類中性的行動，用於德性或惡習之目的。所以，有時個體行動是中性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a009.sed_contra",
+      "article": 9,
+      "block": "反之",
+      "pdf_file_pages": [
+        1968
+      ],
+      "before": "教宗額我略一世在《褔音論贊》卷一第六篇語道詞中卻說: 「閒話即是無正當用途，不必要，及與熱心無關的。」但閑話是惡;因為《瑪竇福音》第十二章36節說: 「每句廢話，在審判之日，都要交帳。」倘若不缺少正當的必要或熱心用途，則是善。所以，凡說話或是善或是惠。按同理，其他行動也或是善，或是惡。故沒有中性的個體行動。",
+      "after": "教宗額我略一世在《福音論贊》卷一第六篇證道詞中卻說：「閒話即是無正當用途，不必要，及與熱心無關的。」但閑話是惡；因為《瑪竇福音》第十二章36節說：「每句廢話，在審判之日，都要交帳。」倘若不缺少正當的必要或熱心用途，則是善。所以，凡說話或是善或是惡。按同理，其他行動也或是善，或是惡。故沒有中性的個體行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音論贊",
+          "after": "福音論贊",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "語道詞",
+          "after": "證道詞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善或是惠",
+          "after": "善或是惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.respondeo",
+      "article": 9,
+      "block": "正解",
+      "pdf_file_pages": [
+        1968,
+        1969
+      ],
+      "before": "我解答如下:有時一個行動按本類是中性的，但個別地來看，買IJ或是善的，或是惡的。因為按前面第三節說過的，人性行動不只由對象取得善性一一即本類之善，也由於情況一一情況就似依附體;就如有些東西以個體性依附體資格，而屬於某個體的人，但按類另IJ則不屬於人。每一個別行動必有某情況使之成為善，或成為惡;至少在意念之目的方面。既然理性之任務是安排，出於有意的行動;若非指向合理之目的，在這點上即相反理性，因而有惡之義。若是指向正當之目的，則與理性相合，因而有善之義。那麼，一行動必然或是、或不是指向正當之目的。因此，人之一切出於有意的行動，以個體行動觀之，必然是善，或是惡。\n若一行動不是出於有意，而是出於反射作用，例如一人不思不想地撫摸鬍鬚，或舉手投足;則嚴格地說，那不是大i生行動，因為人性行動須出於理性。這種行動是中性的，因為是人性行動之頡別以外的。禮疑1按本類中性的行動能有多種方式。一種是按本類應當是中立的，這時則所舉之理由成立。但是沒有一個行動是這樣中性的，因為沒有一個人性行動之對象，不能由於目的或情況而被用於善或惡。另一種按本類中性的行動，即其本類不要求它是善，或是惡。故此，它能由於他方而成為善或惡;例如:人按本類不必是白色或黑色的，但也不是不能是白色的或黑色的一白色或黑色可以由其類以外之根本而加在人身上。\n2.哲學家說，那有害於他人者纔是真正的惡人。為此他說奢侈者不是惡人，因為他不害別人，只害自己。其他對別人無害的人也是一樣。我們這裡說的惡，是指一般相反理性者。故此，所有之個體行動皆或善或惡，如正解己說過的。\n3.凡出於有意的目的，必屬於某種德性之善，或某惡習，之惡。因為一人正當地保養身體，使之休息，在那用其身體於德業的人，便等於是使這些行動指向德業，其他行動也是一樣。",
+      "after": "我解答如下：有時一個行動按本類是中性的，但個別地來看，則或是善的，或是惡的。因為按前面第三節說過的，人性行動不只由對象取得善性——即本類之善，也由於情況——情況就似依附體；就如有些東西以個體性依附體資格，而屬於某個體的人，但按類別則不屬於人。每一個別行動必有某情況使之成為善，或成為惡；至少在意念之目的方面。既然理性之任務是安排，出於有意的行動；若非指向合理之目的，在這點上即相反理性，因而有惡之義。若是指向正當之目的，則與理性相合，因而有善之義。那麼，一行動必然或是、或不是指向正當之目的。因此，人之一切出於有意的行動，以個體行動觀之，必然是善，或是惡。\n若一行動不是出於有意，而是出於反射作用，例如一人不思不想地撫摸鬍鬚，或舉手投足；則嚴格地說，那不是人性行動，因為人性行動須出於理性。這種行動是中性的，因為是人性行動之類別以外的。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:有時一個行動按本類是中性的，但個別地來看，買IJ或是善的，或是惡的。因為按前面第三節說過的，人性行動不只由對象取得善性一一即本類之善，也由於情況一一情況就似依附體;就如有些東西以個體性依附體資格，而屬於某個體的人，但按類另IJ則不屬於人。每一個別行動必有某情況使之成為善，或成為惡;至少在意念之目的方面。既然理性之任務是安排，出於有意的行動;若非指向合理之目的，在這點上即相反理性，因而有惡之義。若是指向正當之目的，則與理性相合，因而有善之義。那麼，一行動必然或是、或不是指向正當之目的。因此，人之一切出於有意的行動，以個體行動觀之，必然是善，或是惡。\n若一行動不是出於有意，而是出於反射作用，例如一人不思不想地撫摸鬍鬚，或舉手投足;則嚴格地說，那不是大i生行動，因為人性行動須出於理性。這種行動是中性的，因為是人性行動之頡別以外的。禮疑1按本類中性的行動能有多種方式。一種是按本類應當是中立的，這時則所舉之理由成立。但是沒有一個行動是這樣中性的，因為沒有一個人性行動之對象，不能由於目的或情況而被用於善或惡。另一種按本類中性的行動，即其本類不要求它是善，或是惡。故此，它能由於他方而成為善或惡;例如:人按本類不必是白色或黑色的，但也不是不能是白色的或黑色的一白色或黑色可以由其類以外之根本而加在人身上。\n2.哲學家說，那有害於他人者纔是真正的惡人。為此他說奢侈者不是惡人，因為他不害別人，只害自己。其他對別人無害的人也是一樣。我們這裡說的惡，是指一般相反理性者。故此，所有之個體行動皆或善或惡，如正解己說過的。\n3.凡出於有意的目的，必屬於某種德性之善，或某惡習，之惡。因為一人正當地保養身體，使之休息，在那用其身體於德業的人，便等於是使這些行動指向德業，其他行動也是一樣。",
+          "after": "我解答如下:有時一個行動按本類是中性的，但個別地來看，買IJ或是善的，或是惡的。因為按前面第三節說過的，人性行動不只由對象取得善性一一即本類之善，也由於情況一一情況就似依附體;就如有些東西以個體性依附體資格，而屬於某個體的人，但按類另IJ則不屬於人。每一個別行動必有某情況使之成為善，或成為惡;至少在意念之目的方面。既然理性之任務是安排，出於有意的行動;若非指向合理之目的，在這點上即相反理性，因而有惡之義。若是指向正當之目的，則與理性相合，因而有善之義。那麼，一行動必然或是、或不是指向正當之目的。因此，人之一切出於有意的行動，以個體行動觀之，必然是善，或是惡。\n若一行動不是出於有意，而是出於反射作用，例如一人不思不想地撫摸鬍鬚，或舉手投足;則嚴格地說，那不是大i生行動，因為人性行動須出於理性。這種行動是中性的，因為是人性行動之頡別以外的。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "大i生",
+          "after": "人性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頡別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.ad1",
+      "article": 9,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "",
+      "after": "按本類中性的行動能有多種方式。一種是按本類應當是中立的，這時則所舉之理由成立。但是沒有一個行動是這樣中性的，因為沒有一個人性行動之對象，不能由於目的或情況而被用於善或惡。另一種按本類中性的行動，即其本類不要求它是善，或是惡。故此，它能由於他方而成為善或惡；例如：人按本類不必是白色或黑色的，但也不是不能是白色的或黑色的——白色或黑色可以由其類以外之根本而加在人身上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "按本類中性的行動能有多種方式。一種是按本類應當是中立的，這時則所舉之理由成立。但是沒有一個行動是這樣中性的，因為沒有一個人性行動之對象，不能由於目的或情況而被用於善或惡。另一種按本類中性的行動，即其本類不要求它是善，或是惡。故此，它能由於他方而成為善或惡;例如:人按本類不必是白色或黑色的，但也不是不能是白色的或黑色的一白色或黑色可以由其類以外之根本而加在人身上。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "黑色的一白色",
+          "after": "黑色的——白色",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.ad2",
+      "article": 9,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "",
+      "after": "哲學家說，那有害於他人者才是真正的惡人。為此他說奢侈者不是惡人，因為他不害別人，只害自己。其他對別人無害的人也是一樣。我們這裡說的惡，是指一般相反理性者。故此，所有之個體行動皆或善或惡，如正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "哲學家說，那有害於他人者纔是真正的惡人。為此他說奢侈者不是惡人，因為他不害別人，只害自己。其他對別人無害的人也是一樣。我們這裡說的惡，是指一般相反理性者。故此，所有之個體行動皆或善或惡，如正解己說過的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a009.ad3",
+      "article": 9,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "",
+      "after": "凡出於有意的目的，必屬於某種德性之善，或某惡習之惡。因為一人正當地保養身體，使之休息，在那用其身體於德業的人，便等於是使這些行動指向德業，其他行動也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "凡出於有意的目的，必屬於某種德性之善，或某惡習，之惡。因為一人正當地保養身體，使之休息，在那用其身體於德業的人，便等於是使這些行動指向德業，其他行動也是一樣。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "某惡習，之惡",
+          "after": "某惡習之惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.heading",
+      "article": 10,
+      "block": "节号",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "第十節",
+      "after": "第十節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a010.title",
+      "article": 10,
+      "block": "标题",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "是否有的情況使人性行動構成善或惡之類別",
+      "after": "是否有的情況使人性行動構成善或惡之類別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a010.intro",
+      "article": 10,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "有關第十節，我們討論如下:",
+      "after": "有關第十節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.objection-intro",
+      "article": 10,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1969
+      ],
+      "before": "情況似乎不能構成行動之善惡類別。因為:",
+      "after": "情況似乎不能構成行動之善惡類別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.arg1",
+      "article": 10,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1969,
+        1970
+      ],
+      "before": "行動之類別是由對象而來。但情況與對象不同。故情況不賦行動以類別。",
+      "after": "行動之類別是由對象而來。但情況與對象不同。故情況不賦行動以類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a010.arg2",
+      "article": 10,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1970
+      ],
+      "before": "此外，按前面第七題第一節說的，情況有似道德行動之依附體。但依附體不構成類刑。所以情況也不構成行動之善惡類肘。",
+      "after": "此外，按前面第七題第一節說的，情況有似道德行動之依附體。但依附體不構成類別。所以情況也不構成行動之善惡類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類肘",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.arg3",
+      "article": 10,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1970
+      ],
+      "before": "此外，一個東西不屬於許多類別。然而一個行動有許多情況。所以情況不使道德行動構成善惡之類別。",
+      "after": "此外，一個東西不屬於許多類別。然而一個行動有許多情況。所以情況不使道德行動構成善惡之類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a010.sed_contra",
+      "article": 10,
+      "block": "反之",
+      "pdf_file_pages": [
+        1970
+      ],
+      "before": "地方是一種情況。但地方使道德行動構成一種惡的類別，因為從神聖的地方偷出東西是褻續。所以情況便道德行動構成一種善或惡之賴別。",
+      "after": "地方是一種情況。但地方使道德行動構成一種惡的類別，因為從神聖的地方偷出東西是褻瀆。所以情況使道德行動構成一種善或惡之類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褻續",
+          "after": "褻瀆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情況便",
+          "after": "情況使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "賴別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.respondeo",
+      "article": 10,
+      "block": "正解",
+      "pdf_file_pages": [
+        1970
+      ],
+      "before": "我解答如下:自然物體之類別是由自然形式構成;同樣，道德行為之類別是由理性所設之形式構成，看前面第五節所講的便可以知道。然而，自然物體是固定於一酌‘自然之程序又不能推衍到無限，故必得有個最後形式，由這形式構成類則，在這以後不能有別的類別。故此，在自然物體方面，依附體不能視為可構成類別的特點。但理性的程序不是固定於一的一一無論在何階段皆仍能向前推展。因此，在一個行動中，被視為決定類另IJ之對象上的附加情況者，可再被理性視為決定類別之對象的主要條件;例如，取他人的東西是因他人的東西定類刑，為此構成偷竊之類。若在這車上談到時間和地方，貝IJ時地乃情況;但理性也能安排時間和地方等等。有時關於對象的地方條件可被視為相反理性，例如:理性可設定不許有辱於神聖的地方。如此，則由神聖地方取走他人的東西，加一層違反理性的原因。故此，在前一行動中，地方當被視為情況，現在則被視為對象違反理性的主要原因。這樣說來，貝IJ每當一情況關係到理性之特別秩序，無論相合或不相合，這情況必定賦給道德行動之善惡類刑。",
+      "after": "我解答如下：自然物體之類別是由自然形式構成；同樣，道德行為之類別是由理性所設之形式構成，看前面第五節所講的便可以知道。然而，自然物體是固定於一的；自然之程序又不能推衍到無限，故必得有個最後形式，由這形式構成類別，在這以後不能有別的類別。故此，在自然物體方面，依附體不能視為可構成類別的特點。但理性的程序不是固定於一的——無論在何階段皆仍能向前推展。因此，在一個行動中，被視為決定類別之對象上的附加情況者，可再被理性視為決定類別之對象的主要條件；例如，取他人的東西是因他人的東西定類別，為此構成偷竊之類。若在這事上談到時間和地方，則時地乃情況；但理性也能安排時間和地方等等。有時關於對象的地方條件可被視為相反理性，例如：理性可設定不許有辱於神聖的地方。如此，則由神聖地方取走他人的東西，加一層違反理性的原因。故此，在前一行動中，地方當被視為情況，現在則被視為對象違反理性的主要原因。這樣說來，則每當一情況關係到理性之特別秩序，無論相合或不相合，這情況必定賦給道德行動之善惡類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一酌‘",
+          "after": "一的；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "構成類則",
+          "after": "構成類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這車上",
+          "after": "這事上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.ad1",
+      "article": 10,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "那賦行動以類別的情況，是被視為對象之條件，及對象的可重主要差別，前面正解已經講過。",
+      "after": "那賦行動以類別的情況，是被視為對象之條件，及對象的一種主要差別，前面正解己經講過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可重主要差別",
+          "after": "一種主要差別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經講過",
+          "after": "己經講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.ad2",
+      "article": 10,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "'情況若只是情況‘既然是依附體的資格，不構成類另IJ;但若變成對象的主要條件，貝IJ構成類別。",
+      "after": "情況若只是情況，既然是依附體的資格，不構成類別；但若變成對象的主要條件，則構成類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "'情況",
+          "after": "情況",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情況‘",
+          "after": "情況，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a010.ad3",
+      "article": 10,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "並非每一情況皆使道德行動構成善惡之類別;因為不是每一情況皆造成與理性之調諧或不調諧。故此，一個行動之情況雖然很多，這行動並不一定就屬於許多類別。不過按前面第七節釋疑1.、第一題第三節釋疑3.說的，縱然一個道德行動屬於許多甚而不相關的類別，也沒有什麼不合適的地方。",
+      "after": "並非每一情況皆使道德行動構成善惡之類別；因為不是每一情況皆造成與理性之調諧或不調諧。故此，一個行動之情況雖然很多，這行動並不一定就屬於許多類別。不過按前面第七節釋疑1.、第一題第三節釋疑3.說的，縱然一個道德行動屬於許多甚而不相關的類別，也沒有什麼不合適的地方。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.heading",
+      "article": 11,
+      "block": "节号",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "第十一節",
+      "after": "第十一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a011.title",
+      "article": 11,
+      "block": "标题",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "增加善惡程度之情況，是否皆使道德行動構成善惡之類別",
+      "after": "增加善惡程度之情況，是否皆使道德行動構成善惡之類別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a011.intro",
+      "article": 11,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "有關第十一節，我們討論如下:",
+      "after": "有關第十一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.objection-intro",
+      "article": 11,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "似乎凡與善惡有關之情況，皆賦行動以類別。因為:",
+      "after": "似乎凡與善惡有關之情況，皆賦行動以類別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.arg1",
+      "article": 11,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "善與惡乃道德行動在類上的差別。那造成道德行動之善惡上的差別的，是使之按種類差別上不同，亦即按類別不同。但那增加行動之善惡者，是使之按善惡有所不同。所以是使之類別不同。所以，凡增加行動之善惡的情況，皆構成類刑。",
+      "after": "善與惡乃道德行動在類上的差別。那造成道德行動之善惡上的差別的，是使之按種類差別上不同，亦即按類別不同。但那增加行動之善惡者，是使之按善惡有所不同。所以是使之類別不同。所以，凡增加行動之善惡的情況，皆構成類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.arg2",
+      "article": 11,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1971
+      ],
+      "before": "此外，附加之情況，其本身或具有善或惡之理，或者沒有。若沒有，則不能增加行動之善惡。因為本身不是善者，不能造成更大的善;而本身不是惡的，也不能使惡更大。若其本身具有善惡之理，買IJ本身已有善惡之類別。故增加善惡之情況‘構成新的善惡之類別。",
+      "after": "此外，附加之情況，其本身或具有善或惡之理，或者沒有。若沒有，則不能增加行動之善惡。因為本身不是善者，不能造成更大的善；而本身不是惡的，也不能使惡更大。若其本身具有善惡之理，則本身已有善惡之類別。故增加善惡之情況，構成新的善惡之類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情況‘",
+          "after": "情況，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.arg3",
+      "article": 11,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1971,
+        1972
+      ],
+      "before": "此外，按狄奧尼修在《神名論》第四章說的，「惡是個別缺欠造成的」。凡增加惡性的情況，必有個別缺欠。所以每一情況，皆增加罪的新類別;同理，增加善性的情況，似也增加新的善之類別。就如每個單位加在數目上，便構成一個新的數目類則，而善是在於「數臣、重量、尺度」(參照第一集第五題第五節)。",
+      "after": "此外，按狄奧尼修在《神名論》第四章說的，「惡是個別缺欠造成的」。凡增加惡性的情況，必有個別缺欠。所以每一情況，皆增加罪的新類別；同理，增加善性的情況，似也增加新的善之類別。就如每個單位加在數目上，便構成一個新的數目類別，而善是在於「數目、重量、尺度」(參照第一集第五題第五節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "數目類則",
+          "after": "數目類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "數臣",
+          "after": "數目",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.sed_contra",
+      "article": 11,
+      "block": "反之",
+      "pdf_file_pages": [
+        1972
+      ],
+      "before": "多與少不使類別不同。但增加善惡之情況是關於多少的問題。所以不是凡增加善惡之情況，皆使道德行動構成善惡之類別。",
+      "after": "多與少不使類別不同。但增加善惡之情況是關於多少的問題。所以不是凡增加善惡之情況，皆使道德行動構成善惡之類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q018.a011.respondeo",
+      "article": 11,
+      "block": "正解",
+      "pdf_file_pages": [
+        1972
+      ],
+      "before": "我解答如下:前面第十節已經說過，情況若關係到理性之特別安排，貝IJ構成道德行動善惡之類別。有時一個情況，若非有別的情況賦道穗行動以善惡之類刑，貝IJ其自身與理性在善惡上之安排沒有關係。例如，拿的東西多或少，與理性在善惡上之安排本來沒有關係，除非假定有別的條件，因而使行為有善惡，例如東西是他人的，這時始違反理性。因此，拿他人之東西數量多寡，在罪的種類上沒有分別。不過數量可以加重或減輕罪惡，在其他善惡方面也是一樣。所以，不是凡增加善惡的情況，皆便道德行動之種類不同。",
+      "after": "我解答如下：前面第十節己經說過，情況若關係到理性之特別安排，則構成道德行動善惡之類別。有時一個情況，若非有別的情況賦道德行動以善惡之類別，則其自身與理性在善惡上之安排沒有關係。例如，拿的東西多或少，與理性在善惡上之安排本來沒有關係，除非假定有別的條件，因而使行為有善惡，例如東西是他人的，這時始違反理性。因此，拿他人之東西數量多寡，在罪的種類上沒有分別。不過數量可以加重或減輕罪惡，在其他善惡方面也是一樣。所以，不是凡增加善惡的情況，皆使道德行動之種類不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "賦道穗",
+          "after": "賦道德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皆便道德",
+          "after": "皆使道德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.ad1",
+      "article": 11,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1972
+      ],
+      "before": "那可有輕有重者，輕重之不同不造成類別的不同;例如，白色之輕重不同的東西，不構成顏色種類的不同。同樣‘那便在善惡上輕重不同的，不便道德行動之種類不同。",
+      "after": "那可有輕有重者，輕重之不同不造成類別的不同；例如，白色之輕重不同的東西，不構成顏色種類的不同。同樣，那便在善惡上輕重不同的，不使道德行動之種類不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同樣‘",
+          "after": "同樣，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不便道德",
+          "after": "不使道德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.ad2",
+      "article": 11,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1972
+      ],
+      "before": "那加重罪過或增加行動善績的情況，有時本身無善惡，其善惡來自與別的條件的配合，按前面正解已講過的;因此，不構成新的類刑，只加重行動由別的條件而來之善惡。",
+      "after": "那加重罪過或增加行動善績的情況，有時本身無善惡，其善惡來自與別的條件的配合，按前面正解己講過的；因此，不構成新的類別，只加重行動由別的條件而來之善惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已講過",
+          "after": "己講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q018.a011.ad3",
+      "article": 11,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1972
+      ],
+      "before": "不是每個情況本身皆構成個別的缺欠，只有時由於其他關(系。同樣，若非由於其他關係，也不常增加新的完美。而且，縱然增加善惡，也不常使善惡之類別不同c",
+      "after": "不是每個情況本身皆構成個別的缺欠，只有時由於其他關係。同樣，若非由於其他關係，也不常增加新的完美。而且，縱然增加善惡，也不常使善惡之類別不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不同c",
+          "after": "不同。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
