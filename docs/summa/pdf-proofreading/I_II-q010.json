@@ -1,0 +1,1469 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q010",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q010",
+    "title": "論意志之行動方式",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1885,
+      1886,
+      1887,
+      1888,
+      1889,
+      1890,
+      1891,
+      1892
+    ],
+    "printed_pages": [
+      114,
+      121
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 14
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q10.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q10.json": "68896b67e4b5a4a12df070b38cd7ddfd141cb9cc5728d008a946d54eb0f4ea83"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q010.a002.ad1",
+      "pdf_file_page": 1888,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q010.a003.respondeo",
+      "pdf_file_page": 1890,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q010.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "然後要討論意志怎樣動(參照第八題引言}。\n關於此點，分為四節討論:\n一、意志是否自然動向什麼東西。\n二、意志是否必然受其對象推動。\n三、意志是否必然受低級嗜慾之推動。\n四、意志是否必然受天主自外推動。",
+      "after": "然後要討論意志怎樣動(參照第八題引言)。\n關於此點，分為四節討論：\n一、意志是否自然動向什麼東西。\n二、意志是否必然受其對象推動。\n三、意志是否必然受低級嗜慾之推動。\n四、意志是否必然受天主自外推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "引言}",
+          "after": "引言)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "意志是否自然動向什麼東西",
+      "after": "意志是否自然動向什麼東西",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "有關第一節，我們討論如下：",
+      "after": "有關第一節，我們討論如下：",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "似乎意志不是自然動向什麼東西。因為.",
+      "after": "似乎意志不是自然動向什麼東西。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為.",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "自然動作者，與情願動作者，按《物理學》卷二第一章說的，是兩個相對的類別。所以，意志不是自然動向什麼東西。",
+      "after": "自然動作者，與情願動作者，按《物理學》卷二第一章說的，是兩個相對的類別。所以，意志不是自然動向什麼東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "此外，那自然的，常在其所屬之物內，例如:火常是熱的。但沒有任何動作常在意志內。所以，意志的動作沒有一個是自然的。",
+      "after": "此外，那自然的，常在其所屬之物內，例如：火常是熱的。但沒有任何動作常在意志內。所以，意志的動作沒有一個是自然的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "此外，天性是限定於一的。但意志指向互相對立者。所以，意志什麼也不自然地願意。",
+      "after": "此外，天性是限定於一的。但意志指向互相對立者。所以，意志什麼也不自然地願意。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1885
+      ],
+      "before": "意志之動態隨智性之行動。但智性自然瞭解一些東西，所以，意志也自然地願意一些東西。",
+      "after": "意志之動態隨智性之行動。但智性自然瞭解一些東西。所以，意志也自然地願意一些東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西，所以",
+          "after": "東西。所以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1885,
+        1886
+      ],
+      "before": "我解答如下:按波其武在《論二天性》第一章及哲學家在《形上學》卷五第四章說的，「自然」(天性)有許多意義。有時是指可動之物的內在根本。按《物理學》卷二第一章說的，這種自然或是物質，或是物質形式。有時自然是指任何實體，甚而任何東西。按這意義，說一個東西之自然(天性)是指按其本質屬於這東西者，也就是按其本身是在這東西內的。那些不是按本質屬於一物者，歸屬於一按本質而屬於此物者‘此即其根本。按這意義講自然，那些適合於一物者，其根本必定是自然的。這在智性方面很易瞭然，因為智性認知之原理﹒是那些自然就知道的。同樣，情願行動之根本，也應是自然就願意的。\n這自然就願意的有廣泛之善，是意志自然所追求的，就似每種機能之求自己之對象:還有那最後目的，其與可慾者問之關係，就等於第一原理與可理解者問之關係。此外，概括言乏，還有一切按天性適合於願意者的。的確，我們用意志不只追求屬於意志機能者，也追求屬於其他機能的，以及屬於墊個人的。是以，人不只自然就追求意志之對象，也追求那適合於其他機能者，如:屬於智性之真理認知，以及存在和生命，及一切關於其自然生存者。這一切好似個別的善，皆包括在意主之對象裡。",
+      "after": "我解答如下：按波其武在《論二天性》第一章及哲學家在《形上學》卷五第四章說的，「自然」(天性)有許多意義。有時是指可動之物的內在根本。按《物理學》卷二第一章說的，這種自然或是物質，或是物質形式。有時自然是指任何實體，甚而任何東西。按這意義，說一個東西之自然(天性)是指按其本質屬於這東西者，也就是按其本身是在這東西內的。那些不是按本質屬於一物者，歸屬於一按本質而屬於此物者，此即其根本。按這意義講自然，那些適合於一物者，其根本必定是自然的。這在智性方面很易瞭然，因為智性認知之原理，是那些自然就知道的。同樣，情願行動之根本，也應是自然就願意的。\n這自然就願意的有廣泛之善，是意志自然所追求的，就似每種機能之求自己之對象；還有那最後目的，其與可慾者間之關係，就等於第一原理與可理解者間之關係。此外，概括言之，還有一切按天性適合於願意者的。的確，我們用意志不只追求屬於意志機能者，也追求屬於其他機能的，以及屬於整個人的。是以，人不只自然就追求意志之對象，也追求那適合於其他機能者，如：屬於智性之真理認知，以及存在和生命，及一切關於其自然生存者。這一切好似個別的善，皆包括在意志之對象裡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此物者‘",
+          "after": "此物者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原理﹒",
+          "after": "原理，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自己之對象:",
+          "after": "自己之對象；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者問",
+          "after": "者間",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "言乏",
+          "after": "言之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "墊個",
+          "after": "整個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意主",
+          "after": "意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1886
+      ],
+      "before": "意志與自然之為相對的類別，有如兩種不同的原因，因為有些自然而然，有些由(意志)情願而然c意Jt之為因﹒與自然方式不同;因為意志是其行動之主人，而自然是固定於一的。1日因為意志是建立在自然上，在某些方面意志必然分有自然專有之行動;就如屬於較前之原因者，為較後立原因所分有。在每-個東西中，由於自然之存在，必先於來自意志之情願，是以意志向然就願意某些東西。",
+      "after": "意志與自然之為相對的類別，有如兩種不同的原因，因為有些自然而然，有些由(意志)情願而然。意志之為因，與自然方式不同；因為意志是其行動之主人，而自然是固定於一的。但因為意志是建立在自然上，在某些方面意志必然分有自然專有之行動；就如屬於較前之原因者，為較後之原因所分有。在每一個東西中，由於自然之存在，必先於來自意志之情願，是以意志自然就願意某些東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而然c意Jt之為因﹒",
+          "after": "而然。意志之為因，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1日因為",
+          "after": "但因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "較後立",
+          "after": "較後之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "每-個",
+          "after": "每一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志向然",
+          "after": "意志自然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1886,
+        1887
+      ],
+      "before": "在自然物中，那隻由形式而來之天性，常是現實的，如火之熱。但由質料而來之天性，不常是現實，有時是潛能狀態。因為形式是現實，而質料是潛能。運動乃「存在於潛能者之實現」刊物理學》卷三第一章)。是以，那屬於運動或由運動而來者，是自然物中不常在，例如:火不常向土動，而是不在其本處時始向上動。同樣，意志也不必常現宜地願意，在願意時則由潛能變為現實;而這只在某固定條件下發生。但天主的意志，是純現實，常現實地願意。",
+      "after": "在自然物中，那只由形式而來之天性，常是現實的，如火之熱。但由質料而來之天性，不常是現實，有時是潛能狀態。因為形式是現實，而質料是潛能。運動乃「存在於潛能者之實現」(《物理學》卷三第一章)。是以，那屬於運動或由運動而來者，是自然物中不常在，例如：火不常向上動，而是不在其本處時始向上動。同樣，意志也不必常現實地願意，在願意時則由潛能變為現實；而這只在某固定條件下發生。但天主的意志，是純現實，常現實地願意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那隻",
+          "after": "那只",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "刊物理學》",
+          "after": "(《物理學》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "向土動",
+          "after": "向上動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現宜",
+          "after": "現實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "天性常有「一」以相應，但這一是相對的。共類之天性有共類之一以相應，別類之天性有別類之一以相應，個別之天|生有個別之一以相應。既然意志是一種非物質的能力，有如智|笠，乃有廣泛性之「一」自然與之相應，即是善;就如應合智性也是廣泛性的一，即真，或物，或本質。在廣泛的善中，包括許多個別的善，但其中沒有一個能決定意志。",
+      "after": "天性常有「一」以相應，但這一是相對的。共類之天性有共類之一以相應，別類之天性有別類之一以相應，個別之天性有個別之一以相應。既然意志是一種非物質的能力，有如智性，乃有廣泛性之「一」自然與之相應，即是善；就如應合智性也是廣泛性的一，即真，或物，或本質。在廣泛的善中，包括許多個別的善，但其中沒有一個能決定意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天|生",
+          "after": "天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|笠",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "意志是否必然受其對象推動",
+      "after": "意志是否必然受其對象推動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "似乎意志必然受其對象推動。因為:",
+      "after": "似乎意志必然受其對象推動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "按《靈魂論》卷三第十章中說的，意志之對象之與意志，就似動因之與可動者。但動因若充足，必然推動可動者。所以，意志能必然地受其對象推動。",
+      "after": "按《靈魂論》卷三第十章中說的，意志之對象之與意志，就似動因之與可動者。但動因若充足，必然推動可動者。所以，意志能必然地受其對象推動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "此外，意志是一種非物質的能力，有如智性;如前面第一節釋疑3.說的，二者皆指向普遍性的對象。但智性必然地受其對象推動，意志亦然。",
+      "after": "此外，意志是一種非物質的能力，有如智性；如前面第一節釋疑3.說的，二者皆指向普遍性的對象。但智性必然地受其對象推動，意志亦然。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1887
+      ],
+      "before": "一人所欲者，威是目的，或是導致目的者。但好似人慾目的是出於必然;因為目的有似鑑賞知識中之原理，我們必得接受。而目的又是願意那導致目的者的理由，這樣則似乎我們也必然願意那導向目的者。所以，意志必然受其對象之推動。",
+      "after": "一人所欲者，或是目的，或是導致目的者。但好似人慾目的是出於必然；因為目的有似鑑賞知識中之原理，我們必得接受。而目的又是願意那導致目的者的理由；這樣則似乎我們也必然願意那導向目的者。所以，意志必然受其對象之推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "威是",
+          "after": "或是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理由，這樣",
+          "after": "理由；這樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1888
+      ],
+      "before": "按哲學家在《形上學》卷九第二章說的，理性機能可以指向相反的方向。但意志是理性機能，因為是「在理性部分」'如《靈魂論》卷三第九章所說的。所以，意志指向相反者。故此，任何一方也不必然地推動意志。",
+      "after": "按哲學家在《形上學》卷九第二章說的，理性機能可以指向相反的方向。但意志是理性機能，因為是「在理性部分」，如《靈魂論》卷三第九章所說的。所以，意志指向相反者。故此，任何一方也不必然地推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "部分」'",
+          "after": "部分」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1888
+      ],
+      "before": "我解答如下:意志之受推動分兩種:一種是關於行動之操使，一種是關於行動之類別;後者在於對象c在第一種行動方面，沒有對象能必然地推動意志;因為一人能夠不去想某對象，因而也不現實地願意那對象。\n(日關於第二種行動之方式，某些對象一定推動意志，某些對象不一定。在機能受對象推動時，要看對象所以椎動機能的理由。可見者之推動視覺，是以現實可見之顏色的理由。是J抖，若顏色呈現在視覺之前，必然推動視覺;除非人把視線移開一一這屬於行動之操!吏。倘若呈現於視覺者，不絕對是現實的顏色，而是從某方面而言是顏色，從別的方面說不是顏色，視覺就不一定看到這個對象。因為能注意那不是現實的顏色那臣，那樣就看不到這東西了c正如現實有顏色者是視覺之對象，善則是意志之對象;是以，若將一普遍和絕對善的對象呈現在意志前﹒若意志有所願，它必然趨向這個對象:因為不能願意相反者。但若呈現意志前的對象不是絕對善，貝IJ意志不一定願意。又因為任何善之缺點，具有不善之義;故那毫無缺點的完美之善才是意志所不能不願意者一一那就是幸福。其他個別的善，因為在某方面有所缺，可以視為不善;按這觀點，意志可以接受它或拒絕它。恨躁不間的觀點，言:1:對同一物可有不同的態度。",
+      "after": "我解答如下：意志之受推動分兩種：一種是關於行動之操使，一種是關於行動之類別；後者在於對象。在第一種行動方面，沒有對象能必然地推動意志；因為一人能夠不去想某對象，因而也不現實地願意那對象。\n但關於第二種行動之方式，某些對象一定推動意志，某些對象不一定。在機能受對象推動時，要看對象所以推動機能的理由。可見者之推動視覺，是以現實可見之顏色的理由。是以，若顏色呈現在視覺之前，必然推動視覺；除非人把視線移開——這屬於行動之操使。倘若呈現於視覺者，不絕對是現實的顏色，而是從某方面而言是顏色，從別的方面說不是顏色，視覺就不一定看到這個對象。因為能注意那不是現實的顏色那面，那樣就看不到這東西了。正如現實有顏色者是視覺之對象，善則是意志之對象；是以，若將一普遍和絕對善的對象呈現在意志前，若意志有所願，它必然趨向這個對象：因為不能願意相反者。但若呈現意志前的對象不是絕對善，則意志不一定願意。又因為任何善之缺點，具有不善之義；故那毫無缺點的完美之善才是意志所不能不願意者——那就是幸福。其他個別的善，因為在某方面有所缺，可以視為不善；按這觀點，意志可以接受它或拒絕它。根據不同的觀點，意志對同一物可有不同的態度。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "對象c",
+          "after": "對象。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(日關於",
+          "after": "但關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "椎動",
+          "after": "推動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是J抖",
+          "after": "是以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "操!吏",
+          "after": "操使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "顏色那臣",
+          "after": "顏色那面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西了c",
+          "after": "東西了。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志前﹒",
+          "after": "意志前，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恨躁不間的觀點，言:1:",
+          "after": "根據不同的觀點，意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1888
+      ],
+      "before": "某一機能的充足動因，無非就是具有全部動因之理的對象。若在某方面有所缺，則不一定推動，如前面正解己講過的。",
+      "after": "某一機能的充足動因，無非就是具有全部動因之理的對象。若在某方面有所缺，則不一定推動，如前面正解己講過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "那永遠不日必然真的對象，必然推動智|生;但那可真可假的，即偶然者，則不一定，如先前正解中論善已說過的。",
+      "after": "那永遠和必然真的對象，必然推動智性；但那可真可假的，即偶然者，則不一定，如先前正解中論善已說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日必然",
+          "after": "和必然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "最後目的必然推動意志，因為那是完美的善。那些導致這目的，沒有便不能達到這目的者也是一樣，如存在、生命，以及類似者。其他可以沒有而仍能達到目的者，則要目的者不一定就要這些東西，就如有些結論縱使在欠缺的情況下，原理仍然能真，如此則相信原理者，不必然要相信結論。",
+      "after": "最後目的必然推動意志，因為那是完美的善。那些導致這目的，沒有便不能達到這目的者也是一樣，如存在、生命，以及類似者。其他可以沒有而仍能達到目的者，則要目的者不一定就要這些東西，就如有些結論縱使在欠缺的情況下，原理仍然能真，如此則相信原理者，不必然要相信結論。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "意志是否必然受低級嗜慾之推動",
+      "after": "意志是否必然受低級嗜慾之推動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "似乎意志必然受低級嗜慾之情所推動。因為:",
+      "after": "似乎意志必然受低級嗜慾之情所推動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "宗徒在《羅馬書》第七章15節說: 「我所願意的，我搞不做;我所憎恨的，我反而去做。」這是因了貪情，貪情是一種情慾。所以，意志必然受情慾之推動。",
+      "after": "宗徒在《羅馬書》第七章15節說：「我所願意的，我偏不做；我所憎恨的，我反而去做。」這是因了貪情，貪情是一種情慾。所以，意志必然受情慾之推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "搞不做",
+          "after": "偏不做",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不做;",
+          "after": "不做；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "此外，《倫理學》卷三第五章上說: 「一個人是怎樣，目的在他眼中亦是怎樣。」但意志不能立刻抑制情慾。故情慾所鍾者，意志不能不願意。",
+      "after": "此外，《倫理學》卷三第五章上說：「一個人是怎樣，目的在他眼中亦是怎樣。」但意志不能立刻抑制情慾。故情慾所鍾者，意志不能不願意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "此外，普遍性原因之用於個別結果，須通過個別原因;是以《靈魂論》卷三第十一章中說，普遍性理由要通過個別的估價始能推行。但普遍性理由與個別評價之關係，正如意志之與感宮性嗜慾。所以，意志願意個別東西時，必然通過感官嗜慾。所以，若感官嗜慾由於情慾而傾向某物時，意志不能向反面動。",
+      "after": "此外，普遍性原因之用於個別結果，須通過個別原因；是以《靈魂論》卷三第十一章中說，普遍性理由要通過個別的估價始能推行。但普遍性理由與個別評價之關係，正如意志之與感官性嗜慾。所以，意志願意個別東西時，必然通過感官嗜慾。所以，若感官嗜慾由於情慾而傾向某物時，意志不能向反面動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1889
+      ],
+      "before": "《創世紀》第四章7節卻說: 「罪惡就伏在你門前，企圖對付你，但你應制服它。」所以，意志不一定受低級嗜慾推動。",
+      "after": "《創世紀》第四章7節卻說：「罪惡就伏在你門前，企圖對付你，但你應制服它。」所以，意志不一定受低級嗜慾推動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1890
+      ],
+      "before": "我解答如下:前面第九題第二節已經說過，感官嗜慾之情，是從對象方面推動意志。就是說，人在情慾的影響下，評斷某物合適和美好;倘若沒有情慾的話，便不會這樣想。1育慾改變人有兩種情形。一種是理性整個被牽制，使人沒有運用理性的能力，例如:那由於強烈的忿怒或貪慾而致瘋狂的人，及身體受到某些傷損的人。這種激情常帶有身體上的變化。這些人就像禽獸一樣，必然隨從情慾之激動。在這種情況，理性不起作用，所以意志亦無行動。\n然而，有時理性不全部被情慾佔據，在某方面仍有自由判斷能力，因而意志也有一些作用。所以，理性有多少自由﹒意志行動亦多少不必然受情慾之支使。這樣說來，則或者人無意志作用，只由情慾作主;或若有意志作用，就不必然隨從情毛主t。",
+      "after": "我解答如下：前面第九題第二節己經說過，感官嗜慾之情，是從對象方面推動意志。就是說，人在情慾的影響下，評斷某物合適和美好；倘若沒有情慾的話，便不會這樣想。情慾改變人有兩種情形。一種是理性整個被牽制，使人沒有運用理性的能力，例如：那由於強烈的忿怒或貪慾而致瘋狂的人，及身體受到某些傷損的人。這種激情常帶有身體上的變化。這些人就像禽獸一樣，必然隨從情慾之激動。在這種情況，理性不起作用，所以意志亦無行動。\n然而，有時理性不全部被情慾佔據，在某方面仍有自由判斷能力，因而意志也有一些作用。所以，理性有多少自由，意志行動亦多少不必然受情慾之支使。這樣說來，則或者人無意志作用，只由情慾作主；或若有意志作用，就不必然隨從情慾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1育慾",
+          "after": "情慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自由﹒",
+          "after": "自由，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情毛主t",
+          "after": "情慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1890
+      ],
+      "before": "雖然意志不能使人沒有貪慾，如宗徒在《羅馬書》第七章的節說的:「我所憎恨的，我反而去做」'即是我去貪;但意志能不願意貪，或不同意貪惰。這樣說束，它不一定隨從貪情。",
+      "after": "雖然意志不能使人沒有貪慾，如宗徒在《羅馬書》第七章15節說的：「我所憎恨的，我反而去做」，即是我去貪；但意志能不願意貪，或不同意貪情。這樣說來，它不一定隨從貪情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第七章的節",
+          "after": "第七章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去做」'",
+          "after": "去做」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貪惰",
+          "after": "貪情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說束",
+          "after": "說來",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1890
+      ],
+      "before": "既然在人內有兩種天性，tlD智性與感官性天性c有時人全心一致，即或者感官部分絕對服從理性，例如:有賢德的人;或者理性全純情慾控制，如:瘋狂的人。但有時理性雖為情慾所蔽，1月留有一些自由。所以，人或者能夠完全制服情慾，或至少可不隨情慾;在這情況下，人靈的不同部分有不同的性向，在理性看是一樣，按情慾看是男一樣c",
+      "after": "既然在人內有兩種天性，即智性與感官性天性。有時人全心一致，即或者感官部分絕對服從理性，例如：有賢德的人；或者理性全被情慾控制，如：瘋狂的人。但有時理性雖為情慾所蔽，仍留有一些自由。所以，人或者能夠完全制服情慾，或至少可不隨情慾；在這情況下，人靈的不同部分有不同的性向，在理性看是一樣，按情慾看是另一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "tlD",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天性c",
+          "after": "天性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "全純",
+          "after": "全被",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1月",
+          "after": "仍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一樣c",
+          "after": "另一樣。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1890
+      ],
+      "before": "意志不只受由理性所知之普遍性的善所椎動，也受由感官所長[1之善推動。是以‘雖無感官也嗜慾之情慾，亦能動向某個另IJ性的善。許多事我們願意並且去做，不是由於情慾‘而是由於選擇;還在理性反對情慾的事上最需明顯。",
+      "after": "意志不只受由理性所知之普遍性的善所推動，也受由感官所知之善推動。是以，雖無感官性嗜慾之情慾，亦能動向某個個別性的善。許多事我們願意並且去做，不是由於情慾，而是由於選揀；這在理性反對情慾的事上最為明顯。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "椎動",
+          "after": "推動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所長[1",
+          "after": "所知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是以‘",
+          "after": "是以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官也",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個另IJ性",
+          "after": "個個別性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情慾‘",
+          "after": "情慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "選擇",
+          "after": "選揀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還在",
+          "after": "這在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最需",
+          "after": "最為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "意志是否必然受天主自外推動",
+      "after": "意志是否必然受天主自外推動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q010.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "似乎意志必然地受天主之推動。因為:",
+      "after": "似乎意志必然地受天主之推動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "不能抵抗的動因，必然地推動。但天主的能力無限，不能抵抗。是以，《羅馬書》第九章19節說: 「有誰能抵抗祂的意志呢?」所以，天主是必然地推動意志。",
+      "after": "不能抵抗的動因，必然地推動。但天主的能力無限，不能抵抗。是以，《羅馬書》第九章19節說：「有誰能抵抗祂的意志呢？」所以，天主是必然地推動意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意志呢?",
+          "after": "意志呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "此外，前面第二節釋疑3.曾說過，意志所自然願意者，必然地推動意志。但奧斯定在《駁摩尼教徒褔斯德》卷二十六第三章說: 「天主在一物中所做者，對這物就是自然的。」所以，意志必然願意天主使之願意者。",
+      "after": "此外，前面第二節釋疑3.曾說過，意志所自然願意者，必然地推動意志。但奧斯定在《駁摩尼教徒福斯德》卷二十六第三章說：「天主在一物中所做者，對這物就是自然的。」所以，意志必然願意天主使之願意者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔斯德",
+          "after": "福斯德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "此外，若假設一件事情，不因之而產生不可能，貝IJ這事情是可能的。但若假設意志能不願意天主使之願意者，貝Ij產生不可能者;因為若這樣，貝IJ天主的動作無效力。所以，意志不可能不願意天主使之願意者;那麼，它必然願意天主使之願意者。",
+      "after": "此外，若假設一件事情，不因之而產生不可能，則這事情是可能的。但若假設意志能不願意天主使之願意者，則產生不可能者；因為若這樣，則天主的動作無效力。所以，意志不可能不願意天主使之願意者；那麼，它必然願意天主使之願意者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "《德訓篇》第十五章14節卻說: 「天上在起初就造了人，並賦給他自決的能力。」所以，天主不必然地推動人的意士心",
+      "after": "《德訓篇》第十五章14節卻說：「天主在起初就造了人，並賦給他自決的能力。」所以，天主不必然地推動人的意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天上",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意士心",
+          "after": "意志。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1891
+      ],
+      "before": "我解答如下:狄奧尼修在《神名論》第四章說: 「天主的上智不要破壞天性，而要保全天性。」是以，天主按各自之情況推動一切，在天主的推動下，由必然原因產生必然後果，由偶然原因產生偶然後果。因了意志是不限於一的主動根本，具有多種無可、無不可的可能性，故天主推動它時，不必然地使它固定於一;而容其行動自如，不是必然的，除非是關於它自然就追求者。",
+      "after": "我解答如下：狄奧尼修在《神名論》第四章說：「天主的上智不要破壞天性，而要保全天性。」是以，天主按各自之情況推動一切，在天主的推動下，由必然原因產生必然後果，由偶然原因產生偶然後果。因了意志是不限於一的主動根本，具有多種無可、無不可的可能性，故天主推動它時，不必然地使它固定於一；而容其行動自如，不是必然的，除非是關於它自然就追求者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1891,
+        1892
+      ],
+      "before": "天主的意志不只推動東百1吏之有所動作，且使之以適合其天性的叮式動作。使意志必然地受推動，不合意志之天性，故與天主的動向亦相反;倒不如順其自然，1吏意志行動自如，反而更合於天主的動向。",
+      "after": "天主的意志不只推動東西使之有所動作，且使之以適合其天性的方式動作。使意志必然地受推動，不合意志之天性，故與天主的動向亦相反；倒不如順其自然，使意志行動自如，反而更合於天主的動向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東百1吏之",
+          "after": "東西使之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "叮式",
+          "after": "方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1吏",
+          "after": "使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1892
+      ],
+      "before": "天主在一物中所做者，若使之對這物是自然的，對這物就是自然的:這是說某事對某物合適，乃因天主願意其適合此物。(旦祂不願意凡祂在物中所做者，對該物皆是自然的，例如:復活死人。但他願意每物之隸屬於其權下，對每物是自然的。",
+      "after": "天主在一物中所做者，若使之對這物是自然的，對這物就是自然的：這是說某事對某物合適，乃因天主願意其適合此物。但他不願意凡他在物中所做者，對該物皆是自然的，例如：復活死人。但他願意每物之隸屬於其權下，對每物是自然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦祂",
+          "after": "但他",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "凡祂",
+          "after": "凡他",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q010.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1892
+      ],
+      "before": "若天主推動意志做一事，貝IJ與意志不被推動做這事，兩句話不能相容。但這不是單純的不可能。是以，不能證明意志必然地受天主推動。",
+      "after": "若天主推動意志做一事，則與意志不被推動做這事，兩句話不能相容。但這不是單純的不可能。是以，不能證明意志必然地受天主推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
