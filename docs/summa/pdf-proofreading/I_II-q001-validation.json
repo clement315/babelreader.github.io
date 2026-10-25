@@ -1,0 +1,92 @@
+{
+  "batch": "I_II-q001",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "All eight articles, 92 bilingual rows and prologue render exact corrected data",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "rows": 92
+      }
+    },
+    {
+      "name": "Original print suspicions and unresolved bracket are visibly preserved",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "count": 5
+      }
+    },
+    {
+      "name": "Merged articles and severely corrupted complete clauses restored into existing fields",
+      "passed": true,
+      "detail": {
+        "width": 1440
+      }
+    },
+    {
+      "name": "Chinese reading mode works",
+      "passed": true,
+      "detail": {
+        "width": 1440
+      }
+    },
+    {
+      "name": "All eight articles, 92 bilingual rows and prologue render exact corrected data",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "rows": 92
+      }
+    },
+    {
+      "name": "Original print suspicions and unresolved bracket are visibly preserved",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "count": 5
+      }
+    },
+    {
+      "name": "Merged articles and severely corrupted complete clauses restored into existing fields",
+      "passed": true,
+      "detail": {
+        "width": 390
+      }
+    },
+    {
+      "name": "Chinese reading mode works",
+      "passed": true,
+      "detail": {
+        "width": 390
+      }
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "passed": true,
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 102,
+    "all_93_review_units_match_report": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "quote_and_book_title_pairs_balanced": true,
+    "only_unbalanced_parenthesis_is_documented_unclear_source_bracket": true,
+    "original_source_flags_retained": true,
+    "source_scan_uncertainties": 1,
+    "only_existing_I_II_q1_reader_changed": true,
+    "reader_sha256": "a71aed7f408eedc81caeeb02607d2189cfa540b2e2c8cd149c256a435b68b2e8"
+  }
+}
