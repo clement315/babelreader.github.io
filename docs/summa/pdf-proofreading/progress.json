@@ -1669,6 +1669,21 @@
       "source_defects_flagged": 5,
       "layout_differences_preserved_by_user_instruction": 2,
       "unresolved_source_scan_units": 1
+    },
+    {
+      "id": "I_II-q002",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I_II-q002.md",
+      "manifest": "I_II-q002.json",
+      "pdf_file_pages": [
+        1787,
+        1801
+      ],
+      "articles": 8,
+      "source_defects_flagged": 7,
+      "layout_differences_preserved_by_user_instruction": 0,
+      "unresolved_source_scan_units": 0
     }
   ],
   "reviewed_question_ids": [
@@ -1791,19 +1806,20 @@
     "I.q117",
     "I.q118",
     "I.q119",
-    "I_II.q001"
+    "I_II.q001",
+    "I_II.q002"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 592,
+  "reviewed_articles": 600,
   "total_catalog_articles": 3125,
-  "next_question": "I_II.q002",
+  "next_question": "I_II.q003",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
     "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
-    "body_resume_at": "I_II.q002",
+    "body_resume_at": "I_II.q003",
     "resume_body_only_after_all_titles_reviewed": true,
     "all_title_slots_audited_on": "2026-10-23",
     "title_source_gaps": [
@@ -1822,10 +1838,10 @@
       "status": "source_image_review_round_complete_with_documented_source_uncertainty"
     },
     "I_II": {
-      "reviewed_questions": 1,
-      "reviewed_articles": 8,
-      "last_batch": "I_II-q001",
-      "next_question": "I_II.q002",
+      "reviewed_questions": 2,
+      "reviewed_articles": 16,
+      "last_batch": "I_II-q002",
+      "next_question": "I_II.q003",
       "unresolved_source_scan_units": 1,
       "status": "in_progress"
     }
