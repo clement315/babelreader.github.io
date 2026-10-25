@@ -1,0 +1,1408 @@
+{
+  "schema_version": 1,
+  "batch": "I-q117",
+  "date": "2026-10-24",
+  "author": "element",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I.q117",
+    "title": "論屬於人之作用範圍者",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1721,
+      1722,
+      1723,
+      1724,
+      1725,
+      1726,
+      1727,
+      1728,
+      1729,
+      1730
+    ],
+    "printed_pages": [
+      494,
+      503
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I/q117.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I/q117.json": "430db7a330d480d6255a464fe1df6d8b83e7b4bceb0eda6359f46d4a5fc7419c"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I.q117.a001.respondeo",
+      "pdf_file_page": 1722,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a001.ad1",
+      "pdf_file_page": 1724,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a002.respondeo",
+      "pdf_file_page": 1726,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a003.respondeo",
+      "pdf_file_page": 1728,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a003.respondeo",
+      "pdf_file_page": 1728,
+      "text": "原己先",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a003.ad2",
+      "pdf_file_page": 1728,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a003.ad3",
+      "pdf_file_page": 1729,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I.q117.a003.ad1",
+      "pdf_file_page": 1728,
+      "text": "第一章10節",
+      "status": "suspected_source_print_error",
+      "action": "原页该引文卷节亦作「第一章10節」，依底本保留，不据其他版本更正。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部10页、4节原页逐页对齐；仅本地保存，第一部全部完成前不上传。"
+  ],
+  "readings": [
+    {
+      "id": "I.q117.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "然後要討論的是那些屬於人之作用範圍者，而人是精神體和形體受造物組合而成的(參看第一0六題引言)。首先，論人之作用;第二，論人根於人之繁殖(第一一八題)。\n關於第一點，可以提出四個問題:\n一、人是否能教導他人，在他人內產生知識。\n二、人是否能教導天使。\n三、人是否能以其靈魂之力量改變形體質料。\n四、離開身體之人的靈魂，是否能推動形體物之空間性活動。",
+      "after": "然後要討論的是那些屬於人之作用範圍者，而人是精神體和形體受造物組合而成的(參看第一〇六題引言)。首先，論人之作用；第二，論人根於人之繁殖(第一一八題)。\n關於第一點，可以提出四個問題：\n一、人是否能教導他人，在他人內產生知識。\n二、人是否能教導天使。\n三、人是否能以其靈魂之力量改變形體質料。\n四、離開身體之人的靈魂，是否能推動形體物之空間性活動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "人是否能教導他人",
+      "after": "人是否能教導他人",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "人似乎不能教導他人。因為:",
+      "after": "人似乎不能教導他人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "在《瑪竇福音》第二十三章8節主說: 「你們不要被稱為辣彼(老師)」;那裡熱羅尼莫的「註解」(聖經夾旬)說:「不要把天主的榮耀歸於人」。當老師是專屬於天主的尊榮。但是教導是老師的專職。所以，人不能教導，因為這是專屬於天主的事情。",
+      "after": "在《瑪竇福音》第二十三章8節主說：「你們不要被稱為辣彼(老師)」；那裡熱羅尼莫的「註解」(聖經夾句)說：「不要把天主的榮耀歸於人」。當老師是專屬於天主的尊榮。但是教導是老師的專職。所以，人不能教導，因為這是專屬於天主的事情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "夾旬",
+          "after": "夾句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1721
+      ],
+      "before": "此外，倘若人教導別人，這無非由於他以其知識在別人身上產生知識。但是，人用以產生與自己相l似者之品質，是積極品質。因而知識也就像熱力一樣，是積極品質了。1",
+      "after": "此外，倘若人教導別人，這無非由於他以其知識在別人身上產生知識。但是，人用以產生與自己相似者之品質，是積極品質。因而知識也就像熱力一樣，是積極品質了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相l似",
+          "after": "相似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "品質了。1",
+          "after": "品質了。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1721,
+        1722
+      ],
+      "before": "此外，知識需要有智性之光，及被領悟之東西的理象。但是，人不能在他人身上產生這兩種東西。所以，人不能以教導方式在他人身上產生知識。",
+      "after": "此外，知識需要有智性之光，及被領悟之東西的理象。但是，人不能在他人身上產生這兩種東西。所以，人不能以教導方式在他人身上產生知識。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1722
+      ],
+      "before": "此外，教師對學生的作用，只有給他提供一些符號，用聲音或手勢表示某事物。但是提供符號不能教導別人，不能在別人身上產生知識。因為他提供的或是已知之事物的符號，或是未知之事物的符號。若是已知之事物的，則那人已有知識，而不是得自老師;若是未知之事物的符號，學生憑這些符號什麼也學不到，例如:給一個拉T人提出一些他所不認識的希臘字，不能教導他什麼。所以，人絕對無法教導別人，在別人身上產生知識。",
+      "after": "此外，教師對學生的作用，只有給他提供一些符號，用聲音或手勢表示某事物。但是提供符號不能教導別人，不能在別人身上產生知識。因為他提供的或是已知之事物的符號，或是未知之事物的符號。若是已知之事物的，則那人已有知識，而不是得自老師；若是未知之事物的符號，學生憑這些符號什麼也學不到，例如：給一個拉丁人提出一些他所不認識的希臘字，不能教導他什麼。所以，人絕對無法教導別人，在別人身上產生知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "拉T",
+          "after": "拉丁",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1722
+      ],
+      "before": "宗徒在《弟茂德前書》第二章7節說:「我也是為了這事，被立為宣道者和宗徒，在信仰和真理上，做了外邦人的教師。」作",
+      "after": "宗徒在《弟茂德前書》第二章7節說：「我也是為了這事，被立為宣道者和宗徒，在信仰和真理上，做了外邦人的教師。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "。」作",
+          "after": "。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1722,
+        1723,
+        1724
+      ],
+      "before": "我解答如下:關於這個問題，有許多主張。按前面第七十六題第二節己說過的，亞威洛哀在其《靈魂論注iffiE》卷三注五中，主張所有的人共有一個被動理智。因而眾人的理象也是相同的。故此，他主張人藉教導，並不是在他人身上產生異於自己所有之知識的另一知識，而是將他有的同一知識傳給另一人，即藉推動他人整理自己靈魂內的想像，使適於領悟活動。這主張有一部分合於真理;即是說，若從被認知之東西方面來看，老師與學生的知識是同一個，因為學生與老師所認識的是這東西的同一個真理。但是就他主張眾人共有一個被動理智及相同的理象，只在想像方面有差別來說，這主張不合理，如前面己說過的(同處)。\n男一個是柏拉圖派的主張，按前面第八十四題第三及第四節己說過的，他們主張我們靈魂內從起初就有知識，這是因為分有獨立之形式。但是，靈魂由於與身體結合而受到阻礙，遂不能自由注意他所知的事物。按這種看法，學生從老師那裡不是得新知識，而是在老師的刺激下，使他注意到他原本知道的事物。如此說來，學習無非就是回憶。這正似他們也主張，自然界的主動者或效力因，只在於準備形體質料，以便承受形式;形體質料是因分有獨立之理象而獲得形式。但是先前第七十九題第二節、第八十四題第三節反駁這種主張時已經指明，按亞里斯多德在《靈魂論》卷三第四章所說的，人靈的被動理智對可領悟之對象而言，只是在純潛能狀態。\n所以，該隨另一種說法，就是如《物理學》卷八第四章所說自於h老師在學生身上產生知識，乃是導耳!他由潛能進入現實。為明白這一點，要知道由外在根本而來的效果，有的只來自外在之根本，例如:房屋之形式，只是由技術在質料上產生的。有的圾一果有時是來自外在之根本，有時則是來自內在之根本，例如:病人之復康，有時是來自外在之根本，即醫藥技術;有時是來自內在之根本，就如一人憑本身的自然能力而痊癒。在最後這類效果方面，要注意兩點事情。第一，技術之作用摹仿自然;正如自然能力使病人痊癒，在於改變、化解和排除產生疾病的質料，技術同樣也是如此。第二，外在之根本，即技術，不是以主要主動者或效力困的資格起作用，而是幫助主要效力困的。主要效力因則是內在的根本，外在根本加強內在根本，給予它工具和助力，以供內在根本運用來產生效果;就如醫生增加自然之力量，提供食品和藥物，讓自然用以達到其目的。\n人可以憑內在之根本獲得知識，就如那憑自力之研究而獲得知識的;也可以用外在之根本，就如那向他人學習的。在每個人內有一種知識之根本，即主動理智之光，憑這個根本‘人從起初自然就立刻知道一切知識的某些普通原理。當一人將這些普遍原理貼用於他憑感官所得之記憶和經驗中的特殊事物時，他便是以自己發現的方式，獲得他以前所不知道的事物的知識，他是從已經知道的達到尚未知道的。為此，凡是教導他人的，都是從學生已知道的，領導他認知他以前所不知道的;正如《分析後論》卷一第一章所說的: 「任何教導和學習，都是從已經知道的開始。」\n老師領導學生從已經知道的達到以前不知道的，有兩種方式。第一，提供一些工具或輔助，使學生的理智用以獲致知識c例如，提示給他一些不太普遍或抽象的命題句是學生根據他已經知道的能加以判斷的;或者提示一些具體的例子，或是相似的、或是相反的、或其他類似的例子，用它們來引導學生的理智走到他原來不知道的真理。第二，是加強學生的理智;這並不是像前面第一0六題第一節、第一一一題第一節論天使之光照或啟發時所說的，用一種近似高級天性的能力，因為所有人的理智按天性都屬於同一等級;而是指示給學生原理與結論之間的關係，因為學生自己也許還沒有這麼大的比較能力，可以從原理推演出結論來。故此，《分析後論》卷一第二章說:「證明乃是使人知曉的推論」。以這方式，那提示證明的人，便(吏聽者成為知者。",
+      "after": "我解答如下：關於這個問題，有許多主張。按前面第七十六題第二節己說過的，亞威洛哀在其《靈魂論注疏》卷三注五中，主張所有的人共有一個被動理智。因而眾人的理象也是相同的。故此，他主張人藉教導，並不是在他人身上產生異於自己所有之知識的另一知識，而是將他有的同一知識傳給另一人，即藉推動他人整理自己靈魂內的想像，使適於領悟活動。這主張有一部分合於真理；即是說，若從被認知之東西方面來看，老師與學生的知識是同一個，因為學生與老師所認識的是這東西的同一個真理。但是就他主張眾人共有一個被動理智及相同的理象，只在想像方面有差別來說，這主張不合理，如前面己說過的(同處)。\n另一個是柏拉圖派的主張，按前面第八十四題第三及第四節己說過的，他們主張我們靈魂內從起初就有知識，這是因為分有獨立之形式。但是，靈魂由於與身體結合而受到阻礙，遂不能自由注意他所知的事物。按這種看法，學生從老師那裡不是得新知識，而是在老師的刺激下，使他注意到他原本知道的事物。如此說來，學習無非就是回憶。這正似他們也主張，自然界的主動者或效力因，只在於準備形體質料，以便承受形式；形體質料是因分有獨立之理象而獲得形式。但是先前第七十九題第二節、第八十四題第三節反駁這種主張時已經指明，按亞里斯多德在《靈魂論》卷三第四章所說的，人靈的被動理智對可領悟之對象而言，只是在純潛能狀態。\n所以，該隨另一種說法，就是如《物理學》卷八第四章所說的，老師在學生身上產生知識，乃是導引他由潛能進入現實。為明白這一點，要知道由外在根本而來的效果，有的只來自外在之根本，例如：房屋之形式，只是由技術在質料上產生的。有的效果有時是來自外在之根本，有時則是來自內在之根本，例如：病人之復康，有時是來自外在之根本，即醫藥技術；有時是來自內在之根本，就如一人憑本身的自然能力而痊癒。在最後這類效果方面，要注意兩點事情。第一，技術之作用摹仿自然；正如自然能力使病人痊癒，在於改變、化解和排除產生疾病的質料，技術同樣也是如此。第二，外在之根本，即技術，不是以主要主動者或效力因的資格起作用，而是幫助主要效力因的。主要效力因則是內在的根本，外在根本加強內在根本，給予它工具和助力，以供內在根本運用來產生效果；就如醫生增加自然之力量，提供食品和藥物，讓自然用以達到其目的。\n人可以憑內在之根本獲得知識，就如那憑自力之研究而獲得知識的；也可以用外在之根本，就如那向他人學習的。在每個人內有一種知識之根本，即主動理智之光，憑這個根本，人從起初自然就立刻知道一切知識的某些普通原理。當一人將這些普遍原理貼用於他憑感官所得之記憶和經驗中的特殊事物時，他便是以自己發現的方式，獲得他以前所不知道的事物的知識，他是從已經知道的達到尚未知道的。為此，凡是教導他人的，都是從學生已知道的，領導他認知他以前所不知道的；正如《分析後論》卷一第一章所說的：「任何教導和學習，都是從已經知道的開始。」\n老師領導學生從已經知道的達到以前不知道的，有兩種方式。第一，提供一些工具或輔助，使學生的理智用以獲致知識。例如，提示給他一些不太普遍或抽象的命題，是學生根據他已經知道的能加以判斷的；或者提示一些具體的例子，或是相似的、或是相反的、或其他類似的例子，用它們來引導學生的理智走到他原來不知道的真理。第二，是加強學生的理智；這並不是像前面第一〇六題第一節、第一一一題第一節論天使之光照或啟發時所說的，用一種近似高級天性的能力，因為所有人的理智按天性都屬於同一等級；而是指示給學生原理與結論之間的關係，因為學生自己也許還沒有這麼大的比較能力，可以從原理推演出結論來。故此，《分析後論》卷一第二章說：「證明乃是使人知曉的推論」。以這方式，那提示證明的人，便使聽者成為知者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "注iffiE",
+          "after": "注疏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所說自於h",
+          "after": "所說的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "導耳!",
+          "after": "導引",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "圾一果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "效力困",
+          "after": "效力因",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "根本‘",
+          "after": "根本，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "知識c",
+          "after": "知識。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "命題句是",
+          "after": "命題，是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "便(吏",
+          "after": "便使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1724
+      ],
+      "before": "如正解己說過的，教導者只是從外面給予輔助，就像治病的醫生。正如內在的自然天性是復康的主要原因;同樣，內在的智性之光也是知識的主要原因。這兩種內在的根本都是從天主來的。為此，正如說:天主「治癒你的一切病苦」(《聖詠》第一O三篇3節);同樣也說:天主「教導人知識」(《聖詠》第九十四篇10節)，因為「祂儀容的光輝印在我們身上」(《聖詠》第五篇7節)，一切都是藉這光輝顯示給我們。",
+      "after": "如正解己說過的，教導者只是從外面給予輔助，就像治病的醫生。正如內在的自然天性是復康的主要原因；同樣，內在的智性之光也是知識的主要原因。這兩種內在的根本都是從天主來的。為此，正如說：天主「治癒你的一切病苦」(《聖詠》第一〇三篇3節)；同樣也說：天主「教導人知識」(《聖詠》第九十四篇10節)，因為「祂儀容的光輝印在我們身上」(《聖詠》第五篇7節)，一切都是藉這光輝顯示給我們。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一O三",
+          "after": "第一〇三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1724,
+        1725
+      ],
+      "before": "教師並不是以自然效力因之方式，在學生身上產生知識，如亞威洛哀所質疑的。所以，知識不必是積極的品質，而是人在教導時所根據的原理，正如技術是行動時的指導原理。",
+      "after": "教師並不是以自然效力因之方式，在學生身上產生知識，如亞威洛哀所質疑的。所以，知識不必是積極的品質，而是人在教導時所根據的原理，正如技術是行動時的指導原理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "老師不在學生身上產生智性之光，也不直接產生理象;而是以其教導推動學生，使學生以自己的智力，形成與外面提供之符號相當的智性概念。",
+      "after": "老師不在學生身上產生智性之光，也不直接產生理象；而是以其教導推動學生，使學生以自己的智力，形成與外面提供之符號相當的智性概念。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "老師提示給學生的符號，是這類事物的符號，即是它們已廣泛地和模糊不清地為學生所認知，(旦尚未個男IJ具體地和清晰地被認知。為此，當一人憑自己獲致知識時，不能說是自己教導自己，或自己是自己的老師;因為他原來沒有像老師所應具有的現成或完備的知識。",
+      "after": "老師提示給學生的符號，是這類事物的符號，即是它們已廣泛地和模糊不清地為學生所認知，但尚未個別具體地和清晰地被認知。為此，當一人憑自己獲致知識時，不能說是自己教導自己，或自己是自己的老師；因為他原來沒有像老師所應具有的現成或完備的知識。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個男IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "人是否能教導天使",
+      "after": "人是否能教導天使",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "人似乎能夠教導天使。因為:",
+      "after": "人似乎能夠教導天使。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "宗徒在《厄弗所書》第三章10節說:「為使天上的率領者和掌權者，現在藉著教會，得知天主的各樣智慧。」但是教會是眾信友之團體。所以有些真理是藉著人使天使得知。",
+      "after": "宗徒在《厄弗所書》第三章10節說：「為使天上的率領者和掌權者，現在藉著教會，得知天主的各樣智慧。」但是教會是眾信友之團體。所以有些真理是藉著人使天使得知。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "此外，按前面第一0六題第一節、第一一二題第三節所說的，直接受天主光照或啟發關於天主之事的高級天使，能夠教導低級天使。但有些人是直接由天主聖言教導，得知關於天主的事，最顯著的例子是宗徒們，就如《希伯來書》第一章2節所說的:「在這末期內，祂藉著自己的兒子對我們說了話。」所以，有些人曾有能力教導天使。",
+      "after": "此外，按前面第一〇六題第一節、第一一二題第三節所說的，直接受天主光照或啟發關於天主之事的高級天使，能夠教導低級天使。但有些人是直接由天主聖言教導，得知關於天主的事，最顯著的例子是宗徒們，就如《希伯來書》第一章2節所說的：「在這末期內，祂藉著自己的兒子對我們說了話。」所以，有些人曾有能力教導天使。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1725
+      ],
+      "before": "此外，低級天使受高級天使之教導。但是有些人比某些天使高;因為按教宗額我略一世在《褔音論贊》第三十四篇裡所說的，有的人被提升到天1吏的最高品位。所以，有的人能教導某些低級天使有關天主的事情。",
+      "after": "此外，低級天使受高級天使之教導。但是有些人比某些天使高；因為按教宗額我略一世在《福音論贊》第三十四篇裡所說的，有的人被提升到天使的最高品位。所以，有的人能教導某些低級天使有關天主的事情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天1吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1725,
+        1726
+      ],
+      "before": "狄奧尼修在《神名論》第四章說，天主對人的光照或啟發，都經過天使而抵於人(參看《上天階級論》第四章)。所以，人並不教導天使有關天主的事。",
+      "after": "狄奧尼修在《神名論》第四章說，天主對人的光照或啟發，都經過天使而抵於人(參看《上天階級論》第四章)。所以，人並不教導天使有關天主的事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1726
+      ],
+      "before": "我解答如下:前面第一0七題第二節已經指出，低級天使固然能向高級天使講話，把自己的思想顯露給他們;但是關於天主的事，高級天使從來也不受低級天使之光照或啟發。正如低級天使是在高級天使之下，顯然就是最高超的人，也是在最低級的天使之下。這有主在《瑪竇福音》第十一章11節所說的以資證明:「在婦女所生者中，沒有興起一位比洗者若翰更大的;但在天國裡最小的，也比他大。」所以，關於天主的事，天使從來不受人的光照或啟發。但是人能以講話的方式將自己心中的思念顯示給天使;因為只有天主知道人心中的祕密。",
+      "after": "我解答如下：前面第一〇七題第二節己經指出，低級天使固然能向高級天使講話，把自己的思想顯露給他們；但是關於天主的事，高級天使從來也不受低級天使之光照或啟發。正如低級天使是在高級天使之下，顯然就是最高超的人，也是在最低級的天使之下。這有主在《瑪竇福音》第十一章11節所說的以資證明：「在婦女所生者中，沒有興起一位比洗者若翰更大的；但在天國裡最小的，也比他大。」所以，關於天主的事，天使從來不受人的光照或啟發。但是人能以講話的方式將自己心中的思念顯示給天使；因為只有天主知道人心中的祕密。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0七",
+          "after": "第一〇七",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經指出",
+          "after": "己經指出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1726,
+        1727
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷五第十九章是這樣解釋宗徒那句話。宗徒先說了:「我原是一切聖徒中最小的，竟蒙受了這恩寵，光照一切人，使他們明白，從創世以來，即隱戚在創造萬有的天主內的臭祕」(第8及9節)。奧斯定解釋說:「所謂隱藏，但卻為天上的率領者及掌權者所知曉，即是藉著教會，得知天主的各樣智慧。」意思是說:這奧祕對人說是隱藏的，但對天上的教會來說，即率領者與掌權者所代表的教會來說，卻是已知曉的，且是「從創世以來，而非在創世以前;因為原始的教會是在天上，而在復活後，人間的教會將與之合而為一」。\n但是，也可以用別的方式來解釋，就去日奧斯定在那裡接著所說的:「那隱藏的奧祕，天使不只在天主內得以知曉，並且當這奧站在世界上獲得實現和彰顯時，也同樣揭露在他們眼前。」所以，在基督和教會的奧加由宗徒們實現時，有些為天使原來不清楚的奧祕，這時為他們也昭然若揭。熱羅尼莫所說的，也可以這樣來解釋，他說，由於宗徒們的宣講，天使們知道了一些奧祕(《厄弗所書註解》卷二，關於第三章10節)因為由於宗徒們的宣講，有些奧祕實現了，例如:關於宗徒在那裡論到的，外邦人因了保祿的宣講而歸化的事。",
+      "after": "奧斯定在《創世紀字義新探》卷五第十九章是這樣解釋宗徒那句話。宗徒先說了：「我原是一切聖徒中最小的，竟蒙受了這恩寵，光照一切人，使他們明白，從創世以來，即隱藏在創造萬有的天主內的奧祕」(第8及9節)。奧斯定解釋說：「所謂隱藏，但卻為天上的率領者及掌權者所知曉，即是藉著教會，得知天主的各樣智慧。」意思是說：這奧祕對人說是隱藏的，但對天上的教會來說，即率領者與掌權者所代表的教會來說，卻是已知曉的，且是「從創世以來，而非在創世以前；因為原始的教會是在天上，而在復活後，人間的教會將與之合而為一」。\n但是，也可以用別的方式來解釋，就如奧斯定在那裡接著所說的：「那隱藏的奧祕，天使不只在天主內得以知曉，並且當這奧祕在世界上獲得實現和彰顯時，也同樣揭露在他們眼前。」所以，在基督和教會的奧祕由宗徒們實現時，有些為天使原來不清楚的奧祕，這時為他們也昭然若揭。熱羅尼莫所說的，也可以這樣來解釋，他說，由於宗徒們的宣講，天使們知道了一些奧祕(《厄弗所書註解》卷二，關於第三章10節)。因為由於宗徒們的宣講，有些奧祕實現了，例如：關於宗徒在那裡論到的，外邦人因了保祿的宣講而歸化的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隱戚",
+          "after": "隱藏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "臭祕",
+          "after": "奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去日",
+          "after": "如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奧站",
+          "after": "奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奧加",
+          "after": "奧祕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "10節)因為",
+          "after": "10節)。因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "宗徒們直接受天主聖言之教導，但祂不是按其天主性，而是以其人性講話。故所舉之理由不能成立。",
+      "after": "宗徒們直接受天主聖言之教導，但祂不是按其天主性，而是以其人性講話。故所舉之理由不能成立。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "有些人連在現世也比某些天使偉大，但不是現實地，而是在潛力或功能方面;這是因為他們具有極高的愛德，能掙得比某些天使所享有的更高層級的真褔。就如我們說某種大樹的種子，按潛力比某小樹大，但按現實卻比小樹小得多。",
+      "after": "有些人連在現世也比某些天使偉大，但不是現實地，而是在潛力或功能方面；這是因為他們具有極高的愛德，能掙得比某些天使所享有的更高層級的真福。就如我們說某種大樹的種子，按潛力比某小樹大，但按現實卻比小樹小得多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "人是否能以其靈魂的力量改變形體質料",
+      "after": "人是否能以其靈魂的力量改變形體質料",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "人似乎能以其靈魂的力量改變形體質料c因為:",
+      "after": "人似乎能以其靈魂的力量改變形體質料。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "質料c",
+          "after": "質料。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "教宗額我略一世在《對話錄》卷二第三十章說: 「聖人們行奇蹟'有時是靠祈禱，有時是憑能力;就如伯多祿是以祈禱使塔彼達復活(《宗徒大事錄》第九章的節)，以責斥使說謊的阿納尼雅和撒斐辣死亡(《宗徒大事錄》第五章1至11節)0 」但是在行奇蹟的時候，形體質料上有一種變化。所以，人以其靈魂的力量，能改變形體質料。",
+      "after": "教宗額我略一世在《對話錄》卷二第三十章說：「聖人們行奇蹟，有時是靠祈禱，有時是憑能力；就如伯多祿是以祈禱使塔彼達復活(《宗徒大事錄》第九章40節)，以責斥使說謊的阿納尼雅和撒斐辣死亡(《宗徒大事錄》第五章1至11節)。」但是在行奇蹟的時候，形體質料上有一種變化。所以，人以其靈魂的力量，能改變形體質料。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奇蹟'",
+          "after": "奇蹟，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第九章的節",
+          "after": "第九章40節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "節)0 ",
+          "after": "節)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1727
+      ],
+      "before": "此外，關於《迦拉達書》第三章1節「誰又迷惑了你們呢?」那句話，「註解」(拉丁通行本註解)上說: 「有些人的眼睛非常有神，只用眼睛便能影響他人，特別是孩童。」除非靈魂的力量能改變形體質料，否則便不可能如此。所以，人以其靈魂的力量能夠改變形體質料。",
+      "after": "此外，關於《迦拉達書》第三章1節「誰又迷惑了你們呢?」那句話，「註解」(拉丁通行本註解)上說：「有些人的眼睛非常有神，只用眼睛便能影響他人，特別是孩童。」除非靈魂的力量能改變形體質料，否則便不可能如此。所以，人以其靈魂的力量能夠改變形體質料。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1727,
+        1728
+      ],
+      "before": "此外，人的身體比其他低級形體高貴。但是藉由靈魂的知覺，人的身體會變熱或變冷，例如:在發怒者和害怕者身上可以看到這種情形;有時這種變化甚至能使人生病或死亡。所以人的靈魂更能以其力量改變形體質料。",
+      "after": "此外，人的身體比其他低級形體高貴。但是藉由靈魂的知覺，人的身體會變熱或變冷，例如：在發怒者和害怕者身上可以看到這種情形；有時這種變化甚至能使人生病或死亡。所以人的靈魂更能以其力量改變形體質料。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1728
+      ],
+      "before": "奧斯定在《論天主聖三》卷三第八章說:「形體質料只服從天主的指揮。」",
+      "after": "奧斯定在《論天主聖三》卷三第八章說：「形體質料只服從天主的指揮。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1728
+      ],
+      "before": "我解答如下:第一-0題第二節已經說過，使質料改變至形式者，或者是由質料及形式組合的主動者或效力因，或者是天主;質料和形式原已先潛存於天主的能力內，以天主為其最初原因。為此，按那裡所說的，連天使也不能以其自然能力改變形體質料，除非利用形體性的效力因來產生某些效果。所以，靈魂更不能以其自然能力改變形體質料，除非利用一些形體媒介。",
+      "after": "我解答如下：第一一〇題第二節己經說過，使質料改變至形式者，或者是由質料及形式組合的主動者或效力因，或者是天主；質料和形式原己先潛存於天主的能力內，以天主為其最初原因。為此，按那裡所說的，連天使也不能以其自然能力改變形體質料，除非利用形體性的效力因來產生某些效果。所以，靈魂更不能以其自然能力改變形體質料，除非利用一些形體媒介。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原已先",
+          "after": "原己先",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1728
+      ],
+      "before": "所謂聖人憑能力行奇蹟'是憑恩寵的能力，不是憑天性的能力。這可以從教宗額我略一世在那裡所說的看出來，他說:「那些按若望所說的，憑(來自天主的)權能成為天主的子女的(《若望褔音》第一章10節)，若憑此權能而能行奇蹟'這有什麼奇怪?」",
+      "after": "所謂聖人憑能力行奇蹟，是憑恩寵的能力，不是憑天性的能力。這可以從教宗額我略一世在那裡所說的看出來，他說：「那些按若望所說的，憑(來自天主的)權能成為天主的子女的(《若望福音》第一章10節)，若憑此權能而能行奇蹟，這有什麼奇怪?」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奇蹟'",
+          "after": "奇蹟，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1728,
+        1729
+      ],
+      "before": "亞維採那認為迷惑作用之原因，在於精神本體本來就比自然界的相反之效力因，更能支配形體質料(《論靈魂》卷四第四章)。為此，靈魂的想像力若強，形體質料便隨之而變。他說這就是眼睛之迷惑力的原因。但是前面第一-0題第二節已經指出，形體質料並不服從精神本體之指揮，只服從造物主。所以更好說，靈魂之強大的想像力，改變與靈魂相結合之身體的活力或精氣精神(spiritus)。這種改變在眼睛裡特別顯著，因為眼睛裡的精氣精神最銳敏，眼睛再影響四周的空氣。故此，按亞里斯多德在《論睡眠與醒禧》第二章所說的，新而明亮的鏡子，一照月經期的婦女，會變為昏暗c\n為此，一個人的靈魂若懷有惡狠心情，{象某些老婦人?他的目光便按上述之方式變成有毒的、傷人的;特別是對身體脆弱，感官靈敏的孩章。但也可能由於天主的容許，或別的不易知曉的事故，其中慘有魔鬼的作用，巫婆與魔鬼有契約。",
+      "after": "亞維採那認為迷惑作用之原因，在於精神本體本來就比自然界的相反之效力因，更能支配形體質料(《論靈魂》卷四第四章)。為此，靈魂的想像力若強，形體質料便隨之而變。他說這就是眼睛之迷惑力的原因。但是前面第一一〇題第二節己經指出，形體質料並不服從精神本體之指揮，只服從造物主。所以更好說，靈魂之強大的想像力，改變與靈魂相結合之身體的活力或精氣精神(spiritus)。這種改變在眼睛裡特別顯著，因為眼睛裡的精氣精神最銳敏，眼睛再影響四周的空氣。故此，按亞里斯多德在《論睡眠與醒寤》第二章所說的，新而明亮的鏡子，一照月經期的婦女，會變為昏暗。\n為此，一個人的靈魂若懷有惡狠心情，像某些老婦人，他的目光便按上述之方式變成有毒的、傷人的；特別是對身體脆弱，感官靈敏的孩童。但也可能由於天主的容許，或別的不易知曉的事故，其中摻有魔鬼的作用，巫婆與魔鬼有契約。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經指出",
+          "after": "己經指出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "醒禧",
+          "after": "醒寤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏暗c",
+          "after": "昏暗。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{象",
+          "after": "像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "老婦人?",
+          "after": "老婦人，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "孩章",
+          "after": "孩童",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慘有",
+          "after": "摻有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "靈魂是以形式之資格與身體相結合;而感官嗜慾，按前面第八十一題第三節所說的，多少服從理性，並是某身體器官之活動。為此，靈魂的知覺必然牽動感官嗜慾，並引起某些身體上的活動。但是，人的靈魂知覺不足以改變外在之形體物，除非通過自己之身體上的變化，如釋疑2.己說過的。",
+      "after": "靈魂是以形式之資格與身體相結合；而感官嗜慾，按前面第八十一題第三節所說的，多少服從理性，並是某身體器官之活動。為此，靈魂的知覺必然牽動感官嗜慾，並引起某些身體上的活動。但是，人的靈魂知覺不足以改變外在之形體物，除非通過自己之身體上的變化，如釋疑2.己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "離開身體之人的靈魂，是否至少能推動形體物之空間性活動",
+      "after": "離開身體之人的靈魂，是否至少能推動形體物之空間性活動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "離開身體之人的靈魂，似乎至少能推動形體物的空間性活動。因為:",
+      "after": "離開身體之人的靈魂，似乎至少能推動形體物的空間性活動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "按前面第一-0題第三節所說的，形體物的空間性動態自然受精神本體之支配。但是離開身體的靈魂是精神性的本體。所以能以其命令推動外在的形體物。",
+      "after": "按前面第一一〇題第三節所說的，形體物的空間性動態自然受精神本體之支配。但是離開身體的靈魂是精神性的本體。所以能以其命令推動外在的形體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "此外，據《格肋孟的行程》(ltinerario Clementis)所記載的，尼柴達(Niceta)告訴伯多祿說，西滿術士將他殺死的孩童之靈魂用巫術扣留，為用來行邪術(f伯多祿行傳簡編」第二十七章)。但除非有些形體上的變化，至少空間性的，否則便不可能。所以離開身體的靈魂有能力推動形體物的空間動態。",
+      "after": "此外，據《格肋孟的行程》(Itinerario Clementis)所記載的，尼柴達(Niceta)告訴伯多祿說，西滿術士將他殺死的孩童之靈魂用巫術扣留，為用來行邪術(「伯多祿行傳簡編」第二十七章)。但除非有些形體上的變化，至少空間性的，否則便不可能。所以離開身體的靈魂有能力推動形體物的空間動態。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "ltinerario",
+          "after": "Itinerario",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(f伯多祿",
+          "after": "(「伯多祿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1729
+      ],
+      "before": "哲學家在《靈魂論》卷一第三章說，靈魂不能推動別的形體物，只能推動自己的身體。",
+      "after": "哲學家在《靈魂論》卷一第三章說，靈魂不能推動別的形體物，只能推動自己的身體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I.q117.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1729,
+        1730
+      ],
+      "before": "我解答如下:離開身體的靈魂，以其自然能力不能推動任何形體物。在靈魂與身體結合在一起時，顯然它只能推動活的身體;為此，一個肢體若失去了活力，便不受靈魂支配作空間性的運動。離開了身體的靈魂，顯然不再給予身體活力。故此，形體物的空間性動態，不受這種靈魂之自然能力的支配;但它能由天主的能力，獲賜某些超出自然能力的東西。",
+      "after": "我解答如下：離開身體的靈魂，以其自然能力不能推動任何形體物。在靈魂與身體結合在一起時，顯然它只能推動活的身體；為此，一個肢體若失去了活力，便不受靈魂支配作空間性的運動。離開了身體的靈魂，顯然不再給予身體活力。故此，形體物的空間性動態，不受這種靈魂之自然能力的支配；但它能由天主的能力，獲賜某些超出自然能力的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1730
+      ],
+      "before": "有些精神性本體，其力量不被侷限於某固定的形體物，就如天使，本來就沒有形體之牽制;故此，天使能推動各種形體。倘若某獨立之精神本體的動力本來是為推動某形體物的，便不能推動比這形體物大的，只能推動比較小的;就如按哲學家們所說的，下層天宇的推動者，不能推動高層天字。靈魂按天性既然是為推動自己為其形式之身體的，所以用其自然能力不能推動任何別的形體物。",
+      "after": "有些精神性本體，其力量不被局限於某固定的形體物，就如天使，本來就沒有形體之牽制；故此，天使能推動各種形體。倘若某獨立之精神本體的動力本來是為推動某形體物的，便不能推動比這形體物大的，只能推動比較小的；就如按哲學家們所說的，下層天宇的推動者，不能推動高層天宇。靈魂按天性既然是為推動自己為其形式之身體的，所以用其自然能力不能推動任何別的形體物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "侷限",
+          "after": "局限",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "高層天字",
+          "after": "高層天宇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I.q117.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1730
+      ],
+      "before": "正如奧斯定在《天主之城》卷十第十一章，和金口若望在《瑪竇褔音論贊》第二十八篇所說的，魔鬼常假裝是死人的靈魂，為支持外教人的這種錯誤想法。所以，可能是西滿受了魔鬼的騙，這魔鬼冒充是他殺死了孩童的靈魂。",
+      "after": "正如奧斯定在《天主之城》卷十第十一章，和金口若望在《瑪竇福音論贊》第二十八篇所說的，魔鬼常假裝是死人的靈魂，為支持外教人的這種錯誤想法。所以，可能是西滿受了魔鬼的騙，這魔鬼冒充是他殺死了孩童的靈魂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
