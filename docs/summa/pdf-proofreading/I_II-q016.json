@@ -1,0 +1,1215 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q016",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q016",
+    "title": "論運用——意志對導致目的者之行動",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      1933,
+      1934,
+      1935,
+      1936,
+      1937,
+      1938
+    ],
+    "printed_pages": [
+      162,
+      167
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 46,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q16.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q16.json": "986a7d81ea325f2865fc47d30a0ce0a0c96834783a0a7bf8de4ea1e74c7f47f3"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q016.a001.arg2",
+      "pdf_file_page": 1933,
+      "text": "運用。」。但行動",
+      "status": "suspected_source_print_error",
+      "action": "放大原页确认闭引号后另有句号，保留底本双句号，不自行删去。"
+    },
+    {
+      "id": "I_II.q016.a003.arg2",
+      "pdf_file_page": 1936,
+      "text": "所以，能運用最後目的",
+      "status": "suspected_source_print_error",
+      "action": "原页此段末未印句号，按底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部6页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q016.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "然後要討論的是運用（usus；參看第十三題引言）。\n關於這一點，可以提出四個問題:\n一、運用是否為意志之行動。\n二、禽獸有無運用。\n三、運用只關於導致目的者，或亦關目的。\n四、運用對選擇之關係。",
+      "after": "然後要討論的是運用（usus；參看第十三題引言）。\n關於這一點，可以提出四個問題：\n一、運用是否為意志之行動。\n二、禽獸有無運用。\n三、運用只關於導致目的者，或亦關目的。\n四、運用對選擇之關係。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "運用是否為意志之行動",
+      "after": "運用是否為意志之行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "運用似乎不是意志之行動。因為:",
+      "after": "運用似乎不是意志之行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "奧斯定在《論基督聖道》卷一第四章說: 「運用是將有用之物利用於獲致另一物。」但將一事與另一事相連，乃理性之事，安排與比較屬於理性。故運用是理性之行動。所以不屬意志。",
+      "after": "奧斯定在《論基督聖道》卷一第四章說：「運用是將有用之物利用於獲致另一物。」但將一事與另一事相連，乃理性之事，安排與比較屬於理性。故運用是理性之行動。所以不屬意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "此外，大馬士革的若望於《論正統信仰》卷二第二十二章說:「人衝向行動，稱為衝動;然後人利用，稱為運用。」。但行動屬於執行機能。意志之行動不隨在執行機能的行動之後，執行是最後者。所以運用不是意志之行動。",
+      "after": "此外，大馬士革的若望於《論正統信仰》卷二第二十二章說：「人衝向行動，稱為衝動；然後人利用，稱為運用。」。但行動屬於執行機能。意志之行動不隨在執行機能的行動之後，執行是最後者。所以運用不是意志之行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1933
+      ],
+      "before": "此外，奧斯定在《雜題八十三》第三十題裡說: 「一切受造者，皆是為了人的用途而被創造的;因為人所具有之理性，以其判斷運用一切。」但判斷天主所造的東西屬於鑑賞性之理性，這理性似乎與意志絕對不同，因為意志乃人性行動之根本。所以，運用不是意志之行動。",
+      "after": "此外，奧斯定在《雜題八十三》第三十題裡說：「一切受造者，皆是為了人的用途而被創造的；因為人所具有之理性，以其判斷運用一切。」但判斷天主所造的東西屬於鑑賞性之理性，這理性似乎與意志絕對不同，因為意志乃人性行動之根本。所以，運用不是意志之行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "奧斯定在《論天主聖三》卷十第十一章卻說: 「運用是使東西受意志支配。」",
+      "after": "奧斯定在《論天主聖三》卷十第十一章卻說：「運用是使東西受意志支配。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "我解答如下:運用一個東西包括操使這東西於一個行動;為此，我們用這東西以產生之行動，稱為這東西的用途，如:騎馳是馬的用途、打擊是棍棒的用途。為了行動我們不只操使內在之行動根本，即靈魂的各種機能或身上的肢體，如智性為瞭解，眼睛為觀看;我們也操使外在的東西，如棍棒為打擊。但顯然我們操使外物，必得靠內在之根本，即靈魂之機能、機能之習性，以及器官，即身上的肢體。前面第九題第一節曾經指明，是意志推動靈魂之各種機能，使各行其事，這就是操使它們去行動。故顯然運用首先且王要屬於意志，意志是第一個推動者，其次屬於理性，當指導者;但其他機能是執行者，對使之行動的意志而言，有似工具之對主動者。嚴格地說，主動不歸於工具，而歸於主使者，例如:建築歸於建築者，而不歸於工具。故此，運用顯然專是意志之行動。",
+      "after": "我解答如下：運用一個東西包括操使這東西於一個行動；為此，我們用這東西以產生之行動，稱為這東西的用途，如：騎馳是馬的用途、打擊是棍棒的用途。為了行動我們不只操使內在之行動根本，即靈魂的各種機能或身上的肢體，如智性為瞭解，眼睛為觀看；我們也操使外在的東西，如棍棒為打擊。但顯然我們操使外物，必得靠內在之根本，即靈魂之機能、機能之習性，以及器官，即身上的肢體。前面第九題第一節曾經指明，是意志推動靈魂之各種機能，使各行其事，這就是操使它們去行動。故顯然運用首先且主要屬於意志，意志是第一個推動者，其次屬於理性，當指導者；但其他機能是執行者，對使之行動的意志而言，有似工具之對主動者。嚴格地說，主動不歸於工具，而歸於主使者，例如：建築歸於建築者，而不歸於工具。故此，運用顯然專是意志之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "王要",
+          "after": "主要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "理性固然將一物與另一物相連;但意志卻趨向那被理性連繫於另一物者c因此說運用是將一物連於另一物。",
+      "after": "理性固然將一物與另一物相連；但意志卻趨向那被理性連繫於另一物者。因此說運用是將一物連於另一物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "物者c",
+          "after": "物者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "大馬士革的若望所說之運用，是指屬於執行機能的運用。",
+      "after": "大馬士革的若望所說之運用，是指屬於執行機能的運用。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "鑑賞性之理性也是由意志操使而去瞭解和判斷。故說鑑賞|生之理性運用時，是指在意志之推動下運用，和其他執行機能一樣。",
+      "after": "鑑賞性之理性也是由意志操使而去瞭解和判斷。故說鑑賞性之理性運用時，是指在意志之推動下運用，和其他執行機能一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "鑑賞|生",
+          "after": "鑑賞性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "禽獸有無運用",
+      "after": "禽獸有無運用",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1934
+      ],
+      "before": "似乎禽獸有連用。因為:",
+      "after": "似乎禽獸有運用。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "連用",
+          "after": "運用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1934,
+        1935
+      ],
+      "before": "享受高於運用，因為奧斯定在《論天主聖三》卷十第十章中說「我們運用那些指向他物者，而享受後者。」然而按先前第十一題第二節說的，禽獸能有享受。所以，更能運用。",
+      "after": "享受高於運用，因為奧斯定在《論天主聖三》卷十第十章中說：「我們運用那些指向他物者，而享受後者。」然而按先前第十一題第二節說的，禽獸能有享受。所以，更能運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章中說「",
+          "after": "章中說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "此外，操使肢體行動是運用肢體。1日禽獸操使肢體行動:如用腳走路，用角攻擊。所以，禽獸有運用。",
+      "after": "此外，操使肢體行動是運用肢體。但禽獸操使肢體行動：如用腳走路，用角攻擊。所以，禽獸有運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1日",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "奧斯定在《雜題八十三》第三十題裡卻說:「只有具理性的動物能運用東西。」",
+      "after": "奧斯定在《雜題八十三》第三十題裡卻說：「只有具理性的動物能運用東西。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "我解答如下:前面第一節說過，運用是操使行動之根本去行動;例如，同意是操使嗜慾↑生動作去慾求什麼東西，如前面第十五題第一至第三節說過的。操使一個東西只屬於對這東西有主權者，而這只能是會將一東西連於另一東西者，這種連接是理性的事。故只有理性動物能同意和運用。",
+      "after": "我解答如下：前面第一節說過，運用是操使行動之根本去行動；例如，同意是操使嗜慾性動作去欲求什麼東西，如前面第十五題第一至第三節說過的。操使一個東西只屬於對這東西有主權者，而這只能是會將一東西連於另一東西者，這種連接是理性的事。故只有理性動物能同意和運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嗜慾↑生",
+          "after": "嗜慾性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去慾求",
+          "after": "去欲求",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "享受是指嗜慾向可慾者的絕對行動，運用是指嗜慾(相對地)為了別的東西而動向一物。若以對象的觀點比較運用和享受，貝IJ享受高於運用，因為絕對可慾者高於那因了別的東西而可慾者。但若按所需之知覺能力，貝IJ運用所需之知覺能力更高貴。因為使一物繫於另一物是理性的事;而絕對(直接)知覺什麼東西，感官也能夠。",
+      "after": "享受是指嗜慾向可慾者的絕對行動，運用是指嗜慾(相對地)為了別的東西而動向一物。若以對象的觀點比較運用和享受，則享受高於運用，因為絕對可慾者高於那因了別的東西而可慾者。但若按所需之知覺能力，則運用所需之知覺能力更高貴。因為使一物繫於另一物是理性的事；而絕對(直接)知覺什麼東西，感官也能夠。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "動物是由於自然本能用其肢體行動，並非由於它能知道肢體與動作的關係。故嚴格地說，不是操使肢體行動，也不是運用肢體。",
+      "after": "動物是由於自然本能用其肢體行動，並非由於它能知道肢體與動作的關係。故嚴格地說，不是操使肢體行動，也不是運用肢體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "是否能運用最後目的",
+      "after": "是否能運用最後目的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1935
+      ],
+      "before": "似乎也能運用最後目的。因為:",
+      "after": "似乎也能運用最後目的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1935,
+        1936
+      ],
+      "before": "奧斯定在《論天主聖三》卷十第十一章說:「誰享受，誰就運用。」但有人草受最後目的。故有人運用最後目的。",
+      "after": "奧斯定在《論天主聖三》卷十第十一章說：「誰享受，誰就運用。」但有人享受最後目的。故有人運用最後目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "草受",
+          "after": "享受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1936
+      ],
+      "before": "此外，在那裡他又說:「運用是使東西由意志支自己。」但沒有東西比最後目的更由意志支配。所以，能運用最後目的。",
+      "after": "此外，在那裡他又說：「運用是使東西由意志支配。」但沒有東西比最後目的更由意志支配。所以，能運用最後目的",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "支自己",
+          "after": "支配",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "運用最後目的。",
+          "after": "運用最後目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1936
+      ],
+      "before": "此外，希拉利在《論天主聖三》卷二卷首說，「永恆在聖父，道理在心象」'即聖子，「運用在恩惠」't!D聖神。但聖神既是天主，乃是最後目的。故最後目的可以運用c",
+      "after": "此外，希拉利在《論天主聖三》卷二卷首說，「永恆在聖父，道理在心象」，即聖子，「運用在恩惠」，即聖神。但聖神既是天主，乃是最後目的。故最後目的可以運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心象」'",
+          "after": "心象」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩惠」't!D",
+          "after": "恩惠」，即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "運用c",
+          "after": "運用。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1936
+      ],
+      "before": "奧斯定在《雜題八十三》第三十題中卻說: 「誰也不應運用天主，而應享受之。」但只有天主是最後目的。放最後目的不可運用。",
+      "after": "奧斯定在《雜題八十三》第三十題中卻說：「誰也不應運用天主，而應享受之。」但只有天主是最後目的。故最後目的不可運用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放最後",
+          "after": "故最後",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1936
+      ],
+      "before": "我解答如F:前面第一節說過，運用是指為了一物而操1吏另一物。那被操使者按理是指向目的者。所以，運用常是關於導致目的者。為此，那些導致目的之東西被稱為有用的，其用途有時稱為運用。\n但要知道，最後目的有兩種:一種是絕對的﹒另一種是相對的。按前面第一題第八節、第二題第七節說的，目的有時指東西，有時是指東西之獲取或握有，例如愛財者的目的或是錢財，或是錢財之握有。顯然嚴格說來，目的是指東西，因為除非錢財是善，否則握有錢財不能是善。但對個人而言，錢財之獲取是最後日自句;愛財者之所以追求錢財，是為了握有持財。所以嚴格地說，人辜受錢財，如果他把錢財看為最佳目的:{且由於他把錢財附屬於握有﹒則說運用錢財。",
+      "after": "我解答如下：前面第一節說過，運用是指為了一物而操使另一物。那被操使者按理是指向目的者。所以，運用常是關於導致目的者。為此，那些導致目的之東西被稱為有用的，其用途有時稱為運用。\n但要知道，最後目的有兩種：一種是絕對的；另一種是相對的。按前面第一題第八節、第二題第七節說的，目的有時指東西，有時是指東西之獲取或握有，例如愛財者的目的或是錢財，或是錢財之握有。顯然嚴格說來，目的是指東西，因為除非錢財是善，否則握有錢財不能是善。但對個人而言，錢財之獲取是最後目的；愛財者之所以追求錢財，是為了握有錢財。所以嚴格地說，人享受錢財，如果他把錢財看為最後目的；但由於他把錢財附屬於握有，則說運用錢財。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如F",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "操1吏",
+          "after": "操使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "絕對的﹒",
+          "after": "絕對的；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最後日自句",
+          "after": "最後目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "握有持財",
+          "after": "握有錢財",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "辜受",
+          "after": "享受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最佳目的:{且",
+          "after": "最後目的；但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "握有﹒",
+          "after": "握有，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1936
+      ],
+      "before": "奧斯定j甫的是一般的運用，指目的對目的之享受的問係，人追求目的是為了享受目的。",
+      "after": "奧斯定講的是一般的運用，指目的對目的之享受的關係，人追求目的是為了享受目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧斯定j甫",
+          "after": "奧斯定講",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問係",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1936,
+        1937
+      ],
+      "before": "目的自意志支配，是為意志定止於目的。因此，定止於目的本來是享受，這樣則稱為目的之還用。但那導致目的者，不只由意志支自己用於獲致目的，且是指向意志所安之另一個東西。",
+      "after": "目的由意志支配，是為意志定止於目的。因此，定止於目的本來是享受，這樣則稱為目的之運用。但那導致目的者，不只由意志支配用於獲致目的，且是指向意志所安之另一個東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目的自意志",
+          "after": "目的由意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還用",
+          "after": "運用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "支自己",
+          "after": "支配",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "希拉利用「運用」兩字是指在最後目的上之安止，即按一般之說法，將獲得目的稱為運用目的，如前面正解講過的。所以，奧斯定在《論天主聖三》卷六第十章說:「喜愛，快感以及幸福，他皆稱之為用途。」",
+      "after": "希拉利用「運用」兩字是指在最後目的上之安止，即按一般之說法，將獲得目的稱為運用目的，如前面正解講過的。所以，奧斯定在《論天主聖三》卷六第十章說：「喜愛，快感以及幸福，他皆稱之為用途。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "運用是否先於選擇",
+      "after": "運用是否先於選擇",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "員疑似乎運用先於選擇。因為:",
+      "after": "似乎運用先於選擇。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員疑",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "在選擇之後，除了執行以外沒有別的。但運用既然屬於意志，乃是在執行以前。所以，也在選擇以前。",
+      "after": "在選擇之後，除了執行以外沒有別的。但運用既然屬於意志，乃是在執行以前。所以，也在選擇以前。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "此外，絕對者先於相對者，所以相對性小的先於相對性多的。但選擇含有兩種關係，一是對被選為導致目的者，一是對落選者;運用則只有對目的之關係。故運用先於選擇。",
+      "after": "此外，絕對者先於相對者，所以相對性小的先於相對性多的。但選擇含有兩種關係，一是對被選為導致目的者，一是對落選者；運用則只有對目的之關係。故運用先於選擇。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "此外，意志幾時推動其他機能，就是運用其他機能。但按前面第九題第三節說的，意志也推動自己。所以，意志操使自己行動時也運用自己，但是在同意時它這樣做。故在同意中有運用。然而按前面第十五題第三節釋疑3.說的，同意先於選擇。故運用亦然。",
+      "after": "此外，意志幾時推動其他機能，就是運用其他機能。但按前面第九題第三節說的，意志也推動自己。所以，意志操使自己行動時也運用自己，但是在同意時它這樣做。故在同意中有運用。然而按前面第十五題第三節釋疑3.說的，同意先於選擇。故運用亦然。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1937
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第二十二章卻說:「意志在選擇之後即衝向行動，然後運用。」故運用是在選擇之後。",
+      "after": "大馬士革的若望《論正統信仰》卷二第二十二章卻說：「意志在選擇之後即衝向行動，然後運用。」故運用是在選擇之後。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1937,
+        1938
+      ],
+      "before": "我解答如下:意志對所欲之物有兩種關係。第一種，由於意志對所欲者有一種諧合與趨向，所欲者多少是在欲者中c為此，一個東西若天然就適於某目的，就說它自然追求某目的。這種握有目的是不完美的握有。凡不完美者皆求完美。因此，無論自然的或情顧的嗜慾，皆求實際地握有目的，即是完美的握有。而這即意志對所欲者之第二種關係。\n不只目的是所欲者，導致目的者也是。關於導致目的者，第一種關係的最後一階是選擇。在此，因為意志之適合性達於完滿，意志於是完全願意那導致目的者。但運用已屬於意志對所欲者的第二層關(系，即從事撞得所欲之物的階段。故顯然運用是在選擇之後;不過這是說，若運用是指意志對執行機能之推動。然而，因為意志多少也推動理性，即所謂還用理性;故運用也能指在意念中，導致目的者被理性派定來為導致目的。這樣買IJ運用是在選擇之前。",
+      "after": "我解答如下：意志對所欲之物有兩種關係。第一種，由於意志對所欲者有一種諧合與趨向，所欲者多少是在欲者中。為此，一個東西若天然就適於某目的，就說它自然追求某目的。這種握有目的是不完美的握有。凡不完美者皆求完美。因此，無論自然的或情願的嗜慾，皆求實際地握有目的，即是完美的握有。而這即意志對所欲者之第二種關係。\n不只目的是所欲者，導致目的者也是。關於導致目的者，第一種關係的最後一階是選擇。在此，因為意志之適合性達於完滿，意志於是完全願意那導致目的者。但運用已屬於意志對所欲者的第二層關係，即從事獲得所欲之物的階段。故顯然運用是在選擇之後；不過這是說，若運用是指意志對執行機能之推動。然而，因為意志多少也推動理性，即所謂運用理性；故運用也能指在意念中，導致目的者被理性派定來為導致目的。這樣則運用是在選擇之前。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "欲者中c",
+          "after": "欲者中。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情顧",
+          "after": "情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "撞得",
+          "after": "獲得",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還用",
+          "after": "運用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1938
+      ],
+      "before": "意志之推動執行是在事情執行之前，而在選擇之後。既然運用屬於意志之推動，故是在選擇與執行之間。",
+      "after": "意志之推動執行是在事情執行之前，而在選擇之後。既然運用屬於意志之推動，故是在選擇與執行之間。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q016.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1938
+      ],
+      "before": "在本質上便是相對的東西，是在絕對者之後;{旦那有附加之關係者，不一定是在後。甚而一個原因愈在先，與之相對之結果皮愈多。",
+      "after": "在本質上便是相對的東西，是在絕對者之後；但那有附加之關係者，不一定是在後。甚而一個原因愈在先，與之相對之結果反愈多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皮愈多",
+          "after": "反愈多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q016.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1938
+      ],
+      "before": "若按同一個東西說，貝IJ選擇先於運用。但一物之運用，可能先於另一物之選擇。再者，由於意志可以反射自身，在每個意志行動中皆能有同意、選擇和運用; 1列如說:意志同意選擇，並同意自己同意，並運用自己去同意和選擇。這些行動若屬於前面之系列，當然也就是先有者。",
+      "after": "若按同一個東西說，則選擇先於運用。但一物之運用，可能先於另一物之選擇。再者，由於意志可以反射自身，在每個意志行動中皆能有同意、選擇和運用；例如說：意志同意選擇，並同意自己同意，並運用自己去同意和選擇。這些行動若屬於前面之系列，當然也就是先有者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "; 1列如",
+          "after": "；例如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
