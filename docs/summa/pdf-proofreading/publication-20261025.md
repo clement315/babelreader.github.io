@@ -8,6 +8,8 @@
 
 39份待发布报告中的完整JSON与当前文件完全一致，所有非zh原始字节及各字段实际换行序列保留，既有逐题显示及回归检查通过。全部待发布提交均由element署名与提交。
 
-状态：发布前核查完成，等待推送及网站内容验证。
+状态：已上传main，发布提交`d3d37a78f5152c8412acfbac20cbbdb04a262650`，远程提交核对一致。GitHub Pages部署成功；39份在线题文件及目录与本地文件逐字节相同。第81、100、101、108、109、118、119题的电脑与390像素手机页面共14项检查通过，正文及引言与发布JSON一致，中文模式正常，无手机横向溢出。
+
+[真实网站文件校验记录](publication-20261025-live-validation.json) · [真实网页显示记录](publication-20261025-browser-validation.json) · [GitHub Pages部署成功记录](https://github.com/clement315/babelreader.github.io/actions/runs/40174117188)
 
 [第一部发布门槛检查](I-release-gate-20261025.json) · [本轮完整校对汇总](I-q101-q119-summary.md) · [发布提交和文件校验值](publication-20261025.json)

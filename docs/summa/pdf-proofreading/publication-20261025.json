@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "author": "element",
-  "status": "preflight_passed",
+  "status": "uploaded_and_website_verified",
   "user_instruction": "保留结果先不用上传，直到校对完第一部的全部题目再上传至网站",
   "authorization_scope": "Publish pending Prima Pars batches after all 119 question image reviews are completed, retaining documented source uncertainties.",
   "remote_url": "https://github.com/clement315/babelreader.github.io.git",
@@ -310,5 +310,30 @@
     "3ee1b6af15e04cb2c195e778fef25373bf80c437|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 83 locally against PDF images",
     "9ae589f50675968318eddac642ab3eccaad98b3b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 82 locally against PDF images",
     "9d67b66c1b29c994141a4e80fd3928e90c54ad00|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 81 locally against PDF images"
-  ]
+  ],
+  "release_commit": "d3d37a78f5152c8412acfbac20cbbdb04a262650",
+  "remote_head_verified": "d3d37a78f5152c8412acfbac20cbbdb04a262650",
+  "website_validation": {
+    "all_39_questions_and_catalog_match_exact_bytes": true,
+    "data_record": "publication-20261025-live-validation.json",
+    "actual_published_browser_record": "publication-20261025-browser-validation.json",
+    "desktop_and_mobile_cases": 14,
+    "sample_questions": [
+      81,
+      100,
+      101,
+      108,
+      109,
+      118,
+      119
+    ],
+    "pages_deployment": {
+      "id": 40174117188,
+      "url": "https://github.com/clement315/babelreader.github.io/actions/runs/40174117188",
+      "head_sha": "d3d37a78f5152c8412acfbac20cbbdb04a262650",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-10-25T07:48:53Z"
+    }
+  }
 }
