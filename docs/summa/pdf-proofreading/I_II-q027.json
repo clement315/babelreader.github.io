@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q027",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q027",
+    "title": "論愛之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2046,
+      2047,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052
+    ],
+    "printed_pages": [
+      275,
+      281
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 50,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q27.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q27.json": "29a2fec6c959a47025ecac8e2738ed691847d4fd1798c00458182560ec502cbd"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q027.a001.respondeo",
+      "pdf_file_page": 2046,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a001.respondeo",
+      "pdf_file_page": 2047,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a002.arg1",
+      "pdf_file_page": 2048,
+      "text": "己經握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a002.respondeo",
+      "pdf_file_page": 2048,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a002.ad1",
+      "pdf_file_page": 2048,
+      "text": "己在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a002.ad3",
+      "pdf_file_page": 2049,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a003.ad3",
+      "pdf_file_page": 2051,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a003.ad4",
+      "pdf_file_page": 2051,
+      "text": "己完全",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q027.a002.ad3",
+      "pdf_file_page": 2049,
+      "text": "第一集第六題第一節釋疑1.",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文为第一集第六题第一节释疑1，疑为另一节，按底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q027.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "然後要討論的是愛之原因(參看第二十六題引言)。\n關於此點，可以提出四個問題:\n一、善是否為愛之唯一原因。\n二、認知是否為愛之原因。\n三、相似點是否為愛之原因。\n四、靈魂之其他情是否為愛之原因。",
+      "after": "然後要討論的是愛之原因(參看第二十六題引言)。\n關於此點，可以提出四個問題：\n一、善是否為愛之唯一原因。\n二、認知是否為愛之原因。\n三、相似點是否為愛之原因。\n四、靈魂之其他情是否為愛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "善是否為愛之唯一原因",
+      "after": "善是否為愛之唯一原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "似乎善不是愛的唯一原因。因為:",
+      "after": "似乎善不是愛的唯一原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "除非善被愛，否則不是愛的原因。但有時惡也為人所愛，如《聖詠》第十篇6節說的:「誰喜歡惡萃，是恨自己的生命」;否則的話，將是凡愛皆是善的。所以，不只有善是愛的原因。",
+      "after": "除非善被愛，否則不是愛的原因。但有時惡也為人所愛，如《聖詠》第十篇6節說的：「誰喜歡惡事，是恨自己的生命」；否則的話，將是凡愛皆是善的。所以，不只有善是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惡萃",
+          "after": "惡事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第四章說:「我們愛那講自己之惠的人。」故惡似乎是愛的原因。",
+      "after": "此外，哲學家在《修辭學》卷二第四章說：「我們愛那講自己之惡的人。」故惡似乎是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之惠",
+          "after": "之惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "此外，狄奧尼修在《神名論》第四章說，不只有善，「美也是大家都喜歡的」。",
+      "after": "此外，狄奧尼修在《神名論》第四章說，不只有善，「美也是大家都喜歡的」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2046
+      ],
+      "before": "奧斯定在《論天主聖三》卷八第三章卻說:「只有善確實被愛。」所以，只有苦是愛的原因。",
+      "after": "奧斯定在《論天主聖三》卷八第三章卻說：「只有善確實被愛。」所以，只有善是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "只有苦",
+          "after": "只有善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2046,
+        2047
+      ],
+      "before": "我解答如下:前面第二十六題第一節已經說過，雯!雷於嗜慾機能;嗜慾是被動性的。因此，對它而言，它的對象就似它的動作或行動的原因。所以，愛的真正原因，必然是愛的對象。愛固有之對象是善，因為如己說過的，愛含有愛者對被愛者之適合性或喜好;對一個東西相稱的及適合的，對這東西便片旦主可見華是吋叫J值正原因峙口古(臨\n支一",
+      "after": "我解答如下：前面第二十六題第一節己經說過，愛屬於嗜慾機能；嗜慾是被動性的。因此，對它而言，它的對象就似它的動作或行動的原因。所以，愛的真正原因，必然是愛的對象。愛固有之對象是善，因為如己說過的，愛含有愛者對被愛者之適合性或喜好；對一個東西相稱的及適合的，對這東西便是善。可見善是愛的真正原因。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "雯!雷於",
+          "after": "愛屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "片旦主可見華是吋叫J值正原因峙口古(臨\n支一",
+          "after": "是善。可見善是愛的真正原因。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "除非視為善，惡不能為人所愛，即是一個相對的善被視為單純的善。故此，有的愛是惡的，因為它所指望的不是單純的真善。人愛思事便是如此，即是藉著惡而取得某些善，如快樂或金錢等。",
+      "after": "除非視為善，惡不能為人所愛，即是一個相對的善被視為單純的善。故此，有的愛是惡的，因為它所指望的不是單純的真善。人愛惡事便是如此，即是藉著惡而取得某些善，如快樂或金錢等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "愛思事",
+          "after": "愛惡事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "那些講說自己之惡的人，不是因了惡而被愛，而是因了講述惡:講述自己之惡，具有善之意義，因為這裡沒有虛偽與做作。",
+      "after": "那些講說自己之惡的人，不是因了惡而被愛，而是因了講述惡：講述自己之惡，具有善之意義，因為這裡沒有虛偽與做作。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "美(pulchrum'美麗)與善實為一事，只在意念上有區別。既然善是「一切皆追求者」'善的意義即在於能使嗜慾定止;而美之意義在於見之或知之而使嗜慾定止。因此，關於美的官能主要是認知性的官能，即為理性服務的視覺及聽覺;的確，我們說美(麗)的景物，美(麗)的聲音。在其他感官方面，我們不用美來形容，我們不說美(麗)的氣味或美(麗)的滋味。由此可見，美在善上外加一層對認知能力的關係。故此，善是嗜慾單純所喜好者，美是其認知能力所喜悅者。",
+      "after": "美(pulchrum，美麗)與善實為一事，只在意念上有區別。既然善是「一切皆追求者」，善的意義即在於能使嗜慾定止；而美之意義在於見之或知之而使嗜慾定止。因此，關於美的官能主要是認知性的官能，即為理性服務的視覺及聽覺；的確，我們說美(麗)的景物，美(麗)的聲音。在其他感官方面，我們不用美來形容，我們不說美(麗)的氣味或美(麗)的滋味。由此可見，美在善上外加一層對認知能力的關係。故此，善是嗜慾單純所喜好者，美是其認知能力所喜悅者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "pulchrum'",
+          "after": "pulchrum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "追求者」'",
+          "after": "追求者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "認知是否為愛之原因",
+      "after": "認知是否為愛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2047
+      ],
+      "before": "似乎認知不是愛的原因。因為:",
+      "after": "似乎認知不是愛的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2047,
+        2048
+      ],
+      "before": "一個東西被追求，是由於愛。但有些被追求的是人所不知道的，例如:學問。因為按奧斯定在《雜題八十三》第三十五題裡說的，關於這方面，「有學問就等於知道學問」;若知道，就是已經握有了，便不去追求。所以，認知不是愛的原因。",
+      "after": "一個東西被追求，是由於愛。但有些被追求的是人所不知道的，例如：學問。因為按奧斯定在《雜題八十三》第三十五題裡說的，關於這方面，「有學問就等於知道學問」；若知道，就是己經握有了，便不去追求。所以，認知不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經握有",
+          "after": "己經握有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2048
+      ],
+      "before": "此外，愛所不知者，與愛超出其所知者，似乎是同一理。但有些東西被愛超乎其被認知者，例如:天主;在現世我們能愛祂本身，卻不能認識祂本身。所以，認知不是愛的原因。",
+      "after": "此外，愛所不知者，與愛超出其所知者，似乎是同一理。但有些東西被愛超乎其被認知者，例如：天主；在現世我們能愛祂本身，卻不能認識祂本身。所以，認知不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2048
+      ],
+      "before": "此外，若認知是愛的原因，貝IJ那裡沒有認知，便不能有愛。但按狄奧尼修在《神名論》第四章說的，一切東西皆有愛;然而不是一切東西皆有認知。所以認知不是愛的原因。",
+      "after": "此外，若認知是愛的原因，則那裡沒有認知，便不能有愛。但按狄奧尼修在《神名論》第四章說的，一切東西皆有愛；然而不是一切東西皆有認知。所以認知不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2048
+      ],
+      "before": "奧斯定在《論天主聖三》卷十第一章指出，「誰也不能愛其所不知者」。",
+      "after": "奧斯定在《論天主聖三》卷十第一章指出，「誰也不能愛其所不知者」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2048
+      ],
+      "before": "我解答如下:如第一節己說過的，善是以對象方式為愛之原因。但除非善被認知，否則不能是嗜慾之對象。故此，愛對其所愛之善應有所認知。是以哲學家在《倫理學》卷九第五章說，視覺是感官性的愛之根本。同樣，對於美及善的精神性鑑賞，也是精神性的愛之根本。所以認知是愛的原因‘正因善除非被認知，否則不能被愛。",
+      "after": "我解答如下：如第一節己說過的，善是以對象方式為愛之原因。但除非善被認知，否則不能是嗜慾之對象。故此，愛對其所愛之善應有所認知。是以哲學家在《倫理學》卷九第五章說，視覺是感官性的愛之根本。同樣，對於美及善的精神性鑑賞，也是精神性的愛之根本。所以認知是愛的原因，正因善除非被認知，否則不能被愛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因‘",
+          "after": "原因，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2048
+      ],
+      "before": "那追求學問的，並非對學問一無所知;而是如奧斯定在《論天主聖三》卷十第，章裡說的，人對它已在某方面有所知，或是廣泛地，或在其某效果方面，或者聽到了他人的稱道。這樣說來，知道學問不是有學問，有完整之認知纔是有學問。",
+      "after": "那追求學問的，並非對學問一無所知；而是如奧斯定在《論天主聖三》卷十第一章裡說的，人對它己在某方面有所知，或是廣泛地，或在其某效果方面，或者聽到了他人的稱道。這樣說來，知道學問不是有學問，有完整之認知才是有學問。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第，章",
+          "after": "第一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已在",
+          "after": "己在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2048,
+        2049
+      ],
+      "before": "有些為完美之認知所必要者，為完美的愛草不必要。認知屬於理性;理性之功用是將原是連在一起的東西加以區分，將原來不同者放在一起、加以比較。故此，要有完整的認知，須知道每個東西本身是怎樣，須知道各組成部分，以及其性能及特點。但愛是乾重嗜慾能力，只牽涉到東西本身。所以完整的愛，只要東西本身被認知和被愛。因而有時東西被愛超出其所被知，因為認知雖不完整，仍能有完整的愛。在學問方面就很明顯，有人愛學問只憑其對學間有的少許概念，例如:有人只知道修辭學是為說服人的，因此便喜好修辭學。關於愛天主也是一樣。",
+      "after": "有些為完美之認知所必要者，為完美的愛並不必要。認知屬於理性；理性之功用是將原是連在一起的東西加以區分，將原來不同者放在一起、加以比較。故此，要有完整的認知，須知道每個東西本身是怎樣，須知道各組成部分，以及其性能及特點。但愛是一種嗜慾能力，只牽涉到東西本身。所以完整的愛，只要東西本身被認知和被愛。因而有時東西被愛超出其所被知，因為認知雖不完整，仍能有完整的愛。在學問方面就很明顯，有人愛學問只憑其對學問有的少許概念，例如：有人只知道修辭學是為說服人的，因此便喜好修辭學。關於愛天主也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "愛草不必要",
+          "after": "愛並不必要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "愛是乾重",
+          "after": "愛是一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "學間有的",
+          "after": "學問有的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "一切東西皆有之自然的愛，也是生於一種認知，這認知不是在自然物本身上，而是在那設造天性者身上，如前面第二十六題第一節;參看第一集第六題第一節釋疑1.己說過的。",
+      "after": "一切東西皆有之自然的愛，也是生於一種認知，這認知不是在自然物本身上，而是在那設造天性者身上，如前面第二十六題第一節；參看第一集第六題第一節釋疑1.己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "相似點是否為愛之原因",
+      "after": "相似點是否為愛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "好似相似點不是愛之原因。因為:",
+      "after": "好似相似點不是愛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "同一個東西不能是彼此相反者之原因c但相似點是怨恨之原因，《繞言》第十三章10節說: 「傲慢者投此間常有爭端」;哲學家在《倫理學》卷八第一章也說: 「陶工常彼此爭吵。」所以，相似點不是愛的原因。",
+      "after": "同一個東西不能是彼此相反者之原因。但相似點是怨恨之原因，《箴言》第十三章10節說：「傲慢者彼此間常有爭端」；哲學家在《倫理學》卷八第一章也說：「陶工常彼此爭吵。」所以，相似點不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因c",
+          "after": "原因。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《繞言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "投此",
+          "after": "彼此",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "此外，奧斯定在《懺悔錄》卷四第十四章說: 「有人愛別人身上所有者，自己卻不願意有，例如:人喜歡戲子，自己卻不願意當戲子。」倘若相似點是愛的正式原因，便不可能如此;而應是人在他人身上所愛者，自己也有，或願意有。所以，相似點不是愛的原因。",
+      "after": "此外，奧斯定在《懺悔錄》卷四第十四章說：「有人愛別人身上所有者，自己卻不願意有，例如：人喜歡戲子，自己卻不願意當戲子。」倘若相似點是愛的正式原因，便不可能如此；而應是人在他人身上所愛者，自己也有，或願意有。所以，相似點不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2049
+      ],
+      "before": "此外，每人愛其所需要者，縱然他沒有那東西，如:病者愛健康，貧者愛財富。但在他需要和缺少這些東西時，他與這些東西不相似。所以，不只相似點是愛的原因，不同點也是。",
+      "after": "此外，每人愛其所需要者，縱然他沒有那東西，如：病者愛健康，貧者愛財富。但在他需要和缺少這些東西時，他與這些東西不相似。所以，不只相似點是愛的原因，不同點也是。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2049,
+        2050
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第四章裡說: 「我們愛那些在錢財及助人方面慷慨的人;同樣，大家也愛那些對去世者保持友誼的人。」並非每人皆是這種人，所以相似點不是愛的原因。",
+      "after": "此外，哲學家在《修辭學》卷二第四章裡說：「我們愛那些在錢財及助人方面慷慨的人；同樣，大家也愛那些對去世者保持友誼的人。」並非每人皆是這種人，所以相似點不是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2050
+      ],
+      "before": "《德首11篇》第十三章19節卻說:「一切動物都愛自己的同類。」",
+      "after": "《德訓篇》第十三章19節卻說：「一切動物都愛自己的同類。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德首11篇",
+          "after": "德訓篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2050,
+        2051
+      ],
+      "before": "我解答如下:嚴格地說，相似點是愛的原因。不過要知道相似有兩種。一種是在實際上二者有相同的地方，例如:說兩個具有白色的東西是相似的。另一種是一個東西現實所具有者，另一個東西只具有此潛能及性向，例如:我們說一個不在其本位的重物體，與一個在其本位之重物體相似。在另一方面，也可以因了潛能與現實有相似點，因為在潛能中多少有些現實。\n第一種方式之相似點產生友誼之愛或仁惠之愛(amor benevolentiae)。兩個相似的東西，就好似具有同樣的形式，就在這形式下兩個便似是一個，例如:兩個人在人的種類上是一個，兩個白色的東西同是一個白。故此，一個的情感普及到另一個，就如與自己是一個東西，並願意另一個之利益如同自己的利益。但第二種方式之相似點產生慾堂之愛，或利益上及喜好上的友愛。因為每個在潛能狀態的東西，皆有對其現實之嗜慾;如果是有知覺及認知的東西，在得到其現實時便感到快樂。\n前面曾說，在慾堂之愛中，愛者所真正愛的是他自己，因為他在這種愛中，願意要他所慾望的東西。每人愛自己皆超過愛他人;因為與自己是同一個本體，與別人則是在某形式上相似。為此，如果在形式上與之相似者，妨礙他得到他所愛的利益，為他便變成可憎惡的，並非因了彼此相似，而是因了妨害他自己的利益。因此「陶工常彼此爭吵」'因為彼此妨害到對方的利益;而「傲慢者彼此間常有爭端ν因為彼此妨害對方所追求的聲望。",
+      "after": "我解答如下：嚴格地說，相似點是愛的原因。不過要知道相似有兩種。一種是在實際上二者有相同的地方，例如：說兩個具有白色的東西是相似的。另一種是一個東西現實所具有者，另一個東西只具有此潛能及性向，例如：我們說一個不在其本位的重物體，與一個在其本位之重物體相似。在另一方面，也可以因了潛能與現實有相似點，因為在潛能中多少有些現實。\n第一種方式之相似點產生友誼之愛或仁惠之愛(amor benevolentiae)。兩個相似的東西，就好似具有同樣的形式，就在這形式下兩個便似是一個，例如：兩個人在人的種類上是一個，兩個白色的東西同是一個白。故此，一個的情感普及到另一個，就如與自己是一個東西，並願意另一個之利益如同自己的利益。但第二種方式之相似點產生慾望之愛，或利益上及喜好上的友愛。因為每個在潛能狀態的東西，皆有對其現實之嗜慾；如果是有知覺及認知的東西，在得到其現實時便感到快樂。\n前面曾說，在慾望之愛中，愛者所真正愛的是他自己，因為他在這種愛中，願意要他所慾望的東西。每人愛自己皆超過愛他人；因為與自己是同一個本體，與別人則是在某形式上相似。為此，如果在形式上與之相似者，妨礙他得到他所愛的利益，為他便變成可憎惡的，並非因了彼此相似，而是因了妨害他自己的利益。因此「陶工常彼此爭吵」，因為彼此妨害到對方的利益；而「傲慢者彼此間常有爭端」，因為彼此妨害對方所追求的聲望。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾堂",
+          "after": "慾望",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "爭吵」'",
+          "after": "爭吵」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "常有爭端ν",
+          "after": "常有爭端」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "由此可知質疑1.之答案。",
+      "after": "由此可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "就是當一人愛他人身上所具有者，而不願是在自己身上者時，也有種類比性的相似點;因為他人之與他身上被愛的一點，有似本人之與自己身上所愛的一點。例如，一個長於唱歌者，喜歡一個善於寫作者，二人之間有類比性的相似點，因為二人皆長於自己的藝術。",
+      "after": "就是當一人愛他人身上所具有者，而不願是在自己身上者時，也有一種類比性的相似點；因為他人之與他身上被愛的一點，有似本人之與自己身上所愛的一點。例如，一個長於唱歌者，喜歡一個善於寫作者，二人之間有類比性的相似點，因為二人皆長於自己的藝術。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "種類比性的",
+          "after": "一種類比性的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "一人愛其所需要者，他與其所愛者之相似，有如潛能之與現實，如己說過的。",
+      "after": "一人愛其所需要者，他與其所愛者之相似，有如潛能之與現實，如己說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "也是按潛能之與現實問之相似，一個不慷慨的人喜歡慷慨的人﹒因為前者希望從後者得到他所願望者。那不忠於友情者愛忠於友情者，也是同理。上述二例皆似利益上的友愛。或者也可以說，雖然不是每人都已完全握有那些優長，但都有那些優長的根苗，因此沒有德性的人，會喜歡有德性的人，因為德性合於其自然理性。",
+      "after": "也是按潛能之與現實間之相似，一個不慷慨的人喜歡慷慨的人，因為前者希望從後者得到他所願望者。那不忠於友情者愛忠於友情者，也是同理。上述二例皆似利益上的友愛。或者也可以說，雖然不是每人都己完全握有那些優長，但都有那些優長的根苗，因此沒有德性的人，會喜歡有德性的人，因為德性合於其自然理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "現實問",
+          "after": "現實間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的人﹒",
+          "after": "的人，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "都已完全",
+          "after": "都己完全",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "靈魂之其他情是否為愛之原因",
+      "after": "靈魂之其他情是否為愛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "靈魂的其他情似乎能是愛之原因。因為:",
+      "after": "靈魂的其他情似乎能是愛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "哲學家在《倫理學》卷八第三章說，有的人被愛是為了快樂。但快樂是一種情。所以有別的情是愛的原因。",
+      "after": "哲學家在《倫理學》卷八第三章說，有的人被愛是為了快樂。但快樂是一種情。所以有別的情是愛的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "此外，願望是一種情。但我們愛某些人，是因為我們願望(或指望)從他們身上得到什麼東西，凡利益上的友愛顯然都是如此。所以，有別的情是愛的原因。",
+      "after": "此外，願望是一種情。但我們愛某些人，是因為我們願望(或指望)從他們身上得到什麼東西，凡利益上的友愛顯然都是如此。所以，有別的情是愛的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2051
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷十第一章說:「一人若不企望得到某東西，雖然看到了那東西多美，也不會很愛，或根本不愛。」所以企望也是愛的原因。",
+      "after": "此外，奧斯定在《論天主聖三》卷十第一章說：「一人若不企望得到某東西，雖然看到了那東西多美，也不會很愛，或根本不愛。」所以企望也是愛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2052
+      ],
+      "before": "奧斯定在《天主之城》卷十四第七章卻說，心靈的其他情皆生於愛。",
+      "after": "奧斯定在《天主之城》卷十四第七章卻說，心靈的其他情皆生於愛。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q027.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2052
+      ],
+      "before": "我解答如下:靈魂之其他惰，沒有一個不是假定先有一點愛。理由在於靈魂之其他的每個惰，皆或者含有對某東西之動向，或含有在某東西上之定止。凡動向某物或定止於某物，皆出於一種性向或適合性，這屬於愛之理。所以，靈魂之其他的某一情，不可能普遍地是一切愛的原因。不過，有時某一情是某一愛的原因，就如一種善能是另一善之原因。",
+      "after": "我解答如下：靈魂之其他情，沒有一個不是假定先有一點愛。理由在於靈魂之其他的每個情，皆或者含有對某東西之動向，或含有在某東西上之定止。凡動向某物或定止於某物，皆出於一種性向或適合性，這屬於愛之理。所以，靈魂之其他的某一情，不可能普遍地是一切愛的原因。不過，有時某一情是某一愛的原因，就如一種善能是另一善之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2052
+      ],
+      "before": "一人為了快樂而愛某東西峙，快樂固然是這愛的原因，但這快樂又是生於另一個先有的愛。一個東西若非是多少被愛的，不能使人快樂。",
+      "after": "一人為了快樂而愛某東西時，快樂固然是這愛的原因，但這快樂又是生於另一個先有的愛。一個東西若非是多少被愛的，不能使人快樂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西峙",
+          "after": "東西時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2052
+      ],
+      "before": "對一東西之願望常假定先對這東西有愛;但對一東西之願望可以是另一東西被愛的原因，例如:願望錢財的人，因而愛那使他得到錢財的人。",
+      "after": "對一東西之願望常假定先對這東西有愛；但對一東西之願望可以是另一東西被愛的原因，例如：願望錢財的人，因而愛那使他得到錢財的人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q027.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2052
+      ],
+      "before": "企望產生或增加愛，一是由於快樂，因為產生快樂;一是由於願望，因為企望加強願望。對我們不企望的東西，不會有如此強烈的願望。然而企望本身是附屬於所愛之某物的。",
+      "after": "企望產生或增加愛，一是由於快樂，因為產生快樂；一是由於願望，因為企望加強願望。對我們不企望的東西，不會有如此強烈的願望。然而企望本身是附屬於所愛之某物的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
