@@ -1,0 +1,1371 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q021",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q021",
+    "title": "論人性行動善惡所生之後果",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "printed_pages": [
+      232,
+      239
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 34,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q21.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q21.json": "8a3ddb2ac03f34288283b7e26137229b77649e183996b8e00484cb5f55f3a1ef",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q021.a001.respondeo",
+      "pdf_file_page": 2004,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a002.respondeo",
+      "pdf_file_page": 2006,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a002.ad2",
+      "pdf_file_page": 2006,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a003.ad3",
+      "pdf_file_page": 2008,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a004.arg1",
+      "pdf_file_page": 2008,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a004.respondeo",
+      "pdf_file_page": 2009,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a004.respondeo",
+      "pdf_file_page": 2009,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a004.ad2",
+      "pdf_file_page": 2010,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q021.a001.sed_contra",
+      "pdf_file_page": 2004,
+      "text": "卷二十七第七章",
+      "status": "suspected_source_print_error",
+      "action": "原页卷章印作「卷二十七第七章」，与通行引文或有出入，按底本保留并待人工确认。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q021.a001.arg2",
+      "description": "将误并入质疑2的质疑3归回已有arg3，清理分界处乱码；键名与换行转义不变。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q021.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "然1主要討論的是﹒人性行動因了是苦的、或惡的而引起之{是果(參看第十八題引言)。\n關於此點，可以提出四個問題:\n一、人性行為是否由於吾惡而是正當的、或有罪的。\n二、是否因而是可讚美的、成可譴責的。\n三、是否因而是有功的、或有過的。\n四、是否在天主前有功或有過。",
+      "after": "然後要討論的是，人性行動因了是善的、或惡的而引起之後果(參看第十八題引言)。\n關於此點，可以提出四個問題：\n一、人性行為是否由於善惡而是正當的、或有罪的。\n二、是否因而是可讚美的、或可譴責的。\n三、是否因而是有功的、或有過的。\n四、是否在天主前有功或有過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "然1主要討論的是﹒",
+          "after": "然後要討論的是，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是苦的",
+          "after": "是善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之{是果",
+          "after": "之後果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吾惡",
+          "after": "善惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "成可譴責",
+          "after": "或可譴責",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "人性行為是否由於善惡而是正當的、或有罪的",
+      "after": "人性行為是否由於善惡而是正當的、或有罪的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "人性行動似乎不因其善惡而是正當的、或有罪的。因為:",
+      "after": "人性行動似乎不因其善惡而是正當的、或有罪的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "按《物理學》卷二第八章說的，「罪惡是自然界的怪物」。怪物不是行動，而是生出來的不合自然秩序的東西。按那裡說的，由藝術和理性所產生的，模仿那由自然所生的。所以，行動不因了是惡的，和不合規則的便是有罪的。",
+      "after": "按《物理學》卷二第八章說的，「罪惡是自然界的怪物」。怪物不是行動，而是生出來的不合自然秩序的東西。按那裡說的，由藝術和理性所產生的，模仿那由自然所生的。所以，行動不因了是惡的，和不合規則的便是有罪的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "此外，按《物理學》卷二第八章說的，罪惡之發生，是由於未完成自然或藝術所寄望之目的。但人性行動之善惡主要在於目的之志向，及其獲致。所以，行動之惡似乎不構成罪亞心3.此外，若行動之惡構成罪惡，貝IJ哪裡有惡，那裡便有罪惡了。這是不合理的，因為處罰，雖然是-種惡，但並不是罪惡。所以，行動不由於是惡的便是有罪的。",
+      "after": "此外，按《物理學》卷二第八章說的，罪惡之發生，是由於未完成自然或藝術所寄望之目的。但人性行動之善惡主要在於目的之志向，及其獲致。所以，行動之惡似乎不構成罪惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外，按《物理學》卷二第八章說的，罪惡之發生，是由於未完成自然或藝術所寄望之目的。但人性行動之善惡主要在於目的之志向，及其獲致。所以，行動之惡似乎不構成罪亞心3.此外，若行動之惡構成罪惡，貝IJ哪裡有惡，那裡便有罪惡了。這是不合理的，因為處罰，雖然是-種惡，但並不是罪惡。所以，行動不由於是惡的便是有罪的。",
+          "after": "此外，按《物理學》卷二第八章說的，罪惡之發生，是由於未完成自然或藝術所寄望之目的。但人性行動之善惡主要在於目的之志向，及其獲致。所以，行動之惡似乎不構成罪惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2003
+      ],
+      "before": "",
+      "after": "此外，若行動之惡構成罪惡，則哪裡有惡，那裡便有罪惡了。這是不合理的，因為處罰，雖然是一種惡，但並不是罪惡。所以，行動不由於是惡的便是有罪的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，若行動之惡構成罪惡，貝IJ哪裡有惡，那裡便有罪惡了。這是不合理的，因為處罰，雖然是-種惡，但並不是罪惡。所以，行動不由於是惡的便是有罪的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是-種",
+          "after": "是一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2004
+      ],
+      "before": "前面第十九題第四節曾指出，人性行為之善，主要繫於永恆之法律。故此，人性行動之惡，是由於不合永恆之法律。但這就是罪。因為奧斯定在《駁摩尼教徒褔斯德》卷二十二第七章說:「罪惡是違反永恆法律的言語、行為、意念」。所以，人性行動因了是惡的而是有罪的。",
+      "after": "前面第十九題第四節曾指出，人性行為之善，主要繫於永恆之法律。故此，人性行動之惡，是由於不合永恆之法律。但這就是罪。因為奧斯定在《駁摩尼教徒福斯德》卷二十七第七章說：「罪惡是違反永恆法律的言語、行為、意念」。所以，人性行動因了是惡的而是有罪的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卷二十二第七章",
+          "after": "卷二十七第七章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2004
+      ],
+      "before": "我解答如下:惡比罪範圍廣，善也比正當範圍廣。在任何事物上的善之欠缺皆是惡;但罪嚴格地說，在於一個為了目的而做的行動，但不合那個目的。合不合目的是按某尺度來看。這尺度在按自然而行動的東西方面，即天性趨向此目的之德能。一個出於天性的行動若是按對這目的之天然傾向，貝IJ這行動是正當的，因為中點沒有越出界限，即是行動沒有離開從主動根本到自的之秩序。一個行動若離開這個秩序，便構成罪。\n為那些由意志而行動者，近的尺度是人的理性;最高尺度便是永恆法律。人性行動若按理性及永恆法律之秩序走向目的，這行動便是正當的;若離開這個秩序，便稱為罪。由前面第十九題第三及第四節己說過的，可知情願的行動若離開理性及永恆法律之秩序便是惡的:而一切善的行動皆與理性及永恆法律相合。因此，人性行為因7是善的或是惡的，而是正當的或是罪惡。",
+      "after": "我解答如下：惡比罪範圍廣，善也比正當範圍廣。在任何事物上的善之欠缺皆是惡；但罪嚴格地說，在於一個為了目的而做的行動，但不合那個目的。合不合目的是按某尺度來看。這尺度在按自然而行動的東西方面，即天性趨向此目的之德能。一個出於天性的行動若是按對這目的之天然傾向，則這行動是正當的，因為中點沒有越出界限，即是行動沒有離開從主動根本到目的之秩序。一個行動若離開這個秩序，便構成罪。\n為那些由意志而行動者，近的尺度是人的理性；最高尺度便是永恆法律。人性行動若按理性及永恆法律之秩序走向目的，這行動便是正當的；若離開這個秩序，便稱為罪。由前面第十九題第三及第四節己說過的，可知情願的行動若離開理性及永恆法律之秩序便是惡的：而一切善的行動皆與理性及永恆法律相合。因此，人性行為因了是善的或是惡的，而是正當的或是罪惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "到自的",
+          "after": "到目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2004
+      ],
+      "before": "罪惡被稱為怪物，因為怪物是由自然行動之罪惡產生的。",
+      "after": "罪惡被稱為怪物，因為怪物是由自然行動之罪惡產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2004,
+        2005
+      ],
+      "before": "目的有兩種:一是最後目的，一是近臣的。在自然罪惡77面，行動雖不能達到最後目的，即被生者立完美: f旦並非不能達到任何近日的，因為從自然之動作中有所形成。同樣.在意志之罪惡方面，一定不能達到所求之最後目的，因為沒有一個惡的情願行動可導向幸福，亦即最後目的;但能達到意志所求之近目的。故此，這目的之志向既是指向最後目的者，在這種目的之志向中即含有正當與罪惡之理。",
+      "after": "目的有兩種：一是最後目的，一是近目的。在自然罪惡方面，行動雖不能達到最後目的，即被生者之完美：但並非不能達到任何近目的，因為從自然之動作中有所形成。同樣，在意志之罪惡方面，一定不能達到所求之最後目的，因為沒有一個惡的情願行動可導向幸福，亦即最後目的；但能達到意志所求之近目的。故此，這目的之志向既是指向最後目的者，在這種目的之志向中即含有正當與罪惡之理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "近臣的",
+          "after": "近目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "罪惡77面",
+          "after": "罪惡方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生者立完美",
+          "after": "生者之完美",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " f旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "任何近日的",
+          "after": "任何近目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同樣.",
+          "after": "同樣，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "每個東西，是以其行動走向目的:為此，罪惡之理，既然在於背離導向目的之秩序，所以罪惡主要在行動。但按第一集第四十八題第五節釋疑4.、第六節釋疑3.裡說的，處罰是針對犯罪之人的。",
+      "after": "每個東西，是以其行動走向目的：為此，罪惡之理，既然在於背離導向目的之秩序，所以罪惡主要在行動。但按第一集第四十八題第五節釋疑4.、第六節釋疑3.裡說的，處罰是針對犯罪之人的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "人性行為是否由於善惡而是可讚美的、或可講責的",
+      "after": "人性行為是否由於善惡而是可讚美的、或可譴責的",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "講責",
+          "after": "譴責",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "人性行動似乎不因為是善或惡而是可讚美的或可謂責的。因為:",
+      "after": "人性行動似乎不因為是善或惡而是可讚美的或可譴責的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可謂責",
+          "after": "可譴責",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "《物理學》卷二第八章中說: 「由自然而來者，亦能有罪惡C 」但按《倫理學》卷三第五章中說的，自然的東西不是可讚美的，也不是可譴責的。所以，人性行動不因其是惡或罪而成為可譴責的;同樣，也不因為是善便是可讚美的。",
+      "after": "《物理學》卷二第八章中說：「由自然而來者，亦能有罪惡。」但按《倫理學》卷三第五章中說的，自然的東西不是可讚美的，也不是可譴責的。所以，人性行動不因其是惡或罪而成為可譴責的；同樣，也不因為是善便是可讚美的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "罪惡C ",
+          "after": "罪惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "此外，在道德性行動上能有罪，在藝術性行動上也能有罪，因為《物理學》卷二第八章中說: 「文法學家寫的不正確，及醫生給的藥品不對，都是犯罪。」但藝術家不因為做得不好而受到譴責，因為藝術家的造詣就在於願意做得好就能做得好，願意作品壞就壤。所以，似乎道德性行動也不因為是惡便可譴責。",
+      "after": "此外，在道德性行動上能有罪，在藝術性行動上也能有罪，因為《物理學》卷二第八章中說：「文法學家寫的不正確，及醫生給的藥品不對，都是犯罪。」但藝術家不因為做得不好而受到譴責，因為藝術家的造詣就在於願意做得好就能做得好，願意作品壞就壞。所以，似乎道德性行動也不因為是惡便可譴責。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "就壤",
+          "after": "就壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2005
+      ],
+      "before": "此外，狄奧尼修在《神名論》第四章說，惡是「病弱的，無能的」。但病弱或無能排除或減輕可譴責的理由。所以，人性行動不因為是惡的便可譴責。",
+      "after": "此外，狄奧尼修在《神名論》第四章說，惡是「病弱的，無能的」。但病弱或無能排除或減輕可譴責的理由。所以，人性行動不因為是惡的便可譴責。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2005,
+        2006
+      ],
+      "before": "哲學家《倫理學》卷三第一章卻說: 「德性之行為是可稱讚的，反面的行為是可斥責或譴責的心但善的行動是德性之行動，因為按《倫理學》卷二第六章裡說的，「德性使具有之者成為善的，亦使其行為成為善的」;故此，反面的行動是惡的。所以人性行動，由於是善或蔥的，而成為可讚美的或可譴責的。",
+      "after": "哲學家《倫理學》卷三第一章卻說：「德性之行為是可稱讚的，反面的行為是可斥責或譴責的。」但善的行動是德性之行動，因為按《倫理學》卷二第六章裡說的，「德性使具有之者成為善的，亦使其行為成為善的」；故此，反面的行動是惡的。所以人性行動，由於是善或惡的，而成為可讚美的或可譴責的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "譴責的心但",
+          "after": "譴責的。」但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善或蔥的",
+          "after": "善或惡的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2006
+      ],
+      "before": "我解答如下:就如惡比罪範圍廣，罪叉上七罪咎(culpa)範圍廣。因為是把一行動歸之於行動者，才說這行動是可讚美的或可譴責的;因為讚美與譴責無非就是將行動之善或惡歸給某人。一個行動如果是在行動者之權下的，他對其行動有自由主權，才能歸屬於他。情願之行動皆是這樣的:因為人對其行動操有主權是由於意志，如前面第一題第一及第二節己說過的。故此，只有情願之行動的善或惡，構成可讚美或可譴責之理由;在這些行動上，惡，罪，及罪咎，都是同一回事。",
+      "after": "我解答如下：就如惡比罪範圍廣，罪又比罪咎(culpa)範圍廣。因為是把一行動歸之於行動者，才說這行動是可讚美的或可譴責的；因為讚美與譴責無非就是將行動之善或惡歸給某人。一個行動如果是在行動者之權下的，他對其行動有自由主權，才能歸屬於他。情願之行動皆是這樣的：因為人對其行動操有主權是由於意志，如前面第一題第一及第二節己說過的。故此，只有情願之行動的善或惡，構成可讚美或可譴責之理由；在這些行動上，惡，罪，及罪咎，都是同一回事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "罪叉上七",
+          "after": "罪又比",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2006
+      ],
+      "before": "自然性的行動不是在行動者的權下，因為天性是固定於一的。因此，雖然在自然行動方面有罪，但是沒有罪咎。",
+      "after": "自然性的行動不是在行動者的權下，因為天性是固定於一的。因此，雖然在自然行動方面有罪，但是沒有罪咎。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2006,
+        2007
+      ],
+      "before": "在藝術上及道德上的理不相同。藝術之理是指向個別之目的，這目的是由理性構想出來的。道德之理指向整個人生之普通目的。個另IJ目的附屬於普遍目的。按第一節己說過的，罪既然是背離目的，在藝術行動上，遂有兩種罪。一種是由於背離藝術家所指望之個別目的，這是藝術上專有的罪，例如:藝術家想做好的作品而做了壞的，或要做壞的而做成了好的。另一種罪是由於背離人生之普遍目的，例如:藝術家想做並做了壞作品，用以欺騙他人，這也稱為犯罪。但這罪不是藝術家之為藝術家所專有的，而是由於他是人。故此，因了第一種罪‘藝術家是以藝術家之資格受譴責;因了第二種罪，人是以人的資格受譴責。但在道德上，因為看的是人生普通目的乏理，惡及罪常是看對人生普遍目的之背離。故此因了這種罪‘受譴責的是人，並且因為是人，又因為是人性行動。因此哲學家在《倫理學》卷六第五章說: 「在藝街上，因願意而犯罪者，更為可取;但在智德上，更為不可取，在涵養{惡性上亦然。」",
+      "after": "在藝術上及道德上的理不相同。藝術之理是指向個別之目的，這目的是由理性構想出來的。道德之理指向整個人生之普通目的。個別目的附屬於普遍目的。按第一節己說過的，罪既然是背離目的，在藝術行動上，遂有兩種罪。一種是由於背離藝術家所指望之個別目的，這是藝術上專有的罪，例如：藝術家想做好的作品而做了壞的，或要做壞的而做成了好的。另一種罪是由於背離人生之普遍目的，例如：藝術家想做並做了壞作品，用以欺騙他人，這也稱為犯罪。但這罪不是藝術家之為藝術家所專有的，而是由於他是人。故此，因了第一種罪，藝術家是以藝術家之資格受譴責；因了第二種罪，人是以人的資格受譴責。但在道德上，因為看的是人生普通目的之理，惡及罪常是看對人生普遍目的之背離。故此因了這種罪，受譴責的是人，並且因為是人，又因為是人性行動。因此哲學家在《倫理學》卷六第五章說：「在藝術上，因願意而犯罪者，更為可取；但在智德上，更為不可取，在涵養德性上亦然。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "罪‘",
+          "after": "罪，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的乏理",
+          "after": "目的之理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "藝街",
+          "after": "藝術",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "涵養{惡性",
+          "after": "涵養德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "情願之惡裡的那種病弱，屬於人的權下。因此，既不jjt除，也不減輕罪咎。",
+      "after": "情願之惡裡的那種病弱，屬於人的權下。因此，既不排除，也不減輕罪咎。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "jjt除",
+          "after": "排除",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "人性行動是否由於善惡而有功、或有過",
+      "after": "人性行動是否由於善惡而有功、或有過",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "人性行動似乎不因其善惡而有功、或有過。因為:",
+      "after": "人性行動似乎不因其善惡而有功、或有過。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "功與過是針對報應而言，關係到他人時始能有。但並非所有的人性善惡行動皆與他人有關，有些只關係到自己。所以並非一切人性的善惡行動皆有功或有過。",
+      "after": "功與過是針對報應而言，關係到他人時始能有。但並非所有的人性善惡行動皆與他人有關，有些只關係到自己。所以並非一切人性的善惡行動皆有功或有過。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "此外，無人因了隨意安排自己為主人的東西而堪受賞罰，例如:一人破壞自己的東西，並不像破壞他人的東西那樣要受罰。但人是自己之行動的主人。所以，不因了善或不善為處理自己的行動而堪受賞或受罰。",
+      "after": "此外，無人因了隨意安排自己為主人的東西而堪受賞罰，例如：一人破壞自己的東西，並不像破壞他人的東西那樣要受罰。但人是自己之行動的主人。所以，不因了善或不善為處理自己的行動而堪受賞或受罰。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "此外，一人為了自己獲得了善，不因此便能要求他人對它善;關於惡也是同理。但善的行動本身便是行動者的一種善及成就，惡的行動則是他的惡。所以，人不因了善行或惡行便有功、或有過。",
+      "after": "此外，一人為了自己獲得了善，不因此便能要求他人對它善；關於惡也是同理。但善的行動本身便是行動者的一種善及成就，惡的行動則是他的惡。所以，人不因了善行或惡行便有功、或有過。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2007
+      ],
+      "before": "《依撒意亞》第三章10及11節說: 「義人是有福的，因為他們必享受自己行為的善果。禍哉作惡的人，他必遭災禍，因為他手中的作為必回報於他。」",
+      "after": "《依撒意亞》第三章10及11節說：「義人是有福的，因為他們必享受自己行為的善果。禍哉作惡的人，他必遭災禍，因為他手中的作為必回報於他。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2007,
+        2008
+      ],
+      "before": "我解答如下:功與過是指按正義該得的報應。按正義給一人報應'是因了他做了對他人有益或有害的事。但要知道，每個在社會中生活的人，就好似整個社會的一部分，或一個成員。無論誰做了對社會中之一員有益、或有害的事，影響整個社會;就如誰傷了手，便是傷了人。所以，一人做了對某私人有盆、或有害的事時，便有兩層功過之理由。其一，他所利、或所害之私人，應對他有回報。其次，整個團體應對他有回報。一人的行動若直接指向團體之利害，貝IJ主要地並首先團體該對他有回報;其次是圖體中的每一員。如果一人的行動是對自己有益、或有害，也得有回報，因為這事影響整個團體;但在私人方面則不要有回報，除非按類似的正義方式，即按自己對自己的正義，而自己回報自己。\n由此可見，善的或惡的行動，如果是在意志權下的，便是可讚美的、或可譴責的;按其對目的之關係，則是正當的、或有罪的;按其對他人之正義報應關係，則是有功的、或有過的。",
+      "after": "我解答如下：功與過是指按正義該得的報應。按正義給一人報應，是因了他做了對他人有益或有害的事。但要知道，每個在社會中生活的人，就好似整個社會的一部分，或一個成員。無論誰做了對社會中之一員有益、或有害的事，影響整個社會；就如誰傷了手，便是傷了人。所以，一人做了對某私人有益、或有害的事時，便有兩層功過之理由。其一，他所利、或所害之私人，應對他有回報。其次，整個團體應對他有回報。一人的行動若直接指向團體之利害，則主要地並首先團體該對他有回報；其次是團體中的每一員。如果一人的行動是對自己有益、或有害，也得有回報，因為這事影響整個團體；但在私人方面則不要有回報，除非按類似的正義方式，即按自己對自己的正義，而自己回報自己。\n由此可見，善的或惡的行動，如果是在意志權下的，便是可讚美的、或可譴責的；按其對目的之關係，則是正當的、或有罪的；按其對他人之正義報應關係，則是有功的、或有過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "報應'",
+          "after": "報應，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有盆",
+          "after": "有益",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "圖體",
+          "after": "團體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": ";.雖然有時人的善惡行動，不指向別的私人之利害，仍然有對外關係，因為牽涉到團體之利益。",
+      "after": "雖然有時人的善惡行動，不指向別的私人之利害，仍然有對外關係，因為牽涉到團體之利益。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": ";.雖然",
+          "after": "雖然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "對自己之行動有主權的人，他善或不善為安排自己的行動，也有功或有過，因為他自己另有所屬，即屬於他為其成員之一的團體;在他處置他的其他東西時，也是一樣，因為他該用以為團體服務。",
+      "after": "對自己之行動有主權的人，他善或不善為安排自己的行動，也有功或有過，因為他自己另有所屬，即屬於他為其成員之一的團體；在他處置他的其他東西時，也是一樣，因為他該用以為團體服務。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "人對自己做的善或惡，影響到團體，如正解己說過的。",
+      "after": "人對自己做的善或惡，影響到團體，如正解己說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "人性行動的善惡是否在天主前有功或有過",
+      "after": "人性行動的善惡是否在天主前有功或有過",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "有關第四節﹒我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四節﹒",
+          "after": "第四節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2008
+      ],
+      "before": "人性行動的善惡，對天主似乎沒有功過可言。因為:",
+      "after": "人性行動的善惡，對天主似乎沒有功過可言。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2008,
+        2009
+      ],
+      "before": "前面第三節己說過，功過是指加給他人之利益或害處應得之報應。但人的善惡行動對天主無利無害。的確，《約伯傳》第三十五章6及7節說:「你若犯罪，為祂有什麼害處?你若作惡多塢，又能力口害祂什麼?如果你為人正義，為祂又有何益?」所以，人的善惡行動在天主前沒有功過。",
+      "after": "前面第三節己說過，功過是指加給他人之利益或害處應得之報應。但人的善惡行動對天主無利無害。的確，《約伯傳》第三十五章6及7節說：「你若犯罪，為祂有什麼害處？你若作惡多端，又能加害祂什麼？如果你為人正義，為祂又有何益？」所以，人的善惡行動在天主前沒有功過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "多塢",
+          "after": "多端",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力口害",
+          "after": "能加害",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2009
+      ],
+      "before": "此外，工具在使用工具的人面前沒有功過，因為工具的全部作為都是用工具者的;但人在行動上，是主要推動他的天主之德能的工具。因此《依撒意亞》第十章15節說:「斧頭豈能對用斧頭砍伐的人自豪?鋸豈能向拉鋸的人自誇?」這裡顯然把有行動的人比為工具。所以，人行善或做惡，在天主前沒有功過。",
+      "after": "此外，工具在使用工具的人面前沒有功過，因為工具的全部作為都是用工具者的；但人在行動上，是主要推動他的天主之德能的工具。因此《依撒意亞》第十章15節說：「斧頭豈能對用斧頭砍伐的人自豪？鋸豈能向拉鋸的人自誇？」這裡顯然把有行動的人比為工具。所以，人行善或做惡，在天主前沒有功過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "?",
+          "after": "？",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2009
+      ],
+      "before": "此外，人性行動是因了對外的關係而有功過。但並非所有的人性行動皆與天主有關。所以，並非一切善惡行動皆在天主前有功或有過。",
+      "after": "此外，人性行動是因了對外的關係而有功過。但並非所有的人性行動皆與天主有關。所以，並非一切善惡行動皆在天主前有功或有過。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2009
+      ],
+      "before": "《訓道篇》第十二章14節卻說:「天主對一切行為，連最隱祕的，不論好壤，都要一一審判。」但審判帶有報應，因而稱為功過。所以，一切人性善惡行動皆在天主前有功或有過。",
+      "after": "《訓道篇》第十二章14節卻說：「天主對一切行為，連最隱秘的，不論好壞，都要一一審判。」但審判帶有報應，因而稱為功過。所以，一切人性善惡行動皆在天主前有功或有過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隱祕",
+          "after": "隱秘",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "好壤",
+          "after": "好壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2009
+      ],
+      "before": "我解答如下:如第三節已說過的，一人的行動，因了對外的關係，而有功或有過。對外關係或基於私人，或基於團體。在這兩方面，我們的善惡行動皆在天主前有功或有過。以私人而言，天主是人的最後目的。按前面第十九題第十節說的，一切行動皆應指向最後目的ω因此，誰做了不能導向天主的惡事，就是不給天主最後目的應得之尊敬。以整個宇宙之闡體來說，管理團體者主要的任務是照顧共問之利益，所以他該報應那些在團體中做善或為惡的人。在第一集第一0三題第五節已經說過，天主是整個宇宙的指導者和管理者，特別是有理性之受造物的。故顯然人性行動對祂有功或有過;否則的話，則是天主不照管人性行動。",
+      "after": "我解答如下：如第三節己說過的，一人的行動，因了對外的關係，而有功或有過。對外關係或基於私人，或基於團體。在這兩方面，我們的善惡行動皆在天主前有功或有過。以私人而言，天主是人的最後目的。按前面第十九題第十節說的，一切行動皆應指向最後目的。因此，誰做了不能導向天主的惡事，就是不給天主最後目的應得之尊敬。以整個宇宙之團體來說，管理團體者主要的任務是照顧共同之利益，所以他該報應那些在團體中做善或為惡的人。在第一集第一〇三題第五節己經說過，天主是整個宇宙的指導者和管理者，特別是有理性之受造物的。故顯然人性行動對祂有功或有過；否則的話，則是天主不照管人性行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的ω",
+          "after": "目的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之闡體",
+          "after": "之團體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "共問",
+          "after": "共同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0三題",
+          "after": "第一〇三題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2010
+      ],
+      "before": "人以其行動對天主本身什麼也不能增加，什麼也不能減少;但人在守或不守天主所立的秩序時，在人自己那方面對天主是有所虧欠、或有所奉獻。",
+      "after": "人以其行動對天主本身什麼也不能增加，什麼也不能減少；但人在守或不守天主所立的秩序時，在人自己那方面對天主是有所虧欠、或有所奉獻。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q021.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2010
+      ],
+      "before": "人被天主推動，有似工具，但這並不排除人仍以其自主能力推動自己，這由前面第九題第六節釋疑3.己說過的可明顯看出。故其行動在天主前有功或有過。",
+      "after": "人被天主推動，有似工具，但這並不排除人仍以其自主能力推動自己，這由前面第九題第六節釋疑3.己說過的可明顯看出。故其行動在天主前有功或有過。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q021.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2010
+      ],
+      "before": "人不是以其整體及其全部所有屬於政治團體，所以他的行動不是每個皆對政治團體有功或有過。但人的整體，他的一切所有及所能，皆屬於天主;所以人的每個行動，無論是善是惡，只要是行動，便在天主前有功或有過。",
+      "after": "人不是以其整體及其全部所有屬於政治團體，所以他的行動不是每個皆對政治團體有功或有過。但人的整體，他的一切所有及所能，皆屬於天主；所以人的每個行動，無論是善是惡，只要是行動，便在天主前有功或有過。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
