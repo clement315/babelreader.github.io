@@ -1,0 +1,2456 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q006",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q006",
+    "title": "論有意行為及無意行為",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pdf_file_pages": [
+      1847,
+      1848,
+      1849,
+      1850,
+      1851,
+      1852,
+      1853,
+      1854,
+      1855,
+      1856,
+      1857,
+      1858,
+      1859,
+      1860,
+      1861
+    ],
+    "printed_pages": [
+      76,
+      90
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 94,
+    "changed_review_units": 68,
+    "checked_unchanged_review_units": 27
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q6.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q6.json": "6f16dbd5e2d79c58cbe60bff6e32944d821a6426b85447d0c58ee83fdde3df6e"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q006.a001.respondeo",
+      "pdf_file_page": 1849,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q006.a002.respondeo",
+      "pdf_file_page": 1851,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q006.a005.arg1",
+      "pdf_file_page": 1855,
+      "text": "己指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q006.a007.sed_contra",
+      "pdf_file_page": 1859,
+      "text": "慾情不造成不情願",
+      "status": "suspected_source_print_error",
+      "action": "原页该段末亦缺句末标点，按底本保留，不自行补句号。"
+    },
+    {
+      "id": "I_II.q006.a008.arg2",
+      "pdf_file_page": 1860,
+      "text": "陰謀邪惡的人，豈非走入歧途？",
+      "status": "suspected_source_print_error",
+      "action": "原页此引文问号后即接「倘若」，未见闭引号；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q006.a004.respondeo",
+      "description": "原正解尾部误并三条释疑，移回现有ad1–3；保留原字段两个换行。"
+    },
+    {
+      "id": "I_II.q006.a008.ad1",
+      "description": "底本三条质疑答复为同一总结段；JSON仅有ad1，整段归入该现有栏，不增键。"
+    }
+  ],
+  "notes": [
+    "全部15页、8节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q006.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1847,
+        1848
+      ],
+      "before": "因了為達到幸福，必須有些行動(參看第五題第七節)。故要討論人性行動，為能知道哪些行動導向幸福，哪些阻礙幸福之路(參看第一題引言)。但因為動作和行為是關於個刑事件的，故有關實踐之學識，必得近窺個別事件始稱完備。所以，有關人性之倫理學，先討論普遍問題，然後討論個別問題。\n關於人性行動之普遍問題，先須討論人性行動本身，再論人性行動之原理(第四十九題)。人性行動是專屬於人的;有些行動則為人與其他動物所共有。因為幸福乃人專有之利益，故人性專有之行動比那與其他動物共有者，關係更為密切。故先應討論人性專有之行動，然後討論與其他動物共有之行動，即所謂靈魂之情(第二十二題)。\n關於人性行動，須討論雨點:第一，人性行動之條件;第二，人性行動之區分(第十八題)。既然人性行動專指有意行動，因為意志是有理性的嗜慾，是人所專有的，故須從有意或無意之觀點看人性行動。所以，先泛論有意及無意行動;第二，論發自意志的人性行動，即意志之直接行動(第八題)第三，論由於意志之命令，通過其他機能而產生之行動(第十七題)。\n又因為有意行為有些情況，可據以評會IJ這些行為，故在論有意及無意行為之後，又論有意及無意行動之情況(第七題)。\n關於第一點，分八節討論。\n一、在人性行動中是否有情願之行動。\n二、在禽獸中是否有情願之行動。\n三、沒有行動是否可有情願。\n四、對意志可否施以強暴。\n五、強暴是否造成不情願。\n六、畏懼是否造成不情願。\n七、慾情是否造成不情願。\n八、愚昧是否造成不情願。",
+      "after": "因了為達到幸福，必須有些行動(參看第五題第七節)。故要討論人性行動，為能知道哪些行動導向幸福，哪些阻礙幸福之路(參看第一題引言)。但因為動作和行為是關於個別事件的，故有關實踐之學識，必得近窺個別事件始稱完備。所以，有關人性之倫理學，先討論普遍問題，然後討論個別問題。\n關於人性行動之普遍問題，先須討論人性行動本身，再論人性行動之原理(第四十九題)。人性行動是專屬於人的；有些行動則為人與其他動物所共有。因為幸福乃人專有之利益，故人性專有之行動比那與其他動物共有者，關係更為密切。故先應討論人性專有之行動，然後討論與其他動物共有之行動，即所謂靈魂之情(第二十二題)。\n關於人性行動，須討論兩點：第一，人性行動之條件；第二，人性行動之區分(第十八題)。既然人性行動專指有意行動，因為意志是有理性的嗜慾，是人所專有的，故須從有意或無意之觀點看人性行動。所以，先泛論有意及無意行動；第二，論發自意志的人性行動，即意志之直接行動(第八題)；第三，論由於意志之命令，通過其他機能而產生之行動(第十七題)。\n又因為有意行為有些情況，可據以評判這些行為，故在論有意及無意行為之後，又論有意及無意行動之情況(第七題)。\n關於第一點，分八節討論。\n一、在人性行動中是否有情願之行動。\n二、在禽獸中是否有情願之行動。\n三、沒有行動是否可有情願。\n四、對意志可否施以強暴。\n五、強暴是否造成不情願。\n六、畏懼是否造成不情願。\n七、慾情是否造成不情願。\n八、愚昧是否造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個刑",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "雨點",
+          "after": "兩點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(第八題)第三",
+          "after": "(第八題)；第三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "評會IJ",
+          "after": "評判",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "在人性行動中是否有情願之行動",
+      "after": "在人性行動中是否有情願之行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "好似在人性行動中沒有情願之行動。因為:",
+      "after": "好似在人性行動中沒有情願之行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "按尼沙之額我略(按:應為尼美修斯，《論人性》第三十二章卜大馬士革的若望《論正統信仰》卷二第二十四章，及亞里斯多德《倫理學》卷三第一章，情願行動是「其根本在其自身者」。但人性行動之根本不在人內，而在人外，因為人的嗜慾是被外在之可慾者引動而有行動;而可欲者，按《靈魂論》卷三第十章上說的，好似「不動之推動者」。所以，在人性行動中沒有情願之行動。",
+      "after": "按尼沙之額我略(按：應為尼美修斯，《論人性》第三十二章)，大馬士革的若望《論正統信仰》卷二第二十四章，及亞里斯多德《倫理學》卷三第一章，情願行動是「其根本在其自身者」。但人性行動之根本不在人內，而在人外，因為人的嗜慾是被外在之可慾者引動而有行動；而可慾者，按《靈魂論》卷三第十章上說的，好似「不動之推動者」。所以，在人性行動中沒有情願之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章卜",
+          "after": "章)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而可欲者",
+          "after": "而可慾者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "此外，哲學家在《物理學》卷八第二章指出，除非先有外來的運動，動物內不會有新的行動。但人的行動都是新的，因為沒有一個是永恆的。所以，一切人性行動的根本皆在人外，故沒有情願之行動。",
+      "after": "此外，哲學家在《物理學》卷八第二章指出，除非先有外來的運動，動物內不會有新的行動。但人的行動都是新的，因為沒有一個是永恆的。所以，一切人性行動的根本皆在人外，故沒有情願之行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "此外，那情願而為的，是憑自己而為。但這與人不合，因為《若望福音》第十五章5節說: 「離了我，你們什麼也不能做。」所以，在人性行動中沒有情願行動。",
+      "after": "此外，那情願而為的，是憑自己而為。但這與人不合，因為《若望福音》第十五章5節說：「離了我，你們什麼也不能做。」所以，在人性行動中沒有情願行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1848
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷二第二十四章卻說: 「情願行動是有理性的動作。」但這就是人性行動，所以人性行動中有情願行動。",
+      "after": "大馬士革的若望在《論正統信仰》卷二第二十四章卻說：「情願行動是有理性的動作。」但這就是人性行動，所以人性行動中有情願行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1849
+      ],
+      "before": "我解答如下:在人性行動中，必然有情願。要證明此點，須知有些行動之根本是在行動主體內，即在那行動者內;有些行動之根本是在以外。石塊向上動的時候，這動態的根本是在石塊之外;但在向下動的時候，其根本是在石塊之內。那些由內在根本動的東西，有的推動自己，有的則不然。既然每個行動者，或自動或被動，皆是為了目的，如前面第一題第二節己說過的;那由內在根本不只能動，且能向目的而動者，是完全由內在根本而動。然而要能為目的而動，須知道目的。所以，凡由內在根本而動的，且多少知道目的，其具有內在根本不只為能動，且使之能為目的而動。那對目的毫無所知的，雖然在內具有其動作之根本，但為目的而動之根本卻不在它內，而在別的東西上，是別的東西使它動向目的。是以，不說這些東西推動自己，而說被推動。那知道目的者，便說它推動自己;因為在它內不只有動作之根本，也有為目的而動之根本。那麼，兩種根本皆在本身的，即能動，又能為目的而動者，其行動即稱為情願的。情願之要點在於行動是出自本身之傾向。是以，按上述質疑1.各人之定義，情願行動不只是「其根本在自身者屍還要具有「知識」。既然人最能認識其行動之目的，又自己推動自己，故在其行動中，情願行動最多。",
+      "after": "我解答如下：在人性行動中，必然有情願。要證明此點，須知有些行動之根本是在行動主體內，即在那行動者內；有些行動之根本是在以外。石塊向上動的時候，這動態的根本是在石塊之外；但在向下動的時候，其根本是在石塊之內。那些由內在根本動的東西，有的推動自己，有的則不然。既然每個行動者，或自動或被動，皆是為了目的，如前面第一題第二節己說過的；那由內在根本不只能動，且能向目的而動者，是完全由內在根本而動。然而要能為目的而動，須知道目的。所以，凡由內在根本而動的，且多少知道目的，其具有內在根本不只為能動，且使之能為目的而動。那對目的毫無所知的，雖然在內具有其動作之根本，但為目的而動之根本卻不在它內，而在別的東西上，是別的東西使它動向目的。是以，不說這些東西推動自己，而說被推動。那知道目的者，便說它推動自己；因為在它內不只有動作之根本，也有為目的而動之根本。那麼，兩種根本皆在本身的，即能動，又能為目的而動者，其行動即稱為情願的。情願之要點在於行動是出自本身之傾向。是以，按上述質疑1.各人之定義，情願行動不只是「其根本在自身者」，還要具有「知識」。既然人最能認識其行動之目的，又自己推動自己，故在其行動中，情願行動最多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "其根本在自身者屍還要",
+          "after": "其根本在自身者」，還要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1849,
+        1850
+      ],
+      "before": "並非所有之根本皆為「第一根本」。雖然情願行動之根本須是內在的，但若內在根本被外在根本推動，與情願之理並不衝突，因為情願之理並不要求其內在根本是「第一根本」。然而要知道，有時某行動之根本在某類別中是第一，但非絕對之第一根本，例如:在可變化者一類中，第一變化者是「天體」(corpus caeleste)，但天體不是絕對的第一動園，它是由於更高的動因之推動‘始能在空間動。情願行動之根本，即認知及欲求之能力，在欲求動作的類別中雖為第一根本，但在其他種類的動作中，能受外在之根本推動。",
+      "after": "並非所有之根本皆為「第一根本」。雖然情願行動之根本須是內在的，但若內在根本被外在根本推動，與情願之理並不衝突，因為情願之理並不要求其內在根本是「第一根本」。然而要知道，有時某行動之根本在某類別中是第一，但非絕對之第一根本，例如：在可變化者一類中，第一變化者是「天體」(corpus caeleste)，但天體不是絕對的第一動因，它是由於更高的動因之推動，始能在空間動。情願行動之根本，即認知及欲求之能力，在欲求動作的類別中雖為第一根本，但在其他種類的動作中，能受外在之根本推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一動園",
+          "after": "第一動因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "推動‘始能",
+          "after": "推動，始能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "動物之有新動作，必先有外來之運動，情形分兩種。第一種情形，是由外面之運動，使某可感覺的東西呈現於動物之感官，因而引動嗜慾，如:獅子見鹿走近，遂開始向鹿移動。第二種情形，是由於外在的變動，動物之身體開始起自然之變化，例如:因7冷或熱。身體因外物之變動起了變化後，偶爾感宮性嗜慾也起變化，感官性嗜慾即身體器官之能力;例如由於身體之變化，牽動嗜慾而慾望某東西。但這並不與情願之理相反，前面釋提1.已經說過;因為這些由外在根本而起的變動，屬於另一類別。",
+      "after": "動物之有新動作，必先有外來之運動，情形分兩種。第一種情形，是由外面之運動，使某可感覺的東西呈現於動物之感官，因而引動嗜慾，如：獅子見鹿走近，遂開始向鹿移動。第二種情形，是由於外在的變動，動物之身體開始起自然之變化，例如：因了冷或熱。身體因外物之變動起了變化後，偶爾感官性嗜慾也起變化，感官性嗜慾即身體器官之能力；例如由於身體之變化，牽動嗜慾而慾望某東西。但這並不與情願之理相反，前面釋疑1.已經說過；因為這些由外在根本而起的變動，屬於另一類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因7冷或熱",
+          "after": "因了冷或熱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋提",
+          "after": "釋疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "天主推動人行動，不只像使可欲者呈現在感官之前，或使身體起變化，祂也推動意志;因為所有的變動，無論是屬於天性的或屬於意志的，皆由祂而來，祂是第一動因。正如天性的變動由天主一一即第一動因而來，並不違反天性之理，因天性好似天主之工具;同樣，情願行動之由天主而來，因為天主推動意志，也不與情願行動之理相反。自然的及情願的行動之理，皆在其是出於內在根本。",
+      "after": "天主推動人行動，不只像使可欲者呈現在感官之前，或使身體起變化，祂也推動意志；因為所有的變動，無論是屬於天性的或屬於意志的，皆由祂而來，祂是第一動因。正如天性的變動由天主——即第一動因而來，並不違反天性之理，因天性好似天主之工具；同樣，情願行動之由天主而來，因為天主推動意志，也不與情願行動之理相反。自然的及情願的行動之理，皆在其是出於內在根本。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主一一即",
+          "after": "天主——即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "禽獸是否有情願行動",
+      "after": "禽獸是否有情願行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "似乎禽獸沒有情願行動。因為:",
+      "after": "似乎禽獸沒有情願行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "情願是根據意志。既然按《靈魂論》卷三第九章中講的，意志屬於理性部分;所以，禽獸沒有意志，也沒有情願行動。",
+      "after": "情願是根據意志。既然按《靈魂論》卷三第九章中講的，意志屬於理性部分；所以，禽獸沒有意志，也沒有情願行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1850
+      ],
+      "before": "此外，由於人性行動是情願行動，故說人是其行動的主人。但禽獸不能主宰其行動;按大馬士革的若望《論正統信仰》卷二第二十七章說: 「他們不主動，更好說是被動。」所以，禽獸沒有情願行動。",
+      "after": "此外，由於人性行動是情願行動，故說人是其行動的主人。但禽獸不能主宰其行動；按大馬士革的若望《論正統信仰》卷二第二十七章說：「他們不主動，更好說是被動。」所以，禽獸沒有情願行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1851
+      ],
+      "before": "此外，大馬士革的若望《論正統信仰》卷二第二十四章說: 「情願的行動帶來稱頌和譴責。」但禽獸的行動無可稱頌，亦無可譴責。所以牠們沒有情願行動。",
+      "after": "此外，大馬士革的若望《論正統信仰》卷二第二十四章說：「情願的行動帶來稱頌和譴責。」但禽獸的行動無可稱頌，亦無可譴責。所以牠們沒有情願行動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1851
+      ],
+      "before": "哲學家在《倫理學》卷三第二章卻說: 「孩兒及禽獸的情願行動相同。」大馬士革的若望(同喔)，及尼沙的額我略(尼美11多斯，(《論人性》第三十二章)，亦如是主張。",
+      "after": "哲學家在《倫理學》卷三第二章卻說：「孩及及禽獸的情願行動相同。」大馬士革的若望(同處)，及尼沙的額我略(尼美修斯，《論人性》第三十二章)，亦如是主張。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "孩兒",
+          "after": "孩及",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同喔",
+          "after": "同處",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尼美11多斯，(《",
+          "after": "尼美修斯，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1851
+      ],
+      "before": "我解答如下:前面第一節己說過，情願行動之恨本須是在內，並多少知道目的。對目的之認知有兩種，一種完美，另一種不完美。對目的之完美認知，不只看到那充為目的者之東西，且知目的之理，以及導致目的者與目的之關係。這種對自的之認知，只屬於有理性者。對目的不完美之認知，只在於認知目的，而不知目的之理，也不知行動與目的問之關係。禽獸對目的有這種認知，是憑感官及自然的直覺。對目的有完整的認知，則有完全的情願;即是當一人知道了目的，把目的及導致目的者加以考慮，能為目的所動，或不為所動。對目的之認知不完整，貝IJ產生不完整之情願行動:就是知道了目的，不力日考慮，立刻動向目的。故只有具理性者有完全之情願行動;但不完整之情願行動，禽獸也能有。",
+      "after": "我解答如下：前面第一節己說過，情願行動之根本須是在內，並多少知道目的。對目的之認知有兩種，一種完美，另一種不完美。對目的之完美認知，不只看到那充為目的者之東西，且知目的之理，以及導致目的者與目的之關係。這種對目的之認知，只屬於有理性者。對目的不完美之認知，只在於認知目的，而不知目的之理，也不知行動與目的間之關係。禽獸對目的有這種認知，是憑感官及自然的直覺。對目的有完整的認知，則有完全的情願；即是當一人知道了目的，把目的及導致目的者加以考慮，能為目的所動，或不為所動。對目的之認知不完整，則產生不完整之情願行動：就是知道了目的，不加考慮，立刻動向目的。故只有具理性者有完全之情願行動；但不完整之情願行動，禽獸也能有。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恨本",
+          "after": "根本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對自的",
+          "after": "對目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的問",
+          "after": "目的間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不力日",
+          "after": "不加",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1851
+      ],
+      "before": "意志是指具理性的嗜慾，故沒有理性者就不能有意志。情願(voluntarium)之字源是從意志(voluntas)而來，故可指一切因近似意志而與意志多少有點關係者。這樣則可說禽獸有情願行動，因為是由於對目的有點認識而動向目的。",
+      "after": "意志是指具理性的嗜慾，故沒有理性者就不能有意志。情願(voluntarium)之字源是從意志(voluntas)而來，故可指一切因近似意志而與意志多少有點關係者。這樣則可說禽獸有情願行動，因為是由於對目的有點認識而動向目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1851
+      ],
+      "before": "說人是其行動之主人，是因為他對其行動能力日以考慮:因為考慮是關於兩個相反者，而意志能取其中任何之一。按這意義，買IJ禽獸沒有情願行動，如前面正解已說過的。",
+      "after": "說人是其行動之主人，是因為他對其行動能加以考慮：因為考慮是關於兩個相反者，而意志能取其中任何之一。按這意義，則禽獸沒有情願行動，如前面正解已說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能力日",
+          "after": "能加",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "讚許與譴責適用於完整之情願行動，但是禽獸沒有這種行動。",
+      "after": "讚許與譴責適用於完整之情願行動，但是禽獸沒有這種行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "沒有行動是否可有情願",
+      "after": "沒有行動是否可有情願",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "似乎沒有行動，不能有情願。因為:",
+      "after": "似乎沒有行動，不能有情願。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "情願的是指由意志而來的。但若非有行動，什麼也不能出於意志，至少要有意志之行動。所以沒有行動不能有情願。",
+      "after": "情願的是指由意志而來的。但若非有行動，什麼也不能出於意志，至少要有意志之行動。所以沒有行動不能有情願。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "此外，就如由於意志之行動，而說一人願意;同樣，意志之行動停止了，便是不願意。但不願意造成不情願，這與情願相反。所以，停止了意志之行動，便不能有情願。",
+      "after": "此外，就如由於意志之行動，而說一人願意；同樣，意志之行動停止了，便是不願意。但不願意造成不情願，這與情願相反。所以，停止了意志之行動，便不能有情願。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "此外，按前面第一及第二節說的，認知是情願的必要因素。但認知要有行動。所以，沒有行動不能有情願。",
+      "after": "此外，按前面第一及第二節說的，認知是情願的必要因素。但認知要有行動。所以，沒有行動不能有情願。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1852
+      ],
+      "before": "凡我們為其主人的，皆成為情願的。但動或不動，願意或不願意，是由我們作主。所以，正如主動與願意是情願，不主動和不願意也是情願。",
+      "after": "凡我們為其主人的，皆成為情願的。但動或不動，願意或不願意，是由我們作主。所以，正如主動與願意是情願，不主動和不願意也是情願。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1852,
+        1853
+      ],
+      "before": "我解答如下:情願是指由意志而來的。但說一物是由某物而來有兩種情形:一種是直接地，即出於主動者，如熱化是出於熱量。另一種是間接地，即由於不做，例如:沉船說是來自舵手，由於他不掌舵。不過要知道，那由於缺少行動而發生的，不常只由於那行動主體不動便歸於他，而只是在他能夠而且應該行動的情況下的時候。倘若舵手不能夠管船，或船沒有交給他管，貝IJ沉船不能怨他，縱然是由於他不在而發生的。因為意志若願意並採取行動，有時可以並應該阻止那不願意和不動，買IJ那不願意和不動就歸它負責，就如是由它而來。這樣則無行動可以有情願:有時無外表行動但有內裡的行動，例如一人願意不行動;有時也沒有心裡的行動，例如在一人無所願的時(侯。",
+      "after": "我解答如下：情願是指由意志而來的。但說一物是由某物而來有兩種情形：一種是直接地，即出於主動者，如熱化是出於熱量。另一種是間接地，即由於不做，例如：沉船說是來自舵手，由於他不掌舵。不過要知道，那由於缺少行動而發生的，不常只由於那行動主體不動便歸於他，而只是在他能夠而且應該行動的情況下的時候。倘若舵手不能夠管船，或船沒有交給他管，則沉船不能怨他，縱然是由於他不在而發生的。因為意志若願意並採取行動，有時可以並應該阻止那不願意和不動，則那不願意和不動就歸它負責，就如是由它而來。這樣則無行動可以有情願：有時無外表行動但有內裡的行動，例如一人願意不行動；有時也沒有心裡的行動，例如在一人無所願的時候。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的時(侯",
+          "after": "的時候",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "情願的不只指直接由意志主動而來的，也指間接由它來的，例如它不動。",
+      "after": "情願的不只指直接由意志主動而來的，也指間接由它來的，例如它不動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "所謂「不願意」(non v山)有兩種。一種是當一個(宣示性的)語詞用，例如我說: 「我不願意讀書」'意思是說: 「我願意不讀書」。這種「不願意」造成不情願。另一種是當(一般性的)說法用一(無願意)即是否定意志之行動，這種「不願意」不造成不情願。",
+      "after": "所謂「不願意」(non velle)有兩種。一種是當一個(宣示性的)語詞用，例如我說：「我不願意讀書」，意思是說：「我願意不讀書」。這種「不願意」造成不情願。另一種是當(一般性的)說法用——(無願意)即是否定意志之行動，這種「不願意」不造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "non v山",
+          "after": "non velle",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "讀書」'意思",
+          "after": "讀書」，意思",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說法用一(無願意)",
+          "after": "說法用——(無願意)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "「情願」以同樣方式需要有認知行動及意志行動，即是須使人能考慮其願意及行動。正如不願意和不行動，在人能夠願意和行動時，算為情願的;同樣，不考慮也算是情願的。",
+      "after": "「情願」以同樣方式需要有認知行動及意志行動，即是須使人能考慮其願意及行動。正如不願意和不行動，在人能夠願意和行動時，算為情願的；同樣，不考慮也算是情願的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "對意志可否施以強暴",
+      "after": "對意志可否施以強暴",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "似乎可以對意志施強暴。因為:",
+      "after": "似乎可以對意志施強暴。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "任何東西都可以被更強者所迫。但有比人之意志更強者，即天主。所以，至少可以被天主強迫。",
+      "after": "任何東西都可以被更強者所迫。但有比人之意志更強者，即天主。所以，至少可以被天主強迫。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "此外，凡被動者，在被其主動者所改變的時候，皆受其主動者之強迫。但意志是一種被動的力量，按《靈魂論》卷三第十章裡說的，意志乃「被動的主動者」。意志既然有時受其主動者推動，所以有時似乎受強迫。",
+      "after": "此外，凡被動者，在被其主動者所改變的時候，皆受其主動者之強迫。但意志是一種被動的力量，按《靈魂論》卷三第十章裡說的，意志乃「被動的主動者」。意志既然有時受其主動者推動，所以有時似乎受強迫。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1853
+      ],
+      "before": "此外，受了強迫的動作，是與天性相反的動作。但意志的動態有時與天性相反:例如意志在犯罪峙的動態，按大馬士革的若望《論正統信仰》卷四第二十章說的，就是與天性相反。所以，意志的動作能受到強暴。",
+      "after": "此外，受了強迫的動作，是與天性相反的動作。但意志的動態有時與天性相反：例如意志在犯罪時的動態，按大馬士革的若望《論正統信仰》卷四第二十章說的，就是與天性相反。所以，意志的動作能受到強暴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "犯罪峙",
+          "after": "犯罪時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1854
+      ],
+      "before": "奧斯定在《天主之城》卷五第十章卻說，由意志而然者，貝IJ不是必然而然。凡被強海者，皆必然而然。所以，由意志而然的，不能是被強迫的。是以，意志不能被強暴所動。",
+      "after": "奧斯定在《天主之城》卷五第十章卻說，由意志而然者，則不是必然而然。凡被強迫者，皆必然而然。所以，由意志而然的，不能是被強迫的。是以，意志不能被強暴所動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "強海",
+          "after": "強迫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1854
+      ],
+      "before": "我解答如下:意志的動作有兩種:一種直接來自意志，是由意志發出，例如願意:男一種是由意志發命令，藉其他官能而操便，如走路及講話，這些動作是受意志之命，由別的機能來完成。關於受意志之命的行動，意志可以受到強迫，即是外在之官能受到強暴，阻止其執行意志的命令。至於意志本身之動作，則不能受到強暴。這點的理由，是因為意志之行動，無非是由內在之認知根本產生的一種傾向:就似自然嗜慾，也是由內在之根本產生的傾向，只是沒有知識。受迫或受強暴者，是來自外在之根本。故強迫或強暴與意志之行動的本質相矛盾，與自然傾向之理也互不相容。用強迫可使石塊升高;但這動態不可能是由其自然傾向而來。同樣，人也可以受強力推拉;但若這是出於他的意志，買11與強暴之理不合。釋提1天主比人的意志強而有力，可以推動人的意志，如《鴛言》第二十一章l節上說的:「君玉的心在上主手裡，有如水流，可隨意轉移。」但倘若這是由於強暴，就與意志之動作衝突，而且也不是意志在被推動，而是個與意志相反的事情。\n2.被動者受其主動者改變的時候，不常是被迫的動作;只有與被動者之內在傾向相反的時候，纔是強暴。不然的話，簡單物體的一切變化及發生都不是自然的，而是被迫的了。然而那是自然的，因為物質或主體有一種內在的自然性向，使之適於這些變化。同樣，意志按其本然傾向為可欲者所動時，不是被迫的動作，而是情願的。\n3.在犯罪時，意志所求者雖然是惡，按客觀真理確與有理性者之天性相反;然而，意志是把那事物視為善，視為適於天性者。這是因為按感宮的情慾或腐化的習慣，那事物對人相宜。",
+      "after": "我解答如下：意志的動作有兩種：一種直接來自意志，是由意志發出，例如願意；另一種是由意志發命令，藉其他官能而操使，如走路及講話，這些動作是受意志之命，由別的機能來完成。關於受意志之命的行動，意志可以受到強迫，即是外在之官能受到強暴，阻止其執行意志的命令。至於意志本身之動作，則不能受到強暴。這點的理由，是因為意志之行動，無非是由內在之認知根本產生的一種傾向：就似自然嗜慾，也是由內在之根本產生的傾向，只是沒有知識。受迫或受強暴者，是來自外在之根本。故強迫或強暴與意志之行動的本質相矛盾，與自然傾向之理也互不相容。用強迫可使石塊升高；但這動態不可能是由其自然傾向而來。同樣，人也可以受強力推拉；但若這是出於他的意志，則與強暴之理不合。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:意志的動作有兩種:一種直接來自意志，是由意志發出，例如願意:男一種是由意志發命令，藉其他官能而操便，如走路及講話，這些動作是受意志之命，由別的機能來完成。關於受意志之命的行動，意志可以受到強迫，即是外在之官能受到強暴，阻止其執行意志的命令。至於意志本身之動作，則不能受到強暴。這點的理由，是因為意志之行動，無非是由內在之認知根本產生的一種傾向:就似自然嗜慾，也是由內在之根本產生的傾向，只是沒有知識。受迫或受強暴者，是來自外在之根本。故強迫或強暴與意志之行動的本質相矛盾，與自然傾向之理也互不相容。用強迫可使石塊升高;但這動態不可能是由其自然傾向而來。同樣，人也可以受強力推拉;但若這是出於他的意志，買11與強暴之理不合。釋提1天主比人的意志強而有力，可以推動人的意志，如《鴛言》第二十一章l節上說的:「君玉的心在上主手裡，有如水流，可隨意轉移。」但倘若這是由於強暴，就與意志之動作衝突，而且也不是意志在被推動，而是個與意志相反的事情。\n2.被動者受其主動者改變的時候，不常是被迫的動作;只有與被動者之內在傾向相反的時候，纔是強暴。不然的話，簡單物體的一切變化及發生都不是自然的，而是被迫的了。然而那是自然的，因為物質或主體有一種內在的自然性向，使之適於這些變化。同樣，意志按其本然傾向為可欲者所動時，不是被迫的動作，而是情願的。\n3.在犯罪時，意志所求者雖然是惡，按客觀真理確與有理性者之天性相反;然而，意志是把那事物視為善，視為適於天性者。這是因為按感宮的情慾或腐化的習慣，那事物對人相宜。",
+          "after": "我解答如下:意志的動作有兩種:一種直接來自意志，是由意志發出，例如願意:男一種是由意志發命令，藉其他官能而操便，如走路及講話，這些動作是受意志之命，由別的機能來完成。關於受意志之命的行動，意志可以受到強迫，即是外在之官能受到強暴，阻止其執行意志的命令。至於意志本身之動作，則不能受到強暴。這點的理由，是因為意志之行動，無非是由內在之認知根本產生的一種傾向:就似自然嗜慾，也是由內在之根本產生的傾向，只是沒有知識。受迫或受強暴者，是來自外在之根本。故強迫或強暴與意志之行動的本質相矛盾，與自然傾向之理也互不相容。用強迫可使石塊升高;但這動態不可能是由其自然傾向而來。同樣，人也可以受強力推拉;但若這是出於他的意志，買11與強暴之理不合。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "願意:男一種",
+          "after": "願意；另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "操便",
+          "after": "操使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買11",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1854
+      ],
+      "before": "",
+      "after": "天主比人的意志強而有力，可以推動人的意志，如《箴言》第二十一章1節上說的：「君王的心在上主手裡，有如水流，可隨意轉移。」但倘若這是由於強暴，就與意志之動作衝突，而且也不是意志在被推動，而是個與意志相反的事情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "天主比人的意志強而有力，可以推動人的意志，如《鴛言》第二十一章l節上說的:「君玉的心在上主手裡，有如水流，可隨意轉移。」但倘若這是由於強暴，就與意志之動作衝突，而且也不是意志在被推動，而是個與意志相反的事情。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "《鴛言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1854
+      ],
+      "before": "",
+      "after": "被動者受其主動者改變的時候，不常是被迫的動作；只有與被動者之內在傾向相反的時候，才是強暴。不然的話，簡單物體的一切變化及發生都不是自然的，而是被迫的了。然而那是自然的，因為物質或主體有一種內在的自然性向，使之適於這些變化。同樣，意志按其本然傾向為可欲者所動時，不是被迫的動作，而是情願的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "被動者受其主動者改變的時候，不常是被迫的動作;只有與被動者之內在傾向相反的時候，纔是強暴。不然的話，簡單物體的一切變化及發生都不是自然的，而是被迫的了。然而那是自然的，因為物質或主體有一種內在的自然性向，使之適於這些變化。同樣，意志按其本然傾向為可欲者所動時，不是被迫的動作，而是情願的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1854,
+        1855
+      ],
+      "before": "",
+      "after": "在犯罪時，意志所求者雖然是惡，按客觀真理雖與有理性者之天性相反；然而，意志是把那事物視為善，視為適於天性者。這是因為按感官的情慾或腐化的習慣，那事物對人相宜。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "在犯罪時，意志所求者雖然是惡，按客觀真理確與有理性者之天性相反;然而，意志是把那事物視為善，視為適於天性者。這是因為按感宮的情慾或腐化的習慣，那事物對人相宜。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "確與",
+          "after": "雖與",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "強暴是否造成不情願",
+      "after": "強暴是否造成不情願",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "似乎強暴不造成不情願。因為:",
+      "after": "似乎強暴不造成不情願。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "'1育願與不情願是根據意志而言。但前面第四節已指出，對意志不能施強暴。所以，強暴不能造成不情願。",
+      "after": "情願與不情願是根據意志而言。但前面第四節己指出，對意志不能施強暴。所以，強暴不能造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "'1育願",
+          "after": "情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第四節已指出",
+          "after": "第四節己指出",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "此外，按大馬士革的若望《論正統信仰》卷二第二十五章和哲學家《倫理學》卷三第一章說的，不情願者帶有悲傷。但有時人受到強暴，並不感悲傷。所以，強暴不造成不情願。",
+      "after": "此外，按大馬士革的若望《論正統信仰》卷二第二十五章和哲學家《倫理學》卷三第一章說的，不情願者帶有悲傷。但有時人受到強暴，並不感悲傷。所以，強暴不造成不情願。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "此外，來自意志者，不能是不情願的。但有些強迫性的動作是出於意志，例如:一人負重登高，又如一人向自然可屈性的相反方向扭動肢體。所以，強暴不造成不情願。",
+      "after": "此外，來自意志者，不能是不情願的。但有些強迫性的動作是出於意志，例如：一人負重登高，又如一人向自然可屈性的相反方向扭動肢體。所以，強暴不造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "按哲學家與大馬士革的若望所說的則不然:「出於強暴者是不情願的。」(同處)",
+      "after": "按哲學家與大馬士革的若望所說的則不然：「出於強暴者是不情願的。」(同處)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1855
+      ],
+      "before": "我解答如下:強暴與情願直接相反，也與自然直接相反。情願與自然之相同點，在於二者皆出自內在之根本一一強暴是來自外在根本。為此，對那些沒有知識的東西而言，強暴造成反自然;對有知識的東西說，強暴造成的與意志相反。與自然相反的稱為「不自然」;同樣，與意志相反的則稱為「不情願」。所以，強暴造成不情願。",
+      "after": "我解答如下：強暴與情願直接相反，也與自然直接相反。情願與自然之相同點，在於二者皆出自內在之根本——強暴是來自外在根本。為此，對那些沒有知識的東西而言，強暴造成反自然；對有知識的東西說，強暴造成的與意志相反。與自然相反的稱為「不自然」；同樣，與意志相反的則稱為「不情願」。所以，強暴造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1855,
+        1856
+      ],
+      "before": "不情願與情願相反。前面第四節曾說，不只意志之直接動作是情願的，受意志之命令的行動也是情願的。按部裡說的，關於意志的直接行動，不能對意志施強暴;是以，在這種行動方面，強暴不能造成不情願。但關於受命行動，意志能受到強暴。在這類行動方面，強暴造成不情願。",
+      "after": "不情願與情願相反。前面第四節曾說，不只意志之直接動作是情願的，受意志之命令的行動也是情願的。按那裡說的，關於意志的直接行動，不能對意志施強暴；是以，在這種行動方面，強暴不能造成不情願。但關於受命行動，意志能受到強暴。在這類行動方面，強暴造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "按部裡",
+          "after": "按那裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "正如按自然傾向的就稱為自然的，同樣，按意志之傾向的就稱為情願的。所謂自然的有兩種:一種是以天性為主動之根本，如熱化乃火之天性;另一種是根據被動之根本，即在天性中有承受外在根本之推動的傾向。例如說，天體之動態是自然的，因為天體對這種動態有一種自然的性向，雖然推動者是有意志的。情願的也有兩種:一種是根據主動，如一人想做什麼事;男一種是根據被動，如一人願受他人操縱。是以，雖然主動是外來的，{旦被動者有受動之意志，所以不是純粹的強暴;因為被動者雖無功於動作，卻有功於願意被動。是以，不能說是不情願。",
+      "after": "正如按自然傾向的就稱為自然的，同樣，按意志之傾向的就稱為情願的。所謂自然的有兩種：一種是以天性為主動之根本，如熱化乃火之天性；另一種是根據被動之根本，即在天性中有承受外在根本之推動的傾向。例如說，天體之動態是自然的，因為天體對這種動態有一種自然的性向，雖然推動者是有意志的。情願的也有兩種：一種是根據主動，如一人想做什麼事；另一種是根據被動，如一人願受他人操縱。是以，雖然主動是外來的，但被動者有受動之意志，所以不是純粹的強暴；因為被動者雖無功於動作，卻有功於願意被動。是以，不能說是不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "此外，如哲學家在《物理學》卷八第四章中說的，動物之相反物體之自然傾向的動作，對物體來說雖不自然，但對動物來說卻是自然，因為動物之天性是按嗜慾而動。所以‘這不是純粹的強暴，而是相對的;一人相反自然性向市扭折肢體時，也是一樣。這是一種相對的強暴，即對某肢體而言;而不是純粹的強暴，即對人而言。",
+      "after": "此外，如哲學家在《物理學》卷八第四章中說的，動物之相反物體之自然傾向的動作，對物體來說雖不自然，但對動物來說卻是自然，因為動物之天性是按嗜慾而動。所以，這不是純粹的強暴，而是相對的；一人相反自然性向而扭折肢體時，也是一樣。這是一種相對的強暴，即對某肢體而言；而不是純粹的強暴，即對人而言。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "性向市",
+          "after": "性向而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "畏懼是否造成單純的不情願",
+      "after": "畏懼是否造成單純的不情願",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "似乎畏懼造成單純的不情願。因為:",
+      "after": "似乎畏懼造成單純的不情願。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1856
+      ],
+      "before": "強暴是現在相反一個人的意志;畏懼是一個未來之惡與意志對立。但強暴造成單純的不情願。所以，畏懼也造成單純的不情願。",
+      "after": "強暴是現在相反一個人的意志；畏懼是一個未來之惡與意志對立。但強暴造成單純的不情願。所以，畏懼也造成單純的不情願。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1856,
+        1857
+      ],
+      "before": "此外，一個東西本身怎樣，無論加上什麼仍然是怎樣，例如:本身熱的東西，無論與何物相結合，它仍然是熱的。但由於畏懼而做的，本身是不情願的。故加了畏懼仍然是不情願的。",
+      "after": "此外，一個東西本身怎樣，無論加上什麼仍然是怎樣，例如：本身熱的東西，無論與何物相結合，它仍然是熱的。但由於畏懼而做的，本身是不情願的。故加了畏懼仍然是不情願的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1857
+      ],
+      "before": "此外，在某條件下是怎樣的，是相對的怎樣;無條件地是怎樣的，是單純的怎樣。例如，在某條件下必要的，是相對的必要;那絕對必要的，是單純的必要。但那由於畏懼而做的，是絕對不情願的，只在某些條件下是情願的，即為逃避其所懼之惡。所以，由畏懼而做的，是單純的不情願。",
+      "after": "此外，在某條件下是怎樣的，是相對的怎樣；無條件地是怎樣的，是單純的怎樣。例如，在某條件下必要的，是相對的必要；那絕對必要的，是單純的必要。但那由於畏懼而做的，是絕對不情願的，只在某些條件下是情願的，即為逃避其所懼之惡。所以，由畏懼而做的，是單純的不情願。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1857
+      ],
+      "before": "尼沙之額我略(尼美修斯，《論人性》第三十章)，及哲學家《倫理學》卷三第一章都說，由畏懼而做的，「情願多於不情願」。",
+      "after": "尼沙之額我略(尼美修斯，《論人性》第三十章)，及哲學家《倫理學》卷三第一章都說，由畏懼而做的，「情願多於不情願」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1857
+      ],
+      "before": "我解答如下:如尼沙之額我略及哲學家(同處)說的，由畏懼而做的，是「情願與不情願相混合」。看那由畏懼而做的本身，不是情願的;但偶爾成為情願的，即為了逃避所懼之惡的時候。若細加思索，可知這種行動情願多於不情願:即單純地情願'相對地不情願。說一個東西絕對存在是按其現實;只在意識中的不是絕對地存在，而是相對地。那由畏懼而做的，其所做者是現實;既然現實是關於個別的，而個別者是此時此刻的;所做者是現實，因為那是此時此刻的，以及在其他個別情況下的。那麼，由畏懼而做的是情願的，因為是此時此刻的，也就是說，所懼之更大的惡之阻止，就如:在暴風時將貨物投海，因了怕沉船，這是情願行為。顯然這是單純的情願，因此也合於情願之理:因為其根本是內在的。至於說那由畏懼而做的，若丟開此具體情況而觀之，因為與意志相反，那只是意識中的事情，所以是相對的不情願;即是說，假定不是在那情況下的話。",
+      "after": "我解答如下：如尼沙之額我略及哲學家(同處)說的，由畏懼而做的，是「情願與不情願相混合」。看那由畏懼而做的本身，不是情願的；但偶爾成為情願的，即為了逃避所懼之惡的時候。若細加思索，可知這種行動情願多於不情願：即單純地情願，相對地不情願。說一個東西絕對存在是按其現實；只在意識中的不是絕對地存在，而是相對地。那由畏懼而做的，其所做者是現實；既然現實是關於個別的，而個別者是此時此刻的；所做者是現實，因為那是此時此刻的，以及在其他個別情況下的。那麼，由畏懼而做的是情願的，因為是此時此刻的，也就是說，所懼之更大的惡之阻止，就如：在暴風時將貨物投海，因了怕沉船，這是情願行為。顯然這是單純的情願，因此也合於情願之理：因為其根本是內在的。至於說那由畏懼而做的，若丟開此具體情況而觀之，因為與意志相反，那只是意識中的事情，所以是相對的不情願；即是說，假定不是在那情況下的話。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "單純地情願'相對",
+          "after": "單純地情願，相對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "那由畏懼及由強暴而來者，區別不只在一是現在，一是將來;也在於由強暴而來的，意志不同意，絕對與意志相反。但由畏懼而來的，是情願的，因為意志之動態趨向那事，縱然不是為了自身，而是為了別的，即為了逃避所懼之惡。為別的事而情願，已足合於情願之理:情願者不只包括我們為了自身當目的而願意者，也包括那以別的當目的而願意者。可見那因強暴而做的，內在的意志沒有動;但那因畏懼而做的，意志有所動。是以尼沙的額我略在給被強暴者下定義峙，不單說:「被強暴者其根本是外在的」'且加上「受強暴者毫不合作」(同處);因為那由畏懼而做的，畏懼者之意志有點合作。",
+      "after": "那由畏懼及由強暴而來者，區別不只在一是現在，一是將來；也在於由強暴而來的，意志不同意，絕對與意志相反。但由畏懼而來的，是情願的，因為意志之動態趨向那事，縱然不是為了自身，而是為了別的，即為了逃避所懼之惡。為別的事而情願，已足合於情願之理：情願者不只包括我們為了自身當目的而願意者，也包括那以別的當目的而願意者。可見那因強暴而做的，內在的意志沒有動；但那因畏懼而做的，意志有所動。是以尼沙的額我略在給被強暴者下定義時，不單說：「被強暴者其根本是外在的」，且加上「受強暴者毫不合作」(同處)；因為那由畏懼而做的，畏懼者之意志有點合作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "定義峙",
+          "after": "定義時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "外在的」'且",
+          "after": "外在的」，且",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "那稱為絕對者，無論加上什麼，仍保持原狀，如熱的和白的:但那相對的，隨所相比者而有異一一跟這個相比是大的，跟另一個相比可能是小的。說一事是情顧的，不只由於這事本身好似絕對的，但也針對別的，即相對的。所以，一事跟某事相比較時不是情願的，跟另一事相比較可能就成為情願的。",
+      "after": "那稱為絕對者，無論加上什麼，仍保持原狀，如熱的和白的；但那相對的，隨所相比者而有異——跟這個相比是大的，跟另一個相比可能是小的。說一事是情願的，不只由於這事本身好似絕對的，但也針對別的，即相對的。所以，一事跟某事相比較時不是情願的，跟另一事相比較可能就成為情願的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白的:但",
+          "after": "白的；但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有異一一跟",
+          "after": "有異——跟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情顧",
+          "after": "情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "由於畏懼而做的，是無條件地情願，即按其實際所做的;然而那是有條件地不情願，即假若沒有畏懼的話。故按所舉之理由，反較適合相反之結論。",
+      "after": "由於畏懼而做的，是無條件地情願，即按其實際所做的；然而那是有條件地不情願，即假若沒有畏懼的話。故按所舉之理由，反較適合相反之結論。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.heading",
+      "article": 7,
+      "block": "节号",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "第七節",
+      "after": "第七節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a007.title",
+      "article": 7,
+      "block": "标题",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "慾情是否造成不情願",
+      "after": "慾情是否造成不情願",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a007.intro",
+      "article": 7,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "有關第七節，我們討論如下:",
+      "after": "有關第七節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.objection-intro",
+      "article": 7,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "似乎慾情(concupíscentía)造成不情願。因為:",
+      "after": "似乎慾情(concupiscentia)造成不情願。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "concupíscentía",
+          "after": "concupiscentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.arg1",
+      "article": 7,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "就如畏懼是一種情;慾情也是情。但畏懼多少造成不情願。所以慾情也是一樣。",
+      "after": "就如畏懼是一種情；慾情也是情。但畏懼多少造成不情願。所以慾情也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.arg2",
+      "article": 7,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1858
+      ],
+      "before": "此外，有如膽小者由於畏懼而做與原來才願相反的事，無節告IJ者肉了慾情也是一樣。但畏懼多少造成不情願。所以，慾情也是如此。",
+      "after": "此外，有如膽小者由於畏懼而做與原來志願相反的事，無節制者因了慾情也是一樣。但畏懼多少造成不情願。所以，慾情也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原來才願",
+          "after": "原來志願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無節告IJ者肉了",
+          "after": "無節制者因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.arg3",
+      "article": 7,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "此外，情願須有知識。但慾情腐化知識;因為哲學家在《倫理學》卷四第五章說: 「快感」'或說快感之慾情，「腐化機智之估計」。所以，慾情造成不情願。",
+      "after": "此外，情願須有知識。但慾情腐化知識；因為哲學家在《倫理學》卷四第五章說：「快感」，或說快感之慾情，「腐化機智之估計」。所以，慾情造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "快感」'或",
+          "after": "快感」，或",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.sed_contra",
+      "article": 7,
+      "block": "反之",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第二十四章說:「不情願值得同情及原諒，而且其動作帶有悲傷。」。但這幾點與慾情的情形皆不合。所以，慾情不造成不情願。",
+      "after": "大馬士革的若望《論正統信仰》卷二第二十四章說：「不情願值得同情及原諒，而且其動作帶有悲傷。」但這幾點與慾情的情形皆不合。所以，慾情不造成不情願",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "悲傷。」。但",
+          "after": "悲傷。」但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不造成不情願。",
+          "after": "不造成不情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.respondeo",
+      "article": 7,
+      "block": "正解",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "我解答如下:慾情不造成不情願，反而使人更情願。情願的是指意志所趨向的。由於慾情，意志趨於願意其所貪婪者。所以，慾情更易使一事成為情願的，而非成為不情願的。",
+      "after": "我解答如下：慾情不造成不情願，反而使人更情願。情願的是指意志所趨向的。由於慾情，意志趨於願意其所貪婪者。所以，慾情更易使一事成為情願的，而非成為不情願的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.ad1",
+      "article": 7,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "畏懼是關於惡，而情慾是針對善。惡本身與意志相反，而善正適合意志。是以畏懼比慾情更適於造成不情願。",
+      "after": "畏懼是關於惡，而情慾是針對善。惡本身與意志相反；而善正適合意志。是以畏懼比慾情更適於造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相反，而善",
+          "after": "相反；而善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.ad2",
+      "article": 7,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "那由於畏懼而做什麼者，按事情本身而言，對其所做的，意志仍留有反感;但那由慾情而做什麼者，例如:無節制者，在意志中對其所欲的原有之反感已不存在，而變成了願意他原來所推拒的。是以，由畏懼而做的，多少有點不情願;但由於慾情而做的，貝IJ絕對不然。不節制慾情者，所做的與以前的意志相反，但不與他現在所願的相反;而膽小者所做的，是與他現在本身所願的相反。",
+      "after": "那由於畏懼而做什麼者，按事情本身而言，對其所做的，意志仍留有反感；但那由慾情而做什麼者，例如：無節制者，在意志中對其所欲的原有之反感已不存在，而變成了願意他原來所推拒的。是以，由畏懼而做的，多少有點不情願；但由於慾情而做的，則絕對不然。不節制慾情者，所做的與以前的意志相反，但不與他現在所願的相反；而膽小者所做的，是與他現在本身所願的相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a007.ad3",
+      "article": 7,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1859
+      ],
+      "before": "假若慾情完全破壞知識，例如:那因了慾情而瘋了的人，當然慾情破壞情願。不過也不是真正的不情願，因為無能力運用理性者，沒有情願，也沒有不情願。但有時由慾情而做的，不完全沒有知識，因為慾情不破壞認知能力，只破壞其對個別事件的實際考慮。然而，這也是情願的，因為情願是指那屬於意志能力者，例如:不做和不願意﹒以及不考慮;因為意志能反抗情，如後面第十題第三節、第七十七題第七節要講的。",
+      "after": "假若慾情完全破壞知識，例如：那因了慾情而瘋了的人，當然慾情破壞情願。不過也不是真正的不情願，因為無能力運用理性者，沒有情願，也沒有不情願。但有時由慾情而做的，不完全沒有知識，因為慾情不破壞認知能力，只破壞其對個別事件的實際考慮。然而，這也是情願的，因為情願是指那屬於意志能力者，例如：不做和不願意，以及不考慮；因為意志能反抗情，如後面第十題第三節、第七十七題第七節要講的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不願意﹒",
+          "after": "不願意，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.heading",
+      "article": 8,
+      "block": "节号",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "第八節",
+      "after": "第八節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a008.title",
+      "article": 8,
+      "block": "标题",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "愚昧是否造成不情願",
+      "after": "愚昧是否造成不情願",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q006.a008.intro",
+      "article": 8,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "有關第八節?我們討論如下:",
+      "after": "有關第八節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第八節?",
+          "after": "第八節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.objection-intro",
+      "article": 8,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "似乎愚昧不造成不情願。因為:",
+      "after": "似乎愚昧不造成不情願。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.arg1",
+      "article": 8,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "按大馬士革的若望《論正統信仰》卷二第二十四章說的，「不情願值得寬恕」。但有時因愚昧而做的，不得寬恕，如《格林多前書》第十四章38節上說的:「誰若不認知，也不會被認知。」所以，愚昧不造成不情願。",
+      "after": "按大馬士革的若望《論正統信仰》卷二第二十四章說的，「不情願值得寬恕」。但有時因愚昧而做的，不得寬恕，如《格林多前書》第十四章38節上說的：「誰若不認知，也不會被認知。」所以，愚昧不造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.arg2",
+      "article": 8,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "此外，凡罪惡皆帶有愚昧，如《儀言》第十四章22節說的:「陰謀邪惡的人，豈非走入歧途?」倘若愚昧造成不情願，員IJ凡罪惡皆是不情願了。這與奧斯定《論真宗教》第卡四章說的正相反，他說:「所有罪惡，皆是情願的。」",
+      "after": "此外，凡罪惡皆帶有愚昧，如《箴言》第十四章22節說的：「陰謀邪惡的人，豈非走入歧途？倘若愚昧造成不情願，則凡罪惡皆是不情願了。這與奧斯定《論真宗教》第十四章說的正相反，他說：「所有罪惡，皆是情願的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《儀言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "歧途?」",
+          "after": "歧途？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第卡四章",
+          "after": "第十四章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.arg3",
+      "article": 8,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "此外，大馬士革的若望說:「不情願伴有悲傷。」(同前)但有些由於愚昧而做的‘不帶悲傷，例如:一人誤以為是鹿，而殺了他要想殺死的仇人。所以，愚昧不造成不情願。",
+      "after": "此外，大馬士革的若望說：「不情願伴有悲傷。」(同前)但有些由於愚昧而做的，不帶悲傷，例如：一人誤以為是鹿，而殺了他要想殺死的仇人。所以，愚昧不造成不情願。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而做的‘",
+          "after": "而做的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.sed_contra",
+      "article": 8,
+      "block": "反之",
+      "pdf_file_pages": [
+        1860
+      ],
+      "before": "大馬士革的若望《論正統信仰》卷二第二十四章及哲學家《倫理學》卷三第一章卻說:「有些不情願的行動是出於愚昧。」",
+      "after": "大馬士革的若望《論正統信仰》卷二第二十四章及哲學家《倫理學》卷三第一章卻說：「有些不情願的行動是出於愚昧。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.respondeo",
+      "article": 8,
+      "block": "正解",
+      "pdf_file_pages": [
+        1860,
+        1861
+      ],
+      "before": "我解答如下:按前面第一節講過的，情願須有知識，愚昧既是缺乏知識，故造成不情願。但並非凡愚昧皆缺乏所需之知識。是以要知道，針對意志之行動而言，愚昧分三種:第一種是事中的﹒男一種是事後的，第三種是事前的。事中的愚昧是關於所做之事缺乏知識;不過，倘若知道實情，仍然會去做。這種愚昧不促使人去做，只是「所做的」偶然地也是「不知道的」;如質疑3.所舉的例子，一人本來願意殺他的仇人﹒卻在不知情之情況下，在殺鹿時誤殺了仇人。扭哲學家說的，這種愚眛不造成不情願(involuntarium;《倫理學》卷三第一章)，因為不造成使意志有反感的事;但造成非情願(non vol-untarium)，因為不知道的不能是現實所願意的。\n針對意志的事後愚昧，是指自願的愚昧。按前面第三節講的兩種情願，這種愚昧也分兩種情形。第一種情形，意志行動指向愚昧;如一人願意無知，為能推謗罪過之責任，或為了不中止犯罪情事，如《約伯傳》第二十一章14節說的:「我們不願知道你的道路。」這種愚昧稱為假愚昧(ignorantia affecta-ta)。另一種自願的愚昧，是指一人能夠且有責任知道而實際不知;就如先前第三節所稱的不願意和不動作為情願的。這類愚昧包括不善選揀之愚昧。即一人實際上不考慮其所能並所應考慮者，無論是由情或由習慣而來;也包括那應具有某知識而不設法羅致的，如人人皆應知道普通法律。這方面的愚昧算是自願的，有如由疏忽所致。既然這幾種愚昧都是自願的，故不能造成單純的不情願，但是造成相對的不情願。因為這種愚昧是在事發之前，倘若有知識，事情就不會發生。\n事前的愚昧是指那非自願的愚昧，但卻是人願意某事之原因一一倘若事前知道，就不會願意。例如:一人不知某事的情形，也沒有責任知道，因而做了某事，倘若知道就不會做;比方，一人經心察看之後，不知有人路過，射了一箭，不意把路人射死。這種愚昧造成單純的不情願。\n由上面所述，已可知各質疑之答案。關於質疑1.'理由在於那種無知者有責任知道。質疑2.是關於選揀之愚昧，如前面說的，多少是自願的。質疑3.是事中的愚昧。",
+      "after": "我解答如下：按前面第一節講過的，情願須有知識，愚昧既是缺乏知識，故造成不情願。但並非凡愚昧皆缺乏所需之知識。是以要知道，針對意志之行動而言，愚昧分三種：第一種是事中的，另一種是事後的，第三種是事前的。事中的愚昧是關於所做之事缺乏知識；不過，倘若知道實情，仍然會去做。這種愚昧不促使人去做，只是「所做的」偶然地也是「不知道的」；如質疑3.所舉的例子，一人本來願意殺他的仇人，卻在不知情之情況下，在殺鹿時誤殺了仇人。按哲學家說的，這種愚昧不造成不情願(involuntarium；《倫理學》卷三第一章)，因為不造成使意志有反感的事；但造成非情願(non vol-untarium)，因為不知道的不能是現實所願意的。\n針對意志的事後愚昧，是指自願的愚昧。按前面第三節講的兩種情願，這種愚昧也分兩種情形。第一種情形，意志行動指向愚昧；如一人願意無知，為能推諉罪過之責任，或為了不中止犯罪情事，如《約伯傳》第二十一章14節說的：「我們不願知道你的道路。」這種愚昧稱為假愚昧(ignorantia affecta-ta)。另一種自願的愚昧，是指一人能夠且有責任知道而實際不知；就如先前第三節所稱的不願意和不動作為情願的。這類愚昧包括不善選揀之愚昧。即一人實際上不考慮其所能並所應考慮者，無論是由情或由習慣而來；也包括那應具有某知識而不設法羅致的，如人人皆應知道普通法律。這方面的愚昧算是自願的，有如由疏忽所致。既然這幾種愚昧都是自願的，故不能造成單純的不情願，但是造成相對的不情願。因為這種愚昧是在事發之前，倘若有知識，事情就不會發生。\n事前的愚昧是指那非自願的愚昧，但卻是人願意某事之原因——倘若事前知道，就不會願意。例如：一人不知某事的情形，也沒有責任知道，因而做了某事。倘若知道就不會做；比方，一人經心察看之後，不知有人路過，射了一箭，不意把路人射死。這種愚昧造成單純的不情願。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:按前面第一節講過的，情願須有知識，愚昧既是缺乏知識，故造成不情願。但並非凡愚昧皆缺乏所需之知識。是以要知道，針對意志之行動而言，愚昧分三種:第一種是事中的﹒男一種是事後的，第三種是事前的。事中的愚昧是關於所做之事缺乏知識;不過，倘若知道實情，仍然會去做。這種愚昧不促使人去做，只是「所做的」偶然地也是「不知道的」;如質疑3.所舉的例子，一人本來願意殺他的仇人﹒卻在不知情之情況下，在殺鹿時誤殺了仇人。扭哲學家說的，這種愚眛不造成不情願(involuntarium;《倫理學》卷三第一章)，因為不造成使意志有反感的事;但造成非情願(non vol-untarium)，因為不知道的不能是現實所願意的。\n針對意志的事後愚昧，是指自願的愚昧。按前面第三節講的兩種情願，這種愚昧也分兩種情形。第一種情形，意志行動指向愚昧;如一人願意無知，為能推謗罪過之責任，或為了不中止犯罪情事，如《約伯傳》第二十一章14節說的:「我們不願知道你的道路。」這種愚昧稱為假愚昧(ignorantia affecta-ta)。另一種自願的愚昧，是指一人能夠且有責任知道而實際不知;就如先前第三節所稱的不願意和不動作為情願的。這類愚昧包括不善選揀之愚昧。即一人實際上不考慮其所能並所應考慮者，無論是由情或由習慣而來;也包括那應具有某知識而不設法羅致的，如人人皆應知道普通法律。這方面的愚昧算是自願的，有如由疏忽所致。既然這幾種愚昧都是自願的，故不能造成單純的不情願，但是造成相對的不情願。因為這種愚昧是在事發之前，倘若有知識，事情就不會發生。\n事前的愚昧是指那非自願的愚昧，但卻是人願意某事之原因一一倘若事前知道，就不會願意。例如:一人不知某事的情形，也沒有責任知道，因而做了某事，倘若知道就不會做;比方，一人經心察看之後，不知有人路過，射了一箭，不意把路人射死。這種愚昧造成單純的不情願。\n由上面所述，已可知各質疑之答案。關於質疑1.'理由在於那種無知者有責任知道。質疑2.是關於選揀之愚昧，如前面說的，多少是自願的。質疑3.是事中的愚昧。",
+          "after": "我解答如下:按前面第一節講過的，情願須有知識，愚昧既是缺乏知識，故造成不情願。但並非凡愚昧皆缺乏所需之知識。是以要知道，針對意志之行動而言，愚昧分三種:第一種是事中的﹒男一種是事後的，第三種是事前的。事中的愚昧是關於所做之事缺乏知識;不過，倘若知道實情，仍然會去做。這種愚昧不促使人去做，只是「所做的」偶然地也是「不知道的」;如質疑3.所舉的例子，一人本來願意殺他的仇人﹒卻在不知情之情況下，在殺鹿時誤殺了仇人。扭哲學家說的，這種愚眛不造成不情願(involuntarium;《倫理學》卷三第一章)，因為不造成使意志有反感的事;但造成非情願(non vol-untarium)，因為不知道的不能是現實所願意的。\n針對意志的事後愚昧，是指自願的愚昧。按前面第三節講的兩種情願，這種愚昧也分兩種情形。第一種情形，意志行動指向愚昧;如一人願意無知，為能推謗罪過之責任，或為了不中止犯罪情事，如《約伯傳》第二十一章14節說的:「我們不願知道你的道路。」這種愚昧稱為假愚昧(ignorantia affecta-ta)。另一種自願的愚昧，是指一人能夠且有責任知道而實際不知;就如先前第三節所稱的不願意和不動作為情願的。這類愚昧包括不善選揀之愚昧。即一人實際上不考慮其所能並所應考慮者，無論是由情或由習慣而來;也包括那應具有某知識而不設法羅致的，如人人皆應知道普通法律。這方面的愚昧算是自願的，有如由疏忽所致。既然這幾種愚昧都是自願的，故不能造成單純的不情願，但是造成相對的不情願。因為這種愚昧是在事發之前，倘若有知識，事情就不會發生。\n事前的愚昧是指那非自願的愚昧，但卻是人願意某事之原因一一倘若事前知道，就不會願意。例如:一人不知某事的情形，也沒有責任知道，因而做了某事，倘若知道就不會做;比方，一人經心察看之後，不知有人路過，射了一箭，不意把路人射死。這種愚昧造成單純的不情願。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "事中的﹒男一種",
+          "after": "事中的，另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "仇人﹒",
+          "after": "仇人，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "扭哲學家",
+          "after": "按哲學家",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "愚眛",
+          "after": "愚昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "推謗",
+          "after": "推諉",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因一一",
+          "after": "原因——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "某事，倘若",
+          "after": "某事。倘若",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q006.a008.ad1",
+      "article": 8,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1861
+      ],
+      "before": "",
+      "after": "由上面所述，已可知各質疑之答案。關於質疑1.，理由在於那種無知者有責任知道。質疑2.是關於選揀之愚昧，如前面說的，多少是自願的。質疑3.是事中的愚昧。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由上面所述，已可知各質疑之答案。關於質疑1.'理由在於那種無知者有責任知道。質疑2.是關於選揀之愚昧，如前面說的，多少是自願的。質疑3.是事中的愚昧。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "質疑1.'理由",
+          "after": "質疑1.，理由",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
