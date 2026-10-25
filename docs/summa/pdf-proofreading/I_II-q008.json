@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q008",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q008",
+    "title": "論意志與其所欲",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      1869,
+      1870,
+      1871,
+      1872,
+      1873,
+      1874
+    ],
+    "printed_pages": [
+      98,
+      103
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 37,
+    "changed_review_units": 26,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q8.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q8.json": "0e68ae3939f6350d407e5f0be57a1dedca757effb48d08a3274dee985969eb7a"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q008.a001.title",
+      "pdf_file_page": 1869,
+      "text": "意志是否只指向善有",
+      "status": "suspected_source_print_error",
+      "action": "原页标题亦作「善有」，保留该译本题名，不按通行版本删字。"
+    },
+    {
+      "id": "I_II.q008.a001.intro",
+      "pdf_file_page": 1869,
+      "text": "關第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页亦以「關第一節」起句，未印「有」；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q008.prologue",
+      "description": "清除题头OCR散字符，保留原字段四个前置换行转义及全部正文换行。"
+    }
+  ],
+  "notes": [
+    "全部6页、3节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q008.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "O\n間n宮與其所欲\n心E心扛到一\n­如一\n然後要分別討論各種情願行動(參看第六題引言)。首先論←意志之直接行動，好似是生於意志之行動;然後論意志所命令之行動(第十七題)。意志動向目的，也動向那指向目的者。所以先討論意志動向目的之行動，然後論意志動向導致目的者之行動(第十三題)。意志動向目的之行動似乎有三個，即:願意、享受、意向。所以，我們先要論意願;第二，論享受;第三，論志向。關於第一項要討論三點:第一，何為意志所欲者;第二，由何所推動(第九題);第三，怎樣被推動(第十題)。關於第一點，分三節討論。\n一、意志是否只指向善。\n二、意志是否只要目的，或也要導致目的者。\n三、意志是否由同一個動作動向目的及導致目的者。",
+      "after": "\n\n\n\n然後要分別討論各種情願行動(參看第六題引言)。首先論意志之直接行動，好似是生於意志之行動；然後論意志所命令之行動(第十七題)。意志動向目的，也動向那指向目的者。所以先討論意志動向目的之行動，然後論意志動向導致目的者之行動(第十三題)。意志動向目的之行動似乎有三個，即：願意、享受、意向。所以，我們先要論意願；第二，論享受；第三，論志向。關於第一項要討論三點：第一，何為意志所欲者；第二，由何所推動(第九題)；第三，怎樣被推動(第十題)。關於第一點，分三節討論。\n一、意志是否只指向善。\n二、意志是否只要目的，或也要導致目的者。\n三、意志是否由同一個動作動向目的及導致目的者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "O\n間n宮與其所欲\n心E心扛到一\n­如一\n",
+          "after": "\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "首先論←",
+          "after": "首先論",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "意志是否只指向善有",
+      "after": "意志是否只指向善有",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "關第一節，我們討論如下：",
+      "after": "關第一節，我們討論如下：",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "似乎意志不只指向善。因為:",
+      "after": "似乎意志不只指向善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "相對立者是出自同一個能力，如:白色之視覺與黑色之視覺。但善與惡是相對立的。故意志不只向善，也向惡。",
+      "after": "相對立者是出自同一個能力，如：白色之視覺與黑色之視覺。但善與惡是相對立的。故意志不只向善，也向惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1869
+      ],
+      "before": "此外，按哲學家《形上學》卷八第二章說的，理性機能可以指向相反的方向。但意志是理性機能，因為按《靈魂論》卷三第九章中說的，意志是在理性部分。所以，意志可指向相對立者。故意志不只願善，也願惡。",
+      "after": "此外，按哲學家《形上學》卷八第二章說的，理性機能可以指向相反的方向。但意志是理性機能，因為按《靈魂論》卷三第九章中說的，意志是在理性部分。所以，意志可指向相對立者。故意志不只願善，也願惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1869,
+        1870
+      ],
+      "before": "此外，善與物可互相替換。但意志不只要物，也要非物。因為有時我們要不走路，不講話;有時我們也要未來的，未來的並非現實之物。所以，意志不只向善。",
+      "after": "此外，善與物可互相替換。但意志不只要物，也要非物。因為有時我們要不走路，不講話；有時我們也要未來的，未來的並非現實之物。所以，意志不只向善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1870
+      ],
+      "before": "狄奧尼修在《神名論》第四章說的卻不然，他說:\n惡不屬於意志範園J'又說「一切皆追求善」。",
+      "after": "狄奧尼修在《神名論》第四章說的卻不然，他說：\n「惡不屬於意志範圍」，又說「一切皆追求善」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惡不屬於意志範園J'",
+          "after": "「惡不屬於意志範圍」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1870
+      ],
+      "before": "我解答如下:意志是4種理性嗜慾。嗜慾貝IJ只求善，理由是因為嗜慾無非是對某物之傾向。東西只傾向那與自己相似的及合適的。既然所有的東西，只要是物及實體就是善，故傾向必定指向善。因此哲學家在《倫理學》卷一第-章說，善是「一切皆追求者」 0\n不過要知道，凡傾向皆追隨某種形式，自然嗜慾追隨的是自然物本身的形式:感官性嗜慾以及理性嗜慾一一即意志，所追隨的是所意識到之形式。就如自然嗜慾所追求的是物中所有之善，同樣動物或人的嗜慾所追求的是意識到的善。為便意志傾向某物，不必是真實的苦，只須被意識為善。為此哲學家在《物理學》卷二第三章說: 「目的是善，或表面的善。」",
+      "after": "我解答如下：意志是一種理性嗜慾。嗜慾則只求善，理由是因為嗜慾無非是對某物之傾向。東西只傾向那與自己相似的及合適的。既然所有的東西，只要是物及實體就是善，故傾向必定指向善。因此哲學家在《倫理學》卷一第一章說，善是「一切皆追求者」。\n不過要知道，凡傾向皆追隨某種形式，自然嗜慾追隨的是自然物本身的形式；感官性嗜慾以及理性嗜慾——即意志，所追隨的是所意識到之形式。就如自然嗜慾所追求的是物中所有之善，同樣動物或人的嗜慾所追求的是意識到的善。為使意志傾向某物，不必是真實的善，只須被意識為善。為此哲學家在《物理學》卷二第三章說：「目的是善，或表面的善。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是4種",
+          "after": "是一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第-章",
+          "after": "第一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者」 0",
+          "after": "者」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形式:感官",
+          "after": "形式；感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為便",
+          "after": "為使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真實的苦",
+          "after": "真實的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1870
+      ],
+      "before": "同一個能力屬於互相對立者，但對二者之關係卻不同。意志對善及惡皆有關係;但對善是為追求，對惡是為逃避。所以實際對善之嗜慾稱為意志，這是指意志之動作，我們現在就是按這意義論意志。逃避惡之意志更好稱為「皮意志」(noluntas)。如此買IJ意志向善，反意志向惡。",
+      "after": "同一個能力屬於互相對立者，但對二者之關係卻不同。意志對善及惡皆有關係；但對善是為追求，對惡是為逃避。所以實際對善之嗜慾稱為意志，這是指意志之動作，我們現在就是按這意義論意志。逃避惡之意志更好稱為「反意志」(noluntas)。如此則意志向善，反意志向惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮意志",
+          "after": "反意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1870
+      ],
+      "before": "機能並不指向一切相反者，只指向其適當對象所容納者，因為每一機能只追求其適當對象。意志之對象是善。是以，意志只追求在善中容納的對立，如:動和靜、講話和細默等等。意志追求二者，皆按善之理。",
+      "after": "機能並不指向一切相反者，只指向其適當對象所容納者，因為每一機能只追求其適當對象。意志之對象是善。是以，意志只追求在善中容納的對立，如：動和靜、講話和緘默等等。意志追求二者，皆按善之理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "細默",
+          "after": "緘默",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1870,
+        1871
+      ],
+      "before": "自然界中不是物的，在意志中可視為物。是以司否定及缺欠被稱為意念之物(巳ns rationis)。按這方式，未來者只要被意識到，也就是物。這類意念之物，能夠以善的觀點被意識到，如此也能為意志所追求。所以，哲學家在《倫理學》卷五第一章說: 「缺乏惡，具有善之意義。」",
+      "after": "自然界中不是物的，在意志中可視為物。是以，否定及缺欠被稱為意念之物(ens rationis)。按這方式，未來者只要被意識到，也就是物。這類意念之物，能夠以善的觀點被意識到，如此也能為意志所追求。所以，哲學家在《倫理學》卷五第一章說：「缺乏惡，具有善之意義。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是以司",
+          "after": "是以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "巳ns",
+          "after": "ens",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "意志是否只要目的，或也要導向目的者",
+      "after": "意志是否只要目的，或也要導向目的者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三節",
+          "after": "第二節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "似乎意志只要目的，不要導致目的者。因為:",
+      "after": "似乎意志只要目的，不要導致目的者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "哲學家在《倫理學》卷三第二章說: 「意志是關於目的者，而選揀是關於導致目的者。」",
+      "after": "哲學家在《倫理學》卷三第二章說：「意志是關於目的者，而選揀是關於導致目的者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "此外，在《倫理學》卷六第一章中說: 「屬於不同類者，便屬於靈魂的不同機能。」但目的與那導致目的者，屬於不同類別的善;因為按《倫理學》卷六第一章說的，目的既然是「當然的善」(bonum honestum'又譯:正直的善)或娛樂性的善，屬於品質，或主動，或被動等類別;而導致目的者稱為有用的善，屬於關係之類。所以，意志既是關於目的者，就不是關於導致目的者。",
+      "after": "此外，在《倫理學》卷六第一章中說：「屬於不同類者，便屬於靈魂的不同機能。」但目的與那導致目的者，屬於不同類別的善；因為按《倫理學》卷六第一章說的，目的既然是「當然的善」(bonum honestum，又譯：正直的善)或娛樂性的善，屬於品質，或主動，或被動等類別；而導致目的者稱為有用的善，屬於關係之類。所以，意志既是關於目的者，就不是關於導致目的者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "honestum'",
+          "after": "honestum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "此外，習性與機能是相配合的，因為習性乃機能之成效。但在那稱為實踐性藝術的習性方面，目的屬於一物，導向目的者屬於另一物，如:船隻之運用屬於舵手，這是船的目的;船隻之製造屬於造船工人，造船是導向目的者。所以，意志既是關於目的者，就不是關於導致目的者。",
+      "after": "此外，習性與機能是相配合的，因為習性乃機能之成效。但在那稱為實踐性藝術的習性方面，目的屬於一物，導向目的者屬於另一物，如：船隻之運用屬於舵手，這是船的目的；船隻之製造屬於造船工人，造船是導向目的者。所以，意志既是關於目的者，就不是關於導致目的者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1871
+      ],
+      "before": "自然物是用同一個機能穿過中點並達到止點。但那導向目的者，好似一種中點，由此而達到目的，即止點。所以，意志既然是關於目的者，也是關於那導向目的者。",
+      "after": "自然物是用同一個機能穿過中點並達到止點。但那導向目的者，好似一種中點，由此而達到目的，即止點。所以，意志既然是關於目的者，也是關於那導向目的者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1871,
+        1872
+      ],
+      "before": "我解答如下:意志有時是指我們用以願意之機能，有時指意志之行動。若我們講意志時是指機能，則意志之範團包括目的，也包括那指向目的者。因為每個機能，指向一切多少具有其對象之理者，例如:視覺指向一切具有顏色者。意志機能之對象是善之理，不只目的具有此理，那些導向目的者也具有此理。\n若我們謂意志是專指其行動，WIJ嚴格地說，它只與目的有關。凡由機能而得名之行動，是指這機能之單純行動，例如:「暸解」是指智性之單純行動。機能之單純行動是指向這機能之本然對象。那因本身而善並被欲求者是目的。是以，意志是專關於目的者。那些導向目的者，不是因了本身而善並被欲求，而是由於其與目的之關係。是以，意志因了指向目的，才指向這些東西一一那麼，意志在這些東西中所求的，仍是那目的。就如瞭解本是專指那因自身而被知者，即原理;對那些由於原理而被知者，除非在其中看到原理，否則不是瞭解。按《倫理學》卷七第八章上說的: 「目的之與可欲者的關係，就如原理之與可理解者。」",
+      "after": "我解答如下：意志有時是指我們用以願意之機能，有時指意志之行動。若我們講意志時是指機能，則意志之範圍包括目的，也包括那指向目的者。因為每個機能，指向一切多少具有其對象之理者，例如：視覺指向一切具有顏色者。意志機能之對象是善之理，不只目的具有此理，那些導向目的者也具有此理。\n若我們謂意志是專指其行動，則嚴格地說，它只與目的有關。凡由機能而得名之行動，是指這機能之單純行動，例如：「瞭解」是指智性之單純行動。機能之單純行動是指向這機能之本然對象。那因本身而善並被欲求者是目的。是以，意志是專關於目的者。那些導向目的者，不是因了本身而善並被欲求，而是由於其與目的之關係。是以，意志因了指向目的，才指向這些東西——那麼，意志在這些東西中所求的，仍是那目的。就如瞭解本是專指那因自身而被知者，即原理；對那些由於原理而被知者，除非在其中看到原理，否則不是瞭解。按《倫理學》卷七第八章上說的：「目的之與可欲者的關係，就如原理之與可理解者。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範團",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "WIJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "暸解",
+          "after": "瞭解",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1872
+      ],
+      "before": "哲學家那裡所說的意志，是專指意志之單純行動，-::;::不是指機能。",
+      "after": "哲學家那裡所說的意志，是專指意志之單純行動，而不是指機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "-::;::",
+          "after": "而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1872
+      ],
+      "before": "屬於不同類別的同等事情，各屬於不同的機能，好比聲音與顏色屬於感官性物之不同類別，分月IJ屬於聽覺及視覺。但「有用的」和「當然的」並非同等，而是如根據自身者與根據他物者。這類常屬於同一個機能;就如用視覺也感到顏色，也感到光，顏色是因了光而被看到。",
+      "after": "屬於不同類別的同等事情，各屬於不同的機能，好比聲音與顏色屬於感官性物之不同類別，分別屬於聽覺及視覺。但「有用的」和「當然的」並非同等，而是如根據自身者與根據他物者。這類常屬於同一個機能；就如用視覺也感到顏色，也感到光，顏色是因了光而被看到。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分月IJ",
+          "after": "分別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1872,
+        1873
+      ],
+      "before": "並非習性不同，機能也就不同，因為習性乃機能針對某些特殊行動之限定。此外，每種實踐性藝術皆同時又管目的，又管那導向目的者。掌舵術研究目的，視之為要做的;研究導向目的者，視之為要指揮的。反之，造船術研究導向目的者，視之為要做的;研究白的，視之為其所做者要指向的。而且，每種實踐性藝術皆有其專有目的，及那專屬於這技術的導向目的者。",
+      "after": "並非習性不同，機能也就不同，因為習性乃機能針對某些特殊行動之限定。此外，每種實踐性藝術皆同時又管目的，又管那導向目的者。掌舵術研究目的，視之為要做的；研究導向目的者，視之為要指揮的。反之，造船術研究導向目的者，視之為要做的；研究目的，視之為其所做者要指向的。而且，每種實踐性藝術皆有其專有目的，及那專屬於這技術的導向目的者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "研究白的",
+          "after": "研究目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "意志是否由同一個動作動向目的及導致目的者",
+      "after": "意志是否由同一個動作動向目的及導致目的者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "似乎意志是以同一個動作動向目的及導致目的者。因為:",
+      "after": "似乎意志是以同一個動作動向目的及導致目的者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "哲學家《辯證論》卷三第二章說: 「那裡是一個為了另一個，就只是一個。」但意志之所以要那導致目的者，只是為了目的。所以，它是以同一個動作動向二者。",
+      "after": "哲學家《辯證論》卷三第二章說：「那裡是一個為了另一個，就只是一個。」但意志之所以要那導致目的者，只是為了目的。所以，它是以同一個動作動向二者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "此外，目的是所以要那導向目的者之理由，就如光是看到顏色的理由;然而是由同一個動作看到光和顏色。所以，意志願意目的之動作，與願意導向目的者之動作，是同一個。",
+      "after": "此外，目的是所以要那導向目的者之理由，就如光是看到顏色的理由；然而是由同一個動作看到光和顏色。所以，意志願意目的之動作，與願意導向目的者之動作，是同一個。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "通過中點而趨止點之自然運動是同一個，但導致目的者之與目的之關係，似中點之與止點。所以，意志要目的，與其要導致目的者的動作是同一個。",
+      "after": "通過中點而趨止點之自然運動是同一個，但導致目的者之與目的之關係，似中點之與止點。所以，意志要目的，與其要導致目的者的動作是同一個。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1873
+      ],
+      "before": "行動是按對象而有區分。但目的與那導致目的者，屬於不同類別的善(前者是當然的善)，後者是有用的善。所以﹒意志不是以同一行動趨向二者。",
+      "after": "行動是按對象而有區分。但目的與那導致目的者，屬於不同類別的善(前者是當然的善)，後者是有用的善。所以，意志不是以同一行動趨向二者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1873,
+        1874
+      ],
+      "before": "我解答如下:既然目的是因其自身而被需求，而導致目的者是因了目的，顯然意志能夠要目的而不要導致目的者;但不能只要導致目的者而不要目的。這樣則意志求目的有兩種方式:一是絕對地只求目的本身，一是當作求導致目的者之理由。顯然，意志趨向「充為追求導致目的者之理由」的目的，與其趨向導致目的者是同一個動作，但絕對地追求目的之動作是另一個;有時且有時間上的差別，例如:一人先欲健康，然後在考慮怎樣獲得健康時，纔要請醫生治療。這有似智性，因為一人先瞭解原理本身;然後又瞭解結論中的原理，因為是為了原理而同意結論。",
+      "after": "我解答如下：既然目的是因其自身而被需求，而導致目的者是因了目的，顯然意志能夠要目的而不要導致目的者；但不能只要導致目的者而不要目的。這樣則意志求目的有兩種方式：一是絕對地只求目的本身，一是當作求導致目的者之理由。顯然，意志趨向「充為追求導致目的者之理由」的目的，與其趨向導致目的者是同一個動作，但絕對地追求目的之動作是另一個；有時且有時間上的差別，例如：一人先欲健康，然後在考慮怎樣獲得健康時，才要請醫生治療。這有似智性，因為一人先瞭解原理本身；然後又瞭解結論中的原理，因為是為了原理而同意結論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔要",
+          "after": "才要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1874
+      ],
+      "before": "所舉之理由，適於意志要目的當其要導致目的者之理由的情況。",
+      "after": "所舉之理由，適於意志要目的當其要導致目的者之理由的情況。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q008.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1874
+      ],
+      "before": "看到顏色峙，同時必見到光;然而能只見光而不見顏色。同樣，一人在要那導致目的者的時候，必一起也要目的:反之則不然。",
+      "after": "看到顏色時，同時必見到光；然而能只見光而不見顏色。同樣，一人在要那導致目的者的時候，必一起也要目的；反之則不然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "顏色峙",
+          "after": "顏色時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也要目的:",
+          "after": "也要目的；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1874
+      ],
+      "before": "在實現計劃時，導致目的者相當於中點，目的相當於止點。自然運動有時停在中點，遠不到止點;同樣，一人可能做了那導致目的者，但未達成目的。但在願望中，程序正相反。因為意志是因了目的。轉而要那導致目的者;就如智性由原理轉到結論，原理即所謂中項(媒介)。有時智性暸解中項，但不進入結論;同樣，有時意志要目的，但並不進而要那導致目的者。至於對那在反之中提出的異議，答案可參照前面第二節釋疑2.講過的。「有用的」及「當然的鬥，不是善的同等額月IJ，而似「為己」及「為他」之關係。故意志可要前者而不要後者，皮之則不然。",
+      "after": "在實現計劃時，導致目的者相當於中點，目的相當於止點。自然運動有時停在中點，達不到止點；同樣，一人可能做了那導致目的者，但未達成目的。但在願望中，程序正相反。因為意志是因了目的，轉而要那導致目的者；就如智性由原理轉到結論，原理即所謂中項(媒介)。有時智性瞭解中項，但不進入結論；同樣，有時意志要目的，但並不進而要那導致目的者。至於對那在反之中提出的異議，答案可參照前面第二節釋疑2.講過的。「有用的」及「當然的」，，不是善的同等類別，而似「為己」及「為他」之關係。故意志可要前者而不要後者，反之則不然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "遠不到",
+          "after": "達不到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因了目的。轉而",
+          "after": "因了目的，轉而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "暸解",
+          "after": "瞭解",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "當然的鬥",
+          "after": "當然的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同等額月IJ",
+          "after": "同等類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q008.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1874
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
