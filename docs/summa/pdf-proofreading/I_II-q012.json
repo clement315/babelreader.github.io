@@ -1,0 +1,1603 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q012",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q012",
+    "title": "論志向",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      1900,
+      1901,
+      1902,
+      1903,
+      1904,
+      1905,
+      1906,
+      1907
+    ],
+    "printed_pages": [
+      129,
+      136
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 62,
+    "changed_review_units": 40,
+    "checked_unchanged_review_units": 23
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q12.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q12.json": "629861e502c4fca6836d14d12a54f4645785e8117df9af214400df398555f7ce"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q012.a001.respondeo",
+      "pdf_file_page": 1901,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q012.a002.arg2",
+      "pdf_file_page": 1902,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q012.a003.ad2",
+      "pdf_file_page": 1904,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q012.a004.ad3",
+      "pdf_file_page": 1906,
+      "text": "己能有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q012.a005.respondeo",
+      "pdf_file_page": 1906,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q012.a005.respondeo",
+      "pdf_file_page": 1907,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部8页、5节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q012.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "然後要討論的是志向(參看第八題引言)。\n關於這一點，可以提出五個問題:\n一、志向是智性之行動，抑或意志之行動。\n二、志向是否只限於最後目的。\n三、一人能否同時有二志。\n四、志於目的與志於導教目的者，是否為同一意志行動。\n五、禽獸有無志向。",
+      "after": "然後要討論的是志向(參看第八題引言)。\n關於這一點，可以提出五個問題：\n一、志向是智性之行動，抑或意志之行動。\n二、志向是否只限於最後目的。\n三、一人能否同時有二志。\n四、志於目的與志於導致目的者，是否為同一意志行動。\n五、禽獸有無志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "導教",
+          "after": "導致",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "志向是智性之行動，抑或意志之行動",
+      "after": "志向是智性之行動，抑或意志之行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "似乎志向是智性之行動，而非意志之行動。因為:",
+      "after": "似乎志向是智性之行動，而非意志之行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "《瑪竇福音》第六韋拉節說: 「你的日長時若是康健，你的全身就都光明。」按奧斯定在《山中聖訓詮釋》卷二第十三章說的，這裡眼睛是指志向。但眼睛既是視覺之工具，乃是指的知覺機能。所以，志向不是嗜慾機能之行動，而是知覺機能之行動。",
+      "after": "《瑪竇福音》第六章22節說：「你的眼睛若是康健，你的全身就都光明。」按奧斯定在《山中聖訓詮釋》卷二第十三章說的，這裡眼睛是指志向。但眼睛既是視覺之工具，乃是指的知覺機能。所以，志向不是嗜慾機能之行動，而是知覺機能之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第六韋拉節",
+          "after": "第六章22節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "日長時",
+          "after": "眼睛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "此外，《瑪竇福音》第六章23節主所說的「你身上的光明如果成了黑暗」等等，搜奧斯定在那書同處的講法，光明是指志向。1日光明是屬於認知方面的。所以，去向亦然。",
+      "after": "此外，《瑪竇福音》第六章23節主所說的「你身上的光明如果成了黑暗」等等，按奧斯定在那書同處的講法，光明是指志向。但光明是屬於認知方面的。所以，志向亦然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "搜奧斯定",
+          "after": "按奧斯定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1日光明",
+          "after": "但光明",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "去向亦然",
+          "after": "志向亦然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1900
+      ],
+      "before": "此外，志向是指對目的之一種安排。1且安排屬於理性。故志向不屬於意志‘而屬於理性。",
+      "after": "此外，志向是指對目的之一種安排。但安排屬於理性。故志向不屬於意志；而屬於理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "意志‘",
+          "after": "意志；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1900,
+        1901
+      ],
+      "before": "此外，意志之行動或是關於目的，或是關於導致目的者。但關於目的之意志行動，稱為意志或草受;關於導致目的者，稱為選擇一這些皆與志向不同。所以，志向不是意志之行動。",
+      "after": "此外，意志之行動或是關於目的，或是關於導致目的者。但關於目的之意志行動，稱為意志或享受；關於導致目的者，稱為選擇——這些皆與志向不同。所以，志向不是意志之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "草受",
+          "after": "享受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "選擇一這些",
+          "after": "選擇——這些",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1901
+      ],
+      "before": "奧斯定在《論天主聖三》卷十一第四、第八、第九諸章中說: 「意志之志向，把所見之物與視覺結合為一司，同樣也使在記憶中的心象與思想的心靈結合為一。」所以，志向是意志之行動。",
+      "after": "奧斯定在《論天主聖三》卷十一第四、第八、第九諸章中說：「意志之志向，把所見之物與視覺結合為一，同樣也使在記憶中的心象與思想的心靈結合為一。」所以，志向是意志之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為一司，同樣",
+          "after": "為一，同樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1901
+      ],
+      "before": "我解答如下I志向」按字面的意義，是指向什麼東西。推動者的動作及可動者之行動，皆有所向。但可動者之有所向，是由於推動者之動作。故志向首先並主要屬於那推向目的者;是以，我們說工程師或一切領袖，以其命令推動別人動向他所意圖者。前面第九題已經說過，意志推動靈魂的其他能力走向目的。故顯然志向是專屬於意志的行動。",
+      "after": "我解答如下：「志向」按字面的意義，是指向什麼東西。推動者的動作及可動者之行動，皆有所向。但可動者之有所向，是由於推動者之動作。故志向首先並主要屬於那推向目的者；是以，我們說工程師或一切領袖，以其命令推動別人動向他所意圖者。前面第九題己經說過，意志推動靈魂的其他能力走向目的。故顯然志向是專屬於意志的行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下I志向」",
+          "after": "如下：「志向」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1901
+      ],
+      "before": "稱志向為眼睛是譬喻，並非因了屬於認知，而是因為先要認識意志所推向之目的，就如我們要用眼先看要往那裡走。",
+      "after": "稱志向為眼睛是譬喻，並非因了屬於認知，而是因為先要認識意志所推向之目的，就如我們要用眼先看要往那裡走。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1901
+      ],
+      "before": "志向稱為光明，因為意圖者明白知道其志向。所以也稱行為是黑暗的，因為人知道圖求的是什麼，而不知行為會產生什麼，奧斯定在那裡便這樣解釋。",
+      "after": "志向稱為光明，因為意圖者明白知道其志向。所以也稱行為是黑暗的，因為人知道圖求的是什麼，而不知行為會產生什麼，奧斯定在那裡便這樣解釋。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1901
+      ],
+      "before": "意志固然不安排，但它按理性之安排而定志向。故志向是指意志之行動，但先有理性為之安排目的。",
+      "after": "意志固然不安排，但它按理性之安排而定志向。故志向是指意志之行動，但先有理性為之安排目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1901,
+        1902
+      ],
+      "before": "志向是意志關於目的之行動。但意志對目的有三種關係;一種是絕對的，這時即稱為意志，即如我們絕對要健康，或這類的東西;另一種是視目的為定止處，享受即指這種關係;第三種是看目的為指向目的者之終點，志向即指這層關(系。並非因為我們要健康，便說我們志於健康;而是在我們要由別的東問達到健康時。",
+      "after": "志向是意志關於目的之行動。但意志對目的有三種關係：一種是絕對的，這時即稱為意志，即如我們絕對要健康，或這類的東西；另一種是視目的為定止處，享受即指這種關係；第三種是看目的為指向目的者之終點，志向即指這層關係。並非因為我們要健康，便說我們志於健康；而是在我們要由別的東西達到健康時。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "三種關係;",
+          "after": "三種關係：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東問",
+          "after": "東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "志向是否只限於最後目的",
+      "after": "志向是否只限於最後目的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "志向似乎只限於最偉目的。因為:",
+      "after": "志向似乎只限於最後目的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "最偉",
+          "after": "最後",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "在普洛斯培(Prosperi d'Aquitai肘，約390-455/460年)的《語錄》(Sententiarum)中說: 「向天主呼號是心的志向C 」但天主是人心的最後目的。所以，志向常是關於最後目的。",
+      "after": "在普洛斯培(Prosperi d'Aquitaine，約390~455/460年)的《語錄》(Sententiarum)中說：「向天主呼號是心的志向。」但天主是人心的最後目的。所以，志向常是關於最後目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "d'Aquitai肘",
+          "after": "d'Aquitaine",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "390-455/460",
+          "after": "390~455/460",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "志向C ",
+          "after": "志向。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "此外，按第一節釋疑4.己說過的，志向是看日的為終點。但終點有最後的意義。所以，志向常是關於最後目的。",
+      "after": "此外，按第一節釋疑4.己說過的，志向是看目的為終點。但終點有最後的意義。所以，志向常是關於最後目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "看日的",
+          "after": "看目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "此外，正如志向與目的有闕，享受也是一樣。但享受常是關於最後目的，故志向亦然。",
+      "after": "此外，正如志向與目的有關，享受也是一樣。但享受常是關於最後目的，故志向亦然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有闕",
+          "after": "有關",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "按前面第一題第七節講的，人類意志之最後目的只有一個，即幸福。若志向只限於最後目的，人的志向則不能彼此不同。但其實不然。",
+      "after": "按前面第一題第七節講的，人類意志之最後目的只有一個，即幸福。若志向只限於最後目的，人的志向則不能彼此不同。但其實不然。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "我解答如下:前面第一節釋疑4.說過，志向是以目的為意志行動之終點。在行動中，終點有兩種:一種是最後定止之終點，即整個行動之終點;另一種是一中間點，是一部分行動的起點，另一部分行動的止點。例如，從甲經乙至IJ丙的行動中，丙是最後終點;乙是止點，也不是最後的。關於二者皆能有志|句。所以，雖然常是目的，但不必是最後目的。",
+      "after": "我解答如下：前面第一節釋疑4.說過，志向是以目的為意志行動之終點。在行動中，終點有兩種：一種是最後定止之終點，即整個行動之終點；另一種是一中間點，是一部分行動的起點，另一部分行動的止點。例如，從甲經乙到丙的行動中，丙是最後終點；乙是止點，但不是最後的。關於二者皆能有志向。所以，雖然常是目的，但不必是最後目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "至IJ",
+          "after": "到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也不是最後",
+          "after": "但不是最後",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "志|句",
+          "after": "志向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1902
+      ],
+      "before": "向天主呼號稱為心的志向，並非說天主常是志向之對象，而是因為他知道人的心志。或是說，在我們祈禱時，我們的志向指向天主，這志向具有呼號的作用。",
+      "after": "向天主呼號稱為心的志向，並非說天主常是志向之對象，而是因為他知道人的心志。或是說，在我們祈禱時，我們的志向指向天主，這志向具有呼號的作用。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1902,
+        1903
+      ],
+      "before": "終點有最後之意義，但不常是整個行動之最後者，有時是一部分之最後者。",
+      "after": "終點有最後之意義，但不常是整個行動之最後者，有時是一部分之最後者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "享受包括在白的上的定止，這只屬於最後目的。但志向含有朝向目的之動態，而與定止無關。是以，二者之理不同。",
+      "after": "享受包括在目的上的定止，這只屬於最後目的。但志向含有朝向目的之動態，而與定止無關。是以，二者之理不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在白的",
+          "after": "在目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "一人能否同時有二志",
+      "after": "一人能否同時有二志",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "好似一人不能同時有多種志向。因為;",
+      "after": "好似一人不能同時有多種志向。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為;",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "奧斯定在《山中聖訓詮釋》卷二第卡四、第十七章裡說，人不能同時致志於天主，又致志於身體之安逸。按同理也不能同時有兩種別的志向。",
+      "after": "奧斯定在《山中聖訓詮釋》卷二第十四、第十七章裡說，人不能同時致志於天主，又致志於身體之安逸。按同理也不能同時有兩種別的志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡四",
+          "after": "第十四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "此外，志向指意志朝終點之行動。但-個行動在同一方向不能有多個終點。所以，意志不能同時有多種志向。",
+      "after": "此外，志向指意志朝終點之行動。但一個行動在同一方向不能有多個終點。所以，意志不能同時有多種志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "但-個",
+          "after": "但一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "此外，志向先須有理性或智性之行動。但按哲學家於《辯證論》卷二第十章說的: 「不可能同時瞭解許多事物」。所以，也不能同時有許多志向。",
+      "after": "此外，志向先須有理性或智性之行動。但按哲學家於《辯證論》卷二第十章說的：「不可能同時瞭解許多事物」。所以，也不能同時有許多志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事物」。",
+          "after": "事物」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1903
+      ],
+      "before": "藝術模仿自然。但自然用一個工具圖兩種用途，如在《靈魂論》卷二第八章中說的: 「舌頭是為嘗昧的，也是為講話的。」根據同理，藝術或理性也能使一個東西有兩個目的。如此則人能同時有多種志向。",
+      "after": "藝術模仿自然。但自然用一個工具圖兩種用途，如在《靈魂論》卷二第八章中說的：「舌頭是為嘗味的，也是為講話的。」根據同理，藝術或理性也能使一個東西有兩個目的。如此則人能同時有多種志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嘗昧",
+          "after": "嘗味",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1903,
+        1904
+      ],
+      "before": "我解答如下:兩個東西之間可能有兩種情形:一種彼此相關，一種彼此不相關。若兩個東西彼此相關連，買11根據前面第二節講的，顯然一人能夠同時有許多志向。因為志向不只限於最後目的，也包括中間目的:一人同時致志於近目的和遠目的，就如配藥和治病;若兩個東西之間不相關連，人也能同時有許多目的。這可由下面的事看出來:一人在二者中選取一個，因為它比另一個好;一個比另一個好的條件之一，是因為第一個有多種用途。因此，一物能因有多種用途而優先被選。由此可見人同時有許多志向。",
+      "after": "我解答如下：兩個東西之間可能有兩種情形：一種彼此相關，一種彼此不相關。若兩個東西彼此相關連，則根據前面第二節講的，顯然一人能夠同時有許多志向。因為志向不只限於最後目的，也包括中間目的：一人同時致志於近目的和遠目的，就如配藥和治病；若兩個東西之間不相關連，人也能同時有許多目的。這可由下面的事看出來：一人在二者中選取一個，因為它比另一個好；一個比另一個好的條件之一，是因為第一個有多種用途。因此，一物能因有多種用途而優先被選。由此可見人同時有許多志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買11",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中間目的:",
+          "after": "中間目的：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "奧斯定的意思是說，人不能當兩個最後目的，同時致志於天主叉致志於現ttt之安逸。因為按前面第一題第五節指出的，一人不能有許多最後目的。",
+      "after": "奧斯定的意思是說，人不能當兩個最後目的，同時致志於天主又致志於現世之安逸。因為按前面第一題第五節指出的，一人不能有許多最後目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主叉",
+          "after": "天主又",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現ttt",
+          "after": "現世",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "一個行動在同一個方向能有許多終點，倘若這些終點彼此相關連;若彼此不相關連，則在同一方向不可能。但要知道，按東西本身不是一個的，在意念中可以看為一個。前面第一節釋疑3已經說過，志向是意志對經了理性安排者之行動。是以，那按東西本身是多個的，按意念既然可以看屑一個東西‘所以也可以當一個志向終點。至於兩個東西在意念中看為一個，或是因為二者合而構成一個單元，如:調和熱與冷以求健康;或是因為二者同包括在能為志向所及的一共同者之內，如:買酒和衣服同包括在財物下。是以，致志於財物的人，無妨同時致志於這兩種東西。",
+      "after": "一個行動在同一個方向能有許多終點，倘若這些終點彼此相關連；若彼此不相關連，則在同一方向不可能。但要知道，按東西本身不是一個的，在意念中可以看為一個。前面第一節釋疑3.己經說過，志向是意志對經了理性安排者之行動。是以，那按東西本身是多個的，按意念既然可以看為一個東西，所以也可以當一個志向終點。至於兩個東西在意念中看為一個，或是因為二者合而構成一個單元，如：調和熱與冷以求健康；或是因為二者同包括在能為志向所及的一共同者之內，如：買酒和衣服同包括在財物下。是以，致志於財物的人，無妨同時致志於這兩種東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋疑3已經",
+          "after": "釋疑3.己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "看屑",
+          "after": "看為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西‘",
+          "after": "東西，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "調和熱與冷",
+          "after": "調和熱與冷",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "在第一集第十二題第十節、第五十八題第二節、第八十五題第四節已經說過，若眾多從某方面能納於一的話，就能同時瞭解許多事物。",
+      "after": "在第一集第十二題第十節、第五十八題第二節、第八十五題第四節已經說過，若眾多從某方面能納於一的話，就能同時瞭解許多事物。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "志於目的與志於導致目的者，是否為同一個意志行動",
+      "after": "志於目的與志於導致目的者，是否為同一個意志行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1904
+      ],
+      "before": "似乎芯於目的與志於導致目的者，不是同一個意志行動。因為-",
+      "after": "似乎志於目的與志於導致目的者，不是同一個意志行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似乎芯於",
+          "after": "似乎志於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因為-",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1904,
+        1905
+      ],
+      "before": "奧斯定在《論天主聖三》卷十一第六章裡說i看窗戶的意志，其目的在見窗戶，由窗戶看行人是男一個意志。」但願意由窗戶看行人屬於志向，而願意看窗戶屬於願意那導致目的者之意志。所以，志於目的是一個意志行動，志於導致目的者是男-{回意志行動。",
+      "after": "奧斯定在《論天主聖三》卷十一第六章裡說：「看窗戶的意志，其目的在見窗戶，由窗戶看行人是另一個意志。」但願意由窗戶看行人屬於志向，而願意看窗戶屬於願意那導致目的者之意志。所以，志於目的是一個意志行動，志於導致目的者是另一個意志行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "裡說i看",
+          "after": "裡說：「看",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男-{回",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1905
+      ],
+      "before": "此外，行動是按對象區分類別。(旦目的與那導致目的考是不同的對象。所以，志於目的是一個意志行動，志於導致目的者是另一個意志行動。",
+      "after": "此外，行動是按對象區分類別。但目的與那導致目的者是不同的對象。所以，志於目的是一個意志行動，志於導致目的者是另一個意志行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的考",
+          "after": "目的者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1905
+      ],
+      "before": "此外，關於導致目的者之意志稱為選擇。但選擇與志向不是一事。所以，志於目的與志於導致目的者，不是同一個行動。",
+      "after": "此外，關於導致目的者之意志稱為選擇。但選擇與志向不是一事。所以，志於目的與志於導致目的者，不是同一個行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1905
+      ],
+      "before": "導致目的者與目的之關係，有如中間點與止點之關係。但在自然物中，經由中間點而達止點是一個行動。所以，在情頤行動上，志於臣的與志於導致目的者也是一個行動。",
+      "after": "導致目的者與目的之關係，有如中間點與止點之關係。但在自然物中，經由中間點而達止點是一個行動。所以，在情願行動上，志於目的與志於導致目的者也是一個行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "情頤",
+          "after": "情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "志於臣的",
+          "after": "志於目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1905
+      ],
+      "before": "我解答如下:意志指向目的之行動，與其指向導致目的者之行動，可有兩種看法。第一種，視意志是絕對地並按三者之本身而指向二者，這樣則是兩個獨立的意志行動。第二種，看意志指向導致目的者是為了目的。這時則意志指向目的及其指向導致目的者之行動，其實是同一件事。當我說:「我要藥品為治病」時，我只指一個意志行動。這原因在於目的乃所以要導致目的者之理由。對象及對象之理由屬於同一個行動範圍;如前面第八題第三節釋疑2.說過的，看見顏色與看見光是同一個看見行動。關於智性也是一樣:若分開絕對地看原理與結論，那是兩個見解;而在因了原理而承認結論時，只是一個智性行動。",
+      "after": "我解答如下：意志指向目的之行動，與其指向導致目的者之行動，可有兩種看法。第一種，視意志是絕對地並按二者之本身而指向二者，這樣則是兩個獨立的意志行動。第二種，看意志指向導致目的者是為了目的。這時則意志指向目的及其指向導致目的者之行動，其實是同一件事。當我說：「我要藥品為治病」時，我只指一個意志行動。這原因在於目的乃所以要導致目的者之理由。對象及對象之理由屬於同一個行動範圍；如前面第八題第三節釋疑2.說過的，看見顏色與看見光是同一個看見行動。關於智性也是一樣：若分開絕對地看原理與結論，那是兩個見解；而在因了原理而承認結論時，只是一個智性行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "按三者",
+          "after": "按二者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1905
+      ],
+      "before": "奧斯定講看窗戶及看窗外行人，是指意志分別絕對地指向二處。",
+      "after": "奧斯定講看窗戶及看窗外行人，是指意志分別絕對地指向二處。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "目的按其為一東西而言，與那導致目的者不是同一個意志對象。但按其為所以願意那導致目的者之理由而言，是同一個對象。",
+      "after": "目的按其為一東西而言，與那導致目的者不是同一個意志對象。但按其為所以願意那導致目的者之理由而言，是同一個對象。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "同一個行動，按《物理學》卷三第三章說的，可以按起點和終點在意念中加以區分，如上和下。那麼，意志指向導致目的者，因其導致目的，便稱為選擇。意志指向目的:針對這目的是經由導致目的者始能達到，則為志向。在沒有決定那導致目的者之前，己能有目的之志向;決定導致目的者則是選擇，由此可見三者之分別。",
+      "after": "同一個行動，按《物理學》卷三第三章說的，可以按起點和終點在意念中加以區分，如上和下。那麼，意志指向導致目的者，因其導致目的，便稱為選擇。意志指向目的，針對這目的是經由導致目的者始能達到，則為志向。在沒有決定那導致目的者之前，己能有目的之志向；決定導致目的者則是選擇，由此可見二者之分別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目的:針對",
+          "after": "目的，針對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三者之分別",
+          "after": "二者之分別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "禽獸有無志向",
+      "after": "禽獸有無志向",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "似乎禽獸有志向。因為:",
+      "after": "似乎禽獸有志向。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "那些無知覺者，比那有感官能力者，去有理性者之距離更大。但按《物理學》卷三第八章所指出者，無知覺的東西也志於目的。所以，禽獸更志於目的。",
+      "after": "那些無知覺者，比那有感官能力者，去有理性者之距離更大。但按《物理學》卷二第八章所指出者，無知覺的東西也志於目的。所以，禽獸更志於目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卷三第八章",
+          "after": "卷二第八章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "此外，正如志向是關於目的，享受亦然。但前面第十一題第二節說過，禽獸能有享受。所以，也有志向。",
+      "after": "此外，正如志向是關於目的，享受亦然。但前面第十一題第二節說過，禽獸能有享受。所以，也有志向。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "此外，既然志向無非就是趨向，那能為目的市行動者，便也有志向。但禽獸為目的而行動，因為禽獸為了尋食等事而動。所以，禽獸有志向。",
+      "after": "此外，既然志向無非就是趨向，那能為目的而行動者，便也有志向。但禽獸為目的而行動，因為禽獸為了尋食等事而動。所以，禽獸有志向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目的市",
+          "after": "目的而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1906
+      ],
+      "before": "致志於目的包含為目的做安排，這屬於理性。既然禽獸沒有理性，似乎也不致志於目的。",
+      "after": "致志於目的包含為目的做安排，這屬於理性。既然禽獸沒有理性，似乎也不致志於目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1906,
+        1907
+      ],
+      "before": "我解答如下:前面第一節己說過，志向即指向月1月革:這屬於推動者，也屬於被動者。若志於目的是說被他物推向目的，則說白然物志於目的，有如說被天主推向目的，1以箭被射手推向目的。這樣則禽獸也志於目的，因為自然本能使之有所趨歸。推動者之志於目的是另一種方式，因為他安排某行動一是自己的或不是自己的一一走向目的，這只屬於有理性者。這是真正的和主要的志向，前面第一節已經說過;按這方式說，禽獸不致志於目的。",
+      "after": "我解答如下：前面第一節己說過，志向即指向別處；這屬於推動者，也屬於被動者。若志於目的是說被他物推向目的，則說自然物志於目的，有如說被天主推向目的，似箭被射手推向目的。這樣則禽獸也志於目的，因為自然本能使之有所趨歸。推動者之志於目的是另一種方式，因為他安排某行動——是自己的或不是自己的——走向目的，這只屬於有理性者。這是真正的和主要的志向，前面第一節己經說過；按這方式說，禽獸不致志於目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "月1月革:",
+          "after": "別處；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白然物",
+          "after": "自然物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1以箭",
+          "after": "似箭",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行動一是自己的或不是自己的一一走",
+          "after": "行動——是自己的或不是自己的——走",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1907
+      ],
+      "before": "所舉之理由只適用於被推向目的者。",
+      "after": "所舉之理由只適用於被推向目的者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q012.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1907
+      ],
+      "before": "享受不包含對什麼事做安排只是絕對地定止於目的，故與志向不同。",
+      "after": "享受不包含對什麼事做安排；只是絕對地定止於目的，故與志向不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "做安排只是",
+          "after": "做安排；只是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q012.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1907
+      ],
+      "before": "禽獸動向目的時，並不考慮自其行動可達區的，而這點屬於真正的志向。禽獸由本能而欲目的，似是被他物推動;那些自然而動者也是一樣。",
+      "after": "禽獸動向目的時，並不考慮由其行動可達目的，而這點屬於真正的志向。禽獸由本能而欲目的，似是被他物推動；那些自然而動者也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "考慮自其",
+          "after": "考慮由其",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可達區的",
+          "after": "可達目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
