@@ -1,0 +1,1943 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q013",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q013",
+    "title": "論選擇——意志關於導致目的者之行動",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      1908,
+      1909,
+      1910,
+      1911,
+      1912,
+      1913,
+      1914,
+      1915,
+      1916,
+      1917
+    ],
+    "printed_pages": [
+      137,
+      146
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 70,
+    "changed_review_units": 48,
+    "checked_unchanged_review_units": 23
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q13.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q13.json": "527968ccfe682c821977577c2ca049e2581ace6ade552099866b53cc4b667625",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q013.a003.respondeo",
+      "pdf_file_page": 1912,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a003.ad2",
+      "pdf_file_page": 1912,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a005.arg1",
+      "pdf_file_page": 1914,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a005.arg2",
+      "pdf_file_page": 1914,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a005.respondeo",
+      "pdf_file_page": 1914,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a006.respondeo",
+      "pdf_file_page": 1916,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q013.a006.arg3",
+      "pdf_file_page": 1916,
+      "text": "在不同的等距離處",
+      "status": "suspected_source_print_error",
+      "action": "原页此处亦如此；不因表述有疑而改译文。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q013.prologue",
+      "description": "移除串入引言的重复题头，原题名已由现有标题呈现；保留该换行。"
+    },
+    {
+      "id": "I_II.q013.a002.ad3",
+      "description": "误混正解后半段及三条释疑；正解接回原respondeo，释疑回现有ad1–3；ad3原两个换行保留为尾部空行。"
+    }
+  ],
+  "notes": [
+    "全部10页、6节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q013.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "論選擇一一意志關於導致目的者之行動一分為六節一\n繼而要討論的是，意志關於導致目的者那方面的行動(參看第八題引言)。共有三種:選擇、同意、運用。在選擇之前先有考慮。所以先要討論選擇;然後論考慮(第十四題);第三論同意(第十五題);第四論運用(第十六題)。\n關於選擇，可以提出六個問題:\n一、選擇是意志行動，抑或理性行動。\n二、禽獸有無選擇。\n三、選擇只限於導致目的者，或有時亦關於目的。\n四、選擇是否只限於由我們所做者。\n五、選擇是否只限於可能範圍者。\n六、人是必然地，抑或自由地選擇。",
+      "after": "\n繼而要討論的是，意志關於導致目的者那方面的行動(參看第八題引言)。共有三種：選擇、同意、運用。在選擇之前先有考慮。所以先要討論選擇；然後論考慮(第十四題)；第三論同意(第十五題)；第四論運用(第十六題)。\n關於選擇，可以提出六個問題：\n一、選擇是意志行動，抑或理性行動。\n二、禽獸有無選擇。\n三、選擇只限於導致目的者，或有時亦關於目的。\n四、選擇是否只限於由我們所做者。\n五、選擇是否只限於可能範圍者。\n六、人是必然地，抑或自由地選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論選擇一一意志關於導致目的者之行動一分為六節一",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "選擇是意志行動，抑或理性行動",
+      "after": "選擇是意志行動，抑或理性行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "選擇似非意志行動，而是理性行動。因為:",
+      "after": "選擇似非意志行動，而是理性行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "選擇包含比較，因t:J定取捨。但比較屬於理性。古生選擇屬於理性。",
+      "after": "選擇包含比較，因以定取捨。但比較屬於理性。故選擇屬於理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因t:J",
+          "after": "因以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "古生選擇",
+          "after": "故選擇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "此外，推論與下結論屬於同一機能。(旦有關可行者之推論屬於理性。按《倫理學》卷七第三章說的，選擇相當於有關可行者之下結論，故似乎是理性行動。",
+      "after": "此外，推論與下結論屬於同一機能。但有關可行者之推論屬於理性。按《倫理學》卷七第三章說的，選擇相當於有關可行者之下結論，故似乎是理性行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1908
+      ],
+      "before": "此。卜愚昧不屬於意志，而屬於知覺能力。按《倫理學》卷三第一章中說，有所謂選擇之愚昧。故選擇似乎不屬於意志，而屬於理性。",
+      "after": "此外，愚昧不屬於意志，而屬於知覺能力。按《倫理學》卷三第一章中說，有所謂選擇之愚昧。故選擇似乎不屬於意志，而屬於理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此。卜",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1909
+      ],
+      "before": "哲學家在《倫理學》卷三第三章中說，選擇是「對在我們能力範圍內者之願望」。願望是意志行動。故選擇亦然。",
+      "after": "哲學家在《倫理學》卷三第三章中說，選擇是「對在我們能力範圍內者之願望」。願望是意志行動。故選擇亦然。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1909
+      ],
+      "before": "我解答如下:在選擇裡，有些事屬於理性或智|笠，有些草屬於意志。故此哲學家在《倫理學》卷六第二章裡說，選擇是「嗜慾性的智性，或理智性的嗜慾」。在兩個合而構成一個東西的時候，其中之一乃另一個之形式。故此，尼沙的額我略(尼美修斯，(《論人性》第三十三章)說:選擇「本身也不是嗜慾，也不只是考慮，而是二者之合成物。就如我們說動物是由魂靈及身體合成的，不是身體自身，也不只是魂靈，而是二者一起;選擇也是這樣。」要知道，在靈魂的行動方面，本身屬於某機能或習i生的行動，是由高級之機能或習性取得形式，因為低級者隸屬於高級者。例如，一人為了愛天主而做勇敢的事，這行動按質料屬勇敢，按形式屬愛德。顯然在意志行動以前先有理性安排行動，因為意志是隨理性之安排而趨向其對象，由知覺機能給嗜慾機能提供對象。是以，意志趨向那被視為善者，因其是理性為目的所安排者，此一行動按質料是意志之行動，按形式則是理性之行動。在這類行動方面，行動本身對由高級機能而來之安排而言，似是質料。所以，選擇本身不是理性之行動，而是意志之行動，因為選擇是由靈魂趨向所選之善的行動來完成。所以，顯然那是嗜慾機能之行動。",
+      "after": "我解答如下：在選擇裡，有些事屬於理性或智性，有些事屬於意志。故此哲學家在《倫理學》卷六第二章裡說，選擇是「嗜慾性的智性，或理智性的嗜慾」。在兩個合而構成一個東西的時候，其中之一乃另一個之形式。故此，尼沙的額我略(尼美修斯，《論人性》第三十三章)說：選擇「本身也不是嗜慾，也不只是考慮，而是二者之合成物。就如我們說動物是由魂靈及身體合成的，不是身體自身，也不只是魂靈，而是二者一起；選擇也是這樣。」要知道，在靈魂的行動方面，本身屬於某機能或習性的行動，是由高級之機能或習性取得形式，因為低級者隸屬於高級者。例如，一人為了愛天主而做勇敢的事，這行動按質料屬勇敢，按形式屬愛德。顯然在意志行動以前先有理性安排行動，因為意志是隨理性之安排而趨向其對象，由知覺機能給嗜慾機能提供對象。是以，意志趨向那被視為善者，因其是理性為目的所安排者，此一行動按質料是意志之行動，按形式則是理性之行動。在這類行動方面，行動本身對由高級機能而來之安排而言，似是質料。所以，選擇本身不是理性之行動，而是意志之行動，因為選擇是由靈魂趨向所選之善的行動來完成。所以，顯然那是嗜慾機能之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智|笠",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有些草",
+          "after": "有些事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尼美修斯，(《",
+          "after": "尼美修斯，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "習i生",
+          "after": "習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1909
+      ],
+      "before": "「比較」是在「選擇」之先，選擇之本質並不在於比較。",
+      "after": "「比較」是在「選擇」之先，選擇之本質並不在於比較。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1909
+      ],
+      "before": "在可行者方面之推論的結論也屬於理性，稱為主張(sententía)或判斷;隨後始為選擇。為此，結論之屬於選擇，有似某事之屬於後果之關係。",
+      "after": "在可行者方面之推論的結論也屬於理性，稱為主張(sententia)或判斷；隨後始為選擇。為此，結論之屬於選擇，有似某事之屬於後果之關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "sententía",
+          "after": "sententia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1909
+      ],
+      "before": "所謂選擇之愚昧，並非說選擇是知識，而是說不知該選什麼。",
+      "after": "所謂選擇之愚昧，並非說選擇是知識，而是說不知該選什麼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "禽獸有無選擇",
+      "after": "禽獸有無選擇",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "好似禽獸有選擇。因為:",
+      "after": "好似禽獸有選擇。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "《倫理學》卷三第二章中說，選擇是「為了目的而要某些東西」。但禽獸為了目的而有所追求，它們由於嗜慾而為目的行動。所以，禽獸有選擇。",
+      "after": "《倫理學》卷三第二章中說，選擇是「為了目的而要某些東西」。但禽獸為了目的而有所追求，它們由於嗜慾而為目的行動。所以，禽獸有選擇。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "此外，選擇這個語詞好似有取此捨彼的意思c但禽獸有所取捨，例如:顯然有的草羊喫，有些草羊不喫。所以，禽獸有選擇。",
+      "after": "此外，選擇這個語詞好似有取此捨彼的意思。但禽獸有所取捨，例如：顯然有的草羊吃，有些草羊不吃。所以，禽獸有選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意思c",
+          "after": "意思。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喫",
+          "after": "吃",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "此外，《倫理學》卷六第十二章中說: 「一人善於選擇導致目的者，屬於機智。」 m.禽獸有機智;因此《形上學》開始第一章說: 「那些無聽覺能力者，如蜜蜂，不學而有機智。」而這是明眼可見的事。在許多事上，動物顯似非常聰明，如:蜜蜂，蜘蛛'狗。狗追趕鹿的時候，遇到了三岔路﹒使用嗅覺探索鹿是由第一條路或第二條路跑的;若發現不是由這兩條路跑走的，便不再加探索，有把握似地順第三條路:過去，好像會用「排除推論式」(syllogismus divisivus)一一既然不是前兩條路，叉沒有別的，可以結論一定是第三條路。故似乎禽獸有選擇。",
+      "after": "此外，《倫理學》卷六第十二章中說：「一人善於選擇導致目的者，屬於機智。」但禽獸有機智；因此《形上學》開始第一章說：「那些無聽覺能力者，如蜜蜂，不學而有機智。」而這是明眼可見的事。在許多事上，動物顯似非常聰明，如：蜜蜂，蜘蛛，狗。狗追趕鹿的時候，遇到了三岔路，便用嗅覺探索鹿是由第一條路或第二條路跑的；若發現不是由這兩條路跑走的，便不再加探索，有把握似地順第三條路追去，好像會用「排除推論式」(syllogismus divisivus)——既然不是前兩條路，又沒有別的，可以結論一定是第三條路。故似乎禽獸有選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": " m.禽獸",
+          "after": "但禽獸",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蜘蛛'",
+          "after": "蜘蛛，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三岔路﹒使用",
+          "after": "三岔路，便用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三條路:過去",
+          "after": "第三條路追去",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "叉沒有",
+          "after": "又沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1910
+      ],
+      "before": "尼沙的前j我困苦(尼美修斯，(《論人性》第三十三章)卻說﹒「兒童和無理性者，固然情願而行動，但不經選擇今」所以，禽獸無選擇。",
+      "after": "尼沙的額我略(尼美修斯，《論人性》第三十三章)卻說：「兒童和無理性者，固然情願而行動，但不經選擇。」所以，禽獸無選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "前j我困苦",
+          "after": "額我略",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尼美修斯，(《",
+          "after": "尼美修斯，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卻說﹒",
+          "after": "卻說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "選擇今",
+          "after": "選擇。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1910,
+        1911
+      ],
+      "before": "我解答~Ll f:既然選擇是取此捨f皮，必然是關於許多東西‘始能有選擇之可能c所以，耳I~完全被限定於一者，沒有選擇之餘地。但是感官嗜慾與意志不同，因為按前面第一題第二節",
+      "after": "我解答如下：既然選擇是取此捨彼，必然是關於許多東西，始能有選擇之可能。所以，那完全被限定於一者，沒有選擇之餘地。但是感官嗜慾與意志不同，因為按前面第一題第二節釋疑3.講過的，可知感官嗜慾按天性是被限定於個別性的一，意志按天性只被限定於普遍性的一，即是善；但關於個別性的善則未受限定。所以，正式之選擇只屬於意志。禽獸只有感官性嗜慾，但感官性嗜慾不能選擇。所以，禽獸沒有選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答~Ll f:既然選擇是取此捨f皮，必然是關於許多東西‘始能有選擇之可能c所以，耳I~完全被限定於一者，沒有選擇之餘地。但是感官嗜慾與意志不同，因為按前面第一題第二節",
+          "after": "我解答~Ll f:既然選擇是取此捨f皮，必然是關於許多東西‘始能有選擇之可能c所以，耳I~完全被限定於一者，沒有選擇之餘地。但是感官嗜慾與意志不同，因為按前面第一題第二節釋疑3.講過的，可知感官!有慾持天性是被限定於1回別性的一﹒意志按天性只被限定於普遍性的一，即是善;但關於個別性的善則未受限定。所以，正式之選擇只屬於意志。禽獸只有感宮I生嗜慾，但感宮'1生嗜慾不能選擇。所以，禽獸沒有選擇。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "我解答~Ll f",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "取此捨f皮",
+          "after": "取此捨彼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西‘",
+          "after": "東西，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可能c",
+          "after": "可能。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "耳I~完全",
+          "after": "那完全",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官!有慾持",
+          "after": "感官嗜慾按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1回別性的一﹒",
+          "after": "個別性的一，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮I生",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮'1生",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "",
+      "after": "不是為了目的而希冀的任何東西皆可稱作選擇，而是經過分辨、區分之後的才算是選擇。若非嗜慾能趨向許多東西，就不能區分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "不是為了目的而希冀的任何東西皆可稱作選擇，而是經過分辨、區分之後的纔算是選擇。若非嗜慾能趨向許多東西，就不能區分。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "纔算",
+          "after": "才算",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "",
+      "after": "禽獸取此捨彼，是因為它的嗜慾自然被限定於此。是以，感官或想像把其嗜慾自然就喜好者呈現在面前時，不加選擇立刻就追求；就如火也不經選擇就上升而不下降。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "禽獸取此捨彼，是因為它的嗜慾自然被限定於此。是以，感官或想像把其嗜慾自然就喜好者呈現在面前時，不加選擇立刻就追求;就如火也不經選擇就上升而不下降。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "講過的，可知感官!有慾持天性是被限定於1回別性的一﹒意志按天性只被限定於普遍性的一，即是善;但關於個別性的善則未受限定。所以，正式之選擇只屬於意志。禽獸只有感宮I生嗜慾，但感宮'1生嗜慾不能選擇。所以，禽獸沒有選擇。釋疑1不是為了目的而希冀的任何東西皆可稱作選擇，而是經過分辨、區分之後的纔算是選擇。若非嗜慾能趨向許多東西，就不能區分。\n2，禽獸取此捨彼，是因為它的嗜慾自然被限定於此。是以，感官或想像把其嗜慾自然就喜好者呈現在面前時，不加選擇立刻就追求;就如火也不經選擇就上升而不下降。\n3.如在《物理學》卷三第三章中說的: 「運動是可動者之行動，由推動者所產生。」是以，在被動者之行動中，顯出推動者之德能。為此，凡被理性所推動者，雖然它本身無理性，卻顯出推動者之明智條理;就如在射手的推動下，箭頭直奔目標，好似它有理性指導。這也可見之於鐘錶之行動，以及人類智慧所製造者。人之工藝作品對人之技術的關係，就似所有之自然物與天主之技術的關係。因此，如在《物理學》卷二第五章中說的，在按天性行動的東西中顯出有條理，就像那些按理性而行動的。為此，在禽獸的行動中，有時顯出之智巧，仔似是以極高之技術安排的，因為它們自然趨向於某些非常有條理的程序。也是為此而說某些動物是有機智的或精明的一一它們並非真有理性或選擇。何以見之?因為凡具同樣天性者，行動皆如出一轍。",
+      "after": "如在《物理學》卷三第三章中說的：「運動是可動者之行動，由推動者所產生。」是以，在被動者之行動中，顯出推動者之德能。為此，凡被理性所推動者，雖然它本身無理性，卻顯出推動者之明智條理；就如在射手的推動下，箭頭直奔目標，好似它有理性指導。這也可見之於鐘錶之行動，以及人類智慧所製造者。人之工藝作品對人之技術的關係，就似所有之自然物與天主之技術的關係。因此，如在《物理學》卷二第五章中說的，在按天性行動的東西中顯出有條理，就像那些按理性而行動的。為此，在禽獸的行動中，有時顯出之智巧，好似是以極高之技術安排的，因為它們自然趨向於某些非常有條理的程序。也是為此而說某些動物是有機智的或精明的——它們並非真有理性或選擇。何以見之？因為凡具同樣天性者，行動皆如出一轍。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "講過的，可知感官!有慾持天性是被限定於1回別性的一﹒意志按天性只被限定於普遍性的一，即是善;但關於個別性的善則未受限定。所以，正式之選擇只屬於意志。禽獸只有感宮I生嗜慾，但感宮'1生嗜慾不能選擇。所以，禽獸沒有選擇。釋疑1不是為了目的而希冀的任何東西皆可稱作選擇，而是經過分辨、區分之後的纔算是選擇。若非嗜慾能趨向許多東西，就不能區分。\n2，禽獸取此捨彼，是因為它的嗜慾自然被限定於此。是以，感官或想像把其嗜慾自然就喜好者呈現在面前時，不加選擇立刻就追求;就如火也不經選擇就上升而不下降。\n3.如在《物理學》卷三第三章中說的: 「運動是可動者之行動，由推動者所產生。」是以，在被動者之行動中，顯出推動者之德能。為此，凡被理性所推動者，雖然它本身無理性，卻顯出推動者之明智條理;就如在射手的推動下，箭頭直奔目標，好似它有理性指導。這也可見之於鐘錶之行動，以及人類智慧所製造者。人之工藝作品對人之技術的關係，就似所有之自然物與天主之技術的關係。因此，如在《物理學》卷二第五章中說的，在按天性行動的東西中顯出有條理，就像那些按理性而行動的。為此，在禽獸的行動中，有時顯出之智巧，仔似是以極高之技術安排的，因為它們自然趨向於某些非常有條理的程序。也是為此而說某些動物是有機智的或精明的一一它們並非真有理性或選擇。何以見之?因為凡具同樣天性者，行動皆如出一轍。",
+          "after": "如在《物理學》卷三第三章中說的: 「運動是可動者之行動，由推動者所產生。」是以，在被動者之行動中，顯出推動者之德能。為此，凡被理性所推動者，雖然它本身無理性，卻顯出推動者之明智條理;就如在射手的推動下，箭頭直奔目標，好似它有理性指導。這也可見之於鐘錶之行動，以及人類智慧所製造者。人之工藝作品對人之技術的關係，就似所有之自然物與天主之技術的關係。因此，如在《物理學》卷二第五章中說的，在按天性行動的東西中顯出有條理，就像那些按理性而行動的。為此，在禽獸的行動中，有時顯出之智巧，仔似是以極高之技術安排的，因為它們自然趨向於某些非常有條理的程序。也是為此而說某些動物是有機智的或精明的一一它們並非真有理性或選擇。何以見之?因為凡具同樣天性者，行動皆如出一轍。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "仔似",
+          "after": "好似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "何以見之?",
+          "after": "何以見之？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "選擇只限於導致目的者，或有時亦關於目的",
+      "after": "選擇只限於導致目的者，或有時亦關於目的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1911
+      ],
+      "before": "選擇似乎不只限於導致目的者。因為:",
+      "after": "選擇似乎不只限於導致目的者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1911,
+        1912
+      ],
+      "before": "哲學家在《倫理學》卷六第十二章裡說: 「德性使選擇正確，但一切為了這事自然當作者，不屬於德性，而屬於別的機能。」但「為了什麼」是指「目的」。所以，選擇是關於目的。",
+      "after": "哲學家在《倫理學》卷六第十二章裡說：「德性使選擇正確，但一切為了這事自然當作者，不屬於德性，而屬於別的機能。」但「為了什麼」是指「目的」。所以，選擇是關於目的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1912
+      ],
+      "before": "選擇包括有取捨。正如那導致目的者可以有敢有捨，各種目的之間也可以有取有捨。所以，選擇可能是關於目的，同樣也關於導致目的者。",
+      "after": "選擇包括有取捨。正如那導致目的者可以有取有捨，各種目的之間也可以有取有捨。所以，選擇可能是關於目的，同樣也關於導致目的者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有敢有捨",
+          "after": "有取有捨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1912
+      ],
+      "before": "哲學家在《倫理學》卷三第二章中卻說:「意志是關於目的，選擇是關於導致目的者。」",
+      "after": "哲學家在《倫理學》卷三第二章中卻說：「意志是關於目的，選擇是關於導致目的者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1912
+      ],
+      "before": "我解答如下:如第一節釋疑2.己說過的，選擇隨於主張或判斷之後，主張或判斷有似關於可行者之推論的結論。是以，那在有關可行者之推論中當結論的，屬於選擇。按哲學家在《物理學》卷二第九章中說的:在可行者中，白的有似原理，而不是結論。故此，以目的之為目的而言，不屬於選擇範圈。\n然而在鑑貫性知識方面，一個論證或科學的原理，可以是另一論證或科學之結論;不過第一個不能證明的原理，不可能是某論證或科學之結論。同樣，在一個行動中當目的者，有時又指向別的目的，如此就屬於選擇範園。例如:治病是醫生之行動的目的:故這點不在臀生的選擇範圈，而應被視為根本。但身體之健康指向靈魂之利益;故那負責人靈者，可以選擇健康或不健康。的確，宗徒在《格林多後書》第十二章的節說I我幾時軟弱，正是我有能力的時候。」但是，最後目的絕對不在選擇範圈。",
+      "after": "我解答如下：如第一節釋疑2.己說過的，選擇隨於主張或判斷之後，主張或判斷有似關於可行者之推論的結論。是以，那在有關可行者之推論中當結論的，屬於選擇。按哲學家在《物理學》卷二第九章中說的：在可行者中，目的有似原理，而不是結論。故此，以目的之為目的而言，不屬於選擇範圍。\n然而在鑑賞性知識方面，一個論證或科學的原理，可以是另一論證或科學之結論；不過第一個不能證明的原理，不可能是某論證或科學之結論。同樣，在一個行動中當目的者，有時又指向別的目的，如此就屬於選擇範圍。例如：治病是醫生之行動的目的；故這點不在醫生的選擇範圍，而應被視為根本。但身體之健康指向靈魂之利益；故那負責人靈者，可以選擇健康或不健康。的確，宗徒在《格林多後書》第十二章10節說：「我幾時軟弱，正是我有能力的時候。」但是，最後目的絕對不在選擇範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鑑貫性",
+          "after": "鑑賞性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的:故",
+          "after": "目的；故",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "臀生",
+          "after": "醫生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十二章的節說I",
+          "after": "第十二章10節說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1912
+      ],
+      "before": "各種德性專有之日的，皆以幸福為其最俊目的。這樣，其中就有選擇之呵能。",
+      "after": "各種德性專有之目的，皆以幸福為其最後目的。這樣，其中就有選擇之可能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "日的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最俊",
+          "after": "最後",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "呵能",
+          "after": "可能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1912
+      ],
+      "before": "如第一題第五節已經講過的，最後目的只有一個。是以，哪裡有許多日的，就能按所指望之更遠目的而加以選擇。",
+      "after": "如第一題第五節己經講過的，最後目的只有一個。是以，哪裡有許多目的，就能按所指望之更遠目的而加以選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經講過",
+          "after": "己經講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "日的",
+          "after": "目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "選擇是否只限於由我們所做者",
+      "after": "選擇是否只限於由我們所做者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "好似選擇不只眼於人性行為。因為:",
+      "after": "好似選擇不只限於人性行為。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不只眼於",
+          "after": "不只限於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "選擇是關於導致目的者。但按《物理學》卷二第三章中說的﹒導致目的者不只有行動，也有器官。所以，選擇不只限於人性行動。",
+      "after": "選擇是關於導致目的者。但按《物理學》卷二第三章中說的，導致目的者不只有行動，也有器官。所以，選擇不只限於人性行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說的﹒",
+          "after": "說的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "此外，行動與鑑賞有別。但在鑑賞方面也有選擇，即是取一種意見而捨另一種意見。所以，選擇不只限於人性行動。",
+      "after": "此外，行動與鑑賞有別。但在鑑賞方面也有選擇，即是取一種意見而捨另一種意見。所以，選擇不只限於人性行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "此外，在為社會職位或教會職位選舉時，選舉人對被選者不操使任何行動。所以選擇不只限於人性行動。",
+      "after": "此外，在為社會職位或教會職位選舉時，選舉人對被選者不操使任何行動。所以選擇不只限於人性行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "哲學家在《倫理學》卷三第二章中卻說: 「人只選擇那成之在己者。」",
+      "after": "哲學家在《倫理學》卷三第二章中卻說：「人只選擇那成之在己者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "我解答如下:正如志向是關於目的，選擇則是關於導致目的者。目的或者是一個動作，或是一個東西。如果目的是個東西，必要有人的動作加入一一或者那視為目的之東西是由人促成的，如:醫生促成健康(因此也說促成健康是醫生之目的);或者人與那視為目的之東西相接合，或享用那東西，例如:愛財者之目的是錢財，或錢財之握有。關於導致目的者也是一樣。因為導致目的者，必然或者是動作，或者是加有人之動作的東西，即或由人所促成者，或為人所享用者。這樣貝IJ選擇常是關於人性行動。",
+      "after": "我解答如下：正如志向是關於目的，選擇則是關於導致目的者。目的或者是一個動作，或是一個東西。如果目的是個東西，必要有人的動作加入——或者那視為目的之東西是由人促成的，如：醫生促成健康(因此也說促成健康是醫生之目的)；或者人與那視為目的之東西相接合，或享用那東西，例如：愛財者之目的是錢財，或錢財之握有。關於導致目的者也是一樣。因為導致目的者，必然或者是動作，或者是加有人之動作的東西，即或由人所促成者，或為人所享用者。這樣則選擇常是關於人性行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "器官之導致目的，須是由人為了目的而加以運用。",
+      "after": "器官之導致目的，須是由人為了目的而加以運用。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1913
+      ],
+      "before": "在鑑賞中，有一種智性之行動，以同意這個意見或那個意見。與鑑賞相對稱者，是外在之行動。",
+      "after": "在鑑賞中，有一種智性之行動，以同意這個意見或那個意見。與鑑賞相對稱者，是外在之行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "選舉主教或邦國首領者，是選舉任命他居這職位。否則的話，若他的行動對促成主教或首領毫無作用，貝IJ等於沒有選舉之資格。同樣，在說一個東西勝選時，也要加入選舉者的一點行動。",
+      "after": "選舉主教或邦國首領者，是選舉任命他居這職位。否則的話，若他的行動對促成主教或首領毫無作用，則等於沒有選舉之資格。同樣，在說一個東西勝選時，也要加入選舉者的一點行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "選擇是否只限於可能範閻者",
+      "after": "選擇是否只限於可能範圍者",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範閻",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "好似選擇不只限於可能者。因為:",
+      "after": "好似選擇不只限於可能者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "前面第一節已經說過，選擇是意志之行動。但在《{侖理學》卷三第二章中說: 「意志是關於不可能者。」所以‘選擇亦然。",
+      "after": "前面第一節己經說過，選擇是意志之行動。但在《倫理學》卷三第二章中說：「意志是關於不可能者。」所以，選擇亦然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《{侖理學》",
+          "after": "《倫理學》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "此外，前面第四節己說過，選擇是關於成之在我們者。所以選那絕對不可能者，或對選擇者不可能者，對選擇而言沒有什麼不同。但許多次我們不能達成我們所選擇者，這是說對我們而言那是不可能者。所以選擇是關於不可能者。",
+      "after": "此外，前面第四節己說過，選擇是關於成之在我們者。所以選那絕對不可能者，或對選擇者不可能者，對選擇而言沒有什麼不同。但許多次我們不能達成我們所選擇者，這是說對我們而言那是不可能者。所以選擇是關於不可能者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "此外，人若不選擇，就不會去嘗試。但聖本篤(Benedict d'Aniane'約750\"-'821年)於《隱修規範》(Regula ad Monachorum)第六十八章說道:若院長命令不可能的事，應試著去做。所以，選擇能是關於不可能者。",
+      "after": "此外，人若不選擇，就不會去嘗試。但聖本篤(Benedict d’Aniane，約750~821年)於《隱修規範》(Regula ad Monachorum)第六十八章說道：若院長命令不可能的事，應試著去做。所以，選擇能是關於不可能者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "d'Aniane'約750\"-'821",
+          "after": "d’Aniane，約750~821",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1914
+      ],
+      "before": "哲學家在《倫理學》卷三第一章中卻說:「選擇不是關於不可能苦。」",
+      "after": "哲學家在《倫理學》卷三第一章中卻說：「選擇不是關於不可能者。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不可能苦",
+          "after": "不可能者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1914,
+        1915
+      ],
+      "before": "我解答如下:前面第四節己說過，我們的選擇常是關於我們的行動。那些自我們所做者，對我們是可能的。所以須說選擇只限於可能者。同樣，我們所以選擇某東西的理由，是因為它導致目的。選用不可能者，人不能達到目的。所以人在考慮的時候，都把不可能者放棄，認為不能有所進展。這也可以從事前之理性過程中看出來。屬於選擇的導致目的者，對目的而言，似結論之對原理的關係。顯然不可能之結論不是由可能之原理而來。故除非導致目的者是可能的，否則目的便不能是可能的。對那不可能者，什麼也不會動;所以，若非導致目的者顯似可能，誰也不動向目的。故不可能者不在選擇範圈。",
+      "after": "我解答如下：前面第四節己說過，我們的選擇常是關於我們的行動。那些由我們所做者，對我們是可能的。所以須說選擇只限於可能者。同樣，我們所以選擇某東西的理由，是因為它導致目的。選用不可能者，人不能達到目的。所以人在考慮的時候，都把不可能者放棄，認為不能有所進展。這也可以從事前之理性過程中看出來。屬於選擇的導致目的者，對目的而言，似結論之對原理的關係。顯然不可能之結論不是由可能之原理而來。故除非導致目的者是可能的，否則目的便不能是可能的。對那不可能者，什麼也不會動；所以，若非導致目的者顯似可能，誰也不動向目的。故不可能者不在選擇範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那些自我們",
+          "after": "那些由我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "意志是居於智性與外在動作之間:智'/生給意志呈示對象，而意志促成外在動作。這樣則意志行動之根本，從智性方面看，是智性所意識到之普遍性的善;但意志行動之完成或結束，是按人用以達成目的之動作去看。因為意志之行動是從靈~--I--/\"-魂到東西。所以忌、志行動之完成，在於有個適於某人去做的善。而這是個可能者。故完整之意志只關可能者，即對願意者是善。但不完整的意志則是關於不可能者:有人稱之為「羨望」(velleitas)，即一人願意，設若可能。選擇則指意志之行動已決定人要做的心所以只限於可能者。",
+      "after": "意志是居於智性與外在動作之間：智性給意志呈示對象，而意志促成外在動作。這樣則意志行動之根本，從智性方面看，是智性所意識到之普遍性的善；但意志行動之完成或結束，是按人用以達成目的之動作去看。因為意志之行動是從靈魂到東西。所以意志行動之完成，在於有個適於某人去做的善。而這是個可能者。故完整之意志只關可能者，即對願意者是善。但不完整的意志則是關於不可能者：有人稱之為「羨望」(velleitas)，即一人願意，設若可能。選擇則指意志之行動已決定人要做的，所以只限於可能者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智'/生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "靈~--I--/\"-魂",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "忌、志",
+          "after": "意志",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "做的心所以",
+          "after": "做的，所以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "既然意志之對象是所意識到的善，故評斷意志之對象慮按所意識到者。有時意志所欲求的，以為是善，但實際不善;同樣，有時所選擇的，以為對選擇者可能，而實際不可b匕~自己v",
+      "after": "既然意志之對象是所意識到的善，故評斷意志之對象應按所意識到者。有時意志所欲求的，以為是善，但實際不善；同樣，有時所選擇的，以為對選擇者可能，而實際不可能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慮按",
+          "after": "應按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不可b匕~自己v",
+          "after": "不可能。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "這樣講，是因為屬下不應按自己的判斷決定事情是否可能，每人應接受上司的決定。",
+      "after": "這樣講，是因為屬下不應按自己的判斷決定事情是否可能，每人應接受上司的決定。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "人是必然地，抑或自由地選擇",
+      "after": "人是必然地，抑或自由地選擇",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "好似人是必然地選擇。因為:",
+      "after": "好似人是必然地選擇。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1915
+      ],
+      "before": "按《倫理學》卷七第八章中說的，目的對可選擇者之關係，有如原理對由原理所導出者之關係。但由原理必然地導出結論。故人由於目的必然要選擇。",
+      "after": "按《倫理學》卷七第八章中說的，目的對可選擇者之關係，有如原理對由原理所導出者之關係。但由原理必然地導出結論。故人由於目的必然要選擇。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q013.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1916
+      ],
+      "before": "此外，前面第一節釋提2.說過，選擇隨在理性對要行者的判斷之後。但理性對某些事之判斷是必然的，即如果前提是必然的。故似乎選擇也出於必然。",
+      "after": "此外，前面第一節釋疑2.說過，選擇隨在理性對要行者的判斷之後。但理性對某些事之判斷是必然的，即如果前提是必然的。故似乎選擇也出於必然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋提",
+          "after": "釋疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1916
+      ],
+      "before": "此外，如果兩個東西完全相等，買IJ人不會寧為其一所動;例如，為一個飢餓的人而言，在不同的等距離處有同樣可口之食物，他不會更為其一所動。按哲學家《天界論》卷二第十三章引述的，這是柏拉圖講的，以指明地球靜止不動的理由，是由於地球處在中間。但較差者比那相等者更不能被選取。所以，若有兩個或多個，其中之一顯然較大，則不可能選中別的。但凡選擇，都是取其似是較好的。所以，選擇是必然性的。",
+      "after": "此外，如果兩個東西完全相等，則人不會寧為其一所動；例如，為一個飢餓的人而言，在不同的等距離處有同樣可口之食物，他不會更為其一所動。按哲學家《天界論》卷二第十三章引述的，這是柏拉圖講的，以指明地球靜止不動的理由，是由於地球處在中間。但較差者比那相等者更不能被選取。所以，若有兩個或多個，其中之一顯然較大，則不可能選中別的。但凡選擇，都是取其似是較好的。所以，選擇是必然性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1916
+      ],
+      "before": "按哲學家《形上學》卷八第二章說的，選擇是理性機能之行動;理性機能可以產生相反的故果。",
+      "after": "按哲學家《形上學》卷八第二章說的，選擇是理性機能之行動；理性機能可以產生相反的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1916
+      ],
+      "before": "我解答如下:人不是必然地選擇。因為凡可能不存在的，就不是必然地存在。人能夠不選擇或者選擇，這理由可從人的兩種能力去看。因為人能夠願意或不願意，做或者不做;人也能夠願意這個或那個，做這個或做那個，而其原因全在理性之性能。凡理性能夠認為是善的，意志就能欲求。而理性不只能認為「願意」或「做」是善，也能認為「不願意」或「不1ð~」是善。此外，在(閏月IJ的善方面，可以看其所以善的理由‘也可以看這善的缺點，也就是其所以不善的理由。因此，這些善中的每一個，皆能被理性視為可選取者，或為當逃避者。只有完美之苦或幸福，不能被理性視為不善或有缺點。故此，人必然地願意幸福，不能願意不幸福或痛苦。自日;第三節已講過的，選擇既然不是關於目的，而是關於導致目的者﹒故不是關於完美之菩或幸福，而是關於其他個別之善。所以，人不是必然地，而是自由地選擇。",
+      "after": "我解答如下：人不是必然地選擇。因為凡可能不存在的，就不是必然地存在。人能夠不選擇或者選擇，這理由可從人的兩種能力去看。因為人能夠願意或不願意，做或者不做；人也能夠願意這個或那個，做這個或做那個，而其原因全在理性之性能。凡理性能夠認為是善的，意志就能欲求。而理性不只能認為「願意」或「做」是善，也能認為「不願意」或「不做」是善。此外，在個別的善方面，可以看其所以善的理由，也可以看這善的缺點，也就是其所以不善的理由。因此，這些善中的每一個，皆能被理性視為可選取者，或為當逃避者。只有完美之善或幸福，不能被理性視為不善或有缺點。故此，人必然地願意幸福，不能願意不幸福或痛苦。如第三節己講過的，選擇既然不是關於目的，而是關於導致目的者，故不是關於完美之善或幸福，而是關於其他個別之善。所以，人不是必然地，而是自由地選擇。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不1ð~",
+          "after": "不做",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(閏月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理由‘",
+          "after": "理由，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美之苦",
+          "after": "完美之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自日;第三節",
+          "after": "如第三節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已講過",
+          "after": "己講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的者﹒",
+          "after": "目的者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美之菩",
+          "after": "完美之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1917
+      ],
+      "before": "結論不常是必然地由原理導出，只有在結論不真則原理也不能真的時候如此。同樣，由於目的，人不常必要選取導致目的者。因為導致目的者並不都非此不能達到目的;或縱然是這樣﹒也不常從這角度去看。",
+      "after": "結論不常是必然地由原理導出，只有在結論不真則原理也不能真的時候如此。同樣，由於目的，人不常必要選取導致目的者。因為導致目的者並不都非此不能達到目的；或縱然是這樣，也不常從這角度去看。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這樣﹒",
+          "after": "這樣，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1917
+      ],
+      "before": "關於可行者方面之主張或判斷，是屬於偶然範圍的，即關於我們所能做者。在這方面的結論，不是必然地由絕對必然之原理而來，而是由相對必然之原理，例如:如果他跑，他便動。",
+      "after": "關於可行者方面之主張或判斷，是屬於偶然範圍的，即關於我們所能做者。在這方面的結論，不是必然地由絕對必然之原理而來，而是由相對必然之原理，例如：如果他跑，他便動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q013.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1917
+      ],
+      "before": "兩個東西從某觀點看相等者，看別的條件則可能一個比另一個好，因而比另一個更能引動意志。",
+      "after": "兩個東西從某觀點看相等者，看別的條件則可能一個比另一個好，因而比另一個更能引動意志。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
