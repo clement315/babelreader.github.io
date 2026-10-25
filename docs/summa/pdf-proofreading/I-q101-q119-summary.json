@@ -1,0 +1,1155 @@
+{
+  "date": "2026-10-25",
+  "author": "element",
+  "scope": "Prima Pars questions 101–119",
+  "baseline_git_commit": "7930caf7e4f5d454300d62055bb1d28213feba95",
+  "status": "completed_locally_pending_release",
+  "questions": 19,
+  "articles": 91,
+  "distinct_pdf_pages": 198,
+  "pdf_file_pages": [
+    1552,
+    1749
+  ],
+  "printed_pages": [
+    325,
+    522
+  ],
+  "changed_review_units": 811,
+  "checked_unchanged_review_units": 317,
+  "protected_zh_tokens_in_question_files": 1238,
+  "source_anomaly_records": 87,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "cumulative_reviewed_questions": 119,
+  "cumulative_reviewed_articles": 584,
+  "next_question": "I_II.q001",
+  "checks": {
+    "all_live_snapshots_match_baseline": true,
+    "all_before_after_readings_match_question_data": true,
+    "all_complete_report_json_matches_reader_bytes": true,
+    "all_report_first_last_sentences_match_pre_edit_text": true,
+    "all_non_zh_source_bytes_preserved": true,
+    "each_field_newline_escape_sequence_preserved": true,
+    "all_review_units_have_pdf_page_references": true,
+    "all_original_source_flags_retained": true,
+    "both_corrected_article_titles_synced_to_catalog": true,
+    "desktop_mobile_chinese_preview_passed_for_all_batches": true,
+    "three_existing_regression_tests_passed_for_each_batch": true,
+    "all_nineteen_commits_authored_and_committed_by_element": true
+  },
+  "preview_note": "Exact local repository files supplied through Playwright interception; not a published website check.",
+  "remaining_original_pair_anomalies": [
+    {
+      "id": "I.q104.a004.ad1",
+      "pair": "「」",
+      "open": 1,
+      "close": 0,
+      "source_flags": [
+        {
+          "id": "I.q104.a004.ad1",
+          "pdf_file_page": 1585,
+          "text": "「祂以自己大能的話支撐萬有。",
+          "status": "suspected_source_print_error",
+          "action": "原页此处引号未闭合；按底本保留，单列供人工决定。"
+        }
+      ]
+    },
+    {
+      "id": "I.q114.a005.respondeo",
+      "pair": "《》",
+      "open": 4,
+      "close": 5,
+      "source_flags": [
+        {
+          "id": "I.q114.a005.respondeo",
+          "pdf_file_page": 1696,
+          "text": "《瑪竇福音註釋》——未完成篇》",
+          "status": "suspected_source_print_error",
+          "action": "原页此处书名号不配对，依底本保留并单列。"
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "question": "I.q101",
+      "title": "論要生之子女的知識情況",
+      "articles": 2,
+      "pdf_file_pages": [
+        1552,
+        1554
+      ],
+      "printed_pages": [
+        325,
+        327
+      ],
+      "changed_review_units": 14,
+      "checked_unchanged_review_units": 9,
+      "source_anomaly_records": 2,
+      "report": "I-q101.md",
+      "validation": "I-q101-validation.json",
+      "reader_sha256": "bfbf5e3b61b6ff32f093105b7fe23f5b0f9e68a56b2db2bfe86a3034d545cae2"
+    },
+    {
+      "question": "I.q102",
+      "title": "論人之居處——地堂",
+      "articles": 4,
+      "pdf_file_pages": [
+        1555,
+        1562
+      ],
+      "printed_pages": [
+        328,
+        335
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 19,
+      "source_anomaly_records": 4,
+      "report": "I-q102.md",
+      "validation": "I-q102-validation.json",
+      "reader_sha256": "ebe0b7d8195e13ca319cea4cac8879814323e58052ac572d12cd713b9ddb9c24"
+    },
+    {
+      "question": "I.q103",
+      "title": "泛論萬物之治理",
+      "articles": 8,
+      "pdf_file_pages": [
+        1563,
+        1576
+      ],
+      "printed_pages": [
+        336,
+        349
+      ],
+      "changed_review_units": 66,
+      "checked_unchanged_review_units": 30,
+      "source_anomaly_records": 6,
+      "report": "I-q103.md",
+      "validation": "I-q103-validation.json",
+      "reader_sha256": "7cdfa8c5fb6071569b462dd7256539abb7cd8094e9d6a061a4a8b549328c418e"
+    },
+    {
+      "question": "I.q104",
+      "title": "分論天主治理之效果",
+      "articles": 4,
+      "pdf_file_pages": [
+        1577,
+        1586
+      ],
+      "printed_pages": [
+        350,
+        359
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 16,
+      "source_anomaly_records": 5,
+      "report": "I-q104.md",
+      "validation": "I-q104-validation.json",
+      "reader_sha256": "7138a4924e87ae003aa78b04ffaf545104f567a13f6d0c9553bba6fc77f7584b"
+    },
+    {
+      "question": "I.q105",
+      "title": "論受造物受自天主之改變",
+      "articles": 8,
+      "pdf_file_pages": [
+        1587,
+        1602
+      ],
+      "printed_pages": [
+        360,
+        375
+      ],
+      "changed_review_units": 67,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 4,
+      "report": "I-q105.md",
+      "validation": "I-q105-validation.json",
+      "reader_sha256": "6a1ab233122797a8e582918c5f2c785f241fc1abbcd98be9b92843491bb6961f"
+    },
+    {
+      "question": "I.q106",
+      "title": "一受造物怎樣推動另一受造物",
+      "articles": 4,
+      "pdf_file_pages": [
+        1603,
+        1611
+      ],
+      "printed_pages": [
+        376,
+        384
+      ],
+      "changed_review_units": 37,
+      "checked_unchanged_review_units": 12,
+      "source_anomaly_records": 8,
+      "report": "I-q106.md",
+      "validation": "I-q106-validation.json",
+      "reader_sha256": "056c932b3925abe2a901f6d3e247ec78e31105a3a4ad776b614f39cfd8deb5fa"
+    },
+    {
+      "question": "I.q107",
+      "title": "論天使之言語",
+      "articles": 5,
+      "pdf_file_pages": [
+        1612,
+        1619
+      ],
+      "printed_pages": [
+        385,
+        392
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 20,
+      "source_anomaly_records": 5,
+      "report": "I-q107.md",
+      "validation": "I-q107-validation.json",
+      "reader_sha256": "e9cf02d4f170bfcc0dc7c551443c4cbcb6f95fe03e3d6ea38a29efdbad9ac503"
+    },
+    {
+      "question": "I.q108",
+      "title": "論天使按等級和品級之排列",
+      "articles": 8,
+      "pdf_file_pages": [
+        1620,
+        1640
+      ],
+      "printed_pages": [
+        393,
+        413
+      ],
+      "changed_review_units": 76,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 10,
+      "report": "I-q108.md",
+      "validation": "I-q108-validation.json",
+      "reader_sha256": "d46d501a3dc7677f86b5d1d8b02a976a8e9e0ab76568ed078ff83d83fab8b803"
+    },
+    {
+      "question": "I.q109",
+      "title": "論惡天使之排列或次序",
+      "articles": 4,
+      "pdf_file_pages": [
+        1641,
+        1646
+      ],
+      "printed_pages": [
+        414,
+        419
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 1,
+      "report": "I-q109.md",
+      "validation": "I-q109-validation.json",
+      "reader_sha256": "607112e061d4be19ab48119dec5d0ccab8021d502e169687417f3e31de59d660"
+    },
+    {
+      "question": "I.q110",
+      "title": "論天使對形體物之管轄",
+      "articles": 4,
+      "pdf_file_pages": [
+        1647,
+        1655
+      ],
+      "printed_pages": [
+        420,
+        428
+      ],
+      "changed_review_units": 37,
+      "checked_unchanged_review_units": 14,
+      "source_anomaly_records": 2,
+      "report": "I-q110.md",
+      "validation": "I-q110-validation.json",
+      "reader_sha256": "474c5f89713a0d8696549d987044dbbea6b8eeb241ed58ea68b87ee1843de8db"
+    },
+    {
+      "question": "I.q111",
+      "title": "論天使對人之作用",
+      "articles": 4,
+      "pdf_file_pages": [
+        1656,
+        1663
+      ],
+      "printed_pages": [
+        429,
+        436
+      ],
+      "changed_review_units": 40,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 4,
+      "report": "I-q111.md",
+      "validation": "I-q111-validation.json",
+      "reader_sha256": "2c941db55cd7d6a762c4e335db78f51406bac9c5fc91644e2311163707aefa71"
+    },
+    {
+      "question": "I.q112",
+      "title": "論天使之接受派遣",
+      "articles": 4,
+      "pdf_file_pages": [
+        1664,
+        1673
+      ],
+      "printed_pages": [
+        437,
+        446
+      ],
+      "changed_review_units": 39,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 4,
+      "report": "I-q112.md",
+      "validation": "I-q112-validation.json",
+      "reader_sha256": "20a2374b789cce53a3e0e864b098b4cc70d6436cfaf2aca96fd9c47bce31c19c"
+    },
+    {
+      "question": "I.q113",
+      "title": "論善天使之守護",
+      "articles": 8,
+      "pdf_file_pages": [
+        1674,
+        1687
+      ],
+      "printed_pages": [
+        447,
+        460
+      ],
+      "changed_review_units": 69,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 2,
+      "report": "I-q113.md",
+      "validation": "I-q113-validation.json",
+      "reader_sha256": "e686b2394107766ea6869b00c79f04f14803d7f69acda8760eb46d7ba65e2858"
+    },
+    {
+      "question": "I.q114",
+      "title": "論魔鬼之謀害",
+      "articles": 5,
+      "pdf_file_pages": [
+        1688,
+        1696
+      ],
+      "printed_pages": [
+        461,
+        469
+      ],
+      "changed_review_units": 43,
+      "checked_unchanged_review_units": 15,
+      "source_anomaly_records": 2,
+      "report": "I-q114.md",
+      "validation": "I-q114-validation.json",
+      "reader_sha256": "3298d21b89b1af7be892fb9ac6e77da1087afd097bebb8fafece831bfd0ac846"
+    },
+    {
+      "question": "I.q115",
+      "title": "論形體受造物之作用",
+      "articles": 6,
+      "pdf_file_pages": [
+        1697,
+        1712
+      ],
+      "printed_pages": [
+        470,
+        485
+      ],
+      "changed_review_units": 56,
+      "checked_unchanged_review_units": 25,
+      "source_anomaly_records": 6,
+      "report": "I-q115.md",
+      "validation": "I-q115-validation.json",
+      "reader_sha256": "3f632285d1f1d7fe4218e6926c2cc7cecec26414c19d79558a253672ef1c5d2c"
+    },
+    {
+      "question": "I.q116",
+      "title": "論定數",
+      "articles": 4,
+      "pdf_file_pages": [
+        1713,
+        1720
+      ],
+      "printed_pages": [
+        486,
+        493
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 6,
+      "report": "I-q116.md",
+      "validation": "I-q116-validation.json",
+      "reader_sha256": "bcf7d879b93317c9f5fe1117a0055272ac008bfcaac12481e960f6a65c31ee1b"
+    },
+    {
+      "question": "I.q117",
+      "title": "論屬於人之作用範圍者",
+      "articles": 4,
+      "pdf_file_pages": [
+        1721,
+        1730
+      ],
+      "printed_pages": [
+        494,
+        503
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 8,
+      "report": "I-q117.md",
+      "validation": "I-q117-validation.json",
+      "reader_sha256": "8f84688ee241583487ffbf6807180032e8b11839c7e95cd2ef6353611720ff4a"
+    },
+    {
+      "question": "I.q118",
+      "title": "論人關於靈魂方面根於人的傳殖",
+      "articles": 3,
+      "pdf_file_pages": [
+        1731,
+        1740
+      ],
+      "printed_pages": [
+        504,
+        513
+      ],
+      "changed_review_units": 32,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 4,
+      "report": "I-q118.md",
+      "validation": "I-q118-validation.json",
+      "reader_sha256": "ec7bf26f3851cdc213b1cae0ac5a2ae4a313da4e2adb62f641414d8587095081"
+    },
+    {
+      "question": "I.q119",
+      "title": "論人關於身體方面的傳殖",
+      "articles": 2,
+      "pdf_file_pages": [
+        1741,
+        1749
+      ],
+      "printed_pages": [
+        514,
+        522
+      ],
+      "changed_review_units": 25,
+      "checked_unchanged_review_units": 6,
+      "source_anomaly_records": 4,
+      "report": "I-q119.md",
+      "validation": "I-q119-validation.json",
+      "reader_sha256": "31aa7462e4ecbcaf177caa581cdb33a1e47e8e30431ccd6ee51b5cc605978e91"
+    }
+  ],
+  "source_anomalies": [
+    {
+      "id": "I.q101.a001.respondeo",
+      "pdf_file_page": 1553,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q101"
+    },
+    {
+      "id": "I.q101.a002.ad2",
+      "pdf_file_page": 1554,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q101"
+    },
+    {
+      "id": "I.q102.a001.ad4",
+      "pdf_file_page": 1557,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q102"
+    },
+    {
+      "id": "I.q102.a002.respondeo",
+      "pdf_file_page": 1559,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q102"
+    },
+    {
+      "id": "I.q102.a002.ad4",
+      "pdf_file_page": 1560,
+      "text": "又因為在太陽永遠",
+      "status": "suspected_source_print_error",
+      "action": "原页确有「在」字，疑多字；依原书保留，不润色改写。",
+      "question": "I.q102"
+    },
+    {
+      "id": "I.q102.a004.ad3",
+      "pdf_file_page": 1562,
+      "text": "己經被安置",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q102"
+    },
+    {
+      "id": "I.q103.a002.ad2",
+      "pdf_file_page": 1567,
+      "text": "赫固力",
+      "status": "suspected_source_print_error",
+      "action": "原页同段先作「赫丘力士」、后作「赫固力」，依底本保留译名差异。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q103.a003.ad1",
+      "pdf_file_page": 1568,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q103.a004.arg2",
+      "pdf_file_page": 1569,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q103.a005.respondeo",
+      "pdf_file_page": 1571,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q103.a005.respondeo",
+      "pdf_file_page": 1571,
+      "text": "己離棄",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q103.a007.ad1",
+      "pdf_file_page": 1575,
+      "text": "己指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q103"
+    },
+    {
+      "id": "I.q104.a001.ad3",
+      "pdf_file_page": 1581,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q104"
+    },
+    {
+      "id": "I.q104.a002.arg1",
+      "pdf_file_page": 1581,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q104"
+    },
+    {
+      "id": "I.q104.a002.ad3",
+      "pdf_file_page": 1583,
+      "text": "先己有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q104"
+    },
+    {
+      "id": "I.q104.a003.respondeo",
+      "pdf_file_page": 1584,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q104"
+    },
+    {
+      "id": "I.q104.a004.ad1",
+      "pdf_file_page": 1585,
+      "text": "「祂以自己大能的話支撐萬有。",
+      "status": "suspected_source_print_error",
+      "action": "原页此处引号未闭合；按底本保留，单列供人工决定。",
+      "question": "I.q104"
+    },
+    {
+      "id": "I.q105.a003.ad3",
+      "pdf_file_page": 1593,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q105"
+    },
+    {
+      "id": "I.q105.a003.ad3",
+      "pdf_file_page": 1593,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q105"
+    },
+    {
+      "id": "I.q105.a004.ad3",
+      "pdf_file_page": 1594,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q105"
+    },
+    {
+      "id": "I.q105.a005.ad3",
+      "pdf_file_page": 1597,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q105"
+    },
+    {
+      "id": "I.q106.a001.ad2",
+      "pdf_file_page": 1605,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a002.arg2",
+      "pdf_file_page": 1606,
+      "text": "「熾熱者」的意志",
+      "status": "suspected_source_print_error",
+      "action": "原页作「意志」，疑为「意思」之印误；依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a002.ad1",
+      "pdf_file_page": 1607,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a002.ad2",
+      "pdf_file_page": 1607,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a003.arg3",
+      "pdf_file_page": 1608,
+      "text": "相關最低者",
+      "status": "suspected_source_print_error",
+      "action": "原页括注作「相關最低者」，语义可疑，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a003.respondeo",
+      "pdf_file_page": 1609,
+      "text": "背越",
+      "status": "suspected_source_print_error",
+      "action": "原页作「背越」，疑为「踰越」之印误，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a003.ad2",
+      "pdf_file_page": 1609,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q106.a004.arg2",
+      "pdf_file_page": 1610,
+      "text": "萬軍之軍的上主",
+      "status": "suspected_source_print_error",
+      "action": "原页作「萬軍之軍的上主」，依底本保留疑似重字。",
+      "question": "I.q106"
+    },
+    {
+      "id": "I.q107.a002.arg2",
+      "pdf_file_page": 1615,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q107"
+    },
+    {
+      "id": "I.q107.a002.ad3",
+      "pdf_file_page": 1616,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q107"
+    },
+    {
+      "id": "I.q107.a003.respondeo",
+      "pdf_file_page": 1617,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q107"
+    },
+    {
+      "id": "I.q107.a005.respondeo",
+      "pdf_file_page": 1619,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q107"
+    },
+    {
+      "id": "I.q107.a003.sed_contra",
+      "pdf_file_page": 1616,
+      "text": "萬事的上主",
+      "status": "suspected_source_print_error",
+      "action": "原页作「萬事的上主」，疑为「萬軍」之印误；依底本保留。",
+      "question": "I.q107"
+    },
+    {
+      "id": "I.q108.a001.respondeo",
+      "pdf_file_page": 1621,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a001.ad2",
+      "pdf_file_page": 1622,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a003.arg2",
+      "pdf_file_page": 1625,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a004.respondeo",
+      "pdf_file_page": 1627,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a006.respondeo",
+      "pdf_file_page": 1635,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a006.ad2",
+      "pdf_file_page": 1636,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a008.respondeo",
+      "pdf_file_page": 1639,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a008.ad1",
+      "pdf_file_page": 1640,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a006.sed_contra",
+      "pdf_file_page": 1633,
+      "text": "第七等章",
+      "status": "suspected_source_print_error",
+      "action": "原页作「第七等章」，依底本保留疑似多字。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q108.a006.respondeo",
+      "pdf_file_page": 1636,
+      "text": "13三節",
+      "status": "suspected_source_print_error",
+      "action": "原页作「13三節」，依底本保留疑似多字。",
+      "question": "I.q108"
+    },
+    {
+      "id": "I.q109.a001.ad1",
+      "pdf_file_page": 1642,
+      "text": "己經證明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q109"
+    },
+    {
+      "id": "I.q110.a001.respondeo",
+      "pdf_file_page": 1648,
+      "text": "第一〇八題第一節、第一〇八題第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页连续两次列「第一〇八題第一節」，依底本保留疑似重引。",
+      "question": "I.q110"
+    },
+    {
+      "id": "I.q110.a004.ad2",
+      "pdf_file_page": 1654,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q110"
+    },
+    {
+      "id": "I.q111.a001.arg2",
+      "pdf_file_page": 1656,
+      "text": "天主己將",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q111"
+    },
+    {
+      "id": "I.q111.a002.respondeo",
+      "pdf_file_page": 1659,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q111"
+    },
+    {
+      "id": "I.q111.a004.ad1",
+      "pdf_file_page": 1663,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q111"
+    },
+    {
+      "id": "I.q111.a001.ad2",
+      "pdf_file_page": 1658,
+      "text": "天史",
+      "status": "suspected_source_print_error",
+      "action": "原页作「天史」，疑为「天使」之印误；依底本保留。",
+      "question": "I.q111"
+    },
+    {
+      "id": "I.q112.a001.respondeo",
+      "pdf_file_page": 1665,
+      "text": "己經指明",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q112"
+    },
+    {
+      "id": "I.q112.a002.sed_contra",
+      "pdf_file_page": 1667,
+      "text": "額我一世略",
+      "status": "suspected_source_print_error",
+      "action": "原页姓名作「額我一世略」，依底本保留疑似倒字。",
+      "question": "I.q112"
+    },
+    {
+      "id": "I.q112.a004.arg2",
+      "pdf_file_page": 1671,
+      "text": "遺出勤",
+      "status": "suspected_source_print_error",
+      "action": "原页作「遺出勤」，疑为「遣」字印误，依底本保留。",
+      "question": "I.q112"
+    },
+    {
+      "id": "I.q112.a004.sed_contra",
+      "pdf_file_page": 1671,
+      "text": "派遺出勤",
+      "status": "suspected_source_print_error",
+      "action": "原页作「派遺出勤」，疑为「遣」字印误，依底本保留。",
+      "question": "I.q112"
+    },
+    {
+      "id": "I.q113.a001.ad2",
+      "pdf_file_page": 1676,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q113"
+    },
+    {
+      "id": "I.q113.a002.ad2",
+      "pdf_file_page": 1677,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q113"
+    },
+    {
+      "id": "I.q114.a004.ad2",
+      "pdf_file_page": 1695,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q114"
+    },
+    {
+      "id": "I.q114.a005.respondeo",
+      "pdf_file_page": 1696,
+      "text": "《瑪竇福音註釋》——未完成篇》",
+      "status": "suspected_source_print_error",
+      "action": "原页此处书名号不配对，依底本保留并单列。",
+      "question": "I.q114"
+    },
+    {
+      "id": "I.q115.a001.respondeo",
+      "pdf_file_page": 1699,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q115.a001.ad3",
+      "pdf_file_page": 1700,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q115.a004.respondeo",
+      "pdf_file_page": 1706,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q115.a006.respondeo",
+      "pdf_file_page": 1710,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q115.a006.respondeo",
+      "pdf_file_page": 1711,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q115.a006.ad3",
+      "pdf_file_page": 1712,
+      "text": "己經說了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q115"
+    },
+    {
+      "id": "I.q116.a001.respondeo",
+      "pdf_file_page": 1714,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q116.a002.respondeo",
+      "pdf_file_page": 1717,
+      "text": "己經逐一",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q116.a003.respondeo",
+      "pdf_file_page": 1718,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q116.a003.respondeo",
+      "pdf_file_page": 1718,
+      "text": "己被排除",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q116.a004.respondeo",
+      "pdf_file_page": 1719,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q116.a004.ad1",
+      "pdf_file_page": 1720,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q116"
+    },
+    {
+      "id": "I.q117.a001.respondeo",
+      "pdf_file_page": 1722,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a001.ad1",
+      "pdf_file_page": 1724,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a002.respondeo",
+      "pdf_file_page": 1726,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a003.respondeo",
+      "pdf_file_page": 1728,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a003.respondeo",
+      "pdf_file_page": 1728,
+      "text": "原己先",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a003.ad2",
+      "pdf_file_page": 1728,
+      "text": "己經指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a003.ad3",
+      "pdf_file_page": 1729,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q117.a003.ad1",
+      "pdf_file_page": 1728,
+      "text": "第一章10節",
+      "status": "suspected_source_print_error",
+      "action": "原页该引文卷节亦作「第一章10節」，依底本保留，不据其他版本更正。",
+      "question": "I.q117"
+    },
+    {
+      "id": "I.q118.a001.ad3",
+      "pdf_file_page": 1734,
+      "text": "相助為理",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「相助為理」，疑为「相助為用」等排印问题，依底本保留，不推测改字。",
+      "question": "I.q118"
+    },
+    {
+      "id": "I.q118.a002.ad2",
+      "pdf_file_page": 1737,
+      "text": "己經是現實",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q118"
+    },
+    {
+      "id": "I.q118.a002.ad2",
+      "pdf_file_page": 1737,
+      "text": "就己有生魂",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q118"
+    },
+    {
+      "id": "I.q118.a003.ad1",
+      "pdf_file_page": 1740,
+      "text": "先己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q118"
+    },
+    {
+      "id": "I.q119.a001.respondeo",
+      "pdf_file_page": 1745,
+      "text": "即是真承受肉",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「即是真承受肉」，疑缺「實」字，依底本保留，不补写。",
+      "question": "I.q119"
+    },
+    {
+      "id": "I.q119.a002.respondeo",
+      "pdf_file_page": 1748,
+      "text": "第一〇八題第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页该交叉引用作「第一〇八題第一節」，上下文疑指第一一八题；依底本保留原编号。",
+      "question": "I.q119"
+    },
+    {
+      "id": "I.q119.a001.ad5",
+      "pdf_file_page": 1746,
+      "text": "原己存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q119"
+    },
+    {
+      "id": "I.q119.a002.respondeo",
+      "pdf_file_page": 1747,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。",
+      "question": "I.q119"
+    }
+  ],
+  "commits": [
+    "906f457|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 119 locally against PDF images",
+    "05ac7be|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 118 locally against PDF images",
+    "7325153|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 117 locally against PDF images",
+    "969ff59|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 116 locally against PDF images",
+    "51da126|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 115 locally against PDF images",
+    "8e54289|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 114 locally against PDF images",
+    "42bd2c6|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 113 locally against PDF images",
+    "2f18348|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 112 locally against PDF images",
+    "d367625|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 111 locally against PDF images",
+    "59532a9|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 110 locally against PDF images",
+    "fd50146|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 109 locally against PDF images",
+    "6e0d836|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 108 locally against PDF images",
+    "d96768b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 107 locally against PDF images",
+    "f03166d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 106 locally against PDF images",
+    "0dbbb41|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 105 locally against PDF images",
+    "d1b4cf1|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 104 locally against PDF images",
+    "58966aa|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 103 locally against PDF images",
+    "ec5b8b0|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 102 locally against PDF images",
+    "26de815|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 101 locally against PDF images"
+  ]
+}
