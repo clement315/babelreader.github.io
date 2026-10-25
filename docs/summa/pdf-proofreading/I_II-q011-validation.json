@@ -1,0 +1,91 @@
+{
+  "batch": "I_II-q011",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 1440,
+        "rows": 49
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 1440,
+        "count": 12
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 1440
+      },
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 390,
+        "rows": 49
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 390,
+        "count": 12
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "detail": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 55,
+    "all_review_units_match_before_after_manifest": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "all_source_flags_retained": true,
+    "unbalanced_original_punctuation": [
+      {
+        "id": "I_II.q011.a003.ad2",
+        "pair": "「」",
+        "open": 2,
+        "close": 1,
+        "source_flags": [
+          {
+            "id": "I_II.q011.a003.ad2",
+            "pdf_file_page": 1897,
+            "text": "因為「須為其自身而追求",
+            "status": "suspected_source_print_error",
+            "action": "原页此处开引号之后未见配对的闭引号，按底本保留并提示。"
+          }
+        ]
+      }
+    ],
+    "reader_sha256": "66741c0e76094993ecd29fcdbb09f2b2e2070404165d0136809c4956052ffab6"
+  }
+}
