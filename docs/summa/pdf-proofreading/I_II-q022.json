@@ -1,0 +1,974 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q022",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q022",
+    "title": "論靈魂之情的主體",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "printed_pages": [
+      240,
+      245
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 36,
+    "changed_review_units": 26,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q22.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q22.json": "3eff435aeb7223ed663461a6a95a4b0407d67cc8738426829a0709119e07833c",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q022.a002.respondeo",
+      "pdf_file_page": 2014,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q022.a002.ad3",
+      "pdf_file_page": 2014,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q022.a003.respondeo",
+      "pdf_file_page": 2016,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q022.a001.respondeo",
+      "pdf_file_page": 2012,
+      "text": "卷一第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页《靈魂論》引文印作卷一第五章，疑与通常引文有出入，依本页保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部6页、3节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q022.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "在這以後要討論的是靈魂之情(passio;參看第六題引言)。先做廣泛之討論;然後個別加以討論(第二十六題)。廣泛地來講，有四點要討論:第一，情之主體;第二，彼此之區別(第二十三題);第三，彼此之關係(第二十五題);第凹，情乏善惡(第二十四題)。\n關於第一點，可以提出三個問題:\n一、靈魂是否有情。\n二、情主要在嗜慾部分，抑或在知覺部分。\n三、情主要在感官嗜慾，抑或在智性嗜慾或意志。",
+      "after": "在這以後要討論的是靈魂之情(passio；參看第六題引言)。先做廣泛之討論；然後個別加以討論(第二十六題)。廣泛地來講，有四點要討論：第一，情之主體；第二，彼此之區別(第二十三題)；第三，彼此之關係(第二十五題)；第四，情之善惡(第二十四題)。\n關於第一點，可以提出三個問題：\n一、靈魂是否有情。\n二、情主要在嗜慾部分，抑或在知覺部分。\n三、情主要在感官嗜慾，抑或在智性嗜慾或意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情乏善惡",
+          "after": "情之善惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "靈魂是否有情",
+      "after": "靈魂是否有情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "似乎靈魂中沒有情(passio)。因為:",
+      "after": "似乎靈魂中沒有情(passio)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "「感受」(或情，passio、pati)是質料之特性。但按第一集第七十五題第五節裡說的，靈魂不是由形式及質料合成的。所以靈魂內沒有感受(或情)。",
+      "after": "「感受」(或情，passio、pati)是質料之特性。但按第一集第七十五題第五節裡說的，靈魂不是由形式及質料合成的。所以靈魂內沒有感受(或情)。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "此外，按《物理學》卷三第三章說的，情(感受)是被推動。但在《靈魂論》卷一第三章指出靈魂不被推動。所以靈魂沒有惰。",
+      "after": "此外，按《物理學》卷三第三章說的，情(感受)是被推動。但在《靈魂論》卷一第三章指出靈魂不被推動。所以靈魂沒有情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "沒有惰",
+          "after": "沒有情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2011
+      ],
+      "before": "此外，情(感受)是走向腐化的途徑;因為《辯證論》裡說: 「凡是情(感受)，特別是所承受者，腐化本體。」(卷六第六章)但靈魂是不朽的。所以，靈魂沒有情。",
+      "after": "此外，情(感受)是走向腐化的途徑；因為《辯證論》裡說：「凡是情(感受)，特別是所承受者，腐化本體。」(卷六第六章)但靈魂是不朽的。所以，靈魂沒有情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2012
+      ],
+      "before": "宗徒在《羅馬書》第七章5節卻說:「我們還在肉性權下的時候，那籍法律而傾向於罪惡的情慾，在我們的肢體內活動。」罪惡是專在靈魂上的。故所謂傾向於罪惡的情慾也是在靈魂上。",
+      "after": "宗徒在《羅馬書》第七章5節卻說：「我們還在肉性權下的時候，那籍法律而傾向於罪惡的情慾，在我們的肢體內活動。」罪惡是專在靈魂上的。故所謂傾向於罪惡的情慾也是在靈魂上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2012
+      ],
+      "before": "我解答如下:「感受」(pati'情之原始意義)，有三種。一種是一般的，即凡有所收受即是感受，雖然東西毫無損失，如:空氣受光照時，說空氣有所感受。這更好說是被成全，而非感受。另一種是正式的感受，即是有受又有失的感受。但這有兩種情形。有時失去者是對東西不適合的，例如:動物之身體重獲健康，得到健康，除去疾病，是一種感受。另一種情形正相反，例如:生病是失去健康，得到疾病，也是一種感受，還是最正式的感受。因為說「受」'是說東西被拉向主動者;而離開適於自己者，更能顯出是被拉向他物。故此，在《生、滅論》卷一第三章裡說，由下賤者生出高貴者，是單純的生長，及相對的腐化;而由高貴者生出下賤者，貝IJ正相反。\n這三種感受(或情)，在靈魂上都有。關於單純的收受，如說:「感覺與理解是感受」(《靈魂論》卷一第五章)。有所失的感受只適於形體物之變化n因此，正式之感受只因偶然才屬於靈魂，即是在組合體有感受時。但在這方面仍有所區分，因為向壞變化比向好變化，更合於感受之意義。所以，悲傷比歡樂之感受更真切。",
+      "after": "我解答如下：「感受」(pati，情之原始意義)，有三種。一種是一般的，即凡有所收受即是感受，雖然東西毫無損失，如：空氣受光照時，說空氣有所感受。這更好說是被成全，而非感受。另一種是正式的感受，即是有受又有失的感受。但這有兩種情形。有時失去者是對東西不適合的，例如：動物之身體重獲健康，得到健康，除去疾病，是一種感受。另一種情形正相反，例如：生病是失去健康，得到疾病，也是一種感受，還是最正式的感受。因為說「受」，是說東西被拉向主動者；而離開適於自己者，更能顯出是被拉向他物。故此，在《生滅論》卷一第三章裡說，由下賤者生出高貴者，是單純的生長，及相對的腐化；而由高貴者生出下賤者，則正相反。\n這三種感受(或情)，在靈魂上都有。關於單純的收受，如說：「感覺與理解是感受」(《靈魂論》卷一第五章)。有所失的感受只適於形體物之變化。因此，正式之感受只因偶然才屬於靈魂，即是在組合體有感受時。但在這方面仍有所區分，因為向壞變化比向好變化，更合於感受之意義。所以，悲傷比歡樂之感受更真切。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "pati'",
+          "after": "pati，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「受」'",
+          "after": "「受」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《生、滅論》",
+          "after": "《生滅論》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "變化n",
+          "after": "變化。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2012
+      ],
+      "before": "帶有變化茂損失的感受，是質料所專有的;因此，只有那由形式及質料合成的東西纔有。但只有所收受之感受，不必是質料專有的，凡在潛能狀態者，皆可能有。靈魂雖非由形式及質料所合成，但有一些潛能性質，因而能有所收受和感受，按此而稱理解為感受，如在《靈魂論》卷三第三章所說的。",
+      "after": "帶有變化及損失的感受，是質料所專有的；因此，只有那由形式及質料合成的東西才有。但只有所收受之感受，不必是質料專有的，凡在潛能狀態者，皆可能有。靈魂雖非由形式及質料所合成，但有一些潛能性質，因而能有所收受和感受，按此而稱理解為感受，如在《靈魂論》卷三第三章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "變化茂",
+          "after": "變化及",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "感受與被推動雖不本然屬於靈魂，但偶然也可能，如在《靈魂論》卷一第三章裡說的。",
+      "after": "感受與被推動雖不本然屬於靈魂，但偶然也可能，如在《靈魂論》卷一第三章裡說的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "所舉之理由是根據變壞之感受。這種感受只能偶然地屬於靈魂，本然地是屬於組合體，因為組合體是可朽的。",
+      "after": "所舉之理由是根據變壞之感受。這種感受只能偶然地屬於靈魂，本然地是屬於組合體，因為組合體是可朽的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "情主要是在嚐慾部分，抑或在知覺部分",
+      "after": "情主要是在嗜慾部分，抑或在知覺部分",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嚐慾",
+          "after": "嗜慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "情似乎主要在靈魂之知覺部分，而非在嗜慾部分。因為",
+      "after": "情似乎主要在靈魂之知覺部分，而非在嗜慾部分。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "按《形上學》卷二第一章說的，每一類別中的最先者，似平是屬於該類別者中的最大的，並是其餘的原因。但感受('1育)先出現在知覺部分，而非在嗜慾部分。因為若非在知覺部分先有所感受，嗜慾部分不使有所感受。所以，感受(情)主要在知覺部分，而非在嗜慾部分。",
+      "after": "按《形上學》卷二第一章說的，每一類別中的最先者，似乎是屬於該類別者中的最大的，並是其餘的原因。但感受(情)先出現在知覺部分，而非在嗜慾部分。因為若非在知覺部分先有所感受，嗜慾部分不能有所感受。所以，感受(情)主要在知覺部分，而非在嗜慾部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "似平",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "('1育)",
+          "after": "(情)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不使有所感受",
+          "after": "不能有所感受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "此外，較多主動的，似乎較少被動(受動)。因為主動與被動(受動)是對立的，但嗜慾部分比知覺部分更為主動。所以，情似乎是在知覺部分。",
+      "after": "此外，較多主動的，似乎較少被動(受動)。因為主動與被動(受動)是對立的，但嗜慾部分比知覺部分更為主動。所以，情似乎是在知覺部分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "此外，就如感宮性嗜慾是身體器官上的機能，感官性知覺能力也是一樣。但靈魂之感受，嚴格地說，是按身體之變化。所以，情主要不在感官性嗜慾部分，而在感官性知覺部分。",
+      "after": "此外，就如感官性嗜慾是身體器官上的機能，感官性知覺能力也是一樣。但靈魂之感受，嚴格地說，是按身體之變化。所以，情主要不在感官性嗜慾部分，而在感官性知覺部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2013
+      ],
+      "before": "奧斯定在《天主之城》卷九第四章裡卻說: 「心靈的變動，希臘人稱之為感受(pathe)。我們中有人如西塞祿，稱之為感受困擾，有人稱之為感應或感情，也有人隨希臘人稱之為感受。」由此可見靈魂之感受與感應是一事。但感應顯然屬於嗜慾部分，而非屬知覺部分。所以，感受(情)主要在嗜慾部分，而非在知覺部分。",
+      "after": "奧斯定在《天主之城》卷九第四章裡卻說：「心靈的變動，希臘人稱之為感受(pathe)。我們中有人如西塞祿，稱之為感受困擾，有人稱之為感應或感情，也有人隨希臘人稱之為感受。」由此可見靈魂之感受與感應是一事。但感應顯然屬於嗜慾部分，而非屬知覺部分。所以，感受(情)主要在嗜慾部分，而非在知覺部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2014
+      ],
+      "before": "我解答如下:如第一節己說過的，在「感受」這名詞中，含有承受者被拉向主動者之意義。靈魂之受物吸引，主要在嗜慾能力，而非在知覺能力。因為靈魂由於嗜慾能力，對外物本身有一種傾向。因此，哲學家在《形上學》卷六第四章說，嗜慾機能之對象「善與惡，是在東西內」。知覺能力不是被東西之本身吸引;在認知東西時，是按東西之意象，意象則是按知覺能力自己之方式握有或接受。故那裡又說，屬於認知方面的「真與假，不是在物中，而是在心靈中」。由此可見，情(感受)之理主要在嗜慾部分，而不在知覺部分。",
+      "after": "我解答如下：如第一節己說過的，在「感受」這名詞中，含有承受者被拉向主動者之意義。靈魂之受物吸引，主要在嗜慾能力，而非在知覺能力。因為靈魂由於嗜慾能力，對外物本身有一種傾向。因此，哲學家在《形上學》卷六第四章說，嗜慾機能之對象「善與惡，是在東西內」。知覺能力不是被東西之本身吸引；在認知東西時，是按東西之意象，意象則是按知覺能力自己之方式握有或接受。故那裡又說，屬於認知方面的「真與假，不是在物中，而是在心靈中」。由此可見，情(感受)之理主要在嗜慾部分，而不在知覺部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2014
+      ],
+      "before": "那屬於成就者，與那屬於缺欠者，關係正好相反。因為關於成就方面，程度最高者是離第一根本最近者;離第一根本愈近，程度就愈高。就如光亮的程度，是看離那最光亮者是遠是近，離得愈近，亮度愈高。但關於缺欠方面，其程度不在於離最高者近，而在於離完美者遠，因為缺欠之理即在於此。所以離第一個愈近，缺欠程度愈不高;為此，在根本處常是缺欠最少，而漸遠漸多起來。情(感受)屬於缺欠，因為在潛能狀態者纔能有感受。所以，那些離第一完美者近的，即是離天主近的，很少有潛能及感受，其他的當然有的就多。是以在靈魂先有之能力上，即在知覺能1J上，感受成份也較少。",
+      "after": "那屬於成就者，與那屬於缺欠者，關係正好相反。因為關於成就方面，程度最高者是離第一根本最近者；離第一根本愈近，程度就愈高。就如光亮的程度，是看離那最光亮者是遠是近，離得愈近，亮度愈高。但關於缺欠方面，其程度不在於離最高者近，而在於離完美者遠，因為缺欠之理即在於此。所以離第一個愈近，缺欠程度愈不高；為此，在根本處常是缺欠最少，而漸遠漸多起來。情(感受)屬於缺欠，因為在潛能狀態者才能有感受。所以，那些離第一完美者近的，即是離天主近的，很少有潛能及感受，其他的當然有的就多。是以在靈魂先有之能力上，即在知覺能力上，感受成份也較少。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔能",
+          "after": "才能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能1J",
+          "after": "能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2014
+      ],
+      "before": "說嗜慾能力更為主動，因為它是外在行動的主要根本。但這也是它比較更被動(受動)的原因，因為它對外物本身有一種傾向，我們用外在行動是為獲取外在的東西。",
+      "after": "說嗜慾能力更為主動，因為它是外在行動的主要根本。但這也是它比較更被動(受動)的原因，因為它對外物本身有一種傾向，我們用外在行動是為獲取外在的東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2014,
+        2015
+      ],
+      "before": "且在第一集第七十八題第三節已經說過，靈魂的器官能有兩種變化。第一，精神性變化，即在接受東西之意象時。這種變化本然見於感官知覺之行動;如眼睛被可見者所變化，但眼睛並不成為有顏色的，而是接受顏色之意象。第二種是器官的自然變化，即器官之自然狀態有所變化，如:變熱或變冷，及其他這類變化。這種變化對感宮知覺之行動是偶然的，例如:眼睛因凝視而感疲勞，因太亮的東西而眼花;這種變化對感官嗜慾之行動則是本然的Q因此，在給嗜慾部分之動態下定義時，是以器官之某自然變化為質料，如《靈魂論》卷一第一章說: 「忿怒是熱血攻心」。可見感受主要見於感官嗜慾之行動，而少見於感官知覺之行動，雖然兩個皆是身體器官之行動。",
+      "after": "在第一集第七十八題第三節己經說過，靈魂的器官能有兩種變化。第一，精神性變化，即在接受東西之意象時。這種變化本然見於感官知覺之行動；如眼睛被可見者所變化，但眼睛並不成為有顏色的，而是接受顏色之意象。第二種是器官的自然變化，即器官之自然狀態有所變化，如：變熱或變冷，及其他這類變化。這種變化對感官知覺之行動是偶然的，例如：眼睛因凝視而感疲勞，因太亮的東西而眼花；這種變化對感官嗜慾之行動則是本然的。因此，在給嗜慾部分之動態下定義時，是以器官之某自然變化為質料，如《靈魂論》卷一第一章說：「忿怒是熱血攻心」。可見感受主要見於感官嗜慾之行動，而少見於感官知覺之行動，雖然兩個皆是身體器官之行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "且在第一集",
+          "after": "在第一集",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本然的Q",
+          "after": "本然的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "情是否主要在感官嗜慾，而非在智性嗜慾或意志",
+      "after": "情是否主要在感官嗜慾，而非在智性嗜慾或意志",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "情似乎主要不在感官嗜慾，而在智'1生嗜慾。因為:",
+      "after": "情似乎主要不在感官嗜慾，而在智性嗜慾。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智'1生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "狄奧尼修在《神名論》第二章說，葉羅萃(Hierotheus)「的學問是來自更神奇的靈感，他不只是學習，而且是感受神聖的事理」。神聖事理之感受，不能是屬於以感官性的善為對象的感官嗜慾。所以，智性嗜慾有情(感受)，就如感宮嗜慾之有情(感受)。",
+      "after": "狄奧尼修在《神名論》第二章說，葉羅萃(Hierotheus)「的學問是來自更神奇的靈感，他不只是學習，而且是感受神聖的事理」。神聖事理之感受，不能是屬於以感官性的善為對象的感官嗜慾。所以，智性嗜慾有情(感受)，就如感官嗜慾之有情(感受)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "此外，主動力愈強，感受也愈強。但智性嗜慾之對象是普遍的善，感官嗜慾之對象是個別的善;普遍之善的主動力比後者強。所以，情(感受)主要見於智性嗜慾，而非在感官嗜慾。",
+      "after": "此外，主動力愈強，感受也愈強。但智性嗜慾之對象是普遍的善，感官嗜慾之對象是個別的善；普遍之善的主動力比後者強。所以，情(感受)主要見於智性嗜慾，而非在感官嗜慾。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "此外，樂與愛是情。但在智性嗜慾中也有這些惰，不只在感官嗜慾中有;不然的話，聖經上便不會將這些情加之於天主及天使。所以在感官嗜慾中的情，並不甚於在智性嗜慾中者。",
+      "after": "此外，樂與愛是情。但在智性嗜慾中也有這些情，不只在感官嗜慾中有；不然的話，聖經上便不會將這些情加之於天主及天使。所以在感官嗜慾中的情，並不甚於在智性嗜慾中者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這些惰",
+          "after": "這些情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2015
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷二第二十二章，描寫動物之情時，卻說: 「情是在善或惡之心像下產生的感官嗜慾之動態。」他又說: 「情是由於見到善或惡而起之非理性魂靈的動態。」",
+      "after": "大馬士革的若望在《論正統信仰》卷二第二十二章，描寫動物之情時，卻說：「情是在善或惡之心像下產生的感官嗜慾之動態。」他又說：「情是由於見到善或惡而起之非理性魂靈的動態。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2016
+      ],
+      "before": "我解答如下:如第一節己說過的，嚴格地講，有身體變化，纔能有惰。在感官嗜慾之行動中有這種變化;而且不只有如在感官知覺方面的精神性變化，並且也有自然變化。在智性嗜慾的行動中不需要有身體上的變化，因為這種嗜慾不是某器官的機能。由此可知，嚴格地說，情主要見於感官↑生嗜慾，而非在智性嗜慾;由大馬士革的若望所下的定義也可知道(參見皮之)。",
+      "after": "我解答如下：如第一節己說過的，嚴格地講，有身體變化，才能有情。在感官嗜慾之行動中有這種變化；而且不只有如在感官知覺方面的精神性變化，並且也有自然變化。在智性嗜慾的行動中不需要有身體上的變化，因為這種嗜慾不是某器官的機能。由此可知，嚴格地說，情主要見於感官性嗜慾，而非在智性嗜慾；由大馬士革的若望所下的定義也可知道(參見反之)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔能有惰",
+          "after": "才能有情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官↑生",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "參見皮之",
+          "after": "參見反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2016
+      ],
+      "before": "那裡所謂的「神聖事理之感受」﹒是指對神聖事理之感應，以及愛情與神聖事情之結合;但這不必有身體上的變化。",
+      "after": "那裡所謂的「神聖事理之感受」，是指對神聖事理之感應，以及愛情與神聖事情之結合；但這不必有身體上的變化。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感受」﹒",
+          "after": "感受」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q022.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2016
+      ],
+      "before": "情(感受)之強弱不只繫於主動者之力量，也繫於受動者之感受能力。因為感受力強的，小小的動機便能使之有很大的感受。雖然智性嗜慾之對象的主動力，比感官嗜慾之對象的主動力強，但感官嗜慾的感受力比較大。",
+      "after": "情(感受)之強弱不只繫於主動者之力量，也繫於受動者之感受能力。因為感受力強的，小小的動機便能使之有很大的感受。雖然智性嗜慾之對象的主動力，比感官嗜慾之對象的主動力強，但感官嗜慾的感受力比較大。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q022.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2016
+      ],
+      "before": "愛與樂等等用於天主和天(吏，以及按智愷嗜慾而用於人峙，是指單純的意志行動及其相似的效果，但沒有情(感受)。為此奧斯定在《天主之城》卷九第五章說: 「天使降罰，但不感受忿怒;他們濟助，但無憐憫的感受。人類言語，習於將這些情(感受)的名稱借用於天使，乃因有關活動的相似，非因柔弱的感應。」",
+      "after": "愛與樂等等用於天主和天使，以及按智性嗜慾而用於人時，是指單純的意志行動及其相似的效果，但沒有情(感受)。為此奧斯定在《天主之城》卷九第五章說：「天使降罰，但不感受忿怒；他們濟助，但無憐憫的感受。人類言語，習於將這些情(感受)的名稱借用於天使，乃因有關活動的相似，非因柔弱的感應。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天(吏",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智愷",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人峙",
+          "after": "人時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
