@@ -1,0 +1,1889 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q014",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q014",
+    "title": "論選擇之前的考慮",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      1918,
+      1919,
+      1920,
+      1921,
+      1922,
+      1923,
+      1924,
+      1925,
+      1926
+    ],
+    "printed_pages": [
+      147,
+      155
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 72,
+    "changed_review_units": 51,
+    "checked_unchanged_review_units": 22
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q14.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q14.json": "6f9a5f386cd812daab7d1100507cb7330141f4029b78fd68b5de202b0184e00f"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q014.a001.arg2",
+      "pdf_file_page": 1918,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a001.respondeo",
+      "pdf_file_page": 1919,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a001.respondeo",
+      "pdf_file_page": 1919,
+      "text": "對己考慮好者",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a002.ad1",
+      "pdf_file_page": 1921,
+      "text": "己經是確定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a004.arg1",
+      "pdf_file_page": 1922,
+      "text": "對己經考慮好的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a004.respondeo",
+      "pdf_file_page": 1923,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q014.a002.sed_contra",
+      "pdf_file_page": 1920,
+      "text": "第二十四章",
+      "status": "suspected_source_print_error",
+      "action": "原页所引《論人性》章数亦作第二十四章，保留底本编号。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q014.prologue",
+      "description": "清除题头散字符；原四个前置换行转义及引言层级保留。"
+    }
+  ],
+  "notes": [
+    "全部9页、6节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q014.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "G\n間選寸嚼佔撲考慮\n-八\nF\n然後要討論的是考慮(consilium;參看第十三題引言)。\n關於這一點，可以提出六個問題:\n一、考慮是否等於探究。\n二、考慮是關於目的抑只限於導致目的者。\n三、考慮是否只rft於由我們所做了昔。\n四、考慮是否用於我們所做的一切。\n五、考處是否以分析方式進行。\n六、考慮是否推衍到無限。",
+      "after": "\n\n\n\n然後要討論的是考慮(consilium；參看第十三題引言)。\n關於這一點，可以提出六個問題：\n一、考慮是否等於探究。\n二、考慮是關於目的抑只限於導致目的者。\n三、考慮是否只限於由我們所做者。\n四、考慮是否用於我們所做的一切。\n五、考慮是否以分析方式進行。\n六、考慮是否推衍到無限。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "G\n間選寸嚼佔撲考慮\n-八\nF\n",
+          "after": "\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "只rft於由我們所做了昔",
+          "after": "只限於由我們所做者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "考處",
+          "after": "考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "考慮是否等於探究",
+      "after": "考慮是否等於探究",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "似乎考E豈不是探究。因為:",
+      "after": "似乎考慮不是探究。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "考E豈",
+          "after": "考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "大馬主革的若望在《論正統信仰》卷二第二十二章說: 「考慮是嗜慾。」但探究不屬於嗜慾。所以，考慮不是探'7Ì3九",
+      "after": "大馬士革的若望在《論正統信仰》卷二第二十二章說：「考慮是嗜慾。」但探究不屬於嗜慾。所以，考慮不是探究。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "大馬主革",
+          "after": "大馬士革",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "探'7Ì3九",
+          "after": "探究。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1918
+      ],
+      "before": "此外，探究屬於智性之推演行動，故非為天主所有，因為天主之認知不是推演性的，這點在第一集第十四題第七節裡已經講過。然而，考慮用於天主，因為《厄弗所書》第一章11節說: 「祂按自己官意的計劃(考慮)施行萬事。」所以，考慮不是探究。",
+      "after": "此外，探究屬於智性之推演行動，故非為天主所有，因為天主之認知不是推演性的，這點在第一集第十四題第七節裡己經講過。然而，考慮用於天主，因為《厄弗所書》第一章11節說：「祂按自己旨意的計劃(考慮)施行萬事。」所以，考慮不是探究。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經講過",
+          "after": "己經講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自己官意",
+          "after": "自己旨意",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1918,
+        1919
+      ],
+      "before": "此外，探究是關於有疑問的事情。然而一定好的事情也用考喔，因為宗徒在《格林多前書》第七章25節說: 「論到童身的人，我沒有主的命令......只說出我的意見(考慮)0 」所以，考慮不是探究。",
+      "after": "此外，探究是關於有疑問的事情。然而一定好的事情也用考慮，因為宗徒在《格林多前書》第七章25節說：「論到童身的人，我沒有主的命令……只說出我的意見(考慮)。」所以，考慮不是探究。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "考喔",
+          "after": "考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "......",
+          "after": "……",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慮)0 ",
+          "after": "慮)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        1919
+      ],
+      "before": "尼沙的額我略(尼美修斯，(《論人性》第三十四章)卻說: 「一切考慮皆是問題，然而並非一切問題皆是考慮。」",
+      "after": "尼沙的額我略(尼美修斯，《論人性》第三十四章)卻說：「一切考慮皆是問題，然而並非一切問題皆是考慮。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尼美修斯，(《",
+          "after": "尼美修斯，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        1919
+      ],
+      "before": "我解答如下:前面第十三題第一節釋疑2、第三節已經說過，選擇隨在理性對要行之事的判斷之後。在要做的事情上有許多不確定的地方，因為行動是關於個月IJ的偶有事情，因變化極多而無法確定。在有疑問及不確定的事上，若不先探究，理性不下判斷。故在斷定何取何捨之前，理性必要先探究，而這探究即稱為考慮。因此哲學家在《倫理學》卷三第二章中說，選擇是「對己考慮好者之嗜慾」。",
+      "after": "我解答如下：前面第十三題第一節釋疑2.、第三節己經說過，選擇隨在理性對要行之事的判斷之後。在要做的事情上有許多不確定的地方，因為行動是關於個別的偶有事情，因變化極多而無法確定。在有疑問及不確定的事上，若不先探究，理性不下判斷。故在斷定何取何捨之前，理性必要先探究，而這探究即稱為考慮。因此哲學家在《倫理學》卷三第二章中說，選擇是「對己考慮好者之嗜慾」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋疑2、",
+          "after": "釋疑2.、",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1919
+      ],
+      "before": "在兩種機能之行動彼此有關連時，在每一機能之行動中，皆有一點屬於另一機能的東西;是以，每一行動各能按兩種機能來命名。在導致目的者中指導方向的理性行動，與意志隨理性之指導而欲求導致目的者之行動，顯然彼此相關。是以，在意志之行動中，即在選擇中，有屬於理性者，自11次序;而在理性之行動一一考慮中，也有屬於意志者，好似是質料，因為考慮是關於人所願做者;也好似是動因，因為人要目的，纔去考慮導致目的者。為此，哲學家纔在《倫理學》卷六第二章中說: 「選擇是嗜慾性的智性」'為指出二者合力而為選擇。同樣，大馬士革的若望說: 「考慮是探究性的嗜慾」'是為指出考慮多少屬於意志，因為是由於意志並關於意志而為探究;但也屬於探究之理性。",
+      "after": "在兩種機能之行動彼此有關連時，在每一機能之行動中，皆有一點屬於另一機能的東西；是以，每一行動各能按兩種機能來命名。在導致目的者中指導方向的理性行動，與意志隨理性之指導而欲求導致目的者之行動，顯然彼此相關。是以，在意志之行動中，即在選擇中，有屬於理性者，即次序；而在理性之行動——考慮中，也有屬於意志者，好似是質料，因為考慮是關於人所願做者；也好似是動因，因為人要目的，才去考慮導致目的者。為此，哲學家才在《倫理學》卷六第二章中說：「選擇是嗜慾性的智性」，為指出二者合力而為選擇。同樣，大馬士革的若望說：「考慮是探究性的嗜慾」，是為指出考慮多少屬於意志，因為是由於意志並關於意志而為探究；但也屬於探究之理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自11次序",
+          "after": "即次序",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔去",
+          "after": "才去",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔在",
+          "after": "才在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智性」'",
+          "after": "智性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗜慾」'",
+          "after": "嗜慾」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1919,
+        1920
+      ],
+      "before": "關於天主所說的，須按在我們身上有的，再除掉缺點而去瞭解，例如:我們的知識是由原因到效果之推論的結果;但說天主之知識時，是指在第一原因中對所有之結果的確定知識，不經過推論過程。同樣，把考慮援用於天主，是指其主張或判斷之確定性，這結果在我們則由考慮之探究得來。但在天主沒有探究，故若按此義則不能用於天主。因此，犬馬士革的若望於《論正統信仰》卷二第二卡二章說:「天主不考意;愚者才需考慮。」",
+      "after": "關於天主所說的，須按在我們身上有的，再除掉缺點而去瞭解，例如：我們的知識是由原因到效果之推論的結果；但說天主之知識時，是指在第一原因中對所有之結果的確定知識，不經過推論過程。同樣，把考慮援用於天主，是指其主張或判斷之確定性，這結果在我們則由考慮之探究得來。但在天主沒有探究，故若按此義則不能用於天主。因此，大馬士革的若望於《論正統信仰》卷二第二十二章說：「天主不考慮；愚者才需考慮。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "犬馬士革",
+          "after": "大馬士革",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二卡二",
+          "after": "第二十二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主不考意",
+          "after": "天主不考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "一件事在明哲及屬神之士的眼中是千賢萬確的善事，在羣眾及俗人的眼中卻可能不確定是善事。故在這類事上要用考慮。",
+      "after": "一件事在明哲及屬神之士的眼中是千真萬確的善事，在群眾及俗人的眼中卻可能不確定是善事。故在這類事上要用考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "千賢萬確",
+          "after": "千真萬確",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "羣眾",
+          "after": "群眾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "考慮是關於目的，抑只限於導致目的者",
+      "after": "考慮是關於目的，抑只限於導致目的者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "似乎考慮不只限於導致目的者，也用於目的。因為:",
+      "after": "似乎考慮不只限於導致目的者，也用於目的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "凡事有了疑問，皆可加以探究。但在人的行為叮面，有時對目的有提問，不只對導致目的者有疑問。既然關於可行者方面之探究即是考慮，似是考慮能是關於目的。",
+      "after": "凡事有了疑問，皆可加以探究。但在人的行為方面，有時對目的有疑問，不只對導致目的者有疑問。既然關於可行者方面之探究即是考慮，似是考慮能是關於目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行為叮面",
+          "after": "行為方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有提問",
+          "after": "有疑問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "此外，考慮之資料是人性動作。但按《倫理學》卷一第一章裡說的，有些人性動作是目的。所以，考慮能是關於目的。",
+      "after": "此外，考慮之資料是人性動作。但按《倫理學》卷一第一章裡說的，有些人性動作是目的。所以，考慮能是關於目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "尼沙的額我略(尼美修斯，《論人性》第二卡四章)卻說:「考慮不是關於日的，只是關於導致目的者。」",
+      "after": "尼沙的額我略(尼美修斯，《論人性》第二十四章)卻說：「考慮不是關於目的，只是關於導致目的者。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二卡四",
+          "after": "第二十四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關於日的",
+          "after": "關於目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        1920
+      ],
+      "before": "我解答如下:在行為方面之目的具有原理之義，因為導致目的者的理由是由目的而來。然而原理不在問題範圍之內，而在任何探究中須先設定原理。故考慮既是問題，關於目的沒有考慮，只是關於導致目的者有考慮。不過有時對某些東西而言是目的者，自身又指向耳目的目的;就如在一個論詩中宮原理的，也能是另→論證之結論。是以，在一個探究中當目的者，在別的探究中能視為導致白的者。這樣則對它能有考慮。",
+      "after": "我解答如下：在行為方面之目的具有原理之義，因為導致目的者的理由是由目的而來。然而原理不在問題範圍之內，而在任何探究中須先設定原理。故考慮既是問題，關於目的沒有考慮，只是關於導致目的者有考慮。不過有時對某些東西而言是目的者，自身又指向別的目的；就如在一個論證中當原理的，也能是另一論證之結論。是以，在一個探究中當目的者，在別的探究中能視為導致目的者。這樣則對它能有考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "耳目的目的",
+          "after": "別的目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "論詩中宮",
+          "after": "論證中當",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另→論證",
+          "after": "另一論證",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "導致白的",
+          "after": "導致目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "那被視為目的者，已經是確定的。故幾時認為有疑問，便不視之為目的。那麼，若對此有考慮，那不是對目的之考慮，而是對導致目的者。",
+      "after": "那被視為目的者，己經是確定的。故幾時認為有疑問，便不視之為目的。那麼，若對此有考慮，那不是對目的之考慮，而是對導致目的者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經是確定",
+          "after": "己經是確定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "考慮所及的動作是那些指向目的者。如果一個人性動作是目的，從這觀點說，則不用考慮。",
+      "after": "考慮所及的動作是那些指向目的者。如果一個人性動作是目的，從這觀點說，則不用考慮。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "考慮是否只限於由我們所做者",
+      "after": "考慮是否只限於由我們所做者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "似乎考慮不只限於由我們所做者。因為:",
+      "after": "似乎考慮不只限於由我們所做者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "考慮包含一種比較。但那不動者，非由我們所做者，例如:自然物，許多可以做比較。所以，考慮不只限於由我們所做者。",
+      "after": "考慮包含一種比較。但那不動者，非由我們所做者，例如：自然物，許多可以做比較。所以，考慮不只限於由我們所做者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "此外，有時人對法律所規定者討問主意，故有些人被稱為法律顧問(jurisconsulti)。但那些討這類主意的人不是立法者。所以，考慮不只限於我們所做者。",
+      "after": "此外，有時人對法律所規定者討問主意，故有些人被稱為法律顧問(jurisconsulti)。但那些討這類主意的人不是立法者。所以，考慮不只限於我們所做者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "此外，據說有人詢問關於將來的事，而這些事不屬於我們的權力範圍。所以，考慮不只限於由我們所做者。",
+      "after": "此外，據說有人詢問關於將來的事，而這些事不屬於我們的權力範圍。所以，考慮不只限於由我們所做者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "此外，若考慮只限於自我們所做者，則不會有人考慮別人要做者。但這顯然不合事實們所以，考慮不只限於由我們所做者。",
+      "after": "此外，若考慮只限於由我們所做者，則不會有人考慮別人要做者。但這顯然不合事實。所以，考慮不只限於由我們所做者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "限於自我們",
+          "after": "限於由我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "事實們",
+          "after": "事實。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        1921
+      ],
+      "before": "尼沙的額我略(尼美修斯，《論人性》第三十四章)卻說:「我們考慮那在我們身上者，以及我們所能做者。」",
+      "after": "尼沙的額我略(尼美修斯，《論人性》第三十四章)卻說：「我們考慮那在我們身上者，以及我們所能做者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        1921,
+        1922
+      ],
+      "before": "我解答如下:嚴格地說﹒考慮包含訐多東西之闊的比較。這名詞本身就有這個意義，因為consilium(考慮、參議)就似considium(同坐、參與)，由於商議事情時，許多人坐在-起c要知道，在偶有的個別事件方面，若想知道確實如何，須考慮到許多條件，一個人不易想得周到，人多時便較容易，因為某人想到的，別人可能沒有想到。在必然和普遍事理方面，觀點比較單純和絕對，一個人還比較能夠勝任。是以謀慮之探究主要屬於偶有之個別事件。有關這類事件之真理，不像在普遍及必然事理方面之有絕對可欲者;而其所以可欲，是因其對行動有利，而行動是關於偶有事件的。所以，嚴格地說，考慮是關於由我們所做者。",
+      "after": "我解答如下：嚴格地說，考慮包含許多東西之間的比較。這名詞本身就有這個意義，因為consilium(考慮、參議)就似considium(同坐、參與)，由於商議事情時，許多人坐在一起。要知道，在偶有的個別事件方面，若想知道確實如何，須考慮到許多條件，一個人不易想得周到，人多時便較容易，因為某人想到的，別人可能沒有想到。在必然和普遍事理方面，觀點比較單純和絕對，一個人還比較能夠勝任。是以謀慮之探究主要屬於偶有之個別事件。有關這類事件之真理，不像在普遍及必然事理方面之有絕對可欲者；而其所以可欲，是因其對行動有利，而行動是關於偶有事件的。所以，嚴格地說，考慮是關於由我們所做者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嚴格地說﹒",
+          "after": "嚴格地說，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "訐多東西之闊",
+          "after": "許多東西之間",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "-起c",
+          "after": "一起。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "考慮不是含有一切比較，只包含有關要做之事的比較，理由前面正解已經說明。",
+      "after": "考慮不是含有一切比較，只包含有關要做之事的比較，理由前面正解已經說明。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "法律所規定者，雖非由詢問主意者之行動所屑，然而卻是其行動之指南，因為法律之規定是做某事的一個理由。",
+      "after": "法律所規定者，雖非由詢問主意者之行動所為，然而卻是其行動之指南，因為法律之規定是做某事的一個理由。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行動所屑",
+          "after": "行動所為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "考慮不只關於所做者，也關於與動作有關係者。為此我們也說詢問未來之事件，因為人知道了將來之事件，便好決定要做什麼，或要避免什麼。",
+      "after": "考慮不只關於所做者，也關於與動作有關係者。為此我們也說詢問未來之事件，因為人知道了將來之事件，便好決定要做什麼，或要避免什麼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "我們對別人的事詢問主意，是因為他們與我們如一體，或是感情|二的合一，例如:朋友關心朋友的事情，有如是自己的事情;或者是工具式的合一，因為主要動因與工具動因好似是一個原因，一個利用另一個行動，例如:主人考慮要用奴隸做的事。",
+      "after": "我們對別人的事詢問主意，是因為他們與我們如一體，或是感情上的合一，例如：朋友關心朋友的事情，有如是自己的事情；或者是工具式的合一，因為主要動因與工具動因好似是一個原因，一個利用另一個行動，例如：主人考慮要用奴隸做的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感情|二",
+          "after": "感情上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "考慮是否用於我們所做的一切",
+      "after": "考慮是否用於我們所做的一切",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "似乎考慮用於我們所作的一切事情。因為:",
+      "after": "似乎考慮用於我們所作的一切事情。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "前面第一節說過，選擇是「對已經考慮好的之嗜慾」。但選擇是關於我們做的一切事情。所以，考慮也是。",
+      "after": "前面第一節說過，選擇是「對己經考慮好的之嗜慾」。但選擇是關於我們做的一切事情。所以，考慮也是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "對已經",
+          "after": "對己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1922
+      ],
+      "before": "此外，考慮包合理性之探究。但凡不是出於情慾之衝動者，我們皆先用理性探究。所以，我們做一切皆用考慮。",
+      "after": "此外，考慮包含理性之探究。但凡不是出於情慾之衝動者，我們皆先用理性探究。所以，我們做一切皆用考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "包合理性",
+          "after": "包含理性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "此外，哲學家在《倫理學》卷三第三章說: 「若事情可用許多方法來完成，貝Ij要考慮由那個更易做的好;若只有-個方法，買IJ考慮怎樣用這方法完成。」但任何事情或有一個方法，或有許多方法可完成。故我們做的一切皆用考慮。",
+      "after": "此外，哲學家在《倫理學》卷三第三章說：「若事情可用許多方法來完成，則要考慮由那個更易做的好；若只有一個方法，則考慮怎樣用這方法完成。」但任何事情或有一個方法，或有許多方法可完成。故我們做的一切皆用考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "只有-個",
+          "after": "只有一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "尼沙的額我略(尼美修斯，《論人性》第三十四章)卻說: 「按科學或藝術所作的事情，不用考慮。」",
+      "after": "尼沙的額我略(尼美修斯，《論人性》第三十四章)卻說：「按科學或藝術所作的事情，不用考慮。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "我解答如下:前面第一節已經說過，考慮是一種探究。平常有疑問時纔去探究，是以那稱為論證(叩mentum)的探究之程序，是「使可疑者成為可信者」(西塞祿，《與特雷巴的辯證》Topic. ad Trebatium)。在人事方面有兩種情形沒有疑問。一種因為是用固定的方法達成固定的目的，例如:在藝術方面，有些固定的作法，寫字的人不考慮該怎樣寫字母，藝術對此已有規定。另一種情形是因為怎樣做沒有關係，這是一些微末之事，對完成目的無大影響。微末者，理性貝IJ視之似無有ο是以，如哲學家說的，對兩種事我們不用考慮，雖然那是導致目的者:一是小事;另一事是該怎樣做已有規定，例如在藝術方面(《倫理學》卷三第三章): 「除非是猜測性的，如:醫術、貿易術等等」'如尼沙的額我略所說的(同處)。",
+      "after": "我解答如下：前面第一節己經說過，考慮是一種探究。平常有疑問時才去探究，是以那稱為論證(argumentum)的探究之程序，是「使可疑者成為可信者」(西塞祿，《與特雷巴的辯證》Topic. ad Trebatium)。在人事方面有兩種情形沒有疑問。一種因為是用固定的方法達成固定的目的，例如：在藝術方面，有些固定的作法，寫字的人不考慮該怎樣寫字母，藝術對此已有規定。另一種情形是因為怎樣做沒有關係，這是一些微末之事，對完成目的無大影響。微末者，理性則視之似無有。是以，如哲學家說的，對兩種事我們不用考慮，雖然那是導致目的者：一是小事；另一事是該怎樣做已有規定，例如在藝術方面(《倫理學》卷三第三章)：「除非是猜測性的，如：醫術、貿易術等等」，如尼沙的額我略所說的(同處)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔去",
+          "after": "才去",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "叩mentum",
+          "after": "argumentum",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無有ο",
+          "after": "無有。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "等等」'",
+          "after": "等等」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "選擇要先有考慮是為了判斷或主張。倘若判斷或主張是明顯的，貝IJ不必探究，也就不用考慮。",
+      "after": "選擇要先有考慮是為了判斷或主張。倘若判斷或主張是明顯的，則不必探究，也就不用考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "對明顯的事情，理性不探究，而是立刻下判斷。是以，並非由理性所做的一切都要考慮。",
+      "after": "對明顯的事情，理性不探究，而是立刻下判斷。是以，並非由理性所做的一切都要考慮。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1923
+      ],
+      "before": "若一件事可用一種方法完成，但方式不只一個，則能有提間，與有許多方法者相同，因此要用考慮。但若不只方法是固定的，方式也是固定的，則不必考慮。",
+      "after": "若一件事可用一種方法完成，但方式不只一個，則能有疑問，與有許多方法者相同，因此要用考慮。但若不只方法是固定的，方式也是固定的，則不必考慮。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "提間",
+          "after": "疑問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "考慮是否以分析方式進行",
+      "after": "考慮是否以分析方式進行",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "是似乎考慮不以分析方式進行。因為:",
+      "after": "似乎考慮不以分析方式進行。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是似乎",
+          "after": "似乎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "考慮是關於我們所做者。但我們的動作不是以分析方式進行，而是以綜合方式，即是從單純的到複合的。所以考慮不常以分析方式進行。",
+      "after": "考慮是關於我們所做者。但我們的動作不是以分析方式進行，而是以綜合方式，即是從單純的到複合的。所以考慮不常以分析方式進行。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "此外，考慮是理性之探究。但按最合適的方式，理性是由在先者開始，以達到在後者。既然過去者先於現在者，現在者又先於將來者，在考慮時似應自現在者及過去者開始，再輪到將來者。這方式不屬於分析。故在考膚時，不守分析之次序。",
+      "after": "此外，考慮是理性之探究。但按最合適的方式，理性是由在先者開始，以達到在後者。既然過去者先於現在者，現在者又先於將來者，在考慮時似應自現在者及過去者開始，再輪到將來者。這方式不屬於分析。故在考慮時，不守分析之次序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "考膚",
+          "after": "考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "此外，按《倫理學》卷三第三章裡說的，考慮只限於我們之能力範圍者。但一事對我們是否可能，繫於我們為這事能做什麼，不能做什麼。故考慮之探索須由現在者開始。",
+      "after": "此外，按《倫理學》卷三第三章裡說的，考慮只限於我們之能力範圍者。但一事對我們是否可能，繫於我們為這事能做什麼，不能做什麼。故考慮之探索須由現在者開始。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "哲學家在《倫理學》卷三第三章中說: 「考慮者，似是4用探究和分析。」",
+      "after": "哲學家在《倫理學》卷三第三章中說：「考慮者，似是用探究和分析。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "4用",
+          "after": "用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        1924
+      ],
+      "before": "我解答如下:在任何探究中，皆須由一根本開始。倘若這根本無論在認知或存在上，皆為先有者，買IJ探究程序不是分析式的，而是綜合式的;從原因到結果乃綜合程序，因為原因比結果單純。倘若這根本在認知上是先有者，但在存在上是後有者，則是分析程序;因為我們是根據顯明之結果，分析成單純的原因。在考慮之探究中的根本是目的，它在意念中雖為先有者，在存在方面則為後有者。為此，考慮之探究必定是分析性的，即是從所期待於將來者，到此時此刻所當做者J",
+      "after": "我解答如下：在任何探究中，皆須由一根本開始。倘若這根本無論在認知或存在上，皆為先有者，則探究程序不是分析式的，而是綜合式的；從原因到結果乃綜合程序，因為原因比結果單純。倘若這根本在認知上是先有者，但在存在上是後有者，則是分析程序；因為我們是根據顯明之結果，分析成單純的原因。在考慮之探究中的根本是目的，它在意念中雖為先有者，在存在方面則為後有者。為此，考慮之探究必定是分析性的，即是從所期待於將來者，到此時此刻所當做者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所當做者J",
+          "after": "所當做者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1924,
+        1925
+      ],
+      "before": "考慮固然是關於動作的。但動作之理路是由目的而來;是以，有關動作之推想程序，與動作之程序正相反。",
+      "after": "考慮固然是關於動作的。但動作之理路是由目的而來；是以，有關動作之推想程序，與動作之程序正相反。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "理性是由在意念上先有的開始;不常是由在時間上先有者開始。",
+      "after": "理性是由在意念上先有的開始；不常是由在時間上先有者開始。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "關於為導致目的所當為者，倘若不合於目的，我們根本不想知道那事是否可能。是以先須探究一事是否適於達成目的，然後纔看它是否可能。",
+      "after": "關於為導致目的所當為者，倘若不合於目的，我們根本不想知道那事是否可能。是以先須探究一事是否適於達成目的，然後才看它是否可能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔看",
+          "after": "才看",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "考慮是否推衍到無限",
+      "after": "考慮是否推衍到無限",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "考慮之探究似乎推衍到無限。因為:",
+      "after": "考慮之探究似乎推衍到無限。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "考慮是對動作所關之個另IJ事件的探究。但個別者是無限的。所以考慮之探究是沒完的。",
+      "after": "考慮是對動作所關之個別事件的探究。但個別者是無限的。所以考慮之探究是沒完的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "此外，考慮不只應看該做什麼，也要看怎樣排除障礙。但人的每一行動皆有障礙，而障礙可用人的理性排除。所以有無限的障礙要設法排除3",
+      "after": "此外，考慮不只應看該做什麼，也要看怎樣排除障礙。但人的每一行動皆有障礙，而障礙可用人的理性排除。所以有無限的障礙要設法排除。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "排除3",
+          "after": "排除。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "此外?論證性知識之探究不推衍到無限，因為其終點是達到自明之原理，具有絕對的可靠性。但個別之偶有事件變化無窮，極不確實，故難得有這種可靠性。所以，考慮之探究推衍到無限。",
+      "after": "此外，論證性知識之探究不推衍到無限，因為其終點是達到自明之原理，具有絕對的可靠性。但個別之偶有事件變化無窮，極不確實，故難得有這種可靠性。所以，考慮之探究推衍到無限。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外?",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        1925
+      ],
+      "before": "在《天界論》卷一第七章中卻說:['什麼也不動向其所不能達到者。」但無限不可能通過。若考慮之探究無窮，誰也不會去考膚。而這顯然是錯誤的。",
+      "after": "在《天界論》卷一第七章中卻說：「什麼也不動向其所不能達到者。」但無限不可能通過。若考慮之探究無窮，誰也不會去考慮。而這顯然是錯誤的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說:['",
+          "after": "說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "考膚",
+          "after": "考慮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        1925,
+        1926
+      ],
+      "before": "我解答如下:從兩方面說，考慮之探究實際是有限的:即從根本方面，和從終點方面。在考慮之探究中，接受兩種根本。一個根本是動作之類別所專有的，那就是目的，對於目的不用考慮，而是被視為考慮之根本，前面第二節已經說過。另一根本是取自其他類別;就如在論證性知識中，一種知識假定一些由別種知識來的，而不加探究。在考慮之探究上所假定的這類根本，是感官所接受的一切，例如:這是麵包或鐵;以及由鑑賞性或實用性知誠而為人普遍所知者，例如:天主禁止通姦、人沒有適當的食物不能生存。在這方面，考慮者也不去探究。探究之終點是此時此刻在我們能力範圍內所可做者，就如目的似原理:那為目的而做者，即為結論;那首先當做者是最後結論，探究即至IJ此而止。然而，在潛能上考慮並非不可能無限，即是說一直有需要考慮的事情發生。",
+      "after": "我解答如下：從兩方面說，考慮之探究實際是有限的：即從根本方面，和從終點方面。在考慮之探究中，接受兩種根本。一個根本是動作之類別所專有的，那就是目的，對於目的不用考慮，而是被視為考慮之根本，前面第二節已經說過。另一根本是取自其他類別；就如在論證性知識中，一種知識假定一些由別種知識來的，而不加探究。在考慮之探究上所假定的這類根本，是感官所接受的一切，例如：這是麵包或鐵；以及由鑑賞性或實用性知識而為人普遍所知者，例如：天主禁止通姦、人沒有適當的食物不能生存。在這方面，考慮者也不去探究。探究之終點是此時此刻在我們能力範圍內所可做者，就如目的似原理：那為目的而做者，即為結論；那首先當做者是最後結論，探究即到此而止。然而，在潛能上考慮並非不可能無限，即是說一直有需要考慮的事情發生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "知誠",
+          "after": "知識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至IJ此",
+          "after": "到此",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        1926
+      ],
+      "before": "個別事件實際上不是無限的，只在潛能ñ面是無限的。",
+      "after": "個別事件實際上不是無限的，只在潛能方面是無限的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "潛能ñ面",
+          "after": "潛能方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q014.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        1926
+      ],
+      "before": "雖然人的行動能受阻礙，但不是常有現成的障礙。所以不必一直考慮怎樣排除障礙。",
+      "after": "雖然人的行動能受阻礙，但不是常有現成的障礙。所以不必一直考慮怎樣排除障礙。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q014.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        1926
+      ],
+      "before": "在偶有的個別事件中，也有可靠的地方，雖然不是絕對地可靠，而是對目前之行動而言。蘇格拉底不是必然地該坐著，但在他坐著的時候，「他在坐著」頁。為必然的。而這個可以確實地知道。",
+      "after": "在偶有的個別事件中，也有可靠的地方，雖然不是絕對地可靠，而是對目前之行動而言。蘇格拉底不是必然地該坐著，但在他坐著的時候，「他在坐著」則為必然的。而這個可以確實地知道。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "頁。為",
+          "after": "則為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
