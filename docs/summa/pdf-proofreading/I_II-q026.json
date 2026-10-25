@@ -1,0 +1,1295 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q026",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q026",
+    "title": "分論諸情：首先論愛",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045
+    ],
+    "printed_pages": [
+      268,
+      274
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 49,
+    "changed_review_units": 33,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q26.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q26.json": "db9b08b5e9538b4f39134a3ac692e618546a6e88e6e2872932210ae3698dbe89"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q026.a003.ad2",
+      "pdf_file_page": 2043,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q026.prologue",
+      "pdf_file_page": 2039,
+      "text": "可以以提出",
+      "status": "suspected_source_print_error",
+      "action": "原页重复「以」字，按底本保留。"
+    },
+    {
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "這種稱為自然的愛",
+      "status": "suspected_source_print_error",
+      "action": "此句底本为「自然的愛」，语意疑为嗜慾，依底本保留。"
+    },
+    {
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "第一集第六題第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文作第六题第一节，疑为另一节，依本页保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q026.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "在這之後，要個別討論靈魂之各種情(參看第二十二題引言)。先討論慾情部分的情;然後，討論憤情部分之情(第四十)。\n第一點分為三部分討論:先論愛與憎惡;第二論慾望(願望)與逃避(厭棄)(第三十題);第三論快樂(喜樂)與哀愁(第三十一題)。\n關於愛(amor)，要討論三點:第一，論愛本身;第二，論愛之原因(第二十七題);第三，論愛之效果(第二十八題)。\n關於第一點，可以以提出四個問題。\n一、愛是否在慾情部分。\n二、愛是否為情。\n三、愛與鐘愛(dilectio)是否為一事。\n四、愛分為友愛與慾愛是否合適。",
+      "after": "在這之後，要個別討論靈魂之各種情(參看第二十二題引言)。先討論慾情部分的情；然後，討論憤情部分之情(第四十題)。\n第一點分為三部分討論：先論愛與憎惡；第二論慾望(願望)與逃避(厭棄)(第三十題)；第三論快樂(喜樂)與哀愁(第三十一題)。\n關於愛(amor)，要討論三點：第一，論愛本身；第二，論愛之原因(第二十七題)；第三，論愛之效果(第二十八題)。\n關於第一點，可以以提出四個問題。\n一、愛是否在慾情部分。\n二、愛是否為情。\n三、愛與鐘愛(dilectio)是否為一事。\n四、愛分為友愛與慾愛是否合適。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(第四十)",
+          "after": "(第四十題)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "愛是否在慾情部分",
+      "after": "愛是否在慾情部分",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "愛似乎不是在慾情部分。因為:",
+      "after": "愛似乎不是在慾情部分。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2039
+      ],
+      "before": "《智慧篇》第八章2節說: 「我愛慕智慧，自幼就尋求她。」但慾情既然是在感官性嗜慾部分，不能追求智慧，感官不能把握智慧。所以愛不是在慾情部分。",
+      "after": "《智慧篇》第八章2節說：「我愛慕智慧，自幼就尋求她。」但慾情既然是在感官性嗜慾部分，不能追求智慧，感官不能把握智慧。所以愛不是在慾情部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2039,
+        2040
+      ],
+      "before": "此外，愛似乎與其他情是一事，因為奧斯定在《天主之城》卷十四第七章說: 「愛要得到其所愛者，這種愛便是慾望;得到後享受其所愛者，這種愛便是喜樂;愛逃避與本相反者，這種愛便是畏懼;相反者發生後而感覺難過，這種愛便是哀愁。」但並非每種情皆在慾情部分，如這裡提到的畏懼便是在憤情部分。所以不能絕對地說愛是在慾情部分。",
+      "after": "此外，愛似乎與其他情是一事，因為奧斯定在《天主之城》卷十四第七章說：「愛要得到其所愛者，這種愛便是慾望；得到後享受其所愛者，這種愛便是喜樂；愛逃避與之相反者，這種愛便是畏懼；相反者發生後而感覺難過，這種愛便是哀愁。」但並非每種情皆在慾情部分，如這裡提到的畏懼便是在憤情部分。所以不能絕對地說愛是在慾情部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "與本相反",
+          "after": "與之相反",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2040
+      ],
+      "before": "此外，狄奧尼修在《神名論》第四章談到一種自然的愛。但自然的愛似乎屬於自然能力，是在生魂部分。所以，愛不是絕對在慾情部分。",
+      "after": "此外，狄奧尼修在《神名論》第四章談到一種自然的愛。但自然的愛似乎屬於自然能力，是在生魂部分。所以，愛不是絕對在慾情部分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2040
+      ],
+      "before": "哲學家在《辯證論》卷二第七章卻說: 「愛是在慾情部分。」",
+      "after": "哲學家在《辯證論》卷二第七章卻說：「愛是在慾情部分。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2040
+      ],
+      "before": "我解答如下:愛屬於嗜慾，因為二者之對象皆是善。因此按嗜慾之不同﹒而有不同的愛。有的嗜慾不隨嗜慾者自己之知覺，而是隨另一個東西的知覺，這種稱為自然的愛。自然物按天性追求適合自己的東西時，不是按自己的知覺，而是按賦給天↑生者之知覺，如在第一集第六題第一部釋疑2.裡己說過的。另一種嗜慾是隨自己的知覺，不過是必然地，不是按自己的自由判斷。這便是禽獸的感官性嗜慾;但在人身仁，這種嗜慾因了服從理性而分享一點自由。另一種嗜慾按嗜慾者的自由判斷，隨從自己的知覺;這是理性的或智性的嗜慾'稱為意志。\n在上述各種嗜慾中，那動向所愛之目的之動態的根本便是愛。在自然嗜慾中，這動態的根本即嗜慾者對其所求者之自然性向，可以稱為自然的愛，例如:重物體因其重量而就適宜方位之性向，即可稱為自然的愛。同樣，感官性嗜慾，或者意志，對某種善之適合性或喜好，即稱為感官性的愛，或者理性或智性的愛。所以感宮性的愛是在感官性嗜慾裡，就如智性的愛是在智性嗜慾中。感官性的愛是在慾情部分，因為愛是關於單純的善，不是關於艱苦，艱苦是憤情之對象。",
+      "after": "我解答如下：愛屬於嗜慾，因為二者之對象皆是善。因此按嗜慾之不同，而有不同的愛。有的嗜慾不隨嗜慾者自己之知覺，而是隨另一個東西的知覺，這種稱為自然的愛。自然物按天性追求適合自己的東西時，不是按自己的知覺，而是按賦給天性者之知覺，如在第一集第六題第一節釋疑2.裡己說過的。另一種嗜慾是隨自己的知覺，不過是必然地，不是按自己的自由判斷。這便是禽獸的感官性嗜慾；但在人身上，這種嗜慾因了服從理性而分享一點自由。另一種嗜慾按嗜慾者的自由判斷，隨從自己的知覺；這是理性的或智性的嗜慾，稱為意志。\n在上述各種嗜慾中，那動向所愛之目的之動態的根本便是愛。在自然嗜慾中，這動態的根本即嗜慾者對其所求者之自然性向，可以稱為自然的愛，例如：重物體因其重量而就適宜方位之性向，即可稱為自然的愛。同樣，感官性嗜慾，或者意志，對某種善之適合性或喜好，即稱為感官性的愛，或者理性或智性的愛。所以感官性的愛是在感官性嗜慾裡，就如智性的愛是在智性嗜慾中。感官性的愛是在慾情部分，因為愛是關於單純的善，不是關於艱苦，艱苦是憤情之對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不同﹒",
+          "after": "不同，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天↑生",
+          "after": "天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一部",
+          "after": "第一節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人身仁",
+          "after": "人身上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗜慾'",
+          "after": "嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "《智慧篇》講的是智↑生或理性的愛。",
+      "after": "《智慧篇》講的是智性或理性的愛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "說愛是畏懼，喜樂，慾望和哀愁，不是按本質，而是按原因。",
+      "after": "說愛是畏懼，喜樂，慾望和哀愁，不是按本質，而是按原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "不只在生魂之力量中有自然的愛，在靈魂的一切機能中，以及身體各部分中，一般說來在所有的東西中，皆有自然的愛。因為如狄奧尼修在《神名論》第四章說的:「對一切東西，美與善都是可愛的」。的確，每個東西對過合其天性者，都有一種自然性向。",
+      "after": "不只在生魂之力量中有自然的愛，在靈魂的一切機能中，以及身體各部分中，一般說來在所有的東西中，皆有自然的愛。因為如狄奧尼修在《神名論》第四章說的：「對一切東西，美與善都是可愛的」。的確，每個東西對適合其天性者，都有一種自然性向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "過合",
+          "after": "適合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "愛是否為情",
+      "after": "愛是否為情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "愛似乎不是情c因為:",
+      "after": "愛似乎不是情。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "情c",
+          "after": "情。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "沒有一種德性是情。按狄奧尼修在《神名論》第四章說的，凡愛皆是「一種德性」。所以，愛不是情。",
+      "after": "沒有一種德性是情。按狄奧尼修在《神名論》第四章說的，凡愛皆是「一種德性」。所以，愛不是情。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "此外，按奧斯定在《論天主聖三》卷八第十章說的，愛是一種結合或連繫。但結合或連繫不是情，而是一種關係。所以，愛不是情。",
+      "after": "此外，按奧斯定在《論天主聖三》卷八第十章說的，愛是一種結合或連繫。但結合或連繫不是情，而是一種關係。所以，愛不是情。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "此外，大馬士革的若望在《論正統信仰》卷二第二十二章說，情是「一種動態」。但愛不含有嗜慾之連動，那是願望;愛則是這運動的根本。所以，愛不是情。",
+      "after": "此外，大馬士革的若望在《論正統信仰》卷二第二十二章說，情是「一種動態」。但愛不含有嗜慾之運動，那是願望；愛則是這運動的根本。所以，愛不是情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之連動",
+          "after": "之運動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2041
+      ],
+      "before": "哲學家在《倫理學》卷八第五章卻說:「愛是|育」 0",
+      "after": "哲學家在《倫理學》卷八第五章卻說：「愛是情」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「愛是|育」 0",
+          "after": "「愛是情」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2041,
+        2042
+      ],
+      "before": "我解答如下:情(或感受)，乃是主動者在被動者上的效果。自然物主動者在被動者上產生兩種效果:它先賦給形式，然後給予自形式而起之動作;例如生化者，先給物體以重量，再給因重量而起之動作。重量是因重量而在適宜之方位移動之根本，可以稱為自然的愛。可欲者也是先給嗜慾一種適合性，亦即對可欲者之喜好;由此而產生朝向可欲者之動態。按《靈魂論》卷三第十章說的，「嗜慾性的動態是循環式的」'可欲者推動嗜慾'使自己出現在嗜慾的意識中;而嗜慾實際追求可欲者，結果原來是根本的，變為行動的目的。嗜慾被可欲者第一次變化，便稱為愛，無非就是對可欲者之喜好;由這喜好便產生朝向可欲者之動態，這便是願望;最後的定止便是喜樂。這樣看來，愛既然在於可欲者在嗜慾上造成的變化，顯然愛是情(或感受)。嚴格地說，愛是在慾情部分;一般則廣泛地說愛是在意志中。",
+      "after": "我解答如下：情(或感受)，乃是主動者在被動者上的效果。自然物主動者在被動者上產生兩種效果：它先賦給形式，然後給予自形式而起之動作；例如生化者，先給物體以重量，再給因重量而起之動作。重量是因重量而在適宜之方位移動之根本，可以稱為自然的愛。可欲者也是先給嗜慾一種適合性，亦即對可欲者之喜好；由此而產生朝向可欲者之動態。按《靈魂論》卷三第十章說的，「嗜慾性的動態是循環式的」，可欲者推動嗜慾，使自己出現在嗜慾的意識中；而嗜慾實際追求可欲者，結果原來是根本的，變為行動的目的。嗜慾被可欲者第一次變化，便稱為愛，無非就是對可欲者之喜好；由這喜好便產生朝向可欲者之動態，這便是願望；最後的定止便是喜樂。這樣看來，愛既然在於可欲者在嗜慾上造成的變化，顯然愛是情(或感受)。嚴格地說，愛是在慾情部分；一般則廣泛地說愛是在意志中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "循環式的」'",
+          "after": "循環式的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "推動嗜慾'",
+          "after": "推動嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "因為德性(f惡能)是指運動或行為之根本，因7愛是嗜慾性動態之根本，故狄奧尼修稱之為德性。",
+      "after": "因為德性(德能)是指運動或行為之根本，因了愛是嗜慾性動態之根本，故狄奧尼修稱之為德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(f惡能)",
+          "after": "(德能)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "結合屬於愛，是因為由於喜好，愛者嗜慾將其所愛者視為自己或自己的一部分。由此可見，愛不是結合之關係本身，結合乃是由愛而生之效果。因此狄奧尼修在《神名論》第四章說:愛是「結合性的德能(德性)」;哲學家在《政治學》卷二第一章也說:結合是愛的功殼。",
+      "after": "結合屬於愛，是因為由於喜好，愛者嗜慾將其所愛者視為自己或自己的一部分。由此可見，愛不是結合之關係本身，結合乃是由愛而生之效果。因此狄奧尼修在《神名論》第四章說：愛是「結合性的德能(德性)」；哲學家在《政治學》卷二第一章也說：結合是愛的功效。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "功殼",
+          "after": "功效",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "愛雖不指嗜慾朝向可欲者之動態，然而卻指嗜慾被可欲者變化之動態，為使嗜慾喜好那可欲者。",
+      "after": "愛雖不指嗜慾朝向可欲者之動態，然而卻指嗜慾被可欲者變化之動態，為使嗜慾喜好那可欲者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "愛與鐘愛(dilectio)是否為一事",
+      "after": "愛與鐘愛(dilectio)是否為一事",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "似乎愛與鐘愛是同一件事c因為:",
+      "after": "似乎愛與鐘愛是同一件事。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事c",
+          "after": "事。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "狄奧尼11雪在《神名論》第四章說，愛與鐘愛「就如四與二，乘二，直線形的與有直線的」。但這些皆是指同樣的東西。所以愛與鐘愛是同一件事。",
+      "after": "狄奧尼修在《神名論》第四章說，愛與鐘愛「就如四與二乘二，直線形的與有直線的」。但這些皆是指同樣的東西。所以愛與鐘愛是同一件事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "狄奧尼11雪",
+          "after": "狄奧尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "二，乘二",
+          "after": "二乘二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2042
+      ],
+      "before": "此外，嗜慾性的動態是按對象以相區別。但愛與鐘愛之對象是一樣的。所以二者是一事。",
+      "after": "此外，嗜慾性的動態是按對象以相區別。但愛與鐘愛之對象是一樣的。所以二者是一事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2043
+      ],
+      "before": "因此外，假若愛與鐘愛有區別﹒似乎主要在於如奧斯定在《天主之城》卷十四第七章所記述的:「按某些人的說法，鐘愛是指好的意義，愛是指壞的意義。」但按奧斯定在那裡說的，這種區別不存在;因為在聖經中，兩個名詞皆兼有好的意義和壞的意義。所以，愛與鐘愛沒有分別。故奧斯定在那裡結論說:「並非愛指的是一事，鐘愛指的是另一事。」",
+      "after": "此外，假若愛與鐘愛有區別，似乎主要在於如奧斯定在《天主之城》卷十四第七章所記述的：「按某些人的說法，鐘愛是指好的意義，愛是指壞的意義。」但按奧斯定在那裡說的，這種區別不存在；因為在聖經中，兩個名詞皆兼有好的意義和壞的意義。所以，愛與鐘愛沒有分別。故奧斯定在那裡結論說：「並非愛指的是一事，鐘愛指的是另一事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因此外",
+          "after": "此外",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "區別﹒",
+          "after": "區別，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2043
+      ],
+      "before": "狄奧尼修在《神名論》第四章卻說:「有些聖人認為愛比鍾愛神聖。」",
+      "after": "狄奧尼修在《神名論》第四章卻說：「有些聖人認為愛比鐘愛神聖。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "鍾愛",
+          "after": "鐘愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2043
+      ],
+      "before": "我解答如下:有四個名詞多少屬於同一件事，即愛(amor)、鐘愛(dilectio)、仁愛(caritas﹒或親愛、珍愛)、友愛(amicitia)。但有些分別。按哲學家在《倫理學》卷八第五章說的，友愛偏重習性方面;愛與鍾愛偏重(個日IJ)行動或感受方面;仁愛可泛指兩方面。\n但三者所指之「行動」不盡相同。三者中，愛比較廣泛，因為凡鐘愛或仁愛皆是愛，但不能反過來說。鍾愛比愛多出的是事前的選擇，從字面即可看出(按:拉丁文名詞dilectio來自動詞dilige間，後者兼有愛及選擇之意)。因此鐘愛不是在慾情部分，只在意志，而且只有具理性者可以有。仁愛比愛多出的，是愛的完美性;即是說，對其所愛者之重視，如字面所指出的(按cantas一字來自形容詞carus珍貴的，可親的)。",
+      "after": "我解答如下：有四個名詞多少屬於同一件事，即愛(amor)、鐘愛(dilectio)、仁愛(caritas，或親愛、珍愛)、友愛(amicitia)。但有些分別。按哲學家在《倫理學》卷八第五章說的，友愛偏重習性方面；愛與鐘愛偏重(個別)行動或感受方面；仁愛可泛指兩方面。\n但三者所指之「行動」不盡相同。三者中，愛比較廣泛，因為凡鐘愛或仁愛皆是愛，但不能反過來說。鐘愛比愛多出的是事前的選擇，從字面即可看出(按：拉丁文名詞dilectio來自動詞diligere，後者兼有愛及選擇之意)。因此鐘愛不是在慾情部分，只在意志，而且只有具理性者可以有。仁愛比愛多出的，是愛的完美性；即是說，對其所愛者之重視，如字面所指出的(按：caritas一字來自形容詞carus：珍貴的，可親的)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "caritas﹒",
+          "after": "caritas，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個日IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "dilige間",
+          "after": "diligere",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "按cantas",
+          "after": "按：caritas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "carus珍貴",
+          "after": "carus：珍貴",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鍾愛",
+          "after": "鐘愛",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2043
+      ],
+      "before": "狄奧尼修講的，是智↑生嗜慾的愛和鍾愛，這樣則愛與鐘愛相等。",
+      "after": "狄奧尼修講的，是智性嗜慾的愛和鐘愛，這樣則愛與鐘愛相等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鍾愛",
+          "after": "鐘愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2043
+      ],
+      "before": "愛的對象比鍾愛的對象廣;因為如正解己說過的，愛包容的多。",
+      "after": "愛的對象比鐘愛的對象廣；因為如正解己說過的，愛包容的多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "鍾愛",
+          "after": "鐘愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "鐘愛與愛的區別，不是在於善與惡之區別，而是按前面正解說過的那樣區分。但在智性部分，愛與鐘愛相同。奧斯定在那裡講的愛即是按這意義;因此不遠後他又說:「意志正當，便是好愛;意志不正則是壞愛。」由於慾情部分的愛使多人向惠，故有人做了上述之區分。",
+      "after": "鐘愛與愛的區別，不是在於善與惡之區別，而是按前面正解說過的那樣區分。但在智性部分，愛與鐘愛相同。奧斯定在那裡講的愛即是按這意義；因此不遠後他又說：「意志正當，便是好愛；意志不正則是壞愛。」由於慾情部分的愛使多人向惡，故有人做了上述之區分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "向惠",
+          "after": "向惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "(針對皮之)有人認為在意志上愛比鐘愛神聖，是因為愛含有情，尤其在感宮性部分;鐘愛則假定有理性之判斷。人被動地被天主吸引以愛走向天主，比靠自己的理性之指引而以鐘愛走向天主，更為便捷。故有愛比鍾空神聖之說。",
+      "after": "(針對反之)有人認為在意志上愛比鐘愛神聖，是因為愛含有情，尤其在感官性部分；鐘愛則假定有理性之判斷。人被動地被天主吸引以愛走向天主，比靠自己的理性之指引而以鐘愛走向天主，更為便捷。故有愛比鐘愛神聖之說。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "鍾空",
+          "after": "鐘愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "愛分為友愛與慾愛是否合適",
+      "after": "愛分為友愛與慾愛是否合適",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "似乎將愛分為友愛(amor amicitiae)及慾望之愛或慾愛(amor concupiscentiae)不合適。因為:",
+      "after": "似乎將愛分為友愛(amor amicitiae)及慾望之愛或慾愛(amor concupiscentiae)不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "按哲學家在《倫理學》卷八第五章裡所說的，「愛是情(或感受)，而友愛是習性(habitus)」。但習性不能用以區分情。所以將愛分為慾愛與友愛不合適。",
+      "after": "按哲學家在《倫理學》卷八第五章裡所說的，「愛是情(或感受)，而友愛是習性(habitus)」。但習性不能用以區分情。所以將愛分為慾愛與友愛不合適。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "此外，沒有東西可用與其間等位者(並列為同一類者)，以加區分，「人」與「動物」不同等位。但慾望與愛是同等位者，猶如愛之外的另一種情。所以愛之情不能用慾望之情以加區分。",
+      "after": "此外，沒有東西可用與其同等位者(並列為同一類者)，以加區分，「人」與「動物」不同等位。但慾望與愛是同等位者，猶如愛之外的另一種情。所以愛之情不能用慾望之情以加區分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "其間等位",
+          "after": "其同等位",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2044
+      ],
+      "before": "此外，按哲學家在《倫理學》卷八第三章裡說的，友愛有三種:利益上的，喜好上的，及正當的。但利益上的及喜仔上的友愛中有慾望。故慾望(慾愛)與友愛不能相對升。",
+      "after": "此外，按哲學家在《倫理學》卷八第三章裡說的，友愛有三種：利益上的，喜好上的，及正當的。但利益上的及喜好上的友愛中有慾望。故慾望(慾愛)與友愛不能相對分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "喜仔",
+          "after": "喜好",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相對升",
+          "after": "相對分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2044,
+        2045
+      ],
+      "before": "我們說愛某東西，乃是因為慾望這東西，例如在《辯證論》卷二第三章裡說的:「一人愛酒，乃因為他慾望酒中的甜味。」但對酒等類東西，按《倫理學》卷八第二章說的，我們沒有友愛。所以慾愛是一事，友愛是另一事。",
+      "after": "我們說愛某東西，乃是因為慾望這東西，例如在《辯證論》卷二第三章裡說的：「一人愛酒，乃因為他慾望酒中的甜味。」但對酒等類東西，按《倫理學》卷八第二章說的，我們沒有友愛。所以慾愛是一事，友愛是另一事。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2045
+      ],
+      "before": "我解答如下:就如哲學家在《修辭學》卷二第四章說的: 「愛是願意一人之善」。故此，愛的動向有二，即:動向為某人、自己或其他人所願的「善」;並動向其為了「誰」而願善。對其所願別人之善，是慾愛;對為了誰而願善，是友愛。\n這區分是按先與後而來的，因為那以友愛而被愛的東西，是單純和本然地被愛;那以慾愛所愛的東西，不是單純和本然地被愛，而是為另一東西而被愛。就如單純的物是那具有實在者，相對的物是在他物裡者。善也是一樣，因為與物可相替換。自身具有善者，是單純的善;屬於他物之善是相對的善。故此-一東西被愛是為了這東西具有善，這是單純的愛;一東西被愛是為了使另一東西具有善，是相對的愛。",
+      "after": "我解答如下：就如哲學家在《修辭學》卷二第四章說的：「愛是願意一人之善」。故此，愛的動向有二，即：動向為某人、自己或其他人所願的「善」；並動向其為了「誰」而願善。對其所願別人之善，是慾愛；對為了誰而願善，是友愛。\n這區分是按先與後而來的，因為那以友愛而被愛的東西，是單純和本然地被愛；那以慾愛所愛的東西，不是單純和本然地被愛，而是為另一東西而被愛。就如單純的物是那具有實在者，相對的物是在他物裡者。善也是一樣，因為與物可相替換。自身具有善者，是單純的善；屬於他物之善是相對的善。故此，一東西被愛是為了這東西具有善，這是單純的愛；一東西被愛是為了使另一東西具有善，是相對的愛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故此-一",
+          "after": "故此，一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2045
+      ],
+      "before": "這不是以友誼和慾望區分愛，而是以友愛(友誼之愛)與慾愛(慾望之愛)區分愛。因為我們願意朋友得利益，纔是真正的朋友;我們願意為自己所據有的東西，我們說慾望遠東西。",
+      "after": "這不是以友誼和慾望區分愛，而是以友愛(友誼之愛)與慾愛(慾望之愛)區分愛。因為我們願意朋友得利益，才是真正的朋友；我們願意為自己所據有的東西，我們說慾望這東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慾望遠東西",
+          "after": "慾望這東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q026.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2045
+      ],
+      "before": "由上可知質疑2.之答案。",
+      "after": "由上可知質疑2.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q026.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2045
+      ],
+      "before": "在利益及喜好之友愛中，固然願意朋友得有益處，故尚可稱為友愛。但因了那益處繼而又指向自己的利益和喜好，故此利益上及喜好上的友愛，在受慾愛牽動的條件下，有失於真友愛之意義。",
+      "after": "在利益及喜好之友愛中，固然願意朋友得有益處，故尚可稱為友愛。但因了那益處繼而又指向自己的利益和喜好，故此利益上及喜好上的友愛，在受慾愛牽動的條件下，有失於真友愛之意義。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
