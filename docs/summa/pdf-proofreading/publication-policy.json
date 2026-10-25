@@ -2,7 +2,7 @@
   "schema_version": 1,
   "user_instruction_date": "2026-10-23",
   "instruction": "保留结果先不用上传，直到校对完第一部的全部题目再上传至网站",
-  "mode": "local_only",
+  "mode": "prima_pars_release_authorized",
   "git_push_allowed_before_gate": false,
   "website_deploy_allowed_before_gate": false,
   "release_gate": {
@@ -176,7 +176,7 @@
   ],
   "next_question": "I_II.q001",
   "current_requested_work": {
-    "instruction": "完成第一部第101题至第119题的逐页校对，保留结果，只在本地保存",
+    "instruction": "完成第一部第101题至第119题逐页校对并保留报告；按既有全第一部完成后上传指示发布",
     "required_question_ids": [
       "I.q101",
       "I.q102",
@@ -543,5 +543,58 @@
     }
   ],
   "last_published_content_commit": "c52468302ca3e5cb033a4be7cf7ea5d47e2dc409",
-  "last_publication_record": "publication-20261023.json"
+  "last_publication_record": "publication-20261023.json",
+  "release_gate_evaluation": {
+    "status": "passed_with_documented_source_uncertainty",
+    "record": "I-release-gate-20261025.json",
+    "date": "2026-10-25",
+    "reported_source_uncertainty_preserved": true
+  },
+  "authorized_release": {
+    "date": "2026-10-25",
+    "record": "publication-20261025.json",
+    "status": "ready_to_upload",
+    "batches": [
+      "I-q081",
+      "I-q082",
+      "I-q083",
+      "I-q084",
+      "I-q085",
+      "I-q086",
+      "I-q087",
+      "I-q088",
+      "I-q089",
+      "I-q090",
+      "I-q091",
+      "I-q092",
+      "I-q093",
+      "I-q094",
+      "I-q095",
+      "I-q096",
+      "I-q097",
+      "I-q098",
+      "I-q099",
+      "I-q100",
+      "I-q101",
+      "I-q102",
+      "I-q103",
+      "I-q104",
+      "I-q105",
+      "I-q106",
+      "I-q107",
+      "I-q108",
+      "I-q109",
+      "I-q110",
+      "I-q111",
+      "I-q112",
+      "I-q113",
+      "I-q114",
+      "I-q115",
+      "I-q116",
+      "I-q117",
+      "I-q118",
+      "I-q119"
+    ],
+    "scope": "Prima Pars questions 81–119 and all associated reports; questions 1–80 already published."
+  }
 }

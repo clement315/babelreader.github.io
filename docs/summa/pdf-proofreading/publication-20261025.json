@@ -1,0 +1,314 @@
+{
+  "date": "2026-10-25",
+  "author": "element",
+  "status": "preflight_passed",
+  "user_instruction": "保留结果先不用上传，直到校对完第一部的全部题目再上传至网站",
+  "authorization_scope": "Publish pending Prima Pars batches after all 119 question image reviews are completed, retaining documented source uncertainties.",
+  "remote_url": "https://github.com/clement315/babelreader.github.io.git",
+  "branch": "main",
+  "remote_before": "6e48e9d3a648bf36e64dcaa648e04fd343fcc85b",
+  "proofreading_head": "4f436175323c79deba040fefdf237e315769958e",
+  "existing_commits_to_upload": 44,
+  "changed_question_files": 39,
+  "articles_in_changed_question_files": 181,
+  "release_gate": "I-release-gate-20261025.json",
+  "all_39_reports_match_current_reader": true,
+  "all_39_saved_browser_and_regression_checks_pass": true,
+  "all_non_zh_bytes_and_per_field_newlines_preserved": true,
+  "all_commits_authored_and_committed_by_element": true,
+  "reviewed_questions": 119,
+  "reviewed_articles": 584,
+  "remaining_source_scan_uncertainty": "I.q014.a012.arg1; PDF file page 446; retained and flagged, not certified error-free.",
+  "title_source_gaps_outside_prima_pars": [
+    "II_II.q170.a002",
+    "SUPPL.q064.a003",
+    "SUPPL.q064.a004",
+    "SUPPL.q064.a010"
+  ],
+  "files": [
+    {
+      "path": "data/summa/I/q81.json",
+      "sha256": "03448dc1d853aa5c7e9917d9370a4e2cdabc1992755a769ab1596a55a2c226c8",
+      "report": "I-q081.md",
+      "validation": "I-q081-validation.json"
+    },
+    {
+      "path": "data/summa/I/q82.json",
+      "sha256": "67950b41f50a04465de8236fadb870dbf408d872e45d3d00e6675b8d6cf6b9db",
+      "report": "I-q082.md",
+      "validation": "I-q082-validation.json"
+    },
+    {
+      "path": "data/summa/I/q83.json",
+      "sha256": "998c74b9f5486103eb9caf8fd53406d2e58585130bc7fb5848a9ed2f3651f00c",
+      "report": "I-q083.md",
+      "validation": "I-q083-validation.json"
+    },
+    {
+      "path": "data/summa/I/q84.json",
+      "sha256": "d4b1f32d0aca644c679a1807c4c25a641d4651aec58b693067550da4134e102f",
+      "report": "I-q084.md",
+      "validation": "I-q084-validation.json"
+    },
+    {
+      "path": "data/summa/I/q85.json",
+      "sha256": "e035225134ecac00c1a21151de96fe3805d92fd21759f33f3036efafae85a6bd",
+      "report": "I-q085.md",
+      "validation": "I-q085-validation.json"
+    },
+    {
+      "path": "data/summa/I/q86.json",
+      "sha256": "b61ee76e85b069a440e2e513e49c342db505bcb2004fc45b89bc5005e71de89f",
+      "report": "I-q086.md",
+      "validation": "I-q086-validation.json"
+    },
+    {
+      "path": "data/summa/I/q87.json",
+      "sha256": "a568a87175f99c2a98ba99598e50eaf2507b453540be82de56da8fddd6e648ad",
+      "report": "I-q087.md",
+      "validation": "I-q087-validation.json"
+    },
+    {
+      "path": "data/summa/I/q88.json",
+      "sha256": "7adea61105bcd334783fe1d53b2d3994c9a78972caacd2bd775cda526b7cd8ba",
+      "report": "I-q088.md",
+      "validation": "I-q088-validation.json"
+    },
+    {
+      "path": "data/summa/I/q89.json",
+      "sha256": "28f9f4f4ad33d82ebd6bd5cccdc7ddaf07320c6a7f64923326d7c1796b35ba77",
+      "report": "I-q089.md",
+      "validation": "I-q089-validation.json"
+    },
+    {
+      "path": "data/summa/I/q90.json",
+      "sha256": "0ea0738198aabb9ea8a94fc0bac372e0b5dbe9b956e7312a340898d686b0152d",
+      "report": "I-q090.md",
+      "validation": "I-q090-validation.json"
+    },
+    {
+      "path": "data/summa/I/q91.json",
+      "sha256": "a9a563bb8c2545df0bc0a23e200275fd87f50c8215817226fc8c8b82e9b3ff46",
+      "report": "I-q091.md",
+      "validation": "I-q091-validation.json"
+    },
+    {
+      "path": "data/summa/I/q92.json",
+      "sha256": "7e73cc360e339120c3836c561b0be5ba8e2779fb0a9bf647946cf612322fd98a",
+      "report": "I-q092.md",
+      "validation": "I-q092-validation.json"
+    },
+    {
+      "path": "data/summa/I/q93.json",
+      "sha256": "c2f3c5b3528b97955537ce011279237edd82d281531b82ae56eaf939a21003ee",
+      "report": "I-q093.md",
+      "validation": "I-q093-validation.json"
+    },
+    {
+      "path": "data/summa/I/q94.json",
+      "sha256": "885d59c44967d42eeffbb2d6574ade6f0971e5db70435d60118b658daf851709",
+      "report": "I-q094.md",
+      "validation": "I-q094-validation.json"
+    },
+    {
+      "path": "data/summa/I/q95.json",
+      "sha256": "5aeb85274fbd2c0dd49219c7549287e5fb354d29d0786da9a8e9326fc2a17bf3",
+      "report": "I-q095.md",
+      "validation": "I-q095-validation.json"
+    },
+    {
+      "path": "data/summa/I/q96.json",
+      "sha256": "aef12184c0c36c72d9266ae19d7c734870d5cf724b598a9f7ae7d0c421486d16",
+      "report": "I-q096.md",
+      "validation": "I-q096-validation.json"
+    },
+    {
+      "path": "data/summa/I/q97.json",
+      "sha256": "8b6e530f8fab974f580555449224c8983da04e58eb356360bd41402cadc7fde5",
+      "report": "I-q097.md",
+      "validation": "I-q097-validation.json"
+    },
+    {
+      "path": "data/summa/I/q98.json",
+      "sha256": "2e2fdbbcd328871a272453c4223f5d94e04f7a14022b3f290b0b4e85c656720e",
+      "report": "I-q098.md",
+      "validation": "I-q098-validation.json"
+    },
+    {
+      "path": "data/summa/I/q99.json",
+      "sha256": "0f7d8086f1b083a35f67cdf8b1cf4df88f677fe4085152b8b02ad9b49982dcb8",
+      "report": "I-q099.md",
+      "validation": "I-q099-validation.json"
+    },
+    {
+      "path": "data/summa/I/q100.json",
+      "sha256": "c81695e9fb5cf44d18ead1591925072877076e833f643b2ba00c2b93a7c7af63",
+      "report": "I-q100.md",
+      "validation": "I-q100-validation.json"
+    },
+    {
+      "path": "data/summa/I/q101.json",
+      "sha256": "bfbf5e3b61b6ff32f093105b7fe23f5b0f9e68a56b2db2bfe86a3034d545cae2",
+      "report": "I-q101.md",
+      "validation": "I-q101-validation.json"
+    },
+    {
+      "path": "data/summa/I/q102.json",
+      "sha256": "ebe0b7d8195e13ca319cea4cac8879814323e58052ac572d12cd713b9ddb9c24",
+      "report": "I-q102.md",
+      "validation": "I-q102-validation.json"
+    },
+    {
+      "path": "data/summa/I/q103.json",
+      "sha256": "7cdfa8c5fb6071569b462dd7256539abb7cd8094e9d6a061a4a8b549328c418e",
+      "report": "I-q103.md",
+      "validation": "I-q103-validation.json"
+    },
+    {
+      "path": "data/summa/I/q104.json",
+      "sha256": "7138a4924e87ae003aa78b04ffaf545104f567a13f6d0c9553bba6fc77f7584b",
+      "report": "I-q104.md",
+      "validation": "I-q104-validation.json"
+    },
+    {
+      "path": "data/summa/I/q105.json",
+      "sha256": "6a1ab233122797a8e582918c5f2c785f241fc1abbcd98be9b92843491bb6961f",
+      "report": "I-q105.md",
+      "validation": "I-q105-validation.json"
+    },
+    {
+      "path": "data/summa/I/q106.json",
+      "sha256": "056c932b3925abe2a901f6d3e247ec78e31105a3a4ad776b614f39cfd8deb5fa",
+      "report": "I-q106.md",
+      "validation": "I-q106-validation.json"
+    },
+    {
+      "path": "data/summa/I/q107.json",
+      "sha256": "e9cf02d4f170bfcc0dc7c551443c4cbcb6f95fe03e3d6ea38a29efdbad9ac503",
+      "report": "I-q107.md",
+      "validation": "I-q107-validation.json"
+    },
+    {
+      "path": "data/summa/I/q108.json",
+      "sha256": "d46d501a3dc7677f86b5d1d8b02a976a8e9e0ab76568ed078ff83d83fab8b803",
+      "report": "I-q108.md",
+      "validation": "I-q108-validation.json"
+    },
+    {
+      "path": "data/summa/I/q109.json",
+      "sha256": "607112e061d4be19ab48119dec5d0ccab8021d502e169687417f3e31de59d660",
+      "report": "I-q109.md",
+      "validation": "I-q109-validation.json"
+    },
+    {
+      "path": "data/summa/I/q110.json",
+      "sha256": "474c5f89713a0d8696549d987044dbbea6b8eeb241ed58ea68b87ee1843de8db",
+      "report": "I-q110.md",
+      "validation": "I-q110-validation.json"
+    },
+    {
+      "path": "data/summa/I/q111.json",
+      "sha256": "2c941db55cd7d6a762c4e335db78f51406bac9c5fc91644e2311163707aefa71",
+      "report": "I-q111.md",
+      "validation": "I-q111-validation.json"
+    },
+    {
+      "path": "data/summa/I/q112.json",
+      "sha256": "20a2374b789cce53a3e0e864b098b4cc70d6436cfaf2aca96fd9c47bce31c19c",
+      "report": "I-q112.md",
+      "validation": "I-q112-validation.json"
+    },
+    {
+      "path": "data/summa/I/q113.json",
+      "sha256": "e686b2394107766ea6869b00c79f04f14803d7f69acda8760eb46d7ba65e2858",
+      "report": "I-q113.md",
+      "validation": "I-q113-validation.json"
+    },
+    {
+      "path": "data/summa/I/q114.json",
+      "sha256": "3298d21b89b1af7be892fb9ac6e77da1087afd097bebb8fafece831bfd0ac846",
+      "report": "I-q114.md",
+      "validation": "I-q114-validation.json"
+    },
+    {
+      "path": "data/summa/I/q115.json",
+      "sha256": "3f632285d1f1d7fe4218e6926c2cc7cecec26414c19d79558a253672ef1c5d2c",
+      "report": "I-q115.md",
+      "validation": "I-q115-validation.json"
+    },
+    {
+      "path": "data/summa/I/q116.json",
+      "sha256": "bcf7d879b93317c9f5fe1117a0055272ac008bfcaac12481e960f6a65c31ee1b",
+      "report": "I-q116.md",
+      "validation": "I-q116-validation.json"
+    },
+    {
+      "path": "data/summa/I/q117.json",
+      "sha256": "8f84688ee241583487ffbf6807180032e8b11839c7e95cd2ef6353611720ff4a",
+      "report": "I-q117.md",
+      "validation": "I-q117-validation.json"
+    },
+    {
+      "path": "data/summa/I/q118.json",
+      "sha256": "ec7bf26f3851cdc213b1cae0ac5a2ae4a313da4e2adb62f641414d8587095081",
+      "report": "I-q118.md",
+      "validation": "I-q118-validation.json"
+    },
+    {
+      "path": "data/summa/I/q119.json",
+      "sha256": "31aa7462e4ecbcaf177caa581cdb33a1e47e8e30431ccd6ee51b5cc605978e91",
+      "report": "I-q119.md",
+      "validation": "I-q119-validation.json"
+    },
+    {
+      "path": "data/summa/catalog.json",
+      "sha256": "fc03dda58fa6c56ee13d16986608e011d4981a0c38df824afd99343104ed12f6"
+    }
+  ],
+  "commits": [
+    "4f436175323c79deba040fefdf237e315769958e|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Audit questions 101–119 and verify Prima Pars release gate",
+    "906f4579c4bfe0af5fc5002db210ae8cf76db91f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 119 locally against PDF images",
+    "05ac7beb3dd3f49998bc363aae68479470bc8783|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 118 locally against PDF images",
+    "7325153de860938f649b02e40b41045dd77c1570|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 117 locally against PDF images",
+    "969ff59400ed935dd6614fe79de39ae9d697d672|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 116 locally against PDF images",
+    "51da1269e8f4efba439b3ef6310ec303e35aea2e|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 115 locally against PDF images",
+    "8e542895f50a47e783bec2d7cd4be4c5f1644c53|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 114 locally against PDF images",
+    "42bd2c6bf876cd16889368fd983aa47aa209e19b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 113 locally against PDF images",
+    "2f18348e9d4672ac6dd065d4bc83db7a466dde1c|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 112 locally against PDF images",
+    "d3676253c713672f234e900ac290b841a70c26b4|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 111 locally against PDF images",
+    "59532a9df57b67ed462dd0e13b8194416d5d2941|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 110 locally against PDF images",
+    "fd50146c655fcd8de6f522f2e5875544b5d3d5a7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 109 locally against PDF images",
+    "6e0d836096fdd07292e58db56ce4b2e720429f41|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 108 locally against PDF images",
+    "d96768b85d0d58ff71961847cbaf648fea831ff9|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 107 locally against PDF images",
+    "f03166d0f5e027c364fb4e7dcefa88f4c55b025b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 106 locally against PDF images",
+    "0dbbb411d1e80bc3c02d923eea289c61f997c28b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 105 locally against PDF images",
+    "d1b4cf1af17e6e50cda81a45236e0bdf65e9d9c7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 104 locally against PDF images",
+    "58966aa2815fed6d437bbf6c32de3d125d173799|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 103 locally against PDF images",
+    "ec5b8b0be1b9f06984ca9a4a2d950fc5a095c802|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 102 locally against PDF images",
+    "26de81578e582760d73d45b3c0eb43db8351c070|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 101 locally against PDF images",
+    "7930caf7e4f5d454300d62055bb1d28213feba95|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Record local proofreading audit for Prima Pars questions 91–100",
+    "3b8a89ff2f81f021df33cc4630891f15013fce15|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Refine question 95 citation reading after enlarged PDF review",
+    "0b056e7328002ccea1d2531372bb6da84553bc3f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 100 locally against PDF images",
+    "05da669a35b55e9f0602d3bdaed16f6af09e44c5|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 99 locally against PDF images",
+    "fce402aa9ffacccfaec17e76cdad4e56411d5917|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 98 locally against PDF images",
+    "9dcd87f87fe138bbb99f9ea3cca234aef4c564ac|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 97 locally against PDF images",
+    "39d2d869d0d36a895329472e08b657fb1d00ce50|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 96 locally against PDF images",
+    "e13ad618b7fd23fb48e8b11191e8baaa91270212|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 95 locally against PDF images",
+    "d861b0c6d8af191306df89d0a60df735f503ead7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 94 locally against PDF images",
+    "aec3675a39ef848acbd473cc7d459c3ef5cc5fa0|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 93 locally against PDF images",
+    "268db8114ec6e6febc56013a53316973c089979b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 92 locally against PDF images",
+    "ec34c139afcb056b7b6ead1ea42fa2d7bf905125|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 91 locally against PDF images",
+    "4a10de3a540d46c4b43639224d4f5b11563ee9b9|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Record local proofreading audit for Prima Pars questions 84–90",
+    "0ad0f3c44b763dfe5679e2a900cb0815990bd1b5|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 90 locally against PDF images",
+    "f92509ee88fe0bfcfcd8b69821759a1c6fc34244|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 89 locally against PDF images",
+    "d24733961baf23dd3f1c0a98b8f286f2296cd565|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 88 locally against PDF images",
+    "2c0a7ec59991d07235630d5d3363ad2b4fd3468a|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 87 locally against PDF images",
+    "9671000c91950a2086574694851586c2ec187a49|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 86 locally against PDF images",
+    "163975c15ef4906a6540357c94b01cb1d0435d0b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 85 locally against PDF images",
+    "c83c2a566585237ec1355436e23c135eba42b506|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 84 locally against PDF images",
+    "5af0c1e49c598eddd4f38984d9291296ea679b79|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Record local questions 81-83 audit and retain magnified source reading",
+    "3ee1b6af15e04cb2c195e778fef25373bf80c437|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 83 locally against PDF images",
+    "9ae589f50675968318eddac642ab3eccaad98b3b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 82 locally against PDF images",
+    "9d67b66c1b29c994141a4e80fd3928e90c54ad00|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Prima Pars question 81 locally against PDF images"
+  ]
+}
