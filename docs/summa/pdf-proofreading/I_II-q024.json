@@ -1,0 +1,1239 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q024",
+  "date": "2026-10-25",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q024",
+    "title": "論靈魂之情的善惡",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "printed_pages": [
+      253,
+      259
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q24.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q24.json": "383e35a4751da3b1760feb787c6a27199efc28df0220cb0b1850d77e26a3042f"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q024.a003.arg2",
+      "pdf_file_page": 2027,
+      "text": "卷四第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页作《天主之城》卷四第五章，疑与卷九第五章引文有出入，按底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q024.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "然後要討論關於靈魂之情的善惡(參看第二十二題引言)。\n關於此點，可以提出四個問題:\n一、靈魂之情是杏能有道德性的善惡。\n二、按道德觀點，是否靈魂之情皆惡。\n三、是否凡情皆增減行動之善惡。\n四、是否有情按本類即是善的、或惡的。",
+      "after": "然後要討論關於靈魂之情的善惡(參看第二十二題引言)。\n關於此點，可以提出四個問題：\n一、靈魂之情是否能有道德性的善惡。\n二、按道德觀點，是否靈魂之情皆惡。\n三、是否凡情皆增減行動之善惡。\n四、是否有情按本類即是善的、或惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是杏",
+          "after": "是否",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "靈魂之情是否能有道德性的善惡",
+      "after": "靈魂之情是否能有道德性的善惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "似乎沒有一個情在道德上是善的或惡的。因為:",
+      "after": "似乎沒有一個情在道德上是善的或惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "道德性的善惡是專屬於人的;如盎博羅修在《路加福音註疏》序言中說的: 「道德嚴格地說是人性的」。但情不是人專有的，而是與其他動物所共有的。所以，靈魂之情沒有一個在道德上是善的或惡的。",
+      "after": "道德性的善惡是專屬於人的；如盎博羅修在《路加福音註疏》序言中說的：「道德嚴格地說是人性的」。但情不是人專有的，而是與其他動物所共有的。所以，靈魂之情沒有一個在道德上是善的或惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "此外，按狄奧尼修在《神名論》第四章說的，人的善或惡乃是「合理性之實在或背理性之實在」。但按前面第二十二題第三節說的，靈魂之情不是在理性部分，而是在感官性嗜慾部分。所以，不關乎人道德上的善惠。",
+      "after": "此外，按狄奧尼修在《神名論》第四章說的，人的善或惡乃是「合理性之實在或背理性之實在」。但按前面第二十二題第三節說的，靈魂之情不是在理性部分，而是在感官性嗜慾部分。所以，不關乎人道德上的善惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善惠",
+          "after": "善惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2024
+      ],
+      "before": "哲學家在《倫理學》卷二第五章說: 「我們不因7情而受讚美或譴責」。但我們是按道德上的善惡受讚美或受譴青。所以，情在道德上沒有善惡。",
+      "after": "哲學家在《倫理學》卷二第五章說：「我們不因了情而受讚美或譴責」。但我們是按道德上的善惡受讚美或受譴責。所以，情在道德上沒有善惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "譴青",
+          "after": "譴責",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2024,
+        2025
+      ],
+      "before": "奧斯定在《天主之城》卷十四第七章，論靈魂之情卻說: 「若愛是善的，情便是善的;若愛是惡的，情便是惡的。」",
+      "after": "奧斯定在《天主之城》卷十四第七章，論靈魂之情卻說：「若愛是善的，情便是善的；若愛是惡的，情便是惡的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "我解答如下:可以從兩方面去看靈魂的情:一方面，看其本身;另一方面，按其隸屬於理性及意志之命令。若看其本身，即視之為嗜慾之非理性的動態，則沒有道德性的善惡;因為按前面第十八題第五節說的，道德性之善惡繫於理性。若按其隸屬於理性及意志之命令，則有道德性的善惡。因為感官嗜慾與理性及意志之關係，比外肢與理性及意志之關係，更為密切;但外肢之動態或行動若是情願的，有道德上的善惡。所以，情若是i育願的，更能有道德上的善惡。若受到意志之命令，或未為意志所禁止，情便是情願的。",
+      "after": "我解答如下：可以從兩方面去看靈魂的情：一方面，看其本身；另一方面，按其隸屬於理性及意志之命令。若看其本身，即視之為嗜慾之非理性的動態，則沒有道德性的善惡；因為按前面第十八題第五節說的，道德性之善惡繫於理性。若按其隸屬於理性及意志之命令，則有道德性的善惡。因為感官嗜慾與理性及意志之關係，比外肢與理性及意志之關係，更為密切；但外肢之動態或行動若是情願的，有道德上的善惡。所以，情若是情願的，更能有道德上的善惡。若受到意志之命令，或未為意志所禁止，情便是情願的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i育願",
+          "after": "情願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "按其本身來看，情是人與其他動物所共有的;但按其受理性支配看，買IJ情為人所專有者。",
+      "after": "按其本身來看，情是人與其他動物所共有的；但按其受理性支配看，則情為人所專有者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "按《倫理學》卷一第十三章說的，下級嗜慾之能力，因為「分得一些理性」'也稱為是有理性的。",
+      "after": "按《倫理學》卷一第十三章說的，下級嗜慾之能力，因為「分得一些理性」，也稱為是有理性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理性」'",
+          "after": "理性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "哲學家說我們不因情而受讚美或譴責，是按情本身說的;但並不排除能因了其與理性之關係而成為可讚美的、或可譴責的。因此他接著說: 「一人不因了害怕或生氣而受讚美或譴責，而要看情況怎樣」'即是看合理或不合理。",
+      "after": "哲學家說我們不因情而受讚美或譴責，是按情本身說的；但並不排除能因了其與理性之關係而成為可讚美的、或可譴責的。因此他接著說：「一人不因了害怕或生氣而受讚美或譴責，而要看情況怎樣」，即是看合理或不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "怎樣」'",
+          "after": "怎樣」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "按道德觀點是否靈魂之情皆惡",
+      "after": "按道德觀點是否靈魂之情皆惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "在道德上，靈魂之情似乎都是惡的。因為:",
+      "after": "在道德上，靈魂之情似乎都是惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2025
+      ],
+      "before": "奧斯定在《天主之城》卷九第四章說: 「有人稱靈魂之情為疾病或困擾。」但靈魂上的疾病或困擾，皆是道德上的惡。所以，靈魂之情在道德上皆是惡的。",
+      "after": "奧斯定在《天主之城》卷九第四章說：「有人稱靈魂之情為疾病或困擾。」但靈魂上的疾病或困擾，皆是道德上的惡。所以，靈魂之情在道德上皆是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2025,
+        2026
+      ],
+      "before": "此外，大馬士革的若望《論正統信仰》卷二第二十二章說: 「行為是按天性的動態，情是反天性的動態。」但靈魂之反天性的動態是道德上的惡和罪;為此，他在另一處說，魔鬼「從按天性者變成了皮天性者」(第四章)。所以這些情在道德上是惡的。",
+      "after": "此外，大馬士革的若望《論正統信仰》卷二第二十二章說：「行為是按天性的動態，情是反天性的動態。」但靈魂之反天性的動態是道德上的惡和罪；為此，他在另一處說，魔鬼「從按天性者變成了反天性者」(第四章)。所以這些情在道德上是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮天性",
+          "after": "反天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2026
+      ],
+      "before": "此外，凡促成罪惡者，皆是惡的。但這些情造成罪惡，因此《羅馬書》第七章5節稱之為「罪惡之情慾」。所以，情在道德上似乎是惡的。",
+      "after": "此外，凡促成罪惡者，皆是惡的。但這些情造成罪惡，因此《羅馬書》第七章5節稱之為「罪惡之情慾」。所以，情在道德上似乎是惡的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2026
+      ],
+      "before": "奧斯定在《天主之城》卷十四第九章卻說: 「(他們的)正直愛情，使這些情的感應都成為正當的。他們畏懼犯罪，希望固執於善，以罪惡為憂，以善事為樂。」",
+      "after": "奧斯定在《天主之城》卷十四第九章卻說：「(他們的)正直愛情，使這些情的感應都成為正當的。他們畏懼犯罪，希望固執於善，以罪惡為憂，以善事為樂。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2026,
+        2027
+      ],
+      "before": "我解答如下:關於這個問題，斯多噶派與亞里斯多德派的意見不同:斯多唷派說情皆是惡的;亞里斯多德派說有節制的情是善的。這個差別在字面上雖然相去很遠，但實際上若看兩方的觀念，相去無幾或不遠。斯多噶派不區分感官與智性;因此也不分感官嗜慾與智性嗜慾。故此，他們不把靈魂的情與意志的動態分開，即不將感官嗜慾稱為情，將智↑生嗜慾稱為意志的動態;而他們將嗜慾方面合理的動態概稱為意志，而不合理的稱為惰。因此西塞祿隨從他們的意見，在《杜士古廬論集》(De Tusculanis quaestionibus)卷三第四章中，將情稱為「靈魂的疾病」。故此，他推論說: 「有病的就不是健全的;不健全的便是糊塗的。」因此我們也稱糊塗人是不健全的。\n亞里斯多德派則將感官嗜慾之動態統稱為惰。故認為若受理性支配，則是善的;若不聽理性之支配，便是惡的。由此可見，西塞祿在同一書中(第十章)，對亞里斯多德派贊同情之適中的意見，反駁的實在沒有理由。他說: 「凡是惡，包括適中的在內，皆應避免。就如身體，即便是適中的生病，亦是不健全的;如此則疾病的適中，或靈魂之情的適中，也是不健全的。」因為除非情不受理性之支配，不得稱之為靈魂的疾病或困擾。",
+      "after": "我解答如下：關於這個問題，斯多噶派與亞里斯多德派的意見不同：斯多噶派說情皆是惡的；亞里斯多德派說有節制的情是善的。這個差別在字面上雖然相去很遠，但實際上若看兩方的觀念，相去無幾或不遠。斯多噶派不區分感官與智性；因此也不分感官嗜慾與智性嗜慾。故此，他們不把靈魂的情與意志的動態分開，即不將感官嗜慾稱為情，將智性嗜慾稱為意志的動態；而他們將嗜慾方面合理的動態概稱為意志，而不合理的稱為情。因此西塞祿隨從他們的意見，在《杜士古廬論集》(De Tusculanis quaestionibus)卷三第四章中，將情稱為「靈魂的疾病」。故此，他推論說：「有病的就不是健全的；不健全的便是糊塗的。」因此我們也稱糊塗人是不健全的。\n亞里斯多德派則將感官嗜慾之動態統稱為情。故認為若受理性支配，則是善的；若不聽理性之支配，便是惡的。由此可見，西塞祿在同一書中(第十章)，對亞里斯多德派贊同情之適中的意見，反駁的實在沒有理由。他說：「凡是惡，包括適中的在內，皆應避免。就如身體，即便是適中的生病，亦是不健全的；如此則疾病的適中，或靈魂之情的適中，也是不健全的。」因為除非情不受理性之支配，不得稱之為靈魂的疾病或困擾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "斯多唷",
+          "after": "斯多噶",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "為惰",
+          "after": "為情",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "由上可知質疑1之答案。",
+      "after": "由上可知質疑1之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "靈魂的每種情，皆對心之自然動態有所增滅，或使之動的較快，或者較慢，按心的收縮及擴張:情之理即在此。但情並不一定常背反自然理性的秩序。",
+      "after": "靈魂的每種情，皆對心之自然動態有所增減，或使之動的較快，或者較慢，按心的收縮及擴張：情之理即在此。但情並不一定常背反自然理性的秩序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "增滅",
+          "after": "增減",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "靈魂的情若不合理性，便導致罪惡;若合於理性，則屬於德性。",
+      "after": "靈魂的情若不合理性，便導致罪惡；若合於理性，則屬於德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "情是否增減行動之善惡",
+      "after": "情是否增減行動之善惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "無論什麼情，似乎皆減少道德行動之善。因為:",
+      "after": "無論什麼情，似乎皆減少道德行動之善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "道德行動之善繫於理性之判斷，凡妨礙理性之判斷者，皆減少道德行動之善。但凡情皆妨礙判斷，因為薩魯斯底\\Sallustius'86-34 BC)在《論卡提裏那之政變》(Catilinario)第五十一章說:「人在考慮有問題的事時，應拋開仇恨、忿怒、友誼及慈悲。」所以凡情皆減少道德行動之善。",
+      "after": "道德行動之善繫於理性之判斷，凡妨礙理性之判斷者，皆減少道德行動之善。但凡情皆妨礙判斷，因為薩魯斯底(Sallustius，86~34 BC)在《論卡提里那之政變》(Catilinario)第五十一章說：「人在考慮有問題的事時，應拋開仇恨、忿怒、友誼及慈悲。」所以凡情皆減少道德行動之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "\\Sallustius'86-34 BC)",
+          "after": "(Sallustius，86~34 BC)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卡提裏那",
+          "after": "卡提里那",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "此外，人的行動，愈像似天主的行動就愈善;故此宗徒在《厄弗所書》第五章i節說:「你們應該效法天主，如同蒙寵愛的兒女一樣。」然而，奧斯定在《天主之城》卷四第五章說:「天主及天使，處罰而無忿怒，輔助而不為痛苦所動。」所以做這些善事不帶情比帶情更好。",
+      "after": "此外，人的行動，愈像似天主的行動就愈善；故此宗徒在《厄弗所書》第五章1節說：「你們應該效法天主，如同蒙寵愛的兒女一樣。」然而，奧斯定在《天主之城》卷四第五章說：「天主及天使，處罰而無忿怒，輔助而不為痛苦所動。」所以做這些善事不帶情比帶情更好。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "章i節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2027
+      ],
+      "before": "此外，正如道德上的惡是看其與理性之關係，善也是一樣。但情減少道德性的惡，由於情而犯罪者，比那由預謀而犯罪者，罪過較輕。所以不帶情行善，比那帶情行善者，善功較大。",
+      "after": "此外，正如道德上的惡是看其與理性之關係，善也是一樣。但情減少道德性的惡，由於情而犯罪者，比那由預謀而犯罪者，罪過較輕。所以不帶情行善，比那帶情行善者，善功較大。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2028
+      ],
+      "before": "奧斯定在《天主之城》卷九第五章卻說，慈悲之惰，「有助於理性，倘若慈悲尊重正義，無論是為濟助貧困者，或為寬恕悔過者」。但有助於理性者，不減少道德性的善。所以情不減少行為之善。",
+      "after": "奧斯定在《天主之城》卷九第五章卻說，慈悲之情，「有助於理性，倘若慈悲尊重正義，無論是為濟助貧困者，或為寬恕悔過者」。但有助於理性者，不減少道德性的善。所以情不減少行為之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慈悲之惰",
+          "after": "慈悲之情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2028
+      ],
+      "before": "我解答如下:斯多噶派因了認為凡情皆是惡的，故主張凡情皆減少行動之善;因為善若雜有惡，則善或被完全破壞，或被減少。若靈魂之情只指感官嗜慾之不合理的動態，即指靈魂之困擾及病態，則道主張正確。但若情是指感官嗜慾的一切動態，~IJ這些情若受理性支配，便也屬於人在善方面的成就。既然人之善的基礎在於理性，買IJ適合人者包羅得愈多，則這善的成就也愈高。因此沒有人否認，外肢受理性支!吏，屬於善之成就。那麼，按前面第十七題第七節說的，感官嗜慾既然能服從理性，fjlj使靈魂立情受理性規範，也是人之道德性或人性之善的成就。\n就如人又願意善又表現為行動更好;同樣，人不只按意志動向善，同時也按感官嗜慾動向善，屬於人道德上之善的成就。就如《聖詠》第八十四篇3節說的: 「我的心靈以及我的肉身，向生活的天主踴躍歡欣。」這裡心靈可解釋為智性嗜慾，而肉身為感官性嗜慾。",
+      "after": "我解答如下：斯多噶派因了認為凡情皆是惡的，故主張凡情皆減少行動之善；因為善若雜有惡，則善或被完全破壞，或被減少。若靈魂之情只指感官嗜慾之不合理的動態，即指靈魂之困擾及病態，則這主張正確。但若情是指感官嗜慾的一切動態，則這些情若受理性支配，便也屬於人在善方面的成就。既然人之善的基礎在於理性，則適合人者包羅得愈多，則這善的成就也愈高。因此沒有人否認，外肢受理性支使，屬於善之成就。那麼，按前面第十七題第七節說的，感官嗜慾既然能服從理性，則使靈魂之情受理性規範，也是人之道德性或人性之善的成就。\n就如人又願意善又表現為行動更好；同樣，人不只按意志動向善，同時也按感官嗜慾動向善，屬於人道德上之善的成就。就如《聖詠》第八十四篇3節說的：「我的心靈以及我的肉身，向生活的天主踴躍歡欣。」這裡心靈可解釋為智性嗜慾，而肉身為感官性嗜慾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "則道主張",
+          "after": "則這主張",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "支!吏",
+          "after": "支使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "fjlj",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "靈魂立情",
+          "after": "靈魂之情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2028,
+        2029
+      ],
+      "before": "靈魂之情與理性之判斷可以有兩種關f系。第一是在判斷以前。這樣，情矇蔽理性之判斷，而道德行動之善繫於理性之判斷，故減少行動之善。一人因理性之判斷而做受德行為，比只由於慈悲之心更為可貴。另一種是在判斷以後。這又分為兩種。第一種是以把注方式句即由於靈魂之高級部分強烈地動向一物，引起低級部分亦隨之而動。這時感官嗜慾之情是意志強烈的記號，所以顯示更大的道德性的善。另一種是以選擇方式;即是人經理性之判斷，決定發動惰，為了在感官嗜慾的合作下，行動更有效。這樣則靈魂之情增加行為之善。",
+      "after": "靈魂之情與理性之判斷可以有兩種關係。第一是在判斷以前。這樣，情矇蔽理性之判斷，而道德行動之善繫於理性之判斷，故減少行動之善。一人因理性之判斷而做愛德行為，比只由於慈悲之心更為可貴。另一種是在判斷以後。這又分為兩種。第一種是以挹注方式，即即由於靈魂之高級部分強烈地動向一物，引起低級部分亦隨之而動。這時感官嗜慾之情是意志強烈的記號，所以顯示更大的道德性的善。另一種是以選擇方式；即是人經理性之判斷，決定發動情，為了在感官嗜慾的合作下，行動更有效。這樣則靈魂之情增加行為之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關f系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "做受德",
+          "after": "做愛德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "把注方式句",
+          "after": "挹注方式，即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "發動惰",
+          "after": "發動情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "天主及天使沒有感官性嗜慾，也沒有肉身肢體。所以，不像我們一樣，他們的善不看情及身體動作之關係。",
+      "after": "天主及天使沒有感官性嗜慾，也沒有肉身肢體。所以，不像我們一樣，他們的善不看情及身體動作之關係。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "在理性之判斷以前傾向惡的情，減輕罪過;但在理性判斷以後者，按上述方式之一(參照釋疑1.)，增加罪過或顯示罪過之增加。",
+      "after": "在理性之判斷以前傾向惡的情，減輕罪過；但在理性判斷以後者，按上述方式之一(參照釋疑1.)，增加罪過或顯示罪過之增加。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "是否有情按本類即是善的、或惡的",
+      "after": "是否有情按本類即是善的、或惡的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "有關第四節我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四節我們",
+          "after": "第四節，我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "似乎沒有任何情按本類是善的、或惡的。因為:",
+      "after": "似乎沒有任何情按本類是善的、或惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "道德性的善惡是按理性去看。但情是在感官嗜慾部分，那按理性者，對情而言是偶然附加的。既然偶爾附加者不屬於東西之類別，似乎沒有情按本類即善或惡。",
+      "after": "道德性的善惡是按理性去看。但情是在感官嗜慾部分，那按理性者，對情而言是偶然附加的。既然偶爾附加者不屬於東西之類別，似乎沒有情按本類即善或惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q024.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "此外，行動與情是依對象分類別。如果某情按本類即善或惠，貝IJ以善為對象的情按本類皆應是善的，如:愛、願望、喜樂;而以惡為對象的情按本類該是惡的，如:憎惡、畏懼、哀愁。但這顯然不合理。所以，沒有情按本類即善或惡。",
+      "after": "此外，行動與情是依對象分類別。如果某情按本類即善或惡，則以善為對象的情按本類皆應是善的，如：愛、願望、喜樂；而以惡為對象的情按本類該是惡的，如：憎惡、畏懼、哀愁。但這顯然不合理。所以，沒有情按本類即善或惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善或惠",
+          "after": "善或惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "此外，沒有一種情是其他動物所沒有的。但道德性的善是隻屬於人的。所以，沒有情按本類即善或惡。",
+      "after": "此外，沒有一種情是其他動物所沒有的。但道德性的善是只屬於人的。所以，沒有情按本類即善或惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻屬於",
+          "after": "只屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2029
+      ],
+      "before": "奧斯定在《天主之城》卷九第五章卻說: 「慈悲屬於德性。」哲學家在《倫理學》卷二第七章也說，廉恥是個可稱道的情。所以，有的情按本類即善或惡。",
+      "after": "奧斯定在《天主之城》卷九第五章卻說：「慈悲屬於德性。」哲學家在《倫理學》卷二第七章也說，廉恥是個可稱道的情。所以，有的情按本類即善或惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2029,
+        2030
+      ],
+      "before": "我解答如下:關於行動所說的，似乎也適用於情，即是說，行動或情之類別可從兩方面去看:第一是按自然類別，如此則道德性的善惡不屬於行動或情之類另IJ;第二是按道德性類別，即自其分有一些情願及理性之判斷的觀點。這樣則道德性的善惡能夠屬於情之類別，即按情之對象是合於或不合於理性，例如:廉恥就很顯然，那是對可恥者之畏懼;嫉妒也很明顯，那是因他人之善而愁。如此則這些情屬於外在行動之類別。",
+      "after": "我解答如下：關於行動所說的，似乎也適用於情，即是說，行動或情之類別可從兩方面去看：第一是按自然類別，如此則道德性的善惡不屬於行動或情之類別；第二是按道德性類別，即自其分有一些情願及理性之判斷的觀點。這樣則道德性的善惡能夠屬於情之類別，即按情之對象是合於或不合於理性，例如：廉恥就很顯然，那是對可恥者之畏懼；嫉妒也很明顯，那是因他人之善而愁。如此則這些情屬於外在行動之類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2030
+      ],
+      "before": "所舉之理由是根據情之自然類則，即是看感官嗜慾本身;若以情服從理性之觀點，買IJ情之善惡便不再是偶然的，而是本然的。",
+      "after": "所舉之理由是根據情之自然類別，即是看感官嗜慾本身；若以情服從理性之觀點，則情之善惡便不再是偶然的，而是本然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類則",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2030
+      ],
+      "before": "那些指向善的情，如果是真善，情便是善的;那逃避真惡的情也是善的。皮之，背向善及面向惡的情都是惡的。",
+      "after": "那些指向善的情，如果是真善，情便是善的；那逃避真惡的情也是善的。反之，背向善及面向惡的情都是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q024.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2030
+      ],
+      "before": "禽獸之感宮嗜慾不服從理性，但它接受某種自然評估的指引;而此評估服從更高級的理性，即天主的理性;所以就魂魄之情而言，多少近似道德性之善。",
+      "after": "禽獸之感官嗜慾不服從理性，但它接受某種自然評估的指引；而此評估服從更高級的理性，即天主的理性；所以就魂魄之情而言，多少近似道德性之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
