@@ -14,6 +14,7 @@
 | Apology《申辩篇》 | 17a–42a | 345 |
 | Alcibiades 2《阿尔西比亚德斯 2》 | 138a–151c | 257 |
 | Gorgias《高尔吉亚篇》 | 447a–527e | 1720 |
+| Statesman《政治家篇》 | 257a–311c | 898 |
 
 前三部作品的希腊文及中文译文取自馆主指定的三份材料。结构分析保留理解句子所需的主干、从句、支配关系和省略说明，删去逐项词形清单及泛泛的风格评论，并改写冗长、夸饰的讲解。原 TXT 文件未改动。
 
@@ -29,6 +30,11 @@
 - [Apology · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg002/)
 - [Alcibiades 2 · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg014/)
 - [Gorgias · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg023/)
+- [Statesman · Perseus](https://scaife.perseus.org/library/urn:cts:greekLit:tlg0059.tlg008/)
+
+《政治家篇》使用该URN对应的Perseus官方 `canonical-greekLit` 仓库 `tlg0059.tlg008.perseus-grc2.xml`，完整保存257a–311c，共55个Stephanus整数页、898个阅读单元、16953个希腊词次。原TEI保存在 `tools/statesman-source.xml`，SHA-256为 `6e76ac237899ebeca2cc16f6ee63b2026ef0d66957547c3926eae2b6352e0ff2`。阅读单元依原本的898个 `said` 段建立，一单元可以包括相连的数句；页末延续发言保留原顺序。排除篇名、说话人标签、注释、书目及拟删文字，正文补入文字保留；连续正文除空白布局外逐字校验，不补写或改写希腊原文。
+
+馆主本次明确要求重新翻译中文，因此本篇不依赖先前精读稿：中文按所指定的 **Plato Dialogue Style** 方法，从希腊文重新编写，尽量保留概念词根、呈现顺序、分词背景、条件与语气，并兼顾汉语可读性。672个单元分别编写译文和具体结构说明，226个简短答语使用一致的译释。内容保存在 `tools/statesman-reading/`，通用答语及原文分段、德译对应程序见 `tools/import_statesman.py`；三项笔记合并为 `tools/statesman-notes.json`。这些译注均可由馆主在网页修改，修改后的数据保留馆主标记。
 
 《高尔吉亚篇》使用该作品URN对应的Perseus官方 `canonical-greekLit` 仓库 `tlg0059.tlg023.perseus-grc2.xml`，SHA-256为 `c0d1fc4fd562d2ed3c3378a04c1965c4883b28d50a745320f9ea91be9b601f9f`。用户本次所贴 `tlg013` 链接实际为《阿尔西比亚德斯 1》，已按明确的作品名称及原精读稿中记载的底本改用 `tlg023`。完整保存447a–527e，沿用材料的1720个句读编号；排除现代标签、书目、注释及编辑拟删文字，保留正文补入文字。引诗的行与行之间补空格，以免词语粘连；不补造原XML空缺处的文字。
 
@@ -58,6 +64,7 @@ Perseus原始电子文本许可：[CC BY-SA 3.0 US](https://creativecommons.org/
 - Apology：`OEBPS/Text/part0006.xhtml` 中“Des Sokrates Verteidigung”标题之后，续至 `part0007.xhtml`，止于下一篇之前。整数页码为17–41，42a的结尾德文仍在EPUB所标41页中，保留实际来源页号。
 - Parmenides：标题位于 `OEBPS/Text/part0005.xhtml` 末尾，正文在 `part0006.xhtml`，126–166页；不收录前后相邻作品及导言。
 - Gorgias：标题位于 `OEBPS/Text/part0009.xhtml`，正文在 `part0010.xhtml`，447–527页；止于下一篇《泰阿泰德篇》之前。本篇标注Akademie Verlag Berlin 1985。全篇1081次发言转换与希腊文逐一核对一致后，再在各自发言内匹配句段。849–850、1660–1661、1716–1717等处保留跨越希腊句读边界的完整德文原句；889–890与1677–1678处另核对句界。未使用原阶段稿的自译德文作为显示译文。
+- Statesman：`OEBPS/Text/part0016.xhtml` 中正文标题“Der Staatsmann”之后，257–311页，排除前置导言，止于随后书目／下一篇之前。本篇书内标注Akademie Verlag Berlin 1986。891次连续发言与希腊文顺序相合；结尾311c希腊本署“Νεώτερος Σωκράτης”，所供德译署“Sokrates”，两者各自保留，并在最后单元结构说明中注明。相邻续说段内再匹配德文；300–301与660–661保留跨越希腊段界的完整德文原句，相关单元共用对应句。全部德文句译直接摘录EPUB，没有另译或改写。
 
 该 EPUB 只有 Stephanus 整数页标记，没有 a–e 小节或逐句编号。句读笔记采用原译中的对应句段：按页码、内容顺序与说话人匹配，并允许一句跨越整数页。德译把数个希腊短句合写时，相关单元共用完整原译句。所摘文字保留原文；匹配采用程序辅助并作抽查，不表示每一处已完成独立的语文学复核。《智者篇》最后一个摘录止于本栏目 242b 的对应句，不把该整数页的后续论述一并显示。
 
@@ -93,6 +100,7 @@ Diorisis对应不等于人工确认；保留语料中的候选，不把自动选
 - `data/classics/pape.json`：本栏目实际用到的Pape词条，独立载入并缓存。
 - `tools/import_classics.py`：可重复运行的导入器，无翻译模型依赖。
 - `tools/import_gorgias.py`：全篇《高尔吉亚篇》的导入器；`gorgias-source.xml` 保存原TEI，`gorgias-units.json` 保存完整句读索引，`gorgias-notes.json` 保存三栏笔记；`gorgias-zh-supplement.json` 和 `gorgias-morphology.json` 保存中文词汇及少见词形补注。`docs/gorgias-import-report.json`、`docs/gorgias-alignment-review.json` 记录覆盖与德译对应。Diorisis语料仍按同一数据集署名。
+- `tools/import_statesman.py`：全篇《政治家篇》的导入器；`statesman-source.xml`、`statesman-units.json`、`statesman-notes.json` 分别保存底本、分段和三栏内容。`statesman-lexicon.txt` 为本篇新编中文词汇短释，导入时生成 `statesman-zh-supplement.json`；`statesman-morphology.json` 保存少见形式和上下文补注。`docs/statesman-import-report.json`、`docs/statesman-alignment-review.json` 记录范围、德译对应、说话人标注差异与覆盖统计。Diorisis按同一数据集署名，Pape仅按真实词条显示，缺词条处不以自译德文代替。
 - `tools/import_parmenides.py`、`tools/parmenides-notes.json`：全篇《巴门尼德篇》的导入器及三栏笔记。另有词汇补充表与少量明确标明来源的词形补注。
 - `tools/import_additional_classics.py`、`tools/{alcibiades1,apology,alcibiades2}-notes.json`：新增各篇的可复现导入及三栏笔记；对应的 `*-morphology.json`、`additional-classics-zh.json` 保存词形补注及中文短释。
 - `docs/{alcibiades1,apology,alcibiades2}-import-report.json`：材料校验值、去重记录、德译匹配组与缺译单元、覆盖率。

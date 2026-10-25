@@ -41,7 +41,7 @@ class ClassicsData(unittest.TestCase):
      for i,key in u['analyses'].items():
       self.assertTrue(u['tokens'][int(i)])
       self.assertTrue(page['analyses'][key]);count+=1
-  self.assertEqual(count,107419)
+  self.assertEqual(count,124372)
  def test_noun_case_gender_number_and_gloss(self):
   a=self.analyses('philebus','λόγον')
   self.assertTrue(any(x['lemma']=='λόγος' and x['pos']=='noun' and x['case']=='accusative' and x['gender']=='masculine' and x['number']=='singular' for x in a))
@@ -145,7 +145,7 @@ class ClassicsData(unittest.TestCase):
   self.assertTrue(all(a['lemma']=='ἔνειμι' and a['mood']=='optative' for a in self.analyses('parmenides','ἐνείη')))
  def test_complete_additions_match_requested_canonical_editions(self):
   import xml.etree.ElementTree as ET
-  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a'),('alcibiades2',257,'138a','151c'),('gorgias',1720,'447a','527e')]:
+  for slug,count,first,last in [('alcibiades1',1103,'103a','135e'),('apology',345,'17a','42a'),('alcibiades2',257,'138a','151c'),('gorgias',1720,'447a','527e'),('statesman',898,'257a','311c')]:
    source=ROOT/f'tools/{slug}-source.xml';tree=ET.parse(source);body=tree.find('.//{http://www.tei-c.org/ns/1.0}body')
    for parent in list(body.iter()):
     for child in list(parent):
@@ -257,4 +257,41 @@ class ClassicsData(unittest.TestCase):
   self.assertIn('βασιλεὺς θνατῶν',units[910]['greek'])
   self.assertEqual(units[1433]['speaker'],'苏格拉底')
   self.assertEqual(units[1434]['speaker'],'苏格拉底')
+ def test_statesman_complete_editorial_readings_and_word_coverage(self):
+  pages=self.pages['statesman'];units=[u for p in pages for u in p['units']]
+  self.assertEqual(len(pages),55)
+  meta=next(w for w in self.catalog['works'] if w['id']=='statesman')
+  self.assertEqual(meta['words'],16953);self.assertTrue(meta['source'].endswith('tlg008/'))
+  self.assertEqual(meta['chineseGlossCoverage'],1.0)
+  self.assertEqual(meta['morphologyCoverage'],1.0)
+  report=load(ROOT/'docs/statesman-import-report.json')
+  self.assertEqual(report['editorialChineseUnits'],898)
+  self.assertEqual(report['sourceTurns'],891);self.assertEqual(report['germanTurns'],891)
+  self.assertEqual(report['speakerLabelVariant']['id'],898)
+  self.assertIn('编',units[-2]['reading']['zh'])
+  for page in pages:
+   for u in page['units']:
+    self.assertRegex(u['reading']['zh'],r'[\u4e00-\u9fff]')
+    for key in u['analyses'].values():self.assertTrue(any(a['zh'] for a in page['analyses'][key]),u['id'])
+ def test_statesman_german_boundaries_and_final_speaker_variant(self):
+  units={u['id']:u for p in self.pages['statesman'] for u in p['units']}
+  self.assertTrue(units[1]['reading']['de'].startswith('Sokrates: Wahrlich viel Dank'))
+  shared='Nämlich die vor Kleinheit fast schon verschwindenden'
+  self.assertIn(shared,units[300]['reading']['de']);self.assertTrue(units[301]['reading']['de'].startswith(shared))
+  self.assertTrue(units[660]['reading']['de'].endswith('Gesetze?'))
+  self.assertTrue(units[661]['reading']['de'].startswith(units[660]['reading']['de']))
+  self.assertEqual(units[898]['speaker'],'青年苏格拉底')
+  self.assertTrue(units[898]['reading']['de'].startswith('Sokrates: Vortrefflich'))
+  self.assertTrue(units[898]['reading']['de'].endswith('Staatsmann dargestellt.'))
+ def test_statesman_rare_forms_and_contextual_morphology(self):
+  a=self.analyses('statesman','συνέθεμεν')
+  self.assertTrue(all(x['lemma']=='συντίθημι' and x['tense']=='aorist' and x['number']=='plural' for x in a))
+  a=self.analyses('statesman','ὑπέθεσαν')
+  self.assertTrue(all(x['lemma']=='ὑποτίθημι' and x['person']=='3rd' for x in a))
+  a=self.analyses('statesman','θρεφθεῖσί')
+  self.assertTrue(all(x['pos']=='participle' and x['case']=='dative' and x['voice']=='passive' for x in a))
+  a=self.analyses('statesman','ἁμῇ')
+  self.assertTrue(all(x['pos']=='adverb' and not x.get('case') for x in a))
+  a=self.analyses('statesman','ἀρνὸς')
+  self.assertTrue(all(x['lemma']=='ἀρήν' and x['gender']=='feminine' and x['case']=='genitive' for x in a))
 if __name__=='__main__':unittest.main()
