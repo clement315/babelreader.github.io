@@ -1,0 +1,1242 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q045",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q045",
+    "title": "論勇猛",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2212,
+      2213,
+      2214,
+      2215,
+      2216,
+      2217,
+      2218
+    ],
+    "printed_pages": [
+      441,
+      447
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q45.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q45.json": "000c77c00a9d0b9243eddf0ed02b5cc793a7345cc77c5ce8fb44d6f9a10f023d"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q045.a002.respondeo",
+      "pdf_file_page": 2214,
+      "text": "己多次說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q045.a003.respondeo",
+      "pdf_file_page": 2215,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q045.a004.arg3",
+      "pdf_file_page": 2217,
+      "text": "己經是在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q045.a004.respondeo",
+      "pdf_file_page": 2218,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q045.a001.ad1",
+      "pdf_file_page": 2213,
+      "text": "對善的對象",
+      "status": "suspected_source_print_error",
+      "action": "原页如此，疑为原书用词印误，保持底本。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q045.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "然後要討論的是勇猛（audacia；參看第四十一題引言）。\n關於這點，我們可以提出四個問題:\n一、勇猛是否與畏懼相反。\n二、勇猛與希望有何關係。\n三、論勇猛之原因。\n四、論勇猛之效果。",
+      "after": "然後要討論的是勇猛（audacia；參看第四十一題引言）。\n關於這點，我們可以提出四個問題：\n一、勇猛是否與畏懼相反。\n二、勇猛與希望有何關係。\n三、論勇猛之原因。\n四、論勇猛之效果。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "勇猛是否與畏懼相反",
+      "after": "勇猛是否與畏懼相反",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "似乎勇猛與畏懼不相反。因為:",
+      "after": "似乎勇猛與畏懼不相反。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "奧斯定在《雜題八十三》第三十一及第三十四題裡說: 「勇猛是惡習」。惡習與德性相反。既然畏懼不是德性，而是情，似乎勇猛與畏i塑不相反。",
+      "after": "奧斯定在《雜題八十三》第三十一及第三十四題裡說：「勇猛是惡習」。惡習與德性相反。既然畏懼不是德性，而是情，似乎勇猛與畏懼不相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "畏i塑",
+          "after": "畏懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "此外，一個東西只有一個與之相反者。但是希望與畏懼相反。所以，勇猛與畏懼不相反。",
+      "after": "此外，一個東西只有一個與之相反者。但是希望與畏懼相反。所以，勇猛與畏懼不相反。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "此外，每種情皆排斥與之相反的情。但畏懼所排斥者是安全感。的確，奧斯定在《懺悔錄》卷二第六章說: 「畏懼妨害安全」。所以，是安全感與畏懼相反，而不是勇猛。",
+      "after": "此外，每種情皆排斥與之相反的情。但畏懼所排斥者是安全感。的確，奧斯定在《懺悔錄》卷二第六章說：「畏懼妨害安全」。所以，是安全感與畏懼相反，而不是勇猛。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2212
+      ],
+      "before": "哲學家在《修辭學》卷二第五章卻說「勇猛與畏懼相反」。",
+      "after": "哲學家在《修辭學》卷二第五章卻說「勇猛與畏懼相反」。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2212,
+        2213
+      ],
+      "before": "我解答如下:按《形上學》卷十第四章說的，對立者之理在於「彼此相離最遠」。與畏懼相去最遠的是勇猛，畏懼逃避未來之惡，因了(預見)這惡在畏懼者身上操有勝利;但是勇猛攻擊面臨之危險，為戰勝這危險。所以，顯然勇猛與畏懼相反c",
+      "after": "我解答如下：按《形上學》卷十第四章說的，對立者之理在於「彼此相離最遠」。與畏懼相去最遠的是勇猛，畏懼逃避未來之惡，因了(預見)這惡在畏懼者身上操有勝利；但是勇猛攻擊面臨之危險，為戰勝這危險。所以，顯然勇猛與畏懼相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相反c",
+          "after": "相反。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "忿怒與勇猛，以及其他情之名稱，皆能有兩種意義。一種指感官嗜慾對善的對象之單純動態:一般情的名稱即是如此;另一種是指不合理性的動態:這時則稱之為惡習。奧斯定講的勇猛是指後一種，但我們這裡講勇猛是按第一種意義。",
+      "after": "忿怒與勇猛，以及其他情之名稱，皆能有兩種意義。一種指感官嗜慾對善的對象之單純動態：一般情的名稱即是如此；另一種是指不合理性的動態：這時則稱之為惡習。奧斯定講的勇猛是指後一種，但我們這裡講勇猛是按第一種意義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "一個東西在同一個觀點下沒有許多對立者;但按不同的觀點，可以有許多對立者。就如前面第二十三題第二節、第四十題第四節曾說，憤情部分的情有兩種對立性:一種是按善與惡之對立，如此則畏懼與希望相反;另一種是按接近與遠離，如此則勇猛與畏懼相反，絕望與希望相反。",
+      "after": "一個東西在同一個觀點下沒有許多對立者；但按不同的觀點，可以有許多對立者。就如前面第二十三題第二節、第四十題第四節曾說，憤情部分的情有兩種對立性：一種是按善與惡之對立，如此則畏懼與希望相反；另一種是按接近與遠離，如此則勇猛與畏懼相反，絕望與希望相反。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "安全感不是與畏懼相反的東西，只指沒有畏懼，不畏懼的人，就是有安全感。所以，安全感與畏懼之對立(opposi-tio)是缺欠佳的，勇猛與畏懼之對立則如相反者。就如「相反者」中包括缺欠性，勇猛中也含有安全感。",
+      "after": "安全感不是與畏懼相反的東西，只指沒有畏懼，不畏懼的人，就是有安全感。所以，安全感與畏懼之對立(opposi-tio)是缺欠性的，勇猛與畏懼之對立則如相反者。就如「相反者」中包括缺欠性，勇猛中也含有安全感。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "缺欠佳",
+          "after": "缺欠性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "勇猛是否隨希望而來",
+      "after": "勇猛是否隨希望而來",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三節",
+          "after": "第二節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "似乎勇猛不是隨企望或希望而來。因為:",
+      "after": "似乎勇猛不是隨企望或希望而來。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "按《倫理學》卷三第七章所說的，勇猛是關於惡及可怕者。按前面第四十題第一節說的，希望是針對善的。二者之對象不同，不是屬於同一系統。所以勇猛不是隨希望而來。",
+      "after": "按《倫理學》卷三第七章所說的，勇猛是關於惡及可怕者。按前面第四十題第一節說的，希望是針對善的。二者之對象不同，不是屬於同一系統。所以勇猛不是隨希望而來。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2213
+      ],
+      "before": "此外，勇猛與畏懼相反，而失望或絕望與希望相反。但是畏懼不是隨絕望而來。甚而按哲學家在《修辭學》卷二第五章說的，絕望排除畏懼。所以，勇猛不是隨希望而來。",
+      "after": "此外，勇猛與畏懼相反，而失望或絕望與希望相反。但是畏懼不是隨絕望而來。甚而按哲學家在《修辭學》卷二第五章說的，絕望排除畏懼。所以，勇猛不是隨希望而來。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2214
+      ],
+      "before": "此外，勇猛謀求某種善，即是勝利。但是趨向艱難的苦屬於希望，所以勇猛與希望是一事。故勇猛不是隨希望而來。",
+      "after": "此外，勇猛謀求某種善，即是勝利。但是趨向艱難的善屬於希望，所以勇猛與希望是一事。故勇猛不是隨希望而來。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "艱難的苦",
+          "after": "艱難的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2214
+      ],
+      "before": "哲學家在《倫理學》卷三第八章卻說: 「那些善於希望的人，是勇敢的。」故似乎勇猛是隨希望而來。",
+      "after": "哲學家在《倫理學》卷三第八章卻說：「那些善於希望的人，是勇敢的。」故似乎勇猛是隨希望而來。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2214
+      ],
+      "before": "我解答如下:如第二十二題第二節、第三十五題第一節、以及第四十一題第一節己多次說過的，靈魂之這些情皆屬於嗜慾機能。嗜慾性的動態皆可歸原為追求與逃避。追求與逃避一物能是本然的或偶然的。追求的本然是善，逃避的是惡。但是偶然追求的能是惡，為了與其相連的善;逃避的能是善，因了其所連帶的惡。偶然者是隨從本然者。為此，追求惡是隨對善之追求，而逃避善是隨對惡之逃避。這四個動態屬於四種情:追求善屬於希望，逃避惡屬於畏懼;追逐可怕之惡屬於勇猛，逃避善屬於絕望。可見勇猛隨從希望:一人對克服面臨之可怕的東西抱有希望，貝IJ勇猛地追逐它。絕望隨從畏懼:一人之所以絕望，是因為怕其所希望之善所帶的困難。",
+      "after": "我解答如下：如第二十二題第二節、第三十五題第一節、以及第四十一題第一節己多次說過的，靈魂之這些情皆屬於嗜慾機能。嗜慾性的動態皆可歸原為追求與逃避。追求與逃避一物能是本然的或偶然的。追求的本然是善，逃避的是惡。但是偶然追求的能是惡，為了與其相連的善；逃避的能是善，因了其所連帶的惡。偶然者是隨從本然者。為此，追求惡是隨對善之追求，而逃避善是隨對惡之逃避。這四個動態屬於四種情：追求善屬於希望，逃避惡屬於畏懼；追逐可怕之惡屬於勇猛，逃避善屬於絕望。可見勇猛隨從希望：一人對克服面臨之可怕的東西抱有希望，則勇猛地追逐它。絕望隨從畏懼：一人之所以絕望，是因為怕其所希望之善所帶的困難。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2214
+      ],
+      "before": "如果善與惡是各不相關的對象，買IJ所舉之理由可以成立。然而惡與善有關係，惡是在善之後的，是善之缺乏;為此，追逐惡的勇猛，是在希望之後，因為希望是追求善的。",
+      "after": "如果善與惡是各不相關的對象，則所舉之理由可以成立。然而惡與善有關係，惡是在善之後的，是善之缺乏；為此，追逐惡的勇猛，是在希望之後，因為希望是追求善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2214
+      ],
+      "before": "雖然善本來先於惡，但是逃避首先是針對惡的，而後針對善;就如追求首先應是針對善的，次而是針對惡。故此就如希望先於勇猛，畏懼也先於絕望。從畏懼中不常產生絕望，除非畏懼很強烈的時候;同樣，希望也不是常產生勇摳，只有在希望強的時候。",
+      "after": "雖然善本來先於惡，但是逃避首先是針對惡的，而後針對善；就如追求首先應是針對善的，次而是針對惡。故此就如希望先於勇猛，畏懼也先於絕望。從畏懼中不常產生絕望，除非畏懼很強烈的時候；同樣，希望也不是常產生勇猛，只有在希望強的時候。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "勇摳",
+          "after": "勇猛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2214,
+        2215
+      ],
+      "before": "勇猛所針對之惡，在勇猛者的估計中雖帶有勝利之善，但其所針對的是惡;所附帶之善是屬於希望方面的。同樣，絕望直接所針對的是其所逃避的善，附帶之惡是屬於畏懼方面的。所以嚴格地講，勇猛不是希望的一部分，而是希望之效果;同樣，絕望也不是畏懼的一部分，乃是畏懼的效果。是為這緣故，勇猛不能算為主要的情(參看第二十五題第四節釋疑2.及3.)。",
+      "after": "勇猛所針對之惡，在勇猛者的估計中雖帶有勝利之善，但其所針對的是惡；所附帶之善是屬於希望方面的。同樣，絕望直接所針對的是其所逃避的善，附帶之惡是屬於畏懼方面的。所以嚴格地講，勇猛不是希望的一部分，而是希望之效果；同樣，絕望也不是畏懼的一部分，乃是畏懼的效果。是為這緣故，勇猛不能算為主要的情(參看第二十五題第四節釋疑2.及3.)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "虧缺是否為勇猛之原因",
+      "after": "虧缺是否為勇猛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "似乎虧缺能是勇猛之原因。因為:",
+      "after": "似乎虧缺能是勇猛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "哲學家在《問題論集》第二十七編第四問題裡說:「好酒者是果敢的，勇猛的。」但是酒產生麻醉之缺點。所以，勇猛是生於某種虧缺。",
+      "after": "哲學家在《問題論集》第二十七編第四問題裡說：「好酒者是果敢的，勇猛的。」但是酒產生麻醉之缺點。所以，勇猛是生於某種虧缺。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第五章說: 「對危險沒有經驗的，是勇猛的。」但沒有經驗是一種虧缺。所以，勇猛是由虧缺而來。",
+      "after": "此外，哲學家在《修辭學》卷二第五章說：「對危險沒有經驗的，是勇猛的。」但沒有經驗是一種虧缺。所以，勇猛是由虧缺而來。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "此外，受了委屈的人一般會更勇猛，就如禽獸捱打時一樣，如《倫理學》卷三第八章所說的。但受委屈屬於虧缺。所以﹒勇猛是由某虧缺而來。",
+      "after": "此外，受了委屈的人一般會更勇猛，就如禽獸捱打時一樣，如《倫理學》卷三第八章所說的。但受委屈屬於虧缺。所以，勇猛是由某虧缺而來。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2215
+      ],
+      "before": "哲學家在《修辭學》卷二第五章裡說，勇猛之原因是:「在意識中認為有益者離我們近，而可怕者或不存在，或離的遠o 」但那屬於虧缺者，或者是屬於有益者之遠離，或者是屬於有害者之接近。故屬於虧缺者，沒有一個是勇猛之原因。",
+      "after": "哲學家在《修辭學》卷二第五章裡說，勇猛之原因是：「在意識中認為有益者離我們近，而可怕者或不存在，或離的遠。 」但那屬於虧缺者，或者是屬於有益者之遠離，或者是屬於有害者之接近。故屬於虧缺者，沒有一個是勇猛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "遠o",
+          "after": "遠。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2215,
+        2216
+      ],
+      "before": "我解答如下:前面第一及二節已經說過，勇猛隨從希望，而與畏懼相反;為此，凡能產生希望或排除畏懼者，皆是勇猛之原因。因了畏懼、希望以及勇猛，皆是惰，皆在於嗜慾之動態，及身體上的變化;所以，無論是關於激發希望‘或關於排除畏懼，勇猛之原因能有兩種:一種是嗜慾性動態方面的卜-:f重是身體t之變化方面的。\n在隨從知覺之嗜慾性動態方面，那些使我們想能得到勝利的，皆能激發希望，產生勇猛。無論那是本身方面的能力，如身體的力氣，對危險之經驗，大量的錢財等;或者藉本身以外的力量，如眾多的朋友或別的幫助者，特別是對天主之幫助的信賴。為此哲學家在《修辭學》卷二第五章也說: 1-與神有良好關係的人比較勇猛。」按這方式，凡能擺脫臨身之可怕之事物者，皆能排除畏懼，例如:沒有仇人，不曾害過任何人，或者看不出有危險臨身;那些曾害過他人的，面臨的危險最多。\n在身體變化方面，那能增加心臟方面之熱量的，便激發希望，排除畏懼，並產生勇猛。為此，哲學家在《論動物之部分》卷三第四章說:í{，、的體積小的比較勇敢;心的體積大的動物是膽小的:因為自然熱量不易使大心變熱，心小便較容易;就如火不易使大房屋變熱，房屋小就容易。」他在《問題論集》第二卜七編第四問題又說:「具有血性之肺者比較勇敢，因為心容易變熱。」在那裡他也說，「好酒者比較勇敢，由於酒性的熱量」;為此前面第四十題第六節曾說，由酒使人善於希望:因為心熱可排除畏懼，產生希望;這是由於心臟漲大的緣故。",
+      "after": "我解答如下：前面第一及二節己經說過，勇猛隨從希望，而與畏懼相反；為此，凡能產生希望或排除畏懼者，皆是勇猛之原因。因了畏懼、希望以及勇猛，皆是情，皆在於嗜慾之動態，及身體上的變化；所以，無論是關於激發希望，或關於排除畏懼，勇猛之原因能有兩種：一種是嗜慾性動態方面的，一種是身體上之變化方面的。\n在隨從知覺之嗜慾性動態方面，那些使我們想能得到勝利的，皆能激發希望，產生勇猛。無論那是本身方面的能力，如身體的力氣，對危險之經驗，大量的錢財等；或者藉本身以外的力量，如眾多的朋友或別的幫助者，特別是對天主之幫助的信賴。為此哲學家在《修辭學》卷二第五章也說：「與神有良好關係的人比較勇猛。」按這方式，凡能擺脫臨身之可怕之事物者，皆能排除畏懼，例如：沒有仇人，不曾害過任何人，或者看不出有危險臨身；那些曾害過他人的，面臨的危險最多。\n在身體變化方面，那能增加心臟方面之熱量的，便激發希望，排除畏懼，並產生勇猛。為此，哲學家在《論動物之部分》卷三第四章說：「心的體積小的比較勇敢；心的體積大的動物是膽小的：因為自然熱量不易使大心變熱，心小便較容易；就如火不易使大房屋變熱，房屋小就容易。」他在《問題論集》第二十七編第四問題又說：「具有血性之肺者比較勇敢，因為心容易變熱。」在那裡他也說，「好酒者比較勇敢，由於酒性的熱量」；為此前面第四十題第六節曾說，酗酒使人善於希望：因為心熱可排除畏懼，產生希望；這是由於心臟漲大的緣故。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皆是惰",
+          "after": "皆是情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "希望‘",
+          "after": "希望，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的卜-:f重是身體t之",
+          "after": "的，一種是身體上之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1-與神",
+          "after": "「與神",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "í{，、的",
+          "after": "「心的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二卜七",
+          "after": "第二十七",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "由酒使人",
+          "after": "酗酒使人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2216
+      ],
+      "before": "酷酒之產生勇猛，不是因其缺點，而是因為間的酒使心臟擴大;也是因為自由酒使人幻想自己偉大。",
+      "after": "酗酒之產生勇猛，不是因其缺點，而是因為酗酒使心臟擴大；也是因為酗酒使人幻想自己偉大。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "酷酒",
+          "after": "酗酒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "間的酒",
+          "after": "酗酒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自由酒",
+          "after": "酗酒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2216
+      ],
+      "before": "沒有經歷過危險的人勇敢，也不是因其缺點﹒而是偶然的:即是因了沒有經戰，既不知自己的力量有限，也不知危險之來臨。既沒有畏懼的原因，所以才勇敢。",
+      "after": "沒有經歷過危險的人勇敢，也不是因其缺點，而是偶然的：即是因了沒有經驗，既不知自己的力量有限，也不知危險之來臨。既沒有畏懼的原因，所以才勇敢。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "缺點﹒",
+          "after": "缺點，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "沒有經戰",
+          "after": "沒有經驗",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "哲學家在《修辭學》卷二第五章曾說: 「受了委屈的是比較勇敢的，因為他們想天主幫助受委屈的人。」\n由此可見，虧缺之產生勇猛只是偶然的事;即是由於虧缺附帶有某種優點，無論是真的優點，或只是想像中的，無論優點是自己那方面的，或其他方面的。",
+      "after": "哲學家在《修辭學》卷二第五章曾說：「受了委屈的是比較勇敢的，因為他們想天主幫助受委屈的人。」\n由此可見，虧缺之產生勇猛只是偶然的事；即是由於虧缺附帶有某種優點，無論是真的優點，或只是想像中的，無論優點是自己那方面的，或其他方面的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "勇猛者是否在起初比在危險中堅決",
+      "after": "勇猛者是否在起初比在危險中堅決",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "似乎勇猛者不是在起初比在危險中堅決。因為:",
+      "after": "似乎勇猛者不是在起初比在危險中堅決。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "根據前面第一節、第四十四題第三節說的，顫抖是生於畏懼，畏懼貝IJ與勇猛相反。但按哲學家在《問題論集》第二十八編第三問題裡說的，勇猛者有時開始顫1栗。所以，他們不是在起初比在危險中堅決。",
+      "after": "根據前面第一節、第四十四題第三節說的，顫抖是生於畏懼，畏懼則與勇猛相反。但按哲學家在《問題論集》第二十八編第三問題裡說的，勇猛者有時開始顫慄。所以，他們不是在起初比在危險中堅決。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "顫1栗",
+          "after": "顫慄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "此外，對象增加，情也隨之增加，就如善若是可愛的，更善的便是更可愛的。但勇猛之對象是艱難者。所以艱難增加，勇猛也隨之增加。但是危險到身邊的時候變為更加艱難。所以，那時勇猛應該增加。",
+      "after": "此外，對象增加，情也隨之增加，就如善若是可愛的，更善的便是更可愛的。但勇猛之對象是艱難者。所以艱難增加，勇猛也隨之增加。但是危險到身邊的時候變為更加艱難。所以，那時勇猛應該增加。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q045.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "此外，受傷使人忿怒。但忿怒產生勇猛。的確，哲學家在《修辭學》卷二第五章裡說: 「忿怒是勇猛性的」。所以，人己經是在困難中，並受到了打擊，似乎變為更加勇猛。",
+      "after": "此外，受傷使人忿怒。但忿怒產生勇猛。的確，哲學家在《修辭學》卷二第五章裡說：「忿怒是勇猛性的」。所以，人己經是在困難中，並受到了打擊，似乎變為更加勇猛。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2217
+      ],
+      "before": "《倫理學》卷三第七章卻說: 「勇猛者在危險前，魯莽地急於投入，但在危險中卻要退縮。」",
+      "after": "《倫理學》卷三第七章卻說：「勇猛者在危險前，魯莽地急於投入，但在危險中卻要退縮。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2217,
+        2218
+      ],
+      "before": "我解答如下:既然勇猛是感官嗜慾之動態，貝IJ隨從感宮知覺而動。感官知覺對事情的各方面不加思索，不事探究，立刻便下判斷。有時根據第一眼所見的，不能知道事情的全部困難，因此產生冒險犯難的勇猛行動。但等接觸到了危險，知道比以前所想的困難多，遂感力有不支而退縮。\n但是理性能檢討事情各方面的困難。因此英勇者(fortes)既是根據理性之判斷去面對危險，開始時似是猶豫不決，因為他們不是被動地，而是經了慎重的考慮去面對危險c等到危險到了身邊，不會感有意外;而有時比當初想到的困難還少。所以他們比較堅定。或者也可以說，因為他們面對危險是為德性之善，故無論有多大問難，其向善之意志堅定不移。勇猛的人，如第三節已說過的，則只看有希望的及排除畏懼的一面去面對危險，這在前面也曾說過。",
+      "after": "我解答如下：既然勇猛是感官嗜慾之動態，則隨從感官知覺而動。感官知覺對事情的各方面不加思索，不事探究，立刻便下判斷。有時根據第一眼所見的，不能知道事情的全部困難，因此產生冒險犯難的勇猛行動。但等接觸到了危險，知道比以前所想的困難多，遂感力有不支而退縮。\n但是理性能檢討事情各方面的困難。因此英勇者(fortes)既是根據理性之判斷去面對危險，開始時似是猶豫不決，因為他們不是被動地，而是經了慎重的考慮去面對危險。等到危險到了身邊，不會感有意外；而有時比當初想到的困難還少。所以他們比較堅定。或者也可以說，因為他們面對危險是為德性之善，故無論有多大困難，其向善之意志堅定不移。勇猛的人，如第三節己說過的，則只看有希望的及排除畏懼的一面去面對危險，這在前面也曾說過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "危險c",
+          "after": "危險。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問難",
+          "after": "困難",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2218
+      ],
+      "before": "勇猛者也能顫1棠，這是由於熱由外回到內部﹒像膽小者一樣。但勇猛者的熱是回到心臟，膽小者的熱是動向下部。",
+      "after": "勇猛者也能顫慄，這是由於熱由外回到內部，像膽小者一樣。但勇猛者的熱是回到心臟，膽小者的熱是動向下部。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "顫1棠",
+          "after": "顫慄",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "內部﹒",
+          "after": "內部，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2218
+      ],
+      "before": "愛之對象是單純的善，所以對象增加，自然愛也增加。但勇猛之對象是善與惡的混合物;其對惡之動態，假定先有希望對善之動態。故若危險之困難增加，而超過了希望之限度，勇猛不為之增加，反而減少。但是如果有勇猛之動態相隨，買IJ危險愈大，勇猛也被認為愈大。",
+      "after": "愛之對象是單純的善，所以對象增加，自然愛也增加。但勇猛之對象是善與惡的混合物；其對惡之動態，假定先有希望對善之動態。故若危險之困難增加，而超過了希望之限度，勇猛不為之增加，反而減少。但是如果有勇猛之動態相隨，則危險愈大，勇猛也被認為愈大。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q045.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2218
+      ],
+      "before": "除非假定有某種希望，否則受傷不產生忿怒，這在後面第四十六題第一節就要講到。所以，如果危險很大﹒以致沒有勝利的希望，將不會產生忿怒。但若果真產生忿怒，買IJ勇猛必為之增強。",
+      "after": "除非假定有某種希望，否則受傷不產生忿怒，這在後面第四十六題第一節就要講到。所以，如果危險很大，以致沒有勝利的希望，將不會產生忿怒。但若果真產生忿怒，則勇猛必為之增強。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "很大﹒",
+          "after": "很大，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
