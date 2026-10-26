@@ -1,0 +1,1353 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q039",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q039",
+    "title": "論哀愁或傷痛之善惡",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2165,
+      2166,
+      2167,
+      2168,
+      2169,
+      2170,
+      2171
+    ],
+    "printed_pages": [
+      394,
+      400
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 47,
+    "changed_review_units": 37,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q39.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q39.json": "4f86e3843d8251b2ce4aef0ca9fbd0b6c3f55a5560134949481565622f5a5747"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q039.a001.respondeo",
+      "pdf_file_page": 2166,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a002.arg3",
+      "pdf_file_page": 2167,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a002.ad3",
+      "pdf_file_page": 2168,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a003.respondeo",
+      "pdf_file_page": 2169,
+      "text": "己經是現實",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a003.ad1",
+      "pdf_file_page": 2169,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a004.ad1",
+      "pdf_file_page": 2171,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a004.ad2",
+      "pdf_file_page": 2171,
+      "text": "己經是一種善",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q039.a004.arg2",
+      "pdf_file_page": 2170,
+      "text": "第五題第八節",
+      "status": "suspected_source_print_error",
+      "action": "原页为「第八节」，疑交叉引文编号印误，照录。"
+    },
+    {
+      "id": "I_II.q039.a004.ad3",
+      "pdf_file_page": 2171,
+      "text": "「因為有害。",
+      "status": "suspected_source_print_error",
+      "action": "原页此处未见闭引号，按底本保留并单列。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q039.a001.ad2",
+      "description": "原页共同答复质疑二及三的末句归入既有空字段，原答复一的换行转义符保留。"
+    }
+  ],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q039.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "然後要討論的是傷痛或哀愁之善惡(參看第三十五題引是一關於這點，我們可以提出四個問題:口\n一、是否凡哀愁皆惡。\n二、哀愁能否為正當的善。\n三、能否烏有用的善。\n四、身體上的傷痛是否為最大的惡。",
+      "after": "然後要討論的是傷痛或哀愁之善惡(參看第三十五題引言)。關於這點，我們可以提出四個問題：\n一、是否凡哀愁皆惡。\n二、哀愁能否為正當的善。\n三、能否為有用的善。\n四、身體上的傷痛是否為最大的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三十五題引是一關於",
+          "after": "第三十五題引言)。關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問題:口",
+          "after": "問題：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能否烏",
+          "after": "能否為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "是否凡哀愁皆惡",
+      "after": "是否凡哀愁皆惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "似乎凡哀愁皆是惡的。因為:",
+      "after": "似乎凡哀愁皆是惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "尼沙的額我略說: 「凡哀愁在本質上皆是惡的。」(尼美修斯，《論人性》第十九章)但自然就惡的，無論在何時何處常是惡的。所以，凡哀愁皆是惡的。",
+      "after": "尼沙的額我略說：「凡哀愁在本質上皆是惡的。」(尼美修斯，《論人性》第十九章)但自然就惡的，無論在何時何處常是惡的。所以，凡哀愁皆是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "此外，所有的人，包括有德的人在內，都逃避的，就是惡的。但所有的人皆逃避哀愁，有德的人也不例外;因為《倫理學》卷七第卡一章說: 「智者雖不求快樂，但求不哀愁」。所以，哀愁是惡。",
+      "after": "此外，所有的人，包括有德的人在內，都逃避的，就是惡的。但所有的人皆逃避哀愁，有德的人也不例外；因為《倫理學》卷七第十一章說：「智者雖不求快樂，但求不哀愁」。所以，哀愁是惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡一",
+          "after": "第十一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2165
+      ],
+      "before": "此外，就如身體上的惡，是身體上之傷痛的對象及原因;精神上的惡，也是精神之哀愁的對象及原因。但身體上的傷痛皆是身體的惡。所以，精神的哀愁也都是靈魂上的惡。",
+      "after": "此外，就如身體上的惡，是身體上之傷痛的對象及原因；精神上的惡，也是精神之哀愁的對象及原因。但身體上的傷痛皆是身體的惡。所以，精神的哀愁也都是靈魂上的惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2165,
+        2166
+      ],
+      "before": "因惡而哀愁與因惡而快樂相反。但因惡而快樂是惡的，故此《ífæ言》第三章14節表示對某些人的嫌惡，說:他們「喜愛行惡，在邪惡中喜樂」。所以，因惡而哀愁是善的。",
+      "after": "因惡而哀愁與因惡而快樂相反。但因惡而快樂是惡的，故此《箴言》第二章14節表示對某些人的嫌惡，說：他們「喜愛行惡，在邪惡中喜樂」。所以，因惡而哀愁是善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《ífæ言》第三章",
+          "after": "《箴言》第二章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2166
+      ],
+      "before": "我解答如下:說一件事物是善或惡，有兩種方式。一是絕對地，按事物本身。如此則凡哀愁皆是一種惡，人的嗜慾為眼前之惡而焦愁，帶有惡的意義;因為這妨礙嗜慾在善上之定止。\n說一件事物是善或惡的另一方式，是針對一個別的事物;例如，按《倫理學》卷四第九章裡說的，說羞恥是善，乃是針對一個可恥的行為而言。這樣看來，則針對一件使人哀愁或傷痛的事，一人因現時之惡而感到哀愁或傷痛，~IJIil於善。假如這時他不感到哀愁或傷痛，貝IJ或是因為他麻木，或者是因為他不以為意，二者皆顯然是惠。故此，假設有惡在前，感到哀愁和傷痛便屬於善;奧斯定在《創世紀字義新探》卷八第十四章所說的便是這個意思。他說: 「因了失落善而傷痛，仍然是善，因為若非天性中仍存有善，對失去之任何善也不會感到傷痛以當處罰。」但因了道德問題是關於個刑事件的，即關於行動的，在設定前提下是善的，就應被判定為善，正如在設定前提下是情願的，就應被判定為情願的，女日在《倫理學》卷三第一章，及前面第六題第六節已說過的。",
+      "after": "我解答如下：說一件事物是善或惡，有兩種方式。一是絕對地，按事物本身。如此則凡哀愁皆是一種惡，人的嗜慾為眼前之惡而焦愁，帶有惡的意義；因為這妨礙嗜慾在善上之定止。\n說一件事物是善或惡的另一方式，是針對一個別的事物；例如，按《倫理學》卷四第九章裡說的，說羞恥是善，乃是針對一個可恥的行為而言。這樣看來，則針對一件使人哀愁或傷痛的事，一人因現時之惡而感到哀愁或傷痛，則屬於善。假如這時他不感到哀愁或傷痛，則或是因為他麻木，或者是因為他不以為意，二者皆顯然是惡。故此，假設有惡在前，感到哀愁和傷痛便屬於善；奧斯定在《創世紀字義新探》卷八第十四章所說的便是這個意思。他說：「因了失落善而傷痛，仍然是善，因為若非天性中仍存有善，對失去之任何善也不會感到傷痛以當處罰。」但因了道德問題是關於個別事件的，即關於行動的，在設定前提下是善的，就應被判定為善，正如在設定前提下是情願的，就應被判定為情願的，如在《倫理學》卷三第一章，及前面第六題第六節己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~IJIil於善",
+          "after": "則屬於善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皆顯然是惠",
+          "after": "皆顯然是惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個刑",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "女日在",
+          "after": "如在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2166
+      ],
+      "before": "尼沙的額我略是從產生哀愁之惡的方面講哀愁，而不是從感到哀愁並拒絕惡者那方面講的。從這方面說，大家也都逃避哀愁，因為大家都逃避惠，但並非逃避對惡之感覺及抵抗。關於身體上的傷痛也是一樣;因為對身體上的惡之感覺及反抗，證明天性是善的。\n由此可知質疑2.及質疑3.之答案。",
+      "after": "尼沙的額我略是從產生哀愁之惡的方面講哀愁，而不是從感到哀愁並拒絕惡者那方面講的。從這方面說，大家也都逃避哀愁，因為大家都逃避惡，但並非逃避對惡之感覺及抵抗。關於身體上的傷痛也是一樣；因為對身體上的惡之感覺及反抗，證明天性是善的。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "逃避惠",
+          "after": "逃避惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\n由此可知質疑2.及質疑3.之答案。",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2166
+      ],
+      "before": "",
+      "after": "由此可知質疑2.及質疑3.之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由此可知質疑2.及質疑3.之答案。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "質疑2.及質疑3.",
+          "after": "質疑2.及質疑3.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "哀愁能否為正當的善",
+      "after": "哀愁能否為正當的善",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "似乎哀愁沒有正當他on巴stum'或高貴)之善的意義。因為:",
+      "after": "似乎哀愁沒有正當(honestum，或高貴)之善的意義。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正當他on巴stum'",
+          "after": "正當(honestum，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "那使人陷入地獄的，與正當者相反。但奧斯定在《創世紀字義新探》卷十二第三十三章說:「雅各伯似乎曾怕受太大的哀愁之困擾，會使他不得享到幸福者之安息‘而陷入罪人之地獄」。所以，哀愁沒有正當之善的意義。",
+      "after": "那使人陷入地獄的，與正當者相反。但奧斯定在《創世紀字義新探》卷十二第三十三章說：「雅各伯似乎曾怕受太大的哀愁之困擾，會使他不得享到幸福者之安息，而陷入罪人之地獄」。所以，哀愁沒有正當之善的意義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安息‘",
+          "after": "安息，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "此外，正當之善值得稱許並是有功績的。但哀愁減少可稱許及功績之價值;因為宗徒在《格林多後書》第九章7節說，「每人照心中所酌量的捐助，不要心痛(哀愁)，也不要勉強。」所以，哀愁不是正當的善。",
+      "after": "此外，正當之善值得稱許並是有功績的。但哀愁減少可稱許及功績之價值；因為宗徒在《格林多後書》第九章7節說，「每人照心中所酌量的捐助，不要心痛(哀愁)，也不要勉強。」所以，哀愁不是正當的善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "此外，奧斯定在《天主之城》卷十四第十五章裡說:「哀愁是由於我們所不願而落到身上的事情。」 1且不願意現實所發生的事情，乃是意志與天主的安排相反，因為一切事情都是出於天主的措施。既然人的意志與天主的意志相合，人的意志纔是正直的，這在前面第十九題第九節已經說過;則哀愁似乎與正直之意志相反。如此則哀愁不是正當的。",
+      "after": "此外，奧斯定在《天主之城》卷十四第十五章裡說：「哀愁是由於我們所不願而落到身上的事情。」 但不願意現實所發生的事情，乃是意志與天主的安排相反，因為一切事情都是出於天主的措施。既然人的意志與天主的意志相合，人的意志才是正直的，這在前面第十九題第九節己經說過；則哀愁似乎與正直之意志相反。如此則哀愁不是正當的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": " 1且",
+          "after": " 但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2167
+      ],
+      "before": "凡能得永生之賞報的，皆是正當的。但按《瑪竇褔音》第五章5節所說的，哀愁能立永生之功績:「哀慟的人是有福的，因為他們要受安慰。」所以，哀愁是正當的善。",
+      "after": "凡能得永生之賞報的，皆是正當的。但按《瑪竇福音》第五章5節所說的，哀愁能立永生之功績：「哀慟的人是有福的，因為他們要受安慰。」所以，哀愁是正當的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2167,
+        2168
+      ],
+      "before": "我解答如下:按哀愁之是善的觀點，它也能是正當的善。前面曾說，由於哀愁是對惡之意識及抗拒，所以是善。這兩點在身體上的傷痛方面，貝IJ證明天性之善，因為它能感到並逃避有害者，即那造成傷痛者。在內心的哀愁方面，關於對惡的認知，有時是由於理性之正確判斷，而拒抗惡是來自善於憎惡嫌惡的健全意志。凡正當之善皆是由此二者而來，即正確的理性，及正直的意志。由此可見，哀愁能夠是正當的善。",
+      "after": "我解答如下：按哀愁之是善的觀點，它也能是正當的善。前面曾說，由於哀愁是對惡之意識及抗拒，所以是善。這兩點在身體上的傷痛方面，則證明天性之善，因為它能感到並逃避有害者，即那造成傷痛者。在內心的哀愁方面，關於對惡的認知，有時是由於理性之正確判斷，而拒抗惡是來自善於憎惡嫌惡的健全意志。凡正當之善皆是由此二者而來，即正確的理性，及正直的意志。由此可見，哀愁能夠是正當的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "凡靈魂之情皆應受理性之規範的限制，這就是正當之善的基礎。無節制的哀愁超越這個限制，奧斯定所講的便是這種哀愁。這種哀愁不合正當之善的意義。",
+      "after": "凡靈魂之情皆應受理性之規範的限制，這就是正當之善的基礎。無節制的哀愁超越這個限制，奧斯定所講的便是這種哀愁。這種哀愁不合正當之善的意義。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "正如因惡而哀愁是出自憎嫌惡的正當理性及意志;因善而哀愁則是出自憎嫌善的不良理性及意志。這種哀愁減少正當之善應得之讚美及功績，例如:一人施捨而感心痛(哀愁)。",
+      "after": "正如因惡而哀愁是出自憎嫌惡的正當理性及意志；因善而哀愁則是出自憎嫌善的不良理性及意志。這種哀愁減少正當之善應得之讚美及功績，例如：一人施捨而感心痛(哀愁)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "有些現實發生的事情並非由於天主願意，而是由於祂容許，例如:罪惡。故此，意志對在己身或他人身上的罪惡有反感，與天主的意志並無衝突。但是處罰性的惡之發生，能是天主所願意的。(旦人並不必為了意志正當而願意這惡本身:他只須不反抗天主正義的措施，如前面第十九題第十節己說過的。",
+      "after": "有些現實發生的事情並非由於天主願意，而是由於祂容許，例如：罪惡。故此，意志對在己身或他人身上的罪惡有反感，與天主的意志並無衝突。但是處罰性的惡之發生，能是天主所願意的。但人並不必為了意志正當而願意這惡本身：他只須不反抗天主正義的措施，如前面第十九題第十節己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "哀愁能否為有用的善",
+      "after": "哀愁能否為有用的善",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "哀愁似乎不能是有用的善。因為:",
+      "after": "哀愁似乎不能是有用的善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "《德訓篇》第三十章25節說: 「憂愁(哀愁)害死了許多人，憂愁對人毫無益處。」",
+      "after": "《德訓篇》第三十章25節說：「憂愁(哀愁)害死了許多人，憂愁對人毫無益處。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "此外，選擇是關於對某目的有用者。但是哀愁不是值得選取的，甚而按《辯證論》卷三第二章說的: 「同樣的事，帶哀愁不如不帶哀愁可取。」所以哀愁不是有用的善。",
+      "after": "此外，選擇是關於對某目的有用者。但是哀愁不是值得選取的，甚而按《辯證論》卷三第二章說的：「同樣的事，帶哀愁不如不帶哀愁可取。」所以哀愁不是有用的善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2168
+      ],
+      "before": "此外，《天界論》卷二第三章說: 「凡物皆是為了其動作」;但按《倫理學》卷十第五章說的: 「哀愁妨礙動作」 0所以，哀愁不是有用的善。",
+      "after": "此外，《天界論》卷二第三章說：「凡物皆是為了其動作」；但按《倫理學》卷十第五章說的：「哀愁妨礙動作」。所以，哀愁不是有用的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2168,
+        2169
+      ],
+      "before": "智者只求有用的。而《司!I道篇》第七章5節說:「智者的心是在哀愁的家中，患人的心是在歡笑的家中。」所以哀愁是有用的。",
+      "after": "智者只求有用的。而《訓道篇》第七章5節說：「智者的心是在哀愁的家中，愚人的心是在歡笑的家中。」所以哀愁是有用的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "司!I道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "患人的心",
+          "after": "愚人的心",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2169
+      ],
+      "before": "我解答如下:面對當前的惡，嗜慾產生兩種動態。一個是嗜慾憎嫌面前之惡的動態;從這方面看，哀愁沒有用，因為既然已經是現實的，不能不是現實的。\n嗜慾的第二個動態，是逃避或排除造成哀愁的惡。在這方面，哀愁是有用的，如果是關於該逃避的。該逃避的有兩種。一種是按本身就該逃避，因了它與善相反，例如罪惡。所以對罪惡感到哀愁是有用的，因為這使人逃避罪惡，正如宗徒在《格林多後書》第七章9節所說的: 「如今我喜歡，並不是因為你們憂苦(哀愁)了，而是因為你們憂苦以致於悔改。」另一種該逃避的，並非因其本身是惡，而因為那是惡的機會，即在人太愛那東西的時候，或由於這東西而使人陷於某種惡;現世的財物便屬於這類。故此，因現世之善或利益而哀愁能是有用的，如《司iI道篇》第七章3節說的: 「位居喪的家去，勝於往宴會的家去;因為喪事是人人的結局，活人應將此事放在心上。」\n所以，對應該逃避者，哀愁常是有用的，因為它加強逃避之動力。惡本身是該加以逃避的，大家都逃避哀愁本身，正如大家皆追求善，並以善為樂。就如對善之喜好使人更加追求善，對惡之哀愁也使人更努力避惡。",
+      "after": "我解答如下：面對當前的惡，嗜慾產生兩種動態。一個是嗜慾憎嫌面前之惡的動態；從這方面看，哀愁沒有用，因為既然己經是現實的，不能不是現實的。\n嗜慾的第二個動態，是逃避或排除造成哀愁的惡。在這方面，哀愁是有用的，如果是關於該逃避的。該逃避的有兩種。一種是按本身就該逃避，因了它與善相反，例如罪惡。所以對罪惡感到哀愁是有用的，因為這使人逃避罪惡，正如宗徒在《格林多後書》第七章9節所說的：「如今我喜歡，並不是因為你們憂苦(哀愁)了，而是因為你們憂苦以致於悔改。」另一種該逃避的，並非因其本身是惡，而因為那是惡的機會，即在人太愛那東西的時候，或由於這東西而使人陷於某種惡；現世的財物便屬於這類。故此，因現世之善或利益而哀愁能是有用的，如《訓道篇》第七章3節說的：「往居喪的家去，勝於往宴會的家去；因為喪事是人人的結局，活人應將此事放在心上。」\n所以，對應該逃避者，哀愁常是有用的，因為它加強逃避之動力。惡本身是該加以逃避的，大家都逃避哀愁本身，正如大家皆追求善，並以善為樂。就如對善之喜好使人更加追求善，對惡之哀愁也使人更努力避惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "司iI道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「位居喪",
+          "after": "「往居喪",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2169
+      ],
+      "before": "《德訓篇》所說的，是指吞噬人靈的無節制的哀愁。按前面第三十七題第二節己說過的，這種哀愁使精神呆癡，為逃避惡反是障礙。",
+      "after": "《德訓篇》所說的，是指吞噬人靈的無節制的哀愁。按前面第三十七題第二節己說過的，這種哀愁使精神呆癡，為逃避惡反是障礙。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2169
+      ],
+      "before": "可取者因了哀愁而成為較少可取者，應逃避的也因了哀愁而成為更該逃避的。從這方面說，哀愁是有用的。",
+      "after": "可取者因了哀愁而成為較少可取者，應逃避的也因了哀愁而成為更該逃避的。從這方面說，哀愁是有用的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "動作感到哀愁，對這動作有妨礙，但若因停止動作而哀愁，買1]使人更願望動作。",
+      "after": "動作感到哀愁，對這動作有妨礙，但若因停止動作而哀愁，則使人更願望動作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "身體上的傷痛是否為最大的惡",
+      "after": "身體上的傷痛是否為最大的惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q039.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "哀愁似乎是最大的惡。因為:",
+      "after": "哀愁似乎是最大的惡。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "《倫理學》卷八第十章說，最壞的與最好的互相對立。(旦有的快樂是最好的事，即是那屬於幸福的快樂。所以，有的哀愁是最壞的事。",
+      "after": "《倫理學》卷八第十章說，最壞的與最好的互相對立。但有的快樂是最好的事，即是那屬於幸福的快樂。所以，有的哀愁是最壞的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "此外，幸福是人之至善，因為那是人的最後目的。但按先前第三題第四節質疑5.、第五題第八節質疑3.說的，幸福在於人「有所欲有，且不欲任何惡事」。所以，人的至善即是意志之滿足。但哀愁在於有的事情與意志相反，就如奧斯定在《天主主城》卷十四第六章曾說過的。所以，哀愁是人的最大之惡。",
+      "after": "此外，幸福是人之至善，因為那是人的最後目的。但按先前第三題第四節質疑5.、第五題第八節質疑3.說的，幸福在於人「有所欲有，且不欲任何惡事」。所以，人的至善即是意志之滿足。但哀愁在於有的事情與意志相反，就如奧斯定在《天主之城》卷十四第六章曾說過的。所以，哀愁是人的最大之惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五題第八節",
+          "after": "第五題第八節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主主城",
+          "after": "天主之城",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "此外，奧斯定在的宙語》卷一第十二章裡說﹒「我們是由兩部分構成的，即是由靈魂和身體，身體是比較低賤的部分。較高貴之部分之最好的，是最高的善;較低賤之部分之最壞的，則是最大的惡。靈魂之最好的是智慧;身體之最壞的是傷痛σ所以，人的最高苦是有智慧，最大的惡是有傷痛。」",
+      "after": "此外，奧斯定在《獨語》卷一第十二章裡說：「我們是由兩部分構成的，即是由靈魂和身體，身體是比較低賤的部分。較高貴之部分之最好的，是最高的善；較低賤之部分之最壞的，則是最大的惡。靈魂之最好的是智慧；身體之最壞的是傷痛。所以，人的最高善是有智慧，最大的惡是有傷痛。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "在的宙語》",
+          "after": "在《獨語》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說﹒",
+          "after": "說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傷痛σ",
+          "after": "傷痛。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最高苦",
+          "after": "最高善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2170
+      ],
+      "before": "在第一集第四十八題第六節曾說，罪比~罰更惠。但哀愁或傷痛屬於罪惡之處罰，正如享受無常的東西也是由罪而來的惡。的確，奧斯定在《論真宗教》第十二章說: 「精神主的傷痛是什麼呢?豈不是缺乏以前曾享受的，或曾希望能草受的無甫的東西嗎?這就是全部所謂的惡，即是說罪，及罪的處罰。」所以哀愁或傷痛不是人最大的惡。",
+      "after": "在第一集第四十八題第六節曾說，罪比處罰更惡。但哀愁或傷痛屬於罪惡之處罰，正如享受無常的東西也是由罪而來的惡。的確，奧斯定在《論真宗教》第十二章說：「精神上的傷痛是什麼呢？豈不是缺乏以前曾享受的，或曾希望能享受的無常的東西嗎？這就是全部所謂的惡，即是說罪，及罪的處罰。」所以哀愁或傷痛不是人最大的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~罰更惠",
+          "after": "處罰更惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "精神主的",
+          "after": "精神上的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "呢?",
+          "after": "呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "草受",
+          "after": "享受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無甫",
+          "after": "無常",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗎?",
+          "after": "嗎？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2170,
+        2171
+      ],
+      "before": "我解答如下:哀愁或傷痛不可能是人最大的惡。凡人之哀愁或傷痛，或是由於一個真正惡的事物，或是由於表面惡而實際是善的事物。由真正之惡而生之傷痛或哀愁，不能是最大的惡;有比它更壞的，即真惡而不知其為惡，或知其為惡而不加抗拒。由表面惡而實際是真善的事物所生之哀愁或傷痛，不可能是最大的惠，因為全然沒有真善比它更壞。所以，哀愁或傷痛不可能是人最大的惡。",
+      "after": "我解答如下：哀愁或傷痛不可能是人最大的惡。凡人之哀愁或傷痛，或是由於一個真正惡的事物，或是由於表面惡而實際是善的事物。由真正之惡而生之傷痛或哀愁，不能是最大的惡；有比它更壞的，即真惡而不知其為惡，或知其為惡而不加抗拒。由表面惡而實際是真善的事物所生之哀愁或傷痛，不可能是最大的惡，因為全然沒有真善比它更壞。所以，哀愁或傷痛不可能是人最大的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "最大的惠",
+          "after": "最大的惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2171
+      ],
+      "before": "有兩種善是快樂與哀愁所共有的，即對善和惡的正確判斷，及好善拒惡的正直意志。由此可見，在傷痛及哀愁中有一種善，缺此則能變成更壞的。但不是一切快樂中皆含有惡，致使去之可成為更好。所以，有的快樂能是人的至善，如之前己說過的第三十四題第三節;哀愁則不能是人最大的惡。",
+      "after": "有兩種善是快樂與哀愁所共有的，即對善和惡的正確判斷，及好善拒惡的正直意志。由此可見，在傷痛及哀愁中有一種善，缺此則能變成更壞的。但不是一切快樂中皆含有惡，致使去之可成為更好。所以，有的快樂能是人的至善，如之前己說過的第三十四題第三節；哀愁則不能是人最大的惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2171
+      ],
+      "before": "意志之對惡有反感，已經是一種善。為此哀愁或傷痛不能是最大的惡，因為其中雜有善的成份。",
+      "after": "意志之對惡有反感，己經是一種善。為此哀愁或傷痛不能是最大的惡，因為其中雜有善的成份。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2171
+      ],
+      "before": "對較好者有害，比對較壞者有害更壞。按奧斯定在《基本教理手冊》第十二章說的，惡之所以為惡，是「因為有害」。所以靈魂上的惡比身體上的惡大。所以，奧斯定所舉之理由不正確，但那不是他自己的意見，而是別人的(按:即為柴爾穌Comelìus Celsus的意見;參見《獨語》卷一第十二章)。",
+      "after": "對較好者有害，比對較壞者有害更壞。按奧斯定在《基本教理手冊》第十二章說的，惡之所以為惡，是「因為有害。所以靈魂上的惡比身體上的惡大。所以，奧斯定所舉之理由不正確，但那不是他自己的意見，而是別人的(按：即為柴爾穌Cornelius Celsus的意見；參見《獨語》卷一第十二章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Comelìus",
+          "after": "Cornelius",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「因為有害」。",
+          "after": "「因為有害。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}

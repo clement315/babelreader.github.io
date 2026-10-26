@@ -1,0 +1,91 @@
+{
+  "batch": "I_II-q039",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 1440,
+        "rows": 47
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 1440,
+        "count": 9
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 1440
+      },
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 390,
+        "rows": 47
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 390,
+        "count": 9
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "detail": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 53,
+    "all_review_units_match_before_after_manifest": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "all_source_flags_retained": true,
+    "unbalanced_original_punctuation": [
+      {
+        "id": "I_II.q039.a004.ad3",
+        "pair": "「」",
+        "open": 1,
+        "close": 0,
+        "source_flags": [
+          {
+            "id": "I_II.q039.a004.ad3",
+            "pdf_file_page": 2171,
+            "text": "「因為有害。",
+            "status": "suspected_source_print_error",
+            "action": "原页此处未见闭引号，按底本保留并单列。"
+          }
+        ]
+      }
+    ],
+    "reader_sha256": "1990143ca89f5b60ee4761ec7a6f06e574d65385e6d173424113551e7c01fec9"
+  }
+}
