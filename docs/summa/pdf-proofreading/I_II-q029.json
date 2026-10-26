@@ -1,0 +1,1826 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q029",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q029",
+    "title": "論怨恨",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2064,
+      2065,
+      2066,
+      2067,
+      2068,
+      2069,
+      2070,
+      2071,
+      2072,
+      2073
+    ],
+    "printed_pages": [
+      293,
+      302
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 72,
+    "changed_review_units": 48,
+    "checked_unchanged_review_units": 25
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q29.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q29.json": "b1b66ddec310286dcc14c228c99d1f14018efb968eba43c6b18d2f801cdf1031"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q029.a002.respondeo",
+      "pdf_file_page": 2066,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "己經變了的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "發燒己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q029.a001.ad1",
+      "pdf_file_page": 2065,
+      "text": "和惡的",
+      "status": "suspected_source_print_error",
+      "action": "原页此答复句末未印句号，依底本不补。"
+    },
+    {
+      "id": "I_II.q029.a002.ad3",
+      "pdf_file_page": 2067,
+      "text": "為達到點",
+      "status": "suspected_source_print_error",
+      "action": "原页作「為達到點」，疑漏「另一」；依底本保留。"
+    },
+    {
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "隔日的熱",
+      "status": "suspected_source_print_error",
+      "action": "原页作「隔日的熱」，按原译保留，不依医学常识改写。"
+    },
+    {
+      "id": "I_II.q029.a004.respondeo",
+      "pdf_file_page": 2069,
+      "text": "他們認為是者",
+      "status": "suspected_source_print_error",
+      "action": "原页作「是者」，语句疑有漏字，依底本保留。"
+    },
+    {
+      "id": "I_II.q029.a006.respondeo",
+      "pdf_file_page": 2072,
+      "text": "置根",
+      "status": "suspected_source_print_error",
+      "action": "原页用字为「置根」，疑为「植根」，照录保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q029.a006.ad2",
+      "description": "清除页码302及末尾页眉，将误并入释疑2的释疑3归回既有ad3；原键及换行序列保留。"
+    }
+  ],
+  "notes": [
+    "全部10页、6节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q029.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "然後要討論的是憎惡或怨恨(odium;參看第二十六題引關於此點，可以提出六個問題:\n一、惡是否為怨恨之原因和對象。\n二、怨恨是否生於愛。\n三、怨恨是杏比愛力量犬。\n四、人能否怨恨自己。\n五、人能否怨恨真理。\n六、是否有東西普遍地可恨。",
+      "after": "然後要討論的是憎惡或怨恨(odium；參看第二十六題引言)。關於此點，可以提出六個問題：\n一、惡是否為怨恨之原因和對象。\n二、怨恨是否生於愛。\n三、怨恨是否比愛力量大。\n四、人能否怨恨自己。\n五、人能否怨恨真理。\n六、是否有東西普遍地可恨。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "引關於",
+          "after": "引言)。關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是杏",
+          "after": "是否",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力量犬",
+          "after": "力量大",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "惡是否為怨恨之原因和對象",
+      "after": "惡是否為怨恨之原因和對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "惡似乎不是怨恨之原因及對象。因為:",
+      "after": "惡似乎不是怨恨之原因及對象。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "凡存在者，以其存在而論，皆是善的。如果恨之對象是惡，則將沒有東西是可恨的，除了東西之缺欠。這顯然不合事實。",
+      "after": "凡存在者，以其存在而論，皆是善的。如果恨之對象是惡，則將沒有東西是可恨的，除了東西之缺欠。這顯然不合事實。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "此外，怨恨惡事是可讚美的事，因而《瑪加伯下》第三章1節說: 「教尼雅作大司祭的時候，因他的熱誠和1嫉惡的心，聖城安享太平，人民無不奉公守法。」如果恨的只是惡，則凡怨恨皆是可讚美的。這顯然不合事實。",
+      "after": "此外，怨恨惡事是可讚美的事，因而《瑪加伯下》第三章1節說：「教尼雅作大司祭的時候，因他的熱誠和嫉惡的心，聖城安享太平，人民無不奉公守法。」如果恨的只是惡，則凡怨恨皆是可讚美的。這顯然不合事實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "和1嫉惡",
+          "after": "和嫉惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2064
+      ],
+      "before": "此外，同一東西不能同時又善又惡。但同一個東西對不同的人能是又可愛又可恨。所以恨不只指向惡，也指向善。",
+      "after": "此外，同一東西不能同時又善又惡。但同一個東西對不同的人能是又可愛又可恨。所以恨不只指向惡，也指向善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2065
+      ],
+      "before": "恨與愛是對立的。按前面第二十六題第一節;第二十七題第一節說的，愛的對象是善。所以怨恨之對象是惡。",
+      "after": "恨與愛是對立的。按前面第二十六題第一節；第二十七題第一節說的，愛的對象是善。所以怨恨之對象是惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2065
+      ],
+      "before": "我解答如下:自然嗜慾既然是源自某種知覺，雖然知覺與嗜慾不一定是連在一起;隨從連在一起之知覺的動物性嗜慾，似乎該與自然嗜慾之傾向同理。在自然嗜慾方面可以看出，每一東西對其相宜之對象，有一種自然的共鳴或應合能力，此即自然的愛;同樣，對與它不合或有破壞作用者，則有一種自然的不諧和，這是自然的怨恨。在動物性或智性嗜慾方面也是如此，愛是嗜慾對其視為相宜者的一種共鳴;恨是嗜慾對其視為相反及有害者的一種不調諧。凡適宜者，既為適宜者，必具有善之意義;同樣，凡不適合者，既然不適合，便具有惡之意義。為此，正如善是愛的對象，所以惡是怨恨的對象。",
+      "after": "我解答如下：自然嗜慾既然是源自某種知覺，雖然知覺與嗜慾不一定是連在一起；隨從連在一起之知覺的動物性嗜慾，似乎該與自然嗜慾之傾向同理。在自然嗜慾方面可以看出，每一東西對其相宜之對象，有一種自然的共鳴或應合能力，此即自然的愛；同樣，對與它不合或有破壞作用者，則有一種自然的不諧和，這是自然的怨恨。在動物性或智性嗜慾方面也是如此，愛是嗜慾對其視為相宜者的一種共鳴；恨是嗜慾對其視為相反及有害者的一種不調諧。凡適宜者，既為適宜者，必具有善之意義；同樣，凡不適合者，既然不適合，便具有惡之意義。為此，正如善是愛的對象，所以惡是怨恨的對象。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2065
+      ],
+      "before": "物之為物，不具有衝突之意義，而具有和諧之意義，因為在物內一切皆是適宜的。但某個固定的物，對別的某固定的物，能有衝突。故此，一個東西雖然本身不是惡的，但對另一個說可能便是可恨的和惡的。",
+      "after": "物之為物，不具有衝突之意義，而具有和諧之意義，因為在物內一切皆是適宜的。但某個固定的物，對別的某固定的物，能有衝突。故此，一個東西雖然本身不是惡的，但對另一個說可能便是可恨的和惡的",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "和惡的。",
+          "after": "和惡的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2065
+      ],
+      "before": "一個本來不是真好的東西，能被視為好的;不是真正惡的，也能被視為惡。所以，有時愛善(好善)與恨惡(惡惡)並不是善。",
+      "after": "一個本來不是真好的東西，能被視為好的；不是真正惡的，也能被視為惡。所以，有時愛善(好善)與恨惡(惡惡)並不是善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2065
+      ],
+      "before": "同一個東西對不同的東西，可能一面是可愛的，一面是可恨的。按自然嗜慾，乃因同一個東西能適於某東西而不適於另一東西，就如熱對火相宜，對水不相宜。按動物性嗜慾，乃因同一個東西也能被一物視為善，被另一物視為惡。",
+      "after": "同一個東西對不同的東西，可能一面是可愛的，一面是可恨的。按自然嗜慾，乃因同一個東西能適於某東西而不適於另一東西，就如熱對火相宜，對水不相宜。按動物性嗜慾，乃因同一個東西也能被一物視為善，被另一物視為惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "怨恨是否生於愛",
+      "after": "怨恨是否生於愛",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "愛似乎不是恨的原因。因為:",
+      "after": "愛似乎不是恨的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "在《範疇論》第十章裡說:「彼此相對分者，是自然同時的。」愛與恨既然是對立的，所以是由正反而相區分。所以便是自然同時的2故愛不是怨恨的原因。",
+      "after": "在《範疇論》第十章裡說：「彼此相對分者，是自然同時的。」愛與恨既然是對立的，所以是由正反而相區分。所以便是自然同時的。故愛不是怨恨的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同時的2故",
+          "after": "同時的。故",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "此外，兩個對立者，一個不是另一個的原因。個愛與怨恨是對立的。所以，愛不是怨恨之原因。",
+      "after": "此外，兩個對立者，一個不是另一個的原因。但愛與怨恨是對立的。所以，愛不是怨恨之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個愛與",
+          "after": "但愛與",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "此外，後者不是先者之原因。但恨似是先於受;因為恨含有對惡之遠離﹒而愛含有對善乏接近。所以愛不是怨恨之原因。",
+      "after": "此外，後者不是先者之原因。但恨似是先於愛；因為恨含有對惡之遠離，而愛含有對善之接近。所以愛不是怨恨之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先於受",
+          "after": "先於愛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "遠離﹒",
+          "after": "遠離，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善乏",
+          "after": "善之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "奧斯定在《天主之城》卷十四第七章裡卻說，情感皆是由愛而生。故恨既是靈魂的一種情感，也是由愛而生。",
+      "after": "奧斯定在《天主之城》卷十四第七章裡卻說，情感皆是由愛而生。故恨既是靈魂的一種情感，也是由愛而生。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2066
+      ],
+      "before": "我解答如下:前面第一節已經說過，愛在於愛者對被愛者的一種適宜性，恨在於衝突或不適宜。在任何東西上﹒應先看與之相宜者，後看與之衝突者，因為一物之所以與另一物衝突，是因為對其相宜者有破壞或妨害作用。因此，愛必然是先於恨;而一東西若非與所愛之相宜者相反，不會遭到怨恨。這樣說來，恨皆是由愛而來。",
+      "after": "我解答如下：前面第一節己經說過，愛在於愛者對被愛者的一種適宜性，恨在於衝突或不適宜。在任何東西上，應先看與之相宜者，後看與之衝突者，因為一物之所以與另一物衝突，是因為對其相宜者有破壞或妨害作用。因此，愛必然是先於恨；而一東西若非與所愛之相宜者相反，不會遭到怨恨。這樣說來，恨皆是由愛而來。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經說過",
+          "after": "己經說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西上﹒",
+          "after": "東西上，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2066,
+        2067
+      ],
+      "before": "那因對立而相區分者，有的按事實與理念皆是自然同時的，例如:兩類動物，或兩種顏色。有些按理念是同時的﹒但實際一個是在先，並且是男一個之原因，例如:數臣、圓形，及動態之類。還有的無論按事實或按理念皆不是同時的﹒例如:本體與依附體。因為本體實際是依附體之原因;而按理念，物首先指本體，而後指依附體。因為依附體只因為是在本體上纔是物。愛與恨按理念是自然同時的，但實際不然。故愛能是恨之原因。",
+      "after": "那因對立而相區分者，有的按事實與理念皆是自然同時的，例如：兩類動物，或兩種顏色。有些按理念是同時的，但實際一個是在先，並且是另一個之原因，例如：數目、圖形，及動態之類。還有的無論按事實或按理念皆不是同時的，例如：本體與依附體。因為本體實際是依附體之原因；而按理念，物首先指本體，而後指依附體。因為依附體只因為是在本體上才是物。愛與恨按理念是自然同時的，但實際不然。故愛能是恨之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "同時的﹒",
+          "after": "同時的，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "數臣",
+          "after": "數目",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "圓形",
+          "after": "圖形",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "愛與恨是對立的，如果是關於同一個東西。但關於相反者，貝IJ愛與恨不是對立的，而是相連的;因為愛一個東西，與恨與這東西相反者，是出於一理。這樣則愛一個東西，是恨與此東西相反者的原因。",
+      "after": "愛與恨是對立的，如果是關於同一個東西。但關於相反者，則愛與恨不是對立的，而是相連的；因為愛一個東西，與恨與這東西相反者，是出於一理。這樣則愛一個東西，是恨與此東西相反者的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "在實施上，離開一點先於達到另一點;但在意念中正好相反，因為離開一點乃是為達到點。嗜慾性之動態更接近意念，而不似實施。故踅先於1畏，因為二者皆是嗜慾性動態。",
+      "after": "在實施上，離開一點先於達到另一點；但在意念中正好相反，因為離開一點乃是為達到點。嗜慾性之動態更接近意念，而不似實施。故愛先於恨，因為二者皆是嗜慾性動態。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故踅先於1畏",
+          "after": "故愛先於恨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "怨恨是否比愛力量大",
+      "after": "怨恨是否比愛力量大",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "好似怨恨比愛力量大。因為:",
+      "after": "好似怨恨比愛力量大。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "奧斯定在《雜題八十三》第三十六題說: 「沒有人不是逃避痛苦，甚於追求享受。」但逃避痛苦屬於恨，而追求享受屬於愛。所以恨比愛力量大。",
+      "after": "奧斯定在《雜題八十三》第三十六題說：「沒有人不是逃避痛苦，甚於追求享受。」但逃避痛苦屬於恨，而追求享受屬於愛。所以恨比愛力量大。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "此外，強者克服弱者。但愛被恨克服，即是說在愛變為恨的時候。所以恨比愛力量大。",
+      "after": "此外，強者克服弱者。但愛被恨克服，即是說在愛變為恨的時候。所以恨比愛力量大。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "此外，自效果可看出靈魂之情感。但人為排斥可恨者，比為得到所愛者更堅決;如奧斯定在《雜題八十三》第三十六題裡指出的，動物為免受鞭打而不要其所喜好的心所以恨比愛力量大。",
+      "after": "此外，自效果可看出靈魂之情感。但人為排斥可恨者，比為得到所愛者更堅決；如奧斯定在《雜題八十三》第三十六題裡指出的，動物為免受鞭打而不要其所喜好的。所以恨比愛力量大。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所喜好的心",
+          "after": "所喜好的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2067
+      ],
+      "before": "善比惡力量大。因為按狄奧尼修在《神名論》第四章說的，「惡只靠善的力量才起作用」。但愛與恨是按善與惡而有分別。所以，愛比恨力量大。",
+      "after": "善比惡力量大。因為按狄奧尼修在《神名論》第四章說的，「惡只靠善的力量才起作用」。但愛與恨是按善與惡而有分別。所以，愛比恨力量大。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2067,
+        2068
+      ],
+      "before": "我解答如下:效果不可能比其原因力量大。按前面說的，凡恨皆是以某種愛為其原因﹒而得產生。所以恨不可能單純地比愛力量大。\n而且更進一步，單純地或絕對地說來，愛該比恨力量大。一物動向目的之力量，比其動向導致目的者的力量大c遠離惡乃是為了得到善，得到善是避惡的目的;故單純地或絕對地說，靈魂動向善的力量比動向惡的力量大。\n但(相對地)有時似乎恨比愛力量大，這有兩個原因:第一，是恨比愛容易感覺到。既然感官知覺在於一種變化‘那已經變了的，不如正在變的容易感覺到。因此，患肺病的雖然熱度高，卻不如隔日的熱容易感受到，因為肺病的發燒已經變成了一種習性。被愛者不在眼前峙，愛的感受尖銳，也是這個緣故。正如奧斯定在《論天主聖三》卷十第十二章裡說的;「只有在需要的時候，愛的感受才尖銳。」對所恨之東西的反感，比對所愛之東西的同情更容易感受到，也是這個原因。第二，是因為不是拿同等的愛與恨相比較。由於善有所不同，因而有大小不同的愛，及與之相當的恨。那麼，與較大之愛相對的恨，自然比較小之愛力量大。",
+      "after": "我解答如下：效果不可能比其原因力量大。按前面說的，凡恨皆是以某種愛為其原因，而得產生。所以恨不可能單純地比愛力量大。\n而且更進一步，單純地或絕對地說來，愛該比恨力量大。一物動向目的之力量，比其動向導致目的者的力量大。遠離惡乃是為了得到善，得到善是避惡的目的；故單純地或絕對地說，靈魂動向善的力量比動向惡的力量大。\n但(相對地)有時似乎恨比愛力量大，這有兩個原因：第一，是恨比愛容易感覺到。既然感官知覺在於一種變化，那己經變了的，不如正在變的容易感覺到。因此，患肺病的雖然熱度高，卻不如隔日的熱容易感受到，因為肺病的發燒己經變成了一種習性。被愛者不在眼前時，愛的感受尖銳，也是這個緣故。正如奧斯定在《論天主聖三》卷十第十二章裡說的；「只有在需要的時候，愛的感受才尖銳。」對所恨之東西的反感，比對所愛之東西的同情更容易感受到，也是這個原因。第二，是因為不是拿同等的愛與恨相比較。由於善有所不同，因而有大小不同的愛，及與之相當的恨。那麼，與較大之愛相對的恨，自然比較小之愛力量大。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因﹒",
+          "after": "原因，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力量大c",
+          "after": "力量大。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "變化‘",
+          "after": "變化，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "眼前峙",
+          "after": "眼前時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2068
+      ],
+      "before": "由上面說的，可知質疑1.之答案。因為對享受之愛，不如對自身之安全的愛強烈，而逃避痛苦相當於保全自己之愛。故此人逃避痛苦甚於追求享受。",
+      "after": "由上面說的，可知質疑1.之答案。因為對享受之愛，不如對自身之安全的愛強烈，而逃避痛苦相當於保全自己之愛。故此人逃避痛苦甚於追求享受。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2068
+      ],
+      "before": "若非與恨相應的愛比較大，恨不會勝過愛，例如;人愛自己甚於愛朋友;因為愛自己，故若朋友妨害到這個愛時，便會恨朋友。",
+      "after": "若非與恨相應的愛比較大，恨不會勝過愛，例如；人愛自己甚於愛朋友；因為愛自己，故若朋友妨害到這個愛時，便會恨朋友。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2068
+      ],
+      "before": "人對可恨者之反抗比較猛烈，是因為恨更容易感受主IJ。",
+      "after": "人對可恨者之反抗比較猛烈，是因為恨更容易感受到。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感受主IJ",
+          "after": "感受到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "人能否怨恨自己",
+      "after": "人能否怨恨自己",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "好似人能夠怨恨自己。因為:",
+      "after": "好似人能夠怨恨自己。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "《聖詠》第十篇6節說: 「誰喜好惡事，憎恨自己的生命。」許多人喜歡惡事。所以，許多人憎恨自己。",
+      "after": "《聖詠》第十篇6節說：「誰喜好惡事，憎恨自己的生命。」許多人喜歡惡事。所以，許多人憎恨自己。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "此外，我們對誰願望並做惡，便是恨誰。但有時人對自己願望並且做惡，例如;自殺者。所以，有人恨自己。",
+      "after": "此外，我們對誰願望並做惡，便是恨誰。但有時人對自己願望並且做惡，例如；自殺者。所以，有人恨自己。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "此外，波其武在《哲學的慰藉》卷二第五章裡說:「吝薔使人成為可恨的」'因此可以說，凡人皆恨吝蕾的人。但有些人是吝裔的。所以，那些人恨自己。",
+      "after": "此外，波其武在《哲學的慰藉》卷二第五章裡說：「吝嗇使人成為可恨的」，因此可以說，凡人皆恨吝嗇的人。但有些人是吝嗇的。所以，那些人恨自己。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "吝薔",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吝蕾",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吝裔",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可恨的」'",
+          "after": "可恨的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "宗徒在《厄弗所書》第五章29節卻說: 「從來沒有人恨過自己的肉身。」",
+      "after": "宗徒在《厄弗所書》第五章29節卻說：「從來沒有人恨過自己的肉身。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2069
+      ],
+      "before": "我解答如下:在原則上，人不可能恨自己。每個東西自然追求善，一人為自己所求的，只能因視之為善才追求;因為按狄奧尼修在《神名論》第四章說的: 「惡與意志相反」。按前面說過的，愛一個人，即是願意他得利益。所以在原則上，人必然愛自己，不可能恨自己。\n不過人偶爾恨自己。這有兩種情形。第一種情形，是由於自己所追求之善那方面。因為有時視為相對的善而追求的，卻是絕對的惡;這樣人遂偶爾為自己求惡，亦即是恨自己。另一種情形，是由於追求善者本人方面。每個東西中的主要者是最大的，因此國王做的便說是國家做的，好似國王便是整個國家。在人中顯然心靈是主要部分。但有些人有時認為身體及感官方面最重要。因此他們願意相反理性的事時，他們是按他們認為是者愛自己，實際則是在恨真正的自己。那以這兩種方式喜好惡事的人，不只是恨自己的生命，而且是恨自己。",
+      "after": "我解答如下：在原則上，人不可能恨自己。每個東西自然追求善，一人為自己所求的，只能因視之為善才追求；因為按狄奧尼修在《神名論》第四章說的：「惡與意志相反」。按前面說過的，愛一個人，即是願意他得利益。所以在原則上，人必然愛自己，不可能恨自己。\n不過人偶爾恨自己。這有兩種情形。第一種情形，是由於自己所追求之善那方面。因為有時視為相對的善而追求的，卻是絕對的惡；這樣人遂偶爾為自己求惡，亦即是恨自己。另一種情形，是由於追求善者本人方面。每個東西中的主要者是最大的，因此國王做的便說是國家做的，好似國王便是整個國家。在人中顯然心靈是主要部分。但有些人有時認為身體及感官方面最重要。因此他們願意相反理性的事時，他們是按他們認為是者愛自己，實際則是在恨真正的自己。那以這兩種方式喜好惡事的人，不只是恨自己的生命，而且是恨自己。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "由上面講的，可知質疑1.之答案。",
+      "after": "由上面講的，可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "人不會對自己願意並作惡，除非他視之為善。就連那些自殺者，也是因為視死亡為一種善，因為那代表某種災難或痛苦之結束。",
+      "after": "人不會對自己願意並作惡，除非他視之為善。就連那些自殺者，也是因為視死亡為一種善，因為那代表某種災難或痛苦之結束。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "吝蕾者恨他自己的偶有性質，但並不因此而恨自己;就如病人恨自己的疾病，乃是因為愛自己。或者也可以說，吝青使人對他人成為可恨的，而非對自己。甚而可以說，吝音是生於非適當地愛自己，因而使人過份為自己求現世的東西。",
+      "after": "吝嗇者恨他自己的偶有性質，但並不因此而恨自己；就如病人恨自己的疾病，乃是因為愛自己。或者也可以說，吝嗇使人對他人成為可恨的，而非對自己。甚而可以說，吝嗇是生於非適當地愛自己，因而使人過份為自己求現世的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "吝蕾",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吝青",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吝音",
+          "after": "吝嗇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "人能否怨恨真理",
+      "after": "人能否怨恨真理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "似乎人不能怨恨真理。因為:",
+      "after": "似乎人不能怨恨真理。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "善、物、真，三者可以相互替換。但人不能恨善。所以也不能恨真理。",
+      "after": "善、物、真，三者可以相互替換。但人不能恨善。所以也不能恨真理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "此外，在《形上學》卷一第一章說: 「人皆自然願意知道。」但知道只是關於真理的。所以人自然慾望並愛真理。但自然而然的，是常一樣的。所以沒有人能恨真理。",
+      "after": "此外，在《形上學》卷一第一章說：「人皆自然願意知道。」但知道只是關於真理的。所以人自然慾望並愛真理。但自然而然的，是常一樣的。所以沒有人能恨真理。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第四章說: 「人皆喜愛沒有虛偽的人。」但這只能是為了真理。所以，人自然愛好員理。故不能恨真理。",
+      "after": "此外，哲學家在《修辭學》卷二第四章說：「人皆喜愛沒有虛偽的人。」但這只能是為了真理。所以，人自然愛好真理。故不能恨真理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員理",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2070
+      ],
+      "before": "宗徒在《迦拉達書》第四章16節卻說: 「只因我給你們說實話(真話)，就成了你們的仇人。」",
+      "after": "宗徒在《迦拉達書》第四章16節卻說：「只因我給你們說實話(真話)，就成了你們的仇人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2070,
+        2071
+      ],
+      "before": "我解答如下:善、真與物，實際是一事，但在理念中有區別。善真有可欲之義，而物與真則沒有，因為善是「一切皆追求者」。為此，善以其為善而言，不能為人所恨，無論廣泛地來看，或個男IJ地來看。至於物與置，因不能廣泛地為人所恨，因為不諧和是恨之原因，而諧和是愛的原因;物與真是一切所共有的。但在個別情形，某種物和某種真可能為人所恨，即在其真有對立和衝突之意義的時候;對立與衝突違反善之理，但不那般違反物與真之理。\n個另IJ之真在三種情形可與所愛之善衝突或對立:第一種情形，是關於東西本身所具之真。一人願意那本來是真者不真，便怨恨某種真理。第二種情形，是在人所知之晨，阻礙其獲得所愛者時。例如一人希望當初沒有認識信德真理，那樣就可以自由犯罪了;《約伯傳》第二十一章14節說的，便是代這種人說的: 「我們不願知道你的道路。」第三種情形，是恨在他人意念中的個別真理，例如:一人要矇蔽罪過，恨別人關於1也的罪過所知道的真情。奧斯定在《懺悔錄》卷十第二十三章所說的，便是指的這個。他說人「愛增光的真理，恨揭短的真E裏」 0",
+      "after": "我解答如下：善、真與物，實際是一事，但在理念中有區別。善具有可欲之義，而物與真則沒有，因為善是「一切皆追求者」。為此，善以其為善而言，不能為人所恨，無論廣泛地來看，或個別地來看。至於物與真，固不能廣泛地為人所恨，因為不諧和是恨之原因，而諧和是愛的原因；物與真是一切所共有的。但在個別情形，某種物和某種真可能為人所恨，即在其具有對立和衝突之意義的時候；對立與衝突違反善之理，但不那般違反物與真之理。\n個別之真在三種情形可與所愛之善衝突或對立：第一種情形，是關於東西本身所具之真。一人願意那本來是真者不真，便怨恨某種真理。第二種情形，是在人所知之真，阻礙其獲得所愛者時。例如一人希望當初沒有認識信德真理，那樣就可以自由犯罪了；《約伯傳》第二十一章14節說的，便是代這種人說的：「我們不願知道你的道路。」第三種情形，是恨在他人意念中的個別真理，例如：一人要矇蔽罪過，恨別人關於他的罪過所知道的真情。奧斯定在《懺悔錄》卷十第二十三章所說的，便是指的這個。他說人「愛增光的真理，恨揭短的真理」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善真有",
+          "after": "善具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個男IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "物與置，因不能",
+          "after": "物與真，固不能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其真有",
+          "after": "其具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所知之晨",
+          "after": "所知之真",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1也",
+          "after": "他",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真E裏」 0",
+          "after": "真理」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "由上面說的，可知質疑1.之答案。",
+      "after": "由上面說的，可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "認識真理本來是可愛的;故此奧斯定說人「愛增光的真理」。但認識真理偶爾能是可恨的，因為它妨礙人暢所欲為。",
+      "after": "認識真理本來是可愛的；故此奧斯定說人「愛增光的真理」。但認識真理偶爾能是可恨的，因為它妨礙人暢所欲為。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "因為人喜歡認識真理本身，沒有虛偽的人彰顯真惰，故為人所喜愛。",
+      "after": "因為人喜歡認識真理本身，沒有虛偽的人彰顯真情，故為人所喜愛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真惰",
+          "after": "真情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "是否有東西普遍地可恨",
+      "after": "是否有東西普遍地可恨",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "東西似乎不可能普遍地可恨。因為:",
+      "after": "東西似乎不可能普遍地可恨。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "恨是感官嗜慾的情，由感官知覺推動。但感官不能知覺普遍性。所以，不能有東西普遍地可恨。",
+      "after": "恨是感官嗜慾的情，由感官知覺推動。但感官不能知覺普遍性。所以，不能有東西普遍地可恨。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2071
+      ],
+      "before": "此外，恨是由某種不諧和而生，不諧和遂不為團體所容。但團體是屬於普遍性的東西。所以不能有東西普遍地可恨。",
+      "after": "此外，恨是由某種不諧和而生，不諧和遂不為團體所容。但團體是屬於普遍性的東西。所以不能有東西普遍地可恨。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q029.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2072
+      ],
+      "before": "此外，恨的對象是惡。按《形上學》卷六第四章裡說的: 「惡是在東西t，不是在心思上」 0既然普遍性只存在於'L、思中，是心思由個月IJ性中抽出普遍性來，似乎恨不能是普遍性的。",
+      "after": "此外，恨的對象是惡。按《形上學》卷六第四章裡說的：「惡是在東西上，不是在心思上」。既然普遍性只存在於心思中，是心思由個別性中抽出普遍性來，似乎恨不能是普遍性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西t",
+          "after": "東西上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "'L、思",
+          "after": "心思",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2072
+      ],
+      "before": "哲學家在《修辭學》卷二第四章卻說: 「忿怒常是個體之間的，恨則也指向種類;因為每人皆恨賊及說謗者。」",
+      "after": "哲學家在《修辭學》卷二第四章卻說：「忿怒常是個體之間的，恨則也指向種類；因為每人皆恨賊及說誑者。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說謗者",
+          "after": "說誑者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2072
+      ],
+      "before": "我解答是日下:關於普遍性，可以從兩方面來講:第一種是指所意識到之普遍性;第二種是指東西所合之普遍性。因為普遍性的人，與這個人之為人，不是一回事。那麼，若論第一種普遍性，則感官部分之機能，無論屬於認知那方面的、或屬於嗜慾那方面的，皆不能指向普遍;因為這種普遍是由個體性質料抽象而得，而感官能力是體根於個體性質料的。\n但感官機能是認知性的也好，是嗜慾性的也好，能夠普遍地指向某些東西。例如我們說，視覺之對象是顏色之類;這不是說視覺能認知普遍性的顏色，而是說顏色之能為視覺所知，並非因了是這個顏色，而只因為那是顏色。故此﹒感官部分的恨，也能普遍地指向某些東西，例如:羊怕狼是因在共同的天性上相對立，並不只因為是此一個體。因此，羊普遍地恨狼。但是忿怒常是由某個體而起一一即是由於侵害者之行動，行動是個別性的。故此哲學家說: 「忿怒常是針對某個體的;恨則可以指向種類。」不過在智性部分的恨，既然是隨智性之普遍性認知而生，可以指向雙重的普遍性。",
+      "after": "我解答如下：關於普遍性，可以從兩方面來講：第一種是指所意識到之普遍性；第二種是指東西所合之普遍性。因為普遍性的人，與這個人之為人，不是一回事。那麼，若論第一種普遍性，則感官部分之機能，無論屬於認知那方面的、或屬於嗜慾那方面的，皆不能指向普遍；因為這種普遍是由個體性質料抽象而得，而感官能力是置根於個體性質料的。\n但感官機能是認知性的也好，是嗜慾性的也好，能夠普遍地指向某些東西。例如我們說，視覺之對象是顏色之類；這不是說視覺能認知普遍性的顏色，而是說顏色之能為視覺所知，並非因了是這個顏色，而只因為那是顏色。故此，感官部分的恨，也能普遍地指向某些東西，例如：羊怕狼是因在共同的天性上相對立，並不只因為是此一個體。因此，羊普遍地恨狼。但是忿怒常是由某個體而起——即是由於侵害者之行動，行動是個別性的。故此哲學家說：「忿怒常是針對某個體的；恨則可以指向種類。」不過在智性部分的恨，既然是隨智性之普遍性認知而生，可以指向雙重的普遍性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答是日下",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "體根",
+          "after": "置根",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "故此﹒",
+          "after": "故此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2072
+      ],
+      "before": "!i已有官不能認知普遍性本身，但能認知合於抽象之普遍性的東西。",
+      "after": "感官不能認知普遍性本身，但能認知合於抽象之普遍性的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "!i已有官",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2072,
+        2073
+      ],
+      "before": "那屑一切東西普遍所共有者，不能是恨的緣故。但是許多東西所共有者，可能與其他東西不諧和，因而為這些東西所恨。302 3.這裡所提之理由，是根據意念中之普遍性;如此則不屬於感官知覺及感官嗜慾之範圈。神學大全﹒第四用論人的道德行為與情",
+      "after": "那為一切東西普遍所共有者，不能是恨的緣故。但是許多東西所共有者，可能與其他東西不諧和，因而為這些東西所恨。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那屑一切東西普遍所共有者，不能是恨的緣故。但是許多東西所共有者，可能與其他東西不諧和，因而為這些東西所恨。302 3.這裡所提之理由，是根據意念中之普遍性;如此則不屬於感官知覺及感官嗜慾之範圈。神學大全﹒第四用論人的道德行為與情",
+          "after": "那屑一切東西普遍所共有者，不能是恨的緣故。但是許多東西所共有者，可能與其他東西不諧和，因而為這些東西所恨。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那屑",
+          "after": "那為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q029.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2073
+      ],
+      "before": "",
+      "after": "這裡所提之理由，是根據意念中之普遍性；如此則不屬於感官知覺及感官嗜慾之範圍。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "這裡所提之理由，是根據意念中之普遍性;如此則不屬於感官知覺及感官嗜慾之範圈。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
