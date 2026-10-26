@@ -1,0 +1,1290 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q036",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q036",
+    "title": "論哀愁或傷痛之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2143,
+      2144,
+      2145,
+      2146,
+      2147,
+      2148,
+      2149
+    ],
+    "printed_pages": [
+      372,
+      378
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 32,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q36.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q36.json": "dec0323b41b92cbd93a54bf2275fb4a4a233959fb21044b4c1eb9266893f1b30",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q036.a001.arg2",
+      "pdf_file_page": 2143,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a002.arg1",
+      "pdf_file_page": 2145,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a002.respondeo",
+      "pdf_file_page": 2145,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a002.respondeo",
+      "pdf_file_page": 2146,
+      "text": "己握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a002.ad1",
+      "pdf_file_page": 2146,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a003.ad1",
+      "pdf_file_page": 2148,
+      "text": "己經吃飽",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q036.a003.title",
+      "pdf_file_page": 2147,
+      "text": "原因；",
+      "status": "suspected_source_print_error",
+      "action": "原页标题末尾确有分号，照录并单列，不静默删去。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q036.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "然後要討論的是哀愁之原因(參看第三十五題引言)。\n關於這點，我們可以提出四個問題:\n一、傷痛之原因是所失之善，抑或所受之惡。\n二、慾望是否為傷痛之原因。\n三、合一之嗜悠是否為傷痛之原因。\n四、不可抗拒之力量是否為傷痛之原因。",
+      "after": "然後要討論的是哀愁之原因(參看第三十五題引言)。\n關於這點，我們可以提出四個問題：\n一、傷痛之原因是所失之善，抑或所受之惡。\n二、慾望是否為傷痛之原因。\n三、合一之嗜慾是否為傷痛之原因。\n四、不可抗拒之力量是否為傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嗜悠",
+          "after": "嗜慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "傷痛之原因是所失之善，抑或所受之惡",
+      "after": "傷痛之原因是所失之善，抑或所受之惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "似乎所失之善比所受之惡更是傷痛之原因。因為:",
+      "after": "似乎所失之善比所受之惡更是傷痛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "奧斯定在《杜西秋答問八買IJ》(De Octo Dulcitii Quaestionibus)第一則說，傷痛是由於現世之善的損失。很據同理，所以任何傷痛皆是由於某種善的損失。",
+      "after": "奧斯定在《杜西秋答問八則》(De Octo Dulcitii Quaestionibus)第一則說，傷痛是由於現世之善的損失。根據同理，所以任何傷痛皆是由於某種善的損失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "八買IJ",
+          "after": "八則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "很據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "此外，前面第三十五題第四節曾說，與快樂相反之傷痛，是關於所以為樂之同一事物。但快樂是關於善的，如先前第二十三題第四節、第三十一題第一節，以及第三十五題第三節己說過的。所以，傷痛主要是關於所失之善。",
+      "after": "此外，前面第三十五題第四節曾說，與快樂相反之傷痛，是關於所以為樂之同一事物。但快樂是關於善的，如先前第二十三題第四節、第三十一題第一節，以及第三十五題第三節己說過的。所以，傷痛主要是關於所失之善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "此外，按奧斯定在《天主之城》卷十四第七章說的，愛是哀愁之原因，也是靈魂之其他情感之原因。但愛之對象是善。所以，傷痛或哀愁是關於所失之善，甚於所受之惡。",
+      "after": "此外，按奧斯定在《天主之城》卷十四第七章說的，愛是哀愁之原因，也是靈魂之其他情感之原因。但愛之對象是善。所以，傷痛或哀愁是關於所失之善，甚於所受之惡。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2143
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷二第十二章卻說:「預知之惡構成畏懼，現在之惡構成哀愁。」",
+      "after": "大馬士革的若望在《論正統信仰》卷二第十二章卻說：「預知之惡構成畏懼，現在之惡構成哀愁。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2144
+      ],
+      "before": "我解答如下:如果在意識中之損失與在事物本身之損失是一樣的話，這個問題根本不成問題。按在第一集第十四題第十節、第四十八題第三節所說的，惡乃善之缺欠。在自然事物上的缺欠，無非即是沒有反面乏善性。這樣的話，買IJ以失去善而哀愁，與以具有惡而哀愁是同一事。然而哀愁是嗜慾隨其日覺而生之動態。在知覺中，缺欠具有一種實在性，故此稱之為意念中的物(ens rationis)。如此，惡既為缺欠，貝IJ有如一相反者或對立者。因此，關於嗜慾性的動態，主要是在於所受之惡或所失之苦，三者是有區別的。\n既然靈魂之嗜慾的動態，在靈魂的動作中，有如自然物之自然動態，看自然動態便可知真理之所在。若我們看自然動態中的接近與遠離，貝IJ接近本然是關於適合天性者，遠離本然是關於與天性相反者，例如:重物本然地遠離高處‘並自然地接近低處。但我們若看二者之原因﹒即重量，貝IJ重量之趨向低喔，先於其遠離高處;它之遠離高處是為了接近低處。\n既然在嗜慾的動態中，哀愁是以逃避或遠離的方式而動，快樂是以追求或接近的方式:所以，'1克樂首先是關於所得之善，這是它的本然對象，而哀愁首先是關於所受主惡。但是快樂與哀愁之原因，即愛，卻首先是關於善，而非關於惡。所以，比照對象是情之原因的方式，更好說所受之惡是哀愁與傷痛之本然原因，而非所失之善。",
+      "after": "我解答如下：如果在意識中之損失與在事物本身之損失是一樣的話，這個問題根本不成問題。按在第一集第十四題第十節、第四十八題第三節所說的，惡乃善之缺欠。在自然事物上的缺欠，無非即是沒有反面之善性。這樣的話，則以失去善而哀愁，與以具有惡而哀愁是同一事。然而哀愁是嗜慾隨知覺而生之動態。在知覺中，缺欠具有一種實在性，故此稱之為意念中的物(ens rationis)。如此，惡既為缺欠，則有如一相反者或對立者。因此，關於嗜慾性的動態，主要是在於所受之惡或所失之善，二者是有區別的。\n既然靈魂之嗜慾的動態，在靈魂的動作中，有如自然物之自然動態，看自然動態便可知真理之所在。若我們看自然動態中的接近與遠離，則接近本然是關於適合天性者，遠離本然是關於與天性相反者，例如：重物本然地遠離高處，並自然地接近低處。但我們若看二者之原因，即重量，則重量之趨向低處，先於其遠離高處；它之遠離高處是為了接近低處。\n既然在嗜慾的動態中，哀愁是以逃避或遠離的方式而動，快樂是以追求或接近的方式：所以，快樂首先是關於所得之善，這是它的本然對象，而哀愁首先是關於所受之惡。但是快樂與哀愁之原因，即愛，卻首先是關於善，而非關於惡。所以，比照對象是情之原因的方式，更好說所受之惡是哀愁與傷痛之本然原因，而非所失之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "反面乏善性",
+          "after": "反面之善性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隨其日覺",
+          "after": "隨知覺",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所失之苦，三者",
+          "after": "所失之善，二者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "高處‘",
+          "after": "高處，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因﹒",
+          "after": "原因，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "低喔",
+          "after": "低處",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "'1克樂",
+          "after": "快樂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所受主惡",
+          "after": "所受之惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2144
+      ],
+      "before": "善之慎失在意識中是被視為惡，正如惡之悄失之被視為善。故此奧斯定說傷痛是由於現世之善的損失。",
+      "after": "善之損失在意識中是被視為惡，正如惡之消失之被視為善。故此奧斯定說傷痛是由於現世之善的損失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慎失",
+          "after": "損失",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "悄失",
+          "after": "消失",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2144,
+        2145
+      ],
+      "before": "快樂不IJ與之相反的傷痛是關於同一個事物，然而是以相反的觀點，因為快樂是由於一個東西在跟前，哀愁是因這同a東西不在跟前。按《形仁學》卷十第四章所說的，在相反者之一內，含有另一個乏缺欠。所以，反面之哀愁(與快樂)是關於同一事物，然而是以相反的觀點。",
+      "after": "快樂和與之相反的傷痛是關於同一個事物，然而是以相反的觀點，因為快樂是由於一個東西在跟前，哀愁是因這同一東西不在跟前。按《形上學》卷十第四章所說的，在相反者之一內，含有另一個之缺欠。所以，反面之哀愁(與快樂)是關於同一事物，然而是以相反的觀點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "快樂不IJ",
+          "after": "快樂和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "同a東西",
+          "after": "同一東西",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形仁學",
+          "after": "形上學",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個乏缺欠",
+          "after": "個之缺欠",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "在由一個原因產生許多動態的時候，不必每個動態皆是主要關於與原因主要相關者，只有第一個動態是如此。其他動態則各按自己之理，主要是關於與自己相適合者。",
+      "after": "在由一個原因產生許多動態的時候，不必每個動態皆是主要關於與原因主要相關者，只有第一個動態是如此。其他動態則各按自己之理，主要是關於與自己相適合者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "慾望是否為傷痛之原因",
+      "after": "慾望是否為傷痛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "慾望似乎不是傷痛或哀愁之原因。因為:",
+      "after": "慾望似乎不是傷痛或哀愁之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "前面第一節己說過，哀愁本然是關於惡的。慾望則是嗜慾對善的一種動態。關於相反者之一的動態，不是關於中日反者另一方面之動態的原因。所以慾望不是傷痛之原因。",
+      "after": "前面第一節己說過，哀愁本然是關於惡的。慾望則是嗜慾對善的一種動態。關於相反者之一的動態，不是關於相反者另一方面之動態的原因。所以慾望不是傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中日反者",
+          "after": "相反者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "此外，按大馬士革的若望《論正統信仰》卷二第寸二章說的，傷痛是關於現在者，慾望是關於未來者。所以慾望不是傷痛之原因ο",
+      "after": "此外，按大馬士革的若望《論正統信仰》卷二第十二章說的，傷痛是關於現在者，慾望是關於未來者。所以慾望不是傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第寸二",
+          "after": "第十二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因ο",
+          "after": "原因。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "此外，本然是可樂者，不是傷痛之原因。按哲學家在《修辭學》卷一第十一章裡說的，慾望本來是可樂的。所以，慾望不是哀愁或傷痛之原因。",
+      "after": "此外，本然是可樂者，不是傷痛之原因。按哲學家在《修辭學》卷一第十一章裡說的，慾望本來是可樂的。所以，慾望不是哀愁或傷痛之原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2145
+      ],
+      "before": "奧斯定在《基本教理手冊》第二十四章中卻說:「若不知何事當為的無知，及慾望有害者的慾望潛入，錯誤及傷痛便隨之而生。」但無知是錯誤之原因。所以，慾望是傷痛之原因。",
+      "after": "奧斯定在《基本教理手冊》第二十四章中卻說：「若不知何事當為的無知，及慾望有害者的慾望潛入，錯誤及傷痛便隨之而生。」但無知是錯誤之原因。所以，慾望是傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2145,
+        2146
+      ],
+      "before": "我解答如下:哀愁是靈魂之嗜慾的一種動態。如第一節己說過的，嗜慾性動態，有似自然動態。自然動態的原因可以說有兩個:一個是以目的方式，另一個是動態之所自始。例如:重物下降之目的原因是低處;動態之根本則是自然性向，是由重量而來。\n嗜慾性動態之目的原因，即是其對象。故此，前面第一節曾說，傷痛或哀愁之原因，是所受之惡。這動態之根本方面的原因，是嗜慾內部之傾向。這傾向首先指向善，因之繼而逃避反面之惡。所以嗜慾動態這種第一個根本是愛，這是嗜慾求善的第一個傾向;第二個根本是憎恨(或厭惡)，這是嗜慾避惡的第一個傾向。但因了慾望或貪慾是愛的第一個效果，而愛是快樂的主要原因，如第三十二題第六節己說過的，故奧斯定多次用貪慾或慾望代替愛，這在前面第三十題第二節釋疑2.也曾說過ο這樣則可以說慾望是傷痛的普遍原因(參照反之)。\n但若看慾望本身之理，貝IJ有時是傷痛的原因。因為凡阻礙動態，使之不能達到終點者，皆與此動態相反。那與嗜慾之動態相反者，便產生哀愁。這樣則在我們因所求之善遲遲不能實現，或完全失去而哀愁時，慾望便成了哀愁之原因。(旦慾望不能是傷痛的普遍原因，因為失去已握有並以為樂的善，比失去慾望而尚未得的善，我們更感傷痛。",
+      "after": "我解答如下：哀愁是靈魂之嗜慾的一種動態。如第一節己說過的，嗜慾性動態，有似自然動態。自然動態的原因可以說有兩個：一個是以目的方式，另一個是動態之所自始。例如：重物下降之目的原因是低處；動態之根本則是自然性向，是由重量而來。\n嗜慾性動態之目的原因，即是其對象。故此，前面第一節曾說，傷痛或哀愁之原因，是所受之惡。這動態之根本方面的原因，是嗜慾內部之傾向。這傾向首先指向善，因之繼而逃避反面之惡。所以嗜慾動態這種第一個根本是愛，這是嗜慾求善的第一個傾向；第二個根本是憎恨(或厭惡)，這是嗜慾避惡的第一個傾向。但因了慾望或貪慾是愛的第一個效果，而愛是快樂的主要原因，如第三十二題第六節己說過的，故奧斯定多次用貪慾或慾望代替愛，這在前面第三十題第二節釋疑2.也曾說過。這樣則可以說慾望是傷痛的普遍原因(參照反之)。\n但若看慾望本身之理，則有時是傷痛的原因。因為凡阻礙動態，使之不能達到終點者，皆與此動態相反。那與嗜慾之動態相反者，便產生哀愁。這樣則在我們因所求之善遲遲不能實現，或完全失去而哀愁時，慾望便成了哀愁之原因。但慾望不能是傷痛的普遍原因，因為失去己握有並以為樂的善，比失去慾望而尚未得的善，我們更感傷痛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說過ο",
+          "after": "說過。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已握有",
+          "after": "己握有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2146
+      ],
+      "before": "如正解己說過的，嗜慾求善之傾向，是其避惡之傾向的原因。故此，有時以關於善的嗜慾性動態，當作嗜慾關於惡之動態的原因。",
+      "after": "如正解己說過的，嗜慾求善之傾向，是其避惡之傾向的原因。故此，有時以關於善的嗜慾性動態，當作嗜慾關於惡之動態的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2146
+      ],
+      "before": "所慾望者雖然實際是未來者，但若有希望的時候，也多少是眼前的。或者也可以說，所慾望之善雖然是未來的，但造成傷痛之障礙則是現時的。",
+      "after": "所慾望者雖然實際是未來者，但若有希望的時候，也多少是眼前的。或者也可以說，所慾望之善雖然是未來的，但造成傷痛之障礙則是現時的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2146
+      ],
+      "before": "若有希望得到所慾望者，員IJ慾望是樂事。但由於有障礙而失去希望時，慾望則產生傷痛。",
+      "after": "若有希望得到所慾望者，則慾望是樂事。但由於有障礙而失去希望時，慾望則產生傷痛。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "合一之嗜慾是否為傷痛之原因;",
+      "after": "合一之嗜慾是否為傷痛之原因；",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "合一之嗜慾似乎不是傷痛之原因。因為:",
+      "after": "合一之嗜慾似乎不是傷痛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "哲學家在《倫理學》卷十第三章裡說: 「這種意見」'即認為團圓是快樂之原因，而分割是哀愁之原因，「似乎是恨據飲食方面的快樂和哀愁而形成的」。但快樂或哀愁不都是這方面的c所以圓圓既然屬於合一，分割造成眾多，合一之嗜慾不是傷痛的普遍原因。",
+      "after": "哲學家在《倫理學》卷十第三章裡說：「這種意見」，即認為團圓是快樂之原因，而分割是哀愁之原因，「似乎是根據飲食方面的快樂和哀愁而形成的」。但快樂或哀愁不都是這方面的。所以團圓既然屬於合一，分割造成眾多，合一之嗜慾不是傷痛的普遍原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意見」'",
+          "after": "意見」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恨據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "方面的c",
+          "after": "方面的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以圓圓",
+          "after": "所以團圓",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "此外，任何分離皆與合一相反。若傷痛是由合一之嗜慾而生，沒有一種分離能是可樂的。但在與多餘者相分離時，顯然不是如此。",
+      "after": "此外，任何分離皆與合一相反。若傷痛是由合一之嗜慾而生，沒有一種分離能是可樂的。但在與多餘者相分離時，顯然不是如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "此外，以同一理由，我們求與善接合，及與惡分離。接合屬於合一，因為是一種統一，所以分離與合一相反。故此，合一之嗜慾不能比分離之嗜慾更是痛苦之原因。",
+      "after": "此外，以同一理由，我們求與善接合，及與惡分離。接合屬於合一，因為是一種統一，所以分離與合一相反。故此，合一之嗜慾不能比分離之嗜慾更是痛苦之原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "奧斯定在《論自由意志》卷三第二十三章裡卻說: 「從禽獸所感受之傷痛上，可以看出其魂魄在管理和督促身體時，是怎樣謀求合一。其實，傷痛是什麼呢?豈不就是不忍分離及腐化的感覺嗎?」",
+      "after": "奧斯定在《論自由意志》卷三第二十三章裡卻說：「從禽獸所感受之傷痛上，可以看出其魂魄在管理和督促身體時，是怎樣謀求合一。其實，傷痛是什麼呢？豈不就是不忍分離及腐化的感覺嗎？」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "呢?",
+          "after": "呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗎?",
+          "after": "嗎？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2147
+      ],
+      "before": "我解答如下:就如對善之慾望或貪慾是傷痛之原因，對合一之嗜慾或愛也同樣應視為傷痛之原因。每一東西之善在於一種統一性，即是說，每個東西皆將其各方面的成就集合為一禮。為此，柏拉圖派認為「一」是個原理，像「善」一樣。故此，每個東西自然便追求「一」'就像皆追求「善」。為了這個緣故，就如對善之愛或嗜慾是傷痛的原因;同樣，對合一之愛或嗜慾也是傷痛的原因。",
+      "after": "我解答如下：就如對善之慾望或貪慾是傷痛之原因，對合一之嗜慾或愛也同樣應視為傷痛之原因。每一東西之善在於一種統一性，即是說，每個東西皆將其各方面的成就集合為一體。為此，柏拉圖派認為「一」是個原理，像「善」一樣。故此，每個東西自然便追求「一」，就像皆追求「善」。為了這個緣故，就如對善之愛或嗜慾是傷痛的原因；同樣，對合一之愛或嗜慾也是傷痛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為一禮",
+          "after": "為一體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「一」'",
+          "after": "「一」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "並非任何合一皆有善之意義，只有東西之完美實在性所繫之合一具有善之意義。故此，不是對任何合一之嗜慾皆為傷痛或哀愁之原因，1象某些人所主張的。哲學家在那裡反對這些人的主張，因為有些圓圓不是可樂的，例如:已經喫飽的人，不以再多喫為樂。這種團團或合-不構成美滿的實在性，而與之衝突。所以，不是對任何合一之嗜慾皆產生傷痛，只有對那屬於天性之完美者的嗜慾是如此。",
+      "after": "並非任何合一皆有善之意義，只有東西之完美實在性所繫之合一具有善之意義。故此，不是對任何合一之嗜慾皆為傷痛或哀愁之原因，像某些人所主張的。哲學家在那裡反對這些人的主張，因為有些團圓不是可樂的，例如：己經吃飽的人，不以再多吃為樂。這種團圓或合一不構成美滿的實在性，而與之衝突。所以，不是對任何合一之嗜慾皆產生傷痛，只有對那屬於天性之完美者的嗜慾是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1象",
+          "after": "像",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "圓圓",
+          "after": "團圓",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經喫飽",
+          "after": "己經吃飽",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "再多喫",
+          "after": "再多吃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "團團或合-",
+          "after": "團圓或合一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "分離能夠是可樂的，或者因了那是與東西之完美性相反之分離;或者因了分離附帶有一種合一，例如:可感覺者之對感官。",
+      "after": "分離能夠是可樂的，或者因了那是與東西之完美性相反之分離；或者因了分離附帶有一種合一，例如：可感覺者之對感官。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "人求與有害及有破壞作用者分離，是因了這些與正當之合。相反。所以，對這種分離之嗜慾不是傷痛的第一個原因，合一之嗜慾纔是首要原因。",
+      "after": "人求與有害及有破壞作用者分離，是因了這些與正當之合一相反。所以，對這種分離之嗜慾不是傷痛的第一個原因，合一之嗜慾才是首要原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "合。相反",
+          "after": "合一相反",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "不可抗拒之力量是否為傷痛之原因",
+      "after": "不可抗拒之力量是否為傷痛之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "較強大的力量似乎不是傷痛之原因。因為:",
+      "after": "較強大的力量似乎不是傷痛之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "那在主動者之能力範閣的，尚不是現在的，而是未來的。但傷痛是關於現在的惡。所以較強大的能力不是傷痛之原因。",
+      "after": "那在主動者之能力範圍的，尚不是現在的，而是未來的。但傷痛是關於現在的惡。所以較強大的能力不是傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範閣",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "此外，所遭受之傷害是傷痛之原因。但是也能被能力較小者所傷害。所以不應將較強大的力量視為傷痛之原因。",
+      "after": "此外，所遭受之傷害是傷痛之原因。但是也能被能力較小者所傷害。所以不應將較強大的力量視為傷痛之原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q036.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "此外，嗜慾性動態之原因乃是靈魂內部之性向。較強大的力量則是外在的。故不應視為傷痛之原因c",
+      "after": "此外，嗜慾性動態之原因乃是靈魂內部之性向。較強大的力量則是外在的。故不應視為傷痛之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原因c",
+          "after": "原因。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2148
+      ],
+      "before": "奧斯定在《論善之性質》第二十章裡卻說1在心靈中，意志抵抗較強大之能力時構成傷痛;在身體上，是感曾與較強大之物體抵觸時造成傷痛。」",
+      "after": "奧斯定在《論善之性質》第二十章裡卻說：「在心靈中，意志抵抗較強大之能力時構成傷痛；在身體上，是感官與較強大之物體抵觸時造成傷痛。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卻說1",
+          "after": "卻說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感曾",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2149
+      ],
+      "before": "我解答如下:前面曾說過，所遭受之惡以對象方式構成傷痛或哀愁之原因。故造成惡之原因，應視為傷痛或哀愁之原因。與惡實際地接合，顯然與嗜慾之性向相反。與一物之性向相反者﹒若非由於一更強大者的主使，絕不會落在這個東西上。故此，奧斯定認為較強大的力量是傷痛之原因。\n不過要知道，倘若較強大的力量得勢，竟使原來相反之傾向，變成了相合之傾向，則不再有衝突或強暴。例如，一個力量較強大的主動者，將重物腐化，除去其就低之性向;這時它升高不再是強迫，而成了自然的事。所以﹒如果一股較強大的力量得勢，以致消除了意志或感官嗜慾之性向，結果不會產生傷痛或哀愁;只在仍留有原來之性向時，才造成傷痛或哀愁，故此，奧斯定才說:意志「抵抗較強大之能力時」產生傷痛。如果意志不加抵抗，反而讓步並加以同意，則不產生傷痛，反而產生快樂。",
+      "after": "我解答如下：前面曾說過，所遭受之惡以對象方式構成傷痛或哀愁之原因。故造成惡之原因，應視為傷痛或哀愁之原因。與惡實際地接合，顯然與嗜慾之性向相反。與一物之性向相反者，若非由於一更強大者的主使，絕不會落在這個東西上。故此，奧斯定認為較強大的力量是傷痛之原因。\n不過要知道，倘若較強大的力量得勢，竟使原來相反之傾向，變成了相合之傾向，則不再有衝突或強暴。例如，一個力量較強大的主動者，將重物腐化，除去其就低之性向；這時它升高不再是強迫，而成了自然的事。所以，如果一股較強大的力量得勢，以致消除了意志或感官嗜慾之性向，結果不會產生傷痛或哀愁；只在仍留有原來之性向時，才造成傷痛或哀愁，故此，奧斯定才說：意志「抵抗較強大之能力時」產生傷痛。如果意志不加抵抗，反而讓步並加以同意，則不產生傷痛，反而產生快樂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相反者﹒",
+          "after": "相反者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2149
+      ],
+      "before": "較強大的力量之造成傷痛，不是在它是潛能狀態的主動者的時候，而是在它是現實之主動者時:即是在它使有敗壞作用的惡接合的時候。",
+      "after": "較強大的力量之造成傷痛，不是在它是潛能狀態的主動者的時候，而是在它是現實之主動者時：即是在它使有敗壞作用的惡接合的時候。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2149
+      ],
+      "before": "一種不是絕對較強大的能力，很可能在某方面是較為強大的。這樣則它能夠造成某種傷害。若它在各方面皆不是較強大的，買IJ毫無傷害的能力。因此也不能構成傷痛的原因。",
+      "after": "一種不是絕對較強大的能力，很可能在某方面是較為強大的。這樣則它能夠造成某種傷害。若它在各方面皆不是較強大的，則毫無傷害的能力。因此也不能構成傷痛的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q036.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2149
+      ],
+      "before": "外在之主動者，因為能驅使嗜慾之對象出現在跟前，故能夠是嗜慾性動態之原因。為此，較強大之能力被視為傷痛之原因。",
+      "after": "外在之主動者，因為能驅使嗜慾之對象出現在跟前，故能夠是嗜慾性動態之原因。為此，較強大之能力被視為傷痛之原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
