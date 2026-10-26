@@ -1,0 +1,1887 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q042",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q042",
+    "title": "論畏懼之對象",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2192,
+      2193,
+      2194,
+      2195,
+      2196,
+      2197,
+      2198,
+      2199,
+      2200
+    ],
+    "printed_pages": [
+      421,
+      429
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 72,
+    "changed_review_units": 51,
+    "checked_unchanged_review_units": 22
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q42.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q42.json": "b9e808b91d727e41fa40021c70812a79438c76167c4b11f6878e1e6acaaa595b"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q042.a002.respondeo",
+      "pdf_file_page": 2194,
+      "text": "己經走上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a002.ad1",
+      "pdf_file_page": 2195,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a003.arg4",
+      "pdf_file_page": 2195,
+      "text": "己經做了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a003.ad4",
+      "pdf_file_page": 2197,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a004.arg3",
+      "pdf_file_page": 2197,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a004.respondeo",
+      "pdf_file_page": 2197,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a006.ad1",
+      "pdf_file_page": 2200,
+      "text": "己在身上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q042.a001.arg3",
+      "pdf_file_page": 2192,
+      "text": "第三十二篇10節",
+      "status": "suspected_source_print_error",
+      "action": "原页为第三十二篇，疑圣经篇号印误，依底本照录。"
+    },
+    {
+      "id": "I_II.q042.a001.respondeo",
+      "pdf_file_page": 2193,
+      "text": "卷四第二章",
+      "status": "suspected_source_print_error",
+      "action": "原页《伦理学》卷号如此，疑原书引文编号印误，保留。"
+    },
+    {
+      "id": "I_II.q042.a006.ad3",
+      "pdf_file_page": 2200,
+      "text": "時間常久",
+      "status": "suspected_source_print_error",
+      "action": "原页用「常久」，保持原文不润色。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q042.a001.general",
+      "description": "本论末尾的总答句归入既有空 general 字段，换行转义符不变。"
+    }
+  ],
+  "notes": [
+    "全部9页、6节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q042.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "然後要討論的是畏懼之對象(參看第四十一題引言)。\n關於這點，我們可以提出六個問題:\n一、畏懼之對象是善，抑或是惡。\n二、自然的惡是否為畏懼之對象。\n三、罪惡是否為畏懼之對象。\n四、畏懼本身是杏能為畏懼之對象。\n五、突然的事是否更為可怕。\n六、無法補救的事是否更為可怕。",
+      "after": "然後要討論的是畏懼之對象(參看第四十一題引言)。\n關於這點，我們可以提出六個問題：\n一、畏懼之對象是善，抑或是惡。\n二、自然的惡是否為畏懼之對象。\n三、罪惡是否為畏懼之對象。\n四、畏懼本身是否能為畏懼之對象。\n五、突然的事是否更為可怕。\n六、無法補救的事是否更為可怕。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "是杏",
+          "after": "是否",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "畏懼之對象是善，抑或是惡",
+      "after": "畏懼之對象是善，抑或是惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "似乎善是畏懼之對象。因為:",
+      "after": "似乎善是畏懼之對象。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "奧斯定在《雜題八十三》第三十三題說: 「我們所怕的，無非是關於我們所愛者，得到了怕失去，或希望得的怕得不到。」但我們所愛者是善。所以畏懼之專有對象是善。",
+      "after": "奧斯定在《雜題八十三》第三十三題說：「我們所怕的，無非是關於我們所愛者，得到了怕失去，或希望得的怕得不到。」但我們所愛者是善。所以畏懼之專有對象是善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第五章說: 「權勢和立足於他人之上是可怕的。」但這是一種善，所以善是畏懼的對象c",
+      "after": "此外，哲學家在《修辭學》卷二第五章說：「權勢和立足於他人之上是可怕的。」但這是一種善，所以善是畏懼的對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "對象c",
+          "after": "對象。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "此外，在天主內不能有任何惠。但按《聖詠》第三十三篇10節說的，我們該畏懼三毛主: 「上主的聖氏，你們該敬畏土主。」所以，對方於善也有畏懼。",
+      "after": "此外，在天主內不能有任何惡。但按《聖詠》第三十二篇10節說的，我們該畏懼天主：「上主的聖民，你們該敬畏上主。」所以，對於善也有畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "任何惠",
+          "after": "任何惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三十三篇",
+          "after": "第三十二篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "三毛主",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聖氏",
+          "after": "聖民",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "土主",
+          "after": "上主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對方於",
+          "after": "對於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2192
+      ],
+      "before": "大馬士革的若望在《論正統信仰》卷二第十二章卻說，畏懼是關於未來的惠。",
+      "after": "大馬士革的若望在《論正統信仰》卷二第十二章卻說，畏懼是關於未來的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "的惠",
+          "after": "的惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "我解答如下:畏懼是嗜慾能力的一種動態。按《倫理學》卷四第二章說的，追求與逃避屬於嗜慾能力。追求是關於善，逃避是關於惡。為此，任何關於追求的嗜慾能力之動態，皆是以某善為其對象;而關於逃避的動態，則是以惡為對象。既然畏懼含有逃避的意義，所以惡是它專有的首要對象。\n但畏懼也能是針對善，即由於善與惡的關係。這有兩種情形。第一，是因了惡而失去善。這本身就是一種惡，因為惡即善之剝奪。故此?人在因了是惡而逃避惡時，是因了惡使他失去他所愛和所追求的善。故此奧斯定說，除了因為怕失落所愛的善外，沒有其他怕的原因。\n另一種情形，是善為惡之原因，即某個善以己力能對人所愛之善有害a關於企望或希望，我們在第四十題第七節曾說，它指向兩方面，即指向所求之善，也指向人希望藉以獲得其所欲之善者;同樣，畏懼也指向南方面，即指向所避之惡，也指向那能以己力帶來惡的善。人↑白天主就是這個緣故，因為祂能力日給人精神或肉體上的處罰。一個人的權勢可怕也是這個緣故，特別在獲罪於權勢，或權勢本身不正派時;因為這種權勢更易於加害他人。同樣，立足於他人之上，意即唯他人是賴，也是可怕的，因為他人有能力加害我們，例如:那知道罪情的人是可怕的，怕他把罪情揭發。\n由此可知各買疑之答案。",
+      "after": "我解答如下：畏懼是嗜慾能力的一種動態。按《倫理學》卷四第二章說的，追求與逃避屬於嗜慾能力。追求是關於善，逃避是關於惡。為此，任何關於追求的嗜慾能力之動態，皆是以某善為其對象；而關於逃避的動態，則是以惡為對象。既然畏懼含有逃避的意義，所以惡是它專有的首要對象。\n但畏懼也能是針對善，即由於善與惡的關係。這有兩種情形。第一，是因了惡而失去善。這本身就是一種惡，因為惡即善之剝奪。故此，人在因了是惡而逃避惡時，是因了惡使他失去他所愛和所追求的善。故此奧斯定說，除了因為怕失落所愛的善外，沒有其他怕的原因。\n另一種情形，是善為惡之原因，即某個善以己力能對人所愛之善有害。關於企望或希望，我們在第四十題第七節曾說，它指向兩方面，即指向所求之善，也指向人希望藉以獲得其所欲之善者；同樣，畏懼也指向兩方面，即指向所避之惡，也指向那能以己力帶來惡的善。人怕天主就是這個緣故，因為他能加給人精神或肉體上的處罰。一個人的權勢可怕也是這個緣故，特別在獲罪於權勢，或權勢本身不正派時；因為這種權勢更易於加害他人。同樣，立足於他人之上，意即唯他人是賴，也是可怕的，因為他人有能力加害我們，例如：那知道罪情的人是可怕的，怕他把罪情揭發。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故此?",
+          "after": "故此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有害a",
+          "after": "有害。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "南方面",
+          "after": "兩方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人↑白天主",
+          "after": "人怕天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祂能力日給",
+          "after": "他能加給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\n由此可知各買疑之答案。",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a001.general",
+      "article": 1,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "",
+      "after": "由此可知各質疑之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "由此可知各買疑之答案。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "買疑",
+          "after": "質疑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "自然的惡是否為畏懼之對象",
+      "after": "自然的惡是否為畏懼之對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "畏懼似乎不是關於自然的惡。因為:",
+      "after": "畏懼似乎不是關於自然的惡。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2193
+      ],
+      "before": "哲學家在《修辭學》卷二第五章說: 「畏懼使人考慮。」按《倫理學》卷三第三章說的，那由自然而來的，我們不去考慮。所以，畏懼不是關於自然的惡。",
+      "after": "哲學家在《修辭學》卷二第五章說：「畏懼使人考慮。」按《倫理學》卷三第三章說的，那由自然而來的，我們不去考慮。所以，畏懼不是關於自然的惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2194
+      ],
+      "before": "此外，人常有自然的缺欠，諸如死亡等類的事。若畏懼是關於這類的惡，人便常是生活在畏懼中。",
+      "after": "此外，人常有自然的缺欠，諸如死亡等類的事。若畏懼是關於這類的惡，人便常是生活在畏懼中。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2194
+      ],
+      "before": "此外，自然不動向彼此相反者。但自然的惡是出於自然。因此，人怕而逃避這種惡，便不是出於自然了。故此，自然的畏1種不是關於自然的惡，但是這惡似乎是屬於自然畏懼。",
+      "after": "此外，自然不動向彼此相反者。但自然的惡是出於自然。因此，人怕而逃避這種惡，便不是出於自然了。故此，自然的畏懼不是關於自然的惡，但是這惡似乎是屬於自然畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "畏1種",
+          "after": "畏懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2194
+      ],
+      "before": "哲學家在《倫理學》卷三第六章卻說:「在所有的事情中，最可怕的是死亡。」而死亡是自然的惡。",
+      "after": "哲學家在《倫理學》卷三第六章卻說：「在所有的事情中，最可怕的是死亡。」而死亡是自然的惡。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2194,
+        2195
+      ],
+      "before": "我解答如下:哲學家在《修辭學》卷二第五章裡說:「畏懼是來自對有破壞性或導致哀愁之未來的惡的想像」。導致哀愁的惡與意志相反，有破壞性的惡則與天性相反。後者即是自然的惡，所以有對自然之惡的畏懼。\n但是要知道，自然的惡有時是由自然原因而來。這時所謂自然的惡，不只因為它破壞天性的善，也因為是自然主妓果，例如:自然的死亡及其他這類缺點。有時自然之惡是由非自然之原因而來，例如:遭他人殺害而死。這兩種自然的惡，皆是一方面可怕，一方面不可怕。既然按哲學家說的，畏懼是來自「對未來的惡的想像」'那能除去未來之惡的想像的，也除去畏懼。在兩種情況，惡好似不是要來臨的。一種是因為太遙遠，遙遠的在想像中就當作不是要來臨的。故此，我們或者不怕，或者不很怕。就如哲學家在《修辭學》卷二第五章說的:「太遙遠的事無人畏懼，大家都知道要死，但因為不是在眼前，誰也不放在心上。」另一種情形，是把那將要來的，不視為將要來的‘而由於是必然的，就視之為現在的。故此哲學家在《修辭學》卷二第五章說:「已經走上刑臺就要被處死的人不害怕」'因焦他知道必然要死;「為使人害怕，須有一點活命的希望」。\n那麼，不把自然的惡看為要來臨的，便不可怕。若視有破壞性的自然惡是近的，但有逃避之希望，這時便是可怕的。",
+      "after": "我解答如下：哲學家在《修辭學》卷二第五章裡說：「畏懼是來自對有破壞性或導致哀愁之未來的惡的想像」。導致哀愁的惡與意志相反，有破壞性的惡則與天性相反。後者即是自然的惡，所以有對自然之惡的畏懼。\n但是要知道，自然的惡有時是由自然原因而來。這時所謂自然的惡，不只因為它破壞天性的善，也因為是自然之效果，例如：自然的死亡及其他這類缺點。有時自然之惡是由非自然之原因而來，例如：遭他人殺害而死。這兩種自然的惡，皆是一方面可怕，一方面不可怕。既然按哲學家說的，畏懼是來自「對未來的惡的想像」，那能除去未來之惡的想像的，也除去畏懼。在兩種情況，惡好似不是要來臨的。一種是因為太遙遠，遙遠的在想像中就當作不是要來臨的。故此，我們或者不怕，或者不很怕。就如哲學家在《修辭學》卷二第五章說的：「太遙遠的事無人畏懼，大家都知道要死，但因為不是在眼前，誰也不放在心上。」另一種情形，是把那將要來的，不視為將要來的，而由於是必然的，就視之為現在的。故此哲學家在《修辭學》卷二第五章說：「己經走上刑臺就要被處死的人不害怕」，因為他知道必然要死；「為使人害怕，須有一點活命的希望」。\n那麼，不把自然的惡看為要來臨的，便不可怕。若視有破壞性的自然惡是近的，但有逃避之希望，這時便是可怕的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自然主妓果",
+          "after": "自然之效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "想像」'",
+          "after": "想像」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "要來的‘",
+          "after": "要來的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "害怕」'",
+          "after": "害怕」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因焦",
+          "after": "因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "如正解己說過的，自然的惡，有時不是出於自然。那由自然而來者，雖然不能全部逃避，但能夠緩延。在這個希望下，可以考慮逃避問題。",
+      "after": "如正解己說過的，自然的惡，有時不是出於自然。那由自然而來者，雖然不能全部逃避，但能夠緩延。在這個希望下，可以考慮逃避問題。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "自然的惡雖然常有，但不常是近在身邊的。故此，人不是常在畏懼中。",
+      "after": "自然的惡雖然常有，但不常是近在身邊的。故此，人不是常在畏懼中。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "死亡及其他自然缺點，是由普遍性自然而來，{自另IJ性自然則盡力反抗。由於個別性自然之傾向，故對現時的這類惡有哀愁和1賄，對即將來臨者有畏懼。",
+      "after": "死亡及其他自然缺點，是由普遍性自然而來，個別性自然則盡力反抗。由於個別性自然之傾向，故對現時的這類惡有哀愁和傷痛，對即將來臨者有畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{自另IJ性",
+          "after": "個別性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "和1賄",
+          "after": "和傷痛",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "罪惡是否為畏懼之對象",
+      "after": "罪惡是否為畏懼之對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "對於罪惡似乎能有畏懼。因為:",
+      "after": "對於罪惡似乎能有畏懼。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "奧斯定在《公函若望壹書釋義》(In Epistolam Joannis ad Parthos)第九講說: 「人以敬畏之心，怕與天主分離。但是除了罪惡，沒有東西使我們與天主分離」'如《依撒意亞》第五十九章2節說的: 「你們的罪孽，使你們與你們的天主隔絕。」所以，關於罪惡能有畏懼。",
+      "after": "奧斯定在《公函若望壹書釋義》(In Epistolam Joannis ad Parthos)第九講說：「人以敬畏之心，怕與天主分離。但是除了罪惡，沒有東西使我們與天主分離」，如《依撒意亞》第五十九章2節說的：「你們的罪孽，使你們與你們的天主隔絕。」所以，關於罪惡能有畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分離」'",
+          "after": "分離」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "此外，西塞祿在《社士古廬論集》卷四第六章說: 「我們所畏懼的是未來者;它們若是現在的，買IJ使我們哀愁。」但是人能為了罪惡而傷痛或哀愁。所以，人也能為罪惡而畏懼。",
+      "after": "此外，西塞祿在《杜士古廬論集》卷四第六章說：「我們所畏懼的是未來者；它們若是現在的，則使我們哀愁。」但是人能為了罪惡而傷痛或哀愁。所以，人也能為罪惡而畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "社士古廬",
+          "after": "杜士古廬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2195
+      ],
+      "before": "此外，企望或希望與畏懼相反。但按哲學家在《倫理學》卷九第四章說的，希望能夠是關於德性之善。宗徒在《迦拉達書》第五章10節也說: 「我在主內信任你們，認為你們不會有什麼別的心思。」所以，對罪惡也能有畏懼。",
+      "after": "此外，企望或希望與畏懼相反。但按哲學家在《倫理學》卷九第四章說的，希望能夠是關於德性之善。宗徒在《迦拉達書》第五章10節也說：「我在主內信任你們，認為你們不會有什麼別的心思。」所以，對罪惡也能有畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2195,
+        2196
+      ],
+      "before": "此外，前面第四十一題第四節曾說過，羞愧是一種畏懼。但是羞愧是關於已經做了的壞事，也就是罪惡。所以，關於罪惡也有畏懼。",
+      "after": "此外，前面第四十一題第四節曾說過，羞愧是一種畏懼。但是羞愧是關於己經做了的壞事，也就是罪惡。所以，關於罪惡也有畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2196
+      ],
+      "before": "哲學家在《修辭學》卷二第五章裡卻說:「並非一切惡皆可怕，例如一人將是不公平的，或拙笨的。」",
+      "after": "哲學家在《修辭學》卷二第五章裡卻說：「並非一切惡皆可怕，例如一人將是不公平的，或拙笨的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2196
+      ],
+      "before": "我解答如下:前面第四十題第一節、第四十一題第二節曾說，正如企望或希望之對象是艱難而能獲得的未來之苦;同樣，畏懼的對象是不易逃避的未來艱難之惡。故此可以說，那完全在我們之能力及意志範圍者，沒有可怕的理由，只有原因在外者纔是可怕的。罪惡的原因是在人的意志。故嚴格地說來，罪惡沒有可怕的理由。\n但是人的意志能受外力牽引而傾向犯罪。若外力的牽引力強大，1更能對罪惡有畏懼，因為有外在原因，例如:一人怕與壞人交往，↑自受引誘而犯罪。{巨嚴格地說，人所怕的是誘惑，而非罪惡本身，亦即意志之情願的罪惡，如此則罪惡沒有可怕的理由。",
+      "after": "我解答如下：前面第四十題第一節、第四十一題第二節曾說，正如企望或希望之對象是艱難而能獲得的未來之善；同樣，畏懼的對象是不易逃避的未來艱難之惡。故此可以說，那完全在我們之能力及意志範圍者，沒有可怕的理由，只有原因在外者才是可怕的。罪惡的原因是在人的意志。故嚴格地說來，罪惡沒有可怕的理由。\n但是人的意志能受外力牽引而傾向犯罪。若外力的牽引力強大，便能對罪惡有畏懼，因為有外在原因，例如：一人怕與壞人交往，怕受引誘而犯罪。但嚴格地說，人所怕的是誘惑，而非罪惡本身，亦即意志之情願的罪惡，如此則罪惡沒有可怕的理由。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "未來之苦",
+          "after": "未來之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1更能",
+          "after": "便能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "↑自受",
+          "after": "怕受",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{巨",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2196
+      ],
+      "before": "與天主分離是因罪惡而來之處罰‘處罰皆多少是由外在原因來的。",
+      "after": "與天主分離是因罪惡而來之處罰，處罰皆多少是由外在原因來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "處罰‘",
+          "after": "處罰，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2196
+      ],
+      "before": "哀愁與畏懼有一個共同點，即三者皆是關於惡的;{旦有兩點不相同。在一方面，哀愁是關於現在的惠，而畏懼是關於未來的惠。在男一方面，哀愁既是慾情部分的情，是針對單純的惡，故能是關於任何惡，不論大小。而畏懼既是憤情部分的情，是針對比較艱難的專;若一車在意志之能力範圍內，便不算是難事。故此，並非所有在現時能使人哀愁的，皆能在未來時使人生懼，只有其中某些如此，即那些艱難的。",
+      "after": "哀愁與畏懼有一個共同點，即二者皆是關於惡的；但有兩點不相同。在一方面，哀愁是關於現在的惡，而畏懼是關於未來的惡。在另一方面，哀愁既是慾情部分的情，是針對單純的惡，故能是關於任何惡，不論大小。而畏懼既是憤情部分的情，是針對比較艱難的惡；若一事在意志之能力範圍內，便不算是難事。故此，並非所有在現時能使人哀愁的，皆能在未來時使人生懼，只有其中某些如此，即那些艱難的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "即三者",
+          "after": "即二者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的惠",
+          "after": "的惡",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一方面",
+          "after": "另一方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "艱難的專",
+          "after": "艱難的惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "若一車",
+          "after": "若一事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2196,
+        2197
+      ],
+      "before": "企望或希望是關於人能得到的善。人獲得善能是靠自己或靠他人。為此，對{惡性之善，人能抱希望，因為事在自己能力範圍之內。但畏懼是關於不在我們能力範圍之內的惡;故所畏懼之惡，常是由外在原因來的。人所希望之善，則能是來自內在原因，或外在原因。",
+      "after": "企望或希望是關於人能得到的善。人獲得善能是靠自己或靠他人。為此，對德性之善，人能抱希望，因為事在自己能力範圍之內。但畏懼是關於不在我們能力範圍之內的惡；故所畏懼之惡，常是由外在原因來的。人所希望之善，則能是來自內在原因，或外在原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "對{惡性",
+          "after": "對德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "如己說過的，羞愧所怕的不是罪惡之行為，而是由此行為而來之恥辱，恥辱是由外在原因造成的。",
+      "after": "如己說過的，羞愧所怕的不是罪惡之行為，而是由此行為而來之恥辱，恥辱是由外在原因造成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "畏懼本身是否能為畏懼之對象",
+      "after": "畏懼本身是否能為畏懼之對象",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "畏懼本身似乎不可怕。因為:",
+      "after": "畏懼本身似乎不可怕。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "人所畏懼的，因畏懼而加以保護，使不致有失，例如:一人怕失去健康，因了怕而保存健康。若畏懼是可怕的'則人因了怕而保護自己不致陷於畏懼。這似乎不合理。",
+      "after": "人所畏懼的，因畏懼而加以保護，使不致有失，例如：一人怕失去健康，因了怕而保存健康。若畏懼是可怕的，則人因了怕而保護自己不致陷於畏懼。這似乎不合理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "可怕的'",
+          "after": "可怕的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "此外，畏懼是一種逃避。但是沒有東西逃避自己。所以，畏懼不怕畏懼。",
+      "after": "此外，畏懼是一種逃避。但是沒有東西逃避自己。所以，畏懼不怕畏懼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "此外，畏懼是關於未來的事。但那害怕的人已經有了畏懼。所以，他不能怕畏懼。",
+      "after": "此外，畏懼是關於未來的事。但那害怕的人己經有了畏懼。所以，他不能怕畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "人能夠喜愛愛，能因了傷痛而傷痛。所以，依照同理，人也能↑自畏懼。",
+      "after": "人能夠喜愛愛，能因了傷痛而傷痛。所以，依照同理，人也能怕畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "↑自",
+          "after": "怕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2197
+      ],
+      "before": "我解答如下:前面第三節已經說過，只有由外在原因來的纔是可怕的;由我們的意志來的則不可怕。畏懼一半由外在原因而來，一半在於我們的意志。畏懼是由外在原因而來，因為是隨對近身之惡的想像而生的情。如此，則人能夠怕畏懼，即是怕由於大惡之臨頭而不能不害怕。畏懼一半在於我們的意志，因為低級嗜慾受理性之支配，所以人能排除畏懼。如此買'J畏懼不可怕，就如奧斯定在《雜題八十三》第三十三題裡說的。但是由於他在那裡所舉的理由，人可以用來證明畏懼一點也不可怕，故對這些理由須有所回應。",
+      "after": "我解答如下：前面第三節己經說過，只有由外在原因來的才是可怕的；由我們的意志來的則不可怕。畏懼一半由外在原因而來，一半在於我們的意志。畏懼是由外在原因而來，因為是隨對近身之惡的想像而生的情。如此，則人能夠怕畏懼，即是怕由於大惡之臨頭而不能不害怕。畏懼一半在於我們的意志，因為低級嗜慾受理性之支配，所以人能排除畏懼。如此則畏懼不可怕，就如奧斯定在《雜題八十三》第三十三題裡說的。但是由於他在那裡所舉的理由，人可以用來證明畏懼一點也不可怕，故對這些理由須有所回應。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買'J",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "畏懼並不都是一樣的，由於所畏懼的不同而有不同的畏懼。所以，一人並非不可因一個畏體而免於另一個畏懼，使自己不怕那個畏懼。",
+      "after": "畏懼並不都是一樣的，由於所畏懼的不同而有不同的畏懼。所以，一人並非不可因一個畏懼而免於另一個畏懼，使自己不怕那個畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "畏體",
+          "after": "畏懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "既然「怕大惡臨身」的畏懼是一個畏懼，而「怕因大惡臨身而陷於畏懼」的畏懼是男一個畏懼，所以並不是自己逃避自己或自我逃避。",
+      "after": "既然「怕大惡臨身」的畏懼是一個畏懼，而「怕因大惡臨身而陷於畏懼」的畏懼是另一個畏懼，所以並不是自己逃避自己或自我逃避。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "按上面說的，既然不是同一個畏懼，所以人現在能畏懼將來的畏懼。",
+      "after": "按上面說的，既然不是同一個畏懼，所以人現在能畏懼將來的畏懼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "突然的事是否更為可怕",
+      "after": "突然的事是否更為可怕",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "似乎罕見者及突然者不是更為可怕的。因為:",
+      "after": "似乎罕見者及突然者不是更為可怕的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "就如企望或希望是關於善的，畏懼則是關於惡的。但是經驗加強對善之希望。所以經驗也能加強對惡之畏懼。",
+      "after": "就如企望或希望是關於善的，畏懼則是關於惡的。但是經驗加強對善之希望。所以經驗也能加強對惡之畏懼。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第五章說﹒更可怕的「不是易於動恕的人，而是溫和及精明的人」。大家知道易恕的人會突然動氣。所以，突然的比較不可怕。",
+      "after": "此外，哲學家在《修辭學》卷二第五章說：更可怕的「不是易於動怒的人，而是溫和及精明的人」。大家知道易怒的人會突然動氣。所以，突然的比較不可怕。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說﹒",
+          "after": "說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動恕",
+          "after": "動怒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "易恕",
+          "after": "易怒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "此外，那突然者不容多加思索。但是事情想的愈多，愈覺得可怕;為此哲學家在《倫理學》卷三第八章裡說: 「有的人因為愚昧，{象似勇敢;但他們若知道事情不是如他們所猜想的那樣，便要逃跑了。」所以，突然者比較不可怕。",
+      "after": "此外，那突然者不容多加思索。但是事情想的愈多，愈覺得可怕；為此哲學家在《倫理學》卷三第八章裡說：「有的人因為愚昧，像似勇敢；但他們若知道事情不是如他們所猜想的那樣，便要逃跑了。」所以，突然者比較不可怕。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{象似",
+          "after": "像似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2198
+      ],
+      "before": "奧斯定在《懺悔錄》卷二第六章卻說: 「畏懼害怕罕見的，和突然的變故危及自己心愛的事物，同時設法戒護其安全。」",
+      "after": "奧斯定在《懺悔錄》卷二第六章卻說：「畏懼害怕罕見的，和突然的變故危及自己心愛的事物，同時設法戒護其安全。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2198,
+        2199
+      ],
+      "before": "我解答如下:前面曾說，畏懼之對象是不易抵抗的臨身之惡。這要有兩個條件，即:重大的惡，及畏懼者方面的軟弱。罕見及突然的事在這兩方面皆有作用。首先，這使臨身的惡顯得更嚴重。一切形體物，無論好的、壞的，看久了以後會顯得小。故此，現在之惡產生的傷痛，久了以後能減輕，如西塞祿在《杜士古盧論集》卷三第三十章裡所說的;同樣，若預先想到，對未來之惡的畏懼也會減輕。第二，罕見及突然的事使畏懼者更加軟弱無能，因為事情來得太突然，則人措手不及，不知如何抵抗要來的惡。",
+      "after": "我解答如下：前面曾說，畏懼之對象是不易抵抗的臨身之惡。這要有兩個條件，即：重大的惡，及畏懼者方面的軟弱。罕見及突然的事在這兩方面皆有作用。首先，這使臨身的惡顯得更嚴重。一切形體物，無論好的、壞的，看久了以後會顯得小。故此，現在之惡產生的傷痛，久了以後能減輕，如西塞祿在《杜士古廬論集》卷三第三十章裡所說的；同樣，若預先想到，對未來之惡的畏懼也會減輕。第二，罕見及突然的事使畏懼者更加軟弱無能，因為事情來得太突然，則人措手不及，不知如何抵抗要來的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "古盧論集",
+          "after": "古廬論集",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "希望之對象是人能獲取的善。故凡增加人之能力者，也加強希望;按同理，也減輕畏懼，因為畏懼是關於不易抵抗的惡。固了經驗增加人的行動能力，故能加強希望，也減輕畏懼。",
+      "after": "希望之對象是人能獲取的善。故凡增加人之能力者，也加強希望；按同理，也減輕畏懼，因為畏懼是關於不易抵抗的惡。因了經驗增加人的行動能力，故能加強希望，也減輕畏懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "固了",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "易於動怒的人不加掩飾，故他們要害人時，易於防備，不算是突然的。但是溫和及精明的人掩飾其怒氣，不易看出，故他們加害時，貝IJ事出突然。為此哲學家說，這樣的人比較可怕。",
+      "after": "易於動怒的人不加掩飾，故他們要害人時，易於防備，不算是突然的。但是溫和及精明的人掩飾其怒氣，不易看出，故他們加害時，則事出突然。為此哲學家說，這樣的人比較可怕。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "在原則上好的或壞的形體物最初顯得大。理由在於，相反者放在一起，都特別顯眼。故此，一人突然由貧變富，因為以前窮，比較更高估錢財;反之，一人突然由富變窮，更怕貧窮。為此，突然的惡更可怕，因為顯似更惡。但是由於偶然的緣故，能看不出惡的大小，例如:敵人的埋伏。這時則細心觀察後，的確能變為更可怕。",
+      "after": "在原則上好的或壞的形體物最初顯得大。理由在於，相反者放在一起，都特別顯眼。故此，一人突然由貧變富，因為以前窮，比較更高估錢財；反之，一人突然由富變窮，更怕貧窮。為此，突然的惡更可怕，因為顯似更惡。但是由於偶然的緣故，能看不出惡的大小，例如：敵人的埋伏。這時則細心觀察後，的確能變為更可怕。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "無法補救的事是否更為可怕",
+      "after": "無法補救的事是否更為可怕",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "無法補救的事，似乎不是更可怕的。因為:",
+      "after": "無法補救的事，似乎不是更可怕的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "前面第二節曾說過，畏懼需要有一點得救的希望。但在無法補救的惡中，沒有獲救的希望。所以這種惡不可怕。",
+      "after": "前面第二節曾說過，畏懼需要有一點得救的希望。但在無法補救的惡中，沒有獲救的希望。所以這種惡不可怕。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2199
+      ],
+      "before": "此外，對死亡之惡沒有挽救的辦法。因為按天然之理，人不能死而復生。但按哲學家在《修辭學》卷二第五章說的，死亡不是最可怕的。故無法補救的不是更可怕的。",
+      "after": "此外，對死亡之惡沒有挽救的辦法。因為按天然之理，人不能死而復生。但按哲學家在《修辭學》卷二第五章說的，死亡不是最可怕的。故無法補救的不是更可怕的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q042.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "此外，哲學家在《倫理學》卷一第六章說:「時間久的不比只有一天的好，永恆的也不比無常的好。」所以，關於惡也是同理。但那不能挽救的惡與其他之惡的區別，只在於時間的長久或永恆。所以，不因此而更壤，或更可怕。",
+      "after": "此外，哲學家在《倫理學》卷一第六章說：「時間久的不比只有一天的好，永恆的也不比無常的好。」所以，關於惡也是同理。但那不能挽救的惡與其他之惡的區別，只在於時間的長久或永恆。所以，不因此而更壞，或更可怕。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "更壤",
+          "after": "更壞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "哲學家在《修辭學》卷二第五章卻說:「可怕的事，會變得更為可怕一一若是犯了錯而未加糾正，或者沒有挽救辦法，或者不容易挽救。」",
+      "after": "哲學家在《修辭學》卷二第五章卻說：「可怕的事，會變得更為可怕——若是犯了錯而未加糾正，或者沒有挽救辦法，或者不容易挽救。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "我解答如下:畏懼之對象是惡。故此，增加惡之程度者，也增加可怕之程度。惡不只按其本類能力日童，也能因情況而加重，看前面第十八題第三節說過的便可以知道。在所有的情況中，時間的長久或永恆，似乎最能力日重惡的程度。那具有時間性的，時間便是一種尺寸;因此，在某時間內所受的若是惡，在兩倍的時間內覺得惡也加了一倍。按這理由，在無限時間所受的苦，亦即永恆所受的苦，就似是增加了無限倍。一種惡在發生之後，若沒有挽救的辦法，或不易挽救，就看為是永恆的或長久的。所以，變成非常可怕的。",
+      "after": "我解答如下：畏懼之對象是惡。故此，增加惡之程度者，也增加可怕之程度。惡不只按其本類能加重，也能因情況而加重，看前面第十八題第三節說過的便可以知道。在所有的情況中，時間的長久或永恆，似乎最能加重惡的程度。那具有時間性的，時間便是一種尺寸；因此，在某時間內所受的若是惡，在兩倍的時間內覺得惡也加了一倍。按這理由，在無限時間所受的苦，亦即永恆所受的苦，就似是增加了無限倍。一種惡在發生之後，若沒有挽救的辦法，或不易挽救，就看為是永恆的或長久的。所以，變成非常可怕的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本類能力日童",
+          "after": "本類能加重",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "最能力日重",
+          "after": "最能加重",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "惡的補救有兩種。第一種補救，是阻止未來之惡的來臨。沒有這種補救法，則是沒有希望，因而也就沒有畏懼了。我們這裡講的不是這種補救。第二種補救，是把已在身上的惡擺悅。我們現在講的便是這種。",
+      "after": "惡的補救有兩種。第一種補救，是阻止未來之惡的來臨。沒有這種補救法，則是沒有希望，因而也就沒有畏懼了。我們這裡講的不是這種補救。第二種補救，是把己在身上的惡擺脫。我們現在講的便是這種。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已在",
+          "after": "己在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "擺悅",
+          "after": "擺脫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "死亡雖是無法補救的惡，但因不是近在身邊的，所以不可↑白，如前面第二節曾說過的。",
+      "after": "死亡雖是無法補救的惡，但因不是近在身邊的，所以不可怕，如前面第二節曾說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "↑白",
+          "after": "怕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q042.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2200
+      ],
+      "before": "哲學家在那裡講的是關於本然的善，即按其本類是善。這種善不因時間常久或永恆便變成更好的，而是看善之本質。",
+      "after": "哲學家在那裡講的是關於本然的善，即按其本類是善。這種善不因時間常久或永恆便變成更好的，而是看善之本質。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
