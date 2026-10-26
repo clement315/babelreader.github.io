@@ -1,6 +1,6 @@
 {
   "batch": "I_II-q030",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "checks": [
     {
       "name": "Every bilingual row and prologue matches corrected repository data",
@@ -64,6 +64,7 @@
   "raw_source_validation": {
     "keys_structure_non_zh_raw_source_identical": true,
     "each_field_newline_escape_sequence_identical": true,
+    "html_tags_identical": true,
     "protected_zh_tokens": 54,
     "all_review_units_match_before_after_manifest": true,
     "complete_report_json_matches_current_reader_bytes": true,
@@ -71,5 +72,6 @@
     "all_source_flags_retained": true,
     "unbalanced_original_punctuation": [],
     "reader_sha256": "559e8cbca509f38f1bedb1d44c0d84354d150d686519e9aac034a8040803c18d"
-  }
+  },
+  "aggregate_audit_date": "2026-10-26"
 }

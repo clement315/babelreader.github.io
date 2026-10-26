@@ -1,6 +1,6 @@
 {
   "batch": "I_II-q003",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "checks": [
     {
       "name": "Every bilingual row and prologue matches corrected repository data",
@@ -56,6 +56,7 @@
   ],
   "errors": [],
   "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "aggregate_audit_date": "2026-10-26",
   "existing_regression_tests": {
     "passed": true,
     "tests": 3,
@@ -64,6 +65,7 @@
   "raw_source_validation": {
     "keys_structure_non_zh_raw_source_identical": true,
     "each_field_newline_escape_sequence_identical": true,
+    "html_tags_identical": true,
     "protected_zh_tokens": 113,
     "all_review_units_match_before_after_manifest": true,
     "complete_report_json_matches_current_reader_bytes": true,
@@ -71,6 +73,5 @@
     "all_source_flags_retained": true,
     "unbalanced_original_punctuation": [],
     "reader_sha256": "2e63ffcb9a34b0ad882d297653e56122fcc7613f2b8fab9ae25c0302276191b3"
-  },
-  "image_followup": "Enlarged source image confirms 神秘神學, not 神祕神學; corrected the existing Chinese string."
+  }
 }

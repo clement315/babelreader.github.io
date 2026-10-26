@@ -1,0 +1,4442 @@
+{
+  "date": "2026-10-26",
+  "author": "element",
+  "scope": "Secunda Primae / 第二部第一集 questions 2–50",
+  "status": "completed_locally_not_uploaded",
+  "questions": 49,
+  "articles": 268,
+  "distinct_pdf_pages": 483,
+  "pdf_file_page_ranges": [
+    [
+      1787,
+      2246
+    ],
+    [
+      2267,
+      2289
+    ]
+  ],
+  "printed_page_ranges": [
+    [
+      16,
+      475
+    ],
+    [
+      1,
+      23
+    ]
+  ],
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "authority": "Rendered original PDF pages; no other edition or model recollection used for corrections"
+  },
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "remote_tracking_main_unchanged": "24c96d9431ea22cef8f5d41826347a4115fe338c",
+  "changed_review_units": 2297,
+  "checked_unchanged_review_units": 974,
+  "protected_zh_tokens_in_question_files": 3588,
+  "source_anomaly_records": 410,
+  "unresolved_source_scan_units_in_this_scope": 0,
+  "cumulative_I_II_reviewed_questions": 50,
+  "cumulative_I_II_reviewed_articles": 276,
+  "next_question": "I_II.q051",
+  "checks": {
+    "all_live_snapshots_match_baseline": true,
+    "all_before_after_readings_match_question_data": true,
+    "all_complete_report_json_matches_reader_bytes": true,
+    "all_report_first_last_sentences_match_pre_edit_text": true,
+    "all_non_zh_raw_source_preserved": true,
+    "each_field_newline_escape_sequence_preserved": true,
+    "html_tags_preserved": true,
+    "all_review_units_have_pdf_page_references": true,
+    "all_source_flags_retained": true,
+    "all_changed_titles_synced_to_catalog_without_unrelated_catalog_changes": true,
+    "desktop_mobile_chinese_preview_passed_for_all_batches": true,
+    "three_existing_regression_tests_passed": true,
+    "all_fifty_question_and_followup_commits_authored_and_committed_by_element": true,
+    "source_pdf_hash_verified": true,
+    "scope_and_progress_complete_local_only": true
+  },
+  "preview_note": "Exact local files supplied through Playwright interception; not a published-site check. Questions 2,3,4 preview checks rerun on aggregate-audit date.",
+  "final_punctuation_followup": [
+    {
+      "id": "I_II.q002.a001.ad2",
+      "pdf_file_page": 1789,
+      "change": "? → ？"
+    },
+    {
+      "id": "I_II.q002.a003.sed_contra",
+      "pdf_file_page": 1791,
+      "change": "? → ？"
+    },
+    {
+      "id": "I_II.q002.a004.sed_contra",
+      "pdf_file_page": 1793,
+      "change": "? → ？"
+    },
+    {
+      "id": "I_II.q004.a007.sed_contra",
+      "pdf_file_page": 1829,
+      "change": "? → ？"
+    }
+  ],
+  "remaining_original_pair_anomalies": [
+    {
+      "id": "I_II.q006.a008.arg2",
+      "pair": "「」",
+      "open": 2,
+      "close": 1,
+      "source_flags": [
+        {
+          "id": "I_II.q006.a008.arg2",
+          "pdf_file_page": 1860,
+          "text": "陰謀邪惡的人，豈非走入歧途？",
+          "status": "suspected_source_print_error",
+          "action": "原页此引文问号后即接「倘若」，未见闭引号；依底本保留。"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q011.a003.ad2",
+      "pair": "「」",
+      "open": 2,
+      "close": 1,
+      "source_flags": [
+        {
+          "id": "I_II.q011.a003.ad2",
+          "pdf_file_page": 1897,
+          "text": "因為「須為其自身而追求",
+          "status": "suspected_source_print_error",
+          "action": "原页此处开引号之后未见配对的闭引号，按底本保留并提示。"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q033.a004.arg3",
+      "pair": "「」",
+      "open": 1,
+      "close": 0,
+      "source_flags": [
+        {
+          "id": "I_II.q033.a004.arg3",
+          "pdf_file_page": 2115,
+          "text": "己說過",
+          "status": "suspected_source_print_error",
+          "action": "原页「己」疑为「已」，依底本保留。"
+        },
+        {
+          "id": "I_II.q033.a004.arg3",
+          "pdf_file_page": 2116,
+          "text": "「快樂不是像習性那樣成全動作。",
+          "status": "suspected_source_print_error",
+          "action": "原页引文未见闭引号，按底本保留并单列，不静默补齐。"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q039.a004.ad3",
+      "pair": "「」",
+      "open": 1,
+      "close": 0,
+      "source_flags": [
+        {
+          "id": "I_II.q039.a004.ad3",
+          "pdf_file_page": 2171,
+          "text": "「因為有害。",
+          "status": "suspected_source_print_error",
+          "action": "原页此处未见闭引号，按底本保留并单列。"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q049.a003.respondeo",
+      "pair": "「」",
+      "open": 2,
+      "close": 0,
+      "source_flags": [
+        {
+          "id": "I_II.q049.a003.respondeo",
+          "pdf_file_page": 2274,
+          "text": "己說過",
+          "status": "suspected_source_print_error",
+          "action": "原页「己」疑为「已」，依底本保留。"
+        },
+        {
+          "id": "I_II.q049.a003.respondeo",
+          "pdf_file_page": 2274,
+          "text": "無論是對其自身而言，即對東西之天性而言，「或對他物而言，",
+          "status": "suspected_source_print_error",
+          "action": "原页引文在这两处未见闭引号，严格照录并单列。"
+        }
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "question": 2,
+      "title": "論人的幸福之所在",
+      "articles": 8,
+      "pdf_file_pages": [
+        1787,
+        1801
+      ],
+      "printed_pages": [
+        16,
+        30
+      ],
+      "changed_review_units": 75,
+      "checked_unchanged_review_units": 22,
+      "source_anomaly_records": 7,
+      "report": "I_II-q002.md",
+      "manifest": "I_II-q002.json",
+      "validation": "I_II-q002-validation.json"
+    },
+    {
+      "question": 3,
+      "title": "論何謂幸福",
+      "articles": 8,
+      "pdf_file_pages": [
+        1802,
+        1816
+      ],
+      "printed_pages": [
+        31,
+        45
+      ],
+      "changed_review_units": 73,
+      "checked_unchanged_review_units": 31,
+      "source_anomaly_records": 3,
+      "report": "I_II-q003.md",
+      "manifest": "I_II-q003.json",
+      "validation": "I_II-q003-validation.json"
+    },
+    {
+      "question": 4,
+      "title": "論幸福所需要者",
+      "articles": 8,
+      "pdf_file_pages": [
+        1817,
+        1831
+      ],
+      "printed_pages": [
+        46,
+        60
+      ],
+      "changed_review_units": 74,
+      "checked_unchanged_review_units": 26,
+      "source_anomaly_records": 8,
+      "report": "I_II-q004.md",
+      "manifest": "I_II-q004.json",
+      "validation": "I_II-q004-validation.json"
+    },
+    {
+      "question": 5,
+      "title": "論幸福之獲取",
+      "articles": 8,
+      "pdf_file_pages": [
+        1832,
+        1846
+      ],
+      "printed_pages": [
+        61,
+        75
+      ],
+      "changed_review_units": 69,
+      "checked_unchanged_review_units": 28,
+      "source_anomaly_records": 7,
+      "report": "I_II-q005.md",
+      "manifest": "I_II-q005.json",
+      "validation": "I_II-q005-validation.json"
+    },
+    {
+      "question": 6,
+      "title": "論有意行為及無意行為",
+      "articles": 8,
+      "pdf_file_pages": [
+        1847,
+        1861
+      ],
+      "printed_pages": [
+        76,
+        90
+      ],
+      "changed_review_units": 68,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 5,
+      "report": "I_II-q006.md",
+      "manifest": "I_II-q006.json",
+      "validation": "I_II-q006-validation.json"
+    },
+    {
+      "question": 7,
+      "title": "論人性行動之情況",
+      "articles": 4,
+      "pdf_file_pages": [
+        1862,
+        1868
+      ],
+      "printed_pages": [
+        91,
+        97
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 12,
+      "source_anomaly_records": 2,
+      "report": "I_II-q007.md",
+      "manifest": "I_II-q007.json",
+      "validation": "I_II-q007-validation.json"
+    },
+    {
+      "question": 8,
+      "title": "論意志與其所欲",
+      "articles": 3,
+      "pdf_file_pages": [
+        1869,
+        1874
+      ],
+      "printed_pages": [
+        98,
+        103
+      ],
+      "changed_review_units": 26,
+      "checked_unchanged_review_units": 12,
+      "source_anomaly_records": 2,
+      "report": "I_II-q008.md",
+      "manifest": "I_II-q008.json",
+      "validation": "I_II-q008-validation.json"
+    },
+    {
+      "question": 9,
+      "title": "論意志之動因",
+      "articles": 6,
+      "pdf_file_pages": [
+        1875,
+        1884
+      ],
+      "printed_pages": [
+        104,
+        113
+      ],
+      "changed_review_units": 49,
+      "checked_unchanged_review_units": 23,
+      "source_anomaly_records": 5,
+      "report": "I_II-q009.md",
+      "manifest": "I_II-q009.json",
+      "validation": "I_II-q009-validation.json"
+    },
+    {
+      "question": 10,
+      "title": "論意志之行動方式",
+      "articles": 4,
+      "pdf_file_pages": [
+        1885,
+        1892
+      ],
+      "printed_pages": [
+        114,
+        121
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 14,
+      "source_anomaly_records": 2,
+      "report": "I_II-q010.md",
+      "manifest": "I_II-q010.json",
+      "validation": "I_II-q010-validation.json"
+    },
+    {
+      "question": 11,
+      "title": "論意志之享受行動",
+      "articles": 4,
+      "pdf_file_pages": [
+        1893,
+        1899
+      ],
+      "printed_pages": [
+        122,
+        128
+      ],
+      "changed_review_units": 38,
+      "checked_unchanged_review_units": 12,
+      "source_anomaly_records": 12,
+      "report": "I_II-q011.md",
+      "manifest": "I_II-q011.json",
+      "validation": "I_II-q011-validation.json"
+    },
+    {
+      "question": 12,
+      "title": "論志向",
+      "articles": 5,
+      "pdf_file_pages": [
+        1900,
+        1907
+      ],
+      "printed_pages": [
+        129,
+        136
+      ],
+      "changed_review_units": 40,
+      "checked_unchanged_review_units": 23,
+      "source_anomaly_records": 6,
+      "report": "I_II-q012.md",
+      "manifest": "I_II-q012.json",
+      "validation": "I_II-q012-validation.json"
+    },
+    {
+      "question": 13,
+      "title": "論選擇——意志關於導致目的者之行動",
+      "articles": 6,
+      "pdf_file_pages": [
+        1908,
+        1917
+      ],
+      "printed_pages": [
+        137,
+        146
+      ],
+      "changed_review_units": 48,
+      "checked_unchanged_review_units": 23,
+      "source_anomaly_records": 7,
+      "report": "I_II-q013.md",
+      "manifest": "I_II-q013.json",
+      "validation": "I_II-q013-validation.json"
+    },
+    {
+      "question": 14,
+      "title": "論選擇之前的考慮",
+      "articles": 6,
+      "pdf_file_pages": [
+        1918,
+        1926
+      ],
+      "printed_pages": [
+        147,
+        155
+      ],
+      "changed_review_units": 51,
+      "checked_unchanged_review_units": 22,
+      "source_anomaly_records": 7,
+      "report": "I_II-q014.md",
+      "manifest": "I_II-q014.json",
+      "validation": "I_II-q014-validation.json"
+    },
+    {
+      "question": 15,
+      "title": "論同意——意志對導致目的者之行動",
+      "articles": 4,
+      "pdf_file_pages": [
+        1927,
+        1932
+      ],
+      "printed_pages": [
+        156,
+        161
+      ],
+      "changed_review_units": 32,
+      "checked_unchanged_review_units": 17,
+      "source_anomaly_records": 3,
+      "report": "I_II-q015.md",
+      "manifest": "I_II-q015.json",
+      "validation": "I_II-q015-validation.json"
+    },
+    {
+      "question": 16,
+      "title": "論運用——意志對導致目的者之行動",
+      "articles": 4,
+      "pdf_file_pages": [
+        1933,
+        1938
+      ],
+      "printed_pages": [
+        162,
+        167
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 2,
+      "report": "I_II-q016.md",
+      "manifest": "I_II-q016.json",
+      "validation": "I_II-q016-validation.json"
+    },
+    {
+      "question": 17,
+      "title": "論受意志之命令的行動",
+      "articles": 9,
+      "pdf_file_pages": [
+        1939,
+        1953
+      ],
+      "printed_pages": [
+        168,
+        182
+      ],
+      "changed_review_units": 81,
+      "checked_unchanged_review_units": 28,
+      "source_anomaly_records": 12,
+      "report": "I_II-q017.md",
+      "manifest": "I_II-q017.json",
+      "validation": "I_II-q017-validation.json"
+    },
+    {
+      "question": 18,
+      "title": "泛論人性行動之善惡",
+      "articles": 11,
+      "pdf_file_pages": [
+        1954,
+        1972
+      ],
+      "printed_pages": [
+        183,
+        201
+      ],
+      "changed_review_units": 94,
+      "checked_unchanged_review_units": 41,
+      "source_anomaly_records": 12,
+      "report": "I_II-q018.md",
+      "manifest": "I_II-q018.json",
+      "validation": "I_II-q018-validation.json"
+    },
+    {
+      "question": 19,
+      "title": "論意志之內在行動的善惡",
+      "articles": 10,
+      "pdf_file_pages": [
+        1973,
+        1991
+      ],
+      "printed_pages": [
+        202,
+        220
+      ],
+      "changed_review_units": 86,
+      "checked_unchanged_review_units": 37,
+      "source_anomaly_records": 14,
+      "report": "I_II-q019.md",
+      "manifest": "I_II-q019.json",
+      "validation": "I_II-q019-validation.json"
+    },
+    {
+      "question": 20,
+      "title": "論外在之人性行動的善惡",
+      "articles": 6,
+      "pdf_file_pages": [
+        1992,
+        2002
+      ],
+      "printed_pages": [
+        221,
+        231
+      ],
+      "changed_review_units": 46,
+      "checked_unchanged_review_units": 29,
+      "source_anomaly_records": 12,
+      "report": "I_II-q020.md",
+      "manifest": "I_II-q020.json",
+      "validation": "I_II-q020-validation.json"
+    },
+    {
+      "question": 21,
+      "title": "論人性行動善惡所生之後果",
+      "articles": 4,
+      "pdf_file_pages": [
+        2003,
+        2010
+      ],
+      "printed_pages": [
+        232,
+        239
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 15,
+      "source_anomaly_records": 9,
+      "report": "I_II-q021.md",
+      "manifest": "I_II-q021.json",
+      "validation": "I_II-q021-validation.json"
+    },
+    {
+      "question": 22,
+      "title": "論靈魂之情的主體",
+      "articles": 3,
+      "pdf_file_pages": [
+        2011,
+        2016
+      ],
+      "printed_pages": [
+        240,
+        245
+      ],
+      "changed_review_units": 26,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 4,
+      "report": "I_II-q022.md",
+      "manifest": "I_II-q022.json",
+      "validation": "I_II-q022-validation.json"
+    },
+    {
+      "question": 23,
+      "title": "論情彼此之區別",
+      "articles": 4,
+      "pdf_file_pages": [
+        2017,
+        2023
+      ],
+      "printed_pages": [
+        246,
+        252
+      ],
+      "changed_review_units": 30,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 11,
+      "report": "I_II-q023.md",
+      "manifest": "I_II-q023.json",
+      "validation": "I_II-q023-validation.json"
+    },
+    {
+      "question": 24,
+      "title": "論靈魂之情的善惡",
+      "articles": 4,
+      "pdf_file_pages": [
+        2024,
+        2030
+      ],
+      "printed_pages": [
+        253,
+        259
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 1,
+      "report": "I_II-q024.md",
+      "manifest": "I_II-q024.json",
+      "validation": "I_II-q024-validation.json"
+    },
+    {
+      "question": 25,
+      "title": "論情彼此之關係",
+      "articles": 4,
+      "pdf_file_pages": [
+        2031,
+        2038
+      ],
+      "printed_pages": [
+        260,
+        267
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 7,
+      "report": "I_II-q025.md",
+      "manifest": "I_II-q025.json",
+      "validation": "I_II-q025-validation.json"
+    },
+    {
+      "question": 26,
+      "title": "分論諸情：首先論愛",
+      "articles": 4,
+      "pdf_file_pages": [
+        2039,
+        2045
+      ],
+      "printed_pages": [
+        268,
+        274
+      ],
+      "changed_review_units": 33,
+      "checked_unchanged_review_units": 17,
+      "source_anomaly_records": 5,
+      "report": "I_II-q026.md",
+      "manifest": "I_II-q026.json",
+      "validation": "I_II-q026-validation.json"
+    },
+    {
+      "question": 27,
+      "title": "論愛之原因",
+      "articles": 4,
+      "pdf_file_pages": [
+        2046,
+        2052
+      ],
+      "printed_pages": [
+        275,
+        281
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 15,
+      "source_anomaly_records": 9,
+      "report": "I_II-q027.md",
+      "manifest": "I_II-q027.json",
+      "validation": "I_II-q027-validation.json"
+    },
+    {
+      "question": 28,
+      "title": "論愛之效果",
+      "articles": 6,
+      "pdf_file_pages": [
+        2053,
+        2063
+      ],
+      "printed_pages": [
+        282,
+        292
+      ],
+      "changed_review_units": 45,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 13,
+      "report": "I_II-q028.md",
+      "manifest": "I_II-q028.json",
+      "validation": "I_II-q028-validation.json"
+    },
+    {
+      "question": 29,
+      "title": "論怨恨",
+      "articles": 6,
+      "pdf_file_pages": [
+        2064,
+        2073
+      ],
+      "printed_pages": [
+        293,
+        302
+      ],
+      "changed_review_units": 48,
+      "checked_unchanged_review_units": 25,
+      "source_anomaly_records": 8,
+      "report": "I_II-q029.md",
+      "manifest": "I_II-q029.json",
+      "validation": "I_II-q029-validation.json"
+    },
+    {
+      "question": 30,
+      "title": "論慾望",
+      "articles": 4,
+      "pdf_file_pages": [
+        2074,
+        2081
+      ],
+      "printed_pages": [
+        303,
+        310
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 3,
+      "report": "I_II-q030.md",
+      "manifest": "I_II-q030.json",
+      "validation": "I_II-q030-validation.json"
+    },
+    {
+      "question": 31,
+      "title": "論快樂本身",
+      "articles": 8,
+      "pdf_file_pages": [
+        2082,
+        2095
+      ],
+      "printed_pages": [
+        311,
+        324
+      ],
+      "changed_review_units": 66,
+      "checked_unchanged_review_units": 29,
+      "source_anomaly_records": 18,
+      "report": "I_II-q031.md",
+      "manifest": "I_II-q031.json",
+      "validation": "I_II-q031-validation.json"
+    },
+    {
+      "question": 32,
+      "title": "論快樂之原因",
+      "articles": 8,
+      "pdf_file_pages": [
+        2096,
+        2109
+      ],
+      "printed_pages": [
+        325,
+        338
+      ],
+      "changed_review_units": 69,
+      "checked_unchanged_review_units": 28,
+      "source_anomaly_records": 17,
+      "report": "I_II-q032.md",
+      "manifest": "I_II-q032.json",
+      "validation": "I_II-q032-validation.json"
+    },
+    {
+      "question": 33,
+      "title": "論快樂之效果",
+      "articles": 4,
+      "pdf_file_pages": [
+        2110,
+        2116
+      ],
+      "printed_pages": [
+        339,
+        345
+      ],
+      "changed_review_units": 30,
+      "checked_unchanged_review_units": 19,
+      "source_anomaly_records": 12,
+      "report": "I_II-q033.md",
+      "manifest": "I_II-q033.json",
+      "validation": "I_II-q033-validation.json"
+    },
+    {
+      "question": 34,
+      "title": "論快樂之善惡",
+      "articles": 4,
+      "pdf_file_pages": [
+        2117,
+        2124
+      ],
+      "printed_pages": [
+        346,
+        353
+      ],
+      "changed_review_units": 39,
+      "checked_unchanged_review_units": 10,
+      "source_anomaly_records": 8,
+      "report": "I_II-q034.md",
+      "manifest": "I_II-q034.json",
+      "validation": "I_II-q034-validation.json"
+    },
+    {
+      "question": 35,
+      "title": "論傷痛或哀愁本身",
+      "articles": 8,
+      "pdf_file_pages": [
+        2125,
+        2142
+      ],
+      "printed_pages": [
+        354,
+        371
+      ],
+      "changed_review_units": 74,
+      "checked_unchanged_review_units": 27,
+      "source_anomaly_records": 14,
+      "report": "I_II-q035.md",
+      "manifest": "I_II-q035.json",
+      "validation": "I_II-q035-validation.json"
+    },
+    {
+      "question": 36,
+      "title": "論哀愁或傷痛之原因",
+      "articles": 4,
+      "pdf_file_pages": [
+        2143,
+        2149
+      ],
+      "printed_pages": [
+        372,
+        378
+      ],
+      "changed_review_units": 32,
+      "checked_unchanged_review_units": 17,
+      "source_anomaly_records": 7,
+      "report": "I_II-q036.md",
+      "manifest": "I_II-q036.json",
+      "validation": "I_II-q036-validation.json"
+    },
+    {
+      "question": 37,
+      "title": "論傷痛或哀愁之效果",
+      "articles": 4,
+      "pdf_file_pages": [
+        2150,
+        2156
+      ],
+      "printed_pages": [
+        379,
+        385
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 6,
+      "report": "I_II-q037.md",
+      "manifest": "I_II-q037.json",
+      "validation": "I_II-q037-validation.json"
+    },
+    {
+      "question": 38,
+      "title": "論哀愁或傷痛之補救方法",
+      "articles": 5,
+      "pdf_file_pages": [
+        2157,
+        2164
+      ],
+      "printed_pages": [
+        386,
+        393
+      ],
+      "changed_review_units": 40,
+      "checked_unchanged_review_units": 21,
+      "source_anomaly_records": 12,
+      "report": "I_II-q038.md",
+      "manifest": "I_II-q038.json",
+      "validation": "I_II-q038-validation.json"
+    },
+    {
+      "question": 39,
+      "title": "論哀愁或傷痛之善惡",
+      "articles": 4,
+      "pdf_file_pages": [
+        2165,
+        2171
+      ],
+      "printed_pages": [
+        394,
+        400
+      ],
+      "changed_review_units": 37,
+      "checked_unchanged_review_units": 11,
+      "source_anomaly_records": 9,
+      "report": "I_II-q039.md",
+      "manifest": "I_II-q039.json",
+      "validation": "I_II-q039-validation.json"
+    },
+    {
+      "question": 40,
+      "title": "論憤情：首論企望和失望",
+      "articles": 8,
+      "pdf_file_pages": [
+        2172,
+        2183
+      ],
+      "printed_pages": [
+        401,
+        412
+      ],
+      "changed_review_units": 64,
+      "checked_unchanged_review_units": 31,
+      "source_anomaly_records": 15,
+      "report": "I_II-q040.md",
+      "manifest": "I_II-q040.json",
+      "validation": "I_II-q040-validation.json"
+    },
+    {
+      "question": 41,
+      "title": "論畏懼本身",
+      "articles": 4,
+      "pdf_file_pages": [
+        2184,
+        2191
+      ],
+      "printed_pages": [
+        413,
+        420
+      ],
+      "changed_review_units": 38,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 8,
+      "report": "I_II-q041.md",
+      "manifest": "I_II-q041.json",
+      "validation": "I_II-q041-validation.json"
+    },
+    {
+      "question": 42,
+      "title": "論畏懼之對象",
+      "articles": 6,
+      "pdf_file_pages": [
+        2192,
+        2200
+      ],
+      "printed_pages": [
+        421,
+        429
+      ],
+      "changed_review_units": 51,
+      "checked_unchanged_review_units": 22,
+      "source_anomaly_records": 10,
+      "report": "I_II-q042.md",
+      "manifest": "I_II-q042.json",
+      "validation": "I_II-q042-validation.json"
+    },
+    {
+      "question": 43,
+      "title": "論畏懼之原因",
+      "articles": 2,
+      "pdf_file_pages": [
+        2201,
+        2204
+      ],
+      "printed_pages": [
+        430,
+        433
+      ],
+      "changed_review_units": 19,
+      "checked_unchanged_review_units": 6,
+      "source_anomaly_records": 5,
+      "report": "I_II-q043.md",
+      "manifest": "I_II-q043.json",
+      "validation": "I_II-q043-validation.json"
+    },
+    {
+      "question": 44,
+      "title": "論畏懼之效果",
+      "articles": 4,
+      "pdf_file_pages": [
+        2205,
+        2211
+      ],
+      "printed_pages": [
+        434,
+        440
+      ],
+      "changed_review_units": 34,
+      "checked_unchanged_review_units": 15,
+      "source_anomaly_records": 8,
+      "report": "I_II-q044.md",
+      "manifest": "I_II-q044.json",
+      "validation": "I_II-q044-validation.json"
+    },
+    {
+      "question": 45,
+      "title": "論勇猛",
+      "articles": 4,
+      "pdf_file_pages": [
+        2212,
+        2218
+      ],
+      "printed_pages": [
+        441,
+        447
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 5,
+      "report": "I_II-q045.md",
+      "manifest": "I_II-q045.json",
+      "validation": "I_II-q045-validation.json"
+    },
+    {
+      "question": 46,
+      "title": "論忿怒本身",
+      "articles": 8,
+      "pdf_file_pages": [
+        2219,
+        2232
+      ],
+      "printed_pages": [
+        448,
+        461
+      ],
+      "changed_review_units": 63,
+      "checked_unchanged_review_units": 32,
+      "source_anomaly_records": 13,
+      "report": "I_II-q046.md",
+      "manifest": "I_II-q046.json",
+      "validation": "I_II-q046-validation.json"
+    },
+    {
+      "question": 47,
+      "title": "論忿怒之原因及其補救方法",
+      "articles": 4,
+      "pdf_file_pages": [
+        2233,
+        2239
+      ],
+      "printed_pages": [
+        462,
+        468
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 15,
+      "source_anomaly_records": 7,
+      "report": "I_II-q047.md",
+      "manifest": "I_II-q047.json",
+      "validation": "I_II-q047-validation.json"
+    },
+    {
+      "question": 48,
+      "title": "論忿怒之效果",
+      "articles": 4,
+      "pdf_file_pages": [
+        2240,
+        2246
+      ],
+      "printed_pages": [
+        469,
+        475
+      ],
+      "changed_review_units": 36,
+      "checked_unchanged_review_units": 13,
+      "source_anomaly_records": 9,
+      "report": "I_II-q048.md",
+      "manifest": "I_II-q048.json",
+      "validation": "I_II-q048-validation.json"
+    },
+    {
+      "question": 49,
+      "title": "泛論習性之本質",
+      "articles": 4,
+      "pdf_file_pages": [
+        2267,
+        2276
+      ],
+      "printed_pages": [
+        1,
+        10
+      ],
+      "changed_review_units": 35,
+      "checked_unchanged_review_units": 14,
+      "source_anomaly_records": 16,
+      "report": "I_II-q049.md",
+      "manifest": "I_II-q049.json",
+      "validation": "I_II-q049-validation.json"
+    },
+    {
+      "question": 50,
+      "title": "論習性之主體",
+      "articles": 6,
+      "pdf_file_pages": [
+        2277,
+        2289
+      ],
+      "printed_pages": [
+        11,
+        23
+      ],
+      "changed_review_units": 50,
+      "checked_unchanged_review_units": 23,
+      "source_anomaly_records": 13,
+      "report": "I_II-q050.md",
+      "manifest": "I_II-q050.json",
+      "validation": "I_II-q050-validation.json"
+    }
+  ],
+  "source_anomalies": [
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a003.respondeo",
+      "pdf_file_page": 1791,
+      "text": "己開始",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a003.respondeo",
+      "pdf_file_page": 1791,
+      "text": "己完備",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a003.ad2",
+      "pdf_file_page": 1792,
+      "text": "先己有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a005.respondeo",
+      "pdf_file_page": 1795,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a001.respondeo",
+      "pdf_file_page": 1788,
+      "text": "以更談不到",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「以更談不到」，依底本保留，不按句意改「也」。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a003.ad1",
+      "pdf_file_page": 1792,
+      "text": "第十六章32節",
+      "status": "suspected_source_print_error",
+      "action": "原译者已附引文不符按语；原页此编号亦为第十六章32节，连同按语保留。"
+    },
+    {
+      "batch": "I_II-q002",
+      "id": "I_II.q002.a006.respondeo",
+      "pdf_file_page": 1796,
+      "text": "何者性同附加",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「何者性同附加」，疑似排印用字，保持原文不改写。"
+    },
+    {
+      "batch": "I_II-q003",
+      "id": "I_II.q003.a004.arg2",
+      "pdf_file_page": 1808,
+      "text": "最高的的善",
+      "status": "suspected_source_print_error",
+      "action": "原页亦重复印「的」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q003",
+      "id": "I_II.q003.a007.ad2",
+      "pdf_file_page": 1815,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，依底本保留。"
+    },
+    {
+      "batch": "I_II-q003",
+      "id": "I_II.q003.a008.respondeo",
+      "pdf_file_page": 1816,
+      "text": "己觸到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」字形，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a001.ad3",
+      "pdf_file_page": 1818,
+      "text": "如己說的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a004.respondeo",
+      "pdf_file_page": 1822,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a005.ad2",
+      "pdf_file_page": 1825,
+      "text": "己講過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a005.ad6",
+      "pdf_file_page": 1826,
+      "text": "己被舉",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a006.arg2",
+      "pdf_file_page": 1827,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a003.respondeo",
+      "pdf_file_page": 1821,
+      "text": "第二題釋疑3.",
+      "status": "suspected_source_print_error",
+      "action": "原页引用缺具体节号，照录，不补推测的节号。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a005.respondeo",
+      "pdf_file_page": 1824,
+      "text": "既在現世能有的",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「既」，疑为「即」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q004",
+      "id": "I_II.q004.a007.respondeo",
+      "pdf_file_page": 1829,
+      "text": "既在於享見天主",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「既」，疑为「即」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a002.arg1",
+      "pdf_file_page": 1834,
+      "text": "額我一世略",
+      "status": "suspected_source_print_error",
+      "action": "原页亦将姓名印为「額我一世略」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a003.respondeo",
+      "pdf_file_page": 1836,
+      "text": "第十二題第二節",
+      "status": "suspected_source_print_error",
+      "action": "原页该交叉引用亦作第二节，依底本保留，不据其他版本重编。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a005.respondeo",
+      "pdf_file_page": 1840,
+      "text": "任可受造物",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「任可」，疑为「任何」印误，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a005.ad2",
+      "pdf_file_page": 1840,
+      "text": "醫樂",
+      "status": "suspected_source_print_error",
+      "action": "原页此处亦呈「醫樂」，与前文「醫藥」不同，疑漏草头，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a006.respondeo",
+      "pdf_file_page": 1842,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a006.ad3",
+      "pdf_file_page": 1843,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q005",
+      "id": "I_II.q005.a008.ad2",
+      "pdf_file_page": 1846,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q006",
+      "id": "I_II.q006.a001.respondeo",
+      "pdf_file_page": 1849,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q006",
+      "id": "I_II.q006.a002.respondeo",
+      "pdf_file_page": 1851,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q006",
+      "id": "I_II.q006.a005.arg1",
+      "pdf_file_page": 1855,
+      "text": "己指出",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q006",
+      "id": "I_II.q006.a007.sed_contra",
+      "pdf_file_page": 1859,
+      "text": "慾情不造成不情願",
+      "status": "suspected_source_print_error",
+      "action": "原页该段末亦缺句末标点，按底本保留，不自行补句号。"
+    },
+    {
+      "batch": "I_II-q006",
+      "id": "I_II.q006.a008.arg2",
+      "pdf_file_page": 1860,
+      "text": "陰謀邪惡的人，豈非走入歧途？",
+      "status": "suspected_source_print_error",
+      "action": "原页此引文问号后即接「倘若」，未见闭引号；依底本保留。"
+    },
+    {
+      "batch": "I_II-q007",
+      "id": "I_II.q007.a001.ad3",
+      "pdf_file_page": 1863,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q007",
+      "id": "I_II.q007.a001.respondeo",
+      "pdf_file_page": 1863,
+      "text": "circum stantiae",
+      "status": "suspected_source_print_error",
+      "action": "原页拉丁术语亦在circum与stantiae间留空，按底本保留。"
+    },
+    {
+      "batch": "I_II-q008",
+      "id": "I_II.q008.a001.title",
+      "pdf_file_page": 1869,
+      "text": "意志是否只指向善有",
+      "status": "suspected_source_print_error",
+      "action": "原页标题亦作「善有」，保留该译本题名，不按通行版本删字。"
+    },
+    {
+      "batch": "I_II-q008",
+      "id": "I_II.q008.a001.intro",
+      "pdf_file_page": 1869,
+      "text": "關第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页亦以「關第一節」起句，未印「有」；依底本保留。"
+    },
+    {
+      "batch": "I_II-q009",
+      "id": "I_II.q009.a004.sed_contra",
+      "pdf_file_page": 1880,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q009",
+      "id": "I_II.q009.a005.ad3",
+      "pdf_file_page": 1883,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q009",
+      "id": "I_II.q009.a004.respondeo",
+      "pdf_file_page": 1880,
+      "text": "顯然之要某物",
+      "status": "suspected_source_print_error",
+      "action": "原页亦作「顯然之要某物」，疑有脱字，依底本保留，不能按语意补写。"
+    },
+    {
+      "batch": "I_II-q009",
+      "id": "I_II.q009.a005.respondeo",
+      "pdf_file_page": 1882,
+      "text": "非形體物，而且正相反",
+      "status": "suspected_source_print_error",
+      "action": "原页此句亦如此，原书句意有疑，保留译文。"
+    },
+    {
+      "batch": "I_II-q009",
+      "id": "I_II.q009.a006.respondeo",
+      "pdf_file_page": 1884,
+      "text": "第一集第九十題第二及第三節已經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引用亦如此，不按其他版本更改。"
+    },
+    {
+      "batch": "I_II-q010",
+      "id": "I_II.q010.a002.ad1",
+      "pdf_file_page": 1888,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q010",
+      "id": "I_II.q010.a003.respondeo",
+      "pdf_file_page": 1890,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.prologue",
+      "pdf_file_page": 1893,
+      "text": "己達到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a001.arg1",
+      "pdf_file_page": 1893,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a001.ad2",
+      "pdf_file_page": 1894,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a003.respondeo",
+      "pdf_file_page": 1896,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.title",
+      "pdf_file_page": 1898,
+      "text": "己達到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.arg1",
+      "pdf_file_page": 1898,
+      "text": "己在手中",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.arg2",
+      "pdf_file_page": 1898,
+      "text": "己達到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.arg3",
+      "pdf_file_page": 1898,
+      "text": "己達到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.respondeo",
+      "pdf_file_page": 1898,
+      "text": "己實際",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a004.ad3",
+      "pdf_file_page": 1899,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a002.respondeo",
+      "pdf_file_page": 1895,
+      "text": "其他受造物不能享受",
+      "status": "suspected_source_print_error",
+      "action": "原页段末未印句号；依底本保留。"
+    },
+    {
+      "batch": "I_II-q011",
+      "id": "I_II.q011.a003.ad2",
+      "pdf_file_page": 1897,
+      "text": "因為「須為其自身而追求",
+      "status": "suspected_source_print_error",
+      "action": "原页此处开引号之后未见配对的闭引号，按底本保留并提示。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a001.respondeo",
+      "pdf_file_page": 1901,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a002.arg2",
+      "pdf_file_page": 1902,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a003.ad2",
+      "pdf_file_page": 1904,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a004.ad3",
+      "pdf_file_page": 1906,
+      "text": "己能有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a005.respondeo",
+      "pdf_file_page": 1906,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q012",
+      "id": "I_II.q012.a005.respondeo",
+      "pdf_file_page": 1907,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a003.respondeo",
+      "pdf_file_page": 1912,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a003.ad2",
+      "pdf_file_page": 1912,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a005.arg1",
+      "pdf_file_page": 1914,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a005.arg2",
+      "pdf_file_page": 1914,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a005.respondeo",
+      "pdf_file_page": 1914,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a006.respondeo",
+      "pdf_file_page": 1916,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q013",
+      "id": "I_II.q013.a006.arg3",
+      "pdf_file_page": 1916,
+      "text": "在不同的等距離處",
+      "status": "suspected_source_print_error",
+      "action": "原页此处亦如此；不因表述有疑而改译文。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a001.arg2",
+      "pdf_file_page": 1918,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a001.respondeo",
+      "pdf_file_page": 1919,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a001.respondeo",
+      "pdf_file_page": 1919,
+      "text": "對己考慮好者",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a002.ad1",
+      "pdf_file_page": 1921,
+      "text": "己經是確定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a004.arg1",
+      "pdf_file_page": 1922,
+      "text": "對己經考慮好的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a004.respondeo",
+      "pdf_file_page": 1923,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q014",
+      "id": "I_II.q014.a002.sed_contra",
+      "pdf_file_page": 1920,
+      "text": "第二十四章",
+      "status": "suspected_source_print_error",
+      "action": "原页所引《論人性》章数亦作第二十四章，保留底本编号。"
+    },
+    {
+      "batch": "I_II-q015",
+      "id": "I_II.q015.a001.ad2",
+      "pdf_file_page": 1928,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q015",
+      "id": "I_II.q015.a004.ad2",
+      "pdf_file_page": 1932,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q015",
+      "id": "I_II.q015.a001.ad3",
+      "pdf_file_page": 1928,
+      "text": "第一集第十題第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引用亦作第十题第一节，按底本保留。"
+    },
+    {
+      "batch": "I_II-q016",
+      "id": "I_II.q016.a001.arg2",
+      "pdf_file_page": 1933,
+      "text": "運用。」。但行動",
+      "status": "suspected_source_print_error",
+      "action": "放大原页确认闭引号后另有句号，保留底本双句号，不自行删去。"
+    },
+    {
+      "batch": "I_II-q016",
+      "id": "I_II.q016.a003.arg2",
+      "pdf_file_page": 1936,
+      "text": "所以，能運用最後目的",
+      "status": "suspected_source_print_error",
+      "action": "原页此段末未印句号，按底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a001.ad3",
+      "pdf_file_page": 1941,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a003.arg1",
+      "pdf_file_page": 1942,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a003.arg3",
+      "pdf_file_page": 1942,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a005.respondeo",
+      "pdf_file_page": 1946,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a005.ad1",
+      "pdf_file_page": 1946,
+      "text": "己經願意",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a005.ad3",
+      "pdf_file_page": 1946,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a007.respondeo",
+      "pdf_file_page": 1948,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a009.arg1",
+      "pdf_file_page": 1951,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a009.ad3",
+      "pdf_file_page": 1953,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a001.respondeo",
+      "pdf_file_page": 1940,
+      "text": "其中又含有意志行動之影響",
+      "status": "suspected_source_print_error",
+      "action": "原页该段末未印句号，按底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a003.arg1",
+      "pdf_file_page": 1942,
+      "text": "所以，運用先於命令",
+      "status": "suspected_source_print_error",
+      "action": "原页此段末亦未印句号，按底本保留。"
+    },
+    {
+      "batch": "I_II-q017",
+      "id": "I_II.q017.a003.ad2",
+      "pdf_file_page": 1943,
+      "text": "而不是在後",
+      "status": "suspected_source_print_error",
+      "action": "原页此段末亦未印句号，按底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a002.respondeo",
+      "pdf_file_page": 1957,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a003.arg1",
+      "pdf_file_page": 1958,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a005.respondeo",
+      "pdf_file_page": 1961,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a006.arg2",
+      "pdf_file_page": 1963,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a006.ad1",
+      "pdf_file_page": 1964,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a007.ad1",
+      "pdf_file_page": 1966,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a008.arg2",
+      "pdf_file_page": 1966,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a009.ad2",
+      "pdf_file_page": 1969,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a010.ad1",
+      "pdf_file_page": 1971,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a011.respondeo",
+      "pdf_file_page": 1972,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a011.ad2",
+      "pdf_file_page": 1972,
+      "text": "己講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q018",
+      "id": "I_II.q018.a007.respondeo",
+      "pdf_file_page": 1965,
+      "text": "那個對象機能包括在那個目的之下",
+      "status": "suspected_source_print_error",
+      "action": "原页亦印「對象機能」，句法有疑，依底本保留，不凭推测删字。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a001.respondeo",
+      "pdf_file_page": 1974,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a001.ad3",
+      "pdf_file_page": 1974,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a003.respondeo",
+      "pdf_file_page": 1977,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a003.ad3",
+      "pdf_file_page": 1977,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a007.ad1",
+      "pdf_file_page": 1984,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a007.ad3",
+      "pdf_file_page": 1984,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a008.ad1",
+      "pdf_file_page": 1986,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a008.ad3",
+      "pdf_file_page": 1987,
+      "text": "己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a008.ad3",
+      "pdf_file_page": 1987,
+      "text": "2..己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a010.respondeo",
+      "pdf_file_page": 1989,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a010.respondeo",
+      "pdf_file_page": 1990,
+      "text": "己如上述",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a006.respondeo",
+      "pdf_file_page": 1982,
+      "text": "所心願",
+      "status": "suspected_source_print_error",
+      "action": "原页作「所心願」，语意疑为「所情願」，不据语意改底本。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a005.respondeo",
+      "pdf_file_page": 1980,
+      "text": "若其所有指示不當做者",
+      "status": "suspected_source_print_error",
+      "action": "原页「所有指示」疑为「所指示」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q019",
+      "id": "I_II.q019.a009.arg2",
+      "pdf_file_page": 1987,
+      "text": "也不必天主的意志一樣",
+      "status": "suspected_source_print_error",
+      "action": "原页「不必」后疑漏「跟」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a001.arg1",
+      "pdf_file_page": 1992,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a002.respondeo",
+      "pdf_file_page": 1994,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a003.respondeo",
+      "pdf_file_page": 1996,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a003.respondeo",
+      "pdf_file_page": 1996,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a003.ad1",
+      "pdf_file_page": 1996,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a004.respondeo",
+      "pdf_file_page": 1998,
+      "text": "而後己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a004.ad2",
+      "pdf_file_page": 1999,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a005.arg1",
+      "pdf_file_page": 1999,
+      "text": "本來己在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a005.arg1",
+      "pdf_file_page": 1999,
+      "text": "原己在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a006.respondeo",
+      "pdf_file_page": 2001,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a005.arg3",
+      "pdf_file_page": 1999,
+      "text": "第二十一章3節",
+      "status": "suspected_source_print_error",
+      "action": "原页为3节，疑应为29节；依原书保留，不据其他版本更改。"
+    },
+    {
+      "batch": "I_II-q020",
+      "id": "I_II.q020.a006.ad2",
+      "pdf_file_page": 2002,
+      "text": "由於因不同之意志",
+      "status": "suspected_source_print_error",
+      "action": "原页「由於因」疑有赘字，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a001.respondeo",
+      "pdf_file_page": 2004,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a002.respondeo",
+      "pdf_file_page": 2006,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a002.ad2",
+      "pdf_file_page": 2006,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a003.ad3",
+      "pdf_file_page": 2008,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a004.arg1",
+      "pdf_file_page": 2008,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a004.respondeo",
+      "pdf_file_page": 2009,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a004.respondeo",
+      "pdf_file_page": 2009,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a004.ad2",
+      "pdf_file_page": 2010,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q021",
+      "id": "I_II.q021.a001.sed_contra",
+      "pdf_file_page": 2004,
+      "text": "卷二十七第七章",
+      "status": "suspected_source_print_error",
+      "action": "原页卷章印作「卷二十七第七章」，与通行引文或有出入，按底本保留并待人工确认。"
+    },
+    {
+      "batch": "I_II-q022",
+      "id": "I_II.q022.a002.respondeo",
+      "pdf_file_page": 2014,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q022",
+      "id": "I_II.q022.a002.ad3",
+      "pdf_file_page": 2014,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q022",
+      "id": "I_II.q022.a003.respondeo",
+      "pdf_file_page": 2016,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q022",
+      "id": "I_II.q022.a001.respondeo",
+      "pdf_file_page": 2012,
+      "text": "卷一第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页《靈魂論》引文印作卷一第五章，疑与通常引文有出入，依本页保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a002.respondeo",
+      "pdf_file_page": 2020,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a002.general",
+      "pdf_file_page": 2020,
+      "text": "己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a003.respondeo",
+      "pdf_file_page": 2021,
+      "text": "己經臨身",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a003.respondeo",
+      "pdf_file_page": 2021,
+      "text": "己經過去",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a003.respondeo",
+      "pdf_file_page": 2021,
+      "text": "己臨身",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a003.respondeo",
+      "pdf_file_page": 2021,
+      "text": "己到手",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a003.general",
+      "pdf_file_page": 2022,
+      "text": "己可知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a004.arg3",
+      "pdf_file_page": 2022,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a004.respondeo",
+      "pdf_file_page": 2023,
+      "text": "己經獲得",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a004.respondeo",
+      "pdf_file_page": 2023,
+      "text": "己得之善",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q023",
+      "id": "I_II.q023.a004.respondeo",
+      "pdf_file_page": 2023,
+      "text": "己經臨身",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q024",
+      "id": "I_II.q024.a003.arg2",
+      "pdf_file_page": 2027,
+      "text": "卷四第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页作《天主之城》卷四第五章，疑与卷九第五章引文有出入，按底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a001.respondeo",
+      "pdf_file_page": 2032,
+      "text": "己靜止",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a002.respondeo",
+      "pdf_file_page": 2034,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a002.ad2",
+      "pdf_file_page": 2034,
+      "text": "己分得",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a003.arg2",
+      "pdf_file_page": 2035,
+      "text": "己臨頭",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a003.respondeo",
+      "pdf_file_page": 2035,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a001.arg2",
+      "pdf_file_page": 2031,
+      "text": "卷十三第四章",
+      "status": "suspected_source_print_error",
+      "action": "原页《物理學》印作卷十三第四章，疑为卷数印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q025",
+      "id": "I_II.q025.a001.arg3",
+      "pdf_file_page": 2031,
+      "text": "卷六第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页《倫理學》印作卷六第五章，疑与通常引文有出入，按底本保留。"
+    },
+    {
+      "batch": "I_II-q026",
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q026",
+      "id": "I_II.q026.a003.ad2",
+      "pdf_file_page": 2043,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q026",
+      "id": "I_II.q026.prologue",
+      "pdf_file_page": 2039,
+      "text": "可以以提出",
+      "status": "suspected_source_print_error",
+      "action": "原页重复「以」字，按底本保留。"
+    },
+    {
+      "batch": "I_II-q026",
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "這種稱為自然的愛",
+      "status": "suspected_source_print_error",
+      "action": "此句底本为「自然的愛」，语意疑为嗜慾，依底本保留。"
+    },
+    {
+      "batch": "I_II-q026",
+      "id": "I_II.q026.a001.respondeo",
+      "pdf_file_page": 2040,
+      "text": "第一集第六題第一節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文作第六题第一节，疑为另一节，依本页保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a001.respondeo",
+      "pdf_file_page": 2046,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a001.respondeo",
+      "pdf_file_page": 2047,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a002.arg1",
+      "pdf_file_page": 2048,
+      "text": "己經握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a002.respondeo",
+      "pdf_file_page": 2048,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a002.ad1",
+      "pdf_file_page": 2048,
+      "text": "己在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a002.ad3",
+      "pdf_file_page": 2049,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a003.ad3",
+      "pdf_file_page": 2051,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a003.ad4",
+      "pdf_file_page": 2051,
+      "text": "己完全",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q027",
+      "id": "I_II.q027.a002.ad3",
+      "pdf_file_page": 2049,
+      "text": "第一集第六題第一節釋疑1.",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文为第一集第六题第一节释疑1，疑为另一节，按底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a001.ad2",
+      "pdf_file_page": 2055,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a001.ad3",
+      "pdf_file_page": 2055,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a002.arg3",
+      "pdf_file_page": 2055,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a003.respondeo",
+      "pdf_file_page": 2058,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a003.ad2",
+      "pdf_file_page": 2058,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a005.respondeo",
+      "pdf_file_page": 2061,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a005.general",
+      "pdf_file_page": 2062,
+      "text": "己被握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a006.respondeo",
+      "pdf_file_page": 2062,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a006.ad2",
+      "pdf_file_page": 2063,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a001.arg1",
+      "pdf_file_page": 2053,
+      "text": "遠離有反結合",
+      "status": "suspected_source_print_error",
+      "action": "原页作「有反」，疑为「相反」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a001.arg3",
+      "pdf_file_page": 2054,
+      "text": "現實的智慧",
+      "status": "suspected_source_print_error",
+      "action": "底本作「智慧」，与此处术语语意或有出入，按底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a002.respondeo",
+      "pdf_file_page": 2056,
+      "text": "卷九第三章",
+      "status": "suspected_source_print_error",
+      "action": "原页《倫理學》卷章作卷九第三章，疑有引文印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q028",
+      "id": "I_II.q028.a003.respondeo",
+      "pdf_file_page": 2058,
+      "text": "思念被者",
+      "status": "suspected_source_print_error",
+      "action": "原页作「被者」，疑漏「愛」字；照录并单列，不补原书。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a002.respondeo",
+      "pdf_file_page": 2066,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "己經變了的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "發燒己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a001.ad1",
+      "pdf_file_page": 2065,
+      "text": "和惡的",
+      "status": "suspected_source_print_error",
+      "action": "原页此答复句末未印句号，依底本不补。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a002.ad3",
+      "pdf_file_page": 2067,
+      "text": "為達到點",
+      "status": "suspected_source_print_error",
+      "action": "原页作「為達到點」，疑漏「另一」；依底本保留。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a003.respondeo",
+      "pdf_file_page": 2068,
+      "text": "隔日的熱",
+      "status": "suspected_source_print_error",
+      "action": "原页作「隔日的熱」，按原译保留，不依医学常识改写。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a004.respondeo",
+      "pdf_file_page": 2069,
+      "text": "他們認為是者",
+      "status": "suspected_source_print_error",
+      "action": "原页作「是者」，语句疑有漏字，依底本保留。"
+    },
+    {
+      "batch": "I_II-q029",
+      "id": "I_II.q029.a006.respondeo",
+      "pdf_file_page": 2072,
+      "text": "置根",
+      "status": "suspected_source_print_error",
+      "action": "原页用字为「置根」，疑为「植根」，照录保留。"
+    },
+    {
+      "batch": "I_II-q030",
+      "id": "I_II.q030.a002.respondeo",
+      "pdf_file_page": 2076,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q030",
+      "id": "I_II.q030.a004.respondeo",
+      "pdf_file_page": 2080,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q030",
+      "id": "I_II.q030.a001.arg2",
+      "pdf_file_page": 2074,
+      "text": "第一一九篇20節",
+      "status": "suspected_source_print_error",
+      "action": "原页所引篇号为第一一九篇，依原书保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.arg2",
+      "pdf_file_page": 2083,
+      "text": "己經被動",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.arg2",
+      "pdf_file_page": 2083,
+      "text": "己經獲得",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.respondeo",
+      "pdf_file_page": 2083,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.respondeo",
+      "pdf_file_page": 2083,
+      "text": "己經完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.respondeo",
+      "pdf_file_page": 2083,
+      "text": "己達到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.ad1",
+      "pdf_file_page": 2084,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.ad1",
+      "pdf_file_page": 2084,
+      "text": "己經完成",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.ad2",
+      "pdf_file_page": 2084,
+      "text": "己獲得",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.ad3",
+      "pdf_file_page": 2084,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a002.respondeo",
+      "pdf_file_page": 2085,
+      "text": "己經得到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a002.ad3",
+      "pdf_file_page": 2085,
+      "text": "己獲得",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a004.respondeo",
+      "pdf_file_page": 2088,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a001.respondeo",
+      "pdf_file_page": 2083,
+      "text": "柏拉圖於《修辭學》",
+      "status": "suspected_source_print_error",
+      "action": "底本此处书名作《修辭學》，疑为另一著作，照录并单列。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a003.respondeo",
+      "pdf_file_page": 2086,
+      "text": "理性之快樂而慾望之",
+      "status": "suspected_source_print_error",
+      "action": "原页作「快樂」，语意疑为「知覺」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a005.respondeo",
+      "pdf_file_page": 2090,
+      "text": "感官只基於東西之外表依附體",
+      "status": "suspected_source_print_error",
+      "action": "原页作「基於」，语意疑有印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a006.respondeo",
+      "pdf_file_page": 2092,
+      "text": "快樂大其他感官之快樂",
+      "status": "suspected_source_print_error",
+      "action": "原页「大」后疑漏「於」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a006.ad3",
+      "pdf_file_page": 2092,
+      "text": "色情的原因",
+      "status": "suspected_source_print_error",
+      "action": "原页作「色情」，依原译保留。"
+    },
+    {
+      "batch": "I_II-q031",
+      "id": "I_II.q031.a008.arg1",
+      "pdf_file_page": 2094,
+      "text": "第八章",
+      "status": "suspected_source_print_error",
+      "action": "底本《範疇論》卷章作第八章，疑有引文编号印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a001.arg1",
+      "pdf_file_page": 2096,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a001.respondeo",
+      "pdf_file_page": 2097,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a002.arg1",
+      "pdf_file_page": 2098,
+      "text": "己經存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a002.ad1",
+      "pdf_file_page": 2099,
+      "text": "己開始",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a002.ad1",
+      "pdf_file_page": 2099,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a003.ad3",
+      "pdf_file_page": 2101,
+      "text": "己經過去",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a004.respondeo",
+      "pdf_file_page": 2102,
+      "text": "己不再",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a004.ad2",
+      "pdf_file_page": 2102,
+      "text": "己經失去",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a006.ad3",
+      "pdf_file_page": 2105,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a007.respondeo",
+      "pdf_file_page": 2106,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a008.arg2",
+      "pdf_file_page": 2107,
+      "text": "己經知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a008.arg2",
+      "pdf_file_page": 2107,
+      "text": "己知者",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a008.ad2",
+      "pdf_file_page": 2108,
+      "text": "己知之真理",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a008.ad2",
+      "pdf_file_page": 2109,
+      "text": "己知的東西",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a004.ad1",
+      "pdf_file_page": 2102,
+      "text": "其其相反者",
+      "status": "suspected_source_print_error",
+      "action": "底本重复「其」字，按底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a006.ad3",
+      "pdf_file_page": 2105,
+      "text": "甚於恨他人之害處",
+      "status": "suspected_source_print_error",
+      "action": "原页用「恨」字，语意疑有印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q032",
+      "id": "I_II.q032.a008.arg2",
+      "pdf_file_page": 2107,
+      "text": "必探索",
+      "status": "suspected_source_print_error",
+      "action": "原页印作「必探索」，疑为「比探索」，按底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a001.sed_contra",
+      "pdf_file_page": 2110,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a001.ad2",
+      "pdf_file_page": 2111,
+      "text": "己經在跟前",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a001.ad2",
+      "pdf_file_page": 2111,
+      "text": "己在使人快樂",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a002.arg2",
+      "pdf_file_page": 2112,
+      "text": "己有之善",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a002.respondeo",
+      "pdf_file_page": 2112,
+      "text": "己完整地存在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a002.respondeo",
+      "pdf_file_page": 2113,
+      "text": "己逝去",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a002.respondeo",
+      "pdf_file_page": 2113,
+      "text": "己吃飽",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a002.ad3",
+      "pdf_file_page": 2113,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a003.respondeo",
+      "pdf_file_page": 2114,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a004.arg3",
+      "pdf_file_page": 2115,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a003.arg1",
+      "pdf_file_page": 2114,
+      "text": "我纔獲得安息",
+      "status": "suspected_source_print_error",
+      "action": "原页此处用「纔」字，按原译保留。"
+    },
+    {
+      "batch": "I_II-q033",
+      "id": "I_II.q033.a004.arg3",
+      "pdf_file_page": 2116,
+      "text": "「快樂不是像習性那樣成全動作。",
+      "status": "suspected_source_print_error",
+      "action": "原页引文未见闭引号，按底本保留并单列，不静默补齐。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a001.ad1",
+      "pdf_file_page": 2119,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a001.ad1",
+      "pdf_file_page": 2119,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a003.respondeo",
+      "pdf_file_page": 2122,
+      "text": "己有之知識",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a003.ad1",
+      "pdf_file_page": 2122,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a004.respondeo",
+      "pdf_file_page": 2124,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a002.arg1",
+      "pdf_file_page": 2120,
+      "text": "利益可以分為三種",
+      "status": "suspected_source_print_error",
+      "action": "原页为「利益」，照录而不改为术语「善」。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a004.sed_contra",
+      "pdf_file_page": 2123,
+      "text": "第八篇10節",
+      "status": "suspected_source_print_error",
+      "action": "原页圣经篇号如此，疑为原书引文编号印误，保留。"
+    },
+    {
+      "batch": "I_II-q034",
+      "id": "I_II.q034.a003.respondeo",
+      "pdf_file_page": 2122,
+      "text": "第二題第七節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文如此，疑为原书编号印误，保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a001.respondeo",
+      "pdf_file_page": 2126,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a002.ad3",
+      "pdf_file_page": 2128,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a004.ad3",
+      "pdf_file_page": 2132,
+      "text": "己可知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a005.respondeo",
+      "pdf_file_page": 2134,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a005.ad4",
+      "pdf_file_page": 2135,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a005.ad5",
+      "pdf_file_page": 2135,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a006.respondeo",
+      "pdf_file_page": 2137,
+      "text": "己握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a006.ad2",
+      "pdf_file_page": 2137,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a007.respondeo",
+      "pdf_file_page": 2139,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a007.ad3",
+      "pdf_file_page": 2140,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a004.arg2",
+      "pdf_file_page": 2131,
+      "text": "皆相反。。",
+      "status": "suspected_source_print_error",
+      "action": "原页两个句号并列，照底本保留并标记疑似印误。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a002.ad3",
+      "pdf_file_page": 2128,
+      "text": "快樂比身體之痛苦範圍廣",
+      "status": "suspected_source_print_error",
+      "action": "原页「快樂」如此，疑为原书词语印误，不改译文。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a007.ad1",
+      "pdf_file_page": 2139,
+      "text": "必較內外",
+      "status": "suspected_source_print_error",
+      "action": "原页为「必較」，疑「比較」之印误，保留。"
+    },
+    {
+      "batch": "I_II-q035",
+      "id": "I_II.q035.a001.respondeo",
+      "pdf_file_page": 2126,
+      "text": "第一集六題",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文缺「第」字，按底本照录。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a001.arg2",
+      "pdf_file_page": 2143,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a002.arg1",
+      "pdf_file_page": 2145,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a002.respondeo",
+      "pdf_file_page": 2145,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a002.respondeo",
+      "pdf_file_page": 2146,
+      "text": "己握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a002.ad1",
+      "pdf_file_page": 2146,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a003.ad1",
+      "pdf_file_page": 2148,
+      "text": "己經吃飽",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q036",
+      "id": "I_II.q036.a003.title",
+      "pdf_file_page": 2147,
+      "text": "原因；",
+      "status": "suspected_source_print_error",
+      "action": "原页标题末尾确有分号，照录并单列，不静默删去。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a001.arg2",
+      "pdf_file_page": 2150,
+      "text": "己往",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a001.respondeo",
+      "pdf_file_page": 2151,
+      "text": "己經知道",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a003.respondeo",
+      "pdf_file_page": 2154,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a004.arg2",
+      "pdf_file_page": 2155,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a004.ad2",
+      "pdf_file_page": 2156,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q037",
+      "id": "I_II.q037.a003.arg3",
+      "pdf_file_page": 2154,
+      "text": "凡而因之加強",
+      "status": "suspected_source_print_error",
+      "action": "原页为「凡而」，疑「反而」之印误，按原书保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a001.arg1",
+      "pdf_file_page": 2157,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a001.respondeo",
+      "pdf_file_page": 2158,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a001.ad1",
+      "pdf_file_page": 2158,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a002.respondeo",
+      "pdf_file_page": 2159,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a003.respondeo",
+      "pdf_file_page": 2161,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a003.respondeo",
+      "pdf_file_page": 2161,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a003.ad3",
+      "pdf_file_page": 2161,
+      "text": "己說的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a004.respondeo",
+      "pdf_file_page": 2162,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a004.respondeo",
+      "pdf_file_page": 2162,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a005.respondeo",
+      "pdf_file_page": 2163,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a003.arg2",
+      "pdf_file_page": 2160,
+      "text": "但第一個傷痛，",
+      "status": "suspected_source_print_error",
+      "action": "原页如此，疑漏「者」字；依底本保留。"
+    },
+    {
+      "batch": "I_II-q038",
+      "id": "I_II.q038.a002.ad3",
+      "pdf_file_page": 2160,
+      "text": "杜士古廬論集",
+      "status": "suspected_source_print_error",
+      "action": "原页书名用「廬」，保持原译名不改。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a001.respondeo",
+      "pdf_file_page": 2166,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a002.arg3",
+      "pdf_file_page": 2167,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a002.ad3",
+      "pdf_file_page": 2168,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a003.respondeo",
+      "pdf_file_page": 2169,
+      "text": "己經是現實",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a003.ad1",
+      "pdf_file_page": 2169,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a004.ad1",
+      "pdf_file_page": 2171,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a004.ad2",
+      "pdf_file_page": 2171,
+      "text": "己經是一種善",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a004.arg2",
+      "pdf_file_page": 2170,
+      "text": "第五題第八節",
+      "status": "suspected_source_print_error",
+      "action": "原页为「第八节」，疑交叉引文编号印误，照录。"
+    },
+    {
+      "batch": "I_II-q039",
+      "id": "I_II.q039.a004.ad3",
+      "pdf_file_page": 2171,
+      "text": "「因為有害。",
+      "status": "suspected_source_print_error",
+      "action": "原页此处未见闭引号，按底本保留并单列。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a001.respondeo",
+      "pdf_file_page": 2173,
+      "text": "己經握有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a001.respondeo",
+      "pdf_file_page": 2173,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a001.ad2",
+      "pdf_file_page": 2174,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a001.ad3",
+      "pdf_file_page": 2174,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a002.sed_contra",
+      "pdf_file_page": 2174,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a004.respondeo",
+      "pdf_file_page": 2177,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a004.respondeo",
+      "pdf_file_page": 2178,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a005.arg1",
+      "pdf_file_page": 2178,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a005.respondeo",
+      "pdf_file_page": 2179,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a006.respondeo",
+      "pdf_file_page": 2180,
+      "text": "己說了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a006.ad3",
+      "pdf_file_page": 2181,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a007.arg2",
+      "pdf_file_page": 2181,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a008.ad2",
+      "pdf_file_page": 2183,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a008.arg2",
+      "pdf_file_page": 2182,
+      "text": "希望遲不兌現",
+      "status": "suspected_source_print_error",
+      "action": "原页「遲」字如此，保留原译不改。"
+    },
+    {
+      "batch": "I_II-q040",
+      "id": "I_II.q040.a003.ad3",
+      "pdf_file_page": 2177,
+      "text": "動物中卻",
+      "status": "suspected_source_print_error",
+      "action": "原页语序如此，虽拗口仍照录。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a002.ad2",
+      "pdf_file_page": 2187,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a002.ad3",
+      "pdf_file_page": 2187,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a004.arg3",
+      "pdf_file_page": 2189,
+      "text": "己經做了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a004.sed_contra",
+      "pdf_file_page": 2190,
+      "text": "己足",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a004.respondeo",
+      "pdf_file_page": 2190,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a004.respondeo",
+      "pdf_file_page": 2190,
+      "text": "己經做了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a004.ad2",
+      "pdf_file_page": 2190,
+      "text": "己經做完",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q041",
+      "id": "I_II.q041.a002.arg1",
+      "pdf_file_page": 2186,
+      "text": "第三十三題",
+      "status": "suspected_source_print_error",
+      "action": "原页引文题号如此，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a002.respondeo",
+      "pdf_file_page": 2194,
+      "text": "己經走上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a002.ad1",
+      "pdf_file_page": 2195,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a003.arg4",
+      "pdf_file_page": 2195,
+      "text": "己經做了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a003.ad4",
+      "pdf_file_page": 2197,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a004.arg3",
+      "pdf_file_page": 2197,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a004.respondeo",
+      "pdf_file_page": 2197,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a006.ad1",
+      "pdf_file_page": 2200,
+      "text": "己在身上",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a001.arg3",
+      "pdf_file_page": 2192,
+      "text": "第三十二篇10節",
+      "status": "suspected_source_print_error",
+      "action": "原页为第三十二篇，疑圣经篇号印误，依底本照录。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a001.respondeo",
+      "pdf_file_page": 2193,
+      "text": "卷四第二章",
+      "status": "suspected_source_print_error",
+      "action": "原页《伦理学》卷号如此，疑原书引文编号印误，保留。"
+    },
+    {
+      "batch": "I_II-q042",
+      "id": "I_II.q042.a006.ad3",
+      "pdf_file_page": 2200,
+      "text": "時間常久",
+      "status": "suspected_source_print_error",
+      "action": "原页用「常久」，保持原文不润色。"
+    },
+    {
+      "batch": "I_II-q043",
+      "id": "I_II.q043.a001.ad1",
+      "pdf_file_page": 2202,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q043",
+      "id": "I_II.q043.a001.ad3",
+      "pdf_file_page": 2202,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q043",
+      "id": "I_II.q043.a002.arg2",
+      "pdf_file_page": 2203,
+      "text": "己要被處死",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q043",
+      "id": "I_II.q043.a002.ad2",
+      "pdf_file_page": 2204,
+      "text": "己要被處死",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q043",
+      "id": "I_II.q043.a001.ad2",
+      "pdf_file_page": 2202,
+      "text": "從起初原就是被愛的",
+      "status": "suspected_source_print_error",
+      "action": "原页用「原」，按底本照录，不作语句润色。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a001.respondeo",
+      "pdf_file_page": 2206,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a001.respondeo",
+      "pdf_file_page": 2206,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a001.ad2",
+      "pdf_file_page": 2207,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a002.respondeo",
+      "pdf_file_page": 2208,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a002.ad3",
+      "pdf_file_page": 2208,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a003.respondeo",
+      "pdf_file_page": 2209,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a004.arg1",
+      "pdf_file_page": 2210,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q044",
+      "id": "I_II.q044.a003.ad3",
+      "pdf_file_page": 2210,
+      "text": "痿弱的手",
+      "status": "suspected_source_print_error",
+      "action": "原页经文用「痿弱」，保持原字。"
+    },
+    {
+      "batch": "I_II-q045",
+      "id": "I_II.q045.a002.respondeo",
+      "pdf_file_page": 2214,
+      "text": "己多次說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q045",
+      "id": "I_II.q045.a003.respondeo",
+      "pdf_file_page": 2215,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q045",
+      "id": "I_II.q045.a004.arg3",
+      "pdf_file_page": 2217,
+      "text": "己經是在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q045",
+      "id": "I_II.q045.a004.respondeo",
+      "pdf_file_page": 2218,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q045",
+      "id": "I_II.q045.a001.ad1",
+      "pdf_file_page": 2213,
+      "text": "對善的對象",
+      "status": "suspected_source_print_error",
+      "action": "原页如此，疑为原书用词印误，保持底本。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a001.respondeo",
+      "pdf_file_page": 2220,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a003.respondeo",
+      "pdf_file_page": 2223,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a003.ad3",
+      "pdf_file_page": 2224,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a004.respondeo",
+      "pdf_file_page": 2224,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a004.ad2",
+      "pdf_file_page": 2225,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a005.ad1",
+      "pdf_file_page": 2227,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a006.ad2",
+      "pdf_file_page": 2228,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a007.ad1",
+      "pdf_file_page": 2230,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a001.respondeo",
+      "pdf_file_page": 2220,
+      "text": "亞維采那",
+      "status": "suspected_source_print_error",
+      "action": "原页此处用「采」字，严格保留该页译名用字。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a003.ad3",
+      "pdf_file_page": 2224,
+      "text": "第二十五題第七節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文题节如此，疑编号印误，保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a003.arg3",
+      "pdf_file_page": 2223,
+      "text": "尼美斯修",
+      "status": "suspected_source_print_error",
+      "action": "原页人名如此，保持原译名不统一替换。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a007.ad2",
+      "pdf_file_page": 2230,
+      "text": "《修辭學》卷五第十一章",
+      "status": "suspected_source_print_error",
+      "action": "原页书名及卷章如此，疑原书引文印误，保留。"
+    },
+    {
+      "batch": "I_II-q046",
+      "id": "I_II.q046.a008.respondeo",
+      "pdf_file_page": 2232,
+      "text": "《倫理學》卷第五章",
+      "status": "suspected_source_print_error",
+      "action": "原页在「卷」后缺卷号，保持底本并单列缺文疑点。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a001.respondeo",
+      "pdf_file_page": 2234,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a003.respondeo",
+      "pdf_file_page": 2237,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a004.respondeo",
+      "pdf_file_page": 2239,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a004.ad2",
+      "pdf_file_page": 2239,
+      "text": "己到達",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a004.ad2",
+      "pdf_file_page": 2239,
+      "text": "己經超過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a002.arg1",
+      "pdf_file_page": 2235,
+      "text": "卷一第十六章",
+      "status": "suspected_source_print_error",
+      "action": "原页卷号为一，疑引文卷号印误，照录。"
+    },
+    {
+      "batch": "I_II-q047",
+      "id": "I_II.q047.a004.ad3",
+      "pdf_file_page": 2239,
+      "text": "表顯輕視我們",
+      "status": "suspected_source_print_error",
+      "action": "原页用「表顯」，照录不润色。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a001.arg2",
+      "pdf_file_page": 2240,
+      "text": "己經沒有",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a001.respondeo",
+      "pdf_file_page": 2241,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a001.respondeo",
+      "pdf_file_page": 2241,
+      "text": "己經是在",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a002.respondeo",
+      "pdf_file_page": 2242,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a003.ad3",
+      "pdf_file_page": 2245,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a004.respondeo",
+      "pdf_file_page": 2246,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a001.respondeo",
+      "pdf_file_page": 2241,
+      "text": "解除悲傷的良樂",
+      "status": "suspected_source_print_error",
+      "action": "原页为「良樂」，疑「良药」之印误，依底本保留。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a001.arg1",
+      "pdf_file_page": 2240,
+      "text": "卷八第六章",
+      "status": "suspected_source_print_error",
+      "action": "原页卷号为八，疑原书引文印误，照录。"
+    },
+    {
+      "batch": "I_II-q048",
+      "id": "I_II.q048.a004.ad3",
+      "pdf_file_page": 2246,
+      "text": "激動不得強烈",
+      "status": "suspected_source_print_error",
+      "action": "原页为「不得」，疑原书用词印误，依底本照录。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.prologue",
+      "pdf_file_page": 2267,
+      "text": "己經討論",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a001.ad1",
+      "pdf_file_page": 2269,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a001.ad2",
+      "pdf_file_page": 2269,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a002.arg1",
+      "pdf_file_page": 2269,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a002.ad1",
+      "pdf_file_page": 2271,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a003.respondeo",
+      "pdf_file_page": 2274,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a003.ad3",
+      "pdf_file_page": 2274,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a004.arg1",
+      "pdf_file_page": 2275,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a004.respondeo",
+      "pdf_file_page": 2275,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a004.ad2",
+      "pdf_file_page": 2276,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a004.ad2",
+      "pdf_file_page": 2276,
+      "text": "己經限定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a002.respondeo",
+      "pdf_file_page": 2271,
+      "text": "一人配合得好或壞之配偶",
+      "status": "suspected_source_print_error",
+      "action": "原页为「配偶」，疑「配合」之印误，按底本保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a004.arg1",
+      "pdf_file_page": 2275,
+      "text": "是善，或是物",
+      "status": "suspected_source_print_error",
+      "action": "原页为「物」，疑原书印误，保留。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a001.respondeo",
+      "pdf_file_page": 2268,
+      "text": "《形上學》五第二十章",
+      "status": "suspected_source_print_error",
+      "action": "原页引文缺「卷」字，依底本照录。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a002.ad3",
+      "pdf_file_page": 2272,
+      "text": "卷五第二十給習性下定義",
+      "status": "suspected_source_print_error",
+      "action": "原页引文缺「章」字，依底本照录。"
+    },
+    {
+      "batch": "I_II-q049",
+      "id": "I_II.q049.a003.respondeo",
+      "pdf_file_page": 2274,
+      "text": "無論是對其自身而言，即對東西之天性而言，「或對他物而言，",
+      "status": "suspected_source_print_error",
+      "action": "原页引文在这两处未见闭引号，严格照录并单列。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a001.respondeo",
+      "pdf_file_page": 2278,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a001.ad1",
+      "pdf_file_page": 2279,
+      "text": "由天性而來的行動根本是意志。",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「由天性而來的行動根本是意志」，语义可疑，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a001.ad3",
+      "pdf_file_page": 2279,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a002.respondeo",
+      "pdf_file_page": 2280,
+      "text": "習性是針對天性或行動之配偶。",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页作「配偶」，疑为「配備」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a002.respondeo",
+      "pdf_file_page": 2281,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a002.ad3",
+      "pdf_file_page": 2281,
+      "text": "《形上學》卷七和卷九第八章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页引文确作「卷七和卷九第八章」，卷数疑点另列，不据他本改写。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a003.arg2",
+      "pdf_file_page": 2281,
+      "text": "她們沒有意志",
+      "status": "suspected_source_print_error",
+      "action": "原页用「她們」指禽兽，依底本字形恢复，不统一为「牠們」。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a003.sed_contra",
+      "pdf_file_page": 2282,
+      "text": "《倫理學》卷二第十章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页作「卷二第十章」，依底本恢复，章节疑点另列。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a003.ad2",
+      "pdf_file_page": 2282,
+      "text": "她們是憑自然本能行動",
+      "status": "suspected_source_print_error",
+      "action": "原页用「她們／她」指禽兽，依底本字形恢复，不统一译风。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a003.ad3",
+      "pdf_file_page": 2283,
+      "text": "天性己限定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a004.ad1",
+      "pdf_file_page": 2285,
+      "text": "習性不是對象針對機能之配備，而是機能針對對象之配備",
+      "status": "suspected_source_print_error",
+      "action": "原页确作此句，术语关系依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a005.arg3",
+      "pdf_file_page": 2286,
+      "text": "天性己是",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "batch": "I_II-q050",
+      "id": "I_II.q050.a006.arg3",
+      "pdf_file_page": 2288,
+      "text": "《形上學》卷五第二十一章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页作「第二十一章」，依底本恢复，章节疑点另列。"
+    }
+  ],
+  "question_and_followup_commits_before_summary": [
+    "590ff5b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 50 locally against PDF images",
+    "ce4905f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 49 locally against PDF images",
+    "76ef123|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 48 locally against PDF images",
+    "3ab9319|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 47 locally against PDF images",
+    "c166c82|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 46 locally against PDF images",
+    "92ec6bb|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 45 locally against PDF images",
+    "3aa71c7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 44 locally against PDF images",
+    "f0dfade|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 43 locally against PDF images",
+    "a062741|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 42 locally against PDF images",
+    "4cce78a|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 41 locally against PDF images",
+    "3d93a18|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 40 locally against PDF images",
+    "f61b5e0|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 39 locally against PDF images",
+    "7bb2b86|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 38 locally against PDF images",
+    "1884308|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 37 locally against PDF images",
+    "2f68f0f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 36 locally against PDF images",
+    "d0a9ad0|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 35 locally against PDF images",
+    "c0e377d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 34 locally against PDF images",
+    "f90e340|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 33 locally against PDF images",
+    "af5f3b0|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 32 locally against PDF images",
+    "759bd47|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 31 locally against PDF images",
+    "7cee1fe|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 30 locally against PDF images",
+    "992cff3|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 29 locally against PDF images",
+    "f61f003|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 28 locally against PDF images",
+    "0ff8ed7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 27 locally against PDF images",
+    "3b3306b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 26 locally against PDF images",
+    "de6d1f1|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 25 locally against PDF images",
+    "f5fc9e7|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 24 locally against PDF images",
+    "5d04251|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 23 locally against PDF images",
+    "4ad9f21|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 22 locally against PDF images",
+    "045f532|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 21 locally against PDF images",
+    "371f94d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 20 locally against PDF images",
+    "2e1f11d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 19 locally against PDF images",
+    "481430c|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 18 locally against PDF images",
+    "c4ef200|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 17 locally against PDF images",
+    "f3702a9|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 16 locally against PDF images",
+    "3a5638a|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 15 locally against PDF images",
+    "8e9e050|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 14 locally against PDF images",
+    "f24e48f|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 13 locally against PDF images",
+    "1440b5b|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 12 locally against PDF images",
+    "4112eaf|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 11 locally against PDF images",
+    "650cc82|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 10 locally against PDF images",
+    "3ab2133|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 9 locally against PDF images",
+    "5c38a4d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 8 locally against PDF images",
+    "181d133|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 7 locally against PDF images",
+    "9fb8945|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 6 locally against PDF images",
+    "b2e8aca|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 5 locally against PDF images",
+    "3d7bc0d|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 4 locally against PDF images",
+    "8e7c6a2|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Confirm printed 神秘神學 in question 3 through enlarged source image",
+    "852b155|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 3 locally against PDF images",
+    "442948c|element|weihaowen104@gmail.com|element|weihaowen104@gmail.com|Proofread Secunda Primae question 2 locally against PDF images"
+  ]
+}
