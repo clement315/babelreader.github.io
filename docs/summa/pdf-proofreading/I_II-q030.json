@@ -1,0 +1,1451 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q030",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q030",
+    "title": "論慾望",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2074,
+      2075,
+      2076,
+      2077,
+      2078,
+      2079,
+      2080,
+      2081
+    ],
+    "printed_pages": [
+      303,
+      310
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q30.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q30.json": "e1171f6da26aa150113035fe7dc3d6463786be3cc9f8805ebc5dbdbdb74f94ee"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q030.a002.respondeo",
+      "pdf_file_page": 2076,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q030.a004.respondeo",
+      "pdf_file_page": 2080,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q030.a001.arg2",
+      "pdf_file_page": 2074,
+      "text": "第一一九篇20節",
+      "status": "suspected_source_print_error",
+      "action": "原页所引篇号为第一一九篇，依原书保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q030.a004.ad2",
+      "description": "清除页码310和页眉，将释疑3归回已有ad3，保持JSON结构及换行转义不变。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q030.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "然後要討論的是慾望(concupiscentia;參看第二十六題引言)。\n關於此點，可以提出四個問題:\n一、慾望是否只在感官嗜慾部分。\n二、慾望是否為個別之情。\n三、慾望是否有自然與不自然之別。\n四、慾望是否無限。",
+      "after": "然後要討論的是慾望(concupiscentia；參看第二十六題引言)。\n關於此點，可以提出四個問題：\n一、慾望是否只在感官嗜慾部分。\n二、慾望是否為個別之情。\n三、慾望是否有自然與不自然之別。\n四、慾望是否無限。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "慾望是否只在感官嗜慾部分",
+      "after": "慾望是否只在感官嗜慾部分",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "有關第一節，我們討論如下﹒",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如下﹒",
+          "after": "如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "慾望似乎不只在感官嗜慾部分。因為:",
+      "after": "慾望似乎不只在感官嗜慾部分。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "按《智慧篇》第六章21節所說的，有一種對智慧的慾望:「慕求(慾望)智慧，引人高登王位。」但感官性嗜慾不能指向智慧。所以慾望不只在感官嗜慾部分。",
+      "after": "按《智慧篇》第六章21節所說的，有一種對智慧的慾望：「慕求(慾望)智慧，引人高登王位。」但感官性嗜慾不能指向智慧。所以慾望不只在感官嗜慾部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "此外，對天主的誡命之願望不是在感官嗜慾部分;甚而宗徒在《羅馬書》第七章18節說:「善不在我內，即不在我的肉性內。」但對於天主之誡命的願望屬於慾望，如《聖詠》第一一九篇20節說的:「我常常渴慕(慾望)你的諭令。」所以，慾望不只是在感官嗜慾部分。",
+      "after": "此外，對天主的誡命之願望不是在感官嗜慾部分；甚而宗徒在《羅馬書》第七章18節說：「善不在我內，即不在我的肉性內。」但對於天主之誡命的願望屬於慾望，如《聖詠》第一一九篇20節說的：「我常常渴慕(慾望)你的諭令。」所以，慾望不只是在感官嗜慾部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2074
+      ],
+      "before": "此外，每個機能有其固有可欲之善。所以看魂的每個機能皆有慾望，不限於感官嗜慾。",
+      "after": "此外，每個機能有其固有可欲之善。所以靈魂的每個機能皆有慾望，不限於感官嗜慾。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "看魂",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2074,
+        2075
+      ],
+      "before": "大馬士革的若望於《論正統信仰》卷二第十二章卻說:「能被理性說服，並服從理性的非理性部分，分為慾望和忿怒。這些屬於靈魂的非理性部分，是被動性的和嗜慾性的。」所以慾望是在感官嗜慾部分。",
+      "after": "大馬士革的若望於《論正統信仰》卷二第十二章卻說：「能被理性說服，並服從理性的非理性部分，分為慾望和忿怒。這些屬於靈魂的非理性部分，是被動性的和嗜慾性的。」所以慾望是在感官嗜慾部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2075
+      ],
+      "before": "我解答如下:哲學家在《修昌平學》卷一第十一章裡說:「慾望是對可令人快樂者之嗜慾。」快樂有兩種，後面第三十一題第三節及第四節將要細講。一種在於可理解之善，即理性之善;另A種在於感官性的善。第一種快樂似是隻屬於靈魂;第三種屬於靈魂及肉體，因為感官是身體器官上的能力，所以對感宮是善者，便是整個組合體之善。對這種快樂之嗜慾'似乎便是慾望，它是同時屬於靈魂及肉體的，看慾望(concupiscen-tia)這個名詞便可以知道。所以嚴格地說，慾望是在感官嗜慾部分，並在慾情能力部分，且由此而得名。",
+      "after": "我解答如下：哲學家在《修辭學》卷一第十一章裡說：「慾望是對可令人快樂者之嗜慾。」快樂有兩種，後面第三十一題第三節及第四節將要細講。一種在於可理解之善，即理性之善；另一種在於感官性的善。第一種快樂似是只屬於靈魂；第二種屬於靈魂及肉體，因為感官是身體器官上的能力，所以對感官是善者，便是整個組合體之善。對這種快樂之嗜慾，似乎便是慾望，它是同時屬於靈魂及肉體的，看慾望(concupiscen-tia)這個名詞便可以知道。所以嚴格地說，慾望是在感官嗜慾部分，並在慾情能力部分，且由此而得名。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "修昌平學",
+          "after": "修辭學",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另A種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻屬於",
+          "after": "只屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三種屬於",
+          "after": "第二種屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗜慾'",
+          "after": "嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2075
+      ],
+      "before": "智慧或其他精神性之善的嗜慾，有時稱為慾望，或是由於有相似的地方，或是由於高級部分之嗜慾的強烈性，溢注到低級嗜慾部分;(吏低級部分也隨高級部分追求精神性的善，使肉體受精神支配。如《聖詠》第八十四篇3節說的: 「我的靈魂以及我的肉身，向生活的天主踴躍歡欣。」",
+      "after": "智慧或其他精神性之善的嗜慾，有時稱為慾望，或是由於有相似的地方，或是由於高級部分之嗜慾的強烈性，溢注到低級嗜慾部分；使低級部分也隨高級部分追求精神性的善，使肉體受精神支配。如《聖詠》第八十四篇3節說的：「我的靈魂以及我的肉身，向生活的天主踴躍歡欣。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(吏低級",
+          "after": "使低級",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2075
+      ],
+      "before": "嚴格地講，「願望」(desiderium)不只屬於下級嗜慾，也屬於高級嗜慾。「願望」不像「慾望」那樣，含有「貪欲」(cupere)的意味，它只是單純的指向所願望之物的動態。",
+      "after": "嚴格地講，「願望」(desiderium)不只屬於下級嗜慾，也屬於高級嗜慾。「願望」不像「慾望」那樣，含有「貪欲」(cupere)的意味，它只是單純的指向所願望之物的動態。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2075
+      ],
+      "before": "靈魂的每種機能，皆以自然嗜慾追求其各自之善，自然嗜慾不通過知覺。但以動物性嗜慾追求善則通過知覺，這只限於嗜慾性能力3至於按感官追求可令人快樂者之善，嚴格地講是慾望，屬於慾情能力部分。",
+      "after": "靈魂的每種機能，皆以自然嗜慾追求其各自之善，自然嗜慾不通過知覺。但以動物性嗜慾追求善則通過知覺，這只限於嗜慾性能力。至於按感官追求可令人快樂者之善，嚴格地講是慾望，屬於慾情能力部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "性能力3",
+          "after": "性能力。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "慾望是否為個別之情",
+      "after": "慾望是否為個別之情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "慾望似乎不是慾情機能中的個別之惰。因為:",
+      "after": "慾望似乎不是慾情機能中的個別之情。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之惰",
+          "after": "之情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "情是以對象分類別。但慾情機能之對象是可令感官快樂者;按哲學家在《修辭學》卷一第十一章說的，這也是慾望之對象。所以，慾望不是慾情部分的一種個別的情。",
+      "after": "情是以對象分類別。但慾情機能之對象是可令感官快樂者；按哲學家在《修辭學》卷一第十一章說的，這也是慾望之對象。所以，慾望不是慾情部分的一種個別的情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "此外，奧斯定在《雜題八十三》第三十三題說: 「貪慾(cup泊itas)是對無常之東西的愛情」'如此則它與愛情沒有區別。個別之情彼此是有區別的。所以，慾望不是慾情部分的一種個耳目的惰。",
+      "after": "此外，奧斯定在《雜題八十三》第三十二題說：「貪慾(cupiditas)是對無常之東西的愛情」，如此則它與愛情沒有區別。個別之情彼此是有區別的。所以，慾望不是慾情部分的一種個別的情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三十三題",
+          "after": "第三十二題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "cup泊itas",
+          "after": "cupiditas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "愛情」'",
+          "after": "愛情」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個耳目的惰",
+          "after": "個別的情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "此外，按前面第二十三題第四節說的，慾情部分的每種情，在慾情部分皆有一種與之對立的情。但慾望在慾1胃部分沒有與之對立的情。大馬士革的若望在《論正統信仰》卷二第十二章說: 「所寄望之善構成慾望，眼前者構成喜樂，同樣，預見之惡構成畏懼，眼前的惡構成哀愁。」由此可見哀愁與喜樂相對，而畏懼與慾望相對。但畏懼不是在慾情部分，而是在憤情部分。所以慾望不是慾情部分之個月1的情。",
+      "after": "此外，按前面第二十三題第四節說的，慾情部分的每種情，在慾情部分皆有一種與之對立的情。但慾望在慾情部分沒有與之對立的情。大馬士革的若望在《論正統信仰》卷二第十二章說：「所寄望之善構成慾望，眼前者構成喜樂，同樣，預見之惡構成畏懼，眼前的惡構成哀愁。」由此可見哀愁與喜樂相對，而畏懼與慾望相對。但畏懼不是在慾情部分，而是在憤情部分。所以慾望不是慾情部分之個別的情。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾1胃",
+          "after": "慾情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個月1",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2076
+      ],
+      "before": "慾望是由愛而生，並走向快樂，這些都是慾情部分之情。故慾望與慾情部分之其他的情有別，是一種個別之情。",
+      "after": "慾望是由愛而生，並走向快樂，這些都是慾情部分之情。故慾望與慾情部分之其他的情有別，是一種個別之情。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2076,
+        2077
+      ],
+      "before": "我解答如下:前面已經說過，可令感官快樂之善，是慾情之共同對象。因此，根據此種善之差別，而定慾情部分各種情之區分。對象之[@~分，或看對象本身之性質，或看對象之主動能力。主動之對象本身之性質上的不間，構成各情之質料差別。但對象之主動能力i二的不同，員IJ構成各情之形式差別;按此而情有種類之別。\n還可以從別的觀點，看日的或善之推動能力，J.lD按對象是實際在跟前及不在跟前。因為若善是在跟前，則使動力在善上定止;若善不在跟前，貝IJ使動力動向自己。因此，可令感官快樂者，在1吏嗜慾與自己相配合時，即產生愛;若不在跟前而將嗜慾拉向自己時，即產生慾望;若在跟前而使嗜慾定止時﹒即產生快樂。可見慾望是與愛及快樂類別不同的情。但是慾望這個或那個可令快樂者，只構成慾望在個體上的不同。",
+      "after": "我解答如下：前面己經說過，可令感官快樂之善，是慾情之共同對象。因此，根據此種善之差別，而定慾情部分各種情之區分。對象之區分，或看對象本身之性質，或看對象之主動能力。主動之對象本身之性質上的不同，構成各情之質料差別。但對象之主動能力上的不同，則構成各情之形式差別；按此而情有種類之別。\n還可以從別的觀點，看目的或善之推動能力，即按對象是實際在跟前及不在跟前。因為若善是在跟前，則使動力在善上定止；若善不在跟前，則使動力動向自己。因此，可令感官快樂者，在使嗜慾與自己相配合時，即產生愛；若不在跟前而將嗜慾拉向自己時，即產生慾望；若在跟前而使嗜慾定止時，即產生快樂。可見慾望是與愛及快樂類別不同的情。但是慾望這個或那個可令快樂者，只構成慾望在個體上的不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之[@~分",
+          "after": "之區分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不間",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能力i二",
+          "after": "能力上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "看日的",
+          "after": "看目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "J.lD",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "在1吏",
+          "after": "在使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "止時﹒",
+          "after": "止時，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "可令快樂之善，並非絕對地是慾望之對象，而須是不在跟前者，就如:可感覺者須是過去者，始為記憶之對象。是這些特別條件使情之類別不同，也使感官性部分有關個體事件之機能的類別各異。",
+      "after": "可令快樂之善，並非絕對地是慾望之對象，而須是不在跟前者，就如：可感覺者須是過去者，始為記憶之對象。是這些特別條件使情之類別不同，也使感官性部分有關個體事件之機能的類別各異。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "那種說法是根據原因，不是根據本質。因為，慾望本身不是愛，而是愛之效果。或者也可以說，奧斯定在那裡講的是廣義之慾望，即泛指嗜慾對未來之善的動態。所以愛及企望皆包括在內。",
+      "after": "那種說法是根據原因，不是根據本質。因為，慾望本身不是愛，而是愛之效果。或者也可以說，奧斯定在那裡講的是廣義之慾望，即泛指嗜慾對未來之善的動態。所以愛及企望皆包括在內。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "與慾望直接對立的情沒有名稱，這種情是針對惡的，就如慾望是針對善的。因為它像畏懼一樣，是關於不在跟前的惡，有時遂以畏懼稱之，就似有時將企望稱為貪慾。善與惡太小時，便視為無有。故此，嗜慾對未來之善或惡的動態，統歸入企望及畏懼;但此二情實乃關於艱巨之善惡的。",
+      "after": "與慾望直接對立的情沒有名稱，這種情是針對惡的，就如慾望是針對善的。因為它像畏懼一樣，是關於不在跟前的惡，有時遂以畏懼稱之，就似有時將企望稱為貪慾。善與惡太小時，便視為無有。故此，嗜慾對未來之善或惡的動態，統歸入企望及畏懼；但此二情實乃關於艱巨之善惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "慾望是否有自然與不自然之別",
+      "after": "慾望是否有自然與不自然之別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "慾望似乎沒有自然與不自然之別。因為:",
+      "after": "慾望似乎沒有自然與不自然之別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2077
+      ],
+      "before": "前面第一節釋疑3.說過，慾望屬於動物性嗜慾。但自然嗜慾與動物性嗜慾，是互相對分的。所以沒有所謂的自然慾亡伊三旦",
+      "after": "前面第一節釋疑3.說過，慾望屬於動物性嗜慾。但自然嗜慾與動物性嗜慾，是互相對分的。所以沒有所謂的自然慾望。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "慾亡伊三旦",
+          "after": "慾望。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2077,
+        2078
+      ],
+      "before": "此外，質料上的差別，不構成類別上的不同，只構成個體上的不同，這種不同不屬於學術範圈。倘若慾望有自然與不自然之區分，那隻能是由於可欲望者上的不間，這是質料上的不同，只構成個體上的差別。所以慾望不應分為自然的與不自然的。",
+      "after": "此外，質料上的差別，不構成類別上的不同，只構成個體上的不同，這種不同不屬於學術範圍。倘若慾望有自然與不自然之區分，那只能是由於可欲望者上的不同，這是質料上的不同，只構成個體上的差別。所以慾望不應分為自然的與不自然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範圈",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那隻能",
+          "after": "那只能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不間",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2078
+      ],
+      "before": "此外，按《物理學》卷二第五章所說的，理性與自然互相分立。若在人中有不自然的慾望，那必是理性的慾望。但這是不可能的，因為慾望屬於感官性嗜慾'而不屬於理性之嗜慾或意志。所以沒有不自然的慾望。",
+      "after": "此外，按《物理學》卷二第五章所說的，理性與自然互相分立。若在人中有不自然的慾望，那必是理性的慾望。但這是不可能的，因為慾望屬於感官性嗜慾，而不屬於理性之嗜慾或意志。所以沒有不自然的慾望。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "嗜慾'",
+          "after": "嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2078
+      ],
+      "before": "哲學家在《倫理學》卷三第十一章及《修辭學》卷一第十一章，卻認為有的慾望是自然的，有的不是自然的c",
+      "after": "哲學家在《倫理學》卷三第十一章及《修辭學》卷一第十一章，卻認為有的慾望是自然的，有的不是自然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自然的c",
+          "after": "自然的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2078
+      ],
+      "before": "我解答如下:前面第一節說過，慾望是對可令快樂之善的嗜慾。可令快樂之東西有兩種。一種是因為適合動物性的天性，如飲食之類的東西。對這類東西之慾望即稱為自然慾望。第二種是因為按知覺適合於動物，例如:一人認為某東西好並合適，遂以之為樂。對這種東西之慾望便稱為不自然的慾望，習慣上多稱之為貪慾(cupiditas)。\n第一類慾望是人獸所共有者，因為是適合及取悅於人與獸之天性者。在這方面，人人相同;故此，哲學家在《倫理學》卷三第十一章捏，稱之為「共同的和必要的」。但第二種慾望是人所專有的，因為除了天性所必要者外，人另構想某東西好和適宜，此乃人之專長。故此哲學家在《修辭學》卷一第十」章哩，又稱第一種慾望是「非理性的」'第二種是「帶理性的」。又悶了每人的觀點不同，所以在《倫理學》卷三第十d章裡，也稱第二種是「特有的和附加的屍即加在自然慾望上的。",
+      "after": "我解答如下：前面第一節說過，慾望是對可令快樂之善的嗜慾。可令快樂之東西有兩種。一種是因為適合動物性的天性，如飲食之類的東西。對這類東西之慾望即稱為自然慾望。第二種是因為按知覺適合於動物，例如：一人認為某東西好並合適，遂以之為樂。對這種東西之慾望便稱為不自然的慾望，習慣上多稱之為貪慾(cupiditas)。\n第一類慾望是人獸所共有者，因為是適合及取悅於人與獸之天性者。在這方面，人人相同；故此，哲學家在《倫理學》卷三第十一章裡，稱之為「共同的和必要的」。但第二種慾望是人所專有的，因為除了天性所必要者外，人另構想某東西好和適宜，此乃人之專長。故此哲學家在《修辭學》卷一第十一章裡，又稱第一種慾望是「非理性的」，第二種是「帶理性的」。又因了每人的觀點不同，所以在《倫理學》卷三第十一章裡，也稱第二種是「特有的和附加的」，即加在自然慾望上的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十一章捏",
+          "after": "第十一章裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十」章哩",
+          "after": "第十一章裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "非理性的」'",
+          "after": "非理性的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "又悶了",
+          "after": "又因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十d章",
+          "after": "第十一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "附加的屍",
+          "after": "附加的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2078,
+        2079
+      ],
+      "before": "自然嗜慾所求者，若被失日覺到，也能為動物性嗜慾所追求。故此對自然所求之飲食等物，能有自然慾望。",
+      "after": "自然嗜慾所求者，若被知覺到，也能為動物性嗜慾所追求。故此對自然所求之飲食等物，能有自然慾望。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "失日覺",
+          "after": "知覺",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "自然與不自然之慾望的差別，不只是質料上的，也是某種形式上的，即由於主動之對象上的不同。嗜慾之對象是所知覺到的善。故此司有不同的知覺，便有不同的主動對象;就是說，若以單純知覺知道某物合適，使產生自然慾望。哲學家在《修辭學》中亦稱之為非理性的;若為帶有考慮之知覺所知，便產生不自然的慾望，為此在《修辭學》司哨之為帶理性的。",
+      "after": "自然與不自然之慾望的差別，不只是質料上的，也是某種形式上的，即由於主動之對象上的不同。嗜慾之對象是所知覺到的善。故此，有不同的知覺，便有不同的主動對象；就是說，若以單純知覺知道某物合適，便產生自然慾望。哲學家在《修辭學》中亦稱之為非理性的；若為帶有考慮之知覺所知，便產生不自然的慾望，為此在《修辭學》中稱之為帶理性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故此司",
+          "after": "故此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使產生自然",
+          "after": "便產生自然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《修辭學》司哨之為",
+          "after": "《修辭學》中稱之為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "人不只有普遍性的理性，即屬於智性部分之理性，也有個月IJ性的理性。按第一集第七十八題第四節、第八十一題第三節裡講的，個別性之理性屬於感宮部分。故此﹒帶理性之慾望也能屬於感官嗜慾。此外?通過個另IJ性的想像，感官嗜慾也能被普遍性之理性所推動。",
+      "after": "人不只有普遍性的理性，即屬於智性部分之理性，也有個別性的理性。按第一集第七十八題第四節、第八十一題第三節裡講的，個別性之理性屬於感官部分。故此，帶理性之慾望也能屬於感官嗜慾。此外，通過個別性的想像，感官嗜慾也能被普遍性之理性所推動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "故此﹒",
+          "after": "故此，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "此外?",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "慾望是否無限",
+      "after": "慾望是否無限",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "慾望似乎不是無限的。因為:",
+      "after": "慾望似乎不是無限的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "慾望之對象是善，善具有目的之義。按《形上學》卷二第二章說的，誰推出無限(無定止)，等於否定目的(定止)。所以，慾望不能是無限的。",
+      "after": "慾望之對象是善，善具有目的之義。按《形上學》卷二第二章說的，誰推出無限(無定止)，等於否定目的(定止)。所以，慾望不能是無限的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "此外，慾望既是由愛而生，所以是關於適宜之善的。但無限不能匹配，不能是適宜的。故慾望不能是無限的。",
+      "after": "此外，慾望既是由愛而生，所以是關於適宜之善的。但無限不能匹配，不能是適宜的。故慾望不能是無限的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q030.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "此外，無限是不能越過的，所以不能達到一個終點;但有慾望者達到終點時，得到快樂。所以，若慾望是無限的，買IJ永遠沒有快樂。",
+      "after": "此外，無限是不能越過的，所以不能達到一個終點；但有慾望者達到終點時，得到快樂。所以，若慾望是無限的，則永遠沒有快樂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2079
+      ],
+      "before": "哲學家在《政治學》卷一第三章卻說: 「慾望既是無限的，人的願望無窮。」",
+      "after": "哲學家在《政治學》卷一第三章卻說：「慾望既是無限的，人的願望無窮。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2080
+      ],
+      "before": "我解答如下:前面第三節已經說過，慾望有兩種:一是自然的，一是不自然的。自然慾望不能是現實地無限。自然慾望乃是針對天性所需要者，而天性常指向有限者和確定者。故此，人從來也不欲望無限的食物，或無限的飲料。不過，既然在自然界能有潛能狀態的無限，即由於連續關{系，所以自然慾望也能因連續關係而無限，例如:得了食物後，又想要食物，或天性所需要的其他東西;因為這些形體物不永遠存留，至1)手後轉眼便又逝去。所以主在《若望福音》第四章13節對撒瑪黎雅婦人說:「凡喝這水的，還要再渴。」\n但不自然的慾望是絕對無限的。按前面第三節說的，這種慾望是隨從理性;而理性能展向無限。所以慾望錢財的人，能不限定數量，而慾望能富到什麼程度，便富到什麼程度c\n也可以按哲學家在《政治學》卷一第三章說的，從別的方面來講，1可以有的慾望有限，有的無限。對目的主慾EZ常是無限的;目的乃是為其本身而被追求者，如:健康。故此，人常慾望更好的健康，沒有止境;就如白色本身若是耀眼的，~:J~白過耀眼。對於導致目的者之慾望不是無限的﹒而是以目的之需要為限度。故此，以錢財為目的者﹒其對錢財之慾望是無|垠的:那為了舌主需要而求援財者，只求足以維持生活的有限持財，就如f呀學京在那裡所說的。對其他東西之慾望，也是|口jJP-",
+      "after": "我解答如下：前面第三節己經說過，慾望有兩種：一是自然的，一是不自然的。自然慾望不能是現實地無限。自然慾望乃是針對天性所需要者，而天性常指向有限者和確定者。故此，人從來也不慾望無限的食物，或無限的飲料。不過，既然在自然界能有潛能狀態的無限，即由於連續關係，所以自然慾望也能因連續關係而無限，例如：得了食物後，又想要食物，或天性所需要的其他東西；因為這些形體物不永遠存留，到手後轉眼便又逝去。所以主在《若望福音》第四章13節對撒瑪黎雅婦人說：「凡喝這水的，還要再渴。」\n但不自然的慾望是絕對無限的。按前面第三節說的，這種慾望是隨從理性；而理性能展向無限。所以慾望錢財的人，能不限定數量，而慾望能富到什麼程度，便富到什麼程度。\n也可以按哲學家在《政治學》卷一第三章說的，從別的方面來講，何以有的慾望有限，有的無限。對目的之慾望常是無限的；目的乃是為其本身而被追求者，如：健康。故此，人常慾望更好的健康，沒有止境；就如白色本身若是耀眼的，則越白越耀眼。對於導致目的者之慾望不是無限的，而是以目的之需要為限度。故此，以錢財為目的者，其對錢財之慾望是無限的：那為了生活之需要而求錢財者，只求足以維持生活的有限錢財，就如哲學家在那裡所說的。對其他東西之慾望，也是同理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不欲望",
+          "after": "不慾望",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關{系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至1)手",
+          "after": "到手",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "程度c",
+          "after": "程度。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1可以有的",
+          "after": "何以有的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對目的主慾EZ常是",
+          "after": "對目的之慾望常是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~:J~白過耀眼",
+          "after": "則越白越耀眼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無限的﹒",
+          "after": "無限的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目的者﹒",
+          "after": "目的者，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無|垠的",
+          "after": "無限的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那為了舌主需要而求援財者",
+          "after": "那為了生活之需要而求錢財者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有限持財",
+          "after": "有限錢財",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "f呀學京",
+          "after": "哲學家",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "|口jJP-",
+          "after": "同理。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2080
+      ],
+      "before": "那被慾望者，皆被視為有限者，或者東西本身有叫‘f!IJ現實地只欲墜一次;或者在知覺中有限。因為無限本身不能被知覺到司如《物理學》卷三第六章說的「無限背，PD取之音常另外仍有可取C 」",
+      "after": "那被慾望者，皆被視為有限者，或者東西本身有限，即現實地只慾望一次；或者在知覺中有限。因為無限本身不能被知覺到，如《物理學》卷三第六章說的：「無限者，即取之者常另外仍有可取。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本身有叫‘f!IJ現實地只欲墜一次",
+          "after": "本身有限，即現實地只慾望一次",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "知覺到司",
+          "after": "知覺到，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說的「",
+          "after": "說的：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "無限背，PD取之音常另外仍有可取C ",
+          "after": "無限者，即取之者常另外仍有可取。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2080,
+        2081
+      ],
+      "before": "理性可以說有某種無限能力，因為它能無限地思索一個東西，例如:數日之增加，或直線之延長。所以‘某種無限能適於理性。因為理性所知覺之普遍性，也是一種無限，因為其中含有無限的個體。310 3.為了能有快樂，人不必得到一切他所慾望者;得到了任何一個所慾望者，皆能有快樂。神學大全第四用論人的道德行為與情",
+      "after": "理性可以說有某種無限能力，因為它能無限地思索一個東西，例如：數目之增加，或直線之延長。所以，某種無限能適於理性。因為理性所知覺之普遍性，也是一種無限，因為其中含有無限的個體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "理性可以說有某種無限能力，因為它能無限地思索一個東西，例如:數日之增加，或直線之延長。所以‘某種無限能適於理性。因為理性所知覺之普遍性，也是一種無限，因為其中含有無限的個體。310 3.為了能有快樂，人不必得到一切他所慾望者;得到了任何一個所慾望者，皆能有快樂。神學大全第四用論人的道德行為與情",
+          "after": "理性可以說有某種無限能力，因為它能無限地思索一個東西，例如:數日之增加，或直線之延長。所以‘某種無限能適於理性。因為理性所知覺之普遍性，也是一種無限，因為其中含有無限的個體。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "數日",
+          "after": "數目",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以‘",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q030.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2081
+      ],
+      "before": "",
+      "after": "為了能有快樂，人不必得到一切他所慾望者；得到了任何一個所慾望者，皆能有快樂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "為了能有快樂，人不必得到一切他所慾望者;得到了任何一個所慾望者，皆能有快樂。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
