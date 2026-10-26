@@ -1,0 +1,75 @@
+{
+  "batch": "I_II-q050",
+  "date": "2026-10-25",
+  "checks": [
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 1440,
+        "rows": 72
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 1440,
+        "count": 13
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 1440
+      },
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 390,
+        "rows": 72
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 390,
+        "count": 13
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "detail": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 80,
+    "all_review_units_match_before_after_manifest": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "all_source_flags_retained": true,
+    "unbalanced_original_punctuation": [],
+    "reader_sha256": "a90edb1f39cff1964ae93042e365f42b82af21b6f135c5f91d27397bf10a95fe"
+  }
+}
