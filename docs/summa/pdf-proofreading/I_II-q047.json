@@ -1,0 +1,1305 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q047",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q047",
+    "title": "論忿怒之原因及其補救方法",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2233,
+      2234,
+      2235,
+      2236,
+      2237,
+      2238,
+      2239
+    ],
+    "printed_pages": [
+      462,
+      468
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 50,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q47.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q47.json": "dafe6124f471a3346973e2c6f2a6f09db028c01c22733df2eaaf21ce9f2f0f6c"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q047.a001.respondeo",
+      "pdf_file_page": 2234,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q047.a003.respondeo",
+      "pdf_file_page": 2237,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q047.a004.respondeo",
+      "pdf_file_page": 2239,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q047.a004.ad2",
+      "pdf_file_page": 2239,
+      "text": "己到達",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q047.a004.ad2",
+      "pdf_file_page": 2239,
+      "text": "己經超過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q047.a002.arg1",
+      "pdf_file_page": 2235,
+      "text": "卷一第十六章",
+      "status": "suspected_source_print_error",
+      "action": "原页卷号为一，疑引文卷号印误，照录。"
+    },
+    {
+      "id": "I_II.q047.a004.ad3",
+      "pdf_file_page": 2239,
+      "text": "表顯輕視我們",
+      "status": "suspected_source_print_error",
+      "action": "原页用「表顯」，照录不润色。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q047.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "然後要討論的是忿怒之原因及其補救方法(參看第四十六題言)。\n關於這點，我們可以提出四個問題:\n一、忿怒之原因是否常是對發怒者不利的事情。\n二、是否只有輕視或輕慢為忿怒之原因。\n三、論發怒者方面的原因。\n四、諭使人發怒者方面的原因。",
+      "after": "然後要討論的是忿怒之原因及其補救方法(參看第四十六題引言)。\n關於這點，我們可以提出四個問題：\n一、忿怒之原因是否常是對發怒者不利的事情。\n二、是否只有輕視或輕慢為忿怒之原因。\n三、論發怒者方面的原因。\n四、論使人發怒者方面的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四十六題言",
+          "after": "第四十六題引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "諭使",
+          "after": "論使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "忿怒之原因是否常是對發怒者不利的事情",
+      "after": "忿怒之原因是否常是對發怒者不利的事情",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "人發怒似乎不常是因了對自己不利的事。因為:",
+      "after": "人發怒似乎不常是因了對自己不利的事。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "人在犯罪的時候，對天主沒有任何害處，就如《約伯傳》第三十五章6節說的: 「你若犯罪，為祂有什麼害處?」然而又說天主因人犯罪而發怒，如《聖詠》第一0六篇40節說的: 「上主向百姓大發忿怒。」所以，不常是因了對自己有害的事而發怒。",
+      "after": "人在犯罪的時候，對天主沒有任何害處，就如《約伯傳》第三十五章6節說的：「你若犯罪，為祂有什麼害處？」然而又說天主因人犯罪而發怒，如《聖詠》第一〇六篇40節說的：「上主向百姓大發忿怒。」所以，不常是因了對自己有害的事而發怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "害處?",
+          "after": "害處？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0六",
+          "after": "第一〇六",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "此外，忿怒是求報復的嗜慾，但有人因了他人受害而求報復。所以忿怒的原因不常是對我們有害的事。",
+      "after": "此外，忿怒是求報復的嗜慾，但有人因了他人受害而求報復。所以忿怒的原因不常是對我們有害的事。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2233
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第二章說，人發怒主要是對那些「輕視自己所關切的事情者，例如:關心哲學的人，對那些輕視哲學的人發怒」'在別的事情上也是一樣。但是輕視哲學對重視哲學的人沒有害慮。所以我們不常是為了對我們有害的事發怒。",
+      "after": "此外，哲學家在《修辭學》卷二第二章說，人發怒主要是對那些「輕視自己所關切的事情者，例如：關心哲學的人，對那些輕視哲學的人發怒」，在別的事情上也是一樣。但是輕視哲學對重視哲學的人沒有害處。所以我們不常是為了對我們有害的事發怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "發怒」'",
+          "after": "發怒」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "害慮",
+          "after": "害處",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "此外，按金口若望《羅馬書論贊》第二十二篇說的，對他人的侮辱默不作聲，最能使悔辱者發怒。但是對方既然默不作聲，對自己毫無害處。所以人的忿怒，不常是因了對自己有害的事激起來的。",
+      "after": "此外，按金口若望《羅馬書論讚》第二十二篇說的，對他人的侮辱默不作聲，最能使侮辱者發怒。但是對方既然默不作聲，對自己毫無害處。所以人的忿怒，不常是因了對自己有害的事激起來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論贊",
+          "after": "論讚",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "悔辱",
+          "after": "侮辱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "哲學家在《修辭學》卷二第四章卻說:「忿怒常是因對自己有關之事而起，仇視則即使實際事不關己也能產生;我們恨人，有時只因為我們相信他是那樣的人。」",
+      "after": "哲學家在《修辭學》卷二第四章卻說：「忿怒常是因對自己有關之事而起，仇視則即使實際事不關己也能產生；我們恨人，有時只因為我們相信他是那樣的人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "我解答如下:前面第四十六題第六節已經說過，忿怒是以正當報復為理由，而加害他人之嗜慾。若非先有傷害，便不能有報復。而且並非任何傷害皆引起忿怒，只有那與求報復者有關的傷害能引起忿怒:人自然追求自己的利益，所以也自然便抗拒對自己有害的。他人之傷害，若非多少是針對自己的，便與自己無關。所以忿怒之原因，常是對自己有害的事。",
+      "after": "我解答如下：前面第四十六題第六節己經說過，忿怒是以正當報復為理由，而加害他人之嗜慾。若非先有傷害，便不能有報復。而且並非任何傷害皆引起忿怒，只有那與求報復者有關的傷害能引起忿怒：人自然追求自己的利益，所以也自然便抗拒對自己有害的。他人之傷害，若非多少是針對自己的，便與自己無關。所以忿怒之原因，常是對自己有害的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "說天主發怒，不是按靈魂的情，而是根據正義之判斷，就是因了祂要對罪惡施以報復。罪人犯罪時，對天主不能有任何實際的害處。但是在罪人方面，有兩點是反對天主:第一，輕視天主的誠命;第二，他做的事對人有害，對他人或對自己，這與天主有關係，因為受害者是天主所照顧和保護的。",
+      "after": "說天主發怒，不是按靈魂的情，而是根據正義之判斷，就是因了他要對罪惡施以報復。罪人犯罪時，對天主不能有任何實際的害處。但是在罪人方面，有兩點是反對天主：第一，輕視天主的誠命；第二，他做的事對人有害，對他人或對自己，這與天主有關係，因為受害者是天主所照顧和保護的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祂要",
+          "after": "他要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "我們對那些對他人有害者發怒，並謀求報復，是因了受害者多少與我們有關係:或有血統關係，或有友誼關係，~至少與我們同屬於一個人類。",
+      "after": "我們對那些對他人有害者發怒，並謀求報復，是因了受害者多少與我們有關係：或有血統關係，或有友誼關係，或至少與我們同屬於一個人類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~至少",
+          "after": "或至少",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "我們所關切者，被我們視為我們的利益。故其受到輕視峙，我們認為我們也受到了輕視，受了害。",
+      "after": "我們所關切者，被我們視為我們的利益。故其受到輕視時，我們認為我們也受到了輕視，受了害。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "輕視峙",
+          "after": "輕視時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2234
+      ],
+      "before": "人不作聲能使傷害人者發怒，因為不作聲可能是出於輕視，好像不把他人的忿怒放在心上。輕視則是一種行動。",
+      "after": "人不作聲能使傷害人者發怒，因為不作聲可能是出於輕視，好像不把他人的忿怒放在心上。輕視則是一種行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "是否只有輕視或輕慢為忿怒之原因",
+      "after": "是否只有輕視或輕慢為忿怒之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "似乎並非只有輕視或輕慢是忿怒之原因。因為:",
+      "after": "似乎並非只有輕視或輕慢是忿怒之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "i.大馬士革的若望《論正統信仰》卷一第十六章說:「我們受了害，或以為受了害，便發忿怒。」但是人能未受輕視而受害。所以，不是隻有輕視是忿怒之原因。",
+      "after": "大馬士革的若望《論正統信仰》卷一第十六章說：「我們受了害，或以為受了害，便發忿怒。」但是人能未受輕視而受害。所以，不是只有輕視是忿怒之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不是隻有",
+          "after": "不是只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "此外，追求榮譽者，也是因受輕視而悲傷者。但是禽獸不追求榮譽，所以不因了受輕視而悲傷。但是按哲學家在《倫理學》卷三第八章說的:「牠們受傷時，便激起忿怒」。所以，好似不只有輕視是忿怒之原因。",
+      "after": "此外，追求榮譽者，也是因受輕視而悲傷者。但是禽獸不追求榮譽，所以不因了受輕視而悲傷。但是按哲學家在《倫理學》卷三第八章說的：「牠們受傷時，便激起忿怒」。所以，好似不只有輕視是忿怒之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠們",
+          "after": "牠們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第二章裡，列舉了許多其他忿怒之原因，例如:「遺忘，幸災樂禍，惡事之揭發，妨礙自己意志之實現的阻障」。所以，並非只有輕視激起忿怒。",
+      "after": "此外，哲學家在《修辭學》卷二第二章裡，列舉了許多其他忿怒之原因，例如：「遺忘，幸災樂禍，惡事之揭發，妨礙自己意志之實現的阻障」。所以，並非只有輕視激起忿怒。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2235
+      ],
+      "before": "哲學家在《修辭學》卷二第二章卻說:「忿怒是帶有悲傷的謀求處罰之嗜慾，因了看來不合理的輕視而來的。」",
+      "after": "哲學家在《修辭學》卷二第二章卻說：「忿怒是帶有悲傷的謀求處罰之嗜慾，因了看來不合理的輕視而來的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2235,
+        2236
+      ],
+      "before": "我解答如下:忿怒的一切原因，皆歸宗於輕視。按《修辭學》卷二第二章所說的，輕視分三種:即「輕慢」(despec-tus),「刁難」(epereasmus)一一即是對意志之實現的障礙，以及「凌辱」(contumeliatio);忿怒的一切原因皆歸宗於這三種，這有兩個理由。第一，忿怒謀求他人的害處當作正當的報復:所以他謀求報復，是由於他認為公平。公平的報復只能是針對不公平的事:所以激起忿怒的事，常含有不公平的地方。為此哲學家在《修辭學》卷二第三章說:「若人認為自己害人在先，因而所受的害合理，則不動怒，因為忿怒不是針對合理之事的。」使人受害有三種方式，即是:由於愚昧，由於情慾，及由於故意。按《倫理學》卷五第八章所說的，故意或心懷惡意而害人，是最不合理的。所以﹒我們若認為他人是故意害我們，最使我們生氣。若我們認為他人是由於愚昧或情慾而吉了我們，買IJ我們或不生氣，或怒氣較小。由患眛或情慾而來的行為，悔辱的意義較小，甚而激起同情與原諒。那故意害人者，似是出於輕視，因而最使人生氣。為此哲學家在《修辭學》卷二第三章說: 「對那些由於忿怒而做了什麼的，我們或者不動氣，或者氣較小，因為似乎他們不是由於輕視而如此做的。」第二個理由，因為輕視與人的優越相反，就如《修辭學》卷二第三章所說的: 「人認為沒有任何價值的，便加以輕視。」我們在追求任何利益時，多少是在追求我們的優越。為此，力日在我們身上的任何害處，既然破壞我們的優越，皆屬於輕視。",
+      "after": "我解答如下：忿怒的一切原因，皆歸宗於輕視。按《修辭學》卷二第二章所說的，輕視分三種：即「輕慢」(despec-tus)，「刁難」(epereasmus)——即是對意志之實現的障礙，以及「凌辱」(contumeliatio)；忿怒的一切原因皆歸宗於這三種，這有兩個理由。第一，忿怒謀求他人的害處當作正當的報復：所以他謀求報復，是由於他認為公平。公平的報復只能是針對不公平的事：所以激起忿怒的事，常含有不公平的地方。為此哲學家在《修辭學》卷二第三章說：「若人認為自己害人在先，因而所受的害合理，則不動怒，因為忿怒不是針對合理之事的。」使人受害有三種方式，即是：由於愚昧，由於情慾，及由於故意。按《倫理學》卷五第八章所說的，故意或心懷惡意而害人，是最不合理的。所以，我們若認為他人是故意害我們，最使我們生氣。若我們認為他人是由於愚昧或情慾而害了我們，則我們或不生氣，或怒氣較小。由愚昧或情慾而來的行為，侮辱的意義較小，甚而激起同情與原諒。那故意害人者，似是出於輕視，因而最使人生氣。為此哲學家在《修辭學》卷二第三章說：「對那些由於忿怒而做了什麼的，我們或者不動氣，或者氣較小，因為似乎他們不是由於輕視而如此做的。」第二個理由，因為輕視與人的優越相反，就如《修辭學》卷二第三章所說的：「人認為沒有任何價值的，便加以輕視。」我們在追求任何利益時，多少是在追求我們的優越。為此，加在我們身上的任何害處，既然破壞我們的優越，皆屬於輕視。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "),「刁難」",
+          "after": ")，「刁難」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吉了我們",
+          "after": "害了我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "患眛",
+          "after": "愚昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "悔辱",
+          "after": "侮辱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力日在我們",
+          "after": "加在我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2236
+      ],
+      "before": "除輕視外，無論由什麼原因造成的害處，那原因皆減少悔辱的意義。只有輕視增加忿怒之理由。所以輕視是忿怒的根本原因。",
+      "after": "除輕視外，無論由什麼原因造成的害處，那原因皆減少侮辱的意義。只有輕視增加忿怒之理由。所以輕視是忿怒的根本原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "悔辱",
+          "after": "侮辱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2236
+      ],
+      "before": "禽獸雖然不把榮譽當作榮譽來追求，但也自然地追求某種優越，故凡破壞牠這種優越者，皆使牠動怒。",
+      "after": "禽獸雖然不把榮譽當作榮譽來追求，但也自然地追求某種優越，故凡破壞她這種優越者，皆使她動怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "牠",
+          "after": "她",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2236
+      ],
+      "before": "那些原因，皆歸宗於某種輕視。遺忘是輕視的顯明證據，我們認為重要的，就不易遺忘。同樣，一人揭發他人的短處，不↑自使他傷心，也是出於一種輕視。在別人不幸時表現高興，也似乎是不在乎他人的幸與不幸。阻礙他人實現其計劃，自己又無利可圖，也似乎是不在乎他人的友誼。因了這些事表示輕視，所以能激起忿怒。",
+      "after": "那些原因，皆歸宗於某種輕視。遺忘是輕視的顯明證據，我們認為重要的，就不易遺忘。同樣，一人揭發他人的短處，不怕使他傷心，也是出於一種輕視。在別人不幸時表現高興，也似乎是不在乎他人的幸與不幸。阻礙他人實現其計劃，自己又無利可圖，也似乎是不在乎他人的友誼。因了這些事表示輕視，所以能激起忿怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不↑自",
+          "after": "不怕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "發怒者之優越是否為忿怒之原因",
+      "after": "發怒者之優越是否為忿怒之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "一人的優越似乎不是他易於動怒的原因。因為:",
+      "after": "一人的優越似乎不是他易於動怒的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "哲學家在《修辭學》卷二第二章說:「人在悲傷的時候最易發怒，例如:病人、窮困的人，以及不能如願的人。」但是這些似乎皆屬於缺欠。所以，缺欠比優越更使人易於動怒。",
+      "after": "哲學家在《修辭學》卷二第二章說：「人在悲傷的時候最易發怒，例如：病人、窮困的人，以及不能如願的人。」但是這些似乎皆屬於缺欠。所以，缺欠比優越更使人易於動怒。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第二章又說:「人受輕視時，若果然在那方面疑似缺少那優點，或有也很少，便易發怒;但若自知自己在那方面的優長，就不在乎別人的輕視。」但上述猜疑係來自缺欠。所以缺欠是忿怒之原因，而非優越。",
+      "after": "此外，哲學家在《修辭學》卷二第二章又說：「人受輕視時，若果然在那方面疑似缺少那優點，或有也很少，便易發怒；但若自知自己在那方面的優長，就不在乎別人的輕視。」但上述猜疑係來自缺欠。所以缺欠是忿怒之原因，而非優越。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "此外，屬於擅長者，最能使人高興，並抱有希望。但是哲學家在《修辭學》卷二第三章說:「在遊戲，歡笑，慶節，順遂，事業成功，正當的享受，及遠景樂觀的時候，人不生氣。」所以優越不是忿怒的原因。",
+      "after": "此外，屬於優長者，最能使人高興，並抱有希望。但是哲學家在《修辭學》卷二第三章說：「在遊戲，歡笑，慶節，順遂，事業成功，正當的享受，及遠景樂觀的時候，人不生氣。」所以優越不是忿怒的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "屬於擅長者",
+          "after": "屬於優長者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2237
+      ],
+      "before": "哲學家在同卷(卷二第九章)裡卻說，人是為了優越而忿怒。",
+      "after": "哲學家在同卷(卷二第九章)裡卻說，人是為了優越而忿怒。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2237,
+        2238
+      ],
+      "before": "我解答如下:在發怒者方面的忿怒之原因，可以分為兩種。第一種，根據其與忿怒之動機的關係。如此，貝IJ優越是人易於動怒的原因。如第二節己說過的，忿怒之動機是不合理之輕視。大家都知道，人愈優越，對其優點之輕視愈不合理。所以，人若在某方面有優長，卻受到輕視，這時最容易動怒，例如:富人在錢方面受到輕視，修辭學家在言談方面受到輕視等等。\n另一種是忿怒的動機在人身上留下之影響。顯然除非是使人悲傷的害處，否則不使人發怒。那些屬於缺欠者，最使人悲傷，因為人在缺乏中最易受到傷害。而這就是病人及陷於其他困境者易於發怒的原因，因為他們易於悲傷。",
+      "after": "我解答如下：在發怒者方面的忿怒之原因，可以分為兩種。第一種，根據其與忿怒之動機的關係。如此，則優越是人易於動怒的原因。如第二節己說過的，忿怒之動機是不合理之輕視。大家都知道，人愈優越，對其優點之輕視愈不合理。所以，人若在某方面有優長，卻受到輕視，這時最容易動怒，例如：富人在錢方面受到輕視，修辭學家在言談方面受到輕視等等。\n另一種是忿怒的動機在人身上留下之影響。顯然除非是使人悲傷的害處，否則不使人發怒。那些屬於缺欠者，最使人悲傷，因為人在缺乏中最易受到傷害。而這就是病人及陷於其他困境者易於發怒的原因，因為他們易於悲傷。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "由上面講的，可知質疑1.的答案。",
+      "after": "由上面講的，可知質疑1.的答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "那在某方面顯然有優長的人，在這方面受到輕視時，不認為會有什麼損失，故不以為逆，所以不易生氣。但是在這一方面，因為輕視不合理，他卻更有生氣的理由。除非他認為輕視是出於愚昧等惰，而不是因為嫉妒他，或為譏笑他。",
+      "after": "那在某方面顯然有優長的人，在這方面受到輕視時，不認為會有什麼損失，故不以為逆，所以不易生氣。但是在這一方面，因為輕視不合理，他卻更有生氣的理由。除非他認為輕視是出於愚昧等情，而不是因為嫉妒他，或為譏笑他。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "愚昧等惰",
+          "after": "愚昧等情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "因為那些事妨阻悲傷，所以妨阻忿怒。但在另一方面，因了這時若受到輕視更不合理，故也更能激起忿恕。",
+      "after": "因為那些事妨阻悲傷，所以妨阻忿怒。但在另一方面，因了這時若受到輕視更不合理，故也更能激起忿怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "忿恕",
+          "after": "忿怒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "一人之缺點是否為我們易於向他發怒的原因",
+      "after": "一人之缺點是否為我們易於向他發怒的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "一人的缺點，似乎不是我們易於向他動怒的原因。因為:",
+      "after": "一人的缺點，似乎不是我們易於向他動怒的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "哲學家在《修辭學》卷二第三章說:「我們不向那些承認自己的短處，表示後悔和謙虛的人發怒，反而對他們友善。為此，連狗也不咬安靜的人。」但這些屬於卑小及缺欠。所以，一人之卑下是我們不易動怒的原因。",
+      "after": "哲學家在《修辭學》卷二第三章說：「我們不向那些承認自己的短處，表示後悔和謙虛的人發怒，反而對他們友善。為此，連狗也不咬安靜的人。」但這些屬於卑小及缺欠。所以，一人之卑下是我們不易動怒的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "此外，沒有比死亡更大的缺欠。但是對死者人不生氣。所以，一人之缺欠不是使人對他發怒的原因。",
+      "after": "此外，沒有比死亡更大的缺欠。但是對死者人不生氣。所以，一人之缺欠不是使人對他發怒的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "此外，我們不因了某人是我們的朋友便認為他卑小。但若朋友得罪我們，或不幫助我們，我們更感到生氣;為此《聖詠》第五十四篇13節說:「若是我的仇人辱罵我，我還可以容忍。」所以，一人的缺欠不是我們對他易於發怒的原因。",
+      "after": "此外，我們不因了某人是我們的朋友便認為他卑小。但若朋友得罪我們，或不幫助我們，我們更感到生氣；為此《聖詠》第五十四篇13節說：「若是我的仇人辱罵我，我還可以容忍。」所以，一人的缺欠不是我們對他易於發怒的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2238
+      ],
+      "before": "哲學家在《修辭學》卷二第二章卻說:「苦貴人受了窮人的輕視，就對他發怒;上司對屬下也是一樣。」\n..",
+      "after": "哲學家在《修辭學》卷二第二章卻說：「若貴人受了窮人的輕視，就對他發怒；上司對屬下也是一樣。」\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "苦貴人",
+          "after": "若貴人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "\n..",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2239
+      ],
+      "before": "我解答如下:前面第二及第三節已經說過，不合理的輕視，最能使人發怒。所以使我們發怒者的卑小及缺欠，能增強忿怒，因為能使輕視更不合理。就如一人愈偉大，輕視他愈不合理;同樣，一人愈卑小，輕視人也愈不合理。故此，高貴的人受租野的人輕視時生氣，有知識的受無知識的人輕視時生氣，主人受僕人輕視時也生氣。\n但若卑小或缺欠減輕不合理之輕視，此種卑小或缺欠則不加強，反而減輕忿怒。為此，後悔自己的錯處，承認自己的錯，又表示謙遜、請求原諒的，減輕忿怒，就如《篇言》第十五章l節所說的:「溫和的回答，平息忿怒」;因為這樣的人不表示輕視，而是表示重視那些以卑視的態度對待他的人。",
+      "after": "我解答如下：前面第二及第三節己經說過，不合理的輕視，最能使人發怒。所以使我們發怒者的卑小及缺欠，能增強忿怒，因為能使輕視更不合理。就如一人愈偉大，輕視他愈不合理；同樣，一人愈卑小，輕視人也愈不合理。故此，高貴的人受粗野的人輕視時生氣，有知識的受無知識的人輕視時生氣，主人受僕人輕視時也生氣。\n但若卑小或缺欠減輕不合理之輕視，此種卑小或缺欠則不加強，反而減輕忿怒。為此，後悔自己的錯處，承認自己的錯，又表示謙遜、請求原諒的，減輕忿怒，就如《箴言》第十五章1節所說的：「溫和的回答，平息忿怒」；因為這樣的人不表示輕視，而是表示重視那些以卑視的態度對待他的人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "租野",
+          "after": "粗野",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《篇言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "章l節",
+          "after": "章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卑視",
+          "after": "卑視",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2239
+      ],
+      "before": "由上面說的，可知質疑1.之答案。",
+      "after": "由上面說的，可知質疑1.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q047.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2239
+      ],
+      "before": "對死人不生氣有兩個緣故。第一，因為死人沒有知覺，不能感到痛苦;而發怒的人向對方所求的，主要就是這點。第二，因為死了的人，似乎已到達了不幸的極點。為此，對某些受傷很重的人也不動氣，因為他們受的害處已經超過了應得的報復。",
+      "after": "對死人不生氣有兩個緣故。第一，因為死人沒有知覺，不能感到痛苦；而發怒的人向對方所求的，主要就是這點。第二，因為死了的人，似乎己到達了不幸的極點。為此，對某些受傷很重的人也不動氣，因為他們受的害處己經超過了應得的報復。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已到達",
+          "after": "己到達",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q047.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2239
+      ],
+      "before": "由朋友而來的輕視，也比較更不合理。為此，若他們輕視，或以加害的方式，或以不幫忙的方式，表顯輕視我們，我們便會像對卑小者一樣，更覺得生氣。",
+      "after": "由朋友而來的輕視，也比較更不合理。為此，若他們輕視，或以加害的方式，或以不幫忙的方式，表顯輕視我們，我們便會像對卑小者一樣，更覺得生氣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
