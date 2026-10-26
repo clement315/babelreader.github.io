@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q043",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q043",
+    "title": "論畏懼之原因",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      2201,
+      2202,
+      2203,
+      2204
+    ],
+    "printed_pages": [
+      430,
+      433
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 24,
+    "changed_review_units": 19,
+    "checked_unchanged_review_units": 6
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q43.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q43.json": "92e0677de463b99319931770165f581d2e883f282b20b3b5eec9bdcbea4596d0",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q043.a001.ad1",
+      "pdf_file_page": 2202,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q043.a001.ad3",
+      "pdf_file_page": 2202,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q043.a002.arg2",
+      "pdf_file_page": 2203,
+      "text": "己要被處死",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q043.a002.ad2",
+      "pdf_file_page": 2204,
+      "text": "己要被處死",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q043.a001.ad2",
+      "pdf_file_page": 2202,
+      "text": "從起初原就是被愛的",
+      "status": "suspected_source_print_error",
+      "action": "原页用「原」，按底本照录，不作语句润色。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q043.prologue",
+      "description": "清除题首页眉识别残留及孤立「圳」，保持原字段全部换行转义符。"
+    }
+  ],
+  "notes": [
+    "全部4页、2节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q043.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "間\n開\n一討睏\n闊\n一一\n然後要討論的是畏懼之才原因(參看第四十一題引言)。\n圳\n關於這點，我們可以提出兩個問題:\n一、畏懼之原因是否為愛。\n二、畏懼之原因是否為重乏。",
+      "after": "\n\n\n\n\n然後要討論的是畏懼之原因(參看第四十一題引言)。\n\n關於這點，我們可以提出兩個問題：\n一、畏懼之原因是否為愛。\n二、畏懼之原因是否為匱乏。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "間\n開\n一討睏\n闊\n一一\n",
+          "after": "\n\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之才原因",
+          "after": "之原因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "圳\n",
+          "after": "\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "重乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "畏懼之原因是否為愛",
+      "after": "畏懼之原因是否為愛",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "愛似乎不是畏懼之原因。因為:",
+      "after": "愛似乎不是畏懼之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "那引生什麼東西的，便是這東西的原因。但是奧斯定在《公函若望壹書釋義》第九講裡說: 「畏懼引生愛德之愛。」所以畏懼是愛之原因，而非愛是畏懼之原因。",
+      "after": "那引生什麼東西的，便是這東西的原因。但是奧斯定在《公函若望壹書釋義》第九講裡說：「畏懼引生愛德之愛。」所以畏懼是愛之原因，而非愛是畏懼之原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "此外，哲學家在《修辭學》卷二第五章裡說: 「那預期能加害於我們的，是最可怕的。」但那能加害於我們的，更好說激起我們對他的憎恨，而非愛。故更好說憎恨是畏懼之原因，而非愛。",
+      "after": "此外，哲學家在《修辭學》卷二第五章裡說：「那預期能加害於我們的，是最可怕的。」但那能加害於我們的，更好說激起我們對他的憎恨，而非愛。故更好說憎恨是畏懼之原因，而非愛。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "此外，前面第四十二題第三節曾說:那在我們自己者，不是可怕的。那些出於愛的事，主要是從內心而來的。所以，畏懼不是由愛來的。",
+      "after": "此外，前面第四十二題第三節曾說：那在我們自己者，不是可怕的。那些出於愛的事，主要是從內心而來的。所以，畏懼不是由愛來的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2201
+      ],
+      "before": "奧斯定在《雜題八十三》第三十三題裡卻說: 「毫無疑問地，畏懼之原因只在於我們所愛的，得到後怕失去，或希望的怕得不到。」所以，凡畏懼皆是由於我們有所愛。故此，愛是畏懼之原因。",
+      "after": "奧斯定在《雜題八十三》第三十三題裡卻說：「毫無疑問地，畏懼之原因只在於我們所愛的，得到後怕失去，或希望的怕得不到。」所以，凡畏懼皆是由於我們有所愛。故此，愛是畏懼之原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2202
+      ],
+      "before": "我解答如下:靈魂之惰的對象與情的關係，就似形式與自然物或人造物之關係。因為靈魂之情是由其對象取得類別，就如自然物或人造物是由其形式取得類別。故此，凡為形式之原因者，也是由此形式所構成之物的原因;同樣，凡為對象之原因者，無論是以何種方式，也是情之原因。一物之為對象之原因，或是以動因(causa efficiens)方式，或是以質料性準備之方式。例如:快樂之對象，顯然是接觸到的適宜之善;其動因便是那促成接觸者，或是造成適合性或善性者，以及那使這善顯明者。在質料性準備方面的原因，即是習性或常態(habitus)，或任何能使某東西感到其所接觸之善是合適的、顯明的之素質。\n回到我們的問題，畏懼之對象，是認為即將來到且不易低抗之惡。因此，那能造成此惡者，乃畏懼之對象的動因，所以也是畏懼的動因。那使人感到是這類惡者的素質，即是畏懼以及其對象在質料性準備方面的原因。愛就是畏懼在這方面的原因:由於一人愛某善;故此，失去這善為他是惡，因而他也視之為惡而有所1哩。",
+      "after": "我解答如下：靈魂之情的對象與情的關係，就似形式與自然物或人造物之關係。因為靈魂之情是由其對象取得類別，就如自然物或人造物是由其形式取得類別。故此，凡為形式之原因者，也是由此形式所構成之物的原因；同樣，凡為對象之原因者，無論是以何種方式，也是情之原因。一物之為對象之原因，或是以動因(causa efficiens)方式，或是以質料性準備之方式。例如：快樂之對象，顯然是接觸到的適宜之善；其動因便是那促成接觸者，或是造成適合性或善性者，以及那使這善顯明者。在質料性準備方面的原因，即是習性或常態(habitus)，或任何能使某東西感到其所接觸之善是合適的、顯明的之素質。\n回到我們的問題，畏懼之對象，是認為即將來到且不易抵抗之惡。因此，那能造成此惡者，乃畏懼之對象的動因，所以也是畏懼的動因。那使人感到是這類惡者的素質，即是畏懼以及其對象在質料性準備方面的原因。愛就是畏懼在這方面的原因：由於一人愛某善；故此，失去這善為他是惡，因而他也視之為惡而有所懼。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之惰",
+          "after": "之情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "低抗",
+          "after": "抵抗",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有所1哩",
+          "after": "有所懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2202
+      ],
+      "before": "前面第四十二題第一節曾說，畏懼本然並首先是針對其所逃避之惡的，而這與其所愛之某善相反。為此，畏1種本然是生於愛;次而是針對這惡因而得以發生者。如此，畏懼有時偶然引生愛，øn自[1:人怕天主處罰，故遵守天主的誠命;繼而開始希望，希望又引生愛，如第四十題第七節己說過的。",
+      "after": "前面第四十二題第一節曾說，畏懼本然並首先是針對其所逃避之惡的，而這與其所愛之某善相反。為此，畏懼本然是生於愛；次而是針對這惡因而得以發生者。如此，畏懼有時偶然引生愛，即如：人怕天主處罰，故遵守天主的誠命；繼而開始希望，希望又引生愛，如第四十題第七節己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "畏1種",
+          "after": "畏懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "øn自[1:",
+          "after": "即如：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2202
+      ],
+      "before": "那預期能加害於人者，首先使人生恨;但等到希望從他得到善之後，才開始有愛。所怕之惡所相反的善，「泣起初!車就是被愛的。",
+      "after": "那預期能加害於人者，首先使人生恨；但等到希望從他得到善之後，才開始有愛。所怕之惡所相反的善，從起初原就是被愛的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「泣起初!車",
+          "after": "從起初原",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2202
+      ],
+      "before": "所舉之理由，是根據可怕之惡的動因方式。而愛之為畏懼之原因，是以質料性準備之方式，如前面正解己說過的。",
+      "after": "所舉之理由，是根據可怕之惡的動因方式。而愛之為畏懼之原因，是以質料性準備之方式，如前面正解己說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "畏懼之原因是否為匿乏",
+      "after": "畏懼之原因是否為匱乏",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "置乏似乎不是畏懼之原因。因為:",
+      "after": "匱乏似乎不是畏懼之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "置乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "那有權勢者，是最可怕的。但匿乏與權勢相反。所以軍乏不是畏懼之原因。",
+      "after": "那有權勢者，是最可怕的。但匱乏與權勢相反。所以匱乏不是畏懼之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "軍乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "此外，那己要被處死的人，是在極度匿乏狀態。但按《修辭學》卷二第五章說的，這些人不畏懼。所以，匿乏不是畏懼之原因。",
+      "after": "此外，那己要被處死的人，是在極度匱乏狀態。但按《修辭學》卷二第五章說的，這些人不畏懼。所以，匱乏不是畏懼之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "此外，競爭是由於勇敢，不是由於置乏。但按《修辭學》卷二第五章說的: 「競爭者怕與之競爭同樣東西者」。所以，匿乏不是畏懼之原因。",
+      "after": "此外，競爭是由於勇敢，不是由於匱乏。但按《修辭學》卷二第五章說的：「競爭者怕與之競爭同樣東西者」。所以，匱乏不是畏懼之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "置乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "彼此相反者，其原因亦相反。但是按《修辭學》卷二第五章說的，「財富，力量，朋友眾多，及權勢，排除畏懼」。所以畏懼是因了缺乏這些東西而來的。",
+      "after": "彼此相反者，其原因亦相反。但是按《修辭學》卷二第五章說的，「財富，力量，朋友眾多，及權勢，排除畏懼」。所以畏懼是因了缺乏這些東西而來的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2203
+      ],
+      "before": "我解答如下:前面第一節曾說，畏懼能有兩種原因:一種是畏懼者方面在質料性準備上的原因;另一種是所懼者方面的動因。關於第一種，置乏本然是畏懼之原因:人之不易抗拒面臨之惡，是由於能力方面的塵乏。但為產生畏懼，需要有某個程度的匿乏。促成畏懼未來之惡的置乏較小，伴隨現在之惡的置乏較大，哀愁是關於現在之惡的。若對惡根本沒有意識，致對其所畏懼者之反面之善沒有愛，則是更大的置乏。\n關於第二種，才能與力量，本來是畏懼之原因:一個東西被認為有害，而且能力強，因此纔不易抗拒其效果。但是在這方面，偶爾匿乏也是畏懼之原因，即是在一人因了某匿缺纔想加害於他人的時候，例如:由於無正義感，或由於他受過害，或由於他怕受害。",
+      "after": "我解答如下：前面第一節曾說，畏懼能有兩種原因：一種是畏懼者方面在質料性準備上的原因；另一種是所懼者方面的動因。關於第一種，匱乏本然是畏懼之原因：人之不易抗拒面臨之惡，是由於能力方面的匱乏。但為產生畏懼，需要有某個程度的匱乏。促成畏懼未來之惡的匱乏較小，伴隨現在之惡的匱乏較大，哀愁是關於現在之惡的。若對惡根本沒有意識，或對其所畏懼者之反面之善沒有愛，則是更大的匱乏。\n關於第二種，才能與力量，本來是畏懼之原因：一個東西被認為有害，而且能力強，因此才不易抗拒其效果。但是在這方面，偶爾匱乏也是畏懼之原因，即是在一人因了某匱缺才想加害於他人的時候，例如：由於無正義感，或由於他受過害，或由於他怕受害。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "置乏",
+          "after": "匱乏",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "塵乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "致對其所畏懼",
+          "after": "或對其所畏懼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因此纔",
+          "after": "因此才",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "匿缺纔",
+          "after": "匱缺才",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2204
+      ],
+      "before": "所舉之理由是根據畏懼之動因。",
+      "after": "所舉之理由是根據畏懼之動因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q043.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2204
+      ],
+      "before": "那己要被處死的人，是在感受現在的惡。所以，這種匿乏超過了畏懼之限度.。",
+      "after": "那己要被處死的人，是在感受現在的惡。所以，這種匱乏超過了畏懼之限度。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "限度.。",
+          "after": "限度。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q043.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2204
+      ],
+      "before": "競爭者害怕，不是因了那用以競爭的能力;而是因了這能力上的匿乏，因而沒有吧握得到勝利。",
+      "after": "競爭者害怕，不是因了那用以競爭的能力；而是因了這能力上的匱乏，因而沒有把握得到勝利。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "匿乏",
+          "after": "匱乏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "吧握",
+          "after": "把握",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
