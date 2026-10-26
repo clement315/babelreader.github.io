@@ -1,0 +1,1499 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q034",
+  "date": "2026-10-26",
+  "author": "element",
+  "baseline_git_commit": "c16fe3b84b241aaf59e6adb839f29493bed9073f",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q034",
+    "title": "論快樂之善惡",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2117,
+      2118,
+      2119,
+      2120,
+      2121,
+      2122,
+      2123,
+      2124
+    ],
+    "printed_pages": [
+      346,
+      353
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 39,
+    "checked_unchanged_review_units": 10
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q34.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q34.json": "acb157ac765db3a7cd64d92691a0db06b2aff84e45b15d82c9ae90e4d08f3065"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q034.a001.ad1",
+      "pdf_file_page": 2119,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q034.a001.ad1",
+      "pdf_file_page": 2119,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q034.a003.respondeo",
+      "pdf_file_page": 2122,
+      "text": "己有之知識",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q034.a003.ad1",
+      "pdf_file_page": 2122,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q034.a004.respondeo",
+      "pdf_file_page": 2124,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q034.a002.arg1",
+      "pdf_file_page": 2120,
+      "text": "利益可以分為三種",
+      "status": "suspected_source_print_error",
+      "action": "原页为「利益」，照录而不改为术语「善」。"
+    },
+    {
+      "id": "I_II.q034.a004.sed_contra",
+      "pdf_file_page": 2123,
+      "text": "第八篇10節",
+      "status": "suspected_source_print_error",
+      "action": "原页圣经篇号如此，疑为原书引文编号印误，保留。"
+    },
+    {
+      "id": "I_II.q034.a003.respondeo",
+      "pdf_file_page": 2122,
+      "text": "第二題第七節",
+      "status": "suspected_source_print_error",
+      "action": "原页交叉引文如此，疑为原书编号印误，保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q034.a001.objection-intro",
+      "description": "混入引言或质疑导句的三条异议按原页归位至既有空字段，不改变字段或换行转义符。"
+    },
+    {
+      "id": "I_II.q034.a002.objection-intro",
+      "description": "混入引言或质疑导句的三条异议按原页归位至既有空字段，不改变字段或换行转义符。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第2–50题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q034.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "然後要討論的是快樂之善惡(參看第三十一題引言)。\n關於這點，我們可以提出四個問題:\n一、快樂是否皆惡。\n二、快樂如非皆惡，是否皆善。\n三、有無快樂是完全的善。\n四、快樂是否為判別道德性善惡之尺度或標準。",
+      "after": "然後要討論的是快樂之善惡(參看第三十一題引言)。\n關於這點，我們可以提出四個問題：\n一、快樂是否皆惡。\n二、快樂如非皆惡，是否皆善。\n三、有無快樂是完全的善。\n四、快樂是否為判別道德性善惡之尺度或標準。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "快樂是否皆惡",
+      "after": "快樂是否皆惡",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "有關第一節，我們討論如下:質提好似快樂皆是惡的。因為:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有關第一節，我們討論如下:質提好似快樂皆是惡的。因為:",
+          "after": "有關第一節，我們討論如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "Î.那腐化機智、妨礙理性作用的，似乎本然就是惡的。因為按狄奧尼修在《神名論》第四章裡說的，人的善在於「按理性生活」。但是快樂腐化機智、妨礙理性作用，而且快樂愈大，其作用也愈大。故此，《倫理學》卷七第十一章說: 「在淫樂中，不可能運用理性」'因為淫樂乃是最大的快樂。熱羅尼莫在《瑪竇褔音註解》中也說: 「在行房事的時候，不會有聖神在，縱然那盡生育之義務者似是一位先知。」所以，快樂本身就是惡的。所以，凡快樂皆是惡的。2.此外，有德者所逃避，而為無德者所追求者，似乎本身就是惡的和須逃避的。因為《倫理學》卷十第五章說: 「有德性的人，有似人性行動之標準和尺度」;宗徒在《格林多前書》第二章的節也說: 「惟有屬神的人能審斷一切。」沒有德性的孩兒及禽獸，好追求快樂;有節制的人則逃避快樂。所以快樂本身就是惡的，和須逃避的。3.此外，按《倫理學》卷二第三章說的: 「德性與藝術是關於困難者及美善的」。但沌有一種藝術是為求快樂的c所以，快樂不是善事。",
+      "after": "好似快樂皆是惡的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Î.那腐化機智、妨礙理性作用的，似乎本然就是惡的。因為按狄奧尼修在《神名論》第四章裡說的，人的善在於「按理性生活」。但是快樂腐化機智、妨礙理性作用，而且快樂愈大，其作用也愈大。故此，《倫理學》卷七第十一章說: 「在淫樂中，不可能運用理性」'因為淫樂乃是最大的快樂。熱羅尼莫在《瑪竇褔音註解》中也說: 「在行房事的時候，不會有聖神在，縱然那盡生育之義務者似是一位先知。」所以，快樂本身就是惡的。所以，凡快樂皆是惡的。2.此外，有德者所逃避，而為無德者所追求者，似乎本身就是惡的和須逃避的。因為《倫理學》卷十第五章說: 「有德性的人，有似人性行動之標準和尺度」;宗徒在《格林多前書》第二章的節也說: 「惟有屬神的人能審斷一切。」沒有德性的孩兒及禽獸，好追求快樂;有節制的人則逃避快樂。所以快樂本身就是惡的，和須逃避的。3.此外，按《倫理學》卷二第三章說的: 「德性與藝術是關於困難者及美善的」。但沌有一種藝術是為求快樂的c所以，快樂不是善事。",
+          "after": "好似快樂皆是惡的。因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2117
+      ],
+      "before": "",
+      "after": "那腐化機智、妨礙理性作用的，似乎本然就是惡的。因為按狄奧尼修在《神名論》第四章裡說的，人的善在於「按理性生活」。但是快樂腐化機智、妨礙理性作用，而且快樂愈大，其作用也愈大。故此，《倫理學》卷七第十一章說：「在淫樂中，不可能運用理性」，因為淫樂乃是最大的快樂。熱羅尼莫在《瑪竇福音註解》中也說：「在行房事的時候，不會有聖神在，縱然那盡生育之義務者似是一位先知。」所以，快樂本身就是惡的。所以，凡快樂皆是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "那腐化機智、妨礙理性作用的，似乎本然就是惡的。因為按狄奧尼修在《神名論》第四章裡說的，人的善在於「按理性生活」。但是快樂腐化機智、妨礙理性作用，而且快樂愈大，其作用也愈大。故此，《倫理學》卷七第十一章說: 「在淫樂中，不可能運用理性」'因為淫樂乃是最大的快樂。熱羅尼莫在《瑪竇褔音註解》中也說: 「在行房事的時候，不會有聖神在，縱然那盡生育之義務者似是一位先知。」所以，快樂本身就是惡的。所以，凡快樂皆是惡的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "理性」'",
+          "after": "理性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2117,
+        2118
+      ],
+      "before": "",
+      "after": "此外，有德者所逃避，而為無德者所追求者，似乎本身就是惡的和須逃避的。因為《倫理學》卷十第五章說：「有德性的人，有似人性行動之標準和尺度」；宗徒在《格林多前書》第二章15節也說：「惟有屬神的人能審斷一切。」沒有德性的孩兒及禽獸，好追求快樂；有節制的人則逃避快樂。所以快樂本身就是惡的，和須逃避的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，有德者所逃避，而為無德者所追求者，似乎本身就是惡的和須逃避的。因為《倫理學》卷十第五章說: 「有德性的人，有似人性行動之標準和尺度」;宗徒在《格林多前書》第二章的節也說: 「惟有屬神的人能審斷一切。」沒有德性的孩兒及禽獸，好追求快樂;有節制的人則逃避快樂。所以快樂本身就是惡的，和須逃避的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "第二章的節",
+          "after": "第二章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2118
+      ],
+      "before": "",
+      "after": "此外，按《倫理學》卷二第三章說的：「德性與藝術是關於困難者及美善的」。但沒有一種藝術是為求快樂的。所以，快樂不是善事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，按《倫理學》卷二第三章說的: 「德性與藝術是關於困難者及美善的」。但沌有一種藝術是為求快樂的c所以，快樂不是善事。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "但沌有",
+          "after": "但沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "快樂的c",
+          "after": "快樂的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2118
+      ],
+      "before": "《聖詠》第三十六篇4節卻說: 「你只管在上主內快樂。」天主既不能命人為惡，似乎快樂不都是惡的。",
+      "after": "《聖詠》第三十六篇4節卻說：「你只管在上主內快樂。」天主既不能命人為惡，似乎快樂不都是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2118,
+        2119
+      ],
+      "before": "我解答如下:如《倫理學》卷十第一章說的，有些人認為快樂都是惡的。個中的原因，似乎是因了他們只想到那比較明顯的感官性及身體上的快樂。的確，按《靈魂論》卷三第三章上說的，有些古代哲學家，在別的問題上也不分可理解的與可感覺的，也不分智性與感官。他們想該說身體上的快樂都是惡的，為使那些貪樂無度的人加以戒避，而達中庸之道。但這看法並不適當。因為若沒有一點感官性和身體上的快樂，沒有人能生存;而那些主張凡快樂皆惡者，若被人發現享受什麼快樂，大家便要隨從他們的榜樣，不再把他們的言論放在心上，反而更沒有約束了。在人性行為及情慾上，經驗比較重要，榜樣比理論的影響力大。\n所以，應說有些快樂是善的，有些是惡的。快樂乃是嗜慾能力在所愛之善上的定止，由某動作而來。故此，可以從兩方面來看快樂:一是從人所定止並以為樂的善那方面。以前第十八題第五節說過，道德上的善惡，是按是否合於理性而定。就似在自然物方面，合於天性者即是自然的，不合於天性者，便是不自然的。在自然物上，也有一種自然的定止，即是止於耳1:;合於天性者，如重物之定止於低處;也有一種不自然的定止，即是停於那不合天性者，如重物之定止於高處。同樣，在道德上有些快樂是苦的，自11如果高級或低級嗜慾之所安是合理性的;另一些快樂是惡的，即如果所安者不合理性及天主的誡律。\n另一看法是從動作那方面，而動作有善有惡。動作與快樂的關係比與慾望的關係密切;動作與快樂是相接連的，慾望在時間上則先於動作。故此，既然對好動作的慾望是善的，對壞動作的慾望是惡的，所以對好動作所感到的快樂更應是善的，對壞動作所感到的快樂是惡的。",
+      "after": "我解答如下：如《倫理學》卷十第一章說的，有些人認為快樂都是惡的。個中的原因，似乎是因了他們只想到那比較明顯的感官性及身體上的快樂。的確，按《靈魂論》卷三第三章上說的，有些古代哲學家，在別的問題上也不分可理解的與可感覺的，也不分智性與感官。他們想該說身體上的快樂都是惡的，為使那些貪樂無度的人加以戒避，而達中庸之道。但這看法並不適當。因為若沒有一點感官性和身體上的快樂，沒有人能生存；而那些主張凡快樂皆惡者，若被人發現享受什麼快樂，大家便要隨從他們的榜樣，不再把他們的言論放在心上，反而更沒有約束了。在人性行為及情慾上，經驗比較重要，榜樣比理論的影響力大。\n所以，應說有些快樂是善的，有些是惡的。快樂乃是嗜慾能力在所愛之善上的定止，由某動作而來。故此，可以從兩方面來看快樂：一是從人所定止並以為樂的善那方面。以前第十八題第五節說過，道德上的善惡，是按是否合於理性而定。就似在自然物方面，合於天性者即是自然的，不合於天性者，便是不自然的。在自然物上，也有一種自然的定止，即是止於那合於天性者，如重物之定止於低處；也有一種不自然的定止，即是停於那不合天性者，如重物之定止於高處。同樣，在道德上有些快樂是善的，即如果高級或低級嗜慾之所安是合理性的；另一些快樂是惡的，即如果所安者不合理性及天主的誡律。\n另一看法是從動作那方面，而動作有善有惡。動作與快樂的關係比與慾望的關係密切；動作與快樂是相接連的，慾望在時間上則先於動作。故此，既然對好動作的慾望是善的，對壞動作的慾望是惡的，所以對好動作所感到的快樂更應是善的，對壞動作所感到的快樂是惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "耳1:;合於",
+          "after": "那合於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "快樂是苦的，自11",
+          "after": "快樂是善的，即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2119
+      ],
+      "before": "前面第三十三題第三節已經說過，關於理性行動方面的快樂，不妨礙理性，也不腐化機智;只有不相干的快樂，如身體方面的快樂，才妨礙理性。這些快樂妨礙理性作用，是由於嗜慾之對立，即是它定止於不合理性者，這樣的快樂便是惡的;或是由於牽制理性，如:行房事的快樂，雖然合於理性，但由於身體仁的變化，有礙於理性作用。但這並不造成道德性的惡，就如睡眠也妨礙理性作用，若睡得合理，並不是惡的，因為有時停止理性作用，乃是理所當然。不過我們認為，房事快樂對理性的妨礙雖然不是道德上的惡，因為既不是大罪，也不是小罪;但那卻是由一種道德性的惡而來的，即來自原祖父母的罪;按在第一集第九十八題第二節己說過的，在原罪以前並不是那樣。",
+      "after": "前面第三十三題第三節己經說過，關於理性行動方面的快樂，不妨礙理性，也不腐化機智；只有不相干的快樂，如身體方面的快樂，才妨礙理性。這些快樂妨礙理性作用，是由於嗜慾之對立，即是它定止於不合理性者，這樣的快樂便是惡的；或是由於牽制理性，如：行房事的快樂，雖然合於理性，但由於身體上的變化，有礙於理性作用。但這並不造成道德性的惡，就如睡眠也妨礙理性作用，若睡得合理，並不是惡的，因為有時停止理性作用，乃是理所當然。不過我們認為，房事快樂對理性的妨礙雖然不是道德上的惡，因為既不是大罪，也不是小罪；但那卻是由一種道德性的惡而來的，即來自原祖父母的罪；按在第一集第九十八題第二節己說過的，在原罪以前並不是那樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "身體仁的",
+          "after": "身體上的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2119
+      ],
+      "before": "有節制的人並不戒避一切，快樂，只戒避過度的，及不合理性的。至於孩兒及禽獸好求快樂，並不證明快樂皆是惡的，因為在他們內有天主設置的自然嗜慾，使他們動向適於他們者。",
+      "after": "有節制的人並不戒避一切快樂，只戒避過度的，及不合理性的。至於孩兒及禽獸好求快樂，並不證明快樂皆是惡的，因為在他們內有天主設置的自然嗜慾，使他們動向適於他們者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一切，快樂",
+          "after": "一切快樂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2119
+      ],
+      "before": "我們後面第五十七題第三節要講到，並非每種善，皆有一種藝術，藝術只管外在之可製作者。關於在我們內的動作和情慾，更好說是屬於機智和德性，而不屬於藝術;不過也有製造快樂的藝術，即是《倫理學》卷七第十二章所說的:「烹飪的藝術及敷抹油膏的藝術」 0",
+      "after": "我們後面第五十七題第三節要講到，並非每種善，皆有一種藝術，藝術只管外在之可製作者。關於在我們內的動作和情慾，更好說是屬於機智和德性，而不屬於藝術；不過也有製造快樂的藝術，即是《倫理學》卷七第十二章所說的：「烹飪的藝術及敷抹油膏的藝術」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "快樂是否皆善",
+      "after": "快樂是否皆善",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "有關第二節，我們討論如下:質雄好似快樂都是善的。因為:1.按第一集第五題第六節所說的，利益可以分為三種，即:正當的，有用的，及可樂的。正當的都是善的，有用的也是一樣。所以，快樂也都是善的。2.此外，按《倫理學》卷一第六章說的，凡不是為了他物而被追求者，其本身便是善的;但快樂不是為了他物而被追",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有關第二節，我們討論如下:質雄好似快樂都是善的。因為:1.按第一集第五題第六節所說的，利益可以分為三種，即:正當的，有用的，及可樂的。正當的都是善的，有用的也是一樣。所以，快樂也都是善的。2.此外，按《倫理學》卷一第六章說的，凡不是為了他物而被追求者，其本身便是善的;但快樂不是為了他物而被追",
+          "after": "有關第二節，我們討論如下：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "求(問人為何願意快樂，似乎是件可笑的事)。所以，快樂本身就是善。本然屬於某東西者，乃是普遍地屬於這類東西σ所以，快樂皆是善的c3.此外，大家都願望者，似乎本然就是善的;因為按《倫理學》卷一第一章說的: 「苦乃一切皆追求者」。然而人皆追求一些快樂‘孩童及禽獸也不例外。所以快樂本身就是善的，故凡快樂皆是善的。",
+      "after": "好似快樂都是善的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "求(問人為何願意快樂，似乎是件可笑的事)。所以，快樂本身就是善。本然屬於某東西者，乃是普遍地屬於這類東西σ所以，快樂皆是善的c3.此外，大家都願望者，似乎本然就是善的;因為按《倫理學》卷一第一章說的: 「苦乃一切皆追求者」。然而人皆追求一些快樂‘孩童及禽獸也不例外。所以快樂本身就是善的，故凡快樂皆是善的。",
+          "after": "好似快樂都是善的。因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "",
+      "after": "按第一集第五題第六節所說的，利益可以分為三種，即：正當的，有用的，及可樂的。正當的都是善的，有用的也是一樣。所以，快樂也都是善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "按第一集第五題第六節所說的，利益可以分為三種，即:正當的，有用的，及可樂的。正當的都是善的，有用的也是一樣。所以，快樂也都是善的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "",
+      "after": "此外，按《倫理學》卷一第六章說的，凡不是為了他物而被追求者，其本身便是善的；但快樂不是為了他物而被追求(問人為何願意快樂，似乎是件可笑的事)。所以，快樂本身就是善。本然屬於某東西者，乃是普遍地屬於這類東西。所以，快樂皆是善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，按《倫理學》卷一第六章說的，凡不是為了他物而被追求者，其本身便是善的;但快樂不是為了他物而被追求(問人為何願意快樂，似乎是件可笑的事)。所以，快樂本身就是善。本然屬於某東西者，乃是普遍地屬於這類東西σ所以，快樂皆是善的c",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "東西σ",
+          "after": "東西。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善的c",
+          "after": "善的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "",
+      "after": "此外，大家都願望者，似乎本然就是善的；因為按《倫理學》卷一第一章說的：「善乃一切皆追求者」。然而人皆追求一些快樂，孩童及禽獸也不例外。所以快樂本身就是善的，故凡快樂皆是善的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "此外，大家都願望者，似乎本然就是善的;因為按《倫理學》卷一第一章說的: 「苦乃一切皆追求者」。然而人皆追求一些快樂‘孩童及禽獸也不例外。所以快樂本身就是善的，故凡快樂皆是善的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "「苦乃",
+          "after": "「善乃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "快樂‘",
+          "after": "快樂，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2120
+      ],
+      "before": "《謊言》第二章14節卻說:「喜愛行惡，在邪惡中喜樂的人。」",
+      "after": "《箴言》第二章14節卻說：「喜愛行惡，在邪惡中喜樂的人。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《謊言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2120,
+        2121
+      ],
+      "before": "我解答如下:有些斯多噶派者認為快樂都是惡的，而伊比鳩魯派者則認為快樂本身是善的，所以快樂都是苦的。他們的錯誤，似乎在於未區別絕對的善與相對的善。絕對善的即本身是善的。那本身不是苦的，在兩種情形可能對某人而言是苦的。第一-可因為適合那人此時之不自然的傾向﹒例如:對患噁病者而言，有時喫點毒藥是好事，{旦毒藥對人的自然體質是絕對地不適合。第二，是那本不適宜者，被視為適宜。既然快樂是嗜慾在善上之定止，苦嗜慾所安之善是絕對地善，則是單純的快樂，且是絕對苦的。若其所安之善不是絕對的善，只是對這人是善，~[j快樂也不是單純的，而是相對的;這快樂也不是絕對善的，而是相對地或表面地善。",
+      "after": "我解答如下：有些斯多噶派者認為快樂都是惡的，而伊比鳩魯派者則認為快樂本身是善的，所以快樂都是善的。他們的錯誤，似乎在於未區別絕對的善與相對的善。絕對善的即本身是善的。那本身不是善的，在兩種情形可能對某人而言是善的。第一，因為適合那人此時之不自然的傾向，例如：對患癩病者而言，有時吃點毒藥是好事，但毒藥對人的自然體質是絕對地不適合。第二，是那本不適宜者，被視為適宜。既然快樂是嗜慾在善上之定止，若嗜慾所安之善是絕對地善，則是單純的快樂，且是絕對善的。若其所安之善不是絕對的善，只是對這人是善，則快樂也不是單純的，而是相對的；這快樂也不是絕對善的，而是相對地或表面地善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "都是苦的",
+          "after": "都是善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不是苦的",
+          "after": "不是善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而言是苦的",
+          "after": "而言是善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-可因為",
+          "after": "第一，因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傾向﹒",
+          "after": "傾向，例如PLACEHOLDER",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "例如PLACEHOLDER例如",
+          "after": "例如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "患噁病",
+          "after": "患癩病",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有時喫點",
+          "after": "有時吃點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "苦嗜慾",
+          "after": "若嗜慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "絕對苦的",
+          "after": "絕對善的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~[j",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "i.正當的及有用的是按理性而定;故此，正當的及有用的，沒有不善的。可樂的是按嗜慾而定，而制所求者有時不合理性。所以可樂者在道德上不都是善的，因為道德上的善惡是按理性而定。",
+      "after": "正當的及有用的是按理性而定；故此，正當的及有用的，沒有不善的。可樂的是按嗜慾而定，而嗜慾所求者有時不合理性。所以可樂者在道德上不都是善的，因為道德上的善惡是按理性而定。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而制所求者",
+          "after": "而嗜慾所求者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "快樂之所以不為了他物而被追求，是因快樂是在目前上之定止。目的有善有惡，雖然至少對這人而言是善者始能被視為目的。快樂也是一樣。",
+      "after": "快樂之所以不為了他物而被追求，是因快樂是在目的上之定止。目的有善有惡，雖然至少對這人而言是善者始能被視為目的。快樂也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目前上",
+          "after": "目的上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "既然快樂是嗜慾在善上之定止9故人皆求快樂，正(以人之皆追求善。但所追求之善，不都是本然的和真正的善;同樣，快樂也不皆是本然和真正好的。",
+      "after": "既然快樂是嗜慾在善上之定止，故人皆求快樂，正似人之皆追求善。但所追求之善，不都是本然的和真正的善；同樣，快樂也不皆是本然和真正好的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "定止9",
+          "after": "定止，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正(以",
+          "after": "正似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "有無快樂是完全的善",
+      "after": "有無快樂是完全的善",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "似乎沒有快樂是完全的善(optimum)。因為:",
+      "after": "似乎沒有快樂是完全的善(optimum)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "沒有一種生長是完全的善，因為生長不能是最後目的。但快樂是來自生長;因為前面第三十一題第一節曾說，一(匡東西因達成其天性，便感到快樂。所以，沒有快樂是完全前革。仁1",
+      "after": "沒有一種生長是完全的善，因為生長不能是最後目的。但快樂是來自生長；因為前面第三十一題第一節曾說，一個東西因達成其天性，便感到快樂。所以，沒有快樂是完全的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一(匡",
+          "after": "一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完全前革。仁1",
+          "after": "完全的善。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "此外，那完全善的，無論加上什麼，也不能成為更善的。但快樂加上別的東西可以成為更善的，例如快樂加上德性比無德性更善。所以快樂不是完全的善。",
+      "after": "此外，那完全善的，無論加上什麼，也不能成為更善的。但快樂加上別的東西可以成為更善的，例如快樂加上德性比無德性更善。所以快樂不是完全的善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2121
+      ],
+      "before": "此外，那完全善的是普遍的善，就如本然善的東西;因為本然者，先於並{憂於偶然者。但前面第二節說過，快樂不是普遍的善。所以，快樂不是完全的善。",
+      "after": "此外，那完全善的是普遍的善，就如本然善的東西；因為本然者，先於並優於偶然者。但前面第二節說過，快樂不是普遍的善。所以，快樂不是完全的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並{憂於",
+          "after": "並優於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2122
+      ],
+      "before": "幸褔是完全的善，因為那是人生的目的。但若沒有快樂，便沒有幸福。故《聖詠》第十六篇11節說﹒「唯有在你面前有圓滿的喜悅，永遠在你右邊也是我的福樂(快樂)0 」",
+      "after": "幸福是完全的善，因為那是人生的目的。但若沒有快樂，便沒有幸福。故《聖詠》第十六篇11節說：「唯有在你面前有圓滿的喜悅，永遠在你右邊也是我的福樂(快樂)。 」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "幸褔",
+          "after": "幸福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說﹒",
+          "after": "說：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(快樂)0",
+          "after": "(快樂)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2122
+      ],
+      "before": "我解答如下:柏拉圖不像斯多噶派一樣，認為快樂皆是惡的;也不像伊比鳩魯派一樣，認為快樂皆是善的。他認為有些(快樂)是善的，有些是惡的，但沒有一個(快樂)是至高的或完全的善。看他(柏拉圖)所給的理由，有兩點錯誤。第一，他看到感官及身體上的快樂在於一種動態及生長，例如:飲食之樂等，遂認為快樂皆繫於生長及動態。生長及動態既然是不完美的現實，當然快樂不能具有最後完成之意義。然而在智↑生快樂方面顯然不是這樣。因為一人不只因知識之生長而快樂，例如:在學習時，或在驚奇峙，如前面第三十二題第八節釋疑2.曾說過的;也能因運用已有之知識從事鑑賞而快樂。第二，他所說之「完全的善」'是指那絕對的至高的善，即是那遠離(物質)的善，就如天主之為至高的善，而不指那分有的善。但我們這裡講的是人世間之「完全的善」。每個東西之完全的善即是最後目的。按前面第一題第八節和第二題第七節說的，目的分兩種，即物之體，及物之用，例如:愛財者之目的或是錢財，或是錢財之擇有。故此，人的最後目的可以說是天主，祂是絕對的至高的善;也可以說是享受天主，這含有對最後目的所感到之快樂。按這方式，可以說，人的某種快樂是人所有之善中完全的善。",
+      "after": "我解答如下：柏拉圖不像斯多噶派一樣，認為快樂皆是惡的；也不像伊比鳩魯派一樣，認為快樂皆是善的。他認為有些(快樂)是善的，有些是惡的，但沒有一個(快樂)是至高的或完全的善。看他(柏拉圖)所給的理由，有兩點錯誤。第一，他看到感官及身體上的快樂在於一種動態及生長，例如：飲食之樂等，遂認為快樂皆繫於生長及動態。生長及動態既然是不完美的現實，當然快樂不能具有最後完成之意義。然而在智性快樂方面顯然不是這樣。因為一人不只因知識之生長而快樂，例如：在學習時，或在驚奇時，如前面第三十二題第八節釋疑2.曾說過的；也能因運用己有之知識從事鑑賞而快樂。第二，他所說之「完全的善」，是指那絕對的至高的善，即是那遠離(物質)的善，就如天主之為至高的善，而不指那分有的善。但我們這裡講的是人世間之「完全的善」。每個東西之完全的善即是最後目的。按前面第一題第八節和第二題第七節說的，目的分兩種，即物之體，及物之用，例如：愛財者之目的或是錢財，或是錢財之握有。故此，人的最後目的可以說是天主，祂是絕對的至高的善；也可以說是享受天主，這含有對最後目的所感到之快樂。按這方式，可以說，人的某種快樂是人所有之善中完全的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "驚奇峙",
+          "after": "驚奇時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善」'",
+          "after": "善」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "錢財之擇有",
+          "after": "錢財之握有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已有之知識",
+          "after": "己有之知識",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2122
+      ],
+      "before": "並非所有的快樂，皆隨生長而來，有些快樂是隨完善之動作而來，如正解己說過的。故此，有的快樂可能是完全的善，縱然不都是如此。",
+      "after": "並非所有的快樂，皆隨生長而來，有些快樂是隨完善之動作而來，如正解己說過的。故此，有的快樂可能是完全的善，縱然不都是如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2122,
+        2123
+      ],
+      "before": "所舉之理由是根據那絕對的完全的善，其他的苦都是由祂分得的。只有絕對的完全的善，加上別的善，而不成為更善的;對於其他的善而言，任何一個善加上另一4個善就成為更善的，這倒普遍是真的。但關於德性，也可以說，快樂不是德性之動作以外的東西，而是伴之而生的，如《倫理學》卷一第八章說的。",
+      "after": "所舉之理由是根據那絕對的完全的善，其他的善都是由祂分得的。只有絕對的完全的善，加上別的善，而不成為更善的；對於其他的善而言，任何一個善加上另一個善就成為更善的，這倒普遍是真的。但關於德性，也可以說，快樂不是德性之動作以外的東西，而是伴之而生的，如《倫理學》卷一第八章說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "其他的苦",
+          "after": "其他的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "另一4個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "快樂之為完全的善，不是因了是快樂，而是因了那是基於「完全之善」的完美定止。所以，快樂不必皆是完善的﹒甚而也不必都是善的。就如有的學問是非常善的，但並非都是如此。",
+      "after": "快樂之為完全的善，不是因了是快樂，而是因了那是基於「完全之善」的完美定止。所以，快樂不必皆是完善的，甚而也不必都是善的。就如有的學問是非常善的，但並非都是如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "完善的﹒",
+          "after": "完善的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "快樂是否為判別道德性善惡之尺度或標準",
+      "after": "快樂是否為判別道德性善惡之尺度或標準",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q034.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "快樂似乎不是道德性善惡的尺度或標準。因為:",
+      "after": "快樂似乎不是道德性善惡的尺度或標準。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "《形上學》卷十第一章說:「一切皆以其類別中的第一個為尺度。」但是快樂不是道德類別中的第一個，在它前面有愛及願望。所以快樂不是道德性善惡的標準。",
+      "after": "《形上學》卷十第一章說：「一切皆以其類別中的第一個為尺度。」但是快樂不是道德類別中的第一個，在它前面有愛及願望。所以快樂不是道德性善惡的標準。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "此外，尺度及標準須是一致的;故此，《形上學》卷十第一章說，最一致的動態是其他一切動態的尺度和標準。但快樂是千變萬化的;而且有的是善的，有的是惡的。所以，快樂不是道德之尺度及標準。",
+      "after": "此外，尺度及標準須是一致的；故此，《形上學》卷十第一章說，最一致的動態是其他一切動態的尺度和標準。但快樂是千變萬化的；而且有的是善的，有的是惡的。所以，快樂不是道德之尺度及標準。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2123
+      ],
+      "before": "此外，以原因判斷效果﹒比以效果判斷原因正確。但動作之善惡乃快樂之善惡的原因，因為按《倫理學》卷十第五章說的:「好的快樂是那由好的動作而來的，壞的是由壞的而來。」所以，快樂不是道德性善惡的標準及尺度。",
+      "after": "此外，以原因判斷效果，比以效果判斷原因正確。但動作之善惡乃快樂之善惡的原因，因為按《倫理學》卷十第五章說的：「好的快樂是那由好的動作而來的，壞的是由壞的而來。」所以，快樂不是道德性善惡的標準及尺度。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "效果﹒",
+          "after": "效果，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2123,
+        2124
+      ],
+      "before": "奧斯定解釋《聖詠》第八篇10節那句「公義的天主，惟你洞察肺鵬和人心」'卻說:「謀慮與認知之日的，即人所努力達到之快樂。」哲學家在《倫理學》卷七第十一章也說:「快樂是設計的白的，亦即主要的目的，我們看此目的，便能簡直地說:這個好，那個壞。」",
+      "after": "奧斯定解釋《聖詠》第八篇10節那句「公義的天主，惟你洞察肺腑和人心」，卻說：「謀慮與認知之目的，即人所努力達到之快樂。」哲學家在《倫理學》卷七第十一章也說：「快樂是設計的目的，亦即主要的目的，我們看此目的，便能簡直地說：這個好，那個壞。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "肺鵬",
+          "after": "肺腑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人心」'",
+          "after": "人心」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之日的",
+          "after": "之目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "的白的",
+          "after": "的目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2124
+      ],
+      "before": "我解答如下:道德上的善惡，主要在於意志，前面第二十題第一節已經說過。意志是善是惡，主要看目的;而且的即意志之所安止者;意志以及各種嗜慾定止於善，便是快樂。故此，人是善、是惡，主要在其意志之所樂:以德業為樂者，便是善人及有德的人;以惡事為樂的便是惡人。\n感官嗜慾的快樂，不是道德性善惡之標準。因為按感官嗜慾一般可口的食物，對善人及惡人都一樣可口。但是善人的意志是按理性享用食物之快樂，惡人的意志則不顧理性。",
+      "after": "我解答如下：道德上的善惡，主要在於意志，前面第二十題第一節己經說過。意志是善是惡，主要看目的；而目的即意志之所安止者；意志以及各種嗜慾定止於善，便是快樂。故此，人是善、是惡，主要在其意志之所樂：以德業為樂者，便是善人及有德的人；以惡事為樂的便是惡人。\n感官嗜慾的快樂，不是道德性善惡之標準。因為按感官嗜慾一般可口的食物，對善人及惡人都一樣可口。但是善人的意志是按理性享用食物之快樂，惡人的意志則不顧理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而且的即",
+          "after": "而目的即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2124
+      ],
+      "before": "在生長程序中，愛與願望先於快樂。但按目的之理則快樂在先:目的在行為上具有根本之義，判斷則主要以根本為尺度及標準。",
+      "after": "在生長程序中，愛與願望先於快樂。但按目的之理則快樂在先：目的在行為上具有根本之義，判斷則主要以根本為尺度及標準。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2124
+      ],
+      "before": "快樂也有一致的地方，flIJ皆為在善上之定止。根據這點，它可以當標準或尺度。因為一人的意志，若止於真正善的東西，便是善人;止於惡的東西，便是惡人。",
+      "after": "快樂也有一致的地方，即皆為在善上之定止。根據這點，它可以當標準或尺度。因為一人的意志，若止於真正善的東西，便是善人；止於惡的東西，便是惡人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "flIJ",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q034.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2124
+      ],
+      "before": "前面第三十三題第四節曾說，快樂以目的之方式成全動作。故若非以善為樂，動作便不能是完全善的，因為事物之苦繫於目的。這樣看來，快樂之善多少是動作之善的原因。",
+      "after": "前面第三十三題第四節曾說，快樂以目的之方式成全動作。故若非以善為樂，動作便不能是完全善的，因為事物之善繫於目的。這樣看來，快樂之善多少是動作之善的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "事物之苦",
+          "after": "事物之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    }
+  ]
+}
