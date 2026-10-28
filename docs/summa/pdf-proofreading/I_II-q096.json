@@ -1,0 +1,1867 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q096",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q096",
+    "title": "論人爲法律之權力",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2788,
+      2789,
+      2790,
+      2791,
+      2792,
+      2793,
+      2794,
+      2795,
+      2796,
+      2797,
+      2798,
+      2799
+    ],
+    "printed_pages": [
+      59,
+      70
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 72,
+    "changed_review_units": 50,
+    "checked_unchanged_review_units": 23
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q96.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q96.json": "af58d32107404d03e3ae416703166524340a51d1e4522889c86632c804b271d5"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q096.a004.ad3",
+      "pdf_file_page": 2795,
+      "text": "惡表。。",
+      "status": "suspected_source_print_error",
+      "action": "原页末尾确有连续两个句号，疑重复印点，按底本保留。"
+    },
+    {
+      "id": "I_II.q096.a005.ad3",
+      "pdf_file_page": 2797,
+      "text": "第二十二章3節",
+      "status": "suspected_source_print_error",
+      "action": "原页确作第二十二章3节，疑引文编号印误，按底本保留。"
+    },
+    {
+      "id": "I_II.q096.a003.ad3",
+      "pdf_file_page": 2793,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q096.a005.ad1",
+      "pdf_file_page": 2797,
+      "text": "己刻",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部12页、6节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q096.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "然後要討論的是人為的法律之權力(參看第九十五題引關於這點，可以提出六個問題:\n一、人為法律是否該是廣泛性的。\n二、人為法律是否該禁絕一切惡習。\n三、人為法律是否該責成一切德性。\n四、人為法律是否約束人的良心。\n五、是否凡人皆屬於人為法律的權下。\n六、屬於法律權下者，是否可以不守法律的字面意義。",
+      "after": "然後要討論的是人為的法律之權力(參看第九十五題引言)。關於這點，可以提出六個問題：\n一、人為法律是否該是廣泛性的。\n二、人為法律是否該禁絕一切惡習。\n三、人為法律是否該責成一切德性。\n四、人為法律是否約束人的良心。\n五、是否凡人皆屬於人為法律的權下。\n六、屬於法律權下者，是否可以不守法律的字面意義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第九十五題引關於",
+          "after": "第九十五題引言)。關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "人為法律是否該是廣泛性的，而不該是個別性的",
+      "after": "人為法律是否該是廣泛性的，而不該是個別性的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "人爵的法律似乎不該是廣泛性的，而該是個別性的。因為:",
+      "after": "人為的法律似乎不該是廣泛性的，而該是個別性的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人爵",
+          "after": "人為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "哲學家在《倫理學》卷五第七章說:「法律規定的，包括法律有關個別事件之一切規定，以及判例」;後者也是關於個月IJ事件的，因為宣判是關於個別之行為的。所以法律不只是廣泛性的，也是個別性的。",
+      "after": "哲學家在《倫理學》卷五第七章說：「法律規定的，包括法律有關個別事件之一切規定，以及判例」；後者也是關於個別事件的，因為宣判是關於個別之行為的。所以法律不只是廣泛性的，也是個別性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "個月IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2788
+      ],
+      "before": "此外，按前面第九十題第一及第二節所說的，法律是指導人之行動的。但人的行動是個別事件。所以法律不該是廣泛性的，而該是個別性的。",
+      "after": "此外，按前面第九十題第一及第二節所說的，法律是指導人之行動的。但人的行動是個別事件。所以法律不該是廣泛性的，而該是個別性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2788,
+        2789
+      ],
+      "before": "此外，前面第九十題第一及第二節曾說，法律是人之行為的規矩和尺度。但按《形上學》卷十第一章所說的，尺度該是非常確定的。既然在人的行為方面，不可能有毫無例外之普遍確定的事情，故似乎法律該是個別性的，而不能是廣泛性的。",
+      "after": "此外，前面第九十題第一及第二節曾說，法律是人之行為的規矩和尺度。但按《形上學》卷十第一章所說的，尺度該是非常確定的。既然在人的行為方面，不可能有毫無例外之普遍確定的事情，故似乎法律該是個別性的，而不能是廣泛性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2789
+      ],
+      "before": "法律學家《羅馬法律類編》卷一第三題第三及第四(鹿說: 「關於經常發生的事該訂立法律，關於可能偶而一次發生的事，不訂立法律。」",
+      "after": "法律學家《羅馬法律類編》卷一第三題第三及第四條說：「關於經常發生的事該訂立法律，關於可能偶而一次發生的事，不訂立法律。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四(鹿說",
+          "after": "第四條說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2789
+      ],
+      "before": "我解答如下:凡是指向目的者，必須與目的相配合。法律的目的，是公共利益(bonum commune);正如依希道在《語源學》卷二第十章及卷五第二十-章所說的: 「訂立法律不該是為了私人的利益，而該是為了國民的公共利益。」所以人為的法律該與公共利益相配合。公共利益包括許多事情。所以法律該按人、事情和時間，顧慮到許多方面的問題。因為一個國家是由許多人構成的，國家的利益要由許多行動來達成。而按奧斯定在《天主之城》卷二十二第六章所說的，國家也不是為了一個短時期的存在而建立的，而是要在國民的延續下，萬世常存。",
+      "after": "我解答如下：凡是指向目的者，必須與目的相配合。法律的目的，是公共利益(bonum commune)；正如依希道在《語源學》卷二第十章及卷五第二十一章所說的：「訂立法律不該是為了私人的利益，而該是為了國民的公共利益。」所以人為的法律該與公共利益相配合。公共利益包括許多事情。所以法律該按人、事情和時間，顧慮到許多方面的問題。因為一個國家是由許多人構成的，國家的利益要由許多行動來達成。而按奧斯定在《天主之城》卷二十二第六章所說的，國家也不是為了一個短時期的存在而建立的，而是要在國民的延續下，萬世常存。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二十-章",
+          "after": "第二十一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2789,
+        2790
+      ],
+      "before": "哲學家在《倫理學》卷五第七章，將公平法律或成文法所規定的，分為三部分。有的是一般廣泛性的，這是普通的法律。關於法律的這種規定，他說: 「所謂法律規定的，原來採取這個方式或別個方式，並沒有什麼差別;但既經規定後，便有了差別。」例如:奴隸應以某數目的贖金贖身。有的規定一面是廣泛性的，一面是個別性的。這種法律稱為「特權」(privilegia)，好似是「私人的法律」(leges privatae)，這些法律只是關於某些個別人物的，但是其權力卻擴及許多事情。關於這些，他接著說: 「還有那些在個別法律中所規定的」。最後，所謂法律規定的，不是因為那是法律，而是普通法律對個別事件之貼用，例如:「判決」(sententiae)也有法律之致力。故此，他也提到時IJ例J(sententiae)。",
+      "after": "哲學家在《倫理學》卷五第七章，將公平法律或成文法所規定的，分為三部分。有的是一般廣泛性的，這是普通的法律。關於法律的這種規定，他說：「所謂法律規定的，原來採取這個方式或別個方式，並沒有什麼差別；但既經規定後，便有了差別。」例如：奴隸應以某數目的贖金贖身。有的規定一面是廣泛性的，一面是個別性的。這種法律稱為「特權」(privilegia)，好似是「私人的法律」(leges privatae)，這些法律只是關於某些個別人物的，但是其權力卻擴及許多事情。關於這些，他接著說：「還有那些在個別法律中所規定的」。最後，所謂法律規定的，不是因為那是法律，而是普通法律對個別事件之貼用，例如：「判決」(sententiae)也有法律之效力。故此，他也提到「判例」(sententiae)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之致力",
+          "after": "之效力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "時IJ例J",
+          "after": "「判例」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "凡是指導標準，都該是許多東西之指導標準。為此哲學家在《形上學》卷十第一章說，凡屬於同一類的東西，皆以這類東西中的第一個為標準。如果有多少被度量或被規範者，便有多少尺度或規矩，規矩或尺度便失去了意義;因為規矩之為用，就在於藉一個來認知許多個。所以，如果法律只管一個單一的行動，法律便沒有用了。為指導單一的行動，有智者之單一司11示;而按前面第九十二題第二節質疑1說的，法律是「一般性的訓令」。",
+      "after": "凡是指導標準，都該是許多東西之指導標準。為此哲學家在《形上學》卷十第一章說，凡屬於同一類的東西，皆以這類東西中的第一個為標準。如果有多少被度量或被規範者，便有多少尺度或規矩，規矩或尺度便失去了意義；因為規矩之為用，就在於藉一個來認知許多個。所以，如果法律只管一個單一的行動，法律便沒有用了。為指導單一的行動，有智者之單一訓示；而按前面第九十二題第二節質疑1說的，法律是「一般性的訓令」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "司11示",
+          "after": "訓示",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "《倫理學》卷一第三章說:「不能對一切事要求同樣的確定性。」故在像自然界和人間的偶然事物方面，只要在多數情形合於真理，雖然在少數情形不合，也就足夠了。",
+      "after": "《倫理學》卷一第三章說：「不能對一切事要求同樣的確定性。」故在像自然界和人間的偶然事物方面，只要在多數情形合於真理，雖然在少數情形不合，也就足夠了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "人為法律是否該禁絕一切惡習",
+      "after": "人為法律是否該禁絕一切惡習",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "人為的法律似乎該禁絕一切惡習。因為:",
+      "after": "人為的法律似乎該禁絕一切惡習。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "依希道在《語源學》卷五第二十章說:「法律之制訂，是為藉敬畏法律壓制人的輕狂。」如果法律不禁絕一切罪惡，貝IJ壓制之效用有限。所以人為的法律該禁絕一切罪惡。",
+      "after": "依希道在《語源學》卷五第二十章說：「法律之制訂，是為藉敬畏法律壓制人的輕狂。」如果法律不禁絕一切罪惡，則壓制之效用有限。所以人為的法律該禁絕一切罪惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "此外，立法者的目的，是要使國民成為有德之人。但人若不離開一切惡習，不能成為有德之人。所以人為的法律該禁絕一切惡習。",
+      "after": "此外，立法者的目的，是要使國民成為有德之人。但人若不離開一切惡習，不能成為有德之人。所以人為的法律該禁絕一切惡習。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2790
+      ],
+      "before": "此外，按前面第九十五題第二節所說的，人為的法律源於自然法律。但凡惡習皆違反自然法律。所以人為的法律該禁絕一切惡習。",
+      "after": "此外，按前面第九十五題第二節所說的，人為的法律源於自然法律。但凡惡習皆違反自然法律。所以人為的法律該禁絕一切惡習。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2791
+      ],
+      "before": "奧斯定的《論自由意志》卷一第五章上說:「那為治理人民所寫的法律，圈可容許這些;而神的安排，也要有其報復。」但是天主的措施所報復的只能是惡習。所以人為的法律可以容忍一些惡習，不加以禁止。",
+      "after": "奧斯定的《論自由意志》卷一第五章上說：「那為治理人民所寫的法律，固可容許這些；而神的安排，也要有其報復。」但是天主的措施所報復的只能是惡習。所以人為的法律可以容忍一些惡習，不加以禁止。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "圈可",
+          "after": "固可",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2791
+      ],
+      "before": "我解答如下:前面第九十題第一及第二節曾說，法律是人性行動的一種規矩和尺度。按《形上學》卷十第一章所說的，尺度與被度量者的性質該是相同的;不同的東西﹒接受不同尺度的度量。所以，為人訂的法律也該適合人的條件。故此依希道《語源學》卷二第十章、卷五第二十一章說，法律該「按人性及當地風俗習慣為可能的。」但是行動之能力來自內在之習性或配備，有德性者與無德性者的能力不一樣，孩童與成年人的能力也不一樣。所以為孩童訂的法律與為成年人訂的法律不同，因為有許多事準許孩童去做，成年人若做這些事便受到法律的處罰或受申斥。同樣，許多在沒有德性的人身上可以容許的事，在有德性的人身上則不能容許。\n人為的法律是針對大眾的，其中大部分都不是十全十美的人。所以法律不禁止有德性的人所避免的一切惡習，只禁止大部分人有能力避免之比較重大的惡習;特別是那些對他人有害的，若不加以禁止，社會便無法維持，例如人為的法律禁止殺人和偷竊等事。",
+      "after": "我解答如下：前面第九十題第一及第二節曾說，法律是人性行動的一種規矩和尺度。按《形上學》卷十第一章所說的，尺度與被度量者的性質該是相同的；不同的東西，接受不同尺度的度量。所以，為人訂的法律也該適合人的條件。故此依希道《語源學》卷二第十章、卷五第二十一章說，法律該「按人性及當地風俗習慣為可能的。」但是行動之能力來自內在之習性或配備，有德性者與無德性者的能力不一樣，孩童與成年人的能力也不一樣。所以為孩童訂的法律與為成年人訂的法律不同，因為有許多事準許孩童去做，成年人若做這些事便受到法律的處罰或受申斥。同樣，許多在沒有德性的人身上可以容許的事，在有德性的人身上則不能容許。\n人為的法律是針對大眾的，其中大部分都不是十全十美的人。所以法律不禁止有德性的人所避免的一切惡習，只禁止大部分人有能力避免之比較重大的惡習；特別是那些對他人有害的，若不加以禁止，社會便無法維持，例如人為的法律禁止殺人和偷竊等事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西﹒",
+          "after": "東西，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2791
+      ],
+      "before": "這裡所謂「輕狂」(audacia)，是指侵犯他人的行為，也就是對他人有害的行為;這些行為是在人為法律所禁止之例(正解)。",
+      "after": "這裡所謂「輕狂」(audacia)，是指侵犯他人的行為，也就是對他人有害的行為；這些行為是在人為法律所禁止之例(正解)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2791,
+        2792
+      ],
+      "before": "人為的法律是要使人成為有德之人，但不是要一蹦而幾，而是慢慢地。所以不要求不完美的大眾，像有德性的人一樣，立刻戒絕一切惠事。否則的話，力有不濟的人，不能忍受這些法律，會陷於更大的罪惡。就如《敢言》第三十章33節所說的:「用力揖鼻，可流鮮血」;《瑪竇福音》第九章17節也說:「新酒」'意即完善生活之訓令，「若裝入舊皮囊裡」'即加在不完善的人身上，「皮囊將破裂，泊也要流失」'即是訓令受到輕視，而人反而因輕視(訓令)變得更壞。",
+      "after": "人為的法律是要使人成為有德之人，但不是要一蹴而幾，而是慢慢地。所以不要求不完美的大眾，像有德性的人一樣，立刻戒絕一切惡事。否則的話，力有不濟的人，不能忍受這些法律，會陷於更大的罪惡。就如《箴言》第三十章33節所說的：「用力擰鼻，可流鮮血」；《瑪竇福音》第九章17節也說：「新酒」，意即完善生活之訓令，「若裝入舊皮囊裡」，即加在不完善的人身上，「皮囊將破裂，酒也要流失」，即是訓令受到輕視，而人反而因輕視(訓令)變得更壞。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一蹦而幾",
+          "after": "一蹴而幾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一切惠事",
+          "after": "一切惡事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "敢言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "揖鼻",
+          "after": "擰鼻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "新酒」'",
+          "after": "新酒」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皮囊裡」'",
+          "after": "皮囊裡」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "泊也",
+          "after": "酒也",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "流失」'",
+          "after": "流失」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "自然法律乃是我們身上分得的永恆之法律，人為的法律則與永恆之法律有距離。奧斯定在《論自由意志》卷一第五章說:「那為了治理邦國而制訂的法律，對許多事加以容許而不予懲罰，但那些事終有天主安排的報應。因為我們並不能由於法律沒有什麼都做，就對它所做的也加以指責。」所以，人為的法律不能禁止自然法律所禁止的一切事。",
+      "after": "自然法律乃是我們身上分得的永恆之法律，人為的法律則與永恆之法律有距離。奧斯定在《論自由意志》卷一第五章說：「那為了治理邦國而制訂的法律，對許多事加以容許而不予懲罰，但那些事終有天主安排的報應。因為我們並不能由於法律沒有什麼都做，就對它所做的也加以指責。」所以，人為的法律不能禁止自然法律所禁止的一切事。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "人為法律是否責成一切德性",
+      "after": "人為法律是否責成一切德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "人為法律似乎不責成一切德性。因為:",
+      "after": "人為法律似乎不責成一切德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "惡習之行動與{惡性之行動相反。但是上面第二節曾說，人為的法律不禁止一切惡習。所以，人為的法律也不責成一切f惡性之行動或德行。",
+      "after": "惡習之行動與德性之行動相反。但是上面第二節曾說，人為的法律不禁止一切惡習。所以，人為的法律也不責成一切德性之行動或德行。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "f惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "此外，德性來自德性;但德性是法律之目的，所以出於1惡性者不能是屬於法律的權下。故人為的法律不責成一切德性之行動或德行。",
+      "after": "此外，德性來自德性；但德性是法律之目的，所以出於德性者不能是屬於法律的權下。故人為的法律不責成一切德性之行動或德行。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "此外，前面第九十題第二節曾說，法律是指向公共利益的。但有些德性之行動不指向公共利益，而指向私人的利益。所以法律不責成一切德性之行動或德行。",
+      "after": "此外，前面第九十題第二節曾說，法律是指向公共利益的。但有些德性之行動不指向公共利益，而指向私人的利益。所以法律不責成一切德性之行動或德行。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2792
+      ],
+      "before": "哲學家在《倫理學》卷五第一章說:「法律命人做勇者的事情，做有節制者的事情，和溫良者的事情;關於其他德性和罪惡也是一樣，責成前者，禁絕後者。」",
+      "after": "哲學家在《倫理學》卷五第一章說：「法律命人做勇者的事情，做有節制者的事情，和溫良者的事情；關於其他德性和罪惡也是一樣，責成前者，禁絕後者。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "我解答如下:根據之前第五十四題第二節、第六十題第一節、第六十二題第二節所說的可以知道，德性是按對象分類。德性的一切對象，或者與某私人的利益有關係，或者與大眾的公共利益有關係。就如一人做勇敢的事情，能是為了保衛國家，也能是為了保護他朋友的權利;在其他事上也是一樣。按上面第九十題第二節所說的，法律是指向公共利益的。所以，沒有任何德性，其行動不能受法律的管制。但是人為的法律並不責成一切德性的一切行動，只責成那些指向公共利益者，或直接關係公共利益者，如那直接為了公共利益而去做的;或是間接地，就如立法者規定一些有關良好教育者，為使國民練習尊重正義及和平之公益。",
+      "after": "我解答如下：根據之前第五十四題第二節、第六十題第一節、第六十二題第二節所說的可以知道，德性是按對象分類。德性的一切對象，或者與某私人的利益有關係，或者與大眾的公共利益有關係。就如一人做勇敢的事情，能是為了保衛國家，也能是為了保護他朋友的權利；在其他事上也是一樣。按上面第九十題第二節所說的，法律是指向公共利益的。所以，沒有任何德性，其行動不能受法律的管制。但是人為的法律並不責成一切德性的一切行動，只責成那些指向公共利益者，或直接關係公共利益者，如那直接為了公共利益而去做的；或是間接地，就如立法者規定一些有關良好教育者，為使國民練習尊重正義及和平之公益。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "法律不以訓令之約束力禁絕一切惡習之行動，也不責成一切德性之行動。但是法律禁止某些個別惡習之行動，也責成某些個別德性之行動。",
+      "after": "法律不以訓令之約束力禁絕一切惡習之行動，也不責成一切德性之行動。但是法律禁止某些個別惡習之行動，也責成某些個別德性之行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "所謂德性之行動有兩種意義。一是指人行合於德性的事，就如:正義之行動是做正當的事，勇敢之行動是做勇敢的事。按這種意義，法律責令德性之一些行動。另一意義是指人以有德性的人之方式，做合於德性的事。這種行動常是出於德性，這不屬於法律的權下，而是立法者想要達到的目的。",
+      "after": "所謂德性之行動有兩種意義。一是指人行合於德性的事，就如：正義之行動是做正當的事，勇敢之行動是做勇敢的事。按這種意義，法律責令德性之一些行動。另一意義是指人以有德性的人之方式，做合於德性的事。這種行動常是出於德性，這不屬於法律的權下，而是立法者想要達到的目的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "如正解己說過的，沒有什麼德性，其行動不能指向公共利益，或者是直接地，或者是間接地。",
+      "after": "如正解己說過的，沒有什麼德性，其行動不能指向公共利益，或者是直接地，或者是間接地。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "人為法律是否約束人的良心",
+      "after": "人為法律是否約束人的良心",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2793
+      ],
+      "before": "人為的法律似乎不約束人的良心。因為:",
+      "after": "人為的法律似乎不約束人的良心。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2793,
+        2794
+      ],
+      "before": "下級的權力不能對屬於上級權力的判斷訂立法律。但是訂立人為法律的人之權力，低於天主的權力。所以人為的法律不能對屬於天主權力的判斷一一即良心的判斷一一訂立法律。",
+      "after": "下級的權力不能對屬於上級權力的判斷訂立法律。但是訂立人為法律的人之權力，低於天主的權力。所以人為的法律不能對屬於天主權力的判斷——即良心的判斷——訂立法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "判斷一一即良心的判斷一一",
+          "after": "判斷——即良心的判斷——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2794
+      ],
+      "before": "此外，良心的判斷主要繫於天主的誡命。但是有時人為的法律破壞天主的誡命，就如《瑪竇福音》第十五章6節所說的:「為了你們的傳授，廢棄了天主的誡命。」所以，人為的法律不能約束人的良心。",
+      "after": "此外，良心的判斷主要繫於天主的誡命。但是有時人為的法律破壞天主的誡命，就如《瑪竇福音》第十五章6節所說的：「為了你們的傳授，廢棄了天主的誡命。」所以，人為的法律不能約束人的良心。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2794
+      ],
+      "before": "此外，人為的法律有時會使人受到侮辱和傷害;就如《依撒意亞》第十章l節所說的:「禍哉，那些制定不義的法例，記錄不義的斷案，為屈拉小氏的案件，剝削我窮氏的權利。」但是每人都有權利逃避壓迫和強暴。所以，人為的法律不約束人的良心。",
+      "after": "此外，人為的法律有時會使人受到侮辱和傷害；就如《依撒意亞》第十章1節所說的：「禍哉，那些制定不義的法例，記錄不義的斷案，為屈枉小民的案件，剝削我窮民的權利。」但是每人都有權利逃避壓迫和強暴。所以，人為的法律不約束人的良心。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十章l節",
+          "after": "第十章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "屈拉小氏",
+          "after": "屈枉小民",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "窮氏",
+          "after": "窮民",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2794
+      ],
+      "before": "《伯多祿前書》第二章19節卻說:「誰若因為良心之故，而忍受不義的痛苦，這纔是中悅天主的事。」",
+      "after": "《伯多祿前書》第二章19節卻說：「誰若因為良心之故，而忍受不義的痛苦，這才是中悅天主的事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2794,
+        2795
+      ],
+      "before": "我解答如下:人昂的法律或是公正合理的，或不是公正合理的。如果是公正合理的，貝IJ因了是本於永恆之法律而具有約束良心的力量，就如《儀言》第八章的節所說的:「藉著我，君王執政，元首秉公行義。」說法律是公正合理的，一是看目的，即法律是指向公共利益;一是看立法者，即所訂立之法律不超出立法者之權力;一是看形式，即為了公益而加給屬下的負擔是相稱公平的。既然每人皆是社會的一員，他所有的皆屬於社會，正如部分之屬於整體。是以，連大自然為了挽救整體，也犧牲部分。故此，相稱地(proportionabi1iter)分配負擔的法律是公平合理的，有約束良心的效力，是合法的法律。\n非公平合理的法律有兩種，一種按上述之三點與人的利益相反:在目的方面，如首長加給屬下的負擔，與公共利益無關，而是為了他私人的貪心和虛榮;在立法者方面，如果所訂立之法律超出立法者之權限;在形式方面，如加給屬下的負擔，雖然對公益有利，但分配得不公平。這種法律是強暴，而不能稱為法律;正如奧斯定在《論自由意志》卷一第五章所說的:「非公平合理的法律，不能稱為法律。」故這些法律對良心沒有約束能力，除非是為了避免惡表和動亂。這時按《瑪竇福音》第五章心節所說的，人該放棄自己的樹IJ:「若有人強迫你走一千步，你就同他走兩千步;拿你的內衣的，你連外衣也讓蛤他。」\n另一種非公平合理的法律，是因為與天主的利益相反，例如:暴君的法律強迫人拜邪神，或做其他違反天主之法律的事。這種法律絕對不可遵守，因為《宗徒大事錄》第五章29節說:「聽天主的命應勝過聽人的命」\n0",
+      "after": "我解答如下：人為的法律或是公正合理的，或不是公正合理的。如果是公正合理的，則因了是本於永恆之法律而具有約束良心的力量，就如《箴言》第八章15節所說的：「藉著我，君王執政，元首秉公行義。」說法律是公正合理的，一是看目的，即法律是指向公共利益；一是看立法者，即所訂立之法律不超出立法者之權力；一是看形式，即為了公益而加給屬下的負擔是相稱公平的。既然每人皆是社會的一員，他所有的皆屬於社會，正如部分之屬於整體。是以，連大自然為了挽救整體，也犧牲部分。故此，相稱地(proportionabiliter)分配負擔的法律是公平合理的，有約束良心的效力，是合法的法律。\n非公平合理的法律有兩種，一種按上述之三點與人的利益相反：在目的方面，如首長加給屬下的負擔，與公共利益無關，而是為了他私人的貪心和虛榮；在立法者方面，如果所訂立之法律超出立法者之權限；在形式方面，如加給屬下的負擔，雖然對公益有利，但分配得不公平。這種法律是強暴，而不能稱為法律；正如奧斯定在《論自由意志》卷一第五章所說的：「非公平合理的法律，不能稱為法律。」故這些法律對良心沒有約束能力，除非是為了避免惡表和動亂。這時按《瑪竇福音》第五章40節所說的，人該放棄自己的權利：「若有人強迫你走一千步，你就同他走兩千步；拿你的內衣的，你連外衣也讓給他。」\n另一種非公平合理的法律，是因為與天主的利益相反，例如：暴君的法律強迫人拜邪神，或做其他違反天主之法律的事。這種法律絕對不可遵守，因為《宗徒大事錄》第五章29節說：「聽天主的命應勝過聽人的命」。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人昂",
+          "after": "人為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "儀言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第八章的節",
+          "after": "第八章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "proportionabi1iter",
+          "after": "proportionabiliter",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第五章心節",
+          "after": "第五章40節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "樹IJ",
+          "after": "權利",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "讓蛤他",
+          "after": "讓給他",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "聽人的命」\n0",
+          "after": "聽人的命」。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "正如宗徒在《羅馬書》第十三章l節所說的:「所有的權柄都是由天主規定的。」所以，誰在合於權限的事上「反抗權柄，就是反抗天主的規定」。所以，他在良心上是有罪的。",
+      "after": "正如宗徒在《羅馬書》第十三章1節所說的：「所有的權柄都是由天主規定的。」所以，誰在合於權限的事上「反抗權柄，就是反抗天主的規定」。所以，他在良心上是有罪的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十三章l節",
+          "after": "第十三章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "所舉之理由是根據違反天主之誡命的人為法律。這是超出了權力的範園。故此，不該遵守這些法律。",
+      "after": "所舉之理由是根據違反天主之誡命的人為法律。這是超出了權力的範圍。故此，不該遵守這些法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "範園",
+          "after": "範圍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "這裡所舉的理由是根據加給屬下非公平合理之負擔的法律，這也超出了天主所賜給人的權限。人沒有責任遵守這些法律，除非為了避免更大的害處或惡表。。",
+      "after": "這裡所舉的理由是根據加給屬下非公平合理之負擔的法律，這也超出了天主所賜給人的權限。人沒有責任遵守這些法律，除非為了避免更大的害處或惡表。。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "是否凡人皆屬於法律權下",
+      "after": "是否凡人皆屬於法律權下",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "似乎不是凡人皆屬於法律的權下。因為:",
+      "after": "似乎不是凡人皆屬於法律的權下。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2795
+      ],
+      "before": "為誰立的法律，誰才屬於這個法律的權下。但是宗徒在《弟茂德前書》第一章9節說:「法律不是為義人立的」。所以，義人不屬於人為法律的權下。",
+      "after": "為誰立的法律，誰才屬於這個法律的權下。但是宗徒在《弟茂德前書》第一章9節說：「法律不是為義人立的」。所以，義人不屬於人為法律的權下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2795,
+        2796
+      ],
+      "before": "此外，《教會法律類編》第十九編第二題記載，教宗伍朋三世(Urbanus凹，1185---1187)說: 「受私法指導的人，沒有理由受公法之管制。」凡是屬神的人，即天主的子女，皆受聖神的私法指導，就如《羅馬書》第八章14節所說的: 「凡受天主聖神引導的，都是天主的子女」。所以，不是凡人都屬於人為法律的權下。",
+      "after": "此外，《教會法律類編》第十九編第二題記載，教宗伍朋三世(Urbanus III，1185～1187)說：「受私法指導的人，沒有理由受公法之管制。」凡是屬神的人，即天主的子女，皆受聖神的私法指導，就如《羅馬書》第八章14節所說的：「凡受天主聖神引導的，都是天主的子女」。所以，不是凡人都屬於人為法律的權下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Urbanus凹，1185---1187",
+          "after": "Urbanus III，1185～1187",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2796
+      ],
+      "before": "此外，法律學家《羅馬法律類編》卷一第三題第三十一條說: 「元首不受法律的管制」。不受法律管制的，便不在法律的權下。所以，不是凡人皆屬於法律的權下。",
+      "after": "此外，法律學家《羅馬法律類編》卷一第三題第三十一條說：「元首不受法律的管制」。不受法律管制的，便不在法律的權下。所以，不是凡人皆屬於法律的權下。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2796
+      ],
+      "before": "宗徒在《羅馬書》第十三章l節說: 「每人要服從上級有權柄的人。」若不服從有權柄的人所訂的法律，似乎就不是服從有權柄的人。所以，凡人都該屬於人為法律的權下。",
+      "after": "宗徒在《羅馬書》第十三章1節說：「每人要服從上級有權柄的人。」若不服從有權柄的人所訂的法律，似乎就不是服從有權柄的人。所以，凡人都該屬於人為法律的權下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十三章l節",
+          "after": "第十三章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2796,
+        2797
+      ],
+      "before": "我解答如下:由前面第九十題第一及第二節、第三節釋疑2.所說的可以知道，法律按理具有兩種性質:首先，它是人行為的標準;第二，它具有強制的能力。所以，人有兩種屬於法律之權下的方式。第一方式，如被規範者與規範之關係。按這意義，凡屬於他人權柄之下者，皆屬於這權柄所訂的法律之下。人之不屬於某權柄之下，有兩種情形。一種是完全不受該權力之管制。故此，屬於某國某邦的人，不屬於另一園、邦之君王的管制，故也不守其法律。第二種方式是由於一人屬於更高之法律的管制，例如:外省長官的屬下，應聽外省長官之命令，但在由皇帝直接管理的事上則不服從外省長宮。因為在這些事上，既受高級命令之管制，便不受下級命令之管制。按這意義，一個大體上屬於法律權下的，能在某方面不受法律之管制，即如果他是受高級法律之管制。\n人在法律之權下的另一方式，是按受強迫者與強制者之關係。按這意義，有德性的人和義人不屬於法律的權下，只有惡人屬於法律的權下。強制和強迫與意志相反。善人的意志與法律相合，而惡人的意志與法律相背。故此按這意義，善人不在法律的權下，只有惡人是在法律的權下。",
+      "after": "我解答如下：由前面第九十題第一及第二節、第三節釋疑2.所說的可以知道，法律按理具有兩種性質：首先，它是人行為的標準；第二，它具有強制的能力。所以，人有兩種屬於法律之權下的方式。第一方式，如被規範者與規範之關係。按這意義，凡屬於他人權柄之下者，皆屬於這權柄所訂的法律之下。人之不屬於某權柄之下，有兩種情形。一種是完全不受該權力之管制。故此，屬於某國某邦的人，不屬於另一國、邦之君王的管制，故也不守其法律。第二種方式是由於一人屬於更高之法律的管制，例如：外省長官的屬下，應聽外省長官之命令，但在由皇帝直接管理的事上則不服從外省長官。因為在這些事上，既受高級命令之管制，便不受下級命令之管制。按這意義，一個大體上屬於法律權下的，能在某方面不受法律之管制，即如果他是受高級法律之管制。\n人在法律之權下的另一方式，是按受強迫者與強制者之關係。按這意義，有德性的人和義人不屬於法律的權下，只有惡人屬於法律的權下。強制和強迫與意志相反。善人的意志與法律相合，而惡人的意志與法律相背。故此按這意義，善人不在法律的權下，只有惡人是在法律的權下。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另一園",
+          "after": "另一國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "長宮",
+          "after": "長官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2797
+      ],
+      "before": "所舉之理由是根據強制性的從屬。如此則「法律不是為義人立的」。因為按宗徒在《羅馬書》第二章14及的節所說的，他們「自己對自己就是法律」'因為他們「證明瞭法律的精華巳刻在他們心上」。故此，法律在他們身上沒有強制力，對惡人才有強制力。",
+      "after": "所舉之理由是根據強制性的從屬。如此則「法律不是為義人立的」。因為按宗徒在《羅馬書》第二章14及15節所說的，他們「自己對自己就是法律」，因為他們「證明了法律的精華己刻在他們心上」。故此，法律在他們身上沒有強制力，對惡人才有強制力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "14及的節",
+          "after": "14及15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "就是法律」'",
+          "after": "就是法律」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "證明瞭",
+          "after": "證明了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "巳刻",
+          "after": "己刻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2797
+      ],
+      "before": "天主聖神的法律高於一切人為的法律。所以屬神的人，既有聖神的法律的引導，在對聖神有妨礙的方面，不受法律的管制。但是聖神的引導也使屬神的人服從人為的法律，就如《伯多祿前書》第二章13節所說的:「你們要為主的緣故，服從人立的一切制度。」",
+      "after": "天主聖神的法律高於一切人為的法律。所以屬神的人，既有聖神的法律的引導，在對聖神有妨礙的方面，不受法律的管制。但是聖神的引導也使屬神的人服從人為的法律，就如《伯多祿前書》第二章13節所說的：「你們要為主的緣故，服從人立的一切制度。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2797,
+        2798
+      ],
+      "before": "所謂元首不受法律的管制，是指法律的強制。因為嚴格地說，誰也不能強迫自己;而法律之有強制的能力，是由於元首的權力。所以，所謂元首不受法律的管制，是說他若不守法律，沒有人能判他的罪刑。為此，關於《聖詠》第五十篇6節那句:「我得罪了你，惟獨得罪了你」'「註解」(拉丁通行本註解)仁說:「國王之上，沒有人能判斷閻王的行為」。但是對法律的指導能力，元首要自動地服從，就如《教會法律類編增補》(Extra Decretum Gratiana)<法制篇)(de Constitutionibus)「諸凡」(cum omnes)一章中說:「誰為他人訂了法律，自己也該遵守」(《教宗額我略九世諭令集》卷一第二章);又賢哲(按:可能指Dionysius Cato)之權威說:「你要奉行你自己訂的法律」。按《瑪竇褔音》第二十三章3節所說的，主也譴責那些「只說不做的人」'他們「把沉重而難以負荷的擔子拍好，放在人的肩上，自己卻不肯用一個指頭動一下。」故針對天主的判斷來說，元首也不能逃避法律的指導作用;他該自動地，不須人強制地去守法。在另一方面，元首也可以說是高於法律的，因為在必要時，他可以改變法律，或按時地的特殊情況給予豁免。",
+      "after": "所謂元首不受法律的管制，是指法律的強制。因為嚴格地說，誰也不能強迫自己；而法律之有強制的能力，是由於元首的權力。所以，所謂元首不受法律的管制，是說他若不守法律，沒有人能判他的罪刑。為此，關於《聖詠》第五十篇6節那句：「我得罪了你，惟獨得罪了你」，「註解」(拉丁通行本註解)上說：「國王之上，沒有人能判斷國王的行為」。但是對法律的指導能力，元首要自動地服從，就如《教會法律類編增補》(Extra Decretum Gratiana)〈法制篇〉(de Constitutionibus)「諸凡」(cum omnes)一章中說：「誰為他人訂了法律，自己也該遵守」(《教宗額我略九世諭令集》卷一第二章)；又賢哲(按：可能指Dionysius Cato)之權威說：「你要奉行你自己訂的法律」。按《瑪竇福音》第二十二章3節所說的，主也譴責那些「只說不做的人」，他們「把沉重而難以負荷的擔子捆好，放在人的肩上，自己卻不肯用一個指頭動一下。」故針對天主的判斷來說，元首也不能逃避法律的指導作用；他該自動地，不須人強制地去守法。在另一方面，元首也可以說是高於法律的，因為在必要時，他可以改變法律，或按時地的特殊情況給予豁免。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "得罪了你」'",
+          "after": "得罪了你」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "註解)仁說",
+          "after": "註解)上說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閻王",
+          "after": "國王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "<法制篇)",
+          "after": "〈法制篇〉",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第二十三章3節",
+          "after": "第二十二章3節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "只說不做的人」'",
+          "after": "只說不做的人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "擔子拍好",
+          "after": "擔子捆好",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "屬於法律權下者，是否可以不守法律的字面意義",
+      "after": "屬於法律權下者，是否可以不守法律的字面意義",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "屬於法律權下者，似乎不可以違反法律的字面意義。因為:",
+      "after": "屬於法律權下者，似乎不可以違反法律的字面意義。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "奧斯定在《論真宗教》第三十一章說: 「在訂立暫律的時候，人固然可以批評法律;但一經訂立和施行以後，便不可再批評法律，只能贊同。」但人若不守法律的字面意義，而說自己遵守立法者的用意，似乎是在批評法律。所以屬於法律權下者，不可以不管法律的字面意義，只奉守立法者的心意。",
+      "after": "奧斯定在《論真宗教》第三十一章說：「在訂立暫律的時候，人固然可以批評法律；但一經訂立和施行以後，便不可再批評法律，只能贊同。」但人若不守法律的字面意義，而說自己遵守立法者的用意，似乎是在批評法律。所以屬於法律權下者，不可以不管法律的字面意義，只奉守立法者的心意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "此外，制訂法律的人才有權力解釋法律。但是，屬於法律權下的人，沒有權力制訂法律。所以，他們沒有權力解釋立法者的用意，而常該按字面意義奉守法律。",
+      "after": "此外，制訂法律的人才有權力解釋法律。但是，屬於法律權下的人，沒有權力制訂法律。所以，他們沒有權力解釋立法者的用意，而常該按字面意義奉守法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "此外，有智慧的人都會用語言解釋自己的心意。但是那些制訂法律的人該算是有智慧的人;因為在《議言》第八章的節上，智慧這樣說: 「藉著我，君玉執政，元首秉公行義」。所以，只有根據字面才能知道立法者的心意。",
+      "after": "此外，有智慧的人都會用語言解釋自己的心意。但是那些制訂法律的人該算是有智慧的人；因為在《箴言》第八章15節上，智慧這樣說：「藉著我，君王執政，元首秉公行義」。所以，只有根據字面才能知道立法者的心意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "議言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第八章的節",
+          "after": "第八章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "君玉",
+          "after": "君王",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2798
+      ],
+      "before": "希拉手1](Hilarius)在《論天主聖三》卷四第十四節卻說: 「言語的意義，該按說這話的原因去瞭解，因為不是事實該受言語的限制，而是言語該受事實的限制。」所以，該注意立法者的動機，甚於法律之條文。",
+      "after": "希拉利(Hilarius)在《論天主聖三》卷四第十四節卻說：「言語的意義，該按說這話的原因去瞭解，因為不是事實該受言語的限制，而是言語該受事實的限制。」所以，該注意立法者的動機，甚於法律之條文。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "希拉手1]",
+          "after": "希拉利",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2798,
+        2799
+      ],
+      "before": "我解答如F:前面第四節曾說，法律皆是以公共的利益為指歸，並因之而具有法律的效力和意義;若背離了公共利益，便失去其約束能力。為此法律學家《羅馬法律類編》卷-第三題第二十五條說:「法律和正義既是為了人的利益而制訂的，按法律之理及正義的活用(aequitatis benignitas)，不容許我們給予嚴峻的解釋，苛待大眾。」有許多次，遵守某條法律在一般情形下合於公共利益，但在某特殊情況下非常有害。立法者不可能顧全到所有的情形，只能根據一般的情形，為了公益而訂某條法律。故此，若在特殊情況，遵守這條法律有害於公共利益，便不該遵守。例如，在城市被圍困的時候，訂了一條法律，禁止打開城門，這對大家是有益的事;但若敵人在追擊幾位有能力保衛城市的公民，不給他們開門便是對城市極有害的事一一這時該不管法律的條文，根據立法者所謀求之公共利益，打開城門。\n不過要知道，奉守法律的字面意義若不立刻產生危險，以致要當機立斷，則不是任何人皆可以決定怎樣對國家有利，怎樣有害;只有長官有此權力，這時他們有權給予豁兔。如果事屬緊急，來不及請示長官，員IJ必要本身便含有豁免，因為必要不受法律的限制。",
+      "after": "我解答如下：前面第四節曾說，法律皆是以公共的利益為指歸，並因之而具有法律的效力和意義；若背離了公共利益，便失去其約束能力。為此法律學家《羅馬法律類編》卷一第三題第二十五條說：「法律和正義既是為了人的利益而制訂的，按法律之理及正義的活用(aequitatis benignitas)，不容許我們給予嚴峻的解釋，苛待大眾。」有許多次，遵守某條法律在一般情形下合於公共利益，但在某特殊情況下非常有害。立法者不可能顧全到所有的情形，只能根據一般的情形，為了公益而訂某條法律。故此，若在特殊情況，遵守這條法律有害於公共利益，便不該遵守。例如，在城市被圍困的時候，訂了一條法律，禁止打開城門，這對大家是有益的事；但若敵人在追擊幾位有能力保衛城市的公民，不給他們開門便是對城市極有害的事——這時該不管法律的條文，根據立法者所謀求之公共利益，打開城門。\n不過要知道，奉守法律的字面意義若不立刻產生危險，以致要當機立斷，則不是任何人皆可以決定怎樣對國家有利，怎樣有害；只有長官有此權力，這時他們有權給予豁免。如果事屬緊急，來不及請示長官，則必要本身便含有豁免，因為必要不受法律的限制。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如F",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "卷-第三題",
+          "after": "卷一第三題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有害的事一一",
+          "after": "有害的事——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "豁兔",
+          "after": "豁免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2799
+      ],
+      "before": "在必要情況不奉守法律字面意義的人，不是批評法律本身，而是評斷特殊情況，他看到在這情況不該死守法律條文。",
+      "after": "在必要情況不奉守法律字面意義的人，不是批評法律本身，而是評斷特殊情況，他看到在這情況不該死守法律條文。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q096.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2799
+      ],
+      "before": "遵行立法者之心意的人，不是正式地解釋法律;只是在害處很明顯的情況下，他認為那不是立法者的用意。如果是有懷疑，則他該或按法律條文去做，或請示上級。",
+      "after": "遵行立法者之心意的人，不是正式地解釋法律；只是在害處很明顯的情況下，他認為那不是立法者的用意。如果是有懷疑，則他該或按法律條文去做，或請示上級。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q096.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2799
+      ],
+      "before": "人的智慧沒有能力預料到一切情況，因而不能選用正好適合他所謀求的目的之話語。而且，縱然立法者能預料到一切情況，為了避免混亂，也不能全部表達出來，只能根據一般的情形制訂法律。",
+      "after": "人的智慧沒有能力預料到一切情況，因而不能選用正好適合他所謀求的目的之話語。而且，縱然立法者能預料到一切情況，為了避免混亂，也不能全部表達出來，只能根據一般的情形制訂法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
