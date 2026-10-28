@@ -2598,6 +2598,21 @@
       "source_defects_flagged": 16,
       "layout_differences_preserved_by_user_instruction": 0,
       "unresolved_source_scan_units": 0
+    },
+    {
+      "id": "I_II-q064",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I_II-q064.md",
+      "manifest": "I_II-q064.json",
+      "pdf_file_pages": [
+        2412,
+        2419
+      ],
+      "articles": 4,
+      "source_defects_flagged": 9,
+      "layout_differences_preserved_by_user_instruction": 0,
+      "unresolved_source_scan_units": 0
     }
   ],
   "reviewed_question_ids": [
@@ -2782,19 +2797,20 @@
     "I_II.q060",
     "I_II.q061",
     "I_II.q062",
-    "I_II.q063"
+    "I_II.q063",
+    "I_II.q064"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 918,
+  "reviewed_articles": 922,
   "total_catalog_articles": 3125,
-  "next_question": "I_II.q064",
+  "next_question": "I_II.q065",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
     "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
-    "body_resume_at": "I_II.q064",
+    "body_resume_at": "I_II.q065",
     "resume_body_only_after_all_titles_reviewed": true,
     "all_title_slots_audited_on": "2026-10-23",
     "title_source_gaps": [
@@ -2813,10 +2829,10 @@
       "status": "source_image_review_round_complete_with_documented_source_uncertainty"
     },
     "I_II": {
-      "reviewed_questions": 63,
-      "reviewed_articles": 334,
-      "last_batch": "I_II-q063",
-      "next_question": "I_II.q064",
+      "reviewed_questions": 64,
+      "reviewed_articles": 338,
+      "last_batch": "I_II-q064",
+      "next_question": "I_II.q065",
       "unresolved_source_scan_units": 1,
       "status": "in_progress"
     }
