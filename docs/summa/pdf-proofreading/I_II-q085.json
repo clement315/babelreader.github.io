@@ -1,0 +1,1943 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q085",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "23cc7fbdc1d666ae7ceae2cc41b91529cface349",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q085",
+    "title": "論罪過之效果：首論對天性之善的破壞",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2657,
+      2658,
+      2659,
+      2660,
+      2661,
+      2662,
+      2663,
+      2664,
+      2665,
+      2666,
+      2667,
+      2668,
+      2669
+    ],
+    "printed_pages": [
+      391,
+      403
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 75,
+    "changed_review_units": 54,
+    "checked_unchanged_review_units": 22
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q85.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q85.json": "2a143c0dc449ab70ffab1fb29db19d3ba0363897dc07a724c754dd614a5f5f53"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q085.a001.respondeo",
+      "pdf_file_page": 2658,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.a001.ad3",
+      "pdf_file_page": 2659,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.a003.ad3",
+      "pdf_file_page": 2663,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.a005.respondeo",
+      "pdf_file_page": 2666,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.a005.ad2",
+      "pdf_file_page": 2666,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.a006.general",
+      "pdf_file_page": 2669,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q085.prologue",
+      "pdf_file_page": 2657,
+      "text": "伯達(Beta)",
+      "status": "source_scan_mark_checked",
+      "action": "原页拉丁拼写确为Beta，依底本保留，不自行改译名。"
+    },
+    {
+      "id": "I_II.q085.a004.sed_contra",
+      "pdf_file_page": 2664,
+      "text": "《聖詠》第七篇3節",
+      "status": "suspected_source_print_error",
+      "action": "原页确作第七篇3节，可能为引文编号印误；按底本保留。"
+    },
+    {
+      "id": "I_II.q085.a006.respondeo",
+      "pdf_file_page": 2668,
+      "text": "形成之傾向",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「形成」，疑为「形式」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q085.prologue",
+      "description": "移除误入题引言的重复标题与分节标记；标题已有独立字段。原有换行转义保留，故引言开头留空行。"
+    },
+    {
+      "id": "I_II.q085.a004.sed_contra",
+      "description": "按原页恢复末尾「狀態、美麗和次序。」；误插句中的两处换行保留在字段末尾。"
+    }
+  ],
+  "notes": [
+    "全部13页、6节原页逐页对齐。本批接续第二部第一集第81–89题，完成这一组罪过相关章节；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q085.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "論罪過之效果:首論對天性之蓄的破壞一分為六節一\n然後要討論的是罪過之妓果(參看第七十一題引言)。首先，論其對天性之善的破壞作用;然後，論靈魂所受之污染(第八十六題);第三，論應受之處罰(第八十七題)。\n關於第一點，可以提出六個問題:\n一、罪過是否減少天性之善。\n二、罪過是否能破壞全部天性之善。\n三、論伯達(Beta)所提出之人性因罪過而遭受的四種創傷。\n四、狀態、美麗及秩序之缺欠是否為罪過之效果。\n五、死亡和身體上的其他缺點是否為罪過之效果。\n六、最後這些缺點對人是否為自然的。",
+      "after": "\n然後要討論的是罪過之效果(參看第七十一題引言)。首先，論其對天性之善的破壞作用；然後，論靈魂所受之污染(第八十六題)；第三，論應受之處罰(第八十七題)。\n關於第一點，可以提出六個問題：\n一、罪過是否減少天性之善。\n二、罪過是否能破壞全部天性之善。\n三、論伯達(Beta)所提出之人性因罪過而遭受的四種創傷。\n四、狀態、美麗及秩序之缺欠是否為罪過之效果。\n五、死亡和身體上的其他缺點是否為罪過之效果。\n六、最後這些缺點對人是否為自然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論罪過之效果:首論對天性之蓄的破壞一分為六節一",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "罪過是否減少天性之善",
+      "after": "罪過是否減少天性之善",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "罪過似乎不減少天性之善。因為:",
+      "after": "罪過似乎不減少天性之善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "人的罪過不比魔鬼的罪過重。但按狄奧尼11多在《神名論》第四章所說的，魔鬼在天性方面的善，在犯罪後完整如初。所以，罪過也不減少人天性方面的善。",
+      "after": "人的罪過不比魔鬼的罪過重。但按狄奧尼修在《神名論》第四章所說的，魔鬼在天性方面的善，在犯罪後完整如初。所以，罪過也不減少人天性方面的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "尼11多",
+          "after": "尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2657
+      ],
+      "before": "此外，後有者之變化，不影響先有者。因為依附體方面雖有變化，本體卻前後如一。天性是在有情願之行動以前就存在的。所以，罪過在情願之行動方面所造成的錯亂，不影響天性，不減少天性之善。",
+      "after": "此外，後有者之變化，不影響先有者。因為依附體方面雖有變化，本體卻前後如一。天性是在有情願之行動以前就存在的。所以，罪過在情願之行動方面所造成的錯亂，不影響天性，不減少天性之善。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2657,
+        2658
+      ],
+      "before": "此外，罪過是一種行動，而減少是一種被動。主動者以其為主動者而言，不是被動者:但一個東西能在一方面是主動者，在別的方面是被動者。所以，犯罪者不因罪過而減少自己天性之善。",
+      "after": "此外，罪過是一種行動，而減少是一種被動。主動者以其為主動者而言，不是被動者：但一個東西能在一方面是主動者，在別的方面是被動者。所以，犯罪者不因罪過而減少自己天性之善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2658
+      ],
+      "before": "此外，依附體不推動其主體，因為被動者乃是在潛能狀態的東西;而依附體所在之主體，對那依附體而言乃是現實的東西。但罪過之在天性之善內，如同依附體之在主體內。所以，罪過不減少天性之善，因為減少是一種推動。",
+      "after": "此外，依附體不推動其主體，因為被動者乃是在潛能狀態的東西；而依附體所在之主體，對那依附體而言乃是現實的東西。但罪過之在天性之善內，如同依附體之在主體內。所以，罪過不減少天性之善，因為減少是一種推動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2658
+      ],
+      "before": "《路加福音》第十章30節卻說: 「有一個人從耶路撒冷下來，到耶裏哥去」;按照伯達的解釋:「這是說人陷入罪過，便被奪去聖寵恩惠，天性也受到創傷。」(拉丁通行本註解)所以，罪過減少天性的善。",
+      "after": "《路加福音》第十章30節卻說：「有一個人從耶路撒冷下來，到耶里哥去」；按照伯達的解釋：「這是說人陷入罪過，便被奪去聖寵恩惠，天性也受到創傷。」(拉丁通行本註解)所以，罪過減少天性的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "耶裏哥",
+          "after": "耶里哥",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2658
+      ],
+      "before": "我解答如下:人在天i生方面的善，可以說有三種。第一是指構成天性的根本，以及由此根本而來的性質，例如:靈魂的機能等類的東西。第二是指人得白天性的對德性之傾向;因為前面第五十一題第一節、第六十三題第一節已經說過，人生來便有對德性的傾向。第三是指原始正義之恩賜，因為在第一個人身上的這個恩惠是給予整個人類天性的。\n罪過也不消滅、也不減少第一種天性的善。第三種善被原祖的罪全部消滅了。但是罪過卻減少第二種善，即人天生來的對德性之傾向。按前面第五十題第一節所說的，人性行動在人身上產生對同樣之行動的傾向。一個東西若傾向於兩個對立的方向之一，必然減少其對反面的傾向。既然罪過與德性相反，只要人犯罪，便減少天性之善，即其對德性的傾向。",
+      "after": "我解答如下：人在天性方面的善，可以說有三種。第一是指構成天性的根本，以及由此根本而來的性質，例如：靈魂的機能等類的東西。第二是指人得自天性的對德性之傾向；因為前面第五十一題第一節、第六十三題第一節己經說過，人生來便有對德性的傾向。第三是指原始正義之恩賜，因為在第一個人身上的這個恩惠是給予整個人類天性的。\n罪過也不消滅、也不減少第一種天性的善。第三種善被原祖的罪全部消滅了。但是罪過卻減少第二種善，即人天生來的對德性之傾向。按前面第五十題第一節所說的，人性行動在人身上產生對同樣之行動的傾向。一個東西若傾向於兩個對立的方向之一，必然減少其對反面的傾向。既然罪過與德性相反，只要人犯罪，便減少天性之善，即其對德性的傾向。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天i生",
+          "after": "天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "得白",
+          "after": "得自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2658
+      ],
+      "before": "狄奧尼修所講的是天性的第一種善，自1]「實在、生活和思想」;細讀其話者皆可看出。",
+      "after": "狄奧尼修所講的是天性的第一種善，即「實在、生活和思想」；細讀其話者皆可看出。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自1]",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "天性雖然比情願之行動先有，但天性內具有對情願之行動的傾向。所以，天性本身雖不因情願之行動的變化而起變化，但是在其對終點之傾向方面起變化。",
+      "after": "天性雖然比情願之行動先有，但天性內具有對情願之行動的傾向。所以，天性本身雖不因情願之行動的變化而起變化，但是在其對終點之傾向方面起變化。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "情願之行動是來自許多不同的機能，其中有的是主動的，有的是被動的。故此，就如第五十一題第二節在論習性之形成時已經說過的，情願的行動在行動之人身上能夠產生點東西，或是消滅點東西。",
+      "after": "情願之行動是來自許多不同的機能，其中有的是主動的，有的是被動的。故此，就如第五十一題第二節在論習性之形成時己經說過的，情願的行動在行動之人身上能夠產生點東西，或是消滅點東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "依附體對主體不能有因果上的作用，但能有形式上的作用;就如同所謂的白色使東西變白。按這方式，貝IJ罪過能減少天性之善。這是說，罪過既是指行動之錯亂，本身便是天性之善的減少。但是關於行動者本身方面之錯亂，該說這是由於靈魂之行動一部分是主動的，一部分是被動的;就如前面第七十七題第一及第二節曾說的，感官物推動感官嗜慾，感官嗜慾推動理性和意志。所以，其錯亂之產生，不是由於依附體推動主體，而是由於對象推動機能:一個機能推動另一個機能，使之產生錯亂。",
+      "after": "依附體對主體不能有因果上的作用，但能有形式上的作用；就如同所謂的白色使東西變白。按這方式，則罪過能減少天性之善。這是說，罪過既是指行動之錯亂，本身便是天性之善的減少。但是關於行動者本身方面之錯亂，該說這是由於靈魂之行動一部分是主動的，一部分是被動的；就如前面第七十七題第一及第二節曾說的，感官物推動感官嗜慾，感官嗜慾推動理性和意志。所以，其錯亂之產生，不是由於依附體推動主體，而是由於對象推動機能：一個機能推動另一個機能，使之產生錯亂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "人性之善是否能全部被罪過消滅",
+      "after": "人性之善是否能全部被罪過消滅",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "罪過似乎能消滅人性全部之善。因為:",
+      "after": "罪過似乎能消滅人性全部之善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "人性之善是有限的，因為人的天性本身是有限的。但任何有限的東西，一直繼續減少，終必完全消失。既然罪過能不斷地減少天性之善，所以終於會使其全部消失。",
+      "after": "人性之善是有限的，因為人的天性本身是有限的。但任何有限的東西，一直繼續減少，終必完全消失。既然罪過能不斷地減少天性之善，所以終於會使其全部消失。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2659
+      ],
+      "before": "此外，屬於同一性質的東西，整體與局部之性質是相同的，例如:空氣、水、肉，以及其他各部分等質的東西。天性的善是完全等質的。既然罪過能消除一部分，似乎也能消滅全部。",
+      "after": "此外，屬於同一性質的東西，整體與局部之性質是相同的，例如：空氣、水、肉，以及其他各部分等質的東西。天性的善是完全等質的。既然罪過能消除一部分，似乎也能消滅全部。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2659,
+        2660
+      ],
+      "before": "此外，天性之善被罪過所減去的是其針對德性的配備。但在某些人身上，這種配備全部被罪過消滅，例如:在被罰下地獄的人身上，他們再無修德之能力一一就像瞎子也不能恢復視覺。所以，罪過能消滅全部天性之善。",
+      "after": "此外，天性之善被罪過所減去的是其針對德性的配備。但在某些人身上，這種配備全部被罪過消滅，例如：在被罰下地獄的人身上，他們再無修德之能力——就像瞎子也不能恢復視覺。所以，罪過能消滅全部天性之善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能力一一",
+          "after": "能力——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2660
+      ],
+      "before": "奧斯定在《基本教理手冊》第十四章卻說:「惡只能在善內寄存」。但罪過之惡不能是寄存在德性或恩寵的善中，因為彼此是相反的。所以該是寄存在天性的善中。所以罪過不全部消滅天性之善。",
+      "after": "奧斯定在《基本教理手冊》第十四章卻說：「惡只能在善內寄存」。但罪過之惡不能是寄存在德性或恩寵的善中，因為彼此是相反的。所以該是寄存在天性的善中。所以罪過不全部消滅天性之善。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2660,
+        2661
+      ],
+      "before": "我解答如下:前面第一節曾說，罪過所減去的天性之善，是其對德性之天然傾向。而人天生來有這種傾向，乃因為人是有理性的。故此，自然能按理性行動，也就是按德性行動。罪過不能使人完全失去理性;若果然如此，則他不能再犯罪。所以天性的善不可能完全被罪過消滅。\n既然有時天性之善一直被罪過減少，有人為說明此點(善永遠不會全部消滅)，曾提出有限者能無限地減少而不全部被消滅之例子。哲學家在《物理學》卷三第六章裡曾說，一個有限的數量，若按某固定數量繼續減少，例如:每次減去一掌的長度，最後終會減完。但若不按固定數量減少，而按同樣比例減少，則可以減到無限次。例如，將某固定數量區分為二，每次減去一半，從一半再減少一半，便可推衍到無限;不過後來所減去的，常是小於以前所減去的。而在罪過方面不是這樣:罪過減少天性之善時，後滅的不常比先滅的少;如果以後的罪過比較嚴重，貝Ij比以前減少的還要多。\n故此，根據男一種解釋，該說上述之傾向是兩個東西之間的東西:它是以其有理性的天性為根基，並以德!全之善為終點和目的。故此可以從兩方面看其減少:一是根源方面的，一是將點方面的。在根源方面，罪過不能減少這個傾向;因為前面第一節曾說，罪過不減少天性。但能在第二方面有所減少，即是阻礙其達到終點。假若在第一方面能有減少，則有理性的天性終必完全消滅，向善之傾向也跟著消滅。但因為減少是由於使之不能達到終點的阻礙，故顯然能夠無限地減少，因為能夠無限地增加阻礙，如果人無限地罪上加罪;但是向善之傾向不能完全消滅，因為這傾向的根子永遠留存。這就好似透明的物體，由於它是透明的，自然有承受光亮的傾向;若有雲霧在當中阻礙，貝IJ透明之能力或傾向減少，但這傾向卻常存於其天性的根基內。",
+      "after": "我解答如下：前面第一節曾說，罪過所減去的天性之善，是其對德性之天然傾向。而人天生來有這種傾向，乃因為人是有理性的。故此，自然能按理性行動，也就是按德性行動。罪過不能使人完全失去理性；若果然如此，則他不能再犯罪。所以天性的善不可能完全被罪過消滅。\n既然有時天性之善一直被罪過減少，有人為說明此點(善永遠不會全部消滅)，曾提出有限者能無限地減少而不全部被消滅之例子。哲學家在《物理學》卷三第六章裡曾說，一個有限的數量，若按某固定數量繼續減少，例如：每次減去一掌的長度，最後終會減完。但若不按固定數量減少，而按同樣比例減少，則可以減到無限次。例如，將某固定數量區分為二，每次減去一半，從一半再減少一半，便可推衍到無限；不過後來所減去的，常是小於以前所減去的。而在罪過方面不是這樣：罪過減少天性之善時，後滅的不常比先滅的少；如果以後的罪過比較嚴重，則比以前減少的還要多。\n故此，根據另一種解釋，該說上述之傾向是兩個東西之間的東西：它是以具有理性的天性為根基，並以德性之善為終點和目的。故此可以從兩方面看其減少：一是根源方面的，一是終點方面的。在根源方面，罪過不能減少這個傾向；因為前面第一節曾說，罪過不減少天性。但能在第二方面有所減少，即是阻礙其達到終點。假若在第一方面能有減少，則有理性的天性終必完全消滅，向善之傾向也跟著消滅。但因為減少是由於使之不能達到終點的阻礙，故顯然能夠無限地減少，因為能夠無限地增加阻礙，如果人無限地罪上加罪；但是向善之傾向不能完全消滅，因為這傾向的根子永遠留存。這就好似透明的物體，由於它是透明的，自然有承受光亮的傾向；若有雲霧在當中阻礙，則透明之能力或傾向減少，但這傾向卻常存於其天性的根基內。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一種",
+          "after": "另一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以其有理性",
+          "after": "以具有理性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德!全",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "將點",
+          "after": "終點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "所舉之理由是根據因消除而造成的減少。按上面正解所說的，這裡是因阻礙之增加而造成的減少;這種減少不消除也不減少傾向之根基。",
+      "after": "所舉之理由是根據因消除而造成的減少。按上面正解所說的，這裡是因阻礙之增加而造成的減少；這種減少不消除也不減少傾向之根基。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "自然傾向固然是完全等質的，但它有兩種關係:一是對根本的關(系，一是對終點的關係。故此，一方面減少，一方面則不減少。",
+      "after": "自然傾向固然是完全等質的，但它有兩種關係：一是對根本的關係，一是對終點的關係。故此，一方面減少，一方面則不減少。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "被罰下地獄的人，仍保有向善的自然傾向，否則他們在良心上就不會有遺憾。其所以不能變為行動，是因為天主按正義不給他們所需要的恩寵。就如瞎子，在天性的根基上他有視覺之能力，因為按天性，他是有視覺能力的動物;其所以不能變為事實，是因為沒有東西助他構成者視所需要的器官。",
+      "after": "被罰下地獄的人，仍保有向善的自然傾向，否則他們在良心上就不會有遺憾。其所以不能變為行動，是因為天主按正義不給他們所需要的恩寵。就如瞎子，在天性的根基上他有視覺之能力，因為按天性，他是有視覺能力的動物；其所以不能變為事實，是因為沒有東西助他構成看視所需要的器官。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "構成者視",
+          "after": "構成看視",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，是否合宜",
+      "after": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，是否合宜",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2661
+      ],
+      "before": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，似乎並不合宜。因為:",
+      "after": "將軟弱、愚昧、惡意和貪慾視為罪過加給天性的創傷，似乎並不合宜。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2661,
+        2662
+      ],
+      "before": "效果與原因不能是同一個東西。但按前面第七十六題第一節、第七十七題第三及第五節、第七十八題第一節所說的，這些是罪過的原因。所以，不能視立為罪過的放果。",
+      "after": "效果與原因不能是同一個東西。但按前面第七十六題第一節、第七十七題第三及第五節、第七十八題第一節所說的，這些是罪過的原因。所以，不能視之為罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "視立",
+          "after": "視之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2662
+      ],
+      "before": "此外，惡意是一種罪過。故不該列為罪過之效果。",
+      "after": "此外，惡意是一種罪過。故不該列為罪過之效果。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2662
+      ],
+      "before": "此外，貪慾是天生來的東西，因為那是慾情能力的行動。天生來的不能被視為天性的創傷。所以貪慾不是天性的創傷。",
+      "after": "此外，貪慾是天生來的東西，因為那是慾情能力的行動。天生來的不能被視為天性的創傷。所以貪慾不是天性的創傷。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2662
+      ],
+      "before": "此外，前面第七十七題第三節曾經說過，由於軟弱而犯罪，與由於情慾而犯罪是同一回事。但是貪慾是-種情慾，所以不該與軟弱分別為二。",
+      "after": "此外，前面第七十七題第三節曾經說過，由於軟弱而犯罪，與由於情慾而犯罪是同一回事。但是貪慾是一種情慾，所以不該與軟弱分別為二。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "-種",
+          "after": "一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.arg5",
+      "article": 3,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        2662
+      ],
+      "before": "此外，奧斯定在《論本性及恩寵》第六十七章裡說:「犯罪的靈魂有兩種處罰」'即是「愚昧和困難」'繼而產生「錯誤和痛苦」;這四點與上述之四點不同。故似乎二說之一不正確。",
+      "after": "此外，奧斯定在《論本性及恩寵》第六十七章裡說：「犯罪的靈魂有兩種處罰」，即是「愚昧和困難」，繼而產生「錯誤和痛苦」；這四點與上述之四點不同。故似乎二說之一不正確。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "處罰」'",
+          "after": "處罰」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "困難」'",
+          "after": "困難」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2662
+      ],
+      "before": "伯達卻是這樣講的。",
+      "after": "伯達卻是這樣講的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2662,
+        2663
+      ],
+      "before": "我解答如下:靠了原始之正義，理性原來完全控制靈魂的低級能力，並且理性受天主的栽培，服從天主。按前面第八十一題第二節說的，原祖的罪破壞了原始正義。故此，原來自然指向德性的靈魂之所有能力，現在迷失了方向一一這種迷失或錯亂即稱為天性的創傷。按前面第六十一題第二節所說的，靈魂有四個機能可以是悟性之主體，即:理性，這是機智或智德之主體;意志，是正義或義德乏主體;憤情能力，是勇敢或勇德之主體;及慾情能力，這是節制或節德之主體。理性失去真理之方向，就是愚昧之創傷;意志失去善之方向，即是惡意之創傷;憤情失去了其對困難辜的作用，便是軟弱之創傷i慾情不再指向受理性節制的快樂，便是貪慾之創傷。\n這問個創傷是原組的罪加給整個人類天性的。(且按前面第一及第二節所說的，每人的本罪減少指向德性之善的傾向，其他罪過的後果也是這四種創傷，即:罪過使理性變得遲鈍，特別在實踐方面;使意志對善冷漠;行善時感到較大的困難;慾望之火更加熾熱。",
+      "after": "我解答如下：靠了原始之正義，理性原來完全控制靈魂的低級能力，並且理性受天主的栽培，服從天主。按前面第八十一題第二節說的，原祖的罪破壞了原始正義。故此，原來自然指向德性的靈魂之所有能力，現在迷失了方向——這種迷失或錯亂即稱為天性的創傷。按前面第六十一題第二節所說的，靈魂有四個機能可以是德性之主體，即：理性，這是機智或智德之主體；意志，是正義或義德之主體；憤情能力，是勇敢或勇德之主體；及慾情能力，這是節制或節德之主體。理性失去真理之方向，就是愚昧之創傷；意志失去善之方向，即是惡意之創傷；憤情失去了其對困難事的作用，便是軟弱之創傷；慾情不再指向受理性節制的快樂，便是貪慾之創傷。\n這四個創傷是原祖的罪加給整個人類天性的。但按前面第一及第二節所說的，每人的本罪減少指向德性之善的傾向，其他罪過的後果也是這四種創傷，即：罪過使理性變得遲鈍，特別在實踐方面；使意志對善冷漠；行善時感到較大的困難；慾望之火更加熾熱。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方向一一",
+          "after": "方向——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "悟性之主體",
+          "after": "德性之主體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "義德乏",
+          "after": "義德之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "困難辜",
+          "after": "困難事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "創傷i",
+          "after": "創傷；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這問個",
+          "after": "這四個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原組",
+          "after": "原祖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(且按",
+          "after": "但按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "一個罪的妓果並非不能是另一個罪的原因。靈魂受了罪惡的創傷之後，便更容易傾向於罪。",
+      "after": "一個罪的效果並非不能是另一個罪的原因。靈魂受了罪惡的創傷之後，便更容易傾向於罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "這裡「惡意」不是指的罪過，而是指意志向惡的傾向;就如《創世紀》第八章21節所說的: 「人心的思念從小就邪惡」。",
+      "after": "這裡「惡意」不是指的罪過，而是指意志向惡的傾向；就如《創世紀》第八章21節所說的：「人心的思念從小就邪惡」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "前面第八十二題第三節釋疑1.已經說過，慾望若合於理性，便是自然的。若超出理性之規範，貝IJ與人的天性相反。",
+      "after": "前面第八十二題第三節釋疑1.己經說過，慾望若合於理性，便是自然的。若超出理性之規範，則與人的天性相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "廣義的軟弱可以指任何情，因為情挫弱靈魂的力量，並妨礙理性。伯達用的是狹義的軟弱，與屬於憤惰的勇敢相反。",
+      "after": "廣義的軟弱可以指任何情，因為情挫弱靈魂的力量，並妨礙理性。伯達用的是狹義的軟弱，與屬於憤情的勇敢相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "挫弱",
+          "after": "挫弱",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "憤惰",
+          "after": "憤情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a003.ad5",
+      "article": 3,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "奧斯定書中所說的困難，包括屬於嗜慾能力的三點:惡意、軟弱和貪慾。因了這三點，故人不易向善。錯誤和痛苦是這三點的後果，人對所慾望者感到力不從心峙，使產生痛苦。",
+      "after": "奧斯定書中所說的困難，包括屬於嗜慾能力的三點：惡意、軟弱和貪慾。因了這三點，故人不易向善。錯誤和痛苦是這三點的後果，人對所慾望者感到力不從心時，便產生痛苦。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "心峙，使",
+          "after": "心時，便",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "狀態、美麗及次序之缺欠，是否為罪過之效果",
+      "after": "狀態、美麗及次序之缺欠，是否為罪過之效果",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "狀態、美麗及次序之缺欠，似乎不是罪過的效果。因為:",
+      "after": "狀態、美麗及次序之缺欠，似乎不是罪過的效果。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "奧斯定在《論善之性質》第三章裡說: 「在這三點上，有的多就是大善;有的少就是小善;一點也沒有就是沒有善。」但是罪過不消滅天性之善。所以罪過不破壞狀態、美麗和次序。",
+      "after": "奧斯定在《論善之性質》第三章裡說：「在這三點上，有的多就是大善；有的少就是小善；一點也沒有就是沒有善。」但是罪過不消滅天性之善。所以罪過不破壞狀態、美麗和次序。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2663
+      ],
+      "before": "此外，沒有東西是自己的原因。但是按奧斯定在《論善之性質》第四章所說的，罪過本身就是「狀態、美麗和次序之缺欠」。所以，這些缺欠不是罪過的妓果。",
+      "after": "此外，沒有東西是自己的原因。但是按奧斯定在《論善之性質》第四章所說的，罪過本身就是「狀態、美麗和次序之缺欠」。所以，這些缺欠不是罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2664
+      ],
+      "before": "此外，不同的罪過有不同的效果。既然狀態、美麗和次序是不同的東西，其缺欠也不同;所以，該是由不同的罪過所致。所以，狀態、美麗和次序之缺欠，不是任何一個罪過的效果。",
+      "after": "此外，不同的罪過有不同的效果。既然狀態、美麗和次序是不同的東西，其缺欠也不同；所以，該是由不同的罪過所致。所以，狀態、美麗和次序之缺欠，不是任何一個罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2664
+      ],
+      "before": "靈魂上的罪過就如身體上的軟弱，就如《聖詠》第七篇3節所說: 「上主，我的體力衰弱，求你憐恤我。」但是軟弱破壞身體之狀態、美麗和次序。所以，罪過也破壞靈魂的狀態、nuH\n「芝一f次序\n舟犬麗，",
+      "after": "靈魂上的罪過就如身體上的軟弱，就如《聖詠》第七篇3節所說：「上主，我的體力衰弱，求你憐恤我。」但是軟弱破壞身體之狀態、美麗和次序。所以，罪過也破壞靈魂的狀態、美麗和次序。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "狀態、nuH\n「芝一f次序\n舟犬麗，",
+          "after": "狀態、美麗和次序。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2664
+      ],
+      "before": "我解答如下:按第一集第五題第五節所說的，每種受造的善，以及每個東西，都必然具有狀態、美麗和次序。每個東西之被視為存在的和完善的，是根據形式;形式使這東西具有美。每個東西的形式，無論是本體性的或依附性的形式，都是根據→種度量;為此《形上學》卷八第三章說: 「東西的形式像似數目」。由此而有一種狀態，這在於東西與標準度量的關係;同時，每個東西由於其形式而指向別的東西。\n所以，不同等級的苦便有不同等級的狀態、美麗和次序。有一種善是屬於天性之本質的，這善所具有的狀態、美麗和次序，不能被罪過破壞或減少。有一種善是天性之傾向，這善也具有其狀態、美麗和次序;按前面第一及第二節所說的，這善因罪過而減少，但不完全被破壞。還有一種德性和恩寵的善，這也有其狀態、美麗和次序;犯了死罪，這善就完全被破壞。正當的行動也是一種善，這也有其狀態、美麗和次序，這方面的缺欠就是罪過本身。由此可知，罪過怎樣就是狀態、美麗和次序之缺欠;又怎樣破壞或減少狀態、美麗和次序。",
+      "after": "我解答如下：按第一集第五題第五節所說的，每種受造的善，以及每個東西，都必然具有狀態、美麗和次序。每個東西之被視為存在的和完善的，是根據形式；形式使這東西具有美。每個東西的形式，無論是本體性的或依附性的形式，都是根據一種度量；為此《形上學》卷八第三章說：「東西的形式像似數目」。由此而有一種狀態，這在於東西與標準度量的關係；同時，每個東西由於其形式而指向別的東西。\n所以，不同等級的善便有不同等級的狀態、美麗和次序。有一種善是屬於天性之本質的，這善所具有的狀態、美麗和次序，不能被罪過破壞或減少。有一種善是天性之傾向，這善也具有其狀態、美麗和次序；按前面第一及第二節所說的，這善因罪過而減少，但不完全被破壞。還有一種德性和恩寵的善，這也有其狀態、美麗和次序；犯了死罪，這善就完全被破壞。正當的行動也是一種善，這也有其狀態、美麗和次序，這方面的缺欠就是罪過本身。由此可知，罪過怎樣就是狀態、美麗和次序之缺欠；又怎樣破壞或減少狀態、美麗和次序。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "→種",
+          "after": "一種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "等級的苦",
+          "after": "等級的善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2664
+      ],
+      "before": "及2.由上面說的，可知前兩質疑之解答。",
+      "after": "及2.由上面說的，可知前兩質疑之解答。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "由上面正解所說的可以知道:狀態、美麗和次序，彼此是互為裡表的。故此三個是一起消滅，及一起減少。",
+      "after": "由上面正解所說的可以知道：狀態、美麗和次序，彼此是互為裡表的。故此三個是一起消滅，及一起減少。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "死亡及身體上的其他缺點是否為罪過之效果",
+      "after": "死亡及身體上的其他缺點是否為罪過之效果",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "死亡及身體上的其他缺點似乎不是罪過的效果。因為:",
+      "after": "死亡及身體上的其他缺點似乎不是罪過的效果。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "原因相等，放果也該相等。這些缺點在每人身上不一樣，有的人比較多。這些缺點主要該是原罪的效果;但按前面第八十二題第四節所說的，每人身上的原罪是相等的。所以，死亡及其他缺點不是罪過的效果。",
+      "after": "原因相等，效果也該相等。這些缺點在每人身上不一樣，有的人比較多。這些缺點主要該是原罪的效果；但按前面第八十二題第四節所說的，每人身上的原罪是相等的。所以，死亡及其他缺點不是罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "此外，除去了原因，效果也就停止。但是以聖洗或告解除去了所有罪過之後，這些缺點未被解除。所以不是罪過的放果。",
+      "after": "此外，除去了原因，效果也就停止。但是以聖洗或告解除去了所有罪過之後，這些缺點未被解除。所以不是罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "此外，本罪比原罪的罪更重。本罪不使身體產生缺點。所以原罪更不能。故此死亡及身體上的其他缺點不是罪過的效果。",
+      "after": "此外，本罪比原罪的罪更重。本罪不使身體產生缺點。所以原罪更不能。故此死亡及身體上的其他缺點不是罪過的效果。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2665
+      ],
+      "before": "宗徒在《羅馬書》第五章12節卻說:「罪惡藉著一人進入了世界，死亡藉著罪惡也進入了世界。」",
+      "after": "宗徒在《羅馬書》第五章12節卻說：「罪惡藉著一人進入了世界，死亡藉著罪惡也進入了世界。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2665,
+        2666
+      ],
+      "before": "我解答如下:一個東西之為另一東西的原因，有兩種方式:一是本然地，一是偶然地。本然的原因是靠其天性或形式之力量產生效果，因而效果是原因所直接指望的。死亡及身體的其他缺點既然是出乎犯罪者之意料以外的，顯然罪過不是這些缺點的本然原因。\n如果原因是排除障礙者，則是偶然的原因;就如《物理學》卷八第四章裡所說的: 「拆除柱子，乃是偶然地推動柱子上放的石塊」。原祖的罪便是死亡及人性上其他缺點的這種原因，因為原祖的罪破壞了原始正義。按第一集第九十七題第一節所說的，原始正義不只使靈魂的低級能力各安其分，受理性的支配，也使整個身體全無瑕疵地受靈魂的支配。原始正義被原祖的罪破壞了以後，人性在靈魂方面受到了創傷，即如第三節、第八十二題第三節己說過的，各機能亂了秩序;身體也因為亂了秩序而成了有朽的。\n原始正義之喪失，一如恩寵之喪失，乃是處罰。死亡及身體上的其他缺點也是原罪之處罰。這些缺點雖然不是犯罪者所指望的，卻是天主按正義所安排的。",
+      "after": "我解答如下：一個東西之為另一東西的原因，有兩種方式：一是本然地，一是偶然地。本然的原因是靠其天性或形式之力量產生效果，因而效果是原因所直接指望的。死亡及身體的其他缺點既然是出乎犯罪者之意料以外的，顯然罪過不是這些缺點的本然原因。\n如果原因是排除障礙者，則是偶然的原因；就如《物理學》卷八第四章裡所說的：「拆除柱子，乃是偶然地推動柱子上放的石塊」。原祖的罪便是死亡及人性上其他缺點的這種原因，因為原祖的罪破壞了原始正義。按第一集第九十七題第一節所說的，原始正義不只使靈魂的低級能力各安其分，受理性的支配，也使整個身體全無瑕疵地受靈魂的支配。原始正義被原祖的罪破壞了以後，人性在靈魂方面受到了創傷，即如第三節、第八十二題第三節己說過的，各機能亂了秩序；身體也因為亂了秩序而成了有朽的。\n原始正義之喪失，一如恩寵之喪失，乃是處罰。死亡及身體上的其他缺點也是原罪之處罰。這些缺點雖然不是犯罪者所指望的，卻是天主按正義所安排的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2666
+      ],
+      "before": "相等的本然原因產生相等的效果;增加或減少本然原因，效果也跟著增加或減少。但相等之排除障礙的(偶然)原因，並不顯示相等的效果。如果一人以相等的力量推倒兩根柱子，柱子上放的石塊並不以同等速度下落，原來比較重的石塊，在排除障礙之後，依其天性之性質，落得較快。同樣，除去了原始正義之後，人的身體乃各任其自然;由於天生的體質不同，有的身體缺點多，有的比較少，雖然原罪是-樣的。",
+      "after": "相等的本然原因產生相等的效果；增加或減少本然原因，效果也跟著增加或減少。但相等之排除障礙的(偶然)原因，並不顯示相等的效果。如果一人以相等的力量推倒兩根柱子，柱子上放的石塊並不以同等速度下落，原來比較重的石塊，在排除障礙之後，依其天性之性質，落得較快。同樣，除去了原始正義之後，人的身體乃各任其自然；由於天生的體質不同，有的身體缺點多，有的比較少，雖然原罪是一樣的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "-樣",
+          "after": "一樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2666
+      ],
+      "before": "解除原罪和本罪者，也是解除這些缺點者，正如宗徒在《羅馬書》第八章11節裡所說的: 「那住在你們內的聖神，要使你們有死的身體復活」;但二者皆按天主所定的次序和時間。為能進入在基督內已經開始，並由基督為我們所爭取到的不朽和1mhíí汗的光榮境界，我們須先像祂一樣受苦。所以就像基督一杖'W們的身體暫時先要受苦，以贏得達到無痛苦的光榮境界。",
+      "after": "解除原罪和本罪者，也是解除這些缺點者，正如宗徒在《羅馬書》第八章11節裡所說的：「那住在你們內的聖神，要使你們有死的身體復活」；但二者皆按天主所定的次序和時間。為能進入在基督內己經開始，並由基督為我們所爭取到的不朽和無痛苦的光榮境界，我們須先像祂一樣受苦。所以就像基督一樣，我們的身體暫時先要受苦，以贏得達到無痛苦的光榮境界。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1mhíí汗",
+          "after": "無痛苦",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "基督一杖'W們",
+          "after": "基督一樣，我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2666,
+        2667
+      ],
+      "before": "我們可以把本罪分為兩層--是行動本身，一是罪過之意義。在行動本身那方面，本罪能造成身體上的缺點，例如:有人因飲食過度而生病或死亡。在罪過那一方面，其效果是失去恩寵;恩寵是為輔助靈魂之正誼行動的，而不是像原始正義那樣，能妨止身體上的缺點。故此，本罪不像原罪那樣產生這些缺點。",
+      "after": "我們可以把本罪分為兩層：一是行動本身，一是罪過之意義。在行動本身那方面，本罪能造成身體上的缺點，例如：有人因飲食過度而生病或死亡。在罪過那一方面，其效果是失去恩寵；恩寵是為輔助靈魂之正直行動的，而不是像原始正義那樣，能妨止身體上的缺點。故此，本罪不像原罪那樣產生這些缺點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兩層--是",
+          "after": "兩層：一是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正誼",
+          "after": "正直",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "死亡及其他缺點對人是否為自然的",
+      "after": "死亡及其他缺點對人是否為自然的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "死亡和其他缺點為人似乎是自然的。因為:",
+      "after": "死亡和其他缺點為人似乎是自然的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "按《形上學》卷十第十章所說的，「可朽的和不朽的是共類上的差別」。但人與其他動物屬於同一共類，而動物自然就是可朽的。所以人自然就是可朽的。",
+      "after": "按《形上學》卷十第十章所說的，「可朽的和不朽的是共類上的差別」。但人與其他動物屬於同一共類，而動物自然就是可朽的。所以人自然就是可朽的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "凡由相反者結合而成的東西，自然就是可朽的，因為其本身即帶有腐朽之原因。人的身體就是這樣的東西。所以自然就是可朽的。",
+      "after": "凡由相反者結合而成的東西，自然就是可朽的，因為其本身即帶有腐朽之原因。人的身體就是這樣的東西。所以自然就是可朽的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q085.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "此外，熱自然消耗潮溼。人的生命是靠熱與潮濕維持。既然按《靈魂論》卷二第四章所說的，生命之活動是靠自然的熱力之行動，似乎死亡及其他缺點為人是自然的。",
+      "after": "此外，熱自然消耗潮溼。人的生命是靠熱與潮溼維持。既然按《靈魂論》卷二第四章所說的，生命之活動是靠自然的熱力之行動，似乎死亡及其他缺點為人是自然的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "潮濕",
+          "after": "潮溼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2667
+      ],
+      "before": "1.凡對人為自然的，皆是天主在人內造成的。但是《智慧篇》第一章13節卻說:「天主並未造死亡1。所以，人的死亡不是自然的。\n2.此外，合於天性者不能稱為處罰或惡，因為自然的就是適合這東西的。但按前面第五節說的，死亡及其他缺點是原罪的處罰。所以對人不是白然的。\n3.此外，質料是與形式相配的，每個東西也與其目的相配。按前面第二題第七節、第五題第三及第四節說的，人的目的是永福。人體之形式是靈魂;按第←集第七十五題第六節所說的，它是不朽的。所以，人的身體自然是不朽的。",
+      "after": "1.凡對人為自然的，皆是天主在人內造成的。但是《智慧篇》第一章13節卻說：「天主並未造死亡」。所以，人的死亡不是自然的。\n2.此外，合於天性者不能稱為處罰或惡，因為自然的就是適合這東西的。但按前面第五節說的，死亡及其他缺點是原罪的處罰。所以對人不是自然的。\n3.此外，質料是與形式相配的，每個東西也與其目的相配。按前面第二題第七節、第五題第三及第四節說的，人的目的是永福。人體之形式是靈魂；按第一集第七十五題第六節所說的，它是不朽的。所以，人的身體自然是不朽的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "造死亡1",
+          "after": "造死亡」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白然",
+          "after": "自然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第←集",
+          "after": "第一集",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2667,
+        2668
+      ],
+      "before": "我解答如下:關於可朽的東西，可以從兩方面去講:一是根據普遍的天性，一是根據{固體立天性。個體之天性是每個東西之行動和保存能力。按《天界論》卷二第六章所說的，從個體之天性看，任何腐朽和缺欠都是相反天性的，因為個體天性的目的是該東西之存在和保存。\n普遍的天性是天性或自然之普遍根本中的動力，例如在天體中的，或者是在某高級本體中的;為此，有人說:天主是「化育自然者之自然」(natura naturans)。這種能力所謀求的是宇宙之善及其保存，而這需要東西有生有滅。從這方面說，東西之腐朽和缺欠是自然的，這不是由於形成之傾向，因為形式乃實在和成就之根本;而是根據質料之傾向，質料是普遍之動因按情況分配給每個形式的。雖然凡形式皆盡其可能地謀求永遠存在，但可朽物之形式不能永存不朽，只有靈魂例外;這是因為靈魂異於其他形式，完全不受形體之質料的牽制。而按第一集第七十五題第二節所說的，靈魂有獨立的非物質性的活動。所以，從形式方面來看，不朽對人比對其他可朽物更為自然。但人之形式也有由相反者合成的質料，由於質料之傾向，整體遂為可朽的。故此，按孤立的質料之天性說，人自然是可朽的;但按形式之天性則不是。",
+      "after": "我解答如下：關於可朽的東西，可以從兩方面去講：一是根據普遍的天性，一是根據個體之天性。個體之天性是每個東西之行動和保存能力。按《天界論》卷二第六章所說的，從個體之天性看，任何腐朽和缺欠都是相反天性的，因為個體天性的目的是該東西之存在和保存。\n普遍的天性是天性或自然之普遍根本中的動力，例如在天體中的，或者是在某高級本體中的；為此，有人說：天主是「化育自然者之自然」(natura naturans)。這種能力所謀求的是宇宙之善及其保存，而這需要東西有生有滅。從這方面說，東西之腐朽和缺欠是自然的，這不是由於形成之傾向，因為形式乃實在和成就之根本；而是根據質料之傾向，質料是普遍之動因按情況分配給每個形式的。雖然凡形式皆盡其可能地謀求永遠存在，但可朽物之形式不能永存不朽，只有靈魂例外；這是因為靈魂異於其他形式，完全不受形體之質料的牽制。而按第一集第七十五題第二節所說的，靈魂有獨立的非物質性的活動。所以，從形式方面來看，不朽對人比對其他可朽物更為自然。但人之形式也有由相反者合成的質料，由於質料之傾向，整體遂為可朽的。故此，按孤立的質料之天性說，人自然是可朽的；但按形式之天性則不是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{固體立天性",
+          "after": "個體之天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q085.a006.general",
+      "article": 6,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        2668,
+        2669
+      ],
+      "before": "前三點的理由(見質疑)是根據質料;後三點的理由(見反之)是根據形式。為解答這些疑難，要知道，人的形式，亦即霾魂，因為是不朽的，與其目的永褔相配。但人的身體按其天性是可朽的，與其形式在某方面相配，在另一方面不相配。的確，可以從兩方面看質料:第一是主動者所選取者;第二不是主動者所選取者，而是由於質料的自然性質。例如，工匠為製造刀子，選用堅固又有韌性的原料，好能使之尖銳並適於切割;按這條件，鐵是適於做刀子的質料;至於鐵會斷，並能生鏽，乃是由於鐵的天然性質。工匠之所以選用鐵，不是針對此點，若可能反而會予以排除。所以，質料的這層性質不合匠人之心意，也不合技術之用意。同樣，人的身體也是天性或自然選用的質料，由於身體之平衡結構，適於成為觸覺及其他感覺及推動能力的器官。至於它是可朽的，是由於質料的性質，這點不是天性或自然所選取的一一如果可能，天性或自然寧願選用不朽的質料。但是管理一切天性或自然的天主，在造人時補救了人天性方面的弱點，如在第一集第九十七題第一節裡已經說過的:祂以原始正義之恩惠，給了人的身體一種不朽;故此說:「天主並未造死亡」'並說死亡是罪過的處罰。\n由上面所說的，可知各質疑之解答。",
+      "after": "前三點的理由(見質疑)是根據質料；後三點的理由(見反之)是根據形式。為解答這些疑難，要知道，人的形式，亦即靈魂，因為是不朽的，與其目的永福相配。但人的身體按其天性是可朽的，與其形式在某方面相配，在另一方面不相配。的確，可以從兩方面看質料：第一是主動者所選取者；第二不是主動者所選取者，而是由於質料的自然性質。例如，工匠為製造刀子，選用堅固又有韌性的原料，好能使之尖銳並適於切割；按這條件，鐵是適於做刀子的質料；至於鐵會斷，並能生鏽，乃是由於鐵的天然性質。工匠之所以選用鐵，不是針對此點，若可能反而會予以排除。所以，質料的這層性質不合匠人之心意，也不合技術之用意。同樣，人的身體也是天性或自然選用的質料，由於身體之平衡結構，適於成為觸覺及其他感覺及推動能力的器官。至於它是可朽的，是由於質料的性質，這點不是天性或自然所選取的——如果可能，天性或自然寧願選用不朽的質料。但是管理一切天性或自然的天主，在造人時補救了人天性方面的弱點，如在第一集第九十七題第一節裡己經說過的：祂以原始正義之恩惠，給了人的身體一種不朽；故此說：「天主並未造死亡」，並說死亡是罪過的處罰。\n由上面所說的，可知各質疑之解答。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "霾魂",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "永褔",
+          "after": "永福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "選取的一一",
+          "after": "選取的——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造死亡」'",
+          "after": "造死亡」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
