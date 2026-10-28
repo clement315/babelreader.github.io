@@ -1,0 +1,2232 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q098",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q098",
+    "title": "論舊約之法律",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2807,
+      2808,
+      2809,
+      2810,
+      2811,
+      2812,
+      2813,
+      2814,
+      2815,
+      2816,
+      2817,
+      2818,
+      2819,
+      2820
+    ],
+    "printed_pages": [
+      78,
+      91
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 74,
+    "changed_review_units": 57,
+    "checked_unchanged_review_units": 18
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q98.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q98.json": "779a558a6f8cdfba621e38e12ef325c1d0dad1333e7c2e20b429e248316edc72"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q098.a001.respondeo",
+      "pdf_file_page": 2808,
+      "text": "第二十章15節",
+      "status": "suspected_source_print_error",
+      "action": "原页确作15节，疑引文编号印误。依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a004.sed_contra",
+      "pdf_file_page": 2815,
+      "text": "第一四八篇20節",
+      "status": "suspected_source_print_error",
+      "action": "原页确作第一四八篇，疑引文篇号印误。依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a004.respondeo",
+      "pdf_file_page": 2816,
+      "text": "繞揀選",
+      "status": "suspected_source_print_error",
+      "action": "放大核看原页确作繞揀選，疑原书错字。依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a005.intro",
+      "pdf_file_page": 2817,
+      "text": "我門",
+      "status": "suspected_source_print_error",
+      "action": "原页确作我門，疑我們之印误。依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a005.respondeo",
+      "pdf_file_page": 2817,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a006.arg2",
+      "pdf_file_page": 2819,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q098.a006.ad3",
+      "pdf_file_page": 2820,
+      "text": "既己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部14页、6节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q098.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "然後要討論的是舊法律或舊約之法律(lex vetus;參看第九十三題引言)。首先，討論這法律本身;然後，討論其指令蚓11令(第九十九題)。\n關於第一點，可以提出六個問題:\n一、舊約之法律是否優良。\n二、是否來自天主。\n三、是否通過天使而來白天主。\n四、是否為給全人類的。\n五、是否凡人皆應奉守。\n六、頌賜的時代是否合適。",
+      "after": "然後要討論的是舊法律或舊約之法律(lex vetus；參看第九十三題引言)。首先，討論這法律本身；然後，討論其指令或訓令(第九十九題)。\n關於第一點，可以提出六個問題：\n一、舊約之法律是否優良。\n二、是否來自天主。\n三、是否通過天使而來自天主。\n四、是否為給全人類的。\n五、是否凡人皆應奉守。\n六、頒賜的時代是否合適。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "指令蚓11令",
+          "after": "指令或訓令",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頌賜",
+          "after": "頒賜",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "舊約之法律是否優良",
+      "after": "舊約之法律是否優良",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "舊約的法律似乎不優良。因為:",
+      "after": "舊約的法律似乎不優良。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2807
+      ],
+      "before": "《厄則克耳》第二十章2S節說:「我容許他們有不良的法令，和不能賴以生存的法律。」但法律優良與否，在於其所含有的法令。所以舊約的法律不優良或不好。",
+      "after": "《厄則克耳》第二十章25節說：「我容許他們有不良的法令，和不能賴以生存的法律。」但法律優良與否，在於其所含有的法令。所以舊約的法律不優良或不好。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "2S節",
+          "after": "25節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2807,
+        2808
+      ],
+      "before": "此外，按依希道《語源學》卷二第十章;卷五第二十一章所說的，好的法律該有助於公共利益。但舊約的法律不是有益的，而是致死的和有害的。因為宗徒在《羅馬書》第七章8節說:「原來若沒有法律，罪惡便是死的。從前我沒有法律時，我是活人;但誡命一來，罪惡便活了起來，我反而死了。」《羅馬書》第五章20節也說:「法律本是後加的，是為增多罪過。」所以，舊約的法律不是好的。",
+      "after": "此外，按依希道《語源學》卷二第十章；卷五第二十一章所說的，好的法律該有助於公共利益。但舊約的法律不是有益的，而是致死的和有害的。因為宗徒在《羅馬書》第七章8節說：「原來若沒有法律，罪惡便是死的。從前我沒有法律時，我是活人；但誡命一來，罪惡便活了起來，我反而死了。」《羅馬書》第五章20節也說：「法律本是後加的，是為增多罪過。」所以，舊約的法律不是好的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2808
+      ],
+      "before": "此外，好的法律，按人性和風俗習慣該是能夠奉守的(參看第九十五題第三節)。但舊約的法律不是這樣的，因為伯多祿在《宗徒大事錄》第十五章10節說:「現今你們為什麼試探天主，在門徒的頸項上，放上連我們的祖先和我們自己都不能負荷的輒呢?」所以，舊約的法律不好。",
+      "after": "此外，好的法律，按人性和風俗習慣該是能夠奉守的(參看第九十五題第三節)。但舊約的法律不是這樣的，因為伯多祿在《宗徒大事錄》第十五章10節說：「現今你們為什麼試探天主，在門徒的頸項上，放上連我們的祖先和我們自己都不能負荷的軛呢？」所以，舊約的法律不好。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "輒呢?",
+          "after": "軛呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2808
+      ],
+      "before": "宗徒在《羅馬書》第七章12節裡卻說:「法律本是聖的，誡命也是聖的，是正義和美善的。」",
+      "after": "宗徒在《羅馬書》第七章12節裡卻說：「法律本是聖的，誡命也是聖的，是正義和美善的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2808,
+        2809
+      ],
+      "before": "我解答如下:舊約的法律無疑是好的。就如學說若合於正確的理性，便是真的;法律若合於理性，也便是善的。舊約的法律在當時是合於理性的，因為它壓制不合理性的慾望，就如《出谷紀》第二十章的節那道誡命:「不可貪懲鄰人的東西」。它也禁止一切違反理性的罪惡。可見，它顯然是好的。故此宗徒在《羅馬書》第七章22節說:「照我的內心，我是喜悅天主的法律」;他又說:「我若去做我所不願意的，這便是承認法律是善的」。\n但是要知道，就如狄奧尼修在《神名論》第四章所說的，善有許多等級:有的是完美的善，有的善不完美。關於導致目的者，所謂完美的善，是其本身就足以達成目的;不完美的善是有助於目的之達成，但單獨地不足達成目的。就如:完美的好藥品使人痊贖;不完美的對人有益，但不使人痊癒。還要知道，人為的法律與天主之法律的目的不同。人為的法律，目的在保護國家的安寧，為達到這個目的，法律禁止能破壞杜會安寧的外表行為。天主的法律是為使人獲得永遠的幸福;任何罪惡都能妨害這個目的，無論是外表的或內心的。故此，在人為法律方面算是完美的一一即禁止罪惡，制訂處罰一一對天主的法律而言並不算完美;在天主的法律方面算是完美的，須使人完全適於分享永福。但這要靠聖神的恩寵，藉以將「天主的愛傾注在我們心中」(《羅馬書》第五章5節)，而愛滿全一切法律。因為按《羅馬書》第六章23節所說的: 「天主的恩寵是永生」 0舊約的法律不能給人這種思寵，而要等待基督;因為《若望褔音》第一章17節說: 「將是藉梅瑟傳授的，恩寵和真理卻是由耶穌基督而來的。'」所以，舊約的法律固然是好的，但不是完美的;就如《希伯來書》第七章19節所說的:「(舊約)法律本來就不能成就什麼」。",
+      "after": "我解答如下：舊約的法律無疑是好的。就如學說若合於正確的理性，便是真的；法律若合於理性，也便是善的。舊約的法律在當時是合於理性的，因為它壓制不合理性的慾望，就如《出谷紀》第二十章15節那道誡命：「不可貪戀鄰人的東西」。它也禁止一切違反理性的罪惡。可見，它顯然是好的。故此宗徒在《羅馬書》第七章22節說：「照我的內心，我是喜悅天主的法律」；他又說：「我若去做我所不願意的，這便是承認法律是善的」。\n但是要知道，就如狄奧尼修在《神名論》第四章所說的，善有許多等級：有的是完美的善，有的善不完美。關於導致目的者，所謂完美的善，是其本身就足以達成目的；不完美的善是有助於目的之達成，但單獨地不足達成目的。就如：完美的好藥品使人痊癒；不完美的對人有益，但不使人痊癒。還要知道，人為的法律與天主之法律的目的不同。人為的法律，目的在保護國家的安寧，為達到這個目的，法律禁止能破壞社會安寧的外表行為。天主的法律是為使人獲得永遠的幸福；任何罪惡都能妨害這個目的，無論是外表的或內心的。故此，在人為法律方面算是完美的——即禁止罪惡，制訂處罰——對天主的法律而言並不算完美；在天主的法律方面算是完美的，須使人完全適於分享永福。但這要靠聖神的恩寵，藉以將「天主的愛傾注在我們心中」(《羅馬書》第五章5節)，而愛滿全一切法律。因為按《羅馬書》第六章23節所說的：「天主的恩寵是永生」。舊約的法律不能給人這種恩寵，而要等待基督；因為《若望福音》第一章17節說：「法律是藉梅瑟傳授的，恩寵和真理卻是由耶穌基督而來的。」所以，舊約的法律固然是好的，但不是完美的；就如《希伯來書》第七章19節所說的：「(舊約)法律本來就不能成就什麼」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二十章的節",
+          "after": "第二十章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貪懲",
+          "after": "貪戀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "痊贖",
+          "after": "痊癒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "杜會",
+          "after": "社會",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "完美的一一即",
+          "after": "完美的——即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "制訂處罰一一對",
+          "after": "制訂處罰——對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這種思寵",
+          "after": "這種恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「將是藉梅瑟",
+          "after": "「法律是藉梅瑟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來的。'」",
+          "after": "來的。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2809
+      ],
+      "before": "上主在那裡所說的是指「禮儀法令」(Praecepta Caeremonia1ia)。說這些法令不好，因為不能給予使人除罪的恩寵，它們只表示出人是罪人;故此特別又說: 「和不能賴以生存的法律」'即是說不能賴以獲得恩寵的生命;然後又說: 「並使他們因自己的祭獻成為不潔」'即「當他們將頭胎所生的為自己的罪祭獻時」'顯出他們不潔。",
+      "after": "上主在那裡所說的是指「禮儀法令」(Praecepta Caeremonialia)。說這些法令不好，因為不能給予使人除罪的恩寵，它們只表示出人是罪人；故此特別又說：「和不能賴以生存的法律」，即是說不能賴以獲得恩寵的生命；然後又說：「並使他們因自己的祭獻成為不潔」，即「當他們將頭胎所生的為自己的罪祭獻時」，顯出他們不潔。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Caeremonia1ia",
+          "after": "Caeremonialia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "法律」'",
+          "after": "法律」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不潔」'",
+          "after": "不潔」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祭獻時」'",
+          "after": "祭獻時」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2809
+      ],
+      "before": "說法律害人，不是指實際地，而是因為不完美而成為害人的機會，即是因為不給人恩寵，助人守其誡命，避它所禁止的。所以，這機會不是原來固有的，而是人促成的。因此宗徒在那裡說: 「罪惡藉著誡命乘機誘惑了我，也藉著誡命殺害了我。」(《羅馬書》第七章11節)所謂「法律本是復加的，是為增多罪過」'也是這個原因。這裡「為」字是指後果，不指原因，即是人因了法律的機會，犯罪加多;或是因為有了禁令後，罪過更加嚴重;也是因為慾望增加了，由於愈加以禁止，我們的慾望愈強。",
+      "after": "說法律害人，不是指實際地，而是因為不完美而成為害人的機會，即是因為不給人恩寵，助人守其誡命，避它所禁止的。所以，這機會不是原來固有的，而是人促成的。因此宗徒在那裡說：「罪惡藉著誡命乘機誘惑了我，也藉著誡命殺害了我。」(《羅馬書》第七章11節)所謂「法律本是後加的，是為增多罪過」，也是這個原因。這裡「為」字是指後果，不指原因，即是人因了法律的機會，犯罪加多；或是因為有了禁令後，罪過更加嚴重；也是因為慾望增加了，由於愈加以禁止，我們的慾望愈強。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "復加",
+          "after": "後加",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "增多罪過」'",
+          "after": "增多罪過」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2809,
+        2810
+      ],
+      "before": "沒有恩寵的扶助，人不能負起法律之重荷，而法律又不給人恩寵;因為《羅馬書》第九章16節說: 「蒙召並不在乎人願意，也不在乎人努力」'即願意並努力守法，「而是由於夭主的仁慈」。故此《聖詠》第一一九篇32節也說:「我曾奔赴你誡命的路程，因為你舒展了我的心靈」'即給了恩寵和愛德之恩賜。",
+      "after": "沒有恩寵的扶助，人不能負起法律之重荷，而法律又不給人恩寵；因為《羅馬書》第九章16節說：「蒙召並不在乎人願意，也不在乎人努力」，即願意並努力守法，「而是由於天主的仁慈」。故此《聖詠》第一一九篇32節也說：「我曾奔赴你誡命的路程，因為你舒展了我的心靈」，即給了恩寵和愛德之恩賜。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人努力」'",
+          "after": "人努力」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夭主",
+          "after": "天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "心靈」'",
+          "after": "心靈」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "舊約的法律是否來自天主",
+      "after": "舊約的法律是否來自天主",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "舊約的法律似乎不是來白天主。因為:",
+      "after": "舊約的法律似乎不是來自天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "i.《申命紀》第三十二章4節說:「天主的作為完美無比。」但前面第一節、第九十一題第五節曾說，(舊約的)法律不是完美的。所以舊約的法律不是來自天主。",
+      "after": "《申命紀》第三十二章4節說：「天主的作為完美無比。」但前面第一節、第九十一題第五節曾說，(舊約的)法律不是完美的。所以舊約的法律不是來自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.《",
+          "after": "《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "此外，《司11道篇》第三章14節說:「我知道，凡天主所行的事，永恆不變。」但是舊約的法律不是永恆不變的，因為宗徒在《希伯來書》第七章18節說:「先前的誡命之廢除，是由於它的弱點和無用。」所以，舊約的法律不是從天主來的。",
+      "after": "此外，《訓道篇》第三章14節說：「我知道，凡天主所行的事，永恆不變。」但是舊約的法律不是永恆不變的，因為宗徒在《希伯來書》第七章18節說：「先前的誡命之廢除，是由於它的弱點和無用。」所以，舊約的法律不是從天主來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "司11道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "此外，明智的立法者不只該排斥惡，也該除去罪惡之機會。但按上面第一節釋疑2.所說的，舊約的法律曾是犯罪的機會。既然按《約伯傳》第三十六章22節所說的，天主是「無人能比的立法者」'不能立那樣的法律。",
+      "after": "此外，明智的立法者不只該排斥惡，也該除去罪惡之機會。但按上面第一節釋疑2.所說的，舊約的法律曾是犯罪的機會。既然按《約伯傳》第三十六章22節所說的，天主是「無人能比的立法者」，不能立那樣的法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "立法者」'",
+          "after": "立法者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "此外，《弟茂德前書》第二章4節說:「天主願意所有的人都得救。」 i旦按前面第一節、第九十一題第五節釋疑2.所說的，舊約的法律不能使人得救。所以，天主不能給人那樣的法律。故此，舊約的法律不是來白天主。",
+      "after": "此外，《弟茂德前書》第二章4節說：「天主願意所有的人都得救。」但按前面第一節、第九十一題第五節釋疑2.所說的，舊約的法律不能使人得救。所以，天主不能給人那樣的法律。故此，舊約的法律不是來自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": " i旦按",
+          "after": "但按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2810
+      ],
+      "before": "在《瑪竇福音》第十五章6節講論握有舊約法律的猶太人，主說:「你們就為了你們的傳授，廢棄了天主的誡命」。在這之前曾提到:「你要孝敬父親和母親」(第4節)，這顯然是舊約裡的誠命(參見《出谷紀》第二十章12節;《申命紀》第五章的節)。所以，舊約的法律是來白天主。",
+      "after": "在《瑪竇福音》第十五章6節講論握有舊約法律的猶太人，主說：「你們就為了你們的傳授，廢棄了天主的誡命」。在這之前曾提到：「你要孝敬父親和母親」(第4節)，這顯然是舊約裡的誡命(參見《出谷紀》第二十章12節；《申命紀》第五章16節)。所以，舊約的法律是來自天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "誠命",
+          "after": "誡命",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第五章的節",
+          "after": "第五章16節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2811
+      ],
+      "before": "我解答如下:舊約的法律是良善的天主訂立的，祂是我們的主耶穌基督的聖父。舊約的法律以兩種方式使人走向基督。一種方式是給基督作證;故此，祂(基督)在《路加福音》第二十四章44節說: 「諸凡梅瑟法律、先知並《聖詠》上指著我所記載的話，都必須應驗」;在《若望福音》第五章46節也說: 「若是你們相信蚓、，也許會相信我，因為他是指著我而寫的」。另一方式是一種準備，為使人離棄敬禮邪神而敬禮唯一的天主，祂將藉基督救贖人類;故此，宗徒在《迦拉達書》第三章23節說: 「在信仰尚未來到以前，我們都被禁鋼在法律的監守之下，以期待信仰的出現。」為目的做準備，和使人達到目的，顯然是來自同一個動因，即天主自己或藉祂的使者。魔鬼不會制訂使人歸向基督的法律，並使自己被棄;正如《瑪竇福音》第十二章26節所說的: 「如果撒彈驅逐撒蟬，那麼他的國使呈現分裂。」所以訂立舊法的，和藉著基督而使人得救的，是同一位天主。",
+      "after": "我解答如下：舊約的法律是良善的天主訂立的，祂是我們的主耶穌基督的聖父。舊約的法律以兩種方式使人走向基督。一種方式是給基督作證；故此，祂(基督)在《路加福音》第二十四章44節說：「諸凡梅瑟法律、先知並《聖詠》上指著我所記載的話，都必須應驗」；在《若望福音》第五章46節也說：「若是你們相信梅瑟，也許會相信我，因為他是指著我而寫的」。另一方式是一種準備，為使人離棄敬禮邪神而敬禮唯一的天主，祂將藉基督救贖人類；故此，宗徒在《迦拉達書》第三章23節說：「在信仰尚未來到以前，我們都被禁錮在法律的監守之下，以期待信仰的出現。」為目的做準備，和使人達到目的，顯然是來自同一個動因，即天主自己或藉祂的使者。魔鬼不會制訂使人歸向基督的法律，並使自己被棄；正如《瑪竇福音》第十二章26節所說的：「如果撒彈驅逐撒彈，那麼他的國便呈現分裂。」所以訂立舊法的，和藉著基督而使人得救的，是同一位天主。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相信蚓、",
+          "after": "相信梅瑟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "禁鋼",
+          "after": "禁錮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "撒蟬",
+          "after": "撒彈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "國使呈現",
+          "after": "國便呈現",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2811
+      ],
+      "before": "一個不絕對完美的東西，並非不能在某時期算是完美的，例如:一個孩子不是絕對完美的人，但以他的年齡來說，能算是完美的人。同樣，給孩子們訂的法律，針對他們的情況來說能算是完美的，雖然不是絕對完美的。舊約的法律便是這樣的。故此，宗徒在《迦拉達書》第三章24節說: 「法律就成了我們的啟蒙師，領我們歸於基督。」",
+      "after": "一個不絕對完美的東西，並非不能在某時期算是完美的，例如：一個孩子不是絕對完美的人，但以他的年齡來說，能算是完美的人。同樣，給孩子們訂的法律，針對他們的情況來說能算是完美的，雖然不是絕對完美的。舊約的法律便是這樣的。故此，宗徒在《迦拉達書》第三章24節說：「法律就成了我們的啟蒙師，領我們歸於基督。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2811
+      ],
+      "before": "天主的事業若是為使之永恆不變的，便永恆不變;這是那些完美的事業。在恩寵的完美時代，舊約的法律被遺棄，並非因為法律是惡的，而是因為法律在那時代無能無用。因為就如隨後所說的: 「法律本來就不能成就什麼」(第19節)。因此，宗徒在《迦拉達書》第三章25節說: 「信仰一到，我們就不再處於啟蒙師權下了。」",
+      "after": "天主的事業若是為使之永恆不變的，便永恆不變；這是那些完美的事業。在恩寵的完美時代，舊約的法律被遺棄，並非因為法律是惡的，而是因為法律在那時代無能無用。因為就如隨後所說的：「法律本來就不能成就什麼」(第19節)。因此，宗徒在《迦拉達書》第三章25節說：「信仰一到，我們就不再處於啟蒙師權下了。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "前面第七十九題第四節曾經說過，有時天主容人陷於罪惡，是為使人學習謙虛。天主給人訂了人力所不能承荷的法律，也是為使自視過高的人覺悟自己是罪人，虛心仰望恩寵之扶助。",
+      "after": "前面第七十九題第四節曾經說過，有時天主容人陷於罪惡，是為使人學習謙虛。天主給人訂了人力所不能承荷的法律，也是為使自視過高的人覺悟自己是罪人，虛心仰望恩寵之扶助。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "舊約的法律雖不足以使人得救，但除了法律之外，天主也給了人別的助佑，使人能夠得救，即是對「中保」(Mediator)之信仰，古聖祖們就是憑這信仰而成義的，就如我們一樣。所以，在給人足以得救的扶助方面，天主並沒有缺失。",
+      "after": "舊約的法律雖不足以使人得救，但除了法律之外，天主也給了人別的助佑，使人能夠得救，即是對「中保」(Mediator)之信仰，古聖祖們就是憑這信仰而成義的，就如我們一樣。所以，在給人足以得救的扶助方面，天主並沒有缺失。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "舊約的法律是否為通過天使而來的",
+      "after": "舊約的法律是否為通過天使而來的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "舊約的法律似乎不是通過天使來的，而是直接來白天主。因為:",
+      "after": "舊約的法律似乎不是通過天使來的，而是直接來自天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "天使意謂「使者」'天使之名稱是指盡職務，而不是指主宰。就如《聖詠》第一O三篇20節所說的:「上主的眾天使，請你們讚美土主，你們是執行祂命令的大能臣僕。」但按聖經所說的，舊約的法律是天主拾的，就如《出谷紀》第二十章1節所說的:「天主訓示以下這一切話說」'然後說:「因為我是上主你的天主」。在《出谷紀》及別的法律書上，常有類似的話。所以舊約的法律是直接從天主來的。",
+      "after": "天使意謂「使者」，天使之名稱是指盡職務，而不是指主宰。就如《聖詠》第一〇三篇20節所說的：「上主的眾天使，請你們讚美上主，你們是執行祂命令的大能臣僕。」但按聖經所說的，舊約的法律是天主給的，就如《出谷紀》第二十章1節所說的：「天主訓示以下這一切話說」，然後說：「因為我是上主你的天主」。在《出谷紀》及別的法律書上，常有類似的話。所以舊約的法律是直接從天主來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使者」'",
+          "after": "使者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一O三",
+          "after": "第一〇三",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "讚美土主",
+          "after": "讚美上主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主拾的",
+          "after": "天主給的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "話說」'",
+          "after": "話說」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "此外，《若望褔音》第一章十七節說:「法律是藉梅瑟傳授的」。但梅瑟是直接從天主領受的，例如《出谷紀》第三十三章11節說:「上主同梅瑟面對面地談話，就如人同朋友談話一樣。」所以，舊約的法律是直接由天主來的。",
+      "after": "此外，《若望福音》第一章十七節說：「法律是藉梅瑟傳授的」。但梅瑟是直接從天主領受的，例如《出谷紀》第三十三章11節說：「上主同梅瑟面對面地談話，就如人同朋友談話一樣。」所以，舊約的法律是直接由天主來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2812
+      ],
+      "before": "此外，按前面第九十題第三節所說的，立法權只屬於君主。但是隻有天主是人靈之救恩的君主，而天使則是「被派遣服務的神明」'如同《希伯來書》第一章14節所說的。舊約的法律既是導向人靈之救恩的，所以不該藉由天使而來。",
+      "after": "此外，按前面第九十題第三節所說的，立法權只屬於君主。但是只有天主是人靈之救恩的君主，而天使則是「被派遣服務的神明」，如同《希伯來書》第一章14節所說的。舊約的法律既是導向人靈之救恩的，所以不該藉由天使而來。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "神明」'",
+          "after": "神明」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2813
+      ],
+      "before": "宗徒在《迦拉達書》第三章十九節卻說: 「法律原是藉著天使，經過中人的手而立定的。」斯德望在《宗徒大事錄》第七章53節也說: 「你們這些人接受了藉天使所傳布的法律。」",
+      "after": "宗徒在《迦拉達書》第三章十九節卻說：「法律原是藉著天使，經過中人的手而立定的。」斯德望在《宗徒大事錄》第七章53節也說：「你們這些人接受了藉天使所傳布的法律。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2813
+      ],
+      "before": "我解答如下:法律是藉天使而來白天主。除了狄奧尼修在《上天(天使)階級論》第四章所提出之廣泛理由外，即「天主的事該藉天使傳達給人」'也有個舊約法律應藉天使傳授的特別理由。上面第一及第二節曾說，舊約的法律不完美，是準備人類承受將要由基督完成之救贖的。我們看到在有等次的權力和技術上，主要和完美之行動是由最高者親自來施行;而完美階段前的準備工作是由手下的人來做，例如:造船的人是由手下準備材料，而親自將船結構起來。所以，新約的完美法律理應由降生成人的天主直接而來;舊約的法律則該通過天主的臣僕或天使而給予人類。宗徒在《希伯來書》開端，便是根據這點證明新約法律高於舊約的法律:因為在新約中，1-天主藉著自己的兒子對我們說了話J(第一章2節);在舊約裡是「藉著天使傳話」(第二章第2節)。",
+      "after": "我解答如下：法律是藉天使而來自天主。除了狄奧尼修在《上天(天使)階級論》第四章所提出之廣泛理由外，即「天主的事該藉天使傳達給人」，也有個舊約法律應藉天使傳授的特別理由。上面第一及第二節曾說，舊約的法律不完美，是準備人類承受將要由基督完成之救贖的。我們看到在有等次的權力和技術上，主要和完美之行動是由最高者親自來施行；而完美階段前的準備工作是由手下的人來做，例如：造船的人是由手下準備材料，而親自將船結構起來。所以，新約的完美法律理應由降生成人的天主直接而來；舊約的法律則該通過天主的臣僕或天使而給予人類。宗徒在《希伯來書》開端，便是根據這點證明新約法律高於舊約的法律：因為在新約中，「天主藉著自己的兒子對我們說了話」(第一章2節)；在舊約裡是「藉著天使傳話」(第二章第2節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傳達給人」'",
+          "after": "傳達給人」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1-天主藉",
+          "after": "「天主藉",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說了話J",
+          "after": "說了話」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2813
+      ],
+      "before": "正如教宗額我略一世在《倫理叢談》第一章序言所說的: 「發顯給梅瑟的天使，有時像是天使，有時像是天主。像是天使，因為是天使用外在的講話服務;像是天主，因為是天主在內監督，並使講話發生效力。」所以，天使也是以天主的名義講話。",
+      "after": "正如教宗額我略一世在《倫理叢談》第一章序言所說的：「發顯給梅瑟的天使，有時像是天使，有時像是天主。像是天使，因為是天使用外在的講話服務；像是天主，因為是天主在內監督，並使講話發生效力。」所以，天使也是以天主的名義講話。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2813,
+        2814
+      ],
+      "before": "奧斯定在《創世紀字義新探》卷十二第二十七章提到《出谷紀》第三十三章11節所說的: 「上主同梅瑟面對面地談話」'然後又提到: 「求你把你的榮耀顯示給我」(第18節)他解釋說: 「他(梅瑟)感覺到了他所見到的，但他希求他沒有看到的」 0所以他見到的不是天主本身，故不是直接受天主的教誨。那裡說是「面對面地」'乃是聖經按民眾的想法而說的，他們以為梅瑟與天主是親口對話，實際天主則是藉著在祂磨下的受造物，即藉著天使和雲顯現給梅瑟'並向他講話(參見《出谷紀》第二十章18節;《申命紀》第五章22節)。或者也可以說，所謂面對面地，是為表示遜於看到天主本身的一種高妙和親切的會唔。",
+      "after": "奧斯定在《創世紀字義新探》卷十二第二十七章提到《出谷紀》第三十三章11節所說的：「上主同梅瑟面對面地談話」，然後又提到：「求你把你的榮耀顯示給我」(第18節)；他解釋說：「他(梅瑟)感覺到了他所見到的，但他希求他沒有看到的」。所以他見到的不是天主本身，故不是直接受天主的教誨。那裡說是「面對面地」，乃是聖經按民眾的想法而說的，他們以為梅瑟與天主是親口對話，實際天主則是藉著在祂麾下的受造物，即藉著天使和雲顯現給梅瑟，並向他講話(參見《出谷紀》第二十章18節；《申命紀》第五章22節)。或者也可以說，所謂面對面地，是為表示遜於看到天主本身的一種高妙和親切的會晤。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "談話」'",
+          "after": "談話」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(第18節)他解釋",
+          "after": "(第18節)；他解釋",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "面對面地」'",
+          "after": "面對面地」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "祂磨下",
+          "after": "祂麾下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "梅瑟'並",
+          "after": "梅瑟，並",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "會唔",
+          "after": "會晤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "只有君主能以自己的權力制訂法律，但有時也藉他人頒布他所訂的法律。天主也是以自己的權力制訂法律，並藉著天使公佈給人。",
+      "after": "只有君主能以自己的權力制訂法律，但有時也藉他人頒布他所訂的法律。天主也是以自己的權力制訂法律，並藉著天使公佈給人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "舊約的法律是否該只給猶太民族",
+      "after": "舊約的法律是否該只給猶太民族",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "舊約的法律似乎不該只給猶太民族。因為:",
+      "after": "舊約的法律似乎不該只給猶太民族。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "上面第二及第三節曾說，舊約的法律是為準備將要由基督實現的救恩。但那救恩不是隻給猶太人的，而是給全人類的;正如《依撒意亞》第四十九章6節所說的: 「你作我的僕人，復興雅各伯支派，領回以色列遺留下的人，還是小事，我更要使你作萬氏的光明，使我的救恩達於地扭。」所以舊約的法律該是給世界萬民的，不只給一個民族。",
+      "after": "上面第二及第三節曾說，舊約的法律是為準備將要由基督實現的救恩。但那救恩不是只給猶太人的，而是給全人類的；正如《依撒意亞》第四十九章6節所說的：「你作我的僕人，復興雅各伯支派，領回以色列遺留下的人，還是小事，我更要使你作萬民的光明，使我的救恩達於地極。」所以舊約的法律該是給世界萬民的，不只給一個民族。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻給",
+          "after": "只給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "萬氏",
+          "after": "萬民",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "地扭",
+          "after": "地極",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "此外，《宗徒大事錄》第十章34及35節說: 「天主是不看情面的，凡在各民族中敬畏祂，而又履行正義的人，都是祂所中悅的。」所以，不該把救恩之路指給一個民族，而不指給別的民族。",
+      "after": "此外，《宗徒大事錄》第十章34及35節說：「天主是不看情面的，凡在各民族中敬畏祂，而又履行正義的人，都是祂所中悅的。」所以，不該把救恩之路指給一個民族，而不指給別的民族。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2814
+      ],
+      "before": "此外，按上面第三節說的，法律是藉天使而來的。但是天主不只派天使照顧猶太人，也照顧其他各民族;就如《德哥11篇》十七章14節所說的: 「祂給每個民族，立了一個統治者。」此外天主也賞賜各民族現世的福利，雖然天主重視精神上的褔利甚於現世福利。所以祂也該給各民族都立了法律。",
+      "after": "此外，按上面第三節說的，法律是藉天使而來的。但是天主不只派天使照顧猶太人，也照顧其他各民族；就如《德訓篇》十七章14節所說的：「祂給每個民族，立了一個統治者。」此外天主也賞賜各民族現世的福利，雖然天主重視精神上的福利甚於現世福利。所以祂也該給各民族都立了法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德哥11篇",
+          "after": "德訓篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔利",
+          "after": "福利",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2815
+      ],
+      "before": "《羅馬書》第三章l節卻說: 「猶太人有什麼優路呢?從各方面來說，很多:首先，天主的神諭是委託給了他們。」《聖詠》第一四八篇20節也說: 「祂從未如此恩待過其他任何民族，也沒有向他們宣示過自己的法律。」",
+      "after": "《羅馬書》第三章1節卻說：「猶太人有什麼優點呢？從各方面來說，很多：首先，天主的神諭是委託給了他們。」《聖詠》第一四八篇20節也說：「祂從未如此恩待過其他任何民族，也沒有向他們宣示過自己的法律。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三章l節",
+          "after": "第三章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "優路呢?",
+          "after": "優點呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2815,
+        2816
+      ],
+      "before": "我解答如下:天主把法律交給了猶太人，而沒有給別的民族，也許有人提出這個理由來，因為別的民族都拜邪神，只有猶太人保存了唯一真天主的信仰;因此別的民族不配接受法律，以兔把聖物給狗。\n但是這個理由似乎不合適;因為《出谷紀》第三十二章足以顯示，猶太人連有了法律之後，仍然去拜邪神，這比較更為嚴重。《亞毛斯》第五章25至26節也說: 「以色列家!你們在曠野中四十年，何嘗給我奉獻過犧牲和素祭?你們為你們的摩肋客神(Moloch)抬了帳幕，抬了你們的邪神的偶像，你們的楞番(Rempham)神的星辰，這些都是你們為自己製造的。」(參見《宗徒大事錄》第七章42至的節)《申命紀》第九章6節也明明地說: 「你應知道，上主你的天主把這肥美的土地賜給你作產業，並不是因了你的義德，因為你原是一個執抑的民族。」在這前面指出了理由: 「是為實踐上主向你祖先亞巳郎、依撒格和雅各伯起誓所許的諾言」(第5節)。\n宗徒在《迦拉達書》第三章的節，提到給他們的這個諾言說: 「恩許是向亞巴郎和他的後裔所許諾的，並沒有說『後裔作刊，好像是向許多人說的;而走向一個人，即『你的後裔~，就是指基督。」所以，天主將法律和其他特恩賞給這個民族，是因了向他們祖先許下了基督要從他們內出生。因為基督要從這民族出生，故這民族該具有特別的聖德，就如《肋未紀》第十九章2節所說的: 「你們應該是聖的，因為我是聖的。」許給亞巴郎基督要出於他的後裔，也不是因了亞巴郎自己的功勞，而是由於無代價的選擇和召喚。故此《依撒意亞》第四十一章2節說: 「是誰也東方喚醒了那義人，使他步步跟隨自己?」\n由此可見，聖祖獲得許諾，其後裔獲得法律，都只是由於無代價的選擇;就如《申命紀》第四章36至37節所說的:「你聽到祂由火中發出的言語。祂由於愛你的祖先，繞揀選了他們的後裔」。如果再進一步追間，為什麼選這個民族，而不選別的民族，以使基督出生?只有奧斯定的答案最為合適，他在《若望褔音釋義》第二十六講說: 「若你不想陷入錯誤，就不要評論為什麼吸引這人，而不吸引那人。」",
+      "after": "我解答如下：天主把法律交給了猶太人，而沒有給別的民族，也許有人提出這個理由來，因為別的民族都拜邪神，只有猶太人保存了唯一真天主的信仰；因此別的民族不配接受法律，以免把聖物給狗。\n但是這個理由似乎不合適；因為《出谷紀》第三十二章足以顯示，猶太人連有了法律之後，仍然去拜邪神，這比較更為嚴重。《亞毛斯》第五章25至26節也說：「以色列家！你們在曠野中四十年，何嘗給我奉獻過犧牲和素祭？你們為你們的摩肋客神(Moloch)抬了帳幕，抬了你們的邪神的偶像，你們的楞番(Rempham)神的星辰，這些都是你們為自己製造的。」(參見《宗徒大事錄》第七章42至43節)《申命紀》第九章6節也明明地說：「你應知道，上主你的天主把這肥美的土地賜給你作產業，並不是因了你的義德，因為你原是一個執抑的民族。」在這前面指出了理由：「是為實踐上主向你祖先亞巴郎、依撒格和雅各伯起誓所許的諾言」(第5節)。\n宗徒在《迦拉達書》第三章16節，提到給他們的這個諾言說：「恩許是向亞巴郎和他的後裔所許諾的，並沒有說『後裔們』，好像是向許多人說的；而是向一個人，即『你的後裔』，就是指基督。」所以，天主將法律和其他特恩賞給這個民族，是因了向他們祖先許下了基督要從他們內出生。因為基督要從這民族出生，故這民族該具有特別的聖德，就如《肋未紀》第十九章2節所說的：「你們應該是聖的，因為我是聖的。」許給亞巴郎基督要出於他的後裔，也不是因了亞巴郎自己的功勞，而是由於無代價的選擇和召喚。故此《依撒意亞》第四十一章2節說：「是誰由東方喚醒了那義人，使他步步跟隨自己？」\n由此可見，聖祖獲得許諾，其後裔獲得法律，都只是由於無代價的選擇；就如《申命紀》第四章36至37節所說的：「你聽到祂由火中發出的言語。祂由於愛你的祖先，繞揀選了他們的後裔」。如果再進一步追問，為什麼選這個民族，而不選別的民族，以使基督出生？只有奧斯定的答案最為合適，他在《若望福音釋義》第二十六講說：「若你不想陷入錯誤，就不要評論為什麼吸引這人，而不吸引那人。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "以兔",
+          "after": "以免",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "家!",
+          "after": "家！",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "素祭?",
+          "after": "素祭？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "42至的節",
+          "after": "42至43節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "亞巳郎",
+          "after": "亞巴郎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三章的節",
+          "after": "第三章16節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "『後裔作刊",
+          "after": "『後裔們』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而走向",
+          "after": "而是向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "『你的後裔~",
+          "after": "『你的後裔』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "誰也東方",
+          "after": "誰由東方",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自己?",
+          "after": "自己？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "追間",
+          "after": "追問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "出生?",
+          "after": "出生？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2816
+      ],
+      "before": "由基督將要完成的救恩，雖是為天下萬民的，但基督只能從一個民族中出生，故這民族比別的民族享有特恩。即如《羅馬書》第九章4至5節所說的: 「義子的名分、光榮、盟約、法律、禮儀以及恩詐，都是他們的」'即猶太人的; 「聖祖也是他們的;並且基督按血統說，也是從他們來的。」",
+      "after": "由基督將要完成的救恩，雖是為天下萬民的，但基督只能從一個民族中出生，故這民族比別的民族享有特恩。即如《羅馬書》第九章4至5節所說的：「義子的名分、光榮、盟約、法律、禮儀以及恩許，都是他們的」，即猶太人的； 「聖祖也是他們的；並且基督按血統說，也是從他們來的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恩詐",
+          "after": "恩許",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "他們的」'",
+          "after": "他們的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2816
+      ],
+      "before": "在有所應得的事上纔能有偏袒，在自由施恩的事上沒有偏袒之可能。由於自己的慷慨，把自己所有的給某人，而不給別人，不是偏袒;但如果管理公共福利的人，不按各人之功過公平分配，便是偏袒。天主給人類的救恩，是出於純恩惠;如果給某些人的比給別人的多，這不是偏袒。故此，奧斯定在《論聖人之預定》第八章說: 「無論天主教誨誰，都是出於慈悲;他不教誨誰，則是由於正義。」因為這是因了原袒之罪而加給人類的處罰。",
+      "after": "在有所應得的事上才能有偏袒，在自由施恩的事上沒有偏袒之可能。由於自己的慷慨，把自己所有的給某人，而不給別人，不是偏袒；但如果管理公共福利的人，不按各人之功過公平分配，便是偏袒。天主給人類的救恩，是出於純恩惠；如果給某些人的比給別人的多，這不是偏袒。故此，奧斯定在《論聖人之預定》第八章說：「無論天主教誨誰，都是出於慈悲；他不教誨誰，則是由於正義。」因為這是因了原祖之罪而加給人類的處罰。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "纔能",
+          "after": "才能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原袒",
+          "after": "原祖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2816
+      ],
+      "before": "恩寵之恩惠因了罪過而從人間收凹，但不收回天然的恩惠。天使的照顧便是其中之一，因為這是宇宙秩序所必要的，管理下級者必要經過中級者;天主給人以及禽獸準備的物質方面的必需品，也屬於天然的恩惠，就如《聖詠》第三十五篇7節所說的: 「上主，是你使人畜生命安全。」",
+      "after": "恩寵之恩惠因了罪過而從人間收回，但不收回天然的恩惠。天使的照顧便是其中之一，因為這是宇宙秩序所必要的，管理下級者必要經過中級者；天主給人以及禽獸準備的物質方面的必需品，也屬於天然的恩惠，就如《聖詠》第三十五篇7節所說的：「上主，是你使人畜生命安全。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "收凹",
+          "after": "收回",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "人是否皆應奉守舊約的法律",
+      "after": "人是否皆應奉守舊約的法律",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "有關第五節，我門討論如下:",
+      "after": "有關第五節，我門討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "買聽人似乎都該遵守舊約的法律。因為:",
+      "after": "人似乎都該遵守舊約的法律。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買聽人",
+          "after": "人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "凡屬於國王權下者，便也該屬於他的法律之權下。但舊約的法律是從天主來的，而按《聖詠》第四十七篇8節所說的，「天主是普世的君王」。所以，普世萬民都該遵守舊約的法律。",
+      "after": "凡屬於國王權下者，便也該屬於他的法律之權下。但舊約的法律是從天主來的，而按《聖詠》第四十七篇8節所說的，「天主是普世的君王」。所以，普世萬民都該遵守舊約的法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "此外，猶太人若不遵守舊約的法律，就不能得救;因為《申命紀》第二十七章26節說: 「不堅持這法律的話而執行的，是可咒罵的。」如果別的人不守舊約的法律可以得救，貝IJ猶太人的處境反而不如其他民族。",
+      "after": "此外，猶太人若不遵守舊約的法律，就不能得救；因為《申命紀》第二十七章26節說：「不堅持這法律的話而執行的，是可咒罵的。」如果別的人不守舊約的法律可以得救，則猶太人的處境反而不如其他民族。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "此外，外邦人可以參加猶太人的宗教並守其法律;因為《出谷紀》第十二章48節說: 「若有同你在一起居住的外方人，願向上主舉行逾越節祭餐，他家所有的男子應受割損禮，然後才準前來舉行，如本地人一樣」。外方人若不守舊約的法律也能得救，貝IJ根據天主的命令容許他們奉行法規乃是多餘的事。所以不守舊約的法律，誰也不能得救。",
+      "after": "此外，外邦人可以參加猶太人的宗教並守其法律；因為《出谷紀》第十二章48節說：「若有同你在一起居住的外方人，願向上主舉行逾越節祭餐，他家所有的男子應受割損禮，然後才準前來舉行，如本地人一樣」。外方人若不守舊約的法律也能得救，則根據天主的命令容許他們奉行法規乃是多餘的事。所以不守舊約的法律，誰也不能得救。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2817
+      ],
+      "before": "狄奧尼{I多在《上天(天使)階級論》第九章說，許多外邦人由天使領到了天主那裡。但是外邦人沒有奉守舊約的法律。所以，不守舊約的法律可以得救。",
+      "after": "狄奧尼修在《上天(天使)階級論》第九章說，許多外邦人由天使領到了天主那裡。但是外邦人沒有奉守舊約的法律。所以，不守舊約的法律可以得救。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "狄奧尼{I多",
+          "after": "狄奧尼修",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2817,
+        2818
+      ],
+      "before": "我解答如下:舊約的法律使自然法律之指令更為明顯，並加上了一些特別的指令。關於舊約之法律所包含的自然法律部分，大家都該遵守，不是因為那屬於舊約之法律，而是因為那是自然法律。但是舊約之法律所增加的那部分指令，除了猶太人外，別人不必遵守。\n理由在於舊約之法律，如己說過的，是給猶太人的，為使他們具有特別的聖德，好配使基督從這民族中出生。凡是針對某些人的特別品德而訂的法規，都只約束這些人。就如有些法律只約束獻身神職的人，一般教友則不受其管制;同樣，修會會士由於誓願當行的神業，非會士也沒有責任去行。同樣，也有猶太人當奉守的一些法規，別的民族則無責任奉守。故此，《申命紀》第十八章的節說:「你(猶太民族)應是成全的，在上主你的天主前毫無瑕疵。」因此，他們也用一種誓願儀式，就如《申命紀》第二十六章3節所說的:「我向上主你的天主明認...... 」",
+      "after": "我解答如下：舊約的法律使自然法律之指令更為明顯，並加上了一些特別的指令。關於舊約之法律所包含的自然法律部分，大家都該遵守，不是因為那屬於舊約之法律，而是因為那是自然法律。但是舊約之法律所增加的那部分指令，除了猶太人外，別人不必遵守。\n理由在於舊約之法律，如己說過的，是給猶太人的，為使他們具有特別的聖德，好配使基督從這民族中出生。凡是針對某些人的特別品德而訂的法規，都只約束這些人。就如有些法律只約束獻身神職的人，一般教友則不受其管制；同樣，修會會士由於誓願當行的神業，非會士也沒有責任去行。同樣，也有猶太人當奉守的一些法規，別的民族則無責任奉守。故此，《申命紀》第十八章13節說：「你(猶太民族)應是成全的，在上主你的天主前毫無瑕疵。」因此，他們也用一種誓願儀式，就如《申命紀》第二十六章3節所說的：「我向上主你的天主明認……」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十八章的節",
+          "after": "第十八章13節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "明認...... ",
+          "after": "明認……",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "凡屬於國王之權下者，皆應遵守他為大家訂的一般法律。但是一般的人不必遵守他為內侍所訂的規法。",
+      "after": "凡屬於國王之權下者，皆應遵守他為大家訂的一般法律。但是一般的人不必遵守他為內侍所訂的規法。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "人與天主的關係愈密切，其處境愈優越。因為猶太民族與敬禮天主的關係密切，故比其他民族的地位高。為此《申命紀》第四章8節說: 「有哪個大民族有這樣的禮儀法規、公正的法令和一切法律?」按這觀點，神職人員的處境優於一般教友，會士的處境也優於非會士。",
+      "after": "人與天主的關係愈密切，其處境愈優越。因為猶太民族與敬禮天主的關係密切，故比其他民族的地位高。為此《申命紀》第四章8節說：「有哪個大民族有這樣的禮儀法規、公正的法令和一切法律？」按這觀點，神職人員的處境優於一般教友，會士的處境也優於非會士。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "法律?",
+          "after": "法律？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "外邦人守舊約的法律，比只守自然法律更容易得救，所以讓他們奉守舊約的法律，是為了同樣的理由。現在一般教友要成為神職人員，非會士要成為會士，雖然不這樣做也能得救。",
+      "after": "外邦人守舊約的法律，比只守自然法律更容易得救，所以讓他們奉守舊約的法律，是為了同樣的理由。現在一般教友要成為神職人員，非會士要成為會士，雖然不這樣做也能得救。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "在梅瑟時代頒訂舊約的法律是否合適",
+      "after": "在梅瑟時代頒訂舊約的法律是否合適",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q098.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "在梅瑟時代頒訂舊約的法律似乎不合適。因為:",
+      "after": "在梅瑟時代頒訂舊約的法律似乎不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2818
+      ],
+      "before": "按前面第二及第三節所說的，舊約的法律是為了準備將來基督要完成之救恩的。(旦人類犯了罪以後立刻就需要這救恩的扶助。所以，人類犯罪之後，立刻就該訂立舊約之法律。",
+      "after": "按前面第二及第三節所說的，舊約的法律是為了準備將來基督要完成之救恩的。但人類犯了罪以後立刻就需要這救恩的扶助。所以，人類犯罪之後，立刻就該訂立舊約之法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(旦人類",
+          "after": "但人類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2818,
+        2819
+      ],
+      "before": "此外，舊約的法律是為使基督所由出之民族成聖的。但根據《創世紀》第十二章7節，亞巴郎的時代已經開始關於其「後裔，即基督」之預許(參見《迦拉達書》第三章16節)。所以，在亞巴郎時代就該立刻訂立舊約的法律。",
+      "after": "此外，舊約的法律是為使基督所由出之民族成聖的。但根據《創世紀》第十二章7節，亞巴郎的時代己經開始關於其「後裔，即基督」之預許(參見《迦拉達書》第三章16節)。所以，在亞巴郎時代就該立刻訂立舊約的法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2819
+      ],
+      "before": "此外，基督不是出自諾厄的其他後裔，而是出於亞巴郎，是向他做的預許;同樣，也不是出於亞巴郎的其他後裔，而是出於達味，是向他又重新做了預許。就如《撒幕爾紀下》第二十三章l節所說的: 「這人(達味)，他曾獲授關於雅各伯的天主的受侍者之神諭，他說...... 」既然舊法是在亞巴郎以後頒訂的，就該在達味以後頒訂。",
+      "after": "此外，基督不是出自諾厄的其他後裔，而是出於亞巴郎，是向他做的預許；同樣，也不是出於亞巴郎的其他後裔，而是出於達味，是向他又重新做了預許。就如《撒幕爾紀下》第二十三章1節所說的：「這人(達味)，他曾獲授關於雅各伯的天主的受傅者之神諭，他說……」既然舊法是在亞巴郎以後頒訂的，就該在達味以後頒訂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二十三章l節",
+          "after": "第二十三章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "受侍者",
+          "after": "受傅者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "他說...... ",
+          "after": "他說……",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2819
+      ],
+      "before": "宗徒在《迦拉達書》第三章19節說: 「法律是為顯露過犯而添設的，等祂所恩許的後裔來到，它(法律)原是藉著天仗，經過中人的手而立定的」;照「註解」(拉丁通行本註解1的解釋，這是說: 「按次序立定的」。所以，舊約的法律該是在那個時代傳授。",
+      "after": "宗徒在《迦拉達書》第三章19節說：「法律是為顯露過犯而添設的，等祂所恩許的後裔來到，它(法律)原是藉著天使，經過中人的手而立定的」；照「註解」(拉丁通行本註解)的解釋，這是說：「按次序立定的」。所以，舊約的法律該是在那個時代傳授。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天仗",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "註解1的",
+          "after": "註解)的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2819,
+        2820
+      ],
+      "before": "我解答如下:在梅瑟時代訂立舊約的法律非常合適。既然法律都是針對兩種人而訂立的，故此可以列舉兩個理由:一方面，法律是為傲慢不馴的人立的，為壓制他們，使他們馴服;另一方面，則是為好人訂立的，使他們在法律的指導下，更易達成他們的志願。在那時代訂立舊約的法律合適，為壓制人的驕傲。那時有兩點使人驕傲，即知識和能力。所謂知識，即是認為只靠自然理性可以得救。為了壓制人的這種驕傲，故使人沒有明文法律之扶助，只靠理性之指導。經驗使人知道理性不足為恃，因為在亞巴郎的時代，人都陷入了邪教和極大的罪惡。故在這時代以後，需要有明文法律，以補救人的愚眛，因為按《羅馬書》第三章20節所說的: 「法律使人認識罪過」 0但在人有了明文法律以後，還要壓服他在能力方面的驕傲，因了他沒有能力完成他所知道的。故此，宗徒在《羅馬書》第八章3至4節結論說:「法律因了肉性的軟弱所不能行的，天主卻行了:祂派遣了自己的兒子，為使法律所要求的正義，成全在我們身上。」\n對善人而論，法律是為輔助他們。在罪惡增多，自然法律開始受到矇蔽後，(猶太)民族最需要輔導。但這類輔導該有個次序，先由不完美的開始，而後進於完美的。所以舊約之法律的制訂，該是在自然法律與恩寵之法律的中間。",
+      "after": "我解答如下：在梅瑟時代訂立舊約的法律非常合適。既然法律都是針對兩種人而訂立的，故此可以列舉兩個理由：一方面，法律是為傲慢不馴的人立的，為壓制他們，使他們馴服；另一方面，則是為好人訂立的，使他們在法律的指導下，更易達成他們的志願。在那時代訂立舊約的法律合適，為壓制人的驕傲。那時有兩點使人驕傲，即知識和能力。所謂知識，即是認為只靠自然理性可以得救。為了壓制人的這種驕傲，故使人沒有明文法律之扶助，只靠理性之指導。經驗使人知道理性不足為恃，因為在亞巴郎的時代，人都陷入了邪教和極大的罪惡。故在這時代以後，需要有明文法律，以補救人的愚昧，因為按《羅馬書》第三章20節所說的：「法律使人認識罪過」。但在人有了明文法律以後，還要壓服他在能力方面的驕傲，因了他沒有能力完成他所知道的。故此，宗徒在《羅馬書》第八章3至4節結論說：「法律因了肉性的軟弱所不能行的，天主卻行了：祂派遣了自己的兒子，為使法律所要求的正義，成全在我們身上。」\n對善人而論，法律是為輔助他們。在罪惡增多，自然法律開始受到矇蔽後，(猶太)民族最需要輔導。但這類輔導該有個次序，先由不完美的開始，而後進於完美的。所以舊約之法律的制訂，該是在自然法律與恩寵之法律的中間。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "愚眛",
+          "after": "愚昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2820
+      ],
+      "before": "原祖犯罪之後不宜立刻頒訂舊約之法律，既是因為人仗恃著自己的理性，尚不承認需要法律;也是因為自然法律尚未被罪惡的習慣所矇蔽。",
+      "after": "原祖犯罪之後不宜立刻頒訂舊約之法律，既是因為人仗恃著自己的理性，尚不承認需要法律；也是因為自然法律尚未被罪惡的習慣所矇蔽。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2820
+      ],
+      "before": "法律只能是為民眾訂立的;因為按前面第九十六題第一節所說的，法律是廣泛性的指示。所以在亞巴郎時代，天主隻立了一些家庭式的訓令，有似家法;以後他的後代子孫增多，成了一個民族，又擺脫了奴役﹒遂宜訂立法律。因為按哲學家在《政治學》卷三第五章所說的，奴隸不是民族或國家的一部分，沒有接受法律的資格。",
+      "after": "法律只能是為民眾訂立的；因為按前面第九十六題第一節所說的，法律是廣泛性的指示。所以在亞巴郎時代，天主只立了一些家庭式的訓令，有似家法；以後他的後代子孫增多，成了一個民族，又擺脫了奴役，遂宜訂立法律。因為按哲學家在《政治學》卷三第五章所說的，奴隸不是民族或國家的一部分，沒有接受法律的資格。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻立",
+          "after": "只立",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "奴役﹒",
+          "after": "奴役，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q098.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2820
+      ],
+      "before": "法律該是給整個民族的，不只基督所由出的人接受了法律;故此整個民族都接受了割損禮。按宗徒在《羅馬書》第四章11節裡所說的，這是天主對亞巴郎所做之預許的標記。故在達味以前，既已形成了民族，便該制訂法律。",
+      "after": "法律該是給整個民族的，不只基督所由出的人接受了法律；故此整個民族都接受了割損禮。按宗徒在《羅馬書》第四章11節裡所說的，這是天主對亞巴郎所做之預許的標記。故在達味以前，既己形成了民族，便該制訂法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "既已",
+          "after": "既己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
