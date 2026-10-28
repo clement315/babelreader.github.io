@@ -1,0 +1,2106 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q112",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q112",
+    "title": "論恩寵之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      3051,
+      3052,
+      3053,
+      3054,
+      3055,
+      3056,
+      3057,
+      3058,
+      3059,
+      3060
+    ],
+    "printed_pages": [
+      322,
+      331
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 64,
+    "changed_review_units": 52,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q112.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q112.json": "d49adbd0aae7ed99f76c3ed7f7a97c3fbc1f813feecbbc6fcc6cc2ac19509673"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q112.a005.ad4",
+      "pdf_file_page": 3060,
+      "text": "隨後第10節",
+      "status": "suspected_source_print_error",
+      "action": "原页同作随后第10节，所引经文节数顺序可疑，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a002.respondeo",
+      "pdf_file_page": 3053,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a002.ad1",
+      "pdf_file_page": 3054,
+      "text": "己得到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a002.ad3",
+      "pdf_file_page": 3054,
+      "text": "先己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a003.respondeo",
+      "pdf_file_page": 3055,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a003.ad1",
+      "pdf_file_page": 3055,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q112.a004.respondeo",
+      "pdf_file_page": 3056,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部10页、5节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q112.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "然後要討論的是恩寵之原因(參看第一門九題引言)。\n關於這點，可以提出五個問題:\n一、是否只有天主是恩寵之動目。\n二、接受恩寵者是否需要有自由意志行動方面的準備。\n三、上述準備是否能必得恩寵。\n四、每人的恩寵是否相等。\n五、人是否能知道自己有恩寵。",
+      "after": "然後要討論的是恩寵之原因(參看第一〇九題引言)。\n關於這點，可以提出五個問題：\n一、是否只有天主是恩寵之動因。\n二、接受恩寵者是否需要有自由意志行動方面的準備。\n三、上述準備是否能必得恩寵。\n四、每人的恩寵是否相等。\n五、人是否能知道自己有恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一門九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動目",
+          "after": "動因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "是否只有天主是恩寵之原因",
+      "after": "是否只有天主是恩寵之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "似乎不只有天主是恩寵的原因。因為:",
+      "after": "似乎不只有天主是恩寵的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "《若望福音》第一章17節說: 「恩寵和真正裏是由耶穌基督而來的。」但是耶穌基督不只指其攝取者天主性，也指其被攝取的人性。所以，受造物能是恩寵的原因。",
+      "after": "《若望福音》第一章17節說：「恩寵和真理是由耶穌基督而來的。」但是耶穌基督不只指其攝取者天主性，也指其被攝取的人性。所以，受造物能是恩寵的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真正裏",
+          "after": "真理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "此外，新約法律與舊約法律之聖事的差別，在於新納法律之聖事產生恩寵，而舊約法律之聖事只表示恩寵。「旦新計法律之聖事是一些可見的事物。所以不只有天主是恩寵的原因。",
+      "after": "此外，新約法律與舊約法律之聖事的差別，在於新約法律之聖事產生恩寵，而舊約法律之聖事只表示恩寵。但新約法律之聖事是一些可見的事物。所以不只有天主是恩寵的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "新納",
+          "after": "新約",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「旦新計",
+          "after": "但新約",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3051
+      ],
+      "before": "此外，狄奧尼修在《上天(天使)階級論》第三、第四、第七及第八章說，天使淨化、光照，並成全其他低級天使不口人類。但是有靈性的受造物只能靠恩寵獲得淨化、光照末日成全。所以，不只有天主是恩寵的原因弓",
+      "after": "此外，狄奧尼修在《上天(天使)階級論》第三、第四、第七及第八章說，天使淨化、光照，並成全其他低級天使和人類。但是有靈性的受造物只能靠恩寵獲得淨化、光照和成全。所以，不只有天主是恩寵的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不口人類",
+          "after": "和人類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "末日成全",
+          "after": "和成全",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原因弓",
+          "after": "原因。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "《聖詠》第八十四篇12節說: 「上主常廣施恩寵和光榮。」",
+      "after": "《聖詠》第八十四篇12節說：「上主常廣施恩寵和光榮。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "我解答如下:每個東西之作用，都不能超過其類別範圍;因為原因常該高於放果。恩寵之恩惠超出一切受造物之能力;因為那無非是分有天主的性體，這性體高於一切其他性禮。所以受造物不可能產生恩寵。故此，只有天主能使人天主化，使人藉其肖像之分得，享有天主之性體;正如:除火之外﹒沒有東西能產生火一樣。",
+      "after": "我解答如下：每個東西之作用，都不能超過其類別範圍；因為原因常該高於效果。恩寵之恩惠超出一切受造物之能力；因為那無非是分有天主的性體，這性體高於一切其他性體。所以受造物不可能產生恩寵。故此，只有天主能使人天主化，使人藉其肖像之分得，享有天主之性體；正如：除火之外，沒有東西能產生火一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其他性禮",
+          "after": "其他性體",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之外﹒",
+          "after": "之外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "按大馬士革的若望在《論正統信仰》卷三第十九章說的，基督的人性，有似「其天主性的一種工具」。工具不是憑自己的能力產生主要原因之作用﹒而是靠主動者之能力。所以基督的人性~';:>，，--'~ì~自己的能力產生恩寵，而是靠與之結合的天主性的能力;由於其天主性，基督之人恆的行動纔有救恩作用。",
+      "after": "按大馬士革的若望在《論正統信仰》卷三第十九章說的，基督的人性，有似「其天主性的一種工具」。工具不是憑自己的能力產生主要原因之作用，而是靠主動者之能力。所以基督的人性不是憑自己的能力產生恩寵，而是靠與之結合的天主性的能力；由於其天主性，基督之人性的行動才有救恩作用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "作用﹒",
+          "after": "作用，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~';:>，，--'~ì~",
+          "after": "不是憑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人恆",
+          "after": "人性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔有",
+          "after": "才有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "正似基督之位格中的人性，在天主之能力產生主要作用下，藉恩寵而產生救恩、;由基督來的新約法律之聖事，也是以工具資格產生恩寵。主要原因則是天主聖神在聖事內運作的德能，就如《若望褔音》第三章5節說的: 1人除非由水和聖神而生，不能進天主的國J 0",
+      "after": "正似基督之位格中的人性，在天主之能力產生主要作用下，藉恩寵而產生救恩；由基督來的新約法律之聖事，也是以工具資格產生恩寵。主要原因則是天主聖神在聖事內運作的德能，就如《若望福音》第三章5節說的：「人除非由水和聖神而生，不能進天主的國」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "救恩、;",
+          "after": "救恩；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1人除非",
+          "after": "「人除非",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "國J 0",
+          "after": "國」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": ".天使淨化、光照和成全天使及人、是以一種教導方式，不是以恩寵使之成義的方式。故此，狄奧尼修在《神名論》第七章(參見《上天階級論》第七章)說，這種「i爭化、光照和成全，無非是分得天主的知識。」",
+      "after": "天使淨化、光照和成全天使及人，是以一種教導方式，不是以恩寵使之成義的方式。故此，狄奧尼修在《神名論》第七章(參見《上天階級論》第七章)說，這種「淨化、光照和成全，無非是分得天主的知識。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": ".天使",
+          "after": "天使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "及人、",
+          "after": "及人，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「i爭化",
+          "after": "「淨化",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "人是否須有針對恩寵的準備或配合",
+      "after": "人是否須有針對恩寵的準備或配合",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3052
+      ],
+      "before": "人似乎不須有針對恩寵的準備或配合。因為:",
+      "after": "人似乎不須有針對恩寵的準備或配合。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3052,
+        3053
+      ],
+      "before": "宗徒在《羅馬書》第四章4師說: 「伶工作的人工資，不算是恩忌，而是還債。」但是，人藉自由意志而有準備，無非就是藉某種工作或作為，這樣就失去了恩寵的意義。",
+      "after": "宗徒在《羅馬書》第四章4節說：「給工作的人工資，不算是恩惠，而是還債。」但是，人藉自由意志而有準備，無非就是藉某種工作或作為，這樣就失去了恩寵的意義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四章4師",
+          "after": "第四章4節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "伶工作",
+          "after": "給工作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩忌",
+          "after": "恩惠",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3053
+      ],
+      "before": "此外，不停犯罪的人，不準備得有恩寵。但有人不停地犯罪卻得了恩寵，例如:保祿。按《宗徒大事錄》第九章l節所說的，他在「向主的門徒口吐恐嚇和兇殺之氣」峙，得到了恩寵。所以，為得恩寵，人不必有任何準備。",
+      "after": "此外，不停犯罪的人，不準備得有恩寵。但有人不停地犯罪卻得了恩寵，例如：保祿。按《宗徒大事錄》第九章1節所說的，他在「向主的門徒口吐恐嚇和兇殺之氣」時，得到了恩寵。所以，為得恩寵，人不必有任何準備。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第九章l節",
+          "after": "第九章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之氣」峙",
+          "after": "之氣」時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3053
+      ],
+      "before": "此外，能力無限的主動者，不需要質料方面的準備;甚而連質料都不需要，例如:(從虛無中)創造即是如此。給人，恩寵與創造相似，因而《迦拉達書》第六章的前說「新的受造物」。但是按前面第一節說的，只有萬能的天主產生恩寵。所以，為得恩寵，人不必有任何準備。",
+      "after": "此外，能力無限的主動者，不需要質料方面的準備；甚而連質料都不需要，例如：(從虛無中)創造即是如此。給人恩寵與創造相似，因而《迦拉達書》第六章15節說「新的受造物」。但是按前面第一節說的，只有萬能的天主產生恩寵。所以，為得恩寵，人不必有任何準備。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "給人，恩寵",
+          "after": "給人恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第六章的前",
+          "after": "第六章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        3053
+      ],
+      "before": "《亞毛斯》第四章12節說: 「以色列，你準備迎接你的天主罷!」《撒慕爾紀上》第七章3節也說「準備你們的心歸向上主罷!」",
+      "after": "《亞毛斯》第四章12節說：「以色列，你準備迎接你的天主罷!」《撒慕爾紀上》第七章3節也說「準備你們的心歸向上主罷!」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        3053
+      ],
+      "before": "我解答的l下:前面第一0九題第二、第三、第六及第九節，以及第一-0題第二節、第一一一題第二節已經說過，恩寵有兩種:有時是指天主的常備恩惠;有時指天主推動靈魂行善的幫助。為得第一種恩寵，需要有所準備;因為形式只能存在於有配備的質料。若恩寵是指天主推動人行善的幫助，貝IJ人不必有先於天主之幫助的任何準備;甚而該說，人﹒本身能有的任何準備、皆是出於推動靈魂，向善的天主之助佑。按這觀點，自由意志準備領受恩寵的善良行動，乃是自由意志在天主之推動下的行動;所謂人準備自己，指的就是這種行動。例如《議言》第十六章1M說的: 「內心策畫在於人」;但天主是自由意志的主要推動者，這時便說:「天主準備人的意志」(《殼言》第八章35節)，及「土主指引人的腳步」(《聖詠》第三十七篇23節)。",
+      "after": "我解答如下：前面第一〇九題第二、第三、第六及第九節，以及第一一〇題第二節、第一一一題第二節己經說過，恩寵有兩種：有時是指天主的常備恩惠；有時指天主推動靈魂行善的幫助。為得第一種恩寵，需要有所準備；因為形式只能存在於有配備的質料。若恩寵是指天主推動人行善的幫助，則人不必有先於天主之幫助的任何準備；甚而該說，人本身能有的任何準備，皆是出於推動靈魂向善的天主之助佑。按這觀點，自由意志準備領受恩寵的善良行動，乃是自由意志在天主之推動下的行動；所謂人準備自己，指的就是這種行動。例如《箴言》第十六章1節說的：「內心策畫在於人」；但天主是自由意志的主要推動者，這時便說：「天主準備人的意志」(《箴言》第八章35節)，及「上主指引人的腳步」(《聖詠》第三十七篇23節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答的l下",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人﹒本身",
+          "after": "人本身",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "任何準備、",
+          "after": "任何準備，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "推動靈魂，向善",
+          "after": "推動靈魂向善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《議言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十六章1M",
+          "after": "第十六章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "《殼言》",
+          "after": "《箴言》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "土主",
+          "after": "上主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "人為得恩寵的準惰，有時與恩寵之灌輸是同時的。這種行動是有功的，但不是針對他已得到的恩寵，而是針對他尚未得到的光榮。另有一種不完美的準備，有時是在使中悅天主之恩寵以前的，然而是出於天主的推動。這準備不足立功，因為人尚未因恩寵而成義:按我們後面第一一四題第二節要講的，功行只能是來自恩寵的。",
+      "after": "人為得恩寵的準備，有時與恩寵之灌輸是同時的。這種行動是有功的，但不是針對他己得到的恩寵，而是針對他尚未得到的光榮。另有一種不完美的準備，有時是在使中悅天主之恩寵以前的，然而是出於天主的推動。這準備不足立功，因為人尚未因恩寵而成義：按我們後面第一一四題第二節要講的，功行只能是來自恩寵的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "準惰",
+          "after": "準備",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已得到",
+          "after": "己得到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "既然人為能準備領受恩寵，先要有天主推動他向善;一人是立刻或慢慢地準備好，便沒有關係了。因為按《德哥1[篇》第十一章23節說的: 「使窮人忽然變為富翁，在上主眼中，是件容易的事。」有時天主推動人行點善事，但不是完美的善事，這種準備是在恩寵之先。但有時天主突然推動人完全向善，人立刻獲得恩寵，就如《若望福音》第六章的節所說的:「凡由父聽教而學習的，必到我這裡來。」保持便是這樣:他仍在繼續犯罪的時候，他的心完全為天主所動，立刻聽教、學習、前來，因而立刻得了恩寵。",
+      "after": "既然人為能準備領受恩寵，先要有天主推動他向善；一人是立刻或慢慢地準備好，便沒有關係了。因為按《德訓篇》第十一章23節說的：「使窮人忽然變為富翁，在上主眼中，是件容易的事。」有時天主推動人行點善事，但不是完美的善事，這種準備是在恩寵之先。但有時天主突然推動人完全向善，人立刻獲得恩寵，就如《若望福音》第六章45節所說的：「凡由父聽教而學習的，必到我這裡來。」保祿便是這樣：他仍在繼續犯罪的時候，他的心完全為天主所動，立刻聽教、學習、前來，因而立刻得了恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《德哥1[篇》",
+          "after": "《德訓篇》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第六章的節",
+          "after": "第六章45節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "保持便",
+          "after": "保祿便",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "無限能力的主動者，不需要由別的原因之行動而來的、先已存在的質料或質料之準備。但是根據要產生的東西之條件，需要在其內產生質料，以及承受形式的應有準備。天主給靈魂灌輸恩寵時，也不需要非自祂而來之準備。",
+      "after": "無限能力的主動者，不需要由別的原因之行動而來的、先己存在的質料或質料之準備。但是根據要產生的東西之條件，需要在其內產生質料，以及承受形式的應有準備。天主給靈魂灌輸恩寵時，也不需要非自祂而來之準備。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先已存在",
+          "after": "先己存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "對恩寵有準備的、或盡力而為的，是否必然獲得恩寵",
+      "after": "對恩寵有準備的、或盡力而為的，是否必然獲得恩寵",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3054
+      ],
+      "before": "對恩寵有準備的、或盡力而為的司似乎必然獲得恩寵。因為:",
+      "after": "對恩寵有準備的、或盡力而為的，似乎必然獲得恩寵。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "為的司",
+          "after": "為的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3054,
+        3055
+      ],
+      "before": "關於《羅馬書》第五章l節那句「我們既因信德成義，與天主和好了」等等，「註解」(拉丁通行本註解)上說: 「天主接受投奔自己的人，否則天主就有過錯了。」但是天主不能有過錯。所以，天主不可能不接受投奔自己的人。故此，他必然得到恩寵。",
+      "after": "關於《羅馬書》第五章1節那句「我們既因信德成義，與天主和好了」等等，「註解」(拉丁通行本註解)上說：「天主接受投奔自己的人，否則天主就有過錯了。」但是天主不能有過錯。所以，天主不可能不接受投奔自己的人。故此，他必然得到恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五章l節",
+          "after": "第五章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3055
+      ],
+      "before": "此外，安瑟護在《論魔鬼之墮落》第三章說，天主之所以不給魔鬼恩寵，是因為魔鬼不願意接受，也沒有準備。但是除去原因，效果也自然除去。所以若有人願意有恩寵，必然就給他。",
+      "after": "此外，安瑟謨在《論魔鬼之墮落》第三章說，天主之所以不給魔鬼恩寵，是因為魔鬼不願意接受，也沒有準備。但是除去原因，效果也自然除去。所以若有人願意有恩寵，必然就給他。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟護",
+          "after": "安瑟謨",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3055
+      ],
+      "before": "此外，按狄奧尼修在《神名論》第四章所說的，善是有散發性的，但恩寵之善(憂於天性之善。既然質料配備好必然就有自然形式，似乎對恩寵有準備的人更是必然得到恩寵。",
+      "after": "此外，按狄奧尼修在《神名論》第四章所說的，善是有散發性的，但恩寵之善優於天性之善。既然質料配備好必然就有自然形式，似乎對恩寵有準備的人更是必然得到恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善(憂於",
+          "after": "善優於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        3055
+      ],
+      "before": "按《耶月力米亞》第十八章6節所說的，人與天主之關係，就似泥土與陶工:「你們在我手中，就像泥土在昀工手中一樣。」但泥土無論準備得多好，也不一定從陶工那裡得到形式c所以，人無論怎樣準備自己，也不必然從天主得到恩寵。",
+      "after": "按《耶肋米亞》第十八章6節所說的，人與天主之關係，就似泥土與陶工：「你們在我手中，就像泥土在陶工手中一樣。」但泥土無論準備得多好，也不一定從陶工那裡得到形式。所以，人無論怎樣準備自己，也不必然從天主得到恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "耶月力米亞",
+          "after": "耶肋米亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昀工",
+          "after": "陶工",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "形式c",
+          "after": "形式。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        3055
+      ],
+      "before": "我解答如下:上面第二節已經說過，人得恩寵之準備，是來自天主之推動，和自由意志之被動。故此，可以從兩方面去看準備:一是從其來自自由意志方面去看，如此則沒有得到恩寵的必然性，因為恩寵之恩惠超出人的能力之一切準備;另一方面是看其來白天主之推動，這時針對天主所指向的有一種必然性，但不是由於外力的強迫，而是由於內在的無誤，因為天主的意向不能失誤。故此，奧斯定在《論聖人之預定》卷二第十四章說:「藉天主的恩慈，凡得救的，都是必然地得紋。」因此，若推動者天主的用意是要受祂推動的人心獲得恩寵，貝1]它必然獲得恩寵;就如《若望福音》第六章的節所說的: 「凡由父聽教而學習的，必到我這裡來。」",
+      "after": "我解答如下：上面第二節己經說過，人得恩寵之準備，是來自天主之推動，和自由意志之被動。故此，可以從兩方面去看準備：一是從其來自自由意志方面去看，如此則沒有得到恩寵的必然性，因為恩寵之恩惠超出人的能力之一切準備；另一方面是看其來自天主之推動，這時針對天主所指向的有一種必然性，但不是由於外力的強迫，而是由於內在的無誤，因為天主的意向不能失誤。故此，奧斯定在《論聖人之預定》卷二第十四章說：「藉天主的恩慈，凡得救的，都是必然地得救。」因此，若推動者天主的用意是要受祂推動的人心獲得恩寵，則它必然獲得恩寵；就如《若望福音》第六章45節所說的：「凡由父聽教而學習的，必到我這裡來。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "得紋",
+          "after": "得救",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝1]",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第六章的節",
+          "after": "第六章45節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3055,
+        3056
+      ],
+      "before": "該註解所講的人，已經得了恩寵，並以業經恩寵塑造的自由意志之有功行動投奔天主;若天主不接受這人，便是違反祂所規定的正義。假如是指有恩寵以前自由意志之行動，頁。人之投奔天主是由於天主的推動，當然不會失敗。",
+      "after": "該註解所講的人，己經得了恩寵，並以業經恩寵塑造的自由意志之有功行動投奔天主；若天主不接受這人，便是違反祂所規定的正義。假如是指有恩寵以前自由意志之行動，則人之投奔天主是由於天主的推動，當然不會失敗。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頁。人",
+          "after": "則人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "缺少恩寵的第一個原因是來自我們，但賜恩寵的第一個原因是來白天主;就如《歐瑟亞》第十三章9節說的:「你是你自己的禍根，以色列!只有我是你的救援。」",
+      "after": "缺少恩寵的第一個原因是來自我們，但賜恩寵的第一個原因是來自天主；就如《歐瑟亞》第十三章9節說的：「你是你自己的禍根，以色列!只有我是你的救援。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "固自然物之質料上的配備，也不必然得到形式，除非藉作此配備的動因之力量。",
+      "after": "自然物之質料上的配備，也不必然得到形式，除非藉作此配備的動因之力量。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "固自然物",
+          "after": "自然物",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "一人的恩寵是否大於另一人的恩寵",
+      "after": "一人的恩寵是否大於另一人的恩寵",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "有關第四節，我們討論如下：",
+      "after": "有關第四節，我們討論如下：",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "一人的恩寵似乎不大於另一人的恩寵。因為:",
+      "after": "一人的恩寵似乎不大於另一人的恩寵。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "按前面第一-0題第一節所說的，我們得的恩寵是出於天主的愛。但是《智慧篇》第六章8節說:「無論大小，都是祂造的:祂對一切，都同樣(aequaliter)加以月亮顧。」所以，大家由祂得的恩寵都相同。",
+      "after": "按前面第一一〇題第一節所說的，我們得的恩寵是出於天主的愛。但是《智慧篇》第六章8節說：「無論大小，都是祂造的：祂對一切，都同樣(aequaliter)加以照顧。」所以，大家由祂得的恩寵都相同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "月亮顧",
+          "after": "照顧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "此外‘凡達到極點的，者1I無多寡之別。但恩寵是達到極點的，因為它使人與最後目的結合。所以無大小之另IJ。故此一人的恩寵並不大於另一人的。",
+      "after": "此外，凡達到極點的，都無多寡之別。但恩寵是達到極點的，因為它使人與最後目的結合。所以無大小之別。故此一人的恩寵並不大於另一人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外‘",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "者1I",
+          "after": "都",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之另IJ",
+          "after": "之別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "此外，按上面第一-0題第一節釋疑2所說的，恩寵是靈魂的生命。但是生命沒有多少之別。所以，恩寵也是一樣。",
+      "after": "此外，按上面第一一〇題第一節釋疑2所說的，恩寵是靈魂的生命。但是生命沒有多少之別。所以，恩寵也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        3056
+      ],
+      "before": "《厄弗所書》第四章7節說: r.我們各人所領受的恩寵，是持照基督賜恩的尺度。」按尺度而給的，每人得的不一樣。所以，各人得的恩寵不一樣。",
+      "after": "《厄弗所書》第四章7節說：「我們各人所領受的恩寵，是按照基督賜恩的尺度。」按尺度而給的，每人得的不一樣。所以，各人得的恩寵不一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "r.我們",
+          "after": "「我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "持照",
+          "after": "按照",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        3056,
+        3057
+      ],
+      "before": "我解答如下:前面第五十二題第一及第二節、第六十六題第一及第二節已經說過，習性能有兩種大小:一種是由於目的或對象，指向較高之善的德性便比較高貴;另一種是由於主體，它分得的習性能多能少。按第一種大小，買IJ使中悅天主之恩寵沒有大小之另IJ;因為恩寵本身之意義即在使人與至善的天主結合。但在主體方面，則恩寵能有大小:即一人所受之恩寵的光照，比另一人所受的比較完美。\n這種差別的原因，一部分是來自準備自己以得恩寵者方面:誰對恩寵準備得好，得的恩寵(更多。但是差別的第一原因不能是來自這方面;因為人對恩寵的準備，要靠天主對人之自由意志的準備。所以這差別的第一原因是來白天主那方面的，祂以不同的尺度分施恩寵，為了從不同的等級產生一個完美的教會;就如祂使萬物分成等級，以構成一個完美的宇宙。故此，宗徒在《厄弗所書》第四章7節說了: 「我們各人所領受的思罷，是按照基督賜恩的尺度」'列舉了各種恩寵，隨後第12節又說: 「為成全聖徒，以建樹基督的身體。」",
+      "after": "我解答如下：前面第五十二題第一及第二節、第六十六題第一及第二節己經說過，習性能有兩種大小：一種是由於目的或對象，指向較高之善的德性便比較高貴；另一種是由於主體，它分得的習性能多能少。按第一種大小，則使中悅天主之恩寵沒有大小之別；因為恩寵本身之意義即在使人與至善的天主結合。但在主體方面，則恩寵能有大小：即一人所受之恩寵的光照，比另一人所受的比較完美。\n這種差別的原因，一部分是來自準備自己以得恩寵者方面：誰對恩寵準備得好，得的恩寵便多。但是差別的第一原因不能是來自這方面；因為人對恩寵的準備，要靠天主對人之自由意志的準備。所以這差別的第一原因是來自天主那方面的，祂以不同的尺度分施恩寵，為了從不同的等級產生一個完美的教會；就如祂使萬物分成等級，以構成一個完美的宇宙。故此，宗徒在《厄弗所書》第四章7節說了：「我們各人所領受的恩寵，是按照基督賜恩的尺度」，列舉了各種恩寵，隨後第12節又說：「為成全聖徒，以建樹基督的身體。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之另IJ",
+          "after": "之別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩寵(更多",
+          "after": "恩寵便多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "思罷",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "尺度」'",
+          "after": "尺度」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3057
+      ],
+      "before": "可以從兩方面去看天主的照顧。一方面是看天主的行動，它是單純的，一貫的。在這方面，天主對一切東西的照顧都是一樣的，因為祂是用同一單純行動管理大小。另一方面是看天主的照顧在受造物中所造成的結果。在這方面便有了差別;因為按天主的措施，祂給予某些東西較大的恩惠，給予別的東西較小的恩惠。",
+      "after": "可以從兩方面去看天主的照顧。一方面是看天主的行動，它是單純的，一貫的。在這方面，天主對一切東西的照顧都是一樣的，因為祂是用同一單純行動管理大小。另一方面是看天主的照顧在受造物中所造成的結果。在這方面便有了差別；因為按天主的措施，祂給予某些東西較大的恩惠，給予別的東西較小的恩惠。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3057
+      ],
+      "before": "正解所舉之理由，是根據恩寵的第一種大小方式。因為說恩寵更大，不可能是說它指向一更大的善，只能是說它安排人對同一善有較大或較小的分得。因為在恩寵及最後的光榮方面，就主體的分得而言，都能有程度強弱的差別。",
+      "after": "正解所舉之理由，是根據恩寵的第一種大小方式。因為說恩寵更大，不可能是說它指向一更大的善，只能是說它安排人對同一善有較大或較小的分得。因為在恩寵及最後的光榮方面，就主體的分得而言，都能有程度強弱的差別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3057
+      ],
+      "before": "自然或天性生命屬於人的本質本體，所以沒有大小之分。但人之分有恩寵的生命，是按依附體方式，故人之有恩寵的生命，能有大小或多少之別。",
+      "after": "自然或天性生命屬於人的本質本體，所以沒有大小之分。但人之分有恩寵的生命，是按依附體方式，故人之有恩寵的生命，能有大小或多少之別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "人是否能知道自己有恩寵",
+      "after": "人是否能知道自己有恩寵",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q112.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "人似乎知道自己有恩寵。因為:",
+      "after": "人似乎知道自己有恩寵。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "恩寵是以其本質寓於靈魂之內。但按奧斯定在《創世紀字義新探》卷!二第二十五及第三十一章所說的，靈魂對以本質寓於其內的東西，有極確實的認知。所以，有恩寵的人能極確實地認知恩寵。",
+      "after": "恩寵是以其本質寓於靈魂之內。但按奧斯定在《創世紀字義新探》卷十二第二十五及第三十一章所說的，靈魂對以本質寓於其內的東西，有極確實的認知。所以，有恩寵的人能極確實地認知恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "卷!二",
+          "after": "卷十二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "此外‘恩寵是天主的恩惠，與知識一樣。但從天主得有知識的人，知道自己有知識，就如《智慧篇》第七章17節所說的: 「上主把所有事物的正確知識，賜給了我。」按同理，從天主得有恩寵的人，也知道自己有恩寵。",
+      "after": "此外，恩寵是天主的恩惠，與知識一樣。但從天主得有知識的人，知道自己有知識，就如《智慧篇》第七章17節所說的：「上主把所有事物的正確知識，賜給了我。」按同理，從天主得有恩寵的人，也知道自己有恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外‘",
+          "after": "此外，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "此外，光明比黑暗容易認知，因為宗徒在《厄弗所書》第五章13節說: 「凡顯露出來的，就是光明」。罪惡是心神上的黑暗，有罪的人能確實知道自己有罪。恩寵是心神上的光明，更該如此。",
+      "after": "此外，光明比黑暗容易認知，因為宗徒在《厄弗所書》第五章13節說：「凡顯露出來的，就是光明」。罪惡是心神上的黑暗，有罪的人能確實知道自己有罪。恩寵是心神上的光明，更該如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "此外，宗徒在《格林多前書》第二章12節說: 「我們所領受的，不是這世界的精神，而是出於天主的聖神，為使我們能明暸天主所賜予我們的一切。」但恩寵是天主的最大恩惠，所以因聖神而得有恩寵的人，也因同一聖神而知道自己獲賜了恩寵。",
+      "after": "此外，宗徒在《格林多前書》第二章12節說：「我們所領受的，不是這世界的精神，而是出於天主的聖神，為使我們能明瞭天主所賜予我們的一切。」但恩寵是天主的最大恩惠，所以因聖神而得有恩寵的人，也因同一聖神而知道自己獲賜了恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "明暸",
+          "after": "明瞭",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.arg5",
+      "article": 5,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "此外，《創世紀》第二十二章12前，以天主的名義對亞巴郎說: 「我現在知道，你實在敬畏天主」'意即「我使你知道」 C這裡所講的是純正的敬畏，常寓有恩寵，所以人能知道自己有恩寵c",
+      "after": "此外，《創世紀》第二十二章12節，以天主的名義對亞巴郎說：「我現在知道，你實在敬畏天主」，意即「我使你知道」。這裡所講的是純正的敬畏，常寓有恩寵，所以人能知道自己有恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二十二章12前",
+          "after": "第二十二章12節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天主」'",
+          "after": "天主」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "道」 C",
+          "after": "道」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩寵c",
+          "after": "恩寵。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        3058
+      ],
+      "before": "《司11道篇》第九章1師說: 「無人知道自己堪得恨或愛。」但是，使中悅天主的恩寵使人堪得天主的愛。所以，誰也不知道自己是否有使中I兌天主的恩寵。",
+      "after": "《訓道篇》第九章1節說：「無人知道自己堪得恨或愛。」但是，使中悅天主的恩寵使人堪得天主的愛。所以，誰也不知道自己是否有使中悅天主的恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "《司11道篇》",
+          "after": "《訓道篇》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第九章1師",
+          "after": "第九章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中I兌",
+          "after": "中悅",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        3059
+      ],
+      "before": "我解答如f:一個東西能被認知有三種方式。於是靠啟示，以這方式，人能知道自己有恩寵。有時天主特別施恩，使某些人知道自己有恩寵，讓他們在現世就開始享受安全之快樂，好專心致身偉大的事業，承擔現[宜的不幸;就如《格林多後書》第才二章9節向(呆祿所說的: 「有我的恩寵為你夠了」0\n另一方式是人憑自己知道，且是確實知道。以這方式，誰也不能知道自己有恩寵。除非靠事物的專有原理來辨明，古則對這事物不能有確實的認知，例如:人靠不能證明的普遍關理，對論證性的結論能有確實的認知;若他不知道原理，便不能知道自己認知結論。恩寵之原理或根本及對象是天主，祂是至高的，不為我們所認知;就如佇立伯傳》第三十六章26節所說的: 「天主何其偉大，勝過我們的知識。」因而不能確實知道天主是否在我們內，就如《約伯傳》第九章1 J節所說的:「祂由我身旁經過，我的」沒有看見;祂走過去，我仍沒有發覺。」所以人不能確實斷定自己是否有恩寵，就如《格林多前書》第四章3及鬥節所說的:「連我自己也不審斷自己，那客斷我的只是天主。」\n第三種方式是靠一些跡象而加以猜測。人能以這種方式知道自己有恩寵，~~:如果他感覺自己是以天主為樂，輕視現世的東西，又不覺得自己有死罪。《默示錄》第二章17節所說的，便可這樣去解釋: 「勝利的，我要賜給他隱裁的瑪納;除領受的人外，誰也不認得。」因為領受的人是靠一種甜蜜之經驗而得知，沒有領受的沒有這種經驗。但這種認知是不完美的。故此，宗掛在《格林多前書》第四章4節說: 「我雖然自覺良心無愧，但我絕不因此就自斷為義人。」因為《聖詠》第十九篇12節說I誰能認出自己的一切過犯?求你赦免我未覺察到的罪悠。」",
+      "after": "我解答如下：一個東西能被認知有三種方式。一是靠啟示，以這方式，人能知道自己有恩寵。有時天主特別施恩，使某些人知道自己有恩寵，讓他們在現世就開始享受安全之快樂，好專心致身偉大的事業，承擔現世的不幸；就如《格林多後書》第十二章9節向保祿所說的：「有我的恩寵為你夠了」。\n另一方式是人憑自己知道，且是確實知道。以這方式，誰也不能知道自己有恩寵。除非靠事物的專有原理來辨明，否則對這事物不能有確實的認知，例如：人靠不能證明的普遍原理，對論證性的結論能有確實的認知；若他不知道原理，便不能知道自己認知結論。恩寵之原理或根本及對象是天主，祂是至高的，不為我們所認知；就如《約伯傳》第三十六章26節所說的：「天主何其偉大，勝過我們的知識。」因而不能確實知道天主是否在我們內，就如《約伯傳》第九章11節所說的：「祂由我身旁經過，我卻沒有看見；祂走過去，我仍沒有發覺。」所以人不能確實斷定自己是否有恩寵，就如《格林多前書》第四章3及4節所說的：「連我自己也不審斷自己，那審斷我的只是天主。」\n第三種方式是靠一些跡象而加以猜測。人能以這種方式知道自己有恩寵，即：如果他感覺自己是以天主為樂，輕視現世的東西，又不覺得自己有死罪。《默示錄》第二章17節所說的，便可這樣去解釋：「勝利的，我要賜給他隱藏的瑪納；除領受的人外，誰也不認得。」因為領受的人是靠一種甜蜜之經驗而得知，沒有領受的沒有這種經驗。但這種認知是不完美的。故此，宗徒在《格林多前書》第四章4節說：「我雖然自覺良心無愧，但我絕不因此就自斷為義人。」因為《聖詠》第十九篇12節說：「誰能認出自己的一切過犯?求你赦免我未覺察到的罪愆。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如f",
+          "after": "我解答如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "於是靠啟示",
+          "after": "一是靠啟示",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "現[宜",
+          "after": "現世",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第才二章",
+          "after": "第十二章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(呆祿",
+          "after": "保祿",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夠了」0",
+          "after": "夠了」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "古則",
+          "after": "否則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "普遍關理",
+          "after": "普遍原理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "佇立伯傳》",
+          "after": "《約伯傳》",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第九章1 J節",
+          "after": "第九章11節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "我的」沒有",
+          "after": "我卻沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "3及鬥節",
+          "after": "3及4節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那客斷",
+          "after": "那審斷",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "~~:",
+          "after": "即：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隱裁",
+          "after": "隱藏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "宗掛",
+          "after": "宗徒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "12節說I",
+          "after": "12節說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "罪悠",
+          "after": "罪愆",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3060
+      ],
+      "before": "以自己之本質寓於靈魂的東西，可由經驗而被認知，因為人通過其行動得知這行動之內在根本‘例如:由於願意之行動而知有意志，由於生命之各種活動而知有生命。",
+      "after": "以自己之本質寓於靈魂的東西，可由經驗而被認知，因為人通過其行動得知這行動之內在根本，例如：由於願意之行動而知有意志，由於生命之各種活動而知有生命。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "根本‘",
+          "after": "根本，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3060
+      ],
+      "before": "由於知識本身之性質，有知識的人便確知自己有知識;同樣，由於{言德本身的性質，人對所信的事確知有信{息。這是因為確實性屬於智性的完美，而上述之恩惠(知識與信德)是智性上的。因此誰有知識或信德，能確知自己持有。但是屬於嗜慾能力的恩寵幸日愛德等，性質不一樣。",
+      "after": "由於知識本身之性質，有知識的人便確知自己有知識；同樣，由於信德本身的性質，人對所信的事確知有信德。這是因為確實性屬於智性的完美，而上述之恩惠(知識與信德)是智性上的。因此誰有知識或信德，能確知自己持有。但是屬於嗜慾能力的恩寵和愛德等，性質不一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{言德",
+          "after": "信德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "信{息",
+          "after": "信德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸日愛德",
+          "after": "和愛德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3060
+      ],
+      "before": "罪過的根本和對象是現世的東西，是我們所熟識的。恩寵之對象或目的，~IJ因其無以比擬的光，是我們所不知道的;正如《弟茂德前書》第六章16節所說的:天主「住在不可接近的光中」 0",
+      "after": "罪過的根本和對象是現世的東西，是我們所熟識的。恩寵之對象或目的，則因其無以比擬的光，是我們所不知道的；正如《弟茂德前書》第六章16節所說的：天主「住在不可接近的光中」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "光中」 0",
+          "after": "光中」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        3060
+      ],
+      "before": "宗徒在那裡講的是光榮境界(天堂上)的恩惠﹒是我們之望德的對象﹒我們是靠信德才能確實有所認知;雖然我們不確知自己有恩寵，並藉恩寵能立功掙取那些恩惠。或者也可以說，他講的是由啟示而得的特別知識。因此他隨後第10節又說I天主藉著聖神將這一切啟示給我們了」。",
+      "after": "宗徒在那裡講的是光榮境界(天堂上)的恩惠，是我們之望德的對象，我們是靠信德才能確實有所認知；雖然我們不確知自己有恩寵，並藉恩寵能立功掙取那些恩惠。或者也可以說，他講的是由啟示而得的特別知識。因此他隨後第10節又說：「天主藉著聖神將這一切啟示給我們了」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恩惠﹒",
+          "after": "恩惠，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "對象﹒",
+          "after": "對象，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "又說I",
+          "after": "又說：「",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q112.a005.ad5",
+      "article": 5,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        3060
+      ],
+      "before": "對亞巴郎所說的那話，也可指基於行車表現的經驗性的知識;即由於亞巴郎所行的事，可以體認到自己敬畏天主。或者也可以指啟示。",
+      "after": "對亞巴郎所說的那話，也可指基於行事表現的經驗性的知識；即由於亞巴郎所行的事，可以體認到自己敬畏天主。或者也可以指啟示。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行車表現",
+          "after": "行事表現",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
