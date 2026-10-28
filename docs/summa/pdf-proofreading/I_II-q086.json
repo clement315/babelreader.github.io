@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q086",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "23cc7fbdc1d666ae7ceae2cc41b91529cface349",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q086",
+    "title": "論罪過之污染",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      2670,
+      2671,
+      2672,
+      2673
+    ],
+    "printed_pages": [
+      404,
+      407
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 24,
+    "changed_review_units": 21,
+    "checked_unchanged_review_units": 4
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q86.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q86.json": "2e404905381eb7e34d85faf8c127cd0778395a5f05c0ea1e4b197e44623b3347",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q086.a001.ad3",
+      "pdf_file_page": 2672,
+      "text": "而是指導源於罪過",
+      "status": "source_scan_mark_checked",
+      "action": "原页确作「指導源於」，保留原译，不依现代句法删改。"
+    },
+    {
+      "id": "I_II.q086.a002.sed_contra",
+      "pdf_file_page": 2672,
+      "text": "還沒流淨",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「流淨」，疑为「洗淨」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部4页、2节原页逐页对齐。本批接续第二部第一集第81–89题，完成这一组罪过相关章节；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q086.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "然後要討論的是罪過之污染(參看第八十五題引言)。\n關於這點，可以提出兩個問題:\n一、靈魂之污染是否為罪過之效果。\n二、在犯罪行為過後，污點是否仍然存留在靈魂上。",
+      "after": "然後要討論的是罪過之污染(參看第八十五題引言)。\n關於這點，可以提出兩個問題：\n一、靈魂之污染是否為罪過之效果。\n二、在犯罪行為過後，污點是否仍然存留在靈魂上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q086.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "罪過是否在靈魂上產生污點",
+      "after": "罪過是否在靈魂上產生污點",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q086.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "罪過似乎不在靈魂上產生污點。因為:",
+      "after": "罪過似乎不在靈魂上產生污點。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "高級物不因與低級物接觸而受污染;故此，奧斯定在《駁五種異端》(Adversus Quinque Haereses)說，陽光與髒東西接觸，不受其污染。但靈魂的天性遠高於在犯罪時人所歸向之可朽的東西。所以犯罪時靈魂不受這些東西的污染。",
+      "after": "高級物不因與低級物接觸而受污染；故此，奧斯定在《駁五種異端》(Adversus Quinque Haereses)說，陽光與髒東西接觸，不受其污染。但靈魂的天性遠高於在犯罪時人所歸向之可朽的東西。所以犯罪時靈魂不受這些東西的污染。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2670
+      ],
+      "before": "此外，按前面第七十四題第一及第二節所說的，罪過主要是在意志上c而按《靈魂論》卷三第九章所說的，意志是在理性部分。但理性或智性無論思念什麼東西時，皆不會受到東西之污染，反而受到成全。所以，意志也不受罪過的污染。",
+      "after": "此外，按前面第七十四題第一及第二節所說的，罪過主要是在意志上。而按《靈魂論》卷三第九章所說的，意志是在理性部分。但理性或智性無論思念什麼東西時，皆不會受到東西之污染，反而受到成全。所以，意志也不受罪過的污染。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意志上c",
+          "after": "意志上。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2670,
+        2671
+      ],
+      "before": "此外，倘若罪過產生污點，這污點或者是一種積極的東西，或者是一種純缺欠。若是積極的東西，則只能是配備或習性;因為從行動中似乎不能產生別的東西;但是那不，可能是配備或習性，因為有時除去了配備或習性之後，仍然留有污點，例如:一人在奢侈方面犯了死罪，然後又因犯死罪轉而陷入相反的惡習內。所以，污點不是靈魂上的積極東西，同樣也不是純缺欠。因為罪過在背離和喪失恩寵那方面都是一樣的，若是缺欠，買IJ所有的罪過之污點都是同一個。所以，污點不是罪過的效果。",
+      "after": "此外，倘若罪過產生污點，這污點或者是一種積極的東西，或者是一種純缺欠。若是積極的東西，則只能是配備或習性；因為從行動中似乎不能產生別的東西；但是那不可能是配備或習性，因為有時除去了配備或習性之後，仍然留有污點，例如：一人在奢侈方面犯了死罪，然後又因犯死罪轉而陷入相反的惡習內。所以，污點不是靈魂上的積極東西，同樣也不是純缺欠。因為罪過在背離和喪失恩寵那方面都是一樣的，若是缺欠，則所有的罪過之污點都是同一個。所以，污點不是罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "那不，可能",
+          "after": "那不可能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2671
+      ],
+      "before": "《德訓篇》第四十七章22節向撒羅滿說: 「你站污了你的尊榮。」《厄弗所書》第五章27節也說: 「好使她在自己面前呈現為一個光耀的教會，沒有瑕疵(污點)，沒有皺紋。」這兩處講的都是罪過之污點。所以，污點是罪過的妓果。",
+      "after": "《德訓篇》第四十七章22節向撒羅滿說：「你沾污了你的尊榮。」《厄弗所書》第五章27節也說：「好使她在自己面前呈現為一個光耀的教會，沒有瑕疵(污點)，沒有皺紋。」這兩處講的都是罪過之污點。所以，污點是罪過的效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "站污",
+          "after": "沾污",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2671
+      ],
+      "before": "我解答如下:污點本來是關於形體物的(即指有光澤的東西，如:衣服、金、銀等)，由於與別的東西之接觸而失去光澤。關於精神方面的東西，~IJ應是以上l~喻方式而稱污點。人的靈魂有兩種光澤:一種是由於自然理性之光照，這是為指導靈魂之行動的;另一種光澤是來白天主之上智及恩寵的光照，這也是助人行善的。靈魂由於愛而繫於一物時，與這東西就好似有一種接觸。按前面第七十一題第六節所說的，靈魂犯罪時，是違背理性和天主法律之光照，而與這東西結合。因這接觸而引起的光澤之損失，便以比喻方式稱為靈魂的污點。",
+      "after": "我解答如下：污點本來是關於形體物的(即指有光澤的東西，如：衣服、金、銀等)，由於與別的東西之接觸而失去光澤。關於精神方面的東西，則應是以比喻方式而稱污點。人的靈魂有兩種光澤：一種是由於自然理性之光照，這是為指導靈魂之行動的；另一種光澤是來自天主之上智及恩寵的光照，這也是助人行善的。靈魂由於愛而繫於一物時，與這東西就好似有一種接觸。按前面第七十一題第六節所說的，靈魂犯罪時，是違背理性和天主法律之光照，而與這東西結合。因這接觸而引起的光澤之損失，便以比喻方式稱為靈魂的污點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~IJ應是以上l~喻",
+          "after": "則應是以比喻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2671
+      ],
+      "before": "靈魂不是因了下級物之作用而受到污染，好似這些東西在靈魂上是主動者;正好相反，靈魂在違背自然理性及天主法律之光照，而非法親近這些東西峙，是自己用自己的行動站污自己。",
+      "after": "靈魂不是因了下級物之作用而受到污染，好似這些東西在靈魂上是主動者；正好相反，靈魂在違背自然理性及天主法律之光照，而非法親近這些東西時，是自己用自己的行動沾污自己。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西峙",
+          "after": "東西時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "站污",
+          "after": "沾污",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2671
+      ],
+      "before": "智性之活動是在可理解的東西，以智性之方式進入智性時完成;為此，智性不因這些東西而受到損失，反而是一種成就。意志之行動則是動向東西，愛情使靈魂俯就所愛之東西，如果失當，靈魂便受到污染;就如《歐瑟亞》第九章10節所說的: 「使自己也成了可憎惡的，如他們所喜愛的可憎之物一樣。」",
+      "after": "智性之活動是在可理解的東西，以智性之方式進入智性時完成；為此，智性不因這些東西而受到損失，反而是一種成就。意志之行動則是動向東西，愛情使靈魂俯就所愛之東西，如果失當，靈魂便受到污染；就如《歐瑟亞》第九章10節所說的：「使自己也成了可憎惡的，如他們所喜愛的可憎之物一樣。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "靈魂上的污點不是一種積極的東西，也不只是缺欠，而是指導源於罪過的靈魂之光澤的缺欠。故此，不同的罪過造成不同的污點。這有似陰影，即形體物造成的光線之缺欠，不同的形體物造成不同的陰影。",
+      "after": "靈魂上的污點不是一種積極的東西，也不只是缺欠，而是指導源於罪過的靈魂之光澤的缺欠。故此，不同的罪過造成不同的污點。這有似陰影，即形體物造成的光線之缺欠，不同的形體物造成不同的陰影。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q086.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q086.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "犯罪行為過後污點是否仍然在留在靈魂上",
+      "after": "犯罪行為過後污點是否仍然存留在靈魂上",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "仍然在留",
+          "after": "仍然存留",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "犯罪行為過去後，污點似乎不再存留在靈魂上。因為:",
+      "after": "犯罪行為過去後，污點似乎不再存留在靈魂上。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "除了習性或配備之外，在行動後靈魂上沒有東西存留下來。但按前面第一節質疑3所說的，污點不是習性或配備。所以，在犯罪行為過去以後，靈魂上不留下污點。",
+      "after": "除了習性或配備之外，在行動後靈魂上沒有東西存留下來。但按前面第一節質疑3.所說的，污點不是習性或配備。所以，在犯罪行為過去以後，靈魂上不留下污點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "質疑3所",
+          "after": "質疑3.所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "此外，按上面第一節釋疑3.所說的，y弓點與罪過之關係，就如陰影與形體物之關係。但形體物過去以後，不留下陰影。所以，犯罪行為過去以後，也不留下污點。",
+      "after": "此外，按上面第一節釋疑3.所說的，污點與罪過之關係，就如陰影與形體物之關係。但形體物過去以後，不留下陰影。所以，犯罪行為過去以後，也不留下污點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "y弓點",
+          "after": "污點",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "此外，凡如果皆繫於其原因。污點之原因是犯罪行為。所以，除去了犯罪行為後，靈魂上不留下污點。",
+      "after": "此外，凡效果皆繫於其原因。污點之原因是犯罪行為。所以，除去了犯罪行為後，靈魂上不留下污點。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "凡如果",
+          "after": "凡效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2672
+      ],
+      "before": "《若蘇厄書》第二十二章17節說:「以前敬拜培款甫的罪過為我們還不夠嗎?直到今天，這罪過的污點我們還沒流淨。」",
+      "after": "《若蘇厄書》第二十二章17節說：「以前敬拜培敖爾的罪過為我們還不夠嗎？直到今天，這罪過的污點我們還沒流淨。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "培款甫",
+          "after": "培敖爾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗎?",
+          "after": "嗎？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2672,
+        2673
+      ],
+      "before": "我解答如下:犯罪行為過去之後，罪過之污點仍留在靈魂上。因為按上面第一節說的，污點是由於違背理性及天主法律之光照而造成的光澤之缺欠。為此，只要人留在這種光照之外，便有罪過之污點;但等靠恩寵又回到了理性和天主的光照之下時，污點便消失。雖然人停止了使人離開天主法律和理性之光照的犯罪行為，但人並非立刻恢復原來的狀態;為恢復原來的狀態，意志方面需有與原來之動態相反的動態。就如一人由--1屆動作遠離了某人，動作停止後，離那人的距離並非立刻就拉近了，而要以相反之動作回來，才會拉近。",
+      "after": "我解答如下：犯罪行為過去之後，罪過之污點仍留在靈魂上。因為按上面第一節說的，污點是由於違背理性及天主法律之光照而造成的光澤之缺欠。為此，只要人留在這種光照之外，便有罪過之污點；但等靠恩寵又回到了理性和天主的光照之下時，污點便消失。雖然人停止了使人離開天主法律和理性之光照的犯罪行為，但人並非立刻恢復原來的狀態；為恢復原來的狀態，意志方面需有與原來之動態相反的動態。就如一人由一個動作遠離了某人，動作停止後，離那人的距離並非立刻就拉近了，而要以相反之動作回來，才會拉近。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "由--1屆動作",
+          "after": "由一個動作",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2673
+      ],
+      "before": "在犯罪行為之後，除了配備或習性之外，沒有別的積極東西留在靈魂上;但是有缺欠留下來，即與天主之光照的隔離。",
+      "after": "在犯罪行為之後，除了配備或習性之外，沒有別的積極東西留在靈魂上；但是有缺欠留下來，即與天主之光照的隔離。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2673
+      ],
+      "before": "隔阻的東西過去後，透明的東西與發光體之關係和遠近，與當初一樣;故此，陰影立刻逝去。但犯罪之行為過去後，靈魂與天主的關係和當初不一樣。所以，兩種情況不同。",
+      "after": "隔阻的東西過去後，透明的東西與發光體之關係和遠近，與當初一樣；故此，陰影立刻逝去。但犯罪之行為過去後，靈魂與天主的關係和當初不一樣。所以，兩種情況不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q086.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2673
+      ],
+      "before": "犯罪行為造成與天主之距離，並因這距離而失去光澤，正如空間動態造成空間上的距離。所以，正如動態停止後，空間距離並末消失;同樣，犯罪行為停止後，污點也未消失。",
+      "after": "犯罪行為造成與天主之距離，並因這距離而失去光澤，正如空間動態造成空間上的距離。所以，正如動態停止後，空間距離並未消失；同樣，犯罪行為停止後，污點也未消失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "並末消失",
+          "after": "並未消失",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
