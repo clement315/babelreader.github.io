@@ -1,0 +1,1536 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q079",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "9ef9a61b114f9936a369cb4ca17df0ba7698d0e8",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q079",
+    "title": "論罪過之外在原因：首論天主方面的原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2605,
+      2606,
+      2607,
+      2608,
+      2609,
+      2610,
+      2611,
+      2612,
+      2613
+    ],
+    "printed_pages": [
+      339,
+      347
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 51,
+    "changed_review_units": 40,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q79.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q79.json": "7deba2f3386c38a2fa93749099a254b6766a5a609d596347e2cc6214e439397e",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q079.a001.ad1",
+      "pdf_file_page": 2607,
+      "text": "己經有了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q079.a002.ad3",
+      "pdf_file_page": 2609,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q079.a003.arg3",
+      "pdf_file_page": 2610,
+      "text": "神己矇蔽",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q079.a004.ad3",
+      "pdf_file_page": 2613,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q079.a003.respondeo",
+      "pdf_file_page": 2610,
+      "text": "以正直度生",
+      "status": "suspected_source_print_error",
+      "action": "原页两处均作「以正直度生」，保留原译措辞，不润色。"
+    },
+    {
+      "id": "I_II.q079.a004.arg2",
+      "pdf_file_page": 2611,
+      "text": "第一章13節",
+      "status": "suspected_source_print_error",
+      "action": "原页经文与节号如此，不按其他版本静默替换。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q079.prologue",
+      "description": "删去误混入引言的重复题头，题名字段保留；原换行移至引言末尾，换行转义数量不变。"
+    }
+  ],
+  "notes": [
+    "全部9页、4节原页逐页对齐。本批属于用户指定第二部第一集第71–80题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q079.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "論罪過之外在原因:首論天主方面的原因一分為四節一\n然後要討論的是罪過的外在原因(參看第七十六題引言)。首先，論天主那方面的原因;然後，論魔鬼方面的原因(第八十題);第三，論人方面的原因(第八十一題)。\n關於第一點，可以提出四個問題:\n一、天主是否為罪過之原因。\n二、罪過之行動是否來自天主。\n三、天主是否為昏昧及心硬之原因。\n四、昏昧及心硬是否有益於本人之得救。",
+      "after": "然後要討論的是罪過的外在原因(參看第七十六題引言)。首先，論天主那方面的原因；然後，論魔鬼方面的原因(第八十題)；第三，論人方面的原因(第八十一題)。\n關於第一點，可以提出四個問題：\n一、天主是否為罪過之原因。\n二、罪過之行動是否來自天主。\n三、天主是否為昏昧及心硬之原因。\n四、昏昧及心硬是否有益於本人之得救。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "論罪過之外在原因:首論天主方面的原因一分為四節一\n",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "四、昏昧及心硬是否有益於本人之得救。",
+          "after": "四、昏昧及心硬是否有益於本人之得救。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "天主是否為罪過之原因",
+      "after": "天主是否為罪過之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "天主似乎是罪過的原因。因為:",
+      "after": "天主似乎是罪過的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "宗徒在《羅馬書》第一章28節說:「他們既不肯認真地認識天主，天主也就任憑他們陷於邪惡的心思，去行不正當的事。」那裡的「註解」(拉了通行本註解)上說:「天主在人心中工作，使其意志傾向於祂所願意的，或傾向於善，或傾向於惡。」但是行不正當的事，以及意志傾向於惡，都是罪過。所以，天主是人之罪過的原因。",
+      "after": "宗徒在《羅馬書》第一章28節說：「他們既不肯認真地認識天主，天主也就任憑他們陷於邪惡的心思，去行不正當的事。」那裡的「註解」(拉丁通行本註解)上說：「天主在人心中工作，使其意志傾向於祂所願意的，或傾向於善，或傾向於惡。」但是行不正當的事，以及意志傾向於惡，都是罪過。所以，天主是人之罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "拉了",
+          "after": "拉丁",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2605
+      ],
+      "before": "此外，《智慧篇》第十四章11節說:「天主造的東西成了可憎之物，成了人們靈魂的誘忌。」但是誘惑是指引誘人犯罪;而按第一集第四十四題第一節、第六十五題第一節所說的，受造物皆是由天主所造的。所以，天主似乎是誘使人犯罪，而為罪過之原因。",
+      "after": "此外，《智慧篇》第十四章11節說：「天主造的東西成了可憎之物，成了人們靈魂的誘惑。」但是誘惑是指引誘人犯罪；而按第一集第四十四題第一節、第六十五題第一節所說的，受造物皆是由天主所造的。所以，天主似乎是誘使人犯罪，而為罪過之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "誘忌",
+          "after": "誘惑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2606
+      ],
+      "before": "此外，原因之原因，也是按果之原因。但是天主是自由意志之原因，自由意志則是罪過之原因。所以，天主是罪過的原因。",
+      "after": "此外，原因之原因，也是效果之原因。但是天主是自由意志之原因，自由意志則是罪過之原因。所以，天主是罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "按果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2606
+      ],
+      "before": "此外，凡惡皆與善相反。但是天主是處罰性的惡之原因，而這與天主之聖善不衝突。《依撒意亞》第四十五章7節論到這種惡時說，是天主「製造了災禍」;又《亞毛斯》第三章6節說:「如城裡發生災禍，豈不是上主所為?」。所以，天主為罪過之原因，並不與其聖善衝突。",
+      "after": "此外，凡惡皆與善相反。但是天主是處罰性的惡之原因，而這與天主之聖善不衝突。《依撒意亞》第四十五章7節論到這種惡時說，是天主「製造了災禍」；又《亞毛斯》第三章6節說：「如城裡發生災禍，豈不是上主所為？」。所以，天主為罪過之原因，並不與其聖善衝突。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "所為?",
+          "after": "所為？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2606
+      ],
+      "before": "《智慧篇》第十一章25節論天主說:「你不恨你所造的。」然而按照《智慧篇》第十四章9節所說的，天主憎恨罪過:「不虔敬的人，與他行的不虔敬的事，同樣為天主所憎恨」。所以，天主不是罪過的原因。",
+      "after": "《智慧篇》第十一章25節論天主說：「你不恨你所造的。」然而按照《智慧篇》第十四章9節所說的，天主憎恨罪過：「不虔敬的人，與他行的不虔敬的事，同樣為天主所憎恨」。所以，天主不是罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2606,
+        2607
+      ],
+      "before": "我解答如下:人以兩種方式為自己或他人之罪過的原因:一是直接地，即促使自己或他人之意志犯罪;另一種是間接地，即是不阻止他人犯罪。為此《厄則克耳》第三章18節向守衛說:「你若不警告不虔敬的人說:~你必喪亡」]，我必向你追討血債。」天主不能直接是自己或他人之罪過的原因，因為一切罪過皆是由於背離以祂(天主)為目的之秩序。按狄奧尼修在《神名論》第一章所說的，天主使一切歸向自己，以自己為最後目的。因此，祂不可能是自己或他人背離此以祂自己為指歸之秩序的原因。所以祂不能直接是罪過的原因。\n同樣，天主也不能是間接的原因。有時天主不給予某些人幫助，以逃避罪過;若有天主的幫助，他們能夠不犯罪。天主這樣做，是根據其智慧和正義的描施-一-因為天主本身就是智慧和正義。所以，他人犯罪，不能說天主是罪過的原因;就如除非舵手有能力並有責任掌肥而不掌舵，否則沉船不是他的罪過。可見，天主怎樣也不是罪過之原因。",
+      "after": "我解答如下：人以兩種方式為自己或他人之罪過的原因：一是直接地，即促使自己或他人之意志犯罪；另一種是間接地，即是不阻止他人犯罪。為此《厄則克耳》第三章18節向守衛說：「你若不警告不虔敬的人說：『你必喪亡』，我必向你追討血債。」天主不能直接是自己或他人之罪過的原因，因為一切罪過皆是由於背離以祂(天主)為目的之秩序。按狄奧尼修在《神名論》第一章所說的，天主使一切歸向自己，以自己為最後目的。因此，祂不可能是自己或他人背離此以祂自己為指歸之秩序的原因。所以祂不能直接是罪過的原因。\n同樣，天主也不能是間接的原因。有時天主不給予某些人幫助，以逃避罪過；若有天主的幫助，他們能夠不犯罪。天主這樣做，是根據其智慧和正義的措施——因為天主本身就是智慧和正義。所以，他人犯罪，不能說天主是罪過的原因；就如除非舵手有能力並有責任掌舵而不掌舵，否則沉船不是他的罪過。可見，天主怎樣也不是罪過之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說:~你必喪亡」]",
+          "after": "說：『你必喪亡』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "描施-一-",
+          "after": "措施——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "掌肥",
+          "after": "掌舵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2607
+      ],
+      "before": "關於宗徒的話，根據上下文便可以看出答案來。天主任憑某些人陷於邪惡的心思，那是說他們已經有了邪惡的心思，使之行不當行的事。所以說任憑他們陷於邪惡的心思，這是說不阻止他們去隨從邪惡的心思;就如我們不出面保護某些人峙，便說我們任憑他們自己去面對危險。至於「註解」取自奧斯定在《論恩寵與自由意志》第二十一章所說的: 「天主使人的意志向善或向惡」'應這樣去懂:使人向善是直接推動意志;使人向惡，即按上面正解所說的，是指不加以阻止。但是這也是由於以前之罪過的報應。",
+      "after": "關於宗徒的話，根據上下文便可以看出答案來。天主任憑某些人陷於邪惡的心思，那是說他們己經有了邪惡的心思，使之行不當行的事。所以說任憑他們陷於邪惡的心思，這是說不阻止他們去隨從邪惡的心思；就如我們不出面保護某些人時，便說我們任憑他們自己去面對危險。至於「註解」取自奧斯定在《論恩寵與自由意志》第二十一章所說的：「天主使人的意志向善或向惡」，應這樣去懂：使人向善是直接推動意志；使人向惡，即按上面正解所說的，是指不加以阻止。但是這也是由於以前之罪過的報應。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "某些人峙",
+          "after": "某些人時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "向惡」'",
+          "after": "向惡」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2607
+      ],
+      "before": "所謂「天主造的東西，成了可憎之物，成了人們靈魂的誘惑」'這裡的「成了」不是表示原因，而是表示後果。因為天主造東西不是為了招致人之惡，這惡是人的昏愚之後果。故此下面又說: 「作了患人腳前的陷阱」'即是愚人由於昏愚，將東西用於其所以受造以外的用途。",
+      "after": "所謂「天主造的東西，成了可憎之物，成了人們靈魂的誘惑」，這裡的「成了」不是表示原因，而是表示後果。因為天主造東西不是為了招致人之惡，這惡是人的昏愚之後果。故此下面又說：「作了愚人腳前的陷阱」，即是愚人由於昏愚，將東西用於其所以受造以外的用途。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "誘惑」'",
+          "after": "誘惑」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "患人",
+          "after": "愚人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "陷阱」'",
+          "after": "陷阱」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2607
+      ],
+      "before": "來自中間原因之效果，如果是合於第一原因之系統的，貝IJ也歸宗於第一原因;如果是在第一原因之系統以外的，則不歸宗於第一原因。就如僕人違背主人之命令所行的，不能上溯至主人，說主人是其原因。同樣，人的自由意志違背天主的命令所犯的罪，也不能上溯至天主，說天主是其原因。",
+      "after": "來自中間原因之效果，如果是合於第一原因之系統的，則也歸宗於第一原因；如果是在第一原因之系統以外的，則不歸宗於第一原因。就如僕人違背主人之命令所行的，不能上溯至主人，說主人是其原因。同樣，人的自由意志違背天主的命令所犯的罪，也不能上溯至天主，說天主是其原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2607
+      ],
+      "before": "處罰與受處罰者之善相反，使他失去某善。但是罪過是與以天主為目的之秩序的善相反，所以直接與天主的聖善相反。所以，處罰與罪過的性質不同。",
+      "after": "處罰與受處罰者之善相反，使他失去某善。但是罪過是與以天主為目的之秩序的善相反，所以直接與天主的聖善相反。所以，處罰與罪過的性質不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "罪過之行動是否來白天主",
+      "after": "罪過之行動是否來自天主",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "置疑罪過之行動似乎不是來自天主。因為:",
+      "after": "罪過之行動似乎不是來自天主。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "置疑",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "奧斯定在《論人的完美正義》第二章說: 「罪過之行動不是一種實在。」凡由天主來的，都是一種實在。所以，罪過之行動不是由天主來的。",
+      "after": "奧斯定在《論人的完美正義》第二章說：「罪過之行動不是一種實在。」凡由天主來的，都是一種實在。所以，罪過之行動不是由天主來的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "此外，說人是罪過的原因，只是因了人是罪過之行動的原因;何況按狄奧尼修在《神名論》第四章所說的，「無人志在於惡」。但按前面第一節所說的，天主不是罪過的原因。所以天主不是罪過之行動的原因。",
+      "after": "此外，說人是罪過的原因，只是因了人是罪過之行動的原因；何況按狄奧尼修在《神名論》第四章所說的，「無人志在於惡」。但按前面第一節所說的，天主不是罪過的原因。所以天主不是罪過之行動的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "此外，根據前面第十八題第五節所說的，有的行動按其類別便是惡的和罪過。但是如果一個東西是另一東西的原因，則是按類別屬於這東西者之原因。如果天主是罪過之行動的原因，便也是罪過之原因了。但是按前面第一節所說的，事實上不是這樣。所以，天主也不是罪過之行動的原因。",
+      "after": "此外，根據前面第十八題第五節所說的，有的行動按其類別便是惡的和罪過。但是如果一個東西是另一東西的原因，則是按類別屬於這東西者之原因。如果天主是罪過之行動的原因，便也是罪過之原因了。但是按前面第一節所說的，事實上不是這樣。所以，天主也不是罪過之行動的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2608
+      ],
+      "before": "罪過之行動是自由意志的一種動態。但是按奧斯定在《論天主聖三》卷三第四章所說的: 「天主的意志是一切動態的原因」。所以，天主的意志是罪過之行動的原因。",
+      "after": "罪過之行動是自由意志的一種動態。但是按奧斯定在《論天主聖三》卷三第四章所說的：「天主的意志是一切動態的原因」。所以，天主的意志是罪過之行動的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2608,
+        2609
+      ],
+      "before": "我解答如下:罪過之行動是一種物(ens)，也是一種現實(actus);從這兩方面說，都是來白天主。按狄奧尼修在《神名論》第五章所說的，任何物，只要是存在的，必定是來自第一個物。在另一方面，凡行動皆是出於一個現實存在的物，因為一個物之能行動，在於它是現實的;但是現實的物，皆以第一個現實，即以天主為其原因，第一現實按本質就是現實。所以，只就行動為行動而言，天主是一切行動之原因。\n但是罪過是指帶有缺欠的物和現實。這缺欠是出於受造的原因，即自由意志;這是由於它脫離第一主動者之秩序，即天主之秩序。所以這缺欠不是以天主為原因，而是以自由意志為原因;就如:跛足之毛病，其原因是腿骨的彎曲，而不是推動能力，雖然跛足之動態是因行動力而發生。故此，天主是罪過之行動的原因，而不是罪過之原因，因為祂不是使行動有缺欠的原因。",
+      "after": "我解答如下：罪過之行動是一種物(ens)，也是一種現實(actus)；從這兩方面說，都是來自天主。按狄奧尼修在《神名論》第五章所說的，任何物，只要是存在的，必定是來自第一個物。在另一方面，凡行動皆是出於一個現實存在的物，因為一個物之能行動，在於它是現實的；但是現實的物，皆以第一個現實，即以天主為其原因，第一現實按本質就是現實。所以，只就行動為行動而言，天主是一切行動之原因。\n但是罪過是指帶有缺欠的物和現實。這缺欠是出於受造的原因，即自由意志；這是由於它脫離第一主動者之秩序，即天主之秩序。所以這缺欠不是以天主為原因，而是以自由意志為原因；就如：跛足之毛病，其原因是腿骨的彎曲，而不是推動能力，雖然跛足之動態是因行動力而發生。故此，天主是罪過之行動的原因，而不是罪過之原因，因為祂不是使行動有缺欠的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "奧斯定在那裡所說的實在，是指單純的實在，即實體。按這意義，則罪過不是一種實在。",
+      "after": "奧斯定在那裡所說的實在，是指單純的實在，即實體。按這意義，則罪過不是一種實在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "人不只是行動之原因，也是缺欠之原因;因為他不服從所當服從者，雖然這不是他的主要用意。因此，人是罪過的原因。但天主是行動之原因，而不是伴隨行動的缺欠之原因。所以祂不是罪過的原因。",
+      "after": "人不只是行動之原因，也是缺欠之原因；因為他不服從所當服從者，雖然這不是他的主要用意。因此，人是罪過的原因。但天主是行動之原因，而不是伴隨行動的缺欠之原因。所以祂不是罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "按第十八題第五節釋疑2，、第五十四題第三節釋疑3，已說過的，行動和習性不是根據缺欠以分類別，而惡之意義在於缺欠;行動和習性是以帶有缺欠的某對象區分顛刑。所以，那不是來白天主的缺欠，其歸屬於行動之額刑，是附帶的關係，而不構成種類上的差別。",
+      "after": "按第十八題第五節釋疑2.、第五十四題第三節釋疑3.己說過的，行動和習性不是根據缺欠以分類別，而惡之意義在於缺欠；行動和習性是以帶有缺欠的某對象區分類別。所以，那不是來自天主的缺欠，其歸屬於行動之類別，是附帶的關係，而不構成種類上的差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "釋疑2，、",
+          "after": "釋疑2.、",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑3，已",
+          "after": "釋疑3.己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "顛刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "來白",
+          "after": "來自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "額刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "天主是否為昏昧及心硬之原因",
+      "after": "天主是否為昏昧及心硬之原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "置疑天主似乎不是(人)昏眛(excaecatio'失明、被矇蔽)和心硬(induratio'頑硬)之原因。因為:",
+      "after": "天主似乎不是(人)昏昧(excaecatio，失明、被矇蔽)和心硬(induratio，頑硬)之原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "置疑",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "excaecatio'",
+          "after": "excaecatio，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "induratio'",
+          "after": "induratio，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2609
+      ],
+      "before": "奧斯定在《雜題八十三》第三題說: 「天主不是人變壞的原因。」但是昏昧和心硬使人變壞。所以天主不是昏昧和心硬之原因。",
+      "after": "奧斯定在《雜題八十三》第三題說：「天主不是人變壞的原因。」但是昏昧和心硬使人變壞。所以天主不是昏昧和心硬之原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2609,
+        2610
+      ],
+      "before": "此外，富振秋(Fulgenti肘，462'\"'-'532年)《論天主的兩種預定》(De Dupl. Praedest.)卷一第十九章說: 「天主不報復自己所做的事情」。但是天主報復心硬的人;因為《德訓篇》第三章27節說:「心裡頑硬的人，終究必有不幸的結局。」所以，天主不是心硬的原因。",
+      "after": "此外，富振秋(Fulgentius，462～532年)《論天主的兩種預定》(De Dupl. Praedest.)卷一第十九章說：「天主不報復自己所做的事情」。但是天主報復心硬的人；因為《德訓篇》第三章27節說：「心裡頑硬的人，終究必有不幸的結局。」所以，天主不是心硬的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "Fulgenti肘",
+          "after": "Fulgentius",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "462'\"'-'532",
+          "after": "462～532",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2610
+      ],
+      "before": "此外，同一個效果不屬於相反的原因。但是按《智慧篇》第二章吋所說的，人的惡意是昏昧之原因:「他們的惡意使他們陷入昏昧」'又按《格林多後書》第四章4節所說的，魔鬼也是昏昧的原因:「今世的神已矇蔽了這些不信者的心智」。這些原因似乎與天主相反。所以，天主不是昏昧和心硬的原因。",
+      "after": "此外，同一個效果不屬於相反的原因。但是按《智慧篇》第二章21節所說的，人的惡意是昏昧之原因：「他們的惡意使他們陷入昏昧」，又按《格林多後書》第四章4節所說的，魔鬼也是昏昧的原因：「今世的神己矇蔽了這些不信者的心智」。這些原因似乎與天主相反。所以，天主不是昏昧和心硬的原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第二章吋",
+          "after": "第二章21節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏昧」'",
+          "after": "昏昧」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "神已",
+          "after": "神己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2610
+      ],
+      "before": "《依撒意亞》第六章10節卻說: 1-你要使這氏族的心進鈍，使他們的耳朵沈重。」又《羅馬書》第九章18節說:「祂願意恩待誰，就恩待誰:祂願意使誰心硬，就使誰心五吏。」",
+      "after": "《依撒意亞》第六章10節卻說：「你要使這民族的心遲鈍，使他們的耳朵沈重。」又《羅馬書》第九章18節說：「祂願意恩待誰，就恩待誰：祂願意使誰心硬，就使誰心硬。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1-你要",
+          "after": "「你要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "這氏族",
+          "after": "這民族",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "進鈍",
+          "after": "遲鈍",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "心五吏",
+          "after": "心硬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2610,
+        2611
+      ],
+      "before": "我解答如下:昏眛與心硬含有兩層事情。第一是人心依附惡而背離天主之光的動態。關於這一層，既然天主不是罪過的原因，也不是昏昧和心硬之原因。另一層是恩寵之喪失，致使人之心智不再受天主之光的照耀，以正直度生;而人之心意也不再領受(恩寵的)軟化，以正直度生。關於這方面，天主是昏昧與心硬之原因。\n然而要知道，按《若望福音》第一章9節所說的，天主是人靈之光明的普遍原因，正如太陽是物體之光明的普遍原因:「那普照每人的真光，正在進入這世界」:不過方式不同。太陽照耀是由於天性之必然;天主的行動則是自由的，是根據其智慧以施光照。太陽本來雖照躍一切物體，但若某物體有障礙，員IJ任其滯留在昏暗中，就如關了窗戶的房間。但這昏暗的原因不是太陽，因為不是它故意不使陽光入內一一隻有關閉窗戶者纔是昏暗之原因;天主則是自顧地使恩寵之光不照耀有障礙的人。所以﹒喪失恩寵的原因不只是那放置障礙者，自願地不給恩寵的天主也是原因。按這方式，則天主是昏眛、耳重及心硬的原因。這三項的區分是根據恩寵之效果:恩寵以智慧之恩成全人的理智;以愛德之火軟化人的心意;又因了兩種感官對理智之認知的作用最大，即視覺與聽覺一一其中視覺用於探索，聽覺用於聽命。故此，提到關於視覺的昏昧，關於聽覺的重聽，及關於心意的頑硬。",
+      "after": "我解答如下：昏昧與心硬含有兩層事情。第一是人心依附惡而背離天主之光的動態。關於這一層，既然天主不是罪過的原因，也不是昏昧和心硬之原因。另一層是恩寵之喪失，致使人之心智不再受天主之光的照耀，以正直度生；而人之心意也不再領受(恩寵的)軟化，以正直度生。關於這方面，天主是昏昧與心硬之原因。\n然而要知道，按《若望福音》第一章9節所說的，天主是人靈之光明的普遍原因，正如太陽是物體之光明的普遍原因：「那普照每人的真光，正在進入這世界」：不過方式不同。太陽照耀是由於天性之必然；天主的行動則是自由的，是根據其智慧以施光照。太陽本來雖照耀一切物體，但若某物體有障礙，則任其滯留在昏暗中，就如關了窗戶的房間。但這昏暗的原因不是太陽，因為不是它故意不使陽光入內——只有關閉窗戶者才是昏暗之原因；天主則是自願地使恩寵之光不照耀有障礙的人。所以，喪失恩寵的原因不只是那放置障礙者，自願地不給恩寵的天主也是原因。按這方式，則天主是昏昧、耳重及心硬的原因。這三項的區分是根據恩寵之效果：恩寵以智慧之恩成全人的理智；以愛德之火軟化人的心意；又因了兩種感官對理智之認知的作用最大，即視覺與聽覺——其中視覺用於探索，聽覺用於聽命。故此，提到關於視覺的昏昧，關於聽覺的重聽，及關於心意的頑硬。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "以正直度生",
+          "after": "以正直度生",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "照躍",
+          "after": "照耀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自顧",
+          "after": "自願",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所以﹒",
+          "after": "所以，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "既然從恩寵之喪失方面說，昏昧與心硬是一種處罰，故在這方面人不變為更壞的﹒人因了罪過變壞後，遂有這種後果及其他處罰。",
+      "after": "既然從恩寵之喪失方面說，昏昧與心硬是一種處罰，故在這方面人不變為更壞的，人因了罪過變壞後，遂有這種後果及其他處罰。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "更壞的﹒",
+          "after": "更壞的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "所舉之理由是根據心硬之為罪過的那方面。",
+      "after": "所舉之理由是根據心硬之為罪過的那方面。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "惡意之為昏眛的原因，正似罪過之為處罰的原因。按這方式，也說魔鬼造成昏昧，因了他誘人犯罪。",
+      "after": "惡意之為昏昧的原因，正似罪過之為處罰的原因。按這方式，也說魔鬼造成昏昧，因了他誘人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正似",
+          "after": "正似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "昏昧與心硬是否常有益於本人之得救",
+      "after": "昏昧與心硬是否常有益於本人之得救",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "昏眛及心硬似乎常是為了昏眛者及心硬者之得救。因為:",
+      "after": "昏昧及心硬似乎常是為了昏昧者及心硬者之得救。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "奧斯定在《基本教理手冊》第十一章說: 「既然天主是至善者，若不能從惡中產生善，絕不容許惡存在。」祂自己若是惡的原因，買IJ更該是為了善。但是按前面第三節所說的，天主是昏眛與心硬之原因。所以，這是為了昏昧和心硬者之得救。",
+      "after": "奧斯定在《基本教理手冊》第十一章說：「既然天主是至善者，若不能從惡中產生善，絕不容許惡存在。」祂自己若是惡的原因，則更該是為了善。但是按前面第三節所說的，天主是昏昧與心硬之原因。所以，這是為了昏昧和心硬者之得救。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2611
+      ],
+      "before": "此外，《智慧篇》第一章的節說: 「天主不樂意惡人滅亡。」如果惡人之昏眛對他們無益，買iI天主似是以他們喪亡為樂;就如醫生給病人苦藥，若對其健康無益，則是醫生樂意病人喫苦。所以天主使昏昧變成昏眛者的益處。",
+      "after": "此外，《智慧篇》第一章13節說：「天主不樂意惡人滅亡。」如果惡人之昏昧對他們無益，則天主似是以他們喪亡為樂；就如醫生給病人苦藥，若對其健康無益，則是醫生樂意病人吃苦。所以天主使昏昧變成昏昧者的益處。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一章的節",
+          "after": "第一章13節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買iI",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "喫苦",
+          "after": "吃苦",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2611,
+        2612
+      ],
+      "before": "此外，《宗徒大事錄》第十章34節說: 「天主是不看情面的」。但是天主使某些人之昏眛有利於他們的得救，就如《宗徒大事錄》第二章37節所講的那些猶太人，盲目到不相信基督，且把祂殺死，後來悔過皈依了基督;奧斯定在《福音答問》(De quaest. evang)卷三(即《瑪竇褔音答問》第十七則第十四題)也是這樣講的。所以，天主使人昏眛皆是為使他們得救。",
+      "after": "此外，《宗徒大事錄》第十章34節說：「天主是不看情面的」。但是天主使某些人之昏昧有利於他們的得救，就如《宗徒大事錄》第二章37節所講的那些猶太人，盲目到不相信基督，且把祂殺死，後來悔過皈依了基督；奧斯定在《福音答問》(De quaest. evang)卷三(即《瑪竇福音答問》第十七則第十四題)也是這樣講的。所以，天主使人昏昧皆是為使他們得救。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2612
+      ],
+      "before": "按《羅馬書》第三章8節所說的，不可以為產生善而行惡c但使人昏眛是惡事。所以，天主不是為了某些人的益處而使他們昏昧。",
+      "after": "按《羅馬書》第三章8節所說的，不可以為產生善而行惡。但使人昏昧是惡事。所以，天主不是為了某些人的益處而使他們昏昧。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行惡c",
+          "after": "行惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2612
+      ],
+      "before": "我解答如下:昏眛是犯罪的前奏。罪過有兩種作用:一是本然的作用，即使人受罰;另一個作用是由於天主的仁慈而使人獲得救治，即是天主容許某些人陷於罪過，為使他們知罪而自謙皈正，就如奧斯定在《論本性及恩寵》(De Natura et Gratia)第二十七及第二十八章所說的。所以，昏眛本來是為了處罰昏昧的人，故被列為處罰之一;但由於天主的仁慈，短期的昏昧是為使人獲得醫治而得救。但這仁慈不是施於每個昏眛者的，只施於那些預定蒙召的人，就如《羅馬書》第八章28節所說的: 「天主使一切協助那些蒙召的人」。故此，正如奧斯定在《福音答問》卷三(同上)所說的，昏昧之作用，對某些人是為使他們獲得救治;對別的人是為使他們喪亡。",
+      "after": "我解答如下：昏昧是犯罪的前奏。罪過有兩種作用：一是本然的作用，即使人受罰；另一個作用是由於天主的仁慈而使人獲得救治，即是天主容許某些人陷於罪過，為使他們知罪而自謙皈正，就如奧斯定在《論本性及恩寵》(De Natura et Gratia)第二十七及第二十八章所說的。所以，昏昧本來是為了處罰昏昧的人，故被列為處罰之一；但由於天主的仁慈，短期的昏昧是為使人獲得醫治而得救。但這仁慈不是施於每個昏昧者的，只施於那些預定蒙召的人，就如《羅馬書》第八章28節所說的：「天主使一切協助那些蒙召的人」。故此，正如奧斯定在《福音答問》卷三(同上)所說的，昏昧之作用，對某些人是為使他們獲得救治；對別的人是為使他們喪亡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2612
+      ],
+      "before": "天主所為或所容許的惡都是為了某種善，但不常是為了具有惡者之善;有時是為他人或大家的善。就如暴君的罪過有益於殉道者，罪人之受罰是為表揚天主的正義。",
+      "after": "天主所為或所容許的惡都是為了某種善，但不常是為了具有惡者之善；有時是為他人或大家的善。就如暴君的罪過有益於殉道者，罪人之受罰是為表揚天主的正義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2612
+      ],
+      "before": "天主不以人之喪亡本身為樂，但以其正義為樂，或以從惡中產生的善為樂。",
+      "after": "天主不以人之喪亡本身為樂，但以其正義為樂，或以從惡中產生的善為樂。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q079.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2612,
+        2613
+      ],
+      "before": "天主，立使某些人之昏跌，有助於他們之得救，乃是由於天主的仁慈;別的人之昏昧促成其喪亡，則是由於正義。至於天主只對某些人施仁慈，而不對所有的人施仁慈，並不是天主看情面;這在第一集第二十三題第五節釋疑3.已經說過了。",
+      "after": "天主之使某些人之昏昧，有助於他們之得救，乃是由於天主的仁慈；別的人之昏昧促成其喪亡，則是由於正義。至於天主只對某些人施仁慈，而不對所有的人施仁慈，並不是天主看情面；這在第一集第二十三題第五節釋疑3.己經說過了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天主，立使",
+          "after": "天主之使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏跌",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q079.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2613
+      ],
+      "before": "(答皮之)不可以製造罪過性的惡為產生善;但為了產生善，可以用處罰性的惡。",
+      "after": "(答反之)不可以製造罪過性的惡為產生善；但為了產生善，可以用處罰性的惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "答皮之",
+          "after": "答反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
