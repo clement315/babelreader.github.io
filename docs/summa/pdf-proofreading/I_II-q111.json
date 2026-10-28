@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q111",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q111",
+    "title": "論恩寵之分類",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      3039,
+      3040,
+      3041,
+      3042,
+      3043,
+      3044,
+      3045,
+      3046,
+      3047,
+      3048,
+      3049,
+      3050
+    ],
+    "printed_pages": [
+      310,
+      321
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 64,
+    "changed_review_units": 50,
+    "checked_unchanged_review_units": 15
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q111.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q111.json": "5ec0208b8ab2e8cc0546225dc3d5a1f27e5dc5267b0a564e57ac26185cd6a274",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q111.a001.ad1",
+      "pdf_file_page": 3040,
+      "text": "稱為為天主",
+      "status": "suspected_source_print_error",
+      "action": "原页「称为为天主」重复为字，疑原书印误，依底本保留。"
+    },
+    {
+      "id": "I_II.q111.a003.arg2",
+      "pdf_file_page": 3044,
+      "text": "第十三章9節",
+      "status": "suspected_source_print_error",
+      "action": "原页也作第十三章9节，疑经文引注印误，依底本保留。"
+    },
+    {
+      "id": "I_II.q111.a002.respondeo",
+      "pdf_file_page": 3042,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q111.a002.ad3",
+      "pdf_file_page": 3043,
+      "text": "己決定",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q111.a004.ad1",
+      "pdf_file_page": 3047,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q111.a005.arg3",
+      "description": "剔除页码320与页边字；将误并入异议三的反之段归回既有sed_contra空字段，不改结构及换行转义。"
+    }
+  ],
+  "notes": [
+    "全部12页、5节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q111.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "然後要討論的是恩寵之分類(參看第一0九題引言)。\n關於這點，可以提出五個問題:\n一、恩寵是否可分為白白施予的恩寵，及使中悅天主的恩寵。\n二、論使中悅天主的恩寵之分為(主導)作用恩寵與配合作用恩寵。\n三、論使中悅天主的恩寵之分為先施的與後施的。\n四、論白白施予的恩寵之分類。\n五、諭白白施予的恩寵與使中悅天主的恩寵之比較。",
+      "after": "然後要討論的是恩寵之分類(參看第一〇九題引言)。\n關於這點，可以提出五個問題：\n一、恩寵是否可分為白白施予的恩寵，及使中悅天主的恩寵。\n二、論使中悅天主的恩寵之分為(主導)作用恩寵與配合作用恩寵。\n三、論使中悅天主的恩寵之分為先施的與後施的。\n四、論白白施予的恩寵之分類。\n五、論白白施予的恩寵與使中悅天主的恩寵之比較。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "五、諭",
+          "after": "五、論",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "恩寵是否可分為白白施予的恩寵，及使中快天主的恩寵",
+      "after": "恩寵是否可分為白白施予的恩寵，及使中悅天主的恩寵",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "快天主",
+          "after": "悅天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "將恩寵分為使中悅天主的恩寵(gratia gratum faciens)和白白施予的恩寵(gratia gratis data)，似乎不合適。因為:",
+      "after": "將恩寵分為使中悅天主的恩寵(gratia gratum faciens)和白白施予的恩寵(gratia gratis data)，似乎不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3039
+      ],
+      "before": "由前面第一-0題第一節所說的可以知道，恩寵是天主的一種恩惠。然而，人並不因了從天主得了什麼東西，便中悅天主;反過來說才合理，即天主之所以白白施恩於人，乃因人中悅天主。所以，沒有所謂使中悅天主的恩寵。",
+      "after": "由前面第一一〇題第一節所說的可以知道，恩寵是天主的一種恩惠。然而，人並不因了從天主得了什麼東西，便中悅天主；反過來說才合理，即天主之所以白白施恩於人，乃因人中悅天主。所以，沒有所謂使中悅天主的恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3039,
+        3040
+      ],
+      "before": "此外，凡不是因有功在先而賜給的，都是白白賜給的。但是天性方面的善，也不是因有功在先而賜給人的，因為先要有天性而後始能有功績。所以，天性也是天主白白賜給的。天性與恩寵是兩類東西。所以，不宜以「白白施予的」當恩寵的差稱;因為在恩寵之共類以外，也有白白施予的東西。",
+      "after": "此外，凡不是因有功在先而賜給的，都是白白賜給的。但是天性方面的善，也不是因有功在先而賜給人的，因為先要有天性而後始能有功績。所以，天性也是天主白白賜給的。天性與恩寵是兩類東西。所以，不宜以「白白施予的」當恩寵的差稱；因為在恩寵之共類以外，也有白白施予的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3040
+      ],
+      "before": "此外，分類都應根據對立關係。但是我們藉以成義的使中悅天主之恩寵，也是天主白白賜給的;就如《羅馬書》第三章24節所說的:「眾人都白天主白白施給的恩寵，成為義人。」所以，使中悅天主的恩寵不能與白白施予的恩寵對分。",
+      "after": "此外，分類都應根據對立關係。但是我們藉以成義的使中悅天主之恩寵，也是天主白白賜給的；就如《羅馬書》第三章24節所說的：「眾人都因天主白白施給的恩寵，成為義人。」所以，使中悅天主的恩寵不能與白白施予的恩寵對分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "眾人都白天主",
+          "after": "眾人都因天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        3040
+      ],
+      "before": "宗徒說恩寵有這兩種性質，即使人能中悅天主的，和自白賜給的。關於第一種性質，他在《厄弗所書》第一章6節說:「祂(聖父)在自己的愛子內，使我們成為可愛的(中悅祂的)」。關於第二種性質，他在《羅馬書》第十一章6節說:「既然是出於恩寵，就不是出於作為，不然恩寵就不算為恩寵了。」所以，可以根據恩寵是具有其一，或二者兼具，而加以區分。",
+      "after": "宗徒說恩寵有這兩種性質，即使人能中悅天主的，和白白賜給的。關於第一種性質，他在《厄弗所書》第一章6節說：「祂(聖父)在自己的愛子內，使我們成為可愛的(中悅祂的)」。關於第二種性質，他在《羅馬書》第十一章6節說：「既然是出於恩寵，就不是出於作為，不然恩寵就不算為恩寵了。」所以，可以根據恩寵是具有其一，或二者兼具，而加以區分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "和自白賜給",
+          "after": "和白白賜給",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        3040
+      ],
+      "before": "我解答如下:宗徒在《羅馬書》第十三章1節說，從天主來的東西，都是有次序的。按狄奧尼修在《上天(天使)階級論》第四章所說的，萬物的次序在於有的東西是通過別的東西而歸向天主。既然恩寵是為使人歸向天主的，故循此次序有的人，也是通過別人而歸向天主，因而遂有兩種恩寵:一種使受恩寵的人與天主結合，這是íf吏中悅天主的恩寵J;另一種使人協助他人歸向天主，這種恩寵稱為「白白施予的恩寵」'因為是在人性能力以外，和個人的功績以外而賜給人的。f旦因了不是為使獲得恩寵的人自己成義的，而是為使他協助他人成義的，故不稱之為使中悅天主的恩寵。關於這種恩寵，宗徒在《格林多前書》第十二章7節說:「聖神顯示在每人身上雖不同，但全是為人的好處」'即為他人的好處。",
+      "after": "我解答如下：宗徒在《羅馬書》第十三章1節說，從天主來的東西，都是有次序的。按狄奧尼修在《上天(天使)階級論》第四章所說的，萬物的次序在於有的東西是通過別的東西而歸向天主。既然恩寵是為使人歸向天主的，故循此次序有的人，也是通過別人而歸向天主，因而遂有兩種恩寵：一種使受恩寵的人與天主結合，這是「使中悅天主的恩寵」；另一種使人協助他人歸向天主，這種恩寵稱為「白白施予的恩寵」，因為是在人性能力以外，和個人的功績以外而賜給人的。但因了不是為使獲得恩寵的人自己成義的，而是為使他協助他人成義的，故不稱之為使中悅天主的恩寵。關於這種恩寵，宗徒在《格林多前書》第十二章7節說：「聖神顯示在每人身上雖不同，但全是為人的好處」，即為他人的好處。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這是íf吏中悅天主的恩寵J;",
+          "after": "這是「使中悅天主的恩寵」；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩寵」'",
+          "after": "恩寵」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "f旦因了",
+          "after": "但因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "好處」'",
+          "after": "好處」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3040,
+        3041
+      ],
+      "before": "恩寵之稱為使中悅天主的，不是以動因關係，而是以形式因關係。即是因為人藉恩寵而成義，因而堪得稱為為天主所喜愛的;就如《哥羅森書》第一章12節說的: 「使我們有資格在光明中，分享聖徒的福分」。",
+      "after": "恩寵之稱為使中悅天主的，不是以動因關係，而是以形式因關係。即是因為人藉恩寵而成義，因而堪得稱為為天主所喜愛的；就如《哥羅森書》第一章12節說的：「使我們有資格在光明中，分享聖徒的福分」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "恩寵既是白白施予的，排斥應然或義務(debitum)之意義，義務能有兩種意義。一種是由於功勞來的，是對有功行自可人的義務;就如《羅馬書》第四章4節所說的: 「給工作的人工資，不算是恩皁，而是還債。」另一種義務或應然是由於天↑生的條件，例如我們說:人之有理性和屬於人性的其他東西是理所當然的。按這兩種意義，都不能說天主對受造物有義務:反而該說，受造物有義務服從天主，完成天主的使命。即某種天性要具有某些條件或性質，並從事某些工作和達到某些巨的。所以，自然恩惠沒有第一種意義的義務，但有第二種義務。但是超性的恩惠兩種義務都沒有，因而特別稱之為恩寵。",
+      "after": "恩寵既是白白施予的，排斥應然或義務(debitum)之意義，義務能有兩種意義。一種是由於功勞來的，是對有功行的人的義務；就如《羅馬書》第四章4節所說的：「給工作的人工資，不算是恩惠，而是還債。」另一種義務或應然是由於天性的條件，例如我們說：人之有理性和屬於人性的其他東西是理所當然的。按這兩種意義，都不能說天主對受造物有義務：反而該說，受造物有義務服從天主，完成天主的使命。即某種天性要具有某些條件或性質，並從事某些工作和達到某些目的。所以，自然恩惠沒有第一種意義的義務，但有第二種義務。但是超性的恩惠兩種義務都沒有，因而特別稱之為恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "有功行自可人的",
+          "after": "有功行的人的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩皁",
+          "after": "恩惠",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天↑生",
+          "after": "天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "某些巨的",
+          "after": "某些目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "使中悅天主的恩寵，比白白施予的恩寵多點東西，即:它使人中悅天主，而這也屬於恩寵的範疇。那沒有這個作用此白白施予的恩寵，遂保用普通名稱，就像在許多別的事上一樣。所以兩種之間的差別，就似是門吏中悅天主的」與「不使中悅天主的」。",
+      "after": "使中悅天主的恩寵，比白白施予的恩寵多點東西，即：它使人中悅天主，而這也屬於恩寵的範疇。那沒有這個作用的白白施予的恩寵，遂保用普通名稱，就像在許多別的事上一樣。所以兩種之間的差別，就似是「使中悅天主的」與「不使中悅天主的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "這個作用此白白",
+          "after": "這個作用的白白",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "門吏中悅",
+          "after": "「使中悅",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "恩寵是否可分為主導作用恩寵，與配合作用恩寵",
+      "after": "恩寵是否可分為主導作用恩寵，與配合作用恩寵",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "將恩寵分為「主導作用的」(operans)與「配合作用的­(cooperans)兩類，似乎不合適。因為:",
+      "after": "將恩寵分為「主導作用的」(operans)與「配合作用的」(cooperans)兩類，似乎不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「配合作用的­(cooperans)",
+          "after": "「配合作用的」(cooperans)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3041
+      ],
+      "before": "按前面第一-0題第二節釋疑2.所說的，恩寵是一種依附體。但依附體不能對主體起作用。所以，沒有所謂的起作冉的恩寵。",
+      "after": "按前面第一一〇題第二節釋疑2.所說的，恩寵是一種依附體。但依附體不能對主體起作用。所以，沒有所謂的起作用的恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "起作冉",
+          "after": "起作用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3041,
+        3042
+      ],
+      "before": "此外，若說恩寵在我們身上有作用，那主要是使我「成義。但這不只是恩寵的作用;因為關於《若望福音》第十匹章12節那旬: 「我(基督)所做的事業，他(信基督的)也要做」'奧斯定說: 「那不用你而造了你的，將不會不用你而使你成義。」(《證道集》第一六九篇第十一章)所以，沒有恩龍是絕對(或全面)有作用的。",
+      "after": "此外，若說恩寵在我們身上有作用，那主要是使我們成義。但這不只是恩寵的作用；因為關於《若望福音》第十四章12節那句：「我(基督)所做的事業，他(信基督的)也要做」，奧斯定說：「那不用你而造了你的，將不會不用你而使你成義。」(《證道集》第一六九篇第十一章)所以，沒有恩寵是絕對(或全面)有作用的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使我「成義",
+          "after": "使我們成義",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十匹章",
+          "after": "第十四章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "那旬",
+          "after": "那句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也要做」'",
+          "after": "也要做」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩龍",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3042
+      ],
+      "before": "此外，與人配合做事似乎是次級行動者的事，而不是主要行動者的事。但在我們內，恩寵的作用比自由意志的作用更為主動;就如《羅馬書》第九章16節說的: 「蒙召並不在乎人願意，也不在乎人努力，而是由於天主的仁慈。」所以，不該稱恩寵是配合作用的。",
+      "after": "此外，與人配合做事似乎是次級行動者的事，而不是主要行動者的事。但在我們內，恩寵的作用比自由意志的作用更為主動；就如《羅馬書》第九章16節說的：「蒙召並不在乎人願意，也不在乎人努力，而是由於天主的仁慈。」所以，不該稱恩寵是配合作用的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        3042
+      ],
+      "before": "此外，分類該根據對立關係。但是作用與配合作用不是對立的，因為同一個東西能又起作用又有配合作用。所以不該把恩寵分為作用的與配合作用的。",
+      "after": "此外，分類該根據對立關係。但是作用與配合作用不是對立的，因為同一個東西能又起作用又有配合作用。所以不該把恩寵分為作用的與配合作用的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        3042
+      ],
+      "before": "奧斯定在《論恩寵與自由意志》第十七章說: 「天主在我們內藉配合作用，完成祂藉主導作用所開始的。因為是祂開始作為，使我們願意;及至我們願意後，祂又配合著使之完成。」但是天主推動我們向善的作用是恩寵。所以，恩寵可以分為主導作用的與配合作用的。",
+      "after": "奧斯定在《論恩寵與自由意志》第十七章說：「天主在我們內藉配合作用，完成祂藉主導作用所開始的。因為是祂開始作為，使我們願意；及至我們願意後，祂又配合著使之完成。」但是天主推動我們向善的作用是恩寵。所以，恩寵可以分為主導作用的與配合作用的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        3042,
+        3043
+      ],
+      "before": "我解答如下:第一0九題第二、第三、第六及第九節，以及第一-0題第二節已經說過，恩寵有兩種意義:一是指天主使我們願意並實行善事的助佑;一是指天主灌輸給我們的常備恩惠。這兩種恩惠皆可分為主導作用的與配合作用的。使一個效果實現的行動或作為，不歸於被動者，而歸於主動者。故此，針對某一效果，若我們的心靈是被動的而不是主動的，只有天主是主動的，則有關行動或作為歸於天主，因而稱為(主導)作用的恩寵。若針對某一妓果，我們的心靈既主動也被動，員IJ有關行動或作為，不只歸於天主，也歸於靈魂，因而稱為配合作用的恩寵。\n在我們內有兩種行動c一種是內心的意志行動。針對這種行動來說，意志是被動的，天主是主動者;特別在意志以前向惡，而開始向善的時候。就天主推動人的心靈做這行動而言，便稱為主導作用恩寵。另一種行動是外表的;按前面第十七題第九節所說的，這是由意志命使的，故這行動的作用歸於意志。但因為天主也幫助我們做這行動，在內堅定我們的意志使之採取行動，在外給我們行動的能力;故針對這種行動而言，稱為配合作用恩寵。因此奧斯定在上述皮之之話以後，又說:「天主行動為使我們願意，當我們願意時，我們又因祂與我們合作而得以完成。」所以，若恩寵是指天主為使我們行善立功而白給的動力，可以分為主導作用的與配合作用的。\n若恩寵是指常備之恩惠，其效果也有兩種，像其他形式的效果一樣:第一是存有或實在(esse)，第二是行動;例如熱之行動或作用是使東西成為熱的，和向外散發熱。因為常備恩寵，看其使靈魂康復或成義，使之成為天主所喜悅者之作用，便稱為主導作用恩寵;視之為功行之根本，因為功行也出於自由意志，則稱為配合作用恩寵。",
+      "after": "我解答如下：第一〇九題第二、第三、第六及第九節，以及第一一〇題第二節己經說過，恩寵有兩種意義：一是指天主使我們願意並實行善事的助佑；一是指天主灌輸給我們的常備恩惠。這兩種恩惠皆可分為主導作用的與配合作用的。使一個效果實現的行動或作為，不歸於被動者，而歸於主動者。故此，針對某一效果，若我們的心靈是被動的而不是主動的，只有天主是主動的，則有關行動或作為歸於天主，因而稱為(主導)作用的恩寵。若針對某一效果，我們的心靈既主動也被動，則有關行動或作為，不只歸於天主，也歸於靈魂，因而稱為配合作用的恩寵。\n在我們內有兩種行動。一種是內心的意志行動。針對這種行動來說，意志是被動的，天主是主動者；特別在意志以前向惡，而開始向善的時候。就天主推動人的心靈做這行動而言，便稱為主導作用恩寵。另一種行動是外表的；按前面第十七題第九節所說的，這是由意志命使的，故這行動的作用歸於意志。但因為天主也幫助我們做這行動，在內堅定我們的意志使之採取行動，在外給我們行動的能力；故針對這種行動而言，稱為配合作用恩寵。因此奧斯定在上述反之之話以後，又說：「天主行動為使我們願意，當我們願意時，我們又因祂與我們合作而得以完成。」所以，若恩寵是指天主為使我們行善立功而白給的動力，可以分為主導作用的與配合作用的。\n若恩寵是指常備之恩惠，其效果也有兩種，像其他形式的效果一樣：第一是存有或實在(esse)，第二是行動；例如熱之行動或作用是使東西成為熱的，和向外散發熱。因為常備恩寵，看其使靈魂康復或成義，使之成為天主所喜悅者之作用，便稱為主導作用恩寵；視之為功行之根本，因為功行也出於自由意志，則稱為配合作用恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "兩種行動c",
+          "after": "兩種行動。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "上述皮之之話",
+          "after": "上述反之之話",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3043
+      ],
+      "before": "以恩寵為一種依附性的品質而論，對靈魂沒有動困的作用，而是有形式因的作用，就如:白色使表面成為白的。",
+      "after": "以恩寵為一種依附性的品質而論，對靈魂沒有動因的作用，而是有形式因的作用，就如：白色使表面成為白的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "動困",
+          "after": "動因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3043
+      ],
+      "before": "天主使我們成義不能不用我們，因為在我們成義時，我們是用自由意志的行動同意於天主之正義。但自由意志之行動，不是恩寵的原因，而是恩寵的效果。故整個作用都歸於恩寵。",
+      "after": "天主使我們成義不能不用我們，因為在我們成義時，我們是用自由意志的行動同意於天主之正義。但自由意志之行動，不是恩寵的原因，而是恩寵的效果。故整個作用都歸於恩寵。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3043
+      ],
+      "before": "說一人與他人配合或合作，不只有次要主動者與主要主動者之合作;幫助人達成已決定之目的，也是配合或合作。天主以主導作用恩寵使人願意向善。既有了目的，恩寵隨後也就與我們合作。",
+      "after": "說一人與他人配合或合作，不只有次要主動者與主要主動者之合作；幫助人達成己決定之目的，也是配合或合作。天主以主導作用恩寵使人願意向善。既有了目的，恩寵隨後也就與我們合作。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已決定",
+          "after": "己決定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "由上面正解所說的可以知道，主導作用恩寵與配合作用恩寵是同一恩寵，只是由於效果不同而有區別。",
+      "after": "由上面正解所說的可以知道，主導作用恩寵與配合作用恩寵是同一恩寵，只是由於效果不同而有區別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "恩寵是否可以分為先施的與後施的",
+      "after": "恩寵是否可以分為先施的與後施的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "恩寵似乎不該分為「先施的」(praeveniens)與「後施的」(subsequens)。因為",
+      "after": "恩寵似乎不該分為「先施的」(praeveniens)與「後施的」(subsequens)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為",
+          "after": "因為：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "恩寵是天主之愛的效果。但是按《若望壹書》第四章10節所說的，天主的愛常是先施的，總不會是後施的:「不是我們愛了天主，而是祂先愛了我們。」所以，恩寵不該有先施後施之別。",
+      "after": "恩寵是天主之愛的效果。但是按《若望壹書》第四章10節所說的，天主的愛常是先施的，總不會是後施的：「不是我們愛了天主，而是祂先愛了我們。」所以，恩寵不該有先施後施之別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "此外，使中悅天主的恩寵在人內只有一個﹒因為它是足夠用的;就如《格林多後書》第十三章9節說的，「有我的恩寵為你夠了」。但同一個東西沒有先後之別，所以恩寵不該分為先施的與後施的。",
+      "after": "此外，使中悅天主的恩寵在人內只有一個，因為它是足夠用的；就如《格林多後書》第十三章9節說的，「有我的恩寵為你夠了」。但同一個東西沒有先後之別，所以恩寵不該分為先施的與後施的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一個﹒",
+          "after": "一個，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "此外，由效果而認知恩寵。但是恩寵有無限的殼果，一個接連一個。恩寵若要分先後，貝IJ將有無限類別的恩寵。任何學術也不管無限。所以恩寵不該分為先施的與後施的。",
+      "after": "此外，由效果而認知恩寵。但是恩寵有無限的效果，一個接連一個。恩寵若要分先後，則將有無限類別的恩寵。任何學術也不管無限。所以恩寵不該分為先施的與後施的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "殼果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        3044
+      ],
+      "before": "天主的恩寵是出於祂的仁慈。但是《聖詠》第五十九篇11節說:「祂的仁惡先我而行」;《聖詠》第二十二篇6節又說:「祂的仁慈隨我而至」。所以，恩寵可以分為先施的與後施的。",
+      "after": "天主的恩寵是出於祂的仁慈。但是《聖詠》第五十九篇11節說：「祂的仁慈先我而行」；《聖詠》第二十二篇6節又說：「祂的仁慈隨我而至」。所以，恩寵可以分為先施的與後施的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "仁惡",
+          "after": "仁慈",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        3044,
+        3045
+      ],
+      "before": "我解答如下:正如恩寵按不同的妓果分為主導作用恩寵與配合作用恩寵，同樣也分為先施的與後施的，無論是哪種恩寵。恩寵在我們身上有五種效果:第一，使靈魂復元;第二，使之願善;第三，使之實行所願之善;第凹，固定於善;第五，達到光榮。在我們內產生第一個效果的恩寵，針對第二個放果則稱為先施的恩寵;在我們內產生第二個效果的，針對第一個效果便是後施的。因了一個效果能是別的以後的，又是男一個以前的，故關於同一個效果之恩寵，針對其他不同的效果而言，可以又是先施的，又是後施的。故此，奧斯定在《論本性與恩寵》第三十一章說:「先施為使我們復元，後施為使復元後強壯;先施為召叫我們，後施為光榮我們o 」",
+      "after": "我解答如下：正如恩寵按不同的效果分為主導作用恩寵與配合作用恩寵，同樣也分為先施的與後施的，無論是哪種恩寵。恩寵在我們身上有五種效果：第一，使靈魂復元；第二，使之願善；第三，使之實行所願之善；第四，固定於善；第五，達到光榮。在我們內產生第一個效果的恩寵，針對第二個效果則稱為先施的恩寵；在我們內產生第二個效果的，針對第一個效果便是後施的。因了一個效果能是別的以後的，又是另一個以前的，故關於同一個效果之恩寵，針對其他不同的效果而言，可以又是先施的，又是後施的。故此，奧斯定在《論本性與恩寵》第三十一章說：「先施為使我們復元，後施為使復元後強壯；先施為召叫我們，後施為光榮我們。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "妓果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第凹",
+          "after": "第四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "光榮我們o 」",
+          "after": "光榮我們。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "天主的愛是永恆的，所以只能是先施的。但恩寵是指時間性的效果，能在某事以前，也能在某事以後。因此恩寵可以稱為先施的與後施的。",
+      "after": "天主的愛是永恆的，所以只能是先施的。但恩寵是指時間性的效果，能在某事以前，也能在某事以後。因此恩寵可以稱為先施的與後施的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "恩寵之為先施的與後施的，這一分類不是按本質，只是按效果，正如第二節釋疑4.關於主導作用與配合作用之恩寵所說的。後施的恩寵雖屬於光榮，與現在使我們成義的先施恩寵並沒有數目上的差別。正如(現世)旅途的愛德在天堂上並不消滅，而變為完整的;恩寵之光也是一樣，因為二者之理中都不含有缺欠。",
+      "after": "恩寵之為先施的與後施的，這一分類不是按本質，只是按效果，正如第二節釋疑4.關於主導作用與配合作用之恩寵所說的。後施的恩寵雖屬於光榮，與現在使我們成義的先施恩寵並沒有數目上的差別。正如(現世)旅途的愛德在天堂上並不消滅，而變為完整的；恩寵之光也是一樣，因為二者之理中都不含有缺欠。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "雖然恩寵的效果能有無限個，因為人的行動是無限的，但都能歸納為幾個固定的類別。何況一切效果的共同點之一，是具有先後之關係。",
+      "after": "雖然恩寵的效果能有無限個，因為人的行動是無限的，但都能歸納為幾個固定的類別。何況一切效果的共同點之一，是具有先後之關係。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "宗徒對白白施予的恩寵所做的區分，是否合理",
+      "after": "宗徒對白白施予的恩寵所做的區分，是否合理",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3045
+      ],
+      "before": "宗徒對白白施予的恩寵所做的區分(《格林多前書》第十二章8至10節)，似乎不合理。因為:",
+      "after": "宗徒對白白施予的恩寵所做的區分(《格林多前書》第十二章8至10節)，似乎不合理。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3045,
+        3046
+      ],
+      "before": "凡天主白白給我們的恩惠，都可以說是白白施予的恩寵。但天主白白給我們的恩惠無限，無論是靈魂之善方面的，或身體之善方面的，這些又都不使我們成為中悅天主的。所以白白施予的恩寵不能侷限於幾個固定的類別。",
+      "after": "凡天主白白給我們的恩惠，都可以說是白白施予的恩寵。但天主白白給我們的恩惠無限，無論是靈魂之善方面的，或身體之善方面的，這些又都不使我們成為中悅天主的。所以白白施予的恩寵不能侷限於幾個固定的類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3046
+      ],
+      "before": "此外，白白施予的恩寵與使中悅天主的恩寵是對分的。但信德屬於使中悅天主的恩寵;因為按《羅馬書》第五章l節所說的，它使我們成義:「我們既因信德成義」等等。所以，信德(fides)不該被列在白白施予的恩寵之內，何況那裡也沒有列出別的德性，如:望德和愛德。",
+      "after": "此外，白白施予的恩寵與使中悅天主的恩寵是對分的。但信德屬於使中悅天主的恩寵；因為按《羅馬書》第五章1節所說的，它使我們成義：「我們既因信德成義」等等。所以，信德(fides)不該被列在白白施予的恩寵之內，何況那裡也沒有列出別的德性，如：望德和愛德。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第五章l節",
+          "after": "第五章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3046
+      ],
+      "before": "此外，治病和請各種語言，乃是一些奇蹟。解釋語言該屬於智慧或知識，就如《達尼爾》第一章17節說的:「天主賜給了這些青年精通各種文字和學問(知識)的才智與聰慧。」所以，不該將治病之恩寵和講各種語言與奇蹟對分;也不該將解釋語言與智慧的言語和知識的言語對分。",
+      "after": "此外，治病和講各種語言，乃是一些奇蹟。解釋語言該屬於智慧或知識，就如《達尼爾》第一章17節說的：「天主賜給了這些青年精通各種文字和學問(知識)的才智與聰慧。」所以，不該將治病之恩寵和講各種語言與奇蹟對分；也不該將解釋語言與智慧的言語和知識的言語對分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "請各種語言",
+          "after": "講各種語言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        3046
+      ],
+      "before": "此外，智慧和知識(明達)都是聖神的恩賜;但按前面第六十八題第四節所說的，聰敏和超見、孝愛、剛毅和敬畏，也都是聖神的恩賜。所以，這些也該列入白白施予的恩寵之內。",
+      "after": "此外，智慧和知識(明達)都是聖神的恩賜；但按前面第六十八題第四節所說的，聰敏和超見、孝愛、剛毅和敬畏，也都是聖神的恩賜。所以，這些也該列入白白施予的恩寵之內。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        3046
+      ],
+      "before": "宗徒在《格林多前書》第十二章8至10節卻說: 「這人從聖神蒙受了智慧的言語，另一人卻由同一聖神蒙受了知識的言語;有人蒙受了信心(信德)，另有人蒙受了治病的奇恩;有的能行奇蹟，有的能說先知話，有的能辨別神恩，有的能說各種語言，有的能解釋語言。」",
+      "after": "宗徒在《格林多前書》第十二章8至10節卻說：「這人從聖神蒙受了智慧的言語，另一人卻由同一聖神蒙受了知識的言語；有人蒙受了信心(信德)，另有人蒙受了治病的奇恩；有的能行奇蹟，有的能說先知話，有的能辨別神恩，有的能說各種語言，有的能解釋語言。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        3046,
+        3047
+      ],
+      "before": "我解答如下:前面第一節曾說，白白施予的恩寵是為使人幫助他人歸向天主。人幫助他人時不能從其內心推動，這只是天主的事;人只能在外面教導或說服。所以，白白施予的恩寵包括人為能教導他人有關天主的超趣理性之事，所需要的一切c這共有三點:第一，他要完全通曉天主的事，才能用以去教導別人;第二，他該能證明他所說的，否則他講的道理便沒有效力;第三，他能把他自己知道的適當地表達給聽眾。\n關於第一點，有三件要事。和一般當老師的一樣，要教導他人某種學間的，先要對這學問的原理知道得確實清楚;故此列了「信德」，即對不可見之事物的確信，這在天主教的追理中有似原理3第二，教導者要知道這門學間的主要結論，因此列有「智慧之言語」，即關於天主之事理的認知。第三，要知道訐多例子和效用，有時該用以指明原因，因此列有「知識之言語」'是關於人間事物之認知，因為: 「天主之看不見的美善，可憑祂所造的萬物，辨認洞察出來。」(《羅馬書》第一章20節)\n關於理性範圍之事理的證明是靠論證o關於天主啟示之超越理性之事理的證明，是靠專屬於天主之德能的事情。這可分為兩層。第一，教導聖道者做出只有天主能做的事情，即行奇蹟:或是關於身體方面的，故有「治病的奇恩(恩寵)」;或是隻為顯示天主之德能的，如:使太陽靜止或失去光華，使海洋分間，因而列有「行奇蹟」 0第二，他能明示只有天主知道的事情:這有未來要發生的事，故列「說先知的話」;和心中隱密的事，故列「辨別神恩」 0\n關於表達能力，先有為使人瞭解要用的語言，故子IJ有「能說各種語言」;其次是要用之字旬的意義，故列「能解釋語d全-,-臺」 V",
+      "after": "我解答如下：前面第一節曾說，白白施予的恩寵是為使人幫助他人歸向天主。人幫助他人時不能從其內心推動，這只是天主的事；人只能在外面教導或說服。所以，白白施予的恩寵包括人為能教導他人有關天主的超越理性之事，所需要的一切。這共有三點：第一，他要完全通曉天主的事，才能用以去教導別人；第二，他該能證明他所說的，否則他講的道理便沒有效力；第三，他能把他自己知道的適當地表達給聽眾。\n關於第一點，有三件要事。和一般當老師的一樣，要教導他人某種學問的，先要對這學問的原理知道得確實清楚；故此列了「信德」，即對不可見之事物的確信，這在天主教的道理中有似原理。第二，教導者要知道這門學問的主要結論，因此列有「智慧之言語」，即關於天主之事理的認知。第三，要知道許多例子和效用，有時該用以指明原因，因此列有「知識之言語」，是關於人間事物之認知，因為：「天主之看不見的美善，可憑祂所造的萬物，辨認洞察出來。」(《羅馬書》第一章20節)\n關於理性範圍之事理的證明是靠論證。關於天主啟示之超越理性之事理的證明，是靠專屬於天主之德能的事情。這可分為兩層。第一，教導聖道者做出只有天主能做的事情，即行奇蹟：或是關於身體方面的，故有「治病的奇恩(恩寵)」；或是只為顯示天主之德能的，如：使太陽靜止或失去光華，使海洋分開，因而列有「行奇蹟」。第二，他能明示只有天主知道的事情：這有未來要發生的事，故列「說先知的話」；和心中隱密的事，故列「辨別神恩」。\n關於表達能力，先有為使人瞭解要用的語言，故列有「能說各種語言」；其次是要用之字句的意義，故列「能解釋語言」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "超趣",
+          "after": "超越",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一切c",
+          "after": "一切。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "學間",
+          "after": "學問",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "追理",
+          "after": "道理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "原理3第二",
+          "after": "原理。第二",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "訐多",
+          "after": "許多",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "知識之言語」'",
+          "after": "知識之言語」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "論證o",
+          "after": "論證。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "隻為",
+          "after": "只為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "海洋分間",
+          "after": "海洋分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行奇蹟」 0",
+          "after": "行奇蹟」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "辨別神恩」 0",
+          "after": "辨別神恩」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "故子IJ有",
+          "after": "故列有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "字旬",
+          "after": "字句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能解釋語d全-,-臺」 V",
+          "after": "能解釋語言」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3047
+      ],
+      "before": "目前面第一節已經說過，並非天主給我們的一切恩惠皆稱為白白施予的恩寵，只有那超出自然或天性能力的纔是，例如:漁夫有智慧之言語和知識之言語等類的事。這裡所列的就是這種白白施於的恩寵。",
+      "after": "前面第一節己經說過，並非天主給我們的一切恩惠皆稱為白白施予的恩寵，只有那超出自然或天性能力的才是，例如：漁夫有智慧之言語和知識之言語等類的事。這裡所列的就是這種白白施予的恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目前面",
+          "after": "前面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白白施於的",
+          "after": "白白施予的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3047,
+        3048
+      ],
+      "before": "這裡當作白白施予的恩寵所列的信德(信心)，不是指使人本身成義的i惡性;而是指人所具有的堅定信德(信心),使他能教導別人有關信德的事。而望德和愛德屬於嗜慾能力，是使人歸向天主的。",
+      "after": "這裡當作白白施予的恩寵所列的信德(信心)，不是指使人本身成義的德性；而是指一人所具有的堅定信德(信心)，使他能教導別人有關信德的事。而望德和愛德屬於嗜慾能力，是使人歸向天主的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "成義的i惡性",
+          "after": "成義的德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "信心),使",
+          "after": "信心)，使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "而是指人所具有的堅定信德",
+          "after": "而是指一人所具有的堅定信德",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "治病的奇恩(恩寵)與行奇蹟分子IJ'因為其使人趨向信德的作用不同:一個身受病癒之恩惠的人，比看到信德之奇蹟的更容易接受信德;講各種言語與解釋言語，對推動人接受信德的作用也不一樣，故列為不同的白白施予的恩寵。",
+      "after": "治病的奇恩(恩寵)與行奇蹟分列，因為其使人趨向信德的作用不同：一個身受病癒之恩惠的人，比看到信德之奇蹟的更容易接受信德；講各種言語與解釋言語，對推動人接受信德的作用也不一樣，故列為不同的白白施予的恩寵。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分子IJ'",
+          "after": "分列，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "‘智慧和知識本是以聖神之恩賜的名義，而列為自白施予的恩寵。按前面第六十八題第四節所說的，使人在關於智慧和知識的事上易受聖神的推動，是聖神的恩賜。它們被列為白白施予的恩寵，是因為具有豐富的智慧和知識，使人不只自己對天主的事瞭解正確，且能教導他人，說服提出異議的人。故在白白施予的恩寵中，特別稱之為「智慧的言語和知識的言語」'因為按奧斯定在《論天主聖三》卷十四第一章所說的: 「只知道人為獲得永褔該相信什麼是一回事;知道怎樣用來為好人服務，怎樣反駁壞人，則是另一回事。」",
+      "after": "智慧和知識不是以聖神之恩賜的名義，而列為白白施予的恩寵。按前面第六十八題第四節所說的，使人在關於智慧和知識的事上易受聖神的推動，是聖神的恩賜。它們被列為白白施予的恩寵，是因為具有豐富的智慧和知識，使人不只自己對天主的事瞭解正確，且能教導他人，說服提出異議的人。故在白白施予的恩寵中，特別稱之為「智慧的言語和知識的言語」，因為按奧斯定在《論天主聖三》卷十四第一章所說的：「只知道人為獲得永福該相信什麼是一回事；知道怎樣用來為好人服務，怎樣反駁壞人，則是另一回事。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "‘智慧和知識本是以",
+          "after": "智慧和知識不是以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自白",
+          "after": "白白",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "言語」'",
+          "after": "言語」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "白白施予的恩寵是否比使中悅天主的恩寵高貴",
+      "after": "白白施予的恩寵是否比使中悅天主的恩寵高貴",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q111.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "白白施予的恩寵似乎比使中悅天主的恩寵高貴。因為:",
+      "after": "白白施予的恩寵似乎比使中悅天主的恩寵高貴。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3048
+      ],
+      "before": "哲學家在《倫理學》卷一第二章說: 「民族的益處高於一人的益處。」按前面第一及第四節所說的，使中悅天主的恩寵只是為了一人的益處;而白白施予的恩寵是為整個教會的公共利益。所以，白白施予的恩寵比使中悅天主的恩寵高貴。",
+      "after": "哲學家在《倫理學》卷一第二章說：「民族的益處高於一人的益處。」按前面第一及第四節所說的，使中悅天主的恩寵只是為了一人的益處；而白白施予的恩寵是為整個教會的公共利益。所以，白白施予的恩寵比使中悅天主的恩寵高貴。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3048,
+        3049
+      ],
+      "before": "此外，兼善他人比獨善其身德性高;就如一個也能光照別的物體之物體，比只光照本身而不能光照別的物體之物體，其亮度高。故此，哲學家在《倫理學》卷五第一章說:「正義是最高貴的德性」'因為它使人與他人的關係正當。但是使中悅天主的恩寵只使人成全自己，白白施予的恩寵使人成全他人。所以，白白施予的恩寵比使中i覓天主的恩寵高貴。",
+      "after": "此外，兼善他人比獨善其身德性高；就如一個也能光照別的物體之物體，比只光照本身而不能光照別的物體之物體，其亮度高。故此，哲學家在《倫理學》卷五第一章說：「正義是最高貴的德性」，因為它使人與他人的關係正當。但是使中悅天主的恩寵只使人成全自己，白白施予的恩寵使人成全他人。所以，白白施予的恩寵比使中悅天主的恩寵高貴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德性」'",
+          "after": "德性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使中i覓",
+          "after": "使中悅",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3049
+      ],
+      "before": "此外，較好之東西所專有的，比一般東西所通有的高320貴，例如:理解是人所專有的，比動物所共有的感覺高貴。但是使中悅天主的恩寵乃是教會之成員所通有的，臼白施予的恩單寵則是教會較高之成員專有的恩惠。所以，白白施予的恩寵比大使中悅天主的恩寵高貴。全第函反之京徒在《格林多前書》第十二章8至10節列舉了白白施予的恩寵以後，遂說: 「我現在把一條更高起的道路指給你們」要(31節);而從下文可以看出，他所說的是愛德，是屬於使中悅盡天主之恩寵的。所以，使中!兌天主的恩寵比白白施予的恩籠高恩血寵貝",
+      "after": "此外，較好之東西所專有的，比一般東西所通有的高貴，例如：理解是人所專有的，比動物所共有的感覺高貴。但是使中悅天主的恩寵乃是教會之成員所通有的，白白施予的恩寵則是教會較高之成員專有的恩惠。所以，白白施予的恩寵比使中悅天主的恩寵高貴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "此外，較好之東西所專有的，比一般東西所通有的高320貴，例如:理解是人所專有的，比動物所共有的感覺高貴。但是使中悅天主的恩寵乃是教會之成員所通有的，臼白施予的恩單寵則是教會較高之成員專有的恩惠。所以，白白施予的恩寵比大使中悅天主的恩寵高貴。全第函反之京徒在《格林多前書》第十二章8至10節列舉了白白施予的恩寵以後，遂說: 「我現在把一條更高起的道路指給你們」要(31節);而從下文可以看出，他所說的是愛德，是屬於使中悅盡天主之恩寵的。所以，使中!兌天主的恩寵比白白施予的恩籠高恩血寵貝",
+          "after": "此外，較好之東西所專有的，比一般東西所通有的高貴，例如：理解是人所專有的，比動物所共有的感覺高貴。但是使中悅天主的恩寵乃是教會之成員所通有的，白白施予的恩寵則是教會較高之成員專有的恩惠。所以，白白施予的恩寵比使中悅天主的恩寵高貴。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        3049
+      ],
+      "before": "",
+      "after": "宗徒在《格林多前書》第十二章8至10節列舉了白白施予的恩寵以後，遂說：「我現在把一條更高超的道路指給你們」(31節)；而從下文可以看出，他所說的是愛德，是屬於使中悅天主之恩寵的。所以，使中悅天主的恩寵比白白施予的恩寵高貴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "宗徒在《格林多前書》第十二章8至10節列舉了白白施予的恩寵以後，遂說：「我現在把一條更高超的道路指給你們」(31節)；而從下文可以看出，他所說的是愛德，是屬於使中悅天主之恩寵的。所以，使中悅天主的恩寵比白白施予的恩寵高貴。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        3049
+      ],
+      "before": "我解答如下:一個德性所指向的益處或善越高貴，其本身就越高貴。目的常比導致目的者高貴。使中悅天主的恩寵使人直接與最後目的相結合，白白施予的恩寵則是為人做些趨向最後目的的準備;例如，因了先知的話或奇蹟等，人被引導著朝向與最後目的相結合邁進。所以，使中悅天主的恩寵比白白施予的恩寵高貴。",
+      "after": "我解答如下：一個德性所指向的益處或善越高貴，其本身就越高貴。目的常比導致目的者高貴。使中悅天主的恩寵使人直接與最後目的相結合，白白施予的恩寵則是為人做些趨向最後目的的準備；例如，因了先知的話或奇蹟等，人被引導著朝向與最後目的相結合邁進。所以，使中悅天主的恩寵比白白施予的恩寵高貴。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3049
+      ],
+      "before": "按哲學家在《形上學》卷十二第十章所說的，羣眾之利益有兩種。一種是羣眾本身之益處，例如:軍隊之秩序;一種是與羣眾分闊的利益，例如:主帥之益處。這後一益處較高，因為前一益處是以這後一益處為目的。白白施予的恩寵所指向的教會之公共利益是教會之秩序;而使中悅天主的恩寵所指向的是分開的公共利益，即天主。所以，使中悅天主的恩寵比較高貴。",
+      "after": "按哲學家在《形上學》卷十二第十章所說的，羣眾之利益有兩種。一種是羣眾本身之益處，例如：軍隊之秩序；一種是與羣眾分開的利益，例如：主帥之益處。這後一益處較高，因為前一益處是以這後一益處為目的。白白施予的恩寵所指向的教會之公共利益是教會之秩序；而使中悅天主的恩寵所指向的是分開的公共利益，即天主。所以，使中悅天主的恩寵比較高貴。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分闊",
+          "after": "分開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3049,
+        3050
+      ],
+      "before": "假如白白施予的恩寵能使他人得到自己藉著使中悅天主的恩寵所得到的，員IJ白白施予的恩寵較為高貴;如太陽的光度比被其光照之物體的光度高。但是藉白白施予的恩寵，人不能將自己因使中悅天主的恩寵而與天主的結合傳給他人，只能在他人身上產生某些準備，所以不能證明白白施予的恩寵比較高貴:如火表現於外，並使他物熱化之熱，也不比火之本體形式的熱度高。",
+      "after": "假如白白施予的恩寵能使他人得到自己藉著使中悅天主的恩寵所得到的，則白白施予的恩寵較為高貴；如太陽的光度比被其光照之物體的光度高。但是藉白白施予的恩寵，人不能將自己因使中悅天主的恩寵而與天主的結合傳給他人，只能在他人身上產生某些準備，所以不能證明白白施予的恩寵比較高貴：如火表現於外，並使他物熱化之熱，也不比火之本體形式的熱度高。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q111.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3050
+      ],
+      "before": "感覺是以理解為目的，故理解比較高貴;這裡正相反，因為專有者是以共有者為目的。故此不能相比。",
+      "after": "感覺是以理解為目的，故理解比較高貴；這裡正相反，因為專有者是以共有者為目的。故此不能相比。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
