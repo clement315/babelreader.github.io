@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q051",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q051",
+    "title": "論產生習性之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2290,
+      2291,
+      2292,
+      2293,
+      2294,
+      2295,
+      2296,
+      2297
+    ],
+    "printed_pages": [
+      24,
+      31
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 46,
+    "changed_review_units": 30,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q51.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q51.json": "dc297ee867b141aea0a35c954f0f03366862797253939b75fdb842fbb3b0b8a8",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q051.a001.respondeo",
+      "pdf_file_page": 2292,
+      "text": "《分析後論》結尾處卷二第十五章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「卷二第十五章」，不据其他版本更改章数。"
+    },
+    {
+      "id": "I_II.q051.a001.ad3",
+      "pdf_file_page": 2293,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q051.a002.respondeo",
+      "pdf_file_page": 2294,
+      "text": "關於推動被動者之行動根本的",
+      "status": "suspected_source_print_error",
+      "action": "原页确作此句，可能拗口，依底本保留，不重写论证。"
+    },
+    {
+      "id": "I_II.q051.a003.respondeo",
+      "pdf_file_page": 2295,
+      "text": "第二節己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q051.a004.arg2",
+      "pdf_file_page": 2296,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q051.a004.respondeo",
+      "pdf_file_page": 2297,
+      "text": "第五題第五節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q051.a004.ad3",
+      "pdf_file_page": 2297,
+      "text": "先己存在之習性",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q051.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "然後要討論的是習性之原因(參看第四+九題引言)。首先，針對習性之產生的原因;其次，針對其增長的原因(第五十二題);第三，針對其減退及消失的原因(第五十三題)。\n關於第一點，可以提出四個問題:\n一、是否有習性是來自天性。\n二、是否有習性是生於行動。\n三、由一個行動是否能產生習性。\n四、是否有習性是白天主灌輸給人的。",
+      "after": "然後要討論的是習性之原因(參看第四十九題引言)。首先，針對習性之產生的原因；其次，針對其增長的原因(第五十二題)；第三，針對其減退及消失的原因(第五十三題)。\n關於第一點，可以提出四個問題：\n一、是否有習性是來自天性。\n二、是否有習性是生於行動。\n三、由一個行動是否能產生習性。\n四、是否有習性是由天主灌輸給人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第四+九題",
+          "after": "第四十九題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白天主",
+          "after": "由天主",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "是否有習性是來白天性",
+      "after": "是否有習性是來自天性",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "似乎沒有習性是來白天性。因為:",
+      "after": "似乎沒有習性是來自天性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "來自天性者，不為意志所運用。但按註釋家在《靈魂論註疏》卷三注十八說的: 「習性是人在願意時所運用的」。所以，習性不是來白天性。",
+      "after": "來自天性者，不為意志所運用。但按註釋家在《靈魂論注疏》卷三注十八說的：「習性是人在願意時所運用的」。所以，習性不是來自天性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "註疏",
+          "after": "注疏",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "此外，天性用一個東西能做到的，不用兩個東西。但是靈魂的機能是由天性來的。倘若機能之習性也是由天性來的，買IJ機能與習性將是同一個東西。",
+      "after": "此外，天性用一個東西能做到的，不用兩個東西。但是靈魂的機能是由天性來的。倘若機能之習性也是由天性來的，則機能與習性將是同一個東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2290
+      ],
+      "before": "此外，天性在必要的事上不會虧乏。(旦按前面第四十九題第四節說的，為善於行動習性是必要的。若有習性是來白天性，貝IJ天性不會不產生一切必要的習性。但這顯然不合事實。所以，習性不是來自天性。",
+      "after": "此外，天性在必要的事上不會虧乏。但按前面第四十九題第四節說的，為善於行動習性是必要的。若有習性是來自天性，則天性不會不產生一切必要的習性。但這顯然不合事實。所以，習性不是來自天性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(旦",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2291
+      ],
+      "before": "《倫理學》卷六第六章將對原理之理解也列為習性之一，但這是來白天性的。所以說，第一原那是人天生就知道的。",
+      "after": "《倫理學》卷六第六章將對原理之理解也列為習性之一，但這是來自天性的。所以說，第一原理是人天生就知道的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一原那",
+          "after": "第一原理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2291,
+        2292
+      ],
+      "before": "我解答如下:說一個東西對某東西是自然的，有兩種意義。第一種是按類別之天性，例如說:人會笑是天性，火上升是天性。另一種是按個體之天性，例如說:按體質，蘇格拉底或柏拉圖天生多病或健壯。此外，按上述兩種意義之天性，說一東西是自然的，又各分為兩種:一種是全部由天性來的;另一種是一部分來白天性，一部分來自外在之根本。例如，一人害病自己痊癒時，則全是由天性來的;若利用醫藥而痊癒時，貝IJ一部分來白天性，一部分來自外在根本。\n所以，如果說習性是指主體針對形式或天性之配備，貝IJ習性按上述各種意義都是自然的。的確，有些自然配備是專屬於人類的;沒有這些自然配備，就沒有人。這是按類別之天性的自然。但因了這種配備有多有寡，因而按個體之天性就分成了不同的等級。這種配備可能是全部來白天性，或一部分來自天性，一部分來自外在根本，如上面說的人為治療。\n但是針對行動的習性，按前面第五十題第二節說的，其主體是靈魂之機能;這些習性，無論按類別之天性或按個體之天性，皆能是自然的。按類別之天性，是靈魂那方面的;靈魂既然是身體之形式，所以是類別之根本。按個體之天性，是身體方面的，身體是質料上的根本。但這些習性，無論按哪一種天性，皆不能全部是自然的。天使們的這些習性雖然能是全部自然的，這乃是因為他們天生就有可理解之理象:而按在第一集第五十五題第二節、第八十四題第三節所說的，λ的靈魂不是如此。\n所以，人的習性有些是自然的，即一部分來白天性，一部分來自外在根本。但是在認知機能方面，與嗜慾機能方面不同。在認知機能方面，習性之起源，無論按類別天性或按個體天性，都能是自然的。先說按類別之天性，即靈魂方面的:原理之理解即稱為自然習性。由於具有智性之靈魂的天性，人一知道了何謂整體，何謂部分，立刻便知道整體大於部分;在別的問題上也是一樣。但是何謂整體及何謂部分，人只有靠由心像來的理象方能知道。故此，哲學家在《分析後論》結尾處卷二第十五章指出，我們對原理之認知是始自感宮。至於按個體之天性，有些認知性的習性的起源是自然的;因為一個人由於器官的結構，可能比別人理解力強，因為智性行動也需要感官能力。\n在嗜慾機能方面，靈魂方面的習性，就習性本身而言，其起源不是自然的，只有一些原理是自然的，例如:普遍道德原理即被稱為「德性的根子」(seminalia virtutum)0這是因為朝本然對象之傾向，看來似是習性之端倪，但這不屬於習性，而實屬於機能之理。在身體方面，按個體之天性，有些嗜慾性的習性之起源是自然的，因為有些人的體質生來就傾向貞操，或溫和等。",
+      "after": "我解答如下：說一個東西對某東西是自然的，有兩種意義。第一種是按類別之天性，例如說：人會笑是天性，火上升是天性。另一種是按個體之天性，例如說：按體質，蘇格拉底或柏拉圖天生多病或健壯。此外，按上述兩種意義之天性，說一東西是自然的，又各分為兩種：一種是全部由天性來的；另一種是一部分來自天性，一部分來自外在之根本。例如，一人害病自己痊癒時，則全是由天性來的；若利用醫藥而痊癒時，則一部分來自天性，一部分來自外在根本。\n所以，如果說習性是指主體針對形式或天性之配備，則習性按上述各種意義都是自然的。的確，有些自然配備是專屬於人類的；沒有這些自然配備，就沒有人。這是按類別之天性的自然。但因了這種配備有多有寡，因而按個體之天性就分成了不同的等級。這種配備可能是全部來自天性，或一部分來自天性，一部分來自外在根本，如上面說的人為治療。\n但是針對行動的習性，按前面第五十題第二節說的，其主體是靈魂之機能；這些習性，無論按類別之天性或按個體之天性，皆能是自然的。按類別之天性，是靈魂那方面的；靈魂既然是身體之形式，所以是類別之根本。按個體之天性，是身體方面的，身體是質料上的根本。但這些習性，無論按哪一種天性，皆不能全部是自然的。天使們的這些習性雖然能是全部自然的，這乃是因為他們天生就有可理解之理象；而按在第一集第五十五題第二節、第八十四題第三節所說的，人的靈魂不是如此。\n所以，人的習性有些是自然的，即一部分來自天性，一部分來自外在根本。但是在認知機能方面，與嗜慾機能方面不同。在認知機能方面，習性之起源，無論按類別天性或按個體天性，都能是自然的。先說按類別之天性，即靈魂方面的：原理之理解即稱為自然習性。由於具有智性之靈魂的天性，人一知道了何謂整體，何謂部分，立刻便知道整體大於部分；在別的問題上也是一樣。但是何謂整體及何謂部分，人只有靠由心像來的理象方能知道。故此，哲學家在《分析後論》結尾處卷二第十五章指出，我們對原理之認知是始自感官。至於按個體之天性，有些認知性的習性的起源是自然的；因為一個人由於器官的結構，可能比別人理解力強，因為智性行動也需要感官能力。\n在嗜慾機能方面，靈魂方面的習性，就習性本身而言，其起源不是自然的，只有一些原理是自然的，例如：普遍道德原理即被稱為「德性的根子」(seminalia virtutum)。這是因為朝本然對象之傾向，看來似是習性之端倪，但這不屬於習性，而實屬於機能之理。在身體方面，按個體之天性，有些嗜慾性的習性之起源是自然的，因為有些人的體質生來就傾向貞操，或溫和等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "白天性",
+          "after": "自天性",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理象:而",
+          "after": "理象；而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "λ的靈魂",
+          "after": "人的靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "virtutum)0",
+          "after": "virtutum)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2292
+      ],
+      "before": "所舉之理由，是因了把天性與意志及理性分開來看;但是理性與意志也屬於人的天性。",
+      "after": "所舉之理由，是因了把天性與意志及理性分開來看；但是理性與意志也屬於人的天性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2292
+      ],
+      "before": "有些東西可能天生來就是加在機能上的，但是卻不能是屬於機能。例如在天使身上，他們之能自然認識一切，不能是屬於他們的智性機能，因為那須是一切之現實，而這只屬於天主。一個東西之被認識，被認識的該是這東西的現實形像。故此，若天使的機能靠本身認識一切的話，貝IJ那將是一切東西之形像及現實。所以要在天使的智性機能上，另加上一些可理解的理象，即被理解之東西的形像;因為他們之能實際理解他們所理解的，不是靠他們的本質，而是由於分得天主的智慧。由此可見，並非凡屬於自然習性者，皆屬於機能。",
+      "after": "有些東西可能天生來就是加在機能上的，但是卻不能是屬於機能。例如在天使身上，他們之能自然認識一切，不能是屬於他們的智性機能，因為那須是一切之現實，而這只屬於天主。一個東西之被認識，被認識的該是這東西的現實形像。故此，若天使的機能靠本身認識一切的話，則那將是一切東西之形像及現實。所以要在天使的智性機能上，另加上一些可理解的理象，即被理解之東西的形像；因為他們之能實際理解他們所理解的，不是靠他們的本質，而是由於分得天主的智慧。由此可見，並非凡屬於自然習性者，皆屬於機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "天性對產生各種習性的關係不同，因為有的習性能是出於天性，有的則不能，如前面正解己說過的。故此，並非因為有的習性是出於天性，便所有習性都是出於天性。",
+      "after": "天性對產生各種習性的關係不同，因為有的習性能是出於天性，有的則不能，如前面正解己說過的。故此，並非因為有的習性是出於天性，便所有習性都是出於天性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "是否有習性是生於行動",
+      "after": "是否有習性是生於行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "似乎習性不能由行動產生。因為:",
+      "after": "似乎習性不能由行動產生。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "按前面第四十九題第一節說的，習性是一種品質。每種品質皆是生在某一主體上，因為主體能容受東西。動作者在動作時是付出而不是容受一一似乎在動作者上不能因其動作而產生習性。",
+      "after": "按前面第四十九題第一節說的，習性是一種品質。每種品質皆是生在某一主體上，因為主體能容受東西。動作者在動作時是付出而不是容受——似乎在動作者上不能因其動作而產生習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "此外，在一個主體上產生品質時，主體是被動向那品質，這從變熱或變冷的東西上便可以看出來一一那產生促成品質之行動者則推動，看那有熱化或冷化作用者便可以知道。如果在某東西上，因其自己之行動而產生習性，則同一物將又是推動者，又是被推動者;又是主動者，又是被動者。按《物理學》卷七第一章所說的，還是不可能的。",
+      "after": "此外，在一個主體上產生品質時，主體是被動向那品質，這從變熱或變冷的東西上便可以看出來——那產生促成品質之行動者則推動，看那有熱化或冷化作用者便可以知道。如果在某東西上，因其自己之行動而產生習性，則同一物將又是推動者，又是被推動者；又是主動者，又是被動者。按《物理學》卷七第一章所說的，這是不可能的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還是不可能",
+          "after": "這是不可能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "此外，效果不能比原因高貴。但是習性比習性以前之行動高貴，因為習性提高行動之價值。所以，習性不能是生於習性以前之行動。",
+      "after": "此外，效果不能比原因高貴。但是習性比習性以前之行動高貴，因為習性提高行動之價值。所以，習性不能是生於習性以前之行動。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2293
+      ],
+      "before": "哲學家在《倫理學》卷二第一章卻說，德性與惡習之習性是由行動產生的。",
+      "after": "哲學家在《倫理學》卷二第一章卻說，德性與惡習之習性是由行動產生的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2293,
+        2294
+      ],
+      "before": "我解答如下:動作者有時只是其行動的主動根本，例如:火只是熱化之主動根本。在這樣的動作者上不能由自己之行動而產生習性;故此在《倫理學》卷二第一章說，自然物不能有習慣或失去習慣。但有的動作者，兼有其行動之主動根本及被動根本，人的行動便是如此。因為嗜慾能力是在認知能力的推動下而動，是由認知能力顯示其對象;而智性能力，在思考結論時，本來就知道的命題便是其主動根本。所以，由這類行動中可以產生習性，不是關於第一個主動之根本的，而是關於推動被動者之行動根本的。因為凡被動及被推動者，皆受主動者之行動的支配;因此在多次行動之後，在被動及被推動的機能上便產生一種品質，即所謂的習性。例如，在嗜慾機能上的涵養性的習性，是因受理性之推動而產生;智性上的知識習性，則是因受第一原理之推動而產生。",
+      "after": "我解答如下：動作者有時只是其行動的主動根本，例如：火只是熱化之主動根本。在這樣的動作者上不能由自己之行動而產生習性；故此在《倫理學》卷二第一章說，自然物不能有習慣或失去習慣。但有的動作者，兼有其行動之主動根本及被動根本，人的行動便是如此。因為嗜慾能力是在認知能力的推動下而動，是由認知能力顯示其對象；而智性能力，在思考結論時，本來就知道的命題便是其主動根本。所以，由這類行動中可以產生習性，不是關於第一個主動之根本的，而是關於推動被動者之行動根本的。因為凡被動及被推動者，皆受主動者之行動的支配；因此在多次行動之後，在被動及被推動的機能上便產生一種品質，即所謂的習性。例如，在嗜慾機能上的涵養性的習性，是因受理性之推動而產生；智性上的知識習性，則是因受第一原理之推動而產生。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "動作者以其為主動者而言，不容受什麼。以其為被動者而言，則從推動方面有所容受，這樣便產生習性。",
+      "after": "動作者以其為主動者而言，不容受什麼。以其為被動者而言，則從推動方面有所容受，這樣便產生習性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "同一個東西在同一個觀點下，不能又是推動者，又是被推動者。但按《物理學》卷八第五章所指出的，同一個東西按不同的觀點可以推動自己。",
+      "after": "同一個東西在同一個觀點下，不能又是推動者，又是被推動者。但按《物理學》卷八第五章所指出的，同一個東西按不同的觀點可以推動自己。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "自主動之根本而來之先於習性的行動，其根本比其所產生之習性高貴。就如理性乃是比在嗜慾能力上，由慣常行動而產生之涵養性習性更高貴的根本;對原理之理解，也是比關於結論之知識更高貴的根本c",
+      "after": "自主動之根本而來之先於習性的行動，其根本比其所產生之習性高貴。就如理性乃是比在嗜慾能力上，由慣常行動而產生之涵養性習性更高貴的根本；對原理之理解，也是比關於結論之知識更高貴的根本。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "根本c",
+          "after": "根本。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "由一個行動是否能產生習性",
+      "after": "由一個行動是否能產生習性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "似乎由一個行動可以產生習性。因為:",
+      "after": "似乎由一個行動可以產生習性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "推論乃是理性之行動。但是由一個推論可以產生知識，這知識即為一個結論之習性e所以，一個行動可以產生習性。",
+      "after": "推論乃是理性之行動。但是由一個推論可以產生知識，這知識即為一個結論之習性。所以，一個行動可以產生習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "習性e",
+          "after": "習性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2294
+      ],
+      "before": "此外，行動因加多而增長，同樣因加強也能增長。但是，加多行動可以產生習性。所以，將一個行動加強也能產生習性。",
+      "after": "此外，行動因加多而增長，同樣因加強也能增長。但是，加多行動可以產生習性。所以，將一個行動加強也能產生習性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2295
+      ],
+      "before": "此外，健康與疾病是一種習性。但是人因了一個行動可以生病或復康。所以，一個行動可以產生習性。",
+      "after": "此外，健康與疾病是一種習性。但是人因了一個行動可以生病或復康。所以，一個行動可以產生習性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2295
+      ],
+      "before": "哲學家在《倫理學》卷一第七章卻說:「一隻燕子或一天不能造成春天;同樣，一天或很少的時間也不能使人變成幸褔的。」但是按《倫理學》卷一第七章說的:「幸褔是按完美德性之習性的活動」 0所以，德性之習性以及其他習性不是生於一個行動。",
+      "after": "哲學家在《倫理學》卷一第七章卻說：「一隻燕子或一天不能造成春天；同樣，一天或很少的時間也不能使人變成幸福的。」但是按《倫理學》卷一第七章說的：「幸福是按完美德性之習性的活動」。所以，德性之習性以及其他習性不是生於一個行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "活動」 0",
+          "after": "活動」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2295,
+        2296
+      ],
+      "before": "我解答如下:前面第二節已經說過，習性之生於行動，是因了一被動機能受一主動根本之推動。為使一種品質能在一個被動的主體上產生，主動者該完全征服被動者。因此我們看到，因了火不能立刻征服燃料，不使燃料立刻起火，而是慢慢地消除相反的素質，等完全征服後，纔在燃料上印仁自己的形狀。\n人身上的主動根本理性，顯然不能以一個行動完全征服嗜慾機能;因為嗜慾機能是以許多方式指向許多東西的。理性的一個行動，只斷定某東西在某固定條件及觀點下值得追求;因此不能使嗜慾機能完全服從，以致在一般的情狀皆自然傾向這個東西，而這屬於德性之習性。所以，德性之習性不能由一個行動產生，而要有許多行動。\n在認知機能上有兩層被動者:一個是可能理智或智性(intellectus possibilis);另一個，亞里斯多德在《靈魂論》卷三第五章稱之為被動理智或智性(intellectus passivus)，即是所謂的特殊理性(ratio particularis)，是指考慮能力(vis cogitativa)，連同記憶力及想像力。針對第一層被動者，能夠有主動者以一個行動完全征服被動者之機能。例如，一個自然明顯的命題能使智性絕對接受其結論，但是慨然性的命題就不能夠。故由許多理性立行動，才能在可能智性方面產生意見性的習性;但是知識之習性在可能智性上，由一個行動便可以產生。但是在低級認知能力方面，必須將一個行動重複許多次，才能使一件事深刻印在記憶上。故此哲學家在《論記憶與回憶》第一章裡說，「默思加強記憶」。\n身體上的習性，可能由一個行動產生，如果主動者的力量強大，例如:有時強烈的藥立刻可使人復康。由前面所說的，可知各質疑之答案。",
+      "after": "我解答如下：前面第二節己經說過，習性之生於行動，是因了一被動機能受一主動根本之推動。為使一種品質能在一個被動的主體上產生，主動者該完全征服被動者。因此我們看到，因了火不能立刻征服燃料，不使燃料立刻起火，而是慢慢地消除相反的素質，等完全征服後，才在燃料上印上自己的形狀。\n人身上的主動根本理性，顯然不能以一個行動完全征服嗜慾機能；因為嗜慾機能是以許多方式指向許多東西的。理性的一個行動，只斷定某東西在某固定條件及觀點下值得追求；因此不能使嗜慾機能完全服從，以致在一般的情狀皆自然傾向這個東西，而這屬於德性之習性。所以，德性之習性不能由一個行動產生，而要有許多行動。\n在認知機能上有兩層被動者：一個是可能理智或智性(intellectus possibilis)；另一個，亞里斯多德在《靈魂論》卷三第五章稱之為被動理智或智性(intellectus passivus)，即是所謂的特殊理性(ratio particularis)，是指考慮能力(vis cogitativa)，連同記憶力及想像力。針對第一層被動者，能夠有主動者以一個行動完全征服被動者之機能。例如，一個自然明顯的命題能使智性絕對接受其結論，但是概然性的命題就不能夠。故由許多理性之行動，才能在可能智性方面產生意見性的習性；但是知識之習性在可能智性上，由一個行動便可以產生。但是在低級認知能力方面，必須將一個行動重複許多次，才能使一件事深刻印在記憶上。故此哲學家在《論記憶與回憶》第一章裡說，「默思加強記憶」。\n身體上的習性，可能由一個行動產生，如果主動者的力量強大，例如：有時強烈的藥立刻可使人復康。由前面所說的，可知各質疑之答案。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔在",
+          "after": "才在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "印仁",
+          "after": "印上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "慨然性",
+          "after": "概然性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理性立行動",
+          "after": "理性之行動",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a003.general",
+      "article": 3,
+      "block": "合并释疑",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "是否有習性是天主灌輸給人的",
+      "after": "是否有習性是天主灌輸給人的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "似乎沒有習性是由天主灌輸給人的。因為:",
+      "after": "似乎沒有習性是由天主灌輸給人的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "天主對一切皆一視同仁。如果祂給某些灌輸習性，便會給一切都灌輸。這顯然不合真理。",
+      "after": "天主對一切皆一視同仁。如果祂給某些灌輸習性，便會給一切都灌輸。這顯然不合真理。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "此外，天主在一切東西上，皆按宜於其天性之方式行事。因為如狄奧尼修在《神名論》第四章說的，「天主的照顧是成全天性」。但是人的習性本然是由行動產生，如第二節己說過的。所以，沒有行動，天主不給人習性。",
+      "after": "此外，天主在一切東西上，皆按宜於其天性之方式行事。因為如狄奧尼修在《神名論》第四章說的，「天主的照顧是成全天性」。但是人的習性本然是由行動產生，如第二節己說過的。所以，沒有行動，天主不給人習性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q051.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "此外，若有天主灌輸的習性，員IJ人用這習性可以有許多行動。但是按《倫理學》卷二第一章說的:「由同樣的行動，產生同樣的習性。」這樣則在同一主體內有兩個問類的習性，一個是習練來的，一個是灌輸的。這好像不可能;因為兩個同類的形式，不能是在同一個主體上。所以，天主不給人灌輸習性。",
+      "after": "此外，若有天主灌輸的習性，則人用這習性可以有許多行動。但是按《倫理學》卷二第一章說的：「由同樣的行動，產生同樣的習性。」這樣則在同一主體內有兩個同類的習性，一個是習練來的，一個是灌輸的。這好像不可能；因為兩個同類的形式，不能是在同一個主體上。所以，天主不給人灌輸習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "問類",
+          "after": "同類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2296
+      ],
+      "before": "《德首iI篇》第十五章5節卻說:「天主使他充滿智慧聰敏之神。」但是智慧與聰敏是習性。所以，有些習性是天主灌輸給人的。",
+      "after": "《德訓篇》第十五章5節卻說：「天主使他充滿智慧聰敏之神。」但是智慧與聰敏是習性。所以，有些習性是天主灌輸給人的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德首iI篇",
+          "after": "德訓篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2297
+      ],
+      "before": "我解答如下:天主給人灌輸習性，是基於兩個理由。第一，有些習性是為使人達到超出其天性能力的目的，即是人的最後之圓滿幸福，如第五題第五節己說過的。由於習性須與人之配備所針對者相配合，故指向這種目的之習性必是超過人之天性的能力。所以，這些習性只能是由天主灌輸給人的，例如:一切無功而賞賜的德性。\n另一個理由，按第一集第一0五題第六節裡說過的，天主能夠不用第二原因而產生第二原因之效果。就如有時為了表顯其能力，天主不用自然原因使病痊瘤，雖然單憑自然原因也能夠產生同樣的效果;同樣，有時為了表顯祂的能力，灌輸給人用自然能力本來能夠產生的習性。例如:祂曾灌輸給宗徒們聖經及語言方面的知識，這些本來是用學習及習慣可以得到的，雖然不那樣完美。",
+      "after": "我解答如下：天主給人灌輸習性，是基於兩個理由。第一，有些習性是為使人達到超出其天性能力的目的，即是人的最後之圓滿幸福，如第五題第五節己說過的。由於習性須與人之配備所針對者相配合，故指向這種目的之習性必是超過人之天性的能力。所以，這些習性只能是由天主灌輸給人的，例如：一切無功而賞賜的德性。\n另一個理由，按第一集第一〇五題第六節裡說過的，天主能夠不用第二原因而產生第二原因之效果。就如有時為了表顯其能力，天主不用自然原因使病痊癒，雖然單憑自然原因也能夠產生同樣的效果；同樣，有時為了表顯祂的能力，灌輸給人用自然能力本來能夠產生的習性。例如：祂曾灌輸給宗徒們聖經及語言方面的知識，這些本來是用學習及習慣可以得到的，雖然不那樣完美。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0五",
+          "after": "第一〇五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "痊瘤",
+          "after": "痊癒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2297
+      ],
+      "before": "天主按祂的本性是一視同仁的;但按祂上智的措施，為了某些理由，有時祂賞給某些人的，卻不賞給另一些人。",
+      "after": "天主按祂的本性是一視同仁的；但按祂上智的措施，為了某些理由，有時祂賞給某些人的，卻不賞給另一些人。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2297
+      ],
+      "before": "說天主對一切東西皆按其各自之方式而行事，並無妨於祂做一些東西之天性所不能的事情;只是說天主不做與東西之天性不適宜的事情。",
+      "after": "說天主對一切東西皆按其各自之方式而行事，並無妨於祂做一些東西之天性所不能的事情；只是說天主不做與東西之天性不適宜的事情。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q051.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2297
+      ],
+      "before": "由灌輸之習性而來之行動，不產生任何(新的)習性，只不過加強先已存在之習性;就如藥品用於本來健康的人，不產生另一種健康，只加強以前有的健康。",
+      "after": "由灌輸之習性而來之行動，不產生任何(新的)習性，只不過加強先己存在之習性；就如藥品用於本來健康的人，不產生另一種健康，只加強以前有的健康。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "先已",
+          "after": "先己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
