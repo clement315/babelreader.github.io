@@ -1,0 +1,1805 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q056",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q056",
+    "title": "論德性之主體",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "pdf_file_pages": [
+      2330,
+      2331,
+      2332,
+      2333,
+      2334,
+      2335,
+      2336,
+      2337,
+      2338,
+      2339,
+      2340,
+      2341
+    ],
+    "printed_pages": [
+      64,
+      75
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 74,
+    "changed_review_units": 50,
+    "checked_unchanged_review_units": 25
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q56.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q56.json": "2fdf2f8255ec85ac0662189f9fed170ba6bd74e02c27be89672f1c9378c9ecaa"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q056.prologue",
+      "pdf_file_page": 2330,
+      "text": "參看第五十三題引言",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作第五十三题，疑应第五十五题；依底本保留，不改引文。"
+    },
+    {
+      "id": "I_II.q056.a003.respondeo",
+      "pdf_file_page": 2334,
+      "text": "第五十五題第三節己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q056.a003.respondeo",
+      "pdf_file_page": 2334,
+      "text": "《倫理學》卷六第二章",
+      "status": "suspected_source_print_error",
+      "action": "原页两次引文确作卷六第二章，均保留。"
+    },
+    {
+      "id": "I_II.q056.a004.arg4",
+      "pdf_file_page": 2336,
+      "text": "《倫理學》卷八第十三章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作卷八第十三章，不按外部版本更正。"
+    },
+    {
+      "id": "I_II.q056.a005.respondeo",
+      "pdf_file_page": 2339,
+      "text": "第五十題第四節釋疑3.己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q056.a005.ad1",
+      "pdf_file_page": 2339,
+      "text": "因此嗜慾能力之活動是在感官嗜慾上完成",
+      "status": "suspected_source_print_error",
+      "action": "原页论证确作此句，依底本保留，不按推测重写。"
+    },
+    {
+      "id": "I_II.q056.a006.respondeo",
+      "pdf_file_page": 2340,
+      "text": "意志之對象是適合意志的理念之善",
+      "status": "suspected_source_print_error",
+      "action": "原页措辞确为此句，不按通行术语或语意润色。"
+    },
+    {
+      "id": "I_II.q056.a006.ad1",
+      "pdf_file_page": 2341,
+      "text": "第二十五題第六節釋疑3.",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页此引文确作第二十五题第六节，疑点保留。"
+    },
+    {
+      "id": "I_II.q056.a006.ad3",
+      "pdf_file_page": 2341,
+      "text": "天性己經足夠",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q056.a006.ad3",
+      "pdf_file_page": 2341,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部12页、6节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q056.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "然後要討論的是德性之主體(參看第五十三題引言)。\n關於這點，可以提出六個問題:\n一、靈魂之機能是否為德性之主體。\n二、一個德性是否能在許多機能上。\n三、智性是否能為德性之主體。\n四、憤情及慾情是否能為德性之主體。\n五、感官知覺能力是否能為德性之主體。\n六、意志是否能為德性之主體。",
+      "after": "然後要討論的是德性之主體(參看第五十三題引言)。\n關於這點，可以提出六個問題：\n一、靈魂之機能是否為德性之主體。\n二、一個德性是否能在許多機能上。\n三、智性是否能為德性之主體。\n四、憤情及慾情是否能為德性之主體。\n五、感官知覺能力是否能為德性之主體。\n六、意志是否能為德性之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "靈魂之機能是否為德性之主體",
+      "after": "靈魂之機能是否為德性之主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "靈魂之機能似乎不是德性之主體。因為:",
+      "after": "靈魂之機能似乎不是德性之主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "奧斯定在《論自由意志》卷二第十九章說:「德性是使人生活正直者ω」但生活不是靠靈魂之機能，而是靠其本質。所以，德性不是在靈魂之機能上，而是在其本質上。",
+      "after": "奧斯定在《論自由意志》卷二第十九章說：「德性是使人生活正直者。」但生活不是靠靈魂之機能，而是靠其本質。所以，德性不是在靈魂之機能上，而是在其本質上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正直者ω",
+          "after": "正直者。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第六章說:「德性使真有之者成為善的，並使其行為成為善的。」但是，正如行為是由靈魂之機能構成的，具有德性則是由靈魂之本質構成的;所以，與其說德性屬於靈魂之機能，不如說是屬於其本質。",
+      "after": "此外，哲學家在《倫理學》卷二第六章說：「德性使具有之者成為善的，並使其行為成為善的。」但是，正如行為是由靈魂之機能構成的，具有德性則是由靈魂之本質構成的；所以，與其說德性屬於靈魂之機能，不如說是屬於其本質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "使真有之者",
+          "after": "使具有之者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2330
+      ],
+      "before": "此外，機能是屬於第二類品質。按前面第五十五題第四節說的，德性是一種品質。品質不是品質之主體。所以，德性的主體不是靈魂之機能。",
+      "after": "此外，機能是屬於第二類品質。按前面第五十五題第四節說的，德性是一種品質。品質不是品質之主體。所以，德性的主體不是靈魂之機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2331
+      ],
+      "before": "按《天界論》卷一第十一章說的，「德性是機能之頂點」。但是頂點是頂點所在之東西上的。所以德性是在靈魂的機能上。",
+      "after": "按《天界論》卷一第十一章說的，「德性是機能之頂點」。但是頂點是頂點所在之東西上的。所以德性是在靈魂的機能上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2331
+      ],
+      "before": "我解答如下:由三點可以看出德性屬於靈魂之機能:第一，根據德性之理。因為德性乃機能之成就:成就屬於什麼，就是在什麼上的。第二，由於按前面第五十五題第二節說的，德性是行動方面的習性。凡行動皆是通過某機能而出自靈魂。第三，因為德性是針對最好者之配備。最好者是目的，而目的或者為東西之行動，或者是由機能而來之行動所獲得者。所以，人性的德性是以靈魂之機能為主體。",
+      "after": "我解答如下：由三點可以看出德性屬於靈魂之機能：第一，根據德性之理。因為德性乃機能之成就；成就屬於什麼，就是在什麼上的。第二，由於按前面第五十五題第二節說的，德性是行動方面的習性。凡行動皆是通過某機能而出自靈魂。第三，因為德性是針對最好者之配備。最好者是目的，而目的或者為東西之行動，或者是由機能而來之行動所獲得者。所以，人性的德性是以靈魂之機能為主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "機能之成就:",
+          "after": "機能之成就；",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2331
+      ],
+      "before": "生活有兩種意義:有時是指有生命者之存在，如此則生活屬於靈魂之本質，因為靈魂之本質是有生命者之存在的根本;另一種是指有生命者之活動，如此則德性使人正直生活，因為它使活動正直。",
+      "after": "生活有兩種意義：有時是指有生命者之存在，如此則生活屬於靈魂之本質，因為靈魂之本質是有生命者之存在的根本；另一種是指有生命者之活動，如此則德性使人正直生活，因為它使活動正直。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2331
+      ],
+      "before": "善或者是目的，或者是指向目的者。既然行動者之善在於行動，德性之使行動者成為善的，仍然是針對行動而言。因而是針對機能的。",
+      "after": "善或者是目的，或者是指向目的者。既然行動者之善在於行動，德性之使行動者成為善的，仍然是針對行動而言。因而是針對機能的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2331
+      ],
+      "before": "說一個依附體以另一個為主體，不是因為依附體靠自己能支持另一個，而是因了一個依附體是通過另一個依附體而附著於本體，例如:物體之顏色是通過面積，這時便說面積是顏色之主體。說靈魂之機能是德性之主體，即是按這方式。\"",
+      "after": "說一個依附體以另一個為主體，不是因為依附體靠自己能支持另一個，而是因了一個依附體是通過另一個依附體而附著於本體，例如：物體之顏色是通過面積，這時便說面積是顏色之主體。說靈魂之機能是德性之主體，即是按這方式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "方式。\"",
+          "after": "方式。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "一個德性是否能在許多機能上",
+      "after": "一個德性是否能在許多機能上",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "一個德性似乎能夠是在兩個機能上。因為:",
+      "after": "一個德性似乎能夠是在兩個機能上。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "習性是因了行動而被認知。但是一個行動是以不同的方式來自不同的機能，例如:走路是出於理性之指導，是出於意志之推動，是出於動作機能之執行。所以，一個德性之習性也能是在許多機能上的。",
+      "after": "習性是因了行動而被認知。但是一個行動是以不同的方式來自不同的機能，例如：走路是出於理性之指導，是出於意志之推動，是出於動作機能之執行。所以，一個德性之習性也能是在許多機能上的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第四章說，德性需要三點，即「知道，願意，及持久的行動C 」但「知道」屬於智性，而「願意」屬於意志。所以，一個德性能夠是在許多機能上的。",
+      "after": "此外，哲學家在《倫理學》卷二第四章說，德性需要三點，即「知道，願意，及持久的行動。」但「知道」屬於智性，而「願意」屬於意志。所以，一個德性能夠是在許多機能上的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行動C ",
+          "after": "行動。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "此外，機智或智德是在理性上的，因為按《倫理學》卷六第五章所說的，智德是「可行者之正理或正當安排或計劃」。它也是在意志上的，因為按同卷第十二章說的，智德不能與不正直或不正當之意志併存。所以，一個德性能夠是在兩個機能上。",
+      "after": "此外，機智或智德是在理性上的，因為按《倫理學》卷六第五章所說的，智德是「可行者之正理或正當安排或計劃」。它也是在意志上的，因為按同卷第十二章說的，智德不能與不正直或不正當之意志併存。所以，一個德性能夠是在兩個機能上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2332
+      ],
+      "before": "德性是以靈魂之機能為主體。但是一個依附體不能是在許多主體上。所以，一個德性不能是在靈魂的許多機能上。",
+      "after": "德性是以靈魂之機能為主體。但是一個依附體不能是在許多主體上。所以，一個德性不能是在靈魂的許多機能上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2332,
+        2333
+      ],
+      "before": "我解答如下:一個東西在兩個主體上，有兩種方式:第一方式，以同等資格在兩個主體上。如此則一個德性不可能是在兩個主體上;因為機能之區別是看對象的共類條件，習性之區別則看對象的男Ij類條件。為此，哪裡機能不同，Nlj習性亦不同;反之則不然。\n另一方式，一個東西在兩個或更多的主體上、不是以同等資格，而是按某種次序。如此則一個德性能屬於許多機能。即是主要是在一個機能上，而以散佈方式，或以配備方式傍及其他機能;即由於一個機能是受另一機能之推動，或一個機能有所取於另一機能。",
+      "after": "我解答如下：一個東西在兩個主體上，有兩種方式：第一方式，以同等資格在兩個主體上。如此則一個德性不可能是在兩個主體上；因為機能之區別是看對象的共類條件，習性之區別則看對象的別類條件。為此，哪裡機能不同，則習性亦不同；反之則不然。\n另一方式，一個東西在兩個或更多的主體上，不是以同等資格，而是按某種次序。如此則一個德性能屬於許多機能。即是主要是在一個機能上，而以散佈方式，或以配備方式傍及其他機能；即由於一個機能是受另一機能之推動，或一個機能有所取於另一機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男Ij類",
+          "after": "別類",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Nlj",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "主體上、",
+          "after": "主體上，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "一個行動不能以同等資格，並按同等程度屬於不同之機能;但按不同之理由及不同之等級，能屬於不同的機能。",
+      "after": "一個行動不能以同等資格，並按同等程度屬於不同之機能；但按不同之理由及不同之等級，能屬於不同的機能。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "知識乃是(以嗜慾為主體之)涵養性德性之先備條件，因為涵養性德性是按作正當安排之理性而動。但按本質，涵養j生德性是在嗜慾部分。",
+      "after": "知識乃是(以嗜慾為主體之)涵養性德性之先備條件，因為涵養性德性是按作正當安排之理性而動。但按本質，涵養性德性是在嗜慾部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "涵養j生",
+          "after": "涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "智德的實際主體是理性。但要先有正直的意志當其根本，如下面第三節要講的。",
+      "after": "智德的實際主體是理性。但要先有正直的意志當其根本，如下面第三節要講的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "智性是否能為德性之主體",
+      "after": "智性是否能為德性之主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "智性似乎不是德性之主體。因為:",
+      "after": "智性似乎不是德性之主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "奧斯定在《論天主教倫理與摩尼教倫理》卷一第十五章說，凡德性皆是愛。但愛之主體不是智性，而是嗜慾能力。所以，智性上沒有德性。",
+      "after": "奧斯定在《論天主教倫理與摩尼教倫理》卷一第十五章說，凡德性皆是愛。但愛之主體不是智性，而是嗜慾能力。所以，智性上沒有德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "此外，由前面第五十五題第三節所說的可以知道，德性是指向善的。但是善不是智性之對象，而是嗜慾能力之對象。所以，德性之主體不是智性，而是嗜慾能力。",
+      "after": "此外，由前面第五十五題第三節所說的可以知道，德性是指向善的。但是善不是智性之對象，而是嗜慾能力之對象。所以，德性之主體不是智性，而是嗜慾能力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第六章說:「德性使具有之者成為善的」。但是成全智性的習性，不使具有之者成為善的，因為人不因了有學問或技術而被稱為善人。所以，智性不是德性之主體。",
+      "after": "此外，哲學家在《倫理學》卷二第六章說：「德性使具有之者成為善的」。但是成全智性的習性，不使具有之者成為善的，因為人不因了有學問或技術而被稱為善人。所以，智性不是德性之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2333
+      ],
+      "before": "心靈(mens)主要是智性。德性之主體是心靈，看上述第五十五題第四節之德性的定義便可以知道。所以，智性是德性的主體。",
+      "after": "心靈(mens)主要是智性。德性之主體是心靈，看上述第五十五題第四節之德性的定義便可以知道。所以，智性是德性的主體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2334,
+        2335
+      ],
+      "before": "我解答如下:前面第五十五題第三節已經說過，德性是使人善於行動的習性。一個習性之指向善的行動有兩種方式。-種方式，習性使人有善於行動之能力，例如:由於文法之習性，人能講話正確。但是文法不使人常講話正確，文法學家講話能是組俗的或不合文法的;在其他學識及技術方面也是一樣。另一方式，習性不只使人有行動之能力，且使人正當運用這能力，例如:正義不只使人的意志敏於按正義行事，且使之實際真按正義行事。\n說一個東西是善的，或說是物時，嚴格或絕對地說(simpliciter)，不是按那在潛能狀態者，而是按那在現實狀態者;為此，嚴格或絕對地說，具有這種(在現實狀態的)習性時，人才是善的，也纔是行善，例如:一個正義的人，或有節制的人;關於其他類似之德性也是一樣。因了德性是使具有之者成為善的，並使其行動成為善的，所以這種(在現實狀態的)習性才嚴格或絕對地(simpliciter)被稱為德性，因為這些德性實際地使行動成為善的，並使具有之者成為善的。第一類習性不是絕對的德性;因為這些德性只使某方面的行動成為善的，也不絕對地使具有之者成為善的。因為並不因了一人有學問或技能，便絕對地說他是善人;他只是相對地(就某方面而言，secundum quid)被稱為善，例如:好文法家，或好技師。故此，一般是將學識及技術與德性對分;但有時也稱之為德性，看《倫理學》卷六第二章便可以知道。\n那稱為相對的德性之習性的主體，能夠是智性，不只是實踐性的智性，也能是鑑賞性的智性，即與意志無關者;故此哲學家在《倫理學》卷六第二章，說學識、智慧、悟性，以及技術'是智性的德性。至於絕對的德性之主體，只能是意志;其他機能之為主體是在受意志之推動的條件下。這是因為意志推動每種帶有理性的機能，使各指向其行動，如前面第九題第一節、第十七題第一及第五節曾說過的。故此，人之行動實際是善的，乃由於人有善良意志。所以，使人不只有善於行動之能力，且實際善於行動之德性，必然是在意志上的，或是在受意志所推動之機能上的。\n像其他機能一樣，智性也能受意志之推動，一個人實際地思考什麼事情，乃是因為他願意思考。故此，智性由於其與意志之關係，也能是絕對意義之德性的主體。按這方式，鑑賞性之智|笠，或者理性，便是信德之主體。因為智性是在意志的推動下，同意信德方面的事;就如奧斯定於《若望褔音釋義》第二十六講曾說的: 「若非因為願意，沒有人相信」。實踐性的智性則是機智或智德之主體。智德既是可行者之正理或正當計畫IJ，故為能有智德，人對於當行者之理由的根本，須有正當的態度，這根本即是目的;人對於目的之態度正當，則是靠正當之意志;正如對鑑賞性真理之根本的配合，是靠主動之智性的自然光照。故此，正如學識是鑑賞性真理之正理，其主體是受主動之智性推動的鑑賞性智性;智德之主體則是受正當意志推動的實踐性智性。",
+      "after": "我解答如下：前面第五十五題第三節己經說過，德性是使人善於行動的習性。一個習性之指向善的行動有兩種方式。一種方式，習性使人有善於行動之能力，例如：由於文法之習性，人能講話正確。但是文法不使人常講話正確，文法學家講話能是粗俗的或不合文法的；在其他學識及技術方面也是一樣。另一方式，習性不只使人有行動之能力，且使人正當運用這能力，例如：正義不只使人的意志敏於按正義行事，且使之實際真按正義行事。\n說一個東西是善的，或說是物時，嚴格或絕對地說(simpliciter)，不是按那在潛能狀態者，而是按那在現實狀態者；為此，嚴格或絕對地說，具有這種(在現實狀態的)習性時，人才是善的，也才是行善，例如：一個正義的人，或有節制的人；關於其他類似之德性也是一樣。因了德性是使具有之者成為善的，並使其行動成為善的，所以這種(在現實狀態的)習性才嚴格或絕對地(simpliciter)被稱為德性，因為這些德性實際地使行動成為善的，並使具有之者成為善的。第一類習性不是絕對的德性；因為這些德性只使某方面的行動成為善的，也不絕對地使具有之者成為善的。因為並不因了一人有學問或技能，便絕對地說他是善人；他只是相對地(就某方面而言，secundum quid)被稱為善，例如：好文法家，或好技師。故此，一般是將學識及技術與德性對分；但有時也稱之為德性，看《倫理學》卷六第二章便可以知道。\n那稱為相對的德性之習性的主體，能夠是智性，不只是實踐性的智性，也能是鑑賞性的智性，即與意志無關者；故此哲學家在《倫理學》卷六第二章，說學識、智慧、悟性，以及技術，是智性的德性。至於絕對的德性之主體，只能是意志；其他機能之為主體是在受意志之推動的條件下。這是因為意志推動每種帶有理性的機能，使各指向其行動，如前面第九題第一節、第十七題第一及第五節曾說過的。故此，人之行動實際是善的，乃由於人有善良意志。所以，使人不只有善於行動之能力，且實際善於行動之德性，必然是在意志上的，或是在受意志所推動之機能上的。\n像其他機能一樣，智性也能受意志之推動，一個人實際地思考什麼事情，乃是因為他願意思考。故此，智性由於其與意志之關係，也能是絕對意義之德性的主體。按這方式，鑑賞性之智性，或者理性，便是信德之主體。因為智性是在意志的推動下，同意信德方面的事；就如奧斯定於《若望福音釋義》第二十六講曾說的：「若非因為願意，沒有人相信」。實踐性的智性則是機智或智德之主體。智德既是可行者之正理或正當計劃，故為能有智德，人對於當行者之理由的根本，須有正當的態度，這根本即是目的；人對於目的之態度正當，則是靠正當之意志；正如對鑑賞性真理之根本的配合，是靠主動之智性的自然光照。故此，正如學識是鑑賞性真理之正理，其主體是受主動之智性推動的鑑賞性智性；智德之主體則是受正當意志推動的實踐性智性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "-種方式",
+          "after": "一種方式",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "組俗",
+          "after": "粗俗",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也纔是",
+          "after": "也才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "技術'",
+          "after": "技術，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智|笠",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "若望褔音",
+          "after": "若望福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "計畫IJ",
+          "after": "計劃",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2335
+      ],
+      "before": "奧斯定的話是指絕對意義之德性，但並非說這種德性皆是單純的愛，而是因為多少皆繫於愛，因其皆繫於意志，而愛是意志的第一個情，如前面第二十五題第一及第二等節曾說過的。",
+      "after": "奧斯定的話是指絕對意義之德性，但並非說這種德性皆是單純的愛，而是因為多少皆繫於愛，因其皆繫於意志，而愛是意志的第一個情，如前面第二十五題第一及第二等節曾說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2335
+      ],
+      "before": "每個東西之善，即其目的。為此，既然真理是智性之目的，認識真理便是智性的好行動。因此，使智性能認識真理之習性，無論是鑑賞性真理或實踐性真理，被稱為德性。",
+      "after": "每個東西之善，即其目的。為此，既然真理是智性之目的，認識真理便是智性的好行動。因此，使智性能認識真理之習性，無論是鑑賞性真理或實踐性真理，被稱為德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2335
+      ],
+      "before": "所舉之理由是根據絕對意義的(惡性。",
+      "after": "所舉之理由是根據絕對意義的德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "憤情及慾情是否為德性之主體",
+      "after": "憤情及慾情是否為德性之主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "憤情及慾情部分似乎不能是德性之主體。因為:",
+      "after": "憤情及慾情部分似乎不能是德性之主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "這些能力是我們與禽獸所共有的。我們現在講的是人專有的德性，故此稱之為人性的德性。按在第一集第八十一題第二節裡所說的，憤情和慾情是感官嗜慾的部分，故不能是人性的德性之主體。",
+      "after": "這些能力是我們與禽獸所共有的。我們現在講的是人專有的德性，故此稱之為人性的德性。按在第一集第八十一題第二節裡所說的，憤情和慾情是感官嗜慾的部分，故不能是人性的德性之主體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "此外，感官嗜慾是運用身體器官的能力。但是德性之善，不能是在人之身體上的。因為宗徒在《羅馬書》第七章18節說:「我也知道，善不在我的肉性內。」所以，感官嗜慾不能是德性之主體。",
+      "after": "此外，感官嗜慾是運用身體器官的能力。但是德性之善，不能是在人之身體上的。因為宗徒在《羅馬書》第七章18節說：「我也知道，善不在我的肉性內。」所以，感官嗜慾不能是德性之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "此外，奧斯定會在《論天主教倫理與摩尼教倫理》卷一第五章中指出，德性不是在身體上，而是在靈魂上，因為肉身受靈魂之管制。為此，一人若善用身體，全部歸功於靈魂;「例如車夫若因聽我的話，將其所駕厭的馬管制得好，這全部是我的功績。」但是，正如靈魂管制肉身;同樣，理性也管制感官嗜慾。所以，若憤情與慾情管制得好，這全在於理性部分。但按前面第五十五題第四節曾說的:「德性使人生活正直」。所以，德性不是在憤情和慾情部分，只是在理性部分。",
+      "after": "此外，奧斯定曾在《論天主教倫理與摩尼教倫理》卷一第五章中指出，德性不是在身體上，而是在靈魂上，因為肉身受靈魂之管制。為此，一人若善用身體，全部歸功於靈魂；「例如車夫若因聽我的話，將其所駕馭的馬管制得好，這全部是我的功績。」但是，正如靈魂管制肉身；同樣，理性也管制感官嗜慾。所以，若憤情與慾情管制得好，這全在於理性部分。但按前面第五十五題第四節曾說的：「德性使人生活正直」。所以，德性不是在憤情和慾情部分，只是在理性部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧斯定會在",
+          "after": "奧斯定曾在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "駕厭",
+          "after": "駕馭",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "此外，《倫理學》卷八第十三章說:「涵養性之德性的主要行動是選擇」。但是按前面第十三題第二節說的，選擇不是憤情和慾情之行動，而是理性之行動。所以，涵養性之德性不是在憤情和慾情部分，而是在理性部分。",
+      "after": "此外，《倫理學》卷八第十三章說：「涵養性之德性的主要行動是選擇」。但是按前面第十三題第二節說的，選擇不是憤情和慾情之行動，而是理性之行動。所以，涵養性之德性不是在憤情和慾情部分，而是在理性部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2336
+      ],
+      "before": "勇敢或勇德是在憤情部分，節制或節德是在慾情部分。為此哲學家在《倫理學》卷三第十章說:「這些德性是非理性部分的。」",
+      "after": "勇敢或勇德是在憤情部分，節制或節德是在慾情部分。為此哲學家在《倫理學》卷三第十章說：「這些德性是非理性部分的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2337
+      ],
+      "before": "我解答如下:可以從兩方面去看憤情和慾情:一是看其自身，即視之為感官嗜慾的部分。按這觀點，則二者沒有資格當德性之主體。另一方面，可視之是分有理性的，因為這二部分原來就是為服從理性的。如此，貝IJ憤情或慾情能夠是人性之德性的主體;因為既然分有理性，所以是人性行動之根本。而且在這些機能上該有德性。\n在憤情和慾情部分有德性，乃是顯而易見的事。由一個被另一個機能推動之機蛇而來之行動，若非兩個機能針對行動配備得都好，則這行動不能是完美的;就如技師之行動不能盡善盡美，除非技師對這行動有好的配備，並且工具也配備得好。關於憤情和慾情在理性之推動下的行動，不只在理性上要有習性，以使之善於行動，在憤情和慾情部分也要有習性。又因了被動之機能的配備好壞，是看其是否與推動之機能配合得好;故此，憤情和慾情部分的德性，無非就是這些機能對理性之持久的適宜性。",
+      "after": "我解答如下：可以從兩方面去看憤情和慾情：一是看其自身，即視之為感官嗜慾的部分。按這觀點，則二者沒有資格當德性之主體。另一方面，可視之是分有理性的，因為這二部分原來就是為服從理性的。如此，則憤情或慾情能夠是人性之德性的主體；因為既然分有理性，所以是人性行動之根本。而且在這些機能上該有德性。\n在憤情和慾情部分有德性，乃是顯而易見的事。由一個被另一個機能推動之機能而來之行動，若非兩個機能針對行動配備得都好，則這行動不能是完美的；就如技師之行動不能盡善盡美，除非技師對這行動有好的配備，並且工具也配備得好。關於憤情和慾情在理性之推動下的行動，不只在理性上要有習性，以使之善於行動，在憤情和慾情部分也要有習性。又因了被動之機能的配備好壞，是看其是否與推動之機能配合得好；故此，憤情和慾情部分的德性，無非就是這些機能對理性之持久的適宜性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "機蛇",
+          "after": "機能",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2337
+      ],
+      "before": "憤情和慾情，若按其本身為感官嗜慾之部分來看，是我們與禽獸所共有的;但若從其分有理性並服從理性那一方面去看，則是人所專有的，如此則能是德性之主體。",
+      "after": "憤情和慾情，若按其本身為感官嗜慾之部分來看，是我們與禽獸所共有的；但若從其分有理性並服從理性那一方面去看，則是人所專有的，如此則能是德性之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2337
+      ],
+      "before": "人的肉身本身固然沒有德性之善，但在理性的推動下，能成為德行之工具:「將我們的肢體當作奴隸，獻於正義」(《羅馬書》第六章19節)。同樣，憤情和慾情本身沒有德性之善，反而有腐化之作用;但若服從理性，買IJ能產生酒養性之德性的善。",
+      "after": "人的肉身本身固然沒有德性之善，但在理性的推動下，能成為德行之工具：「將我們的肢體當作奴隸，獻於正義」(《羅馬書》第六章19節)。同樣，憤情和慾情本身沒有德性之善，反而有腐化之作用；但若服從理性，則能產生涵養性之德性的善。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "酒養性",
+          "after": "涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2337,
+        2338
+      ],
+      "before": "靈魂管制身體，與理性之管制憤情和慾情，有所不同。在本來該受靈魂推動的事上，肉身絕對服從靈魂，毫無反抗。故此，哲學家在《政治學》卷一第二章裡說:「靈魂以霸道管理肉身屍即是如主人管理奴隸。故此身體的全部動態皆屬於靈魂。因此在身體上沒有德性，只有靈魂有德性。但是憤情和慾情不絕對服從理性，二者有其專有之動態，有時與理性衝突。為此，哲學家在同卷第二章裡說，理性「以王道」管理憤情和慾情，即是以治理自由人的方式;在某些事上自由人有自己的意志。故此，在憤情和慾情部分要有某些德性，以使之對行動有好的配備。",
+      "after": "靈魂管制身體，與理性之管制憤情和慾情，有所不同。在本來該受靈魂推動的事上，肉身絕對服從靈魂，毫無反抗。故此，哲學家在《政治學》卷一第二章裡說：「靈魂以霸道管理肉身」，即是如主人管理奴隸。故此身體的全部動態皆屬於靈魂。因此在身體上沒有德性，只有靈魂有德性。但是憤情和慾情不絕對服從理性，二者有其專有之動態，有時與理性衝突。為此，哲學家在同卷第二章裡說，理性「以王道」管理憤情和慾情，即是以治理自由人的方式；在某些事上自由人有自己的意志。故此，在憤情和慾情部分要有某些德性，以使之對行動有好的配備。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "管理肉身屍",
+          "after": "管理肉身」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "按《倫理學》卷六第十二章所說的，選擇包括兩點:~n目的之指向，這屬於涵養性的悟性;另一點是關於導致目的者之選擇，這屬於智德。但一人關於靈魂之情慾能有正當的目的指向，是在於憤情和慾情方面有好的配備。故此，關於情慾的涵養性之德性是在憤情和慾情部分;而智德則是在理性部分。",
+      "after": "按《倫理學》卷六第十二章所說的，選擇包括兩點：即目的之指向，這屬於涵養性的德性；另一點是關於導致目的者之選擇，這屬於智德。但一人關於靈魂之情慾能有正當的目的指向，是在於憤情和慾情方面有好的配備。故此，關於情慾的涵養性之德性是在憤情和慾情部分；而智德則是在理性部分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "兩點:~n",
+          "after": "兩點：即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "涵養性的悟性",
+          "after": "涵養性的德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "感官知覺能力是否為德性之主體",
+      "after": "感官知覺能力是否為德性之主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "內部的感官知覺能力，似乎能是德性的主體。因為:",
+      "after": "內部的感官知覺能力，似乎能是德性的主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "感官嗜慾由於服從理性，而能是德性之主體。但是內部的感官知覺能力服從理性;因為想像力、評估力和記憶力，皆是在理性的命令下活動。所以這些能力能夠有德性。",
+      "after": "感官嗜慾由於服從理性，而能是德性之主體。但是內部的感官知覺能力服從理性；因為想像力、評估力和記憶力，皆是在理性的命令下活動。所以這些能力能夠有德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "此外，理性嗜慾或意志，在行動上能受感官嗜慾之妨礙或幫助;同樣，智性或理性也能受上述之力量的妨礙或幫助。既然在感官嗜慾力方面能有德性，所以在感官知覺方面也能有德性。",
+      "after": "此外，理性嗜慾或意志，在行動上能受感官嗜慾之妨礙或幫助；同樣，智性或理性也能受上述之力量的妨礙或幫助。既然在感官嗜慾力方面能有德性，所以在感官知覺方面也能有德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2338
+      ],
+      "before": "此外，智德是一種德性;西塞祿在他的《修辭學》卷二第五十三章中，認為記憶是智德的一部分。所以，在記憶能力上能有德性。按同理，在其他內部之知覺能力上也能有德性。",
+      "after": "此外，智德是一種德性；西塞祿在他的《修辭學》卷二第五十三章中，認為記憶是智德的一部分。所以，在記憶能力上能有德性。按同理，在其他內部之知覺能力上也能有德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2338,
+        2339
+      ],
+      "before": "按《倫理學》卷二第一章說的，所有的德性都或者是智性的，或者是涵養性的。涵養性的德性全是在嗜慾部分;智性的德性，按《倫理學》卷六第一章說的，是在智性上或在理性上。所以，沒有德性是在內部的知覺能力上。",
+      "after": "按《倫理學》卷二第一章說的，所有的德性都或者是智性的，或者是涵養性的。涵養性的德性全是在嗜慾部分；智性的德性，按《倫理學》卷六第一章說的，是在智性上或在理性上。所以，沒有德性是在內部的知覺能力上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2339
+      ],
+      "before": "我解譬如下:在內部感官知覺能力上有一些習性，因為哲學家在《論記憶與回憶》第二章裡說: 「在逐一記憶事情的時候，主要靠習慣，這習慣就好似一種天性。」習慣性的習性無非是靠習慣養成的，其性質有似天性。是以西塞祿在其《修辭學》卷二第五十三章說，德性是「像似天性的習性，適合理性者。」但是在人身上，記憶及其他感官知覺能力由習慣而獲得的，不是正式的習性，而是智性部分之習性的附帶物，在日前面第五十題第四節釋疑3.己說過的。\n而且另一方面，縱然在這些能力上有習性，也不能稱為德性。因為德性是完美的習性，只能用以行善，所以德性該是在那完成善行的機能上。認知不是在感官知覺能力上完成，這些能力是準備智性之認知的。所以，在這些能力上，沒有用以認知真理的德性;這種德性主要是在智性或理性上。",
+      "after": "我解答如下：在內部感官知覺能力上有一些習性，因為哲學家在《論記憶與回憶》第二章裡說：「在逐一記憶事情的時候，主要靠習慣，這習慣就好似一種天性。」習慣性的習性無非是靠習慣養成的，其性質有似天性。是以西塞祿在其《修辭學》卷二第五十三章說，德性是「像似天性的習性，適合理性者。」但是在人身上，記憶及其他感官知覺能力由習慣而獲得的，不是正式的習性，而是智性部分之習性的附帶物，如前面第五十題第四節釋疑3.己說過的。\n而且另一方面，縱然在這些能力上有習性，也不能稱為德性。因為德性是完美的習性，只能用以行善，所以德性該是在那完成善行的機能上。認知不是在感官知覺能力上完成，這些能力是準備智性之認知的。所以，在這些能力上，沒有用以認知真理的德性；這種德性主要是在智性或理性上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "解譬",
+          "after": "解答",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "在日前面",
+          "after": "如前面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2339
+      ],
+      "before": "感官嗜慾與理性嗜慾或意志之關係'是前者被後者推動。因此嗜慾能力之活動是在感官嗜慾上完成。故此感官嗜慾是德性之主體。感官知覺能力對智性而言，更好說是推動者;因為心象對智性靈魂的關係，有似顏色之對視覺能力，就如《靈魂論》卷三第七章所說的。故此，認知之活動是在智性中結束。因此認真日性的德性是在智性或理性上。",
+      "after": "感官嗜慾與理性嗜慾或意志之關係，是前者被後者推動。因此嗜慾能力之活動是在感官嗜慾上完成。故此感官嗜慾是德性之主體。感官知覺能力對智性而言，更好說是推動者；因為心象對智性靈魂的關係，有似顏色之對視覺能力，就如《靈魂論》卷三第七章所說的。故此，認知之活動是在智性中結束。因此認知性的德性是在智性或理性上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之關係'",
+          "after": "之關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認真日性",
+          "after": "認知性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2339
+      ],
+      "before": "由上面所說的，可知質疑2.之答案。",
+      "after": "由上面所說的，可知質疑2.之答案。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2339
+      ],
+      "before": "記憶之為智德的一部分，並非如別類之為共類的一部分，好似記憶是個獨立的德性;而是因為好的記憶力是智德必需的條件之一。這樣就好似是智德的完整(integralis)部分。",
+      "after": "記憶之為智德的一部分，並非如別類之為共類的一部分，好似記憶是個獨立的德性；而是因為好的記憶力是智德必需的條件之一。這樣就好似是智德的完整(integralis)部分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.heading",
+      "article": 6,
+      "block": "节号",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "第六節",
+      "after": "第六節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a006.title",
+      "article": 6,
+      "block": "标题",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "意志是否能為德性之主體",
+      "after": "意志是否能為德性之主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q056.a006.intro",
+      "article": 6,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "有關第六節，我們討論如下:",
+      "after": "有關第六節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.objection-intro",
+      "article": 6,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "意志似乎不是德性之主體。因為:",
+      "after": "意志似乎不是德性之主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.arg1",
+      "article": 6,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "一個機能針對其按天性就適合者，不需要習性。但是意志，按哲學家在《靈魂論》卷三第九章說的，既然是在理性部分的，按本質就指向適合理性的善，因為每個東西自然就追求自己的善;而每個德性也是指向適合理性之善的。因為按西塞祿在其《修辭學》卷二第五十三章中說的:「德性是相似天性的習性，適合理性者」。所以，意志不是德性之主體。",
+      "after": "一個機能針對其按天性就適合者，不需要習性。但是意志，按哲學家在《靈魂論》卷三第九章說的，既然是在理性部分的，按本質就指向適合理性的善，因為每個東西自然就追求自己的善；而每個德性也是指向適合理性之善的。因為按西塞祿在其《修辭學》卷二第五十三章中說的：「德性是相似天性的習性，適合理性者」。所以，意志不是德性之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.arg2",
+      "article": 6,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "此外，按《倫理學》卷一第十三章及卷二第一章說的，凡悟性或者是智性的，或者是溺養性的。但智性的德性是以智↑生及理性為主體，不是以意志為主體;涵養性的德性是以憤情和慾情為主體，此三者是因分得而具有理性。所以沒有德性是以意志為主體。",
+      "after": "此外，按《倫理學》卷一第十三章及卷二第一章說的，凡德性或者是智性的，或者是涵養性的。但智性的德性是以智性及理性為主體，不是以意志為主體；涵養性的德性是以憤情和慾情為主體，此二者是因分得而具有理性。所以沒有德性是以意志為主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "凡悟性",
+          "after": "凡德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "溺養性",
+          "after": "涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智↑生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "此三者",
+          "after": "此二者",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.arg3",
+      "article": 6,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "此外，德性所針對的人性行動，是情願的行動。如果針對某些人性行動的德性是以意志為主體，貝IJ按同理，針對一切人性行動的德性皆是以意志為主體。所以，或者德性不是以其他機能為主體，或者針對一種行動有兩個德性，這似乎不合理。所以，意志不能是德性的主體。",
+      "after": "此外，德性所針對的人性行動，是情願的行動。如果針對某些人性行動的德性是以意志為主體，則按同理，針對一切人性行動的德性皆是以意志為主體。所以，或者德性不是以其他機能為主體，或者針對一種行動有兩個德性，這似乎不合理。所以，意志不能是德性的主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.sed_contra",
+      "article": 6,
+      "block": "反之",
+      "pdf_file_pages": [
+        2340
+      ],
+      "before": "推動者比被推動者更需要是完美的。意志則是推動憤情和慾情部分的。所以，在意志仁比在憤情和慾情上，更該有德性。",
+      "after": "推動者比被推動者更需要是完美的。意志則是推動憤情和慾情部分的。所以，在意志上比在憤情和慾情上，更該有德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "意志仁",
+          "after": "意志上",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.respondeo",
+      "article": 6,
+      "block": "正解",
+      "pdf_file_pages": [
+        2340,
+        2341
+      ],
+      "before": "我解答如下:既然習性是機能針對行動的成就，機能本身不足以完成完善之行動者，才需要習性或德性之配備。每個機能之天性是按對象來看。既然如第十九題第三節說過的，意志之對象是適合意志的理念之善，在這方面意志不需要德性之配備。但是，若人的意志遇上超乎其能力的善，無論是針對人類而言，如:超越人性的天主的善;或針對個體而言，如:他人之善，都需要德性c所以，配備人對天主及他人之情感的德性，是以意志為主體，例如:愛德，正義等。",
+      "after": "我解答如下：既然習性是機能針對行動的成就，機能本身不足以完成完善之行動者，才需要習性或德性之配備。每個機能之天性是按對象來看。既然如第十九題第三節說過的，意志之對象是適合意志的理念之善，在這方面意志不需要德性之配備。但是，若人的意志遇上超乎其能力的善，無論是針對人類而言，如：超越人性的天主的善；或針對個體而言，如：他人之善，都需要德性。所以，配備人對天主及他人之情感的德性，是以意志為主體，例如：愛德，正義等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德性c",
+          "after": "德性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.ad1",
+      "article": 6,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2341
+      ],
+      "before": "所舉之理由是根據針對願意者個人之善的德性，例如:節制、勇敢，這些是關於人之情及其他類似者的;看前面第二十五題第六節釋疑3.、第二十一題第一即釋疑1、第血↑九題第四節釋疑3.所說的便可以知道。",
+      "after": "所舉之理由是根據針對願意者個人之善的德性，例如：節制、勇敢，這些是關於人之情及其他類似者的；看前面第二十五題第六節釋疑3.、第二十一題第一節釋疑1.、第五十九題第四節釋疑3.所說的便可以知道。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一即釋疑1",
+          "after": "第一節釋疑1.",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第血↑九題",
+          "after": "第五十九題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.ad2",
+      "article": 6,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2341
+      ],
+      "before": "按《倫理學》卷一第十三章所說的，因分得而真理性者不只是憤情和慾情，而是「全部的嗜慾部分」。意志也包括在嗜慾部分內。為此，如果在意志上有德性‘使該是涵養性的德性，除非是對天主的德性(virtus theologica)，就如在後面第五十八題第三節釋疑3、第六十二題第三節要講的。",
+      "after": "按《倫理學》卷一第十三章所說的，因分得而具理性者不只是憤情和慾情，而是「全部的嗜慾部分」。意志也包括在嗜慾部分內。為此，如果在意志上有德性，便該是涵養性的德性，除非是對天主的德性(virtus theologica)，就如在後面第五十八題第三節釋疑3.、第六十二題第三節要講的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而真理性",
+          "after": "而具理性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德性‘使該",
+          "after": "德性，便該",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑3、第六十二題",
+          "after": "釋疑3.、第六十二題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q056.a006.ad3",
+      "article": 6,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2341
+      ],
+      "before": "有些德性是指向受到節制的情慾之善，這是關於這個人或那個人自己的善;為這類事不需要在意志上有德性，因為機能的天性已經足夠，如正解巳說過的。只有針對外在之善才需要在意志上有德性。",
+      "after": "有些德性是指向受到節制的情慾之善，這是關於這個人或那個人自己的善；為這類事不需要在意志上有德性，因為機能的天性己經足夠，如正解己說過的。只有針對外在之善才需要在意志上有德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "巳說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
