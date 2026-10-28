@@ -1,0 +1,1259 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q054",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q054",
+    "title": "論習性之區分",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2313,
+      2314,
+      2315,
+      2316,
+      2317,
+      2318,
+      2319,
+      2320
+    ],
+    "printed_pages": [
+      47,
+      54
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 37,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q54.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q54.json": "be1fcebdbc69530e60c725c6d5202c1852730ad1885a36bbe93f8cf49ea0584b"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q054.a001.respondeo",
+      "pdf_file_page": 2314,
+      "text": "單獨之主動性機能不是習性性之主體",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页「習性性」重字，依底本保留，不静默删字。"
+    },
+    {
+      "id": "I_II.q054.a002.ad3",
+      "pdf_file_page": 2317,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q054.a003.arg2",
+      "pdf_file_page": 2317,
+      "text": "所以習性不能以善惡類別",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「以善惡類別」，疑漏「分」，依底本保留。"
+    },
+    {
+      "id": "I_II.q054.a004.arg1",
+      "pdf_file_page": 2318,
+      "text": "第三節己經說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q054.a004.ad2",
+      "pdf_file_page": 2320,
+      "text": "第二集第二部第四十八題",
+      "status": "suspected_source_print_error",
+      "action": "原页采用「第二集第二部」编号措辞，照录不统一为另一编号习惯。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q054.a001.ad3",
+      "description": "移除混入第一节释疑3末尾且错误标为「第三节」的第二节标题碎片，后面的既有第二节标题保持；原有换行保留在释疑3末尾。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q054.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "然後要討論的是習性之區分(參看第四十九題引雷)。\n關於這點，可以提出四個問題:\n一、一個機能是否能有許多習性。\n二、習性是否按對象以定區分。\n玉、習性是否按善惡以定區分。\n四、一個習性是否由許多習性構成的。",
+      "after": "然後要討論的是習性之區分(參看第四十九題引言)。\n關於這點，可以提出四個問題：\n一、一個機能是否能有許多習性。\n二、習性是否按對象以定區分。\n三、習性是否按善惡以定區分。\n四、一個習性是否由許多習性構成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "引雷",
+          "after": "引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "玉、",
+          "after": "三、",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "一個機能是否能有許多習性",
+      "after": "一個機能是否能有許多習性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "一個機能似乎不能有許多習性。因為:",
+      "after": "一個機能似乎不能有許多習性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "那些根據同樣觀點以定區分的東西，觀點加多，買1)區分也加多。但是機能與習性是根據同樣的觀點以定區分，即是根據行動及對象。所以二者按同等增多。故此，一個機能不能有許多習性。",
+      "after": "那些根據同樣觀點以定區分的東西，觀點加多，則區分也加多。但是機能與習性是根據同樣的觀點以定區分，即是根據行動及對象。所以二者按同等增多。故此，一個機能不能有許多習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買1)",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "圖此外，機能是一種單純的能力。但是在一個單純的主體上，不能有許多樣依附體，因為主體是依附體之原因;從一個單純的東西似乎只能產生一個東西。所以，一個機能不能有許多習性。",
+      "after": "此外，機能是一種單純的能力。但是在一個單純的主體上，不能有許多樣依附體，因為主體是依附體之原因；從一個單純的東西似乎只能產生一個東西。所以，一個機能不能有許多習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "圖此外",
+          "after": "此外",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "此外，就如身體是由形狀構成的，機能則是由習性構成的。但是一個身體不能同時是由許多形狀構成的。故此，一個機能不能有許多習性。",
+      "after": "此外，就如身體是由形狀構成的，機能則是由習性構成的。但是一個身體不能同時是由許多形狀構成的。故此，一個機能不能有許多習性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2313
+      ],
+      "before": "智性是一個機能;但智性具有各種知識之習性。",
+      "after": "智性是一個機能；但智性具有各種知識之習性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2314
+      ],
+      "before": "我解答如下:按前面第四十九題第四節說的，習性是在潛能狀態的東西之配備，或針對天性，或針對行動或天性之自的。那些針對天性的習性，顯然在一個主體上能有許多個，因為一個主體能有不同的部分，各部分之配備即為不同之習性，例如:人的身體之汁液部分，看其對人天性的配合，此即為健康之配備或習性;若取別的部分，如神經、骨悟和肉，其對天性之配備即為力氣或虛弱;若取身體之外肢，如手腳等，其適於天性之配備即是美。如此則同一個主體有許多習性或配備。\n若論那些針對行動的習性，即專屬於機能者，貝IJ一個機能也能有許多習，性。因為按前面第五十一題第二節說的，習性之主體乃是被動性之機能;單獨之主動性機能不是習性性之主體，這在前面也曾說過(同處)。被動性之機能對某類之固定行動而言，有如質料之與形式。因為就如質料被一個主動者決定於一個形式，被動性之機能也是被一種積極對象決定於一種行動。既然能有許多對象推動一個被動性的機能，所以一個被動機能可以是許多種行動或成就之主體。習性是附著於機能的品質或形式，以使機能傾向某個固定類別之行動。所以，就如一個機能可能有不同類別的行動，它也能有許多習性。",
+      "after": "我解答如下：按前面第四十九題第四節說的，習性是在潛能狀態的東西之配備，或針對天性，或針對行動或天性之目的。那些針對天性的習性，顯然在一個主體上能有許多個，因為一個主體能有不同的部分，各部分之配備即為不同之習性，例如：人的身體之汁液部分，看其對人天性的配合，此即為健康之配備或習性；若取別的部分，如神經、骨骼和肉，其對天性之配備即為力氣或虛弱；若取身體之外肢，如手腳等，其適於天性之配備即是美。如此則同一個主體有許多習性或配備。\n若論那些針對行動的習性，即專屬於機能者，則一個機能也能有許多習性。因為按前面第五十一題第二節說的，習性之主體乃是被動性之機能；單獨之主動性機能不是習性性之主體，這在前面也曾說過(同處)。被動性之機能對某類之固定行動而言，有如質料之與形式。因為就如質料被一個主動者決定於一個形式，被動性之機能也是被一種積極對象決定於一種行動。既然能有許多對象推動一個被動性的機能，所以一個被動機能可以是許多種行動或成就之主體。習性是附著於機能的品質或形式，以使機能傾向某個固定類別之行動。所以，就如一個機能可能有不同類別的行動，它也能有許多習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "之自的",
+          "after": "之目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "骨悟",
+          "after": "骨骼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "許多習，性",
+          "after": "許多習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2314,
+        2315
+      ],
+      "before": "自然物之別類的區分是按形式，其共類的區分是根據質料，就如《形上學》卷五第二十八章所說的: 「質料不同者，其共類也不同」。因此，共類不同的對象，造成不同類的機能。所以，哲學家在《倫理學》卷六第一章說: 「針對共類上不同的東西，而有靈魂的各部分」。別類不同的對象，造成另IJ類不同的行動及習性。凡共類不同者，另IJ類亦不同;反之則不然。為此，不同之機能有別類不同的對象，和不同的習性;但不同的習性，並不一定屬於不同的機能，而可能同屬於一個機能。又因為一個共類能包括許多共類，一個別類能包括許多別類，因而能有許多別類不同，或不同類別的習性和機能。",
+      "after": "自然物之別類的區分是按形式，其共類的區分是根據質料，就如《形上學》卷五第二十八章所說的：「質料不同者，其共類也不同」。因此，共類不同的對象，造成不同類的機能。所以，哲學家在《倫理學》卷六第一章說：「針對共類上不同的東西，而有靈魂的各部分」。別類不同的對象，造成別類不同的行動及習性。凡共類不同者，別類亦不同；反之則不然。為此，不同之機能有別類不同的對象，和不同的習性；但不同的習性，並不一定屬於不同的機能，而可能同屬於一個機能。又因為一個共類能包括許多共類，一個別類能包括許多別類，因而能有許多別類不同，或不同類別的習性和機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "機能在本質上雖然是單純的，但在能力上卻是複雜的，由於它能展向許多不同想別的行動。故此，在一個機能上可能有許多不同類別的習性。",
+      "after": "機能在本質上雖然是單純的，但在能力上卻是複雜的，由於它能展向許多不同類別的行動。故此，在一個機能上可能有許多不同類別的習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "想別",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "身體是由形狀構成的，形狀有似身體之終點;但習性不是機能之終點，而是機能針對行動之配備，行動是其終點。為此，一個機能不能同時有許多行動，除非一個行動是包含在男一個之內的;正如一個身體不能有許多形狀，除非一個形狀是包含在另一個之內的，例如:三邊形是包含在四邊形內的。智性不能同時現實地理解許多事物，但是按習性則能同時知道許多事物。\n第三節習性是否按對象以定區分",
+      "after": "身體是由形狀構成的，形狀有似身體之終點；但習性不是機能之終點，而是機能針對行動之配備，行動是其終點。為此，一個機能不能同時有許多行動，除非一個行動是包含在另一個之內的；正如一個身體不能有許多形狀，除非一個形狀是包含在另一個之內的，例如：三邊形是包含在四邊形內的。智性不能同時現實地理解許多事物，但是按習性則能同時知道許多事物。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "男一個",
+          "after": "另一個",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三節習性是否按對象以定區分",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "習性是否按對象以定區分",
+      "after": "習性是否按對象以定區分",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "習性似乎不是按對象以定區分。因為:",
+      "after": "習性似乎不是按對象以定區分。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "彼此相反者，則其類別不同。但是同一個知識之習性是關於彼此相反的事物，例如:醫學是關於健康與疾病之道理。所以，習性不是按對象之類別以定區分。",
+      "after": "彼此相反者，則其類別不同。但是同一個知識之習性是關於彼此相反的事物，例如：醫學是關於健康與疾病之道理。所以，習性不是按對象之類別以定區分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "此外，不同的學識是不同的習性。但是同一個可知的對象，分屬於不同的學科，例如:按《物理學》卷二第二章所說，自然哲學家和天文學家皆證明地球是圓的。所以，習性不是按對象以定區分。",
+      "after": "此外，不同的學識是不同的習性。但是同一個可知的對象，分屬於不同的學科，例如：按《物理學》卷二第二章所說，自然哲學家和天文學家皆證明地球是圓的。所以，習性不是按對象以定區分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2315
+      ],
+      "before": "此外，行動相同，貝Ij對象相同。但是同一種行動若指向不同的目的，便屬於不同的德性之習性，例如:給他人錢，若是為了天主，則屬於愛德;若是為還債，貝Ij屬於正義。所以，同一個對象也能屬於不同的習性。故此，習性之區分不是根據對象之差別。",
+      "after": "此外，行動相同，則對象相同。但是同一種行動若指向不同的目的，便屬於不同的德性之習性，例如：給他人錢，若是為了天主，則屬於愛德；若是為還債，則屬於正義。所以，同一個對象也能屬於不同的習性。故此，習性之區分不是根據對象之差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝Ij",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2316
+      ],
+      "before": "按前面第十八盟第五節所說的，行動是按對象而定類另Ij。但是，習性乃是針對行動的配備η所以，習性也是按對象以定區分。",
+      "after": "按前面第十八題第五節所說的，行動是按對象而定類別。但是，習性乃是針對行動的配備。所以，習性也是按對象以定區分。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第十八盟",
+          "after": "第十八題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類另Ij",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "配備η",
+          "after": "配備。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2316
+      ],
+      "before": "我解答如下:習性在一方面是一種形式，但又是習性。所以習性分類時，可以按一般形式之分類方式，或按習性之專有方式。形式是按主動之根本而定類別，因為凡主動者皆產生與自己類別相似者。但是習性含有對外之關係，凡指向他物者，皆按其所指向者而定區分。習性是針對兩點之配備，即針對天性，並針對隨天性而來之行動。\n故此，習性是根據三點以定類另IJ:第一，是根據這種配備之主動根本;第二，根據天性;第三，根據不同類別之對象。這點留待本節釋疑及第三節解釋。",
+      "after": "我解答如下：習性在一方面是一種形式，但又是習性。所以習性分類時，可以按一般形式之分類方式，或按習性之專有方式。形式是按主動之根本而定類別，因為凡主動者皆產生與自己類別相似者。但是習性含有對外之關係，凡指向他物者，皆按其所指向者而定區分。習性是針對兩點之配備，即針對天性，並針對隨天性而來之行動。\n故此，習性是根據三點以定類別：第一，是根據這種配備之主動根本；第二，根據天性；第三，根據不同類別之對象。這點留待本節釋疑及第三節解釋。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2316
+      ],
+      "before": "在區分機能以及習性時，不是看對象之質料，而是看對象之理或形式面，無論是別類形式或共類形式。相反之類另IJ雖然是實際上的差別，但二者是以同一觀點或理而被認知，因為一個是因另一個而被認知。因了二者之可知性之理相同，故屬於同一個認知性的習性。",
+      "after": "在區分機能以及習性時，不是看對象之質料，而是看對象之理或形式面，無論是別類形式或共類形式。相反之類別雖然是實際上的差別，但二者是以同一觀點或理而被認知，因為一個是因另一個而被認知。因了二者之可知性之理相同，故屬於同一個認知性的習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2316
+      ],
+      "before": "自然哲學家及天文學家用以證明地球是圓的之方法不同:天文學家是以數學方法，例如根據月蝕之形狀等;自然哲學家是根據物理學，例如重物之向心動態等。按《分析後論》卷一第二章說的，證明是「使人得以知道之推論」'其妓力全在於根據。故此，不同之根據有似不同之主動根本;按此，學識之習性遂有不同。",
+      "after": "自然哲學家及天文學家用以證明地球是圓的之方法不同：天文學家是以數學方法，例如根據月蝕之形狀等；自然哲學家是根據物理學，例如重物之向心動態等。按《分析後論》卷一第二章說的，證明是「使人得以知道之推論」，其效力全在於根據。故此，不同之根據有似不同之主動根本；按此，學識之習性遂有不同。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "推論」'",
+          "after": "推論」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "妓力",
+          "after": "效力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2316,
+        2317
+      ],
+      "before": "按哲學家在《物理學》卷二第九章，及《倫理學》卷七第八章所說的，行為上的日的，有似證明中之根本。為此，目的不同，德性便不同，就如是不同之主動根本。此外，目的也是內在行動之對象，由前面第+八種第六節、第十九題第二節釋疑1.、第三十四題第四節己說過的可以知道，內在行動特別屬於德性。",
+      "after": "按哲學家在《物理學》卷二第九章，及《倫理學》卷七第八章所說的，行為上的目的，有似證明中之根本。為此，目的不同，德性便不同，就如是不同之主動根本。此外，目的也是內在行動之對象，由前面第十八題第六節、第十九題第二節釋疑1.、第三十四題第四節己說過的可以知道，內在行動特別屬於德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行為上的日的",
+          "after": "行為上的目的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第+八種",
+          "after": "第十八題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "習性是否按善惡以定區分",
+      "after": "習性是否按善惡以定區分",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "習性似乎不按善惡以定區分。因為:",
+      "after": "習性似乎不按善惡以定區分。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "善與惡是對立的。但按前面第二節釋疑1.所說的，相反者屬於同一習性。所以習性不按善惡以定區分。",
+      "after": "善與惡是對立的。但按前面第二節釋疑1.所說的，相反者屬於同一習性。所以習性不按善惡以定區分。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "此外，善與物可以相替。既然善是一切東西所共有者，便不能當作某別類之間;看哲學家在《辯證論》卷四第六章所說的便可以知道。同樣，惡既然是缺欠與非物，也不能當作一物之差別。所以習性不能以善惡分類刑。",
+      "after": "此外，善與物可以相替。既然善是一切東西所共有者，便不能當作某別類之差別；看哲學家在《辯證論》卷四第六章所說的便可以知道。同樣，惡既然是缺欠與非物，也不能當作一物之差別。所以習性不能以善惡類別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "某別類之間",
+          "after": "某別類之差別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "分類刑",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "此外，關於同一個對象能有不同的惡習，例如關於慾望有放縱及麻木;同樣，按哲學家在《倫理學》卷七第一章所說的，也有許多善的習性，即人性的德性，及英勇的或神聖的德性。所以，習性不是以善惡定區分。",
+      "after": "此外，關於同一個對象能有不同的惡習，例如關於慾望有放縱及麻木；同樣，按哲學家在《倫理學》卷七第一章所說的，也有許多善的習性，即人性的德性，及英勇的或神聖的德性。所以，習性不是以善惡定區分。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2317
+      ],
+      "before": "善的習性與惡的習性相反，就如德性與惡習相反。但相反者其類別不同。所以，習性根據善惡而屬不同之類別。",
+      "after": "善的習性與惡的習性相反，就如德性與惡習相反。但相反者其類別不同。所以，習性根據善惡而屬不同之類別。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2317,
+        2318
+      ],
+      "before": "我解答如下:前面第二節曾經說過，習性不只按對象及主動之根本分類別，也針對天性分類別。這有兩種方式。第一種方式，按對天性之適合性或不適合性。這樣習性則分為善的和惡的類另IJ:善的習性是對適於天性之行動的配備，惡的習性是對不適合天性之行動的配備。就如德性之行為適合人的天性，因為是符合理性的;而惡習之行為既然不符合理性，故不適於人的天性。由此可見，根據善與惡，習性屬於不同的類別。\n第二種方式，根據天性(物性)之區分。是因為有的習性是針對適合於低級天性之行動的配備;有的習性是針對適合於高級天性之行動的配備。故此，人性德性是針對適合於人之天性的行動之配備，而英勇或神聖之德性是針對適合於某高級天性之行動的配備，所以二者不同類。",
+      "after": "我解答如下：前面第二節曾經說過，習性不只按對象及主動之根本分類別，也針對天性分類別。這有兩種方式。第一種方式，按對天性之適合性或不適合性。這樣習性則分為善的和惡的類別：善的習性是對適於天性之行動的配備，惡的習性是對不適合天性之行動的配備。就如德性之行為適合人的天性，因為是符合理性的；而惡習之行為既然不符合理性，故不適於人的天性。由此可見，根據善與惡，習性屬於不同的類別。\n第二種方式，根據天性(物性)之區分。是因為有的習性是針對適合於低級天性之行動的配備；有的習性是針對適合於高級天性之行動的配備。故此，人性德性是針對適合於人之天性的行動之配備，而英勇或神聖之德性是針對適合於某高級天性之行動的配備，所以二者不同類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類另IJ",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "倘若相反者能有共同之理，貝IJ能屬於同一個習性;但是相反之習性不能屬於同一類別。因為習性之相反是由於相反之理。為此，根據善及惡，習性之類別不同，即一為善習，一為惡習;也不是因為一個是關於善的，一個是關於惡的。",
+      "after": "倘若相反者能有共同之理，則能屬於同一個習性；但是相反之習性不能屬於同一類別。因為習性之相反是由於相反之理。為此，根據善及惡，習性之類別不同，即一為善習，一為惡習；但不是因為一個是關於善的，一個是關於惡的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "也不是因為",
+          "after": "但不是因為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "物所共有之善不是構成某習性之種類的差別;構成此差別者是某固定之善，即適合某固定之天性者，亦即通合人性者。同樣，構成習性之差別的惡也不是純缺欠，而是與某固定天性相反的固定東西。",
+      "after": "物所共有之善不是構成某習性之種類的差別；構成此差別者是某固定之善，即適合某固定之天性者，亦即適合人性者。同樣，構成習性之差別的惡也不是純缺欠，而是與某固定天性相反的固定東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "亦即通合人性",
+          "after": "亦即適合人性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "關於同一種事物之不同的善習性，按前面正解說的﹒是根據對不同之天性的適合性而定類別。關於同一事的各種惡習，是由於在多方面與適合天性者相反而分類;例如關於同一類事，有不同的惡習與同一德性相反。",
+      "after": "關於同一種事物之不同的善習性，按前面正解說的，是根據對不同之天性的適合性而定類別。關於同一事的各種惡習，是由於在多方面與適合天性者相反而分類；例如關於同一類事，有不同的惡習與同一德性相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "說的﹒",
+          "after": "說的，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "一個習性是否由許多習性構成的",
+      "after": "一個習性是否由許多習性構成的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "似乎一個習性是由許多習性構成的。因為:",
+      "after": "似乎一個習性是由許多習性構成的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2318
+      ],
+      "before": "一個東西之產生，若不是一下就完成的，而是逐漸完成的，似乎是由許多部分構成的c但是習性之產生，不是一下就完成的，而是逐漸由許多行動完成的，如前面第五十一題第三節已經說過的。所以，一個習性是由許多習性構成的。",
+      "after": "一個東西之產生，若不是一下就完成的，而是逐漸完成的，似乎是由許多部分構成的。但是習性之產生，不是一下就完成的，而是逐漸由許多行動完成的，如前面第五十一題第三節己經說過的。所以，一個習性是由許多習性構成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "構成的c",
+          "after": "構成的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2318,
+        2319
+      ],
+      "before": "此外，整體是由部分構成的。但是一個習性有許多部分，例如:西塞祿認為勇敢、節制及其他德性，具有許多部分(《修辭學》卷二第五十四章)。所以，一個習性是由許多習性構成的。",
+      "after": "此外，整體是由部分構成的。但是一個習性有許多部分，例如：西塞祿認為勇敢、節制及其他德性，具有許多部分(《修辭學》卷二第五十四章)。所以，一個習性是由許多習性構成的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2319
+      ],
+      "before": "此外，從一個結論就能有學識之行動及習性。但是，許多結論共屬於一個完整的學間，例如:幾何學或數學。所以，一個習性是由許多習性構成的。",
+      "after": "此外，從一個結論就能有學識之行動及習性。但是，許多結論共屬於一個完整的學問，例如：幾何學或數學。所以，一個習性是由許多習性構成的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "學間",
+          "after": "學問",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2319
+      ],
+      "before": "既然習性是一種品質，乃是單純的形式。但是，沒有單純者是由許多東西構成的。所以，一個習性不是由許多習性構成的。",
+      "after": "既然習性是一種品質，乃是單純的形式。但是，沒有單純者是由許多東西構成的。所以，一個習性不是由許多習性構成的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q054.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2319
+      ],
+      "before": "我解答如下:我們這裡所討論的，主要是針對行動之習性。這種習性是機能的一種成就。凡成就皆與可成就者相稱。機能雖然是一個，卻展向許多行動，如果這些行動具有某共同點，即如果合於一個共同的對象之理。同樣，根據之前第二及第三節的解釋，一個習性也包括許多行動，如果這些行動與某一共同點有關係，例如:指向同一類之對象，或指向同一個天性，或同一個根本。\n所以，若我們看習性所指向者，買IJ習性含有一種複合性。但是由於這種複合性是指向某種「單一」的，而習性主要是針對「單一」的，所以習性是單純品質，不是由許多習性構成的，縱然它展向許多行動。如果複多與某單一沒有關係，不能因而構成一個單位，則一個習性不展向複多。",
+      "after": "我解答如下：我們這裡所討論的，主要是針對行動之習性。這種習性是機能的一種成就。凡成就皆與可成就者相稱。機能雖然是一個，卻展向許多行動，如果這些行動具有某共同點，即如果合於一個共同的對象之理。同樣，根據之前第二及第三節的解釋，一個習性也包括許多行動，如果這些行動與某一共同點有關係，例如：指向同一類之對象，或指向同一個天性，或同一個根本。\n所以，若我們看習性所指向者，則習性含有一種複合性。但是由於這種複合性是指向某種「單一」的，而習性主要是針對「單一」的，所以習性是單純品質，不是由許多習性構成的，縱然它展向許多行動。如果複多與某單一沒有關係，不能因而構成一個單位，則一個習性不展向複多。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2319
+      ],
+      "before": "習性的逐漸生成，不是由於一部分產生在另一部分之後，而是在於主體之配備不立刻就能鞏固，以致不易改變;並在於開始時不完美，以後漸漸達到完美狀態。其他品質也是如此。",
+      "after": "習性的逐漸生成，不是由於一部分產生在另一部分之後，而是在於主體之配備不立刻就能鞏固，以致不易改變；並在於開始時不完美，以後漸漸達到完美狀態。其他品質也是如此。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2319,
+        2320
+      ],
+      "before": "關於各達德所謂的部分，不是指的構成整體的完整部分(partes integrales)，而是指的主體性部分(partes subjectivae)或潛能性部分(partes potentiales);這在以後第五十七題第六節釋疑4.、第二集第二部第四十八題再講。",
+      "after": "關於各達德所謂的部分，不是指的構成整體的完整部分(partes integrales)，而是指的主體性部分(partes subjectivae)或潛能性部分(partes potentiales)；這在以後第五十七題第六節釋疑4.、第二集第二部第四十八題再講。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q054.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2320
+      ],
+      "before": "一人在某學識方面，因了一個證明之結論所得到的學識，固然是習性，但不是完美的。在他因了另一個證明之結論再得到學識時，不是產生另一個習性，而是原有立習性變為更完美，因為比以前包括的多;這是因為一門學識之各結論和證明是彼此關連的，一個是源自另一個。",
+      "after": "一人在某學識方面，因了一個證明之結論所得到的學識，固然是習性，但不是完美的。在他因了另一個證明之結論再得到學識時，不是產生另一個習性，而是原有之習性變為更完美，因為比以前包括的多；這是因為一門學識之各結論和證明是彼此關連的，一個是源自另一個。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "原有立習性",
+          "after": "原有之習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
