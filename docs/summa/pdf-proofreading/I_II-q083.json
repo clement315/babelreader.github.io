@@ -1,0 +1,1338 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q083",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "23cc7fbdc1d666ae7ceae2cc41b91529cface349",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q083",
+    "title": "論原罪之主體",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2640,
+      2641,
+      2642,
+      2643,
+      2644,
+      2645,
+      2646,
+      2647
+    ],
+    "printed_pages": [
+      374,
+      381
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 54,
+    "changed_review_units": 37,
+    "checked_unchanged_review_units": 18
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q83.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q83.json": "8d9070238ef8f48939ba6182c496b1386c740e44d54587ec9472eab3d86a4462"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q083.a001.ad1",
+      "pdf_file_page": 2642,
+      "text": "己得了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q083.a001.ad1",
+      "pdf_file_page": 2642,
+      "text": "己擺脫",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q083.a002.ad1",
+      "pdf_file_page": 2644,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q083.a002.ad4",
+      "pdf_file_page": 2644,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q083.a003.arg3",
+      "pdf_file_page": 2644,
+      "text": "己知",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q083.a004.ad1",
+      "pdf_file_page": 2646,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q083.a004.ad3",
+      "description": "将误并入答复二的答复三移入既有空字段，删除误入页码381及页眉；键名、结构及各字段换行转义保持原样。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批接续第二部第一集第81–89题，完成这一组罪过相关章节；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q083.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "然後要討論的是原罪之主體(參看第八十一題引言)。\n關於這點，可以提出四個問題:\n一、原罪之主體首先是身體或靈魂。\n二、若是靈魂，是因其本體或因其機能。\n三、意志是否比其他機能更是原罪之主體。\n四、是否有靈魂之某些機能特別受到污染，即生撞機能、慾情及觸覺。",
+      "after": "然後要討論的是原罪之主體(參看第八十一題引言)。\n關於這點，可以提出四個問題：\n一、原罪之主體首先是身體或靈魂。\n二、若是靈魂，是因其本體或因其機能。\n三、意志是否比其他機能更是原罪之主體。\n四、是否有靈魂之某些機能特別受到污染，即生殖機能、慾情及觸覺。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "生撞",
+          "after": "生殖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "原罪是否主要是在肉身上，而不是在靈魂上",
+      "after": "原罪是否主要是在肉身上，而不是在靈魂上",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "似乎原罪主要是在肉身上而非在靈魂上。因為:",
+      "after": "似乎原罪主要是在肉身上而非在靈魂上。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "肉身之反抗心靈來自原罪之腐化。但這反抗之根抵是在肉身上;因為宗徒在《羅馬書》第七章23節說:「我發覺在我的肢體上，另有一條法律，與我理智所贊同的法律交戰。」所以原罪主要在於肉身上。",
+      "after": "肉身之反抗心靈來自原罪之腐化。但這反抗之根抵是在肉身上；因為宗徒在《羅馬書》第七章23節說：「我發覺在我的肢體上，另有一條法律，與我理智所贊同的法律交戰。」所以原罪主要在於肉身上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "此外，任何事物在原因內者，甚於在效果內者;就如燒(水)之火之熱，甚於熱水之熱。但靈魂受原罪污染是由於肉體的精子。所以，原罪主要是在肉身上，而非在於靈魂上。",
+      "after": "此外，任何事物在原因內者，甚於在效果內者；就如燒(水)之火之熱，甚於熱水之熱。但靈魂受原罪污染是由於肉體的精子。所以，原罪主要是在肉身上，而非在於靈魂上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2640
+      ],
+      "before": "此外，我們自原祖染有原罪，是由於按精子之理我們曾在他內。所以是肉身在他內，而不是靈魂。所以，原罪不是在靈魂上，而是在肉身上。",
+      "after": "此外，我們自原祖染有原罪，是由於按精子之理我們曾在他內。所以是肉身在他內，而不是靈魂。所以，原罪不是在靈魂上，而是在肉身上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2640,
+        2641
+      ],
+      "before": "此外，靈魂是天主所造，並注入身體的。若是靈魂受到原罪之污染，貝'J該是在受造時或在注入時受的污染。如此頁。創造和注入靈魂(於身體)的天主便是原罪之原因了。",
+      "after": "此外，靈魂是天主所造，並注入身體的。若是靈魂受到原罪之污染，則該是在受造時或在注入時受的污染。如此則創造和注入靈魂(於身體)的天主便是原罪之原因了。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝'J",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如此頁。",
+          "after": "如此則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.arg5",
+      "article": 1,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        2641
+      ],
+      "before": "此外，聰明人若知道將貴重的液體注入某受污染的器血內，液體會受到污染，便不會注入此器血。但靈魂比什麼珍貴液體都貴重。倘若靈魂與身體結合後會受原罪之污染，貝IJ以天主之智慧絕不會將靈魂注入身體。但祂將靈魂注入身體。所以，靈魂不受肉身之污染。故此，原罪不是在靈魂上，而是在肉身上。",
+      "after": "此外，聰明人若知道將貴重的液體注入某受污染的器皿內，液體會受到污染，便不會注入此器皿。但靈魂比什麼珍貴液體都貴重。倘若靈魂與身體結合後會受原罪之污染，則以天主之智慧絕不會將靈魂注入身體。但祂將靈魂注入身體。所以，靈魂不受肉身之污染。故此，原罪不是在靈魂上，而是在肉身上。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "器血",
+          "after": "器皿",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2641
+      ],
+      "before": "德性之主體，及與德性相反之惡習，與罪過之主體，是同一個。但肉身不能是德性之主體;因為宗徒在《羅馬書》第七章18節說:「我知道善不在我內，即不在我的肉性內。」所以，肉身不能是原罪之主體，只有靈魂能是原罪之主體。",
+      "after": "德性之主體，及與德性相反之惡習，與罪過之主體，是同一個。但肉身不能是德性之主體；因為宗徒在《羅馬書》第七章18節說：「我知道善不在我內，即不在我的肉性內。」所以，肉身不能是原罪之主體，只有靈魂能是原罪之主體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2641,
+        2642
+      ],
+      "before": "我解答如下:一個東西在另一個東西內有兩種方式:一種是在原因內，無論為主動的或工具性的原因;第二種是在主體內。按宗徒在《羅馬書》第五章12節所說的，眾人的原罪都會是在亞當身上，有如是在第一個主動原因上: 「在他內大家都犯了罪」。原罪是在精子內，有如在工具原因內，因為原罪同天性皆是靠椅子之生殖力而傳於後代。但是按在主體內而言，原罪只能是在靈魂上，絕不能是在肉身上。\n再由是前面第八十一題第一節曾經說過，就如人的本罪是由意志而傳於其他肢體;原罪則是由原祖之意志，靠生殖力動作傳於後代子孫c在這傳遞中要知道，凡由罪過之意志的推動，而傳於任何能參與罪過之肢體上者，或以主體方式，或以工具方式，皆有罪過之意義。就如由於貪鑒之意志，因而使慾情部分貪求食物，使手和嘴取食食物;後二者在意志的推動下是罪過之工具。但以後之消化器官和內臟之動態，因為不受意志之支配，沒有罪過之意義。\n因此，既然靈魂能是罪過之主體，而身體本身不能，所以凡由於第一個罪之腐化而傳到靈魂者，皆有罪過之意義;傳到肉身上者，沒有罪過之意義，而是處罰。故此，靈魂是原罪之主體，肉身則不是。",
+      "after": "我解答如下：一個東西在另一個東西內有兩種方式：一種是在原因內，無論為主動的或工具性的原因；第二種是在主體內。按宗徒在《羅馬書》第五章12節所說的，眾人的原罪都會是在亞當身上，有如是在第一個主動原因上：「在他內大家都犯了罪」。原罪是在精子內，有如在工具原因內，因為原罪同天性皆是靠精子之生殖力而傳於後代。但是按在主體內而言，原罪只能是在靈魂上，絕不能是在肉身上。\n理由是前面第八十一題第一節曾經說過，就如人的本罪是由意志而傳於其他肢體；原罪則是由原祖之意志，靠生殖力動作傳於後代子孫。在這傳遞中要知道，凡由罪過之意志的推動，而傳於任何能參與罪過之肢體上者，或以主體方式，或以工具方式，皆有罪過之意義。就如由於貪饕之意志，因而使慾情部分貪求食物，使手和嘴取食食物；後二者在意志的推動下是罪過之工具。但以後之消化器官和內臟之動態，因為不受意志之支配，沒有罪過之意義。\n因此，既然靈魂能是罪過之主體，而身體本身不能，所以凡由於第一個罪之腐化而傳到靈魂者，皆有罪過之意義；傳到肉身上者，沒有罪過之意義，而是處罰。故此，靈魂是原罪之主體，肉身則不是。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "靠椅子",
+          "after": "靠精子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "再由是",
+          "after": "理由是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "子孫c",
+          "after": "子孫。在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "在在這",
+          "after": "在這",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貪鑒",
+          "after": "貪饕",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2642
+      ],
+      "before": "按奧斯定在《訂正錄》卷一第二十六章所說的，宗徒那裡講的是己得了救贖的人:他已擺脫罪過，但仍受有處罰。由於處罰之關係，故《羅馬書》第七章17節說罪過「住在我們的身體內」。所以，肉身不是罪過之主體，只是處罰之主體。",
+      "after": "按奧斯定在《訂正錄》卷一第二十六章所說的，宗徒那裡講的是己得了救贖的人：他己擺脫罪過，但仍受有處罰。由於處罰之關係，故《羅馬書》第七章17節說罪過「住在我們的身體內」。所以，肉身不是罪過之主體，只是處罰之主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "他已擺脫",
+          "after": "他己擺脫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2642
+      ],
+      "before": "原罪是以精子為工具原因。在工具原因中者，不必強於在效果中者;只有在主動原因中者，須強於在效果中者。故此，在亞當身上的原罪較重，因為同時那也是本罪。",
+      "after": "原罪是以精子為工具原因。在工具原因中者，不必強於在效果中者；只有在主動原因中者，須強於在效果中者。故此，在亞當身上的原罪較重，因為同時那也是本罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2642
+      ],
+      "before": "人的靈魂按精子乏理之在犯罪者亞當內，不是因為亞當是主動之根本，而是因為他是準備上的根本，因為由亞當傳下的精子本身不產生靈魂，只是準備靈魂之產生。",
+      "after": "人的靈魂按精子之理之在犯罪者亞當內，不是因為亞當是主動之根本，而是因為他是準備上的根本，因為由亞當傳下的精子本身不產生靈魂，只是準備靈魂之產生。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "精子乏理",
+          "after": "精子之理",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2642
+      ],
+      "before": "原罪之污染絕不是由天主促使的，而是隻藉生殖，由原祖之罪過促成的。既然創造時，靈魂只與天主有關係，故不能說靈魂在創造時受到污染。但灌注時與天主有關係，與身體也有關係，因為是灌注在身體內。從對天主的關係上看，不能說靈魂因灌注而受到污染;只從對其灌注目j的身體的關係上，可以這樣說G",
+      "after": "原罪之污染絕不是由天主促使的，而是只藉生殖，由原祖之罪過促成的。既然創造時，靈魂只與天主有關係，故不能說靈魂在創造時受到污染。但灌注時與天主有關係，與身體也有關係，因為是灌注在身體內。從對天主的關係上看，不能說靈魂因灌注而受到污染；只從對其灌注到的身體的關係上，可以這樣說。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻藉",
+          "after": "只藉",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目j",
+          "after": "到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "說G",
+          "after": "說。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a001.ad5",
+      "article": 1,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        2642
+      ],
+      "before": "共同之利益高於個體之利益。故此，天主之上智不能為了避免這個靈魂之污漿，而破壞萬物的普遍秩序;是這普遍秩序使這樣的靈魂灌注於這樣的肉體。何況按第一集第九十題第四節、第一一八題第三節所說的，靈魂按天性只在肉體中才開始存在。所以，靈魂按天性這樣存在，比根本不存在好;何況靠恩寵，靈魂又能夠進脫永罰。",
+      "after": "共同之利益高於個體之利益。故此，天主之上智不能為了避免這個靈魂之污染，而破壞萬物的普遍秩序；是這普遍秩序使這樣的靈魂灌注於這樣的肉體。何況按第一集第九十題第四節、第一一八題第三節所說的，靈魂按天性只在肉體中才開始存在。所以，靈魂按天性這樣存在，比根本不存在好；何況靠恩寵，靈魂又能夠逃脫永罰。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "污漿",
+          "after": "污染",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "進脫",
+          "after": "逃脫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "原罪是否首先在靈魂之本體上，而非在其機能上",
+      "after": "原罪是否首先在靈魂之本體上，而非在其機能上",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "原罪似乎不是首先在靈魂之本體上，而後在機能上。因為:",
+      "after": "原罪似乎不是首先在靈魂之本體上，而後在機能上。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "靈魂之為罪過的主體，是由於能受意志之推動。但靈魂之受意志推動不在於本體，而在於其機能。所以原罪不是在靈魂的本體上，而是在其機能上。",
+      "after": "靈魂之為罪過的主體，是由於能受意志之推動。但靈魂之受意志推動不在於本體，而在於其機能。所以原罪不是在靈魂的本體上，而是在其機能上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "此外，原罪與原始之正義相反。但原始之正義是在靈魂的機能上，因為機能是德性之主體。所以，原罪主要也是在靈魂之機能上，而非在其本體上。",
+      "after": "此外，原罪與原始之正義相反。但原始之正義是在靈魂的機能上，因為機能是德性之主體。所以，原罪主要也是在靈魂之機能上，而非在其本體上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "此外，就如原罪是由肉身傳給靈魂;同樣，是由靈魂之本體傳給機能。但原罪主要是在靈魂上，而非在肉身上。所以主要是在靈魂的機能上，而非在其本體上。",
+      "after": "此外，就如原罪是由肉身傳給靈魂；同樣，是由靈魂之本體傳給機能。但原罪主要是在靈魂上，而非在肉身上。所以主要是在靈魂的機能上，而非在其本體上。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "此外，按前面第八十二題第三節所說的，原罪是貪慾。但貪慾是在靈魂的機能上。所以，原罪也是一樣。",
+      "after": "此外，按前面第八十二題第三節所說的，原罪是貪慾。但貪慾是在靈魂的機能上。所以，原罪也是一樣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2643
+      ],
+      "before": "按前面第八十一題第一節所說的，原罪是天性的罪過。但按第一軍第七十六題第六師所說的，靈魂之為身體之形式和天性，是根據其本體，而非根據其機能。所以，靈魂主要也是以其本體為原罪之主體。",
+      "after": "按前面第八十一題第一節所說的，原罪是天性的罪過。但按第一集第七十六題第六節所說的，靈魂之為身體之形式和天性，是根據其本體，而非根據其機能。所以，靈魂主要也是以其本體為原罪之主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一軍",
+          "after": "第一集",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第六師",
+          "after": "第六節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2643,
+        2644
+      ],
+      "before": "我解答如下:在靈魂上，罪過之主要主體，首先是罪過之推動原因所屬的那部分。就如推動犯罪的原因如果是感官之快樂，而這種快樂是慾情部分的固有對象，貝IJ這罪的固有主體是慾情能1J。原罪顯然是由生植產生的;所以，人之生殖在靈魂上首先接觸到的，是原罪的第一個主體。生殖之觸及靈魂有如終點，因為靈魂是身體之形式;而按第一集第七十六題第六節所說的，靈魂之為身體的形式是根據靈魂之本體。所以靈魂的本體是原罪的第一個主體。",
+      "after": "我解答如下：在靈魂上，罪過之主要主體，首先是罪過之推動原因所屬的那部分。就如推動犯罪的原因如果是感官之快樂，而這種快樂是慾情部分的固有對象，則這罪的固有主體是慾情能力。原罪顯然是由生殖產生的；所以，人之生殖在靈魂上首先接觸到的，是原罪的第一個主體。生殖之觸及靈魂有如終點，因為靈魂是身體之形式；而按第一集第七十六題第六節所說的，靈魂之為身體的形式是根據靈魂之本體。所以靈魂的本體是原罪的第一個主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能1J",
+          "after": "能力",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "生植",
+          "after": "生殖",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "就如人的意志之推動力是達到靈魂之機能，而不是達到其本體;同樣，按上面正解己說過的，原祖之意志的動力通過生殖能力，首先達到靈魂之本體。",
+      "after": "就如人的意志之推動力是達到靈魂之機能，而不是達到其本體；同樣，按上面正解己說過的，原祖之意志的動力通過生殖能力，首先達到靈魂之本體。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "原始之正義也是首先屬於靈魂之本體，那是天主賞給人性的;而人性首先在於靈魂之本體，而非在於其機能。機能主要是屬於個體的，因為那是個人之行動的根本。故此，機能是本罪的固有主體，因為本罪是個人的。",
+      "after": "原始之正義也是首先屬於靈魂之本體，那是天主賞給人性的；而人性首先在於靈魂之本體，而非在於其機能。機能主要是屬於個體的，因為那是個人之行動的根本。故此，機能是本罪的固有主體，因為本罪是個人的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "身體與靈魂的關係'乃質料與形式的關係。在生長過程中，形式雖是最後的，但按完美和天性程度卻是居首位。靈魂之本體與機能的關(系，乃主體與其依附體的關係;依附體無論按生長過程或按完美之程度，皆後於主體。故二者不能相提並論。",
+      "after": "身體與靈魂的關係，乃質料與形式的關係。在生長過程中，形式雖是最後的，但按完美和天性程度卻是居首位。靈魂之本體與機能的關係，乃主體與其依附體的關係；依附體無論按生長過程或按完美之程度，皆後於主體。故二者不能相提並論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關(系",
+          "after": "關係",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "如第八十二題第三節己說過的，貪慾與原罪之關係，前者是後者之質料及後果。",
+      "after": "如第八十二題第三節己說過的，貪慾與原罪之關係，前者是後者之質料及後果。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "原罪是否污染意志先於其他機能",
+      "after": "原罪是否污染意志先於其他機能",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "原罪似乎不是污染意志先於其他機能。因為:",
+      "after": "原罪似乎不是污染意志先於其他機能。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "凡罪過皆主要屬於那產生罪過之行動的機能。但原罪是由生殖機能之行動產生的。所以，靈魂之諸機能中，原罪特別屬於這個機能。",
+      "after": "凡罪過皆主要屬於那產生罪過之行動的機能。但原罪是由生殖機能之行動產生的。所以，靈魂之諸機能中，原罪特別屬於這個機能。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "此外，原罪是靠肉身之精子傳染。但別的機能比意志與身體的關係近，就如運用身體器官的感官性機能。所以，原罪主要在這些機能，而非在意志。",
+      "after": "此外，原罪是靠肉身之精子傳染。但別的機能比意志與身體的關係近，就如運用身體器官的感官性機能。所以，原罪主要在這些機能，而非在意志。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2644
+      ],
+      "before": "此外，智性先於意志，因為只有對已知的善才能有意願。若原罪污染所有的機能，似乎是該先污染智性。",
+      "after": "此外，智性先於意志，因為只有對己知的善才能有意願。若原罪污染所有的機能，似乎是該先污染智性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已知",
+          "after": "己知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "原始之正義首先在於意志;因為按安瑟誤在《論童女受孕與原罪》第三章所說的，原始正義是「意志之正直」。所以，與之相反的原罪首先是在於意志。",
+      "after": "原始之正義首先在於意志；因為按安瑟諾在《論童女受孕與原罪》第三章所說的，原始正義是「意志之正直」。所以，與之相反的原罪首先是在於意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "安瑟誤",
+          "after": "安瑟諾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "我解答如下:關於原罪之污染要注意兩點。第一是原罪之附著於主體;關於這點，按前面第二節所說的，首先在於靈魂之本體。第二是其對行動的傾向;這主要在於靈魂之機能。為此，首先受污染的機能，該是那有第一個犯罪傾向的。由前面第七十四題第一及第二節所說的可以知道，這個就是意志。所以原罪先污染意志。",
+      "after": "我解答如下：關於原罪之污染要注意兩點。第一是原罪之附著於主體；關於這點，按前面第二節所說的，首先在於靈魂之本體。第二是其對行動的傾向；這主要在於靈魂之機能。為此，首先受污染的機能，該是那有第一個犯罪傾向的。由前面第七十四題第一及第二節所說的可以知道，這個就是意志。所以原罪先污染意志。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "原罪不是子女之生殖機能造成的，而是父母之生殖機能之行動造成的。所以，人自己的生殖機能不必是原罪的第一個主體。",
+      "after": "原罪不是子女之生殖機能造成的，而是父母之生殖機能之行動造成的。所以，人自己的生殖機能不必是原罪的第一個主體。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "原罪有兩個傳染過程:第一個是由身體到靈魂;第二個是由靈魂之本體到機能。第一過程是按生長程序;第二個過程是按凳美程度之次序。故此，別的機能一一即感官性機能一一雖然與肉身的關係近，但因了意志與靈魂之本體的關係近，是較高的機能，所以先受原罪之污染。",
+      "after": "原罪有兩個傳染過程：第一個是由身體到靈魂；第二個是由靈魂之本體到機能。第一過程是按生長程序；第二個過程是按完美程度之次序。故此，別的機能——即感官性機能——雖然與肉身的關係近，但因了意志與靈魂之本體的關係近，是較高的機能，所以先受原罪之污染。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "凳美",
+          "after": "完美",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "機能一一",
+          "after": "機能——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "智性之在意志之先，是因為它給意志提供對象。但在推動行動方面，意志貝IJ先於智性，而意志之推動屬於罪過。",
+      "after": "智性之在意志之先，是因為它給意志提供對象。但在推動行動方面，意志則先於智性，而意志之推動屬於罪過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "上述機能是否比其他機能受的污染更重",
+      "after": "上述機能是否比其他機能受的污染更重",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2645
+      ],
+      "before": "上述機能(生殖機能、慾情機能、觸覺等)，似乎不比其他機能受的污染更重。因為:",
+      "after": "上述機能(生殖機能、慾情機能、觸覺等)，似乎不比其他機能受的污染更重。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2645,
+        2646
+      ],
+      "before": "原罪的污染主要屬於靈魂內、首先能是罪過之主體的那部分，而這是靈魂的理性部分，特別是意志。所以，意志受的原罪之污染最重。",
+      "after": "原罪的污染主要屬於靈魂內、首先能是罪過之主體的那部分，而這是靈魂的理性部分，特別是意志。所以，意志受的原罪之污染最重。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2646
+      ],
+      "before": "此外，靈魂的機能之能受罪過的污染，是由於能服從理性。按《倫理學》卷一第十三章所說的，生殖機能不能服從理性。所以生殖機能不是受原罪污染最重的。",
+      "after": "此外，靈魂的機能之能受罪過的污染，是由於能服從理性。按《倫理學》卷一第十三章所說的，生殖機能不能服從理性。所以生殖機能不是受原罪污染最重的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q083.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2646
+      ],
+      "before": "此外，在各感官中，以視覺最精神化，並與理性的關係最近;因為按《形上學》卷一第一章所說的，視覺「指示出東西的差別較多」。但原罪之污染首先觸到理性。所以，視覺比觸覺受的污染更重。",
+      "after": "此外，在各感官中，以視覺最精神化，並與理性的關係最近；因為按《形上學》卷一第一章所說的，視覺「指示出東西的差別較多」。但原罪之污染首先觸到理性。所以，視覺比觸覺受的污染更重。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2646
+      ],
+      "before": "奧斯定在《天主之城》卷十四第二十章卻說，原罪的污染在不服從理性的生殖器官之衝動中最為明顯。但那器官是為在男女購合時，受生殖力運用的;在這購閤中有觸覺上的快樂，最能刺激慾情。所以，受原罪污染特別重的是這三個，.tìP:生殖機能，慾情能力和觸覺。",
+      "after": "奧斯定在《天主之城》卷十四第二十章卻說，原罪的污染在不服從理性的生殖器官之衝動中最為明顯。但那器官是為在男女媾合時，受生殖力運用的；在這媾合中有觸覺上的快樂，最能刺激慾情。所以，受原罪污染特別重的是這三個，即：生殖機能，慾情能力和觸覺。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "購合",
+          "after": "媾合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "購閤",
+          "after": "媾合",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": ".tìP:",
+          "after": "即：",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2646
+      ],
+      "before": "我解答如下:能夠傳於他物的腐化，平常稱為污染;為此，那些能傳染的病，如:痲瘋，癖福等，皆稱為污染。按前面第八十一題第一節所說的，原罪之腐化作用是靠生殖行動傳染;為此，參與這行動的機能，被視為受的污染最重。這行動既然是指向生殖，所以是為生殖機能服務，這行動本身具有觸覺上的快樂，而這快樂是慾情的主要對象。靈魂所有的機能都受有原罪之污染，但這三個機能受的污染最重。",
+      "after": "我解答如下：能夠傳於他物的腐化，平常稱為污染；為此，那些能傳染的病，如：痲瘋，癬癩等，皆稱為污染。按前面第八十一題第一節所說的，原罪之腐化作用是靠生殖行動傳染；為此，參與這行動的機能，被視為受的污染最重。這行動既然是指向生殖，所以是為生殖機能服務，這行動本身具有觸覺上的快樂，而這快樂是慾情的主要對象。靈魂所有的機能都受有原罪之污染，但這三個機能受的污染最重。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "癖福",
+          "after": "癬癩",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2646
+      ],
+      "before": "按上面第三節己說過的，原罪在趨向於本罪那方面，主要屬於意志。但在傳染給後代之作用那方面，直接屬於上述之(三種)機能，問接地屬於意志。",
+      "after": "按上面第三節己說過的，原罪在趨向於本罪那方面，主要屬於意志。但在傳染給後代之作用那方面，直接屬於上述之(三種)機能，間接地屬於意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "問接",
+          "after": "間接",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2646,
+        2647
+      ],
+      "before": "本罪之污染只及於受意志推動之機能。但原罪之污染不繫於染有原罪者之意志，而是由於血統。而生殖機能是工具。是以，這個機能受有原罪之污染。3.視覺與生殖行動沒有直接關係，只有一種準備作用，即呈顯可欲之對象。但快樂是在觸覺上完成。故說觸覺比視覺381受的污染更重。一{第二集﹒第一部}第八十三題論原罪之主體",
+      "after": "本罪之污染只及於受意志推動之機能。但原罪之污染不繫於染有原罪者之意志，而是由於血統。而生殖機能是工具。是以，這個機能受有原罪之污染。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "本罪之污染只及於受意志推動之機能。但原罪之污染不繫於染有原罪者之意志，而是由於血統。而生殖機能是工具。是以，這個機能受有原罪之污染。3.視覺與生殖行動沒有直接關係，只有一種準備作用，即呈顯可欲之對象。但快樂是在觸覺上完成。故說觸覺比視覺381受的污染更重。一{第二集﹒第一部}第八十三題論原罪之主體",
+          "after": "本罪之污染只及於受意志推動之機能。但原罪之污染不繫於染有原罪者之意志，而是由於血統。而生殖機能是工具。是以，這個機能受有原罪之污染。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q083.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2647
+      ],
+      "before": "",
+      "after": "視覺與生殖行動沒有直接關係，只有一種準備作用，即呈顯可欲之對象。但快樂是在觸覺上完成。故說觸覺比視覺受的污染更重。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "視覺與生殖行動沒有直接關係，只有一種準備作用，即呈顯可欲之對象。但快樂是在觸覺上完成。故說觸覺比視覺受的污染更重。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        }
+      ]
+    }
+  ]
+}
