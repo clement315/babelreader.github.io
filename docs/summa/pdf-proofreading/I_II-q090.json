@@ -1,0 +1,1220 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q090",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q090",
+    "title": "論法律之本質",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2730,
+      2731,
+      2732,
+      2733,
+      2734,
+      2735,
+      2736
+    ],
+    "printed_pages": [
+      1,
+      7
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 35,
+    "checked_unchanged_review_units": 14
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q90.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q90.json": "dd61bca4f3296b92bce67a19c1fac389464210b46c4774090495034199c3f395"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q090.prologue",
+      "pdf_file_page": 2730,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q090.a001.arg2",
+      "pdf_file_page": 2730,
+      "text": "己討論",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q090.a001.ad3",
+      "pdf_file_page": 2732,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q090.a003.ad1",
+      "pdf_file_page": 2735,
+      "text": "己刻",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q090.a004.ad3",
+      "pdf_file_page": 2736,
+      "text": "(lege)",
+      "status": "suspected_source_print_error",
+      "action": "原页确作lege，疑为legere的漏印，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q090.prologue",
+      "description": "删除引言前误识乱码；按要求保留三处原有换行，故开头留空行。"
+    }
+  ],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q090.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "。\n間白嗎間和質\n/­\n隨後要討論的是行為的外在根本(參看第四十九題引言)。促使人向惡之外在根本是魔鬼;在第一集第一一四題已經討論了魔鬼的誘惑。推動人向善之外在根本是天主，祂以法律訓導我1門，並以恩寵助佑我們。故此先論法律;然後再討論恩寵(第-0九題)。關於法律，先討論關於法律的一般問題;然後討論個別問題(第九十三題)。關於法律的一般問題，要討論三點:第一，論法律之本質;第二，論法律之區分(第九十一題);第三，論法律之效果(第九十二題)。\n關於第一點，可以提出四個問題:\n一、法律是否屬於理性。\n4、論法律之目的。\n三、論法律之原因。\n四、論法律之頭布。",
+      "after": "\n\n\n隨後要討論的是行為的外在根本(參看第四十九題引言)。促使人向惡之外在根本是魔鬼；在第一集第一一四題己經討論了魔鬼的誘惑。推動人向善之外在根本是天主，祂以法律訓導我們，並以恩寵助佑我們。故此先論法律；然後再討論恩寵(第一〇九題)。關於法律，先討論關於法律的一般問題；然後討論個別問題(第九十三題)。關於法律的一般問題，要討論三點：第一，論法律之本質；第二，論法律之區分(第九十一題)；第三，論法律之效果(第九十二題)。\n關於第一點，可以提出四個問題：\n一、法律是否屬於理性。\n二、論法律之目的。\n三、論法律之原因。\n四、論法律之頒布。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "。\n間白嗎間和質\n/­\n",
+          "after": "\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "我1門",
+          "after": "我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第-0九題",
+          "after": "第一〇九題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "4、",
+          "after": "二、",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頭布",
+          "after": "頒布",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "法律是否屬於理性",
+      "after": "法律是否屬於理性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "法律似乎不屬於理性。因為:",
+      "after": "法律似乎不屬於理性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2730
+      ],
+      "before": "宗徒在《羅馬書》第七章23節說:「我發覺在我的肢體內，另有一條法律」等等。但屬於理性的不是在肢體內，因為理性不運用肉體器官。所以法律不屬於理性。",
+      "after": "宗徒在《羅馬書》第七章23節說：「我發覺在我的肢體內，另有一條法律」等等。但屬於理性的不是在肢體內，因為理性不運用肉體器官。所以法律不屬於理性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2730,
+        2731
+      ],
+      "before": "此外，在理性中只有機能、習性和行動。法律不是理性之機能，同樣也不是理性的一種習性，因為理性之習性是智性德性;先前第五十七題已討論過這些德性。法律也不是理性之行動;否則，假如理性之行動停止，例如:人在睡眠時，就會沒有法律了。所以，法律不是屬於理性的東西。",
+      "after": "此外，在理性中只有機能、習性和行動。法律不是理性之機能，同樣也不是理性的一種習性，因為理性之習性是智性德性；先前第五十七題己討論過這些德性。法律也不是理性之行動；否則，假如理性之行動停止，例如：人在睡眠時，就會沒有法律了。所以，法律不是屬於理性的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已討論",
+          "after": "己討論",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2731
+      ],
+      "before": "此外，法律推動那些屬於法律下的人正直行事。但是按前面第九題第一節所說的，促使行動乃是意志的事。所以，法律不屬於理性，而該屬於意志，就如法律學家《羅馬法律類編》(Digesta)卷一第四題第一條所說的: 「君王所願意者，便具有法律之效力」。",
+      "after": "此外，法律推動那些屬於法律下的人正直行事。但是按前面第九題第一節所說的，促使行動乃是意志的事。所以，法律不屬於理性，而該屬於意志，就如法律學家《羅馬法律類編》(Digesta)卷一第四題第一條所說的：「君王所願意者，便具有法律之效力」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2731
+      ],
+      "before": "法律的作用是命令和禁止。但按前面第十七題第一節所說的，發號施令是屬於理性的事。所以法律是屬於理性的東西。",
+      "after": "法律的作用是命令和禁止。但按前面第十七題第一節所說的，發號施令是屬於理性的事。所以法律是屬於理性的東西。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2731
+      ],
+      "before": "我解答如下:法律是行為的規則和尺度，據以使人做什麼或不做什麼。因為名詞「法律」(lex)是從動詞「約束」(ligare)轉來的，具有強制行動的能力。根據前面第一題第一節釋疑3.所說的，可以知道，人性行為之規則和尺度是理性，因為理性是人性行為的第一根本。正如哲學家所說的，出命指向目的乃是理性的事，而目的是行為的第一根本(《物理學》卷二第九章;《倫理學》卷七第八章)。在每一類事物中，根本即其尺度和規範;就如數自類中的單位，和動態類中的第一動態。所以，法律是屬於理性的東西。",
+      "after": "我解答如下：法律是行為的規則和尺度，據以使人做什麼或不做什麼。因為名詞「法律」(lex)是從動詞「約束」(ligare)轉來的，具有強制行動的能力。根據前面第一題第一節釋疑3.所說的，可以知道，人性行為之規則和尺度是理性，因為理性是人性行為的第一根本。正如哲學家所說的，出命指向目的乃是理性的事，而目的是行為的第一根本(《物理學》卷二第九章；《倫理學》卷七第八章)。在每一類事物中，根本即其尺度和規範；就如數目類中的單位，和動態類中的第一動態。所以，法律是屬於理性的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "數自",
+          "after": "數目",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2731
+      ],
+      "before": "法律既然是一種尺度和規則，其寓於東西內之方式有兩種。一種方式是在度量者和規範者內;這既然是理性的任務，故按這方式法律，只是在理性中。另一方式是在被度量和被規範者內。按這方式，貝IJ法律是在一切具有規律之傾向的東西中，如此則任何具有規律的傾向皆可稱為法律;雖然不是出於本質，而是由於分得。故按這方式，肢體的貪慾傾向被稱為「肢體的法律」。",
+      "after": "法律既然是一種尺度和規則，其寓於東西內之方式有兩種。一種方式是在度量者和規範者內；這既然是理性的任務，故按這方式法律，只是在理性中。另一方式是在被度量和被規範者內。按這方式，則法律是在一切具有規律之傾向的東西中，如此則任何具有規律的傾向皆可稱為法律；雖然不是出於本質，而是由於分得。故按這方式，肢體的貪慾傾向被稱為「肢體的法律」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "正如在外表的行動上可以分動作和作品，例如:建築和建築物;在理性之行動上也可分理性之行動本身，ElP:理解和推論，和由這種行動所產生者。在鑑賞理性方面的產物，首先是定義，第二是命題，第三是推論式或論證。按前面第+三題第三節、第七十六題第一節所說的，以及哲學家在《倫理學》卷七第三章所講的，實踐理性在行為方面也運用一種推論式;所以，在實踐理性中該有一種東西，其與行為之關係，就似鑑賞理性之命題對結論的關係。實踐理性之針對行動的這類普遍性命題，便具有法律之意義。這些命題有時是現實地為理性所考慮中，有時是以習性方式存在於理性中。",
+      "after": "正如在外表的行動上可以分動作和作品，例如：建築和建築物；在理性之行動上也可分理性之行動本身，即：理解和推論，和由這種行動所產生者。在鑑賞理性方面的產物，首先是定義，第二是命題，第三是推論式或論證。按前面第十三題第三節、第七十六題第一節所說的，以及哲學家在《倫理學》卷七第三章所講的，實踐理性在行為方面也運用一種推論式；所以，在實踐理性中該有一種東西，其與行為之關係，就似鑑賞理性之命題對結論的關係。實踐理性之針對行動的這類普遍性命題，便具有法律之意義。這些命題有時是現實地為理性所考慮中，有時是以習性方式存在於理性中。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "ElP",
+          "after": "即",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第+三題",
+          "after": "第十三題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "按前面第十七題第一節己說過的，理性之推動能力是由意志而來，人既願意目的，理性對導致目的者便出命令。而意志所願意或命令者，為能具有法律之意義，必須合於理性之規範。所謂君王所願意的其有法律之效力，便是按這方式;否則的話，君王之意願更好說是罪惡，而不是法律。",
+      "after": "按前面第十七題第一節己說過的，理性之推動能力是由意志而來，人既願意目的，理性對導致目的者便出命令。而意志所願意或命令者，為能具有法律之意義，必須合於理性之規範。所謂君王所願意的具有法律之效力，便是按這方式；否則的話，君王之意願更好說是罪惡，而不是法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "的其有",
+          "after": "的具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "法律是否常指向公益",
+      "after": "法律是否常指向公益",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "似乎法律不常是以公益(bonum commun巴)為目的。因為:",
+      "after": "似乎法律不常是以公益(bonum commune)為目的。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "commun巴",
+          "after": "commune",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "i.法律的任務是命令和禁止。但有的命令是指向私人的利益。所以，法律不常是以公益為目的。",
+      "after": "法律的任務是命令和禁止。但有的命令是指向私人的利益。所以，法律不常是以公益為目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.法律",
+          "after": "法律",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "此外，法律指導人的行動。但人性行動是個別事件。所以，法律是以個別之利益為目的。",
+      "after": "此外，法律指導人的行動。但人性行動是個別事件。所以，法律是以個別之利益為目的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2732
+      ],
+      "before": "此外，依希道在《語源學》卷二第十章說: 「若法律是由理性訂立的，~Ij凡理性所訂立者皆為法律」。但理性不只確定那指向公益者，也確定指向私利者。所以，法律不只指向公共的利益，也指向私人的利益。",
+      "after": "此外，依希道在《語源學》卷二第十章說：「若法律是由理性訂立的，則凡理性所訂立者皆為法律」。但理性不只確定那指向公益者，也確定指向私利者。所以，法律不只指向公共的利益，也指向私人的利益。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "~Ij",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2733
+      ],
+      "before": "依希道在《語源學》卷五第二十一章卻說: 「法律不是為某私人的利益，而是為了國民之公共益處而訂的。」",
+      "after": "依希道在《語源學》卷五第二十一章卻說：「法律不是為某私人的利益，而是為了國民之公共益處而訂的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2733
+      ],
+      "before": "我解答如下:按前面第一節所說的，法律是人性行為之根本，因為它是行為之規則和尺度。正如理性是人間為之根本，在理性內也有一部分是其他部分的根本;故此，法律主要是屬於這部分理性。實踐理性是關於行為的，而行為的第一根本是最後目的。按前面第二題第七節所說的，人生的最後目的是幸福;為此，法律所指向的主要是幸福。此外，既然部分都指向整體，就如不完美者是指向完美者;一個人就是完整之社會的一部分，故此法律必然是主要地指向公共的幸福。因此，哲學家在給「合法的」(legalia)先下的定義中，曾提到幸褔，也提到政治團體。他在《倫理學》卷五第一章說: 「所謂正義的『合法的~，是那能為政治團體促成和保存幸福，及其(幸福)個別組成要素的』;而按《政治學》卷一第一章所說的，完整的團體即是國家。\n在每一類東西中，其中最高者乃其餘之根本，而其餘的被稱為這類東西，乃由於其與最高者之關係，例如:火是最熱的東西，它是其他混合物體之熱的原因，由於分有火而稱為是熱東西。為此，既然法律主要是指向公益的，關於個另IJ事件的命令，除非與公益有關係，否則不能具有法律之意義。所以，法律皆是指向公共利益。",
+      "after": "我解答如下：按前面第一節所說的，法律是人性行為之根本，因為它是行為之規則和尺度。正如理性是人性行為之根本，在理性內也有一部分是其他部分的根本；故此，法律主要是屬於這部分理性。實踐理性是關於行為的，而行為的第一根本是最後目的。按前面第二題第七節所說的，人生的最後目的是幸福；為此，法律所指向的主要是幸福。此外，既然部分都指向整體，就如不完美者是指向完美者；一個人就是完整之社會的一部分，故此法律必然是主要地指向公共的幸福。因此，哲學家在給「合法的」(legalia)先下的定義中，曾提到幸福，也提到政治團體。他在《倫理學》卷五第一章說：「所謂正義的『合法的』，是那能為政治團體促成和保存幸福，及其(幸福)個別組成要素的」；而按《政治學》卷一第一章所說的，完整的團體即是國家。\n在每一類東西中，其中最高者乃其餘之根本，而其餘的被稱為這類東西，乃由於其與最高者之關係，例如：火是最熱的東西，它是其他混合物體之熱的原因，由於分有火而稱為是熱東西。為此，既然法律主要是指向公益的，關於個別事件的命令，除非與公益有關係，否則不能具有法律之意義。所以，法律皆是指向公共利益。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人間為",
+          "after": "人性行為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "幸褔",
+          "after": "幸福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "合法的~",
+          "after": "合法的』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "組成要素的』",
+          "after": "組成要素的」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "個另IJ",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2733
+      ],
+      "before": "命令是將法律貼用於受法律管制的事情。法律與公共利益之關係，也可以貼合於個別的目的。故此，關於1回別事件可以發命令。",
+      "after": "命令是將法律貼用於受法律管制的事情。法律與公共利益之關係，也可以貼合於個別的目的。故此，關於個別事件可以發命令。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1回別",
+          "after": "個別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2733,
+        2734
+      ],
+      "before": "行為固然是關於個別事件的;但是個別事件能夠與公共利益有關係，不是因為類別相同，而是由於目的相同。即是因為公共利益是共同的目的。",
+      "after": "行為固然是關於個別事件的；但是個別事件能夠與公共利益有關係，不是因為類別相同，而是由於目的相同。即是因為公共利益是共同的目的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "正如在鑑賞理性方面，若不歸宗於不可證明的第一原理，什麼也不能確定;同樣，在實踐理性方面，若非看最後目的或公共利益，也是什麼也不能確定。理性以這種方式所確定的，便具有法律之意義。",
+      "after": "正如在鑑賞理性方面，若不歸宗於不可證明的第一原理，什麼也不能確定；同樣，在實踐理性方面，若非看最後目的或公共利益，也是什麼也不能確定。理性以這種方式所確定的，便具有法律之意義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "私人之理性是否能構成法律",
+      "after": "私人之理性是否能構成法律",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "似乎任何人的理性皆能構成法律。因為:",
+      "after": "似乎任何人的理性皆能構成法律。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "宗徒在《羅馬書》第二章14節說:「沒有法律的外邦人，順著本性去行法律上的事，他們雖然沒有法律，但自己對自己就是法律。」這是廣泛地指所有的人說的。所以，任何人都可以為自己訂法律。",
+      "after": "宗徒在《羅馬書》第二章14節說：「沒有法律的外邦人，順著本性去行法律上的事，他們雖然沒有法律，但自己對自己就是法律。」這是廣泛地指所有的人說的。所以，任何人都可以為自己訂法律。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第一章說:「立法者的用意是使人修德。」但任何人皆能促使他人修德。所以，任何人的理性都能制定法律。",
+      "after": "此外，哲學家在《倫理學》卷二第一章說：「立法者的用意是使人修德。」但任何人皆能促使他人修德。所以，任何人的理性都能制定法律。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "此外，正如國家之首領是管理國家者，家長也是管理家庭者。但國家首長能夠在國內制定法律，所以任何家長皆可在他家中制定法律。",
+      "after": "此外，正如國家之首領是管理國家者，家長也是管理家庭者。但國家首長能夠在國內制定法律，所以任何家長皆可在他家中制定法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2734
+      ],
+      "before": "依希道在《語源學》卷五第寸章說，而《教會法律類編》(Decreta)第二編亦曾記載:「法律是人民的一種決定，是年長者與平民一起訂立的。」所以，不是每人皆能訂立法律。",
+      "after": "依希道在《語源學》卷五第十章說，而《教會法律類編》(Decreta)第二編亦曾記載：「法律是人民的一種決定，是年長者與平民一起訂立的。」所以，不是每人皆能訂立法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第寸章",
+          "after": "第十章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2734,
+        2735
+      ],
+      "before": "我解答如下:法律首先並主要是指向公共利益。使一個東西指向公共利益，乃是全體人民或代表全體人民者的任務。因此訂立法律的事，或是屬於全體人民，或是屬於管理全體人民的公務人員。因為連在一切別的事上，使某東西指向目的，也是屬於那以這目的為自己之目的者。",
+      "after": "我解答如下：法律首先並主要是指向公共利益。使一個東西指向公共利益，乃是全體人民或代表全體人民者的任務。因此訂立法律的事，或是屬於全體人民，或是屬於管理全體人民的公務人員。因為連在一切別的事上，使某東西指向目的，也是屬於那以這目的為自己之目的者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "前面第一節釋疑1.曾說，法律不只寓於規範者內，也分寓於那被規範者內。既然每人皆分有規範者之指示，故按這方式可以說每人是自己的法律。故此那裡接著說:「法律的精華已刻在他們的心上」(第15節)。",
+      "after": "前面第一節釋疑1.曾說，法律不只寓於規範者內，也分寓於那被規範者內。既然每人皆分有規範者之指示，故按這方式可以說每人是自己的法律。故此那裡接著說：「法律的精華己刻在他們的心上」(第15節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已刻",
+          "after": "己刻",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "私人不能有效地促使人修德;他只能給人勸言，如果不接受，勸言沒有強制的力量。而按照哲學家在《倫理學》卷十第九章所說的，為有效地促使人修德，法律該有強制的力量。按後面要講到的，全體人民或公務人員有懲罰的權力，所以具有強制的能力。所以只有他們能訂立法律。",
+      "after": "私人不能有效地促使人修德；他只能給人勸言，如果不接受，勸言沒有強制的力量。而按照哲學家在《倫理學》卷十第九章所說的，為有效地促使人修德，法律該有強制的力量。按後面要講到的，全體人民或公務人員有懲罰的權力，所以具有強制的能力。所以只有他們能訂立法律。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "正如人是家庭的一部分，家庭也是國家的一部分;因為按《政治學》卷一第一章所說的，國家是完整的團體。為此，正如一個人的利益不是最後目的，而該指向公共利益;同樣，一個家庭的利益也該指向國家或完整之團體的利益。故此固然掌管家庭者能夠訂立一些規矩或條例，但不能訂立真正的法律。",
+      "after": "正如人是家庭的一部分，家庭也是國家的一部分；因為按《政治學》卷一第一章所說的，國家是完整的團體。為此，正如一個人的利益不是最後目的，而該指向公共利益；同樣，一個家庭的利益也該指向國家或完整之團體的利益。故此固然掌管家庭者能夠訂立一些規矩或條例，但不能訂立真正的法律。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "頒布是否為法律之要素",
+      "after": "頒布是否為法律之要素",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "似乎頒布不是法律之要素。因為:",
+      "after": "似乎頒布不是法律之要素。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "自然法最具有法律之意義。但自然法不需要頒布。所以，頒布不是法律之要素。",
+      "after": "自然法最具有法律之意義。但自然法不需要頒布。所以，頒布不是法律之要素。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2735
+      ],
+      "before": "此外，法律的特性是使人做或不做某事。但是不只頒布法律時，在場的人該遵守法律，別人也該進守法律。所以，頒布不是法律之要素。",
+      "after": "此外，法律的特性是使人做或不做某事。但是不只頒布法律時，在場的人該遵守法律，別人也該遵守法律。所以，頒布不是法律之要素。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "進守",
+          "after": "遵守",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2735,
+        2736
+      ],
+      "before": "此外，法律也管未來的事;因為羅馬《猶斯底尼安法典》(Codex JUstinÎi未來的事成為必然的。」但頒布是針對現在的人。所以，頒布不是法律必要的條件。",
+      "after": "此外，法律也管未來的事；因為羅馬《猶斯底尼安法典》(Codex Justinianus)卷一第十四題第七條上說：「法律使未來的事成為必然的。」但頒布是針對現在的人。所以，頒布不是法律必要的條件。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(Codex JUstinÎi",
+          "after": "(Codex Justinianus)卷一第十四題第七條上說：「法律使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2736
+      ],
+      "before": "《教會法律類編》(Decreta)第四編說:「法律一經頒布，便告成立」。",
+      "after": "《教會法律類編》(Decreta)第四編說：「法律一經頒布，便告成立」。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2736
+      ],
+      "before": "我解答如下:前面第一節曾說，法律是以規則和尺度的方式加諸他人的。所謂施加規則和尺度，即是施用於被規範和被度量者。故此，為使法律有約束能力，而這是法律的特性，便該施用於須受這法律管制的人。以頒布方式使這些人知道有這法律便是施用。為此，頒布是使法律生效的必要條件。\n由上述四節，可知法律之定義:法律無非是由團體之負責人，為了公共利益所頒布的理性之命令。(按:拉丁文原有次序，即本題四節之次序:理性之命令，為了公共利益，由團體負責人所頒布的。)",
+      "after": "我解答如下：前面第一節曾說，法律是以規則和尺度的方式加諸他人的。所謂施加規則和尺度，即是施用於被規範和被度量者。故此，為使法律有約束能力，而這是法律的特性，便該施用於須受這法律管制的人。以頒布方式使這些人知道有這法律便是施用。為此，頒布是使法律生效的必要條件。\n由上述四節，可知法律之定義：法律無非是由團體之負責人，為了公共利益所頒布的理性之命令。(按：拉丁文原有次序，即本題四節之次序：理性之命令，為了公共利益，由團體負責人所頒布的。)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q090.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2736
+      ],
+      "before": "自然法律之頒布，即在於天主將這些法律置於人的心中，使人自然知道其存在。",
+      "after": "自然法律之頒布，即在於天主將這些法律置於人的心中，使人自然知道其存在。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2736
+      ],
+      "before": "頒布法律時，不在場的人應守法律，是因為法律頒布之後，從別人那裡得到或能夠得到消息。",
+      "after": "頒布法律時，不在場的人應守法律，是因為法律頒布之後，從別人那裡得到或能夠得到消息。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q090.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2736
+      ],
+      "before": "現在之頒布能伸延到未來，是因為存有記錄;這記錄似是時時在公佈法律。故此，依希道在《語源學》卷二第十章說:「名詞『法律~(lex)是從動詞『閱讀~(legere)轉來的，因為法律是寫下來的東西。』",
+      "after": "現在之頒布能伸延到未來，是因為存有記錄；這記錄似是時時在公布法律。故此，依希道在《語源學》卷二第十章說：「名詞『法律』(lex)是從動詞『閱讀』(lege)轉來的，因為法律是寫下來的東西。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "公佈法律",
+          "after": "公布法律",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "法律~",
+          "after": "法律』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "閱讀~",
+          "after": "閱讀』",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(legere)",
+          "after": "(lege)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "東西。』",
+          "after": "東西。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
