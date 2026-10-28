@@ -1,0 +1,1238 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q097",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q097",
+    "title": "論法律之改變",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2800,
+      2801,
+      2802,
+      2803,
+      2804,
+      2805,
+      2806
+    ],
+    "printed_pages": [
+      71,
+      77
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 33,
+    "checked_unchanged_review_units": 16
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q97.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q97.json": "c8611417368e547790e00eec341a509568dd9eaf424df5db04b4fda1e34edfac",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q097.a001.arg3",
+      "pdf_file_page": 2800,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a001.arg3",
+      "pdf_file_page": 2800,
+      "text": "己是",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a001.ad3",
+      "pdf_file_page": 2801,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a002.ad2",
+      "pdf_file_page": 2803,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a003.ad1",
+      "pdf_file_page": 2804,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a003.ad2",
+      "pdf_file_page": 2804,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a004.sed_contra",
+      "pdf_file_page": 2806,
+      "text": "己委託",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a004.respondeo",
+      "pdf_file_page": 2806,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q097.a004.respondeo",
+      "pdf_file_page": 2806,
+      "text": "「分施者」(dispensatio)",
+      "status": "suspected_source_print_error",
+      "action": "原页分施者的拉丁注也作dispensatio，疑原书印误，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部7页、4节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q097.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "然後要討論的是法律之改變(參看第九十五題引言)。\n關於這點，可以提出四個問題:\n一、人為的法律是否可以改變。\n二、若發現有更好的是否常該改善。\n三、是否可被習慣所取代;習慣是否可取得法律之效力。\n四、人為法律之運用是否可經由長官之豁免而改變。",
+      "after": "然後要討論的是法律之改變(參看第九十五題引言)。\n關於這點，可以提出四個問題：\n一、人為的法律是否可以改變。\n二、若發現有更好的是否常該改善。\n三、是否可被習慣所取代；習慣是否可取得法律之效力。\n四、人為法律之運用是否可經由長官之豁免而改變。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "人為的法律是否該有某種改變",
+      "after": "人為的法律是否該有某種改變",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "人為的法律似乎絕對不該改變。因為:",
+      "after": "人為的法律似乎絕對不該改變。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "按前面第九十五題第二節所說的，人為法律是由自然法律來的。但是自然法律永眉不變。所以人為法律也該永固不變。",
+      "after": "按前面第九十五題第二節所說的，人為法律是由自然法律來的。但是自然法律永固不變。所以人為法律也該永固不變。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "永眉",
+          "after": "永固",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "此外，哲學家在《倫理學》卷五第五章說，標準尤其該是固定不變的。但按前面第九十題第一及第二節所說的，人爵的法律是行為之標準。所以，該是固定不變的。",
+      "after": "此外，哲學家在《倫理學》卷五第五章說，標準尤其該是固定不變的。但按前面第九十題第一及第二節所說的，人為的法律是行為之標準。所以，該是固定不變的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "人爵",
+          "after": "人為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "此外，法律該是公正合理的，這在前面第九十五題第二節已經說過。但是既然已是合理的，便永遠是合理的。所以，一經訂為法律，便永遠是法律。",
+      "after": "此外，法律該是公正合理的，這在前面第九十五題第二節己經說過。但是既然己是合理的，便永遠是合理的。所以，一經訂為法律，便永遠是法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已是",
+          "after": "己是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2800
+      ],
+      "before": "奧斯定在《論自由意志》卷一第六章說:「現世的法律雖是公正的，卻能按時做正當的變動。」",
+      "after": "奧斯定在《論自由意志》卷一第六章說：「現世的法律雖是公正的，卻能按時做正當的變動。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2800,
+        2801
+      ],
+      "before": "我解答如下:前面第九十一題第三節曾說，人為的法律是理性的一種指示，用以指導人的行動。故此有兩種原因可以使人為法律做正當的變動:一是理性方面的，另一個是法律所管治的行動之人那方面的。在理性方面，因為人的理性自然就是由不完美狀態逐漸達到完美狀態。我們看到在鑑賞性學識上，最初的哲學家傳下來的學說不完美，而經由以後之哲學家獲得改進;在實踐問題方面也是一樣。最初為公共利益誰想的人，既然不能親身考察一切事情，所訂的法律不完美，在許多方面有缺點，後人則加以改進，其所訂的法律，無助於公共利益的缺點較少。\n在法律所管治的行動之人那方面，因了人的環境條件時時在變，環境不間，符合不同條件的利益也不同，所以法律跟著改變乃是合理的事情。就如奧斯定在《論自由意志》卷一第六章所提的例子說: 「人民若善於自制，善於白童，且非常地細心顧及公益，買IJ制訂法律許可人民推選官長來管理人民的事是合理的。」但是如果同一人民逐漸變壞，有賄路式的選舉，把管理自己的政權交給醜行醜名的人;這時如果拿走人民的選舉權，把他們置於少數君子的權下，也是合理的。",
+      "after": "我解答如下：前面第九十一題第三節曾說，人為的法律是理性的一種指示，用以指導人的行動。故此有兩種原因可以使人為法律做正當的變動：一是理性方面的，另一個是法律所管治的行動之人那方面的。在理性方面，因為人的理性自然就是由不完美狀態逐漸達到完美狀態。我們看到在鑑賞性學識上，最初的哲學家傳下來的學說不完美，而經由以後之哲學家獲得改進；在實踐問題方面也是一樣。最初為公共利益設想的人，既然不能親身考察一切事情，所訂的法律不完美，在許多方面有缺點，後人則加以改進，其所訂的法律，無助於公共利益的缺點較少。\n在法律所管治的行動之人那方面，因了人的環境條件時時在變，環境不同，符合不同條件的利益也不同，所以法律跟著改變乃是合理的事情。就如奧斯定在《論自由意志》卷一第六章所提的例子說：「人民若善於自制，善於自重，且非常地細心顧及公益，則制訂法律許可人民推選官長來管理人民的事是合理的。」但是如果同一人民逐漸變壞，有賄賂式的選舉，把管理自己的政權交給醜行醜名的人；這時如果拿走人民的選舉權，把他們置於少數君子的權下，也是合理的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "利益誰想",
+          "after": "利益設想",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "環境不間",
+          "after": "環境不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善於白童",
+          "after": "善於自重",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "賄路",
+          "after": "賄賂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2801
+      ],
+      "before": "按前面第九十一題第二節、第九十六題第二節釋疑3.所說的，自然法律那是永恆法律之分有，是以永固不變，這是因了造置天性的天主之理性是永恆的和完美的。但人的理性是變化無常和不完美的，因而人的法律也是可變動的。此外，自然法律含有普遍性的指令，這些指令永遠有效;人為的法律含有個別的指令，是為應付偶而發生的情況。",
+      "after": "按前面第九十一題第二節、第九十六題第二節釋疑3.所說的，自然法律那是永恆法律之分有，是以永固不變，這是因了造置天性的天主之理性是永恆的和完美的。但人的理性是變化無常和不完美的，因而人的法律也是可變動的。此外，自然法律含有普遍性的指令，這些指令永遠有效；人為的法律含有個別的指令，是為應付偶而發生的情況。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2801
+      ],
+      "before": "標準盡可能地該是固定的。但是在變動不居的事物方面，不能有絕對不變的東西。故此人為法律不能是絕對不變的。",
+      "after": "標準盡可能地該是固定的。但是在變動不居的事物方面，不能有絕對不變的東西。故此人為法律不能是絕對不變的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2801,
+        2802
+      ],
+      "before": "在形體物方面所謂合理，是按絕對方式而言。故本身一直是合理的。但是法律的合理性在於其公共利益之關係;同樣的事情，不見得常合適，如正解己說過的。為此，這種合理性有變化。",
+      "after": "在形體物方面所謂合理，是按絕對方式而言。故本身一直是合理的。但是法律的合理性在於其公共利益之關係；同樣的事情，不見得常合適，如正解己說過的。為此，這種合理性有變化。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "若發現有更好的，入為法律是否常該改善",
+      "after": "若發現有更好的，人為法律是否常該改善",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "入為",
+          "after": "人為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "若發現有更好的，人為的法律似乎常該加以改善。因為:",
+      "after": "若發現有更好的，人為的法律似乎常該加以改善。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "人為的法律像其他技術一樣，乃是人的理性之產物。但是在其他技術方面，若發現有更好的，便把以前所持存的加以改革。所以在人為的法律方面也該如此。",
+      "after": "人為的法律像其他技術一樣，乃是人的理性之產物。但是在其他技術方面，若發現有更好的，便把以前所持存的加以改革。所以在人為的法律方面也該如此。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "此外，根據過去的經驗，我們可以為未來做準備。但在有了更好的發現時，若不把法律隨時加以修改，就會產生許多不合宜的事情，因為我們發現在舊的法律中有許多粗糙的地方。所以，每次發現更好的辦法，便該修改法律。",
+      "after": "此外，根據過去的經驗，我們可以為未來做準備。但在有了更好的發現時，若不把法律隨時加以修改，就會產生許多不合宜的事情，因為我們發現在舊的法律中有許多粗糙的地方。所以，每次發現更好的辦法，便該修改法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "此外，人為的法律是為管理人的個別行為而制訂的。但是按《倫理學》卷二第一章所說的，我們對個別事件的知識要靠經驗，而經驗「需要時間」。所以時間久了以後，能夠發現更好的規定。",
+      "after": "此外，人為的法律是為管理人的個別行為而制訂的。但是按《倫理學》卷二第一章所說的，我們對個別事件的知識要靠經驗，而經驗「需要時間」。所以時間久了以後，能夠發現更好的規定。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2802
+      ],
+      "before": "《教會法律類編》第十二編第五章說: 「容許人破壞我們從祖先承繼來的傳統，乃是一件可笑甚而可恥的事情。」",
+      "after": "《教會法律類編》第十二編第五章說：「容許人破壞我們從祖先承繼來的傳統，乃是一件可笑甚而可恥的事情。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2802,
+        2803
+      ],
+      "before": "我解答如下:前面第一節曾說，若改變法律對大家有益，便是合理的事。法律之變動本身，多少有礙於公共利益。因為習慣有助於法律之遵行，以致與大眾習慣相反的事，本身雖是輕而易舉，也顯得特別艱巨。所以在法律改變的時候，因了沒有習慣之輔助，法律的效力會降低。因此，除非公共利益在一方面(因改變)所受的損失，在另一方面得到相對的補償，人為的法律就不該改變。而這種情況的發生，或者是由於新法律的益處又大又明顯;或者是由於非常需要改變，即因為舊有的法律非常不正當合理，或其遵守非常有害。故此，法律學家《羅馬法律類編》卷一第四題第二條說: 「為取消久已被認為合理之法律，以制訂新的法律，益處該是很明顯。」",
+      "after": "我解答如下：前面第一節曾說，若改變法律對大家有益，便是合理的事。法律之變動本身，多少有礙於公共利益。因為習慣有助於法律之遵行，以致與大眾習慣相反的事，本身雖是輕而易舉，也顯得特別艱巨。所以在法律改變的時候，因了沒有習慣之輔助，法律的效力會降低。因此，除非公共利益在一方面(因改變)所受的損失，在另一方面得到相對的補償，人為的法律就不該改變。而這種情況的發生，或者是由於新法律的益處又大又明顯；或者是由於非常需要改變，即因為舊有的法律非常不正當合理，或其遵守非常有害。故此，法律學家《羅馬法律類編》卷一第四題第二條說：「為取消久已被認為合理之法律，以制訂新的法律，益處該是很明顯。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "關於技術方面的事，其效用只來自理性的設計:因而遇有更好的設計，便該改變以前所持有的。但是按哲學家在《政治學》卷二第五章所說的: 「法律的效力主要靠習|貫」 0故不可輕易變動。",
+      "after": "關於技術方面的事，其效用只來自理性的設計：因而遇有更好的設計，便該改變以前所持有的。但是按哲學家在《政治學》卷二第五章所說的：「法律的效力主要靠習慣」。故不可輕易變動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "習|貫",
+          "after": "習慣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "所舉之理由，指明法律該有所變動，但不是為了改善而改善;而按上面正解已說過的，該為了極大的利益或必要。",
+      "after": "所舉之理由，指明法律該有所變動，但不是為了改善而改善；而按上面正解己說過的，該為了極大的利益或必要。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "答案如釋疑2.。",
+      "after": "答案如釋疑2.。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "習慣是否能取得法律的效力",
+      "after": "習慣是否能取得法律的效力",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "習慣似乎不能取得法律的效力，也不能廢除法律。因為:",
+      "after": "習慣似乎不能取得法律的效力，也不能廢除法律。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "按前面第九十三題第三節、第九十五題第二節所說的，人為的法律是由自然的法律和天主的法律而來的。但是，人的習慣不能改變自然的法律和天主的法律。所以，也不能改變人為的法律。",
+      "after": "按前面第九十三題第三節、第九十五題第二節所說的，人為的法律是由自然的法律和天主的法律而來的。但是，人的習慣不能改變自然的法律和天主的法律。所以，也不能改變人為的法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "此外，許多惡加在一起，不能變成一個善。但是第一個開始違反法律的人，做的是壞事。所以，同樣的行為加多後，不就變為善事。法律既是行為之規矩，乃是一種善。所以習慣不能取代法律，並取得法律的效力。",
+      "after": "此外，許多惡加在一起，不能變成一個善。但是第一個開始違反法律的人，做的是壞事。所以，同樣的行為加多後，不就變為善事。法律既是行為之規矩，乃是一種善。所以習慣不能取代法律，並取得法律的效力。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2803
+      ],
+      "before": "此外，立法乃是管理團體的公務人員的事，私人不能制定法律。但是習慣是由私人之行動構成的。所以習慣不能取得法律的效力，並廢除法律。",
+      "after": "此外，立法乃是管理團體的公務人員的事，私人不能制定法律。但是習慣是由私人之行動構成的。所以習慣不能取得法律的效力，並廢除法律。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2803,
+        2804
+      ],
+      "before": "奧斯定在《書信集》第三十六篇「致賈書拉諾書」(Ad Casulanum)第一章中說: 「天主子民之風俗和古人之規定，應奉為法律。違反教會之習慣的人，就像違反天主之誠命的人一樣，該受抑制。」",
+      "after": "奧斯定在《書信集》第三十六篇「致賈書拉諾書」(Ad Casulanum)第一章中說：「天主子民之風俗和古人之規定，應奉為法律。違反教會之習慣的人，就像違反天主之誡命的人一樣，該受抑制。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "誠命",
+          "after": "誡命",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2804
+      ],
+      "before": "我解答如下:凡法律皆是出於立法者之理性和意志。天主的法律和自然法律是出於天主的理性意志;人為的法律是出於受理性之規範的人之意志。關於行動問題，人的理性和意志可用言語表現出來，也可用事實表現出來，個人實際所做的，即表示他認為這是善而選擇的。人的言語既然表達人內心的動態和思想，故顯然也能改變法律或解釋法律。故此行為，特別是因次數加多而產生習慣的行為，也能改變或解釋法律，甚而產生某種能取得法律之效力者;因為外表的行為次數多了以後，是意志之內心動態和理性之思想最可靠的證據，一類事情若多次發生，證明那是故意的。因此習慣能取得法律之效力，能廢除法律，也能解釋法律。",
+      "after": "我解答如下：凡法律皆是出於立法者之理性和意志。天主的法律和自然法律是出於天主的理性意志；人為的法律是出於受理性之規範的人之意志。關於行動問題，人的理性和意志可用言語表現出來，也可用事實表現出來；一個人實際所做的，即表示他認為這是善而選擇的。人的言語既然表達人內心的動態和思想，故顯然也能改變法律或解釋法律。故此行為，特別是因次數加多而產生習慣的行為，也能改變或解釋法律，甚而產生某種能取得法律之效力者；因為外表的行為次數多了以後，是意志之內心動態和理性之思想最可靠的證據，一類事情若多次發生，證明那是故意的。因此習慣能取得法律之效力，能廢除法律，也能解釋法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "出來，個人",
+          "after": "出來；一個人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2804
+      ],
+      "before": "上面正解已經說過，自然法律和天主的法律是出於天主的意志。故此，不能被由人的意志產生之習慣所改變，只能因天主的權威而改變。因此與天主之法律和自然法律相反的習慣，不能取得法律的效力。正如依希道在《同義語研究》(Synonymus)卷二第八十章說的:「習慣應讓位於權威，法律和理性破除惡習」。",
+      "after": "上面正解己經說過，自然法律和天主的法律是出於天主的意志。故此，不能被由人的意志產生之習慣所改變，只能因天主的權威而改變。因此與天主之法律和自然法律相反的習慣，不能取得法律的效力。正如依希道在《同義語研究》(Synonymus)卷二第八十章說的：「習慣應讓位於權威，法律和理性破除惡習」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2804,
+        2805
+      ],
+      "before": "前面第九十六題第六節曾說，人為的法律有時不適當，因而有時候，即在法律不合適的時候，可以不按法律行事，而行為不算是惡的。由於人事的變遷，這種情形多了以後，貝IJ習慣證明那法律已經無用，這就等於正式頒布了相反之法律。但若當初使這法律有用的理由仍然存在，買IJ習慣不能改變法律，而該是法律改革習慣;除非法律看來已經無用，因為「按當地習慣」已經不再是「可能的」'而可能性乃是法律的必要條件之一(第九十五題第三節)。革除大眾的習慣是件很難的事。",
+      "after": "前面第九十六題第六節曾說，人為的法律有時不適當，因而有時候，即在法律不合適的時候，可以不按法律行事，而行為不算是惡的。由於人事的變遷，這種情形多了以後，則習慣證明那法律己經無用，這就等於正式頒布了相反之法律。但若當初使這法律有用的理由仍然存在，則習慣不能改變法律，而該是法律改革習慣；除非法律看來己經無用，因為「按當地習慣」己經不再是「可能的」，而可能性乃是法律的必要條件之一(第九十五題第三節)。革除大眾的習慣是件很難的事。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "可能的」'",
+          "after": "可能的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "產生習慣的羣眾能屬於兩種不同的情形。如果羣眾是自由人，能給自己制訂法律，貝IJ由習慣所表現的羣眾之同意，勝於官長之權威;因為官長之能制訂法律，只因了他是民眾的代表。為此，雖然一個i目的私人不能制訂法律，但全體民眾能夠制訂法律。如果羣眾沒有給自己制訂法律或廢除上級權威所訂的法律之權力，這時在羣眾中流行的習慣，如果有權力為羣眾訂立法律的人加以容許，便也取得法律的效力，因為他們的容許似乎就等於同意流行的習慣。",
+      "after": "產生習慣的羣眾能屬於兩種不同的情形。如果羣眾是自由人，能給自己制訂法律，則由習慣所表現的羣眾之同意，勝於官長之權威；因為官長之能制訂法律，只因了他是民眾的代表。為此，雖然一個個的私人不能制訂法律，但全體民眾能夠制訂法律。如果羣眾沒有給自己制訂法律或廢除上級權威所訂的法律之權力，這時在羣眾中流行的習慣，如果有權力為羣眾訂立法律的人加以容許，便也取得法律的效力，因為他們的容許似乎就等於同意流行的習慣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一個i目的",
+          "after": "一個個的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "管理羣眾之長官是否能豁免人為的法律",
+      "after": "管理羣眾之長官是否能豁免人為的法律",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "管理羣眾主長官似乎不能豁免人為的法律。因為:",
+      "after": "管理羣眾之長官似乎不能豁免人為的法律。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "羣眾主",
+          "after": "羣眾之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "按依希道《語源學》卷二第十章、卷五第二十一章所說的，法律是「為了公共利益」而訂立的，但是不能為了某私人的利益而把公共利益旁置。因為哲學家在《倫理學》卷一第二章說:「民族的利益比一個人的利益神聖」。所以，似乎不該給任何人豁免，以致容許他違反公共的法律。",
+      "after": "按依希道《語源學》卷二第十章、卷五第二十一章所說的，法律是「為了公共利益」而訂立的，但是不能為了某私人的利益而把公共利益旁置。因為哲學家在《倫理學》卷一第二章說：「民族的利益比一個人的利益神聖」。所以，似乎不該給任何人豁免，以致容許他違反公共的法律。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "此外，《申命紀》第一章17節，對那些為人長官的說:「審案時不可偏拉，無論貴賤，同樣聽斷;因為審判是天主的事。」但容許某人而不容許一般人，似乎有所偏袒。所以管理羣眾之長官不能給人這種豁免，因為這違反天主的訓令。",
+      "after": "此外，《申命紀》第一章17節，對那些為人長官的說：「審案時不可偏袒，無論貴賤，同樣聽斷；因為審判是天主的事。」但容許某人而不容許一般人，似乎有所偏袒。所以管理羣眾之長官不能給人這種豁免，因為這違反天主的訓令。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "偏拉",
+          "after": "偏袒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2805
+      ],
+      "before": "此外，人為的法律若是正當合理的，必是與自然法律及天主的法律相合的;否則的話，就不能「與宗教相和諧」'也不能「有助於紀律」。而按依希道《語源學》卷二第十章、卷五第三章所說的，這兩點乃是法律必備的條件。但是沒有人能豁免天主的法律及自然法律。所以，也不能豁免人為的法律。",
+      "after": "此外，人為的法律若是正當合理的，必是與自然法律及天主的法律相合的；否則的話，就不能「與宗教相和諧」，也不能「有助於紀律」。而按依希道《語源學》卷二第十章、卷五第三章所說的，這兩點乃是法律必備的條件。但是沒有人能豁免天主的法律及自然法律。所以，也不能豁免人為的法律。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "相和諧」'",
+          "after": "相和諧」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2806
+      ],
+      "before": "宗徒在《格林多前書》第九章17節卻說: 「分施、豁免(dispensatio)的責任已委託給我。」",
+      "after": "宗徒在《格林多前書》第九章17節卻說：「分施、豁免(dispensatio)的責任己委託給我。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已委託",
+          "after": "己委託",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2806
+      ],
+      "before": "我解答如下:嚴格地說，「分施」(dispensatio)是指將共同的東西施用於個別的人，為此有時也稱管家的為「分施者」(dispensatio)，因為他衡量情形分給家中每人工作及生活用品。因此在任何?土羣中，所謂分施即是將某共同法令讓每人奉行。然而有時一條法令大致雖然對羣眾有益，但不適合某人或某一情況，因了有礙於更大的善，或能造成某種惡;這在前面第九十六題第六節已經說過。上面也說過，除非事屬緊急又很明顯，否則不能由隨便一個人來決定。是以管理羣眾的，在其權力限度內能夠豁免人為的法律，即在法律不合適的情形下，準許人不守法律。如果沒有上述之理由，只憑自己的意志給人許可，則是不忠或不慎的分施者。所謂不忠，是說他不顧公共利益;所謂不慎，是說他不看給人許可或豁免的理由。因此在《路加褔音》第十二章42節主說: 「究竟誰是那忠信及精明的管家，主人派他管理自己的家僕?」",
+      "after": "我解答如下：嚴格地說，「分施」(dispensatio)是指將共同的東西施用於個別的人，為此有時也稱管家的為「分施者」(dispensatio)，因為他衡量情形分給家中每人工作及生活用品。因此在任何社羣中，所謂分施即是將某共同法令讓每人奉行。然而有時一條法令大致雖然對羣眾有益，但不適合某人或某一情況，因了有礙於更大的善，或能造成某種惡；這在前面第九十六題第六節己經說過。上面也說過，除非事屬緊急又很明顯，否則不能由隨便一個人來決定。是以管理羣眾的，在其權力限度內能夠豁免人為的法律，即在法律不合適的情形下，準許人不守法律。如果沒有上述之理由，只憑自己的意志給人許可，則是不忠或不慎的分施者。所謂不忠，是說他不顧公共利益；所謂不慎，是說他不看給人許可或豁免的理由。因此在《路加福音》第十二章42節主說：「究竟誰是那忠信及精明的管家，主人派他管理自己的家僕？」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "?土羣",
+          "after": "社羣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔音",
+          "after": "福音",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "家僕?",
+          "after": "家僕？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2806
+      ],
+      "before": "在豁免某人不守共同的法律時，不該妨害公共利益，目的該是為增進公共利益。",
+      "after": "在豁免某人不守共同的法律時，不該妨害公共利益，目的該是為增進公共利益。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q097.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2806
+      ],
+      "before": "對不同的人有不同的措施，並不是編祖。故一人的情況若需要特別的措施，因而準他例外，並不是偏袒。",
+      "after": "對不同的人有不同的措施，並不是偏袒。故一人的情況若需要特別的措施，因而準他例外，並不是偏袒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "編祖",
+          "after": "偏袒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q097.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2806
+      ],
+      "before": "自然法律所包括的，若是不能錯的一般原則，貝!j沒有豁免之可能。其他指令，有似原則之結論，有時人可以豁免，例如:不許將委託物還給出賣國家的人等。至於天主的法律，情形有似私人與國家公法之關係。既然只有立法者和受到委任的人能豁免國家公法;同樣，只有天主或天主特別委派的人，才能豁免天主法律的指令。",
+      "after": "自然法律所包括的，若是不能錯的一般原則，則沒有豁免之可能。其他指令，有似原則之結論，有時人可以豁免，例如：不許將委託物還給出賣國家的人等。至於天主的法律，情形有似私人與國家公法之關係。既然只有立法者和受到委任的人能豁免國家公法；同樣，只有天主或天主特別委派的人，才能豁免天主法律的指令。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝!j",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
