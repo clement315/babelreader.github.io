@@ -1,0 +1,120 @@
+{
+  "batch": "I_II-q068",
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 1440,
+        "rows": 104
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 1440,
+        "count": 21
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 1440
+      },
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 390,
+        "rows": 104
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 390,
+        "count": 21
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "detail": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 114,
+    "all_review_units_match_before_after_manifest": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "all_source_flags_retained": true,
+    "unbalanced_original_punctuation": [
+      {
+        "id": "I_II.q068.a001.respondeo",
+        "pair": "()",
+        "open": 8,
+        "close": 9,
+        "source_flags": [
+          {
+            "id": "I_II.q068.a001.respondeo",
+            "pdf_file_page": 2458,
+            "text": "第三節己經說過",
+            "status": "suspected_source_print_error",
+            "action": "原页「己」疑为「已」，依底本保留。"
+          },
+          {
+            "id": "I_II.q068.a001.respondeo",
+            "pdf_file_page": 2460,
+            "text": "第六節己經講過",
+            "status": "suspected_source_print_error",
+            "action": "原页「己」疑为「已」，依底本保留。"
+          },
+          {
+            "id": "I_II.q068.a001.respondeo",
+            "pdf_file_page": 2459,
+            "text": "超見(consilium))",
+            "status": "suspected_source_print_error",
+            "action": "原页「超見」拉丁括注后确有两个右括号；仅接合排版断词，不擅自删除原书标点。"
+          }
+        ]
+      },
+      {
+        "id": "I_II.q068.a007.sed_contra",
+        "pair": "「」",
+        "open": 2,
+        "close": 1,
+        "source_flags": [
+          {
+            "id": "I_II.q068.a007.sed_contra",
+            "pdf_file_page": 2472,
+            "text": "等級及講法相同，即",
+            "status": "suspected_source_print_error",
+            "action": "原页「相同」后为逗号，未闭合前面的引号，后面再次使用左引号；依底本保留，不擅自规范该处引号。"
+          }
+        ]
+      }
+    ],
+    "reader_sha256": "fecaaa9e9e99aacd1472a80227f0197ba6d5ff2971addd4b9178d77aa409ddb5"
+  }
+}
