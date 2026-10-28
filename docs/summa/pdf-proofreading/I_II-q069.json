@@ -1,0 +1,1830 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q069",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q069",
+    "title": "論真福",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2476,
+      2477,
+      2478,
+      2479,
+      2480,
+      2481,
+      2482,
+      2483,
+      2484,
+      2485,
+      2486
+    ],
+    "printed_pages": [
+      210,
+      220
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 54,
+    "changed_review_units": 44,
+    "checked_unchanged_review_units": 11
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q69.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q69.json": "7376dc6f2103fd6a2d5d9897b78e26c059380e48122cb32d645e309f267bd09a",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q069.a001.arg2",
+      "pdf_file_page": 2476,
+      "text": "第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a001.respondeo",
+      "pdf_file_page": 2477,
+      "text": "他己握有目的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a002.respondeo",
+      "pdf_file_page": 2479,
+      "text": "在己見到果實時",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a002.ad3",
+      "pdf_file_page": 2479,
+      "text": "在現世就己開始",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a003.ad1",
+      "pdf_file_page": 2482,
+      "text": "理由在正解己經說過了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a003.ad5",
+      "pdf_file_page": 2483,
+      "text": "一人己堅定於",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q069.a002.arg3",
+      "pdf_file_page": 2478,
+      "text": "《天主之城》卷十九",
+      "status": "suspected_source_print_error",
+      "action": "原页正文确作卷十九、括注另作卷十七第七章，保留底本。"
+    },
+    {
+      "id": "I_II.q069.a003.arg4",
+      "pdf_file_page": 2480,
+      "text": "《聖詠》第二篇1節",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「第二篇1節」，不按熟知经文改为第一篇。"
+    },
+    {
+      "id": "I_II.q069.a003.ad3",
+      "pdf_file_page": 2483,
+      "text": "第六章22節",
+      "status": "suspected_source_print_error",
+      "action": "原页确作第六章22节，按底本保留交叉引文。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q069.a004.respondeo",
+      "description": "原JSON把三条释疑并在正解中；按原页将答复1至3归回既有ad1、ad2、ad3空字段，保留各字段原有换行转义数量；原正解多出的换行保留在末尾。"
+    }
+  ],
+  "notes": [
+    "全部11页、4节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q069.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "然後要討論的是有褔或真如褔(仰be弘叫‘引言，及《瑪竇褔音》第五章3抖川~叫1ω哺O節)卜。\n關於這點，可以提出四個問題:\n一、真福與恩賜及德、性是否有區別。\n二、真福之賞報是否屬於現世。\n三、諭真福之數目。\n四、賞報之分配是否適當。",
+      "after": "然後要討論的是有福或真福(beatitudines；參看第五十五題引言，及《瑪竇福音》第五章3～10節)。\n關於這點，可以提出四個問題：\n一、真福與恩賜及德性是否有區別。\n二、真福之賞報是否屬於現世。\n三、論真福之數目。\n四、賞報之分配是否適當。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "然後要討論的是有褔或真如褔(仰be弘叫‘引言，及《瑪竇褔音》第五章3抖川~叫1ω哺O節)卜。",
+          "after": "然後要討論的是有福或真福(beatitudines；參看第五十五題引言，及《瑪竇福音》第五章3～10節)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德、性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "諭真福",
+          "after": "論真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "真褔與德性及恩賜是否有區別",
+      "after": "真福與德性及恩賜是否有區別",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "真褔似乎與德性及恩賜沒有區別。因為:",
+      "after": "真福似乎與德性及恩賜沒有區別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "奧斯定在《山中聖訓詮釋》(De Serm. Dom. in Monte)卷一第四章，將《瑪竇褔音》第五章第3等節所列之真褔，歸於聖神的恩賜;而盎博羅修在《路加褔音註疏》關於第六章第20等節，貝IJ將那裡所列之真褔歸於四達德。所以真福與德性和恩賜沒有區別。",
+      "after": "奧斯定在《山中聖訓詮釋》(De Serm. Dom. in Monte)卷一第四章，將《瑪竇福音》第五章第3等節所列之真福，歸於聖神的恩賜；而盎博羅修在《路加福音註疏》關於第六章第20等節，則將那裡所列之真福歸於四達德。所以真福與德性和恩賜沒有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2476
+      ],
+      "before": "此外，人的意志只有兩種準則，即理性和永恆之法律，如在前面第十九題第三及第四節、第二十一題第一節己說過的。但由前面第六十八題第一及第三等節所說的可以知道，德性是針對理性而成全人;恩賜是針對聖神的永恆法律。所以，除了德性和恩賜之外，再沒有別的東西是關於人之正當意志的。故此，真褔與德性和恩賜?是有區別。",
+      "after": "此外，人的意志只有兩種準則，即理性和永恆之法律，如在前面第十九題第三及第四節、第二十一題第一節己說過的。但由前面第六十八題第一及第三等節所說的可以知道，德性是針對理性而成全人；恩賜是針對聖神的永恆法律。所以，除了德性和恩賜之外，再沒有別的東西是關於人之正當意志的。故此，真福與德性和恩賜沒有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "?是有區別",
+          "after": "沒有區別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2476,
+        2477
+      ],
+      "before": "此外，在真福中列有混良、正義和慈悲，但這些都是德性。所以真褔與德性和恩賜沒有區別。",
+      "after": "此外，在真福中列有溫良、正義和慈悲，但這些都是德性。所以真福與德性和恩賜沒有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "混良",
+          "after": "溫良",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2477
+      ],
+      "before": "在真褔中有的既不是德性，也不是恩賜，例如貧困、哀1動與和平。所以真褔與{惡性及恩賜有區別。",
+      "after": "在真福中有的既不是德性，也不是恩賜，例如貧困、哀慟與和平。所以真福與德性及恩賜有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "哀1動",
+          "after": "哀慟",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2477
+      ],
+      "before": "我解答如下:前面第二題第七節、第三題第一節曾經說過，幸福是人生的最後目的。一人因了具有達到目的之希望，便可以說他已握有目的。為此，哲學家在《倫理學》卷一第九章說:「由於希望而說兒童是幸福的」;宗徒在《羅馬書》第八章24節也說: 1-我們得救，還是在於希望。」一人正當地動向目的並接近目的，便產生達到目的之希望:這要有行動。人之動向並接近幸福之目的，是靠德性之行為;如果是動向永恆之幸褔，則主要靠恩賜之行動，因為理性之能力不足。而是聖神領人達到這種幸褔，恩賜使人服從及追隨聖神。故此，真褔與德性和恩賜有區別，但真褔並不是另一類之習性，而是如行動之不同於習性。",
+      "after": "我解答如下：前面第二題第七節、第三題第一節曾經說過，幸福是人生的最後目的。一人因了具有達到目的之希望，便可以說他己握有目的。為此，哲學家在《倫理學》卷一第九章說：「由於希望而說兒童是幸福的」；宗徒在《羅馬書》第八章24節也說：「我們得救，還是在於希望。」一人正當地動向目的並接近目的，便產生達到目的之希望：這要有行動。人之動向並接近幸福之目的，是靠德性之行為；如果是動向永恆之幸福，則主要靠恩賜之行動，因為理性之能力不足。而是聖神領人達到這種幸福，恩賜使人服從及追隨聖神。故此，真福與德性和恩賜有區別，但真福並不是另一類之習性，而是如行動之不同於習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已握有",
+          "after": "己握有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1-我們",
+          "after": "「我們",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2477
+      ],
+      "before": "i.奧斯定和盎博羅修將真褔歸宗於恩賜和德性，乃由於行動是屬於習性。按前面第六十八題第八節所說的，恩賜高於達德。故此，盎博羅修既是向羣眾講解真褔，遂歸之於達德;而奧斯定是解釋在山中標示給造詣較高之宗徒們的真褔，遂歸之於聖神的恩賜。",
+      "after": "奧斯定和盎博羅修將真福歸宗於恩賜和德性，乃由於行動是屬於習性。按前面第六十八題第八節所說的，恩賜高於達德。故此，盎博羅修既是向羣眾講解真福，遂歸之於達德；而奧斯定是解釋在山中標示給造詣較高之宗徒們的真福，遂歸之於聖神的恩賜。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "i.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2477
+      ],
+      "before": "所舉之理由，證明除了德性和恩賜之外，沒有別的習性使人生正當。",
+      "after": "所舉之理由，證明除了德性和恩賜之外，沒有別的習性使人生正當。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2477
+      ],
+      "before": "溫良是指溫和之行動;關於正義和慈悲也是一樣。雖然這些似乎是德性，卻歸之於恩賜;因為按前面第六十八題第二節所講的，德性所成全之有關人的各方面，與恩賜所成全的一樣。",
+      "after": "溫良是指溫和之行動；關於正義和慈悲也是一樣。雖然這些似乎是德性，卻歸之於恩賜；因為按前面第六十八題第二節所講的，德性所成全之有關人的各方面，與恩賜所成全的一樣。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "真褔所指之賞報是否屬於現世",
+      "after": "真福所指之賞報是否屬於現世",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "真褔所指之賞報，似乎不屬於現世。因為:",
+      "after": "真福所指之賞報，似乎不屬於現世。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "按前面第一節說的，有些人由於賞報之希望而被稱為是有褔的。但希望之對象乃是將來之幸福。所以，這些賞報屬於來世。",
+      "after": "按前面第一節說的，有些人由於賞報之希望而被稱為是有福的。但希望之對象乃是將來之幸福。所以，這些賞報屬於來世。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "此外，《路加福音》第六章25節列有與真褔相對的處罰: 「你們現今飽欽的是有禍的，因為你們將要飢餓。你們現今歡笑的是有禍的，因為你們將要哀慟哭泣。」但這些不是指現世的處罰，因為人在現世多次受不到處罰，就如《約伯傳》第二十一章13節所說的: 「他們幸福地度過夭年」。所以，真福之賞報也不屬於現世。",
+      "after": "此外，《路加福音》第六章25節列有與真福相對的處罰：「你們現今飽飲的是有禍的，因為你們將要飢餓。你們現今歡笑的是有禍的，因為你們將要哀慟哭泣。」但這些不是指現世的處罰，因為人在現世多次受不到處罰，就如《約伯傳》第二十一章13節所說的：「他們幸福地度過天年」。所以，真福之賞報也不屬於現世。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "飽欽",
+          "after": "飽飲",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夭年",
+          "after": "天年",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "此外，按奧斯定在《天主之城》卷十九所說的，神貧之真褔的賞報，即天園，是指的天上的幸福(參閱卷十七第七章;及《山中聖訓詮釋》卷一第一章)。按《聖詠》第十六篇的節所說的，完全的飽飯也只能在來世實現: 「願我醒來得能盡情飽享你的慈面」。又按《若望壹書》第三章2節所說的，面見天主及天主之子女身份之顯明，是屬於來世的事: 「現在我們是天主的子女，但我們將來如何，還沒有顯明:可是我們知道，一顯明瞭，我們必要相似祂，因為我們要看見祂實在怎樣。」所以，那些賞報是屬於來世的。",
+      "after": "此外，按奧斯定在《天主之城》卷十九所說的，神貧之真福的賞報，即天國，是指的天上的幸福(參閱卷十七第七章；及《山中聖訓詮釋》卷一第一章)。按《聖詠》第十六篇15節所說的，完全的飽飲也只能在來世實現：「願我醒來得能盡情飽享你的慈面」。又按《若望壹書》第三章2節所說的，面見天主及天主之子女身份之顯明，是屬於來世的事：「現在我們是天主的子女，但我們將來如何，還沒有顯明：可是我們知道，一顯明瞭，我們必要相似祂，因為我們要看見祂實在怎樣。」所以，那些賞報是屬於來世的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天園",
+          "after": "天國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十六篇的節",
+          "after": "第十六篇15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "飽飯",
+          "after": "飽飲",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2478
+      ],
+      "before": "奧斯定在《山中聖訓詮釋》卷一第四章卻說: 「這些在現世能夠實現，正如我們相信曾在宗徒們身上實現過的一樣。因為在來世所許的那種完全的，{象似天使的改變，無以言喻。」",
+      "after": "奧斯定在《山中聖訓詮釋》卷一第四章卻說：「這些在現世能夠實現，正如我們相信曾在宗徒們身上實現過的一樣。因為在來世所許的那種完全的，像似天使的改變，無以言喻。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "{象似",
+          "after": "像似",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2478,
+        2479
+      ],
+      "before": "我解答如下:關於這些賞報，解釋聖經者的說法不一。有人說這些賞報告崩抄來世，去日盎博羅修在《路加福音註疏》卷五關於第六章20節所說的。奧斯定說這些屬於現世(見皮之)c金口若望在其證道詞中說，其中有的屬於來世，有的屬於現世(《瑪竇褔音論贊》第十五篇)。\n為明白這個問題，要知道來世幸福之希望之在我們身上，能是由於兩點:一是由於對來世幸福之準備或配備，這是以功勞方式;一是在聖人們身上，由於未來幸福在現世之不完備的開端。例如在樹葉茂盛的時候，有一種對果實之希望;在己見到果實時的希望是另一種。\n故此，以功勞方式與真褔有關的事，乃是對完備或開端之真褔的準備或配備。至於那些屬於賞報的事，或者即是完備之真褔，遺屬於來世;或者是真褔的一種開端，就如在聖人身上所見到的，這種賞報屬於現世。在一人開始有德性和恩賜之行為時，可以希望他達到旅途中的完美境界，和天鄉的完美境界。",
+      "after": "我解答如下：關於這些賞報，解釋聖經者的說法不一。有人說這些賞報皆屬於來世，如盎博羅修在《路加福音註疏》卷五關於第六章20節所說的。奧斯定說這些屬於現世(見反之)。金口若望在其證道詞中說，其中有的屬於來世，有的屬於現世(《瑪竇福音論贊》第十五篇)。\n為明白這個問題，要知道來世幸福之希望之在我們身上，能是由於兩點：一是由於對來世幸福之準備或配備，這是以功勞方式；一是在聖人們身上，由於未來幸福在現世之不完備的開端。例如在樹葉茂盛的時候，有一種對果實之希望；在己見到果實時的希望是另一種。\n故此，以功勞方式與真福有關的事，乃是對完備或開端之真福的準備或配備。至於那些屬於賞報的事，或者即是完備之真福，這屬於來世；或者是真福的一種開端，就如在聖人身上所見到的，這種賞報屬於現世。在一人開始有德性和恩賜之行為時，可以希望他達到旅途中的完美境界，和天鄉的完美境界。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 5,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "賞報告崩抄來世，去日",
+          "after": "賞報皆屬於來世，如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "見皮之)c",
+          "after": "見反之)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "遺屬於",
+          "after": "這屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2479
+      ],
+      "before": "對來世幸福之希望，就似對最後目的之希望;按《聖詠》第二十八篇7節所說的，也能對恩寵之抉佑抱希望，正如對導致目的者之希望:「我對天主全心依賴，必獲扶助。」",
+      "after": "對來世幸福之希望，就似對最後目的之希望；按《聖詠》第二十八篇7節所說的，也能對恩寵之扶佑抱希望，正如對導致目的者之希望：「我對天主全心依賴，必獲扶助。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "抉佑",
+          "after": "扶佑",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2479
+      ],
+      "before": "惡人在現世有時雖然受不到肉體上的處罰，但受到靈性的處罰。故此奧斯定在《懺悔錄》卷一第十二章裡說:「主，你的措施真奇妙，因為人應得的罰，就是混亂的心靈。」哲學家在《倫理學》卷九第四章論到惡人也說:「他們的心靈白相衝突，一個東西拉他們向這方，另一個東西又拉他們向那方」;然後他結論說:「既然壞人這樣不幸，所以該盡力避惡」。皮之，善人在現世雖不一定得到肉體上的賞報，但總不會缺少靈性的賞報，在現世也是一樣，就如《瑪竇褔音》第十九章29節，及《馬爾谷福音》第十章30節所說的:「在現世你們要領取百倍的賞報」。",
+      "after": "惡人在現世有時雖然受不到肉體上的處罰，但受到靈性的處罰。故此奧斯定在《懺悔錄》卷一第十二章裡說：「主，你的措施真奇妙，因為人應得的罰，就是混亂的心靈。」哲學家在《倫理學》卷九第四章論到惡人也說：「他們的心靈自相衝突，一個東西拉他們向這方，另一個東西又拉他們向那方」；然後他結論說：「既然壞人這樣不幸，所以該盡力避惡」。反之，善人在現世雖不一定得到肉體上的賞報，但總不會缺少靈性的賞報，在現世也是一樣，就如《瑪竇福音》第十九章29節，及《馬爾谷福音》第十章30節所說的：「在現世你們要領取百倍的賞報」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白相",
+          "after": "自相",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2479,
+        2480
+      ],
+      "before": "所說的那些賞報，在來世將全備無缺，但在現世就己開始。因為按奧斯定(同處)說的，天國可以解釋為完美之智慧的開始，即在人身上靈性開始做主的時候。握有土地，也能解釋為靈魂的情緒因永恆之產業而感到保障和安全，土地即是指的安全與固定。善人在現世得有安慰，因為他們分有堅神，而聖神正是安慰者(paracletus)。他們在現世得以飽飯之食物，是上主所說之食物:「我的食物即是承行天父的旨意」(《若望褔音》第四章34節)。在現世人也得有天主的憐憫。人在現世，眼睛受聰敏之恩賜的洗帥，可以多少看到天主。同樣，在現世能安撫自己之行動的人，便與天主相似，而被稱為天主的子女。但這些事將來在天鄉會更加完美。",
+      "after": "所說的那些賞報，在來世將全備無缺，但在現世就己開始。因為按奧斯定(同處)說的，天國可以解釋為完美之智慧的開始，即在人身上靈性開始做主的時候。握有土地，也能解釋為靈魂的情緒因永恆之產業而感到保障和安全，土地即是指的安全與固定。善人在現世得有安慰，因為他們分有聖神，而聖神正是安慰者(paracletus)。他們在現世得以飽飲之食物，是上主所說之食物：「我的食物即是承行天父的旨意」(《若望福音》第四章34節)。在現世人也得有天主的憐憫。人在現世，眼睛受聰敏之恩賜的洗滌後，可以多少看到天主。同樣，在現世能安撫自己之行動的人，便與天主相似，而被稱為天主的子女。但這些事將來在天鄉會更加完美。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "堅神",
+          "after": "聖神",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "飽飯",
+          "after": "飽飲",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "洗帥，可以",
+          "after": "洗滌後，可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "真福之數目是否正確",
+      "after": "真福之數目是否正確",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "真褔的數目似乎不正確。因為:",
+      "after": "真福的數目似乎不正確。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "按前面第一節釋疑1.說的，真褔歸宗於恩賜。有的恩賜屬於鑑賞生活，即智慧與聰敏;但是沒有關於鑑賞之行為的真福，全部都是關於實踐生活的。所以，真褔的數目不足。",
+      "after": "按前面第一節釋疑1.說的，真福歸宗於恩賜。有的恩賜屬於鑑賞生活，即智慧與聰敏；但是沒有關於鑑賞之行為的真福，全部都是關於實踐生活的。所以，真福的數目不足。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "此外，不只實施性的恩賜屬於實踐生活;指導性的恩賜，如明達和超見，也屬於實踐生活。但在真褔中似乎沒有直接屬於明達和超見之行為的。所以真褔講得不全。",
+      "after": "此外，不只實施性的恩賜屬於實踐生活；指導性的恩賜，如明達和超見，也屬於實踐生活。但在真福中似乎沒有直接屬於明達和超見之行為的。所以真福講得不全。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "此外，在實踐生活之實施性恩賜中，有與貧困(神貧)相呼應的畏懼，孝愛似乎屬於憐憫之真福，但是沒有直接屬於剛毅的。所以，真福之項目不足。",
+      "after": "此外，在實踐生活之實施性恩賜中，有與貧困(神貧)相呼應的畏懼，孝愛似乎屬於憐憫之真福，但是沒有直接屬於剛毅的。所以，真福之項目不足。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a003.arg4",
+      "article": 3,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2480
+      ],
+      "before": "此外，在聖經中曾提到許多別的真褔，例如《約《自傳》第五章17節所說的:「天主所懲式的人是有福的」;又《聖詠》第二篇l節所說的:「不隨從惡人的計謀的人是有福的」;還有《接言》第三章13節所說的:「尋得智慧的人是有福的」。所以，真福之數目不全。",
+      "after": "此外，在聖經中曾提到許多別的真福，例如《約伯傳》第五章17節所說的：「天主所懲戒的人是有福的」；又《聖詠》第二篇1節所說的：「不隨從惡人的計謀的人是有福的」；還有《箴言》第三章13節所說的：「尋得智慧的人是有福的」。所以，真福之數目不全。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "約《自傳",
+          "after": "約伯傳",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "懲式",
+          "after": "懲戒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "篇l節",
+          "after": "篇1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "接言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.arg5",
+      "article": 3,
+      "block": "质疑5",
+      "pdf_file_pages": [
+        2481
+      ],
+      "before": "數目又似乎太多。因為聖神的恩賜有七種。真褔則列有八端。",
+      "after": "數目又似乎太多。因為聖神的恩賜有七種。真福則列有八端。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.arg6",
+      "article": 3,
+      "block": "质疑6",
+      "pdf_file_pages": [
+        2481
+      ],
+      "before": "此外，《路加福音》第六章第20等節只提到四種真褔。所以《瑪竇福音》第五章第3等節所列的七種或八種有點多餘。",
+      "after": "此外，《路加福音》第六章第20等節只提到四種真福。所以《瑪竇福音》第五章第3等節所列的七種或八種有點多餘。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2481
+      ],
+      "before": "",
+      "after": "",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2481,
+        2482
+      ],
+      "before": "我解答如下:真福的項目非常合適。要明白此點，該知道人能追求三種幸福:有人以情慾之享受為幸福，有人以實踐生活為幸福，有人則以鑑賞生活為幸福。這三種幸福與將來之幸褔的關係不同，而我們是由於對來世之幸福的希望而被稱為是有褔的。情慾之幸福，因為是假的，又與理性衝突，是來世之幸褔的障礙。實踐生活之宰褔是準備來世之幸福的。鑑賞方面的幸福，如果是完美的，在根本上就是來世之幸福;若不完美，則是那幸褔的開端。\n故此，主先提出的一些幸褔，是為排除情慾之樂所構成的障礙。情慾之生活是基於兩點。第一是身外物之富有:無論是錢財，或是榮譽。德性能使人有節制地享用這些東西;而恩賜更進一步，使人完全輕視這些東西。故此，第一端真褔是:「神貧的人是有福的」。這裡所指的是對錢財的輕視，或對榮譽的輕視;後者是靠謙遜。第二，情慾生活之幸褔在於放縱自己的情慾'無論是慾情方面的，或是憤情方面的。為免受憤情之累，德性使人隨理性之規範，不超過限度;恩賜更進一步，使人隨天主的聖意，完全不為之所動。故此，第二端質褔是:「溫良的人是有福的」 0為免受慾情之累，德性使人約束自己的慾情;恩賜則使人在必要時除去這些慾情，甚而自願接受哀慟。為此，第三端真褔是:「哀慟的人是有福的」。\n實踐生活主要在於我們所給予他人者，或是出於償還欠債，或是出於慷慨施惠。關於第一類，德1空使我們不拒絕償還所欠於他人者;這屬於正義。恩賜使我們對這事更加盡心，即使我們熱心於正義之事，如飢渴者之熱切企求飲食。故此，真褔第四端是:「飢渴慕義的人，是有福的」。關於自動的奉獻，德性使人供應理性指示所當供應者，即親戚朋友:這屬於慷慨之德。但是恩賜，使人為了尊敬天主，只看受惠者之需要;為此，《路加福音》第十四章12及13節說:「幾時你設午宴或晚宴，不要請你的朋友兄弟......;但要請貧窮的，殘廢的...... 」'這專屬於憐憫。故此，第五端真福是:「憐憫人的人是有福的」。\n那屬於鑑賞生活者，或者是最後之真福或幸福本身，或是其端倪;故此，在真福中不視之為功勞，而視之為賞報。但是實踐生活之效果，是從功勞方面去看，即助人準備鑑賞生活。實踐生活之效果，有關人自身在德性和恩賜方面的成就，是心靈之潔淨。故此，真褔第六端是:「心裡潔淨的人，是有福的」。至論人在與他人的關係上的德性和恩賜之成就，貝iJ實踐生活的效果是和平，就如《依撒意亞》第三十二章17節所說的:「正義的功效是和平」 0故此，真褔第七端是:「締造和平的人是有福的」。",
+      "after": "我解答如下：真福的項目非常合適。要明白此點，該知道人能追求三種幸福：有人以情慾之享受為幸福，有人以實踐生活為幸福，有人則以鑑賞生活為幸福。這三種幸福與將來之幸福的關係不同，而我們是由於對來世之幸福的希望而被稱為是有福的。情慾之幸福，因為是假的，又與理性衝突，是來世之幸福的障礙。實踐生活之幸福是準備來世之幸福的。鑑賞方面的幸福，如果是完美的，在根本上就是來世之幸福；若不完美，則是那幸福的開端。\n故此，主先提出的一些幸福，是為排除情慾之樂所構成的障礙。情慾之生活是基於兩點。第一是身外物之富有：無論是錢財，或是榮譽。德性能使人有節制地享用這些東西；而恩賜更進一步，使人完全輕視這些東西。故此，第一端真福是：「神貧的人是有福的」。這裡所指的是對錢財的輕視，或對榮譽的輕視；後者是靠謙遜。第二，情慾生活之幸福在於放縱自己的情慾，無論是慾情方面的，或是憤情方面的。為免受憤情之累，德性使人隨理性之規範，不超過限度；恩賜更進一步，使人隨天主的聖意，完全不為之所動。故此，第二端真福是：「溫良的人是有福的」。為免受慾情之累，德性使人約束自己的慾情；恩賜則使人在必要時除去這些慾情，甚而自願接受哀慟。為此，第三端真福是：「哀慟的人是有福的」。\n實踐生活主要在於我們所給予他人者，或是出於償還欠債，或是出於慷慨施惠。關於第一類，德性使我們不拒絕償還所欠於他人者；這屬於正義。恩賜使我們對這事更加盡心，即使我們熱心於正義之事，如飢渴者之熱切企求飲食。故此，真福第四端是：「飢渴慕義的人，是有福的」。關於自動的奉獻，德性使人供應理性指示所當供應者，即親戚朋友：這屬於慷慨之德。但是恩賜，使人為了尊敬天主，只看受惠者之需要；為此，《路加福音》第十四章12及13節說：「幾時你設午宴或晚宴，不要請你的朋友兄弟......；但要請貧窮的，殘廢的......」，這專屬於憐憫。故此，第五端真福是：「憐憫人的人是有福的」。\n那屬於鑑賞生活者，或者是最後之真福或幸福本身，或是其端倪；故此，在真福中不視之為功勞，而視之為賞報。但是實踐生活之效果，是從功勞方面去看，即助人準備鑑賞生活。實踐生活之效果，有關人自身在德性和恩賜方面的成就，是心靈之潔淨。故此，真福第六端是：「心裡潔淨的人，是有福的」。至論人在與他人的關係上的德性和恩賜之成就，則實踐生活的效果是和平，就如《依撒意亞》第三十二章17節所說的：「正義的功效是和平」。故此，真福第七端是：「締造和平的人是有福的」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 13,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "宰福",
+          "after": "幸福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情慾'",
+          "after": "情慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "質福",
+          "after": "真福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有福的」 0",
+          "after": "有福的」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德1空",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "...... 」'",
+          "after": "......」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝iJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是和平」 0",
+          "after": "是和平」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2482
+      ],
+      "before": "屬於實踐生活的恩賜之行為，是在真福的功勞部分講;但是屬於鑑賞生活的恩賜之行動，是在賞報部分講，理由在正解已經說過了。看見天主與聰敏之恩賜相呼應;而以子女身分與天主相似，貝IJ屬於智慧之恩賜。",
+      "after": "屬於實踐生活的恩賜之行為，是在真福的功勞部分講；但是屬於鑑賞生活的恩賜之行動，是在賞報部分講，理由在正解己經說過了。看見天主與聰敏之恩賜相呼應；而以子女身分與天主相似，則屬於智慧之恩賜。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2482,
+        2483
+      ],
+      "before": "關於實踐生活上的事，認知不是為了認知被追求，而是為了行動。哲學家在《倫理學》卷二第二章也是這樣講的。故此，真褔既然含有最後者之意義，遂不把實踐生活之指導性恩賜的行動本身列在真褔中，如起見之策謀行動，明達之判斷行動。但可以將其所指導才實踐行動，歸屬於這些恩賜;如將哀慟歸於明達，將憐憫歸於超見。",
+      "after": "關於實踐生活上的事，認知不是為了認知被追求，而是為了行動。哲學家在《倫理學》卷二第二章也是這樣講的。故此，真福既然含有最後者之意義，遂不把實踐生活之指導性恩賜的行動本身列在真福中，如超見之策謀行動，明達之判斷行動。但可以將其所指導之實踐行動，歸屬於這些恩賜；如將哀慟歸於明達，將憐憫歸於超見。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "起見之",
+          "after": "超見之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所指導才實踐",
+          "after": "所指導之實踐",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2483
+      ],
+      "before": "在將真褔歸宗於恩賜時，可以從兩方面去看，其一是質料的相似性。按這觀點，前五個真褔皆能歸屬於明達和超見，有如這些真福的指導者。但是實施性的恩賜是這樣分配，即:對正義之飢渴以及憐↑閉，屬於孝愛，造成全人對他人之關係;溫良則屬於剛毅，因為盎博羅修在《路加福音註疏》卷五，關於第六章22節說:「剛毅在於剋制忿怒，平服怨嫌」'剛毅是關於憤情部分之惰的;貧窮與哀慟屬於敬畏之恩賜，它使人遠離世上的慾望和享受。\n另一方面，可以按真褔之動機來看:這時的分配法與前面的不完全一樣。對天主之尊敬特別能使人溫良，這屬於孝愛。主要是明達使人哀慟，它使人知道自己及世界的缺點;故此《司11道篇》第一章的節說:「學問愈廣，憂慮愈深。」主要是剛毅使人渴慕正義之行為。使人憐憫人的，主要是天主的超見，就如《達尼爾》第四章24節所說的:「大玉!望你接納我的勸告:厲行正義，補贖罪過，憐貧濟困，以抵償不義。」這就是奧斯定在《山中聖訓詮釋》卷一第四章的分配法。",
+      "after": "在將真福歸宗於恩賜時，可以從兩方面去看，其一是質料的相似性。按這觀點，前五個真福皆能歸屬於明達和超見，有如這些真福的指導者。但是實施性的恩賜是這樣分配，即：對正義之飢渴以及憐憫，屬於孝愛，這成全人對他人之關係；溫良則屬於剛毅，因為盎博羅修在《路加福音註疏》卷五，關於第六章22節說：「剛毅在於克制忿怒，平服怨嫌」，剛毅是關於憤情部分之情的；貧窮與哀慟屬於敬畏之恩賜，它使人遠離世上的慾望和享受。\n另一方面，可以按真福之動機來看：這時的分配法與前面的不完全一樣。對天主之尊敬特別能使人溫良，這屬於孝愛。主要是明達使人哀慟，它使人知道自己及世界的缺點；故此《訓道篇》第一章18節說：「學問愈廣，憂慮愈深。」主要是剛毅使人渴慕正義之行為。使人憐憫人的，主要是天主的超見，就如《達尼爾》第四章24節所說的：「大王！望你接納我的勸告：厲行正義，補贖罪過，憐貧濟困，以抵償不義。」這就是奧斯定在《山中聖訓詮釋》卷一第四章的分配法。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "憐↑閉",
+          "after": "憐憫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造成全",
+          "after": "這成全",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "剋制",
+          "after": "克制",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "怨嫌」'",
+          "after": "怨嫌」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "之惰",
+          "after": "之情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "司11道篇",
+          "after": "訓道篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一章的節",
+          "after": "第一章18節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "大玉!",
+          "after": "大王！",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2483
+      ],
+      "before": "聖經中所說的一切幸褔，當然都能歸納於這些真褔，或為功勞部分，或為賞報部分，因為這些幸福，不屬於實踐生活，就屬於鑑賞生活。故此，所謂「天主所懲戒的人是有福的」'屬於哀慟之真褔;所謂「不隨從惡人的計謀的人是有褔的」'屬於心靈潔淨;所謂「尋得智慧的人是有褔的」'屬於第七端真福之賞報。其餘的皆可類推。",
+      "after": "聖經中所說的一切幸福，當然都能歸納於這些真福，或為功勞部分，或為賞報部分，因為這些幸福，不屬於實踐生活，就屬於鑑賞生活。故此，所謂「天主所懲戒的人是有福的」，屬於哀慟之真福；所謂「不隨從惡人的計謀的人是有福的」，屬於心靈潔淨；所謂「尋得智慧的人是有福的」，屬於第七端真福之賞報。其餘的皆可類推。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 5,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有福的」'",
+          "after": "有福的」，",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad5",
+      "article": 3,
+      "block": "释疑5",
+      "pdf_file_pages": [
+        2483
+      ],
+      "before": "第八端真福是前七端之印證和表現。因為一人已堅定於神貧、溫良等，絕不因受迫害而改其志。故此，可以說第八端真褔屬於前七端。",
+      "after": "第八端真福是前七端之印證和表現。因為一人己堅定於神貧、溫良等，絕不因受迫害而改其志。故此，可以說第八端真福屬於前七端。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已堅定",
+          "after": "己堅定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a003.ad6",
+      "article": 3,
+      "block": "释疑6",
+      "pdf_file_pages": [
+        2483,
+        2484
+      ],
+      "before": "《路加福音》第六章第17等自(J記述的，是主向羣眾譜的話。羣眾只知道情慾的、現時的和地上的幸福，那裡列舉的真福是根據羣眾的領悟能力。故此，主列舉四端真褔以代替他們所熟知的幸褔。他們所知道的第一種幸福是身外之財物，為反對這種幸福，故說: 「你們貧窮的是有福的」。第二種是養身的飲食等物，為反對這種幸福，故說: 「你們現今飢餓的是有福的」。第三種是關於心情的愉快，為反對這種幸福，故說:「你們現今哭泣的是有福的」。第四種是外來的寵幸，為反對這種幸福，故說: 「人惱恨你們，你們便是有福的」。而按盎博羅修《路加福音註疏》卷五所說的: 「貧窮屬於節制，使人不求享受;飢餓屬於正義，因為受飢餓者，便有同情心，有同情心，便會濟助他人;哭泣屬於機智，使人知道易逝者之可悲;受人的怨恨屬於勇敢。」",
+      "after": "《路加福音》第六章第17等節記述的，是主向羣眾講的話。羣眾只知道情慾的、現時的和地上的幸福，那裡列舉的真福是根據羣眾的領悟能力。故此，主列舉四端真福以代替他們所熟知的幸福。他們所知道的第一種幸福是身外之財物，為反對這種幸福，故說：「你們貧窮的是有福的」。第二種是養身的飲食等物，為反對這種幸福，故說：「你們現今飢餓的是有福的」。第三種是關於心情的愉快，為反對這種幸福，故說：「你們現今哭泣的是有福的」。第四種是外來的寵幸，為反對這種幸福，故說：「人惱恨你們，你們便是有福的」。而按盎博羅修《路加福音註疏》卷五所說的：「貧窮屬於節制，使人不求享受；飢餓屬於正義，因為受飢餓者，便有同情心，有同情心，便會濟助他人；哭泣屬於機智，使人知道易逝者之可悲；受人的怨恨屬於勇敢。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "等自(J",
+          "after": "等節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "羣眾譜",
+          "after": "羣眾講",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "各真福之賞報是否適當",
+      "after": "各真福之賞報是否適當",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "真褔中所列之賞報似乎不適當。因為:",
+      "after": "真福中所列之賞報似乎不適當。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "天國即永生，其中包括一切美善。列舉了天國，便不該再列別的賞報。",
+      "after": "天國即永生，其中包括一切美善。列舉了天國，便不該再列別的賞報。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "此外，在第一端真褔中和在第八端真福中，皆是以天國為賞報。按同理，每端皆應以天國為賞報。",
+      "after": "此外，在第一端真福中和在第八端真福中，皆是以天國為賞報。按同理，每端皆應以天國為賞報。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "此外，按奧斯定《山中聖訓詮釋》卷一第四章說的，真福是由下而上排列的。賞報似是由上而下排列的:因為握有土地次於天圓。所以這賞報分配得不適當。",
+      "after": "此外，按奧斯定《山中聖訓詮釋》卷一第四章說的，真福是由下而上排列的。賞報似是由上而下排列的：因為握有土地次於天國。所以這賞報分配得不適當。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "天圓",
+          "after": "天國",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2484
+      ],
+      "before": "卻有主的權威，祂是這樣排列的。",
+      "after": "卻有主的權威，祂是這樣排列的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q069.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2484,
+        2485
+      ],
+      "before": "我解答如F:按真福與前面第三節曾說到的三種幸福之關係，這些賞報分配得非常合適。前三種真福是為脫避情慾之幸褔:人在追求其天性所慾望者時，不在應尋求的地方去找，即不在天主內去找，而在無常的現世物中去找。故此，前三端真褔所予IJ之賞報，是根據人在現世幸福中所追求者而定的。人在身外物中，即財富及榮譽中，追求一種高貴和富足:天國包括這兩種東西;因了天園，人在天主內得到高貴和富足。故此主許給神貧的人天園。強暴和不溫良的人想以爭執及戰爭得到安全，把敵人消滅。是以主許給溫良人安全地握有土地，土地即是指永恆之善的回定性。人又在現世的早笠快樂中於艾女恕，以補救現世之困苦。因此主許給哭泣的人安慰。\n隨後兩個真褔屬於實踐生活的真褔，即使人善待他人的德性行為:有的人為了私人之利益而忽略這些行為。是以主在這兩種真褔中所列的賞報，即人因以忽略那些行為者。有人忽略正義行為，不還所欠於人者，甚而搶奪他人的財物，以使自己富足;為此，主許給渴慕正義者得到飽飯。有人不照顧他人的困苦，不做慈善事;為此，主許給憐1聞人的人得到憐憫，使他們能擺脫困苦。\n最後兩種真褔屬於鑑賞之幸福或真褔;故此，其所列出之賞報與功勞部分所列之準備正相適合。眼睛潔淨使人看得清楚，故此許給心靈潔淨的人面見天主。在自身或在他人中締造和平者，目IJ顯出此人是效法天主的人，天主乃是統一與和平之主;故此許給他天主之子女身分的光榮，這在於以完美之智慧與天主密切結合。釋~1.就如金口若望《瑪竇福音論贊》第十五篇所說的，這些賞報實際上只是一個，即永遠之幸福。但是人的智力無法瞭解，故此，須用我們所知道的各種善加以描寫，並使功勞與賞報互相配合。\n2.第八端真褔是前七踹j真福之印j墅，所以各真福之賞報皆屬於第八端。為此，又從頭開始，為使人明白所有的賞報都屬於第八端。或者也可以按盎博羅修《路加褔音註疏》卷五所說的，許給神貧者之天國是為光榮靈魂;許給受迫害者的天圓，是為光榮肉身。\n3.賞報也是按增加之方式排列的。因為握有天國之土地比只有天國多;因為我們有許多東西，並非牢固並安全地握有。在天國受安慰也勝於有及握有，因為我們握有的東西能帶有悲傷。飽飯又勝於單純的受到安慰，因為飽飯包含大量的安慰。憐憫超過飽飯多因為憐憫使人獲得高出其功勞，或其所願望者。面見天主則是更大的賞報;因為那在王宮中宴飲，同時又能與國王會面的，是更大的。在王宮中，國王之子女的地位最高。",
+      "after": "我解答如下：按真福與前面第三節曾說到的三種幸福之關係，這些賞報分配得非常合適。前三種真福是為脫避情慾之幸福：人在追求其天性所慾望者時，不在應尋求的地方去找，即不在天主內去找，而在無常的現世物中去找。故此，前三端真福所列之賞報，是根據人在現世幸福中所追求者而定的。人在身外物中，即財富及榮譽中，追求一種高貴和富足：天國包括這兩種東西；因了天國，人在天主內得到高貴和富足。故此主許給神貧的人天國。強暴和不溫良的人想以爭執及戰爭得到安全，把敵人消滅。是以主許給溫良人安全地握有土地，土地即是指永恆之善的固定性。人又在現世的享受快樂中找安慰，以補救現世之困苦。因此主許給哭泣的人安慰。\n隨後兩個真福屬於實踐生活的真福，即使人善待他人的德性行為：有的人為了私人之利益而忽略這些行為。是以主在這兩種真福中所列的賞報，即人因以忽略那些行為者。有人忽略正義行為，不還所欠於人者，甚而搶奪他人的財物，以使自己富足；為此，主許給渴慕正義者得到飽飲。有人不照顧他人的困苦，不做慈善事；為此，主許給憐憫人的人得到憐憫，使他們能擺脫困苦。\n最後兩種真福屬於鑑賞之幸福或真福；故此，其所列出之賞報與功勞部分所列之準備正相適合。眼睛潔淨使人看得清楚，故此許給心靈潔淨的人面見天主。在自身或在他人中締造和平者，則顯出此人是效法天主的人，天主乃是統一與和平之主；故此許給他天主之子女身分的光榮，這在於以完美之智慧與天主密切結合。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如F:按真福與前面第三節曾說到的三種幸福之關係，這些賞報分配得非常合適。前三種真福是為脫避情慾之幸褔:人在追求其天性所慾望者時，不在應尋求的地方去找，即不在天主內去找，而在無常的現世物中去找。故此，前三端真褔所予IJ之賞報，是根據人在現世幸福中所追求者而定的。人在身外物中，即財富及榮譽中，追求一種高貴和富足:天國包括這兩種東西;因了天園，人在天主內得到高貴和富足。故此主許給神貧的人天園。強暴和不溫良的人想以爭執及戰爭得到安全，把敵人消滅。是以主許給溫良人安全地握有土地，土地即是指永恆之善的回定性。人又在現世的早笠快樂中於艾女恕，以補救現世之困苦。因此主許給哭泣的人安慰。\n隨後兩個真褔屬於實踐生活的真褔，即使人善待他人的德性行為:有的人為了私人之利益而忽略這些行為。是以主在這兩種真褔中所列的賞報，即人因以忽略那些行為者。有人忽略正義行為，不還所欠於人者，甚而搶奪他人的財物，以使自己富足;為此，主許給渴慕正義者得到飽飯。有人不照顧他人的困苦，不做慈善事;為此，主許給憐1聞人的人得到憐憫，使他們能擺脫困苦。\n最後兩種真褔屬於鑑賞之幸福或真褔;故此，其所列出之賞報與功勞部分所列之準備正相適合。眼睛潔淨使人看得清楚，故此許給心靈潔淨的人面見天主。在自身或在他人中締造和平者，目IJ顯出此人是效法天主的人，天主乃是統一與和平之主;故此許給他天主之子女身分的光榮，這在於以完美之智慧與天主密切結合。釋~1.就如金口若望《瑪竇福音論贊》第十五篇所說的，這些賞報實際上只是一個，即永遠之幸福。但是人的智力無法瞭解，故此，須用我們所知道的各種善加以描寫，並使功勞與賞報互相配合。\n2.第八端真褔是前七踹j真福之印j墅，所以各真福之賞報皆屬於第八端。為此，又從頭開始，為使人明白所有的賞報都屬於第八端。或者也可以按盎博羅修《路加褔音註疏》卷五所說的，許給神貧者之天國是為光榮靈魂;許給受迫害者的天圓，是為光榮肉身。\n3.賞報也是按增加之方式排列的。因為握有天國之土地比只有天國多;因為我們有許多東西，並非牢固並安全地握有。在天國受安慰也勝於有及握有，因為我們握有的東西能帶有悲傷。飽飯又勝於單純的受到安慰，因為飽飯包含大量的安慰。憐憫超過飽飯多因為憐憫使人獲得高出其功勞，或其所願望者。面見天主則是更大的賞報;因為那在王宮中宴飲，同時又能與國王會面的，是更大的。在王宮中，國王之子女的地位最高。",
+          "after": "我解答如F:按真福與前面第三節曾說到的三種幸福之關係，這些賞報分配得非常合適。前三種真福是為脫避情慾之幸褔:人在追求其天性所慾望者時，不在應尋求的地方去找，即不在天主內去找，而在無常的現世物中去找。故此，前三端真褔所予IJ之賞報，是根據人在現世幸福中所追求者而定的。人在身外物中，即財富及榮譽中，追求一種高貴和富足:天國包括這兩種東西;因了天園，人在天主內得到高貴和富足。故此主許給神貧的人天園。強暴和不溫良的人想以爭執及戰爭得到安全，把敵人消滅。是以主許給溫良人安全地握有土地，土地即是指永恆之善的回定性。人又在現世的早笠快樂中於艾女恕，以補救現世之困苦。因此主許給哭泣的人安慰。\n隨後兩個真褔屬於實踐生活的真褔，即使人善待他人的德性行為:有的人為了私人之利益而忽略這些行為。是以主在這兩種真褔中所列的賞報，即人因以忽略那些行為者。有人忽略正義行為，不還所欠於人者，甚而搶奪他人的財物，以使自己富足;為此，主許給渴慕正義者得到飽飯。有人不照顧他人的困苦，不做慈善事;為此，主許給憐1聞人的人得到憐憫，使他們能擺脫困苦。\n最後兩種真褔屬於鑑賞之幸福或真褔;故此，其所列出之賞報與功勞部分所列之準備正相適合。眼睛潔淨使人看得清楚，故此許給心靈潔淨的人面見天主。在自身或在他人中締造和平者，目IJ顯出此人是效法天主的人，天主乃是統一與和平之主;故此許給他天主之子女身分的光榮，這在於以完美之智慧與天主密切結合。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 7,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如F",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所予IJ",
+          "after": "所列",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "天園",
+          "after": "天國",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "回定",
+          "after": "固定",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "早笠快樂中於艾女恕",
+          "after": "享受快樂中找安慰",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "飽飯",
+          "after": "飽飲",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "憐1聞",
+          "after": "憐憫",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "目IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2485
+      ],
+      "before": "",
+      "after": "就如金口若望《瑪竇福音論贊》第十五篇所說的，這些賞報實際上只是一個，即永遠之幸福。但是人的智力無法瞭解，故此，須用我們所知道的各種善加以描寫，並使功勞與賞報互相配合。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "就如金口若望《瑪竇福音論贊》第十五篇所說的，這些賞報實際上只是一個，即永遠之幸福。但是人的智力無法瞭解，故此，須用我們所知道的各種善加以描寫，並使功勞與賞報互相配合。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2485,
+        2486
+      ],
+      "before": "",
+      "after": "第八端真福是前七端真福之印證，所以各真福之賞報皆屬於第八端。為此，又從頭開始，為使人明白所有的賞報都屬於第八端。或者也可以按盎博羅修《路加福音註疏》卷五所說的，許給神貧者之天國是為光榮靈魂；許給受迫害者的天國，是為光榮肉身。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "第八端真福是前七端真福之印證，所以各真福之賞報皆屬於第八端。為此，又從頭開始，為使人明白所有的賞報都屬於第八端。或者也可以按盎博羅修《路加福音註疏》卷五所說的，許給神貧者之天國是為光榮靈魂;許給受迫害者的天國，是為光榮肉身。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q069.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2486
+      ],
+      "before": "",
+      "after": "賞報也是按增加之方式排列的。因為握有天國之土地比只有天國多；因為我們有許多東西，並非牢固並安全地握有。在天國受安慰也勝於有及握有，因為我們握有的東西能帶有悲傷。飽飲又勝於單純的受到安慰，因為飽飲包含大量的安慰。憐憫超過飽飲，因為憐憫使人獲得高出其功勞，或其所願望者。面見天主則是更大的賞報；因為那在王宮中宴飲，同時又能與國王會面的，是更大的。在王宮中，國王之子女的地位最高。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "賞報也是按增加之方式排列的。因為握有天國之土地比只有天國多;因為我們有許多東西，並非牢固並安全地握有。在天國受安慰也勝於有及握有，因為我們握有的東西能帶有悲傷。飽飲又勝於單純的受到安慰，因為飽飲包含大量的安慰。憐憫超過飽飲，因為憐憫使人獲得高出其功勞，或其所願望者。面見天主則是更大的賞報;因為那在王宮中宴飲，同時又能與國王會面的，是更大的。在王宮中，國王之子女的地位最高。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
