@@ -1,0 +1,1544 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q110",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q110",
+    "title": "論天主之恩寵本質",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      3029,
+      3030,
+      3031,
+      3032,
+      3033,
+      3034,
+      3035,
+      3036,
+      3037,
+      3038
+    ],
+    "printed_pages": [
+      300,
+      309
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 50,
+    "changed_review_units": 42,
+    "checked_unchanged_review_units": 9
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q110.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q110.json": "0c8102d436732e9619439da951313251e2457c2128953e80815443b5a02d13e6",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q110.a001.respondeo",
+      "pdf_file_page": 3030,
+      "text": "知恩知寵",
+      "status": "suspected_source_print_error",
+      "action": "原页也作知恩知宠，疑原书印误，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a002.ad3",
+      "pdf_file_page": 3034,
+      "text": "第二章9節",
+      "status": "suspected_source_print_error",
+      "action": "原页也作第二章9节，疑引文包含10节而未注明，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a001.respondeo",
+      "pdf_file_page": 3030,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a001.ad1",
+      "pdf_file_page": 3031,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a002.respondeo",
+      "pdf_file_page": 3032,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a003.respondeo",
+      "pdf_file_page": 3035,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a003.ad2",
+      "pdf_file_page": 3036,
+      "text": "己說",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a003.ad2",
+      "pdf_file_page": 3036,
+      "text": "先己",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a004.arg1",
+      "pdf_file_page": 3036,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q110.a004.respondeo",
+      "pdf_file_page": 3037,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q110.a001.respondeo",
+      "description": "将误并入正解的三段释疑归回既有ad1–ad3空字段；原正解的换行转义数量与顺序保留，移出段落处剩余换行置于正解末尾。"
+    }
+  ],
+  "notes": [
+    "全部10页、4节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q110.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "然後要討論的是天主之恩寵本質(參看第一O九題引言)。\n關於這點，可以提出四個問題:\n一、恩寵是否在靈魂上產生仟麼東西。\n二、恩寵是否為品質。\n三、恩寵與灌輸的德性是否有J]l卜\n四、論恩寵之主體。",
+      "after": "然後要討論的是天主之恩寵本質(參看第一〇九題引言)。\n關於這點，可以提出四個問題：\n一、恩寵是否在靈魂上產生什麼東西。\n二、恩寵是否為品質。\n三、恩寵與灌輸的德性是否有別。\n四、論恩寵之主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一O九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "仟麼",
+          "after": "什麼",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有J]l卜",
+          "after": "有別。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "恩寵是否在靈魂上產生什麼東西",
+      "after": "恩寵是否在靈魂上產生什麼東西",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "恩寵似乎在靈魂上不產生什麼東西。因為:",
+      "after": "恩寵似乎在靈魂上不產生什麼東西。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "我們說有天主的恩寵，但也說有人的恩寵;故此，《創世紀》第三十九章21節說: 「上主使若瑟在獄長眼中得寵」。但是人得有他人的寵幸時，在得寵的人身上不產生任何東西‘只在施寵的人身上產生一種嘉許。所以人有天主的恩寵，在靈魂上不產生什麼東西，只指天主的嘉許。",
+      "after": "我們說有天主的恩寵，但也說有人的恩寵；故此，《創世紀》第三十九章21節說：「上主使若瑟在獄長眼中得寵」。但是人得有他人的寵幸時，在得寵的人身上不產生任何東西，只在施寵的人身上產生一種嘉許。所以人有天主的恩寵，在靈魂上不產生什麼東西，只指天主的嘉許。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "東西‘",
+          "after": "東西，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3029
+      ],
+      "before": "此外，天主使靈魂生活，正似靈魂使肉身生活;故此《申命紀》第三十章20節說: 「祂是你的生命」。但靈魂是直接使肉身生活，所以在天主與靈魂之間也沒有媒介物。所以，恩寵在靈魂上不產生任何受造的東西。",
+      "after": "此外，天主使靈魂生活，正似靈魂使肉身生活；故此《申命紀》第三十章20節說：「祂是你的生命」。但靈魂是直接使肉身生活，所以在天主與靈魂之間也沒有媒介物。所以，恩寵在靈魂上不產生任何受造的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3029,
+        3030
+      ],
+      "before": "此外，關於《羅馬書》第一章7節那句「願恩寵與平安賜給你們」'「註解」(拉T通行本註解)上說: 「恩寵，即罪過之赦免。」但是罪過的赦免不在靈魂上產生什麼東西，只在天主身上產生不追究;就如《聖詠》第三十二篇2節說的:「上主不歸咎的人是有福的」。所以，恩寵在靈魂上不產生什麼東西。",
+      "after": "此外，關於《羅馬書》第一章7節那句「願恩寵與平安賜給你們」，「註解」(拉丁通行本註解)上說：「恩寵，即罪過之赦免。」但是罪過的赦免不在靈魂上產生什麼東西，只在天主身上產生不追究；就如《聖詠》第三十二篇2節說的：「上主不歸咎的人是有福的」。所以，恩寵在靈魂上不產生什麼東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "你們」'",
+          "after": "你們」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "拉T",
+          "after": "拉丁",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        3030
+      ],
+      "before": "光在被光照者上產生一種東西，而恩寵是靈魂的一種光;故此，奧斯定在《論本性與恩寵》第二十二章說: 「違背法律者理應為真理之光所棄，受真理遺棄的便成為瞎子。」所以恩寵在靈魂上產生一種東西。",
+      "after": "光在被光照者上產生一種東西，而恩寵是靈魂的一種光；故此，奧斯定在《論本性與恩寵》第二十二章說：「違背法律者理應為真理之光所棄，受真理遺棄的便成為瞎子。」所以恩寵在靈魂上產生一種東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        3030,
+        3031
+      ],
+      "before": "我解答如下:一般來說，恩寵有三種意義。一是指某人之愛意，例如，我們習慣說:這位軍人在國王前得寵，意思是國王喜歡他。第二種意義指白給的恩惠，例如說: 「我給你這個恩寵」。第三是指對白給之恩惠的感激，如:知恩知寵。在三種意義中，第二種意義繫於第一種意義:因了一人喜歡誰，才對誰白施恩惠;第三種意義又繫於第二種意義:因為受了白施的恩惠才生感激之情。\n按後兩種意義說，恩寵顯然在受寵的人身上產生一種東西:首先是白賜的恩惠;第二，對這恩惠之感激。關於第一種意義的恩寵，應、注意天主的恩寵與人的恩寵有所不同。因為受造物的美善是來自天主的意志，故從天主願受造物之美善的愛中，傳出一種美善到受造物。人的意志是受造物中已經存在的美善所推動;故此人的愛不產生物之全部的美善，而假定物已經有全部或一部分美善。由此可見，在天主的每一個愛之後，在受造物上都會不定時地產生一種美善，但這美善不是與永恆之愛同為永恆的。由這種美善上的差別，而分出天主對受造物之不同的愛。一種是普遍的愛，用以「愛一切所有」;如《智慧篇》第十一章25節所說的，祂用這愛給予受造物其自然存在或現實。另一種愛是特別的，用以將有靈的受造物提拔到其自然或天性之狀況以上，為分享天主的美善。如此而愛是絕對地或無限制地(simpliciter)愛，因為天主是以這種愛絕對地或無限制地願受造物得有永恆的美善，亦即祂自己。\n所以在說人有天主的恩寵時，是指從天主來到人身上的一種超(越天)性的東西。但是有時說天主的恩寵，是指天主的永恆之愛;例如「預選之恩寵」'即指天主是基於自己的施恩，而不是基於人的功勞，預定或選定某些人。就如《厄弗所書》第一章5及6節所說的: 「由於愛，預定了我們得義子的名分，為頌揚祂思寵的光榮。」韓疑1說人得某人之寵時，和說人有天主的恩寵一樣，也指那人有點使某人喜歡的東西;但二者方式不同。因為使某人喜歡的東西，在喜歡之前，在那人內已經存在;而按前面正解所說的，人內使天主喜歡的東西，卻是天主的愛在人內產生的。\n2.天主是以動因的方式而為靈魂之生命，靈魂則是以形式因的方式而為身體之生命。在形式與質料之間沒有媒介物，因為形式是以自身成全質料或主體。動因不是以自己的本質成全主體，而是以它在質料中產生的形式成全主體。\n3.奧斯定在《訂正錄》卷一第二十五章說: 「在我說恩寵是罪過之赦免，市和平在於與天主和好時，不是說和平與和好不是恩寵，而是說恩寵特別是指罪過之赦免。」所以不只罪過之赦免是恩寵，天主的許多別的恩惠都是恩寵。按後面第一一三題第二節要說的，罪過之赦免，也不是沒有天主在我們身上產生的某種效果。",
+      "after": "我解答如下：一般來說，恩寵有三種意義。一是指某人之愛意，例如，我們習慣說：這位軍人在國王前得寵，意思是國王喜歡他。第二種意義指白給的恩惠，例如說：「我給你這個恩寵」。第三是指對白給之恩惠的感激，如：知恩知寵。在三種意義中，第二種意義繫於第一種意義：因了一人喜歡誰，才對誰白施恩惠；第三種意義又繫於第二種意義：因為受了白施的恩惠才生感激之情。\n按後兩種意義說，恩寵顯然在受寵的人身上產生一種東西：首先是白賜的恩惠；第二，對這恩惠之感激。關於第一種意義的恩寵，應注意天主的恩寵與人的恩寵有所不同。因為受造物的美善是來自天主的意志，故從天主願受造物之美善的愛中，傳出一種美善到受造物。人的意志是受造物中己經存在的美善所推動；故此人的愛不產生物之全部的美善，而假定物己經有全部或一部分美善。由此可見，在天主的每一個愛之後，在受造物上都會不定時地產生一種美善，但這美善不是與永恆之愛同為永恆的。由這種美善上的差別，而分出天主對受造物之不同的愛。一種是普遍的愛，用以「愛一切所有」；如《智慧篇》第十一章25節所說的，祂用這愛給予受造物其自然存在或現實。另一種愛是特別的，用以將有靈的受造物提拔到其自然或天性之狀況以上，為分享天主的美善。如此而愛是絕對地或無限制地(simpliciter)愛，因為天主是以這種愛絕對地或無限制地願受造物得有永恆的美善，亦即祂自己。\n所以在說人有天主的恩寵時，是指從天主來到人身上的一種超(越天)性的東西。但是有時說天主的恩寵，是指天主的永恆之愛；例如「預選之恩寵」，即指天主是基於自己的施恩，而不是基於人的功勞，預定或選定某些人。就如《厄弗所書》第一章5及6節所說的：「由於愛，預定了我們得義子的名分，為頌揚祂恩寵的光榮。」\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:一般來說，恩寵有三種意義。一是指某人之愛意，例如，我們習慣說:這位軍人在國王前得寵，意思是國王喜歡他。第二種意義指白給的恩惠，例如說: 「我給你這個恩寵」。第三是指對白給之恩惠的感激，如:知恩知寵。在三種意義中，第二種意義繫於第一種意義:因了一人喜歡誰，才對誰白施恩惠;第三種意義又繫於第二種意義:因為受了白施的恩惠才生感激之情。\n按後兩種意義說，恩寵顯然在受寵的人身上產生一種東西:首先是白賜的恩惠;第二，對這恩惠之感激。關於第一種意義的恩寵，應、注意天主的恩寵與人的恩寵有所不同。因為受造物的美善是來自天主的意志，故從天主願受造物之美善的愛中，傳出一種美善到受造物。人的意志是受造物中已經存在的美善所推動;故此人的愛不產生物之全部的美善，而假定物已經有全部或一部分美善。由此可見，在天主的每一個愛之後，在受造物上都會不定時地產生一種美善，但這美善不是與永恆之愛同為永恆的。由這種美善上的差別，而分出天主對受造物之不同的愛。一種是普遍的愛，用以「愛一切所有」;如《智慧篇》第十一章25節所說的，祂用這愛給予受造物其自然存在或現實。另一種愛是特別的，用以將有靈的受造物提拔到其自然或天性之狀況以上，為分享天主的美善。如此而愛是絕對地或無限制地(simpliciter)愛，因為天主是以這種愛絕對地或無限制地願受造物得有永恆的美善，亦即祂自己。\n所以在說人有天主的恩寵時，是指從天主來到人身上的一種超(越天)性的東西。但是有時說天主的恩寵，是指天主的永恆之愛;例如「預選之恩寵」'即指天主是基於自己的施恩，而不是基於人的功勞，預定或選定某些人。就如《厄弗所書》第一章5及6節所說的: 「由於愛，預定了我們得義子的名分，為頌揚祂思寵的光榮。」韓疑1說人得某人之寵時，和說人有天主的恩寵一樣，也指那人有點使某人喜歡的東西;但二者方式不同。因為使某人喜歡的東西，在喜歡之前，在那人內已經存在;而按前面正解所說的，人內使天主喜歡的東西，卻是天主的愛在人內產生的。\n2.天主是以動因的方式而為靈魂之生命，靈魂則是以形式因的方式而為身體之生命。在形式與質料之間沒有媒介物，因為形式是以自身成全質料或主體。動因不是以自己的本質成全主體，而是以它在質料中產生的形式成全主體。\n3.奧斯定在《訂正錄》卷一第二十五章說: 「在我說恩寵是罪過之赦免，市和平在於與天主和好時，不是說和平與和好不是恩寵，而是說恩寵特別是指罪過之赦免。」所以不只罪過之赦免是恩寵，天主的許多別的恩惠都是恩寵。按後面第一一三題第二節要說的，罪過之赦免，也不是沒有天主在我們身上產生的某種效果。",
+          "after": "我解答如下:一般來說，恩寵有三種意義。一是指某人之愛意，例如，我們習慣說:這位軍人在國王前得寵，意思是國王喜歡他。第二種意義指白給的恩惠，例如說: 「我給你這個恩寵」。第三是指對白給之恩惠的感激，如:知恩知寵。在三種意義中，第二種意義繫於第一種意義:因了一人喜歡誰，才對誰白施恩惠;第三種意義又繫於第二種意義:因為受了白施的恩惠才生感激之情。\n按後兩種意義說，恩寵顯然在受寵的人身上產生一種東西:首先是白賜的恩惠;第二，對這恩惠之感激。關於第一種意義的恩寵，應、注意天主的恩寵與人的恩寵有所不同。因為受造物的美善是來自天主的意志，故從天主願受造物之美善的愛中，傳出一種美善到受造物。人的意志是受造物中已經存在的美善所推動;故此人的愛不產生物之全部的美善，而假定物已經有全部或一部分美善。由此可見，在天主的每一個愛之後，在受造物上都會不定時地產生一種美善，但這美善不是與永恆之愛同為永恆的。由這種美善上的差別，而分出天主對受造物之不同的愛。一種是普遍的愛，用以「愛一切所有」;如《智慧篇》第十一章25節所說的，祂用這愛給予受造物其自然存在或現實。另一種愛是特別的，用以將有靈的受造物提拔到其自然或天性之狀況以上，為分享天主的美善。如此而愛是絕對地或無限制地(simpliciter)愛，因為天主是以這種愛絕對地或無限制地願受造物得有永恆的美善，亦即祂自己。\n所以在說人有天主的恩寵時，是指從天主來到人身上的一種超(越天)性的東西。但是有時說天主的恩寵，是指天主的永恆之愛;例如「預選之恩寵」'即指天主是基於自己的施恩，而不是基於人的功勞，預定或選定某些人。就如《厄弗所書》第一章5及6節所說的: 「由於愛，預定了我們得義子的名分，為頌揚祂思寵的光榮。」\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "知恩知寵",
+          "after": "知恩知寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "應、注意",
+          "after": "應注意",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩寵」'",
+          "after": "恩寵」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "思寵",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3031
+      ],
+      "before": "",
+      "after": "說人得某人之寵時，和說人有天主的恩寵一樣，也指那人有點使某人喜歡的東西；但二者方式不同。因為使某人喜歡的東西，在喜歡之前，在那人內己經存在；而按前面正解所說的，人內使天主喜歡的東西，卻是天主的愛在人內產生的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "說人得某人之寵時，和說人有天主的恩寵一樣，也指那人有點使某人喜歡的東西;但二者方式不同。因為使某人喜歡的東西，在喜歡之前，在那人內已經存在;而按前面正解所說的，人內使天主喜歡的東西，卻是天主的愛在人內產生的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3031
+      ],
+      "before": "",
+      "after": "天主是以動因的方式而為靈魂之生命，靈魂則是以形式因的方式而為身體之生命。在形式與質料之間沒有媒介物，因為形式是以自身成全質料或主體。動因不是以自己的本質成全主體，而是以它在質料中產生的形式成全主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "天主是以動因的方式而為靈魂之生命，靈魂則是以形式因的方式而為身體之生命。在形式與質料之間沒有媒介物，因為形式是以自身成全質料或主體。動因不是以自己的本質成全主體，而是以它在質料中產生的形式成全主體。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3031
+      ],
+      "before": "",
+      "after": "奧斯定在《訂正錄》卷一第二十五章說：「在我說恩寵是罪過之赦免，而和平在於與天主和好時，不是說和平與和好不是恩寵，而是說恩寵特別是指罪過之赦免。」所以不只罪過之赦免是恩寵，天主的許多別的恩惠都是恩寵。按後面第一一三題第二節要說的，罪過之赦免，也不是沒有天主在我們身上產生的某種效果。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "奧斯定在《訂正錄》卷一第二十五章說: 「在我說恩寵是罪過之赦免，市和平在於與天主和好時，不是說和平與和好不是恩寵，而是說恩寵特別是指罪過之赦免。」所以不只罪過之赦免是恩寵，天主的許多別的恩惠都是恩寵。按後面第一一三題第二節要說的，罪過之赦免，也不是沒有天主在我們身上產生的某種效果。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "市和平",
+          "after": "而和平",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "恩寵是否為靈魂的品質",
+      "after": "恩寵是否為靈魂的品質",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "恩寵似乎不是靈魂的品質。因為:",
+      "after": "恩寵似乎不是靈魂的品質。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "i.沒有品質對其主體起作用，因為品質之作用與主體之作用是分不間的，而如此就等於主體對自己有作用了。但是恩寵對靈魂有作用，使之成義。所以，恩寵不是品質。",
+      "after": "沒有品質對其主體起作用，因為品質之作用與主體之作用是分不開的，而如此就等於主體對自己有作用了。但是恩寵對靈魂有作用，使之成義。所以，恩寵不是品質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "i.沒有",
+          "after": "沒有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不間",
+          "after": "不開",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "此外，本體比品質貴重。但是恩寵比靈魂貴重;因為按前面第一0九題所說的，我們靠恩寵行的許多事，靠天性則力有不濟。所以，恩寵不是品質。",
+      "after": "此外，本體比品質貴重。但是恩寵比靈魂貴重；因為按前面第一〇九題所說的，我們靠恩寵行的許多事，靠天性則力有不濟。所以，恩寵不是品質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "此外，品質離開主體沒有能繼續存在的。但是恩寵繼續存在。因為恩寵不能消滅，因為消滅乃是回到其所由出的虛無;《迦拉達書》第六章的節因而稱之為「新受造物」。所以，恩寵不是品質。",
+      "after": "此外，品質離開主體沒有能繼續存在的。但是恩寵繼續存在。因為恩寵不能消滅，因為消滅乃是回到其所由出的虛無；《迦拉達書》第六章15節因而稱之為「新受造物」。所以，恩寵不是品質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第六章的節",
+          "after": "第六章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        3032
+      ],
+      "before": "關於《聖詠》第一0四篇15節那句「膏油，人用來塗面潤身」'「註解」(拉丁通行本註解)上說:「恩龍是靈魂的光澤，吸引神聖的愛情。」但靈魂的光澤是一種品質，正如身體的美麗。所以，恩寵是一種品質。",
+      "after": "關於《聖詠》第一〇四篇15節那句「膏油，人用來塗面潤身」，「註解」(拉丁通行本註解)上說：「恩寵是靈魂的光澤，吸引神聖的愛情。」但靈魂的光澤是一種品質，正如身體的美麗。所以，恩寵是一種品質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一0四",
+          "after": "第一〇四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "潤身」'",
+          "after": "潤身」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩龍",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        3032,
+        3033
+      ],
+      "before": "我解答如下:前面第一節已經說過，所謂一人有天主的恩寵，是指有天主之意志白賜的效果。前面第一0九題第一、第二及第五節也曾說，人受到天主之施恩意志的兩層幫助。一種方式是人的靈魂因天主的推動而有所認知，有所願意，或有所行動。這個白賜的效果在人身上不是品質，而是靈魂的一種動態。因為按《物理學》卷三第三章的說法:「推動者在被動者身上之行動就是動態」。\n人受天主之施恩意志幫助的另一方式，是由天主給靈魂灌輸一種常備的恩惠。這是因為天主賦予祂所愛而使草有超性之善者，不應少於祂所愛而使享有自然之善者。天主不只推動自然受造物使之有所行動，並且也給予形式和一些德能，以作其行動之根本，為能憑自己就傾向於這些行動。因而在天主推動下的這些行動，對受造物就成了自然又容易的;正如《智慧篇》第八章l節所說的: 「祂從容治理萬物」 0天主既推動人獲取超性及永恆之善，更該給予超性的形式或品質，為能從容順利地在祂的推動下，獲致永恆的善。所以，恩寵是一種品質。",
+      "after": "我解答如下：前面第一節己經說過，所謂一人有天主的恩寵，是指有天主之意志白賜的效果。前面第一〇九題第一、第二及第五節也曾說，人受到天主之施恩意志的兩層幫助。一種方式是人的靈魂因天主的推動而有所認知，有所願意，或有所行動。這個白賜的效果在人身上不是品質，而是靈魂的一種動態。因為按《物理學》卷三第三章的說法：「推動者在被動者身上之行動就是動態」。\n人受天主之施恩意志幫助的另一方式，是由天主給靈魂灌輸一種常備的恩惠。這是因為天主賦予祂所愛而使享有超性之善者，不應少於祂所愛而使享有自然之善者。天主不只推動自然受造物使之有所行動，並且也給予形式和一些德能，以作其行動之根本，為能憑自己就傾向於這些行動。因而在天主推動下的這些行動，對受造物就成了自然又容易的；正如《智慧篇》第八章1節所說的：「祂從容治理萬物」。天主既推動人獲取超性及永恆之善，更該給予超性的形式或品質，為能從容順利地在祂的推動下，獲致永恆的善。所以，恩寵是一種品質。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0九",
+          "after": "第一〇九",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使草有",
+          "after": "使享有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第八章l節",
+          "after": "第八章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3033
+      ],
+      "before": "以恩寵為品質而論，它不是以動因方式對靈魂起作用，而是以形式因方式，就如:白色使東西白，正義使人正義。",
+      "after": "以恩寵為品質而論，它不是以動因方式對靈魂起作用，而是以形式因方式，就如：白色使東西白，正義使人正義。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3033
+      ],
+      "before": "所謂本體，或者即是其所屬之物的天性，或為天性的一部分，故形式與質料也因而被稱為本體。因為恩寵是高於人之天性的，故不能是本體或本體性的形式;而是靈魂的依附體的形式。以本體方式存在於天主內的，是以依附體方式存在於分有天主之美善的靈魂上，例如:知識便是如此。但是由於靈魂分得天主之美善的方式不完美，故稱分有天主之美善的恩寵，在靈魂上的現實，不如靈魂在本身存在之現實。但是恩寵比靈魂的性質高貴，這是因為恩寵是天主之美善的分有或表現，不是按恩寵存在之方式。",
+      "after": "所謂本體，或者即是其所屬之物的天性，或為天性的一部分，故形式與質料也因而被稱為本體。因為恩寵是高於人之天性的，故不能是本體或本體性的形式；而是靈魂的依附體的形式。以本體方式存在於天主內的，是以依附體方式存在於分有天主之美善的靈魂上，例如：知識便是如此。但是由於靈魂分得天主之美善的方式不完美，故稱分有天主之美善的恩寵，在靈魂上的現實，不如靈魂在本身存在之現實。但是恩寵比靈魂的性質高貴，這是因為恩寵是天主之美善的分有或表現，不是按恩寵存在之方式。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3033,
+        3034
+      ],
+      "before": "波其武說: 「依附體之現實是附在(某物內，inesse)~(參看:偽伯達，《亞里斯多德哲學名言錄》PL 90'968)。所以依附體之被稱為物，並非說它有存在或現實，而是某東西藉著它而為存在或現實。故此，按《形上學》卷七第一章所說的，更好說依附體是「物的」'而不是「物」。又因了有存在或現實的才生化和消滅。故嚴格地說，依附體沒有生化，也沒有消滅;而說依附體生化或消滅時，是恨據主體按那依附體開始實現或消滅。按這方式，也說恩寵被創造，實際是人按恩寵被創造，即被置於新的現實;至於從虛無中，即不是由於功勞。就如《厄弗所書》第二章9節所說的: 「不是出於功行，是在基督耶穌內受造的，為行天主所預備的各種善功。」",
+      "after": "波其武說：「依附體之現實是附在(某物內，inesse)」(參看：偽伯達，《亞里斯多德哲學名言錄》PL 90，968)。所以依附體之被稱為物，並非說它有存在或現實，而是某東西藉著它而為存在或現實。故此，按《形上學》卷七第一章所說的，更好說依附體是「物的」，而不是「物」。又因了有存在或現實的才生化和消滅。故嚴格地說，依附體沒有生化，也沒有消滅；而說依附體生化或消滅時，是根據主體按那依附體開始實現或消滅。按這方式，也說恩寵被創造，實際是人按恩寵被創造，即被置於新的現實；至於從虛無中，即不是由於功勞。就如《厄弗所書》第二章9節所說的：「不是出於功行，是在基督耶穌內受造的，為行天主所預備的各種善功。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "inesse)~",
+          "after": "inesse)」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "PL 90'968",
+          "after": "PL 90，968",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "物的」'",
+          "after": "物的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恨據",
+          "after": "根據",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "恩寵是否與德J性相同",
+      "after": "恩寵是否與德性相同",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德J性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "恩寵似乎與德性相同。因為:",
+      "after": "恩寵似乎與德性相同。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "奧斯定說: 「起作用的恩寵，即是藉愛德行事的信德」;這在《論精神與文字》書中第十四及第三十二章有所記載。但是藉愛德行事的信德是德性。所以，恩寵即是德性。",
+      "after": "奧斯定說：「起作用的恩寵，即是藉愛德行事的信德」；這在《論精神與文字》書中第十四及第三十二章有所記載。但是藉愛德行事的信德是德性。所以，恩寵即是德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "此外，定義相同，被定義者(定義所適用者)也相同。但無論聖賢或哲學家給德性下的定義，都適用於恩籠。例如，它是「使有之者成為善的，並使其行為是善的」(亞里斯多德，《倫理學》卷二第六章);它是「靈魂上的優良品質，使人善生等」(彼得隆巴，《語錄》卷二第二十七題第五章)。所以，恩寵即是德性。",
+      "after": "此外，定義相同，被定義者(定義所適用者)也相同。但無論聖賢或哲學家給德性下的定義，都適用於恩寵。例如，它是「使有之者成為善的，並使其行為是善的」(亞里斯多德，《倫理學》卷二第六章)；它是「靈魂上的優良品質，使人善生等」(彼得隆巴，《語錄》卷二第二十七題第五章)。所以，恩寵即是德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恩籠",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3034
+      ],
+      "before": "此外，恩寵是一種品質。但顯然不屬於第四類品質，即「一物之形式或固定的形狀」(亞里斯多德，《範疇論》第六章)，因為不是屬於身體的。也不是第三類，因為不是「被動或被動的品質」。按《物理學》卷七第三章所說的，這是在靈魂的感官部分;而恩寵主要是在心靈部分。也不是第二類，即「天然的能力或無能」'因為恩寵是超出天性的;而且不像自然能力那樣能用於善，也能用於惡。所以只能是第一類品質，即是「習性或配備」。而心靈上的習性是德性;因為按前面第五十六題第三節、第五十七題第一及第二節所說的，連知識也是一種德性。所以，恩寵就是德性。",
+      "after": "此外，恩寵是一種品質。但顯然不屬於第四類品質，即「一物之形式或固定的形狀」(亞里斯多德，《範疇論》第六章)，因為不是屬於身體的。也不是第三類，因為不是「被動或被動的品質」。按《物理學》卷七第三章所說的，這是在靈魂的感官部分；而恩寵主要是在心靈部分。也不是第二類，即「天然的能力或無能」，因為恩寵是超出天性的；而且不像自然能力那樣能用於善，也能用於惡。所以只能是第一類品質，即是「習性或配備」。而心靈上的習性是德性；因為按前面第五十六題第三節、第五十七題第一及第二節所說的，連知識也是一種德性。所以，恩寵就是德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "無能」'",
+          "after": "無能」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        3034,
+        3035
+      ],
+      "before": "若恩寵是德性，買IJ主要該是「向天主之德」中的一個。但恩寵不是信德，也不是望德;因為沒有使人中悅天主之恩寵(寵愛)，也能有這兩個德性。也不是愛德;因為按奧斯定在《論聖人之預定》中所說的，「恩寵先愛德而至」(參見《論恆心向善之恩》第十六章)。所以，恩寵不是德性。",
+      "after": "若恩寵是德性，則主要該是「向天主之德」中的一個。但恩寵不是信德，也不是望德；因為沒有使人中悅天主之恩寵(寵愛)，也能有這兩個德性。也不是愛德；因為按奧斯定在《論聖人之預定》中所說的，「恩寵先愛德而至」(參見《論恆心向善之恩》第十六章)。所以，恩寵不是德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        3035
+      ],
+      "before": "我解答如下:有人主張恩寵與德性在實質上相同，只在理念上有差別:即以其是天主的恩賜，或使人中悅天主而言，稱為恩寵;以其助人行善而言，貝IJ稱為德性。大師《語錄》卷二第二十七題第六章似乎便是抱持這主張。\n但若將德性之概念細加推究，便知此說不能成立。按哲學家在《物理學》卷七第三章所說的:「德性是完美者的一種配備;所謂完美者，即按天性設置的。」由此可知，每個東西的德性(德能)都是針對一個已經存在的天性的東西:即一個東西的配備合於天性，便是德性。前面第五十五題等已經討論的由修練而來的德性，顯然是針對人之天性的適當配備。灌輸性的德性是針對較高之目的之較高方式的配備，所以也該是針對較高的天性或性體，此即分得之天主之性體或天主性。正紅《伯多祿後書》第一章4節所說的，天主「將最大和寶貴的思許賞給了我們，為使你們藉著這些恩詐，成為有分於天主性體的人。」我們有了這種性體，便是重生為天主的子女。\n正如理性的自然之光是練得之德能，或德性以外的東西，這些德性是與自然之光有關係的;恩寵之光是天主之性體的分有，也是灌輸性德性以外的東西。後者乃是出於恩寵之光，並以此光為指歸。故此，宗徒在《厄弗所書》第五章8軒說:「從前你們原是黑暗，但現在你們在主內卻是光明，生活自然要像光明之子一樣。」正如練得之德性助人按理性自然之光行動;同樣，灌輸的德性助人按恩寵之光行動。",
+      "after": "我解答如下：有人主張恩寵與德性在實質上相同，只在理念上有差別：即以其是天主的恩賜，或使人中悅天主而言，稱為恩寵；以其助人行善而言，則稱為德性。大師《語錄》卷二第二十七題第六章似乎便是抱持這主張。\n但若將德性之概念細加推究，便知此說不能成立。按哲學家在《物理學》卷七第三章所說的：「德性是完美者的一種配備；所謂完美者，即按天性設置的。」由此可知，每個東西的德性(德能)都是針對一個己經存在的天性的東西：即一個東西的配備合於天性，便是德性。前面第五十五題等己經討論的由修練而來的德性，顯然是針對人之天性的適當配備。灌輸性的德性是針對較高之目的之較高方式的配備，所以也該是針對較高的天性或性體，此即分得之天主之性體或天主性。正如《伯多祿後書》第一章4節所說的，天主「將最大和寶貴的恩許賞給了我們，為使你們藉著這些恩許，成為有分於天主性體的人。」我們有了這種性體，便是重生為天主的子女。\n正如理性的自然之光是練得之德能，或德性以外的東西，這些德性是與自然之光有關係的；恩寵之光是天主之性體的分有，也是灌輸性德性以外的東西。後者乃是出於恩寵之光，並以此光為指歸。故此，宗徒在《厄弗所書》第五章8節說：「從前你們原是黑暗，但現在你們在主內卻是光明，生活自然要像光明之子一樣。」正如練得之德性助人按理性自然之光行動；同樣，灌輸的德性助人按恩寵之光行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正紅",
+          "after": "正如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "思許",
+          "after": "恩許",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩詐",
+          "after": "恩許",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第五章8軒",
+          "after": "第五章8節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3035,
+        3036
+      ],
+      "before": "奧斯定稱藉愛德行事之信德為「恩寵」'因為通過愛德的信德之行動，是使人中悅天主之恩寵(寵愛)，藉以獲得彰顯的第一個行動。",
+      "after": "奧斯定稱藉愛德行事之信德為「恩寵」，因為通過愛德的信德之行動，是使人中悅天主之恩寵(寵愛)，藉以獲得彰顯的第一個行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恩寵」'",
+          "after": "恩寵」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "在德性之定義中所說的「善」'是指對先已存在之性體的適合性，無論是本然之性體，或是分有之性體。恩龍之被視為善，不是按這方式;而是按正解己說過的，有自日在人內之善的根基。",
+      "after": "在德性之定義中所說的「善」，是指對先己存在之性體的適合性，無論是本然之性體，或是分有之性體。恩寵之被視為善，不是按這方式；而是按正解己說過的，有如在人內之善的根基。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "善」'",
+          "after": "善」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "先已存在",
+          "after": "先己存在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "恩龍",
+          "after": "恩寵",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "有自日在人內之善",
+          "after": "有如在人內之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "恩寵屬於第一類品質。但是不同於德性;而是先德性而有的一種設備，有如德性之根本和基礎。",
+      "after": "恩寵屬於第一類品質。但是不同於德性；而是先德性而有的一種設備，有如德性之根本和基礎。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "恩寵是以靈魂之本體，抑或以其某機能為主體",
+      "after": "恩寵是以靈魂之本體，抑或以其某機能為主體",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "恩寵似乎不是以靈魂之本體(essentía)為主體，而是以靈魂的某機能為主體。因為:",
+      "after": "恩寵似乎不是以靈魂之本體(essentia)為主體，而是以靈魂的某機能為主體。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "essentía",
+          "after": "essentia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "奧斯定在「反駁伯拉糾派及柴勒斯定派」卷三第十一章說，恩寵與意志或自由意志之關係，「似騎士與馬之關係」。但意志或自由意志乃是一種機能，這在第一集第八十三題第二節已經說過。所以，恩寵是以靈魂之機能為主體。",
+      "after": "奧斯定在「反駁伯拉糾派及柴勒斯定派」卷三第十一章說，恩寵與意志或自由意志之關係，「似騎士與馬之關係」。但意志或自由意志乃是一種機能，這在第一集第八十三題第二節己經說過。所以，恩寵是以靈魂之機能為主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "此外，奧斯定說，「人的功績始自恩寵」(《論恩寵與自由意志》第六章)。但功績在於行動，行動則出自某機能。所以，恩寵似乎是靈魂上某機能的成就。",
+      "after": "此外，奧斯定說，「人的功績始自恩寵」(《論恩寵與自由意志》第六章)。但功績在於行動，行動則出自某機能。所以，恩寵似乎是靈魂上某機能的成就。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "此外，倘若靈魂之本體是恩寵的專有之主體，貝IJ靈魂是因為有本體而能有恩寵。但這是不對的，因為如此的話，則凡是魂都能有恩寵了。所以靈魂之本體不是恩寵的專有之主體。",
+      "after": "此外，倘若靈魂之本體是恩寵的專有之主體，則靈魂是因為有本體而能有恩寵。但這是不對的，因為如此的話，則凡是魂都能有恩寵了。所以靈魂之本體不是恩寵的專有之主體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.arg4",
+      "article": 4,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        3036
+      ],
+      "before": "此外，靈魂之本體先於其機能。但先有者沒有後者亦可設想。所以可以不設想靈魂之機能一一即意志和智能等，而設想靈魂上的恩寵。這是不合理的。",
+      "after": "此外，靈魂之本體先於其機能。但先有者沒有後者亦可設想。所以可以不設想靈魂之機能——即意志和智能等，而設想靈魂上的恩寵。這是不合理的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "機能一一",
+          "after": "機能——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        3036,
+        3037
+      ],
+      "before": "因了恩寵，我們重生為天主的子女。但是生產先是以本體為終點，而後以機能。所以，恩寵首先是在靈魂的本體上，而非在機能上。",
+      "after": "因了恩寵，我們重生為天主的子女。但是生產先是以本體為終點，而後以機能。所以，恩寵首先是在靈魂的本體上，而非在機能上。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q110.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        3037
+      ],
+      "before": "我解答如下:這個問題繫於前面第三節的問題。倘若恩寵就是德性，則必然是以靈魂之機能為主體。因為前面第五十六題第一節已經說過，靈魂之機能是德性的專有之主體。若恩寵與德性不一樣，則不能說靈魂的機能是恩寵之主體;因為靈現之機能的成就，皆有德性之意義，還在前面第五十五題第一節、第五十六題第一節也說過了。既然恩寵是先於德性的，故該以先於靈魂之機能者為主體‘所以是以靈魂之本體為主體。正如人是以智性機能藉信德而分有天主的知識，並以意志之機能藉愛德分有天主的愛;同樣，人是以靈魂之本體，按相似的方式，藉重生或再造而分有天主的本體。",
+      "after": "我解答如下：這個問題繫於前面第三節的問題。倘若恩寵就是德性，則必然是以靈魂之機能為主體。因為前面第五十六題第一節己經說過，靈魂之機能是德性的專有之主體。若恩寵與德性不一樣，則不能說靈魂的機能是恩寵之主體；因為靈魂之機能的成就，皆有德性之意義，這在前面第五十五題第一節、第五十六題第一節也說過了。既然恩寵是先於德性的，故該以先於靈魂之機能者為主體，所以是以靈魂之本體為主體。正如人是以智性機能藉信德而分有天主的知識，並以意志之機能藉愛德分有天主的愛；同樣，人是以靈魂之本體，按相似的方式，藉重生或再造而分有天主的本體。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "靈現",
+          "after": "靈魂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "還在前面",
+          "after": "這在前面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "主體‘",
+          "after": "主體，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        3037
+      ],
+      "before": "靈魂之機能是源白靈魂之本體，並為行為之根本;間樣，德性也是源自恩寵而及於靈魂之機能，並使機能有行動。故此，恩寵與意志之關係是推動者與被動者之關係，亦即騎士與馬之關係;而不是依附體與主體之關係。",
+      "after": "靈魂之機能是源自靈魂之本體，並為行為之根本；同樣，德性也是源自恩寵而及於靈魂之機能，並使機能有行動。故此，恩寵與意志之關係是推動者與被動者之關係，亦即騎士與馬之關係；而不是依附體與主體之關係。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "源白",
+          "after": "源自",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "間樣",
+          "after": "同樣",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        3037
+      ],
+      "before": "由上面釋疑1.所說的，也可知道質疑2.的解答。恩寵是通過德性而為功行之根本;正如靈魂之本體是通過其機能，而為各種活動之根本。",
+      "after": "由上面釋疑1.所說的，也可知道質疑2.的解答。恩寵是通過德性而為功行之根本；正如靈魂之本體是通過其機能，而為各種活動之根本。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        3037
+      ],
+      "before": "靈魂之為恩寵的主體，是因為是屬於智性或理性之類的魂。靈魂之類別不是由其機能所構成的，因為機能是伴隨靈魂之類別而有的自然屬性。所以人的靈魂，在本質上與其他生物，即動物或植物的魂不向。故此，不能因了人類靈魂之本體是恩寵之主體，便說任何魂皆能是恩寵之主體;靈魂之本體之所以能為恩寵之主體，是因7屬於這個類別(智性或理性的現一一靈魂)。",
+      "after": "靈魂之為恩寵的主體，是因為是屬於智性或理性之類的魂。靈魂之類別不是由其機能所構成的，因為機能是伴隨靈魂之類別而有的自然屬性。所以人的靈魂，在本質上與其他生物，即動物或植物的魂不同。故此，不能因了人類靈魂之本體是恩寵之主體，便說任何魂皆能是恩寵之主體；靈魂之本體之所以能為恩寵之主體，是因了屬於這個類別(智性或理性的魂——靈魂)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "魂不向",
+          "after": "魂不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因7",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理性的現一一",
+          "after": "理性的魂——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q110.a004.ad4",
+      "article": 4,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        3038
+      ],
+      "before": "既然靈魂之機能是伴隨靈魂之類別的自然屬性，故靈魂不能沒有機能。即使假設靈魂沒有機能，貝IJ仍該說它是屬於智性或理性之類別的;不是因了它現實地具有這些機能，而是因為那種本質自然該產生那些機能。",
+      "after": "既然靈魂之機能是伴隨靈魂之類別的自然屬性，故靈魂不能沒有機能。即使假設靈魂沒有機能，則仍該說它是屬於智性或理性之類別的；不是因了它現實地具有這些機能，而是因為那種本質自然該產生那些機能。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
