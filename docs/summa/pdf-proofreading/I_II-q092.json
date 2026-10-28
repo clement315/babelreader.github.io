@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q092",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "affa0bef9b356579e5f08a6eb57d4db4b805b3aa",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q092",
+    "title": "論法律之效果",
+    "articles": [
+      1,
+      2
+    ],
+    "pdf_file_pages": [
+      2749,
+      2750,
+      2751,
+      2752,
+      2753
+    ],
+    "printed_pages": [
+      20,
+      24
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 28,
+    "changed_review_units": 19,
+    "checked_unchanged_review_units": 10
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q92.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q92.json": "2e2f9d1b1df21752568ebd0fd9a0eb8b28241c0e0cd1204678918c99b9a6b55e"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q092.a001.respondeo",
+      "pdf_file_page": 2750,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q092.a001.respondeo",
+      "pdf_file_page": 2750,
+      "text": "己注意到",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q092.a001.ad1",
+      "pdf_file_page": 2750,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q092.a001.ad2",
+      "pdf_file_page": 2751,
+      "text": "己經",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q092.a002.respondeo",
+      "pdf_file_page": 2752,
+      "text": "己說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q092.a001.ad1",
+      "pdf_file_page": 2750,
+      "text": "《政治學》卷二第一章",
+      "status": "suspected_source_print_error",
+      "action": "原页确作《政治學》，疑为书名印误；依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部5页、2节原页逐页对齐。本批属于用户指定的第二部第一集第90–114题全部剩余内容；署名element，仅本地保存。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q092.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "然後要討論的是法律之效果(參看第九十題引言)。\n關於這點，可以提出兩個問題:\n一、使人成為善人是否為法律之效呆。\n二、法律之作用是否為命令、禁止、準許和懲罰，一如法律學家於《羅馬法律類編》卷一第三題第七條所說的。",
+      "after": "然後要討論的是法律之效果(參看第九十題引言)。\n關於這點，可以提出兩個問題：\n一、使人成為善人是否為法律之效果。\n二、法律之作用是否為命令、禁止、準許和懲罰，一如法律學家於《羅馬法律類編》卷一第三題第七條所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "效呆",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "使人成為善人是否為法律之效果",
+      "after": "使人成為善人是否為法律之效果",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "法律之任務似乎不在使人成為善人。因為:",
+      "after": "法律之任務似乎不在使人成為善人。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "人是靠德性而成為善人，因為按《倫理學》卷二第六章所說的:「德性使真有之者成為善的」。但人的德性只是從天主來的，因為按前面第五十五題第四節給德性下的定義，íJ惡性乃是「天主在我們內並不靠我們所造成的」 0所以，法律的任務不是使人成為善人c",
+      "after": "人是靠德性而成為善人，因為按《倫理學》卷二第六章所說的：「德性使具有之者成為善的」。但人的德性只是從天主來的，因為按前面第五十五題第四節給德性下的定義，德性乃是「天主在我們內並不靠我們所造成的」。所以，法律的任務不是使人成為善人。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "íJ惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "」 0",
+          "after": "」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善人c",
+          "after": "善人。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "此外，除非人遵從法律，否則法律對人無益。但人遵守法律是因為他是善人。所以，法律先假定人是善的。故此，法律不使人成為善人。",
+      "after": "此外，除非人遵從法律，否則法律對人無益。但人遵守法律是因為他是善人。所以，法律先假定人是善的。故此，法律不使人成為善人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2749
+      ],
+      "before": "此外，按前面第九十題第二節所說的，法律是以公共利益為目的。但是有人在公共利益方面的態度很好，而在私事方面的作風不好。所以，法律的任務不是為使人成為善人。",
+      "after": "此外，按前面第九十題第二節所說的，法律是以公共利益為目的。但是有人在公共利益方面的態度很好，而在私事方面的作風不好。所以，法律的任務不是為使人成為善人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a001.arg4",
+      "article": 1,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2749,
+        2750
+      ],
+      "before": "此外，按哲學家在《政治學》卷三第六章所說的，有些法律是暴虐性的。但是暴君所謀求的只是自己的利益，不是治下人民之善良。所以，法律的任務不在於使人成為善人。",
+      "after": "此外，按哲學家在《政治學》卷三第六章所說的，有些法律是暴虐性的。但是暴君所謀求的只是自己的利益，不是治下人民之善良。所以，法律的任務不在於使人成為善人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2750
+      ],
+      "before": "哲學家在《倫理學》卷二第一章卻說:「任何立法者皆志在使國民成為善人。」",
+      "after": "哲學家在《倫理學》卷二第一章卻說：「任何立法者皆志在使國民成為善人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2750
+      ],
+      "before": "我解答如下:前面第九十題第一節釋疑2.、第三及第四節已經說過，法律無非就是領袖用以管理屬下的理性之指示。任何屬下之德性皆在於使他善於服從領導;就如我們已注意到，憤情和慾情部分之德性，在於使之善於服從理性。故此哲學家在《政治學》卷一第五章說:「任何屬下之德性，皆在於善為服從首領」。而法律的目的是為使屬下遵守。由此可見，法律的任務是使屬下各修其德。既然德性是「使其有之者成為善的」'可見法律的功效是使接受法律之人成為善人一或絕對地，或相對地。如果立法者所謀求的是真善，即合於天主之正義的公共利益，貝IJ人因了法律便成為絕對的善人。如果立法者所謀求的，不是絕對的善(真善、正善)，而是對他私人有益者或可樂者，或與天主之正義相反;這些法律不使人成為絕對的善人，而是相對的善人，即對這制度而言是善人。按這意義來說，在本然是惡者中也可發現善，例如說:善於偷盜者，因為他的行動適合那種目的。",
+      "after": "我解答如下：前面第九十題第一節釋疑2.、第三及第四節己經說過，法律無非就是領袖用以管理屬下的理性之指示。任何屬下之德性皆在於使他善於服從領導；就如我們己注意到，憤情和慾情部分之德性，在於使之善於服從理性。故此哲學家在《政治學》卷一第五章說：「任何屬下之德性，皆在於善為服從首領」。而法律的目的是為使屬下遵守。由此可見，法律的任務是使屬下各修其德。既然德性是「使其有之者成為善的」，可見法律的功效是使接受法律之人成為善人——或絕對地，或相對地。如果立法者所謀求的是真善，即合於天主之正義的公共利益，則人因了法律便成為絕對的善人。如果立法者所謀求的，不是絕對的善(真善、正善)，而是對他私人有益者或可樂者，或與天主之正義相反；這些法律不使人成為絕對的善人，而是相對的善人，即對這制度而言是善人。按這意義來說，在本然是惡者中也可發現善，例如說：善於偷盜者，因為他的行動適合那種目的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已注意到",
+          "after": "己注意到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善的」'",
+          "after": "善的」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "善人一或",
+          "after": "善人——或",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2750
+      ],
+      "before": "按前面第六十三題第二節所說的，德性分兩種:一是修練來的，一是由灌輸而來的。行為之習慣對這兩種德性皆有作用，但性質不同。因為習慣產生修練之德性;對灌輸之德性，習慣只有準備作用，對已經有的則有保存和增強的作用。既然法律是指導人之行動的，若這些行動有利於德性，便可以說法律使人成為善人。故此，哲學家在《政治學》卷二第一章說:「立法者使人藉習慣成為善人」。",
+      "after": "按前面第六十三題第二節所說的，德性分兩種：一是修練來的，一是由灌輸而來的。行為之習慣對這兩種德性皆有作用，但性質不同。因為習慣產生修練之德性；對灌輸之德性，習慣只有準備作用，對己經有的則有保存和增強的作用。既然法律是指導人之行動的，若這些行動有利於德性，便可以說法律使人成為善人。故此，哲學家在《政治學》卷二第一章說：「立法者使人藉習慣成為善人」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "人遵守法律，不常是因為有完善的德性:有時是因為怕處罰，有時則只是出於理性之指示。前面第六十三題第一節已經說過，理性之命令或指示乃是德性的一個根本。",
+      "after": "人遵守法律，不常是因為有完善的德性：有時是因為怕處罰，有時則只是出於理性之指示。前面第六十三題第一節己經說過，理性之命令或指示乃是德性的一個根本。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "部分之善惡要看其與整體的關係。故此奧斯定在《懺悔錄》卷三第八章說: 「與整體不調諧的部分，就是不良的部分。」既然每人皆是國家的一員，一人若不配合公共之利益，不能說是善人;在另一方面，若各部分配合的不好，整體也難於存在。故此，除非公民有德，或至少除非領導者有德，否則公共利益不可能實現。為足以實現團體之利益，一般的人須具有服從官長之命令的德性。故此，哲學家在《政治學》卷三第二章說: 「首領與善人的德性是相同的，但公民與善人的德性不相同。」",
+      "after": "部分之善惡要看其與整體的關係。故此奧斯定在《懺悔錄》卷三第八章說：「與整體不調諧的部分，就是不良的部分。」既然每人皆是國家的一員，一人若不配合公共之利益，不能說是善人；在另一方面，若各部分配合的不好，整體也難於存在。故此，除非公民有德，或至少除非領導者有德，否則公共利益不可能實現。為足以實現團體之利益，一般的人須具有服從官長之命令的德性。故此，哲學家在《政治學》卷三第二章說：「首領與善人的德性是相同的，但公民與善人的德性不相同。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a001.ad4",
+      "article": 1,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "暴虐的法律既然不合於理性，所以不是絕對的法律，而是法律之腐化。但在它多少具有法律之理的範圍內，它是要使公民成為善的。因為若具有法律之理，就一定是首領給屬下的命令，並要求屬下好好地服從法律;而這就是使屬下成為善的，不是絕對地善，但是針對這種制度的善(相對地善)。",
+      "after": "暴虐的法律既然不合於理性，所以不是絕對的法律，而是法律之腐化。但在它多少具有法律之理的範圍內，它是要使公民成為善的。因為若具有法律之理，就一定是首領給屬下的命令，並要求屬下好好地服從法律；而這就是使屬下成為善的，不是絕對地善，但是針對這種制度的善(相對地善)。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "所列之法律作用是否合適",
+      "after": "所列之法律作用是否合適",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "說法律之作用是「命令、禁止、準許和懲罰」'似乎不合適。因為:",
+      "after": "說法律之作用是「命令、禁止、準許和懲罰」，似乎不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "懲罰」'",
+          "after": "懲罰」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "按照法律學家《羅馬法律類編》卷一第三題第一條所說的，「凡法律皆是概括性的訓令」。但命令(imperare)與訓令(praecipere)是同一回事。所以，其餘三點是多餘的。",
+      "after": "按照法律學家《羅馬法律類編》卷一第三題第一條所說的，「凡法律皆是概括性的訓令」。但命令(imperare)與訓令(praecipere)是同一回事。所以，其餘三點是多餘的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2751
+      ],
+      "before": "此外，按前面第一節所說的，法律的作用是使屬下成為善人。但是勸諭比誡命所謀求的善高俏。所以，法律之作用更該是勸導，而不是命令。",
+      "after": "此外，按前面第一節所說的，法律的作用是使屬下成為善人。但是勸諭比誡命所謀求的善高尚。所以，法律之作用更該是勸導，而不是命令。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "高俏",
+          "after": "高尚",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2752
+      ],
+      "before": "此外，懲罰可以促人行善，獎賞也能促人行善c既然懲罰是法律的一種作用，獎賞也該列為法律的作用之一。",
+      "after": "此外，懲罰可以促人行善，獎賞也能促人行善。既然懲罰是法律的一種作用，獎賞也該列為法律的作用之一。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行善c",
+          "after": "行善。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2752
+      ],
+      "before": "此外，按前面第一節所說的，立法者的目的是使人成為善人。但是隻因怕受處罰而守法的人，不是善人;因為奧斯定說: 「一人行善若是出於奴隸性的畏懼，亦即由於怕受處罰，則作的不好」(《駁伯拉糾派的兩封信》卷二第九章)。所以，懲罰似乎不是法律專有的任務。",
+      "after": "此外，按前面第一節所說的，立法者的目的是使人成為善人。但是只因怕受處罰而守法的人，不是善人；因為奧斯定說：「一人行善若是出於奴隸性的畏懼，亦即由於怕受處罰，則作的不好」(《駁伯拉糾派的兩封信》卷二第九章)。所以，懲罰似乎不是法律專有的任務。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻因",
+          "after": "只因",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2752
+      ],
+      "before": "依希道在《語源學》卷五第卡九章說: 「凡是法律，貝IJ或者準許什麼事，例如:勇敢者可以領賞;或者有所禁止，例如:不可以向修女求婚;或者有所懲罰，例如:殺人者處以死llJ耳川",
+      "after": "依希道在《語源學》卷五第十九章說：「凡是法律，則或者準許什麼事，例如：勇敢者可以領賞；或者有所禁止，例如：不可以向修女求婚；或者有所懲罰，例如：殺人者處以死刑。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第卡九章",
+          "after": "第十九章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "死llJ耳川",
+          "after": "死刑。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2752
+      ],
+      "before": "我解答如下:就如宣言(叫叫io)是理性以陳述方式所給的指示，法律則是理性以命令方式所給的指示。理性的作用是從一件事推出另一件事。為此，正如在論證性的知識中，理性根據某些原理，使人接受某一結論;在法律方面，理性也是根據某一點而使人同意法律之訓示。\n按前面第九十題第一及第二節、第九十一題第四節所說的，法律是關於人性行動的，用以指導人性行動。人性行動有三類。因為如第十八題第八節已說過的，有的行動按本類是善的，這是德性之行為。針對這些行動，法律的任務是命令或訓示，因為按《倫理學》卷五第一章所說的: 「法律命令一切德性的行為」。有的行動按本類是惡的，就如有毛病的行為。針對這些行動，法律的任務是禁止。有的行動按本類是中性的(無可無不可的)。針對這些行動，法律的任務是準許。凡是不太好或不太壞的行為，也可以說是中性的。而法律用以迫人守法的方法是畏懼懲罰，故將懲罰列為法律的作用之一。",
+      "after": "我解答如下：就如宣言(enuntiatio)是理性以陳述方式所給的指示，法律則是理性以命令方式所給的指示。理性的作用是從一件事推出另一件事。為此，正如在論證性的知識中，理性根據某些原理，使人接受某一結論；在法律方面，理性也是根據某一點而使人同意法律之訓示。\n按前面第九十題第一及第二節、第九十一題第四節所說的，法律是關於人性行動的，用以指導人性行動。人性行動有三類。因為如第十八題第八節己說過的，有的行動按本類是善的，這是德性之行為。針對這些行動，法律的任務是命令或訓示，因為按《倫理學》卷五第一章所說的：「法律命令一切德性的行為」。有的行動按本類是惡的，就如有毛病的行為。針對這些行動，法律的任務是禁止。有的行動按本類是中性的(無可無不可的)。針對這些行動，法律的任務是準許。凡是不太好或不太壞的行為，也可以說是中性的。而法律用以迫人守法的方法是畏懼懲罰，故將懲罰列為法律的作用之一。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "叫叫io",
+          "after": "enuntiatio",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2753
+      ],
+      "before": "正如停止做惡具有善的意義，禁止也有點訓令的意義。故此，若用訓令的廣義，可以概括地說法律就是訓令。",
+      "after": "正如停止做惡具有善的意義，禁止也有點訓令的意義。故此，若用訓令的廣義，可以概括地說法律就是訓令。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q092.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2753
+      ],
+      "before": "勸導不是法律專有的任務，沒有立法權的私人也可以給人勸導。故此宗徒在《格林多前書》第七章12節給人勸諭時說:「是我說，而不是主說」。故(勸導)不被列為法律的作用。",
+      "after": "勸導不是法律專有的任務，沒有立法權的私人也可以給人勸導。故此宗徒在《格林多前書》第七章12節給人勸諭時說：「是我說，而不是主說」。故(勸導)不被列為法律的作用。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2753
+      ],
+      "before": "獎勵也是任何人都能做的事，但是隻有司法人員有權力加以懲罰。故此，只將懲罰算為法律之作用，而不將獎勵列入。",
+      "after": "獎勵也是任何人都能做的事，但是只有司法人員有權力加以懲罰。故此，只將懲罰算為法律之作用，而不將獎勵列入。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "隻有",
+          "after": "只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q092.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2753
+      ],
+      "before": "一個人若因了怕處罰，而開始習於避惡行善，有時便慢慢地樂於並自動地避惡行善。根據這點，可以說法律在懲罰時也是為了使人成為善人。",
+      "after": "一個人若因了怕處罰，而開始習於避惡行善，有時便慢慢地樂於並自動地避惡行善。根據這點，可以說法律在懲罰時也是為了使人成為善人。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
