@@ -1,0 +1,1705 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q060",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q060",
+    "title": "論道德涵養性德性彼此之區別",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      2375,
+      2376,
+      2377,
+      2378,
+      2379,
+      2380,
+      2381,
+      2382,
+      2383,
+      2384,
+      2385
+    ],
+    "printed_pages": [
+      109,
+      119
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 60,
+    "changed_review_units": 43,
+    "checked_unchanged_review_units": 18
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q60.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q60.json": "dac364c1a6447adefd35114c80f28c5885d99ed849949478ead44b904752ed98"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q060.a001.respondeo",
+      "pdf_file_page": 2376,
+      "text": "第五十八題第一至第三節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a001.ad2",
+      "pdf_file_page": 2377,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a002.respondeo",
+      "pdf_file_page": 2378,
+      "text": "第四十九題第四節釋疑1.己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页跨页引文确作此题节，恢复漏掉的「释疑1.」，不据其他版本改引文。"
+    },
+    {
+      "id": "I_II.q060.a002.respondeo",
+      "pdf_file_page": 2378,
+      "text": "第二種，行動為關乎德性之質料",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「行動為關乎」，疑漏「及情」；按底本保留。"
+    },
+    {
+      "id": "I_II.q060.a002.ad1",
+      "pdf_file_page": 2378,
+      "text": "己能知道各質疑之答案",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a002.ad1",
+      "pdf_file_page": 2378,
+      "text": "上面正解己講過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a003.respondeo",
+      "pdf_file_page": 2379,
+      "text": "第二節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a004.arg1",
+      "pdf_file_page": 2380,
+      "text": "第二十七題第四節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a004.respondeo",
+      "pdf_file_page": 2381,
+      "text": "第二十三題第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a004.ad3",
+      "pdf_file_page": 2382,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a005.ad2",
+      "pdf_file_page": 2385,
+      "text": "如己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q060.a005.ad4",
+      "pdf_file_page": 2385,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q060.a002.respondeo",
+      "description": "原JSON把第二节正解后两段错并到ad1，且漏掉跨页引文「释疑1.」。按原页归回现有respondeo，ad1仅保留印本的合并答复；respondeo原来没有换行，故归回正文连写，多出的原有ad1换行保留在该字段末尾。不新增字段、行或换行转义。"
+    }
+  ],
+  "notes": [
+    "全部11页、5节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q060.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "然後要討論的是道德涵養性德性彼此間的區別(參看第五十九題引言)。\n關於這點，可以提出五個問題:\n一、是否只有一個道德涵養性德性。\n二、關於行動的道德涵養性德性與關於情者是否有別。\n三、關於行動是否只有一個道德涵養性德性。\n四、關於不同的情是否有不同的道德涵養性德性。\n五、道德涵養性德性是否根據情的不同對象以相區別。",
+      "after": "然後要討論的是道德涵養性德性彼此間的區別(參看第五十九題引言)。\n關於這點，可以提出五個問題：\n一、是否只有一個道德涵養性德性。\n二、關於行動的道德涵養性德性與關於情者是否有別。\n三、關於行動是否只有一個道德涵養性德性。\n四、關於不同的情是否有不同的道德涵養性德性。\n五、道德涵養性德性是否根據情的不同對象以相區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "是否只有一個道德涵養性德性",
+      "after": "是否只有一個道德涵養性德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "似乎只有一個道德涵養性德性。因為:",
+      "after": "似乎只有一個道德涵養性德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "指導道德行為是屬於理性的事，理性是智性德性之主體;而傾向屬於嗜慾力，它是道德福養性德性之主體。但是在一切道德行為中，只有一個指導的智性德性，即機智或智德。所以在一切道德行為中，也只有一個傾向的道德涵養性德性。",
+      "after": "指導道德行為是屬於理性的事，理性是智性德性之主體；而傾向屬於嗜慾力，它是道德涵養性德性之主體。但是在一切道德行為中，只有一個指導的智性德性，即機智或智德。所以在一切道德行為中，也只有一個傾向的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "道德福養",
+          "after": "道德涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "此外，習性不是按質料對象分類別，而是按對象之形式理由。道德涵養性德性所指向之苦的形式理由是一個，此即理性之節度。所以似乎只有一個道德涵養性德性。",
+      "after": "此外，習性不是按質料對象分類別，而是按對象之形式理由。道德涵養性德性所指向之善的形式理由是一個，此即理性之節度。所以似乎只有一個道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "指向之苦",
+          "after": "指向之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2375
+      ],
+      "before": "此外，道德方面的事是以目的分類別，如在前面第一題第三節曾說過的。但是，一切道德涵養性德性之共同目的只有一個，即是幸福一一各自專有之近目的則是無限的。道德涵養性德性不是無限的。所以，似乎只有一個。",
+      "after": "此外，道德方面的事是以目的分類別，如在前面第一題第三節曾說過的。但是，一切道德涵養性德性之共同目的只有一個，即是幸福——各自專有之近目的則是無限的。道德涵養性德性不是無限的。所以，似乎只有一個。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2376
+      ],
+      "before": "前面第五十六題第二節曾說:一個習性不能是在不同的機能上。但是，道德涵養性德性之主體是靈魂的嗜慾部分;按在第一集第八十題第二節、第八十一題第二節所說的，嗜慾部分有不同的機能。所以，不能只有一個道德涵養性德性。",
+      "after": "前面第五十六題第二節曾說：一個習性不能是在不同的機能上。但是，道德涵養性德性之主體是靈魂的嗜慾部分；按在第一集第八十題第二節、第八十一題第二節所說的，嗜慾部分有不同的機能。所以，不能只有一個道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2376
+      ],
+      "before": "我解答如下:按第五十八題第一至第三節己說過的，道德涵養性德性是嗜慾部分的習性。前面第五十四題第二節也曾說過，習性是按對象的種類差別而分類別。可欲之對象的類別像其他東西一樣，是根據由主動者而來之形式。但要知道，被動者之質料與主動者有兩種關係，有時質料所承受之形式，與在主動者身上的一樣一同義的(univocus)主動者都是如此。在這情形，如果主動者是同一類別(species)的，則質料必然承受同一類別之形式;例如，從火中|司義地只能產生屬於火之類別的東西。有時質料由主動者所承受之形式，與主動者所有的不一樣一一在不以同義方式產生的東西中便可以看出，例如:由太陽產生之生物。這時質料所承受之形式，與主動者的形式不屬於同一類別，而按質料承受主動者之影響力之能力的不同而不同;例如，我們見到在太陽的作用下，經過腐化，由不同性能的質料中，生出不同類別的生物。\n在道德行為中，理性顯然是命令者及推動者;嗜慾力則是受命者及被動者。但是嗜慾不是以同義方式承受理性之作用。因為按《倫理學》卷一第十三章所說的，嗜慾之成為有理性者，不是按本質，而是經由分得。為此，可欲者根據理性之推動構成各種不同的類別，各按其與理性的關係而定。因而道德涵養性德性有許多類別，而不是隻有一個。",
+      "after": "我解答如下：按第五十八題第一至第三節己說過的，道德涵養性德性是嗜慾部分的習性。前面第五十四題第二節也曾說過，習性是按對象的種類差別而分類別。可欲之對象的類別像其他東西一樣，是根據由主動者而來之形式。但要知道，被動者之質料與主動者有兩種關係，有時質料所承受之形式，與在主動者身上的一樣——同義的(univocus)主動者都是如此。在這情形，如果主動者是同一類別(species)的，則質料必然承受同一類別之形式；例如，從火中同義地只能產生屬於火之類別的東西。有時質料由主動者所承受之形式，與主動者所有的不一樣——在不以同義方式產生的東西中便可以看出，例如：由太陽產生之生物。這時質料所承受之形式，與主動者的形式不屬於同一類別，而按質料承受主動者之影響力之能力的不同而不同；例如，我們見到在太陽的作用下，經過腐化，由不同性能的質料中，生出不同類別的生物。\n在道德行為中，理性顯然是命令者及推動者；嗜慾力則是受命者及被動者。但是嗜慾不是以同義方式承受理性之作用。因為按《倫理學》卷一第十三章所說的，嗜慾之成為有理性者，不是按本質，而是經由分得。為此，可欲者根據理性之推動構成各種不同的類別，各按其與理性的關係而定。因而道德涵養性德性有許多類別，而不是只有一個。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "一樣一同義",
+          "after": "一樣——同義",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "中|司義",
+          "after": "中同義",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "不是隻有",
+          "after": "不是只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2376,
+        2377
+      ],
+      "before": "理性之對象是員。在道德行為中，亦即在偶然可為之事中，真之理是同一個。因此，為指導這些行為也只有一個德性，即機智或智德。嗜慾能力之對象是可欲之善，因其對理性的關係不同，而有不同的善之理。",
+      "after": "理性之對象是真。在道德行為中，亦即在偶然可為之事中，真之理是同一個。因此，為指導這些行為也只有一個德性，即機智或智德。嗜慾能力之對象是可欲之善，因其對理性的關係不同，而有不同的善之理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "對象是員",
+          "after": "對象是真",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "由於主動者是一個，所以形式屬於同一共類。但由於承受者的性能不同，而構成不同的類別或別類，如正解已說過的。",
+      "after": "由於主動者是一個，所以形式屬於同一共類。但由於承受者的性能不同，而構成不同的類別或別類，如正解己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "道德行為不是由最後目的取得類則，而是由近目的;這些目的在數目上雖是無限的，在種類或別類上則不是無限的。",
+      "after": "道德行為不是由最後目的取得類別，而是由近目的；這些目的在數目上雖是無限的，在種類或別類上則不是無限的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "類則",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "關於行動的道德涵養性德性與關於情者是否有別",
+      "after": "關於行動的道德涵養性德性與關於情者是否有別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "道德涵養性德性似乎不是按關於行動及關於情者而分額別。因為:",
+      "after": "道德涵養性德性似乎不是按關於行動及關於情者而分類別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分額別",
+          "after": "分類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "哲學家在《倫理學》卷二第三章說:道德涵養性德性是「關於快樂和悲傷的，使其行動達於至善。」 f且按前面第三十一題第一節、第三十五題第一節說的，快樂與悲傷是惰。道德涵養性德性既然也是行動方面的，所以道德涵養性德性無論是關於1育、或閱於行動，都是一個德性。",
+      "after": "哲學家在《倫理學》卷二第三章說：道德涵養性德性是「關於快樂和悲傷的，使其行動達於至善。」但按前面第三十一題第一節、第三十五題第一節說的，快樂與悲傷是情。道德涵養性德性既然也是行動方面的，所以道德涵養性德性無論是關於情、或關於行動，都是一個德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": " f且",
+          "after": "但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "關於1育",
+          "after": "關於情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "或閱於",
+          "after": "或關於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "此外，情是外表之行動的根本。若有的德性是用以正情的，自然也就是正行動的。所以，關於情及關於行動都是同樣的德性。",
+      "after": "此外，情是外表之行動的根本。若有的德性是用以正情的，自然也就是正行動的。所以，關於情及關於行動都是同樣的德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "此外，感官嗜慾動向外面行動，無論是好是壞。但是嗜慾的動態即是情。所以，關於行動的與關於1育的是同樣的德J性。",
+      "after": "此外，感官嗜慾動向外面行動，無論是好是壞。但是嗜慾的動態即是情。所以，關於行動的與關於情的是同樣的德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關於1育",
+          "after": "關於情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德J性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2377
+      ],
+      "before": "哲學家《倫理學》卷二第七章認為正義是關於行動的;而節制、勇敢皮溫和，是關於某些情的。",
+      "after": "哲學家《倫理學》卷二第七章認為正義是關於行動的；而節制、勇敢及溫和，是關於某些情的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "勇敢皮溫和",
+          "after": "勇敢及溫和",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2377,
+        2378
+      ],
+      "before": "我解答如下:行動及情對德性的關係能有兩種。第一種，行動及情是德性的效果。按這關係，每個道德涵養性德性皆產生某些善行;並產生一些快樂或悲傷，如第四十九題第四節",
+      "after": "我解答如下：行動及情對德性的關係能有兩種。第一種，行動及情是德性的效果。按這關係，每個道德涵養性德性皆產生某些善行；並產生一些快樂或悲傷，如第四十九題第四節釋疑1.己說過的，而這些都是情。第二種，行動為關乎德性之質料。按這關係，則關於行動的德性與關於情的應該有別。理由在於某些行動之善惡，是看行動本身，而不管人是怎樣的心情，因為這些行動之善惡在於對他人之關係。在這些行為方面，必須有某德性指導行動本身，例如：買賣，及一切要看對他人之權益的行動。為此，正義及與之相關的德性，專是以行動為相關質料的德性。在某些行動方面，其善惡只看其對行動者的關係。為此，這些行動的善惡，要看行動者所懷的心情是好是壞。所以，這方面的德性必然主要是關於內心之情感的，亦即關於靈魂之情的，例如：節制、勇敢等。在針對他人的行動方面，有時是因了內心之情不當而破壞到德性之善。在這時，因為破壞了外在行動之關係，破壞的是正義，由於其破壞內心之情的關係，破壞的是別的德性。例如一人因忿怒而打人，打人之不當處違反正義，過份的忿怒違反的是溫和。其他可以類推。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:行動及情對德性的關係能有兩種。第一種，行動及情是德性的效果。按這關係，每個道德涵養性德性皆產生某些善行;並產生一些快樂或悲傷，如第四十九題第四節",
+          "after": "我解答如下:行動及情對德性的關係能有兩種。第一種，行動及情是德性的效果。按這關係，每個道德涵養性德性皆產生某些善行;並產生一些快樂或悲傷，如第四十九題第四節釋疑1.己說過的，而這些都是惰。第二種，行動為關乎德性之質料。按這關係，貝IJ關於行動的德性與關於惰的應該有別。理由在於某些行動之善惡，是看行動本身，而不管人是怎樣的心情，因為這些行動之善惡在於對他人之關係。在這些行為方面，必須有某德性指導行動本身，例如:買賣，及一切要看對他人之權益的行動。為此，正義及與之相闊的悟性，專是以行動為相關質料的德性。在某些行動方面，其善惡只看其對行動者的關係。為此，這些行動前善惡，要看行動者所懷的心情是好是壞。所以，這方面的德性必然主要是關於內心之情感的，亦即關於靈魂之情的，例如:節育IJ、勇敢等。在針對他人的行動方面，有時是囡了內心之情不當而破壞到德性之善。在這時，因為破壞了外在行動之關係，破壞的是正義，由於其破壞內心之惰的關係，破壞的是別的德性。例如一人因忿怒而打人，打人之不當處違反正義，過份的忿怒違反的是溫和。其他可以類推。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相闊的悟性",
+          "after": "相關的德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "行動前善惡",
+          "after": "行動的善惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "節育IJ",
+          "after": "節制",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "囡了",
+          "after": "因了",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "己說過的，而這些都是惰。\n第二種，行動為關乎德性之質料。按這關係，貝IJ關於行動的德性與關於惰的應該有別。理由在於某些行動之善惡，是看行動本身，而不管人是怎樣的心情，因為這些行動之善惡在於對他人之關係。在這些行為方面，必須有某德性指導行動本身，例如:買賣，及一切要看對他人之權益的行動。為此，正義及與之相闊的悟性，專是以行動為相關質料的德性。在某些行動方面，其善惡只看其對行動者的關係。為此，這些行動前善惡，要看行動者所懷的心情是好是壞。所以，這方面的德性必然主要是關於內心之情感的，亦即關於靈魂之情的，例如:節育IJ、勇敢等。\n在針對他人的行動方面，有時是囡了內心之情不當而破壞到德性之善。在這時，因為破壞了外在行動之關係，破壞的是正義，由於其破壞內心之惰的關係，破壞的是別的德性。例如一人因忿怒而打人，打人之不當處違反正義，過份的忿怒違反的是溫和。其他可以類推。釋疑從上面所說的，己能知道各質疑之答案。第一點是根據行動為德性之效果而來的。其他兩點，是由於情與行動指向同一個效果。但在某方面，德性主要是關於行動的;在別的方面，主要是關於惰的，就如上面正解已講過的。",
+      "after": "從上面所說的，己能知道各質疑之答案。第一點是根據行動為德性之效果而來的。其他兩點，是由於情與行動指向同一個效果。但在某方面，德性主要是關於行動的；在別的方面，主要是關於情的，就如上面正解己講過的。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "己說過的，而這些都是惰。\n第二種，行動為關乎德性之質料。按這關係，貝IJ關於行動的德性與關於惰的應該有別。理由在於某些行動之善惡，是看行動本身，而不管人是怎樣的心情，因為這些行動之善惡在於對他人之關係。在這些行為方面，必須有某德性指導行動本身，例如:買賣，及一切要看對他人之權益的行動。為此，正義及與之相闊的悟性，專是以行動為相關質料的德性。在某些行動方面，其善惡只看其對行動者的關係。為此，這些行動前善惡，要看行動者所懷的心情是好是壞。所以，這方面的德性必然主要是關於內心之情感的，亦即關於靈魂之情的，例如:節育IJ、勇敢等。\n在針對他人的行動方面，有時是囡了內心之情不當而破壞到德性之善。在這時，因為破壞了外在行動之關係，破壞的是正義，由於其破壞內心之惰的關係，破壞的是別的德性。例如一人因忿怒而打人，打人之不當處違反正義，過份的忿怒違反的是溫和。其他可以類推。釋疑從上面所說的，己能知道各質疑之答案。第一點是根據行動為德性之效果而來的。其他兩點，是由於情與行動指向同一個效果。但在某方面，德性主要是關於行動的;在別的方面，主要是關於惰的，就如上面正解已講過的。",
+          "after": "從上面所說的，己能知道各質疑之答案。第一點是根據行動為德性之效果而來的。其他兩點，是由於情與行動指向同一個效果。但在某方面，德性主要是關於行動的;在別的方面，主要是關於惰的，就如上面正解已講過的。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已講過",
+          "after": "己講過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "關於行動是否只有一個道德涵養性德性",
+      "after": "關於行動是否只有一個道德涵養性德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "有關第三節﹒我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第三節﹒",
+          "after": "第三節，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "關於行動似乎只有一個道德涵養性德性。因為:",
+      "after": "關於行動似乎只有一個道德涵養性德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2378
+      ],
+      "before": "一切外表行動之正當性似乎皆屬於正義。但正義是一個德性。所以，關於行動只有一個德性。",
+      "after": "一切外表行動之正當性似乎皆屬於正義。但正義是一個德性。所以，關於行動只有一個德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2378,
+        2379
+      ],
+      "before": "此外，行動最大的區別，似乎在於有的指向一個人的利益，有的指向大眾的利益。但這區別不構成道德涵養性德性的類別。因為哲學家在《倫理學》卷五第一章說，管理人對公益之行為的法律正義，與管理人對個體之利益的德性，只在理念上有另IJ。所以，行動上的差別不構成道德涵養性德性的差別。",
+      "after": "此外，行動最大的區別，似乎在於有的指向一個人的利益，有的指向大眾的利益。但這區別不構成道德涵養性德性的類別。因為哲學家在《倫理學》卷五第一章說，管理人對公益之行為的法律正義，與管理人對個體之利益的德性，只在理念上有別。所以，行動上的差別不構成道德涵養性德性的差別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "另IJ",
+          "after": "別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2379
+      ],
+      "before": "此外，如果關於不同的行動，有不同的道德涵養性德性，員IJ應按行動之差別區分道德涵養性德性。這顯然不對。因為按《倫理學》卷五第二章說的，在各種交易中，皆是由正義規定是非:在分配時也是一樣。所以，不是不同的行動有不同的道德涵養拉德性。",
+      "after": "此外，如果關於不同的行動，有不同的道德涵養性德性，則應按行動之差別區分道德涵養性德性。這顯然不對。因為按《倫理學》卷五第二章說的，在各種交易中，皆是由正義規定是非：在分配時也是一樣。所以，不是不同的行動有不同的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "涵養拉",
+          "after": "涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2379
+      ],
+      "before": "虔誠與孝順不是同樣的德性，但二者都是關於某些行動的。",
+      "after": "虔誠與孝順不是同樣的德性，但二者都是關於某些行動的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2379
+      ],
+      "before": "我解答如下:一切關於行動的道德涵養性德性，皆合於正義之通理，即皆是對他人之義務，因個別理由而互相有別。這是因為如第二節已說過的，外在行動之正理，不在於行動與行動者之心情的關係，而在於事情本身之適宜性;根據這適宜性而得義務之理，由義務而構成正義之理，盡對他人的義務即囑於正義。為此，關於行動的這類德性皆多少真有正義之理。但是各種義務不屬同理，有的是對平輩的義務，有的是對上輩的，有的是對下輩的;有的是生於契約，有的是生於單方之許諾，有的是生於恩惠。義務之理不同，遂有不同的德性，例如:虔誠是盡對天主之義務，忠孝是盡對父母或祖國的義務，其日恩是盡對恩人的義務等。",
+      "after": "我解答如下：一切關於行動的道德涵養性德性，皆合於正義之通理，即皆是對他人之義務，因個別理由而互相有別。這是因為如第二節己說過的，外在行動之正理，不在於行動與行動者之心情的關係，而在於事情本身之適宜性；根據這適宜性而得義務之理，由義務而構成正義之理，盡對他人的義務即屬於正義。為此，關於行動的這類德性皆多少具有正義之理。但是各種義務不屬同理，有的是對平輩的義務，有的是對上輩的，有的是對下輩的；有的是生於契約，有的是生於單方之許諾，有的是生於恩惠。義務之理不同，遂有不同的德性，例如：虔誠是盡對天主之義務，忠孝是盡對父母或祖國的義務，知恩是盡對恩人的義務等。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "即囑於",
+          "after": "即屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "真有",
+          "after": "具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "其日恩",
+          "after": "知恩",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2379
+      ],
+      "before": "狹義的正義是一種個別的德性，是根據嚴格的義務之理，是關於可用等值償還者。但也有廣義的正義，即關於任何義務者。如此則不是一種個別的德性。",
+      "after": "狹義的正義是一種個別的德性，是根據嚴格的義務之理，是關於可用等值償還者。但也有廣義的正義，即關於任何義務者。如此則不是一種個別的德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2379,
+        2380
+      ],
+      "before": "指向公共利益的正義，與指向某私人之利益的正義，不是同一個德性;為此，公法與私法也不同。而西塞祿《修辭學》卷二第五十三章又列出一個特別的德性，即忠(pietas),是關於國家之利益的。但是使人追求公益的正義，由於其命令的關係'是個普遍性的德性，因為德性之行動皆指向此目的，亦即是指向公共利益。受這種正義命令的德性，也稱為正義。所以，德性與法律正義只在理念上有區別;正如因自身而起作用的德性，與因受命而起作用的德性，也只有理念上的區別。",
+      "after": "指向公共利益的正義，與指向某私人之利益的正義，不是同一個德性；為此，公法與私法也不同。而西塞祿《修辭學》卷二第五十三章又列出一個特別的德性，即忠(pietas)，是關於國家之利益的。但是使人追求公益的正義，由於其命令的關係，是個普遍性的德性，因為德性之行動皆指向此目的，亦即是指向公共利益。受這種正義命令的德性，也稱為正義。所以，德性與法律正義只在理念上有區別；正如因自身而起作用的德性，與因受命而起作用的德性，也只有理念上的區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "(pietas),",
+          "after": "(pietas)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "命令的關係'",
+          "after": "命令的關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "在屬於個別之正義的行為中，義務之理是同一個。所以是同一個正義之德性，特別是關於交易上的。分配性的正義與交易性的正義，可能種類不同;這點留待後來第二集第二部第A六十一題第一節討論。",
+      "after": "在屬於個別之正義的行為中，義務之理是同一個。所以是同一個正義之德性，特別是關於交易上的。分配性的正義與交易性的正義，可能種類不同；這點留待後來第二集第二部第六十一題第一節討論。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第A六十一題",
+          "after": "第六十一題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "關於不同的情是否有不同的道德涵養性德性",
+      "after": "關於不同的情是否有不同的道德涵養性德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "關於不同的情，似乎不是有不同的道德涵養性德性。因為:",
+      "after": "關於不同的情，似乎不是有不同的道德涵養性德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "根本與目的相同者，其習性是一個;這在學問方面最易看出。但是一切惰的根本是一個，即愛;同時也都結束到同一個目的，即快樂或悲傷，如在前面第二十五題第一至第四節、第二十七題第四節已說過的。所以，關於諸情只有一個道德涵養性1惡性。",
+      "after": "根本與目的相同者，其習性是一個；這在學問方面最易看出。但是一切情的根本是一個，即愛；同時也都結束到同一個目的，即快樂或悲傷，如在前面第二十五題第一至第四節、第二十七題第四節己說過的。所以，關於諸情只有一個道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "涵養性1惡性",
+          "after": "涵養性德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2380
+      ],
+      "before": "此外，倘若關於不同的情，有不同的道德涵養性德性;則有多少惰，便該有多少道德涵養性德性。但這顯然不對。因為關於彼此對立的情，只有一個道德涵養性德性，例如:勇敢是關於畏懼及勇猛的，節制是關於快樂和悲傷的。所以，關於不同的惰，不必有不同的道德灑養性德性。",
+      "after": "此外，倘若關於不同的情，有不同的道德涵養性德性；則有多少情，便該有多少道德涵養性德性。但這顯然不對。因為關於彼此對立的情，只有一個道德涵養性德性，例如：勇敢是關於畏懼及勇猛的，節制是關於快樂和悲傷的。所以，關於不同的情，不必有不同的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "灑養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2380,
+        2381
+      ],
+      "before": "此外，按前面第二十三題第四節說的，愛、慾望及快樂，是類別不同的情。但是關於這些情只有一個德性，即節青l卜所以，不是關於不同的情，便有不同的道德涵養性德性。",
+      "after": "此外，按前面第二十三題第四節說的，愛、慾望及快樂，是類別不同的情。但是關於這些情只有一個德性，即節制。所以，不是關於不同的情，便有不同的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "節青l卜",
+          "after": "節制。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2381
+      ],
+      "before": "按《倫理學》卷三第六及第十章及卷四第五章說的，勇敢是關於畏懼和勇猛的，節制是關於慾望的，溫和是關於忿怒的。",
+      "after": "按《倫理學》卷三第六及第十章及卷四第五章說的，勇敢是關於畏懼和勇猛的，節制是關於慾望的，溫和是關於忿怒的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2381
+      ],
+      "before": "我解答如下:不能說關於諸情，只有一個道德涵養性德性c因為如第二十三題第一節己說過的，有的情屬於不同的機能;因為有的屬於憤情部分，有的屬於慾情部分。\n但是也不是惰的每個差別，便足構成不同類別的道德涵養性德性。第一，因為有些情彼此是對立的，例如:喜樂與悲傷、畏懼與勇猛等。關於這樣彼此對立的惰，必定只有同一個德性。既然道德涵養性德性在於某種中庸，對立之惰的中點，是按同理來確定;正如自然物中，彼此對立者之中點是同一個，例如:在白與黑之間。\n第二，有些不同的情，是以同樣的方式違反理性，例如:以推向違反理性者的方式，或背離合於理性者的方式。為此，慾情部分的各種情，不屬於不同的道德涵養性德性。因為它們的動態是按一貫的次序彼此相連接的，都是指向同一個東西，即是皆在於求善，或在於避惡，例如:由愛生慾望，由慾望達到快樂。反面者也是一樣，由恨而生逃避或厭棄，厭棄產生悲傷。但是憤情部分的惰，不是屬於同一系列的，而是指向不同的東西的:畏懼和勇猛是關於嚴重的危險;企望與絕望是關於難得的善;忿怒是馬克服曾帶來傷害的逆事。為此，關於這些情有不同的德性，如:節制是關於貪慾:勇敢是關於畏懼和勇猛;達觀(magnanimit肘，JL;胸寬宏〉是關於企望和絕望;溫和是關於忿怒。",
+      "after": "我解答如下：不能說關於諸情，只有一個道德涵養性德性。因為如第二十三題第一節己說過的，有的情屬於不同的機能；因為有的屬於憤情部分，有的屬於慾情部分。\n但是也不是情的每個差別，便足構成不同類別的道德涵養性德性。第一，因為有些情彼此是對立的，例如：喜樂與悲傷、畏懼與勇猛等。關於這樣彼此對立的情，必定只有同一個德性。既然道德涵養性德性在於某種中庸，對立之情的中點，是按同理來確定；正如自然物中，彼此對立者之中點是同一個，例如：在白與黑之間。\n第二，有些不同的情，是以同樣的方式違反理性，例如：以推向違反理性者的方式，或背離合於理性者的方式。為此，慾情部分的各種情，不屬於不同的道德涵養性德性。因為它們的動態是按一貫的次序彼此相連接的，都是指向同一個東西，即是皆在於求善，或在於避惡，例如：由愛生慾望，由慾望達到快樂。反面者也是一樣，由恨而生逃避或厭棄，厭棄產生悲傷。但是憤情部分的情，不是屬於同一系列的，而是指向不同的東西的：畏懼和勇猛是關於嚴重的危險；企望與絕望是關於難得的善；忿怒是為克服曾帶來傷害的逆事。為此，關於這些情有不同的德性，如：節制是關於貪慾；勇敢是關於畏懼和勇猛；達觀(magnanimitas，心胸寬宏)是關於企望和絕望；溫和是關於忿怒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 4,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德性c",
+          "after": "德性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "忿怒是馬克服",
+          "after": "忿怒是為克服",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貪慾:勇敢",
+          "after": "貪慾；勇敢",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "magnanimit肘，JL;胸寬宏〉",
+          "after": "magnanimitas，心胸寬宏)",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2381,
+        2382
+      ],
+      "before": "所有的情之共同根本及目的是一個，但各專有之根本及目的不是一個。所以一個道德福養性德性不夠。",
+      "after": "所有的情之共同根本及目的是一個，但各專有之根本及目的不是一個。所以一個道德涵養性德性不夠。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "福養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "正如在自然物的動態中，離開一點與接近另一點是由於同一個根本;在理性物方面相對立者之理也是一個;為此，相反之情共有同一個道德涵養性德性，以天性的方式，配合理性之指導。",
+      "after": "正如在自然物的動態中，離開一點與接近另一點是由於同一個根本；在理性物方面相對立者之理也是一個；為此，相反之情共有同一個道德涵養性德性，以天性的方式，配合理性之指導。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "如正解己說過的，那三個情按某種先後次序，指向同一個對象。故此，屬於同一個道德涵養性制宜。",
+      "after": "如正解己說過的，那三個情按某種先後次序，指向同一個對象。故此，屬於同一個道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "涵養性制宜",
+          "after": "涵養性德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "道德涵養性德性是否根據情的不同對象以相區別",
+      "after": "道德涵養性德性是否根據情的不同對象以相區別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "道德涵養性德性似乎不按情之對象分類。因為:",
+      "after": "道德涵養性德性似乎不按情之對象分類。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "î.正如情有對象，行動也有對象。但是關於行動的道德蝠養性德性，不是按行動之對象分類:買賣房屋或買賣馬匹屬於同一個正義之德性。所以，關於惰的道德涵養性德性，也不按情之對象分類。",
+      "after": "正如情有對象，行動也有對象。但是關於行動的道德涵養性德性，不是按行動之對象分類：買賣房屋或買賣馬匹屬於同一個正義之德性。所以，關於情的道德涵養性德性，也不按情之對象分類。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "î.",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "蝠養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "此外，情是感官嗜慾之行動或動態。但為區分習性比為區分行動需要更大的差別。所以，不造成情之不同類別的對象上的差別，也不是造成道德涵養性德性的不同類別。為此，關於一切享樂之對象，只有一個道德涵養性德性，在其他方面也是一樣。",
+      "after": "此外，情是感官嗜慾之行動或動態。但為區分習性比為區分行動需要更大的差別。所以，不造成情之不同類別的對象上的差別，也不足造成道德涵養性德性的不同類別。為此，關於一切享樂之對象，只有一個道德涵養性德性，在其他方面也是一樣。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也不是造成",
+          "after": "也不足造成",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "此外，多或少不造成不同的類別。享樂之對象的差別，只是多少的問題。所以，可樂者皆屬於一種德性。按同理，一切可怕者也同屬一種德性;其他可以類推。所以，道德涵養性德性不按情之對象分類。",
+      "after": "此外，多或少不造成不同的類別。享樂之對象的差別，只是多少的問題。所以，可樂者皆屬於一種德性。按同理，一切可怕者也同屬一種德性；其他可以類推。所以，道德涵養性德性不按情之對象分類。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.arg4",
+      "article": 5,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2382
+      ],
+      "before": "此外，德性是促成善的，也是阻止惡的。但是，關於慾望善有不同的德性，例如:節制是關於慾望觸覺上的快樂，風趣(eutrapelia)是關於慾望遊戲的快樂。所以，關於畏懼各種惡，也該有不同的德性。",
+      "after": "此外，德性是促成善的，也是阻止惡的。但是，關於慾望善有不同的德性，例如：節制是關於慾望觸覺上的快樂，風趣(eutrapelia)是關於慾望遊戲的快樂。所以，關於畏懼各種惡，也該有不同的德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2383
+      ],
+      "before": "貞操是關於性慾之樂的，節食是關於飲食之樂的，風趣是關於遊戲之樂的。",
+      "after": "貞操是關於性慾之樂的，節食是關於飲食之樂的，風趣是關於遊戲之樂的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2383,
+        2384,
+        2385
+      ],
+      "before": "我解答如下:德性是否完美繫於理性，而情是否完美繫於感官嗜慾。為此，德性之分類當看其對理性的關係;情之分類是看其對感官嗜慾的關係。情之對象，由於對感官嗜慾的關係之不同，而構成惰的不同類別;根據其對理性的關係，買IJ構成德性的不同類別。但是理性的動態與感官嗜慾的動態不是同一個。為此，對象的差別可能造成情的不同類別，而不造成德性之不同類別，就如一個德性是關於許多情的時候，如同前面第四節說過的。反之，也可能對象上的差別造成德性的不同類別，而不造成惰的不同類則，即在關於一個情有許多德性時，如關於快樂。\n按前面第四節曾說過的，屬於不同機能的各種情，常屬於不同的德性。為此，關於不同機能的對象之差別，常造成德性的不同類別，例如:一個事物是單純的善，或帶有困難的善。又因了理性管理人的低級部分以及外在的東西，是按某種次序;為此，按情之某對象是由感官、或想像、或理性所意識到的;以及按這對象是屬於靈魂的、身體的或為身外物，因而皆與理性有不同的關係，也因此造成德性的不同類別。所以，人的善，亦即:愛、慾望及快樂之對象，可以是感官知覺之對象，也能是靈魂內部之知覺的對象。而這對象能是指向人本身之善的一一無論是靈魂或肉身上的，也能是指向人與他人之關係上之善的。這些差別，因了與理性之關係不同，遂使德性的類別不同。\n這樣看來，一個善若是觸覺所知覺的，是為維持個人或種類之生命的，如:飲食男女之樂，便屬於節制之德。其他感宮的快樂既然不猛烈，不給理性製造困難，故為這些快樂沒有特立什麼{惡性。因為按《倫理學》卷二第三章說的，德性像技術一樣，是「關於困難事物的」。\n不由感官而用內心能力意識到的，屬於個體的善，有如錢財及榮譽:錢財可用於身體上的善，而榮譽在於靈魂之意識。這些善可從絕對之觀點來看，這時屬於慾情部分;或從附帶之困難方面來看，這時屬於憤情部分。使觸覺快樂之善沒有這種區別，因為那是最低級的，是人與其他動物所共有的。關於錢財之善，從絕對的觀點去看，是慾望、快樂或愛的對象;這方面的德性是「大方」(liberalitas);這種善，從帶有困難方面去看，是企望之對象，其德性是「慷慨」(magnificentia)。關於榮譽，從絕對觀點看，是愛之對象;這方面的德性稱為「自重」(philotim間，即是愛好榮譽);若從帶有困難的觀點看，則為企望之對象，其德性是「達觀」(magnanimitas)。為此，大方與自重似乎是慾情部分的;慷慨與達觀是價情部分的。\n在與他人之關係方面的善中，似乎不附帶困難;故此，是從絕對觀點去看，而為慾情部分之對象。人與他人之關係中的可樂之善，能是關於嚴肅的事，即按理性指向正當目的之行為;也能是關於消遣的事，即只指向快樂者，其與理性之關係不同於前者。在嚴肅的事上，人對他人的表現有兩種:第一種以正當言語或行動使他人高興，這屬於亞里斯多德所謂的友善之德，也可稱之為和善;另一種是在言語行動上對他人坦日，這屬於另一種德性，稱為誠實。坦白或誠實比樂趣更近於理性，嚴肅的事比消遣性的事更近於理性。為此，關於遊戲之樂另有一種德性，哲學家稱之為風趣。\n由此可見，根據哲學家的意見，關於情有十種道德涵養性德性，即勇敢、節制、大方、慷慨、達觀、自重、溫和、友善、誠實和風趣。這些區分或是根據不同的質料，或是根據不同的情，或是根據不同的對象。如果再加上關於行動的正義，一共有十一個(參看第三節)。",
+      "after": "我解答如下：德性是否完美繫於理性，而情是否完美繫於感官嗜慾。為此，德性之分類當看其對理性的關係；情之分類是看其對感官嗜慾的關係。情之對象，由於對感官嗜慾的關係之不同，而構成情的不同類別；根據其對理性的關係，則構成德性的不同類別。但是理性的動態與感官嗜慾的動態不是同一個。為此，對象的差別可能造成情的不同類別，而不造成德性之不同類別，就如一個德性是關於許多情的時候，如同前面第四節說過的。反之，也可能對象上的差別造成德性的不同類別，而不造成情的不同類別，即在關於一個情有許多德性時，如關於快樂。\n按前面第四節曾說過的，屬於不同機能的各種情，常屬於不同的德性。為此，關於不同機能的對象之差別，常造成德性的不同類別，例如：一個事物是單純的善，或帶有困難的善。又因了理性管理人的低級部分以及外在的東西，是按某種次序；為此，按情之某對象是由感官、或想像、或理性所意識到的；以及按這對象是屬於靈魂的、身體的或為身外物，因而皆與理性有不同的關係，也因此造成德性的不同類別。所以，人的善，亦即：愛、慾望及快樂之對象，可以是感官知覺之對象，也能是靈魂內部之知覺的對象。而這對象能是指向人本身之善的——無論是靈魂或肉身上的，也能是指向人與他人之關係上之善的。這些差別，因了與理性之關係不同，遂使德性的類別不同。\n這樣看來，一個善若是觸覺所知覺的，是為維持個人或種類之生命的，如：飲食男女之樂，便屬於節制之德。其他感官的快樂既然不猛烈，不給理性製造困難，故為這些快樂沒有特立什麼德性。因為按《倫理學》卷二第三章說的，德性像技術一樣，是「關於困難事物的」。\n不由感官而用內心能力意識到的，屬於個體的善，有如錢財及榮譽：錢財可用於身體上的善，而榮譽在於靈魂之意識。這些善可從絕對之觀點來看，這時屬於慾情部分；或從附帶之困難方面來看，這時屬於憤情部分。使觸覺快樂之善沒有這種區別，因為那是最低級的，是人與其他動物所共有的。關於錢財之善，從絕對的觀點去看，是慾望、快樂或愛的對象；這方面的德性是「大方」(liberalitas)；這種善，從帶有困難方面去看，是企望之對象，其德性是「慷慨」(magnificentia)。關於榮譽，從絕對觀點看，是愛之對象；這方面的德性稱為「自重」(philotimia，即是愛好榮譽)；若從帶有困難的觀點看，則為企望之對象，其德性是「達觀」(magnanimitas)。為此，大方與自重似乎是慾情部分的；慷慨與達觀是憤情部分的。\n在與他人之關係方面的善中，似乎不附帶困難；故此，是從絕對觀點去看，而為慾情部分之對象。人與他人之關係中的可樂之善，能是關於嚴肅的事，即按理性指向正當目的之行為；也能是關於消遣的事，即只指向快樂者，其與理性之關係不同於前者。在嚴肅的事上，人對他人的表現有兩種：第一種以正當言語或行動使他人高興，這屬於亞里斯多德所謂的友善之德，也可稱之為和善；另一種是在言語行動上對他人坦白，這屬於另一種德性，稱為誠實。坦白或誠實比樂趣更近於理性，嚴肅的事比消遣性的事更近於理性。為此，關於遊戲之樂另有一種德性，哲學家稱之為風趣。\n由此可見，根據哲學家的意見，關於情有十種道德涵養性德性，即勇敢、節制、大方、慷慨、達觀、自重、溫和、友善、誠實和風趣。這些區分或是根據不同的質料，或是根據不同的情，或是根據不同的對象。如果再加上關於行動的正義，一共有十一個(參看第三節)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "類則",
+          "after": "類別",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "{惡性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "philotim間",
+          "after": "philotimia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "價情部分",
+          "after": "憤情部分",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "坦日",
+          "after": "坦白",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2385
+      ],
+      "before": "同一類行動的一切對象，對理性的關係是一樣的;但是同一類之情的對象，與理性的關係不一樣。因為行動不像情那樣與理性衝突。",
+      "after": "同一類行動的一切對象，對理性的關係是一樣的；但是同一類之情的對象，與理性的關係不一樣。因為行動不像情那樣與理性衝突。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q060.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2385
+      ],
+      "before": "如己說過的，情之分類與德性之分類，所根據的理由不同。",
+      "after": "如己說過的，情之分類與德性之分類，所根據的理由不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2385
+      ],
+      "before": "多與少不構成種類上的區別，除非由於與理性的關係不同。",
+      "after": "多與少不構成種類上的區別，除非由於與理性的關係不同。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q060.a005.ad4",
+      "article": 5,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2385
+      ],
+      "before": "善比惡的推動力強，因為按狄奧尼修在《神名論》第四章說的，惡只是靠善的力量才能起作用。為此，除非是較大的惡，否則它給理性的困擾不需要有德性應付，這種惡似乎在每一類情中只有一個。是以，關於忿怒只有一個德性，即溫和;關於勇猛也只有一個德性，即勇敢。但是善，雖然不是在某類情中最重要的，其所產生的困難仍需要有德性應付。為此，如正解己說過的，關於慾望有各種不同的道德涵養性德性c",
+      "after": "善比惡的推動力強，因為按狄奧尼修在《神名論》第四章說的，惡只是靠善的力量才能起作用。為此，除非是較大的惡，否則它給理性的困擾不需要有德性應付，這種惡似乎在每一類情中只有一個。是以，關於忿怒只有一個德性，即溫和；關於勇猛也只有一個德性，即勇敢。但是善，雖然不是在某類情中最重要的，其所產生的困難仍需要有德性應付。為此，如正解己說過的，關於慾望有各種不同的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德性c",
+          "after": "德性。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
