@@ -3153,6 +3153,21 @@
       "source_defects_flagged": 19,
       "layout_differences_preserved_by_user_instruction": 1,
       "unresolved_source_scan_units": 0
+    },
+    {
+      "id": "I_II-q101",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I_II-q101.md",
+      "manifest": "I_II-q101.json",
+      "pdf_file_pages": [
+        2865,
+        2874
+      ],
+      "articles": 4,
+      "source_defects_flagged": 10,
+      "layout_differences_preserved_by_user_instruction": 0,
+      "unresolved_source_scan_units": 0
     }
   ],
   "reviewed_question_ids": [
@@ -3374,19 +3389,20 @@
     "I_II.q097",
     "I_II.q098",
     "I_II.q099",
-    "I_II.q100"
+    "I_II.q100",
+    "I_II.q101"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 1125,
+  "reviewed_articles": 1129,
   "total_catalog_articles": 3125,
-  "next_question": "I_II.q101",
+  "next_question": "I_II.q102",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
     "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
-    "body_resume_at": "I_II.q101",
+    "body_resume_at": "I_II.q102",
     "resume_body_only_after_all_titles_reviewed": true,
     "all_title_slots_audited_on": "2026-10-23",
     "title_source_gaps": [
@@ -3405,10 +3421,10 @@
       "status": "source_image_review_round_complete_with_documented_source_uncertainty"
     },
     "I_II": {
-      "reviewed_questions": 100,
-      "reviewed_articles": 541,
-      "last_batch": "I_II-q100",
-      "next_question": "I_II.q101",
+      "reviewed_questions": 101,
+      "reviewed_articles": 545,
+      "last_batch": "I_II-q101",
+      "next_question": "I_II.q102",
       "unresolved_source_scan_units": 1,
       "status": "in_progress"
     }
