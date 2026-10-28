@@ -1387,12 +1387,20 @@
         2451
       ],
       "before": "宗徒在《羅馬書》第八章24節說:「那有人還希望所見的事物呢?」但是幸福者看到望德之對象，即天主。所以，他們沒有望德。",
-      "after": "宗徒在《羅馬書》第八章24節說：「那有人還希望所見的事物呢?」但是幸福者看到望德之對象，即天主。所以，他們沒有望德。",
+      "after": "宗徒在《羅馬書》第八章24節說：「那有人還希望所見的事物呢？」但是幸福者看到望德之對象，即天主。所以，他們沒有望德。",
       "status": "corrected",
       "error_types": [
-        "标点"
+        "乱码",
+        "标点",
+        "错字"
       ],
       "changes": [
+        {
+          "before": "事物呢?",
+          "after": "事物呢？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
         {
           "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
           "after": "Printed Chinese ：／； without the OCR space",

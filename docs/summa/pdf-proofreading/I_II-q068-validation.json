@@ -64,6 +64,7 @@
   "raw_source_validation": {
     "keys_structure_non_zh_raw_source_identical": true,
     "each_field_newline_escape_sequence_identical": true,
+    "html_tags_identical": true,
     "protected_zh_tokens": 114,
     "all_review_units_match_before_after_manifest": true,
     "complete_report_json_matches_current_reader_bytes": true,
@@ -116,5 +117,6 @@
       }
     ],
     "reader_sha256": "fecaaa9e9e99aacd1472a80227f0197ba6d5ff2971addd4b9178d77aa409ddb5"
-  }
+  },
+  "aggregate_audit_date": "2026-10-28"
 }
