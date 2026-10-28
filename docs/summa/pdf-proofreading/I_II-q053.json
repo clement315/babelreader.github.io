@@ -1,0 +1,1050 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q053",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q053",
+    "title": "論習性之消失與減退",
+    "articles": [
+      1,
+      2,
+      3
+    ],
+    "pdf_file_pages": [
+      2306,
+      2307,
+      2308,
+      2309,
+      2310,
+      2311,
+      2312
+    ],
+    "printed_pages": [
+      40,
+      46
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 36,
+    "changed_review_units": 25,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q53.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q53.json": "1e44df4581a3df07b7a20b7cef301fb75d8abb09018e5a9bfa7a71bbb82120f7"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q053.a001.respondeo",
+      "pdf_file_page": 2307,
+      "text": "第五十題第三節釋疑3.己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q053.a001.respondeo",
+      "pdf_file_page": 2308,
+      "text": "《解釋論》卷二第十四章",
+      "status": "suspected_source_print_error",
+      "action": "原页引文卷章确作此数，不依据别本推改。"
+    },
+    {
+      "id": "I_II.q053.a001.respondeo",
+      "pdf_file_page": 2308,
+      "text": "論智德(prudentia)",
+      "status": "suspected_source_print_error",
+      "action": "原页确用「智德」译prudentia，保持本书译名，不改为现代通行词。"
+    },
+    {
+      "id": "I_II.q053.a001.ad2",
+      "pdf_file_page": 2308,
+      "text": "正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q053.a002.arg2",
+      "pdf_file_page": 2309,
+      "text": "類性便能按多寡",
+      "status": "suspected_source_print_error",
+      "action": "原页确作「類性」，依底本保留，不统一术语。"
+    },
+    {
+      "id": "I_II.q053.a002.respondeo",
+      "pdf_file_page": 2309,
+      "text": "第五十二題第一節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q053.a002.ad2",
+      "pdf_file_page": 2310,
+      "text": "但這種不是我們的主張",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「但這種不是」，语意可疑但保留。"
+    },
+    {
+      "id": "I_II.q053.a003.ad2",
+      "pdf_file_page": 2312,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q053.prologue",
+      "description": "引言误混入题名碎片和孤立字母，依原页清除并恢复「引言)。」；多出的原有换行保留在该字段末尾，不改JSON结构及换行转义数量。"
+    }
+  ],
+  "notes": [
+    "全部7页、3节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q053.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "也\n間胡一如頭一減退\n蘭\nL\n然後要討論的是習性之消失與減退(參看第五十一題引L言\n關於這點，可以提出三個問題:\n一、習性是否能消失。\n二、習性是否能減退。\n三、論習性消失及減退之方式。",
+      "after": "然後要討論的是習性之消失與減退(參看第五十一題引言)。\n關於這點，可以提出三個問題：\n一、習性是否能消失。\n二、習性是否能減退。\n三、論習性消失及減退之方式。\n\n\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "也\n間胡一如頭一減退\n蘭\nL\n然後要討論的是習性之消失與減退(參看第五十一題引L言\n關於這點，可以提出三個問題:\n一、習性是否能消失。\n二、習性是否能減退。\n三、論習性消失及減退之方式。",
+          "after": "然後要討論的是習性之消失與減退(參看第五十一題引言)。\n關於這點，可以提出三個問題:\n一、習性是否能消失。\n二、習性是否能減退。\n三、論習性消失及減退之方式。\n\n\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "習性是否能消失",
+      "after": "習性是否能消失",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "習性似乎不能消失。因為:",
+      "after": "習性似乎不能消失。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "習性有似一種天性;故此，合於習性的行動帶有快樂。但是隻要具有天性之主體存在，其天性不能消失。所以，有主體存在時，習性不能消失。",
+      "after": "習性有似一種天性；故此，合於習性的行動帶有快樂。但是只要具有天性之主體存在，其天性不能消失。所以，有主體存在時，習性不能消失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "但是隻要",
+          "after": "但是只要",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2306
+      ],
+      "before": "此外，形式之消失，或是由於主體之消失，或是由於與之相反者，例如:疾病，或因動物消失而消失，或因復康而消失。但是，知識是一種習性，然而不能因其主體之消失而消失。因為它的主體智性，按《靈魂論》卷一第四章說的:「乃是一種本體，不能消失」。知識也不能因了與之相反者而消失。因為按《形上學》卷七第七章說的，可理解之理象彼此不是相反的。所以，知識之習性怎樣也不能消失。",
+      "after": "此外，形式之消失，或是由於主體之消失，或是由於與之相反者，例如：疾病，或因動物消失而消失，或因復康而消失。但是，知識是一種習性，然而不能因其主體之消失而消失。因為它的主體智性，按《靈魂論》卷一第四章說的：「乃是一種本體，不能消失」。知識也不能因了與之相反者而消失。因為按《形上學》卷七第七章說的，可理解之理象彼此不是相反的。所以，知識之習性怎樣也不能消失。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2306,
+        2307
+      ],
+      "before": "此外，凡消失皆是由於某種動態。但是知識之習性，既然是靈魂上的，不能是因了靈魂本身之動態而消失，因為靈魂本身是不可動的。靈魂偶然因了身體之動而動c但是，似乎沒有一種身體上的變化，可使智性上的理象消失，因為智性本身不靠身體便是理象所在之處。因此，無論年老或死亡，皆不能使習性消失。所以知識不能消失。因而向在靈魂上的德性之習性也不能消失，因為按哲學家在《倫理學》卷一第十章說的，「德性比學問持久」。",
+      "after": "此外，凡消失皆是由於某種動態。但是知識之習性，既然是靈魂上的，不能是因了靈魂本身之動態而消失，因為靈魂本身是不可動的。靈魂偶然因了身體之動而動。但是，似乎沒有一種身體上的變化，可使智性上的理象消失，因為智性本身不靠身體便是理象所在之處。因此，無論年老或死亡，皆不能使習性消失。所以知識不能消失。因而同在靈魂上的德性之習性也不能消失，因為按哲學家在《倫理學》卷一第十章說的，「德性比學問持久」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而動c",
+          "after": "而動。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "因而向在",
+          "after": "因而同在",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2307
+      ],
+      "before": "哲學家在《論長生與短命》(De longitudine et brevitate vitae)第二章裡卻說: 「知識之消失即是忘記與誤解」。有些德性方面的習性因犯罪而消失。按《倫理學》卷二第一章說的，德性由相反之行動而產生及消失c",
+      "after": "哲學家在《論長生與短命》(De longitudine et brevitate vitae)第二章裡卻說：「知識之消失即是忘記與誤解」。有些德性方面的習性因犯罪而消失。按《倫理學》卷二第一章說的，德性由相反之行動而產生及消失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "消失c",
+          "after": "消失。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2307,
+        2308
+      ],
+      "before": "我解答如下:形式之消失，本然地是指由與之相反者而消失，偶然地是指因其主體之消失而消失。如果某習性，其主體是可消滅的，並且其原因有相反者，貝IJ能以兩種方式消失，就如:身體方面的習性，即健康與疾病。其主體不能消滅的習性，不能偶然地消失。但是有些習性，雖然主要地是在不能消滅之主體上的，但次要地則是在可消滅之主體上的，例如:知識之習性，主要是在可能理智上的，次要地則是在感官知覺能力上的，如前面第五十題第三節釋疑3.己說過的。為此，在可能理智方面，知識之習性不能偶然地消失;只有在低級的感官知覺能力方面能偶然地消失。\n現在來看這類習l生能否本然地消失。如果一種習性，有與之相反者，或在本身方面，或在其原因方面，貝IJ能夠本然地消失;若沒有與之相反者，則不能本然地消失。可能理智或智性上之可理解的理象，顯然沒有與智性相反者。為其原因之主動理智或智性方面，也不能有相反者。所以，直接由主動智性在可能智性上產生的習性，無論本然或偶然地，皆是不能消失的。第一原理之習性便屬於此種;無論是鑑賞性之第一原理的習性，或實踐性之第一原理的習性，皆不能因忘記或誤解而消失。就如哲學家在《倫理學》卷六第五章論智德(prudentia)時所說的:「它不能因忘記而消失」。可能智性上有的習性則是由理性(ratio)產生的，即是結論之習性，稱為學識(scientia);其原因能有兩種相反者:一種是來自理性所根據之命題:因為按哲學家在《解釋論》卷二第十四章所說的:「善是善的」這個命題，與「善不是善的」這個命題相反。另一種是來自理性之推論程序，即是詭辯式的推論，與辯證式或論證式(demonstrativus)的推論相反。由此可見，錯謬之理性推論可以破壞真見解之習性，甚而破壞學問之習性。所以，哲學家說:「誤解是學識之消失」(參見皮之)。\n關於德性，有的是智性的，即如《倫理學》卷六第一章所說的，是在理性部分的，對這些德性應說的，與對意見及學識所說的一樣。有的德性是在靈魂的嗜慾部分，即是涵養性的德性;與之相反的惡習同屬一理。嗜慾部分之習性之產生，是因了理性自然能推動嗜慾部分。故此，理性的判斷向相反之方向推動時，無論是出於愚昧，或出於情慾'或由於故意，皆使德性或惡習之習性消失。",
+      "after": "我解答如下：形式之消失，本然地是指由與之相反者而消失，偶然地是指因其主體之消失而消失。如果某習性，其主體是可消滅的，並且其原因有相反者，則能以兩種方式消失，就如：身體方面的習性，即健康與疾病。其主體不能消滅的習性，不能偶然地消失。但是有些習性，雖然主要地是在不能消滅之主體上的，但次要地則是在可消滅之主體上的，例如：知識之習性，主要是在可能理智上的，次要地則是在感官知覺能力上的，如前面第五十題第三節釋疑3.己說過的。為此，在可能理智方面，知識之習性不能偶然地消失；只有在低級的感官知覺能力方面能偶然地消失。\n現在來看這類習性能否本然地消失。如果一種習性，有與之相反者，或在本身方面，或在其原因方面，則能夠本然地消失；若沒有與之相反者，則不能本然地消失。可能理智或智性上之可理解的理象，顯然沒有與智性相反者。為其原因之主動理智或智性方面，也不能有相反者。所以，直接由主動智性在可能智性上產生的習性，無論本然或偶然地，皆是不能消失的。第一原理之習性便屬於此種；無論是鑑賞性之第一原理的習性，或實踐性之第一原理的習性，皆不能因忘記或誤解而消失。就如哲學家在《倫理學》卷六第五章論智德(prudentia)時所說的：「它不能因忘記而消失」。可能智性上有的習性則是由理性(ratio)產生的，即是結論之習性，稱為學識(scientia)；其原因能有兩種相反者：一種是來自理性所根據之命題：因為按哲學家在《解釋論》卷二第十四章所說的：「善是善的」這個命題，與「善不是善的」這個命題相反。另一種是來自理性之推論程序，即是詭辯式的推論，與辯證式或論證式(demonstrativus)的推論相反。由此可見，錯謬之理性推論可以破壞真見解之習性，甚而破壞學問之習性。所以，哲學家說：「誤解是學識之消失」(參見反之)。\n關於德性，有的是智性的，即如《倫理學》卷六第一章所說的，是在理性部分的，對這些德性應說的，與對意見及學識所說的一樣。有的德性是在靈魂的嗜慾部分，即是涵養性的德性；與之相反的惡習同屬一理。嗜慾部分之習性之產生，是因了理性自然能推動嗜慾部分。故此，理性的判斷向相反之方向推動時，無論是出於愚昧，或出於情慾，或由於故意，皆使德性或惡習之習性消失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "習l生",
+          "after": "習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "參見皮之",
+          "after": "參見反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情慾'",
+          "after": "情慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2308
+      ],
+      "before": "按《倫理學》卷七第十章說的，習性有似天性，但也不盡相似。故此，東西的天性怎樣也不能離開這東西，習性只是不易與東西分離。",
+      "after": "按《倫理學》卷七第十章說的，習性有似天性，但也不盡相似。故此，東西的天性怎樣也不能離開這東西，習性只是不易與東西分離。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2308
+      ],
+      "before": "雖然可理解的理象沒有與之相反者，但是理性之命題及推論程序能有相反者，如正解己說過的。",
+      "after": "雖然可理解的理象沒有與之相反者，但是理性之命題及推論程序能有相反者，如正解己說過的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2308,
+        2309
+      ],
+      "before": "身體的動態不能使學識之習性從根本上消失，只能妨礙其行動。因為智性在行動時需要感官能力，身體有了變化，感官能力便受到妨礙。但是理性之超感富的行動，能使學識之習性從根本上消失;德性之習性也能同樣消失。至於所謂「德性比學問持久」'不是從主體或原因方向去看，而是從行動方面，因為德性之還用是→生不斷的;學問之運用則不然。",
+      "after": "身體的動態不能使學識之習性從根本上消失，只能妨礙其行動。因為智性在行動時需要感官能力，身體有了變化，感官能力便受到妨礙。但是理性之超感官的行動，能使學識之習性從根本上消失；德性之習性也能同樣消失。至於所謂「德性比學問持久」，不是從主體或原因方向去看，而是從行動方面，因為德性之運用是一生不斷的；學問之運用則不然。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "超感富",
+          "after": "超感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "持久」'",
+          "after": "持久」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德性之還用",
+          "after": "德性之運用",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是→生",
+          "after": "是一生",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "習性是否能減退",
+      "after": "習性是否能減退",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "似乎習性不能減退。因為:",
+      "after": "似乎習性不能減退。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "習性是一種品質和單純的形式。單純的東西，或是整個存在，或是整個消失。所以，習性雖然能夠消失，卻不能減退。",
+      "after": "習性是一種品質和單純的形式。單純的東西，或是整個存在，或是整個消失。所以，習性雖然能夠消失，卻不能減退。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "此外，屬於依附性的，或因其本身而屬之，或因其主體而屬之。習性本身沒有強弱之別;否則的話，類性便能按多寡而屬於其諸多個體了。如果是按主體所分得者而能減退，買IJ有的性質專屬於習性，而非習性與主體所共有者。按《靈魂論》卷一第一章說的，一個形式若有其獨具之性質，而非與主體所共有者，貝IJ這形式是可以與主體分開的。如此，貝IJ習性是可以分開的形式;但這是不可能的。",
+      "after": "此外，屬於依附性的，或因其本身而屬之，或因其主體而屬之。習性本身沒有強弱之別；否則的話，類性便能按多寡而屬於其諸多個體了。如果是按主體所分得者而能減退，則有的性質專屬於習性，而非習性與主體所共有者。按《靈魂論》卷一第一章說的，一個形式若有其獨具之性質，而非與主體所共有者，則這形式是可以與主體分開的。如此，則習性是可以分開的形式；但這是不可能的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "此外，習性之理及本質，像任何依附體一樣，在於附著於其主體，是以常用其主體而加以界說依附體。如果習性本身沒有強弱之別，買IJ根據其對主體之附著也不能減退。所以，習性無法減退。",
+      "after": "此外，習性之理及本質，像任何依附體一樣，在於附著於其主體，是以常用其主體而加以界說依附體。如果習性本身沒有強弱之別，則根據其對主體之附著也不能減退。所以，習性無法減退。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "彼此相反者自然是關於問一事物的。增長與減退是相反的。既然習性能增長，因此似乎也能減退。",
+      "after": "彼此相反者自然是關於同一事物的。增長與減退是相反的。既然習性能增長，因此似乎也能減退。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "問一",
+          "after": "同一",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2309
+      ],
+      "before": "我解答如下:由前面第五十二題第一節己說過的可以知道，習性有兩種增長方式，所以也有兩種減退的方式。其所以增長及所以產生之原因是相同的;同樣，其所以減退與其所以消失的原因也是相同的。因為習性之減退乃是走向消失的一種過程，正在日習性之產生是其增長的基礎。",
+      "after": "我解答如下：由前面第五十二題第一節己說過的可以知道，習性有兩種增長方式，所以也有兩種減退的方式。其所以增長及所以產生之原因是相同的；同樣，其所以減退與其所以消失的原因也是相同的。因為習性之減退乃是走向消失的一種過程，正如習性之產生是其增長的基礎。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "正在日",
+          "after": "正如",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2310
+      ],
+      "before": "習性本身是一種單純的形式，故在這方面不能減退;但是按不同的分得方式可以減退。分得之方式不同，是由於分得者之潛能的無定性，對同一種形式能有多種分得之方式，分得之範圍能包括較多或較少的東西。",
+      "after": "習性本身是一種單純的形式，故在這方面不能減退；但是按不同的分得方式可以減退。分得之方式不同，是由於分得者之潛能的無定性，對同一種形式能有多種分得之方式，分得之範圍能包括較多或較少的東西。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2310
+      ],
+      "before": "如果習|生之本質絕對不能減退，則所舉之理由可以成立。但這種不是我們的主張;而是說，有些習性之本質的減退不是源自習性本身，而是源自分得者。",
+      "after": "如果習性之本質絕對不能減退，則所舉之理由可以成立。但這種不是我們的主張；而是說，有些習性之本質的減退不是源自習性本身，而是源自分得者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "習|生",
+          "after": "習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2310,
+        2311
+      ],
+      "before": "無論什麼依附體，在本質上皆繫於其主體;但是方式不悶。按抽象的方式，依附體含有指向主體的關係，即始自依附體而終於主體，因為白色(albedo)是一抽象依附體，「它使一個東西成為白色的」。故此在抽象的依附體之定義中，不將主體視為定義之第一(在先)部分，即共類;而視為第二(在後)部分，即差別。我們說「彎鼻性」(simitas'為抽象名詞)，意謂「鼻子的彎曲性」(curvitas nasi)0(按:依據拉丁語文法，抽象名詞「彎曲性」 curvitas為主語，應領先放在定義之第一部分，而其所屬主體一一「鼻子(的)」 nasi'則應居後放在第二部分，類似形容詞，以指示差別;即是說是「鼻子的」彎曲性，而非「腿的」或「手臂的」彎曲|哇。)但是在具體方面，這關係是始於主體，而終於依附體，故說白色者是「一東西(具體主體)，它真有白色。」為此，在這種依附體之定義中，是把主體看為共類，放在定義之首要部分，我們說「彎鼻的」(sim肘，為形容詞)，意謂「彎曲的鼻子」(nasus curvus)0(按:具體名詞「鼻子」 nasus為主體，放在首要部分;而形容詞「彎曲的」 curvus為主體的具體依附體，置於後半。)故此，那因主體而屬於依附體者，不歸屬於抽象之依附體，.而歸屬於具體之依附體。某些依附體之強弱便是這樣的。故此，白顏色(抽象依附體)不分多寡，但白色的(具體依附體)東西則有強弱之別。關於習性及其他品質也是一理，只有那些能由相加而增加的習性除外，按前面第五十二題第二節所說過的。",
+      "after": "無論什麼依附體，在本質上皆繫於其主體；但是方式不同。按抽象的方式，依附體含有指向主體的關係，即始自依附體而終於主體，因為白色(albedo)是一抽象依附體，「它使一個東西成為白色的」。故此在抽象的依附體之定義中，不將主體視為定義之第一(在先)部分，即共類；而視為第二(在後)部分，即差別。我們說「彎鼻性」(simitas，為抽象名詞)，意謂「鼻子的彎曲性」(curvitas nasi)。(按：依據拉丁語文法，抽象名詞「彎曲性」 curvitas為主語，應領先放在定義之第一部分，而其所屬主體——「鼻子(的)」 nasi，則應居後放在第二部分，類似形容詞，以指示差別；即是說是「鼻子的」彎曲性，而非「腿的」或「手臂的」彎曲性。)但是在具體方面，這關係是始於主體，而終於依附體，故說白色者是「一東西(具體主體)，它具有白色。」為此，在這種依附體之定義中，是把主體看為共類，放在定義之首要部分，我們說「彎鼻的」(simus，為形容詞)，意謂「彎曲的鼻子」(nasus curvus)。(按：具體名詞「鼻子」 nasus為主體，放在首要部分；而形容詞「彎曲的」 curvus為主體的具體依附體，置於後半。)故此，那因主體而屬於依附體者，不歸屬於抽象之依附體，而歸屬於具體之依附體。某些依附體之強弱便是這樣的。故此，白顏色(抽象依附體)不分多寡，但白色的(具體依附體)東西則有強弱之別。關於習性及其他品質也是一理，只有那些能由相加而增加的習性除外，按前面第五十二題第二節所說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不悶",
+          "after": "不同",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "simitas'",
+          "after": "simitas，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "curvitas nasi)0",
+          "after": "curvitas nasi)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "nasi'",
+          "after": "nasi，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "彎曲|哇",
+          "after": "彎曲性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "它真有白色",
+          "after": "它具有白色",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "sim肘",
+          "after": "simus",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "nasus curvus)0",
+          "after": "nasus curvus)。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "依附體，.而",
+          "after": "依附體，而",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "習性是否單因不用而消失或減退",
+      "after": "習性是否單因不用而消失或減退",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "習性似乎不單因不用而消失或減退。因為:",
+      "after": "習性似乎不單因不用而消失或減退。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "從前面第四十九題第二節釋疑3.、第五十題第一節所說的可以知道，習性比被動性的品質持久。但是，被動性的品質不因不用而消失或減退，白色不因不被看到而減退，熱也不因不熱化他物而減退。所以，習性也不因不用而消失或減退。",
+      "after": "從前面第四十九題第二節釋疑3.、第五十題第一節所說的可以知道，習性比被動性的品質持久。但是，被動性的品質不因不用而消失或減退，白色不因不被看到而減退，熱也不因不熱化他物而減退。所以，習性也不因不用而消失或減退。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "此外，消失及減退是變化。但是，若沒有原因推動，什麼也不變化。既然不行動不含有推動之原因，所以不行動似乎不能使習性消失或減退。",
+      "after": "此外，消失及減退是變化。但是，若沒有原因推動，什麼也不變化。既然不行動不含有推動之原因，所以不行動似乎不能使習性消失或減退。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "此外，知識及德性之習性，是在具備智性之靈魂內，這樣的靈魂是超乎時間的。那些超乎時間的東西，不因時間持久而消失或減退。所以這方面的習性，若一人久而不加以運用，也不因時間持久而消失或減退。",
+      "after": "此外，知識及德性之習性，是在具備智性之靈魂內，這樣的靈魂是超乎時間的。那些超乎時間的東西，不因時間持久而消失或減退。所以這方面的習性，若一人久而不加以運用，也不因時間持久而消失或減退。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q053.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2311
+      ],
+      "before": "哲學家在《論長生與短命》第二章裡說，「學識之消失」不只有「誤解」'也有「忘記」。又在《倫理學》卷八第五章說: 「不交往解除了許多友誼」。根據同理，其他德性上的習性也因不用而消失或減退。",
+      "after": "哲學家在《論長生與短命》第二章裡說，「學識之消失」不只有「誤解」，也有「忘記」。又在《倫理學》卷八第五章說：「不交往解除了許多友誼」。根據同理，其他德性上的習性也因不用而消失或減退。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「誤解」'",
+          "after": "「誤解」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2311,
+        2312
+      ],
+      "before": "我解答如下:按《物理學》卷八第四章說的，一個東西之為推動者有兩種方式。一種是本然地，即是以其專有之形式之理而推動，例如:火熱化他物;另一種是偶然地，即是由於排除障礙。不行動之使習性消失或減退，即是屬這方式。這是由於不行動，等於排除阻止使習性消失，或減退之原因的行動。前面第一節曾說，習性本然地是因相反之推動者而消失或減退。一切習性之相反者因時間而增長，須用由習性而來之行動加以中去除;若是許久沒有行動，則這些習性或減退，或全部消失一一學識與德性皆是如此。涵養性德性之習性，使人在動作或情慾中易於擇取中庸之道。如果一人不用其德性之習性來控制情慾及動作，貝IJ由於感官嗜慾及外在推動因素之傾向，必然產生許多不合德性的情慾及動作。故此，沒有行動則習性消失，或者減退;在智間性方面也是一樣。這些習性使人能迅即正確判斷所想像的事物。人若不運用智性習性，買IJ出現許多無用的想像，有時是促使背道而行的想像。所以，人若不常運用這些習性來控制想像，漸漸便不易判斷，甚而以非為是。所以，不行動使智性習性減退，甚而消失。",
+      "after": "我解答如下：按《物理學》卷八第四章說的，一個東西之為推動者有兩種方式。一種是本然地，即是以其專有之形式之理而推動，例如：火熱化他物；另一種是偶然地，即是由於排除障礙。不行動之使習性消失或減退，即是屬這方式。這是由於不行動，等於排除阻止使習性消失，或減退之原因的行動。前面第一節曾說，習性本然地是因相反之推動者而消失或減退。一切習性之相反者因時間而增長，須用由習性而來之行動加以祛除；若是許久沒有行動，則這些習性或減退，或全部消失——學識與德性皆是如此。涵養性德性之習性，使人在動作或情慾中易於擇取中庸之道。如果一人不用其德性之習性來控制情慾及動作，則由於感官嗜慾及外在推動因素之傾向，必然產生許多不合德性的情慾及動作。故此，沒有行動則習性消失，或者減退；在智性習性方面也是一樣。這些習性使人能迅即正確判斷所想像的事物。人若不運用智性習性，則出現許多無用的想像，有時是促使背道而行的想像。所以，人若不常運用這些習性來控制想像，漸漸便不易判斷，甚而以非為是。所以，不行動使智性習性減退，甚而消失。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "加以中去除",
+          "after": "加以祛除",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "在智間性方面",
+          "after": "在智性習性方面",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2312
+      ],
+      "before": "如果因了熱不能熱化他物而使冷增加，買IJ熱也能因了不熱化他物而消失;因為冷對熱有破壞作用。",
+      "after": "如果因了熱不能熱化他物而使冷增加，則熱也能因了不熱化他物而消失；因為冷對熱有破壞作用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2312
+      ],
+      "before": "如正解己說過的，不行動之使習|生消失或減退，是以排除障礙之方式。",
+      "after": "如正解己說過的，不行動之使習性消失或減退，是以排除障礙之方式。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "習|生",
+          "after": "習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q053.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2312
+      ],
+      "before": "靈魂的智性部分本身是超時間性的;但是感官部分是有時間性的。所以時間長久，貝IJ嗜慾部分之情慾起變化，知覺能力方面也有變化。故此，哲學家在《物理學》卷四第十二章說，時間是遺忘之原因。",
+      "after": "靈魂的智性部分本身是超時間性的；但是感官部分是有時間性的。所以時間長久，則嗜慾部分之情慾起變化，知覺能力方面也有變化。故此，哲學家在《物理學》卷四第十二章說，時間是遺忘之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    }
+  ]
+}
