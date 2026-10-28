@@ -1,0 +1,1610 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q058",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q058",
+    "title": "論道德涵養性與智性德性之區分",
+    "articles": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "pdf_file_pages": [
+      2355,
+      2356,
+      2357,
+      2358,
+      2359,
+      2360,
+      2361,
+      2362,
+      2363,
+      2364
+    ],
+    "printed_pages": [
+      89,
+      98
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 62,
+    "changed_review_units": 46,
+    "checked_unchanged_review_units": 17
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q58.json",
+      "data/summa/catalog.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q58.json": "6ecba31ab4070da5924f507f23b0946c2eac84cc3d9948dffea99dc7bb8fafd6",
+      "data/summa/catalog.json": "1c143de4612a0704ff96b77c6e466165a8188098f3873314efded7968b3221b2"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q058.a001.arg3",
+      "pdf_file_page": 2355,
+      "text": "《修辭學》卷二第五章",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作卷二第五章，疑漏数字；不据他本补齐。"
+    },
+    {
+      "id": "I_II.q058.a001.respondeo",
+      "pdf_file_page": 2356,
+      "text": "行割損",
+      "status": "suspected_source_print_error",
+      "action": "原页用字确作「割損」，依底本保留，不改为通行译法。"
+    },
+    {
+      "id": "I_II.q058.a002.ad3",
+      "pdf_file_page": 2359,
+      "text": "這個問題也與上面一樣",
+      "status": "suspected_source_print_error",
+      "action": "原页答复确采用此简略措辞，不自行展开。"
+    },
+    {
+      "id": "I_II.q058.a003.arg3",
+      "pdf_file_page": 2360,
+      "text": "第五十七題第二、第三及第五節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q058.a003.ad1",
+      "pdf_file_page": 2360,
+      "text": "第五十七題第四節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q058.a004.respondeo",
+      "pdf_file_page": 2362,
+      "text": "第五十七題第五及六節己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q058.a001.respondeo",
+      "description": "第一节正解开头mos/moralis释词发生错行和乱码；依原页恢复，并将多出的原有换行保留在同字段末尾，不增删换行转义。"
+    }
+  ],
+  "notes": [
+    "全部10页、5节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q058.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "然後要討論的是道德涵養性德性（virtutum moralium；參看第五十七題引言）。首先，論其與智性或智力德性之區別；第二，論其彼此之間的區別（第五十九題）；第三，論主德或樞德與其他德性之區別（第六十一題）。\n關於第一點，可以提出五個問題:\n一、是否凡德性皆是道德涵養性的德性。\n二、道德涵養性德性與智性德性是否有別。\n三、將德性分-為道德涵養性的及智性的是否合適。\n四、沒有智性德性能否有道德涵養性德性。\n五、沒有道德涵養性德性能否有智性德性。",
+      "after": "然後要討論的是道德涵養性德性（virtutum moralium；參看第五十七題引言）。首先，論其與智性或智力德性之區別；第二，論其彼此之間的區別（第五十九題）；第三，論主德或樞德與其他德性之區別（第六十一題）。\n關於第一點，可以提出五個問題：\n一、是否凡德性皆是道德涵養性的德性。\n二、道德涵養性德性與智性德性是否有別。\n三、將德性分為道德涵養性的及智性的是否合適。\n四、沒有智性德性能否有道德涵養性德性。\n五、沒有道德涵養性德性能否有智性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "分-為",
+          "after": "分為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "是否凡德性皆是道德涵養性的",
+      "after": "是否凡德性皆是道德涵養性的",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "似乎凡德性皆是道德涵養性的(moralis)。因為:",
+      "after": "似乎凡德性皆是道德涵養性的(moralis)。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "所謂「道德涵養性的」德性，是由「習慣」(mos)這個字來的。但是所有的德性之行動，都能形成習慣。所以，凡德性都是道德涵養性的。",
+      "after": "所謂「道德涵養性的」德性，是由「習慣」(mos)這個字來的。但是所有的德性之行動，都能形成習慣。所以，凡德性都是道德涵養性的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2355
+      ],
+      "before": "此外，哲學家在《倫理學》卷二第六章說:「道德涵養性德性是個選擇性的習性，在於理性之中庸。」但凡德性似乎皆是選擇性的習性，因為任何德性之行動，我們皆能以選擇而為之。而且，如在後面第六十四題第二至第三節要講的，德性皆多少在於理性之中膚。所以，德性皆是道德涵養性的。",
+      "after": "此外，哲學家在《倫理學》卷二第六章說：「道德涵養性德性是個選擇性的習性，在於理性之中庸。」但凡德性似乎皆是選擇性的習性，因為任何德性之行動，我們皆能以選擇而為之。而且，如在後面第六十四題第二至第三節要講的，德性皆多少在於理性之中庸。所以，德性皆是道德涵養性的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "中膚",
+          "after": "中庸",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2355,
+        2356
+      ],
+      "before": "此外，西塞祿在其《修辭學》卷二第五章中說:「德性乃是像似天性，並合於理性之習性。」既然凡人性的德性皆是指向人之善的，當然是合於理性的。因為按狄奧尼修在《神名論》第四章說的，人的善在於「合於理性」。所以德性皆是道德涵養性的。",
+      "after": "此外，西塞祿在其《修辭學》卷二第五章中說：「德性乃是像似天性，並合於理性之習性。」既然凡人性的德性皆是指向人之善的，當然是合於理性的。因為按狄奧尼修在《神名論》第四章說的，人的善在於「合於理性」。所以德性皆是道德涵養性的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2356
+      ],
+      "before": "哲學家在《倫理學》卷一第十三章說: 「論到一人的道德涵養，我們不說他是有智慧的或聰明的，而說他是溫和的或有節制的。」所以智慧與悟性不是道德涵養性的。但按前面第五十七題第二節說的，這些卻是德性。所以並非凡德性皆是道德涵養性的。",
+      "after": "哲學家在《倫理學》卷一第十三章說：「論到一人的道德涵養，我們不說他是有智慧的或聰明的，而說他是溫和的或有節制的。」所以智慧與悟性不是道德涵養性的。但按前面第五十七題第二節說的，這些卻是德性。所以並非凡德性皆是道德涵養性的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2356
+      ],
+      "before": "我解答如下:為明白這個問題，先要知道什麼是「道德」悅的)，然後才能知道什麼是道億涵養性的(m叫s)「道德」\n0 (mos)有兩種意義:有時是指「習俗」'例如《宗徒大事錄》第十五章l節說的:「若是你們不按梅瑟的慣例(mos)行割損，不能得救。」有時是指自然的或相似自然的行動傾向，為此也可用之於禽獸，就如《瑪加伯下》第十一章11節說的:「街向敵人，如猛獅一般(leonum more)，擊殺了他們。」在《聖詠》第六十七篇7節也是按這意義:「祂使心思一致的(unius moris)人住在房屋祖。」在拉丁文裡，這兩種意義是用同一個字表達。在希臘文有分別，因為相當於拉丁文之mos的希臘字ethos'有時將第一個字母寫為長音η，有時寫為短音ε。\n說道德商養性的德性時，「道德」是指對某行動的自然或相似自然的傾向。另一種指「習俗」的「道德」之意義與此接近，因為有時習慣成自然，產生相似自然的傾向。顯然，對行動的傾向本來是屬於嗜慾力的;按前面第九題第一節說過的，一切機能之行動皆由嗜慾力推動。所以，並非凡德性皆是道德涵養性的，只有嗜慾力方面的德性纔是道德涵養性的。",
+      "after": "我解答如下：為明白這個問題，先要知道什麼是「道德」(mos)，然後才能知道什麼是道德涵養性的(moralis)。「道德」(mos)有兩種意義：有時是指「習俗」，例如《宗徒大事錄》第十五章1節說的：「若是你們不按梅瑟的慣例(mos)行割損，不能得救。」有時是指自然的或相似自然的行動傾向，為此也可用之於禽獸，就如《瑪加伯下》第十一章11節說的：「衝向敵人，如猛獅一般(leonum more)，擊殺了他們。」在《聖詠》第六十七篇7節也是按這意義：「祂使心思一致的(unius moris)人住在房屋裡。」在拉丁文裡，這兩種意義是用同一個字表達。在希臘文有分別，因為相當於拉丁文之mos的希臘字ethos，有時將第一個字母寫為長音η，有時寫為短音ε。\n說道德涵養性的德性時，「道德」是指對某行動的自然或相似自然的傾向。另一種指「習俗」的「道德」之意義與此接近，因為有時習慣成自然，產生相似自然的傾向。顯然，對行動的傾向本來是屬於嗜慾力的；按前面第九題第一節說過的，一切機能之行動皆由嗜慾力推動。所以，並非凡德性皆是道德涵養性的，只有嗜慾力方面的德性才是道德涵養性的。\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:為明白這個問題，先要知道什麼是「道德」悅的)，然後才能知道什麼是道億涵養性的(m叫s)「道德」\n0 (mos)有兩種意義:有時是指「習俗」'例如《宗徒大事錄》第十五章l節說的:「若是你們不按梅瑟的慣例(mos)行割損，不能得救。」有時是指自然的或相似自然的行動傾向，為此也可用之於禽獸，就如《瑪加伯下》第十一章11節說的:「街向敵人，如猛獅一般(leonum more)，擊殺了他們。」在《聖詠》第六十七篇7節也是按這意義:「祂使心思一致的(unius moris)人住在房屋祖。」在拉丁文裡，這兩種意義是用同一個字表達。在希臘文有分別，因為相當於拉丁文之mos的希臘字ethos'有時將第一個字母寫為長音η，有時寫為短音ε。\n說道德商養性的德性時，「道德」是指對某行動的自然或相似自然的傾向。另一種指「習俗」的「道德」之意義與此接近，因為有時習慣成自然，產生相似自然的傾向。顯然，對行動的傾向本來是屬於嗜慾力的;按前面第九題第一節說過的，一切機能之行動皆由嗜慾力推動。所以，並非凡德性皆是道德涵養性的，只有嗜慾力方面的德性纔是道德涵養性的。",
+          "after": "我解答如下:為明白這個問題，先要知道什麼是「道德」(mos)，然後才能知道什麼是道德涵養性的(moralis)。「道德」(mos)有兩種意義:有時是指「習俗」'例如《宗徒大事錄》第十五章l節說的:「若是你們不按梅瑟的慣例(mos)行割損，不能得救。」有時是指自然的或相似自然的行動傾向，為此也可用之於禽獸，就如《瑪加伯下》第十一章11節說的:「街向敵人，如猛獅一般(leonum more)，擊殺了他們。」在《聖詠》第六十七篇7節也是按這意義:「祂使心思一致的(unius moris)人住在房屋祖。」在拉丁文裡，這兩種意義是用同一個字表達。在希臘文有分別，因為相當於拉丁文之mos的希臘字ethos'有時將第一個字母寫為長音η，有時寫為短音ε。\n說道德商養性的德性時，「道德」是指對某行動的自然或相似自然的傾向。另一種指「習俗」的「道德」之意義與此接近，因為有時習慣成自然，產生相似自然的傾向。顯然，對行動的傾向本來是屬於嗜慾力的;按前面第九題第一節說過的，一切機能之行動皆由嗜慾力推動。所以，並非凡德性皆是道德涵養性的，只有嗜慾力方面的德性纔是道德涵養性的。\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「習俗」'",
+          "after": "「習俗」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第十五章l節",
+          "after": "第十五章1節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "街向敵人",
+          "after": "衝向敵人",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "房屋祖",
+          "after": "房屋裡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "ethos'",
+          "after": "ethos，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "道德商養性",
+          "after": "道德涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "所提之質疑，是由於將道德解釋為習慣而來的。",
+      "after": "所提之質疑，是由於將道德解釋為習慣而來的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "德性之行動皆能是出於選擇，但是隻有靈魂之嗜慾部分的德性使選擇正當。因為前面第十三題第一節曾說，選擇乃是嗜慾部分的行動。所以，充為選擇之根本的選擇性之習性，只有那成全嗜慾力者纔是，雖然其他習性之行動也能為選擇之對象。",
+      "after": "德性之行動皆能是出於選擇，但是只有靈魂之嗜慾部分的德性使選擇正當。因為前面第十三題第一節曾說，選擇乃是嗜慾部分的行動。所以，充為選擇之根本的選擇性之習性，只有那成全嗜慾力者才是，雖然其他習性之行動也能為選擇之對象。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "但是隻有",
+          "after": "但是只有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "《物理學》卷二第一章說: 「天性是動作之根本」 0動向行動乃是嗜慾部分專有的。因此，使聽從理性變成自然的事，乃是嗜慾部分之德性的專有作用。",
+      "after": "《物理學》卷二第一章說：「天性是動作之根本」。動向行動乃是嗜慾部分專有的。因此，使聽從理性變成自然的事，乃是嗜慾部分之德性的專有作用。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "根本」 0",
+          "after": "根本」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "道德涵養性德性與智性德性是否有別",
+      "after": "道德涵養性德性與智性德性是否有別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "道德灑養性德性與智性德性似乎沒有分別。因為:",
+      "after": "道德涵養性德性與智性德性似乎沒有分別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "灑養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "奧斯定在《天主之城》卷四第二十一章說: 「德性是正直度生之技術。」但是，技術是智性的德性。所以，道德涵養性德性與智性德性沒有分別。",
+      "after": "奧斯定在《天主之城》卷四第二十一章說：「德性是正直度生之技術。」但是，技術是智性的德性。所以，道德涵養性德性與智性德性沒有分別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "此外，一般給道德涵養性之德性下定義峙，皆提到知識。例如，有人給恆心下的定義是: 「關於該堅持或不該堅持之事物的知識或習性」;給聖德下的定義是: 「使人忠心盡對天主之責任的知識」。然而知識是智性德性。所以，道德涵養性德性與智性德性不應有區別。",
+      "after": "此外，一般給道德涵養性之德性下定義時，皆提到知識。例如，有人給恆心下的定義是：「關於該堅持或不該堅持之事物的知識或習性」；給聖德下的定義是：「使人忠心盡對天主之責任的知識」。然而知識是智性德性。所以，道德涵養性德性與智性德性不應有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "定義峙",
+          "after": "定義時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2357
+      ],
+      "before": "此外，奧斯定在《獨語》卷一第六章中說: 「德性是完美和正當的理性。」但按《倫理學》卷六第十三章說的，這屬於智性德性。所以道德涵養性德性與智性德性沒有區別。",
+      "after": "此外，奧斯定在《獨語》卷一第六章中說：「德性是完美和正當的理性。」但按《倫理學》卷六第十三章說的，這屬於智性德性。所以道德涵養性德性與智性德性沒有區別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.arg4",
+      "article": 2,
+      "block": "质疑4",
+      "pdf_file_pages": [
+        2357,
+        2358
+      ],
+      "before": "此外，在一個東西的定義中所有的，與這東西沒有分別。但是在道德酒養性德性的定義中有智性德性，因為哲學家在《倫理學》卷二第六章說: 「道德涵養性的德性是選擇性的習性，在於智慧者所指定之理性的中庸。」按《倫理學》卷六第十三章說的，確定道德涵養性德性之中點的正當理性，屬於智性德性。所以，道德涵養性德性與智性德性沒有分別。",
+      "after": "此外，在一個東西的定義中所有的，與這東西沒有分別。但是在道德涵養性德性的定義中有智性德性，因為哲學家在《倫理學》卷二第六章說：「道德涵養性的德性是選擇性的習性，在於智慧者所指定之理性的中庸。」按《倫理學》卷六第十三章說的，確定道德涵養性德性之中點的正當理性，屬於智性德性。所以，道德涵養性德性與智性德性沒有分別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "酒養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2358
+      ],
+      "before": "《倫理學》卷一第十三章卻說: 「德性的區別在於這個:其中有的我們稱之為智性的，有的稱之為道德涵養性的。」",
+      "after": "《倫理學》卷一第十三章卻說：「德性的區別在於這個：其中有的我們稱之為智性的，有的稱之為道德涵養性的。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2358,
+        2359
+      ],
+      "before": "我解答如下:一切人性行為之第一根本是理性。人性行為的其他任何根本，都多少服從理性，但是方式不同。有的絕對服從理性，毫不抗違，例如:身上的肢體如果是健全的，立刻聽從理性之命令，手或腳便從事工作。為此，哲學家在《政治學》卷一第二章中說: 「靈魂以霸道管制身體」'即是像主人之管理奴隸，後者沒有反抗的權利。有人認為人內所有的主動根本，對理性都是這樣的關係。設若果真如此，貝IJ只要理性完美，就足以使行為完美。因而，既然德性是成全人的習性，使行為完美的，所以德性都是在理性部分;因此德J性都是智性方面的，這就是蘇格拉底(Socrates)的主張。按《倫理學》卷六第十三章記載的，他說「凡德性皆是機智或智德」。因此他說:人有了知識，就不能犯罪;凡犯罪的，皆是出於愚昧。\n這主張是由於根據錯誤的前提。嗜慾部分不是絕對服從理性，而有反抗的能力。為此，哲學家在《政治學》卷一第二章說: 「理性是以王道管理嗜慾部分」'就像領導自由人，他們在某些事上有反抗的權利。為此奧斯定在《聖詠講述》(聖詠第一一八篇第八講)裡說:「有時智11生先行，而情感遲遲或根本不動。」嗜慾部分的情慾或習性如果是這樣，貝IJ理性之作用在某些事上便受到阻礙。就此而論，蘇格拉底說的有知識便不犯罪，有一點道理;即如果所謂的知識，包括理性對個別事件之選擇作用。\n所以，人為了能行善，不只理性需要智性德性之配備，嗜慾能力也要有道德涵養性之德性的配備。就如嗜慾與理性是有分別的，道德涵養性德性與智性德性也有分別。就如嗜慾因了多少分有理性而為人性行動之根本，道德涵養性習性也因了合於理性而具有人性德性之理。",
+      "after": "我解答如下：一切人性行為之第一根本是理性。人性行為的其他任何根本，都多少服從理性，但是方式不同。有的絕對服從理性，毫不抗違，例如：身上的肢體如果是健全的，立刻聽從理性之命令，手或腳便從事工作。為此，哲學家在《政治學》卷一第二章中說：「靈魂以霸道管制身體」，即是像主人之管理奴隸，後者沒有反抗的權利。有人認為人內所有的主動根本，對理性都是這樣的關係。設若果真如此，則只要理性完美，就足以使行為完美。因而，既然德性是成全人的習性，使行為完美的，所以德性都是在理性部分；因此德性都是智性方面的，這就是蘇格拉底(Socrates)的主張。按《倫理學》卷六第十三章記載的，他說「凡德性皆是機智或智德」。因此他說：人有了知識，就不能犯罪；凡犯罪的，皆是出於愚昧。\n這主張是由於根據錯誤的前提。嗜慾部分不是絕對服從理性，而有反抗的能力。為此，哲學家在《政治學》卷一第二章說：「理性是以王道管理嗜慾部分」，就像領導自由人，他們在某些事上有反抗的權利。為此奧斯定在《聖詠講述》(聖詠第一一八篇第八講)裡說：「有時智性先行，而情感遲遲或根本不動。」嗜慾部分的情慾或習性如果是這樣，則理性之作用在某些事上便受到阻礙。就此而論，蘇格拉底說的有知識便不犯罪，有一點道理；即如果所謂的知識，包括理性對個別事件之選擇作用。\n所以，人為了能行善，不只理性需要智性德性之配備，嗜慾能力也要有道德涵養性之德性的配備。就如嗜慾與理性是有分別的，道德涵養性德性與智性德性也有分別。就如嗜慾因了多少分有理性而為人性行動之根本，道德涵養性習性也因了合於理性而具有人性德性之理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "管制身體」'",
+          "after": "管制身體」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "德J性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "管理嗜慾部分」'",
+          "after": "管理嗜慾部分」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智11生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "奧斯定說的是廣義的技術，即是指任何正理(正當安排或計劃)。如此則機智或智德也包括在技術之下，因為機智或智德是可為者之正理;但狹義的技術是可做者之正理。按這意義，所謂德性是正直度生之技術，本然適用於機智或智德;用於其他德性是按附帶關係，即因其他德性受機智或智德之指導。",
+      "after": "奧斯定說的是廣義的技術，即是指任何正理(正當安排或計劃)。如此則機智或智德也包括在技術之下，因為機智或智德是可為者之正理；但狹義的技術是可做者之正理。按這意義，所謂德性是正直度生之技術，本然適用於機智或智德；用於其他德性是按附帶關係，即因其他德性受機智或智德之指導。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "這些定義無論是誰講的(皆是從蘇格拉底之主張來的)，應將其所謂的知識，按釋疑1.目前全技術所說的加以解釋。",
+      "after": "這些定義無論是誰講的(皆是從蘇格拉底之主張來的)，應將其所謂的知識，按釋疑1.關於技術所說的加以解釋。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "目前全技術",
+          "after": "關於技術",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "這個問題也與上面一樣。",
+      "after": "這個問題也與上面一樣。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a002.ad4",
+      "article": 2,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "在道德涵養性德性的定義中，提到正當理性，亦即是說合於機智或智德，並不是視之為道德涵養性德性的本質部分，而是指一切道德涵養性的德性皆分有的東西，因為機智或智德指導所有的道德涵養.，生德性。",
+      "after": "在道德涵養性德性的定義中，提到正當理性，亦即是說合於機智或智德，並不是視之為道德涵養性德性的本質部分，而是指一切道德涵養性的德性皆分有的東西，因為機智或智德指導所有的道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "涵養.，生",
+          "after": "涵養性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "將德J性分為道德灑養性的及智性的是否合適",
+      "after": "將德性分為道德涵養性的及智性的是否合適",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德J性",
+          "after": "德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "灑養",
+          "after": "涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "將人性的德性分為道德涵養性的和智性的，似乎不合適。因為:",
+      "after": "將人性的德性分為道德涵養性的和智性的，似乎不合適。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2359
+      ],
+      "before": "機智或智德似乎是居於道德涵養性之德性，與智性之德性之間的。因為在《倫理學》卷六第三章被列為智性德性;而一般又把它列為四個樞德(virtutes cardinales)之一，但樞德是道德涵養性的德性，如我們在後面第六十一題第一節要講到的。所以將德性分為道德涵養性的，和智性的兩個絕對的類別，似乎不妥。",
+      "after": "機智或智德似乎是居於道德涵養性之德性，與智性之德性之間的。因為在《倫理學》卷六第三章被列為智性德性；而一般又把它列為四個樞德(virtutes cardinales)之一，但樞德是道德涵養性的德性，如我們在後面第六十一題第一節要講到的。所以將德性分為道德涵養性的，和智性的兩個絕對的類別，似乎不妥。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2359,
+        2360
+      ],
+      "before": "此外，剋制、堅強與忍耐不算是智性德性，但也不是道德涵養性的德性;因為這些不在於情之平衡，而在於情之熾盛。所以，將德性分為道德涵養性的和智性的並不適當。",
+      "after": "此外，克制、堅強與忍耐不算是智性德性，但也不是道德涵養性的德性；因為這些不在於情之平衡，而在於情之熾盛。所以，將德性分為道德涵養性的和智性的並不適當。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "剋制",
+          "after": "克制",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2360
+      ],
+      "before": "此外，信德、望德和愛德都是德性。這三個不是智性方面的，因為智性德性只有五個，即知識、智慧、悟性、機智和技術，如第五十七題第二、第三及第五節己說過的;但也不是道德涵養性的德性，因為不是關於情慾的，道德涵養性之德性主要是關於情慾的。所以，將悟性分為道德涵養性的及智性的不妥。",
+      "after": "此外，信德、望德和愛德都是德性。這三個不是智性方面的，因為智性德性只有五個，即知識、智慧、悟性、機智和技術，如第五十七題第二、第三及第五節己說過的；但也不是道德涵養性的德性，因為不是關於情慾的，道德涵養性之德性主要是關於情慾的。所以，將德性分為道德涵養性的及智性的不妥。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "將悟性分為",
+          "after": "將德性分為",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2360
+      ],
+      "before": "哲學家在《倫理學》卷二第一章卻說:喃喃兩種，一是智性的，一是道德涵養性的。」",
+      "after": "哲學家在《倫理學》卷二第一章卻說：「德性有兩種，一是智性的，一是道德涵養性的。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "喃喃兩種",
+          "after": "「德性有兩種",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2360
+      ],
+      "before": "我解答如下:人性德性是一種成全人的習性，使人善於行動。在人內的人性行動之根本只有兩個，即智性或理性，及嗜慾。按《靈魂論》卷三第十章說的，這是人內的兩個推動者。所以凡人性的德性，必是成全此二根本之一者。如果是成全與人之善行有關的鑑賞性或實踐性智力的，就是智性德性;如果是成全嗜慾部分的，則是道德涵養性的德性。因此，凡人性德性，或是智性的，或是道德涵養性的。",
+      "after": "我解答如下：人性德性是一種成全人的習性，使人善於行動。在人內的人性行動之根本只有兩個，即智性或理性，及嗜慾。按《靈魂論》卷三第十章說的，這是人內的兩個推動者。所以凡人性的德性，必是成全此二根本之一者。如果是成全與人之善行有關的鑑賞性或實踐性智力的，就是智性德性；如果是成全嗜慾部分的，則是道德涵養性的德性。因此，凡人性德性，或是智性的，或是道德涵養性的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2360
+      ],
+      "before": "機智或智德在本質上是智性德性。但是按質料，則與道德涵養性之德性一樣，因為如第五十七題第四節己說過的，它是可為者之正理。以此而論，它被列為道德涵養性的德性。",
+      "after": "機智或智德在本質上是智性德性。但是按質料，則與道德涵養性之德性一樣，因為如第五十七題第四節己說過的，它是可為者之正理。以此而論，它被列為道德涵養性的德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2360,
+        2361
+      ],
+      "before": "剋制與堅強不是成全感官嗜慾力的。因為剋制者與堅強者實際有許多不合理的情慾;假如感宮嗜慾有某習性使之合於理性，則不會如此。剋制或堅強乃是理性方面的成就，用以抵制情慾，使兔於泛濫的。但此二者不完全合於德性之理;因為那使理性善於處理道德涵養問題的智性德性，假定對目的之嗜慾是正當的，以使理性對其據以推論的根本或目的有正確的態度，而這正是剋制者和堅強者所缺的。此外，由兩個機能而來的行動，若非兩個機能皆具有必要之習性，員IJ行動不可能完美;就如一個用工真做工的主動者，如果工具配備得不合適，無論主動者本身多完美，工作不能是完美的。故此，如果理性所推動的感官嗜慾不完美，無論理性部分多完美，產生的行動仍不會是完美的。為此，這行動之根本也就不是德性。所以，有關享受的剋制，及在悲傷中的堅強，不是德性，而是比德性較低的東西，正如哲學家在《倫理學》卷七第一章曾說的。",
+      "after": "克制與堅強不是成全感官嗜慾力的。因為克制者與堅強者實際有許多不合理的情慾；假如感官嗜慾有某習性使之合於理性，則不會如此。克制或堅強乃是理性方面的成就，用以抵制情慾，使免於泛濫的。但此二者不完全合於德性之理；因為那使理性善於處理道德涵養問題的智性德性，假定對目的之嗜慾是正當的，以使理性對其據以推論的根本或目的有正確的態度，而這正是克制者和堅強者所缺的。此外，由兩個機能而來的行動，若非兩個機能皆具有必要之習性，則行動不可能完美；就如一個用工具做工的主動者，如果工具配備得不合適，無論主動者本身多完美，工作不能是完美的。故此，如果理性所推動的感官嗜慾不完美，無論理性部分多完美，產生的行動仍不會是完美的。為此，這行動之根本也就不是德性。所以，有關享受的克制，及在悲傷中的堅強，不是德性，而是比德性較低的東西，正如哲學家在《倫理學》卷七第一章曾說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "剋制",
+          "after": "克制",
+          "occurrences": 5,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "使兔於",
+          "after": "使免於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "工真",
+          "after": "工具",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "信德、望德和愛德，是高於人性德性的，因為是人由於分有天主的聖寵而有的德性。",
+      "after": "信德、望德和愛德，是高於人性德性的，因為是人由於分有天主的聖寵而有的德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "沒有智性德性能否有道德涵養性德性",
+      "after": "沒有智性德性能否有道德涵養性德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "沒有智性德性，似乎能有道德涵養性德性。因為:",
+      "after": "沒有智性德性，似乎能有道德涵養性德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "西塞祿《修辭學》卷二第五十三章曾說，道德涵養性德性是「像似天性，並合於理性的習性」。但是天性雖然隨從某高級理性之推動，但那理性與天性卻不必是一體;看那些沒有知覺的自然物價可以知道。所以在人內，雖然理性未具有使之完美的智性{惡性，也能有像似天性的道德涵養性德性，使人之傾向合於理性。",
+      "after": "西塞祿《修辭學》卷二第五十三章曾說，道德涵養性德性是「像似天性，並合於理性的習性」。但是天性雖然隨從某高級理性之推動，但那理性與天性卻不必是一體；看那些沒有知覺的自然物便可以知道。所以在人內，雖然理性未具有使之完美的智性德性，也能有像似天性的道德涵養性德性，使人之傾向合於理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "自然物價可以",
+          "after": "自然物便可以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "智性{惡性",
+          "after": "智性德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "此外，由於智性德性，人得能善用理性。但是有的人的理性不發達，然而卻是有德性並為天主所喜愛的人。所以沒有智性德性，似乎能有道德涵養性德性。",
+      "after": "此外，由於智性德性，人得能善用理性。但是有的人的理性不發達，然而卻是有德性並為天主所喜愛的人。所以沒有智性德性，似乎能有道德涵養性德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2361
+      ],
+      "before": "此外，道德涵養性德性使人傾向善行。但是有的人不經理性之判斷，自然就傾向善行。所以沒有智性德性，能有道德涵養性德性。",
+      "after": "此外，道德涵養性德性使人傾向善行。但是有的人不經理性之判斷，自然就傾向善行。所以沒有智性德性，能有道德涵養性德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2361,
+        2362
+      ],
+      "before": "教宗額我略一世在《倫理叢談》卷二十二第一章卻說:「其他德性，除非其所追求者合於機智或智德，否則不能是德性。」但按前面第三節釋疑1.、第五十七題第五節所說的，機智或智德是智'1生德性。所以，沒有智性德性，便不能有道德涵養性德性。",
+      "after": "教宗額我略一世在《倫理叢談》卷二十二第一章卻說：「其他德性，除非其所追求者合於機智或智德，否則不能是德性。」但按前面第三節釋疑1.、第五十七題第五節所說的，機智或智德是智性德性。所以，沒有智性德性，便不能有道德涵養性德性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智'1生",
+          "after": "智性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2362
+      ],
+      "before": "我解答如下:沒有某些智性德性，能夠有道德涵養性德性。例如:可以沒有智慧、知識或技術，但是不能沒有悟力或惰性，及機智或智德。道德涵養性的德性不能沒有機智，因為道總涵養性的德性是選擇性的習性，是使人善於選擇的。為能善於選擇，需要具有兩點。第一，對目的要有正當的意向;而這要靠道德涵養性的德性，它使嗜慾力傾向合於理性的善，亦即正當之目的。第二，人要會採用導致目的者;而這是靠理性之正確考慮、判斷和命令。這些事屬於機智及其附帶之德性，如第五十七題第五及六節已說過的。所以，道德涵養性的德性，不能缺少機智或智德。\n因而也不能缺少悟力或悟性。人是靠悟力得知自然可知之原理，無論是鑑賞方面的，或實踐方面的。在鑑賞方面，正理是基於自然可知之原理，故先要領悟這原理;在實踐方面，機智即是可為者之正理，故也要先領悟原理。",
+      "after": "我解答如下：沒有某些智性德性，能夠有道德涵養性德性。例如：可以沒有智慧、知識或技術，但是不能沒有悟力或悟性，及機智或智德。道德涵養性的德性不能沒有機智，因為道德涵養性的德性是選擇性的習性，是使人善於選擇的。為能善於選擇，需要具有兩點。第一，對目的要有正當的意向；而這要靠道德涵養性的德性，它使嗜慾力傾向合於理性的善，亦即正當之目的。第二，人要會採用導致目的者；而這是靠理性之正確考慮、判斷和命令。這些事屬於機智及其附帶之德性，如第五十七題第五及六節己說過的。所以，道德涵養性的德性，不能缺少機智或智德。\n因而也不能缺少悟力或悟性。人是靠悟力得知自然可知之原理，無論是鑑賞方面的，或實踐方面的。在鑑賞方面，正理是基於自然可知之原理，故先要領悟這原理；在實踐方面，機智即是可為者之正理，故也要先領悟原理。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "悟力或惰性",
+          "after": "悟力或悟性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "道總涵養",
+          "after": "道德涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已說過",
+          "after": "己說過",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2362
+      ],
+      "before": "無理性之物的天性傾向不經過選擇作用，故這種傾向不絕對需要理性。但是道德福養性之德性的傾向要經選擇，故為能是完美的，需要真有智性德性的完美理性。",
+      "after": "無理性之物的天性傾向不經過選擇作用，故這種傾向不絕對需要理性。但是道德涵養性之德性的傾向要經選擇，故為能是完美的，需要具有智性德性的完美理性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "道德福養",
+          "after": "道德涵養",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "需要真有",
+          "after": "需要具有",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2362
+      ],
+      "before": "有德性的人，理性不必什麼都知道，只需知道那該按德性去做的。有德性的人，都有這種理性運用。就連那些因了沒有世俗之騙詐之巧而似單純的人，也能是有機智的或是智者;如《瑪竇福音》第十章16節所說的:「你們要機警如同蛇，純樸如同鴿子。」",
+      "after": "有德性的人，理性不必什麼都知道，只需知道那該按德性去做的。有德性的人，都有這種理性運用。就連那些因了沒有世俗之騙詐之巧而似單純的人，也能是有機智的或是智者；如《瑪竇福音》第十章16節所說的：「你們要機警如同蛇，純樸如同鴿子。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2362,
+        2363
+      ],
+      "before": "對德性之苦的自然傾向，是德性的一種開端，而不是完美的德性。若沒有正當理性之輔助，使適合於正當目的者之選擇正確，貝。這種傾向愈強，可能愈危險，例如:一匹瞎馬跑得愈快，跌得也愈重，受傷也愈重。為此，道德涵養性之德性雖然不像蘇格拉底所說的，就等於正當之理性(見第二節)但也不像柏拉圖派所說的，只是「合於正當之理性」'即是傾向於合於理性之事;也該是「隨同正當之理性」'如亞里斯多德在《倫理學》卷六第十三章所說的。",
+      "after": "對德性之善的自然傾向，是德性的一種開端，而不是完美的德性。若沒有正當理性之輔助，使適合於正當目的者之選擇正確，則這種傾向愈強，可能愈危險，例如：一匹瞎馬跑得愈快，跌得也愈重，受傷也愈重。為此，道德涵養性之德性雖然不像蘇格拉底所說的，就等於正當之理性(見第二節)；但也不像柏拉圖派所說的，只是「合於正當之理性」，即是傾向於合於理性之事；也該是「隨同正當之理性」，如亞里斯多德在《倫理學》卷六第十三章所說的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "德性之苦",
+          "after": "德性之善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝。",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "(見第二節)但",
+          "after": "(見第二節)；但",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「合於正當之理性」'",
+          "after": "「合於正當之理性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「隨同正當之理性」'",
+          "after": "「隨同正當之理性」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.heading",
+      "article": 5,
+      "block": "节号",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "第五節",
+      "after": "第五節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a005.title",
+      "article": 5,
+      "block": "标题",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "沒有道德涵養性德性能否有智性德性",
+      "after": "沒有道德涵養性德性能否有智性德性",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q058.a005.intro",
+      "article": 5,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "有關第五節，我們討論如下:",
+      "after": "有關第五節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.objection-intro",
+      "article": 5,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "沒有道德涵養性德性似乎能有智性悟性。因為:",
+      "after": "沒有道德涵養性德性似乎能有智性德性。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "智性悟性",
+          "after": "智性德性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.arg1",
+      "article": 5,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "在先者之完善不繫於在後者之完善。但理性是先於感官嗜慾的，和推動感官嗜慾的。智性德性是理性之成就，而道德涵養性德性是嗜慾部分之德性;所以前者不繫於後者。故此沒有後者，能夠有前者。",
+      "after": "在先者之完善不繫於在後者之完善。但理性是先於感官嗜慾的，和推動感官嗜慾的。智性德性是理性之成就，而道德涵養性德性是嗜慾部分之德性；所以前者不繫於後者。故此沒有後者，能夠有前者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.arg2",
+      "article": 5,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "此外，道德涵養是機智或智德之質料，就如可做者是技術之質料，但是沒有自己的質料仍能有技術，例如:工匠沒有鐵。所以，沒有道德涵養性德性能有機智，雖然在所有的智性德性中，機智與道德涵養性德性的關係似乎最為密切。",
+      "after": "此外，道德涵養是機智或智德之質料，就如可做者是技術之質料，但是沒有自己的質料仍能有技術，例如：工匠沒有鐵。所以，沒有道德涵養性德性能有機智，雖然在所有的智性德性中，機智與道德涵養性德性的關係似乎最為密切。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.arg3",
+      "article": 5,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "此外，《倫理學》卷六第五章說: 「機智是善於考慮的德性」。但是許多人雖然沒有道德涵養性德性，卻善於考慮。所以，沒有道德涵養性德性也能有機智。",
+      "after": "此外，《倫理學》卷六第五章說：「機智是善於考慮的德性」。但是許多人雖然沒有道德涵養性德性，卻善於考慮。所以，沒有道德涵養性德性也能有機智。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.sed_contra",
+      "article": 5,
+      "block": "反之",
+      "pdf_file_pages": [
+        2363
+      ],
+      "before": "願意做惡，與道德涵養性德性直接相反;但這與那沒有道德涵養性德性而仍能存在者不相反。然而，《倫理學》卷六第五章說: 「情願而犯罪」與機智衝突。所以，沒有道德涵養性德性不能有機智或智德。",
+      "after": "願意做惡，與道德涵養性德性直接相反；但這與那沒有道德涵養性德性而仍能存在者不相反。然而，《倫理學》卷六第五章說：「情願而犯罪」與機智衝突。所以，沒有道德涵養性德性不能有機智或智德。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.respondeo",
+      "article": 5,
+      "block": "正解",
+      "pdf_file_pages": [
+        2364
+      ],
+      "before": "我解答如下:其他智性德性沒有道德涵養性德性，仍可以存在;但是沒有道德涵養性德性，機智或智德不能存在。這是因為機智是可為者之正理，不只是廣泛性地，而且是針對個別行動的。正當理性要先有用為根據的原理。關於個別事件，理性不只以普遍原理為根據，也以特殊原理為根據。關於可為者之普遍原理，人是靠自然領悟，因而知道人不可做惡;或者也靠某些實踐性的知識，但這不足使對個體事件看法正確。因為有時由悟力或知識所知之普遍原理，在某個別事上受到情慾之破壞;就如有貪心的人，貪慾盛的時候，他所貪求的雖然與理性之普通性判斷相反，卻認為是善的。為此，就如在普遍原理方面，人有自然悟力及知識之習性的配備;同樣，為能對可為者之個別原理之看法，亦即對目的之看法正確，也要有些習性，使他對目的之判斷自然正確，而這是靠道德涵養性的德性。因為按《倫理學》卷三第五章所說的，有德者之能正確判斷德性之目的，乃因「人是怎樣的，目的在他眼中便是怎樣的。」所以，為得可為者之正理，亦即機智，人要有道德涵養性的德性。",
+      "after": "我解答如下：其他智性德性沒有道德涵養性德性，仍可以存在；但是沒有道德涵養性德性，機智或智德不能存在。這是因為機智是可為者之正理，不只是廣泛性地，而且是針對個別行動的。正當理性要先有用為根據的原理。關於個別事件，理性不只以普遍原理為根據，也以特殊原理為根據。關於可為者之普遍原理，人是靠自然領悟，因而知道人不可做惡；或者也靠某些實踐性的知識，但這不足使對個體事件看法正確。因為有時由悟力或知識所知之普遍原理，在某個別事上受到情慾之破壞；就如有貪心的人，貪慾盛的時候，他所貪求的雖然與理性之普通性判斷相反，卻認為是善的。為此，就如在普遍原理方面，人有自然悟力及知識之習性的配備；同樣，為能對可為者之個別原理之看法，亦即對目的之看法正確，也要有些習性，使他對目的之判斷自然正確，而這是靠道德涵養性的德性。因為按《倫理學》卷三第五章所說的，有德者之能正確判斷德性之目的，乃因「人是怎樣的，目的在他眼中便是怎樣的。」所以，為得可為者之正理，亦即機智，人要有道德涵養性的德性。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.ad1",
+      "article": 5,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2364
+      ],
+      "before": "認知目的之理性作用，先於對目的之慾求;但是對目的之慾求，先於考慮關於導致目的者之理性作用，這理性作用屬於機智。就如在鑑賞方面，對原理之領悟，也是推論之理性的根本。",
+      "after": "認知目的之理性作用，先於對目的之慾求；但是對目的之慾求，先於考慮關於導致目的者之理性作用，這理性作用屬於機智。就如在鑑賞方面，對原理之領悟，也是推論之理性的根本。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.ad2",
+      "article": 5,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2364
+      ],
+      "before": "關於技術品之原理的判斷正確與否，並不是依據我們嗜慾的配備，這是單靠理性之探討;但關於道德上的原理或目的則不然。為此，技術不必有成全嗜慾的德性，機智則有此需要。",
+      "after": "關於技術品之原理的判斷正確與否，並不是依據我們嗜慾的配備，這是單靠理性之探討；但關於道德上的原理或目的則不然。為此，技術不必有成全嗜慾的德性，機智則有此需要。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q058.a005.ad3",
+      "article": 5,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2364
+      ],
+      "before": "機智不只是用以善於考慮的，也是用以善於判斷和命令的。若不排除妨害機智之判斷和命令的情慾，則不能得其正，而這要靠道德涵養性的德性。",
+      "after": "機智不只是用以善於考慮的，也是用以善於判斷和命令的。若不排除妨害機智之判斷和命令的情慾，則不能得其正，而這要靠道德涵養性的德性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
