@@ -1,0 +1,1500 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q070",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "0d9dd34eb46034ae42f4a2ddca55b6ad51ee7eaf",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q070",
+    "title": "論聖神之果實",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2487,
+      2488,
+      2489,
+      2490,
+      2491,
+      2492,
+      2493,
+      2494,
+      2495
+    ],
+    "printed_pages": [
+      221,
+      229
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 49,
+    "changed_review_units": 37,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q70.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q70.json": "e8c387d46d1ae3298e364c419b9f7b1915fa917b5c3675ea2b44a3013a5a18b5"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q070.a001.arg1",
+      "pdf_file_page": 2487,
+      "text": "己領到工資",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a001.arg3",
+      "pdf_file_page": 2488,
+      "text": "己經說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a002.respondeo",
+      "pdf_file_page": 2490,
+      "text": "釋疑1.己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a002.ad3",
+      "pdf_file_page": 2490,
+      "text": "如正解己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a003.respondeo",
+      "pdf_file_page": 2491,
+      "text": "己傾注在我們心中了",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a004.respondeo",
+      "pdf_file_page": 2494,
+      "text": "前面己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q070.a003.respondeo",
+      "pdf_file_page": 2492,
+      "text": "一人所以為樂者若不足實",
+      "status": "suspected_source_print_error",
+      "action": "【原书疑似印误】原页确作「不足實」，按底本保留，不润色为「不充實／不真實」。"
+    },
+    {
+      "id": "I_II.q070.a003.respondeo",
+      "pdf_file_page": 2492,
+      "text": "《倫理學》卷五第三章",
+      "status": "suspected_source_print_error",
+      "action": "原页确作卷五第三章，按底本保留引文。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [],
+  "notes": [
+    "全部9页、4节原页逐页对齐。本批属于用户指定第二部第一集第51–70题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q070.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "然後要討論的是聖神的放果或果實(fructus;參看第五十五題引言)。\n關於這點，可以提出四個問題:\n一、聖神之果實是否為行動。\n二、聖神之果實與真福是否有區別。\n三、論聖神之果實的數目。\n四、論聖神之果實與肉軀私慾之行為的對立。",
+      "after": "然後要討論的是聖神的效果或果實(fructus；參看第五十五題引言)。\n關於這點，可以提出四個問題：\n一、聖神之果實是否為行動。\n二、聖神之果實與真福是否有區別。\n三、論聖神之果實的數目。\n四、論聖神之果實與肉軀私慾之行為的對立。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "放果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "聖神之果實是否為行動",
+      "after": "聖神之果實是否為行動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "宗徒在《迦拉達書》第五章22及23節所說的聖神之果實或效果，似乎不是行動。因為:",
+      "after": "宗徒在《迦拉達書》第五章22及23節所說的聖神之果實或效果，似乎不是行動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "一東西若另有果實，頁。這東西本身不應稱為果實，否則就要推展到無限。但是我們的行動有一些果實，因為《智慧篇》第三章的節說: 「高尚的勞苦必結榮譽的果實」;《若望褔音》第四章36節也說: 「收割的人已領到玉資，且為永生收集了果實」 0所以我們的行動本身不應稱為果實。",
+      "after": "一東西若另有果實，則這東西本身不應稱為果實，否則就要推展到無限。但是我們的行動有一些果實，因為《智慧篇》第三章15節說：「高尚的勞苦必結榮譽的果實」；《若望福音》第四章36節也說：「收割的人己領到工資，且為永生收集了果實」。所以我們的行動本身不應稱為果實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "頁。這",
+          "after": "則這",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三章的節",
+          "after": "第三章15節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已領到",
+          "after": "己領到",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "玉資",
+          "after": "工資",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "果實」 0",
+          "after": "果實」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2487
+      ],
+      "before": "此外，奧斯定在《論天主聖三》卷十第十章說: 「我們所享受的(果實)是所認知的東西，而意志安於這些東西，並以之為樂。」但是我們的意志，不該安於我們的行動本身。所以我們的行動不該稱為果實。",
+      "after": "此外，奧斯定在《論天主聖三》卷十第十章說：「我們所享受的(果實)是所認知的東西，而意志安於這些東西，並以之為樂。」但是我們的意志，不該安於我們的行動本身。所以我們的行動不該稱為果實。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2487,
+        2488
+      ],
+      "before": "此外，在宗徒所列舉的聖神之故果或果實中，有的是德性，即仁愛、溫和、忠信和節制。但按前面第五十五題第一節已經說過的，德性不是行動，而是習性。所以，聖神的果實不是行動。",
+      "after": "此外，在宗徒所列舉的聖神之效果或果實中，有的是德性，即仁愛、溫和、忠信和節制。但按前面第五十五題第一節己經說過的，德性不是行動，而是習性。所以，聖神的果實不是行動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故果",
+          "after": "效果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2488
+      ],
+      "before": "《瑪竇福音》第十二章33節說: 1由果實可認出樹來J;按聖賢們的解釋，這是說由行為可以認出人來。所以，人的行動可以稱為果實。",
+      "after": "《瑪竇福音》第十二章33節說：「由果實可認出樹來」；按聖賢們的解釋，這是說由行為可以認出人來。所以，人的行動可以稱為果實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1由果實可認出樹來J",
+          "after": "「由果實可認出樹來」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2488
+      ],
+      "before": "我解答如下:果實(fructus)乃是由形體的果實，被轉用於精神方面的果實。形體上所謂的果實，是指由植物所生者，達到了成熟階段，並含有香甜味道。這種果實可以從兩方面去看:一是看它與生它的樹之關係;一是看對採取果實之人的關係。為此，在精神方面，1果實J之說能有兩種方式:一種方式，說「人的果實」'猶如說「樹的果實」'是指由人所產生者;另一種方式，說「人的果寶山是指人所採取者。\n人所獲取者，不都有果實之義;只有最後者，並帶有快樂者，纔是正式的果實。人有田地，也有樹木，而這些不稱為果實;但只有最後者才稱為果實，即人希望由田地和樹木所獲取者。按這意義，所謂人的果實，是指人應享受的最後目的。\n如果所謂「人的果實」'是指由人所產生者，貝IJ人的行為可以稱為果實。因為行為是行動者的第二現實，如果適合行動者，便帶有快樂。如取人的行為是出於人的理性能力，則是理性之果實。如果是由較高之德能所產生者，即由聖神之德能所產生者，則人的行為便稱為聖神的果實，好似是生於天主的種子。因為《若望章書》第三章9節說: 1凡是由天主生的，就不犯罪過，因為天主的種子存留在他內。」",
+      "after": "我解答如下：果實(fructus)乃是由形體的果實，被轉用於精神方面的果實。形體上所謂的果實，是指由植物所生者，達到了成熟階段，並含有香甜味道。這種果實可以從兩方面去看：一是看它與生它的樹之關係；一是看對採取果實之人的關係。為此，在精神方面，「果實」之說能有兩種方式：一種方式，說「人的果實」，猶如說「樹的果實」，是指由人所產生者；另一種方式，說「人的果實」，是指人所採取者。\n人所獲取者，不都有果實之義；只有最後者，並帶有快樂者，才是正式的果實。人有田地，也有樹木，而這些不稱為果實；但只有最後者才稱為果實，即人希望由田地和樹木所獲取者。按這意義，所謂人的果實，是指人應享受的最後目的。\n如果所謂「人的果實」，是指由人所產生者，則人的行為可以稱為果實。因為行為是行動者的第二現實，如果適合行動者，便帶有快樂。如果人的行為是出於人的理性能力，則是理性之果實。如果是由較高之德能所產生者，即由聖神之德能所產生者，則人的行為便稱為聖神的果實，好似是生於天主的種子。因為《若望壹書》第三章9節說：「凡是由天主生的，就不犯罪過，因為天主的種子存留在他內。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "1果實J",
+          "after": "「果實」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人的果實」'",
+          "after": "人的果實」，",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "樹的果實」'",
+          "after": "樹的果實」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "人的果寶山",
+          "after": "人的果實」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "纔是",
+          "after": "才是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "如取",
+          "after": "如果",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "若望章書",
+          "after": "若望壹書",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "1凡是",
+          "after": "「凡是",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2488,
+        2489
+      ],
+      "before": "既然果實具有一種最後者和目的之意義，故某果實並非不能另有果實，就如目的能指向別的目的。我們的行為如果是聖神在我們內活動的效果，便具有果實之意義;但若針對永生之目的而言，更好說是花。故此《德訓篇》第二十四章23節說: 「我的花，就是尊榮和高貴的果實。」",
+      "after": "既然果實具有一種最後者和目的之意義，故某果實並非不能另有果實，就如目的能指向別的目的。我們的行為如果是聖神在我們內活動的效果，便具有果實之意義；但若針對永生之目的而言，更好說是花。故此《德訓篇》第二十四章23節說：「我的花，就是尊榮和高貴的果實。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "說意志因某東西本身而樂時，能有兩種意義。一種所謂的「因」'是指目的原因，如此則只能以最後目的本身為樂。第二種是指形式原因，如此凡在形式上可樂的東西，人皆能以這東西本身為樂。例如，病人以健康本身為樂，是以健康為目的。他以可口的藥品為樂，則非視之為目的，而是視之為具有美味者;如果是苦藥，則不能以藥本身為樂，只能是為了別的目的。故此，人以天主為樂時，應視天主為最後目的;以德性之行動為樂時，不該視之為目的，而該是因了這些行動所含有的正當性，是這正當|生使有德性的人感到快樂。故此，盎博羅修《論樂園》(De paradiso)第十三章說德性之行動之被稱為果實，是「因為使具有之者感到神聖真切的快樂」。",
+      "after": "說意志因某東西本身而樂時，能有兩種意義。一種所謂的「因」，是指目的原因，如此則只能以最後目的本身為樂。第二種是指形式原因，如此凡在形式上可樂的東西，人皆能以這東西本身為樂。例如，病人以健康本身為樂，是以健康為目的。他以可口的藥品為樂，則非視之為目的，而是視之為具有美味者；如果是苦藥，則不能以藥本身為樂，只能是為了別的目的。故此，人以天主為樂時，應視天主為最後目的；以德性之行動為樂時，不該視之為目的，而該是因了這些行動所含有的正當性，是這正當性使有德性的人感到快樂。故此，盎博羅修《論樂園》(De paradiso)第十三章說德性之行動之被稱為果實，是「因為使具有之者感到神聖真切的快樂」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "「因」'",
+          "after": "「因」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正當|生",
+          "after": "正當性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "德性之名稱有時可用來指其行動;例如奧斯定《若望褔音釋義》第四十講說: 「信德是相信所未見者」'《論基督聖道》卷二第十章又說: 「愛德是愛天主和愛人的心靈動態、」。在聖神之果實中有德性之名稱，便是這個原因。",
+      "after": "德性之名稱有時可用來指其行動；例如奧斯定《若望福音釋義》第四十講說：「信德是相信所未見者」，《論基督聖道》卷二第十章又說：「愛德是愛天主和愛人的心靈動態」。在聖神之果實中有德性之名稱，便是這個原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "未見者」'",
+          "after": "未見者」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "動態、」",
+          "after": "動態」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "聖神的果實與真福有無區別",
+      "after": "聖神的果實與真福有無區別",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "聖神的果實與真褔似乎沒有區別。因為:",
+      "after": "聖神的果實與真福似乎沒有區別。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "按前面第六十九題第一節釋疑1.所說的，真褔屬於恩賜。但是恩賜之所以成全人，是由於受聖神的推動。所以，真褔就是聖神的果實。",
+      "after": "按前面第六十九題第一節釋疑1.所說的，真福屬於恩賜。但是恩賜之所以成全人，是由於受聖神的推動。所以，真福就是聖神的果實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2489
+      ],
+      "before": "此外，永生之果實對未來之實在幸福的關係，等於現世之果實對現世所寄望之真褔的關係。但是，永生之果實就是來世之幸福。所以，現世的果實也就是現世之真褔。",
+      "after": "此外，永生之果實對未來之實在幸福的關係，等於現世之果實對現世所寄望之真福的關係。但是，永生之果實就是來世之幸福。所以，現世的果實也就是現世之真福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "此外，果實按理應是最後的不日可樂的。但按前面第三題第一節、第四題第一節所說的，這也正是幸福或真福之意義。既然果實與幸福或真福之理相同，所以彼此沒有分別。",
+      "after": "此外，果實按理應是最後的和可樂的。但按前面第三題第一節、第四題第一節所說的，這也正是幸福或真福之意義。既然果實與幸福或真福之理相同，所以彼此沒有分別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "不日可樂",
+          "after": "和可樂",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "東西之類別不同，其本身也不同。但是看果實與真褔之項目，可知其分類不同。所以，果實與真福有區別。",
+      "after": "東西之類別不同，其本身也不同。但是看果實與真福之項目，可知其分類不同。所以，果實與真福有區別。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "我解答如下:真福之理中所包含的，比果實之理中所包合的多。因為果實只須是最後者和可樂者;而真褔此外還要是完美的和崇高的。為此，凡真褔皆可稱為果實，反之則不能。人以為樂的任何德性之行動皆為果實，但只有完美的行動被稱為真褔:由於其完美性，故歸之於恩賜，而不歸之於德性;如在前面第六十九題第一節釋疑1己說過的。",
+      "after": "我解答如下：真福之理中所包含的，比果實之理中所包含的多。因為果實只須是最後者和可樂者；而真福此外還要是完美的和崇高的。為此，凡真福皆可稱為果實，反之則不能。人以為樂的任何德性之行動皆為果實，但只有完美的行動被稱為真福：由於其完美性，故歸之於恩賜，而不歸之於德性；如在前面第六十九題第一節釋疑1.己說過的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 3,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "所包合",
+          "after": "所包含",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "釋疑1己",
+          "after": "釋疑1.己",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "所舉之理由，證明真福是果實，但不能證明凡果實皆是真福。",
+      "after": "所舉之理由，證明真福是果實，但不能證明凡果實皆是真福。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "永生之果實是絕對最後者和完美者;故此與來世之真褔毫無區別。現世的果實不是絕對的最後者和完美者:故此果實不都是真褔。",
+      "after": "永生之果實是絕對最後者和完美者；故此與來世之真福毫無區別。現世的果實不是絕對的最後者和完美者：故此果實不都是真福。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "如正解己說過的，真福之理比果實之理包括的多。",
+      "after": "如正解己說過的，真福之理比果實之理包括的多。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "宗徒所列之果實是否正確",
+      "after": "宗徒所列之果實是否正確",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2490
+      ],
+      "before": "宗徒在《迦拉達書》第五章22及23節所列之十二種效果或果實，似乎不正確。因為:",
+      "after": "宗徒在《迦拉達書》第五章22及23節所列之十二種效果或果實，似乎不正確。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2490,
+        2491
+      ],
+      "before": "在別的地方，他講現世的果實或效果只有一個。他在《羅馬書》第六章22節說:「你們所得的效果(單數)，是使你們成聖。」《依撤意亞》第二十七章9節也說:「一切果實(單數)，即在於罪過得以消除。」所以，不該列為十二種果實。",
+      "after": "在別的地方，他講現世的果實或效果只有一個。他在《羅馬書》第六章22節說：「你們所得的效果(單數)，是使你們成聖。」《依撒意亞》第二十七章9節也說：「一切果實(單數)，即在於罪過得以消除。」所以，不該列為十二種果實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "依撤意亞",
+          "after": "依撒意亞",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2491
+      ],
+      "before": "此外，按前面第一節說的，果實是生於神性之種子者。但按《瑪竇褔音》第十三章23節所說的，好地從神性之種子中產生三種果實，即「百倍」'「六十倍」和「三十倍」。所以，不該是十二種果實。",
+      "after": "此外，按前面第一節說的，果實是生於神性之種子者。但按《瑪竇福音》第十三章23節所說的，好地從神性之種子中產生三種果實，即「百倍」，「六十倍」和「三十倍」。所以，不該是十二種果實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「百倍」'",
+          "after": "「百倍」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2491
+      ],
+      "before": "此外，果實按理是最後者和可樂者。但是，宗徒所列的果實不全具有這些性質:忍耐與恆心似乎是關於可憂愁的事;而忠信似乎不是最後者，而是最初的基礎。所以，列入這些果實是多餘的。",
+      "after": "此外，果實按理是最後者和可樂者。但是，宗徒所列的果實不全具有這些性質：忍耐與恆心似乎是關於可憂愁的事；而忠信似乎不是最後者，而是最初的基礎。所以，列入這些果實是多餘的。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2491
+      ],
+      "before": "所列之項目似乎不足。前面第二節曾說，凡真褔皆可稱為果實，但沒有全部列在這裡。這裡也沒有屬於智慧及其他德性之行動的。所以果實的項目不全。",
+      "after": "所列之項目似乎不足。前面第二節曾說，凡真福皆可稱為果實，但沒有全部列在這裡。這裡也沒有屬於智慧及其他德性之行動的。所以果實的項目不全。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2491,
+        2492,
+        2493
+      ],
+      "before": "我解答如下:宗徒列出十二種效果或果實是合理的，並且也與《默示錄》最後一章第2節所說的相符:「沿河兩岸有生命樹，一年結十二次呆子」。既然果實是指由種子或根子所生出者，在區分果實時，要看聖神在我們身上的各種作用。這些作用的程序是這樣的:首先使人靈本身正當，第二是針對人周邊者，第三是針對低於人的東西。\n靈魂本身正當，是說它對善和惡有正確的態度。人心對善之正確態度在於愛;因為按前面第二十七題第四節、第二十八題第六節釋疑2.、第四十一題第二節釋疑1.所說的，愛是第一個情感和一切情感的根子。故此，果實中的第一個是「仁愛」(cari-tas);在仁愛中最能表顯聖神，因為祂就是愛。故此《羅馬書》第五章5節說: 「天主的愛，藉著所賜予我們的聖神，已傾注在我們心中了。」在仁愛之後，自然就有「喜樂」。凡愛者皆因與所愛者結合而喜樂。仁愛常有其所愛之天主在面前;就如《若望壹書》第四章的節所說的: 「那存留在愛內的，就存留在天主內，天主也存留在他內。」故此，喜樂隨在仁愛之後。完美的喜樂，就是平安或「和平」 0和平有兩層。第一層是不受外來乏驚擾。人在享受其所愛之善時，若受到擾亂，便不能盡情享受;再者，一人對某物感到絕對滿足時，便無心他顧，不把別的東西放在眼裡。故此，《聖詠》第一4九篇165節說:「愛慕你法律的必飽享平安，沒有一點失足跌倒的危險」'因為沒有外物妨礙他們享受天主。第二層是浮動願望之滿足。一人所以為樂者若不足實，快樂就不圓滿。所以和平包括兩點:即不受外物煩擾，並且一個東西能使我們的願望得到滿足。故此，在仁愛與喜樂之後，和平列為第三。心靈對惡的正當關係包括兩點:第一，不因臨身之惡而心亂，這屬於「忍耐」;第二，不因所望之善遲遲不來而心亂，這屬於「恆心或堅忍」(Ionganimitas)。因為按《倫理學》卷五第三章所說的: 「善之缺欠具有惡的意義」。\n對人之周邊者，即對他人，人心靈之正當態度，第一是行善之意志一一這屬於「良善」(bonitas)。其次是善行之實施一一這屬於「慈祥」(benignitas);因為所謂慈祥者，即愛情之善火(bonus ignis)使之熱心行善者。第三是平心靜氣承受他人所加之惡一一遺屬於「溫和」(mansuetudo)，它控制忿怒。第四，我們不只不因忿怒而加害他人，也不用欺騙或詭計一一這屬於「信德」(fides)，即「忠信」 0若「信德」是指對天主的信仰，則是針對高於人者之關係:這使人將自己的心思及一切皆歸屬於天主。\n關於低於人者，第一是外在的行為正齒，這靠「柔和」(modcstia)，它使人在言行上皆有分寸。關於內心的情慾'是靠「節制」(continentia)和「貞潔」(castitas):無論二者之區別是在於典潔使人避免非禮者，節制也避免合法者;或在於節制者雖有慾情而不為所惑，貞潔者則既沒有慾情，也不為慾情所惑。",
+      "after": "我解答如下：宗徒列出十二種效果或果實是合理的，並且也與《默示錄》最後一章第2節所說的相符：「沿河兩岸有生命樹，一年結十二次果子」。既然果實是指由種子或根子所生出者，在區分果實時，要看聖神在我們身上的各種作用。這些作用的程序是這樣的：首先使人靈本身正當，第二是針對人周邊者，第三是針對低於人的東西。\n靈魂本身正當，是說它對善和惡有正確的態度。人心對善之正確態度在於愛；因為按前面第二十七題第四節、第二十八題第六節釋疑2.、第四十一題第二節釋疑1.所說的，愛是第一個情感和一切情感的根子。故此，果實中的第一個是「仁愛」(caritas)；在仁愛中最能表顯聖神，因為祂就是愛。故此《羅馬書》第五章5節說：「天主的愛，藉著所賜予我們的聖神，己傾注在我們心中了。」在仁愛之後，自然就有「喜樂」。凡愛者皆因與所愛者結合而喜樂。仁愛常有其所愛之天主在面前；就如《若望壹書》第四章16節所說的：「那存留在愛內的，就存留在天主內，天主也存留在他內。」故此，喜樂隨在仁愛之後。完美的喜樂，就是平安或「和平」。和平有兩層。第一層是不受外來之驚擾。人在享受其所愛之善時，若受到擾亂，便不能盡情享受；再者，一人對某物感到絕對滿足時，便無心他顧，不把別的東西放在眼裡。故此，《聖詠》第——九篇165節說：「愛慕你法律的必飽享平安，沒有一點失足跌倒的危險」，因為沒有外物妨礙他們享受天主。第二層是浮動願望之滿足。一人所以為樂者若不足實，快樂就不圓滿。所以和平包括兩點：即不受外物煩擾，並且一個東西能使我們的願望得到滿足。故此，在仁愛與喜樂之後，和平列為第三。心靈對惡的正當關係包括兩點：第一，不因臨身之惡而心亂，這屬於「忍耐」；第二，不因所望之善遲遲不來而心亂，這屬於「恆心或堅忍」(longanimitas)。因為按《倫理學》卷五第三章所說的：「善之缺欠具有惡的意義」。\n對人之周邊者，即對他人，人心靈之正當態度，第一是行善之意志——這屬於「良善」(bonitas)。其次是善行之實施——這屬於「慈祥」(benignitas)；因為所謂慈祥者，即愛情之善火(bonus ignis)使之熱心行善者。第三是平心靜氣承受他人所加之惡——這屬於「溫和」(mansuetudo)，它控制忿怒。第四，我們不只不因忿怒而加害他人，也不用欺騙或詭計——這屬於「信德」(fides)，即「忠信」。若「信德」是指對天主的信仰，則是針對高於人者之關係：這使人將自己的心思及一切皆歸屬於天主。\n關於低於人者，第一是外在的行為正當，這靠「柔和」(modestia)，它使人在言行上皆有分寸。關於內心的情慾，是靠「節制」(continentia)和「貞潔」(castitas)：無論二者之區別是在於貞潔使人避免非禮者，節制也避免合法者；或在於節制者雖有慾情而不為所惑，貞潔者則既沒有慾情，也不為慾情所惑。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "呆子",
+          "after": "果子",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "cari-tas",
+          "after": "caritas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已傾注",
+          "after": "己傾注",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第四章的節",
+          "after": "第四章16節",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「和平」 0",
+          "after": "「和平」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "外來乏",
+          "after": "外來之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一4九篇",
+          "after": "第一一九篇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "危險」'",
+          "after": "危險」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Ionganimitas",
+          "after": "longanimitas",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 5,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "遺屬於",
+          "after": "這屬於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "「忠信」 0",
+          "after": "「忠信」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "正齒",
+          "after": "正當",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "modcstia",
+          "after": "modestia",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情慾'",
+          "after": "情慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "典潔",
+          "after": "貞潔",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2493
+      ],
+      "before": "成聖要靠一切德性，德性也消除一切罪惡。那裡提的單一果實，是指的共類;但可以分為許多別類，故可以說是許多果實。",
+      "after": "成聖要靠一切德性，德性也消除一切罪惡。那裡提的單一果實，是指的共類；但可以分為許多別類，故可以說是許多果實。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2493
+      ],
+      "before": "百倍，六十倍和三十倍之果實，不是指不同類別之德性行為，而是指同一德性之不同造詣。例如，可以說婚姻內的貞操是三十倍的果實，守節者的貞操是六十倍的果實，童貞者的貞操是百倍的果實。聖賢們也以別的方式，按德性之三級講解福音所說的三樣果實。至於分為三個等級，貝IJ因東西之成就是按開始，中途，和結局來看。",
+      "after": "百倍，六十倍和三十倍之果實，不是指不同類別之德性行為，而是指同一德性之不同造詣。例如，可以說婚姻內的貞操是三十倍的果實，守節者的貞操是六十倍的果實，童貞者的貞操是百倍的果實。聖賢們也以別的方式，按德性之三級講解福音所說的三樣果實。至於分為三個等級，則因東西之成就是按開始，中途，和結局來看。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2493
+      ],
+      "before": "在悲傷的事中不為所動，也具有快樂之意義。此外，就是把忠信看為基礎‘仍有最後及可樂之意義，因為其中含有確實性;是以「註解」(聖經夾旬)上說:「信德(忠信)，即關於不可見者之確實性」。",
+      "after": "在悲傷的事中不為所動，也具有快樂之意義。此外，就是把忠信看為基礎，仍有最後及可樂之意義，因為其中含有確實性；是以「註解」(聖經夾句)上說：「信德(忠信)，即關於不可見者之確實性」。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "基礎‘",
+          "after": "基礎，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "夾旬",
+          "after": "夾句",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2493
+      ],
+      "before": "針對皮之，奧斯定在《迦拉達書釋義》，關於第五章22及23節裡說:「宗徒不是要告訴人有多少」肉軀之私慾行為或聖神的果實，「而是要指出哪類事該避免，哪類事要力行」 0所以果實的數目可以多列，也可以少列。但是一切恩賜和德性之行動，都能宜於歸納於那些果實;因為一切德性和恩賜必然按上述正解某方式規範人心。所以，智慧之行動及其他指向善的恩賜之行動，皆可歸納於仁愛，喜樂，及和平。至於那裡列出這些而不列出別的，是因為所列出者與享受善及克服惡的關係更密切，而這更適合果實之意義。",
+      "after": "針對反之，奧斯定在《迦拉達書釋義》，關於第五章22及23節裡說：「宗徒不是要告訴人有多少」肉軀之私慾行為或聖神的果實，「而是要指出哪類事該避免，哪類事要力行」。所以果實的數目可以多列，也可以少列。但是一切恩賜和德性之行動，都能宜於歸納於那些果實；因為一切德性和恩賜必然按上述正解某方式規範人心。所以，智慧之行動及其他指向善的恩賜之行動，皆可歸納於仁愛，喜樂，及和平。至於那裡列出這些而不列出別的，是因為所列出者與享受善及克服惡的關係更密切，而這更適合果實之意義。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "皮之",
+          "after": "反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力行」 0",
+          "after": "力行」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "聖神之果實是否與肉軀之私慾的作用相反",
+      "after": "聖神之果實是否與肉軀之私慾的作用相反",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "宗徒所列之效果或果實，似乎與其所列之肉軀的私慾，或本性私慾的作為並不相反。因為:",
+      "after": "宗徒所列之效果或果實，似乎與其所列之肉軀的私慾，或本性私慾的作為並不相反。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "相反者是屬於同一共類。但是肉軀私慾之作為不稱為果實。所以聖神的果實與肉軀私慾的作為不相反。",
+      "after": "相反者是屬於同一共類。但是肉軀私慾之作為不稱為果實。所以聖神的果實與肉軀私慾的作為不相反。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "此外，一事只與一事相反。但宗徒所列舉的肉軀私慾之作為，比聖神的果實多。所以，聖神的果實與肉軀私慾的作為不相反。",
+      "after": "此外，一事只與一事相反。但宗徒所列舉的肉軀私慾之作為，比聖神的果實多。所以，聖神的果實與肉軀私慾的作為不相反。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q070.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "此外，在聖神的果實中，前幾個是仁愛，喜樂，和平;這與肉驅私慾之作用中所列舉的不相配，即:淫亂，不潔，放蕩。所以，聖神的果實與肉軀私慾之作為不相反。",
+      "after": "此外，在聖神的果實中，前幾個是仁愛，喜樂，和平；這與肉軀私慾之作用中所列舉的不相配，即：淫亂，不潔，放蕩。所以，聖神的果實與肉軀私慾之作為不相反。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "肉驅",
+          "after": "肉軀",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2494
+      ],
+      "before": "宗徒在那裡說:「本性的私慾相反聖神的引導，聖神的引導相反本性的私愁。」(第17節)",
+      "after": "宗徒在那裡說：「本性的私慾相反聖神的引導，聖神的引導相反本性的私慾。」(第17節)",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "私愁",
+          "after": "私慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2494,
+        2495
+      ],
+      "before": "我解答如下:可以從兩方面去看肉軀私慾的作為，及聖神的果實。一方面是按其一般意義，如此則聖神的果實普遍地與肉軀私慾之作為相反。聖神使人心追求合於理性者，或更好說追求超出理性者;肉軀之嗜慾'即感官性嗜慾，使人追求感官性的善，而這是低於人的。正如在自然界動態中，上升與下降相反;在人的行為中，肉軀私慾之作為也與聖神的果實相反。\n另一方面，可以按每種果實及肉軀私慾作為之個別性質去看。在這方面，不必一個一個地相反;因為前面已經說過，宗徒的用意並不是要列出所有的果實和所有的肉軀私慾之作為。不過奧斯定在《迦拉達書釋義》(關於第五章22及23節),按某配合方式，曾將每種肉軀私慾之作為，與相對之聖神的果實力日以分配。他說:「淫亂是喜好在合法之婚姻以外滿足性慾'這與仁愛相反;仁愛使人的靈魂與天主結合，這也就是真正的貞潔。不潔即是淫亂pff產生的混亂，這與安闊的喜樂相反。崇拜偶像，造成立:t天主之褔音的戰爭，而與和平相反。與仇恨、競爭、嫉妒、忿怒、爭吵及不睦相對立者，有恆心或堅忍，這使人承擔他人的加害。有慈祥以為補救;有良善以忘舊惡。與異端(分黨)相反者是信德或忠信;溫和與妒恨相反;節制與醉酒宴樂相反o 」",
+      "after": "我解答如下：可以從兩方面去看肉軀私慾的作為，及聖神的果實。一方面是按其一般意義，如此則聖神的果實普遍地與肉軀私慾之作為相反。聖神使人心追求合於理性者，或更好說追求超出理性者；肉軀之嗜慾，即感官性嗜慾，使人追求感官性的善，而這是低於人的。正如在自然界動態中，上升與下降相反；在人的行為中，肉軀私慾之作為也與聖神的果實相反。\n另一方面，可以按每種果實及肉軀私慾作為之個別性質去看。在這方面，不必一個一個地相反；因為前面己經說過，宗徒的用意並不是要列出所有的果實和所有的肉軀私慾之作為。不過奧斯定在《迦拉達書釋義》(關於第五章22及23節)，按某配合方式，曾將每種肉軀私慾之作為，與相對之聖神的果實加以分配。他說：「淫亂是喜好在合法之婚姻以外滿足性慾，這與仁愛相反；仁愛使人的靈魂與天主結合，這也就是真正的貞潔。不潔即是淫亂所產生的混亂，這與安閒的喜樂相反。崇拜偶像，造成對天主之福音的戰爭，而與和平相反。與仇恨、競爭、嫉妒、忿怒、爭吵及不睦相對立者，有恆心或堅忍，這使人承擔他人的加害。有慈祥以為補救；有良善以忘舊惡。與異端(分黨)相反者是信德或忠信；溫和與妒恨相反；節制與醉酒宴樂相反。」",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "褔",
+          "after": "福",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "嗜慾'",
+          "after": "嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "節),",
+          "after": "節)，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "力日以",
+          "after": "加以",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "性慾'",
+          "after": "性慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "pff",
+          "after": "所",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "安闊",
+          "after": "安閒",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "造成立:t",
+          "after": "造成對",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "相反o 」",
+          "after": "相反。」",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2495
+      ],
+      "before": "那違反樹之天性而由樹所產生者，不稱為果實，而是一種腐化。因了德性之行動是適合理性的，而惡習之行動是相反理性的;故德性之行動稱為果實，而惡習之行動則否。",
+      "after": "那違反樹之天性而由樹所產生者，不稱為果實，而是一種腐化。因了德性之行動是適合理性的，而惡習之行動是相反理性的；故德性之行動稱為果實，而惡習之行動則否。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2495
+      ],
+      "before": "按狄奧尼修在《神名論》第四章所說的，「善之實現只有一種方式，而惡有許多方式」;故此，一種德性能與多種惡習對立。所以，列舉的肉軀私慾之作為，比聖神的果實多，並不值得奇怪。",
+      "after": "按狄奧尼修在《神名論》第四章所說的，「善之實現只有一種方式，而惡有許多方式」；故此，一種德性能與多種惡習對立。所以，列舉的肉軀私慾之作為，比聖神的果實多，並不值得奇怪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q070.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2495
+      ],
+      "before": "由前面正解所說的，可知質疑3.之解答。",
+      "after": "由前面正解所說的，可知質疑3.之解答。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
