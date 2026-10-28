@@ -3198,6 +3198,21 @@
       "source_defects_flagged": 14,
       "layout_differences_preserved_by_user_instruction": 0,
       "unresolved_source_scan_units": 0
+    },
+    {
+      "id": "I_II-q104",
+      "status": "source_image_review_complete",
+      "author": "element",
+      "report": "I_II-q104.md",
+      "manifest": "I_II-q104.json",
+      "pdf_file_pages": [
+        2939,
+        2946
+      ],
+      "articles": 4,
+      "source_defects_flagged": 7,
+      "layout_differences_preserved_by_user_instruction": 0,
+      "unresolved_source_scan_units": 0
     }
   ],
   "reviewed_question_ids": [
@@ -3422,19 +3437,20 @@
     "I_II.q100",
     "I_II.q101",
     "I_II.q102",
-    "I_II.q103"
+    "I_II.q103",
+    "I_II.q104"
   ],
   "total_catalog_questions": 613,
-  "reviewed_articles": 1139,
+  "reviewed_articles": 1143,
   "total_catalog_articles": 3125,
-  "next_question": "I_II.q104",
+  "next_question": "I_II.q105",
   "other_questions_status": "not yet reviewed in this source-image proofreading pass",
   "general_and_part_prologues": "not yet reviewed in this source-image proofreading pass",
   "missing_source_policy": "Report missing/damaged source pages or absent translation; do not reconstruct from memory or other editions",
   "workflow": {
     "active_phase": "body_proofreading",
     "title_progress": "titles-progress.json",
-    "body_resume_at": "I_II.q104",
+    "body_resume_at": "I_II.q105",
     "resume_body_only_after_all_titles_reviewed": true,
     "all_title_slots_audited_on": "2026-10-23",
     "title_source_gaps": [
@@ -3453,10 +3469,10 @@
       "status": "source_image_review_round_complete_with_documented_source_uncertainty"
     },
     "I_II": {
-      "reviewed_questions": 103,
-      "reviewed_articles": 555,
-      "last_batch": "I_II-q103",
-      "next_question": "I_II.q104",
+      "reviewed_questions": 104,
+      "reviewed_articles": 559,
+      "last_batch": "I_II-q104",
+      "next_question": "I_II.q105",
       "unresolved_source_scan_units": 1,
       "status": "in_progress"
     }
