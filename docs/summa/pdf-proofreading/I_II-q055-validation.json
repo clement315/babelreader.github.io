@@ -1,0 +1,91 @@
+{
+  "batch": "I_II-q055",
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 1440,
+        "rows": 58
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 1440,
+        "count": 15
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 1440
+      },
+      "passed": true
+    },
+    {
+      "name": "Every bilingual row and prologue matches corrected repository data",
+      "detail": {
+        "width": 390,
+        "rows": 58
+      },
+      "passed": true
+    },
+    {
+      "name": "All source flags remain present in displayed text",
+      "detail": {
+        "width": 390,
+        "count": 15
+      },
+      "passed": true
+    },
+    {
+      "name": "Chinese reading mode works",
+      "detail": {
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "detail": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "preview_transport": "Playwright request interception supplies exact local repository files for desktop and mobile rendering; not a published-site check.",
+  "existing_regression_tests": {
+    "passed": true,
+    "tests": 3,
+    "command": "python -m unittest discover -s tests -p test_summa_punctuation.py"
+  },
+  "raw_source_validation": {
+    "keys_structure_non_zh_raw_source_identical": true,
+    "each_field_newline_escape_sequence_identical": true,
+    "protected_zh_tokens": 64,
+    "all_review_units_match_before_after_manifest": true,
+    "complete_report_json_matches_current_reader_bytes": true,
+    "all_units_have_source_page_references": true,
+    "all_source_flags_retained": true,
+    "unbalanced_original_punctuation": [
+      {
+        "id": "I_II.q055.a004.arg4",
+        "pair": "「」",
+        "open": 1,
+        "close": 0,
+        "source_flags": [
+          {
+            "id": "I_II.q055.a004.arg4",
+            "pdf_file_page": 2327,
+            "text": "「使人正直生活，似乎不合適。",
+            "status": "suspected_source_print_error",
+            "action": "【原书疑似印误】原页此处缺右引号，按底本保留不机械闭合。"
+          }
+        ]
+      }
+    ],
+    "reader_sha256": "d902eb8882f5ff01f0c82b86745c974d7eabb2b69bb46e6fe4a93705ddd2fc48"
+  }
+}
