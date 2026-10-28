@@ -1,0 +1,1327 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q078",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "9ef9a61b114f9936a369cb4ca17df0ba7698d0e8",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q078",
+    "title": "論惡意為罪過之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2597,
+      2598,
+      2599,
+      2600,
+      2601,
+      2602,
+      2603,
+      2604
+    ],
+    "printed_pages": [
+      331,
+      338
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 49,
+    "changed_review_units": 38,
+    "checked_unchanged_review_units": 12
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q78.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q78.json": "8f94290b9d1db75610875efb2bc1aa9ec2ec9053b3e93ebeae13169bc6d22c6d"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q078.a001.respondeo",
+      "pdf_file_page": 2598,
+      "text": "己腐化",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a001.ad2",
+      "pdf_file_page": 2598,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a001.ad3",
+      "pdf_file_page": 2599,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a003.arg3",
+      "pdf_file_page": 2601,
+      "text": "己經說過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a003.ad2",
+      "pdf_file_page": 2602,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a003.ad3",
+      "pdf_file_page": 2602,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q078.a002.respondeo",
+      "pdf_file_page": 2600,
+      "text": "能遂行好事",
+      "status": "source_scan_mark_checked",
+      "action": "放大辨认原页作「遂行」，恢复OCR误字。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q078.a003.ad4",
+      "description": "删去释疑末尾误混入的下一节重复标题；第四节现有标题字段保留，结构与换行转义不变。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第71–80题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q078.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "然後要討論的是罪過在意志那方面的原因，即所謂的惡意(參看第七十六題引言)。\n關於這點，可以提出四個問題:\n一、是否有人能由於惡意或故意而犯罪。\n二、由於習性而犯罪者，是否是由於惡意而犯罪。\n三、由於惡意而犯罪者，是否是由於習性而把罪。\n四、由於惡意而犯罪者，其罪是否重於由於情而犯罪者。",
+      "after": "然後要討論的是罪過在意志那方面的原因，即所謂的惡意(參看第七十六題引言)。\n關於這點，可以提出四個問題：\n一、是否有人能由於惡意或故意而犯罪。\n二、由於習性而犯罪者，是否是由於惡意而犯罪。\n三、由於惡意而犯罪者，是否是由於習性而犯罪。\n四、由於惡意而犯罪者，其罪是否重於由於情而犯罪者。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "而把罪",
+          "after": "而犯罪",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "是否有人由於惡意而犯罪",
+      "after": "是否有人由於惡意而犯罪",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "買疑似乎沒有人由於故意或惡意而犯罪。因為:",
+      "after": "似乎沒有人由於故意或惡意而犯罪。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "買疑",
+          "after": "",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "愚昧與(明知)故意或惡意相反。但是哲學家《倫理學》卷三第一章說，「惡人皆是愚昧者」 0《儀言》第十四章22節也說:「陰謀邪惡的人，豈非走入歧途?」所以，沒有人犯罪是出於惡意。",
+      "after": "愚昧與(明知)故意或惡意相反。但是哲學家《倫理學》卷三第一章說，「惡人皆是愚昧者」。《箴言》第十四章22節也說：「陰謀邪惡的人，豈非走入歧途？」所以，沒有人犯罪是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "愚昧者」 0",
+          "after": "愚昧者」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "儀言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "歧途?",
+          "after": "歧途？",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "此外，狄奧尼修在《神名論》第四章說:「無人故意為惡」。故意為惡而犯罪，似乎就是出於惡意:那在意料以外者是偶然的，不決定行為的類別。所以，沒有人犯罪是出於惡意。",
+      "after": "此外，狄奧尼修在《神名論》第四章說：「無人故意為惡」。故意為惡而犯罪，似乎就是出於惡意：那在意料以外者是偶然的，不決定行為的類別。所以，沒有人犯罪是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2597
+      ],
+      "before": "此外，惡意本身即是罪過。如果惡意是罪過之原因，則罪過之原因又是罪過，這樣將推衍到無限;這是不合理的。所以，沒有人犯罪是出於惡意。",
+      "after": "此外，惡意本身即是罪過。如果惡意是罪過之原因，則罪過之原因又是罪過，這樣將推衍到無限；這是不合理的。所以，沒有人犯罪是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2597,
+        2598
+      ],
+      "before": "《約伯傳》第三十四章27節卻說:「他們故意離開了天主，不願意理解祂的道。」但離開天主是罪過。所以，有人故意或出於惡意犯罪。",
+      "after": "《約伯傳》第三十四章27節卻說：「他們故意離開了天主，不願意理解祂的道。」但離開天主是罪過。所以，有人故意或出於惡意犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2598
+      ],
+      "before": "我解答如f:人與其他東西一樣，自然是欲求蓄的。人的嗜慾之轉向惡，是﹒由於在他內的根本，有的己腐化或錯亂，就連自然物也有類似的罪或反常現象。人性行動的根本是智性和嗜慾，即是稱為意志的理性嗜慾'和感官嗜慾。所以，人性行動中的罪過有時是出於智性上的毛病，例如:因愚昧而犯罪;有時是由於感官嗜慾t的毛病，例如:因情而犯罪;有時也由於意志的毛病而犯罪，此毛病即是意志的不正當或錯亂。\n所謂意志不正當，即是更愛較次的善;人為了不失去其所更愛的善，而寧願犧牲比較不愛的善;就如人為了保全他所更愛的生命，寧願故意割去某一肢體。故此，一個不正當的意志，若愛什麼現世的善，如:錢財或逸樂，甚於愛理性之規範，或天主法律立規範，或愛天主，貝IJ將為獲得現世之善而犧牲神性方面的善。惡無非就是善之缺欠或剝奪。如此則是一人為了獲得現世的善，而故意願意神性的惡;而神性的惡是絕對的惡，是神性之善的剝奪。因此，說他是出於惡意或故意而犯罪，有如他是明知而故意地選取了惡。",
+      "after": "我解答如下：人與其他東西一樣，自然是欲求善的。人的嗜慾之轉向惡，是由於在他內的根本，有的己腐化或錯亂，就連自然物也有類似的罪或反常現象。人性行動的根本是智性和嗜慾，即是稱為意志的理性嗜慾，和感官嗜慾。所以，人性行動中的罪過有時是出於智性上的毛病，例如：因愚昧而犯罪；有時是由於感官嗜慾上的毛病，例如：因情而犯罪；有時也由於意志的毛病而犯罪，此毛病即是意志的不正當或錯亂。\n所謂意志不正當，即是更愛較次的善；人為了不失去其所更愛的善，而寧願犧牲比較不愛的善；就如人為了保全他所更愛的生命，寧願故意割去某一肢體。故此，一個不正當的意志，若愛什麼現世的善，如：錢財或逸樂，甚於愛理性之規範，或天主法律之規範，或愛天主，則將為獲得現世之善而犧牲神性方面的善。惡無非就是善之缺欠或剝奪。如此則是一人為了獲得現世的善，而故意願意神性的惡；而神性的惡是絕對的惡，是神性之善的剝奪。因此，說他是出於惡意或故意而犯罪，有如他是明知而故意地選取了惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "如f",
+          "after": "如下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "欲求蓄",
+          "after": "欲求善",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "是﹒由於",
+          "after": "是由於",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "理性嗜慾'",
+          "after": "理性嗜慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官嗜慾t的",
+          "after": "感官嗜慾上的",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "法律立規範",
+          "after": "法律之規範",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2598
+      ],
+      "before": "由於愚昧，有時人根本不知道他做的是惡事，這時稱為出於愚昧的罪;有時人不知道此時此地這事是惡事，就如由於情而犯罪時;有時人知道某事是惡事，但不知道不可以為了獲得某善而容許這惡事，這就是由於惡意而犯罪者的愚昧。",
+      "after": "由於愚昧，有時人根本不知道他做的是惡事，這時稱為出於愚昧的罪；有時人不知道此時此地這事是惡事，就如由於情而犯罪時；有時人知道某事是惡事，但不知道不可以為了獲得某善而容許這惡事，這就是由於惡意而犯罪者的愚昧。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2598,
+        2599
+      ],
+      "before": "人固然不能直接願意惡;但是如正解巳說過的，他能為了逃避別的惡或追求別的善而願意惡。在這些情形下，人本來希望能獲得所求之善且不妨害別的善，例如:好淫的人希望享樂又不得罪天主;在不能兩全的情形下，他寧願犯罪得罪天主，而不願放棄享樂。",
+      "after": "人固然不能直接願意惡；但是如正解己說過的，他能為了逃避別的惡或追求別的善而願意惡。在這些情形下，人本來希望能獲得所求之善且不妨害別的善，例如：好淫的人希望享樂又不得罪天主；在不能兩全的情形下，他寧願犯罪得罪天主，而不願放棄享樂。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "巳說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "所謂人之犯罪的「惡意」(malitia)可以指習性上的惡意。哲學家《倫理學》卷二第五章即將惡的習性稱為「惡意」(惡性)，與好的習性所謂的德性相對。按這意義，則說一人犯罪是出於惡意(憩性)，乃指是出於習性上的傾向;也可以指現實的惡意;或是指對惡之選取:這時所謂出於惡意而犯罪，是指由於選取惡而犯罪。惡意也能指以前的罪惡，從而產生了另一罪過，例如:一人因了嫉妒而攻擊他人的長處。這時並非是同一事是其自身之原因，乃是內心之行動為外面之行動的原因。一個罪也能是另一個罪的原因，而不必推演到無限;如前面第七十五題第四節釋疑3.己說過的，可以推到不是來自別的罪過的第一個罪過。",
+      "after": "所謂人之犯罪的「惡意」(malitia)可以指習性上的惡意。哲學家《倫理學》卷二第五章即將惡的習性稱為「惡意」(惡性)，與好的習性所謂的德性相對。按這意義，則說一人犯罪是出於惡意(惡性)，乃指是出於習性上的傾向；也可以指現實的惡意；或是指對惡之選取：這時所謂出於惡意而犯罪，是指由於選取惡而犯罪。惡意也能指以前的罪惡，從而產生了另一罪過，例如：一人因了嫉妒而攻擊他人的長處。這時並非是同一事是其自身之原因，乃是內心之行動為外面之行動的原因。一個罪也能是另一個罪的原因，而不必推演到無限；如前面第七十五題第四節釋疑3.己說過的，可以推到不是來自別的罪過的第一個罪過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "憩性",
+          "after": "惡性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "由於習性而犯罪者，是否是由於惡意而犯罪",
+      "after": "由於習性而犯罪者，是否是由於惡意而犯罪",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "由於習性而犯罪者，似乎不都是出於惡意。因為:",
+      "after": "由於習性而犯罪者，似乎不都是出於惡意。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "出於惡意的罪過，似乎是非常嚴重的。但有時人犯輕罪是出於習性，例如:說無用的話。所以，因習性而犯罪不常是出於惡意。",
+      "after": "出於惡意的罪過，似乎是非常嚴重的。但有時人犯輕罪是出於習性，例如：說無用的話。所以，因習性而犯罪不常是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "此外，《倫理學》卷二第二章裡說: 「由習性而來之行動，與造成習性之行動是類似的。」但是在惡習形成以前的行動，不是出於惡意。所以由習性而來的罪過，也不是出於惡意。",
+      "after": "此外，《倫理學》卷二第二章裡說：「由習性而來之行動，與造成習性之行動是類似的。」但是在惡習形成以前的行動，不是出於惡意。所以由習性而來的罪過，也不是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2599
+      ],
+      "before": "此外，一人犯罪若是出於惡意，犯罪後會感到高興，就如《燒言》第二章14節所說的: 「喜愛行惡，在邪惡中喜樂的人。」這是因為任何人得到了其所求的，及做合於其習性而近乎自然的事，會感到快樂。但是那些因習性而犯罪的人，犯罪後感到難過，因為《倫理學》卷九第四章說: 「壞人(即有惡習的人)，滿懷悔意」。所以，自習性而犯的罪，不是出於惡意。",
+      "after": "此外，一人犯罪若是出於惡意，犯罪後會感到高興，就如《箴言》第二章14節所說的：「喜愛行惡，在邪惡中喜樂的人。」這是因為任何人得到了其所求的，及做合於其習性而近乎自然的事，會感到快樂。但是那些因習性而犯罪的人，犯罪後感到難過，因為《倫理學》卷九第四章說：「壞人(即有惡習的人)，滿懷悔意」。所以，由習性而犯的罪，不是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "燒言",
+          "after": "箴言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "自習性",
+          "after": "由習性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2600
+      ],
+      "before": "出於惡意的罪過，是指出於對惡之選取的罪過。但是每人之習性所趨曏者，則認為是值得選取的一一這是《倫理學》卷六第二章講論好的習性時所說的。所以，出於習性的罪過，是出於惡意。",
+      "after": "出於惡意的罪過，是指出於對惡之選取的罪過。但是每人之習性所趨向者，則認為是值得選取的——這是《倫理學》卷六第二章講論好的習性時所說的。所以，出於習性的罪過，是出於惡意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "趨曏",
+          "after": "趨向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2600
+      ],
+      "before": "我解答如下:有習性者犯罪，與由於習性而犯罪，不是同一回事。有習性不一定要運用，用與不用在於人的意志;故此，習性之定義為「人所運用自如者」(奧斯定，(《論婚姻的價值》第二十一章)。所以，有時候一個有惡習的人能邊行好事，因為理性不是整個被惡習所腐化，仍然留有未腐化的部分，因而罪人能做些善事;同樣，一個有惡習的人，其行動有時不是出於惡習，而是出於一時的情動，或是由於愚昧。但每次運用惡習時，必定是由於惡意而犯罪。因為凡具有習性者，都覺得合於其習性的事物可喜;因為習性和習慣變成了第二天性後，就覺得那事物白然。適合於惡習的，就是排斥神性的善;因而人為了獲得適合於其惡習的善，就選取神性的惡。這就是由於惡意而犯罪。可見誰若由於習性而犯罪，就是出於惡意而犯罪。",
+      "after": "我解答如下：有習性者犯罪，與由於習性而犯罪，不是同一回事。有習性不一定要運用，用與不用在於人的意志；故此，習性之定義為「人所運用自如者」(奧斯定，《論婚姻的價值》第二十一章)。所以，有時候一個有惡習的人能遂行好事，因為理性不是整個被惡習所腐化，仍然留有未腐化的部分，因而罪人能做些善事；同樣，一個有惡習的人，其行動有時不是出於惡習，而是出於一時的情動，或是由於愚昧。但每次運用惡習時，必定是由於惡意而犯罪。因為凡具有習性者，都覺得合於其習性的事物可喜；因為習性和習慣變成了第二天性後，就覺得那事物自然。適合於惡習的，就是排斥神性的善；因而人為了獲得適合於其惡習的善，就選取神性的惡。這就是由於惡意而犯罪。可見誰若由於習性而犯罪，就是出於惡意而犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "奧斯定，(《",
+          "after": "奧斯定，《",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "能邊行",
+          "after": "能遂行",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "白然",
+          "after": "自然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2600
+      ],
+      "before": "小罪不排斥神性的善，即天主的恩寵或愛德，所以不是絕對的惡，而是相對的。因此，這類的惡習也不是絕對的惡，而是相對的。",
+      "after": "小罪不排斥神性的善，即天主的恩寵或愛德，所以不是絕對的惡，而是相對的。因此，這類的惡習也不是絕對的惡，而是相對的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2600
+      ],
+      "before": "由習性而來之行動，與產生習性之行動，在類別上相似;但是彼此之差別，為一是完整的，一是不完整的。而這正是出於惡意之罪，與出於情之罪的差別。",
+      "after": "由習性而來之行動，與產生習性之行動，在類別上相似；但是彼此之差別，為一是完整的，一是不完整的。而這正是出於惡意之罪，與出於情之罪的差別。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2600,
+        2601
+      ],
+      "before": "由於習性而犯罪者，在運用習性時，常以其由習性而行的事為樂。但是由於他能夠不運用習性，而以其未完全腐化之理性想到別的，故l~t不運用習性時，能後悔他因習性而犯的罪。不過一般說來，這些人後悔不是因為不喜歡罪過本身，而是因了罪過帶來的不利。",
+      "after": "由於習性而犯罪者，在運用習性時，常以其由習性而行的事為樂。但是由於他能夠不運用習性，而以其未完全腐化之理性想到別的，故此不運用習性時，能後悔他因習性而犯的罪。不過一般說來，這些人後悔不是因為不喜歡罪過本身，而是因了罪過帶來的不利。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "故l~t",
+          "after": "故此",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "由於惡意而犯罪者，是否是由於習性而犯罪",
+      "after": "由於惡意而犯罪者，是否是由於習性而犯罪",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "由於惡意而犯罪者，似乎皆是由於習性而犯罪。因為:",
+      "after": "由於惡意而犯罪者，似乎皆是由於習性而犯罪。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "哲學家在《倫理學》卷五第六章說，並非每人行不義之事，皆像不義的人那樣，即由於選擇;只有那具有習性者才那樣。但是按前面第一節所說的，由於惡意而犯罪，就是由於選取惡而犯罪。所以，只有那有習性者，是由於惡意而犯罪。",
+      "after": "哲學家在《倫理學》卷五第六章說，並非每人行不義之事，皆像不義的人那樣，即由於選擇；只有那具有習性者才那樣。但是按前面第一節所說的，由於惡意而犯罪，就是由於選取惡而犯罪。所以，只有那有習性者，是由於惡意而犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "此外，奧利振在《原則論》卷一第三章說:「一個人不是一下就變為虛弱無力的，而必然是一點一點地。」但是最嚴重的虛弱是在人因惡意而犯罪的時候。所以，人不是從開始就因惡意而犯罪，而是在經過很久，養成了習慣的時候。",
+      "after": "此外，奧利振在《原則論》卷一第三章說：「一個人不是一下就變為虛弱無力的，而必然是一點一點地。」但是最嚴重的虛弱是在人因惡意而犯罪的時候。所以，人不是從開始就因惡意而犯罪，而是在經過很久，養成了習慣的時候。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "此外，人若是由於惡意而犯罪，一定是意志本身傾向於其所選之惡。但是人按其機能之天性不傾向於惠，而傾向於善。如果他選取惡，買IJ該是出於後天的情動或習性。但人因情動而犯罪時，不是出於惡意，而是出於軟弱，這在前面第七十七題第三節已經說過。所以，人出於惡意而犯罪峙，該是出於習性。",
+      "after": "此外，人若是由於惡意而犯罪，一定是意志本身傾向於其所選之惡。但是人按其機能之天性不傾向於惡，而傾向於善。如果他選取惡，則該是出於後天的情動或習性。但人因情動而犯罪時，不是出於惡意，而是出於軟弱，這在前面第七十七題第三節己經說過。所以，人出於惡意而犯罪時，該是出於習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "傾向於惠",
+          "after": "傾向於惡",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "買IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "犯罪峙",
+          "after": "犯罪時",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2601
+      ],
+      "before": "好的習性對選取善之關係'與惡的習性對選取惡的關係一樣。但是，沒有德性之習性的人，有時選取合於德性的善。所以，沒有惡習的人，有時也能選取惡，而這就是由於惡意而犯罪。",
+      "after": "好的習性對選取善之關係，與惡的習性對選取惡的關係一樣。但是，沒有德性之習性的人，有時選取合於德性的善。所以，沒有惡習的人，有時也能選取惡，而這就是由於惡意而犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "關係'",
+          "after": "關係，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2601,
+        2602
+      ],
+      "before": "我解答如下:意志對善的關係與對惡的關係不同。意志按其機能之天性，傾向於理性之善，有如傾向於其固有對象，故此說:罪過皆是違反天性的。意志在選擇時傾向於惡，該是由於外來的原因。有時是出於理性方面的缺點，例如:在人因了愚昧而犯罪時;有時是由於感官嗜慾的衝動，例如:在人因了情動而犯罪時。但這兩種都不是由於惡意而犯罪，只有意志本身自動趨向惡時，人才是出於惡意而犯罪。這有兩種方式。一種方式是因為人有某種腐化的傾向使之向惡，以致順此傾向而感覺某惡是適合及相似於人的;因此適合之故，意志遂視之為善而追求，因為每個東西皆追求適合於自己的東西。這種腐化的情態，或是由習慣形成的習性，變成了第二天性;或是身體方面的病態，就如有人因了身體上的腐化自然傾向犯某些罪。另一方式，是由於撤除了阻力，意志才直接追求惡。例如，一人原來不犯罪，不是因為憎惡罪，而是由於希望永生或者↑自下地獄;一旦陷入失望，或由於妄望而失去了畏懼之情，結果就像失去了約束，惡意地去犯罪。\n由此可見，出於惡意的罪，常假定人內有點失當，但這不一定常是習性。所以，出於惡意而犯罪者，不一定皆是出於習性而犯罪。",
+      "after": "我解答如下：意志對善的關係與對惡的關係不同。意志按其機能之天性，傾向於理性之善，有如傾向於其固有對象，故此說：罪過皆是違反天性的。意志在選擇時傾向於惡，該是由於外來的原因。有時是出於理性方面的缺點，例如：在人因了愚昧而犯罪時；有時是由於感官嗜慾的衝動，例如：在人因了情動而犯罪時。但這兩種都不是由於惡意而犯罪，只有意志本身自動趨向惡時，人才是出於惡意而犯罪。這有兩種方式。一種方式是因為人有某種腐化的傾向使之向惡，以致順此傾向而感覺某惡是適合及相似於人的；因此適合之故，意志遂視之為善而追求，因為每個東西皆追求適合於自己的東西。這種腐化的情態，或是由習慣形成的習性，變成了第二天性；或是身體方面的病態，就如有人因了身體上的腐化自然傾向犯某些罪。另一方式，是由於撤除了阻力，意志才直接追求惡。例如，一人原來不犯罪，不是因為憎惡罪，而是由於希望永生或者怕下地獄；一旦陷入失望，或由於妄望而失去了畏懼之情，結果就像失去了約束，惡意地去犯罪。\n由此可見，出於惡意的罪，常假定人內有點失當，但這不一定常是習性。所以，出於惡意而犯罪者，不一定皆是出於習性而犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "↑自下",
+          "after": "怕下",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2602
+      ],
+      "before": "像不義的人那樣行事，不只指出於惡意行車，而且還指高興那樣做，理性不太加以阻止。只有那些有了習性的人方能如此。",
+      "after": "像不義的人那樣行事，不只指出於惡意行事，而且還指高興那樣做，理性不太加以阻止。只有那些有了習性的人方能如此。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行車",
+          "after": "行事",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2602
+      ],
+      "before": "人不是突然便惡意地去犯罪，常是先有過什麼事;但是按正解已說過的，這不一定就是習性。",
+      "after": "人不是突然便惡意地去犯罪，常是先有過什麼事；但是按正解己說過的，這不一定就是習性。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "已說",
+          "after": "己說",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2602
+      ],
+      "before": "按正解己說過的，f吏意志傾向於惡的，不只有習性或情，還有別的東西。",
+      "after": "按正解己說過的，使意志傾向於惡的，不只有習性或情，還有別的東西。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "f吏",
+          "after": "使",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a003.ad4",
+      "article": 3,
+      "block": "释疑4",
+      "pdf_file_pages": [
+        2602
+      ],
+      "before": "(答皮之)對善之選取與對惡之選取，二者情形不同。惡常帶有天性的善，善卻能是完全沒罪惡。、第四節由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+      "after": "(答反之)對善之選取與對惡之選取，二者情形不同。惡常帶有天性的善，善卻能是完全沒罪惡。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "答皮之",
+          "after": "答反之",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "罪惡。、第四節由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+          "after": "罪惡。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+      "after": "由於惡意而犯罪者，其罪是否重於由於情而犯罪者",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "由於惡意而犯罪者，其罪似乎並不重於由於情而犯罪者。因為:",
+      "after": "由於惡意而犯罪者，其罪似乎並不重於由於情而犯罪者。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "愚昧全面或局部地脫除罪過。但那由於惡意而犯罪者，比那由於情而犯罪者更為愚昧。因為由於惡意而犯罪者，具有對於恨本之愚眛;而按哲學家在《倫理學》卷七第八章所說的，這是最大的愚昧。因為這樣的人是對目的之觀念不正確，而目的在行為方面是根本。所以，由於惡意而犯罪者，比由於情而犯罪者，更值得原諒。",
+      "after": "愚昧全面或局部地脫除罪過。但那由於惡意而犯罪者，比那由於情而犯罪者更為愚昧。因為由於惡意而犯罪者，具有對於根本之愚昧；而按哲學家在《倫理學》卷七第八章所說的，這是最大的愚昧。因為這樣的人是對目的之觀念不正確，而目的在行為方面是根本。所以，由於惡意而犯罪者，比由於情而犯罪者，更值得原諒。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "恨本",
+          "after": "根本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "愚眛",
+          "after": "愚昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "此外，人犯罪時所受的衝動力愈大，罪過愈輕，例如:人由於情之猛烈衝動而犯罪時。但因惡意而犯罪者，是受習性之衝動力，這比情之衝動力強。所以，由於習性而犯罪者，其罪輕於由於情而犯罪者。",
+      "after": "此外，人犯罪時所受的衝動力愈大，罪過愈輕，例如：人由於情之猛烈衝動而犯罪時。但因惡意而犯罪者，是受習性之衝動力，這比情之衝動力強。所以，由於習性而犯罪者，其罪輕於由於情而犯罪者。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "此外，由於惡意而犯罪，是由於選取惡而犯罪。但由於情而犯罪者，也是選取惡。所以，其罪並不輕於由於惡意而犯罪者。",
+      "after": "此外，由於惡意而犯罪，是由於選取惡而犯罪。但由於情而犯罪者，也是選取惡。所以，其罪並不輕於由於惡意而犯罪者。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2603
+      ],
+      "before": "按《約伯{專》第三卡四章26至27節所說的，故意犯的罪，應受較重的處罰:「在眾目昭彰之下，鞭打他們有如罪犯;因為他們故意遠離了祂。」但是加重處罰只是因了罪過較重。所以，故意或惡意加重罪過。",
+      "after": "按《約伯傳》第三十四章26至27節所說的，故意犯的罪，應受較重的處罰：「在眾目昭彰之下，鞭打他們有如罪犯；因為他們故意遠離了祂。」但是加重處罰只是因了罪過較重。所以，故意或惡意加重罪過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "約伯{專",
+          "after": "約伯傳",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第三卡四",
+          "after": "第三十四",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2603,
+        2604
+      ],
+      "before": "我解答如下:出於惡意的罪過，比出於情的罪過嚴重;這有三個理由。第一個理由，罪過既然主要在於意志，罪過之行動愈是屬於意志的，罪過愈嚴重，如果別的條件相等。出於惡意的罪行，行動比較吏本然地屬於意志，是意志自動趨向惡;而出於惰的罪行，好似是出自外來的衝動。所以，出於惡意的罪過比較嚴重;而且惡意愈強，罪過愈重。如是出於情的，貝IJ減輕罪過;而且情愈強，罪過愈輕。\n第二個理由，促使意志犯罪的惰，很快就過去;因此人能很快恢復善志，悔改前非。但是使人以惡意犯罪的習性是持久的;故此，以惡意犯罪的，犯罪的時期較長。因此哲學家在《倫理學》卷七第八章，將由於惡意而犯罪的放縱者，比喻為長期患病的人;而將由於情而犯罪的不能自制者，比作偶而生病的人。\n第三個理由，因惡意而犯罪的人，是對目的之態度不正當，而目的在行為上是根本;所以這種缺點比那因情犯罪的人之缺點危險。後者的意志是向善的，只是偶然因了情而暫時中斷其志向。根本上的缺點常是最壞的。由此可見，出於惡意的罪過，比出於情的罪過更嚴重。",
+      "after": "我解答如下：出於惡意的罪過，比出於情的罪過嚴重；這有三個理由。第一個理由，罪過既然主要在於意志，罪過之行動愈是屬於意志的，罪過愈嚴重，如果別的條件相等。出於惡意的罪行，行動比較更本然地屬於意志，是意志自動趨向惡；而出於情的罪行，好似是出自外來的衝動。所以，出於惡意的罪過比較嚴重；而且惡意愈強，罪過愈重。如是出於情的，則減輕罪過；而且情愈強，罪過愈輕。\n第二個理由，促使意志犯罪的情，很快就過去；因此人能很快恢復善志，悔改前非。但是使人以惡意犯罪的習性是持久的；故此，以惡意犯罪的，犯罪的時期較長。因此哲學家在《倫理學》卷七第八章，將由於惡意而犯罪的放縱者，比喻為長期患病的人；而將由於情而犯罪的不能自制者，比作偶爾生病的人。\n第三個理由，因惡意而犯罪的人，是對目的之態度不正當，而目的在行為上是根本；所以這種缺點比那因情犯罪的人之缺點危險。後者的意志是向善的，只是偶然因了情而暫時中斷其志向。根本上的缺點常是最壞的。由此可見，出於惡意的罪過，比出於情的罪過更嚴重。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "比較吏本然",
+          "after": "比較更本然",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "惰",
+          "after": "情",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "偶而",
+          "after": "偶爾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2604
+      ],
+      "before": "按前面第七十六題第三及第四節所說的，關於選擇的愚昧，並不脫除或減輕罪過。所舉之質疑根據的便是這種愚昧。所以，加重這種愚昧並不使罪過變小。",
+      "after": "按前面第七十六題第三及第四節所說的，關於選擇的愚昧，並不脫除或減輕罪過。所舉之質疑根據的便是這種愚昧。所以，加重這種愚昧並不使罪過變小。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q078.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2604
+      ],
+      "before": "針對意志而言，由情而來之衝力有如外來的;但習性卻是從內部推動意志，所以兩種情形不同。",
+      "after": "針對意志而言，由情而來之衝力有如外來的；但習性卻是從內部推動意志，所以兩種情形不同。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q078.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2604
+      ],
+      "before": "由於選擇而犯罪，與帶有選擇地犯罪，是兩回事。由於情而犯罪的人，固然有選擇，但不是由於選擇，因為他的選擇不是罪過的第一個動因，而是情使他選取那沒有情便不會選取的。而出於惡意的罪，按前面第一節所解釋的，是直接地選取惡。所以他的選擇是罪過之根本，故此說是出於選擇的罪過。",
+      "after": "由於選擇而犯罪，與帶有選擇地犯罪，是兩回事。由於情而犯罪的人，固然有選擇，但不是由於選擇，因為他的選擇不是罪過的第一個動因，而是情使他選取那沒有情便不會選取的。而出於惡意的罪，按前面第一節所解釋的，是直接地選取惡。所以他的選擇是罪過之根本，故此說是出於選擇的罪過。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
