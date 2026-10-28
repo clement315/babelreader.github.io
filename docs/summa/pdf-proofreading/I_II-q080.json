@@ -1,0 +1,1313 @@
+{
+  "schema_version": 1,
+  "batch": "I_II-q080",
+  "date": "2026-10-28",
+  "author": "element",
+  "baseline_git_commit": "9ef9a61b114f9936a369cb4ca17df0ba7698d0e8",
+  "source": {
+    "path": "E:/summa theologiae/Summa theologiae.pdf",
+    "sha256": "2dd7d65d9f9e7ed619de298b27d0ee6dfe8aeecd51d876b63164414c485aa3e6",
+    "page_count": 8405,
+    "authority": "Rendered original page images; OCR layer used only for finding pages, never as the final reading"
+  },
+  "coverage": {
+    "question": "I_II.q080",
+    "title": "論魔鬼方面的罪過之原因",
+    "articles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "pdf_file_pages": [
+      2614,
+      2615,
+      2616,
+      2617,
+      2618,
+      2619,
+      2620,
+      2621
+    ],
+    "printed_pages": [
+      348,
+      355
+    ],
+    "question_title_checked_unchanged": true,
+    "all_rows_reviewed": true,
+    "unresolved_source_scan_units": 0,
+    "rows_including_headings": 48,
+    "changed_review_units": 36,
+    "checked_unchanged_review_units": 13
+  },
+  "protection": {
+    "changed_existing_reader_files": [
+      "data/summa/I_II/q80.json"
+    ],
+    "only_zh_string_tokens_changed": true,
+    "json_keys_structure_order_preserved": true,
+    "newline_escape_sequences_preserved": true,
+    "non_zh_raw_source_sha256": {
+      "data/summa/I_II/q80.json": "dff391f4af56f0f66fa150d0aadd7672a720a44a37c848c2f1848c010109cbec"
+    }
+  },
+  "suspected_print_errors": [
+    {
+      "id": "I_II.q080.a001.respondeo",
+      "pdf_file_page": 2615,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q080.a002.respondeo",
+      "pdf_file_page": 2617,
+      "text": "己經講過",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q080.a002.ad2",
+      "pdf_file_page": 2618,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q080.a004.ad1",
+      "pdf_file_page": 2621,
+      "text": "己說過的",
+      "status": "suspected_source_print_error",
+      "action": "原页「己」疑为「已」，依底本保留。"
+    },
+    {
+      "id": "I_II.q080.a001.arg2",
+      "pdf_file_page": 2614,
+      "text": "Iovinion",
+      "status": "suspected_source_print_error",
+      "action": "原页拉丁书名确作Iovinion，保留原书，不按其他版本替换。"
+    },
+    {
+      "id": "I_II.q080.a004.sed_contra",
+      "pdf_file_page": 2620,
+      "text": "Gennandius",
+      "status": "suspected_source_print_error",
+      "action": "原页人名拼写如此，按底本保留。"
+    }
+  ],
+  "layout_differences_preserved_by_user_instruction": [
+    {
+      "id": "I_II.q080.a002.respondeo",
+      "description": "原页三条释疑误并入正解，归回已有ad1、ad2、ad3空字段；原正解多余换行保留于字段末尾，键名、结构、各字段换行转义均不变。"
+    }
+  ],
+  "notes": [
+    "全部8页、4节原页逐页对齐。本批属于用户指定第二部第一集第71–80题工作，全部完成前不将部分进度当作本项完成。",
+    "署名element；仅本地保存，本批未上传GitHub或网站。"
+  ],
+  "readings": [
+    {
+      "id": "I_II.q080.prologue",
+      "article": 0,
+      "block": "题引言",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "然後要討論的是罪過在魔鬼那方面的原因(參看第七十九題言)。\n關於這點，可以提出四個問題:\n一、魔鬼是否直接為罪過之原因。\n二、魔鬼是否在內部誘惡人犯罪。\n三、魔鬼是否能強迫人犯罪。\n四、是否所有的罪過皆來自魔鬼的挑動。",
+      "after": "然後要討論的是罪過在魔鬼那方面的原因(參看第七十九題引言)。\n關於這點，可以提出四個問題：\n一、魔鬼是否直接為罪過之原因。\n二、魔鬼是否在內部誘惡人犯罪。\n三、魔鬼是否能強迫人犯罪。\n四、是否所有的罪過皆來自魔鬼的挑動。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第七十九題言",
+          "after": "第七十九題引言",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.heading",
+      "article": 1,
+      "block": "节号",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "第一節",
+      "after": "第一節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a001.title",
+      "article": 1,
+      "block": "标题",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "魔鬼是否直接為人犯罪的原因",
+      "after": "魔鬼是否直接為人犯罪的原因",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a001.intro",
+      "article": 1,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "有關第一節，我們討論如下:",
+      "after": "有關第一節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.objection-intro",
+      "article": 1,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "魔鬼似乎直接是人犯罪的原因。因為:",
+      "after": "魔鬼似乎直接是人犯罪的原因。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.arg1",
+      "article": 1,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "罪過直接地在於心情。但是奧斯定在《論天主聖三》卷四第十二章說:「魔鬼使聽從他的人心懷惡意」。伯達在《宗徒大事錄註解》第五章說:「魔鬼使靈魂沉緬於惡意」。依希道在《論至善》卷二第四十一章，卷三第五章也說:「魔鬼使人心充滿隱密的貪念」。所以，魔鬼直接是罪過之原因。",
+      "after": "罪過直接地在於心情。但是奧斯定在《論天主聖三》卷四第十二章說：「魔鬼使聽從他的人心懷惡意」。伯達在《宗徒大事錄註解》第五章說：「魔鬼使靈魂沉湎於惡意」。依希道在《論至善》卷二第四十一章，卷三第五章也說：「魔鬼使人心充滿隱密的貪念」。所以，魔鬼直接是罪過之原因。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "沉緬",
+          "after": "沉湎",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.arg2",
+      "article": 1,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2614
+      ],
+      "before": "此外，熱羅尼莫《駁姚微念書》(Contra Iovinion)卷二第三章說:「正如天主是成全善的，魔鬼則是成全惡的。」但天主直接是我們之善的原因。所以，魔鬼也直接地是我們之罪過的原因。",
+      "after": "此外，熱羅尼莫《駁姚微念書》(Contra Iovinion)卷二第三章說：「正如天主是成全善的，魔鬼則是成全惡的。」但天主直接是我們之善的原因。所以，魔鬼也直接地是我們之罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.arg3",
+      "article": 1,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2614,
+        2615
+      ],
+      "before": "此外，哲學家在《幸福倫理學》卷七第十四章證明，人考慮時須有外在之根本。但人不只考慮善事，也考慮惡事。所以正如天主助人考慮善事，故此直接是善之原因;魔鬼助人考慮為惡，所以直接是罪過的原因。",
+      "after": "此外，哲學家在《幸福倫理學》卷七第十四章證明，人考慮時須有外在之根本。但人不只考慮善事，也考慮惡事。所以正如天主助人考慮善事，故此直接是善之原因；魔鬼助人考慮為惡，所以直接是罪過的原因。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.sed_contra",
+      "article": 1,
+      "block": "反之",
+      "pdf_file_pages": [
+        2615
+      ],
+      "before": "奧斯定在《論自由意志》卷一第十一章及卷三第一輩裡證明:「心智除了本身之意志外，再沒有什麼叫它給貪慾作奴役的。」但是，人只是由於罪過而成為貪慾之奴隸。所以罪過之原因不能是魔鬼，只能是自己的意志。",
+      "after": "奧斯定在《論自由意志》卷一第十一章及卷三第一章裡證明：「心智除了本身之意志外，再沒有什麼叫它給貪慾作奴役的。」但是，人只是由於罪過而成為貪慾之奴隸。所以罪過之原因不能是魔鬼，只能是自己的意志。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "第一輩",
+          "after": "第一章",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.respondeo",
+      "article": 1,
+      "block": "正解",
+      "pdf_file_pages": [
+        2615,
+        2616
+      ],
+      "before": "我解答如下:罪過是一種行動ο一個東西怎樣直接是行動之原因，便也能按同樣方式直接是罪過之原因。而這只有在行動之本來恨本的推動下，方屬可能。罪過之行動的固有根本是意志，因為罪過都是情願的。所以只有能推動意志行動的，才能直接地是罪過之原因。按前面第九題第一、第四及第六節和第一集第一O五題第四節所說的，有兩種東西能推動意志:第一是意志之對象，就如說所知之可欲之對象推動嗜慾;第二是那能從內部促使意志願意者。按前面第九題第三節所說的，這只有意志本身或天主。而按第七十九盟第一節己說過的，天主不能是罪過的原因。所以在這方面，只有人的意志直接是其罪過之原因。\n在對象方面，某物之推動意志，可說有三種:第一是面前之對象，就如我們說食物刺激食慾;第二是提供這種對象者;第三是說服這對象具有善之意義者，這也等於是給意志提供對象，因為意志之對象是理性方面的善，無論是真善或表面的善。按第一種方式，呈現出的外面的感官性東西，推動人的意志犯罪;按第二種和第三種方式，魔鬼或他人能促使人犯罪，或者藉給感官提供可欲之對象，或者藉說服理性。但以這三種方式，皆不能是罪過的直接原因;因為按前面第十題第二節、第一集第一0五題第四節所說的，除了最後目的，別的東西不能必然地推動意志。故此，呈現在面前的外在東西，提供此東西者和說服者，都不是罪過的足實原因。所以，魔鬼不是罪過之直接和足賞的原因，他只能以提供可欲之對象或說服的方式促成罪過。",
+      "after": "我解答如下：罪過是一種行動。一個東西怎樣直接是行動之原因，便也能按同樣方式直接是罪過之原因。而這只有在行動之本來根本的推動下，方屬可能。罪過之行動的固有根本是意志，因為罪過都是情願的。所以只有能推動意志行動的，才能直接地是罪過之原因。按前面第九題第一、第四及第六節和第一集第一〇五題第四節所說的，有兩種東西能推動意志：第一是意志之對象，就如說所知之可欲之對象推動嗜慾；第二是那能從內部促使意志願意者。按前面第九題第三節所說的，這只有意志本身或天主。而按第七十九題第一節己說過的，天主不能是罪過的原因。所以在這方面，只有人的意志直接是其罪過之原因。\n在對象方面，某物之推動意志，可說有三種：第一是面前之對象，就如我們說食物刺激食慾；第二是提供這種對象者；第三是說服這對象具有善之意義者，這也等於是給意志提供對象，因為意志之對象是理性方面的善，無論是真善或表面的善。按第一種方式，呈現出的外面的感官性東西，推動人的意志犯罪；按第二種和第三種方式，魔鬼或他人能促使人犯罪，或者藉給感官提供可欲之對象，或者藉說服理性。但以這三種方式，皆不能是罪過的直接原因；因為按前面第十題第二節、第一集第一〇五題第四節所說的，除了最後目的，別的東西不能必然地推動意志。故此，呈現在面前的外在東西，提供此東西者和說服者，都不是罪過的足實原因。所以，魔鬼不是罪過之直接和足實的原因，他只能以提供可欲之對象或說服的方式促成罪過。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "行動ο",
+          "after": "行動。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "本來恨本",
+          "after": "本來根本",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一O五",
+          "after": "第一〇五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一0五",
+          "after": "第一〇五",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第七十九盟",
+          "after": "第七十九題",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "足賞",
+          "after": "足實",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.ad1",
+      "article": 1,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "所引證的那些話或其他類似的話，皆是指魔鬼以說服的方式，或提供可欲之對象的方式，促成犯罪之峙。",
+      "after": "所引證的那些話或其他類似的話，皆是指魔鬼以說服的方式，或提供可欲之對象的方式，促成犯罪之意。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "犯罪之峙",
+          "after": "犯罪之意",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.ad2",
+      "article": 1,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "那類比只是說，正如天主是我們之善行的某種原因，魔鬼也是我們之罪過的某種原因;但並不是說兩種原因行動之方式相同。因為天主是藉從內部推動意志而為善行之原因，魔鬼則無此能力c",
+      "after": "那類比只是說，正如天主是我們之善行的某種原因，魔鬼也是我們之罪過的某種原因；但並不是說兩種原因行動之方式相同。因為天主是藉從內部推動意志而為善行之原因，魔鬼則無此能力。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "能力c",
+          "after": "能力。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a001.ad3",
+      "article": 1,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "天主是人內心之一切動態的普遍根本。人的意志之決定行惡，直接是在於人的意志，其次是由於魔鬼的誘說，或提供可欲的對象。",
+      "after": "天主是人內心之一切動態的普遍根本。人的意志之決定行惡，直接是在於人的意志，其次是由於魔鬼的誘說，或提供可欲的對象。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a002.heading",
+      "article": 2,
+      "block": "节号",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "第二節",
+      "after": "第二節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a002.title",
+      "article": 2,
+      "block": "标题",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "魔鬼是否能在內部挑動人犯罪",
+      "after": "魔鬼是否能在內部挑動人犯罪",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a002.intro",
+      "article": 2,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "有關第二節，我們討論如下:",
+      "after": "有關第二節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.objection-intro",
+      "article": 2,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "魔鬼似乎不能在內部挑動人犯罪c因為:",
+      "after": "魔鬼似乎不能在內部挑動人犯罪。因為：",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "犯罪c",
+          "after": "犯罪。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.arg1",
+      "article": 2,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "靈魂內部之動態乃是生命力之動作。但生命力之動作只能是出於內在之根本;連生命力之動作中最低的生魂之動態也是一樣。所以魔鬼不能在內部動態方面挑動人犯罪。",
+      "after": "靈魂內部之動態乃是生命力之動作。但生命力之動作只能是出於內在之根本；連生命力之動作中最低的生魂之動態也是一樣。所以魔鬼不能在內部動態方面挑動人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.arg2",
+      "article": 2,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2616
+      ],
+      "before": "此外，按自然程序，內部的動態皆源自外面的感宮。但按第一集第一-0題第四節所說的，只有天主能超越自然程序行動。所以除了根據那顯示於外面感官者外，魔鬼不能在人之內部動態方面有所作為。",
+      "after": "此外，按自然程序，內部的動態皆源自外面的感官。但按第一集第一一〇題第四節所說的，只有天主能超越自然程序行動。所以除了根據那顯示於外面感官者外，魔鬼不能在人之內部動態方面有所作為。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "感宮",
+          "after": "感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.arg3",
+      "article": 2,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2616,
+        2617
+      ],
+      "before": "此外，靈魂的內部行動是理解和想像。但魔鬼在這兩方面皆不能有作用。因為版第一集第一一一題第二節釋疑2.所說的，魔鬼不能在人的智性上投印理象或形象(forma)。在想像上似乎也不能投印形象;因為想像性的形象，既然是比較精神化的，比感官性物體上的形象高。但按第一集第一-0題第二節所說的，魔鬼不能在感官↑生物體上投印形象。所以魔鬼不能在內部動態方面促使人犯罪。",
+      "after": "此外，靈魂的內部行動是理解和想像。但魔鬼在這兩方面皆不能有作用。因為按第一集第一一一題第二節釋疑2.所說的，魔鬼不能在人的智性上投印理象或形象(forma)。在想像上似乎也不能投印形象；因為想像性的形象，既然是比較精神化的，比感官性物體上的形象高。但按第一集第一一〇題第二節所說的，魔鬼不能在感官性物體上投印形象。所以魔鬼不能在內部動態方面促使人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "因為版",
+          "after": "因為按",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官↑生",
+          "after": "感官性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.sed_contra",
+      "article": 2,
+      "block": "反之",
+      "pdf_file_pages": [
+        2617
+      ],
+      "before": "若這樣說，貝IJ魔鬼除非現形，便不能誘人犯罪了。這顯然不合事實。",
+      "after": "若這樣說，則魔鬼除非現形，便不能誘人犯罪了。這顯然不合事實。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.respondeo",
+      "article": 2,
+      "block": "正解",
+      "pdf_file_pages": [
+        2617,
+        2618
+      ],
+      "before": "我解答如下:靈魂內部分為智性部分和感官性部分;智性部分包括理智和意志。關於魔鬼與意志的關係如何，前面第一節已經講過。理智活動時，本來是受光照它者之推動，以認識真理;這不是魔鬼在與人的關係上所企圖的，他要的是使人的理性昏昧，好同意犯罪。這種昏眛是來自想像及感官嗜慾。所以，魔鬼在人內部的整個作用‘似乎只限於想像及感官嗜慾。他能推動想像和感官嗜慾以使人犯罪，他能給想像力呈示想像性的形象，也能刺激感官嗜慾使生情慾。\n在第一集第一-0題第三節曾說，形體物之空間性運動受精神物之支配。所以若非天主加以阻止，魔鬼能促成一切與低級形體物之空間性運動有關的事情。給想像力呈示形象，有時是由於空間性運動。因為哲學家在《論睡眠及醒膺》(參見《論夢幻》第三章)裡說: 「動物睡眠時，許多血集中至!憾官之根本，動態也隨之集來」'即是形體物留存在感官性想像上的印像，「牽動認知之根本」'即呈現於認知根本，好似是現時由外物印在感官之根本上的印像。血氣和體液的這種空間性運動，魔鬼也能發動一一無論人是在睡眠或在清醒的時候，因而使人想像某些事物。\n感官嗜慾之激起某種情慾'是根據心臟和血氣的某種動態，所以魔鬼在這方面也能有作用。在感官嗜慾上激起某情慾後，感官口普慾之動態或傾向遂以上述方式傳到認真日之根本，人遂更容易感受到這種傾向。因為按哲學家在同書第二章裡說的: 「只要有一點關聯，喜好者便想起所喜好的東西」。有時由於激起了情慾，便覺得呈示於想像者值得去追求，因為受情慾牽制的人，容易覺得情慾所傾曏者是好的。魔鬼就是以這方式在內部引人犯罪。禮疑1生命力之活動雖然皆是出於某內在之根本，但外在的原因能夠同時有作用;就如外面的熱度能影響生魂之活動，使之更容易消化食物。\n2.這類想像性的形象之出現，不完全是自然程序以外的，也不只限於命令方式;而是如正解己說過的，能是由於空問性之動態。\n3.這也可以看出質疑3.之答案:因為那些形象在起初是由感宮來的。",
+      "after": "我解答如下：靈魂內部分為智性部分和感官性部分；智性部分包括理智和意志。關於魔鬼與意志的關係如何，前面第一節己經講過。理智活動時，本來是受光照它者之推動，以認識真理；這不是魔鬼在與人的關係上所企圖的，他要的是使人的理性昏昧，好同意犯罪。這種昏昧是來自想像及感官嗜慾。所以，魔鬼在人內部的整個作用，似乎只限於想像及感官嗜慾。他能推動想像和感官嗜慾以使人犯罪，他能給想像力呈示想像性的形象，也能刺激感官嗜慾使生情慾。\n在第一集第——〇題第三節曾說，形體物之空間性運動受精神物之支配。所以若非天主加以阻止，魔鬼能促成一切與低級形體物之空間性運動有關的事情。給想像力呈示形象，有時是由於空間性運動。因為哲學家在《論睡眠及醒寤》(參見《論夢幻》第三章)裡說：「動物睡眠時，許多血集中到感官之根本，動態也隨之集來」，即是形體物留存在感官性想像上的印像，「牽動認知之根本」，即呈現於認知根本，好似是現時由外物印在感官之根本上的印像。血氣和體液的這種空間性運動，魔鬼也能發動——無論人是在睡眠或在清醒的時候，因而使人想像某些事物。\n感官嗜慾之激起某種情慾，是根據心臟和血氣的某種動態，所以魔鬼在這方面也能有作用。在感官嗜慾上激起某情慾後，感官嗜慾之動態或傾向遂以上述方式傳到認知之根本，人遂更容易感受到這種傾向。因為按哲學家在同書第二章裡說的：「只要有一點關聯，喜好者便想起所喜好的東西」。有時由於激起了情慾，便覺得呈示於想像者值得去追求，因為受情慾牽制的人，容易覺得情慾所傾向者是好的。魔鬼就是以這方式在內部引人犯罪。\n\n",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "我解答如下:靈魂內部分為智性部分和感官性部分;智性部分包括理智和意志。關於魔鬼與意志的關係如何，前面第一節已經講過。理智活動時，本來是受光照它者之推動，以認識真理;這不是魔鬼在與人的關係上所企圖的，他要的是使人的理性昏昧，好同意犯罪。這種昏眛是來自想像及感官嗜慾。所以，魔鬼在人內部的整個作用‘似乎只限於想像及感官嗜慾。他能推動想像和感官嗜慾以使人犯罪，他能給想像力呈示想像性的形象，也能刺激感官嗜慾使生情慾。\n在第一集第一-0題第三節曾說，形體物之空間性運動受精神物之支配。所以若非天主加以阻止，魔鬼能促成一切與低級形體物之空間性運動有關的事情。給想像力呈示形象，有時是由於空間性運動。因為哲學家在《論睡眠及醒膺》(參見《論夢幻》第三章)裡說: 「動物睡眠時，許多血集中至!憾官之根本，動態也隨之集來」'即是形體物留存在感官性想像上的印像，「牽動認知之根本」'即呈現於認知根本，好似是現時由外物印在感官之根本上的印像。血氣和體液的這種空間性運動，魔鬼也能發動一一無論人是在睡眠或在清醒的時候，因而使人想像某些事物。\n感官嗜慾之激起某種情慾'是根據心臟和血氣的某種動態，所以魔鬼在這方面也能有作用。在感官嗜慾上激起某情慾後，感官口普慾之動態或傾向遂以上述方式傳到認真日之根本，人遂更容易感受到這種傾向。因為按哲學家在同書第二章裡說的: 「只要有一點關聯，喜好者便想起所喜好的東西」。有時由於激起了情慾，便覺得呈示於想像者值得去追求，因為受情慾牽制的人，容易覺得情慾所傾曏者是好的。魔鬼就是以這方式在內部引人犯罪。禮疑1生命力之活動雖然皆是出於某內在之根本，但外在的原因能夠同時有作用;就如外面的熱度能影響生魂之活動，使之更容易消化食物。\n2.這類想像性的形象之出現，不完全是自然程序以外的，也不只限於命令方式;而是如正解己說過的，能是由於空問性之動態。\n3.這也可以看出質疑3.之答案:因為那些形象在起初是由感宮來的。",
+          "after": "我解答如下:靈魂內部分為智性部分和感官性部分;智性部分包括理智和意志。關於魔鬼與意志的關係如何，前面第一節已經講過。理智活動時，本來是受光照它者之推動，以認識真理;這不是魔鬼在與人的關係上所企圖的，他要的是使人的理性昏昧，好同意犯罪。這種昏眛是來自想像及感官嗜慾。所以，魔鬼在人內部的整個作用‘似乎只限於想像及感官嗜慾。他能推動想像和感官嗜慾以使人犯罪，他能給想像力呈示想像性的形象，也能刺激感官嗜慾使生情慾。\n在第一集第一-0題第三節曾說，形體物之空間性運動受精神物之支配。所以若非天主加以阻止，魔鬼能促成一切與低級形體物之空間性運動有關的事情。給想像力呈示形象，有時是由於空間性運動。因為哲學家在《論睡眠及醒膺》(參見《論夢幻》第三章)裡說: 「動物睡眠時，許多血集中至!憾官之根本，動態也隨之集來」'即是形體物留存在感官性想像上的印像，「牽動認知之根本」'即呈現於認知根本，好似是現時由外物印在感官之根本上的印像。血氣和體液的這種空間性運動，魔鬼也能發動一一無論人是在睡眠或在清醒的時候，因而使人想像某些事物。\n感官嗜慾之激起某種情慾'是根據心臟和血氣的某種動態，所以魔鬼在這方面也能有作用。在感官嗜慾上激起某情慾後，感官口普慾之動態或傾向遂以上述方式傳到認真日之根本，人遂更容易感受到這種傾向。因為按哲學家在同書第二章裡說的: 「只要有一點關聯，喜好者便想起所喜好的東西」。有時由於激起了情慾，便覺得呈示於想像者值得去追求，因為受情慾牽制的人，容易覺得情慾所傾曏者是好的。魔鬼就是以這方式在內部引人犯罪。\n\n",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "已經",
+          "after": "己經",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "昏眛",
+          "after": "昏昧",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "作用‘",
+          "after": "作用，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "第一-0",
+          "after": "第一一〇",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "醒膺",
+          "after": "醒寤",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "至!憾官",
+          "after": "到感官",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "集來」'",
+          "after": "集來」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "根本」'",
+          "after": "根本」，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "一一",
+          "after": "——",
+          "occurrences": 2,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "情慾'",
+          "after": "情慾，",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "感官口普慾",
+          "after": "感官嗜慾",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "認真日",
+          "after": "認知",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "傾曏",
+          "after": "傾向",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.ad1",
+      "article": 2,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "",
+      "after": "生命力之活動雖然皆是出於某內在之根本，但外在的原因能夠同時有作用；就如外面的熱度能影響生魂之活動，使之更容易消化食物。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "生命力之活動雖然皆是出於某內在之根本，但外在的原因能夠同時有作用;就如外面的熱度能影響生魂之活動，使之更容易消化食物。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.ad2",
+      "article": 2,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "",
+      "after": "這類想像性的形象之出現，不完全是自然程序以外的，也不只限於命令方式；而是如正解己說過的，能是由於空間性之動態。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "這類想像性的形象之出現，不完全是自然程序以外的，也不只限於命令方式;而是如正解己說過的，能是由於空間性之動態。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a002.ad3",
+      "article": 2,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "",
+      "after": "這也可以看出質疑3.之答案：因為那些形象在起初是由感官來的。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "段落归位",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "",
+          "after": "這也可以看出質疑3.之答案:因為那些形象在起初是由感官來的。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点／段落归位"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.heading",
+      "article": 3,
+      "block": "节号",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "第三節",
+      "after": "第三節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a003.title",
+      "article": 3,
+      "block": "标题",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "魔鬼是否能強迫人犯罪",
+      "after": "魔鬼是否能強迫人犯罪",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a003.intro",
+      "article": 3,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "有關第三節，我們討論如下:",
+      "after": "有關第三節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.objection-intro",
+      "article": 3,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "魔鬼似乎能強迫人犯罪。因為:",
+      "after": "魔鬼似乎能強迫人犯罪。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.arg1",
+      "article": 3,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "能力大的能強迫能力小的。但是《約伯傳》第四十一章24節論魔鬼說:「世上沒有可與他相比的能力。」所以，魔鬼能夠強迫世人犯罪。",
+      "after": "能力大的能強迫能力小的。但是《約伯傳》第四十一章24節論魔鬼說：「世上沒有可與他相比的能力。」所以，魔鬼能夠強迫世人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.arg2",
+      "article": 3,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2618
+      ],
+      "before": "此外，要推動人的理性，只有根據從外面呈現於感官和想像者。因為按照《靈魂論》卷三第七章所說的，我們的一切認知皆源自感官，並且「沒有心象便不能現解」 0按照上面第二節所說的，魔鬼能夠推動人的想像和外面的感官。奧斯定在《雜題八十三》第十二題裡也說:「這惡(即由魔鬼來的惡)從每個感官滲入，隱在形像裡，與顏色相配合，與聲音相調諧，與滋味相混合。」所以魔鬼能必然地使理性犯罪。",
+      "after": "此外，要推動人的理性，只有根據從外面呈現於感官和想像者。因為按照《靈魂論》卷三第七章所說的，我們的一切認知皆源自感官，並且「沒有心象便不能理解」。按照上面第二節所說的，魔鬼能夠推動人的想像和外面的感官。奧斯定在《雜題八十三》第十二題裡也說：「這惡(即由魔鬼來的惡)從每個感官滲入，隱在形像裡，與顏色相配合，與聲音相調諧，與滋味相混合。」所以魔鬼能必然地使理性犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "現解」 0",
+          "after": "理解」。",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.arg3",
+      "article": 3,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2618,
+        2619
+      ],
+      "before": "此外，按照奧斯定《天主之城》卷十九第四章所說的:「肉身反抗精神的時候，是一種罪過。」按上面第二節所說的，魔鬼能夠發動肉身之貪慾及其他情慾。所以能必然地使人犯罪。",
+      "after": "此外，按照奧斯定《天主之城》卷十九第四章所說的：「肉身反抗精神的時候，是一種罪過。」按上面第二節所說的，魔鬼能夠發動肉身之貪慾及其他情慾。所以能必然地使人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.sed_contra",
+      "article": 3,
+      "block": "反之",
+      "pdf_file_pages": [
+        2619
+      ],
+      "before": "《伯多祿前書》第五章8至9節卻說:「你們的仇敵魔鬼，如同咆吟的獅子巡遊，尋找可吞噬的人;應以堅固的信德抵抗他。」如果人必然失敗，貝IJ這警告是多餘的。所以魔鬼不能必然地使人犯罪。",
+      "after": "《伯多祿前書》第五章8至9節卻說：「你們的仇敵魔鬼，如同咆哮的獅子巡遊，尋找可吞噬的人；應以堅固的信德抵抗他。」如果人必然失敗，則這警告是多餘的。所以魔鬼不能必然地使人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "咆吟",
+          "after": "咆哮",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "貝IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.respondeo",
+      "article": 3,
+      "block": "正解",
+      "pdf_file_pages": [
+        2619
+      ],
+      "before": "我解答如下:若不是天主加以約束，魔鬼本來有能力迫人行原來是罪的事情，但不能強迫人犯罪。因為人是靠理性抵抗引他犯罪者;但是利用想像和感官嗜慾可以完全阻止理性之作用，在附魔者身上便可以看到這種情形。但理性如此失去作用後，人無論行甚麼事，都不算是他的罪過。但若理性不是全面受阻，員IJ按前面第七十七題第七節所說的，人可以利用自由的那部分理性抵抗罪過。可見魔鬼絕對不能必然地使人犯罪。",
+      "after": "我解答如下：若不是天主加以約束，魔鬼本來有能力迫人行原來是罪的事情，但不能強迫人犯罪。因為人是靠理性抵抗引他犯罪者；但是利用想像和感官嗜慾可以完全阻止理性之作用，在附魔者身上便可以看到這種情形。但理性如此失去作用後，人無論行甚麼事，都不算是他的罪過。但若理性不是全面受阻，則按前面第七十七題第七節所說的，人可以利用自由的那部分理性抵抗罪過。可見魔鬼絕對不能必然地使人犯罪。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "員IJ",
+          "after": "則",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.ad1",
+      "article": 3,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2619
+      ],
+      "before": "並非所有比人能力大的，都能推動人的意志;按前面第九題第六節所說的，只有天主有此能力。",
+      "after": "並非所有比人能力大的，都能推動人的意志；按前面第九題第六節所說的，只有天主有此能力。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a003.ad2",
+      "article": 3,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2619
+      ],
+      "before": "由感官或想像所知覺者，並非必然地推動意志，倘若人保有理性作用。這類知覺也不是常阻擾理性。",
+      "after": "由感官或想像所知覺者，並非必然地推動意志，倘若人保有理性作用。這類知覺也不是常阻擾理性。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a003.ad3",
+      "article": 3,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2619
+      ],
+      "before": "肉身反抗精神時，若理性實際加以抵抗，就不是罪過，而是修鍊德性。魔鬼沒有能力使理性不加以抵抗。所以，不能必然使人犯罪。",
+      "after": "肉身反抗精神時，若理性實際加以抵抗，就不是罪過，而是修鍊德性。魔鬼沒有能力使理性不加以抵抗。所以，不能必然使人犯罪。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a004.heading",
+      "article": 4,
+      "block": "节号",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "第四節",
+      "after": "第四節",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a004.title",
+      "article": 4,
+      "block": "标题",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "是否所有罪過皆來自魔鬼的挑動",
+      "after": "是否所有罪過皆來自魔鬼的挑動",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a004.intro",
+      "article": 4,
+      "block": "节引言",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "有關第四節，我們討論如下:",
+      "after": "有關第四節，我們討論如下：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.objection-intro",
+      "article": 4,
+      "block": "质疑引言",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "似乎所有的罪過皆來自魔鬼的挑動。因為:",
+      "after": "似乎所有的罪過皆來自魔鬼的挑動。因為：",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.arg1",
+      "article": 4,
+      "block": "质疑1",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "狄奧尼修在《神名論》第四章裡說:「成羣的魔鬼是一切惡的原因，無論是對自己，或對別人。」",
+      "after": "狄奧尼修在《神名論》第四章裡說：「成羣的魔鬼是一切惡的原因，無論是對自己，或對別人。」",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.arg2",
+      "article": 4,
+      "block": "质疑2",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "此外，誰犯死罪，便成為魔鬼的奴隸，就如《若望福音》第八章34節裡所說的，「凡是犯罪的，就是罪惡的奴隸。」但是按《伯多祿後書》第二章19節所說的:「人被誰制勝，就是誰的奴隸。」所以誰犯罪，就是被魔鬼制勝了。",
+      "after": "此外，誰犯死罪，便成為魔鬼的奴隸，就如《若望福音》第八章34節裡所說的，「凡是犯罪的，就是罪惡的奴隸。」但是按《伯多祿後書》第二章19節所說的：「人被誰制勝，就是誰的奴隸。」所以誰犯罪，就是被魔鬼制勝了。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.arg3",
+      "article": 4,
+      "block": "质疑3",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "此外，教宗額我略一世《倫理叢談》卷四第三章說:「魔鬼的罪是不可補救的，因為他是沒有外來的誘惑而犯罪。」如果有人犯罪是出於自由意志，沒有外來的誘惑，則他們的罪是不可補救的;這顯然不合真理。所以人的一切罪過皆出於魔鬼的挑動。",
+      "after": "此外，教宗額我略一世《倫理叢談》卷四第三章說：「魔鬼的罪是不可補救的，因為他是沒有外來的誘惑而犯罪。」如果有人犯罪是出於自由意志，沒有外來的誘惑，則他們的罪是不可補救的；這顯然不合真理。所以人的一切罪過皆出於魔鬼的挑動。",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.sed_contra",
+      "article": 4,
+      "block": "反之",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "傳由第五世紀馬賽的翟南德(Gennandius de Marseille)所著的《論聖教信端》(De Ecclesiasticis Dogmatibus)中說:「我們的惡念不全是魔鬼挑動的，有時是出於我們的自由意志。」(第八十二章)",
+      "after": "傳由第五世紀馬賽的翟南德(Gennandius de Marseille)所著的《論聖教信端》(De Ecclesiasticis Dogmatibus)中說：「我們的惡念不全是魔鬼挑動的，有時是出於我們的自由意志。」(第八十二章)",
+      "status": "corrected",
+      "error_types": [
+        "标点"
+      ],
+      "changes": [
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.respondeo",
+      "article": 4,
+      "block": "正解",
+      "pdf_file_pages": [
+        2620
+      ],
+      "before": "我解答如下:魔鬼只是藉一次機會並間接地(occasion-aliter et indirecte)是我們一切罪過的原因;因為他使第一個人犯了罪，因了這罪人性受到了傷害，以致我們都傾向於犯罪。這就有如說鋸木的人是木柴燃燒的原因，因為木柴鋸了以後更容易燃燒。但直接地魔鬼不是人類一切罪過的原因，罪不都是他挑動的。奧利振也曾這樣加以證明:縱然沒有魔鬼存在，我們人仍然有飲食男女等之嗜慾，苦理性不加以管制，仍然能陷於妄動，而這在於自由意志(參見《原則論》卷三第三章)。",
+      "after": "我解答如下：魔鬼只是藉一次機會並間接地(occasionaliter et indirecte)是我們一切罪過的原因；因為他使第一個人犯了罪，因了這罪人性受到了傷害，以致我們都傾向於犯罪。這就有如說鋸木的人是木柴燃燒的原因，因為木柴鋸了以後更容易燃燒。但直接地魔鬼不是人類一切罪過的原因，罪不都是他挑動的。奧利振也曾這樣加以證明：縱然沒有魔鬼存在，我們人仍然有飲食男女等之嗜慾，若理性不加以管制，仍然能陷於妄動，而這在於自由意志(參見《原則論》卷三第三章)。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "occasion-aliter",
+          "after": "occasionaliter",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "苦理性",
+          "after": "若理性",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        },
+        {
+          "before": "Chinese clause ASCII colon/semicolon or OCR space after colon",
+          "after": "Printed Chinese ：／； without the OCR space",
+          "type": "标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.ad1",
+      "article": 4,
+      "block": "释疑1",
+      "pdf_file_pages": [
+        2621
+      ],
+      "before": "按前面正解己說過的，以最初之起源而論，魔鬼是我們一切惡的原因。",
+      "after": "按前面正解己說過的，以最初之起源而論，魔鬼是我們一切惡的原因。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    },
+    {
+      "id": "I_II.q080.a004.ad2",
+      "article": 4,
+      "block": "释疑2",
+      "pdf_file_pages": [
+        2621
+      ],
+      "before": "成為他人之奴隸的，不只有被他人制勝者，也包括那自願祿屬於他人者。自動犯罪者便是如此成為魔鬼的奴隸。",
+      "after": "成為他人之奴隸的，不只有被他人制勝者，也包括那自願隸屬於他人者。自動犯罪者便是如此成為魔鬼的奴隸。",
+      "status": "corrected",
+      "error_types": [
+        "乱码",
+        "标点",
+        "错字"
+      ],
+      "changes": [
+        {
+          "before": "祿屬",
+          "after": "隸屬",
+          "occurrences": 1,
+          "type": "错字／乱码／标点"
+        }
+      ]
+    },
+    {
+      "id": "I_II.q080.a004.ad3",
+      "article": 4,
+      "block": "释疑3",
+      "pdf_file_pages": [
+        2621
+      ],
+      "before": "魔鬼的罪之所以不能補救，是因為既沒有外力誘引他犯罪，也沒有以前之誘惑所產生的(內在)犯罪傾向。人所犯的罪，沒有一個是這樣的。",
+      "after": "魔鬼的罪之所以不能補救，是因為既沒有外力誘引他犯罪，也沒有以前之誘惑所產生的(內在)犯罪傾向。人所犯的罪，沒有一個是這樣的。",
+      "status": "checked_unchanged",
+      "error_types": [],
+      "changes": []
+    }
+  ]
+}
