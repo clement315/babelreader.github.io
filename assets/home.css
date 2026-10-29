@@ -24,6 +24,11 @@
   font:600 clamp(36px,3.4vw,46px)/1.25 var(--serif);
   letter-spacing:4px;
 }
+.home-page .proem h1:lang(zh-CN) {font-family:'Babel Inscription','Babel Chinese',serif;font-weight:400}
+.home-page .proem h1:lang(de),.home-page .proem h1:lang(la) {font-family:'Babel Fraktur','Babel Latin',serif;font-weight:400;letter-spacing:normal}
+.home-page .brand small {font-family:'Babel Fraktur','Babel Latin',serif;font-size:15px;letter-spacing:normal}
+.home-page h2:lang(zh-CN),.home-page .book-card h3:lang(zh-CN),.home-page .cover-title:lang(zh-CN) {font-family:'Babel Inscription','Babel Chinese',serif;font-weight:400}
+.home-page h2:lang(de),.home-page h2:lang(la) {font-family:'Babel Fraktur','Babel Latin',serif;font-weight:400;letter-spacing:normal}
 .library-purpose {
   max-width:38em;
   margin:0;
