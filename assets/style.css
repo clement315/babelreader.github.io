@@ -1,11 +1,14 @@
+@font-face {font-family:'Babel Latin';src:url('fonts/EBGaramond.ttf') format('truetype');font-style:normal;font-weight:400 800;font-display:swap}
+@font-face {font-family:'Babel Latin';src:url('fonts/EBGaramond-Italic.ttf') format('truetype');font-style:italic;font-weight:400 800;font-display:swap}
+@font-face {font-family:'Babel Chinese';src:url('fonts/NotoSerifSC.ttf') format('truetype');font-style:normal;font-weight:200 900;font-display:swap}
 :root {
   --paper:#f5f1e8;
   --ink:#263e33;
-  --muted:#787a6b;
+  --muted:#596557;
   --line:#dcd7c9;
   --gold:#a8844d;
-  --serif:'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',Georgia,serif;
-  --sans:system-ui,-apple-system,'Segoe UI','Microsoft YaHei',sans-serif
+  --serif:'Babel Latin','Babel Chinese','Source Han Serif SC','Songti SC','SimSun',serif;
+  --sans:'Babel Latin','Babel Chinese','Source Han Serif SC','Songti SC','SimSun',serif
 }
 [hidden] {
   display:none!important
@@ -17,7 +20,7 @@
   border-bottom:1px solid var(--line)
 }
 .scripture p[lang=la] {
-  font:italic 15px/1.8 Georgia,serif;
+  font:italic 16px/1.8 'Babel Latin',Georgia,serif;
   color:#8c7755
 }
 .scripture cite {
@@ -113,7 +116,7 @@ img {
 }
 .brand small {
   display:block;
-  font:11px Georgia,serif;
+  font:13px 'Babel Latin',Georgia,serif;
   font-weight:400;
   letter-spacing:1.2px;
   margin-top:4px
@@ -221,7 +224,7 @@ img {
   display:flex;
   justify-content:space-between;
   align-items:center;
-  font:10px Georgia,serif;
+  font:12px 'Babel Latin',Georgia,serif;
   letter-spacing:2px;
   color:#8c7755;
   position:relative;
@@ -366,12 +369,12 @@ h2 {
 .cover-series {
   position:absolute;
   top:26px;
-  font:8px/1.4 Georgia,serif;
+  font:10px/1.4 'Babel Latin',Georgia,serif;
   letter-spacing:1.6px;
   text-align:center
 }
 .cover-symbol {
-  font:42px Georgia,serif;
+  font:42px 'Babel Latin',Georgia,serif;
   color:#dbc590;
   border:1px solid #c4ae704d;
   width:70px;
@@ -387,7 +390,7 @@ h2 {
   text-align:center
 }
 .cover-original {
-  font:italic 12px/1.5 Georgia,serif;
+  font:italic 15px/1.5 'Babel Latin',Georgia,serif;
   opacity:.7;
   text-align:center;
   margin-top:8px
@@ -410,7 +413,7 @@ h2 {
   justify-content:space-between;
   gap:5px;
   margin-top:22px;
-  font-size:10px
+  font-size:13px
 }
 .category {
   color:var(--gold)
@@ -426,14 +429,14 @@ h2 {
   margin:10px 0 7px
 }
 .book-author {
-  font-size:10px;
-  color:#7c8072;
+  font-size:13px;
+  color:#526052;
   margin:0
 }
 .book-description {
-  font-size:12px;
+  font-size:15px;
   line-height:1.9;
-  color:#7b7e70;
+  color:#526052;
   margin:12px 0
 }
 .book-link {

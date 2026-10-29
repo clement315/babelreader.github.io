@@ -20,14 +20,21 @@
   letter-spacing:2.8px;
 }
 .home-page .proem h1 {
-  margin:0 0 20px;
-  font:500 clamp(32px,3vw,43px)/1.3 var(--serif);
+  margin:0 0 12px;
+  font:600 clamp(36px,3.4vw,46px)/1.25 var(--serif);
   letter-spacing:4px;
+}
+.library-purpose {
+  max-width:38em;
+  margin:0;
+  color:#344c3d;
+  font:500 clamp(17px,1.45vw,19px)/1.8 var(--serif);
+  text-wrap:pretty;
 }
 .proem-intro {
   margin:0 0 20px;
-  font:14px/1.9 var(--serif);
-  color:#676c5e;
+  font:16px/1.9 var(--serif);
+  color:#485b4b;
 }
 .augustine-prayer {
   position:relative;
@@ -37,14 +44,14 @@
 }
 .augustine-prayer p {
   margin:0;
-  font:italic clamp(23px,2.12vw,29px)/1.55 Georgia,'Times New Roman',serif;
+  font:italic clamp(21px,1.9vw,26px)/1.5 'Babel Latin',Georgia,serif;
   color:#304737;
   text-wrap:pretty;
 }
 .prayer-source {
   margin:15px 0 27px 25px;
-  font:11px/1.6 Georgia,serif;
-  color:#8b7858;
+  font:14px/1.6 'Babel Latin',Georgia,serif;
+  color:#66583f;
   letter-spacing:.3px;
 }
 .prayer-source a:hover,.debt-source:hover {
@@ -53,7 +60,7 @@
 }
 .translator-note {
   max-width:580px;
-  font:15px/2.05 var(--serif);
+  font:16px/2 var(--serif);
   color:#525e50;
   text-wrap:pretty;
 }
@@ -61,7 +68,7 @@
   margin:0 0 12px;
 }
 .home-page .proem .hero-actions {
-  margin-top:27px;
+  margin:20px 0 32px;
   gap:25px;
 }
 .proem-aside {
@@ -109,7 +116,7 @@
 }
 .debt-prayer blockquote {
   margin:0;
-  font:24px/1.6 Georgia,'Times New Roman',serif;
+  font:24px/1.6 'Babel Latin',Georgia,serif;
   color:#4b5647;
   text-wrap:pretty;
 }
@@ -138,14 +145,20 @@
   .home-page .site-header {min-height:100px}
   .home-page .proem {grid-template-columns:minmax(0,1fr);gap:34px;padding-block:32px 38px}
   .home-page .proem h1 {font-size:33px;letter-spacing:3px;margin-bottom:16px}
-  .proem-intro {font-size:13px;margin-bottom:18px}
+  .proem-intro {font-size:16px;margin-bottom:18px}
   .augustine-prayer p {font-size:23px;line-height:1.5}
-  .prayer-source {font-size:10px;margin-block:14px 23px}
-  .translator-note {font-size:14px;line-height:2}
+  .prayer-source {font-size:14px;margin-block:14px 23px}
+  .translator-note {font-size:16px;line-height:1.9}
   .proem-aside {width:100%;max-width:480px;justify-self:center;padding-top:0}
-  .home-page .proem .hero-actions {margin-top:23px;gap:22px}
+  .home-page .proem .hero-actions {margin:18px 0 27px;gap:22px}
   .debt-prayer {margin-top:25px;padding-top:20px}
 }
 @media(prefers-reduced-motion:reduce) {
   html {scroll-behavior:auto}
+}
+/* Keep catalogue details readable on small screens, too. */
+@media(max-width:760px) {
+  .home-page .book-meta,.home-page .book-author {font-size:13px}
+  .home-page .book-description {font-size:15px}
+  .home-page .book-link {font-size:14px}
 }
