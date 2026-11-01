@@ -1,0 +1,169 @@
+/* The homepage opens as a book's frontispiece and translator's note. */
+.home-page {
+  background:radial-gradient(ellipse at 92% 8%,#ebe3d252,transparent 45%),var(--paper);
+}
+.home-page .site-header {
+  min-height:108px;
+}
+.home-page .proem {
+  grid-template-columns:minmax(0,1.28fr) minmax(0,1fr);
+  align-items:start;
+  gap:clamp(36px,5vw,76px);
+  padding-block:54px 58px;
+}
+.proem-copy,.proem-aside {
+  min-width:0;
+}
+.home-page .proem .eyebrow {
+  margin-bottom:15px;
+  font:11px/1.5 Georgia,serif;
+  letter-spacing:2.8px;
+}
+.home-page .proem h1 {
+  margin:0 0 12px;
+  font:600 clamp(36px,3.4vw,46px)/1.25 var(--serif);
+  letter-spacing:4px;
+}
+.home-page .proem h1:lang(zh-CN) {font-family:'Babel Inscription','Babel Chinese',serif;font-weight:400}
+.home-page .proem h1:lang(de),.home-page .proem h1:lang(la) {font-family:'Babel Fraktur','Babel Latin',serif;font-weight:400;letter-spacing:normal}
+.home-page .brand small {font-family:'Babel Fraktur','Babel Latin',serif;font-size:15px;letter-spacing:normal}
+.home-page h2:lang(zh-CN),.home-page .book-card h3:lang(zh-CN),.home-page .cover-title:lang(zh-CN) {font-family:'Babel Inscription','Babel Chinese',serif;font-weight:400}
+.home-page h2:lang(de),.home-page h2:lang(la) {font-family:'Babel Fraktur','Babel Latin',serif;font-weight:400;letter-spacing:normal}
+.library-purpose {
+  max-width:38em;
+  margin:0;
+  color:#344c3d;
+  font:500 clamp(17px,1.45vw,19px)/1.8 var(--serif);
+  text-wrap:pretty;
+}
+.proem-intro {
+  margin:0 0 20px;
+  font:16px/1.9 var(--serif);
+  color:#485b4b;
+}
+.augustine-prayer {
+  position:relative;
+  margin:0;
+  padding:0 0 0 23px;
+  border-left:2px solid #b49b6b;
+}
+.augustine-prayer p {
+  margin:0;
+  font:italic clamp(21px,1.9vw,26px)/1.5 'Babel Latin',Georgia,serif;
+  color:#304737;
+  text-wrap:pretty;
+}
+.prayer-source {
+  margin:15px 0 27px 25px;
+  font:14px/1.6 'Babel Latin',Georgia,serif;
+  color:#66583f;
+  letter-spacing:.3px;
+}
+.prayer-source a:hover,.debt-source:hover {
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+.translator-note {
+  max-width:580px;
+  font:16px/2 var(--serif);
+  color:#525e50;
+  text-wrap:pretty;
+}
+.translator-note p {
+  margin:0 0 12px;
+}
+.home-page .proem .hero-actions {
+  margin:20px 0 32px;
+  gap:25px;
+}
+.proem-aside {
+  padding-top:9px;
+}
+.home-page .tower-plate {
+  margin:0;
+  padding:0;
+  border:1px solid #d4cbb9;
+  background:#faf7ef;
+  box-shadow:0 12px 26px -22px #54422680;
+}
+.home-page .tower-plate::before {
+  display:none;
+}
+.tower-plate .art-label {
+  padding:15px 18px 12px;
+  font-size:9px;
+  letter-spacing:2px;
+}
+.tower-image {
+  margin:0 12px;
+  background:#e7ddc5;
+}
+.home-page .tower-plate img {
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+}
+.home-page .tower-plate figcaption {
+  padding:13px 18px 15px;
+  font-size:10px;
+  color:#756449;
+}
+.debt-prayer {
+  margin:30px 7px 0;
+  padding:24px 8px 0;
+  border-top:1px solid #d4cbb9;
+}
+.prayer-intro {
+  margin:0 0 9px;
+  font:13px/1.8 var(--serif);
+  color:#787466;
+}
+.debt-prayer blockquote {
+  margin:0;
+  font:24px/1.6 'Babel Latin',Georgia,serif;
+  color:#4b5647;
+  text-wrap:pretty;
+}
+.prayer-translation {
+  margin:9px 0 13px;
+  font:15px/1.8 var(--serif);
+  color:#5d6555;
+}
+.debt-source {
+  font:10px/1.6 var(--sans);
+  color:#8b7858;
+}
+.home-page .collection-strip {
+  background:#eee9dc80;
+}
+@media(min-width:1450px) {
+  .home-page .proem {padding-block:68px 70px}
+}
+@media(max-width:1000px) {
+  .home-page .proem {gap:32px;padding-block:42px 46px}
+  .augustine-prayer {padding-left:18px}
+  .prayer-source {margin-left:20px}
+  .debt-prayer blockquote {font-size:22px}
+}
+@media(max-width:760px) {
+  .home-page .site-header {min-height:100px}
+  .home-page .proem {grid-template-columns:minmax(0,1fr);gap:34px;padding-block:32px 38px}
+  .home-page .proem h1 {font-size:33px;letter-spacing:3px;margin-bottom:16px}
+  .proem-intro {font-size:16px;margin-bottom:18px}
+  .augustine-prayer p {font-size:23px;line-height:1.5}
+  .prayer-source {font-size:14px;margin-block:14px 23px}
+  .translator-note {font-size:16px;line-height:1.9}
+  .proem-aside {width:100%;max-width:480px;justify-self:center;padding-top:0}
+  .home-page .proem .hero-actions {margin:18px 0 27px;gap:22px}
+  .debt-prayer {margin-top:25px;padding-top:20px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+/* Keep catalogue details readable on small screens, too. */
+@media(max-width:760px) {
+  .home-page .book-meta,.home-page .book-author {font-size:13px}
+  .home-page .book-description {font-size:15px}
+  .home-page .book-link {font-size:14px}
+}

@@ -317,5 +317,8 @@ def main():
   spec={**SPEC,'proper':{**PROPER,**{k:v[0] for k,v in NAMES.items()}},'germanNames':{**GERMAN_NAMES,**{k:v[1] for k,v in NAMES.items()}},'germanLoader':lambda path:source_german(path,SPEC)}
   spec['morphology']=json.loads((REPO/'tools/gorgias-morphology.json').read_text(encoding='utf-8'))
   import_work(resources,args.german_epub,spec)
+ if (REPO/'tools/statesman-notes.json').exists():
+  from import_statesman import settings
+  import_work(resources,args.german_epub,settings())
  print(json.dumps({k:{x:v[x] for x in ['units','words','morphologyCoverage','germanLexiconCoverage','chineseGlossCoverage']} for k,v in all_report.items()},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
