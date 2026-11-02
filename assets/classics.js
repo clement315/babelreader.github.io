@@ -12,6 +12,13 @@
   if(!cache.has(url))cache.set(url,fetch(url).then(r=>{if(!r.ok)throw Error('资料未能载入（'+r.status+'）');return r.json();}).catch(e=>{cache.delete(url);throw e;}));
   return cache.get(url);
  };
+ let fulltextIndex=null;
+ const fulltext=window.BABEL_FULLTEXT.create({mount:$('fulltext-mount'),search:async(query,progress,cancelled)=>{
+  if(!meta)throw Error('No work');const work=meta.id,pages=meta.pages.slice();
+  if(!fulltextIndex||fulltextIndex.work!==work){const entries=[];let failed=0;for(let i=0;i<pages.length;i++){if(cancelled()||meta?.id!==work)return {results:[]};try{const page=await get(`${work}/${pages[i]}.json`);for(const u of page.units)entries.push({page:pages[i],unitId:u.id,ref:u.ref,label:u.label,text:u.tokens.join('')});}catch{failed++;}progress(i+1,pages.length);}if(cancelled()||meta?.id!==work)return {results:[]};fulltextIndex={work,entries,failed};}
+  const results=[],needle=query.toLowerCase();let limited=false;for(const entry of fulltextIndex.entries){const lower=entry.text.toLowerCase();let pos=0,at;while((at=lower.indexOf(needle,pos))!==-1){if(results.length>=200){limited=true;break;}results.push({page:entry.page,unitId:entry.unitId,offset:at,length:needle.length,ref:entry.ref,label:`${meta.title} · ${entry.label}`,snippet:entry.text.slice(Math.max(0,at-38),Math.min(entry.text.length,at+needle.length+38)).replace(/\s+/g,' ')});pos=at+Math.max(needle.length,1);}if(limited)break;}return {results,limited,failed:fulltextIndex.failed};
+ },onJump:async item=>{if(!meta)return false;const ok=await navigate(meta.id,item.page,true);if(!ok)return false;const unit=document.getElementById('unit-'+item.unitId);if(unit){unit.classList.add('is-current');let offset=0,first=null;for(const child of unit.querySelector('.greek-line').childNodes){const next=offset+child.textContent.length;if(child.nodeType===1&&offset<item.offset+item.length&&next>item.offset){child.classList.add('fulltext-hit');first||=child;}offset=next;}(first||unit).scrollIntoView({block:'center'});}return true;}});
+ fulltext.setEnabled(false);
  const editor=window.BABEL_CLASSICS_EDITOR.create({get,onRender:()=>renderUnits(),onStatus:()=>{}});
  const labels={noun:'名词 · Substantiv',verb:'动词 · Verb',adjective:'形容词 · Adjektiv',adverb:'副词 · Adverb',pronoun:'代词 · Pronomen',article:'冠词 · Artikel',particle:'小品词 · Partikel',preposition:'介词 · Präposition',conjunction:'连词 · Konjunktion',interjection:'感叹词 · Interjektion',participle:'分词 · Partizip',numeral:'数词 · Numerale',proper_noun:'专有名词 · Eigenname',nominative:'主格 · Nominativ',genitive:'属格 · Genitiv',dative:'与格 · Dativ',accusative:'宾格 · Akkusativ',vocative:'呼格 · Vokativ',masculine:'阳性 · Maskulinum',feminine:'阴性 · Femininum',neuter:'中性 · Neutrum',singular:'单数 · Singular',plural:'复数 · Plural',dual:'双数 · Dual',present:'现在时 · Präsens',imperfect:'未完成过去时 · Imperfekt',aorist:'不定过去时 · Aorist',perfect:'完成时 · Perfekt',pluperfect:'过去完成时 · Plusquamperfekt',future:'将来时 · Futur',future_perfect:'将来完成时 · Futur II',active:'主动 · Aktiv',middle:'中动 · Medium',passive:'被动 · Passiv',mediopassive:'中被动 · Mediopassiv',indicative:'直陈式 · Indikativ',subjunctive:'虚拟式 · Konjunktiv',optative:'祈愿式 · Optativ',imperative:'命令式 · Imperativ',infinitive:'不定式 · Infinitiv','1st':'第一人称 · 1. Person','2nd':'第二人称 · 2. Person','3rd':'第三人称 · 3. Person',comparative:'比较级 · Komparativ',superlative:'最高级 · Superlativ',positive:'原级 · Positiv'};
  const translate=v=>v?v.split('/').map(x=>labels[x]||x).join(' / '):'未标注';
@@ -77,14 +84,14 @@
   $('reading-content').replaceChildren();const box=el('div','close-error');box.append(el('p','',message));const retry=el('button','retry-button','重新载入');retry.addEventListener('click',()=>navigate(work,page,false));box.append(retry);$('reading-content').append(box);
  };
  const navigate=async(work,page,push=true,ref='')=>{
-  if(!editor.beforeNavigate()){if(meta&&pageData){$('work-select').value=meta.id;$('page-select').value=pageData.page;}return;}
+  if(!editor.beforeNavigate()){if(meta&&pageData){$('work-select').value=meta.id;$('page-select').value=pageData.page;}return false;}
   const token=++generation;closePanel();$('reading-content').setAttribute('aria-busy','true');$('reader-status').textContent='正在载入…';$('reading-content').replaceChildren();
   try{
    const nextMeta=await get(`${work}/catalog.json`);if(token!==generation)return;
    const nextPage=String(page||nextMeta.pages[0]);
    if(!nextMeta.pages.includes(nextPage))throw Error(`这份${nextMeta.title}精读稿没有收录第${nextPage}页。`);
    const data=await get(`${work}/${nextPage}.json`);if(token!==generation)return;
-   meta=nextMeta;pageData=data;
+   if(meta?.id!==work){fulltextIndex=null;fulltext.reset();}meta=nextMeta;pageData=data;fulltext.setEnabled(true);
    $('work-select').value=work;$('page-select').replaceChildren(...meta.pages.map(p=>new Option(p,p)));$('page-select').value=nextPage;$('page-select').disabled=false;
    $('work-title').textContent=meta.title;$('work-subtitle').textContent=meta.greekTitle+' · '+meta.latin;
    $('work-range').textContent='收录范围 '+meta.range;$('greek-source').href=meta.source;
@@ -95,7 +102,8 @@
    if(push)history.pushState(null,'',url);else history.replaceState(null,'',url);
    save('babel-classics:'+work,nextPage);document.title=meta.title+' '+nextPage+' · 古典作品精读';
    if(ref){const unit=[...document.querySelectorAll('.greek-unit')].find(n=>n.dataset.ref===ref);if(unit){unit.classList.add('is-current');unit.scrollIntoView({block:'start'});}}
-  }catch(e){if(token===generation){$('reader-status').textContent='载入未完成';error(e.message+' 请使用左侧目录选择已收录的页码。',work,page);}}
+   return true;
+  }catch(e){if(token===generation){$('reader-status').textContent='载入未完成';error(e.message+' 请使用左侧目录选择已收录的页码。',work,page);}return false;}
   finally{if(token===generation)$('reading-content').setAttribute('aria-busy','false');}
  };
  $('close-panel').addEventListener('click',()=>closePanel(true));document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel(true);});

@@ -15,9 +15,22 @@
     if(rendition){rendition.themes.select(theme);rendition.themes.fontSize(fontSize+'px');}
   };
   const flatten=(items,depth=0)=>items.flatMap(item=>[{...item,depth},...flatten(item.subitems||[],depth+1)]);
+  let searchIndex=null,searchHighlight=null,searchChapters=[];
+  const {parts:textParts,find:findInSection}=window.BABEL_FULLTEXT_CORE;
+  let searchQueue=Promise.resolve();
+  const searchBook=async(query,progress,cancelled)=>{
+    const active=book,token=generation;if(!active)throw Error('No book');const sections=active.spine.spineItems;
+    if(!searchIndex){const index=[];let failed=0;for(let i=0;i<sections.length;i++){if(cancelled()||token!==generation)return {results:[]};const section=sections[i];try{const doc=await section.load(active.load.bind(active));index.push({section,text:textParts(doc).text.toLowerCase()});section.unload();}catch{failed++;}progress(i+1,sections.length);}if(token!==generation||cancelled())return {results:[]};searchIndex={book:active,index,failed};}
+    const results=[],needle=query.toLowerCase();let failed=searchIndex.failed;for(const entry of searchIndex.index){if(cancelled()||token!==generation)return {results:[]};if(!entry.text.includes(needle))continue;try{const doc=await entry.section.load(active.load.bind(active));const matches=findInSection(entry.section,doc,query,201-results.length);entry.section.unload();const sectionHref=(entry.section.href||'').split('#')[0];const chapter=searchChapters.find(ch=>{const href=ch.href.split('#')[0];return href===sectionHref||sectionHref.endsWith('/'+href)||href.endsWith('/'+sectionHref);});for(const match of matches)results.push({...match,label:chapter?.label.trim()||sectionHref||'EPUB'});if(results.length>200)break;}catch{failed++;}}
+    const limited=results.length>200;return {results:results.slice(0,200),limited,failed};
+  };
+  const fulltext=window.BABEL_FULLTEXT.create({mount:$('fulltext-mount'),search:(query,progress,cancelled)=>{
+    const task=searchQueue.then(()=>cancelled()?{results:[]}:searchBook(query,progress,cancelled));searchQueue=task.catch(()=>{});return task;
+  },onJump:async item=>{if(!rendition)return false;if(searchHighlight){try{rendition.annotations.remove(searchHighlight,'highlight');}catch{}}await rendition.display(item.cfi);rendition.annotations.highlight(item.cfi,{},null,'babel-search-hit',{'fill':'#c6a55a','fill-opacity':'0.42','mix-blend-mode':'multiply'});searchHighlight=item.cfi;return true;}});
+  fulltext.setEnabled(false);
   const navigate=async(method,target)=>{if(!rendition)return;try{await rendition[method](target);}catch{setStatus('暂时无法跳转，请尝试章节目录。');}};
   const open=async(source,key,title)=>{
-    const token=++generation;resizeReady=false;
+    const token=++generation;resizeReady=false;searchIndex=null;searchHighlight=null;searchChapters=[];fulltext.reset();fulltext.setEnabled(false);
     controls.forEach(id=>$(id).disabled=true);storageKey='babel-position:'+key;
     if(book){try{book.destroy();}catch{}book=null;rendition=null;}
     $('viewer').replaceChildren();$('chapter-select').replaceChildren(new Option(t('章节目录'),''));
@@ -40,6 +53,7 @@
       applyTheme();
       const nav=await current.loaded.navigation;
       const chapters=flatten(nav.toc||[]);
+      searchChapters=chapters;
       chapters.forEach(ch=>$('chapter-select').add(new Option('　'.repeat(ch.depth)+ch.label.trim(),ch.href)));
       rendition.on('relocated',location=>{
         if(token!==generation)return;
@@ -52,12 +66,13 @@
       });
       const keyHandler=e=>{if(['INPUT','SELECT','TEXTAREA','BUTTON'].includes(e.target?.tagName))return;if(e.key==='ArrowLeft'){e.preventDefault();navigate('prev');}if(e.key==='ArrowRight'){e.preventDefault();navigate('next');}};
       rendition.on('keyup',keyHandler);
+      rendition.hooks.content.register(contents=>{contents.document.addEventListener('keydown',fulltext.keydown);});
       // 保留一本书一个本地阅读位置，换设备后不会同步。
       const position=get(storageKey);
       try{await rendition.display(position||undefined);}catch{await rendition.display();}
       if(token!==generation)return;
       resizeReady=true;
-      $('placeholder').hidden=true;controls.forEach(id=>$(id).disabled=false);
+      $('placeholder').hidden=true;controls.forEach(id=>$(id).disabled=false);fulltext.setEnabled(true);
       const location=rendition.currentLocation();if(location?.atStart)$('prev').disabled=true;if(location?.atEnd)$('next').disabled=true;
     }catch(error){if(token!==generation)return;show('电子书无法打开','请确认 EPUB 文件已上传且可访问。若文件较大，可下载后离线阅读。');setStatus('打开失败：{error}',{error:error.message});}
   };

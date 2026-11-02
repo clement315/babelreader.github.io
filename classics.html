@@ -8,7 +8,7 @@
  <link rel="stylesheet" href="assets/classics.css?v=20261018-classics-6">
  <script src="vendor/jszip.min.js?v=20261018-classics-6" defer></script>
  <script src="assets/classics-editor.js?v=20261018-classics-6" defer></script>
- <script src="assets/classics.js?v=20261025-classics-7" defer></script>
+ <link rel="stylesheet" href="assets/fulltext-search.css?v=20261102-1"><script src="assets/fulltext-search.js?v=20261102-1" defer></script><script src="assets/classics.js?v=20261102-1" defer></script>
 </head><body class="classics-body">
  <a class="skip" href="#greek-text">跳到希腊文正文</a>
  <header class="close-header"><a class="close-brand" href="index.html">巴别塔图书馆<small>BIBLIOTHECA TURRIS BABEL</small></a><a class="close-home" href="index.html#catalog">← 返回馆藏</a><span class="close-category">古典作品精读</span></header>
@@ -18,6 +18,7 @@
    <label for="work-select">选择对话</label><select id="work-select" disabled><option>正在载入…</option></select>
    <div class="sidebar-divider"></div><label for="page-select">Stephanus 页码</label><select id="page-select" disabled><option>—</option></select>
    <form id="jump-form"><label class="sr-only" for="jump-ref">跳转至页码或小节</label><input id="jump-ref" placeholder="例如 172a" aria-label="跳转至页码或小节"><button type="submit">跳转</button></form>
+   <div id="fulltext-mount"></div>
    <p id="work-range" class="sidebar-small"></p>
    <div class="sidebar-divider"></div><p class="sidebar-small">点击词语，查看形态与释义。<br>使用 Tab 选择词语，Enter 打开。</p>
    <div class="reading-options"><button id="font-down" aria-label="减小希腊文字号">A−</button><button id="font-up" aria-label="增大希腊文字号">A＋</button><button id="theme-toggle" aria-label="切换深浅色阅读" aria-pressed="false">☾</button></div>
