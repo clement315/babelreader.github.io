@@ -11,6 +11,8 @@ assert.equal(parts(doc).text,'In principio erat Verbum. Verbum erat.');
 const crossing=find(section,doc,'principio',10);
 assert.equal(crossing.length,1);
 assert.equal(crossing[0].cfi,'In prin:3..cipio :5');
+const chapterElement={ownerDocument:doc};
+assert.equal(find(section,chapterElement,'principio',10)[0].cfi,crossing[0].cfi);
 assert.equal(find(section,doc,'VERBUM',10).length,2);
 assert.equal(find(section,doc,'verbum',1).length,1);
 assert.equal(find(section,doc,'script',10).length,0);

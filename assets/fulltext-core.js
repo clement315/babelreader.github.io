@@ -1,7 +1,7 @@
 /* EPUB text is kept in reading order, including matches split across inline elements. */
 (function(root){
   function parts(doc){
-    const walker=doc.createTreeWalker(doc.body||doc.documentElement,4),nodes=[];let text='',node;
+    const owner=doc.ownerDocument||doc,walker=owner.createTreeWalker(doc.body||doc.documentElement||doc,4),nodes=[];let text='',node;
     while((node=walker.nextNode())){if(node.parentElement?.closest('script,style,noscript,head'))continue;const start=text.length;text+=node.data;nodes.push({node,start,end:text.length});}
     return {text,parts:nodes};
   }
@@ -20,7 +20,7 @@
     const {text,parts:nodes}=parts(doc),out=[];
     for(const {start,end} of occurrences(text,query,limit)){
       const a=nodes.find(p=>p.start<=start&&p.end>start),b=nodes.find(p=>p.start<end&&p.end>=end);
-      if(a&&b){const range=doc.createRange();range.setStart(a.node,start-a.start);range.setEnd(b.node,end-b.start);out.push({cfi:section.cfiFromRange(range),snippet:text.slice(Math.max(0,start-42),Math.min(text.length,end+42)).replace(/\s+/g,' ').trim()});}
+      if(a&&b){const range=(doc.ownerDocument||doc).createRange();range.setStart(a.node,start-a.start);range.setEnd(b.node,end-b.start);out.push({cfi:section.cfiFromRange(range),snippet:text.slice(Math.max(0,start-42),Math.min(text.length,end+42)).replace(/\s+/g,' ').trim()});}
     }return out;
   }
   const api={parts,find,fold,occurrences};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.BABEL_FULLTEXT_CORE=api;

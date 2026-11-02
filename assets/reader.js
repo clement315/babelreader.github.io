@@ -15,13 +15,31 @@
     if(rendition){rendition.themes.select(theme);rendition.themes.fontSize(fontSize+'px');}
   };
   const flatten=(items,depth=0)=>items.flatMap(item=>[{...item,depth},...flatten(item.subitems||[],depth+1)]);
-  let searchIndex=null,searchHighlight=null,searchChapters=[];
+  let searchIndex=null,searchHighlight=null,searchChapters=[],currentBookKey='';
   const {parts:textParts,find:findInSection,fold:foldText}=window.BABEL_FULLTEXT_CORE;
   let searchQueue=Promise.resolve();
+  const preparedSearch={'eustathius-iliad':'search/eustathius-iliad/'};
+  async function loadPreparedIndex(active,key){
+    const path=preparedSearch[key];if(!path)return null;
+    try{
+      const base=new URL(path,document.baseURI),response=await fetch(new URL('sections.json',base));if(!response.ok)return null;
+      const data=await response.json(),sections=active.spine.spineItems;
+      const compatible=Array.isArray(data.sections)&&data.sections.length===sections.length&&data.sections.every((entry,i)=>{
+        const a=decodeURIComponent(entry.href).split('#')[0],b=decodeURIComponent(sections[i].href).split('#')[0];return a===b||b.endsWith('/'+a);
+      });
+      if(!compatible)return null;
+      const index=data.sections.map((entry,i)=>({section:sections[i],text:foldText(entry.text),ordinal:i}));
+      let pagefind=null;try{pagefind=await import(new URL('pagefind/pagefind.js',base).href);await pagefind.options({baseUrl:base.href,language:'zh'});}catch{/* Literal search remains available if Pagefind cannot load. */}
+      return {book:active,index,failed:0,pagefind};
+    }catch{return null;}
+  }
   const searchBook=async(query,progress,cancelled)=>{
     const active=book,token=generation;if(!active)throw Error('No book');const sections=active.spine.spineItems;
+    if(!searchIndex){const prepared=await loadPreparedIndex(active,currentBookKey);if(cancelled()||token!==generation)return {results:[]};searchIndex=prepared;}
     if(!searchIndex){const index=[];let failed=0;for(let i=0;i<sections.length;i++){if(cancelled()||token!==generation)return {results:[]};const section=sections[i];try{const doc=await section.load(active.load.bind(active));index.push({section,text:foldText(textParts(doc).text)});section.unload();}catch{failed++;}progress(i+1,sections.length);}if(token!==generation||cancelled())return {results:[]};searchIndex={book:active,index,failed};}
-    const results=[],needle=foldText(query);let failed=searchIndex.failed;for(const entry of searchIndex.index){if(cancelled()||token!==generation)return {results:[]};if(!entry.text.includes(needle))continue;try{const doc=await entry.section.load(active.load.bind(active));const matches=findInSection(entry.section,doc,query,201-results.length);entry.section.unload();const sectionHref=(entry.section.href||'').split('#')[0];const chapter=searchChapters.find(ch=>{const href=ch.href.split('#')[0];return href===sectionHref||sectionHref.endsWith('/'+href)||href.endsWith('/'+sectionHref);});for(const match of matches)results.push({...match,label:chapter?.label.trim()||sectionHref||'EPUB'});if(results.length>200)break;}catch{failed++;}}
+    let entries=searchIndex.index;
+    if(searchIndex.pagefind){try{const found=await searchIndex.pagefind.search(query),rank=new Map();await Promise.all(found.results.map(async(result,i)=>{const data=await result.data(),match=data.url.match(/(?:^|\/)(\d{4})\.html(?:[?#]|$)/);if(match)rank.set(Number(match[1]),i);}));entries=[...entries].sort((a,b)=>(rank.get(a.ordinal)??Infinity)-(rank.get(b.ordinal)??Infinity));}catch{/* Exact matching still scans the prepared text map. */}}
+    const results=[],needle=foldText(query);let failed=searchIndex.failed;for(const entry of entries){if(cancelled()||token!==generation)return {results:[]};if(!entry.text.includes(needle))continue;try{const doc=await entry.section.load(active.load.bind(active));const matches=findInSection(entry.section,doc,query,201-results.length);entry.section.unload();const sectionHref=(entry.section.href||'').split('#')[0];const chapter=searchChapters.find(ch=>{const href=ch.href.split('#')[0];return href===sectionHref||sectionHref.endsWith('/'+href)||href.endsWith('/'+sectionHref);});for(const match of matches)results.push({...match,label:chapter?.label.trim()||sectionHref||'EPUB'});if(results.length>200)break;}catch{failed++;}}
     const limited=results.length>200;return {results:results.slice(0,200),limited,failed};
   };
   const fulltext=window.BABEL_FULLTEXT.create({mount:$('fulltext-mount'),search:(query,progress,cancelled)=>{
@@ -30,7 +48,7 @@
   fulltext.setEnabled(false);
   const navigate=async(method,target)=>{if(!rendition)return;try{await rendition[method](target);}catch{setStatus('暂时无法跳转，请尝试章节目录。');}};
   const open=async(source,key,title)=>{
-    const token=++generation;resizeReady=false;searchIndex=null;searchHighlight=null;searchChapters=[];fulltext.reset();fulltext.setEnabled(false);
+    const token=++generation;resizeReady=false;searchIndex=null;searchHighlight=null;searchChapters=[];currentBookKey=key;fulltext.reset();fulltext.setEnabled(false);
     controls.forEach(id=>$(id).disabled=true);storageKey='babel-position:'+key;
     if(book){try{book.destroy();}catch{}book=null;rendition=null;}
     $('viewer').replaceChildren();$('chapter-select').replaceChildren(new Option(t('章节目录'),''));
