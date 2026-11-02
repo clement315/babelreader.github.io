@@ -13,10 +13,21 @@
   return cache.get(url);
  };
  let fulltextIndex=null;
+ async function loadPreparedClassics(work,pages){
+  try{
+   const base=new URL(`search/classics/${encodeURIComponent(work)}/`,document.baseURI),response=await fetch(new URL('units.json',base));
+   if(!response.ok)return null;const data=await response.json();
+   if(data.work!==work||!Array.isArray(data.entries)||JSON.stringify(data.pages)!==JSON.stringify(pages))return null;
+   let pagefind=null;try{pagefind=await import(new URL('pagefind/pagefind.js',base).href);await pagefind.options({baseUrl:base.href,language:'el'});}catch{/* Retain literal text search. */}
+   return {work,entries:data.entries,failed:0,pagefind,pages};
+  }catch{return null;}
+ }
  const fulltext=window.BABEL_FULLTEXT.create({mount:$('fulltext-mount'),search:async(query,progress,cancelled)=>{
   if(!meta)throw Error('No work');const work=meta.id,pages=meta.pages.slice();
+  if(!fulltextIndex||fulltextIndex.work!==work){const prepared=await loadPreparedClassics(work,pages);if(cancelled()||meta?.id!==work)return {results:[]};fulltextIndex=prepared;}
   if(!fulltextIndex||fulltextIndex.work!==work){const entries=[];let failed=0;for(let i=0;i<pages.length;i++){if(cancelled()||meta?.id!==work)return {results:[]};try{const page=await get(`${work}/${pages[i]}.json`);for(const u of page.units)entries.push({page:pages[i],unitId:u.id,ref:u.ref,label:u.label,text:u.tokens.join('')});}catch{failed++;}progress(i+1,pages.length);}if(cancelled()||meta?.id!==work)return {results:[]};fulltextIndex={work,entries,failed};}
-  const results=[],needle=window.BABEL_FULLTEXT_CORE.fold(query);let limited=false;for(const entry of fulltextIndex.entries){if(!window.BABEL_FULLTEXT_CORE.fold(entry.text).includes(needle))continue;const hits=window.BABEL_FULLTEXT_CORE.occurrences(entry.text,query,201-results.length);for(const {start,end} of hits){if(results.length>=200){limited=true;break;}results.push({page:entry.page,unitId:entry.unitId,offset:start,length:end-start,ref:entry.ref,label:`${meta.title} · ${entry.label}`,snippet:entry.text.slice(Math.max(0,start-38),Math.min(entry.text.length,end+38)).replace(/\s+/g,' ')});}if(limited)break;}return {results,limited,failed:fulltextIndex.failed};
+  let entries=fulltextIndex.entries;if(fulltextIndex.pagefind){try{const found=await fulltextIndex.pagefind.search(query),rank=new Map();await Promise.all(found.results.map(async(result,i)=>{const data=await result.data(),match=data.url.match(/(?:^|\/)(\d{4})\.html(?:[?#]|$)/);if(match)rank.set(pages[Number(match[1])],i);}));entries=[...entries].sort((a,b)=>(rank.get(a.page)??Infinity)-(rank.get(b.page)??Infinity));}catch{/* The text map still supports exact searches. */}}
+  const results=[],needle=window.BABEL_FULLTEXT_CORE.fold(query);let limited=false;for(const entry of entries){if(cancelled()||meta?.id!==work)return {results:[]};if(!window.BABEL_FULLTEXT_CORE.fold(entry.text).includes(needle))continue;const hits=window.BABEL_FULLTEXT_CORE.occurrences(entry.text,query,201-results.length);for(const {start,end} of hits){if(results.length>=200){limited=true;break;}results.push({page:entry.page,unitId:entry.unitId,offset:start,length:end-start,ref:entry.ref,label:`${meta.title} · ${entry.label}`,snippet:entry.text.slice(Math.max(0,start-38),Math.min(entry.text.length,end+38)).replace(/\s+/g,' ')});}if(limited)break;}return {results,limited,failed:fulltextIndex.failed};
  },onJump:async item=>{if(!meta)return false;const ok=await navigate(meta.id,item.page,true);if(!ok)return false;const unit=document.getElementById('unit-'+item.unitId);if(unit){unit.classList.add('is-current');let offset=0,first=null;for(const child of unit.querySelector('.greek-line').childNodes){const next=offset+child.textContent.length;if(child.nodeType===1&&offset<item.offset+item.length&&next>item.offset){child.classList.add('fulltext-hit');first||=child;}offset=next;}(first||unit).scrollIntoView({block:'center'});}return true;}});
  fulltext.setEnabled(false);
  const editor=window.BABEL_CLASSICS_EDITOR.create({get,onRender:()=>renderUnits(),onStatus:()=>{}});

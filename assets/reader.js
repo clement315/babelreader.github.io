@@ -18,10 +18,11 @@
   let searchIndex=null,searchHighlight=null,searchChapters=[],currentBookKey='';
   const {parts:textParts,find:findInSection,fold:foldText}=window.BABEL_FULLTEXT_CORE;
   let searchQueue=Promise.resolve();
-  const preparedSearch={'eustathius-iliad':'search/eustathius-iliad/'};
+  let preparedSearchPromise=null;
   async function loadPreparedIndex(active,key){
-    const path=preparedSearch[key];if(!path)return null;
     try{
+      if(!preparedSearchPromise)preparedSearchPromise=fetch(new URL('search/epub-map.json',document.baseURI)).then(r=>{if(!r.ok)throw Error('index map');return r.json();}).catch(()=>{preparedSearchPromise=null;return {};});
+      const path=(await preparedSearchPromise)[key];if(!path)return null;
       const base=new URL(path,document.baseURI),response=await fetch(new URL('sections.json',base));if(!response.ok)return null;
       const data=await response.json(),sections=active.spine.spineItems;
       const compatible=Array.isArray(data.sections)&&data.sections.length===sections.length&&data.sections.every((entry,i)=>{

@@ -54,7 +54,7 @@ def main():
             Path(directory, f'{ordinal:04}.html').write_text(page, encoding='utf-8')
         subprocess.run([args.pagefind, '--site', directory, '--output-path', str(args.output.resolve() / 'pagefind')], check=True)
         (args.output / 'sections.json').write_text(json.dumps({'sha256': hashlib.sha256(args.epub.read_bytes()).hexdigest(), 'sections': sections}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-        print(f'Indexed {len(sections)} sections from {args.epub.name}')
+        print(f'Indexed {len(sections)} sections')
 
 
 if __name__ == '__main__':
