@@ -16,12 +16,12 @@
   };
   const flatten=(items,depth=0)=>items.flatMap(item=>[{...item,depth},...flatten(item.subitems||[],depth+1)]);
   let searchIndex=null,searchHighlight=null,searchChapters=[];
-  const {parts:textParts,find:findInSection}=window.BABEL_FULLTEXT_CORE;
+  const {parts:textParts,find:findInSection,fold:foldText}=window.BABEL_FULLTEXT_CORE;
   let searchQueue=Promise.resolve();
   const searchBook=async(query,progress,cancelled)=>{
     const active=book,token=generation;if(!active)throw Error('No book');const sections=active.spine.spineItems;
-    if(!searchIndex){const index=[];let failed=0;for(let i=0;i<sections.length;i++){if(cancelled()||token!==generation)return {results:[]};const section=sections[i];try{const doc=await section.load(active.load.bind(active));index.push({section,text:textParts(doc).text.toLowerCase()});section.unload();}catch{failed++;}progress(i+1,sections.length);}if(token!==generation||cancelled())return {results:[]};searchIndex={book:active,index,failed};}
-    const results=[],needle=query.toLowerCase();let failed=searchIndex.failed;for(const entry of searchIndex.index){if(cancelled()||token!==generation)return {results:[]};if(!entry.text.includes(needle))continue;try{const doc=await entry.section.load(active.load.bind(active));const matches=findInSection(entry.section,doc,query,201-results.length);entry.section.unload();const sectionHref=(entry.section.href||'').split('#')[0];const chapter=searchChapters.find(ch=>{const href=ch.href.split('#')[0];return href===sectionHref||sectionHref.endsWith('/'+href)||href.endsWith('/'+sectionHref);});for(const match of matches)results.push({...match,label:chapter?.label.trim()||sectionHref||'EPUB'});if(results.length>200)break;}catch{failed++;}}
+    if(!searchIndex){const index=[];let failed=0;for(let i=0;i<sections.length;i++){if(cancelled()||token!==generation)return {results:[]};const section=sections[i];try{const doc=await section.load(active.load.bind(active));index.push({section,text:foldText(textParts(doc).text)});section.unload();}catch{failed++;}progress(i+1,sections.length);}if(token!==generation||cancelled())return {results:[]};searchIndex={book:active,index,failed};}
+    const results=[],needle=foldText(query);let failed=searchIndex.failed;for(const entry of searchIndex.index){if(cancelled()||token!==generation)return {results:[]};if(!entry.text.includes(needle))continue;try{const doc=await entry.section.load(active.load.bind(active));const matches=findInSection(entry.section,doc,query,201-results.length);entry.section.unload();const sectionHref=(entry.section.href||'').split('#')[0];const chapter=searchChapters.find(ch=>{const href=ch.href.split('#')[0];return href===sectionHref||sectionHref.endsWith('/'+href)||href.endsWith('/'+sectionHref);});for(const match of matches)results.push({...match,label:chapter?.label.trim()||sectionHref||'EPUB'});if(results.length>200)break;}catch{failed++;}}
     const limited=results.length>200;return {results:results.slice(0,200),limited,failed};
   };
   const fulltext=window.BABEL_FULLTEXT.create({mount:$('fulltext-mount'),search:(query,progress,cancelled)=>{
