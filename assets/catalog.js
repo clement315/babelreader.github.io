@@ -59,6 +59,24 @@ window.BABEL_BOOKS = [
     "sourceTitle": "《伊利亚特》第一至第四卷注疏"
   },
   {
+    "id": "eustathius-iliad-ii",
+    "title": "《伊利亚特》第五至第十卷注疏",
+    "coverTitle": "伊利亚特注疏 II",
+    "originalTitle": "Commentarii ad Homeri Iliadem · Tomus II",
+    "author": "帖撒罗尼迦的欧斯塔修斯",
+    "category": "荷马学",
+    "language": "希腊文 · 中文",
+    "color": "ochre",
+    "mark": "Ι",
+    "description": "欧斯塔修斯对荷马《伊利亚特》第五至第十卷的注疏，希腊文与中文逐段对照，附修辞与语法术语表。",
+    "translator": "EPUB 未注明；待补充",
+    "edition": "第二册；据书内序言，希腊文取自 Humanistica Digitalia 所刊施塔尔鲍姆旧本一系。",
+    "updated": "2026-11-05",
+    "file": "books/Eustathii_commentarii_ad_Homeri_Iliadem_Tomus_II.epub",
+    "demo": false,
+    "sourceTitle": "《伊利亚特》第五至第十卷注疏"
+  },
+  {
     "id": "proclus-parmenides",
     "title": "柏拉图《巴门尼德篇》注疏",
     "coverTitle": "巴门尼德篇注疏",
