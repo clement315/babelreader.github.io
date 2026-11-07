@@ -1,8 +1,27 @@
-// 巴别塔图书馆：27 本实际 EPUB。UTF-8 编码。
+// 巴别塔图书馆：28 本实际 EPUB。UTF-8 编码。
 // 新增古希腊、拉丁格律学习笔记；塞尔维乌斯评注归入“古典修辞学”。
 // file 保留原文件名；请将这些 EPUB 上传到仓库的 books 文件夹。
 // coverTitle 为封面短标题；“馆主”署名可替换为你的笔名。
 window.BABEL_BOOKS = [
+  {
+    "id": "summa-theologiae",
+    "title": "神学大全",
+    "coverTitle": "神学大全",
+    "originalTitle": "Summa Theologiae",
+    "author": "圣多玛斯・阿奎那",
+    "category": "神学著作",
+    "language": "拉丁文 · 繁体中文",
+    "color": "green",
+    "mark": "ST",
+    "description": "五部611问及补编两篇附录的中拉双语平行阅读。逐段对照质疑、反之、正解与释疑；中文为原PDF校对初修。",
+    "translator": "中文扫描本；译者及版本信息待补充",
+    "edition": "拉丁文据 Corpus Thomisticum / Aquinas.cc；中文据原扫描本，已完成202笔原页核对修订，尚未全书逐字校毕。",
+    "updated": "2026-10-17",
+    "reader": "summa",
+    "readUrl": "summa.html?part=I&q=1&art=1",
+    "file": "",
+    "demo": false
+  },
   {
     "id": "jerome-genesis",
     "title": "创世纪希伯来问题",
@@ -38,6 +57,24 @@ window.BABEL_BOOKS = [
     "file": "books/Eustathii_commentarii_ad_Homeri_Iliadem_Tomus_I_1.epub",
     "demo": false,
     "sourceTitle": "《伊利亚特》第一至第四卷注疏"
+  },
+  {
+    "id": "eustathius-iliad-ii",
+    "title": "《伊利亚特》第五至第十卷注疏",
+    "coverTitle": "伊利亚特注疏 II",
+    "originalTitle": "Commentarii ad Homeri Iliadem · Tomus II",
+    "author": "帖撒罗尼迦的欧斯塔修斯",
+    "category": "荷马学",
+    "language": "希腊文 · 中文",
+    "color": "ochre",
+    "mark": "Ι",
+    "description": "欧斯塔修斯对荷马《伊利亚特》第五至第十卷的注疏，希腊文与中文逐段对照，附修辞与语法术语表。",
+    "translator": "EPUB 未注明；待补充",
+    "edition": "第二册；据书内序言，希腊文取自 Humanistica Digitalia 所刊施塔尔鲍姆旧本一系。",
+    "updated": "2026-11-05",
+    "file": "books/Eustathii_commentarii_ad_Homeri_Iliadem_Tomus_II.epub",
+    "demo": false,
+    "sourceTitle": "《伊利亚特》第五至第十卷注疏"
   },
   {
     "id": "proclus-parmenides",
@@ -491,8 +528,41 @@ window.BABEL_BOOKS = [
     "demo": false,
     "sourceTitle": "Römische Metrik 拉丁格律学",
     "type": "notes"
+  },
+  {
+    "id": "aeschylus-persae",
+    "title": "埃斯库罗斯《波斯人》考据",
+    "coverTitle": "波斯人考据",
+    "originalTitle": "Πέρσαι · Persae",
+    "author": "埃斯库罗斯（原剧）；馆主（笔记整理）",
+    "category": "古典作品",
+    "language": "希腊文 · 中文",
+    "color": "wine",
+    "mark": "Π",
+    "description": "埃斯库罗斯《波斯人》全剧 1–1077 行希腊文与中文逐行对照，逐段附注疏，兼采诸家之说与古典作品互文，书末附抒情部分格律表。",
+    "translator": "馆主（笔记整理）",
+    "edition": "希腊文以 A. F. Garvie, Aeschylus: Persae（Oxford 2009）为底本，参校 Scaife/Perseus 本；校勘异文参照 Teubner 本（M. L. West）。",
+    "updated": "2026-11-07",
+    "file": "books/Aeschylus_Persae 波斯人考据.epub",
+    "demo": false,
+    "sourceTitle": "埃斯库罗斯《波斯人》考据",
+    "type": "notes",
+    "sourceAuthor": "A. F. Garvie（所据评注）"
   }
 ];
 
 // 内置试读样本独立保留在阅览室。
 window.BABEL_READING_SAMPLE = {id:'reading-demo',title:'巴别塔阅读样本',file:'books/reading-demo.epub'};
+
+// 柏拉图原文逐词阅读器。
+window.BABEL_BOOKS.push(
+ {id:'plato-symposium-close',title:'会饮篇 · 逐词精读',coverTitle:'会饮篇',originalTitle:'Συμπόσιον · Symposium',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'ochre',mark:'Σ',description:'172a–223d。点击希腊词语查阅语法与中德释义，句读笔记附中德译文和结构分析。',edition:'希腊文据馆主整理的逐句材料；德文据Schleiermacher译本；词典Pape。',translator:'中文据馆主译注；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=symposium',demo:false},
+ {id:'plato-philebus-close',title:'斐勒布篇 · 逐词精读',coverTitle:'斐勒布篇',originalTitle:'Φίληβος · Philebus',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'green',mark:'Φ',description:'11a–67b。点击希腊词语查阅语法与中德释义，句读笔记附中德译文和结构分析。',edition:'Perseus希腊文；Schleiermacher德译；Pape词典。',translator:'中文据馆主译注；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=philebus',demo:false},
+ {id:'plato-sophist-close',title:'智者篇 · 逐词精读',coverTitle:'智者篇',originalTitle:'Σοφιστής · Sophist',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'wine',mark:'Σ',description:'216a–242b。点击希腊词语查阅语法与中德释义，句读笔记附中德译文和结构分析。',edition:'Perseus希腊文；Schleiermacher德译；Pape词典。',translator:'中文据馆主译注；德文F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=sophist',demo:false},
+ {id:'plato-parmenides-close',title:'巴门尼德篇 · 逐词精读',coverTitle:'巴门尼德篇',originalTitle:'Παρμενίδης · Parmenides',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'ochre',mark:'Π',description:'126a–166c。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文参考馆主精读材料并补充；德文 F. D. E. Schleiermacher',updated:'2026-10-17',reader:'classics',readUrl:'classics.html?work=parmenides',demo:false},
+ {id:'plato-alcibiades1-close',title:'阿尔西比亚德斯 1 · 逐词精读',coverTitle:'阿尔西比亚德斯 1',originalTitle:'Ἀλκιβιάδης αʹ · Alcibiades 1',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'green',mark:'Α',description:'103a–135e。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文参考馆主精读材料；德文 F. D. E. Schleiermacher',updated:'2026-10-18',reader:'classics',readUrl:'classics.html?work=alcibiades1',demo:false},
+ {id:'plato-apology-close',title:'申辩篇 · 逐词精读',coverTitle:'申辩篇',originalTitle:'Ἀπολογία Σωκράτους · Apology',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'wine',mark:'Α',description:'17a–42a。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文参考馆主精读材料；德文 F. D. E. Schleiermacher',updated:'2026-10-18',reader:'classics',readUrl:'classics.html?work=apology',demo:false},
+ {id:'plato-alcibiades2-close',title:'阿尔西比亚德斯 2 · 逐词精读',coverTitle:'阿尔西比亚德斯 2',originalTitle:'Ἀλκιβιάδης βʹ · Alcibiades 2',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'ochre',mark:'Α',description:'138a–151c。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文参考馆主精读材料；德文 F. D. E. Schleiermacher',updated:'2026-10-18',reader:'classics',readUrl:'classics.html?work=alcibiades2',demo:false},
+ {id:'plato-gorgias-close',title:'高尔吉亚篇 · 逐词精读',coverTitle:'高尔吉亚篇',originalTitle:'Γοργίας · Gorgias',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'wine',mark:'Γ',description:'447a–527e 全文。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文参考馆主精读材料并补充；德文 F. D. E. Schleiermacher',updated:'2026-10-18',reader:'classics',readUrl:'classics.html?work=gorgias',demo:false},
+ {id:'plato-statesman-close',title:'政治家篇 · 逐词精读',coverTitle:'政治家篇',originalTitle:'Πολιτικός · Statesman',author:'柏拉图',category:'古典作品精读',language:'古希腊文 · 中文 · 德文',color:'green',mark:'Π',description:'257a–311c 全文。希腊文逐词查询，中德译文与结构分析；可自行编辑笔记、保存和导出。',edition:'Perseus 希腊文；Schleiermacher 德译；Pape 词典。',translator:'中文依 Plato Dialogue Style 据希腊原文新译；德文 F. D. E. Schleiermacher',updated:'2026-10-25',reader:'classics',readUrl:'classics.html?work=statesman',demo:false}
+);
