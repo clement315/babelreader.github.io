@@ -543,7 +543,7 @@ window.BABEL_BOOKS = [
     "translator": "馆主（笔记整理）",
     "edition": "希腊文以 A. F. Garvie, Aeschylus: Persae（Oxford 2009）为底本，参校 Scaife/Perseus 本；校勘异文参照 Teubner 本（M. L. West）。",
     "updated": "2026-11-07",
-    "file": "books/Aeschylus_Persae 波斯人考据.epub",
+    "file": "Aeschylus_Persae.epub",
     "demo": false,
     "sourceTitle": "埃斯库罗斯《波斯人》考据",
     "type": "notes",
