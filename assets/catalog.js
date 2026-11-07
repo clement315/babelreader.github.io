@@ -1,4 +1,4 @@
-// 巴别塔图书馆：27 本实际 EPUB。UTF-8 编码。
+// 巴别塔图书馆：28 本实际 EPUB。UTF-8 编码。
 // 新增古希腊、拉丁格律学习笔记；塞尔维乌斯评注归入“古典修辞学”。
 // file 保留原文件名；请将这些 EPUB 上传到仓库的 books 文件夹。
 // coverTitle 为封面短标题；“馆主”署名可替换为你的笔名。
@@ -528,6 +528,26 @@ window.BABEL_BOOKS = [
     "demo": false,
     "sourceTitle": "Römische Metrik 拉丁格律学",
     "type": "notes"
+  },
+  {
+    "id": "aeschylus-persae",
+    "title": "埃斯库罗斯《波斯人》考据",
+    "coverTitle": "波斯人考据",
+    "originalTitle": "Πέρσαι · Persae",
+    "author": "埃斯库罗斯（原剧）；馆主（笔记整理）",
+    "category": "古代注疏",
+    "language": "希腊文 · 中文",
+    "color": "wine",
+    "mark": "Π",
+    "description": "埃斯库罗斯《波斯人》全剧 1–1077 行希腊文与中文逐行对照，逐段附注疏，兼采诸家之说与古典作品互文，书末附抒情部分格律表。",
+    "translator": "馆主（笔记整理）",
+    "edition": "希腊文以 A. F. Garvie, Aeschylus: Persae（Oxford 2009）为底本，参校 Scaife/Perseus 本；校勘异文参照 Teubner 本（M. L. West）。",
+    "updated": "2026-11-07",
+    "file": "Aeschylus_Persae.epub",
+    "demo": false,
+    "sourceTitle": "埃斯库罗斯《波斯人》考据",
+    "type": "notes",
+    "sourceAuthor": "A. F. Garvie（所据评注）"
   }
 ];
 

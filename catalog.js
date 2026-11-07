@@ -535,7 +535,7 @@ window.BABEL_BOOKS = [
     "coverTitle": "波斯人考据",
     "originalTitle": "Πέρσαι · Persae",
     "author": "埃斯库罗斯（原剧）；馆主（笔记整理）",
-    "category": "古典作品",
+    "category": "古代注疏",
     "language": "希腊文 · 中文",
     "color": "wine",
     "mark": "Π",
